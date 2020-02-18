@@ -1,1 +1,204 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:51:38Z</Created><LastSaved>2019-06-25T15:51:38Z</LastSaved><Version>15.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX>0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s57"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/></Style><Style ss:ID="s58"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s57" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15"><Column ss:StyleID="s57" ss:Width="112.5"/><Column ss:StyleID="s57" ss:Width="66.75"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="309.75"/><Column ss:StyleID="s57" ss:Width="147.75"/><Column ss:StyleID="s57" ss:Width="309"/><Column ss:StyleID="s57" ss:Width="120.75"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="306.75"/><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">PSIONIC_TECHGROUPS</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MIND_WIPE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Mind Wipe</Data></Cell><Cell><Data ss:Type="String">心灵抹杀</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">MIND_WIPE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This operation has a strength {CatatoniaChance} chance to apply [abilityred]Catatonic[/abilityred] to a non-Mindless target unit for {CatatoniaTurn} turns. If resisted, applies [abilityred]Broken Mind[/abilityred] instead.</Data></Cell><Cell><Data ss:Type="String">该行动有 {CatatoniaChance} 力量几率对目标非无意识单位施加[abilityred]紧张[/abilityred]，持续 {CatatoniaTurn} 回合。如果被抵抗，则施加[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MASS_INSANITY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Mass Insanity</Data></Cell><Cell><Data ss:Type="String">大规模精神错乱</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">MASS_INSANITY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This operation has a strength {insanitychance} chance to turn all non-Mindless enemy units [abilityred]Insane[/abilityred] for {InsaneTurn}. If resisted, applies [abilityred]Broken Mind[/abilityred] instead.</Data></Cell><Cell><Data ss:Type="String">该行动有 {insanitychance} 力量几率使敌方非无意识单位[abilityred]错乱[/abilityred]，持续 {InsaneTurn}。如果被抵抗，则施加[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PSIONIC_BOLSTERING</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Psionic Bolstering</Data></Cell><Cell><Data ss:Type="String">灵能增强</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">PSIONIC_BOLSTERING</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The target non-Mindless unit becomes [abilityblue]Immune to Psionic Status Effects[/abilityblue], [abilityblue]Stagger Immune[/abilityblue] and gains {bonushealth} maximum [hp/] for {Duration}[turn/].</Data></Cell><Cell><Data ss:Type="String">目标非无意识单位[abilityblue]免疫灵能状态效果[/abilityblue]并获得[abilityblue]动摇免疫[/abilityblue]，同时获得 {bonushealth} 最大[hp/]，持续 {Duration}[turn/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PSYCHIC_CONTROL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Psychic Control</Data></Cell><Cell><Data ss:Type="String">灵能掌控</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">PSYCHIC_CONTROL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This operation has a strength {MCchance} chance for target non-Mindless enemy unit to become [abilityred]Mind Controlled[/abilityred]. Affected units die at the end of combat. If resisted, apply [abilityred]Broken Mind[/abilityred] instead.</Data></Cell><Cell><Data ss:Type="String">该行动有 {MCchance} 力量几率对敌方非无意识单位进行[abilityred]心灵控制[/abilityred]。受到影响的单位将在战斗结束后死亡。如果被抵抗，则施加[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BOLSTERED_PROPERTY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Bolstered</Data></Cell><Cell><Data ss:Type="String">增强</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">BOLSTERED_PROPERTY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is Psionically bolstered, granting it immune to Psionic Status Effects and [abilityblue]Stagger Immune[/abilityblue] and also gains {Health} maximum [hp/]</Data></Cell><Cell><Data ss:Type="String">该单位受到灵能增强，免疫灵能状态效果并获得[abilityblue]动摇免疫[/abilityblue]。同时，还会获得 {Health} 最大[hp/]</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:StyleID="s58"><Cell><Data ss:Type="String">ACTIVATE_CLEANSING_PULSE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Cleansing Pulse</Data></Cell><Cell><Data ss:Type="String">净化脉冲</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="28.6875" ss:StyleID="s58"><Cell><Data ss:Type="String">ACTIVATE_CLEANSING_PULSE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Dispels all negative Status Effects on every unit within a {Radius} hex radius.</Data></Cell><Cell><Data ss:Type="String">驱散 {Radius} 个单元格范围内所有单位的所有负面状态效果。</Data></Cell><Cell ss:Index="8" ss:StyleID="Default"/></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Selected/><Panes><Pane><Number>3</Number><ActiveRow>7</ActiveRow><ActiveCol>2</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:51:38Z</Created><LastSaved
+    >2019-06-25T15:51:38Z</LastSaved><Version
+    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX
+    >0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s57"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
+      ss:ID="s58"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s57"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s57" ss:Width="112.5" /><Column
+        ss:StyleID="s57"
+        ss:Width="66.75"
+      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="309.75" /><Column
+        ss:StyleID="s57"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s57" ss:Width="309" /><Column
+        ss:StyleID="s57"
+        ss:Width="120.75"
+      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="306.75" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">PSIONIC_TECHGROUPS</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MIND_WIPE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mind Wipe</Data></Cell><Cell><Data
+            ss:Type="String"
+          >心灵抹杀</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">MIND_WIPE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This operation has a strength {CatatoniaChance} chance to apply [abilityred]Catatonic[/abilityred] to a non-Mindless target unit for {CatatoniaTurn} turns. If resisted, applies [abilityred]Broken Mind[/abilityred] instead.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该行动有 {CatatoniaChance} 力量几率对目标非无意识单位施加[abilityred]紧张[/abilityred]，持续 {CatatoniaTurn} 回合。如果被抵抗，则施加[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MASS_INSANITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mass Insanity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >大规模精神错乱</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">MASS_INSANITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This operation has a strength {insanitychance} chance to turn all non-Mindless enemy units [abilityred]Insane[/abilityred] for {InsaneTurn}. If resisted, applies [abilityred]Broken Mind[/abilityred] instead.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该行动有 {insanitychance} 力量几率使敌方非无意识单位[abilityred]错乱[/abilityred]，持续 {InsaneTurn}。如果被抵抗，则施加[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PSIONIC_BOLSTERING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psionic Bolstering</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵能增强</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">PSIONIC_BOLSTERING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The target non-Mindless unit becomes [abilityblue]Immune to Psionic Status Effects[/abilityblue], [abilityblue]Stagger Immune[/abilityblue] and gains {bonushealth} maximum [hp/] for {Duration}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标非无意识单位[abilityblue]免疫灵能状态效果[/abilityblue]并获得[abilityblue]动摇免疫[/abilityblue]，同时获得 {bonushealth} 最大[hp/]，持续 {Duration}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PSYCHIC_CONTROL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psychic Control</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵能掌控</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">PSYCHIC_CONTROL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This operation has a strength {MCchance} chance for target non-Mindless enemy unit to become [abilityred]Mind Controlled[/abilityred]. Affected units die at the end of combat. If resisted, apply [abilityred]Broken Mind[/abilityred] instead.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该行动有 {MCchance} 力量几率对敌方非无意识单位进行[abilityred]心灵控制[/abilityred]。受到影响的单位将在战斗结束后死亡。如果被抵抗，则施加[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BOLSTERED_PROPERTY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bolstered</Data></Cell><Cell><Data
+            ss:Type="String"
+          >增强</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">BOLSTERED_PROPERTY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is Psionically bolstered, granting it immune to Psionic Status Effects and [abilityblue]Stagger Immune[/abilityblue] and also gains {Health} maximum [hp/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位受到灵能增强，免疫灵能状态效果并获得[abilityblue]动摇免疫[/abilityblue]。同时，还会获得 {Health} 最大[hp/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:StyleID="s58"
+      ><Cell><Data ss:Type="String">ACTIVATE_CLEANSING_PULSE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cleansing Pulse</Data></Cell><Cell><Data
+            ss:Type="String"
+          >净化脉冲</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="28.6875"
+        ss:StyleID="s58"
+      ><Cell><Data ss:Type="String">ACTIVATE_CLEANSING_PULSE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dispels all negative Status Effects on every unit within a {Radius} hex radius.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >驱散 {Radius} 个单元格范围内所有单位的所有负面状态效果。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="Default"
+        /></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><Panes><Pane><Number
+          >3</Number><ActiveRow>7</ActiveRow><ActiveCol
+          >2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

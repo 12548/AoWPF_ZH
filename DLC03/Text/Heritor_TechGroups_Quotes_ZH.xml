@@ -1,1 +1,815 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Benny Arents</LastAuthor><LastSaved>2019-08-12T15:38:31Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62" ss:Name="Hyperlink"><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC" ss:Underline="Single"/></Style><Style ss:ID="s63"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/></Style><Style ss:ID="s64"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style><Style ss:ID="s65"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/></Style><Style ss:ID="s67" ss:Parent="s62"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/></Style><Style ss:ID="s68"><Alignment ss:Vertical="Top"/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/></Style><Style ss:ID="s69"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15"><Column ss:StyleID="s63" ss:Width="121.5"/><Column ss:StyleID="s63" ss:Width="198"/><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="252.75"/><Column ss:StyleID="s63" ss:Width="147.75"/><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="252.75"/><Column ss:StyleID="s63" ss:Width="120"/><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="252.75"/><Row ss:AutoFitHeight="0" ss:Height="120"><Cell ss:StyleID="s64"><Data ss:Type="String">HERITOR_TECHGROUPS</Data></Cell><Cell ss:StyleID="s64"/><Cell ss:StyleID="s64"/><Cell ss:StyleID="s64"/><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell><Cell ss:StyleID="s64"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s64"><Data ss:Type="String">SCENE ID</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">TEXT ID</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">OLD TEXT</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s64"><Data ss:Type="String">HERITOR</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Heritor</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">继承者</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is the name of the secret tech, please translate consistently.</Data></Cell><Cell ss:StyleID="s65"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell ss:StyleID="s64"><Data ss:Type="String">HERITOR</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s67" ss:HRef="mailto:%7BXML_HERITOR_TECHGROUPS@HERITOR@DESC%7D[br/][br/]%7BXML_HERITOR_TECHGROUPS@HERITOR@FEATURES%7D"><Data ss:Type="String">{XML_HERITOR_TECHGROUPS@HERITOR@DESC}[br/][br/]{XML_HERITOR_TECHGROUPS@HERITOR@FEATURES}</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">{XML_HERITOR_TECHGROUPS@HERITOR@DESC}[br/][br/]{XML_HERITOR_TECHGROUPS@HERITOR@FEATURES}</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">No need to translate. This inserts the XML_HERITOR_TECHGROUPS@HERITOR@DESC and XML_HERITOR_TECHGROUPS@HERITOR@FEATURES texts with some white space.</Data></Cell><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0" ss:Height="95.25"><Cell ss:StyleID="s64"><Data ss:Type="String">HERITOR</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">DESC</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">The Heritor are scions of a theocratic dynasty known as the Es’Teq. Their ancient technology allows them to harness energy and prolong their lives. They seek to reincarnate billions of followers that lay entombed across the galaxy and reestablish their divine rule. </Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">继承者是来自一个被称为埃斯特克的神权王朝的子嗣，他们古老的科技能够利用能量并延续寿命。他们想要让埋葬在星系各处的追随者转世再生，并重建他们神圣的统治。 </Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">Desciption of the secret tech, as shown in character customization and the imperial archive.</Data></Cell><Cell ss:StyleID="s65"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="110.25"><Cell ss:StyleID="s64"><Data ss:Type="String">HERITOR</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">FEATURES</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">[bulletlist][bullet]Drain the Essence of enemies and use it to fuel powerful abilities.[/bullet][br/][bullet]Wield strong Entropy weapons[/bullet][br/][bullet]Harness the power of [hyperlink,000003E90000005A]Essence[/hyperlink][/bullet][br/][bullet]Reincarnate ancient Es'Teq minds.[/bullet][br/][bullet]Strong attacks against machines.[/bullet][/bulletlist]</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">[bulletlist][bullet]吸取敌人的精华，并用它来为强大的技能提供能量。[/bullet][br/][bullet]使用强大的混沌武器[/bullet][br/][bullet]利用[hyperlink,000003E90000005A]精华[/hyperlink]的力量[/bullet][br/][bullet]复生古老的埃斯特克灵魂。[/bullet][br/][bullet]对抗机械拥有强大的攻击力。[/bullet][/bulletlist]</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">Bulletlist of the features of the secret tech.</Data></Cell><Cell ss:StyleID="s69"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_1_TACTICAL_NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Gift of the Es'Teq</Data></Cell><Cell><Data ss:Type="String">埃斯特克的馈赠</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="135"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_1_TACTICAL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“Even the most rudimentary Es’Teq mechanizes a lover’s touch. One may Drain Essence like a smitten lover’s strength is sapped by moments of flirtation. Bestow Essence to empower test subjects; they become like lovers who ignore their needs, filled with reckless passion. This Heritor discovery meddles with the driving incentives of life itself.”[br/]– Dr. Richter Hart, Chief Medical Anthropologist</Data></Cell><Cell><Data ss:Type="String">“即使是最基本的埃斯特克也能使爱人的抚摸变成某种机械的动作，他们会吸取精华，就像是被爱情冲昏了头脑的恋人在调情时消耗掉精力一般。如果给测试对象赋予精华，他们就会像忽视自己需求的恋人一般，充满了不计后果的激情。这一项关于继承者的发现干预了生命本身的驱动力。”[br/]- 里克特·哈特博士，首席医学人类学家</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_2_FORCES_NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Siphoner Awakening</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">生命汲取者觉醒</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_2_FORCES_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“We follow high orders—those of life itself. We are not cruel. Our mission is redemptive. We siphon life from those that squander it, accelerating only what occurs naturally in their persistent heresy. Their essence fuels a divine mission, enriching those who cherish life. Bow before my staff. If you are worthy, you shall receive vitality. If not, your vitality will be liberated to serve the highest purpose.”[br/]– Congregant Mahrood Madur, A Siphoner’s Head</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“我们遵循的是高级的命令，即生命本身的命令。我们并不残忍。我们的使命是救赎。我们从浪费生命之人那里吸取生命，只不过是加速了他们固执的思想中必定会发生之事而已。他们的精华将为神圣的使命提供能量，让那些珍惜生命的人变得更加充实。在我的权杖面前跪拜吧，如果你真的有价值，那么你将被赐予生命之力。否则，你的生命将被释放出来为最崇高的目标服务。”[br/]- 召集者马鲁德·马杜尔，生命汲取者首领</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_2_STRATEGIC_NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Holy Presence</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">神圣气派</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="120"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_2_STRATEGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“Feel the life around you. All of it is holy. Feel it struggling to cling to the fragile constructs of flesh. Full and bright in one breath, then gone with the next. Where is it? Gone. It is no more without Es’Teq. No eternal spirit survives. Until now, death was the end. We preserve it. Let us fill you with vitality from lost generations. This is the Blessing of the Es’Teq.”[br/]– Sheera Na Teev, High Lady of Life</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“感受你周围的生命，所有的一切都是神圣的，感受它挣扎着想要紧握住那脆弱的血肉之躯。上一秒还光彩而明亮，下一秒却没有了踪影。它去哪儿了？消失了。没有了埃斯特克，它再也不复存在了。没有能够永恒存活的灵魂。直到现在，死亡就是终结。我们将生命保存了起来。让我们为你填满已经逝去的世代生命之力，这就是埃斯特克的祝福。”[br/]- 希拉·娜·蒂夫，至高生命女士</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_3_TACTICAL_NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Zealous Conviction</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">狂热信念</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="180"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_3_TACTICAL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“The first Heritors freely gave their Essence as a show of goodwill. They cured incurable troubles in a renewable way, sacrificing their own Essence to perform miracles. Sadly, faith is not miracles and goodwill alone. The problem with an Age of Wonders is that, while it endures, few cherish it. Some were dissatisfied to live in a simple, self-sacrificing way. They needed an enemy. They codified heresies and hijacked the Heritor’s way. The High Lords weren’t the originators of Es’Teq—they were its over-zealous thieves.”[br/]– Mah Reg’Nib, Fugitive Heretic</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“最初的继承者慷慨地给予他们的精华来表示自己的善意，他们用再生的方式治愈了无法治愈的疾病，牺牲了他们自己的精华创造出了奇迹。遗憾的是，信仰不仅仅是奇迹和善意。奇迹时代的问题在于它能够延续很久，因此很少有人珍惜。有些人不满足于简单而自我牺牲的生活方式，他们需要一个敌人。于是，他们编纂了异端邪说，劫持了继承者的方式。至尊领主并不是埃斯特克的创始者，而是一群过度狂热的小偷。”[br/]- 玛·瑞格尼布，逃亡的异教徒</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_3_STRATEGIC_NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Wrath of the Ancients</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">远古者之怒</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="120"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_3_STRATEGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“Faith finds a way. Some join us because they recognize the virtue and feel our vitality. Others join for the promises of long life and a better path. Still, some faithful join us when the Ancients unleash their wrath upon the heretics and curse the world for wickedness. They come. It matters not how.”[br/]– Ma Tar Xan, Heritor High Priestess of Harvest</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“信仰总是能找到出路。有些人加入我们，是因为他们认可我们的美德，感受到了我们的活力；另一些人则是为了更长的寿命和更光明的道路。当远古者向异教徒发泄愤怒并诅咒世界的邪恶时，他们中的一些人也选择加入了我们。无论是通过何种方式，来了才是最重要的。”[br/]- 玛·塔尔·赞，继承者高阶收获女祭司</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_3_DOCTRINE_NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Ancestral Creed</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">先祖信条</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="135"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_3_DOCTRINE_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“Weep not for those departed. The lives that gave themselves to the Ark are not lost. I can feel a thousand lost memories as clearly as you remember your mother’s face. They gave themselves to keep their dreams alive in me. That is their immortality and ancient legacy. There is no machine that can claim that. They call it a technology to dismiss what the magnitude of this Es’Teq miracle.”[br/]– Set Koi Xant, High Lord Keeper of the Ark</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“不要为逝者哭泣，把生命献给方舟之人并没有死去。我能够清楚地感受到一千个逝去之人的记忆，就像你永远也不会忘记母亲的面容一样。他们献出生命是为了将他们的梦境保持在我的体内，这是他们的永生，也是古老的传承，世界上没有任何机器能做到这一点。他们只会用一种叫做科技的东西来忽略埃斯特克伟大的奇迹。”[br/]- 赛特·柯伊·赞特，方舟至尊领主守护者</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_4_TACTICAL_NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Transmigration Rituals</Data></Cell><Cell><Data ss:Type="String">轮回仪式</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_4_TACTICAL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“I bestow upon thee the Es’Teq Priesthood with all its rights and privileges adherent to the Heritor faith. I anoint you a champion of life with strict charge to revitalize the virtuous among us. Take essence only from the most reckless and vile, holding fast to the hope that lesser infidels will repent and return to us. As you cherish this vibrant gift, know that even in death you will rise reincarnated with life renewed.”[br/]– Sacer Dotan, Ordaining High Lord</Data></Cell><Cell><Data ss:Type="String">吾在此赐予你埃斯特克祭司的职责，并赋予你追随继承者信仰的一切权利和特权。吾指派你为生命的捍卫者，严格履行你的职责，赋予吾辈中的高尚之人以新的生命力，只从鲁莽和卑鄙之人身上取走精华，坚信就算是低等的异教徒有一天也会忏悔并回归我们。珍惜这充满活力的馈赠，即使面对死亡，你也将转世重生。”[br/]- 萨塞尔·多坦，任命至尊领主之时</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_5_FORCES_NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Quintessence Ark Awakening</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">精髓方舟觉醒</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="165"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_5_FORCES_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“Life is a vortex trapped fleetingly in flesh for a single lifetime. Without the sacred Es’Teq shard, we are lost in chaos. The Quintessence Ark binds the swirling eddies of life to a sanctuary of light. As one of the Heritor heads, I guard access to the well of vitality, dispensing it to those with Es’Teq. Feel the sweet Communion preserved within this itinerant temple. This is the center of Heritor devotion. Life held in perpetuity, nourishing the devout.”[br/]–Vessel Nephri Telis, Quintessence Gatekeeper</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“生命是一个只会在肉体中短暂受困一生的漩涡。如果没有神圣的埃斯特克碎片，我们将陷入混沌。精髓方舟将生命的漩涡与光明的圣所联结在一起。身为继承者的首领之一，我守护着通往活力之井的入口，并将它分发给埃斯特克。在这流动的神庙里感受甜美的通灵，这就是继承者奉献的中心。生命永存，滋养着虔诚的信徒。”[br/]- 维塞尔·内弗里·泰利斯，精髓守门人</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_5_STRATEGIC_NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Prelude to Rapture</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">狂欢序曲</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_5_STRATEGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“The time of pleading will shortly come to an end. The choice to join our cause and live in immortal vitality shall be taken away. It will be a day both great and terrible. Great to the loyal as they’re filled with essence, and terrible to the iniquitous who neglected their lives, preferring corruption. Misspent minds will be reborn in the shadow of our sacred spires. Raise them, then, across the land. Bring about the Mind Rapture.”[br/]– Alsanu Amu Tet, Oracle of Essence</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“恳求之时很快将会结束。加入我们的事业并生活在永恒的活力之中，这种选择将被剥夺。这将是一个伟大和可怕的日子。对忠诚之人来说是伟大的，因为他们充满了精华，但对邪恶之人来说却是可怕的，因为他们不珍惜了自己的生命，自甘堕落。在我们神圣尖塔的阴影下，错乱的思想将会重生。养育他们，然后跨过整片土地。带来心灵的狂欢。”[br/]- 阿尔萨努·阿穆·泰特，精华神谕者</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_6_TACTICAL_NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Dissemination Rituals</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">传播仪式</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="120"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_6_TACTICAL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“Be wary of deceivers who wear the skins of faithful followers. The converted are not tormented by the Feast. They embrace it. They do not question the gift of Essence made theirs by Es’Teq. They nurse from the conduit of life hungrily, feeding deeply upon heretics. Doubts sour the dissemination, and the faithful will not hesitate to drain them as well.”[br/]– Vallyx Bont, Heritor Inquisitor of Purity</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“警惕那些披着忠实信徒外皮的欺诈者。真正的皈依者不会因盛宴而遭受折磨，而是会接受它。他们不会质疑埃斯特克赋予他们的精华馈赠。他们饥饿地从生命的管道中吸取营养，以异教徒为食。疑虑加剧了传播，而信仰之人将会毫不犹豫地将它们也吸食殆尽。”[br/]- 瓦莱斯·邦特，继承者纯净审判官</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_7_TACTICAL_NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Sacred Providence</Data></Cell><Cell><Data ss:Type="String">神圣天意</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="165"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_7_TACTICAL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“Many Syndicate houses have, for countless generations, hidden our ties to the Heritors and their Es’Teq, but it was our progenitors that were the first High Lords, converting thousands to faithful service, hunting heretics and revitalizing the communities of congregants. Now that the Heritors return, we are ready to enhance the technology and use it to achieve our eternal agenda. Only our Houses stand ready to subjugate life and prove we are worthy of Immortality.”[br/]– Lady Em of the Sacred Providence</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“无数代人以来，许多辛迪加家族都隐藏着我们与继承者和埃斯特克之间的联系。但我们的祖先，也就是最初的至尊领主，将数以千计的人转变为了忠实的信徒，他们猎杀异端分子，恢复了教区的活力。现在，继承者们回来了，我们已准备好强化这个技术并利用它来实现我们永恒的目标。只有我们的家族已经做好了准备，征服生命并证明我们值得永生。”[br/]- 神圣天意艾姆女士</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_7_DOCTRINE_NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Sacred Resurgence</Data></Cell><Cell><Data ss:Type="String">神圣复苏</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_7_DOCTRINE_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“Their intolerant weapons may tear our flesh apart, but our Essence will remain to fuel the scions of prophecy. The wicked understand them not, but we will not be forgotten forever. We will hide until one is proven worthy to awaken our Holy City. Someday, we will walk with the Divine Legion. Though deep our physical forms that dwell in the depths, in a coming day, we will be reunited with our beloved kindred.”[br/]–Cho Zen Huan, Seeress of the Secret City</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“他们强大的武器可能会撕裂我们的肉体，但我们的精华将继续为预言的后裔提供能量。邪恶之人无法理解，但我们永远也不会被忘记。我们将隐藏起来，直到某一名配得上的高尚之人唤醒我们的圣城。有一天，我们将与神圣军团同行。虽然我们的肉体残留在深渊之中，但未来我们将与至亲团聚。”[br/]- 卓禅桓，神秘之城女预言家</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_8_FORCES_NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">High Lord Awakening</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">至尊领主觉醒</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="135"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_8_FORCES_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“Our most sacred and precious beings remain concealed behind a maze of sacrifices. These slumbering gods are too pure to tread our fallen worlds. They will put down all dead machines, wielding lifetimes of Judgment. They will come in the final days, full of wrath and truth to revive the dead and recompense the faithful. When the High Lords are awakened, the end of our long wait is nigh.”[br/]– Alsanu Amu Tet, Oracle of Essence</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“我们中最神圣和珍贵的生命依然隐藏在某个献祭的迷宫之中。这些沉睡的神明极其纯净，无法在我们堕落的世界中前行。他们将消灭所有死去的机器，行使一生的审判。他们将在末日降临，充满忿怒和真理，复活逝者并回报信徒。当至尊领主被唤醒时，我们漫长的等待将会结束。”[br/]- 阿尔萨努·阿穆·泰特，精华神谕者</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_8_STRATEGIC_NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Forced Conversion</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">强制转换</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_8_STRATEGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“Who are we to question what triggers Es’Teq and activates the great powers it unleashes? Religion is technology. Cults are scientific social experiments. There will never be an age without religion, unless the human mind is denied its sense of wonder. So why not embrace the weird and unknowable? Who knows? Maybe the gods of the ancients were just technologically advanced travelers pointing us all to the stars.”[br/]– Jax Armstrong, Union sports hero and Heritor convert</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“我们凭什么质疑引发埃斯特克的根源？凭什么激活它所释放的强大力量？宗教是科技，而教派则是科学的社会实验。除非人类的心灵否认奇迹之感，否则永远也不会出现没有宗教的时代。因此，为什么不接受那些奇怪而未知的事物呢？谁知道呢？也许远古的神明只是一群技术先进的旅者，为我们所有人指引前往群星的道路。”[br/]- 贾克斯·阿姆斯特朗，联盟体育英雄和继承皈依者</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_9_TACTICAL_NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Venerated Incarnation</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">崇敬化身</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_9_TACTICAL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“Oh, ye foolish and blind guides! Hold fast to your faith even as you retreat to darkness. This is but a temporary setback. Your enemies shall be smited by my vengeance. Though sealed behind this vault and buried deep in time, I will rise again. Even now, I possess your feeble minds. Give me flesh. I will fill it with Essence. I will fight your cause until we are freed from this prison mount and given free reign across the galaxy again.”[br/]– Annu Ix Ishta, High Lady, Goddess in Exile</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“噢，你们这些盲目无知的向导！即使退入黑暗，也要坚守你们的信仰。这只不过是短暂的挫折而已，你们的仇敌将遭受我复仇的怒火。虽然我被封印在这宝库之中，埋藏在时间的深处，但我将再次卷土重来。即便是现在，我也占有你们薄弱的心灵。给我一具躯体，我将用精华填满它。我将为你们的事业而战，直到我们从这座艰苦的牢笼中被解放出来，再次统治整个星系。”[br/]- 安奴·伊克斯·伊什塔，至尊夫人，流亡女神</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_10_STRATEGIC_NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Final Revelation</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">终极启示</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_10_STRATEGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“All will come and join the Mind Rapture. Lift your voices, one and all. Sing our chorus of exultation. Give your will and faithful soul. Unleash your full potential. Feel the embrace of the Living Lord’s returning. Live a thousand past lives. Essence is a wellspring. The time of judgment is over. You lived to this sacred advent and are thus proven worthy here. Life’s struggle is no more. Come join our happy throng.”[br/]–Amun Bis Xhet, Heritor High Singer of the Rapture</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">“所有人都将前来加入心灵狂欢。所有的人呐，放声高歌吧。吟唱我们欢乐的合唱。献出你的意志和忠诚的灵魂。释放你们全部的潜能。感受永生领主的归来。过上千年的生活。精华就是泉源。审判之时已然结束。你们活到了这次神圣的降临，证明你们值得存在于此。生活的挣扎已不复存在。来吧，加入我们欢乐的人群。”[br/]- 阿蒙·比斯·塞特，继承者至尊狂欢歌手</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s64"/></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Zoom>130</Zoom><Selected/><Panes><Pane><Number>3</Number><ActiveRow>4</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Benny Arents</LastAuthor><LastSaved
+    >2019-08-12T15:38:31Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+      ss:Name="Hyperlink"
+    ><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#0066CC"
+        ss:Underline="Single"
+      /></Style><Style ss:ID="s63"><Alignment
+        ss:Vertical="Bottom"
+        ss:WrapText="1"
+      /></Style><Style ss:ID="s64"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /></Style><Style ss:ID="s65"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+      /></Style><Style ss:ID="s67" ss:Parent="s62"><Alignment
+        ss:Vertical="Bottom"
+        ss:WrapText="1"
+      /></Style><Style ss:ID="s68"><Alignment ss:Vertical="Top" /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+      /></Style><Style ss:ID="s69"><Alignment
+        ss:Vertical="Bottom"
+        ss:WrapText="1"
+      /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s63"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s63" ss:Width="121.5" /><Column
+        ss:StyleID="s63"
+        ss:Width="198"
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="252.75" /><Column
+        ss:StyleID="s63"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="252.75" /><Column
+        ss:StyleID="s63"
+        ss:Width="120"
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="252.75" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >HERITOR_TECHGROUPS</Data></Cell><Cell ss:StyleID="s64" /><Cell
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /><Cell ss:Index="7" ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell><Cell
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">SCENE ID</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">TEXT ID</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">OLD TEXT</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">HERITOR</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Heritor</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >继承者</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data
+            ss:Type="String"
+          >This is the name of the secret tech, please translate consistently.</Data></Cell><Cell
+          ss:StyleID="s65"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">HERITOR</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s67"
+          ss:HRef="mailto:%7BXML_HERITOR_TECHGROUPS@HERITOR@DESC%7D[br/][br/]%7BXML_HERITOR_TECHGROUPS@HERITOR@FEATURES%7D"
+        ><Data
+            ss:Type="String"
+          >{XML_HERITOR_TECHGROUPS@HERITOR@DESC}[br/][br/]{XML_HERITOR_TECHGROUPS@HERITOR@FEATURES}</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >{XML_HERITOR_TECHGROUPS@HERITOR@DESC}[br/][br/]{XML_HERITOR_TECHGROUPS@HERITOR@FEATURES}</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >No need to translate. This inserts the XML_HERITOR_TECHGROUPS@HERITOR@DESC and XML_HERITOR_TECHGROUPS@HERITOR@FEATURES texts with some white space.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="95.25"><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">HERITOR</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESC</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >The Heritor are scions of a theocratic dynasty known as the Es’Teq. Their ancient technology allows them to harness energy and prolong their lives. They seek to reincarnate billions of followers that lay entombed across the galaxy and reestablish their divine rule. </Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >继承者是来自一个被称为埃斯特克的神权王朝的子嗣，他们古老的科技能够利用能量并延续寿命。他们想要让埋葬在星系各处的追随者转世再生，并重建他们神圣的统治。 </Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Desciption of the secret tech, as shown in character customization and the imperial archive.</Data></Cell><Cell
+          ss:StyleID="s65"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="110.25"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">HERITOR</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">FEATURES</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >[bulletlist][bullet]Drain the Essence of enemies and use it to fuel powerful abilities.[/bullet][br/][bullet]Wield strong Entropy weapons[/bullet][br/][bullet]Harness the power of [hyperlink,000003E90000005A]Essence[/hyperlink][/bullet][br/][bullet]Reincarnate ancient Es'Teq minds.[/bullet][br/][bullet]Strong attacks against machines.[/bullet][/bulletlist]</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >[bulletlist][bullet]吸取敌人的精华，并用它来为强大的技能提供能量。[/bullet][br/][bullet]使用强大的混沌武器[/bullet][br/][bullet]利用[hyperlink,000003E90000005A]精华[/hyperlink]的力量[/bullet][br/][bullet]复生古老的埃斯特克灵魂。[/bullet][br/][bullet]对抗机械拥有强大的攻击力。[/bullet][/bulletlist]</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Bulletlist of the features of the secret tech.</Data></Cell><Cell
+          ss:StyleID="s69"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >SKILLGROUP_1_TACTICAL_NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Gift of the Es'Teq</Data></Cell><Cell><Data
+            ss:Type="String"
+          >埃斯特克的馈赠</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data
+            ss:Type="String"
+          >This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="135"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >SKILLGROUP_1_TACTICAL_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“Even the most rudimentary Es’Teq mechanizes a lover’s touch. One may Drain Essence like a smitten lover’s strength is sapped by moments of flirtation. Bestow Essence to empower test subjects; they become like lovers who ignore their needs, filled with reckless passion. This Heritor discovery meddles with the driving incentives of life itself.”[br/]– Dr. Richter Hart, Chief Medical Anthropologist</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“即使是最基本的埃斯特克也能使爱人的抚摸变成某种机械的动作，他们会吸取精华，就像是被爱情冲昏了头脑的恋人在调情时消耗掉精力一般。如果给测试对象赋予精华，他们就会像忽视自己需求的恋人一般，充满了不计后果的激情。这一项关于继承者的发现干预了生命本身的驱动力。”[br/]- 里克特·哈特博士，首席医学人类学家</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Male</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">SKILLGROUP_2_FORCES_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Siphoner Awakening</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">生命汲取者觉醒</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >SKILLGROUP_2_FORCES_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“We follow high orders—those of life itself. We are not cruel. Our mission is redemptive. We siphon life from those that squander it, accelerating only what occurs naturally in their persistent heresy. Their essence fuels a divine mission, enriching those who cherish life. Bow before my staff. If you are worthy, you shall receive vitality. If not, your vitality will be liberated to serve the highest purpose.”[br/]– Congregant Mahrood Madur, A Siphoner’s Head</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“我们遵循的是高级的命令，即生命本身的命令。我们并不残忍。我们的使命是救赎。我们从浪费生命之人那里吸取生命，只不过是加速了他们固执的思想中必定会发生之事而已。他们的精华将为神圣的使命提供能量，让那些珍惜生命的人变得更加充实。在我的权杖面前跪拜吧，如果你真的有价值，那么你将被赐予生命之力。否则，你的生命将被释放出来为最崇高的目标服务。”[br/]- 召集者马鲁德·马杜尔，生命汲取者首领</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Male</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">SKILLGROUP_2_STRATEGIC_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Holy Presence</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">神圣气派</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >SKILLGROUP_2_STRATEGIC_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“Feel the life around you. All of it is holy. Feel it struggling to cling to the fragile constructs of flesh. Full and bright in one breath, then gone with the next. Where is it? Gone. It is no more without Es’Teq. No eternal spirit survives. Until now, death was the end. We preserve it. Let us fill you with vitality from lost generations. This is the Blessing of the Es’Teq.”[br/]– Sheera Na Teev, High Lady of Life</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“感受你周围的生命，所有的一切都是神圣的，感受它挣扎着想要紧握住那脆弱的血肉之躯。上一秒还光彩而明亮，下一秒却没有了踪影。它去哪儿了？消失了。没有了埃斯特克，它再也不复存在了。没有能够永恒存活的灵魂。直到现在，死亡就是终结。我们将生命保存了起来。让我们为你填满已经逝去的世代生命之力，这就是埃斯特克的祝福。”[br/]- 希拉·娜·蒂夫，至高生命女士</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Female</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">SKILLGROUP_3_TACTICAL_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Zealous Conviction</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">狂热信念</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="180"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >SKILLGROUP_3_TACTICAL_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“The first Heritors freely gave their Essence as a show of goodwill. They cured incurable troubles in a renewable way, sacrificing their own Essence to perform miracles. Sadly, faith is not miracles and goodwill alone. The problem with an Age of Wonders is that, while it endures, few cherish it. Some were dissatisfied to live in a simple, self-sacrificing way. They needed an enemy. They codified heresies and hijacked the Heritor’s way. The High Lords weren’t the originators of Es’Teq—they were its over-zealous thieves.”[br/]– Mah Reg’Nib, Fugitive Heretic</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“最初的继承者慷慨地给予他们的精华来表示自己的善意，他们用再生的方式治愈了无法治愈的疾病，牺牲了他们自己的精华创造出了奇迹。遗憾的是，信仰不仅仅是奇迹和善意。奇迹时代的问题在于它能够延续很久，因此很少有人珍惜。有些人不满足于简单而自我牺牲的生活方式，他们需要一个敌人。于是，他们编纂了异端邪说，劫持了继承者的方式。至尊领主并不是埃斯特克的创始者，而是一群过度狂热的小偷。”[br/]- 玛·瑞格尼布，逃亡的异教徒</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Male</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">SKILLGROUP_3_STRATEGIC_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Wrath of the Ancients</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">远古者之怒</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >SKILLGROUP_3_STRATEGIC_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“Faith finds a way. Some join us because they recognize the virtue and feel our vitality. Others join for the promises of long life and a better path. Still, some faithful join us when the Ancients unleash their wrath upon the heretics and curse the world for wickedness. They come. It matters not how.”[br/]– Ma Tar Xan, Heritor High Priestess of Harvest</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“信仰总是能找到出路。有些人加入我们，是因为他们认可我们的美德，感受到了我们的活力；另一些人则是为了更长的寿命和更光明的道路。当远古者向异教徒发泄愤怒并诅咒世界的邪恶时，他们中的一些人也选择加入了我们。无论是通过何种方式，来了才是最重要的。”[br/]- 玛·塔尔·赞，继承者高阶收获女祭司</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Female</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">SKILLGROUP_3_DOCTRINE_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Ancestral Creed</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">先祖信条</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="135"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >SKILLGROUP_3_DOCTRINE_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“Weep not for those departed. The lives that gave themselves to the Ark are not lost. I can feel a thousand lost memories as clearly as you remember your mother’s face. They gave themselves to keep their dreams alive in me. That is their immortality and ancient legacy. There is no machine that can claim that. They call it a technology to dismiss what the magnitude of this Es’Teq miracle.”[br/]– Set Koi Xant, High Lord Keeper of the Ark</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“不要为逝者哭泣，把生命献给方舟之人并没有死去。我能够清楚地感受到一千个逝去之人的记忆，就像你永远也不会忘记母亲的面容一样。他们献出生命是为了将他们的梦境保持在我的体内，这是他们的永生，也是古老的传承，世界上没有任何机器能做到这一点。他们只会用一种叫做科技的东西来忽略埃斯特克伟大的奇迹。”[br/]- 赛特·柯伊·赞特，方舟至尊领主守护者</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Male</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">SKILLGROUP_4_TACTICAL_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Transmigration Rituals</Data></Cell><Cell><Data
+            ss:Type="String"
+          >轮回仪式</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data
+            ss:Type="String"
+          >This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >SKILLGROUP_4_TACTICAL_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“I bestow upon thee the Es’Teq Priesthood with all its rights and privileges adherent to the Heritor faith. I anoint you a champion of life with strict charge to revitalize the virtuous among us. Take essence only from the most reckless and vile, holding fast to the hope that lesser infidels will repent and return to us. As you cherish this vibrant gift, know that even in death you will rise reincarnated with life renewed.”[br/]– Sacer Dotan, Ordaining High Lord</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >吾在此赐予你埃斯特克祭司的职责，并赋予你追随继承者信仰的一切权利和特权。吾指派你为生命的捍卫者，严格履行你的职责，赋予吾辈中的高尚之人以新的生命力，只从鲁莽和卑鄙之人身上取走精华，坚信就算是低等的异教徒有一天也会忏悔并回归我们。珍惜这充满活力的馈赠，即使面对死亡，你也将转世重生。”[br/]- 萨塞尔·多坦，任命至尊领主之时</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Male</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">SKILLGROUP_5_FORCES_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Quintessence Ark Awakening</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">精髓方舟觉醒</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="165"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >SKILLGROUP_5_FORCES_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“Life is a vortex trapped fleetingly in flesh for a single lifetime. Without the sacred Es’Teq shard, we are lost in chaos. The Quintessence Ark binds the swirling eddies of life to a sanctuary of light. As one of the Heritor heads, I guard access to the well of vitality, dispensing it to those with Es’Teq. Feel the sweet Communion preserved within this itinerant temple. This is the center of Heritor devotion. Life held in perpetuity, nourishing the devout.”[br/]–Vessel Nephri Telis, Quintessence Gatekeeper</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“生命是一个只会在肉体中短暂受困一生的漩涡。如果没有神圣的埃斯特克碎片，我们将陷入混沌。精髓方舟将生命的漩涡与光明的圣所联结在一起。身为继承者的首领之一，我守护着通往活力之井的入口，并将它分发给埃斯特克。在这流动的神庙里感受甜美的通灵，这就是继承者奉献的中心。生命永存，滋养着虔诚的信徒。”[br/]- 维塞尔·内弗里·泰利斯，精髓守门人</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Female</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">SKILLGROUP_5_STRATEGIC_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Prelude to Rapture</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">狂欢序曲</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >SKILLGROUP_5_STRATEGIC_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“The time of pleading will shortly come to an end. The choice to join our cause and live in immortal vitality shall be taken away. It will be a day both great and terrible. Great to the loyal as they’re filled with essence, and terrible to the iniquitous who neglected their lives, preferring corruption. Misspent minds will be reborn in the shadow of our sacred spires. Raise them, then, across the land. Bring about the Mind Rapture.”[br/]– Alsanu Amu Tet, Oracle of Essence</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“恳求之时很快将会结束。加入我们的事业并生活在永恒的活力之中，这种选择将被剥夺。这将是一个伟大和可怕的日子。对忠诚之人来说是伟大的，因为他们充满了精华，但对邪恶之人来说却是可怕的，因为他们不珍惜了自己的生命，自甘堕落。在我们神圣尖塔的阴影下，错乱的思想将会重生。养育他们，然后跨过整片土地。带来心灵的狂欢。”[br/]- 阿尔萨努·阿穆·泰特，精华神谕者</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Female</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">SKILLGROUP_6_TACTICAL_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Dissemination Rituals</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">传播仪式</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >SKILLGROUP_6_TACTICAL_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“Be wary of deceivers who wear the skins of faithful followers. The converted are not tormented by the Feast. They embrace it. They do not question the gift of Essence made theirs by Es’Teq. They nurse from the conduit of life hungrily, feeding deeply upon heretics. Doubts sour the dissemination, and the faithful will not hesitate to drain them as well.”[br/]– Vallyx Bont, Heritor Inquisitor of Purity</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“警惕那些披着忠实信徒外皮的欺诈者。真正的皈依者不会因盛宴而遭受折磨，而是会接受它。他们不会质疑埃斯特克赋予他们的精华馈赠。他们饥饿地从生命的管道中吸取营养，以异教徒为食。疑虑加剧了传播，而信仰之人将会毫不犹豫地将它们也吸食殆尽。”[br/]- 瓦莱斯·邦特，继承者纯净审判官</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Male</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">SKILLGROUP_7_TACTICAL_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Sacred Providence</Data></Cell><Cell><Data
+            ss:Type="String"
+          >神圣天意</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data
+            ss:Type="String"
+          >This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="165"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >SKILLGROUP_7_TACTICAL_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“Many Syndicate houses have, for countless generations, hidden our ties to the Heritors and their Es’Teq, but it was our progenitors that were the first High Lords, converting thousands to faithful service, hunting heretics and revitalizing the communities of congregants. Now that the Heritors return, we are ready to enhance the technology and use it to achieve our eternal agenda. Only our Houses stand ready to subjugate life and prove we are worthy of Immortality.”[br/]– Lady Em of the Sacred Providence</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“无数代人以来，许多辛迪加家族都隐藏着我们与继承者和埃斯特克之间的联系。但我们的祖先，也就是最初的至尊领主，将数以千计的人转变为了忠实的信徒，他们猎杀异端分子，恢复了教区的活力。现在，继承者们回来了，我们已准备好强化这个技术并利用它来实现我们永恒的目标。只有我们的家族已经做好了准备，征服生命并证明我们值得永生。”[br/]- 神圣天意艾姆女士</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Female</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">SKILLGROUP_7_DOCTRINE_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Sacred Resurgence</Data></Cell><Cell><Data
+            ss:Type="String"
+          >神圣复苏</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data
+            ss:Type="String"
+          >This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >SKILLGROUP_7_DOCTRINE_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“Their intolerant weapons may tear our flesh apart, but our Essence will remain to fuel the scions of prophecy. The wicked understand them not, but we will not be forgotten forever. We will hide until one is proven worthy to awaken our Holy City. Someday, we will walk with the Divine Legion. Though deep our physical forms that dwell in the depths, in a coming day, we will be reunited with our beloved kindred.”[br/]–Cho Zen Huan, Seeress of the Secret City</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“他们强大的武器可能会撕裂我们的肉体，但我们的精华将继续为预言的后裔提供能量。邪恶之人无法理解，但我们永远也不会被忘记。我们将隐藏起来，直到某一名配得上的高尚之人唤醒我们的圣城。有一天，我们将与神圣军团同行。虽然我们的肉体残留在深渊之中，但未来我们将与至亲团聚。”[br/]- 卓禅桓，神秘之城女预言家</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Female</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">SKILLGROUP_8_FORCES_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">High Lord Awakening</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">至尊领主觉醒</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="135"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >SKILLGROUP_8_FORCES_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“Our most sacred and precious beings remain concealed behind a maze of sacrifices. These slumbering gods are too pure to tread our fallen worlds. They will put down all dead machines, wielding lifetimes of Judgment. They will come in the final days, full of wrath and truth to revive the dead and recompense the faithful. When the High Lords are awakened, the end of our long wait is nigh.”[br/]– Alsanu Amu Tet, Oracle of Essence</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“我们中最神圣和珍贵的生命依然隐藏在某个献祭的迷宫之中。这些沉睡的神明极其纯净，无法在我们堕落的世界中前行。他们将消灭所有死去的机器，行使一生的审判。他们将在末日降临，充满忿怒和真理，复活逝者并回报信徒。当至尊领主被唤醒时，我们漫长的等待将会结束。”[br/]- 阿尔萨努·阿穆·泰特，精华神谕者</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Female</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">SKILLGROUP_8_STRATEGIC_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Forced Conversion</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">强制转换</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >SKILLGROUP_8_STRATEGIC_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“Who are we to question what triggers Es’Teq and activates the great powers it unleashes? Religion is technology. Cults are scientific social experiments. There will never be an age without religion, unless the human mind is denied its sense of wonder. So why not embrace the weird and unknowable? Who knows? Maybe the gods of the ancients were just technologically advanced travelers pointing us all to the stars.”[br/]– Jax Armstrong, Union sports hero and Heritor convert</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“我们凭什么质疑引发埃斯特克的根源？凭什么激活它所释放的强大力量？宗教是科技，而教派则是科学的社会实验。除非人类的心灵否认奇迹之感，否则永远也不会出现没有宗教的时代。因此，为什么不接受那些奇怪而未知的事物呢？谁知道呢？也许远古的神明只是一群技术先进的旅者，为我们所有人指引前往群星的道路。”[br/]- 贾克斯·阿姆斯特朗，联盟体育英雄和继承皈依者</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Male</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">SKILLGROUP_9_TACTICAL_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Venerated Incarnation</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">崇敬化身</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >SKILLGROUP_9_TACTICAL_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“Oh, ye foolish and blind guides! Hold fast to your faith even as you retreat to darkness. This is but a temporary setback. Your enemies shall be smited by my vengeance. Though sealed behind this vault and buried deep in time, I will rise again. Even now, I possess your feeble minds. Give me flesh. I will fill it with Essence. I will fight your cause until we are freed from this prison mount and given free reign across the galaxy again.”[br/]– Annu Ix Ishta, High Lady, Goddess in Exile</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“噢，你们这些盲目无知的向导！即使退入黑暗，也要坚守你们的信仰。这只不过是短暂的挫折而已，你们的仇敌将遭受我复仇的怒火。虽然我被封印在这宝库之中，埋藏在时间的深处，但我将再次卷土重来。即便是现在，我也占有你们薄弱的心灵。给我一具躯体，我将用精华填满它。我将为你们的事业而战，直到我们从这座艰苦的牢笼中被解放出来，再次统治整个星系。”[br/]- 安奴·伊克斯·伊什塔，至尊夫人，流亡女神</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Female</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">SKILLGROUP_10_STRATEGIC_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Final Revelation</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">终极启示</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >SKILLGROUP_10_STRATEGIC_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“All will come and join the Mind Rapture. Lift your voices, one and all. Sing our chorus of exultation. Give your will and faithful soul. Unleash your full potential. Feel the embrace of the Living Lord’s returning. Live a thousand past lives. Essence is a wellspring. The time of judgment is over. You lived to this sacred advent and are thus proven worthy here. Life’s struggle is no more. Come join our happy throng.”[br/]–Amun Bis Xhet, Heritor High Singer of the Rapture</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“所有人都将前来加入心灵狂欢。所有的人呐，放声高歌吧。吟唱我们欢乐的合唱。献出你的意志和忠诚的灵魂。释放你们全部的潜能。感受永生领主的归来。过上千年的生活。精华就是泉源。审判之时已然结束。你们活到了这次神圣的降临，证明你们值得存在于此。生活的挣扎已不复存在。来吧，加入我们欢乐的人群。”[br/]- 阿蒙·比斯·塞特，继承者至尊狂欢歌手</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Male</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>130</Zoom><Selected /><Panes
+      ><Pane><Number>3</Number><ActiveRow>4</ActiveRow><ActiveCol
+          >3</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

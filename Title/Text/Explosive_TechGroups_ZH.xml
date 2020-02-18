@@ -1,1 +1,197 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:50:40Z</Created><LastSaved>2019-07-03T22:00:07Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="210.75" ss:DefaultRowHeight="15"><Column ss:StyleID="s62" ss:Width="180"/><Column ss:StyleID="s62" ss:Width="112.5"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="318.75" ss:Span="1"/><Column ss:Index="5" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="318"/><Column ss:StyleID="s62" ss:Width="120"/><Row ss:AutoFitHeight="0" ss:Height="135"><Cell><Data ss:Type="String">EXPLOSIVE_TECHGROUPS</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOSIVE_SKILLS</Data></Cell><Cell><Data ss:Type="String">GROUP_NAME</Data></Cell><Cell><Data ss:Type="String">Explosive</Data></Cell><Cell><Data ss:Type="String">爆炸物</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ADVANCED_MUNITIONS_PROVISION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Advanced Munitions Provision</Data></Cell><Cell><Data ss:Type="String">高级军火供给</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">ADVANCED_MUNITIONS_PROVISION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Target friendly unit with an Explosive attack gains +{AdvancedMunitionsProvisionRange} range, +{AdvancedMunitionsProvisionDamage}% damage and [abilityred]Massive Impact[/abilityred] for {AdvancedMunitionsProvisionDuration}[turn/].</Data></Cell><Cell><Data ss:Type="String">具有爆炸攻击的目标友方单位获得 +{AdvancedMunitionsProvisionRange} 射程、+{AdvancedMunitionsProvisionDamage}% 伤害和[abilityred]强力冲击[/abilityred]，持续 {AdvancedMunitionsProvisionDuration}[turn/]。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ADVANCED_MUNITIONS_PROVISION</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{AdvancedMunitionsProvisionRange} range, {AdvancedMunitionsProvisionDamage}% damage</Data></Cell><Cell><Data ss:Type="String">{AdvancedMunitionsProvisionRange} 射程，{AdvancedMunitionsProvisionDamage}% 伤害</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CREEPING_BARRAGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Creeping Barrage</Data></Cell><Cell><Data ss:Type="String">蔓延弹幕</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">CREEPING_BARRAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Artillery fire rains on a {hexrad} hex radius area, dealing {CreepingBarrageDamage}[damagephysical/] damage with [abilityred]High Impact[/abilityred]. This triggers at the start of each of your turns for {CreepingBarrageDuration}[turn/], and the radius is increased by 1 hex each turn.</Data></Cell><Cell><Data ss:Type="String">炮火侵袭 {hexrad} 个单元格范围区域，造成 {CreepingBarrageDamage}[damagephysical/]伤害并施加[abilityred]高度冲击[/abilityred]。此效果将在你的每回合开始时触发，持续 {CreepingBarrageDuration}[turn/]，影响范围每回合将增加 1 个单元格。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">CREEPING_BARRAGE</Data></Cell><Cell><Data ss:Type="String">HAZARD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Artillery fire rains down on a {hexrad} hex radius area, dealing {CreepingBarrageDamage}[damagephysical/] damage at the start of the next turn.</Data></Cell><Cell><Data ss:Type="String">炮火侵袭 {hexrad} 个单元格范围区域，在下个回合开始时造成 {CreepingBarrageDamage}[damagephysical/]伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TIME_ON_TARGET</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Time on Target</Data></Cell><Cell><Data ss:Type="String">目标计时</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">TIME_ON_TARGET</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Drop a flare on target {hexrad} hex radius area, giving [abilityred]Illuminated[/abilityred] to units who stand there, making them {TimeOnTargetAccuracy}% easier to hit.[br/]At the start of the next turn, the area is hit with artillery fire, dealing {TimeOnTargetDamage}[damagephysical/] damage and applies [abilityred]Massive Impact[/abilityred] to any units that are not immune.</Data></Cell><Cell><Data ss:Type="String">向 {hexrad} 个单元格范围区域投放信号弹，区域中所有单位将被[abilityred]照亮[/abilityred]，使其命中难度降低 {TimeOnTargetAccuracy}%。[br/]下个回合开始时，该区域将受到炮火侵袭，造成 {TimeOnTargetDamage}[damagephysical/]伤害并对非免疫单位施加[abilityred]强力冲击[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TACTICAL_NUCLEAR_STRIKE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Tactical Nuclear Strike</Data></Cell><Cell><Data ss:Type="String">战术核弹攻击</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="120"><Cell><Data ss:Type="String">TACTICAL_NUCLEAR_STRIKE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A tactical nuclear missile lands in a {TacticalNuclearStrikeAoE} hex radius area with [abilityred]Massive Impact[/abilityred], dealing {TacticalNuclearStrikeCenterDamage}[damagethermal/] damage in the center. Each additional hex away from the center reduces this damage.[br/]In addition, every enemy unit in combat has a {TacticalNuclearStrikeBlindStrength}[strengthphysical/] strength chance to become [abilityred]Blinded[/abilityred].</Data></Cell><Cell><Data ss:Type="String">战术核弹轰炸 {TacticalNuclearStrikeAoE} 个单元格范围区域，施加[abilityred]强力冲击[/abilityred]并对中心造成 {TacticalNuclearStrikeCenterDamage}[damagethermal/]伤害。[br/]每远离中心一个单元格，受到的伤害将会降低。[br/]此外，战斗中的每个敌方单位都有 {TacticalNuclearStrikeBlindStrength}[strengthphysical/]力量几率被[abilityred]致盲[/abilityred]。</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Selected/><TopRowVisible>10</TopRowVisible><LeftColumnVisible>1</LeftColumnVisible><Panes><Pane><Number>3</Number><ActiveRow>13</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:50:40Z</Created><LastSaved
+    >2019-07-03T22:00:07Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="210.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="180" /><Column
+        ss:StyleID="s62"
+        ss:Width="112.5"
+      /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="318.75"
+        ss:Span="1"
+      /><Column
+        ss:Index="5"
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="318"
+      /><Column ss:StyleID="s62" ss:Width="120" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="135"
+      ><Cell><Data ss:Type="String">EXPLOSIVE_TECHGROUPS</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXPLOSIVE_SKILLS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GROUP_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Explosive</Data></Cell><Cell><Data
+            ss:Type="String"
+          >爆炸物</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ADVANCED_MUNITIONS_PROVISION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Advanced Munitions Provision</Data></Cell><Cell><Data
+            ss:Type="String"
+          >高级军火供给</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data
+            ss:Type="String"
+          >ADVANCED_MUNITIONS_PROVISION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target friendly unit with an Explosive attack gains +{AdvancedMunitionsProvisionRange} range, +{AdvancedMunitionsProvisionDamage}% damage and [abilityred]Massive Impact[/abilityred] for {AdvancedMunitionsProvisionDuration}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >具有爆炸攻击的目标友方单位获得 +{AdvancedMunitionsProvisionRange} 射程、+{AdvancedMunitionsProvisionDamage}% 伤害和[abilityred]强力冲击[/abilityred]，持续 {AdvancedMunitionsProvisionDuration}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >ADVANCED_MUNITIONS_PROVISION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{AdvancedMunitionsProvisionRange} range, {AdvancedMunitionsProvisionDamage}% damage</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{AdvancedMunitionsProvisionRange} 射程，{AdvancedMunitionsProvisionDamage}% 伤害</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CREEPING_BARRAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Creeping Barrage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >蔓延弹幕</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">CREEPING_BARRAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Artillery fire rains on a {hexrad} hex radius area, dealing {CreepingBarrageDamage}[damagephysical/] damage with [abilityred]High Impact[/abilityred]. This triggers at the start of each of your turns for {CreepingBarrageDuration}[turn/], and the radius is increased by 1 hex each turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >炮火侵袭 {hexrad} 个单元格范围区域，造成 {CreepingBarrageDamage}[damagephysical/]伤害并施加[abilityred]高度冲击[/abilityred]。此效果将在你的每回合开始时触发，持续 {CreepingBarrageDuration}[turn/]，影响范围每回合将增加 1 个单元格。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">CREEPING_BARRAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >HAZARD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Artillery fire rains down on a {hexrad} hex radius area, dealing {CreepingBarrageDamage}[damagephysical/] damage at the start of the next turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >炮火侵袭 {hexrad} 个单元格范围区域，在下个回合开始时造成 {CreepingBarrageDamage}[damagephysical/]伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TIME_ON_TARGET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Time on Target</Data></Cell><Cell><Data
+            ss:Type="String"
+          >目标计时</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">TIME_ON_TARGET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Drop a flare on target {hexrad} hex radius area, giving [abilityred]Illuminated[/abilityred] to units who stand there, making them {TimeOnTargetAccuracy}% easier to hit.[br/]At the start of the next turn, the area is hit with artillery fire, dealing {TimeOnTargetDamage}[damagephysical/] damage and applies [abilityred]Massive Impact[/abilityred] to any units that are not immune.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向 {hexrad} 个单元格范围区域投放信号弹，区域中所有单位将被[abilityred]照亮[/abilityred]，使其命中难度降低 {TimeOnTargetAccuracy}%。[br/]下个回合开始时，该区域将受到炮火侵袭，造成 {TimeOnTargetDamage}[damagephysical/]伤害并对非免疫单位施加[abilityred]强力冲击[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TACTICAL_NUCLEAR_STRIKE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tactical Nuclear Strike</Data></Cell><Cell><Data
+            ss:Type="String"
+          >战术核弹攻击</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell><Data ss:Type="String">TACTICAL_NUCLEAR_STRIKE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A tactical nuclear missile lands in a {TacticalNuclearStrikeAoE} hex radius area with [abilityred]Massive Impact[/abilityred], dealing {TacticalNuclearStrikeCenterDamage}[damagethermal/] damage in the center. Each additional hex away from the center reduces this damage.[br/]In addition, every enemy unit in combat has a {TacticalNuclearStrikeBlindStrength}[strengthphysical/] strength chance to become [abilityred]Blinded[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >战术核弹轰炸 {TacticalNuclearStrikeAoE} 个单元格范围区域，施加[abilityred]强力冲击[/abilityred]并对中心造成 {TacticalNuclearStrikeCenterDamage}[damagethermal/]伤害。[br/]每远离中心一个单元格，受到的伤害将会降低。[br/]此外，战斗中的每个敌方单位都有 {TacticalNuclearStrikeBlindStrength}[strengthphysical/]力量几率被[abilityred]致盲[/abilityred]。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Selected /><TopRowVisible>10</TopRowVisible><LeftColumnVisible
+      >1</LeftColumnVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >13</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

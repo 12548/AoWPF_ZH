@@ -1,1 +1,1326 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:57:45Z</Created><LastSaved>2019-06-25T15:57:45Z</LastSaved><Version>15.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX>0</WindowTopX><WindowTopY>0</WindowTopY><MaxChange>0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s57"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s57" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15"><Column ss:StyleID="s57" ss:Width="261"/><Column ss:StyleID="s57" ss:Width="121.5"/><Column ss:StyleID="s57" ss:Width="298.5"/><Column ss:StyleID="s57" ss:Width="147.75"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="201"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="126"/><Column ss:StyleID="s57" ss:Width="298.5"/><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">UNIT_UPGRADES_EXPEDITIONARYWARFARE</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">NANITE_INJECTORS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Nanite Injectors</Data></Cell><Cell><Data ss:Type="String">纳米注射器</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">NANITE_INJECTORS</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Use Nanite Injectors to heal this unit for {NaniteHealAmount} and increase its resistances to all damage channels by {NaniteResistanceBonus} for {NaniteDuration}[turn/]</Data></Cell><Cell><Data ss:Type="String">使用纳米注射器治疗单位 {NaniteHealAmount} 并提升 {NaniteResistanceBonus} 对所有伤害类型的抵抗，持续{NaniteDuration}[turn/]</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">NANITE_INJECTORS</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit's resistances have been increased by {NaniteResistances}.</Data></Cell><Cell><Data ss:Type="String">该单位的抵抗提升了 {NaniteResistances}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INTERLOCKING_ARMOR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Interlocking Armor</Data></Cell><Cell><Data ss:Type="String">连锁护甲</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INTERLOCKING_ARMOR</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The unit gains [abilityblue]Stagger Resistance[/abilityblue] and {KineticResistance}[damagePhysical/] resistance.</Data></Cell><Cell><Data ss:Type="String">单位获得[abilityblue]动摇抵抗[/abilityblue]和 {KineticResistance}[damagePhysical/]抵抗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IMPROVED_SENSORS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Improved Combat Sensors (Detector)</Data></Cell><Cell><Data ss:Type="String">改良战斗传感器（侦察器）</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">IMPROVED_SENSORS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The unit becomes {evasionAmount}% harder to hit and gains [abilityblue]Detection.[/abilityblue] In addition, the unit's scanner range on the strategic map is increased by {IncreaseRange} hexes.</Data></Cell><Cell><Data ss:Type="String">该单位的命中难度增加 {evasionAmount}% 并获得[abilityblue]侦察[/abilityblue]。此外，该单位在策略地图上的扫描器范围增加 {IncreaseRange} 个单元格。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TRI_COMPOSITE_TACTICAL_ENGAGEMENT_PLATFORM</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Miniaturized Missile Array</Data></Cell><Cell><Data ss:Type="String">小型导弹阵列</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">TRI_COMPOSITE_TACTICAL_ENGAGEMENT_PLATFORM</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Gives the unit [abilityblue]Stagger Immunity[/abilityblue] and the 'Fire Brimstone Missile' ability.</Data></Cell><Cell><Data ss:Type="String">赋予单位[abilityblue]动摇免疫[/abilityblue]和“发射硫磺导弹”技能。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TACTICAL_ROCKET</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Fire Brimstone Missile</Data></Cell><Cell><Data ss:Type="String">发射硫磺导弹</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">TACTICAL_ROCKET</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a Brimstone Missile at an enemy. The rocket leaves behind a stream of super-heated gas that deals Thermal damage to all units that enter its area.</Data></Cell><Cell><Data ss:Type="String">向敌人发射硫磺导弹，导弹会留下大量超高温气体，进入该气体区域的所有单位将会受到热能伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TRICORIUM_REACTIVE_ARMOR_PLATING</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Reactive Armor Plating</Data></Cell><Cell><Data ss:Type="String">反冲装甲板</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">TRICORIUM_REACTIVE_ARMOR_PLATING</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Whenever damage is dealt to this unit, {ReactiveArmorReflectPercentage} of the damage is reflected back to its source.</Data></Cell><Cell><Data ss:Type="String">该单位无论何时受到伤害时，都会将受到伤害的 {ReactiveArmorReflectPercentage} 反弹给伤害制造者。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TARGETING_FIELD</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Targeting Field</Data></Cell><Cell><Data ss:Type="String">瞄准力场</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">TARGETING_FIELD</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Target enemy unit becomes {hitpenalty}% easier to hit for {turn}</Data></Cell><Cell><Data ss:Type="String">目标敌方单位的命中难度降低 {hitpenalty}%，持续 {turn}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REGENERATION_FIELD</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Regeneration Field</Data></Cell><Cell><Data ss:Type="String">再生力场</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">REGENERATION_FIELD</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Target friendly Biological unit instantly recovers {healAmount}[hp/]</Data></Cell><Cell><Data ss:Type="String">目标友方生物单位立刻恢复 {healAmount}[hp/]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLUR_CLOUD</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Blur Cloud</Data></Cell><Cell><Data ss:Type="String">模糊云</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">BLUR_CLOUD</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Target friendly unit becomes {accuracyPenalty}% harder to hit for {duration}[turn/]</Data></Cell><Cell><Data ss:Type="String">目标友方单位的命中难度增加 {accuracyPenalty}%，持续 {duration}[turn/]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DRONE_SUPPORT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Drone Support</Data></Cell><Cell><Data ss:Type="String">无人机支援</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">DRONE_SUPPORT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is receiving support from a sensor drone. It has a {accuracyBonus}% bonus to accuracy and cannot be Flanked.</Data></Cell><Cell><Data ss:Type="String">该单位正受到传感无人机支援，拥有 {accuracyBonus}% 准度加成，同时无法被包抄。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DRONE_SUPPORT</Data></Cell><Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{accuracyBone}% accuracy.</Data></Cell><Cell><Data ss:Type="String">{accuracyBone}% 准度。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TRANSFER_DRONE_SUPPORT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Transfer Drone Support</Data></Cell><Cell><Data ss:Type="String">调动无人机支援</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">TRANSFER_DRONE_SUPPORT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Send a drone to the target unit, granting it a {accuracyBonus}% bonus to accuracy and preventing it from being Flanked.</Data></Cell><Cell><Data ss:Type="String">向目标单位派出无人机，赋予其 {accuracyBonus}% 准度加成且无法被包抄。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LAUNCH_ATTACK_DRONES</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Launch Attack Drones</Data></Cell><Cell><Data ss:Type="String">发动攻击无人机</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">LAUNCH_ATTACK_DRONES</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Launch flying attack drones armed with laser weapons. The drones expire after {duration}[turn/].[br/][br/]The summoned unit will inherit any compatible mods that do not grant an active ability.[br/]</Data></Cell><Cell><Data ss:Type="String">发动装备有激光武器的攻击型无人机，无人机将在 {duration}[turn/]后失效。[br/][br/]召唤单位将会继承所有不会赋予主动技能的兼容模块。[br/]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LAUNCH_NANITE_REPAIRBOTS</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Launch Repair Drone</Data></Cell><Cell><Data ss:Type="String">发动修理无人机</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">LAUNCH_NANITE_REPAIRBOTS</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Launch flying repair drones that heal Biological, Cyborg or Mechanical units. The drones expire after {duration}[turn/].[br/][br/]The summoned unit will inherit any compatible mods that do not grant an active ability.[br/]</Data></Cell><Cell><Data ss:Type="String">发动修理无人机，治疗生物、半机械人或机械单位，无人机将在 {duration}[turn/]后失效。[br/][br/]召唤单位将会继承所有不会赋予主动技能的兼容模块。[br/]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LAUNCH_SKIRMISH_DRONES</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Launch Skirmish Drones</Data></Cell><Cell><Data ss:Type="String">发动冲突无人机</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">LAUNCH_SKIRMISH_DRONES</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Launch melee skirmish drones into combat. The drones expire after {duration}[turn/].[br/][br/]The summoned unit will inherit any compatible mods that do not grant an active ability.[br/]</Data></Cell><Cell><Data ss:Type="String">派遣近战冲突无人机加入战斗，无人机将在 {duration}[turn/]后失效。[br/][br/]召唤单位将会继承所有不会赋予主动技能的兼容模块。[br/]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">NANITE_REPAIR</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Nanite Repair</Data></Cell><Cell><Data ss:Type="String">纳米修复</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">NANITE_REPAIR</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Heal target unit with a swarm of nanites for {healAmount}[hp/][br/]Works on Biological, Cyborg and Mechanical units.</Data></Cell><Cell><Data ss:Type="String">用一群纳米机器人治疗目标单位 {healAmount}[hp/][br/]对生物、半机械人单位和机械单位有效。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EQUIPMENT</Data></Cell><Cell><Data ss:Type="String">MED_KIT_NAME</Data></Cell><Cell><Data ss:Type="String">Med Kit</Data></Cell><Cell><Data ss:Type="String">医疗包</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EQUIPMENT</Data></Cell><Cell><Data ss:Type="String">REPAIR_KIT_NAME</Data></Cell><Cell><Data ss:Type="String">Repair Kit</Data></Cell><Cell><Data ss:Type="String">修理包</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SURVIVAL_KIT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Survival Kit</Data></Cell><Cell><Data ss:Type="String">救生箱</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SURVIVAL_KIT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Instantly heal this unit for {healAmount}[hp/]</Data></Cell><Cell><Data ss:Type="String">立刻治疗该单位 {healAmount}[hp/]</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SURVIVAL_KIT</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Gives the unit a Survival Kit, allowing it to heal itself once per battle.</Data></Cell><Cell><Data ss:Type="String">给该单位装备一个救生箱，每次战斗可治疗自身一次。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MEDKIT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Med Kit</Data></Cell><Cell><Data ss:Type="String">医疗包</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">MEDKIT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Instantly heal target unit for {healAmount}[hp/][br/]Does not affect Mechanical units.</Data></Cell><Cell><Data ss:Type="String">立刻治疗目标单位 {healAmount}[hp/][br/]对机械单位无效。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MEDKIT</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Gives the unit a Medical Kit, allowing it to heal other units.</Data></Cell><Cell><Data ss:Type="String">给该单位装备一个医疗包，可让该单位治疗其他单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SELF_REPAIR_PROTOCOL</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Self Repair Protocol</Data></Cell><Cell><Data ss:Type="String">自助修复协议</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">SELF_REPAIR_PROTOCOL</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Instantly heal target unit for {healAmount}. Removes all hostile Arc status effects and increases resistance against all Arc status effects by {RepairProtocolResistance} for {RepairProtocolTurn}.</Data></Cell><Cell><Data ss:Type="String">立刻治疗目标单位 {healAmount}，移除所有敌对电弧状态效果并对所有电弧状态效果提升 {RepairProtocolResistance} 抵抗，持续 {RepairProtocolTurn}。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SELF_REPAIR_PROTOCOL</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has {RepairProtocol} increased resistance against status effects.</Data></Cell><Cell><Data ss:Type="String">该单位对状态效果拥有额外 {RepairProtocol} 抵抗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REPAIR_KIT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Repair Tools</Data></Cell><Cell><Data ss:Type="String">修理工具</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">REPAIR_KIT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Heal the targeted Mechanical or Cyborg unit for {healAmount}</Data></Cell><Cell><Data ss:Type="String">治疗目标机械或半机械人单位 {healAmount}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ADVANCED_REPAIR_KIT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Advanced Repair Tools</Data></Cell><Cell><Data ss:Type="String">高级修理工具</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ADVANCED_REPAIR_KIT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Heal the targeted Heavy unit for {healAmount} for each action point spent.</Data></Cell><Cell><Data ss:Type="String">每消耗一点操作点数，治疗目标重型单位 {healAmount}。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ADVANCED_REPAIR_KIT</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Gives the unit an improved repair kit, allowing it to repair Heavy units in combat.</Data></Cell><Cell><Data ss:Type="String">给该单位装备一个改良的修理包，使其能够在战斗中修理重型单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLACE_GUN_TURRET</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Place Gun Turret</Data></Cell><Cell><Data ss:Type="String">放置炮塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLACE_GUN_TURRET</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Place a gun turret on the target hex.[br/][br/]The summoned unit will inherit any compatible mods that do not grant an active ability.[br/]</Data></Cell><Cell><Data ss:Type="String">在目标单元格放置炮塔。[br/][br/]召唤单位将会继承所有不会赋予主动技能的兼容模块。[br/]</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">PLACE_GUN_TURRET</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DECRIPTION</Data></Cell><Cell><Data ss:Type="String">Gives the unit a self-constructing gun turret to deploy in battle.</Data></Cell><Cell><Data ss:Type="String">给予该单位能够在战斗中进行自我搭建的炮塔。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLACE_LASER_TURRET</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Place Laser Turret</Data></Cell><Cell><Data ss:Type="String">放置激光炮塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLACE_LASER_TURRET</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Place a laser turret on the target hex.[br/][br/]The summoned unit will inherit any compatible mods that do not grant an active ability.[br/]</Data></Cell><Cell><Data ss:Type="String">在目标单元格放置激光炮塔。[br/][br/]召唤单位将会继承所有不会赋予主动技能的兼容模块。[br/]</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">PLACE_LASER_TURRET</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DECRIPTION</Data></Cell><Cell><Data ss:Type="String">Replaces the Engineer's gun turret with a laser turret that deals Thermal damage.</Data></Cell><Cell><Data ss:Type="String">将工程师的炮塔替换成能够造成热能伤害的激光炮塔。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLACE_LAUNCHER_TURRET</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Place Launcher Turret</Data></Cell><Cell><Data ss:Type="String">放置发射器炮塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLACE_LAUNCHER_TURRET</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Place a launcher turret on the target hex.[br/][br/]The summoned unit will inherit any compatible mods that do not grant an active ability.[br/]</Data></Cell><Cell><Data ss:Type="String">在目标单元格放置发射器炮塔。[br/][br/]召唤单位将会继承所有不会赋予主动技能的兼容模块。[br/]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLACE_LAUNCHER_TURRET</Data></Cell><Cell><Data ss:Type="String">UPGRADE_NAME</Data></Cell><Cell><Data ss:Type="String">Launcher Turret Pack</Data></Cell><Cell><Data ss:Type="String">发射器炮塔组</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">PLACE_LAUNCHER_TURRET</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DECRIPTION</Data></Cell><Cell><Data ss:Type="String">Replaces the Engineer's gun turret with a turret that fires missiles.</Data></Cell><Cell><Data ss:Type="String">将工程师的炮塔替换成能够发射导弹的发射器炮塔。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LASER_TURRET</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Twin Lasers</Data></Cell><Cell><Data ss:Type="String">双联激光枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LASER_TURRET</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire twin lasers at the target hex, dealing Thermal damage.</Data></Cell><Cell><Data ss:Type="String">使用双联激光枪攻击目标单元格，造成热能伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LAUNCHER_TURRET</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Mini Launcher</Data></Cell><Cell><Data ss:Type="String">迷你发射器</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">LAUNCHER_TURRET</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a missile at the target hex, dealing Kinetic damage in an area of effect.</Data></Cell><Cell><Data ss:Type="String">向目标单元格发射导弹，造成范围动能伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEPLOY_SMOKE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Deploy Smoke</Data></Cell><Cell><Data ss:Type="String">释放烟雾</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">DEPLOY_SMOKE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Deploy smoke on all adjacent hexes around the unit. The smoke lingers for {SmokeTurns}, and all units inside the smoke are [abilityblue]Obscured[/abilityblue]. Obscured units are {SmokeObscurePercentage} harder to hit.</Data></Cell><Cell><Data ss:Type="String">向单位周围相邻的所有单元格释放烟雾。烟雾持续 {SmokeTurns}，烟雾内的所有单位获得[abilityblue]模糊[/abilityblue]。模糊单位的命中难度增加 {SmokeObscurePercentage}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RESUPPLY_CHARGE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Resupply Charge</Data></Cell><Cell><Data ss:Type="String">再补给充能</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">RESUPPLY_CHARGE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Resupply target friendly unit. All of the unit's ability cooldowns and once per battle abilities are reset.</Data></Cell><Cell><Data ss:Type="String">重新补给目标友方单位，重置该单位所有技能的冷却时间和每场战斗只能使用一次的技能。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HEALING_CHARGE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Healing Charge</Data></Cell><Cell><Data ss:Type="String">治疗充能</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HEALING_CHARGE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Heal target friendly unit for {HealingAmount}</Data></Cell><Cell><Data ss:Type="String">治疗目标友方单位 {HealingAmount}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SMOKE_SHELL</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Fire Smoke Shell</Data></Cell><Cell><Data ss:Type="String">发射烟雾弹</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SMOKE_SHELL</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a smoke shell at the target hex. Leaves a cloud of smoke for {SmokeTurns}. Units inside the smoke are {SmokeEvasion}% harder to hit.</Data></Cell><Cell><Data ss:Type="String">向目标单元格发射烟雾弹，留下一片烟雾云，持续 {SmokeTurns}。位于烟雾中的单位命中难度增加 {SmokeEvasion}%。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">NAVAL_ENGINEERS</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Naval Engineers</Data></Cell><Cell><Data ss:Type="String">海军工程师</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">NAVAL_ENGINEERS</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Deploy naval engineers to repair target ship, healing it for {HealAmount}[hp/]</Data></Cell><Cell><Data ss:Type="String">部署海军工程师修复目标船只，治疗其 {HealAmount}[hp/]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ARMOR_REINFORCEMENTS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Armor Reinforcement</Data></Cell><Cell><Data ss:Type="String">护甲强化</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ARMOR_REINFORCEMENTS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Provides armor reinforcements to all Light units. They gain {FieldAmorAmount} permanently.</Data></Cell><Cell><Data ss:Type="String">为所有轻型单位提供强化护甲，永久获得 {FieldAmorAmount}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOIT_MODULE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Sequential Kill System</Data></Cell><Cell><Data ss:Type="String">连环杀戮系统</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">EXPLOIT_MODULE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The unit regains 1 action point upon dealing the killing blow to an enemy. Can only occur once per turn.</Data></Cell><Cell><Data ss:Type="String">单位在击杀某个敌人时将恢复 1 点操作点数。每回合只能触发一次。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOIT_MODULE</Data></Cell><Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Kills refill 1 action point, once per turn.</Data></Cell><Cell><Data ss:Type="String">击杀敌人可恢复 1 点操作点数，每回合只能触发一次。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ASSAULT_JUMP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Assault Jump</Data></Cell><Cell><Data ss:Type="String">突袭跳跃</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">ASSAULT_JUMP</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Jump to the target location, and activate a powerful forcefield that adds {shieldStrength}[shield/] to the unit for {shieldDuration}[turn/]</Data></Cell><Cell><Data ss:Type="String">跳向目标地点并激活强效力场，为该单位增加 {shieldStrength}[shield/]，持续 {shieldDuration}[turn/]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">JETPACK_MOD</Data></Cell><Cell><Data ss:Type="String">NAME_ITEM</Data></Cell><Cell><Data ss:Type="String">Jetpack</Data></Cell><Cell><Data ss:Type="String">喷气背包</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">JETPACK_MOD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Jetpack Jump</Data></Cell><Cell><Data ss:Type="String">喷气背包跳跃</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">JETPACK_MOD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Jump to the target location.</Data></Cell><Cell><Data ss:Type="String">跳向目标地点。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ASSAULT_SHIELDS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Assault Shields</Data></Cell><Cell><Data ss:Type="String">袭击护盾</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ASSAULT_SHIELDS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A powerful temporary shield protects the unit for {shieldStrength}[shield/]</Data></Cell><Cell><Data ss:Type="String">能够为单位提供保护的强力临时护盾，持续 {shieldStrength}[shield/]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">POWERED_RAM</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Powered Impact</Data></Cell><Cell><Data ss:Type="String">能量冲击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">POWERED_RAM</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Rams the target at great speed.</Data></Cell><Cell><Data ss:Type="String">高速冲撞目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIOLOGICAL_RECOVERY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Biological Recovery</Data></Cell><Cell><Data ss:Type="String">生物恢复</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">BIOLOGICAL_RECOVERY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit heals each Biological unit in its stack for {recoveryhp}[hp/] per strategic turn.</Data></Cell><Cell><Data ss:Type="String">该单位在每个战略回合将治疗其小组中的生物单位 {recoveryhp}[hp/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MECHANICAL_RECOVERY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Mechanical Recovery</Data></Cell><Cell><Data ss:Type="String">机械恢复</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">MECHANICAL_RECOVERY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit heals each Mechanical unit in its stack for {recoveryhp}[hp/] per strategic turn.</Data></Cell><Cell><Data ss:Type="String">该单位在每个战略回合将治疗其小组中的机械单位 {recoveryhp}[hp/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TARGETING_CALIBRATION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Targeting Calibration</Data></Cell><Cell><Data ss:Type="String">瞄准校准</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">TARGETING_CALIBRATION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Assist the targeting computers of a friendly Mechanical unit, increasing their accuracy by {TargetingCalibrationAcc} for {TargetingCalibrationDuration}</Data></Cell><Cell><Data ss:Type="String">辅助友方机械单位的瞄准系统，提升其准度 {TargetingCalibrationAcc}，持续 {TargetingCalibrationDuration}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CALIBRATED</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Calibrated</Data></Cell><Cell><Data ss:Type="String">校准完毕</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">CALIBRATED</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has {TargetingCalibrationAcc} for {TargetingCalibrationDuration}[turn/]</Data></Cell><Cell><Data ss:Type="String">该单位拥有 {TargetingCalibrationAcc}，持续 {TargetingCalibrationDuration}[turn/]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REPAIR_CHARGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Launch Repair Charge</Data></Cell><Cell><Data ss:Type="String">发射修复炸弹</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">REPAIR_CHARGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Launch a charge that explodes in a shower of nanobots that repair Mechanical and Cyborg units in the targeted area for {RepairChargeHP}[hp/]</Data></Cell><Cell><Data ss:Type="String">发射能够爆炸并产生大量纳米机器人的炸弹，修复目标范围内的机械和半机械人单位 {RepairChargeHP}[hp/]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">NANITE_INJECTORS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Sustained</Data></Cell><Cell><Data ss:Type="String">持久</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">NANITE_INJECTORS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Hearty</Data></Cell><Cell><Data ss:Type="String">健壮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">NANITE_INJECTORS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Revitalized</Data></Cell><Cell><Data ss:Type="String">元气复苏</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">NANITE_INJECTORS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Refreshed</Data></Cell><Cell><Data ss:Type="String">精神振作</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">NANITE_INJECTORS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Stim-fueled</Data></Cell><Cell><Data ss:Type="String">精力充沛</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">NANITE_INJECTORS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Replenished</Data></Cell><Cell><Data ss:Type="String">精气十足</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IMPROVED_SENSORS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Eagle-eye</Data></Cell><Cell><Data ss:Type="String">鹰眼</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IMPROVED_SENSORS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Scanner</Data></Cell><Cell><Data ss:Type="String">扫描器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IMPROVED_SENSORS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Detective</Data></Cell><Cell><Data ss:Type="String">侦探</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IMPROVED_SENSORS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Inspector</Data></Cell><Cell><Data ss:Type="String">巡查者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IMPROVED_SENSORS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Detector</Data></Cell><Cell><Data ss:Type="String">侦察者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IMPROVED_SENSORS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Checkmate</Data></Cell><Cell><Data ss:Type="String">直击要害</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INTERLOCKING_ARMOR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Reinforced</Data></Cell><Cell><Data ss:Type="String">强化</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INTERLOCKING_ARMOR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Sturdy</Data></Cell><Cell><Data ss:Type="String">结实</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INTERLOCKING_ARMOR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Interlocking</Data></Cell><Cell><Data ss:Type="String">连锁</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INTERLOCKING_ARMOR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Plated</Data></Cell><Cell><Data ss:Type="String">镀甲</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INTERLOCKING_ARMOR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Hardened</Data></Cell><Cell><Data ss:Type="String">硬化</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INTERLOCKING_ARMOR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Hurt Locker</Data></Cell><Cell><Data ss:Type="String">防弹服</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INTERLOCKING_ARMOR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell><Cell><Data ss:Type="String">Tough</Data></Cell><Cell><Data ss:Type="String">坚硬</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INTERLOCKING_ARMOR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_8</Data></Cell><Cell><Data ss:Type="String">Stalwart</Data></Cell><Cell><Data ss:Type="String">牢固</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLACE_LAUNCHER_TURRET</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Jackhammer</Data></Cell><Cell><Data ss:Type="String">气锤</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLACE_LAUNCHER_TURRET</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Constructor</Data></Cell><Cell><Data ss:Type="String">建设者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLACE_LAUNCHER_TURRET</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Technomancer</Data></Cell><Cell><Data ss:Type="String">科技巫师</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLACE_LAUNCHER_TURRET</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Turreteer</Data></Cell><Cell><Data ss:Type="String">炮塔师</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLACE_LAUNCHER_TURRET</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Stationary</Data></Cell><Cell><Data ss:Type="String">不动如山</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLACE_LAUNCHER_TURRET</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Inventor</Data></Cell><Cell><Data ss:Type="String">创造者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">JETPACK_MOD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Soaring</Data></Cell><Cell><Data ss:Type="String">翱翔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">JETPACK_MOD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Wingman</Data></Cell><Cell><Data ss:Type="String">僚机</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">JETPACK_MOD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Aerodynamic</Data></Cell><Cell><Data ss:Type="String">航空动力</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">JETPACK_MOD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Deep Striker</Data></Cell><Cell><Data ss:Type="String">深度打击者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">JETPACK_MOD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Feathered</Data></Cell><Cell><Data ss:Type="String">羽翼</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">JETPACK_MOD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Hawk</Data></Cell><Cell><Data ss:Type="String">雄鹰</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOIT_MODULE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Terminator</Data></Cell><Cell><Data ss:Type="String">终结者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOIT_MODULE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Ruthless</Data></Cell><Cell><Data ss:Type="String">残忍</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOIT_MODULE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Relentless</Data></Cell><Cell><Data ss:Type="String">无情</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOIT_MODULE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Reaper</Data></Cell><Cell><Data ss:Type="String">死神</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOIT_MODULE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Thrillkiller</Data></Cell><Cell><Data ss:Type="String">连环杀手</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOIT_MODULE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Slugger</Data></Cell><Cell><Data ss:Type="String">重击手</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MINIATURED_MISSILE_ARRAY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Javelin</Data></Cell><Cell><Data ss:Type="String">标枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MINIATURED_MISSILE_ARRAY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Hellfire</Data></Cell><Cell><Data ss:Type="String">地狱火</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MINIATURED_MISSILE_ARRAY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Smart Launcher</Data></Cell><Cell><Data ss:Type="String">智能发射器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MINIATURED_MISSILE_ARRAY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Barrage</Data></Cell><Cell><Data ss:Type="String">弹幕</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MINIATURED_MISSILE_ARRAY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Devastator</Data></Cell><Cell><Data ss:Type="String">毁灭者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MINIATURED_MISSILE_ARRAY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Blastmaster</Data></Cell><Cell><Data ss:Type="String">爆破专家</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REACTIVE_ARMOR_PLATING</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Achillean</Data></Cell><Cell><Data ss:Type="String">刀枪不入</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REACTIVE_ARMOR_PLATING</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Kingpin</Data></Cell><Cell><Data ss:Type="String">中心轴</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REACTIVE_ARMOR_PLATING</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Avenger</Data></Cell><Cell><Data ss:Type="String">复仇者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REACTIVE_ARMOR_PLATING</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Bouncing Bob</Data></Cell><Cell><Data ss:Type="String">弹跳锤球</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REACTIVE_ARMOR_PLATING</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Vindicator</Data></Cell><Cell><Data ss:Type="String">维护者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REACTIVE_ARMOR_PLATING</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Redeemer</Data></Cell><Cell><Data ss:Type="String">救赎者</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Zoom>115</Zoom><Selected/><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:57:45Z</Created><LastSaved
+    >2019-06-25T15:57:45Z</LastSaved><Version
+    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX
+    >0</WindowTopX><WindowTopY>0</WindowTopY><MaxChange
+    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s57"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s57"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s57" ss:Width="261" /><Column
+        ss:StyleID="s57"
+        ss:Width="121.5"
+      /><Column ss:StyleID="s57" ss:Width="298.5" /><Column
+        ss:StyleID="s57"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="201" /><Column
+        ss:StyleID="s57"
+        ss:AutoFitWidth="0"
+        ss:Width="126"
+      /><Column ss:StyleID="s57" ss:Width="298.5" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data
+            ss:Type="String"
+          >UNIT_UPGRADES_EXPEDITIONARYWARFARE</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">NANITE_INJECTORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Nanite Injectors</Data></Cell><Cell><Data
+            ss:Type="String"
+          >纳米注射器</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">NANITE_INJECTORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Use Nanite Injectors to heal this unit for {NaniteHealAmount} and increase its resistances to all damage channels by {NaniteResistanceBonus} for {NaniteDuration}[turn/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用纳米注射器治疗单位 {NaniteHealAmount} 并提升 {NaniteResistanceBonus} 对所有伤害类型的抵抗，持续{NaniteDuration}[turn/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">NANITE_INJECTORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's resistances have been increased by {NaniteResistances}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的抵抗提升了 {NaniteResistances}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INTERLOCKING_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Interlocking Armor</Data></Cell><Cell><Data
+            ss:Type="String"
+          >连锁护甲</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >INTERLOCKING_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit gains [abilityblue]Stagger Resistance[/abilityblue] and {KineticResistance}[damagePhysical/] resistance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位获得[abilityblue]动摇抵抗[/abilityblue]和 {KineticResistance}[damagePhysical/]抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IMPROVED_SENSORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Improved Combat Sensors (Detector)</Data></Cell><Cell><Data
+            ss:Type="String"
+          >改良战斗传感器（侦察器）</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">IMPROVED_SENSORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit becomes {evasionAmount}% harder to hit and gains [abilityblue]Detection.[/abilityblue] In addition, the unit's scanner range on the strategic map is increased by {IncreaseRange} hexes.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的命中难度增加 {evasionAmount}% 并获得[abilityblue]侦察[/abilityblue]。此外，该单位在策略地图上的扫描器范围增加 {IncreaseRange} 个单元格。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >TRI_COMPOSITE_TACTICAL_ENGAGEMENT_PLATFORM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Miniaturized Missile Array</Data></Cell><Cell><Data
+            ss:Type="String"
+          >小型导弹阵列</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >TRI_COMPOSITE_TACTICAL_ENGAGEMENT_PLATFORM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gives the unit [abilityblue]Stagger Immunity[/abilityblue] and the 'Fire Brimstone Missile' ability.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >赋予单位[abilityblue]动摇免疫[/abilityblue]和“发射硫磺导弹”技能。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TACTICAL_ROCKET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire Brimstone Missile</Data></Cell><Cell><Data
+            ss:Type="String"
+          >发射硫磺导弹</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">TACTICAL_ROCKET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a Brimstone Missile at an enemy. The rocket leaves behind a stream of super-heated gas that deals Thermal damage to all units that enter its area.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向敌人发射硫磺导弹，导弹会留下大量超高温气体，进入该气体区域的所有单位将会受到热能伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >TRICORIUM_REACTIVE_ARMOR_PLATING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reactive Armor Plating</Data></Cell><Cell><Data
+            ss:Type="String"
+          >反冲装甲板</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >TRICORIUM_REACTIVE_ARMOR_PLATING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Whenever damage is dealt to this unit, {ReactiveArmorReflectPercentage} of the damage is reflected back to its source.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位无论何时受到伤害时，都会将受到伤害的 {ReactiveArmorReflectPercentage} 反弹给伤害制造者。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TARGETING_FIELD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Targeting Field</Data></Cell><Cell><Data
+            ss:Type="String"
+          >瞄准力场</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">TARGETING_FIELD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target enemy unit becomes {hitpenalty}% easier to hit for {turn}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标敌方单位的命中难度降低 {hitpenalty}%，持续 {turn}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REGENERATION_FIELD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Regeneration Field</Data></Cell><Cell><Data
+            ss:Type="String"
+          >再生力场</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">REGENERATION_FIELD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target friendly Biological unit instantly recovers {healAmount}[hp/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标友方生物单位立刻恢复 {healAmount}[hp/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BLUR_CLOUD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blur Cloud</Data></Cell><Cell><Data
+            ss:Type="String"
+          >模糊云</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">BLUR_CLOUD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target friendly unit becomes {accuracyPenalty}% harder to hit for {duration}[turn/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标友方单位的命中难度增加 {accuracyPenalty}%，持续 {duration}[turn/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DRONE_SUPPORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Drone Support</Data></Cell><Cell><Data
+            ss:Type="String"
+          >无人机支援</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DRONE_SUPPORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is receiving support from a sensor drone. It has a {accuracyBonus}% bonus to accuracy and cannot be Flanked.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位正受到传感无人机支援，拥有 {accuracyBonus}% 准度加成，同时无法被包抄。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DRONE_SUPPORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{accuracyBone}% accuracy.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{accuracyBone}% 准度。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRANSFER_DRONE_SUPPORT</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Transfer Drone Support</Data></Cell><Cell><Data
+            ss:Type="String"
+          >调动无人机支援</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">TRANSFER_DRONE_SUPPORT</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Send a drone to the target unit, granting it a {accuracyBonus}% bonus to accuracy and preventing it from being Flanked.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标单位派出无人机，赋予其 {accuracyBonus}% 准度加成且无法被包抄。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LAUNCH_ATTACK_DRONES</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch Attack Drones</Data></Cell><Cell><Data
+            ss:Type="String"
+          >发动攻击无人机</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">LAUNCH_ATTACK_DRONES</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch flying attack drones armed with laser weapons. The drones expire after {duration}[turn/].[br/][br/]The summoned unit will inherit any compatible mods that do not grant an active ability.[br/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发动装备有激光武器的攻击型无人机，无人机将在 {duration}[turn/]后失效。[br/][br/]召唤单位将会继承所有不会赋予主动技能的兼容模块。[br/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LAUNCH_NANITE_REPAIRBOTS</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch Repair Drone</Data></Cell><Cell><Data
+            ss:Type="String"
+          >发动修理无人机</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">LAUNCH_NANITE_REPAIRBOTS</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch flying repair drones that heal Biological, Cyborg or Mechanical units. The drones expire after {duration}[turn/].[br/][br/]The summoned unit will inherit any compatible mods that do not grant an active ability.[br/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发动修理无人机，治疗生物、半机械人或机械单位，无人机将在 {duration}[turn/]后失效。[br/][br/]召唤单位将会继承所有不会赋予主动技能的兼容模块。[br/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LAUNCH_SKIRMISH_DRONES</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch Skirmish Drones</Data></Cell><Cell><Data
+            ss:Type="String"
+          >发动冲突无人机</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">LAUNCH_SKIRMISH_DRONES</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch melee skirmish drones into combat. The drones expire after {duration}[turn/].[br/][br/]The summoned unit will inherit any compatible mods that do not grant an active ability.[br/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >派遣近战冲突无人机加入战斗，无人机将在 {duration}[turn/]后失效。[br/][br/]召唤单位将会继承所有不会赋予主动技能的兼容模块。[br/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">NANITE_REPAIR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Nanite Repair</Data></Cell><Cell><Data
+            ss:Type="String"
+          >纳米修复</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">NANITE_REPAIR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heal target unit with a swarm of nanites for {healAmount}[hp/][br/]Works on Biological, Cyborg and Mechanical units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >用一群纳米机器人治疗目标单位 {healAmount}[hp/][br/]对生物、半机械人单位和机械单位有效。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EQUIPMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MED_KIT_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Med Kit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >医疗包</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EQUIPMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >REPAIR_KIT_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Repair Kit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >修理包</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SURVIVAL_KIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Survival Kit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >救生箱</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SURVIVAL_KIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Instantly heal this unit for {healAmount}[hp/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >立刻治疗该单位 {healAmount}[hp/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SURVIVAL_KIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gives the unit a Survival Kit, allowing it to heal itself once per battle.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >给该单位装备一个救生箱，每次战斗可治疗自身一次。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MEDKIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Med Kit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >医疗包</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">MEDKIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Instantly heal target unit for {healAmount}[hp/][br/]Does not affect Mechanical units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >立刻治疗目标单位 {healAmount}[hp/][br/]对机械单位无效。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MEDKIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gives the unit a Medical Kit, allowing it to heal other units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >给该单位装备一个医疗包，可让该单位治疗其他单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SELF_REPAIR_PROTOCOL</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Self Repair Protocol</Data></Cell><Cell><Data
+            ss:Type="String"
+          >自助修复协议</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">SELF_REPAIR_PROTOCOL</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Instantly heal target unit for {healAmount}. Removes all hostile Arc status effects and increases resistance against all Arc status effects by {RepairProtocolResistance} for {RepairProtocolTurn}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >立刻治疗目标单位 {healAmount}，移除所有敌对电弧状态效果并对所有电弧状态效果提升 {RepairProtocolResistance} 抵抗，持续 {RepairProtocolTurn}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SELF_REPAIR_PROTOCOL</Data></Cell><Cell
+        ><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has {RepairProtocol} increased resistance against status effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位对状态效果拥有额外 {RepairProtocol} 抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REPAIR_KIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Repair Tools</Data></Cell><Cell><Data
+            ss:Type="String"
+          >修理工具</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">REPAIR_KIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heal the targeted Mechanical or Cyborg unit for {healAmount}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >治疗目标机械或半机械人单位 {healAmount}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ADVANCED_REPAIR_KIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Advanced Repair Tools</Data></Cell><Cell><Data
+            ss:Type="String"
+          >高级修理工具</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ADVANCED_REPAIR_KIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heal the targeted Heavy unit for {healAmount} for each action point spent.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每消耗一点操作点数，治疗目标重型单位 {healAmount}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ADVANCED_REPAIR_KIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gives the unit an improved repair kit, allowing it to repair Heavy units in combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >给该单位装备一个改良的修理包，使其能够在战斗中修理重型单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLACE_GUN_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Place Gun Turret</Data></Cell><Cell><Data
+            ss:Type="String"
+          >放置炮塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PLACE_GUN_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Place a gun turret on the target hex.[br/][br/]The summoned unit will inherit any compatible mods that do not grant an active ability.[br/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在目标单元格放置炮塔。[br/][br/]召唤单位将会继承所有不会赋予主动技能的兼容模块。[br/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PLACE_GUN_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DECRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gives the unit a self-constructing gun turret to deploy in battle.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >给予该单位能够在战斗中进行自我搭建的炮塔。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLACE_LASER_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Place Laser Turret</Data></Cell><Cell><Data
+            ss:Type="String"
+          >放置激光炮塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PLACE_LASER_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Place a laser turret on the target hex.[br/][br/]The summoned unit will inherit any compatible mods that do not grant an active ability.[br/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在目标单元格放置激光炮塔。[br/][br/]召唤单位将会继承所有不会赋予主动技能的兼容模块。[br/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PLACE_LASER_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DECRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Replaces the Engineer's gun turret with a laser turret that deals Thermal damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将工程师的炮塔替换成能够造成热能伤害的激光炮塔。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLACE_LAUNCHER_TURRET</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Place Launcher Turret</Data></Cell><Cell><Data
+            ss:Type="String"
+          >放置发射器炮塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLACE_LAUNCHER_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Place a launcher turret on the target hex.[br/][br/]The summoned unit will inherit any compatible mods that do not grant an active ability.[br/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在目标单元格放置发射器炮塔。[br/][br/]召唤单位将会继承所有不会赋予主动技能的兼容模块。[br/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLACE_LAUNCHER_TURRET</Data></Cell><Cell
+        ><Data ss:Type="String">UPGRADE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launcher Turret Pack</Data></Cell><Cell><Data
+            ss:Type="String"
+          >发射器炮塔组</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PLACE_LAUNCHER_TURRET</Data></Cell><Cell
+        ><Data ss:Type="String">UPGRADE_DECRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Replaces the Engineer's gun turret with a turret that fires missiles.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将工程师的炮塔替换成能够发射导弹的发射器炮塔。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LASER_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Twin Lasers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >双联激光枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >LASER_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire twin lasers at the target hex, dealing Thermal damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用双联激光枪攻击目标单元格，造成热能伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LAUNCHER_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mini Launcher</Data></Cell><Cell><Data
+            ss:Type="String"
+          >迷你发射器</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">LAUNCHER_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a missile at the target hex, dealing Kinetic damage in an area of effect.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标单元格发射导弹，造成范围动能伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DEPLOY_SMOKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deploy Smoke</Data></Cell><Cell><Data
+            ss:Type="String"
+          >释放烟雾</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">DEPLOY_SMOKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deploy smoke on all adjacent hexes around the unit. The smoke lingers for {SmokeTurns}, and all units inside the smoke are [abilityblue]Obscured[/abilityblue]. Obscured units are {SmokeObscurePercentage} harder to hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向单位周围相邻的所有单元格释放烟雾。烟雾持续 {SmokeTurns}，烟雾内的所有单位获得[abilityblue]模糊[/abilityblue]。模糊单位的命中难度增加 {SmokeObscurePercentage}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RESUPPLY_CHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Resupply Charge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >再补给充能</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">RESUPPLY_CHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Resupply target friendly unit. All of the unit's ability cooldowns and once per battle abilities are reset.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >重新补给目标友方单位，重置该单位所有技能的冷却时间和每场战斗只能使用一次的技能。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEALING_CHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Healing Charge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >治疗充能</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HEALING_CHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heal target friendly unit for {HealingAmount}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >治疗目标友方单位 {HealingAmount}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SMOKE_SHELL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire Smoke Shell</Data></Cell><Cell><Data
+            ss:Type="String"
+          >发射烟雾弹</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">SMOKE_SHELL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a smoke shell at the target hex. Leaves a cloud of smoke for {SmokeTurns}. Units inside the smoke are {SmokeEvasion}% harder to hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标单元格发射烟雾弹，留下一片烟雾云，持续 {SmokeTurns}。位于烟雾中的单位命中难度增加 {SmokeEvasion}%。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">NAVAL_ENGINEERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Naval Engineers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >海军工程师</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">NAVAL_ENGINEERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deploy naval engineers to repair target ship, healing it for {HealAmount}[hp/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >部署海军工程师修复目标船只，治疗其 {HealAmount}[hp/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARMOR_REINFORCEMENTS</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Armor Reinforcement</Data></Cell><Cell><Data
+            ss:Type="String"
+          >护甲强化</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ARMOR_REINFORCEMENTS</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Provides armor reinforcements to all Light units. They gain {FieldAmorAmount} permanently.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >为所有轻型单位提供强化护甲，永久获得 {FieldAmorAmount}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXPLOIT_MODULE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sequential Kill System</Data></Cell><Cell><Data
+            ss:Type="String"
+          >连环杀戮系统</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">EXPLOIT_MODULE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit regains 1 action point upon dealing the killing blow to an enemy. Can only occur once per turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位在击杀某个敌人时将恢复 1 点操作点数。每回合只能触发一次。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXPLOIT_MODULE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Kills refill 1 action point, once per turn.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >击杀敌人可恢复 1 点操作点数，每回合只能触发一次。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ASSAULT_JUMP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Assault Jump</Data></Cell><Cell><Data
+            ss:Type="String"
+          >突袭跳跃</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">ASSAULT_JUMP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Jump to the target location, and activate a powerful forcefield that adds {shieldStrength}[shield/] to the unit for {shieldDuration}[turn/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >跳向目标地点并激活强效力场，为该单位增加 {shieldStrength}[shield/]，持续 {shieldDuration}[turn/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">JETPACK_MOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_ITEM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Jetpack</Data></Cell><Cell><Data
+            ss:Type="String"
+          >喷气背包</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >JETPACK_MOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Jetpack Jump</Data></Cell><Cell><Data
+            ss:Type="String"
+          >喷气背包跳跃</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >JETPACK_MOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Jump to the target location.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >跳向目标地点。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">ASSAULT_SHIELDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Assault Shields</Data></Cell><Cell><Data
+            ss:Type="String"
+          >袭击护盾</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ASSAULT_SHIELDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A powerful temporary shield protects the unit for {shieldStrength}[shield/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >能够为单位提供保护的强力临时护盾，持续 {shieldStrength}[shield/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">POWERED_RAM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Powered Impact</Data></Cell><Cell><Data
+            ss:Type="String"
+          >能量冲击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >POWERED_RAM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Rams the target at great speed.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >高速冲撞目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">BIOLOGICAL_RECOVERY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Biological Recovery</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生物恢复</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">BIOLOGICAL_RECOVERY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit heals each Biological unit in its stack for {recoveryhp}[hp/] per strategic turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在每个战略回合将治疗其小组中的生物单位 {recoveryhp}[hp/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MECHANICAL_RECOVERY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mechanical Recovery</Data></Cell><Cell><Data
+            ss:Type="String"
+          >机械恢复</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">MECHANICAL_RECOVERY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit heals each Mechanical unit in its stack for {recoveryhp}[hp/] per strategic turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在每个战略回合将治疗其小组中的机械单位 {recoveryhp}[hp/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TARGETING_CALIBRATION</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Targeting Calibration</Data></Cell><Cell><Data
+            ss:Type="String"
+          >瞄准校准</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">TARGETING_CALIBRATION</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Assist the targeting computers of a friendly Mechanical unit, increasing their accuracy by {TargetingCalibrationAcc} for {TargetingCalibrationDuration}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >辅助友方机械单位的瞄准系统，提升其准度 {TargetingCalibrationAcc}，持续 {TargetingCalibrationDuration}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CALIBRATED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Calibrated</Data></Cell><Cell><Data
+            ss:Type="String"
+          >校准完毕</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CALIBRATED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has {TargetingCalibrationAcc} for {TargetingCalibrationDuration}[turn/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位拥有 {TargetingCalibrationAcc}，持续 {TargetingCalibrationDuration}[turn/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REPAIR_CHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch Repair Charge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >发射修复炸弹</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">REPAIR_CHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch a charge that explodes in a shower of nanobots that repair Mechanical and Cyborg units in the targeted area for {RepairChargeHP}[hp/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发射能够爆炸并产生大量纳米机器人的炸弹，修复目标范围内的机械和半机械人单位 {RepairChargeHP}[hp/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">NANITE_INJECTORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sustained</Data></Cell><Cell><Data
+            ss:Type="String"
+          >持久</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >NANITE_INJECTORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hearty</Data></Cell><Cell><Data
+            ss:Type="String"
+          >健壮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >NANITE_INJECTORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Revitalized</Data></Cell><Cell><Data
+            ss:Type="String"
+          >元气复苏</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >NANITE_INJECTORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Refreshed</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精神振作</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >NANITE_INJECTORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Stim-fueled</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精力充沛</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >NANITE_INJECTORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Replenished</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精气十足</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >IMPROVED_SENSORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Eagle-eye</Data></Cell><Cell><Data
+            ss:Type="String"
+          >鹰眼</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >IMPROVED_SENSORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Scanner</Data></Cell><Cell><Data
+            ss:Type="String"
+          >扫描器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >IMPROVED_SENSORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Detective</Data></Cell><Cell><Data
+            ss:Type="String"
+          >侦探</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >IMPROVED_SENSORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Inspector</Data></Cell><Cell><Data
+            ss:Type="String"
+          >巡查者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >IMPROVED_SENSORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Detector</Data></Cell><Cell><Data
+            ss:Type="String"
+          >侦察者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >IMPROVED_SENSORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Checkmate</Data></Cell><Cell><Data
+            ss:Type="String"
+          >直击要害</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >INTERLOCKING_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reinforced</Data></Cell><Cell><Data
+            ss:Type="String"
+          >强化</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >INTERLOCKING_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sturdy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >结实</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >INTERLOCKING_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Interlocking</Data></Cell><Cell><Data
+            ss:Type="String"
+          >连锁</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >INTERLOCKING_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Plated</Data></Cell><Cell><Data
+            ss:Type="String"
+          >镀甲</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >INTERLOCKING_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hardened</Data></Cell><Cell><Data
+            ss:Type="String"
+          >硬化</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >INTERLOCKING_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hurt Locker</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防弹服</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >INTERLOCKING_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_7</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tough</Data></Cell><Cell><Data
+            ss:Type="String"
+          >坚硬</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >INTERLOCKING_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_8</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Stalwart</Data></Cell><Cell><Data
+            ss:Type="String"
+          >牢固</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PLACE_LAUNCHER_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Jackhammer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >气锤</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PLACE_LAUNCHER_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Constructor</Data></Cell><Cell><Data
+            ss:Type="String"
+          >建设者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PLACE_LAUNCHER_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Technomancer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >科技巫师</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PLACE_LAUNCHER_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Turreteer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >炮塔师</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PLACE_LAUNCHER_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Stationary</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不动如山</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PLACE_LAUNCHER_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Inventor</Data></Cell><Cell><Data
+            ss:Type="String"
+          >创造者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >JETPACK_MOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Soaring</Data></Cell><Cell><Data
+            ss:Type="String"
+          >翱翔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >JETPACK_MOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Wingman</Data></Cell><Cell><Data
+            ss:Type="String"
+          >僚机</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >JETPACK_MOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Aerodynamic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >航空动力</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >JETPACK_MOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deep Striker</Data></Cell><Cell><Data
+            ss:Type="String"
+          >深度打击者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >JETPACK_MOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Feathered</Data></Cell><Cell><Data
+            ss:Type="String"
+          >羽翼</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >JETPACK_MOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hawk</Data></Cell><Cell><Data
+            ss:Type="String"
+          >雄鹰</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXPLOIT_MODULE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Terminator</Data></Cell><Cell><Data
+            ss:Type="String"
+          >终结者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXPLOIT_MODULE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ruthless</Data></Cell><Cell><Data
+            ss:Type="String"
+          >残忍</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXPLOIT_MODULE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Relentless</Data></Cell><Cell><Data
+            ss:Type="String"
+          >无情</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXPLOIT_MODULE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reaper</Data></Cell><Cell><Data
+            ss:Type="String"
+          >死神</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXPLOIT_MODULE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thrillkiller</Data></Cell><Cell><Data
+            ss:Type="String"
+          >连环杀手</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXPLOIT_MODULE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Slugger</Data></Cell><Cell><Data
+            ss:Type="String"
+          >重击手</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MINIATURED_MISSILE_ARRAY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Javelin</Data></Cell><Cell><Data
+            ss:Type="String"
+          >标枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MINIATURED_MISSILE_ARRAY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hellfire</Data></Cell><Cell><Data
+            ss:Type="String"
+          >地狱火</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MINIATURED_MISSILE_ARRAY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Smart Launcher</Data></Cell><Cell><Data
+            ss:Type="String"
+          >智能发射器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MINIATURED_MISSILE_ARRAY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Barrage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >弹幕</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MINIATURED_MISSILE_ARRAY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Devastator</Data></Cell><Cell><Data
+            ss:Type="String"
+          >毁灭者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MINIATURED_MISSILE_ARRAY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blastmaster</Data></Cell><Cell><Data
+            ss:Type="String"
+          >爆破专家</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >REACTIVE_ARMOR_PLATING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Achillean</Data></Cell><Cell><Data
+            ss:Type="String"
+          >刀枪不入</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >REACTIVE_ARMOR_PLATING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Kingpin</Data></Cell><Cell><Data
+            ss:Type="String"
+          >中心轴</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >REACTIVE_ARMOR_PLATING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Avenger</Data></Cell><Cell><Data
+            ss:Type="String"
+          >复仇者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >REACTIVE_ARMOR_PLATING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bouncing Bob</Data></Cell><Cell><Data
+            ss:Type="String"
+          >弹跳锤球</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >REACTIVE_ARMOR_PLATING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vindicator</Data></Cell><Cell><Data
+            ss:Type="String"
+          >维护者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >REACTIVE_ARMOR_PLATING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Redeemer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >救赎者</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>115</Zoom><Selected
+      /><ProtectObjects>False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

@@ -1,1 +1,569 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:51:03Z</Created><LastSaved>2019-06-25T15:51:03Z</LastSaved><Version>15.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX>0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s57"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/></Style><Style ss:ID="s58"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/><Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s57" ss:DefaultRowHeight="15"><Column ss:StyleID="s57" ss:Width="205.5"/><Column ss:StyleID="s57" ss:Width="168.75"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="319.5"/><Column ss:StyleID="s57" ss:Width="147.75"/><Column ss:StyleID="s57" ss:Width="156.75"/><Column ss:StyleID="s57" ss:Width="120.75"/><Row ss:AutoFitHeight="0" ss:Height="120"><Cell><Data ss:Type="String">NODES_STRATEGIC</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TOME_OF_WONDERS_LINKS</Data></Cell><Cell><Data ss:Type="String">CRYSTAL_TAG</Data></Cell><Cell><Data ss:Type="String">[hyperlink,0000039F000024D8]Cosmite[/hyperlink]</Data></Cell><Cell><Data ss:Type="String">[hyperlink,0000039F000024D8]宇宙合金[/hyperlink]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Cosmite is an in-game currency</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">TOME_OF_WONDERS_LINKS</Data></Cell><Cell><Data ss:Type="String">RESOURCE_NODE_TAG</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">[hyperlink,0000039A00000924]Resource Node[/hyperlink]</Data></Cell><Cell><Data ss:Type="String">[hyperlink,0000039A00000924]资源节点[/hyperlink]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource nodes are locations on the map that generate a steady income of the resource.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENERGY_NODE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Derelict Power Plant</Data></Cell><Cell><Data ss:Type="String">荒废电厂</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">ENERGY_NODE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A small-scale Star Union Power Plant lies abandoned here. Grants {Energy} Energy to the colony it is linked to.[br/][br/]Grants an additional {SynergyEnergy} Energy when in an Energy Exploitation.</Data></Cell><Cell><Data ss:Type="String">一座小型星际联盟电厂坐落于此。向所属殖民地输送 {Energy} 能量。[br/][br/]此外，当处于能量开发点时，可提供额外 {SynergyEnergy} 能量。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node description. Exploitations are structures built in the sector by the player.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENERGY_NODE</Data></Cell><Cell><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">No translation required.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">WATER_ENERGY_NODE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Derelict Hydro-Plant</Data></Cell><Cell><Data ss:Type="String">荒废水厂</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">WATER_ENERGY_NODE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A forgotten Star Union hydroelectric power plant sits here. Grants {Energy} Energy to the colony it is linked to.</Data></Cell><Cell><Data ss:Type="String">一座小型星际联盟水厂坐落于此。它可为所属殖民地提供 {Energy} 能量。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node description.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PRODUCTION_NODE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Abandoned Quarry</Data></Cell><Cell><Data ss:Type="String">遗弃采矿场</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">PRODUCTION_NODE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Minerals are mined from here. Grants {Production} Production to the colony it is linked to.[br/][br/]Grants an additional {SynergyProduction} Production when in a Production Exploitation.</Data></Cell><Cell><Data ss:Type="String">此处用于开采矿物。它可为所属殖民地提供 {Production} 产力。[br/][br/]此外，当处于能量开发点时，可提供额外 {SynergyProduction} 产力。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node description. Exploitations are structures built in the sector by the player.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PRODUCTION_NODE</Data></Cell><Cell><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">No translation required.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">WATER_PRODUCTION_NODE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Deep Sea Mining Station</Data></Cell><Cell><Data ss:Type="String">深海采矿站</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">WATER_PRODUCTION_NODE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Valuable deep sea minerals are mind from the seabed using this mining station. Grants {Production} Production to the colony it is linked to.</Data></Cell><Cell><Data ss:Type="String">这座采矿站可供你深入海床，开采有价值的深海矿物。此外，它可为所属殖民地提供 {Production} 产力。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node description.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RESEARCH_NODE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Research Station</Data></Cell><Cell><Data ss:Type="String">研究所</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">RESEARCH_NODE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Research is performed in these dome-shaped high-tech labs. Grants {Research} Knowledge to the colony it is linked to.[br/][br/]Grants an additional {SynergyResearch} Knowledge when in a Research Exploitation.</Data></Cell><Cell><Data ss:Type="String">这些圆顶高科技实验室用于开展科研活动。它可为所属殖民地提供 {Research} 知识。[br/][br/]此外，当处于研究开发点时，可提供额外 {SynergyResearch} 知识。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node description. Exploitations are structures built in the sector by the player.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RESEARCH_NODE</Data></Cell><Cell><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">No translation required.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">WATER_RESEARCH_NODE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Marine Research Station</Data></Cell><Cell><Data ss:Type="String">海洋研究所</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">WATER_RESEARCH_NODE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Research into aquatic applications of technology is performed in these special Marine Research Stations. Grants {Research} Knowledge to the colony it is linked to.</Data></Cell><Cell><Data ss:Type="String">这些专业海洋研究所用于开展水中应用科技研究。它可为所属殖民地提供 {Research} 知识。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node description.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SUPPLY_NODE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Overgrown Biodome</Data></Cell><Cell><Data ss:Type="String">巨型生物穹顶</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SUPPLY_NODE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Vital supplies are grown and manufactured here. Grants {Supply} Food to the colony it is linked to.[br/][br/]Grants an additional {SynergySupply} Food when in an Agriculture Exploitation.</Data></Cell><Cell><Data ss:Type="String">此处用于种植生产主要生活供给。它可为所属殖民地提供 {Supply} 食物。[br/][br/]此外，当处于农业开发点时，可提供额外 {SynergySupply} 食物。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node description. Exploitations are structures built in the sector by the player.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SUPPLY_NODE</Data></Cell><Cell><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">No translation required.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">WATER_SUPPLY_NODE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Aquatic Algae Farms</Data></Cell><Cell><Data ss:Type="String">水生生物农场</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">WATER_SUPPLY_NODE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Water-based Algae Farms have increased growth rates for organic manufacturing. Grants {Supply} Food to the colony it is linked to.</Data></Cell><Cell><Data ss:Type="String">水生生物农场有机生产增长率连年提升。它可为所属殖民地提供 {Supply} 食物。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node description.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CRYSTAL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Cosmite Spatial Rift</Data></Cell><Cell><Data ss:Type="String">宇宙空间裂隙</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">CRYSTAL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A spatial rift to the Void is located here, out of which shards of Cosmite are emerging. Cosmite can be harvested here in limited quantities. Grants {Crystal} Cosmite income to the colony it is linked to.</Data></Cell><Cell><Data ss:Type="String">通往虚空的空间裂隙所在地，宇宙合金碎片产地。你可在此地限量开采宇宙合金。此外，此地可向所属殖民地带来 {Crystal} 宇宙合金收益。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node description. Exploitations are structures built in the sector by the player.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CRYSTAL</Data></Cell><Cell><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">No translation required.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">QUARTZITE_CRYSTAL_NODE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Quartzite Crystal Cluster</Data></Cell><Cell><Data ss:Type="String">石英岩兽水晶蔟</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">QUARTZITE_CRYSTAL_NODE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The Quartzite secrete energized crystals as part of their lifecycle. These crystals can grow together to become Crystal Clusters. [br/][br/][bulletList][bullet]Grants {QuartziteEnergy}[energy/] [/bullet][br/][bullet]During combat in this sector, all Mineral units are healed for {QuartziteHealing}, at the start of their turn.[/bullet][/bulletlist]</Data></Cell><Cell><Data ss:Type="String">石英岩兽将能量水晶视为它们生命周期不传之秘。这些水晶可共生，长成水晶蔟。[br/][br/][bulletList][bullet]它们可为你提供 {QuartziteEnergy}[energy/] [/bullet][br/][bullet]。在此区域战斗中，所有矿物单位可在自己出战回合开始时，获得 {QuartziteHealing} 治疗。[/bullet][/bulletlist]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node description. Quartzite are wildlife units.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">QUARTZITE_CRYSTAL_NODE</Data></Cell><Cell><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">No translation required.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">QUARTZITE_CRYSTAL_NODE</Data></Cell><Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">On their turn, all Mineral units are healed for {WasteHeal}[hp/].</Data></Cell><Cell><Data ss:Type="String">所有矿物单位在其回合中可治疗 {WasteHeal}[hp/]。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Combat modifier description.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TRANSMISSION_TOWER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Transmission Tower</Data></Cell><Cell><Data ss:Type="String">传输塔</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">TRANSMISSION_TOWER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The Autonom maintain a strong planetary communication network. During the empire's prime, these towers allowed for interplanetary communication as well. [br/][br/]Grants {TransmissionTowerRange} increased vision and scan range to your colony. Grants {Influencegain} Influence.</Data></Cell><Cell><Data ss:Type="String">自主机械维护行星通讯网络。在帝国全盛时期，这些传输塔可为星际通讯提供支持。[br/][br/]可为殖民地提供 {TransmissionTowerRange} 视野和扫描范围。此外，还可提供 {Influencegain} 影响力。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node description. Autonom are an NPC faction of robots</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TRANSMISSION_TOWER</Data></Cell><Cell><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">No translation required.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TRAINING_FACILITY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Paragon Training Facility</Data></Cell><Cell><Data ss:Type="String">完人训练设施</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">TRAINING_FACILITY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The Paragon maintain a sizable military despite the Star Union's decline. These facilities that once serve to train the Vanguard are now merely maintained by the Paragon and their deathless legions. [br/][br/]Grants {AccBonus} accuracy and {MoraleBonus} morale to Infantry units built in your colony.</Data></Cell><Cell><Data ss:Type="String">虽然星际联盟衰落，但完人势力仍然维持着一支兵力可观的军队。这些设施曾用于训练先锋，如今由完人及其不死军团维护。[br/][br/]可为殖民地步兵单位提升 {AccBonus} 准度和 {MoraleBonus} 士气。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node description. Paragon are an NPC faction</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PARAGON_TRAINING_FACILITY_PROPERTY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Paragon Facility Training</Data></Cell><Cell><Data ss:Type="String">完人设施训练</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">PARAGON_TRAINING_FACILITY_PROPERTY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has been trained extensively in a Star Union training facility, improving its accuracy and confidence in combat. This unit gains {AccMod} accuracy and {MoraleMod} morale.</Data></Cell><Cell><Data ss:Type="String">该单位曾在星际联盟训练场接受过全面训练，战斗精准度和气势非同凡响。该单位获得 {AccMod} 准度和 {MoraleMod} 士气。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node description. Paragon are an NPC faction</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CELESTIAN_ARTIFACT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Celestian Artifact</Data></Cell><Cell><Data ss:Type="String">星神神器</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">CELESTIAN_ARTIFACT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">These strange artifacts belong to an ancient 'Celestian' civilization. The device seems to have some subtle sway over the mind. It could prove influential if one were capable of controlling it. [br/][br/]Grants {CelestianArtifactInfluence} Influence income to the owner.</Data></Cell><Cell><Data ss:Type="String">这些散发着奇特神秘气息的神器诞生于远古星神文明。这些设备似乎可对心灵施加某种微妙的影响。若你能加以控制，可获得影响力加成。[br/][br/]它可为持有者带来 {CelestianArtifactInfluence} 影响力收益。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node description. Celestian is a secret tech.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CELESTIAN_ARTIFACT</Data></Cell><Cell><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">No translation required.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPACER_REFINERY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Spacer Refinery</Data></Cell><Cell><Data ss:Type="String">太空冶炼厂</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">SPACER_REFINERY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">These refineries are specialized in producing heavy duty constructions, and thus have optimized production processes.[br/]When located within a colony's domain, Heavy unit production cost in that colony is reduced by {ProductionCostReduction} [production/].</Data></Cell><Cell><Data ss:Type="String">这些冶炼厂专门用于生产重载构造，生产流程精益求精。[br/]在殖民地范围内建造这种冶炼厂，可将重型单位产力消耗降低 {ProductionCostReduction} [production/]。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node description. Spacers are an NPC faction</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">WATER_CRYSTAL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Aquatic Cosmite Rift</Data></Cell><Cell><Data ss:Type="String">水上宇宙合金裂隙</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Resource node name.</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Zoom>115</Zoom><Selected/><LeftColumnVisible>2</LeftColumnVisible><Panes><Pane><Number>3</Number><ActiveRow>4</ActiveRow><ActiveCol>5</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:51:03Z</Created><LastSaved
+    >2019-06-25T15:51:03Z</LastSaved><Version
+    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX
+    >0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s57"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
+      ss:ID="s58"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /><Font
+        ss:FontName="Arial"
+        x:Family="Swiss"
+        ss:Color="#000000"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s57"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s57" ss:Width="205.5" /><Column
+        ss:StyleID="s57"
+        ss:Width="168.75"
+      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="319.5" /><Column
+        ss:StyleID="s57"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s57" ss:Width="156.75" /><Column
+        ss:StyleID="s57"
+        ss:Width="120.75"
+      /><Row ss:AutoFitHeight="0" ss:Height="120"><Cell><Data
+            ss:Type="String"
+          >NODES_STRATEGIC</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TOME_OF_WONDERS_LINKS</Data></Cell><Cell
+        ><Data ss:Type="String">CRYSTAL_TAG</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[hyperlink,0000039F000024D8]Cosmite[/hyperlink]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[hyperlink,0000039F000024D8]宇宙合金[/hyperlink]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Cosmite is an in-game currency</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">TOME_OF_WONDERS_LINKS</Data></Cell><Cell
+        ><Data ss:Type="String">RESOURCE_NODE_TAG</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >[hyperlink,0000039A00000924]Resource Node[/hyperlink]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[hyperlink,0000039A00000924]资源节点[/hyperlink]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Resource nodes are locations on the map that generate a steady income of the resource.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENERGY_NODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Derelict Power Plant</Data></Cell><Cell><Data
+            ss:Type="String"
+          >荒废电厂</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Resource node name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">ENERGY_NODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A small-scale Star Union Power Plant lies abandoned here. Grants {Energy} Energy to the colony it is linked to.[br/][br/]Grants an additional {SynergyEnergy} Energy when in an Energy Exploitation.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一座小型星际联盟电厂坐落于此。向所属殖民地输送 {Energy} 能量。[br/][br/]此外，当处于能量开发点时，可提供额外 {SynergyEnergy} 能量。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Resource node description. Exploitations are structures built in the sector by the player.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENERGY_NODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">WATER_ENERGY_NODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Derelict Hydro-Plant</Data></Cell><Cell><Data
+            ss:Type="String"
+          >荒废水厂</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Resource node name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">WATER_ENERGY_NODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A forgotten Star Union hydroelectric power plant sits here. Grants {Energy} Energy to the colony it is linked to.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一座小型星际联盟水厂坐落于此。它可为所属殖民地提供 {Energy} 能量。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Resource node description.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PRODUCTION_NODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Abandoned Quarry</Data></Cell><Cell><Data
+            ss:Type="String"
+          >遗弃采矿场</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Resource node name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">PRODUCTION_NODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Minerals are mined from here. Grants {Production} Production to the colony it is linked to.[br/][br/]Grants an additional {SynergyProduction} Production when in a Production Exploitation.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此处用于开采矿物。它可为所属殖民地提供 {Production} 产力。[br/][br/]此外，当处于能量开发点时，可提供额外 {SynergyProduction} 产力。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Resource node description. Exploitations are structures built in the sector by the player.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PRODUCTION_NODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">WATER_PRODUCTION_NODE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deep Sea Mining Station</Data></Cell><Cell><Data
+            ss:Type="String"
+          >深海采矿站</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Resource node name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">WATER_PRODUCTION_NODE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Valuable deep sea minerals are mind from the seabed using this mining station. Grants {Production} Production to the colony it is linked to.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这座采矿站可供你深入海床，开采有价值的深海矿物。此外，它可为所属殖民地提供 {Production} 产力。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Resource node description.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RESEARCH_NODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Research Station</Data></Cell><Cell><Data
+            ss:Type="String"
+          >研究所</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Resource node name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">RESEARCH_NODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Research is performed in these dome-shaped high-tech labs. Grants {Research} Knowledge to the colony it is linked to.[br/][br/]Grants an additional {SynergyResearch} Knowledge when in a Research Exploitation.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这些圆顶高科技实验室用于开展科研活动。它可为所属殖民地提供 {Research} 知识。[br/][br/]此外，当处于研究开发点时，可提供额外 {SynergyResearch} 知识。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Resource node description. Exploitations are structures built in the sector by the player.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RESEARCH_NODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">WATER_RESEARCH_NODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Marine Research Station</Data></Cell><Cell><Data
+            ss:Type="String"
+          >海洋研究所</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Resource node name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">WATER_RESEARCH_NODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Research into aquatic applications of technology is performed in these special Marine Research Stations. Grants {Research} Knowledge to the colony it is linked to.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这些专业海洋研究所用于开展水中应用科技研究。它可为所属殖民地提供 {Research} 知识。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Resource node description.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SUPPLY_NODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Overgrown Biodome</Data></Cell><Cell><Data
+            ss:Type="String"
+          >巨型生物穹顶</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Resource node name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">SUPPLY_NODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vital supplies are grown and manufactured here. Grants {Supply} Food to the colony it is linked to.[br/][br/]Grants an additional {SynergySupply} Food when in an Agriculture Exploitation.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此处用于种植生产主要生活供给。它可为所属殖民地提供 {Supply} 食物。[br/][br/]此外，当处于农业开发点时，可提供额外 {SynergySupply} 食物。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Resource node description. Exploitations are structures built in the sector by the player.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SUPPLY_NODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">WATER_SUPPLY_NODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Aquatic Algae Farms</Data></Cell><Cell><Data
+            ss:Type="String"
+          >水生生物农场</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Resource node name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">WATER_SUPPLY_NODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Water-based Algae Farms have increased growth rates for organic manufacturing. Grants {Supply} Food to the colony it is linked to.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >水生生物农场有机生产增长率连年提升。它可为所属殖民地提供 {Supply} 食物。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Resource node description.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CRYSTAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cosmite Spatial Rift</Data></Cell><Cell><Data
+            ss:Type="String"
+          >宇宙空间裂隙</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Resource node name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">CRYSTAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A spatial rift to the Void is located here, out of which shards of Cosmite are emerging. Cosmite can be harvested here in limited quantities. Grants {Crystal} Cosmite income to the colony it is linked to.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >通往虚空的空间裂隙所在地，宇宙合金碎片产地。你可在此地限量开采宇宙合金。此外，此地可向所属殖民地带来 {Crystal} 宇宙合金收益。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Resource node description. Exploitations are structures built in the sector by the player.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CRYSTAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">QUARTZITE_CRYSTAL_NODE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Quartzite Crystal Cluster</Data></Cell><Cell><Data
+            ss:Type="String"
+          >石英岩兽水晶蔟</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Resource node name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">QUARTZITE_CRYSTAL_NODE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Quartzite secrete energized crystals as part of their lifecycle. These crystals can grow together to become Crystal Clusters. [br/][br/][bulletList][bullet]Grants {QuartziteEnergy}[energy/] [/bullet][br/][bullet]During combat in this sector, all Mineral units are healed for {QuartziteHealing}, at the start of their turn.[/bullet][/bulletlist]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >石英岩兽将能量水晶视为它们生命周期不传之秘。这些水晶可共生，长成水晶蔟。[br/][br/][bulletList][bullet]它们可为你提供 {QuartziteEnergy}[energy/] [/bullet][br/][bullet]。在此区域战斗中，所有矿物单位可在自己出战回合开始时，获得 {QuartziteHealing} 治疗。[/bullet][/bulletlist]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Resource node description. Quartzite are wildlife units.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">QUARTZITE_CRYSTAL_NODE</Data></Cell><Cell
+        ><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">QUARTZITE_CRYSTAL_NODE</Data></Cell><Cell
+        ><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >On their turn, all Mineral units are healed for {WasteHeal}[hp/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有矿物单位在其回合中可治疗 {WasteHeal}[hp/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Combat modifier description.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRANSMISSION_TOWER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Transmission Tower</Data></Cell><Cell><Data
+            ss:Type="String"
+          >传输塔</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Resource node name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">TRANSMISSION_TOWER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Autonom maintain a strong planetary communication network. During the empire's prime, these towers allowed for interplanetary communication as well. [br/][br/]Grants {TransmissionTowerRange} increased vision and scan range to your colony. Grants {Influencegain} Influence.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >自主机械维护行星通讯网络。在帝国全盛时期，这些传输塔可为星际通讯提供支持。[br/][br/]可为殖民地提供 {TransmissionTowerRange} 视野和扫描范围。此外，还可提供 {Influencegain} 影响力。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Resource node description. Autonom are an NPC faction of robots</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRANSMISSION_TOWER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAINING_FACILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Paragon Training Facility</Data></Cell><Cell><Data
+            ss:Type="String"
+          >完人训练设施</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Resource node name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">TRAINING_FACILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Paragon maintain a sizable military despite the Star Union's decline. These facilities that once serve to train the Vanguard are now merely maintained by the Paragon and their deathless legions. [br/][br/]Grants {AccBonus} accuracy and {MoraleBonus} morale to Infantry units built in your colony.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >虽然星际联盟衰落，但完人势力仍然维持着一支兵力可观的军队。这些设施曾用于训练先锋，如今由完人及其不死军团维护。[br/][br/]可为殖民地步兵单位提升 {AccBonus} 准度和 {MoraleBonus} 士气。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Resource node description. Paragon are an NPC faction</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >PARAGON_TRAINING_FACILITY_PROPERTY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Paragon Facility Training</Data></Cell><Cell><Data
+            ss:Type="String"
+          >完人设施训练</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Resource node name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >PARAGON_TRAINING_FACILITY_PROPERTY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has been trained extensively in a Star Union training facility, improving its accuracy and confidence in combat. This unit gains {AccMod} accuracy and {MoraleMod} morale.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位曾在星际联盟训练场接受过全面训练，战斗精准度和气势非同凡响。该单位获得 {AccMod} 准度和 {MoraleMod} 士气。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Resource node description. Paragon are an NPC faction</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CELESTIAN_ARTIFACT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Celestian Artifact</Data></Cell><Cell><Data
+            ss:Type="String"
+          >星神神器</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Resource node name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">CELESTIAN_ARTIFACT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >These strange artifacts belong to an ancient 'Celestian' civilization. The device seems to have some subtle sway over the mind. It could prove influential if one were capable of controlling it. [br/][br/]Grants {CelestianArtifactInfluence} Influence income to the owner.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这些散发着奇特神秘气息的神器诞生于远古星神文明。这些设备似乎可对心灵施加某种微妙的影响。若你能加以控制，可获得影响力加成。[br/][br/]它可为持有者带来 {CelestianArtifactInfluence} 影响力收益。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Resource node description. Celestian is a secret tech.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CELESTIAN_ARTIFACT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SPACER_REFINERY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spacer Refinery</Data></Cell><Cell><Data
+            ss:Type="String"
+          >太空冶炼厂</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Resource node name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">SPACER_REFINERY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >These refineries are specialized in producing heavy duty constructions, and thus have optimized production processes.[br/]When located within a colony's domain, Heavy unit production cost in that colony is reduced by {ProductionCostReduction} [production/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这些冶炼厂专门用于生产重载构造，生产流程精益求精。[br/]在殖民地范围内建造这种冶炼厂，可将重型单位产力消耗降低 {ProductionCostReduction} [production/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Resource node description. Spacers are an NPC faction</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">WATER_CRYSTAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Aquatic Cosmite Rift</Data></Cell><Cell><Data
+            ss:Type="String"
+          >水上宇宙合金裂隙</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Resource node name.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>115</Zoom><Selected
+      /><LeftColumnVisible>2</LeftColumnVisible><Panes><Pane><Number
+          >3</Number><ActiveRow>4</ActiveRow><ActiveCol
+          >5</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

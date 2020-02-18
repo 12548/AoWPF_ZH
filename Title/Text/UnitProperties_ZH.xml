@@ -1,1 +1,445 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:56:11Z</Created><LastSaved>2019-06-25T15:56:11Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>5640</WindowHeight><WindowWidth>15345</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Interior/></Style><Style ss:ID="s63"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="192.75" ss:DefaultRowHeight="15"><Column ss:StyleID="s62" ss:Width="157.5"/><Column ss:StyleID="s62" ss:Width="118.5"/><Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75"/><Column ss:Index="6" ss:StyleID="s62" ss:Width="120"/><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">UNITPROPERTIES</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STATUS_EFFECT</Data></Cell><Cell><Data ss:Type="String">STUNNED_NAME</Data></Cell><Cell><Data ss:Type="String">Stunned</Data></Cell><Cell><Data ss:Type="String">晕眩</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STATUS_EFFECT</Data></Cell><Cell><Data ss:Type="String">STUNNED_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot move or use abilities.</Data></Cell><Cell><Data ss:Type="String">该单位无法移动或使用技能。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LARGE_TARGET</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Large Target</Data></Cell><Cell><Data ss:Type="String">大型目标</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">LARGE_TARGET</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is {largeTargetPenalty} easier to hit with ranged attacks. In addition, it cannot take cover itself, but counts as cover for other units.</Data></Cell><Cell><Data ss:Type="String">使用远程攻击命中该单位的难度降低 {largeTargetPenalty}。此外，该单位无法躲入掩体，但可以被其他单位当作掩体。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">%</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HUGE_TARGET</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Huge Target</Data></Cell><Cell><Data ss:Type="String">巨型目标</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">HUGE_TARGET</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is {largeTargetPenalty} easier to hit with ranged attacks. In addition, it cannot take cover, and blocks line of sight.</Data></Cell><Cell><Data ss:Type="String">使用远程攻击命中该单位的难度降低 {largeTargetPenalty}。此外，该单位无法躲入掩体，但可以阻挡视线。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">%</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Phase</Data></Cell><Cell><Data ss:Type="String">相位</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Phase as in to teleport</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Teleport to target unoccupied hex.</Data></Cell><Cell><Data ss:Type="String">传送至一个未被占领的单元格。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOPPER_JUMP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Combat Jump</Data></Cell><Cell><Data ss:Type="String">战术跳跃</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">HOPPER_JUMP</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Jump at target Light ground unit, dealing damage, knocking them back.</Data></Cell><Cell><Data ss:Type="String">跳向目标陆地单位，造成伤害并将其击退。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEATH_EXPLOSION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Beetle Death Rattle</Data></Cell><Cell><Data ss:Type="String">甲虫亡嚎</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">DEATH_EXPLOSION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">When killed, this unit explodes, dealing {damage}[damagebio/] damage, destroying {armormelt}[armor/] and causing [abilityred]High Impact[/abilityred] to all adjacent units.</Data></Cell><Cell><Data ss:Type="String">该单位被击杀后会发生爆炸，对所有相邻单位造成 {damage}[damagebio/] 伤害、摧毁 {armormelt}[armor/] 并造成[abilityred]高度冲击[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RESURGENCE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Resurgence</Data></Cell><Cell><Data ss:Type="String">复苏</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">RESURGENCE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">When the unit dies in combat, it is revived at the end of combat if its owner is victorious. Revived units are brought back with {resurrectHP} of their maximum [hp/].</Data></Cell><Cell><Data ss:Type="String">该单位在战斗中死亡时，如果战斗获得胜利，则将在战斗结束后复活。复活的单位会恢复 {resurrectHP} 的最大[hp/]。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">%</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BEETLE_MORTAR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Beetle Mortar</Data></Cell><Cell><Data ss:Type="String">甲虫迫击炮</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">BEETLE_MORTAR</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Strikes a 1 hex area with a toxic pod that spreads a Biochemical hazard.</Data></Cell><Cell><Data ss:Type="String">发射一颗剧毒卵囊，在 1 个单元格范围内散播生化灾害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FOREST_CAMOUFLAGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Forest Camouflage</Data></Cell><Cell><Data ss:Type="String">森林伪装</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">FOREST_CAMOUFLAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be detected when standing on Forest hexes.</Data></Cell><Cell><Data ss:Type="String">该单位位于森林单元格时不会被侦察到。</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">This unit cannot be detected when stood on Forest hexes.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SWAMP_CAMOUFLAGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Swamp Camouflage</Data></Cell><Cell><Data ss:Type="String">沼泽伪装</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SWAMP_CAMOUFLAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be detected when standing on Wetland hexes.</Data></Cell><Cell><Data ss:Type="String">该单位位于湿地单元格时不会被侦察到。</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">This unit cannot be detected when stood on Wetland hexes.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">UNIVERSAL_CAMOUFLAGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Universal Camouflage</Data></Cell><Cell><Data ss:Type="String">通用伪装</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">UNIVERSAL_CAMOUFLAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be detected when standing on any hex.</Data></Cell><Cell><Data ss:Type="String">该单位位于任何单元格时均不会被侦察到。</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">This unit cannot be detected when stood on any hex.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ROUGH_TERRAIN_CAMOUFLAGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Rough Terrain Camouflage</Data></Cell><Cell><Data ss:Type="String">恶劣地形伪装</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">ROUGH_TERRAIN_CAMOUFLAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be detected when standing on Mountain, Barren or Chasm hexes.</Data></Cell><Cell><Data ss:Type="String">该单位位于山地、贫瘠或裂口单元格时不会被侦察到。</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">This unit cannot be detected when stood on Mountain, Barren or Chasm hexes.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOPPER_AIR_LEAP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Air Leap</Data></Cell><Cell><Data ss:Type="String">跃空</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">HOPPER_AIR_LEAP</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The unit leaps into the air, damaging any Flying units before landing behind them.</Data></Cell><Cell><Data ss:Type="String">该单位跃向空中，对飞行单位造成伤害并落在它们身后。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FLANKER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Flanker</Data></Cell><Cell><Data ss:Type="String">包抄者</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">FLANKER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unit deals an additional {FlankingBonus}% damage when flanking.</Data></Cell><Cell><Data ss:Type="String">单位在包抄时额外造成 {FlankingBonus}% 伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">WATER_CAMOUFLAGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Water Camouflage</Data></Cell><Cell><Data ss:Type="String">水域伪装</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">WATER_CAMOUFLAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be detected when standing on Water hexes.</Data></Cell><Cell><Data ss:Type="String">该单位位于水域单元格时不会被侦察到。</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">This unit cannot be detected when stood on Water hexes.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STRONG_WILL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Mind Control Immunity</Data></Cell><Cell><Data ss:Type="String">心灵控制免疫</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">STRONG_WILL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The unit is immune to all effects which put the unit under direct control of the enemy.</Data></Cell><Cell><Data ss:Type="String">该单位对转移直接控制权的所有效果免疫。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HERO</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Hero</Data></Cell><Cell><Data ss:Type="String">英雄</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HERO</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">This character is a Hero.</Data></Cell><Cell><Data ss:Type="String">该角色是一位英雄。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TUNNEL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Tunnel</Data></Cell><Cell><Data ss:Type="String">掘地</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">TUNNEL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unit is able to tunnel through the ground in Tactical Combat, avoiding Overwatch.</Data></Cell><Cell><Data ss:Type="String">该单位可在战术战斗中掘地而行，从而避开警戒单位注意。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GREATER_DEATH_EXPLOSION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Adult Beetle Death Rattle</Data></Cell><Cell><Data ss:Type="String">成年甲虫亡嚎</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CUMBERSOME</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Cumbersome</Data></Cell><Cell><Data ss:Type="String">笨重</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CUMBERSOME</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit moves more slowly in tactical combat</Data></Cell><Cell><Data ss:Type="String">该单位在战术战斗中移动更加缓慢</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Selected/><Panes><Pane><Number>3</Number><ActiveRow>11</ActiveRow><ActiveCol>8</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:56:11Z</Created><LastSaved
+    >2019-06-25T15:56:11Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>5640</WindowHeight><WindowWidth>15345</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Interior /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="192.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="157.5" /><Column
+        ss:StyleID="s62"
+        ss:Width="118.5"
+      /><Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75" /><Column
+        ss:Index="6"
+        ss:StyleID="s62"
+        ss:Width="120"
+      /><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data
+            ss:Type="String"
+          >UNITPROPERTIES</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">STATUS_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STUNNED_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Stunned</Data></Cell><Cell><Data
+            ss:Type="String"
+          >晕眩</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >STATUS_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STUNNED_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot move or use abilities.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >该单位无法移动或使用技能。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LARGE_TARGET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Large Target</Data></Cell><Cell><Data
+            ss:Type="String"
+          >大型目标</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">LARGE_TARGET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is {largeTargetPenalty} easier to hit with ranged attacks. In addition, it cannot take cover itself, but counts as cover for other units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用远程攻击命中该单位的难度降低 {largeTargetPenalty}。此外，该单位无法躲入掩体，但可以被其他单位当作掩体。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">%</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HUGE_TARGET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Huge Target</Data></Cell><Cell><Data
+            ss:Type="String"
+          >巨型目标</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">HUGE_TARGET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is {largeTargetPenalty} easier to hit with ranged attacks. In addition, it cannot take cover, and blocks line of sight.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用远程攻击命中该单位的难度降低 {largeTargetPenalty}。此外，该单位无法躲入掩体，但可以阻挡视线。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">%</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PHASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Phase</Data></Cell><Cell><Data
+            ss:Type="String"
+          >相位</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Phase as in to teleport</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PHASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Teleport to target unoccupied hex.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >传送至一个未被占领的单元格。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HOPPER_JUMP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Combat Jump</Data></Cell><Cell><Data
+            ss:Type="String"
+          >战术跳跃</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">HOPPER_JUMP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Jump at target Light ground unit, dealing damage, knocking them back.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >跳向目标陆地单位，造成伤害并将其击退。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DEATH_EXPLOSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Beetle Death Rattle</Data></Cell><Cell><Data
+            ss:Type="String"
+          >甲虫亡嚎</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">DEATH_EXPLOSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >When killed, this unit explodes, dealing {damage}[damagebio/] damage, destroying {armormelt}[armor/] and causing [abilityred]High Impact[/abilityred] to all adjacent units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位被击杀后会发生爆炸，对所有相邻单位造成 {damage}[damagebio/] 伤害、摧毁 {armormelt}[armor/] 并造成[abilityred]高度冲击[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RESURGENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Resurgence</Data></Cell><Cell><Data
+            ss:Type="String"
+          >复苏</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">RESURGENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >When the unit dies in combat, it is revived at the end of combat if its owner is victorious. Revived units are brought back with {resurrectHP} of their maximum [hp/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在战斗中死亡时，如果战斗获得胜利，则将在战斗结束后复活。复活的单位会恢复 {resurrectHP} 的最大[hp/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">%</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BEETLE_MORTAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Beetle Mortar</Data></Cell><Cell><Data
+            ss:Type="String"
+          >甲虫迫击炮</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">BEETLE_MORTAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Strikes a 1 hex area with a toxic pod that spreads a Biochemical hazard.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发射一颗剧毒卵囊，在 1 个单元格范围内散播生化灾害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FOREST_CAMOUFLAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Forest Camouflage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >森林伪装</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FOREST_CAMOUFLAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be detected when standing on Forest hexes.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位位于森林单元格时不会被侦察到。</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >This unit cannot be detected when stood on Forest hexes.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SWAMP_CAMOUFLAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Swamp Camouflage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >沼泽伪装</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SWAMP_CAMOUFLAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be detected when standing on Wetland hexes.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位位于湿地单元格时不会被侦察到。</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >This unit cannot be detected when stood on Wetland hexes.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">UNIVERSAL_CAMOUFLAGE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Universal Camouflage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >通用伪装</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">UNIVERSAL_CAMOUFLAGE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be detected when standing on any hex.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位位于任何单元格时均不会被侦察到。</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >This unit cannot be detected when stood on any hex.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ROUGH_TERRAIN_CAMOUFLAGE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Rough Terrain Camouflage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >恶劣地形伪装</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">ROUGH_TERRAIN_CAMOUFLAGE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be detected when standing on Mountain, Barren or Chasm hexes.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位位于山地、贫瘠或裂口单元格时不会被侦察到。</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >This unit cannot be detected when stood on Mountain, Barren or Chasm hexes.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HOPPER_AIR_LEAP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Air Leap</Data></Cell><Cell><Data
+            ss:Type="String"
+          >跃空</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">HOPPER_AIR_LEAP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit leaps into the air, damaging any Flying units before landing behind them.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位跃向空中，对飞行单位造成伤害并落在它们身后。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FLANKER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Flanker</Data></Cell><Cell><Data
+            ss:Type="String"
+          >包抄者</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">FLANKER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit deals an additional {FlankingBonus}% damage when flanking.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位在包抄时额外造成 {FlankingBonus}% 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">WATER_CAMOUFLAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Water Camouflage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >水域伪装</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">WATER_CAMOUFLAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be detected when standing on Water hexes.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位位于水域单元格时不会被侦察到。</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >This unit cannot be detected when stood on Water hexes.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">STRONG_WILL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mind Control Immunity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >心灵控制免疫</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">STRONG_WILL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit is immune to all effects which put the unit under direct control of the enemy.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位对转移直接控制权的所有效果免疫。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Hero</Data></Cell><Cell><Data
+            ss:Type="String"
+          >英雄</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HERO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >This character is a Hero.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >该角色是一位英雄。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">TUNNEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tunnel</Data></Cell><Cell><Data
+            ss:Type="String"
+          >掘地</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">TUNNEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit is able to tunnel through the ground in Tactical Combat, avoiding Overwatch.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位可在战术战斗中掘地而行，从而避开警戒单位注意。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GREATER_DEATH_EXPLOSION</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Adult Beetle Death Rattle</Data></Cell><Cell><Data
+            ss:Type="String"
+          >成年甲虫亡嚎</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CUMBERSOME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cumbersome</Data></Cell><Cell><Data
+            ss:Type="String"
+          >笨重</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CUMBERSOME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit moves more slowly in tactical combat</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在战术战斗中移动更加缓慢</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><Panes><Pane><Number
+          >3</Number><ActiveRow>11</ActiveRow><ActiveCol
+          >8</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

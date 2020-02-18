@@ -1,1 +1,643 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:47:24Z</Created><LastSaved>2019-07-03T22:08:09Z</LastSaved><Version>15.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>15000</WindowHeight><WindowWidth>19440</WindowWidth><WindowTopX>-120</WindowTopX><WindowTopY>-120</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s57"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style><Style ss:ID="s58"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/></Style><Style ss:ID="s59"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/></Style><Style ss:ID="s60"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/><Interior/><NumberFormat ss:Format="@"/></Style><Style ss:ID="s61"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Interior/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s57" ss:DefaultColumnWidth="376.5" ss:DefaultRowHeight="15"><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="216"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="205.5"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="318.75" ss:Span="1"/><Column ss:Index="5" ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="271.5"/><Column ss:StyleID="s57" ss:Width="120"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="326.25"/><Column ss:Index="9" ss:StyleID="s57" ss:Width="287.25"/><Row ss:Height="90"><Cell><Data ss:Type="String">MILITARYINDUSTRIALCOMPLEX_TECHGROUPS</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row ss:Height="30"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row><Cell><Data ss:Type="String">DVAR_SKILLS</Data></Cell><Cell><Data ss:Type="String">GROUP_NAME</Data></Cell><Cell><Data ss:Type="String">Dvar</Data></Cell><Cell><Data ss:Type="String">矮人</Data></Cell></Row><Row><Cell ss:StyleID="s58"><Data ss:Type="String">BREACH_PROTECTION_PROTOCOL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">Breach Protection Protocol</Data></Cell><Cell><Data ss:Type="String">违反保护协议</Data></Cell><Cell ss:Index="9" ss:StyleID="s58"/></Row><Row ss:Height="45"><Cell ss:StyleID="s58"><Data ss:Type="String">BREACH_PROTECTION_PROTOCOL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Target friendly unit gains +{FortifiedArmorArmor}[armor/] for {FortifiedArmorDuration}[turn/] and is healed for {FortifiedArmorHeal}[hp/].</Data></Cell><Cell><Data ss:Type="String">目标友方单位获得 +{FortifiedArmorArmor}[armor/]，持续 {FortifiedArmorDuration}[turn/]并治疗 {FortifiedArmorHeal}[hp/]。</Data></Cell></Row><Row><Cell ss:StyleID="s58"><Data ss:Type="String">BREACH_PROTECTION_PROTOCOL</Data></Cell><Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unit has +{FortArmor}[armor/].</Data></Cell><Cell><Data ss:Type="String">单位拥有 +{FortArmor}[armor/]。</Data></Cell></Row><Row><Cell><Data ss:Type="String">GENERAL_ALERT_PROTOCOL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">General Alert Protocol</Data></Cell><Cell><Data ss:Type="String">通用警报协议</Data></Cell></Row><Row ss:Height="60"><Cell><Data ss:Type="String">GENERAL_ALERT_PROTOCOL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">All Dvar units gain [abilityblue]Alert Protocol[/abilityblue] for {Turns} [Turn/], allowing them to enter defense mode even if they spend all their action points during their turn.</Data></Cell><Cell><Data ss:Type="String">所有矮人单位获得[abilityblue]警报协议[/abilityblue]，持续 {Turns} [Turn/]，单位在自己的回合中即使已经耗尽所有操作点数，仍然可以进入防御模式。</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row><Cell><Data ss:Type="String">GENERAL_ALERT_PROTOCOL</Data></Cell><Cell><Data ss:Type="String">PROP_NAME</Data></Cell><Cell><Data ss:Type="String">Alert Protocol</Data></Cell><Cell><Data ss:Type="String">警报协议</Data></Cell></Row><Row ss:Height="30"><Cell><Data ss:Type="String">GENERAL_ALERT_PROTOCOL</Data></Cell><Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit will enter defense mode even if it has spend all its action points this turn.</Data></Cell><Cell><Data ss:Type="String">即使该单位在该回合耗尽所有操作点数，仍然可以进入防御模式。</Data></Cell></Row><Row><Cell><Data ss:Type="String">LOCALIZED_EARTHQUAKE_GENERATOR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Localized Earthquake Generator</Data></Cell><Cell><Data ss:Type="String">局部地震生成器</Data></Cell></Row><Row ss:Height="75"><Cell><Data ss:Type="String">LOCALIZED_EARTHQUAKE_GENERATOR</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">All Ground units within a {Radius} hex radius lose {LevelsStaggerResitance} level of [abilityred]stagger resistance[/abilityred] for {Turns} [Turn/], and are staggered by a [abilityred]Massive Impact[/abilityred].[br/]All Obstacles in the area of effect take {ObstacleDamage} damage.</Data></Cell><Cell><Data ss:Type="String">{Radius} 个单元格范围内的所有陆地单位失去 {LevelsStaggerResitance} 级[abilityred]动摇抵抗[/abilityred]，持续 {Turns} [Turn/]，并且将受到[abilityred]强力冲击[/abilityred]动摇。[br/]受影响区域内的所有障碍物受到 {ObstacleDamage} 伤害。</Data></Cell></Row><Row><Cell><Data ss:Type="String">LOCALIZED_EARTHQUAKE_GENERATOR</Data></Cell><Cell><Data ss:Type="String">PROP_NAME</Data></Cell><Cell><Data ss:Type="String">Unstable Ground</Data></Cell><Cell><Data ss:Type="String">不稳定地表</Data></Cell></Row><Row ss:Height="30"><Cell><Data ss:Type="String">LOCALIZED_EARTHQUAKE_GENERATOR</Data></Cell><Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has lost {LevelsStaggerResitance} level of Stagger Resistance due to unstable ground after the earthquake.</Data></Cell><Cell><Data ss:Type="String">由于地震造成了地表动荡，该单位失去 {LevelsStaggerResitance} 级动摇抵抗。</Data></Cell></Row><Row><Cell><Data ss:Type="String">DEPLOY_SAPPER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Deploy Sapper</Data></Cell><Cell><Data ss:Type="String">部署隧道钻机</Data></Cell></Row><Row ss:Height="45"><Cell><Data ss:Type="String">DEPLOY_SAPPER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Summon a Sapper onto target hex during combat. The summon lasts until the end of combat.[br/]This unit has various options for breaking enemy lines and cover.</Data></Cell><Cell><Data ss:Type="String">战斗期间在目标单元格上召唤一个隧道钻机。召唤将持续至战斗结束。[br/]隧道钻机拥有多种方式来破坏敌人的阵线和掩体。</Data></Cell></Row><Row><Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Tectonic Shift</Data></Cell><Cell><Data ss:Type="String">结构变动</Data></Cell></Row><Row ss:Height="75"><Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Spawn a [abilityred]Geothermal Instability[/abilityred] Hazard and Mountains overlay in target sector. If there is a colony in that sector, destroy a random colony structure. In addition, all units in the target sector lose their remaining [movewalk/] Move Points for the turn.</Data></Cell><Cell><Data ss:Type="String">在目标区域生成一片[abilityred]地热动荡[/abilityred]灾害和山地地形。][br/]如果该区域中存在殖民地，则会随机破坏殖民地中的一个建筑。此外，目标区域内的所有单位将失去该回合剩余的[movewalk/]移动点数。</Data></Cell></Row><Row ss:Height="75"><Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">Shifting tectonic plates wreak havoc in target sector, creating a Geothermal Instability Hazard and Mountains in this sector. If any colonies are present here, one of their colony structures has been destroyed at random. In addition, all units in target sector have lost their remaining [movewalk/] Move Points for the turn.</Data></Cell><Cell><Data ss:Type="String">地壳构造板块的变动给目标区域造成了严重的破坏，导致了地热动荡灾害并形成了山地地形。如果该区域内存在任何殖民地，则殖民地中的一个随机建筑将被破坏。此外，目标区域内的所有单位将失去该回合剩余的[movewalk/]移动点数。</Data></Cell></Row><Row ss:Height="45"><Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell><Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell><Cell><Data ss:Type="String">Something went wrong when shifting the plates of the target sector. The only result was an earthquake that prevented armies from moving for {turns}[turn/].</Data></Cell><Cell><Data ss:Type="String">目标区域内的地壳构造板块在变动过程中出现了问题，只导致了一场阻碍军队移动的地震，持续 {turns}[turn/]。</Data></Cell></Row><Row ss:Height="60"><Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell><Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell><Cell><Data ss:Type="String">The enemy has shifted the tectonic plates in this sector. This caused the land to become mountainous and a geothermal hazard has appeared. It has also destroyed some of our structures and prevented our local armies from moving for {turns}[turn/].</Data></Cell><Cell><Data ss:Type="String">敌人改变了该区域的地壳构造板块，导致地面变为山地并引发了地热灾害，同时摧毁了我们的某些建筑并将在 {turns}[turn/]内阻碍我们当地军队的移动。</Data></Cell></Row><Row ss:Height="45"><Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell><Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell><Cell><Data ss:Type="String">The enemy's failed attempt to shift our tectonic plate caused an earthquake, preventing our armies from moving for {turns}[turn/].</Data></Cell><Cell><Data ss:Type="String">敌人试图改变地壳构造板块但没有成功，只是引发了一场地震，使我们的军队移动在 {turns}[turn/]内受阻。</Data></Cell></Row><Row><Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell><Cell><Data ss:Type="String">EFFECT_STRING</Data></Cell><Cell><Data ss:Type="String">An army has lost all of its move points for this turn.</Data></Cell><Cell><Data ss:Type="String">一支军队失去了该回合所有的移动点数。</Data></Cell></Row><Row><Cell><Data ss:Type="String">FACTORY_OVERDRIVE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Factory Overdrive</Data></Cell><Cell><Data ss:Type="String">工厂超速运转</Data></Cell></Row><Row ss:Height="45"><Cell><Data ss:Type="String">FACTORY_OVERDRIVE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Production output of the target colony is increased by {productionIncrease}, but happiness income is reduced by {happinessReduction}.</Data></Cell><Cell><Data ss:Type="String">目标殖民地的产力产量提升 {productionIncrease}，[br/]但幸福值收益减少 {happinessReduction}。</Data></Cell></Row><Row ss:Height="30"><Cell><Data ss:Type="String">FACTORY_OVERDRIVE</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">Factories are at peak production output. Production is increased at the cost of the colonists' happiness.</Data></Cell><Cell><Data ss:Type="String">工厂产量达到了顶峰，但移住民的幸福值有所下滑。</Data></Cell></Row><Row ss:Height="30"><Cell><Data ss:Type="String">FACTORY_OVERDRIVE</Data></Cell><Cell><Data ss:Type="String">SUCCESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Production is increased by {productionIncrease} at the cost of {happinessReduction}.</Data></Cell><Cell><Data ss:Type="String">以 {happinessReduction} 的代价将产量提升 {productionIncrease}。</Data></Cell></Row><Row><Cell><Data ss:Type="String">DEPLOY_TRENCHERS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Deploy Trenchers</Data></Cell><Cell><Data ss:Type="String">部署挖掘者</Data></Cell></Row><Row ss:Height="30"><Cell><Data ss:Type="String">DEPLOY_TRENCHERS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Deploy a pod of reinforcements, spawning 1 Trencher unit on the targeted hex.</Data></Cell><Cell><Data ss:Type="String">部署一支增援部队，在目标单元格生成 1 个挖掘者单位。</Data></Cell></Row><Row><Cell><Data ss:Type="String">DEPLOY_TRENCHERS</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">Trenchers successfully deployed.</Data></Cell><Cell><Data ss:Type="String">挖掘者已成功部署。</Data></Cell></Row><Row><Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Land Torpedo</Data></Cell><Cell><Data ss:Type="String">陆地鱼雷</Data></Cell></Row><Row ss:Height="60"><Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Launch a torpedo that burrows underground toward an enemy army. When the torpedo hits its target, it deals {damage} to the army, and gives [abilityred]Slow Movement[/abilityred] for {slowturns}[turn/].</Data></Cell><Cell><Data ss:Type="String">向敌方军队发射一枚遁入地下的鱼雷。当鱼雷命中目标时，造成 {damage} 伤害并施加[abilityred]缓慢移动[/abilityred]，持续 {slowturns}[turn/]。</Data></Cell></Row><Row ss:Height="30"><Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">The torpedo succesfully burrowed to its target, dealing damage and slowing the enemy.</Data></Cell><Cell><Data ss:Type="String">鱼雷成功命中目标，造成了伤害并减缓了敌人的移动速度。</Data></Cell></Row><Row ss:Height="45"><Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell><Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell><Cell><Data ss:Type="String">The torpedo found its target, but only detonated partially, causing {Damage}[hp/] damage to the army but not slowing their movement.</Data></Cell><Cell><Data ss:Type="String">鱼雷找到了目标但仅部分引爆，对军队造成 {Damage}[hp/]伤害，但未能减缓其移动速度。</Data></Cell></Row><Row ss:Height="30"><Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell><Cell><Data ss:Type="String">TARGET_SUCCESS_SLOW</Data></Cell><Cell><Data ss:Type="String">Army gains [abilityred]Slow Movement[/abilityred] for {slowturns}[turn/].</Data></Cell><Cell><Data ss:Type="String">军队获得[abilityred]缓慢移动[/abilityred]，持续 {slowturns}[turn/]。</Data></Cell></Row><Row><Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell><Cell><Data ss:Type="String">TARGET_SUCCESS_DAMAGE</Data></Cell><Cell><Data ss:Type="String">Army is damaged for {Damage}[hp/] of its health.</Data></Cell><Cell><Data ss:Type="String">军队受到 {Damage}[hp/]伤害。</Data></Cell></Row><Row ss:Height="30"><Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell><Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell><Cell><Data ss:Type="String">A Dvar land torpedo has hit the army, damaging the units and slowing their movement.</Data></Cell><Cell><Data ss:Type="String">一个矮人陆地鱼雷命中了敌军，对单位造成了伤害并减缓了其移动速度。</Data></Cell></Row><Row ss:Height="30"><Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell><Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell><Cell><Data ss:Type="String">A Dvar land torpedo has hit the army, damaging the units, but their movement has not been affected.</Data></Cell><Cell><Data ss:Type="String">一个矮人陆地鱼雷命中了敌军，对单位造成了伤害但并未减缓其移动速度。</Data></Cell></Row><Row><Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION_FAILURE</Data></Cell><Cell><Data ss:Type="String">On failure, the targeted army only takes {Damage}[hp/] damage.</Data></Cell><Cell><Data ss:Type="String">如果失败，则目标敌军只会受到 {Damage}[hp/]伤害。</Data></Cell></Row><Row><Cell><Data ss:Type="String">MOUNTAIN_BREAKER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Mountain Breaker</Data></Cell><Cell><Data ss:Type="String">开山者</Data></Cell></Row><Row ss:Height="30"><Cell><Data ss:Type="String">MOUNTAIN_BREAKER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Makes uninhabitable Mountain sectors habitable, or turns habitable Mountain sectors into Fertile Plains.</Data></Cell><Cell><Data ss:Type="String">将不适宜居住的山地区域改造成适合居住的环境，或者将适宜居住的山地区域变为肥沃平原。</Data></Cell></Row><Row ss:Height="30"><Cell><Data ss:Type="String">MOUNTAIN_BREAKER</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS_1</Data></Cell><Cell><Data ss:Type="String">Our machines have successfully demolished some of the mountains in this sector.</Data></Cell><Cell><Data ss:Type="String">我们的机器成功爆破了该区域的一部分山地。</Data></Cell></Row><Row><Cell><Data ss:Type="String">NATIVE_DISPLACEMENT_ACT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Native Displacement Act</Data></Cell><Cell><Data ss:Type="String">本地移位法案</Data></Cell></Row><Row ss:Height="45"><Cell><Data ss:Type="String">NATIVE_DISPLACEMENT_ACT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">We can't have a few unfortunates blocking our road to progress.[br/][br/]The cost of moving Independent armies is reduced by {influencecost}.</Data></Cell><Cell><Data ss:Type="String">我们不能让少数不幸之人阻碍了我们前进的道路。[br/][br/]移动独立者军队的消耗减少 {influencecost}。</Data></Cell></Row><Row><Cell><Data ss:Type="String">REVISED_SAFETY_REGULATIONS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Revised Safety Regulations</Data></Cell><Cell><Data ss:Type="String">修订版安全规章</Data></Cell></Row><Row ss:Height="60"><Cell><Data ss:Type="String">REVISED_SAFETY_REGULATIONS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">By allowing us to bypass some of the official work regulations, we can finish structures more quickly and at a reduced cost.[br/][br/]Structures cost {costreduction} less [production/] to build.</Data></Cell><Cell><Data ss:Type="String">允许我们避开一些繁文缛节，从而以更快的速度和更低的成本完成建造。[br/][br/]建造建筑所需的[production/]消耗减少 {costreduction}。</Data></Cell><Cell ss:Index="9" ss:StyleID="s60"/></Row><Row><Cell><Data ss:Type="String">FORTIFICATION_EFFORTS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Fortification Efforts</Data></Cell><Cell><Data ss:Type="String">防御工事努力</Data></Cell></Row><Row ss:Height="120"><Cell><Data ss:Type="String">FORTIFICATION_EFFORTS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Establishing a good defense is always important to make sure you do not lose what you have worked for. By putting more resources into training proper colony militia and innovating with defensive structures, we can deploy them quicker and with better results.[br/][br/]Colony Militia units have an additional {hpincrease} and Turrets have {armorincrease}. In addition, Defensive Colony Structures and Colony Militia Structures cost {costreduction} less [production/] to produce.</Data></Cell><Cell><Data ss:Type="String">永远记得建立良好的防御来确保你的努力不会付之东流。投入更多资源来训练合格的殖民地卫队并创新防御性建筑，从实现更快地部署，取得更好的结果。[br/][br/]殖民地卫队单位拥有额外 {hpincrease}，炮塔拥有额外 {armorincrease}。此外，建造防御性殖民地建筑和殖民地卫队建筑所需的[production/]消耗减少 {costreduction}。</Data></Cell><Cell ss:Index="8" ss:StyleID="s61"/></Row><Row><Cell><Data ss:Type="String">FORTIFICATION_EFFORTS</Data></Cell><Cell><Data ss:Type="String">UNIT_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This colony militia unit has {hpincrease}.</Data></Cell><Cell><Data ss:Type="String">该殖民地卫队单位拥有 {hpincrease}。</Data></Cell><Cell ss:Index="8" ss:StyleID="s61"/></Row><Row><Cell><Data ss:Type="String">FORTIFICATION_EFFORTS</Data></Cell><Cell><Data ss:Type="String">TURRET_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This turret has {armorincrease}.</Data></Cell><Cell><Data ss:Type="String">该炮塔拥有 {armorincrease}。</Data></Cell><Cell ss:Index="8" ss:StyleID="s61"/></Row><Row><Cell><Data ss:Type="String">COSMITE_COLLECTION_PROGRAM</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Cosmite Collection Program</Data></Cell><Cell><Data ss:Type="String">宇宙合金采集计划</Data></Cell><Cell ss:Index="8" ss:StyleID="s61"/></Row><Row ss:Height="60"><Cell><Data ss:Type="String">COSMITE_COLLECTION_PROGRAM</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">By disregarding some of the standard safety procedures concerning the gathering of Cosmite, we can gather more resources in a shorter time span.[br/][br/]Income from every Cosmite node in your empire is increased by {cosmiteincrease}.</Data></Cell><Cell><Data ss:Type="String">采集宇宙合金时无视某些标准安全程序能够让我们在更短的时间跨度内采集更多资源。[br/][br/]帝国中每个宇宙合金节点的收益提升 {cosmiteincrease}。</Data></Cell><Cell ss:Index="8" ss:StyleID="s61"/></Row><Row><Cell><Data ss:Type="String">MILITARY_INDUSTRIAL_COMPLEX</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Military-Industrial Complex</Data></Cell><Cell><Data ss:Type="String">军事工业建筑群</Data></Cell><Cell ss:Index="8" ss:StyleID="s61"/></Row><Row ss:Height="75"><Cell><Data ss:Type="String">MILITARY_INDUSTRIAL_COMPLEX</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Mobilize all possible work forces and factories to aid production efforts.[br/][br/]Rushing units is {costreduction} cheaper. In addition, the upkeep of Heavy units is reduced by {upkeepreduction}.[br/][br/][firecol]Unit upkeep can never be lowered more than 50%.[/firecol]</Data></Cell><Cell><Data ss:Type="String">调动所有可能的劳动力和工厂协助生产。[br/][br/]冲刺单位的消耗减少 {costreduction}。此外，重型单位的维持消耗减少 {upkeepreduction}。[br/][br/][firecol]单位维持消耗减少幅度不得超过 50%。[/firecol]</Data></Cell><Cell ss:Index="8" ss:StyleID="s61"/></Row><Row><Cell><Data ss:Type="String">CHRYSOCRACY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Chrysocracy</Data></Cell><Cell><Data ss:Type="String">财阀统治</Data></Cell><Cell ss:Index="8" ss:StyleID="s61"/></Row><Row ss:Height="75"><Cell><Data ss:Type="String">CHRYSOCRACY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">We can speed up our planetary exploitation by making the richest amongst us manage commerce and labor law. The workers won't be happy, but look at these profit margins![br/][br/]All colonies gain +{EnergyPop}[energy/] for each colonist, but lose {UnhappinessPenalty}[anger/].</Data></Cell><Cell><Data ss:Type="String">通过让最富有的人管理商业和劳动法，我们可以加速星球的开发。虽然工人可能会不高兴，但看看这惊人利润！[br/][br/]所有殖民地中每有一个移住民，就获得 +{EnergyPop}[energy/]，[br/]但会失去 {UnhappinessPenalty}[anger/]。</Data></Cell><Cell ss:Index="8" ss:StyleID="s61"/></Row><Row ss:Height="30"><Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell><Cell><Data ss:Type="String">FAILURE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">On failure, all units in the sector lose all [movewalk/] Move Points</Data></Cell><Cell><Data ss:Type="String">如果失败，该区域的所有单位将失去全部 [movewalk/] 移动点数</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Zoom>115</Zoom><Selected/><TopRowVisible>49</TopRowVisible><LeftColumnVisible>2</LeftColumnVisible><Panes><Pane><Number>3</Number><ActiveRow>55</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:47:24Z</Created><LastSaved
+    >2019-07-03T22:08:09Z</LastSaved><Version
+    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>15000</WindowHeight><WindowWidth>19440</WindowWidth><WindowTopX
+    >-120</WindowTopX><WindowTopY>-120</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s57"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s58"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /></Style><Style ss:ID="s59"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /></Style><Style ss:ID="s60"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+      /><Interior /><NumberFormat ss:Format="@" /></Style><Style
+      ss:ID="s61"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Interior
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s57"
+      ss:DefaultColumnWidth="376.5"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="216" /><Column
+        ss:StyleID="s57"
+        ss:AutoFitWidth="0"
+        ss:Width="205.5"
+      /><Column
+        ss:StyleID="s57"
+        ss:AutoFitWidth="0"
+        ss:Width="318.75"
+        ss:Span="1"
+      /><Column
+        ss:Index="5"
+        ss:StyleID="s57"
+        ss:AutoFitWidth="0"
+        ss:Width="271.5"
+      /><Column ss:StyleID="s57" ss:Width="120" /><Column
+        ss:StyleID="s57"
+        ss:AutoFitWidth="0"
+        ss:Width="326.25"
+      /><Column ss:Index="9" ss:StyleID="s57" ss:Width="287.25" /><Row
+        ss:Height="90"
+      ><Cell><Data
+            ss:Type="String"
+          >MILITARYINDUSTRIALCOMPLEX_TECHGROUPS</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          >DVAR_SKILLS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GROUP_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dvar</Data></Cell><Cell><Data
+            ss:Type="String"
+          >矮人</Data></Cell></Row><Row><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >BREACH_PROTECTION_PROTOCOL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >Breach Protection Protocol</Data></Cell><Cell><Data
+            ss:Type="String"
+          >违反保护协议</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s58"
+        /></Row><Row ss:Height="45"><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >BREACH_PROTECTION_PROTOCOL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target friendly unit gains +{FortifiedArmorArmor}[armor/] for {FortifiedArmorDuration}[turn/] and is healed for {FortifiedArmorHeal}[hp/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标友方单位获得 +{FortifiedArmorArmor}[armor/]，持续 {FortifiedArmorDuration}[turn/]并治疗 {FortifiedArmorHeal}[hp/]。</Data></Cell></Row><Row
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >BREACH_PROTECTION_PROTOCOL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROP_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit has +{FortArmor}[armor/].</Data></Cell><Cell><Data
+            ss:Type="String"
+          >单位拥有 +{FortArmor}[armor/]。</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          >GENERAL_ALERT_PROTOCOL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >General Alert Protocol</Data></Cell><Cell><Data
+            ss:Type="String"
+          >通用警报协议</Data></Cell></Row><Row ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >GENERAL_ALERT_PROTOCOL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >All Dvar units gain [abilityblue]Alert Protocol[/abilityblue] for {Turns} [Turn/], allowing them to enter defense mode even if they spend all their action points during their turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有矮人单位获得[abilityblue]警报协议[/abilityblue]，持续 {Turns} [Turn/]，单位在自己的回合中即使已经耗尽所有操作点数，仍然可以进入防御模式。</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s59"
+        /></Row><Row><Cell><Data
+            ss:Type="String"
+          >GENERAL_ALERT_PROTOCOL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROP_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Alert Protocol</Data></Cell><Cell><Data
+            ss:Type="String"
+          >警报协议</Data></Cell></Row><Row ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >GENERAL_ALERT_PROTOCOL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROP_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit will enter defense mode even if it has spend all its action points this turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >即使该单位在该回合耗尽所有操作点数，仍然可以进入防御模式。</Data></Cell></Row><Row
+      ><Cell><Data
+            ss:Type="String"
+          >LOCALIZED_EARTHQUAKE_GENERATOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Localized Earthquake Generator</Data></Cell><Cell><Data
+            ss:Type="String"
+          >局部地震生成器</Data></Cell></Row><Row ss:Height="75"><Cell><Data
+            ss:Type="String"
+          >LOCALIZED_EARTHQUAKE_GENERATOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All Ground units within a {Radius} hex radius lose {LevelsStaggerResitance} level of [abilityred]stagger resistance[/abilityred] for {Turns} [Turn/], and are staggered by a [abilityred]Massive Impact[/abilityred].[br/]All Obstacles in the area of effect take {ObstacleDamage} damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{Radius} 个单元格范围内的所有陆地单位失去 {LevelsStaggerResitance} 级[abilityred]动摇抵抗[/abilityred]，持续 {Turns} [Turn/]，并且将受到[abilityred]强力冲击[/abilityred]动摇。[br/]受影响区域内的所有障碍物受到 {ObstacleDamage} 伤害。</Data></Cell></Row><Row
+      ><Cell><Data
+            ss:Type="String"
+          >LOCALIZED_EARTHQUAKE_GENERATOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROP_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unstable Ground</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不稳定地表</Data></Cell></Row><Row ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >LOCALIZED_EARTHQUAKE_GENERATOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROP_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has lost {LevelsStaggerResitance} level of Stagger Resistance due to unstable ground after the earthquake.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由于地震造成了地表动荡，该单位失去 {LevelsStaggerResitance} 级动摇抵抗。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String">DEPLOY_SAPPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deploy Sapper</Data></Cell><Cell><Data
+            ss:Type="String"
+          >部署隧道钻机</Data></Cell></Row><Row ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >DEPLOY_SAPPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Summon a Sapper onto target hex during combat. The summon lasts until the end of combat.[br/]This unit has various options for breaking enemy lines and cover.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >战斗期间在目标单元格上召唤一个隧道钻机。召唤将持续至战斗结束。[br/]隧道钻机拥有多种方式来破坏敌人的阵线和掩体。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tectonic Shift</Data></Cell><Cell><Data
+            ss:Type="String"
+          >结构变动</Data></Cell></Row><Row ss:Height="75"><Cell><Data
+            ss:Type="String"
+          >TECTONIC_SHIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spawn a [abilityred]Geothermal Instability[/abilityred] Hazard and Mountains overlay in target sector. If there is a colony in that sector, destroy a random colony structure. In addition, all units in the target sector lose their remaining [movewalk/] Move Points for the turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在目标区域生成一片[abilityred]地热动荡[/abilityred]灾害和山地地形。][br/]如果该区域中存在殖民地，则会随机破坏殖民地中的一个建筑。此外，目标区域内的所有单位将失去该回合剩余的[movewalk/]移动点数。</Data></Cell></Row><Row
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shifting tectonic plates wreak havoc in target sector, creating a Geothermal Instability Hazard and Mountains in this sector. If any colonies are present here, one of their colony structures has been destroyed at random. In addition, all units in target sector have lost their remaining [movewalk/] Move Points for the turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >地壳构造板块的变动给目标区域造成了严重的破坏，导致了地热动荡灾害并形成了山地地形。如果该区域内存在任何殖民地，则殖民地中的一个随机建筑将被破坏。此外，目标区域内的所有单位将失去该回合剩余的[movewalk/]移动点数。</Data></Cell></Row><Row
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Something went wrong when shifting the plates of the target sector. The only result was an earthquake that prevented armies from moving for {turns}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标区域内的地壳构造板块在变动过程中出现了问题，只导致了一场阻碍军队移动的地震，持续 {turns}[turn/]。</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The enemy has shifted the tectonic plates in this sector. This caused the land to become mountainous and a geothermal hazard has appeared. It has also destroyed some of our structures and prevented our local armies from moving for {turns}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >敌人改变了该区域的地壳构造板块，导致地面变为山地并引发了地热灾害，同时摧毁了我们的某些建筑并将在 {turns}[turn/]内阻碍我们当地军队的移动。</Data></Cell></Row><Row
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The enemy's failed attempt to shift our tectonic plate caused an earthquake, preventing our armies from moving for {turns}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >敌人试图改变地壳构造板块但没有成功，只是引发了一场地震，使我们的军队移动在 {turns}[turn/]内受阻。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >An army has lost all of its move points for this turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一支军队失去了该回合所有的移动点数。</Data></Cell></Row><Row><Cell
+        ><Data ss:Type="String">FACTORY_OVERDRIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Factory Overdrive</Data></Cell><Cell><Data
+            ss:Type="String"
+          >工厂超速运转</Data></Cell></Row><Row ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >FACTORY_OVERDRIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Production output of the target colony is increased by {productionIncrease}, but happiness income is reduced by {happinessReduction}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标殖民地的产力产量提升 {productionIncrease}，[br/]但幸福值收益减少 {happinessReduction}。</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FACTORY_OVERDRIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Factories are at peak production output. Production is increased at the cost of the colonists' happiness.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >工厂产量达到了顶峰，但移住民的幸福值有所下滑。</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FACTORY_OVERDRIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUCCESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Production is increased by {productionIncrease} at the cost of {happinessReduction}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >以 {happinessReduction} 的代价将产量提升 {productionIncrease}。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String">DEPLOY_TRENCHERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deploy Trenchers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >部署挖掘者</Data></Cell></Row><Row ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >DEPLOY_TRENCHERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deploy a pod of reinforcements, spawning 1 Trencher unit on the targeted hex.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >部署一支增援部队，在目标单元格生成 1 个挖掘者单位。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String">DEPLOY_TRENCHERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Trenchers successfully deployed.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >挖掘者已成功部署。</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          >LAND_TORPEDO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Land Torpedo</Data></Cell><Cell><Data
+            ss:Type="String"
+          >陆地鱼雷</Data></Cell></Row><Row ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >LAND_TORPEDO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch a torpedo that burrows underground toward an enemy army. When the torpedo hits its target, it deals {damage} to the army, and gives [abilityred]Slow Movement[/abilityred] for {slowturns}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向敌方军队发射一枚遁入地下的鱼雷。当鱼雷命中目标时，造成 {damage} 伤害并施加[abilityred]缓慢移动[/abilityred]，持续 {slowturns}[turn/]。</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The torpedo succesfully burrowed to its target, dealing damage and slowing the enemy.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >鱼雷成功命中目标，造成了伤害并减缓了敌人的移动速度。</Data></Cell></Row><Row
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The torpedo found its target, but only detonated partially, causing {Damage}[hp/] damage to the army but not slowing their movement.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >鱼雷找到了目标但仅部分引爆，对军队造成 {Damage}[hp/]伤害，但未能减缓其移动速度。</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_SUCCESS_SLOW</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Army gains [abilityred]Slow Movement[/abilityred] for {slowturns}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >军队获得[abilityred]缓慢移动[/abilityred]，持续 {slowturns}[turn/]。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_SUCCESS_DAMAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Army is damaged for {Damage}[hp/] of its health.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >军队受到 {Damage}[hp/]伤害。</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A Dvar land torpedo has hit the army, damaging the units and slowing their movement.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一个矮人陆地鱼雷命中了敌军，对单位造成了伤害并减缓了其移动速度。</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A Dvar land torpedo has hit the army, damaging the units, but their movement has not been affected.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一个矮人陆地鱼雷命中了敌军，对单位造成了伤害但并未减缓其移动速度。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >On failure, the targeted army only takes {Damage}[hp/] damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >如果失败，则目标敌军只会受到 {Damage}[hp/]伤害。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String">MOUNTAIN_BREAKER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mountain Breaker</Data></Cell><Cell><Data
+            ss:Type="String"
+          >开山者</Data></Cell></Row><Row ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >MOUNTAIN_BREAKER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Makes uninhabitable Mountain sectors habitable, or turns habitable Mountain sectors into Fertile Plains.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将不适宜居住的山地区域改造成适合居住的环境，或者将适宜居住的山地区域变为肥沃平原。</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">MOUNTAIN_BREAKER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our machines have successfully demolished some of the mountains in this sector.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的机器成功爆破了该区域的一部分山地。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String">NATIVE_DISPLACEMENT_ACT</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Native Displacement Act</Data></Cell><Cell><Data
+            ss:Type="String"
+          >本地移位法案</Data></Cell></Row><Row ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >NATIVE_DISPLACEMENT_ACT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We can't have a few unfortunates blocking our road to progress.[br/][br/]The cost of moving Independent armies is reduced by {influencecost}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们不能让少数不幸之人阻碍了我们前进的道路。[br/][br/]移动独立者军队的消耗减少 {influencecost}。</Data></Cell></Row><Row
+      ><Cell><Data
+            ss:Type="String"
+          >REVISED_SAFETY_REGULATIONS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Revised Safety Regulations</Data></Cell><Cell><Data
+            ss:Type="String"
+          >修订版安全规章</Data></Cell></Row><Row ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >REVISED_SAFETY_REGULATIONS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data
+            ss:Type="String"
+          >By allowing us to bypass some of the official work regulations, we can finish structures more quickly and at a reduced cost.[br/][br/]Structures cost {costreduction} less [production/] to build.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >允许我们避开一些繁文缛节，从而以更快的速度和更低的成本完成建造。[br/][br/]建造建筑所需的[production/]消耗减少 {costreduction}。</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s60"
+        /></Row><Row><Cell><Data
+            ss:Type="String"
+          >FORTIFICATION_EFFORTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fortification Efforts</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御工事努力</Data></Cell></Row><Row ss:Height="120"><Cell><Data
+            ss:Type="String"
+          >FORTIFICATION_EFFORTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Establishing a good defense is always important to make sure you do not lose what you have worked for. By putting more resources into training proper colony militia and innovating with defensive structures, we can deploy them quicker and with better results.[br/][br/]Colony Militia units have an additional {hpincrease} and Turrets have {armorincrease}. In addition, Defensive Colony Structures and Colony Militia Structures cost {costreduction} less [production/] to produce.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >永远记得建立良好的防御来确保你的努力不会付之东流。投入更多资源来训练合格的殖民地卫队并创新防御性建筑，从实现更快地部署，取得更好的结果。[br/][br/]殖民地卫队单位拥有额外 {hpincrease}，炮塔拥有额外 {armorincrease}。此外，建造防御性殖民地建筑和殖民地卫队建筑所需的[production/]消耗减少 {costreduction}。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s61"
+        /></Row><Row><Cell><Data
+            ss:Type="String"
+          >FORTIFICATION_EFFORTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This colony militia unit has {hpincrease}.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >该殖民地卫队单位拥有 {hpincrease}。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s61"
+        /></Row><Row><Cell><Data
+            ss:Type="String"
+          >FORTIFICATION_EFFORTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TURRET_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This turret has {armorincrease}.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >该炮塔拥有 {armorincrease}。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s61"
+        /></Row><Row><Cell><Data
+            ss:Type="String"
+          >COSMITE_COLLECTION_PROGRAM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cosmite Collection Program</Data></Cell><Cell><Data
+            ss:Type="String"
+          >宇宙合金采集计划</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s61"
+        /></Row><Row ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >COSMITE_COLLECTION_PROGRAM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >By disregarding some of the standard safety procedures concerning the gathering of Cosmite, we can gather more resources in a shorter time span.[br/][br/]Income from every Cosmite node in your empire is increased by {cosmiteincrease}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >采集宇宙合金时无视某些标准安全程序能够让我们在更短的时间跨度内采集更多资源。[br/][br/]帝国中每个宇宙合金节点的收益提升 {cosmiteincrease}。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s61"
+        /></Row><Row><Cell><Data
+            ss:Type="String"
+          >MILITARY_INDUSTRIAL_COMPLEX</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Military-Industrial Complex</Data></Cell><Cell><Data
+            ss:Type="String"
+          >军事工业建筑群</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s61"
+        /></Row><Row ss:Height="75"><Cell><Data
+            ss:Type="String"
+          >MILITARY_INDUSTRIAL_COMPLEX</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mobilize all possible work forces and factories to aid production efforts.[br/][br/]Rushing units is {costreduction} cheaper. In addition, the upkeep of Heavy units is reduced by {upkeepreduction}.[br/][br/][firecol]Unit upkeep can never be lowered more than 50%.[/firecol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >调动所有可能的劳动力和工厂协助生产。[br/][br/]冲刺单位的消耗减少 {costreduction}。此外，重型单位的维持消耗减少 {upkeepreduction}。[br/][br/][firecol]单位维持消耗减少幅度不得超过 50%。[/firecol]</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s61"
+        /></Row><Row><Cell><Data ss:Type="String">CHRYSOCRACY</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Chrysocracy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >财阀统治</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s61"
+        /></Row><Row ss:Height="75"><Cell><Data
+            ss:Type="String"
+          >CHRYSOCRACY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We can speed up our planetary exploitation by making the richest amongst us manage commerce and labor law. The workers won't be happy, but look at these profit margins![br/][br/]All colonies gain +{EnergyPop}[energy/] for each colonist, but lose {UnhappinessPenalty}[anger/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >通过让最富有的人管理商业和劳动法，我们可以加速星球的开发。虽然工人可能会不高兴，但看看这惊人利润！[br/][br/]所有殖民地中每有一个移住民，就获得 +{EnergyPop}[energy/]，[br/]但会失去 {UnhappinessPenalty}[anger/]。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s61"
+        /></Row><Row ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >TECTONIC_SHIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FAILURE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >On failure, all units in the sector lose all [movewalk/] Move Points</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >如果失败，该区域的所有单位将失去全部 [movewalk/] 移动点数</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>115</Zoom><Selected
+      /><TopRowVisible>49</TopRowVisible><LeftColumnVisible
+      >2</LeftColumnVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >55</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

@@ -1,1 +1,519 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:39:12Z</Created><LastSaved>2019-06-25T15:39:12Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>9150</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style><Style ss:ID="s63"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s64"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/><Interior/></Style><Style ss:ID="s65"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Interior/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="219.75" ss:DefaultRowHeight="15"><Column ss:StyleID="s62" ss:Width="162"/><Column ss:StyleID="s62" ss:Width="198"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="387.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="313.5"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="309"/><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">SYMBIOSIS_TECHGROUPS</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s63"><Data ss:Type="String">AMAZON_SKILLS</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">GROUP_NAME</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Amazon</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">亚马逊人</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"/><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PROTECTIVE_GROWTH</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Protective Growth</Data></Cell><Cell><Data ss:Type="String">防御灵植</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">PROTECTIVE_GROWTH</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Summon thick roots to protect a friendly ground unit, healing it for {HealAmount}[hp/] and preventing it from moving for {Immoturn}[turn/].[br/]While immobilized in this manner, the unit gains +{ArmorProtection}[armor/] and regenerates {healthregen}% of its maximum [hp/] per turn.</Data></Cell><Cell><Data ss:Type="String">召唤出粗壮的根须保护一个己方陆地单位，为其治疗 {HealAmount}[hp/]，且该单位将无法移动持续 {Immoturn}[turn/]。[br/]由于该单位无法移动，其将获得 +{ArmorProtection}[armor/]以及每回合恢复最大[hp/]的 {healthregen}%。</Data></Cell><Cell ss:Index="8" ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">PROTECTIVE_GROWTH</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unit cannot move, has an extra {ArmorProtection}[armor/] and is recovering {healthregen}% of its maximum [hp/] each turn.</Data></Cell><Cell><Data ss:Type="String">单位无法移动，具有额外 {ArmorProtection}[armor/]并且每回合恢复最大[hp/]的 {healthregen}%。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PRIMAL_OVERDRIVE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Primal Override</Data></Cell><Cell><Data ss:Type="String">原始超控</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">PRIMAL_OVERDRIVE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Attempt to [abilityred]Mind Control[/abilityred] a non-Mindless or non-Mechanical Tier I or Tier II Animal unit with a {PrimalChance}[StrengthBio/] strength chance.[br/]If the target is under the effect of [abilityred]Entangle[/abilityred] or [abilityred]Sleep[/abilityred] the strength chance increases to {PrimalSuperiorChance}[StrengthBio/].[br/]If mind controlled this way, the unit permanently comes under your control. If resisted, apply [abilityred]Insanity[/abilityred] instead.</Data></Cell><Cell><Data ss:Type="String">尝试 [abilityred]心灵控制[/abilityred]一个 1 阶或 2 阶的非无意识或非机械的动物单位并附带 {PrimalChance}[StrengthBio/]力量几率。[br/]如果目标处于[abilityred]混乱[/abilityred]或[abilityred]沉睡[/abilityred]状态，则力量几率提升至 {PrimalSuperiorChance}[StrengthBio/]。[br/]以这种方式控制的单位将会永久听命于你。如果抵抗，则施加[abilityred]错乱[/abilityred]状态。</Data></Cell><Cell ss:Index="8" ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PRIMAL_OVERDRIVE</Data></Cell><Cell><Data ss:Type="String">PROP_NAME</Data></Cell><Cell><Data ss:Type="String">Animal Control</Data></Cell><Cell><Data ss:Type="String">动物控制</Data></Cell><Cell ss:Index="8" ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PRIMAL_OVERDRIVE</Data></Cell><Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This animal is under your control.</Data></Cell><Cell><Data ss:Type="String">该动物受你的控制。</Data></Cell><Cell ss:Index="8" ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">NOURISHING_FIELD_PYLON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Nourishing Field Pylon</Data></Cell><Cell><Data ss:Type="String">滋养标塔</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">NOURISHING_FIELD_PYLON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Deploys a healing pylon to the battlefield. The pylon cannot act or move. All friendly Biological and Cyborg units within {range} hexes will heal for {healing} when this ability is used as well as at the start of each turn.</Data></Cell><Cell><Data ss:Type="String">在战场上部署一个治疗标塔，标塔不能行动和移动。每回合开始以及使用此技能时，标塔 {range} 个单元格范围内的所有友方生物和半机械人单位将治疗 {healing}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMPLIFYING_FIELD_PYLON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Amplifying Field Pylon</Data></Cell><Cell><Data ss:Type="String">增强标塔</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">AMPLIFYING_FIELD_PYLON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Deploys an amplifying pylon to the battlefield. The pylon cannot act or move. Friendly Biological and Cyborg units adjacent to this pylon gain {damage} added damage while they remain adjacent to it. </Data></Cell><Cell><Data ss:Type="String">在战场上部署一个增强标塔，标塔不能行动和移动。与标塔相邻的友方生物和半机械人单位额外获得 {damage} 伤害。 </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LURING_FIELD_PYLON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Luring Field Pylon</Data></Cell><Cell><Data ss:Type="String">引诱标塔</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">LURING_FIELD_PYLON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Deploys a wildlife lure pylon to the battlefield. The pylon cannot act or move. It summons a random Tier II wildlife unit at the start of each turn. The pylon lasts for {duration} or until destroyed.</Data></Cell><Cell><Data ss:Type="String">在战场上部署一个引诱野生动物的标塔，标塔不能行动和移动。每回合开始时，它会随机召唤一个 2 阶野生动物单位。在被摧毁前，标塔会持续{duration}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RAPID_REFORESTATION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Rapid Reforestation</Data></Cell><Cell><Data ss:Type="String">快速造林</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">RAPID_REFORESTATION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Transform the target sector into a Forest sector.[br/][br/][productioncol]Cannot be launched on Mountain or Enemy sectors.[/productioncol]</Data></Cell><Cell><Data ss:Type="String">将目标区域转化成森林区域。[br/][br/][productioncol]在山地地区和敌方区域无法执行。[/productioncol]</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">RAPID_REFORESTATION</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">Our Biomancers have successfully planted our genetically-enhanced trees, rapidly transforming the entire sector into a forest we can call home.</Data></Cell><Cell><Data ss:Type="String">我们的生化师已经成功栽种了经过基因增强的树木，正在迅速将整个区域转化成我们可以建立家园的森林。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Entangling Overgrowth</Data></Cell><Cell><Data ss:Type="String">过度生长</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Lowers [supply/] income of targeted enemy colony by {FoodIncomeReduction} for {EntanglingTurn}[turn/]. During this period, enemy units in that colony's domain spend an additional {MovePointCost} when moving.</Data></Cell><Cell><Data ss:Type="String">使目标地方殖民地的[supply/]收入降低 {FoodIncomeReduction}，持续 {EntanglingTurn}[turn/]。在此期间，敌方单位在其殖民地领域内移动时将耗费额外{MovePointCost}.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell><Cell><Data ss:Type="String">EFFECT_STRING</Data></Cell><Cell><Data ss:Type="String">{FoodIncomeReduction} income for {EntaglingTurn}[turn/].[br/]Enemy units spend {MovePointCost} more for each hex inside this domain for {EntaglingTurn}[turn/].</Data></Cell><Cell><Data ss:Type="String">{FoodIncomeReduction}收入，持续 {EntaglingTurn}[turn/]。[br/]在这个领域内敌方单位在每个单元格上将耗费更多{MovePointCost}，持续 {EntaglingTurn}[turn/]。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">Bionically-enhanced growth has invaded the target enemy colony. This aggressive overgrowth will ruin their crops and hamper the enemy's movement.</Data></Cell><Cell><Data ss:Type="String">经过生物强化的灵植已经入侵了目标敌方殖民地。这种侵略性的强化灵植将破坏他们的庄稼，阻碍他们的行动。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell><Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell><Cell><Data ss:Type="String">The enhanced growth did not manage to gain a foothold. The population of the targeted enemy colony is suffering some unrest.</Data></Cell><Cell><Data ss:Type="String">强化灵植没有办法立足。目标敌方殖民地居民有些动荡不安。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell><Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell><Cell><Data ss:Type="String">Our fields have been contaminated with some sort of aggressive growth that is ruining our crops and hampering our troops.</Data></Cell><Cell><Data ss:Type="String">我们的田地被某种侵略性的灵植污染了，正在破坏我们的庄稼，阻碍我们部队行动。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell><Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell><Cell><Data ss:Type="String">Our enemies attempted to imbed a species of aggressive plant in the colony, but it withered away before it could take hold. Our people, however, are not happy.</Data></Cell><Cell><Data ss:Type="String">我们的敌人尝试着将一种侵略性植株种如我们的殖民地，不过它在扎下根之前就枯萎了。然而，我们的民众并不高兴。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INTRODUCE_PREADATORS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Introduce Predators</Data></Cell><Cell><Data ss:Type="String">引入掠食者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INTRODUCE_PREADATORS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Spawn a hostile Hopperhound spawner at the center of an empty target sector.</Data></Cell><Cell><Data ss:Type="String">在空旷目标区域中心地区放置一个敌对的跳蝗出生点。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">INTRODUCE_PREADATORS</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">Successfully deployed the predator lure in the target sector, attracting a brood of hopperhounds.</Data></Cell><Cell><Data ss:Type="String">已成功在目标区域部署掠食者诱饵，吸引到了一群跳蝗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ARCADIAN_RESTORATION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Arcadian Restoration</Data></Cell><Cell><Data ss:Type="String">田园恢复</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ARCADIAN_RESTORATION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Target sector is terraformed into an Arcadian sector.</Data></Cell><Cell><Data ss:Type="String">目标区域已经转化成田园区域。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ARCADIAN_RESTORATION</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">Our Biomancers have succesfully terraformed the target sector into an Arcadian sector.</Data></Cell><Cell><Data ss:Type="String">我们的生化师已经成功将目标区域已经转化成田园区域。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ECOLOGICAL_CONSTRUCTION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Ecological Construction</Data></Cell><Cell><Data ss:Type="String">生态建设</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">ECOLOGICAL_CONSTRUCTION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Intelligent use of wood and local materials allows for green, cost-effective infrastructure development without having to harm or exploit nature.[br/][br/]Your colonies each gain {Production} for every forest sector within its domain.</Data></Cell><Cell><Data ss:Type="String">善用树木和当地物资可以实现颇具成本效益的绿色基础设施建设，且不会伤害或过度剥削大自然。[br/][br/]殖民地领域内每有一个森林区域，你的所有殖民地都会获得{Production}。</Data></Cell><Cell ss:Index="8" ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PROGRESSIVE_CULTIVATION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Progressive Cultivation</Data></Cell><Cell><Data ss:Type="String">逐步培养</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">PROGRESSIVE_CULTIVATION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">We can invest in genetically-modified crops that exploit fertile land to the fullest, making our harvests more bountiful.[br/][br/]{FoodIncomeIncrease} for every Arcadian sector connected to your colonies.</Data></Cell><Cell><Data ss:Type="String">我们可以使用经过基因修改的庄稼将肥沃土壤利用效率最大化，从而获得更好的收成。[br/][br/]每有一个与你的殖民地相连的田园区域，都将获得{FoodIncomeIncrease}。</Data></Cell><Cell ss:Index="8" ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLANETARY_CLEANUP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Planetary Cleanup</Data></Cell><Cell><Data ss:Type="String">星球净化</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">PLANETARY_CLEANUP</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The fallen Union left many things behind, some of which are useful, but some are harmful to both nature and creatures alike. We see it as our duty to rid the world of these disruptive remnants and restore the world to its natural wonder.[br/][br/]Clearing World Hazards is {EnergyCostReduction} cheaper.[br/]The [abilityblue]Rapid Reforestation[/abilityblue] and [abilityblue]Arcadian Restoration[/abilityblue] strategic operations are now {EnergyCostStratOpReduction} cheaper.</Data></Cell><Cell><Data ss:Type="String">陨落的星联遗留下来了很多东西，有些很有用，而有些对大自然和生物却是有害的。去除这些破坏性遗留物并将世界恢复成原来的自然美景是我们义不容辞的责任。[br/][br/]清理世界有害物会降低 {EnergyCostReduction}。[br/][abilityblue]快速造林[/abilityblue]和[abilityblue]田园恢复[/abilityblue]策略性操作现在降低了 {EnergyCostStratOpReduction}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SELECTIVE_BREEDING</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Selective Breeding</Data></Cell><Cell><Data ss:Type="String">选择性繁育</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">SELECTIVE_BREEDING</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Our scientists invest time in breeding and perfecting the organisms we use for war. As a result, we have a wider variety of specimens to pick from, which will increase both their efficiency in combat and reduce the effort it takes to train them.[br/][br/]{RankIncrease} for all newly produced Animal and Mounted units. Their [production/] and [energy/] cost is also reduced by {ProductionCostReduction} when producing these.[br/][br/][firecol]Unit costs can never be lowered more than 75%.[/firecol]</Data></Cell><Cell><Data ss:Type="String">我们的科学家们在繁育方面投入了时间，更加完善了我们用于战斗的生物体。因此我们可以选择的物种更为广泛，可以提升它们的战斗效率，同时减少训练投入。[br/][br/]新生产的动物和骑乘单位获得 {RankIncrease}，并且生产这些单位所需的[production/]和[energy/]消耗减少 {ProductionCostReduction}。[br/][br/][firecol]单位消耗减少不能超过 75%。[/firecol]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ARBOREAL_HABITATION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Arboreal Habitation</Data></Cell><Cell><Data ss:Type="String">林木栖息</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">ARBOREAL_HABITATION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The Amazons are experts at integrating housing into forested areas without disturbing any of the wildlife or overpopulating their colonies.[br/][br/]In forest sectors, gain {ColonistSlots} Colonist slots in each resource type for a resource exploitation of that type. This applies to all colonies.</Data></Cell><Cell><Data ss:Type="String">亚马逊人擅长将住所安置于森林区域，且不会影响其他野生动物或使殖民地人口过剩。[br/][br/]在森林区域，所有种类的资源在进行开采时都获得 {ColonistSlots} 个移住民槽位。所有殖民地都将受益。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIO_CRUSADE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Bio Crusade</Data></Cell><Cell><Data ss:Type="String">生物圣战</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">BIO_CRUSADE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">We must focus our efforts in cleansing this planet of all machines and non-organics. They are unnatural beings that need to be destroyed in order to let nature prosper.[br/][br/]Amazon and Animal units deal {DamageIncrease} added damage when fighting Mechanical and Cyborg units.</Data></Cell><Cell><Data ss:Type="String">我们必须集中力量将这个星球上的所有机器和非有机物全部清除。它们是非自然的产物，只有毁掉它们自然才能繁荣生长。[br/][br/]在与机械和半机械人战斗时，亚马逊人和动物单位造成伤害增加 {DamageIncrease} 点。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">BIO_CRUSADE</Data></Cell><Cell><Data ss:Type="String">SHORT_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Amazon and Animal units deal {DamageIncrease} added damage when fighting Mechanical and Cyborg units.</Data></Cell><Cell><Data ss:Type="String">在与机械和半机械人战斗时，亚马逊人和动物单位造成伤害增加 {DamageIncrease} 点。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIO_CRUSADE</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{DamageIncrease} added damage against Mechanical and Cyborg units.</Data></Cell><Cell><Data ss:Type="String">在与机械和半机械人战斗时造成伤害增加 {DamageIncrease} 点。</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Selected/><TopRowVisible>39</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>48</ActiveRow><ActiveCol>2</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:39:12Z</Created><LastSaved
+    >2019-06-25T15:39:12Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>9150</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s64"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /><Interior
+      /></Style><Style ss:ID="s65"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /><Interior /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="219.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="162" /><Column
+        ss:StyleID="s62"
+        ss:Width="198"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="387.75" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="313.5"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="309" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">SYMBIOSIS_TECHGROUPS</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >AMAZON_SKILLS</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >GROUP_NAME</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Amazon</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >亚马逊人</Data></Cell><Cell ss:Index="7" ss:StyleID="s63" /><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PROTECTIVE_GROWTH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Protective Growth</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御灵植</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">PROTECTIVE_GROWTH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Summon thick roots to protect a friendly ground unit, healing it for {HealAmount}[hp/] and preventing it from moving for {Immoturn}[turn/].[br/]While immobilized in this manner, the unit gains +{ArmorProtection}[armor/] and regenerates {healthregen}% of its maximum [hp/] per turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >召唤出粗壮的根须保护一个己方陆地单位，为其治疗 {HealAmount}[hp/]，且该单位将无法移动持续 {Immoturn}[turn/]。[br/]由于该单位无法移动，其将获得 +{ArmorProtection}[armor/]以及每回合恢复最大[hp/]的 {healthregen}%。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >PROTECTIVE_GROWTH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit cannot move, has an extra {ArmorProtection}[armor/] and is recovering {healthregen}% of its maximum [hp/] each turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位无法移动，具有额外 {ArmorProtection}[armor/]并且每回合恢复最大[hp/]的 {healthregen}%。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PRIMAL_OVERDRIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Primal Override</Data></Cell><Cell><Data
+            ss:Type="String"
+          >原始超控</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">PRIMAL_OVERDRIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Attempt to [abilityred]Mind Control[/abilityred] a non-Mindless or non-Mechanical Tier I or Tier II Animal unit with a {PrimalChance}[StrengthBio/] strength chance.[br/]If the target is under the effect of [abilityred]Entangle[/abilityred] or [abilityred]Sleep[/abilityred] the strength chance increases to {PrimalSuperiorChance}[StrengthBio/].[br/]If mind controlled this way, the unit permanently comes under your control. If resisted, apply [abilityred]Insanity[/abilityred] instead.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >尝试 [abilityred]心灵控制[/abilityred]一个 1 阶或 2 阶的非无意识或非机械的动物单位并附带 {PrimalChance}[StrengthBio/]力量几率。[br/]如果目标处于[abilityred]混乱[/abilityred]或[abilityred]沉睡[/abilityred]状态，则力量几率提升至 {PrimalSuperiorChance}[StrengthBio/]。[br/]以这种方式控制的单位将会永久听命于你。如果抵抗，则施加[abilityred]错乱[/abilityred]状态。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PRIMAL_OVERDRIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROP_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Animal Control</Data></Cell><Cell><Data
+            ss:Type="String"
+          >动物控制</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PRIMAL_OVERDRIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROP_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This animal is under your control.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >该动物受你的控制。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >NOURISHING_FIELD_PYLON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Nourishing Field Pylon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >滋养标塔</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">NOURISHING_FIELD_PYLON</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deploys a healing pylon to the battlefield. The pylon cannot act or move. All friendly Biological and Cyborg units within {range} hexes will heal for {healing} when this ability is used as well as at the start of each turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在战场上部署一个治疗标塔，标塔不能行动和移动。每回合开始以及使用此技能时，标塔 {range} 个单元格范围内的所有友方生物和半机械人单位将治疗 {healing}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AMPLIFYING_FIELD_PYLON</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Amplifying Field Pylon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >增强标塔</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">AMPLIFYING_FIELD_PYLON</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deploys an amplifying pylon to the battlefield. The pylon cannot act or move. Friendly Biological and Cyborg units adjacent to this pylon gain {damage} added damage while they remain adjacent to it. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在战场上部署一个增强标塔，标塔不能行动和移动。与标塔相邻的友方生物和半机械人单位额外获得 {damage} 伤害。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LURING_FIELD_PYLON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Luring Field Pylon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >引诱标塔</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">LURING_FIELD_PYLON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deploys a wildlife lure pylon to the battlefield. The pylon cannot act or move. It summons a random Tier II wildlife unit at the start of each turn. The pylon lasts for {duration} or until destroyed.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在战场上部署一个引诱野生动物的标塔，标塔不能行动和移动。每回合开始时，它会随机召唤一个 2 阶野生动物单位。在被摧毁前，标塔会持续{duration}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RAPID_REFORESTATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Rapid Reforestation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >快速造林</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">RAPID_REFORESTATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Transform the target sector into a Forest sector.[br/][br/][productioncol]Cannot be launched on Mountain or Enemy sectors.[/productioncol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将目标区域转化成森林区域。[br/][br/][productioncol]在山地地区和敌方区域无法执行。[/productioncol]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">RAPID_REFORESTATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our Biomancers have successfully planted our genetically-enhanced trees, rapidly transforming the entire sector into a forest we can call home.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的生化师已经成功栽种了经过基因增强的树木，正在迅速将整个区域转化成我们可以建立家园的森林。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entangling Overgrowth</Data></Cell><Cell><Data
+            ss:Type="String"
+          >过度生长</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Lowers [supply/] income of targeted enemy colony by {FoodIncomeReduction} for {EntanglingTurn}[turn/]. During this period, enemy units in that colony's domain spend an additional {MovePointCost} when moving.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使目标地方殖民地的[supply/]收入降低 {FoodIncomeReduction}，持续 {EntanglingTurn}[turn/]。在此期间，敌方单位在其殖民地领域内移动时将耗费额外{MovePointCost}.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell><Cell
+        ><Data ss:Type="String">EFFECT_STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{FoodIncomeReduction} income for {EntaglingTurn}[turn/].[br/]Enemy units spend {MovePointCost} more for each hex inside this domain for {EntaglingTurn}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{FoodIncomeReduction}收入，持续 {EntaglingTurn}[turn/]。[br/]在这个领域内敌方单位在每个单元格上将耗费更多{MovePointCost}，持续 {EntaglingTurn}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell><Cell
+        ><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bionically-enhanced growth has invaded the target enemy colony. This aggressive overgrowth will ruin their crops and hamper the enemy's movement.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >经过生物强化的灵植已经入侵了目标敌方殖民地。这种侵略性的强化灵植将破坏他们的庄稼，阻碍他们的行动。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell><Cell
+        ><Data ss:Type="String">CASTER_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The enhanced growth did not manage to gain a foothold. The population of the targeted enemy colony is suffering some unrest.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >强化灵植没有办法立足。目标敌方殖民地居民有些动荡不安。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell><Cell
+        ><Data ss:Type="String">TARGET_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our fields have been contaminated with some sort of aggressive growth that is ruining our crops and hampering our troops.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的田地被某种侵略性的灵植污染了，正在破坏我们的庄稼，阻碍我们部队行动。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell><Cell
+        ><Data ss:Type="String">TARGET_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our enemies attempted to imbed a species of aggressive plant in the colony, but it withered away before it could take hold. Our people, however, are not happy.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的敌人尝试着将一种侵略性植株种如我们的殖民地，不过它在扎下根之前就枯萎了。然而，我们的民众并不高兴。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INTRODUCE_PREADATORS</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Introduce Predators</Data></Cell><Cell><Data
+            ss:Type="String"
+          >引入掠食者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >INTRODUCE_PREADATORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spawn a hostile Hopperhound spawner at the center of an empty target sector.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在空旷目标区域中心地区放置一个敌对的跳蝗出生点。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">INTRODUCE_PREADATORS</Data></Cell><Cell
+        ><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Successfully deployed the predator lure in the target sector, attracting a brood of hopperhounds.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >已成功在目标区域部署掠食者诱饵，吸引到了一群跳蝗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARCADIAN_RESTORATION</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arcadian Restoration</Data></Cell><Cell><Data
+            ss:Type="String"
+          >田园恢复</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ARCADIAN_RESTORATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target sector is terraformed into an Arcadian sector.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标区域已经转化成田园区域。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ARCADIAN_RESTORATION</Data></Cell><Cell
+        ><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our Biomancers have succesfully terraformed the target sector into an Arcadian sector.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的生化师已经成功将目标区域已经转化成田园区域。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ECOLOGICAL_CONSTRUCTION</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ecological Construction</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生态建设</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">ECOLOGICAL_CONSTRUCTION</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Intelligent use of wood and local materials allows for green, cost-effective infrastructure development without having to harm or exploit nature.[br/][br/]Your colonies each gain {Production} for every forest sector within its domain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >善用树木和当地物资可以实现颇具成本效益的绿色基础设施建设，且不会伤害或过度剥削大自然。[br/][br/]殖民地领域内每有一个森林区域，你的所有殖民地都会获得{Production}。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PROGRESSIVE_CULTIVATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Progressive Cultivation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >逐步培养</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >PROGRESSIVE_CULTIVATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We can invest in genetically-modified crops that exploit fertile land to the fullest, making our harvests more bountiful.[br/][br/]{FoodIncomeIncrease} for every Arcadian sector connected to your colonies.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们可以使用经过基因修改的庄稼将肥沃土壤利用效率最大化，从而获得更好的收成。[br/][br/]每有一个与你的殖民地相连的田园区域，都将获得{FoodIncomeIncrease}。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PLANETARY_CLEANUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Planetary Cleanup</Data></Cell><Cell><Data
+            ss:Type="String"
+          >星球净化</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">PLANETARY_CLEANUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The fallen Union left many things behind, some of which are useful, but some are harmful to both nature and creatures alike. We see it as our duty to rid the world of these disruptive remnants and restore the world to its natural wonder.[br/][br/]Clearing World Hazards is {EnergyCostReduction} cheaper.[br/]The [abilityblue]Rapid Reforestation[/abilityblue] and [abilityblue]Arcadian Restoration[/abilityblue] strategic operations are now {EnergyCostStratOpReduction} cheaper.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >陨落的星联遗留下来了很多东西，有些很有用，而有些对大自然和生物却是有害的。去除这些破坏性遗留物并将世界恢复成原来的自然美景是我们义不容辞的责任。[br/][br/]清理世界有害物会降低 {EnergyCostReduction}。[br/][abilityblue]快速造林[/abilityblue]和[abilityblue]田园恢复[/abilityblue]策略性操作现在降低了 {EnergyCostStratOpReduction}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SELECTIVE_BREEDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Selective Breeding</Data></Cell><Cell><Data
+            ss:Type="String"
+          >选择性繁育</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">SELECTIVE_BREEDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our scientists invest time in breeding and perfecting the organisms we use for war. As a result, we have a wider variety of specimens to pick from, which will increase both their efficiency in combat and reduce the effort it takes to train them.[br/][br/]{RankIncrease} for all newly produced Animal and Mounted units. Their [production/] and [energy/] cost is also reduced by {ProductionCostReduction} when producing these.[br/][br/][firecol]Unit costs can never be lowered more than 75%.[/firecol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的科学家们在繁育方面投入了时间，更加完善了我们用于战斗的生物体。因此我们可以选择的物种更为广泛，可以提升它们的战斗效率，同时减少训练投入。[br/][br/]新生产的动物和骑乘单位获得 {RankIncrease}，并且生产这些单位所需的[production/]和[energy/]消耗减少 {ProductionCostReduction}。[br/][br/][firecol]单位消耗减少不能超过 75%。[/firecol]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARBOREAL_HABITATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arboreal Habitation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >林木栖息</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">ARBOREAL_HABITATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Amazons are experts at integrating housing into forested areas without disturbing any of the wildlife or overpopulating their colonies.[br/][br/]In forest sectors, gain {ColonistSlots} Colonist slots in each resource type for a resource exploitation of that type. This applies to all colonies.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >亚马逊人擅长将住所安置于森林区域，且不会影响其他野生动物或使殖民地人口过剩。[br/][br/]在森林区域，所有种类的资源在进行开采时都获得 {ColonistSlots} 个移住民槽位。所有殖民地都将受益。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIO_CRUSADE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bio Crusade</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生物圣战</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">BIO_CRUSADE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We must focus our efforts in cleansing this planet of all machines and non-organics. They are unnatural beings that need to be destroyed in order to let nature prosper.[br/][br/]Amazon and Animal units deal {DamageIncrease} added damage when fighting Mechanical and Cyborg units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们必须集中力量将这个星球上的所有机器和非有机物全部清除。它们是非自然的产物，只有毁掉它们自然才能繁荣生长。[br/][br/]在与机械和半机械人战斗时，亚马逊人和动物单位造成伤害增加 {DamageIncrease} 点。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">BIO_CRUSADE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Amazon and Animal units deal {DamageIncrease} added damage when fighting Mechanical and Cyborg units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在与机械和半机械人战斗时，亚马逊人和动物单位造成伤害增加 {DamageIncrease} 点。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIO_CRUSADE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{DamageIncrease} added damage against Mechanical and Cyborg units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在与机械和半机械人战斗时造成伤害增加 {DamageIncrease} 点。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Selected /><TopRowVisible>39</TopRowVisible><Panes><Pane
+        ><Number>3</Number><ActiveRow>48</ActiveRow><ActiveCol
+          >2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

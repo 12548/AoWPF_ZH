@@ -1,1 +1,1167 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:56:14Z</Created><LastSaved>2019-06-25T15:56:14Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style><Style ss:ID="s63"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Interior/></Style><Style ss:ID="s64"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/></Style><Style ss:ID="s65"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15"><Column ss:StyleID="s62" ss:Width="171.75"/><Column ss:StyleID="s62" ss:Width="130.5"/><Column ss:StyleID="s62" ss:Width="306.75"/><Column ss:StyleID="s62" ss:Width="147.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="271.5"/><Column ss:StyleID="s62" ss:Width="120"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="310.5"/><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">UNIT_UPGRADES_FIREARMS</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ASSAULT_RIFLE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Assault Rifle</Data></Cell><Cell><Data ss:Type="String">突击步枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ASSAULT_RIFLE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire an Assault Rifle at the target.</Data></Cell><Cell><Data ss:Type="String">使用突击步枪攻击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SNIPER_RIFLE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">MX-2000 Sniper</Data></Cell><Cell><Data ss:Type="String">MX-2000 狙击枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SNIPER_RIFLE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a MX-2000 Rifle at the target.</Data></Cell><Cell><Data ss:Type="String">使用 MX-2000 步枪攻击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GATLING_GUN</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Gatling Gun</Data></Cell><Cell><Data ss:Type="String">加特林机枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GATLING_GUN</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a Gatling Gun at the target.</Data></Cell><Cell><Data ss:Type="String">使用加特林机枪攻击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ELECTRIFIED_AMMO</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Ammunition: Electrified</Data></Cell><Cell><Data ss:Type="String">弹药：电能</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">ELECTRIFIED_AMMO</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Allows the unit to fire electrified ammunition to deal Arc damage and have a 12[StrengthWave/] chance (8[StrengthWave/] for repeating attacks) to inflict [abilityred]Electrified[/abilityred] on Cyborg and Mechanical units for 3[turn/].[br/][br/][productioncol]Only one kind of ammunition can be active at any time.[/productioncol]</Data></Cell><Cell><Data ss:Type="String">使单位能够发射电能弹药，造成电弧伤害并有 12[StrengthWave/] 几率（重复攻击有 8[StrengthWave/] 几率）对半机械人和机械单位施加[abilityred]触电[/abilityred]，持续 3[turn/]。[br/][br/][productioncol]一次只能激活一种弹药。[/productioncol]</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FLECHETTE_AMMO</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Ammunition: Flechette </Data></Cell><Cell><Data ss:Type="String">弹药：箭弹 </Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">FLECHETTE_AMMO</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Allows the unit to fire flechette ammunition, which has a 12[StrengthPhysical/] chance (8[StrengthPhysical/] for repeating attacks) to inflict [abilityred]Bleeding[/abilityred] on Cyborg and Biological units for 3[turn/].[br/][br/][productioncol]Only one kind of ammunition can be active at any time.[/productioncol]</Data></Cell><Cell><Data ss:Type="String">使单位能够发射箭弹弹药，攻击时有 12[StrengthPhysical/] 几率（重复攻击有 8[StrengthPhysical/] 几率）对半机械人和生物单位施加[abilityred]流血[/abilityred]，持续 3[turn/]。[br/][br/][productioncol]一次只能激活一种弹药。[/productioncol]</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RAIL_ACCELERATORS</Data></Cell><Cell><Data ss:Type="String">UPGRADE_NAME</Data></Cell><Cell><Data ss:Type="String">Rail Accelerators</Data></Cell><Cell><Data ss:Type="String">弹道加速器</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">RAIL_ACCELERATORS</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Advanced accelerators built into the weapon stabilize the shot. Firearms attacks have {accuracyboost} accuracy and {rangeboost} extra range.</Data></Cell><Cell><Data ss:Type="String">内置于武器中的高级加速器可提高武器稳定性，枪炮攻击获得 {accuracyboost} 准度并额外获得 {rangeboost} 射程。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RAIL_ACCELERATORS</Data></Cell><Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{AccuracyBonus} accuracy and {RangeBonus} range.</Data></Cell><Cell><Data ss:Type="String">{AccuracyBonus} 准度和 {RangeBonus} 射程。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INCENDIARY AMMO</Data></Cell><Cell><Data ss:Type="String">UPGRADE_NAME</Data></Cell><Cell><Data ss:Type="String">Ammunition: Fire Burst</Data></Cell><Cell><Data ss:Type="String">弹药：烈焰爆炸</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">INCENDIARY AMMO</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Allows the unit to fire incendiary ammunition to deal Thermal damage and have a 12[StrengthThermal/] chance (8[StrengthThermal/] for repeating attacks) to set targets on fire, causing [abilityred]Burning[/abilityred] for 3[turn/].[br/][br/]Attacks deal 50% of their damage to adjacent units.[br/][br/][productioncol]Only one kind of ammunition can be active at any time.[/productioncol]</Data></Cell><Cell><Data ss:Type="String">使单位能够发射燃烧弹药，造成热能伤害并有 12[StrengthThermal/] 几率（重复攻击有 8[StrengthThermal/] 几率）将目标点燃，施加[abilityred]燃烧[/abilityred]，持续 3[turn/]。[br/][br/]攻击还会对相邻的单位造成 50% 的伤害。.[br/][br/][productioncol]一次只能激活一种弹药。[/productioncol]</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TRICORIUM_SHOCKWAVE_ROUNDS</Data></Cell><Cell><Data ss:Type="String">UPGRADE_NAME</Data></Cell><Cell><Data ss:Type="String">Shockwave Infuser</Data></Cell><Cell><Data ss:Type="String">冲击波灌注器</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">TRICORIUM_SHOCKWAVE_ROUNDS</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Firearms attacks have a {StrengthSingle}[StrengthPhysical/] strength chance ({ChanceRepeat}[StrengthPhysical/] for repeating attacks) to cause [abilityred]Concussion[/abilityred] for {duration}[turn/] on the primary target while [abilityred]Staggering[/abilityred] adjacent units with High Impact.</Data></Cell><Cell><Data ss:Type="String">枪炮攻击有 {StrengthSingle}[StrengthPhysical/] 力量几率（重复攻击有 {ChanceRepeat}[StrengthPhysical/] 几率）向主目标施加[abilityred]震荡[/abilityred]，持续 {duration}[turn/]，此外还会以高度冲击[abilityred]动摇[/abilityred]相邻单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHOTGUN</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Shotgun</Data></Cell><Cell><Data ss:Type="String">霰弹枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHOTGUN</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a Shotgun at the target.</Data></Cell><Cell><Data ss:Type="String">使用霰弹枪攻击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PISTOL</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Pistol</Data></Cell><Cell><Data ss:Type="String">手枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PISTOL</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a Pistol at the target.</Data></Cell><Cell><Data ss:Type="String">使用手枪攻击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AIRCRAFT_GUN</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Aircraft Gun</Data></Cell><Cell><Data ss:Type="String">飞行器机枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AIRCRAFT_GUN</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A powerful machine gun for air-to-air combat.</Data></Cell><Cell><Data ss:Type="String">用于空战的强力机枪。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EQUIPMENT</Data></Cell><Cell><Data ss:Type="String">BASIC_PISTOL_NAME</Data></Cell><Cell><Data ss:Type="String">Pistol</Data></Cell><Cell><Data ss:Type="String">手枪</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">EQUIPMENT</Data></Cell><Cell><Data ss:Type="String">BASIC_ASSAULT_RIFLE_NAME</Data></Cell><Cell><Data ss:Type="String">Assault Rifle</Data></Cell><Cell><Data ss:Type="String">突击步枪</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">EQUIPMENT</Data></Cell><Cell><Data ss:Type="String">BASIC_SNIPER_RIFLE_NAME</Data></Cell><Cell><Data ss:Type="String">MX-2000 Sniper</Data></Cell><Cell><Data ss:Type="String">MX-2000 狙击枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EQUIPMENT</Data></Cell><Cell><Data ss:Type="String">BASIC_ROTARY_CANNON</Data></Cell><Cell><Data ss:Type="String">Rotary Cannon</Data></Cell><Cell><Data ss:Type="String">旋转加农炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EQUIPMENT</Data></Cell><Cell><Data ss:Type="String">BASIC_SHOT_GUN_NAME</Data></Cell><Cell><Data ss:Type="String">Shotgun</Data></Cell><Cell><Data ss:Type="String">霰弹枪</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">EQUIPMENT</Data></Cell><Cell><Data ss:Type="String">BASIC_VORPAL_SNIPER_RIFLE</Data></Cell><Cell><Data ss:Type="String">Vorpal Sniper Rifle</Data></Cell><Cell><Data ss:Type="String">夺命狙击枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFENSE_GUN</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Defense Gun</Data></Cell><Cell><Data ss:Type="String">防御机枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFENSE_GUN</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire the Defense Gun at the target.</Data></Cell><Cell><Data ss:Type="String">使用防御机枪攻击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RAIL_GUN</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Railgun</Data></Cell><Cell><Data ss:Type="String">轨道炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RAIL_GUN</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fires the Railgun at the target.</Data></Cell><Cell><Data ss:Type="String">使用轨道炮攻击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RAIL_GUN</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Gives the unit a Rail Gun.</Data></Cell><Cell><Data ss:Type="String">给予单位一把轨道炮。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">POWER_SHOT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Vorpal Shot</Data></Cell><Cell><Data ss:Type="String">夺命射击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">POWER_SHOT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire the Vorpal Sniper rifle at the target.</Data></Cell><Cell><Data ss:Type="String">使用夺命狙击枪攻击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">POWER_SHOT</Data></Cell><Cell><Data ss:Type="String">EFFECT_NAME</Data></Cell><Cell><Data ss:Type="String">Power Shot</Data></Cell><Cell><Data ss:Type="String">强力射击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">POWER_SHOT</Data></Cell><Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{PowerShotCritChance} critical chance.</Data></Cell><Cell><Data ss:Type="String">{PowerShotCritChance} 暴击率。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">OVERPOWERING_SHOT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Concussive Shot</Data></Cell><Cell><Data ss:Type="String">震荡射击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">OVERPOWERING_SHOT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire an overpowering shot, intending to stun the target.</Data></Cell><Cell><Data ss:Type="String">发射用于眩晕目标的强力射击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLINDING_SHOT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Blinding Snap Shot</Data></Cell><Cell><Data ss:Type="String">炫目速射</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLINDING_SHOT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A quick shot that fires a blinding flash round.</Data></Cell><Cell><Data ss:Type="String">快速发射能够令人致盲的闪光子弹。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DISASSEMBLER_SHELL</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Disassembler Shot</Data></Cell><Cell><Data ss:Type="String">拆解炮弹</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">DISASSEMBLER_SHELL</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a Disassembler Shot at the ground with 1 hex radius area of effect.</Data></Cell><Cell><Data ss:Type="String">向地面发射拆解炮弹，对 1 个单元格范围造成影响。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TOXIN_NANITES</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Toxin Nanites Ammunition</Data></Cell><Cell><Data ss:Type="String">剧毒纳米弹药</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">TOXIN_NANITES</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Replaces the Disassembler shell with a Toxic variant. It now leaves behind a cloud of Toxic Nanites that deal {ToxinHazardDamage} damage to enemy units standing in it, as well as having a {ToxicHazardChance} strength chance to apply [abilityred]Debilitating Infection[/abilityred] to Biological or Cyborg units.</Data></Cell><Cell><Data ss:Type="String">将拆解弹药替换为剧毒弹药，现在弹药发射后将留下一片毒雾，站在毒雾中的敌方单位将受到 {ToxinHazardDamage} 伤害，同时有 {ToxicHazardChance} 力量几率对生物或半机械人单位施加[abilityred]衰弱感染[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">NAVAL_RAILGUN</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Naval Railgun</Data></Cell><Cell><Data ss:Type="String">海军轨道炮</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">NAVAL_RAILGUN</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a ship mounted Railgun at the target unit. Ignores the accuracy penalty against Flying units.</Data></Cell><Cell><Data ss:Type="String">向目标单位发射海军轨道炮，无视对飞行单位的准度惩罚。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">WRECKING_SHOT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Wrecking Shot</Data></Cell><Cell><Data ss:Type="String">破坏炮弹</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">WRECKING_SHOT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a wrecking shot at the target.</Data></Cell><Cell><Data ss:Type="String">向目标发射破坏炮弹。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">NAVAL_CANNON</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Naval Cannon</Data></Cell><Cell><Data ss:Type="String">海军加农炮</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">NAVAL_CANNON</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a ship mounted Cannon at the target unit. Ignores the accuracy penalty against Flying units.</Data></Cell><Cell><Data ss:Type="String">向目标单位发射海军加农炮，无视对飞行单位的准度惩罚。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LARGE_CALIBER_WEAPONS</Data></Cell><Cell><Data ss:Type="String">UPGRADE_NAME</Data></Cell><Cell><Data ss:Type="String">Kinetic Phase Modulator</Data></Cell><Cell><Data ss:Type="String">动力相位调制器</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">LARGE_CALIBER_WEAPONS</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Upgrades Firearms so that rounds travel in a modified dimensional phase, allowing them to bypass {ShieldBypass}[shield/] and ignore {LoSIgnore}% of the accuracy penalties from line of sight and units in the way.</Data></Cell><Cell><Data ss:Type="String">升级枪炮，使其子弹能够穿越经过修改的维度相位，忽视 {ShieldBypass}[shield/]，并无视 {LoSIgnore}% 因视线和阻挡单位造成的准度惩罚。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LARGE_CALIBER_WEAPONS</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Bypass {ShieldBypass} and ignore {LoSIgnore}% of line of sight and unit in the way penalties.</Data></Cell><Cell><Data ss:Type="String">忽视 {ShieldBypass}，并且无视 {LoSIgnore}% 因视线和阻挡单而造成的惩罚。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPIKE_GUN</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Spike Gun</Data></Cell><Cell><Data ss:Type="String">钉枪</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="28.6875"><Cell><Data ss:Type="String">SPIKE_GUN</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a Spike Gun at the target. Damage increases by {DamageIncrease} when unit stands within a Trench.</Data></Cell><Cell><Data ss:Type="String">使用钉枪攻击目标。如果目标位于壕沟，造成的伤害提高 {DamageIncrease}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTOCANNONS</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Autocannons</Data></Cell><Cell><Data ss:Type="String">自动加农炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTOCANNONS</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire the Autocannons at the target.</Data></Cell><Cell><Data ss:Type="String">使用自动加农炮攻击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SUPPORT_GUNS</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Support Guns</Data></Cell><Cell><Data ss:Type="String">支援炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SUPPORT_GUNS</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire Support Guns at the target.</Data></Cell><Cell><Data ss:Type="String">使用支援炮攻击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ROTARY_CANNON</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Rotary Cannon</Data></Cell><Cell><Data ss:Type="String">旋转加农炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ROTARY_CANNON</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire the Rotary Cannon at the target.</Data></Cell><Cell><Data ss:Type="String">使用旋转加农炮攻击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFENSE_CANNONS</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Defense Cannons</Data></Cell><Cell><Data ss:Type="String">防御加农炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFENSE_CANNONS</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire Defense Cannons at the target.</Data></Cell><Cell><Data ss:Type="String">使用防御加农炮攻击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">NAVAL_ROTARY_CANNON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Naval Rotary Cannon</Data></Cell><Cell><Data ss:Type="String">海军旋转加农炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">NAVAL_ROTARY_CANNON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire the Naval Rotary Cannon at the target.</Data></Cell><Cell><Data ss:Type="String">使用海军旋转加农炮攻击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PROXIMITY_BARRAGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Proximity Barrage</Data></Cell><Cell><Data ss:Type="String">近距弹幕</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">PROXIMITY_BARRAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire Rotary Cannons all around the vessel, hitting every adjacent unit.</Data></Cell><Cell><Data ss:Type="String">使用旋转加农炮向舰船四周开火，攻击所有相邻目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MOUNTED_GUN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Mounted Gun</Data></Cell><Cell><Data ss:Type="String">搭载炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MOUNTED_GUN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire at the target with a mounted gun.</Data></Cell><Cell><Data ss:Type="String">使用搭载炮攻击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REPEATER_TURRET</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Repeater Turret</Data></Cell><Cell><Data ss:Type="String">连发炮塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REPEATER_TURRET</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fires a high volume of kinetic projectiles at the target.</Data></Cell><Cell><Data ss:Type="String">向目标发射大量动能射弹。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IMPERIAL_SNIPER_RIFLE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Sniper Shot</Data></Cell><Cell><Data ss:Type="String">狙击射击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IMPERIAL_SNIPER_RIFLE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire the sniper rifle at the target.</Data></Cell><Cell><Data ss:Type="String">使用狙击步枪攻击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IMPERIAL_MOUNTED_GUN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Imperial Mounted Gun</Data></Cell><Cell><Data ss:Type="String">帝国搭载炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IMPERIAL_MOUNTED_GUN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire Imperial Mounted Gun at the target.</Data></Cell><Cell><Data ss:Type="String">使用帝国搭载炮攻击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:StyleID="s64"><Cell><Data ss:Type="String">APC_MOUNTED_CANNON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">APC Mounted Cannon</Data></Cell><Cell><Data ss:Type="String">自动相位控制战车搭载加农炮</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:StyleID="s64"><Cell><Data ss:Type="String">APC_MOUNTED_CANNON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a Mounted Cannon at a target.</Data></Cell><Cell><Data ss:Type="String">使用搭载炮攻击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMMO_FLECHETTE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Sharp</Data></Cell><Cell><Data ss:Type="String">尖锐</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMMO_FLECHETTE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Stinging</Data></Cell><Cell><Data ss:Type="String">穿刺</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMMO_FLECHETTE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Eviscerator</Data></Cell><Cell><Data ss:Type="String">开膛者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMMO_FLECHETTE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Pointy</Data></Cell><Cell><Data ss:Type="String">尖利</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMMO_FLECHETTE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Butcher</Data></Cell><Cell><Data ss:Type="String">屠夫</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMMO_FLECHETTE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Barbed</Data></Cell><Cell><Data ss:Type="String">尖刺</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">KINETIC_FORCE_AMPLIFIERS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Impactful</Data></Cell><Cell><Data ss:Type="String">强烈</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">KINETIC_FORCE_AMPLIFIERS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Amplified</Data></Cell><Cell><Data ss:Type="String">增强</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">KINETIC_FORCE_AMPLIFIERS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Forceful</Data></Cell><Cell><Data ss:Type="String">强力</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">KINETIC_FORCE_AMPLIFIERS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Enforcing</Data></Cell><Cell><Data ss:Type="String">强制</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">KINETIC_FORCE_AMPLIFIERS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Heavy</Data></Cell><Cell><Data ss:Type="String">重型</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">KINETIC_FORCE_AMPLIFIERS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Powerknocking</Data></Cell><Cell><Data ss:Type="String">能量震爆</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMMO_ELECTRIFIED</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Shocker</Data></Cell><Cell><Data ss:Type="String">电击者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMMO_ELECTRIFIED</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Taser</Data></Cell><Cell><Data ss:Type="String">电击枪</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMMO_ELECTRIFIED</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Circuit Breaker</Data></Cell><Cell><Data ss:Type="String">电路破坏者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMMO_ELECTRIFIED</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Short Circuit</Data></Cell><Cell><Data ss:Type="String">短路</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMMO_ELECTRIFIED</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Zapper</Data></Cell><Cell><Data ss:Type="String">电磁器</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMMO_ELECTRIFIED</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Charged</Data></Cell><Cell><Data ss:Type="String">充能完毕</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RAIL_ACCELERATORS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Sharpshooter</Data></Cell><Cell><Data ss:Type="String">神射手</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RAIL_ACCELERATORS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Steady</Data></Cell><Cell><Data ss:Type="String">稳固射击</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RAIL_ACCELERATORS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Pinpoint</Data></Cell><Cell><Data ss:Type="String">精确定位</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RAIL_ACCELERATORS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">On target</Data></Cell><Cell><Data ss:Type="String">正中要害</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RAIL_ACCELERATORS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Trickshot</Data></Cell><Cell><Data ss:Type="String">特技射击</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RAIL_ACCELERATORS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Hunter</Data></Cell><Cell><Data ss:Type="String">猎手</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMMO_INCENDIARY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Combuster</Data></Cell><Cell><Data ss:Type="String">燃烧器</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMMO_INCENDIARY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Overcooked</Data></Cell><Cell><Data ss:Type="String">过度燃烧</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMMO_INCENDIARY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Lighter</Data></Cell><Cell><Data ss:Type="String">点火器</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMMO_INCENDIARY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Pyromaniac</Data></Cell><Cell><Data ss:Type="String">纵火狂</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMMO_INCENDIARY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Incendiary</Data></Cell><Cell><Data ss:Type="String">纵火者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMMO_INCENDIARY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Blistering</Data></Cell><Cell><Data ss:Type="String">酷热</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHOCKWAVE_INFUSER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Knock Out</Data></Cell><Cell><Data ss:Type="String">击晕</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHOCKWAVE_INFUSER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Shock King</Data></Cell><Cell><Data ss:Type="String">震击之王</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHOCKWAVE_INFUSER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Blaster</Data></Cell><Cell><Data ss:Type="String">爆裂者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHOCKWAVE_INFUSER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Concussive</Data></Cell><Cell><Data ss:Type="String">震荡</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHOCKWAVE_INFUSER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Heavy Blow</Data></Cell><Cell><Data ss:Type="String">重击</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHOCKWAVE_INFUSER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Jawbreaker</Data></Cell><Cell><Data ss:Type="String">碎鄂者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHOCKWAVE_INFUSER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Knockout</Data></Cell><Cell><Data ss:Type="String">击倒</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INCENDIARY AMMO</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Deals {DamagePercentage}% damage to adjacent units.</Data></Cell><Cell><Data ss:Type="String">对相邻单位造成 {DamagePercentage}% 伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GUN_TURRET</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Twin Guns</Data></Cell><Cell><Data ss:Type="String">双枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GUN_TURRET</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire twin light machine guns at the target hex, dealing Kinetic damage.</Data></Cell><Cell><Data ss:Type="String">使用轻型双机枪攻击目标单元格，造成动能伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ASSEMBLY_SHOTGUN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Scavenger Shotgun</Data></Cell><Cell><Data ss:Type="String">清道夫霰弹枪</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Selected/><TopRowVisible>24</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>16</ActiveRow><ActiveCol>2</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:56:14Z</Created><LastSaved
+    >2019-06-25T15:56:14Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Interior /></Style><Style
+      ss:ID="s64"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
+      ss:ID="s65"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="171.75" /><Column
+        ss:StyleID="s62"
+        ss:Width="130.5"
+      /><Column ss:StyleID="s62" ss:Width="306.75" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="271.5" /><Column
+        ss:StyleID="s62"
+        ss:Width="120"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="310.5" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">UNIT_UPGRADES_FIREARMS</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ASSAULT_RIFLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Assault Rifle</Data></Cell><Cell><Data
+            ss:Type="String"
+          >突击步枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ASSAULT_RIFLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire an Assault Rifle at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用突击步枪攻击目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SNIPER_RIFLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MX-2000 Sniper</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MX-2000 狙击枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">SNIPER_RIFLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a MX-2000 Rifle at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用 MX-2000 步枪攻击目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GATLING_GUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gatling Gun</Data></Cell><Cell><Data
+            ss:Type="String"
+          >加特林机枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GATLING_GUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a Gatling Gun at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用加特林机枪攻击目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ELECTRIFIED_AMMO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ammunition: Electrified</Data></Cell><Cell><Data
+            ss:Type="String"
+          >弹药：电能</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">ELECTRIFIED_AMMO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Allows the unit to fire electrified ammunition to deal Arc damage and have a 12[StrengthWave/] chance (8[StrengthWave/] for repeating attacks) to inflict [abilityred]Electrified[/abilityred] on Cyborg and Mechanical units for 3[turn/].[br/][br/][productioncol]Only one kind of ammunition can be active at any time.[/productioncol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使单位能够发射电能弹药，造成电弧伤害并有 12[StrengthWave/] 几率（重复攻击有 8[StrengthWave/] 几率）对半机械人和机械单位施加[abilityred]触电[/abilityred]，持续 3[turn/]。[br/][br/][productioncol]一次只能激活一种弹药。[/productioncol]</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FLECHETTE_AMMO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ammunition: Flechette </Data></Cell><Cell><Data
+            ss:Type="String"
+          >弹药：箭弹 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">FLECHETTE_AMMO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Allows the unit to fire flechette ammunition, which has a 12[StrengthPhysical/] chance (8[StrengthPhysical/] for repeating attacks) to inflict [abilityred]Bleeding[/abilityred] on Cyborg and Biological units for 3[turn/].[br/][br/][productioncol]Only one kind of ammunition can be active at any time.[/productioncol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使单位能够发射箭弹弹药，攻击时有 12[StrengthPhysical/] 几率（重复攻击有 8[StrengthPhysical/] 几率）对半机械人和生物单位施加[abilityred]流血[/abilityred]，持续 3[turn/]。[br/][br/][productioncol]一次只能激活一种弹药。[/productioncol]</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RAIL_ACCELERATORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Rail Accelerators</Data></Cell><Cell><Data
+            ss:Type="String"
+          >弹道加速器</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">RAIL_ACCELERATORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Advanced accelerators built into the weapon stabilize the shot. Firearms attacks have {accuracyboost} accuracy and {rangeboost} extra range.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >内置于武器中的高级加速器可提高武器稳定性，枪炮攻击获得 {accuracyboost} 准度并额外获得 {rangeboost} 射程。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RAIL_ACCELERATORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{AccuracyBonus} accuracy and {RangeBonus} range.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{AccuracyBonus} 准度和 {RangeBonus} 射程。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INCENDIARY AMMO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ammunition: Fire Burst</Data></Cell><Cell><Data
+            ss:Type="String"
+          >弹药：烈焰爆炸</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">INCENDIARY AMMO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Allows the unit to fire incendiary ammunition to deal Thermal damage and have a 12[StrengthThermal/] chance (8[StrengthThermal/] for repeating attacks) to set targets on fire, causing [abilityred]Burning[/abilityred] for 3[turn/].[br/][br/]Attacks deal 50% of their damage to adjacent units.[br/][br/][productioncol]Only one kind of ammunition can be active at any time.[/productioncol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使单位能够发射燃烧弹药，造成热能伤害并有 12[StrengthThermal/] 几率（重复攻击有 8[StrengthThermal/] 几率）将目标点燃，施加[abilityred]燃烧[/abilityred]，持续 3[turn/]。[br/][br/]攻击还会对相邻的单位造成 50% 的伤害。.[br/][br/][productioncol]一次只能激活一种弹药。[/productioncol]</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >TRICORIUM_SHOCKWAVE_ROUNDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shockwave Infuser</Data></Cell><Cell><Data
+            ss:Type="String"
+          >冲击波灌注器</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data
+            ss:Type="String"
+          >TRICORIUM_SHOCKWAVE_ROUNDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Firearms attacks have a {StrengthSingle}[StrengthPhysical/] strength chance ({ChanceRepeat}[StrengthPhysical/] for repeating attacks) to cause [abilityred]Concussion[/abilityred] for {duration}[turn/] on the primary target while [abilityred]Staggering[/abilityred] adjacent units with High Impact.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >枪炮攻击有 {StrengthSingle}[StrengthPhysical/] 力量几率（重复攻击有 {ChanceRepeat}[StrengthPhysical/] 几率）向主目标施加[abilityred]震荡[/abilityred]，持续 {duration}[turn/]，此外还会以高度冲击[abilityred]动摇[/abilityred]相邻单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SHOTGUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shotgun</Data></Cell><Cell><Data
+            ss:Type="String"
+          >霰弹枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SHOTGUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a Shotgun at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用霰弹枪攻击目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PISTOL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Pistol</Data></Cell><Cell><Data
+            ss:Type="String"
+          >手枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PISTOL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a Pistol at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用手枪攻击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">AIRCRAFT_GUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Aircraft Gun</Data></Cell><Cell><Data
+            ss:Type="String"
+          >飞行器机枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AIRCRAFT_GUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A powerful machine gun for air-to-air combat.</Data></Cell><Cell
+        ><Data ss:Type="String">用于空战的强力机枪。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EQUIPMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BASIC_PISTOL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Pistol</Data></Cell><Cell><Data
+            ss:Type="String"
+          >手枪</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">EQUIPMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BASIC_ASSAULT_RIFLE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Assault Rifle</Data></Cell><Cell><Data
+            ss:Type="String"
+          >突击步枪</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">EQUIPMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BASIC_SNIPER_RIFLE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MX-2000 Sniper</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MX-2000 狙击枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">EQUIPMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BASIC_ROTARY_CANNON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Rotary Cannon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >旋转加农炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EQUIPMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BASIC_SHOT_GUN_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shotgun</Data></Cell><Cell><Data
+            ss:Type="String"
+          >霰弹枪</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">EQUIPMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BASIC_VORPAL_SNIPER_RIFLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vorpal Sniper Rifle</Data></Cell><Cell><Data
+            ss:Type="String"
+          >夺命狙击枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DEFENSE_GUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defense Gun</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御机枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DEFENSE_GUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire the Defense Gun at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用防御机枪攻击目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RAIL_GUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Railgun</Data></Cell><Cell><Data
+            ss:Type="String"
+          >轨道炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RAIL_GUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fires the Railgun at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用轨道炮攻击目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RAIL_GUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gives the unit a Rail Gun.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >给予单位一把轨道炮。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">POWER_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vorpal Shot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >夺命射击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >POWER_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire the Vorpal Sniper rifle at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用夺命狙击枪攻击目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">POWER_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Power Shot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >强力射击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >POWER_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{PowerShotCritChance} critical chance.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{PowerShotCritChance} 暴击率。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OVERPOWERING_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Concussive Shot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >震荡射击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >OVERPOWERING_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire an overpowering shot, intending to stun the target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发射用于眩晕目标的强力射击。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BLINDING_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blinding Snap Shot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >炫目速射</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BLINDING_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A quick shot that fires a blinding flash round.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >快速发射能够令人致盲的闪光子弹。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DISASSEMBLER_SHELL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Disassembler Shot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >拆解炮弹</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DISASSEMBLER_SHELL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a Disassembler Shot at the ground with 1 hex radius area of effect.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向地面发射拆解炮弹，对 1 个单元格范围造成影响。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TOXIN_NANITES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Toxin Nanites Ammunition</Data></Cell><Cell><Data
+            ss:Type="String"
+          >剧毒纳米弹药</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">TOXIN_NANITES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Replaces the Disassembler shell with a Toxic variant. It now leaves behind a cloud of Toxic Nanites that deal {ToxinHazardDamage} damage to enemy units standing in it, as well as having a {ToxicHazardChance} strength chance to apply [abilityred]Debilitating Infection[/abilityred] to Biological or Cyborg units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将拆解弹药替换为剧毒弹药，现在弹药发射后将留下一片毒雾，站在毒雾中的敌方单位将受到 {ToxinHazardDamage} 伤害，同时有 {ToxicHazardChance} 力量几率对生物或半机械人单位施加[abilityred]衰弱感染[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">NAVAL_RAILGUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Naval Railgun</Data></Cell><Cell><Data
+            ss:Type="String"
+          >海军轨道炮</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">NAVAL_RAILGUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a ship mounted Railgun at the target unit. Ignores the accuracy penalty against Flying units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标单位发射海军轨道炮，无视对飞行单位的准度惩罚。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">WRECKING_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Wrecking Shot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >破坏炮弹</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >WRECKING_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a wrecking shot at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向目标发射破坏炮弹。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">NAVAL_CANNON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Naval Cannon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >海军加农炮</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">NAVAL_CANNON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a ship mounted Cannon at the target unit. Ignores the accuracy penalty against Flying units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标单位发射海军加农炮，无视对飞行单位的准度惩罚。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LARGE_CALIBER_WEAPONS</Data></Cell><Cell
+        ><Data ss:Type="String">UPGRADE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Kinetic Phase Modulator</Data></Cell><Cell><Data
+            ss:Type="String"
+          >动力相位调制器</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">LARGE_CALIBER_WEAPONS</Data></Cell><Cell
+        ><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Upgrades Firearms so that rounds travel in a modified dimensional phase, allowing them to bypass {ShieldBypass}[shield/] and ignore {LoSIgnore}% of the accuracy penalties from line of sight and units in the way.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >升级枪炮，使其子弹能够穿越经过修改的维度相位，忽视 {ShieldBypass}[shield/]，并无视 {LoSIgnore}% 因视线和阻挡单位造成的准度惩罚。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LARGE_CALIBER_WEAPONS</Data></Cell><Cell
+        ><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bypass {ShieldBypass} and ignore {LoSIgnore}% of line of sight and unit in the way penalties.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >忽视 {ShieldBypass}，并且无视 {LoSIgnore}% 因视线和阻挡单而造成的惩罚。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SPIKE_GUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spike Gun</Data></Cell><Cell><Data
+            ss:Type="String"
+          >钉枪</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="28.6875"
+      ><Cell><Data ss:Type="String">SPIKE_GUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a Spike Gun at the target. Damage increases by {DamageIncrease} when unit stands within a Trench.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用钉枪攻击目标。如果目标位于壕沟，造成的伤害提高 {DamageIncrease}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AUTOCANNONS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Autocannons</Data></Cell><Cell><Data
+            ss:Type="String"
+          >自动加农炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTOCANNONS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire the Autocannons at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用自动加农炮攻击目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SUPPORT_GUNS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Support Guns</Data></Cell><Cell><Data
+            ss:Type="String"
+          >支援炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SUPPORT_GUNS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire Support Guns at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用支援炮攻击目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ROTARY_CANNON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Rotary Cannon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >旋转加农炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ROTARY_CANNON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire the Rotary Cannon at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用旋转加农炮攻击目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DEFENSE_CANNONS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defense Cannons</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御加农炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DEFENSE_CANNONS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire Defense Cannons at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用防御加农炮攻击目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">NAVAL_ROTARY_CANNON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Naval Rotary Cannon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >海军旋转加农炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">NAVAL_ROTARY_CANNON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire the Naval Rotary Cannon at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用海军旋转加农炮攻击目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PROXIMITY_BARRAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Proximity Barrage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >近距弹幕</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PROXIMITY_BARRAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire Rotary Cannons all around the vessel, hitting every adjacent unit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用旋转加农炮向舰船四周开火，攻击所有相邻目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MOUNTED_GUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mounted Gun</Data></Cell><Cell><Data
+            ss:Type="String"
+          >搭载炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOUNTED_GUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire at the target with a mounted gun.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用搭载炮攻击目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REPEATER_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Repeater Turret</Data></Cell><Cell><Data
+            ss:Type="String"
+          >连发炮塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >REPEATER_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fires a high volume of kinetic projectiles at the target.</Data></Cell><Cell
+        ><Data ss:Type="String">向目标发射大量动能射弹。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IMPERIAL_SNIPER_RIFLE</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sniper Shot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >狙击射击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >IMPERIAL_SNIPER_RIFLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire the sniper rifle at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用狙击步枪攻击目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IMPERIAL_MOUNTED_GUN</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Mounted Gun</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国搭载炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >IMPERIAL_MOUNTED_GUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire Imperial Mounted Gun at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用帝国搭载炮攻击目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:StyleID="s64"
+      ><Cell><Data ss:Type="String">APC_MOUNTED_CANNON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >APC Mounted Cannon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >自动相位控制战车搭载加农炮</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:StyleID="s64"
+      ><Cell><Data ss:Type="String">APC_MOUNTED_CANNON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a Mounted Cannon at a target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用搭载炮攻击目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AMMO_FLECHETTE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Sharp</Data></Cell><Cell><Data
+            ss:Type="String"
+          >尖锐</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMMO_FLECHETTE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Stinging</Data></Cell><Cell><Data
+            ss:Type="String"
+          >穿刺</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMMO_FLECHETTE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Eviscerator</Data></Cell><Cell><Data
+            ss:Type="String"
+          >开膛者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMMO_FLECHETTE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Pointy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >尖利</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMMO_FLECHETTE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Butcher</Data></Cell><Cell><Data
+            ss:Type="String"
+          >屠夫</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMMO_FLECHETTE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Barbed</Data></Cell><Cell><Data
+            ss:Type="String"
+          >尖刺</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >KINETIC_FORCE_AMPLIFIERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Impactful</Data></Cell><Cell><Data
+            ss:Type="String"
+          >强烈</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >KINETIC_FORCE_AMPLIFIERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Amplified</Data></Cell><Cell><Data
+            ss:Type="String"
+          >增强</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >KINETIC_FORCE_AMPLIFIERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Forceful</Data></Cell><Cell><Data
+            ss:Type="String"
+          >强力</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >KINETIC_FORCE_AMPLIFIERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Enforcing</Data></Cell><Cell><Data
+            ss:Type="String"
+          >强制</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >KINETIC_FORCE_AMPLIFIERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Heavy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >重型</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >KINETIC_FORCE_AMPLIFIERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Powerknocking</Data></Cell><Cell><Data
+            ss:Type="String"
+          >能量震爆</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMMO_ELECTRIFIED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Shocker</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电击者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMMO_ELECTRIFIED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Taser</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电击枪</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMMO_ELECTRIFIED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Circuit Breaker</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电路破坏者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMMO_ELECTRIFIED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Short Circuit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >短路</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMMO_ELECTRIFIED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Zapper</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电磁器</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMMO_ELECTRIFIED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Charged</Data></Cell><Cell><Data
+            ss:Type="String"
+          >充能完毕</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RAIL_ACCELERATORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Sharpshooter</Data></Cell><Cell><Data
+            ss:Type="String"
+          >神射手</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RAIL_ACCELERATORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Steady</Data></Cell><Cell><Data
+            ss:Type="String"
+          >稳固射击</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RAIL_ACCELERATORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Pinpoint</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精确定位</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RAIL_ACCELERATORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >On target</Data></Cell><Cell><Data
+            ss:Type="String"
+          >正中要害</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RAIL_ACCELERATORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Trickshot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >特技射击</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RAIL_ACCELERATORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Hunter</Data></Cell><Cell><Data
+            ss:Type="String"
+          >猎手</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMMO_INCENDIARY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Combuster</Data></Cell><Cell><Data
+            ss:Type="String"
+          >燃烧器</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMMO_INCENDIARY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Overcooked</Data></Cell><Cell><Data
+            ss:Type="String"
+          >过度燃烧</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMMO_INCENDIARY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Lighter</Data></Cell><Cell><Data
+            ss:Type="String"
+          >点火器</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMMO_INCENDIARY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Pyromaniac</Data></Cell><Cell><Data
+            ss:Type="String"
+          >纵火狂</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMMO_INCENDIARY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Incendiary</Data></Cell><Cell><Data
+            ss:Type="String"
+          >纵火者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMMO_INCENDIARY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Blistering</Data></Cell><Cell><Data
+            ss:Type="String"
+          >酷热</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SHOCKWAVE_INFUSER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Knock Out</Data></Cell><Cell><Data
+            ss:Type="String"
+          >击晕</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SHOCKWAVE_INFUSER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Shock King</Data></Cell><Cell><Data
+            ss:Type="String"
+          >震击之王</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SHOCKWAVE_INFUSER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Blaster</Data></Cell><Cell><Data
+            ss:Type="String"
+          >爆裂者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SHOCKWAVE_INFUSER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Concussive</Data></Cell><Cell><Data
+            ss:Type="String"
+          >震荡</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SHOCKWAVE_INFUSER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Heavy Blow</Data></Cell><Cell><Data
+            ss:Type="String"
+          >重击</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SHOCKWAVE_INFUSER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Jawbreaker</Data></Cell><Cell><Data
+            ss:Type="String"
+          >碎鄂者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SHOCKWAVE_INFUSER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_7</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Knockout</Data></Cell><Cell><Data
+            ss:Type="String"
+          >击倒</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >INCENDIARY AMMO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deals {DamagePercentage}% damage to adjacent units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >对相邻单位造成 {DamagePercentage}% 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GUN_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Twin Guns</Data></Cell><Cell><Data
+            ss:Type="String"
+          >双枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GUN_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire twin light machine guns at the target hex, dealing Kinetic damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用轻型双机枪攻击目标单元格，造成动能伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ASSEMBLY_SHOTGUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Scavenger Shotgun</Data></Cell><Cell><Data
+            ss:Type="String"
+          >清道夫霰弹枪</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Selected /><TopRowVisible>24</TopRowVisible><Panes><Pane
+        ><Number>3</Number><ActiveRow>16</ActiveRow><ActiveCol
+          >2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

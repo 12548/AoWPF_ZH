@@ -1,18 +1,948 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:47:26Z</Created><LastSaved>2019-06-29T23:42:07Z</LastSaved><Version>15.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>16125</WindowHeight><WindowWidth>22005</WindowWidth><WindowTopX>24735</WindowTopX><WindowTopY>900</WindowTopY><MaxChange>0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s57"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/></Style><Style ss:ID="s58"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/></Style><Style ss:ID="s59"><Alignment ss:Vertical="Center" ss:WrapText="1"/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/></Style><Style ss:ID="s60"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/></Style><Style ss:ID="s61"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/><Interior/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s57" ss:DefaultRowHeight="15"><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="240"/><Column ss:StyleID="s57" ss:Width="66.75"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="312.75"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="240.75"/><Column ss:StyleID="s57" ss:Width="207.75"/><Column ss:StyleID="s57" ss:Width="120"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="312.75"/><Row ss:Height="60"><Cell><Data ss:Type="String">DWELLING_QUESTEMPIRE</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:Height="60"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:Height="30"><Cell><Data ss:Type="String">DEFAULT_RESPONSE</Data></Cell><Cell><Data ss:Type="String">FAILED</Data></Cell><Cell><Data ss:Type="String">How disappointing. We already took care of this matter ourselves. We no longer need your help.</Data></Cell><Cell><Data ss:Type="String">让人失望。我们已经自行解决了。我们不再需要你的帮助。</Data></Cell></Row><Row><Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Bulwark of Civilization</Data></Cell><Cell><Data ss:Type="String">文明的堡垒</Data></Cell></Row><Row ss:Height="45"><Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The imperial guard is crumbling. The plebeians have given in to their savage nature. Help us maintain order within our last bulwark of civilization.</Data></Cell><Cell><Data ss:Type="String">帝国的防线已崩溃，平民百姓已经向他们的野蛮本性屈服。帮助我们维护最后的文明堡垒的秩序。</Data></Cell></Row><Row><Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell><Cell><Data ss:Type="String">SHORT</Data></Cell><Cell><Data ss:Type="String">Defeat the Paragon's Enemies</Data></Cell><Cell><Data ss:Type="String">击败完人的敌人</Data></Cell></Row><Row><Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell><Cell><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data ss:Type="String">Thank you for helping us. Your reward awaits you.</Data></Cell><Cell><Data ss:Type="String">感谢你帮助我们。去领取你的奖励吧。</Data></Cell></Row><Row><Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Implant Snatchers</Data></Cell><Cell><Data ss:Type="String">植入体掠夺者</Data></Cell></Row><Row><Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell><Cell><Data ss:Type="String">SHORT</Data></Cell><Cell><Data ss:Type="String">Defeat the Hostile Pirates</Data></Cell><Cell><Data ss:Type="String">击败敌对海盗</Data></Cell></Row><Row ss:Height="75"><Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A group of pirates are ripping implants out of Paragon bodies. These cowards often target defenseless cryo-sleepers, leaving them to die as plebeians. The implants grant us the abilities we need for the resurrection of the Star Union. Follow these thieves and kill them.</Data></Cell><Cell><Data ss:Type="String">一群海盗正在掠夺完人体内的植入体，这些懦夫经常朝那些毫无还手之力的冷冻休眠者下手，然后任由他们像普通人一样死去。这些植入体能够赋予我们复兴星际联盟所需的能力，所以，找到这些小偷并消灭他们。</Data></Cell></Row><Row ss:Height="45"><Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell><Cell><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data ss:Type="String">Thanks to your efforts, we can sleep safely once more. All squabbling relatives can be returned to their tombs now. You have our gratitude.</Data></Cell><Cell><Data ss:Type="String">感谢你的帮助，我们又能睡个安稳觉了。所有吵闹的族人现在可以回到他们的冷冻舱中去了，非常感谢。</Data></Cell></Row><Row><Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Vandals on the Rampage</Data></Cell><Cell><Data ss:Type="String">暴怒的破坏分子</Data></Cell></Row><Row><Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell><Cell><Data ss:Type="String">SHORT</Data></Cell><Cell><Data ss:Type="String">Defeat the Paragon's Enemies</Data></Cell><Cell><Data ss:Type="String">击败完人的敌人</Data></Cell></Row><Row ss:Height="60"><Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Our great monuments and works of art attract a range of enemies. Our refined ways trigger rage in savage minds, as if smashing things they don’t understand makes the world right for them.   </Data></Cell><Cell><Data ss:Type="String">我们宏伟的纪念碑和艺术品引得各方敌人觊觎，我们的高雅之道引起了野蛮之人心中的愤怒，好像砸碎那些他们不能理解的事物就能让这个世界变得更好一样…   </Data></Cell></Row><Row ss:Height="30"><Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell><Cell><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data ss:Type="String">Thanks to you, the intruders are exterminated. Your reward awaits you.</Data></Cell><Cell><Data ss:Type="String">感谢你的帮助，入侵者已经被消灭了。去领取你的奖励吧。</Data></Cell></Row><Row><Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">False Prophet</Data></Cell><Cell><Data ss:Type="String">假先知</Data></Cell></Row><Row><Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell><Cell><Data ss:Type="String">SHORT</Data></Cell><Cell><Data ss:Type="String">Defeat the hostile Paragon</Data></Cell><Cell><Data ss:Type="String">击败敌对完人</Data></Cell></Row><Row ss:Height="409.5"><Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A usurper has arisen, pretending to be the new Emperor, riling the plebs. There is only one true Emperor, and they shall return the Star Union to us. Stop this heretic and the false promises it spews from its rotten implant.</Data></Cell><Cell><Data ss:Type="String">一名篡位者假装自己是新的帝皇并获得了不小的势力，惹得许多平民愤怒不已。世界上只有一位帝皇，他们必须把星际联盟归还给我们。阻止这名异端，还有那些从他堕落的植入体中散布出的虚假承诺也一并消灭。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">"Emperor" refers to the Emperor of the Star Union.</Data></Cell><Cell><Data ss:Type="String">A usurper has arisen, pretending to be the new Emperor, riling the plebs. There is only one true Emperor, and it shall return the Star Union to us. Stop this heretic and the false promises it spews from its rotten implant.</Data></Cell></Row><Row ss:Height="30"><Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell><Cell><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data ss:Type="String">Thanks to you, we have stopped a major uprising driven by a charlatan. You have our sincerest gratitude. </Data></Cell><Cell><Data ss:Type="String">感谢你的帮助，我们阻止了一场由骗子引发的大暴动。再次向你表示最衷心的感谢。 </Data></Cell></Row><Row><Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Ravages of Time</Data></Cell><Cell><Data ss:Type="String">时间的摧残</Data></Cell></Row><Row><Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell><Cell><Data ss:Type="String">SHORT</Data></Cell><Cell><Data ss:Type="String">Build the Prosthetic Replacements for the Paragon</Data></Cell><Cell><Data ss:Type="String">为完人制造替换用假体</Data></Cell></Row><Row ss:Height="105"><Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">As the last heirs of the Star Union, it is one of the many duties of the Paragon to uphold the cultural and technological legacy of our ancestors. We have witnessed the decline of the Dark Age and must commit ourselves to favor those few that show there can still be knowledgeable and civilized people in this rotten era. The question is, {STR_LeaderName}, will you be one of them?</Data></Cell><Cell><Data ss:Type="String">身为仅存的星际联盟后裔，完人肩负许多职责，其中之一便是维护我们祖先遗留的文化和科技遗产。我们曾见证过黑暗时代的衰落，因此必须不遗余力地向那一少部分人证明，即使是在这样堕落腐朽的地方也仍然有文明和知识存在。问题是，{STR_LeaderName}，你是其中一员吗？</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">"Dark Age" refers to the Cosmic Dark Age of the Star Union.</Data></Cell></Row><Row ss:Height="60"><Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell><Cell><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data ss:Type="String">It is an act of cruelty that even in our victories we are reminded of our fading perfection. Nonetheless, you have our gratitude and that of our Prefect, {STR_LeaderName}. May you live to see the return of the old Emperors!</Data></Cell><Cell><Data ss:Type="String">即使获得了胜利，我们也总是会想起我们正在逐渐衰退的完美，这可真是残酷。话虽如此，{STR_LeaderName}，我们和星长对你表示感激。愿你能够见证古老帝皇们的回归！</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">"Prefect" refers to the leader of the Paragon.</Data></Cell></Row><Row><Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Prosthetic Replacements</Data></Cell><Cell><Data ss:Type="String">替换用假体</Data></Cell></Row><Row ss:Height="60"><Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The Paragon are slowly decaying. They need replacement body parts to replace their failing implants.[br/][br/]Complete this special production project to complete a quest given to you by the Paragon.</Data></Cell><Cell><Data ss:Type="String">完人的身体正在缓慢腐烂，他们需要新的假体来替换那些逐渐失去作用的植入体。[br/][br/]完成这一特殊生产项目即可完成完人托付于你的任务。</Data></Cell></Row><Row><Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">The Hand that Gives</Data></Cell><Cell><Data ss:Type="String">予人玫瑰</Data></Cell></Row><Row><Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell><Cell><Data ss:Type="String">SHORT</Data></Cell><Cell><Data ss:Type="String">Produce Luxury Goods for the Paragon</Data></Cell><Cell><Data ss:Type="String">为完人制造奢侈品</Data></Cell></Row><Row ss:Height="120"><Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">We were chosen to experience heaven in this life, in this reality. We have tasted the finest wines, drank from golden cups and worn the smoothest silks. These may seem like superficial things to you, but to our finely-augmented senses, anything less is torture. Our god has forsaken us. Help us raise our standard of living back to the Paragon ideal.</Data></Cell><Cell><Data ss:Type="String">我们曾被选中在这个世界中一生都将体验天堂般的生活。我们品过最上等的红酒，用过黄金打造的酒杯，穿过最细腻的丝绸。这些东西对你来说也许有些肤浅，但对于我们经过精密强化后的感官来说，使用任何档次较低的东西都是一种折磨。我们的神明已经抛弃了我们。帮助我们提高生活水平，重新找回完人的理想生活。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">"God" refers the the Emperor of the Star Union.</Data></Cell><Cell ss:StyleID="s58"/></Row><Row ss:Height="30"><Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell><Cell><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data ss:Type="String">We toast to your generosity. We have found a new redeemer.</Data></Cell><Cell><Data ss:Type="String">让我们为你的慷慨举杯。我们找到了新的救世主。</Data></Cell></Row><Row><Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Luxury Goods</Data></Cell><Cell><Data ss:Type="String">奢侈品</Data></Cell></Row><Row ss:Height="45"><Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The Paragon were once people from the upper echelons of Star Union society. They are relying on us to provide them with some of those comforts again.</Data></Cell><Cell><Data ss:Type="String">完人曾经是星际联盟社会中的上层居民，他们正指望我们能够给他们提供一些以前享受过的东西。</Data></Cell></Row><Row><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Thieves without Honor</Data></Cell><Cell><Data ss:Type="String">无耻窃贼</Data></Cell></Row><Row><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell><Cell><Data ss:Type="String">SHORT</Data></Cell><Cell><Data ss:Type="String">Destroy the Pirate Lair</Data></Cell><Cell><Data ss:Type="String">摧毁海盗巢穴</Data></Cell></Row><Row ss:Height="105"><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Thieves! Traitors! Despicable scum! No, not you, {STR_LeaderName}. We are talking about the petty group of pirates that recently started terrorizing our settlements. They fight without honor, steal our technology and raid our citizens for their indispensable implants. Should you deal with this threat, our Prefect will make sure you are generously rewarded!</Data></Cell><Cell><Data ss:Type="String">小偷！叛徒！卑鄙的杂碎！噢，不是在说你，{STR_LeaderName}。我们说的是最近威胁我们定居点的那一小撮海盗。他们的战斗毫无荣耀可言，偷窃我们的科技，还抢夺我们的居民拿走他们身上不可或缺的植入体。如果你能够处理掉这一威胁，我们的星长肯定会对你大加奖赏的！</Data></Cell></Row><Row ss:Height="30"><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell><Cell><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data ss:Type="String">It is most satisfying to see those miserable desecrators brought to justice. You have our gratitude!</Data></Cell><Cell><Data ss:Type="String">看见那些卑鄙的亵渎者被绳之以法真是令人满足。我们对你表示感激！</Data></Cell></Row><Row><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Reclaiming Nature</Data></Cell><Cell><Data ss:Type="String">改造自然</Data></Cell></Row><Row><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell><Cell><Data ss:Type="String">SHORT</Data></Cell><Cell><Data ss:Type="String">Destroy the Wildlife Nest</Data></Cell><Cell><Data ss:Type="String">摧毁野生动物巢穴</Data></Cell></Row><Row ss:Height="75"><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">First weeds appeared in the roads. Then parks started to expand beyond their boundaries. Now wild beasts maraud our grand boulevards. We need to stop the onslaught of nature! Destroy these beast so that civilization can flourish.</Data></Cell><Cell><Data ss:Type="String">最开始只是马路上出现了一些杂草，后来公园越扩越大 超出了界限，到现在各种野兽都跑到大街上来了。我们得阻止自然的入侵！消灭那些野兽，让文明得以繁荣。</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:Height="30"><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell><Cell><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data ss:Type="String">How grand it is to see civilization triumph over nature's overgrowth. Thank you for your service.</Data></Cell><Cell><Data ss:Type="String">文明击败了过度生长的自然，真是太壮观了。感谢你的帮助。</Data></Cell></Row><Row><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Civilized Neighbors</Data></Cell><Cell><Data ss:Type="String">文明的邻居</Data></Cell></Row><Row><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell><Cell><Data ss:Type="String">SHORT</Data></Cell><Cell><Data ss:Type="String">Research Treatise Civilis for the Paragon</Data></Cell><Cell><Data ss:Type="String">为完人研究《论文明》</Data></Cell></Row><Row ss:Height="105"><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">As the last heirs of the Star Union, it is one of the many duties of the Paragon to uphold the cultural and technological legacy of our ancestors. We have witnessed the decline of the Dark Age and must commit ourselves to favor those few that show there can still be knowledgeable and civilized people in this rotten era. The question is, {STR_LeaderName}, will you be one of them?</Data></Cell><Cell><Data ss:Type="String">身为仅存的星际联盟后裔，完人肩负许多职责，其中之一便是维护我们祖先遗留的文化和科技遗产。我们曾见证过黑暗时代的衰落，因此必须不遗余力地向那一少部分人证明，即使是在这样堕落腐朽的地方也仍然有文明和知识存在。问题是，{STR_LeaderName}，你是其中一员吗？</Data></Cell></Row><Row ss:Height="60"><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell><Cell><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data ss:Type="String">The first steps of your people towards the path of wisdom are like droplets of water in this desert of ignorance. There is hope for you yet, {STR_LeaderName}! Accept these gifts as a token of our support.</Data></Cell><Cell><Data ss:Type="String">你的民族在智慧之路上步履维艰，掌握的科技也不过是沧海一粟。不过你还有希望，{STR_LeaderName}！收下这些礼物，当作是我们给予你支持的象征。</Data></Cell></Row><Row><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Treatise Civilis</Data></Cell><Cell><Data ss:Type="String">《论文明》</Data></Cell></Row><Row ss:Height="30"><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A compendium of cultural, morale and philosophical topics and how to handle them.</Data></Cell><Cell><Data ss:Type="String">一本与文化、士气和哲学话题相关并讲解如何应对这些方面的手册。</Data></Cell></Row><Row><Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Groundskeeping</Data></Cell><Cell><Data ss:Type="String">环境美化</Data></Cell></Row><Row><Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell><Cell><Data ss:Type="String">SHORT</Data></Cell><Cell><Data ss:Type="String">Prune the Encroaching Growth</Data></Cell><Cell><Data ss:Type="String">清理入侵的灵植</Data></Cell></Row><Row ss:Height="90"><Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">There was a time when our maintenance servants kept vast and beautiful gardens. This land was a paradise. Now, it seems even the trees hate us. We desire that a particularly nasty patch of weeds be destroyed. They apparently don’t want to go, and killed our few remaining groundskeepers, continuing to infest the land with their Growth.</Data></Cell><Cell><Data ss:Type="String">曾几何时，我们的环卫工人培育了许多广阔而美丽的花园，这片土地曾犹如天堂一般。现在，似乎连树木都憎恨我们。我们想要清理掉那片烦人的杂草，而灵植显然不愿离开，还杀掉了好几个我们仅存的园丁，现在它们仍旧在那里肆虐。</Data></Cell></Row><Row ss:Height="45"><Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell><Cell><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data ss:Type="String">It may not be the same as the grand gardens of the past, but we applaud your green thumb. Thank you for helping us weed these lands. Here’s payment for your efforts.</Data></Cell><Cell><Data ss:Type="String">虽然比不上以往那些壮丽的花园，但我们还是很感谢你的园艺才能。谢谢你帮助我们铲除这些杂草，请收下这些报酬。</Data></Cell></Row><Row><Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">The Grand Hunt</Data></Cell><Cell><Data ss:Type="String">大追捕</Data></Cell></Row><Row ss:Height="15.75"><Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell><Cell><Data ss:Type="String">SHORT</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Destroy the Hopperhound Lair</Data></Cell><Cell><Data ss:Type="String">摧毁跳蝗巢穴</Data></Cell><Cell ss:Index="9" ss:StyleID="s60"/></Row><Row ss:Height="120"><Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">It is a thing of legend to find the den of some creature that terrorizes the people and plunder its lair. The old Empire considered it a most refined sport. Of course, it is not for everyone. Packs of Hopperhounds have been seen in the area, eating the citizenry. We invite you to join the Grand Hunt. Find their lair and destroy what creatures you find there.</Data></Cell><Cell><Data ss:Type="String">如果能够找到那个威胁居民安全的怪物的老巢并将其捣毁，那可真称得上是一件丰功伟绩。古老的帝国曾将见义勇为看作最雅致的运动。当然，并不是对每个人来说都是如此。这片区域里出现了好几群跳蝗的身影，它们已经吃掉了好几个居民。我们邀请你加入到这场大追捕中来，找到它们的巢穴并消灭里面的怪物。</Data></Cell></Row><Row ss:Height="30"><Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell><Cell><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data ss:Type="String">Well done! Bravo, bravo! Such bravery. You are a great hunter. Take this, your prize for the hunt.</Data></Cell><Cell><Data ss:Type="String">干得好！非常漂亮！多么的勇敢。你真是一名出色的猎人。这是狩猎的奖赏，拿着。</Data></Cell></Row><Row><Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Ode to a Lost Age</Data></Cell><Cell><Data ss:Type="String">失落时代的颂歌</Data></Cell></Row><Row><Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell><Cell><Data ss:Type="String">SHORT</Data></Cell><Cell><Data ss:Type="String">Build Monuments for the Paragon</Data></Cell><Cell><Data ss:Type="String">为完人建造纪念碑</Data></Cell></Row><Row ss:Height="105"><Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Under the rule of the great emperors, we witnessed a time of growth and prosperity. Alas, that time is almost forgotten. We have lost the tools that once built the great structures of that era, but all is not lost. {STR_LeaderName}, take up the mantle of memory. Kindle the hearts of your people the past. Awaken our dreams by building monuments to the emperors of the past.</Data></Cell><Cell><Data ss:Type="String">在伟大的帝皇统治下，我们曾见证过成长与繁荣。天啊，那段岁月都快要被遗忘了。虽然我们失去了那个时代用来建造宏伟建筑的工具，但过往犹在，记忆犹在。{STR_LeaderName}，去掀开记忆的面纱吧。用过去照亮人民的内心，为古代帝皇们树立纪念碑，唤醒我们的梦想。</Data></Cell></Row><Row ss:Height="60"><Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell><Cell><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data ss:Type="String">I see your cities... how these monuments gleam with the past. Truly the past will never be forgotten. It’s beautiful, truly marvelous! You have done a great service to the Paragon, {STR_LeaderName}. Please, accept our payment.</Data></Cell><Cell><Data ss:Type="String">我看见你的城市…那些纪念碑闪耀着往昔的光芒。过去将永远不会被遗忘。它们很漂亮，真了不起！你为完人做了件伟大的事情，{STR_LeaderName}。请收下我们的报酬。</Data></Cell></Row><Row><Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03_BUILDING</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s61"><Data ss:Type="String">Monuments for the Paragon</Data></Cell><Cell><Data ss:Type="String">完人纪念碑</Data></Cell><Cell ss:Index="9" ss:StyleID="s61"/></Row><Row ss:Height="30"><Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03_BUILDING</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s61"><Data ss:Type="String">Building these monuments will impress the Paragon... and the Paragon are not easily impressed.</Data></Cell><Cell><Data ss:Type="String">建造这些纪念碑将使完人对你另眼相看…要知道，完人可不是那么容易讨好的。</Data></Cell><Cell ss:Index="9" ss:StyleID="s61"/></Row><Row><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">The Bionic Man</Data></Cell><Cell><Data ss:Type="String">仿生人</Data></Cell></Row><Row><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell><Cell><Data ss:Type="String">SHORT</Data></Cell><Cell><Data ss:Type="String">Research and prototype elite Paragon Bionics</Data></Cell><Cell><Data ss:Type="String">研究并制造顶尖完人仿生设备原型</Data></Cell></Row><Row ss:Height="90"><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">We have lost technology from the past, and the means to research and develop our most elite Paragon privileges. Your colony is advancing. With our guidance, you might be able to restore technologies we once thought lost to legend. Using the following bionics, could you show us if you can upgrade these very powerful implants?</Data></Cell><Cell><Data ss:Type="String">我们没有了以往的技术，也失去了研究和开发最顶尖的完人仿生设备的方法。你的殖民地非常尖端，在我们的指导下，也许你能够找回我们曾以为早已消逝在传说中的技术。凭借这些仿生设备，你能否向我们证明你拥有升级这些强大的植入体的能力？</Data></Cell></Row><Row ss:Height="45"><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell><Cell><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data ss:Type="String">With this new research, we can replace our old bionics with stronger, more sustainable enhancements. The Paragon thank you, {STR_LeaderName}. Your reward.</Data></Cell><Cell><Data ss:Type="String">有了这项新研究，我们就可以把身上老旧的仿生设备换成更强更耐用的设备了。完人对你表示感谢，{STR_LeaderName}。这是你的奖励。</Data></Cell></Row><Row><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s61"><Data ss:Type="String">Paragon bionics</Data></Cell><Cell><Data ss:Type="String">完人仿生设备</Data></Cell><Cell ss:Index="9" ss:StyleID="s61"/></Row><Row ss:Height="45"><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s61"><Data ss:Type="String">Whether they admit it or not, the Paragon's cybernetics are old and outdated. A few upgrades will surely help them.</Data></Cell><Cell><Data ss:Type="String">无论完人是否承认，他们的仿生设备已经太过古老和过时了。稍微进行一下升级肯定能帮到他们。</Data></Cell><Cell ss:Index="9" ss:StyleID="s61"/></Row><Row ss:Height="405"><Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Think of the Children</Data></Cell><Cell><Data ss:Type="String">孩童危机</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">A popular meme from the TV show, "The Simpsons".</Data></Cell><Cell><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
-There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row ss:Height="405"><Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell><Cell><Data ss:Type="String">SHORT</Data></Cell><Cell><Data ss:Type="String">Eliminate the Outlaws</Data></Cell><Cell><Data ss:Type="String">消灭歹徒</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
-There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row ss:Height="405"><Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Ruffians, outlaws, thugs! How dare they oppose the will of the Paragon? While we struggle to feed the children of our land, these robbers plunder and steal, causing the poor to suffer. There is no future in this. {STR_LeaderName}, will you rid us of their menace? Think of the children!</Data></Cell><Cell><Data ss:Type="String">匪徒、歹徒、暴徒！他们怎么敢违抗完人的意志？我们拼了命地想要养活自己的孩子，这些强盗却大肆掠夺，给穷人带来苦难。再这样下去，我们看不见未来。{STR_LeaderName}，你能帮助我们铲除他们的威胁吗？为孩子们着想！</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">{STR_LeaderName} can be either male/female.
-"Children" refers to citizens.</Data></Cell><Cell><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
-There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row ss:Height="405"><Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell><Cell><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data ss:Type="String">Good riddance. Thank you for your efforts, {STR_LeaderName}. The children of this land will sleep well tonight knowing you will protect them.</Data></Cell><Cell><Data ss:Type="String">终于解脱了！谢谢你的付出，{STR_LeaderName}。今晚这片土地上的孩子将进入甜美的梦乡，因为他们知道有你在守护他们。</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
-There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row ss:Height="405"><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Exquisite Morality</Data></Cell><Cell><Data ss:Type="String">高尚道德</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
-There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row ss:Height="405"><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell><Cell><Data ss:Type="String">SHORT</Data></Cell><Cell><Data ss:Type="String">Research the Paragon expectations of civil life</Data></Cell><Cell><Data ss:Type="String">研究完人对公民生活的期望</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
-There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row ss:Height="405"><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Behold. Here is a compendium of cultural, moral and philosophical topics and how to handle them. Come before us adorned in the trappings of moral refinement.</Data></Cell><Cell><Data ss:Type="String">看啊。这是一本与文化、道德和哲学话题相关并讲解如何应对这些方面的手册。穿着华丽的服饰到我们这里来吧。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Aka, show the Paragon you can live up to their moral standards.</Data></Cell><Cell><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
-There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row ss:Height="405"><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell><Cell><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data ss:Type="String">Your impeccable sensibilities are adequate to interact with our kind at this current level. There are many levels we expect you to master, but you have demonstrated a capacity to learn we haven’t seen in generations. Congratulations, here is your reward.</Data></Cell><Cell><Data ss:Type="String">以目前的等级，你无可挑剔的感情足以与我们的同类互动。虽然我们希望你能掌握更多的等级，但你已经展示了我们几代人都没有见过的学习能力。恭喜你，这是给你的奖励。</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
-There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row ss:Height="405"><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Paragon expectations of civil life</Data></Cell><Cell><Data ss:Type="String">完人对公民生活的期望</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
-There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row ss:Height="405"><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Learn and put into practice that demonstrates you can comfortably integrate with the Paragon’s strict moral and philosophical codes.</Data></Cell><Cell><Data ss:Type="String">学习并付诸实践表明你可以自如地与完人严格的道德和哲学准则相结合。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">This explains the quest.</Data></Cell><Cell><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
-There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row ss:Height="405"><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Facelift</Data></Cell><Cell><Data ss:Type="String">整容</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Referring to cosmetic surgery.</Data></Cell><Cell><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
-There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row ss:Height="405"><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04</Data></Cell><Cell><Data ss:Type="String">SHORT</Data></Cell><Cell><Data ss:Type="String">Research holographic overlays to restore Paragon beauty</Data></Cell><Cell><Data ss:Type="String">研究全息覆盖物，恢复完人之美</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
-There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row ss:Height="405"><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Once our flesh was beautiful. We were gods among our children. Now our flesh rots and despite our best cellular regeneration we suffer the ghastly visage of time. We have heard, however, that the races of today make use of holographic technology that may help us restore our beauty . Research how they do what they do, and apply it to restore our youth.</Data></Cell><Cell><Data ss:Type="String">我们的肉体曾经是美丽的，我们是孩子们的神。但现在我们的肉体腐烂了，尽管我们的细胞能够再生，我们却遭受着时间的无情摧残。不过，我们听说当今的种族所使用的全息科技可能会帮助我们恢复我们的美丽。研究他们的技术，用它来恢复我们的青春。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Children' refers to citizens.</Data></Cell><Cell><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
-There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row ss:Height="405"><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04</Data></Cell><Cell><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data ss:Type="String">We thank you for providing us with new faces. We can now appear as we once did, even if it is all mirage. Yet, is not all life an illusion? Oh! Friend vanity, we greet you anew.</Data></Cell><Cell><Data ss:Type="String">感谢你给了我们新的面孔。我们现在可以像过去一样了，即使这一切只是海市幻象而已。但所有的生命不都是一种幻觉吗？哦！虚荣，我们又见面了。</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
-There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row ss:Height="405"><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04_RESEARCH</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Holographic Overlays</Data></Cell><Cell><Data ss:Type="String">全息覆盖物</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
-There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row ss:Height="405"><Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04_RESEARCH</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Restore the Paragon to their former beauty. Modify holographic overlays, thus allowing the Paragon to wear an image of their former youth and cover their ghastly decay.</Data></Cell><Cell><Data ss:Type="String">将完人恢复到曾经的美丽。修改全息覆盖物，从而让完人可以戴上他们以前年轻时的样貌，掩盖他们可怕的衰老。</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
-There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">The Paragon speak with a very formal tone, upper class, elitest society. Highly educated, very sophisticated.</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Zoom>115</Zoom><Selected/><TopRowVisible>73</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>73</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:47:26Z</Created><LastSaved
+    >2019-06-29T23:42:07Z</LastSaved><Version
+    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>16125</WindowHeight><WindowWidth>22005</WindowWidth><WindowTopX
+    >24735</WindowTopX><WindowTopY>900</WindowTopY><MaxChange
+    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:CharSet="1"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s57"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
+      ss:ID="s58"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /></Style><Style ss:ID="s59"><Alignment
+        ss:Vertical="Center"
+        ss:WrapText="1"
+      /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /></Style><Style ss:ID="s60"><Alignment
+        ss:Vertical="Bottom"
+        ss:WrapText="1"
+      /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="12"
+        ss:Color="#000000"
+      /></Style><Style ss:ID="s61"><Alignment
+        ss:Vertical="Bottom"
+        ss:WrapText="1"
+      /><Interior /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s57"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="240" /><Column
+        ss:StyleID="s57"
+        ss:Width="66.75"
+      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="312.75" /><Column
+        ss:StyleID="s57"
+        ss:AutoFitWidth="0"
+        ss:Width="240.75"
+      /><Column ss:StyleID="s57" ss:Width="207.75" /><Column
+        ss:StyleID="s57"
+        ss:Width="120"
+      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="312.75" /><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">DWELLING_QUESTEMPIRE</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:Height="30"><Cell
+        ><Data ss:Type="String">DEFAULT_RESPONSE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >How disappointing. We already took care of this matter ourselves. We no longer need your help.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >让人失望。我们已经自行解决了。我们不再需要你的帮助。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bulwark of Civilization</Data></Cell><Cell><Data
+            ss:Type="String"
+          >文明的堡垒</Data></Cell></Row><Row ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >KILL_UNITS_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The imperial guard is crumbling. The plebeians have given in to their savage nature. Help us maintain order within our last bulwark of civilization.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >帝国的防线已崩溃，平民百姓已经向他们的野蛮本性屈服。帮助我们维护最后的文明堡垒的秩序。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defeat the Paragon's Enemies</Data></Cell><Cell><Data
+            ss:Type="String"
+          >击败完人的敌人</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          >KILL_UNITS_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thank you for helping us. Your reward awaits you.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >感谢你帮助我们。去领取你的奖励吧。</Data></Cell></Row><Row><Cell
+        ><Data ss:Type="String">KILL_UNITS_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Implant Snatchers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >植入体掠夺者</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          >KILL_UNITS_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defeat the Hostile Pirates</Data></Cell><Cell><Data
+            ss:Type="String"
+          >击败敌对海盗</Data></Cell></Row><Row ss:Height="75"><Cell><Data
+            ss:Type="String"
+          >KILL_UNITS_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A group of pirates are ripping implants out of Paragon bodies. These cowards often target defenseless cryo-sleepers, leaving them to die as plebeians. The implants grant us the abilities we need for the resurrection of the Star Union. Follow these thieves and kill them.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一群海盗正在掠夺完人体内的植入体，这些懦夫经常朝那些毫无还手之力的冷冻休眠者下手，然后任由他们像普通人一样死去。这些植入体能够赋予我们复兴星际联盟所需的能力，所以，找到这些小偷并消灭他们。</Data></Cell></Row><Row
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thanks to your efforts, we can sleep safely once more. All squabbling relatives can be returned to their tombs now. You have our gratitude.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >感谢你的帮助，我们又能睡个安稳觉了。所有吵闹的族人现在可以回到他们的冷冻舱中去了，非常感谢。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vandals on the Rampage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >暴怒的破坏分子</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          >KILL_UNITS_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defeat the Paragon's Enemies</Data></Cell><Cell><Data
+            ss:Type="String"
+          >击败完人的敌人</Data></Cell></Row><Row ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >KILL_UNITS_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our great monuments and works of art attract a range of enemies. Our refined ways trigger rage in savage minds, as if smashing things they don’t understand makes the world right for them.   </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们宏伟的纪念碑和艺术品引得各方敌人觊觎，我们的高雅之道引起了野蛮之人心中的愤怒，好像砸碎那些他们不能理解的事物就能让这个世界变得更好一样…   </Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thanks to you, the intruders are exterminated. Your reward awaits you.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >感谢你的帮助，入侵者已经被消灭了。去领取你的奖励吧。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >False Prophet</Data></Cell><Cell><Data
+            ss:Type="String"
+          >假先知</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          >KILL_UNITS_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defeat the hostile Paragon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >击败敌对完人</Data></Cell></Row><Row ss:Height="409.5"><Cell><Data
+            ss:Type="String"
+          >KILL_UNITS_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A usurper has arisen, pretending to be the new Emperor, riling the plebs. There is only one true Emperor, and they shall return the Star Union to us. Stop this heretic and the false promises it spews from its rotten implant.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一名篡位者假装自己是新的帝皇并获得了不小的势力，惹得许多平民愤怒不已。世界上只有一位帝皇，他们必须把星际联盟归还给我们。阻止这名异端，还有那些从他堕落的植入体中散布出的虚假承诺也一并消灭。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Emperor" refers to the Emperor of the Star Union.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >A usurper has arisen, pretending to be the new Emperor, riling the plebs. There is only one true Emperor, and it shall return the Star Union to us. Stop this heretic and the false promises it spews from its rotten implant.</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thanks to you, we have stopped a major uprising driven by a charlatan. You have our sincerest gratitude. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >感谢你的帮助，我们阻止了一场由骗子引发的大暴动。再次向你表示最衷心的感谢。 </Data></Cell></Row><Row
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ravages of Time</Data></Cell><Cell><Data
+            ss:Type="String"
+          >时间的摧残</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Build the Prosthetic Replacements for the Paragon</Data></Cell><Cell
+        ><Data ss:Type="String">为完人制造替换用假体</Data></Cell></Row><Row
+        ss:Height="105"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >As the last heirs of the Star Union, it is one of the many duties of the Paragon to uphold the cultural and technological legacy of our ancestors. We have witnessed the decline of the Dark Age and must commit ourselves to favor those few that show there can still be knowledgeable and civilized people in this rotten era. The question is, {STR_LeaderName}, will you be one of them?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >身为仅存的星际联盟后裔，完人肩负许多职责，其中之一便是维护我们祖先遗留的文化和科技遗产。我们曾见证过黑暗时代的衰落，因此必须不遗余力地向那一少部分人证明，即使是在这样堕落腐朽的地方也仍然有文明和知识存在。问题是，{STR_LeaderName}，你是其中一员吗？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Dark Age" refers to the Cosmic Dark Age of the Star Union.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >It is an act of cruelty that even in our victories we are reminded of our fading perfection. Nonetheless, you have our gratitude and that of our Prefect, {STR_LeaderName}. May you live to see the return of the old Emperors!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >即使获得了胜利，我们也总是会想起我们正在逐渐衰退的完美，这可真是残酷。话虽如此，{STR_LeaderName}，我们和星长对你表示感激。愿你能够见证古老帝皇们的回归！</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Prefect" refers to the leader of the Paragon.</Data></Cell></Row><Row
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Prosthetic Replacements</Data></Cell><Cell><Data
+            ss:Type="String"
+          >替换用假体</Data></Cell></Row><Row ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Paragon are slowly decaying. They need replacement body parts to replace their failing implants.[br/][br/]Complete this special production project to complete a quest given to you by the Paragon.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >完人的身体正在缓慢腐烂，他们需要新的假体来替换那些逐渐失去作用的植入体。[br/][br/]完成这一特殊生产项目即可完成完人托付于你的任务。</Data></Cell></Row><Row
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Hand that Gives</Data></Cell><Cell><Data
+            ss:Type="String"
+          >予人玫瑰</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Produce Luxury Goods for the Paragon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >为完人制造奢侈品</Data></Cell></Row><Row ss:Height="120"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >We were chosen to experience heaven in this life, in this reality. We have tasted the finest wines, drank from golden cups and worn the smoothest silks. These may seem like superficial things to you, but to our finely-augmented senses, anything less is torture. Our god has forsaken us. Help us raise our standard of living back to the Paragon ideal.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们曾被选中在这个世界中一生都将体验天堂般的生活。我们品过最上等的红酒，用过黄金打造的酒杯，穿过最细腻的丝绸。这些东西对你来说也许有些肤浅，但对于我们经过精密强化后的感官来说，使用任何档次较低的东西都是一种折磨。我们的神明已经抛弃了我们。帮助我们提高生活水平，重新找回完人的理想生活。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"God" refers the the Emperor of the Star Union.</Data></Cell><Cell
+          ss:StyleID="s58"
+        /></Row><Row ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We toast to your generosity. We have found a new redeemer.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >让我们为你的慷慨举杯。我们找到了新的救世主。</Data></Cell></Row><Row
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Luxury Goods</Data></Cell><Cell><Data
+            ss:Type="String"
+          >奢侈品</Data></Cell></Row><Row ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Paragon were once people from the upper echelons of Star Union society. They are relying on us to provide them with some of those comforts again.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >完人曾经是星际联盟社会中的上层居民，他们正指望我们能够给他们提供一些以前享受过的东西。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thieves without Honor</Data></Cell><Cell><Data
+            ss:Type="String"
+          >无耻窃贼</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          >DESTROY_SPAWNER_BASE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Destroy the Pirate Lair</Data></Cell><Cell><Data
+            ss:Type="String"
+          >摧毁海盗巢穴</Data></Cell></Row><Row ss:Height="105"><Cell><Data
+            ss:Type="String"
+          >DESTROY_SPAWNER_BASE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thieves! Traitors! Despicable scum! No, not you, {STR_LeaderName}. We are talking about the petty group of pirates that recently started terrorizing our settlements. They fight without honor, steal our technology and raid our citizens for their indispensable implants. Should you deal with this threat, our Prefect will make sure you are generously rewarded!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >小偷！叛徒！卑鄙的杂碎！噢，不是在说你，{STR_LeaderName}。我们说的是最近威胁我们定居点的那一小撮海盗。他们的战斗毫无荣耀可言，偷窃我们的科技，还抢夺我们的居民拿走他们身上不可或缺的植入体。如果你能够处理掉这一威胁，我们的星长肯定会对你大加奖赏的！</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell><Cell
+        ><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >It is most satisfying to see those miserable desecrators brought to justice. You have our gratitude!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >看见那些卑鄙的亵渎者被绳之以法真是令人满足。我们对你表示感激！</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reclaiming Nature</Data></Cell><Cell><Data
+            ss:Type="String"
+          >改造自然</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          >DESTROY_SPAWNER_BASE_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Destroy the Wildlife Nest</Data></Cell><Cell><Data
+            ss:Type="String"
+          >摧毁野生动物巢穴</Data></Cell></Row><Row ss:Height="75"><Cell><Data
+            ss:Type="String"
+          >DESTROY_SPAWNER_BASE_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >First weeds appeared in the roads. Then parks started to expand beyond their boundaries. Now wild beasts maraud our grand boulevards. We need to stop the onslaught of nature! Destroy these beast so that civilization can flourish.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >最开始只是马路上出现了一些杂草，后来公园越扩越大 超出了界限，到现在各种野兽都跑到大街上来了。我们得阻止自然的入侵！消灭那些野兽，让文明得以繁荣。</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s59"
+        /></Row><Row ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >DESTROY_SPAWNER_BASE_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >How grand it is to see civilization triumph over nature's overgrowth. Thank you for your service.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >文明击败了过度生长的自然，真是太壮观了。感谢你的帮助。</Data></Cell></Row><Row
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Civilized Neighbors</Data></Cell><Cell><Data
+            ss:Type="String"
+          >文明的邻居</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Research Treatise Civilis for the Paragon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >为完人研究《论文明》</Data></Cell></Row><Row ss:Height="105"><Cell
+        ><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >As the last heirs of the Star Union, it is one of the many duties of the Paragon to uphold the cultural and technological legacy of our ancestors. We have witnessed the decline of the Dark Age and must commit ourselves to favor those few that show there can still be knowledgeable and civilized people in this rotten era. The question is, {STR_LeaderName}, will you be one of them?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >身为仅存的星际联盟后裔，完人肩负许多职责，其中之一便是维护我们祖先遗留的文化和科技遗产。我们曾见证过黑暗时代的衰落，因此必须不遗余力地向那一少部分人证明，即使是在这样堕落腐朽的地方也仍然有文明和知识存在。问题是，{STR_LeaderName}，你是其中一员吗？</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The first steps of your people towards the path of wisdom are like droplets of water in this desert of ignorance. There is hope for you yet, {STR_LeaderName}! Accept these gifts as a token of our support.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的民族在智慧之路上步履维艰，掌握的科技也不过是沧海一粟。不过你还有希望，{STR_LeaderName}！收下这些礼物，当作是我们给予你支持的象征。</Data></Cell></Row><Row
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Treatise Civilis</Data></Cell><Cell><Data
+            ss:Type="String"
+          >《论文明》</Data></Cell></Row><Row ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A compendium of cultural, morale and philosophical topics and how to handle them.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一本与文化、士气和哲学话题相关并讲解如何应对这些方面的手册。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Groundskeeping</Data></Cell><Cell><Data
+            ss:Type="String"
+          >环境美化</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          >KILL_UNITS_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Prune the Encroaching Growth</Data></Cell><Cell><Data
+            ss:Type="String"
+          >清理入侵的灵植</Data></Cell></Row><Row ss:Height="90"><Cell><Data
+            ss:Type="String"
+          >KILL_UNITS_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >There was a time when our maintenance servants kept vast and beautiful gardens. This land was a paradise. Now, it seems even the trees hate us. We desire that a particularly nasty patch of weeds be destroyed. They apparently don’t want to go, and killed our few remaining groundskeepers, continuing to infest the land with their Growth.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >曾几何时，我们的环卫工人培育了许多广阔而美丽的花园，这片土地曾犹如天堂一般。现在，似乎连树木都憎恨我们。我们想要清理掉那片烦人的杂草，而灵植显然不愿离开，还杀掉了好几个我们仅存的园丁，现在它们仍旧在那里肆虐。</Data></Cell></Row><Row
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >It may not be the same as the grand gardens of the past, but we applaud your green thumb. Thank you for helping us weed these lands. Here’s payment for your efforts.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >虽然比不上以往那些壮丽的花园，但我们还是很感谢你的园艺才能。谢谢你帮助我们铲除这些杂草，请收下这些报酬。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Grand Hunt</Data></Cell><Cell><Data
+            ss:Type="String"
+          >大追捕</Data></Cell></Row><Row ss:Height="15.75"><Cell><Data
+            ss:Type="String"
+          >KILL_UNITS_06</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell ss:StyleID="s60"><Data
+            ss:Type="String"
+          >Destroy the Hopperhound Lair</Data></Cell><Cell><Data
+            ss:Type="String"
+          >摧毁跳蝗巢穴</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s60"
+        /></Row><Row ss:Height="120"><Cell><Data
+            ss:Type="String"
+          >KILL_UNITS_06</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >It is a thing of legend to find the den of some creature that terrorizes the people and plunder its lair. The old Empire considered it a most refined sport. Of course, it is not for everyone. Packs of Hopperhounds have been seen in the area, eating the citizenry. We invite you to join the Grand Hunt. Find their lair and destroy what creatures you find there.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >如果能够找到那个威胁居民安全的怪物的老巢并将其捣毁，那可真称得上是一件丰功伟绩。古老的帝国曾将见义勇为看作最雅致的运动。当然，并不是对每个人来说都是如此。这片区域里出现了好几群跳蝗的身影，它们已经吃掉了好几个居民。我们邀请你加入到这场大追捕中来，找到它们的巢穴并消灭里面的怪物。</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Well done! Bravo, bravo! Such bravery. You are a great hunter. Take this, your prize for the hunt.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >干得好！非常漂亮！多么的勇敢。你真是一名出色的猎人。这是狩猎的奖赏，拿着。</Data></Cell></Row><Row
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ode to a Lost Age</Data></Cell><Cell><Data
+            ss:Type="String"
+          >失落时代的颂歌</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Build Monuments for the Paragon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >为完人建造纪念碑</Data></Cell></Row><Row ss:Height="105"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Under the rule of the great emperors, we witnessed a time of growth and prosperity. Alas, that time is almost forgotten. We have lost the tools that once built the great structures of that era, but all is not lost. {STR_LeaderName}, take up the mantle of memory. Kindle the hearts of your people the past. Awaken our dreams by building monuments to the emperors of the past.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在伟大的帝皇统治下，我们曾见证过成长与繁荣。天啊，那段岁月都快要被遗忘了。虽然我们失去了那个时代用来建造宏伟建筑的工具，但过往犹在，记忆犹在。{STR_LeaderName}，去掀开记忆的面纱吧。用过去照亮人民的内心，为古代帝皇们树立纪念碑，唤醒我们的梦想。</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >I see your cities... how these monuments gleam with the past. Truly the past will never be forgotten. It’s beautiful, truly marvelous! You have done a great service to the Paragon, {STR_LeaderName}. Please, accept our payment.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我看见你的城市…那些纪念碑闪耀着往昔的光芒。过去将永远不会被遗忘。它们很漂亮，真了不起！你为完人做了件伟大的事情，{STR_LeaderName}。请收下我们的报酬。</Data></Cell></Row><Row
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_03_BUILDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s61"><Data
+            ss:Type="String"
+          >Monuments for the Paragon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >完人纪念碑</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s61"
+        /></Row><Row ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_03_BUILDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s61"><Data
+            ss:Type="String"
+          >Building these monuments will impress the Paragon... and the Paragon are not easily impressed.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >建造这些纪念碑将使完人对你另眼相看…要知道，完人可不是那么容易讨好的。</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s61"
+        /></Row><Row><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Bionic Man</Data></Cell><Cell><Data
+            ss:Type="String"
+          >仿生人</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Research and prototype elite Paragon Bionics</Data></Cell><Cell><Data
+            ss:Type="String"
+          >研究并制造顶尖完人仿生设备原型</Data></Cell></Row><Row
+        ss:Height="90"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We have lost technology from the past, and the means to research and develop our most elite Paragon privileges. Your colony is advancing. With our guidance, you might be able to restore technologies we once thought lost to legend. Using the following bionics, could you show us if you can upgrade these very powerful implants?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们没有了以往的技术，也失去了研究和开发最顶尖的完人仿生设备的方法。你的殖民地非常尖端，在我们的指导下，也许你能够找回我们曾以为早已消逝在传说中的技术。凭借这些仿生设备，你能否向我们证明你拥有升级这些强大的植入体的能力？</Data></Cell></Row><Row
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >With this new research, we can replace our old bionics with stronger, more sustainable enhancements. The Paragon thank you, {STR_LeaderName}. Your reward.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有了这项新研究，我们就可以把身上老旧的仿生设备换成更强更耐用的设备了。完人对你表示感谢，{STR_LeaderName}。这是你的奖励。</Data></Cell></Row><Row
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s61"><Data
+            ss:Type="String"
+          >Paragon bionics</Data></Cell><Cell><Data
+            ss:Type="String"
+          >完人仿生设备</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s61"
+        /></Row><Row ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s61"><Data
+            ss:Type="String"
+          >Whether they admit it or not, the Paragon's cybernetics are old and outdated. A few upgrades will surely help them.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >无论完人是否承认，他们的仿生设备已经太过古老和过时了。稍微进行一下升级肯定能帮到他们。</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s61"
+        /></Row><Row ss:Height="405"><Cell><Data
+            ss:Type="String"
+          >KILL_UNITS_07</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Think of the Children</Data></Cell><Cell><Data
+            ss:Type="String"
+          >孩童危机</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >A popular meme from the TV show, "The Simpsons".</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row
+        ss:Height="405"
+      ><Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Eliminate the Outlaws</Data></Cell><Cell><Data
+            ss:Type="String"
+          >消灭歹徒</Data></Cell><Cell ss:Index="8"><Data
+            ss:Type="String"
+          >This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row
+        ss:Height="405"
+      ><Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ruffians, outlaws, thugs! How dare they oppose the will of the Paragon? While we struggle to feed the children of our land, these robbers plunder and steal, causing the poor to suffer. There is no future in this. {STR_LeaderName}, will you rid us of their menace? Think of the children!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >匪徒、歹徒、暴徒！他们怎么敢违抗完人的意志？我们拼了命地想要养活自己的孩子，这些强盗却大肆掠夺，给穷人带来苦难。再这样下去，我们看不见未来。{STR_LeaderName}，你能帮助我们铲除他们的威胁吗？为孩子们着想！</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">{STR_LeaderName} can be either male/female.
+"Children" refers to citizens.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row
+        ss:Height="405"
+      ><Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Good riddance. Thank you for your efforts, {STR_LeaderName}. The children of this land will sleep well tonight knowing you will protect them.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >终于解脱了！谢谢你的付出，{STR_LeaderName}。今晚这片土地上的孩子将进入甜美的梦乡，因为他们知道有你在守护他们。</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row
+        ss:Height="405"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Exquisite Morality</Data></Cell><Cell><Data
+            ss:Type="String"
+          >高尚道德</Data></Cell><Cell ss:Index="8"><Data
+            ss:Type="String"
+          >This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row
+        ss:Height="405"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Research the Paragon expectations of civil life</Data></Cell><Cell
+        ><Data ss:Type="String">研究完人对公民生活的期望</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row
+        ss:Height="405"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Behold. Here is a compendium of cultural, moral and philosophical topics and how to handle them. Come before us adorned in the trappings of moral refinement.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >看啊。这是一本与文化、道德和哲学话题相关并讲解如何应对这些方面的手册。穿着华丽的服饰到我们这里来吧。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Aka, show the Paragon you can live up to their moral standards.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row
+        ss:Height="405"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Your impeccable sensibilities are adequate to interact with our kind at this current level. There are many levels we expect you to master, but you have demonstrated a capacity to learn we haven’t seen in generations. Congratulations, here is your reward.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >以目前的等级，你无可挑剔的感情足以与我们的同类互动。虽然我们希望你能掌握更多的等级，但你已经展示了我们几代人都没有见过的学习能力。恭喜你，这是给你的奖励。</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row
+        ss:Height="405"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Paragon expectations of civil life</Data></Cell><Cell><Data
+            ss:Type="String"
+          >完人对公民生活的期望</Data></Cell><Cell ss:Index="8"><Data
+            ss:Type="String"
+          >This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row
+        ss:Height="405"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Learn and put into practice that demonstrates you can comfortably integrate with the Paragon’s strict moral and philosophical codes.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >学习并付诸实践表明你可以自如地与完人严格的道德和哲学准则相结合。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">This explains the quest.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row
+        ss:Height="405"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Facelift</Data></Cell><Cell><Data
+            ss:Type="String"
+          >整容</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Referring to cosmetic surgery.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row
+        ss:Height="405"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Research holographic overlays to restore Paragon beauty</Data></Cell><Cell
+        ><Data ss:Type="String">研究全息覆盖物，恢复完人之美</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row
+        ss:Height="405"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Once our flesh was beautiful. We were gods among our children. Now our flesh rots and despite our best cellular regeneration we suffer the ghastly visage of time. We have heard, however, that the races of today make use of holographic technology that may help us restore our beauty . Research how they do what they do, and apply it to restore our youth.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的肉体曾经是美丽的，我们是孩子们的神。但现在我们的肉体腐烂了，尽管我们的细胞能够再生，我们却遭受着时间的无情摧残。不过，我们听说当今的种族所使用的全息科技可能会帮助我们恢复我们的美丽。研究他们的技术，用它来恢复我们的青春。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Children' refers to citizens.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row
+        ss:Height="405"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We thank you for providing us with new faces. We can now appear as we once did, even if it is all mirage. Yet, is not all life an illusion? Oh! Friend vanity, we greet you anew.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >感谢你给了我们新的面孔。我们现在可以像过去一样了，即使这一切只是海市幻象而已。但所有的生命不都是一种幻觉吗？哦！虚荣，我们又见面了。</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row
+        ss:Height="405"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_04_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Holographic Overlays</Data></Cell><Cell><Data
+            ss:Type="String"
+          >全息覆盖物</Data></Cell><Cell ss:Index="8"><Data
+            ss:Type="String"
+          >This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row
+        ss:Height="405"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_04_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Restore the Paragon to their former beauty. Modify holographic overlays, thus allowing the Paragon to wear an image of their former youth and cover their ghastly decay.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将完人恢复到曾经的美丽。修改全息覆盖物，从而让完人可以戴上他们以前年轻时的样貌，掩盖他们可怕的衰老。</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The Paragon speak with a very formal tone, upper class, elitest society. Highly educated, very sophisticated.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>115</Zoom><Selected
+      /><TopRowVisible>73</TopRowVisible><Panes><Pane><Number
+          >3</Number><ActiveRow>73</ActiveRow><ActiveCol
+          >3</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

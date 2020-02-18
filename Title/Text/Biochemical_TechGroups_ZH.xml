@@ -1,1 +1,236 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:45:57Z</Created><LastSaved>2019-07-03T20:55:55Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/></Style><Style ss:ID="s63"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style><Style ss:ID="s64"><Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15"><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="144"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="209.25"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="318.75" ss:Span="1"/><Column ss:Index="5" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="229.5"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="118.5"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="323.25"/><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">BIOCHEMICAL_TECHGROUPS</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s64"><Data ss:Type="String">CORROSIVE_BURST</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Corrosive Detonator</Data></Cell><Cell><Data ss:Type="String">腐蚀炸药</Data></Cell><Cell ss:Index="9" ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell ss:StyleID="s64"><Data ss:Type="String">CORROSIVE_BURST</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Target area in a {CorrosiveRadius} hex radius is hit by a corrosive detonation with [abilityred]Massive Impact[/abilityred]. All units in the target area lose {CorrosiveArmorPen}[armor/] and take {CorrosiveDam}[damagebio/] damage.</Data></Cell><Cell><Data ss:Type="String">使用腐蚀炸药引爆 {CorrosiveRadius} 个单元格范围的目标区域并附带[abilityred]强力冲击[/abilityred]。目标区域中的所有单位失去 {CorrosiveArmorPen}[armor/]并受到 {CorrosiveDam}[damagebio/]伤害。</Data></Cell><Cell ss:Index="9" ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s64"><Data ss:Type="String">BIOCHEMICAL_MACERATION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Biochemical Maceration</Data></Cell><Cell><Data ss:Type="String">生化浸渍</Data></Cell><Cell ss:Index="9" ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell ss:StyleID="s64"><Data ss:Type="String">BIOCHEMICAL_MACERATION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">A macerating Biochemical agent is released in a {BiochemicalMacerationRadius} hex radius, reducing affected units' Biochemical resistance by {BiochemicalMacerationResist} for {BiochemicalMacerationTime}. These units also have a {slowchance} strength chance of becoming [abilityred]Slow[/abilityred] for that duration.</Data></Cell><Cell><Data ss:Type="String">在 {BiochemicalMacerationRadius} 个单元格范围释放浸渍生化药剂，受影响的单位将降低 {BiochemicalMacerationResist} 生化抵抗，持续 {BiochemicalMacerationTime}。此外在效果持续期间，这些单位还有 {slowchance} 的力量几率受到[abilityred]减速[/abilityred]。</Data></Cell><Cell ss:Index="9" ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s64"><Data ss:Type="String">BIOCHEMICAL_MACERATION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">UNIT_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">This unit has {BioMacerationResist}.</Data></Cell><Cell><Data ss:Type="String">该单位拥有 {BioMacerationResist}。</Data></Cell><Cell ss:Index="9" ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s64"><Data ss:Type="String">VIRAL_CANISTER</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Virulent Canister</Data></Cell><Cell><Data ss:Type="String">毒菌筒</Data></Cell><Cell ss:Index="9" ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell ss:StyleID="s64"><Data ss:Type="String">VIRAL_CANISTER</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Flood a {hexrad} hex radius area with a virulent strain, dealing {ViralCanisterDam}damage and infecting Biological and Cyborg units. Infected units take {InfectedDam} damage per turn for {InfectedTime}. These units explode on death, spreading the effect to adjacent units.</Data></Cell><Cell><Data ss:Type="String">在 {hexrad} 个单元格范围区域散播剧毒菌株，造成 {ViralCanisterDam} 伤害并感染生物单位和半机械人单位。[br/]受感染的单位每回合受到 {InfectedDam} 伤害，持续 {InfectedTime}。这些单位在死亡时会爆炸并将该效果散播给相邻单位。</Data></Cell><Cell ss:Index="9" ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell ss:StyleID="s64"><Data ss:Type="String">VIRAL_CANISTER</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">PROPERTY</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">This unit is infected taking {InfectedDam} per turn. It explodes on death, dealing an additional {InfectedExplodeDam} and spreading the infection in a {InfectedRadius} hex radius area.</Data></Cell><Cell><Data ss:Type="String">该单位受到了感染，每回合受到 {InfectedDam}。单位死亡后会发生爆炸，造成额外 {InfectedExplodeDam} 并向 {InfectedRadius} 个单元格范围散播毒菌。</Data></Cell><Cell ss:Index="9" ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s64"><Data ss:Type="String">ACID_RAIN</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Acid Rain</Data></Cell><Cell><Data ss:Type="String">酸雨</Data></Cell><Cell ss:Index="9" ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell ss:StyleID="s64"><Data ss:Type="String">ACID_RAIN</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Acidic rain pours down onto the battlefield, affecting enemy units. At the start of the enemy's turn, the rain melts {AcidRainArmor} and deals {AcidRainDam} damage. This effect lasts {duration}[turn/][br/]This effect does not stack with itself.</Data></Cell><Cell><Data ss:Type="String">酸雨在战场上倾泻而下，影响敌方单位。敌方回合开始时，酸雨将会熔化 {AcidRainArmor} 并且造成 {AcidRainDam} 伤害，效果持续 {duration}[turn/]。[br/]该效果自身不能叠加。</Data></Cell><Cell ss:Index="9" ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s64"><Data ss:Type="String">BIO_SKILLS</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">GROUP_NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Biochemical</Data></Cell><Cell><Data ss:Type="String">生化</Data></Cell><Cell ss:Index="9" ss:StyleID="s64"/></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Selected/><TopRowVisible>1</TopRowVisible><LeftColumnVisible>1</LeftColumnVisible><Panes><Pane><Number>3</Number><ActiveRow>8</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:45:57Z</Created><LastSaved
+    >2019-07-03T20:55:55Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s64"
+    ><Alignment
+        ss:Horizontal="Left"
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="144" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="209.25"
+      /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="318.75"
+        ss:Span="1"
+      /><Column
+        ss:Index="5"
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="229.5"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="118.5" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="323.25"
+      /><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
+            ss:Type="String"
+          >BIOCHEMICAL_TECHGROUPS</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        ><Data
+            ss:Type="String"
+          >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >CORROSIVE_BURST</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Corrosive Detonator</Data></Cell><Cell><Data
+            ss:Type="String"
+          >腐蚀炸药</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">CORROSIVE_BURST</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Target area in a {CorrosiveRadius} hex radius is hit by a corrosive detonation with [abilityred]Massive Impact[/abilityred]. All units in the target area lose {CorrosiveArmorPen}[armor/] and take {CorrosiveDam}[damagebio/] damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用腐蚀炸药引爆 {CorrosiveRadius} 个单元格范围的目标区域并附带[abilityred]强力冲击[/abilityred]。目标区域中的所有单位失去 {CorrosiveArmorPen}[armor/]并受到 {CorrosiveDam}[damagebio/]伤害。</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >BIOCHEMICAL_MACERATION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Biochemical Maceration</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化浸渍</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">BIOCHEMICAL_MACERATION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >A macerating Biochemical agent is released in a {BiochemicalMacerationRadius} hex radius, reducing affected units' Biochemical resistance by {BiochemicalMacerationResist} for {BiochemicalMacerationTime}. These units also have a {slowchance} strength chance of becoming [abilityred]Slow[/abilityred] for that duration.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在 {BiochemicalMacerationRadius} 个单元格范围释放浸渍生化药剂，受影响的单位将降低 {BiochemicalMacerationResist} 生化抵抗，持续 {BiochemicalMacerationTime}。此外在效果持续期间，这些单位还有 {slowchance} 的力量几率受到[abilityred]减速[/abilityred]。</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >BIOCHEMICAL_MACERATION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >UNIT_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >This unit has {BioMacerationResist}.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >该单位拥有 {BioMacerationResist}。</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >VIRAL_CANISTER</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Virulent Canister</Data></Cell><Cell><Data
+            ss:Type="String"
+          >毒菌筒</Data></Cell><Cell ss:Index="9" ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >VIRAL_CANISTER</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Flood a {hexrad} hex radius area with a virulent strain, dealing {ViralCanisterDam}damage and infecting Biological and Cyborg units. Infected units take {InfectedDam} damage per turn for {InfectedTime}. These units explode on death, spreading the effect to adjacent units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在 {hexrad} 个单元格范围区域散播剧毒菌株，造成 {ViralCanisterDam} 伤害并感染生物单位和半机械人单位。[br/]受感染的单位每回合受到 {InfectedDam} 伤害，持续 {InfectedTime}。这些单位在死亡时会爆炸并将该效果散播给相邻单位。</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">VIRAL_CANISTER</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">PROPERTY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This unit is infected taking {InfectedDam} per turn. It explodes on death, dealing an additional {InfectedExplodeDam} and spreading the infection in a {InfectedRadius} hex radius area.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位受到了感染，每回合受到 {InfectedDam}。单位死亡后会发生爆炸，造成额外 {InfectedExplodeDam} 并向 {InfectedRadius} 个单元格范围散播毒菌。</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >ACID_RAIN</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Acid Rain</Data></Cell><Cell><Data
+            ss:Type="String"
+          >酸雨</Data></Cell><Cell ss:Index="9" ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >ACID_RAIN</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Acidic rain pours down onto the battlefield, affecting enemy units. At the start of the enemy's turn, the rain melts {AcidRainArmor} and deals {AcidRainDam} damage. This effect lasts {duration}[turn/][br/]This effect does not stack with itself.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >酸雨在战场上倾泻而下，影响敌方单位。敌方回合开始时，酸雨将会熔化 {AcidRainArmor} 并且造成 {AcidRainDam} 伤害，效果持续 {duration}[turn/]。[br/]该效果自身不能叠加。</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >BIO_SKILLS</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >GROUP_NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Biochemical</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化</Data></Cell><Cell ss:Index="9" ss:StyleID="s64" /></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Selected /><TopRowVisible>1</TopRowVisible><LeftColumnVisible
+      >1</LeftColumnVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >8</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

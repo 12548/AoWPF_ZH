@@ -1,9 +1,1352 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:39:10Z</Created><LastSaved>2019-06-25T15:39:10Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>9150</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="659.25" ss:DefaultRowHeight="15"><Column ss:StyleID="s62" ss:Width="282.75"/><Column ss:StyleID="s62" ss:Width="66.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="541.5"/><Column ss:StyleID="s62" ss:Width="147.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="299.25"/><Column ss:StyleID="s62" ss:Width="120.75"/><Column ss:StyleID="s62" ss:Width="306.75"/><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">AMAZON02_CAMPAIGN</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CUSTOMSECTOR_GOVERNMENT_PALACE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Avium SK-51 HQ</Data></Cell><Cell><Data ss:Type="String">阿维姆 SK-51 总部</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Avium SK-51 HQ - Headquarters on the planet</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CUSTOMSECTOR_ARCHIVES_OF_LIGHT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Thousand Suns Vault of the Unconquered Soul</Data></Cell><Cell><Data ss:Type="String">不屈者的千阳宝库</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CUSTOMSECTOR_XENOLABS_FACILITY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Xeno-Amazon Research Facility</Data></Cell><Cell><Data ss:Type="String">异星疫病亚马逊研究所</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CUSTOMSECTOR_CRYOTOMBS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Penultimate Resting Tomb Alpha</Data></Cell><Cell><Data ss:Type="String">阿尔法探险队倒数第二墓葬</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_ALTERNATIVE_MEASURES_STRATEGIC_OPERATION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Hack the Terratech databanks</Data></Cell><Cell><Data ss:Type="String">黑入环境改造技术数据库</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_ALTERNATIVE_MEASURES_STRATEGIC_OPERATION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Get Dema close to the Terratech HQ and allow her to infiltrate its network to collect the data.</Data></Cell><Cell><Data ss:Type="String">帮助德玛接近泰拉科技总部，从而让她渗透总部网络并收集资料。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Dema Qujen, a  female Syndicate mercenary that offers the player character her services</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_BUTTON_LABEL_ACCEPT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Accept</Data></Cell><Cell><Data ss:Type="String">接受</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_BUTTON_LABEL_DECLINE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Decline</Data></Cell><Cell><Data ss:Type="String">拒绝</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">AMA02_MISSION_START_MSG01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This is Avium SK-51, a world in flux. The surface regularly morphs, changing forms. We must tread carefully… Our main goal is unchanged: bring Berhane to justice. We will pursue that without rest. My good friend, Sappho, says that she can help.</Data></Cell><Cell><Data ss:Type="String">这里是阿维姆 SK-51，一个瞬息万变的星球。星球地表时常都在变化，不断改变形态。我们一定要小心前行…我们的首要目标仍然不变：捉拿勃海因。我们要不眠不休地追捕她。我的好友萨福说她可以提供帮助。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Avium SK-51 - Planet name
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:39:10Z</Created><LastSaved
+    >2019-06-25T15:39:10Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>9150</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="659.25"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="282.75" /><Column
+        ss:StyleID="s62"
+        ss:Width="66.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="541.5" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="299.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="120.75"
+      /><Column ss:StyleID="s62" ss:Width="306.75" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">AMAZON02_CAMPAIGN</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >CUSTOMSECTOR_GOVERNMENT_PALACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Avium SK-51 HQ</Data></Cell><Cell><Data
+            ss:Type="String"
+          >阿维姆 SK-51 总部</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Avium SK-51 HQ - Headquarters on the planet</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >CUSTOMSECTOR_ARCHIVES_OF_LIGHT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thousand Suns Vault of the Unconquered Soul</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不屈者的千阳宝库</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data
+            ss:Type="String"
+          >CUSTOMSECTOR_XENOLABS_FACILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Xeno-Amazon Research Facility</Data></Cell><Cell><Data
+            ss:Type="String"
+          >异星疫病亚马逊研究所</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CUSTOMSECTOR_CRYOTOMBS</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Penultimate Resting Tomb Alpha</Data></Cell><Cell><Data
+            ss:Type="String"
+          >阿尔法探险队倒数第二墓葬</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_ALTERNATIVE_MEASURES_STRATEGIC_OPERATION</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hack the Terratech databanks</Data></Cell><Cell><Data
+            ss:Type="String"
+          >黑入环境改造技术数据库</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_ALTERNATIVE_MEASURES_STRATEGIC_OPERATION</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Get Dema close to the Terratech HQ and allow her to infiltrate its network to collect the data.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >帮助德玛接近泰拉科技总部，从而让她渗透总部网络并收集资料。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Dema Qujen, a  female Syndicate mercenary that offers the player character her services</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AMA02_BUTTON_LABEL_ACCEPT</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Accept</Data></Cell><Cell><Data
+            ss:Type="String"
+          >接受</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMA02_BUTTON_LABEL_DECLINE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Decline</Data></Cell><Cell><Data
+            ss:Type="String"
+          >拒绝</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">AMA02_MISSION_START_MSG01</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This is Avium SK-51, a world in flux. The surface regularly morphs, changing forms. We must tread carefully… Our main goal is unchanged: bring Berhane to justice. We will pursue that without rest. My good friend, Sappho, says that she can help.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这里是阿维姆 SK-51，一个瞬息万变的星球。星球地表时常都在变化，不断改变形态。我们一定要小心前行…我们的首要目标仍然不变：捉拿勃海因。我们要不眠不休地追捕她。我的好友萨福说她可以提供帮助。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Avium SK-51 - Planet name
 
 Berhane - female Amazon character who was the old mentor of Mahina
 
-Sappho - female promethean Amazon huntress and  possible ally of the player character</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_MISSION_START_MSG02</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Sister {STR_LeaderFirstName}! We received your report from Thanakiwa. Berhane’s treason is more severe than any of us expected. I have been sent not as a rival, but to assist you as a partner. I have brought technology to fight this Xenoplague. Together we shall capture Berhane.</Data></Cell><Cell><Data ss:Type="String">{STR_LeaderFirstName}姐妹！我们收到你从瑟纳基瓦发来的报告了。勃海因的背叛远远超乎了我们的想象。我不是抱着敌意来的，而是想作为伙伴帮助你。我带来了对抗异星疫病的技术。我们并肩作战一定可以捉住勃海因。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Mahina - Female Amazon leader
+Sappho - female promethean Amazon huntress and  possible ally of the player character</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AMA02_MISSION_START_MSG02</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sister {STR_LeaderFirstName}! We received your report from Thanakiwa. Berhane’s treason is more severe than any of us expected. I have been sent not as a rival, but to assist you as a partner. I have brought technology to fight this Xenoplague. Together we shall capture Berhane.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_LeaderFirstName}姐妹！我们收到你从瑟纳基瓦发来的报告了。勃海因的背叛远远超乎了我们的想象。我不是抱着敌意来的，而是想作为伙伴帮助你。我带来了对抗异星疫病的技术。我们并肩作战一定可以捉住勃海因。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Mahina - Female Amazon leader
 Thanakiwa - Planet name
-Xenoplague - A secret tech that the player can access</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">AMA02_MISSION_START_MSG02_ALT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Sister {STR_LeaderFirstName}! Berhane’s treason is more severe than any of us expected. I have been sent not as a rival, but to assist you as a partner. I have brought technology to fight this Xenoplague, but seeing you now, I fear I have arrived too late. Oh sister, how the plague has already twisted you! Stay strong. Together we must bring Berhane to justice.</Data></Cell><Cell><Data ss:Type="String">{STR_LeaderFirstName}姐妹！我们收到你从瑟纳基瓦发来的报告了。勃海因的背叛远远超乎了我们的想象。我不是抱着敌意来的，而是想作为伙伴帮助你。我带来了对抗异星疫病的技术，但是看到你现在的样子，恐怕我已经来晚了。天啊，我的姐妹，这种疫病已经让你受尽了折磨！坚持住，我们一定要联手捉住勃海因。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">AMA02_MISSION_START_MSG03</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">I could not ask for a better battle partner, Sappho. Our side-by-side training serves us better than raw strength. I wish I'd had your bow on Thanakiwa. The Xenoplague infected everything it touched. We had to dispatch a Kir’Ko, one of Berhane’s lackeys controlled by the parasite. Any information you could already gather about Berhane’s defenses will be of help.</Data></Cell><Cell><Data ss:Type="String">不会有比你更好的战友了，萨福。我们的共同训练远胜于蛮力。真希望我在瑟纳基瓦时也有你的强弓助阵。异星疫病所到之处的生物全都被感染了。我们不得不处死了一个奇尔寇，一个被寄生物控制的勃海因的走狗。你收集到的有关勃海因防御系统的任何信息都会派上用场。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">AMA02_MISSION_START_MSG03_ALT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">I could not ask for a better battle partner. Our side-by-side training serves us better than raw strength. Please consider: I chose to adopt the Xenoplague as a weapon. What better way to fight Berhane than to personally understand the source of her power? Any information you could already gather about Berhane’s defenses will be of help.</Data></Cell><Cell><Data ss:Type="String">不会有比你更好的战友了。我们的共同训练远胜于蛮力。请考虑一下：我选择把异星疫病当作武器接纳，要与勃海因对抗，还有比亲自掌握她的力量之源更有效的方法么？你收集到的有关勃海因防御系统的任何信息都会派上用场。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">AMA02_MISSION_START_MSG04</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">My agents have not returned. I sent out two of them to harry Berhane's forces, but they have not reported in. If you find them alive, they’ll surely provide crucial information about our quarry. I have, however, scouted the area and found signs of others on this planet. They could potentially be allies if we manage to convince them diplomatically.</Data></Cell><Cell><Data ss:Type="String">我的特工们还没有回来。我派出了两名特工去骚扰勃海因的部队，但她们还没有发回过报告。如果你能找到活着的她们，她们一定会提供有关勃海因的重要信息。话说回来，我侦察了这个区域，发现了这个星球上还有其他人。他们可能会成为我们的盟友，我们应该设法通过外交手段劝说他们加入。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_MISSION_START_MSG05</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Thank you, sister. Your insight is welcome. The Xenoplague is as relentless as anything I've seen before, and I worry about the resistance we will face here…</Data></Cell><Cell><Data ss:Type="String">谢谢你，姐妹。很高兴能够听到你的见解。异星疫病的残酷是前所未见的，我担心我们在这里会受到强烈抵抗…</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_HALT_THE_TERRAFORMING_HEADER_QUEST</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Halt the Terraforming</Data></Cell><Cell><Data ss:Type="String">停止环境改变</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Quest name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_HALT_THE_TERRAFORMING_HEADER_QUEST</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Find a way to stop the planet from continuously terraforming its surface.</Data></Cell><Cell><Data ss:Type="String">想办法阻止这个星球不断改变地表。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_TERRAFORM_EVENT_MSG01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This planet… it is automatically terraforming its own surface! This is both intriguing and worrying, since its choices seem random. If we can spare the time, we may want to find a way to shut down this protocol, as it may badly interfere with our hunt.</Data></Cell><Cell><Data ss:Type="String">这个星球…它会自动改变地表！这很神奇但同时也很令人担忧，因为改变似乎是随机的。如果能腾出一些时间，我们最好想办法关闭星球地表改造协议，它可能会阻碍我们的抓捕行动。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_LOCATE_THE_SOURCE_QUEST</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Locate the Source</Data></Cell><Cell><Data ss:Type="String">找到根源</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Quest name</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_LOCATE_THE_SOURCE_QUEST</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">We might want to look into disabling this automated terraforming. It might complicate our efforts here. Then again, it might also hamper Berhane…</Data></Cell><Cell><Data ss:Type="String">我们也许应该调查一下有没有停止地表自动改变的方法。这可能会增加我们的行动难度。不过，这种环境一定也会妨碍勃海因的行动…</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_LOCATE_THE_SOURCE_SCRIPTED_OBJECTIVE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{INT_0}/{INT_1} Terraforming Source Found</Data></Cell><Cell><Data ss:Type="String">{INT_0}/{INT_1} 找到环境改造源头</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_GATHER_ALLIES_HEADER_QUEST</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Gather Allies</Data></Cell><Cell><Data ss:Type="String">召集盟友</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Quest name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_GATHER_ALLIES_HEADER_QUEST</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">It would be wise to find others with a common goal of defeating Berhane if we get a chance to do so.</Data></Cell><Cell><Data ss:Type="String">我们应该尽量召集志同道合想要制裁勃海因的盟友。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_MEET_REFUGEES_MSG01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Help us! My swarm is hunted and hurt by others like you. We are few. I am the only one to find help. Please, help us. We are cut off from our own hive colony.</Data></Cell><Cell><Data ss:Type="String">救命！我的族群遭到像你一样的其他人猎杀和伤害。我们的数量所剩无几，我是唯一一个来寻求帮助的。请帮帮我们。我们连自己的蜂巢殖民地都回不去了。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_MEET_REFUGEES_MSG02</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Mercy! Please! Your kind infected our hive-mates with a parasite. They no longer swarm with us. They instead fight us. They are not of our hive…</Data></Cell><Cell><Data ss:Type="String">请发发善心！你的同胞用一种寄生物感染了我们的同伴。他们不再和我们共同行动，并且还要攻击我们。他们不再属于我们的族群了…</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_MEET_REFUGEES_MSG03_ACCEPTED</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Poor creatures… you are welcome to join our colony. We will protect and feed you. Unfortunately, I know who has done this to you. She is called Berhane. I am here to put an end to the misery she causes. Where have you come from? Are there more of your kind on this planet?</Data></Cell><Cell><Data ss:Type="String">可怜的生物…欢迎你们加入我们的殖民地。我们会提供保护和食物。遗憾的是，我知道那个伤害你们的人是谁。她叫勃海因。我是来这里阻止她继续作恶的。你们从哪里来？这个星球上你们还有更多的族人么？</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_MEET_REFUGEES_MSG03_DECLINED</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Kir'Ko? Here as well? Your kind is treacherous. The last Kir’Ko we trusted was an enemy. No doubt, you’re Berhane's trap to undermine our hunt. Leave now.</Data></Cell><Cell><Data ss:Type="String">奇尔寇？这个地方也有？你们的族人真是奸诈恶毒。上一次我们信任过的奇尔寇就是一个敌人。毫无疑问，你们肯定是勃海因设下陷阱，好破坏我们抓捕行动。立刻离开。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_MEET_REFUGEES_MSG04_ACCEPTED</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Thank you, kind human! We will join you and help in any way we can. We are here because of our hive leader {MSTR_KIRKO_SYNTHESIS_LEADER_NAME}. He landed on this planet in search of Xa’Kir’Ko, and will be happy to help those who aided the Kir’Ko.</Data></Cell><Cell><Data ss:Type="String">谢谢你，善良的人类！我们会加入你并竭尽所能提供帮助。我们来这里是因为我们的族群领导人{MSTR_KIRKO_SYNTHESIS_LEADER_NAME}。他在这个星球上着陆是为了寻找札奇尔寇，他会很乐意帮助那些曾有恩于奇尔寇同胞的人。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_MEET_REFUGEES_MSG04_DECLINED</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">We go now! Do not harm us further! You prove that all sack-bleeders are the same!</Data></Cell><Cell><Data ss:Type="String">我们现在就走！不要再继续伤害我们了！你们这群匪徒真是一路货色！</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">sack-bleeders - Kir'Ko slang name for humans</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_MEET_JIKUKU_QUEST</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Find the Kir'Ko Swarm Herald</Data></Cell><Cell><Data ss:Type="String">找到奇尔寇族群使者</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Quest name</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_MEET_JIKUKU_QUEST</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Some Kir'Ko refugees pointed you in the direction of a Kir'Ko Swarm Herald who landed on this planet not long ago. You could ask for assistance from his colony.</Data></Cell><Cell><Data ss:Type="String">一些奇尔寇难民向你指出了奇尔寇族群使者的方位，他是最近才来到这个星球的。你可以向他的殖民地寻求帮助。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_MEET_JIKUKU_MSG01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Ah, great Amazon host! We chitter in excitement still! Thank you again for leading the way to our ancient home, Xa'Kir'Ko! It is truly a wonder to finally be here. I, {MSTR_KIRKO_SYNTHESIS_LEADER_NAME}, chosen as Swarm Herald, greatest among Kir'Ko, who led our hive home to resettle these ancient gardens.</Data></Cell><Cell><Data ss:Type="String">啊，伟大的亚马逊领袖！我们现在都还在激动欢呼！再次感谢你带领我们来到了我们的古老家园，札奇尔寇！能够到达这里真是一个奇迹。我，{MSTR_KIRKO_SYNTHESIS_LEADER_NAME}，被选中作为族群使者，是奇尔寇族中最伟大的，是我带领族群再次回到我们的古老家园安家。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Xa'Kir'Ko - Home planet of the Kir'Ko</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_MEET_JIKUKU_MSG02</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Stand down! We came to blows with your kind before and are not looking to do so again. What makes you think that this is Xa'Kir'Ko? And who led you here with that promise?</Data></Cell><Cell><Data ss:Type="String">退下！我们之前和你的族人有过纷争，不想再来一次了。你凭什么认为这是札奇尔寇？是谁这样告诉你，把你带到这儿来的？</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_MEET_JIKUKU_MSG03</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Your leader-being, Berhane, told us of this glorious location. She allowed us to settle in, but has not returned for some time… Could you give her a message from us? Tell her that we are ready to repay the debt we owe for what she has done for us.</Data></Cell><Cell><Data ss:Type="String">你们的领导人勃海因告知了我们这个光荣圣地的位置。她同意让我们在此定居，但她已经有一段时间没回来了…你可以替我们向她转达一个消息么？告诉她我们已经准备好报答她为我们所做的一切了。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">AMA02_MEET_JIKUKU_MSG04</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Uh… of course, {MSTR_KIRKO_SYNTHESIS_LEADER_NAME}. We will contact you again later.[br/][br/]They seem to think that this is their home world, but it isn’t. Perhaps some information at the Terratech headquarters will prove that to the Kir'Ko. That could expose Berhane’s deception, turning {MSTR_KIRKO_SYNTHESIS_LEADER_NAME} into a potential ally for us.</Data></Cell><Cell><Data ss:Type="String">呃…没问题，{MSTR_KIRKO_SYNTHESIS_LEADER_NAME}。我们稍后会再联系你。[br/][br/]他们似乎认为这就是他们的家园，但其实并不是这样的。也许环境改造科技总部的某些信息能够向奇尔寇证明这一点。这也可以揭穿勃海因的骗局，让{MSTR_KIRKO_SYNTHESIS_LEADER_NAME}成为我们的潜在盟友。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_PROVE_TREASON_QUEST</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Prove Treason</Data></Cell><Cell><Data ss:Type="String">证明背叛</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Quest name</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_PROVE_TREASON_QUEST</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">If you can prove that this planet is not the Kir'Ko homeworld, you might be able to sway the Kir'Ko Swarm Herald to your cause against Berhane.</Data></Cell><Cell><Data ss:Type="String">如果能证明这个星球不是奇尔寇的家园，你就有可能让那个奇尔寇使者倒向你这边，与你共同对抗勃海因。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_MEET_RITA_MSG01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Hello there. You are {STR_LeaderName}, correct? I have been informed you are looking for something… valuable inside the Avium SK-51 HQ, and I offer my help in finding it. The HQ is heavily guarded, and I could retrieve the information you require quickly - for a price.</Data></Cell><Cell><Data ss:Type="String">你好呀。你是{STR_LeaderName}，对吧？我获悉你正在找一件东西…一件在阿维姆 SK-51 总部内部的重要东西，我愿意帮你找到它。总部有重兵把守，但我可以很快带来你想要的情报，当然也不是免费的。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_MEET_RITA_MSG03_ACCEPT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Greetings, stranger. I understand it your people like bargains. I’ll pay your price to accomplish my mission.</Data></Cell><Cell><Data ss:Type="String">你好，陌生人。我知道你们这类人都很喜欢讨价还价。所以只要你能完成我的任务，我会付给你报酬的。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_MEET_RITA_MSG03_DECLINE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">I wouldn’t trust a stranger to retrieve crucial information, much less pay him to do so. You can offer your talents to other Commanders. Just remember to stay out of our way.</Data></Cell><Cell><Data ss:Type="String">我不能信任一个陌生人去为我获取如此重要的情报，更别说还要支付报酬了。你可以用你的才干去帮助其他领导者。但是记住，别当我的道。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_HIRED_RITA_QUEST</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">For the Greater Good</Data></Cell><Cell><Data ss:Type="String">大局为重</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Quest name</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_HIRED_RITA_QUEST</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A sinister Syndicate by the name of Dema Qujen offered you her services to collect data from the Terratech HQ. It might be worthwhile to employ her, as it avoids having to fight your way inside of the headquarters.</Data></Cell><Cell><Data ss:Type="String">一位名叫德玛·库伊恩的阴险辛迪加人愿意帮助你去泰拉科技总部收集情报。也许她值得我们雇佣，因为这样我们就可以避免为了进入总部而动用武力了。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Dema Qujen - Syndicate mercenary that offers her services to the player character</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_HIRED_RITA_COMPLETION_MESSAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The requested amount of energy has been registered at my account. Splendid! Then let me get started...</Data></Cell><Cell><Data ss:Type="String">我要求的能量已经汇入我的账户了。非常好！我们这就开始吧...</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_ALTERNATIVE_MEASURES_QUEST</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Alternative Measures</Data></Cell><Cell><Data ss:Type="String">替代手段</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Quest name</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_ALTERNATIVE_MEASURES_QUEST</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">We have now employed Dema Qujen, and we need to keep her alive and get her close to the Terratech HQ so she can work her 'magic' and provide us with the data we need without resorting to spilling any blood.</Data></Cell><Cell><Data ss:Type="String">我们现在已经雇佣了德玛·库伊恩，我们要保住她的命并掩护她接近泰拉科技总部，这样她才能施展“魔法”帮我们不费一兵一卒获取需要的资料。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Terratech HQ - It is here that a lot of research projects took place involving the Amazon.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_ALTERNATIVE_MEASURES_MSG01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">I return, and I was successful in my mission. Here is the data you required. Nice doing business with you, {STR_LeaderName} of the Amazons…</Data></Cell><Cell><Data ss:Type="String">我回来了，而且我还成功完成了任务。这是你想要的资料。跟你合作很愉快，亚马逊族长{STR_LeaderName}…</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_ALTERNATIVE_MEASURES_MSG02</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Thank you, Syndicate agent. Perhaps we will barter again in the markets of the future.</Data></Cell><Cell><Data ss:Type="String">谢谢你，辛迪加特务。也许我们未来还会合作。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_PROOF_FOR_JIKUKU_MSG01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{MSTR_KIRKO_SYNTHESIS_LEADER_NAME}, I have returned to you with proof of this planet's nature. This is not Xa'Kir'Ko. I am sorry that you were led astray by the criminal Berhane. We were sent here to hunt her down and bring her to justice. We could use your help.</Data></Cell><Cell><Data ss:Type="String">{MSTR_KIRKO_SYNTHESIS_LEADER_NAME}，我带回了证据可以向你证明这个星球的本质。这里不是札奇尔寇。很抱歉你们被罪犯勃海因误导了。我们是来抓捕并制裁她的。我们需要你的帮助。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_PROOF_FOR_JIKUKU_MSG02</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Pah, silly meat-thing, I do not believe you! Give me that data-slate… this isn't Xa'Kir'Ko. This is Avium SK-51. You were correct. Berhane lied to us. She used us and killed our hope! The swarm will tear her to pieces and devour every last remnant of her being! To war, my colony, to war!</Data></Cell><Cell><Data ss:Type="String">呸，愚蠢的肉身生物，我不相信你！把那个数据板给我…这里不是札奇尔寇。这里是阿维姆 SK-51。你是对的。勃海因骗了我们。她利用我们，毁掉了我们的希望！我的族群会把她撕成碎片然后把她的残骸吞噬殆尽！战斗吧，我的殖民地，战斗吧！</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">meat-thing - Kir'Ko slang name for humans</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_PROOF_FOR_JIKUKU_MSG03</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">I can't help but feel a measure of pity for these Kir'Ko, but at least their rage will be directed against someone who actually deserves it.</Data></Cell><Cell><Data ss:Type="String">我不禁有些可怜这些奇尔寇，但至少他们的怒火是指向了罪有应得的人。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_MEET_YURIY_MSG01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Ugh, this world is driving me crazy! Dvar adaptability only goes so far. The planet can't keep changing the rules on us! Who are you, Amazon? Are you with Berhane and her plague-addled followers?</Data></Cell><Cell><Data ss:Type="String">啊，这个星球快把我逼疯了！矮人的适应能力也是有限的。这个星球不能这样一直对我们改变规则！你们是谁，亚马逊人？你们和勃海因是一伙的么，你们是她的疫病追随者么？</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_MEET_YURIY_MSG02</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Greetings, Dvar Director. I am {STR_LeaderName}, and we are not part of Berhane's cult. We are here to track her down and capture her for crimes against our people. This is an inconvenient time to be on this planet. What have you come here to do?</Data></Cell><Cell><Data ss:Type="String">你好，矮人领袖。我是{STR_LeaderName}，我们不是勃海因的崇拜者。我们是来追捕她的，因为她对我的同胞们犯下了重罪。现在可不是造访这个星球的好时机。你们来这里做什么？</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_MEET_YURIY_MSG03</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Well, I'm glad you're not one of the crazies. I am Yuriy, and we are also here to stop Berhane! Her madness must not be allowed to spread. We've been trying to gain a foothold here, but the constantly changing terrain is complicating every little effort we make!</Data></Cell><Cell><Data ss:Type="String">唔，还好你不是那帮疯子的同伙。我叫尤里，我们也是来这儿阻止勃海因的！我们不能放任她的疯狂再传播下去了。我们一直想在这里建立根据点，但是不断改变的地表总会让我们的一切努力都变得徒劳！</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Yuriy - Male Dvar character and possible ally to the player character</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_MEET_YURIY_MSG03_ALT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">No, I can see it in your eyes… you are infected with that plague! We will not succumb to your insanity! Prepare for war!</Data></Cell><Cell><Data ss:Type="String">不，我从你的眼中看到了疫病的踪迹…你被那种疫病感染了。我们不会向你的疯狂臣服！准备好迎接战斗吧！</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_MEET_YURIY_MSG04</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The planet's terraforming processes are troublesome to say the least. We may be able to find a way to shut it down. If we do, would you be willing to join our fight?</Data></Cell><Cell><Data ss:Type="String">这个星球的地表变化实在太令人头疼了。我们也许能够找到关闭它的方法。如果我们找到了，你会加入我们一起对抗勃海因么？</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_MEET_YURIY_MSG05</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Indeed, that sounds like a fine deal! We have located the base of command from which the terraforming gets coordinated, but we cannot get close. Those damn wire-headed Autonom are guarding the facility. I swear by my Consortium, if you manage to stop the terraforming protocol, we’ll lend our hammers to stop mad Berhane.</Data></Cell><Cell><Data ss:Type="String">当然，这提议听起来不错！我们已经找到了地表改造的控制中心，但是我们无法接近那个地方。这些该死的电线脑袋自主机械把守着那里，我以我财团的名义发誓，如果你能关闭地表改造协议，我们就助你一锤之力对抗疯子勃海因。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Autonom - NPC robot faction</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_STOP_TERRAFORMING_QUEST</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Stop the Terraforming</Data></Cell><Cell><Data ss:Type="String">阻止地表改造</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Quest name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_STOP_TERRAFORMING_QUEST</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Yuriy asked you to stop the planetary terraforming. His Dvar might prove to be a useful ally against Berhane.</Data></Cell><Cell><Data ss:Type="String">尤里请求你停止星球地表改造。他的矮人战士们一定会是对抗勃海因的强力盟友。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_HELP_DVAR_COMPLETION_MSG01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{STR_LeaderFirstName}, you did it! Thank you for returning this planet to peace. We can actually build some solid structures now that the land has stopped shifting and churning. By my honor, I hereby pledge my warriors to your cause. Let’s stomp that Berhane fool out!</Data></Cell><Cell><Data ss:Type="String">{STR_LeaderFirstName}，你成功了！谢谢你让这个星球重归平静。现在地表已经停止了剧烈变化，我们可以建造坚固的建筑了。我以我的荣誉在此起誓，我的战士们将加入你们队伍。我们一起去把勃海因那个蠢货干掉吧！</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_AMAZONIAN_FAVORS_HEADER_QUEST</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Amazonian Favors</Data></Cell><Cell><Data ss:Type="String">亚马逊同伴</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Quest name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_FIND_AGENTS_QUEST</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Find Sappho's Agents</Data></Cell><Cell><Data ss:Type="String">找到萨福的间谍</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Quest name</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_FIND_AGENTS_QUEST</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Sappho asked you to locate some of her Amazons that she sent out to harass Berhane's forces. She has not heard from them in a while, and hopes that they are in one piece.</Data></Cell><Cell><Data ss:Type="String">萨福请求你找到她派去干扰勃海因势力的亚马逊间谍。萨福已经有一阵子没有收到她们的消息了，但愿她们安然无恙。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_FIND_AGENTS_QUEST_OBJECTIVE_01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Find Dido</Data></Cell><Cell><Data ss:Type="String">找到蒂朵</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Dido - female Amazon character, possible ally to the player character</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_FIND_AGENTS_QUEST_OBJECTIVE_02</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Find Calliope</Data></Cell><Cell><Data ss:Type="String">找到卡丽奥佩</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Calliope - female Amazon character, possible ally to the player character</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_MEET_DIDO_MSG01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Oh, blessings of the Mother! I’m glad you found me. I was stranded here after my mount broke free. I travel poorly on foot and feel vulnerable without my Swift Beak. If you could find a new one for me, I will lend my strength to your will!</Data></Cell><Cell><Data ss:Type="String">自然母亲保佑！幸好你找到我了。我的坐骑挣脱之后我就一直被困在这里。步行移动非常没有效率，而且失去了迅猛鸟的我感觉非常不安。如果你可以帮我找到一只新坐骑，我便听命与你！</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Swift Beak - Creature mount</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_MEET_DIDO_MSG02</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Greetings, sister. You must be Dido. We have been looking for you and Calliope. We’re glad you’re safe and will find a mount for you.</Data></Cell><Cell><Data ss:Type="String">你好，姐妹。你一定是蒂朵吧。我们正在找你和卡丽奥佩。很高兴看到你安然无恙，我们会帮你找到一只坐骑的。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_ACQUIRE_MOUNT_QUEST</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Catch A Ride</Data></Cell><Cell><Data ss:Type="String">抓捕坐骑</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Quest name</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_ACQUIRE_MOUNT_QUEST</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Attack the herd of Swift Beaks so you can capture one of them as a mount for Dido. Your technology can easily tame the beast.</Data></Cell><Cell><Data ss:Type="String">攻击迅猛鸟群，帮蒂朵捕捉一只坐骑。凭你的科技应该很容易就能驯服这种野兽。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_DIDO_COMPLETE_QUEST_MSG01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Thank you, Matron Wateka! My lance is yours until Berhane is taken care of.</Data></Cell><Cell><Data ss:Type="String">谢谢你，瓦德卡族长！我的长矛听你差遣，直到勃海因被制裁。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">AMA02_MEET_CALLIOPE_MSG01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Hail, sister! You are not Berhane's forces. I am Calliope, of Sappho's branch. Quickly! I discovered the Cryo Facility, where the bodies of the Alpha Expedition lie in rest. They were infected by the first strain of Xenoplague. If you can help me get inside, I can destroy those bodies. That will impede Berhane's research substantially.</Data></Cell><Cell><Data ss:Type="String">你好，姐妹！你不是勃海因的势力。我叫卡丽奥佩，隶属于萨福。快！我发现了冷冻室，阿尔法探险队的安葬之处。他们被初始异星疫病毒株感染了。如果你掩护我进入其中，我就能毁掉那些尸体，从根源上断绝勃海因的研究。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">
-</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_MEET_CALLIOPE_MSG02</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Hail, sister. Sappho told us of you. Your intuition could prove valuable… Destroying the Alpha Expedition will rob Berhane’s of her most valuable test subjects.</Data></Cell><Cell><Data ss:Type="String">你好，姐妹。萨福向我们说起过你。你的直觉相当有价值…摧毁阿尔法探险队的尸体会使勃海因丧失大部分宝贵测试标本。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_ALPHA_EXPEDITION_QUEST</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Destroy the Alpha Expedition</Data></Cell><Cell><Data ss:Type="String">摧毁阿尔法探险队尸体</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Quest name</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_ALPHA_EXPEDITION_QUEST</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Calliope discovered a Cryo Facility where the bodies of the Alpha Expedition who first encountered the Xeno strain are stored. She asked us to help her gain entry to the facility so that she can take care of the bodies in an effort to hamper Berhane.</Data></Cell><Cell><Data ss:Type="String">卡丽奥佩发现了一个冷冻室，保存着阿尔法探险队员们的尸体，他们是第一批接触异星疫病毒株的人。她请求我们帮她进入冷冻室，这样她就能摧毁这些尸体，阻止勃海因。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_ALPHA_EXPEDITION_QUEST</Data></Cell><Cell><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data ss:Type="String">The bodies have been destroyed.</Data></Cell><Cell><Data ss:Type="String">尸体已经摧毁。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_ALPHA_EXPEDITION_COMPLETION_MSG01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Great sky, sisters! Our success here brings Berhane's inevitable defeat closer. In return for your aid, I pledge you my service. I savor any chance to strike at that outlaw…</Data></Cell><Cell><Data ss:Type="String">太好了，姐妹们！我们的成功让勃海因不可避免的失败又近了一步。作为回报，我会效忠于你。我会抓住制裁那个不法之徒的每一个机会…</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_HEADER_QUEST_END_THE_AMAZON_CONFLICT</Data></Cell><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data ss:Type="String">Victory Condition: End the Amazon Conflict</Data></Cell><Cell><Data ss:Type="String">胜利条件：平息亚马逊争端</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_HEADER_QUEST_END_THE_AMAZON_CONFLICT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">End the Amazon Conflict</Data></Cell><Cell><Data ss:Type="String">平息亚马逊争端</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Quest name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_HEADER_QUEST_END_THE_AMAZON_CONFLICT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">You can win this map by stopping Berhane.[br/][br/]Berhane Defeated: {INT_0}/{INT_1}</Data></Cell><Cell><Data ss:Type="String">阻止勃海因即可获得这张地图的胜利。[br/][br/]已击败勃海因：{INT_0}/{INT_1}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_HEADER_QUEST_END_THE_AMAZON_CONFLICT</Data></Cell><Cell><Data ss:Type="String">OBJECTIVE</Data></Cell><Cell><Data ss:Type="String">Berhane Defeated: {INT_0}/{INT_1}</Data></Cell><Cell><Data ss:Type="String">已击败勃海因：{INT_0}/{INT_1}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_DEFEAT_BERHANE_QUEST</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Defeat Berhane</Data></Cell><Cell><Data ss:Type="String">击败勃海因</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Quest name</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_DEFEAT_BERHANE_QUEST</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">To end the conflict, Berhane must be brought to justice. This wayward Matriarch cannot be allowed to divide us. We are Amazons. We are one. We shall defeat her!</Data></Cell><Cell><Data ss:Type="String">要平息这场争端，就一定要将勃海因绳之以法。不能让这个刚愎自用的族长离间我们。我们是亚马逊人。我们是团结的。我们一定会击败她！</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_DEFEAT_BERHANE_QUEST</Data></Cell><Cell><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data ss:Type="String">We've defeated Berhane!</Data></Cell><Cell><Data ss:Type="String">我们打败了勃海因！</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_DEFEAT_BERHANE_SCRIPTED_OBJECTIVE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{INT_0}/{INT_1} Defeat Berhane</Data></Cell><Cell><Data ss:Type="String">{INT_0}/{INT_1}击败勃海因</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_MEET_BERHANE_MSG01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Hello, {STR_LeaderFirstName}. I knew you would find me eventually. You have always been one of my more persistent students. Too bad you’re wasting your talents on the wrong cause.</Data></Cell><Cell><Data ss:Type="String">你好，{STR_LeaderFirstName}。我就知道你最终会找到我。你一直是我最执着的学生之一。很可惜你的才干浪费在了错误的信念上。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_MEET_BERHANE_MSG02</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Enough, Berhane! You’ve betrayed our people, devastated entire worlds with your infection! But worst of all, you are defiling the Amazon genome with your filthy parasite. This all ends now. Old mentor or not, there will be no mercy this time.</Data></Cell><Cell><Data ss:Type="String">够了，勃海因！你背叛了你的人民，还用你的疫病给一个又一个世界带去灭顶之灾！但最可恶的是，你正用那肮脏的寄生物玷污我们亚马逊人的基因。这一切现在就要结束。不管你是不是我以前的导师，这次我决不留情。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_MEET_BERHANE_MSG03</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Spoken like a true soldier. Didn’t I teach you better than to blindly follow orders? The other Matriarchs are hypocrites. It was genetic manipulation that allowed our race to survive after the Star Union fell, and it will be genetic manipulation that ensures the Amazon stay ahead of the other factions emerging from the past.</Data></Cell><Cell><Data ss:Type="String">你的口吻听起来是个真正的士兵。难道我没有教你不要盲目听从命令么？那些族长都是伪君子。我们种族正是依靠基因控制才能在星联毁灭之后存活下来，能让亚马逊人一直领先于来自过去的那些种族的也将是基因控制。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_MEET_BERHANE_MSG04</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Without my work and vision, the perfect world we’ve been creating will fall victim to their greed. The other Matriarchs did not listen to my warnings. Fortunately, there are still older and wiser beings in this galaxy than our ignorant sisters. With the tools I was given, a new generation of immaculate Amazons will be born.</Data></Cell><Cell><Data ss:Type="String">没有我的努力和先见之明，我们长久以来创造的完美世界将被他们的贪婪所蚕食。那些族长从不听我的劝告。幸运的是，在这个银河系中还有其他比我们那些无知的姐妹们更古老更智慧的存在。凭借他们给我的工具，将会诞生新一代的完美亚马逊人。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_MEET_BERHANE_MSG05</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Immaculate? They will be tainted monstrosities! I once admired your sharp intellect, Berhane. But it seems high ambitions and an inflated ego have dulled that most striking weapon you wield. It is time for you to withdraw. The new generation you’re talking about is already here to take over.</Data></Cell><Cell><Data ss:Type="String">完美？她们只会成为被疫病污染了的怪物！我曾经敬仰你杰出的才智，勃海因。但蓬勃的野心还有膨胀的傲慢已经使你那最强大的智慧武器变得愚钝。快放弃吧，你所说的新一代亚马逊人已经在你眼前，准备接管一切了。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_MEET_BERHANE_MSG06</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Your words have barbs, but they sting the wrong enemy. You cannot stop evolution, {STR_LeaderFirstName}. Your stubbornness will be your death.</Data></Cell><Cell><Data ss:Type="String">你的话语如此锋利，但是你说错人了。你无法阻止进化，{STR_LeaderFirstName}。你的顽固会害死你的。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_MEET_FEMITA_MSG01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">You really are a pathetic specimen, {STR_LeaderFirstName}. I will not let you or anyone else come between Berhane and the full potential of the Xenoplague!</Data></Cell><Cell><Data ss:Type="String">你真是可悲至极，{STR_LeaderFirstName}。我是不会让你还有其他人妨碍勃海因和拥有无限潜力的异星疫病的！</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_MEET_FEMITA_MSG02</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">I promise you this, Femita: if you stand in my way, you will be crushed and tossed aside for hopperhound meat. You are choosing to be an enemy of the Amazon sisterhood. Nothing prevails against us.</Data></Cell><Cell><Data ss:Type="String">我保证，费米塔。如果你敢当我的路，我就把你碾碎你拿去喂跳蝗。你现在是亚马逊姐妹们的敌人。没有谁可以战胜我们。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Femita - female Syndicate character</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_MEET_FEMITA_MSG03</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Syndicate law dictates that the highest bidder holds the reigns, so I cannot stand down. I suppose I'll have to cut out your heart instead!</Data></Cell><Cell><Data ss:Type="String">辛迪加法律规定出价最高的人拥有决定权，所以我不能退开。看来我只好把你的心挖出来了！</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_FEMITA_DEFEATED_MSG01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Gah! Why am I always a stickler for contracts?! The highest bidder has only led me to ruin. {STR_LeaderFirstName}, you wretch, do what you wish…</Data></Cell><Cell><Data ss:Type="String">唉！为什么我总是这么忠于合同？！那个出价最高的人只会带领我走向毁灭。{STR_LeaderFirstName}，你个卑鄙小人，快动手吧…</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_BERHANE_DEFEATED_MSG_01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Time is up, Berhane. Pray, and meet your creator.</Data></Cell><Cell><Data ss:Type="String">时间到了，勃海因。快祈祷，然后去见你的主吧。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_BERHANE_DEFEATED_MSG_02</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">No, this cannot be! My perfect children, how were you able to stop them?[br/][br/]Mercy… Aliuna, come and save me! My unfinished work, the exalted gardens of Ebra…</Data></Cell><Cell><Data ss:Type="String">不，这不可能！我完美的孩子们，你们怎么可能阻止得了她们？[br/][br/]发发善心…阿琉娜，快来救我！我尚未完成的工作，高贵的伊布拉花园…</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Aliuna - first name of a supposedly female character
-Ebra - name of an unknown character or location</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_BERHANE_DEFEATED_MSG_03</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">My poor Berhane, how the Alpha Strain has altered your once fair features. You have pushed yourself too hard - not all paths can lead to salvation. Rest now. Sleep and dream of Regenesis.</Data></Cell><Cell><Data ss:Type="String">可怜的勃海因，初始毒株毁掉了你曾经美丽的容颜。你把自己逼得太紧了 - 不是所有道路都能通向救赎。安息吧。愿你在睡梦中得到新生。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Alpha Strain - name of the Xenoplague parasite</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMA02_BERHANE_DEFEATED_MSG_04</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Aliuna… please…[br/][br/](Before your troops can make any attempt to touch Berhane, her body twitches in a flash of teal light and drops lifeless to the ground.)</Data></Cell><Cell><Data ss:Type="String">阿琉娜……求求你……[br/][br/]（正当你的士兵想要抓住勃海因时，她的身体在一道蓝绿色光中抽搐着，毫无生气地倒在地上。）</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Aliuna - first name of a supposedly female character</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_BERHANE_DEFEATED_MSG_05</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Shrike and spear! Our hunt has come to a successful end. Still, I cannot ignore the things we just witnessed. Berhane was not alone in her efforts. Someone had given her the means to experiment with the Xenoplague – and now that someone made sure to silence her before she could reveal more.</Data></Cell><Cell><Data ss:Type="String">太好了！我们的抓捕行动成功完成。然而，我不能忽视我们刚才所目睹的。勃海因不是一个人制造了这场浩劫。有人给她提供了研究异星疫病的手段，并且在勃海因透露更多信息之前了结了她。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Shrike and spear! - an Amazon war cry (Shrike is the Amazon scout unit)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_BERHANE_DEFEATED_MSG_06</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Well fought, {STR_LeaderName}. With the death of Berhane and her plague, the light of order has returned to Avium SK-51. CORE is sending its commendations. I suspect we will meet again in the future. May the Celestian teachings guide you.</Data></Cell><Cell><Data ss:Type="String">干得漂亮，{STR_LeaderName}。随着勃海因还有她疫病的消亡，秩序之光再次回到了阿维姆 SK-51。核心送来了它的嘉奖。我们在将来可能还会再见。愿星神的教导继续指引你。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Avium SK-51 - name of the planet</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AMA02_FRANK_DEFEATED_MSG</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Pestilence. Blight. The purity of the Celestian spirit will protect me from the foul whispers of death. Remember your wrongs when we meet again, {STR_LeaderName}.</Data></Cell><Cell><Data ss:Type="String">瘟疫。浩劫。星神之灵的纯洁将会保护我不受死亡的滋扰。我们再见面之时希望你记得自己的过错，{STR_LeaderName}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_JIKUKU_DEFEATED_MSG</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Twitch… twitch… my legs… are twitching the final death knell.</Data></Cell><Cell><Data ss:Type="String">抽搐…抽搐…我抽搐的双腿…预示着死亡的到来。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_TERRAFORM_HEADER_TEXT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Terratech Anouncement</Data></Cell><Cell><Data ss:Type="String">泰拉科技通告</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_TERRAFORM_ARCADIAN_MESSAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Attention! Global terraforming protocol initialized! The planet will be converted into Arcadian terrain!</Data></Cell><Cell><Data ss:Type="String">注意！全球环境改造协议已启动！星球将改变为田园地形！</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_TERRAFORM_ARCTIC_MESSAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Attention! Global terraforming protocol initialized! The planet will be converted into Arctic terrain!</Data></Cell><Cell><Data ss:Type="String">注意！全球环境改造协议已启动！星球将改变为极寒地形！</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_TERRAFORM_FUNGAL_MESSAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Attention! Global terraforming protocol initialized! The planet will be converted into Fungal terrain!</Data></Cell><Cell><Data ss:Type="String">注意！全球环境改造协议已启动！星球将改变为真菌地形！</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_TERRAFORM_ARID_MESSAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Attention! Global terraforming protocol initialized! The planet will be converted into Arid terrain!</Data></Cell><Cell><Data ss:Type="String">注意！全球环境改造协议已启动！星球将改变为干燥地形！</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_TERRAFORM_BADLANDS_MESSAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Attention! Global terraforming protocol initialized! The planet will be converted into Badlands terrain!</Data></Cell><Cell><Data ss:Type="String">注意！全球环境改造协议已启动！星球将改变为荒地地形！</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_MEET_JIKUKU_QUEST_SCRIPTED_OBJECTIVE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{INT_0}/{INT_1} Kir'Ko Swarm Herald Met</Data></Cell><Cell><Data ss:Type="String">{INT_0}/{INT_1} 与奇尔寇族群使者碰面</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_SAPPHO_BETRAYED_MESSAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Sister {STR_LeaderFirstName}, why are you defecting? Did Berhane’s poison twist your mind to let you turn against your friends and allies? When this is through, I hope that peace will find you.</Data></Cell><Cell><Data ss:Type="String">{STR_LeaderFirstName}姐妹，你为什么要叛逃？难道是勃海因的毒药扭曲了你的思想，所以你才背叛了你的朋友和盟友？当这一切结束后，我希望你能重归平静。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMA02_TERRAFORM_COMPLETED_MESSAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Terraforming cycle completed! Stay attentive for future test announcements!</Data></Cell><Cell><Data ss:Type="String">环境改造周期完成！注意今后的测试公告！</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RELATION_MODIFIER_MAHINA_TOWARDS_BERHANE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Mission to stop Berhane; former protegé</Data></Cell><Cell><Data ss:Type="String">阻止勃海因的任务；曾经的学徒</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RELATION_MODIFIER_MAHINA_TOWARDS_SAPPHO</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Matron training friends</Data></Cell><Cell><Data ss:Type="String">族长训练朋友</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RELATION_MODIFIER_BERHANE_TOWARDS_MAHINA</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Former mentor</Data></Cell><Cell><Data ss:Type="String">曾经的导师</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RELATION_MODIFIER_FEMITAE_TOWARDS_MAHINA</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Hired to protect Berhane</Data></Cell><Cell><Data ss:Type="String">受雇保护勃海因</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RELATION_MODIFIER_MAHINA_HAS_XENOPLAGUE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Infected with Xenoplague</Data></Cell><Cell><Data ss:Type="String">感染异星疫病</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CASUS_BELLI_CHANGING_AMAZON_GENOME</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Corrupting the Amazon DNA</Data></Cell><Cell><Data ss:Type="String">侵蚀亚马逊人 DNA</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Zoom>115</Zoom><Selected/><TopRowVisible>113</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>132</ActiveRow><ActiveCol>4</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+Xenoplague - A secret tech that the player can access</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_MISSION_START_MSG02_ALT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sister {STR_LeaderFirstName}! Berhane’s treason is more severe than any of us expected. I have been sent not as a rival, but to assist you as a partner. I have brought technology to fight this Xenoplague, but seeing you now, I fear I have arrived too late. Oh sister, how the plague has already twisted you! Stay strong. Together we must bring Berhane to justice.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_LeaderFirstName}姐妹！我们收到你从瑟纳基瓦发来的报告了。勃海因的背叛远远超乎了我们的想象。我不是抱着敌意来的，而是想作为伙伴帮助你。我带来了对抗异星疫病的技术，但是看到你现在的样子，恐怕我已经来晚了。天啊，我的姐妹，这种疫病已经让你受尽了折磨！坚持住，我们一定要联手捉住勃海因。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">AMA02_MISSION_START_MSG03</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >I could not ask for a better battle partner, Sappho. Our side-by-side training serves us better than raw strength. I wish I'd had your bow on Thanakiwa. The Xenoplague infected everything it touched. We had to dispatch a Kir’Ko, one of Berhane’s lackeys controlled by the parasite. Any information you could already gather about Berhane’s defenses will be of help.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >不会有比你更好的战友了，萨福。我们的共同训练远胜于蛮力。真希望我在瑟纳基瓦时也有你的强弓助阵。异星疫病所到之处的生物全都被感染了。我们不得不处死了一个奇尔寇，一个被寄生物控制的勃海因的走狗。你收集到的有关勃海因防御系统的任何信息都会派上用场。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_MISSION_START_MSG03_ALT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >I could not ask for a better battle partner. Our side-by-side training serves us better than raw strength. Please consider: I chose to adopt the Xenoplague as a weapon. What better way to fight Berhane than to personally understand the source of her power? Any information you could already gather about Berhane’s defenses will be of help.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >不会有比你更好的战友了。我们的共同训练远胜于蛮力。请考虑一下：我选择把异星疫病当作武器接纳，要与勃海因对抗，还有比亲自掌握她的力量之源更有效的方法么？你收集到的有关勃海因防御系统的任何信息都会派上用场。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">AMA02_MISSION_START_MSG04</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >My agents have not returned. I sent out two of them to harry Berhane's forces, but they have not reported in. If you find them alive, they’ll surely provide crucial information about our quarry. I have, however, scouted the area and found signs of others on this planet. They could potentially be allies if we manage to convince them diplomatically.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我的特工们还没有回来。我派出了两名特工去骚扰勃海因的部队，但她们还没有发回过报告。如果你能找到活着的她们，她们一定会提供有关勃海因的重要信息。话说回来，我侦察了这个区域，发现了这个星球上还有其他人。他们可能会成为我们的盟友，我们应该设法通过外交手段劝说他们加入。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AMA02_MISSION_START_MSG05</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thank you, sister. Your insight is welcome. The Xenoplague is as relentless as anything I've seen before, and I worry about the resistance we will face here…</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >谢谢你，姐妹。很高兴能够听到你的见解。异星疫病的残酷是前所未见的，我担心我们在这里会受到强烈抵抗…</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_HALT_THE_TERRAFORMING_HEADER_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Halt the Terraforming</Data></Cell><Cell><Data
+            ss:Type="String"
+          >停止环境改变</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Quest name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMA02_HALT_THE_TERRAFORMING_HEADER_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Find a way to stop the planet from continuously terraforming its surface.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >想办法阻止这个星球不断改变地表。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_TERRAFORM_EVENT_MSG01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This planet… it is automatically terraforming its own surface! This is both intriguing and worrying, since its choices seem random. If we can spare the time, we may want to find a way to shut down this protocol, as it may badly interfere with our hunt.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这个星球…它会自动改变地表！这很神奇但同时也很令人担忧，因为改变似乎是随机的。如果能腾出一些时间，我们最好想办法关闭星球地表改造协议，它可能会阻碍我们的抓捕行动。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_LOCATE_THE_SOURCE_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Locate the Source</Data></Cell><Cell><Data
+            ss:Type="String"
+          >找到根源</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Quest name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_LOCATE_THE_SOURCE_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We might want to look into disabling this automated terraforming. It might complicate our efforts here. Then again, it might also hamper Berhane…</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们也许应该调查一下有没有停止地表自动改变的方法。这可能会增加我们的行动难度。不过，这种环境一定也会妨碍勃海因的行动…</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_LOCATE_THE_SOURCE_SCRIPTED_OBJECTIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{INT_0}/{INT_1} Terraforming Source Found</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{INT_0}/{INT_1} 找到环境改造源头</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_GATHER_ALLIES_HEADER_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gather Allies</Data></Cell><Cell><Data
+            ss:Type="String"
+          >召集盟友</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Quest name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMA02_GATHER_ALLIES_HEADER_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >It would be wise to find others with a common goal of defeating Berhane if we get a chance to do so.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们应该尽量召集志同道合想要制裁勃海因的盟友。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AMA02_MEET_REFUGEES_MSG01</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Help us! My swarm is hunted and hurt by others like you. We are few. I am the only one to find help. Please, help us. We are cut off from our own hive colony.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >救命！我的族群遭到像你一样的其他人猎杀和伤害。我们的数量所剩无几，我是唯一一个来寻求帮助的。请帮帮我们。我们连自己的蜂巢殖民地都回不去了。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AMA02_MEET_REFUGEES_MSG02</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mercy! Please! Your kind infected our hive-mates with a parasite. They no longer swarm with us. They instead fight us. They are not of our hive…</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >请发发善心！你的同胞用一种寄生物感染了我们的同伴。他们不再和我们共同行动，并且还要攻击我们。他们不再属于我们的族群了…</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_MEET_REFUGEES_MSG03_ACCEPTED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Poor creatures… you are welcome to join our colony. We will protect and feed you. Unfortunately, I know who has done this to you. She is called Berhane. I am here to put an end to the misery she causes. Where have you come from? Are there more of your kind on this planet?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >可怜的生物…欢迎你们加入我们的殖民地。我们会提供保护和食物。遗憾的是，我知道那个伤害你们的人是谁。她叫勃海因。我是来这里阻止她继续作恶的。你们从哪里来？这个星球上你们还有更多的族人么？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_MEET_REFUGEES_MSG03_DECLINED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Kir'Ko? Here as well? Your kind is treacherous. The last Kir’Ko we trusted was an enemy. No doubt, you’re Berhane's trap to undermine our hunt. Leave now.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >奇尔寇？这个地方也有？你们的族人真是奸诈恶毒。上一次我们信任过的奇尔寇就是一个敌人。毫无疑问，你们肯定是勃海因设下陷阱，好破坏我们抓捕行动。立刻离开。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_MEET_REFUGEES_MSG04_ACCEPTED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thank you, kind human! We will join you and help in any way we can. We are here because of our hive leader {MSTR_KIRKO_SYNTHESIS_LEADER_NAME}. He landed on this planet in search of Xa’Kir’Ko, and will be happy to help those who aided the Kir’Ko.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >谢谢你，善良的人类！我们会加入你并竭尽所能提供帮助。我们来这里是因为我们的族群领导人{MSTR_KIRKO_SYNTHESIS_LEADER_NAME}。他在这个星球上着陆是为了寻找札奇尔寇，他会很乐意帮助那些曾有恩于奇尔寇同胞的人。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_MEET_REFUGEES_MSG04_DECLINED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We go now! Do not harm us further! You prove that all sack-bleeders are the same!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们现在就走！不要再继续伤害我们了！你们这群匪徒真是一路货色！</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >sack-bleeders - Kir'Ko slang name for humans</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AMA02_MEET_JIKUKU_QUEST</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Find the Kir'Ko Swarm Herald</Data></Cell><Cell><Data
+            ss:Type="String"
+          >找到奇尔寇族群使者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Quest name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AMA02_MEET_JIKUKU_QUEST</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Some Kir'Ko refugees pointed you in the direction of a Kir'Ko Swarm Herald who landed on this planet not long ago. You could ask for assistance from his colony.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一些奇尔寇难民向你指出了奇尔寇族群使者的方位，他是最近才来到这个星球的。你可以向他的殖民地寻求帮助。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AMA02_MEET_JIKUKU_MSG01</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ah, great Amazon host! We chitter in excitement still! Thank you again for leading the way to our ancient home, Xa'Kir'Ko! It is truly a wonder to finally be here. I, {MSTR_KIRKO_SYNTHESIS_LEADER_NAME}, chosen as Swarm Herald, greatest among Kir'Ko, who led our hive home to resettle these ancient gardens.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >啊，伟大的亚马逊领袖！我们现在都还在激动欢呼！再次感谢你带领我们来到了我们的古老家园，札奇尔寇！能够到达这里真是一个奇迹。我，{MSTR_KIRKO_SYNTHESIS_LEADER_NAME}，被选中作为族群使者，是奇尔寇族中最伟大的，是我带领族群再次回到我们的古老家园安家。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Xa'Kir'Ko - Home planet of the Kir'Ko</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AMA02_MEET_JIKUKU_MSG02</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Stand down! We came to blows with your kind before and are not looking to do so again. What makes you think that this is Xa'Kir'Ko? And who led you here with that promise?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >退下！我们之前和你的族人有过纷争，不想再来一次了。你凭什么认为这是札奇尔寇？是谁这样告诉你，把你带到这儿来的？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AMA02_MEET_JIKUKU_MSG03</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Your leader-being, Berhane, told us of this glorious location. She allowed us to settle in, but has not returned for some time… Could you give her a message from us? Tell her that we are ready to repay the debt we owe for what she has done for us.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你们的领导人勃海因告知了我们这个光荣圣地的位置。她同意让我们在此定居，但她已经有一段时间没回来了…你可以替我们向她转达一个消息么？告诉她我们已经准备好报答她为我们所做的一切了。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">AMA02_MEET_JIKUKU_MSG04</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Uh… of course, {MSTR_KIRKO_SYNTHESIS_LEADER_NAME}. We will contact you again later.[br/][br/]They seem to think that this is their home world, but it isn’t. Perhaps some information at the Terratech headquarters will prove that to the Kir'Ko. That could expose Berhane’s deception, turning {MSTR_KIRKO_SYNTHESIS_LEADER_NAME} into a potential ally for us.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >呃…没问题，{MSTR_KIRKO_SYNTHESIS_LEADER_NAME}。我们稍后会再联系你。[br/][br/]他们似乎认为这就是他们的家园，但其实并不是这样的。也许环境改造科技总部的某些信息能够向奇尔寇证明这一点。这也可以揭穿勃海因的骗局，让{MSTR_KIRKO_SYNTHESIS_LEADER_NAME}成为我们的潜在盟友。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AMA02_PROVE_TREASON_QUEST</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Prove Treason</Data></Cell><Cell><Data
+            ss:Type="String"
+          >证明背叛</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Quest name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AMA02_PROVE_TREASON_QUEST</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >If you can prove that this planet is not the Kir'Ko homeworld, you might be able to sway the Kir'Ko Swarm Herald to your cause against Berhane.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >如果能证明这个星球不是奇尔寇的家园，你就有可能让那个奇尔寇使者倒向你这边，与你共同对抗勃海因。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AMA02_MEET_RITA_MSG01</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hello there. You are {STR_LeaderName}, correct? I have been informed you are looking for something… valuable inside the Avium SK-51 HQ, and I offer my help in finding it. The HQ is heavily guarded, and I could retrieve the information you require quickly - for a price.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好呀。你是{STR_LeaderName}，对吧？我获悉你正在找一件东西…一件在阿维姆 SK-51 总部内部的重要东西，我愿意帮你找到它。总部有重兵把守，但我可以很快带来你想要的情报，当然也不是免费的。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_MEET_RITA_MSG03_ACCEPT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Greetings, stranger. I understand it your people like bargains. I’ll pay your price to accomplish my mission.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，陌生人。我知道你们这类人都很喜欢讨价还价。所以只要你能完成我的任务，我会付给你报酬的。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_MEET_RITA_MSG03_DECLINE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >I wouldn’t trust a stranger to retrieve crucial information, much less pay him to do so. You can offer your talents to other Commanders. Just remember to stay out of our way.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我不能信任一个陌生人去为我获取如此重要的情报，更别说还要支付报酬了。你可以用你的才干去帮助其他领导者。但是记住，别当我的道。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AMA02_HIRED_RITA_QUEST</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >For the Greater Good</Data></Cell><Cell><Data
+            ss:Type="String"
+          >大局为重</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Quest name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AMA02_HIRED_RITA_QUEST</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A sinister Syndicate by the name of Dema Qujen offered you her services to collect data from the Terratech HQ. It might be worthwhile to employ her, as it avoids having to fight your way inside of the headquarters.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一位名叫德玛·库伊恩的阴险辛迪加人愿意帮助你去泰拉科技总部收集情报。也许她值得我们雇佣，因为这样我们就可以避免为了进入总部而动用武力了。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Dema Qujen - Syndicate mercenary that offers her services to the player character</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_HIRED_RITA_COMPLETION_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The requested amount of energy has been registered at my account. Splendid! Then let me get started...</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我要求的能量已经汇入我的账户了。非常好！我们这就开始吧...</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_ALTERNATIVE_MEASURES_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Alternative Measures</Data></Cell><Cell><Data
+            ss:Type="String"
+          >替代手段</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Quest name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_ALTERNATIVE_MEASURES_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We have now employed Dema Qujen, and we need to keep her alive and get her close to the Terratech HQ so she can work her 'magic' and provide us with the data we need without resorting to spilling any blood.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们现在已经雇佣了德玛·库伊恩，我们要保住她的命并掩护她接近泰拉科技总部，这样她才能施展“魔法”帮我们不费一兵一卒获取需要的资料。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Terratech HQ - It is here that a lot of research projects took place involving the Amazon.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_ALTERNATIVE_MEASURES_MSG01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >I return, and I was successful in my mission. Here is the data you required. Nice doing business with you, {STR_LeaderName} of the Amazons…</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我回来了，而且我还成功完成了任务。这是你想要的资料。跟你合作很愉快，亚马逊族长{STR_LeaderName}…</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_ALTERNATIVE_MEASURES_MSG02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thank you, Syndicate agent. Perhaps we will barter again in the markets of the future.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >谢谢你，辛迪加特务。也许我们未来还会合作。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_PROOF_FOR_JIKUKU_MSG01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{MSTR_KIRKO_SYNTHESIS_LEADER_NAME}, I have returned to you with proof of this planet's nature. This is not Xa'Kir'Ko. I am sorry that you were led astray by the criminal Berhane. We were sent here to hunt her down and bring her to justice. We could use your help.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{MSTR_KIRKO_SYNTHESIS_LEADER_NAME}，我带回了证据可以向你证明这个星球的本质。这里不是札奇尔寇。很抱歉你们被罪犯勃海因误导了。我们是来抓捕并制裁她的。我们需要你的帮助。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_PROOF_FOR_JIKUKU_MSG02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Pah, silly meat-thing, I do not believe you! Give me that data-slate… this isn't Xa'Kir'Ko. This is Avium SK-51. You were correct. Berhane lied to us. She used us and killed our hope! The swarm will tear her to pieces and devour every last remnant of her being! To war, my colony, to war!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >呸，愚蠢的肉身生物，我不相信你！把那个数据板给我…这里不是札奇尔寇。这里是阿维姆 SK-51。你是对的。勃海因骗了我们。她利用我们，毁掉了我们的希望！我的族群会把她撕成碎片然后把她的残骸吞噬殆尽！战斗吧，我的殖民地，战斗吧！</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >meat-thing - Kir'Ko slang name for humans</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_PROOF_FOR_JIKUKU_MSG03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >I can't help but feel a measure of pity for these Kir'Ko, but at least their rage will be directed against someone who actually deserves it.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我不禁有些可怜这些奇尔寇，但至少他们的怒火是指向了罪有应得的人。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AMA02_MEET_YURIY_MSG01</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ugh, this world is driving me crazy! Dvar adaptability only goes so far. The planet can't keep changing the rules on us! Who are you, Amazon? Are you with Berhane and her plague-addled followers?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >啊，这个星球快把我逼疯了！矮人的适应能力也是有限的。这个星球不能这样一直对我们改变规则！你们是谁，亚马逊人？你们和勃海因是一伙的么，你们是她的疫病追随者么？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AMA02_MEET_YURIY_MSG02</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Greetings, Dvar Director. I am {STR_LeaderName}, and we are not part of Berhane's cult. We are here to track her down and capture her for crimes against our people. This is an inconvenient time to be on this planet. What have you come here to do?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，矮人领袖。我是{STR_LeaderName}，我们不是勃海因的崇拜者。我们是来追捕她的，因为她对我的同胞们犯下了重罪。现在可不是造访这个星球的好时机。你们来这里做什么？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AMA02_MEET_YURIY_MSG03</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Well, I'm glad you're not one of the crazies. I am Yuriy, and we are also here to stop Berhane! Her madness must not be allowed to spread. We've been trying to gain a foothold here, but the constantly changing terrain is complicating every little effort we make!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >唔，还好你不是那帮疯子的同伙。我叫尤里，我们也是来这儿阻止勃海因的！我们不能放任她的疯狂再传播下去了。我们一直想在这里建立根据点，但是不断改变的地表总会让我们的一切努力都变得徒劳！</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Yuriy - Male Dvar character and possible ally to the player character</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_MEET_YURIY_MSG03_ALT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >No, I can see it in your eyes… you are infected with that plague! We will not succumb to your insanity! Prepare for war!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >不，我从你的眼中看到了疫病的踪迹…你被那种疫病感染了。我们不会向你的疯狂臣服！准备好迎接战斗吧！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AMA02_MEET_YURIY_MSG04</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The planet's terraforming processes are troublesome to say the least. We may be able to find a way to shut it down. If we do, would you be willing to join our fight?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这个星球的地表变化实在太令人头疼了。我们也许能够找到关闭它的方法。如果我们找到了，你会加入我们一起对抗勃海因么？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AMA02_MEET_YURIY_MSG05</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Indeed, that sounds like a fine deal! We have located the base of command from which the terraforming gets coordinated, but we cannot get close. Those damn wire-headed Autonom are guarding the facility. I swear by my Consortium, if you manage to stop the terraforming protocol, we’ll lend our hammers to stop mad Berhane.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >当然，这提议听起来不错！我们已经找到了地表改造的控制中心，但是我们无法接近那个地方。这些该死的电线脑袋自主机械把守着那里，我以我财团的名义发誓，如果你能关闭地表改造协议，我们就助你一锤之力对抗疯子勃海因。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Autonom - NPC robot faction</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_STOP_TERRAFORMING_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Stop the Terraforming</Data></Cell><Cell><Data
+            ss:Type="String"
+          >阻止地表改造</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Quest name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMA02_STOP_TERRAFORMING_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Yuriy asked you to stop the planetary terraforming. His Dvar might prove to be a useful ally against Berhane.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >尤里请求你停止星球地表改造。他的矮人战士们一定会是对抗勃海因的强力盟友。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_HELP_DVAR_COMPLETION_MSG01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_LeaderFirstName}, you did it! Thank you for returning this planet to peace. We can actually build some solid structures now that the land has stopped shifting and churning. By my honor, I hereby pledge my warriors to your cause. Let’s stomp that Berhane fool out!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_LeaderFirstName}，你成功了！谢谢你让这个星球重归平静。现在地表已经停止了剧烈变化，我们可以建造坚固的建筑了。我以我的荣誉在此起誓，我的战士们将加入你们队伍。我们一起去把勃海因那个蠢货干掉吧！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_AMAZONIAN_FAVORS_HEADER_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Amazonian Favors</Data></Cell><Cell><Data
+            ss:Type="String"
+          >亚马逊同伴</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Quest name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMA02_FIND_AGENTS_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Find Sappho's Agents</Data></Cell><Cell><Data
+            ss:Type="String"
+          >找到萨福的间谍</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Quest name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AMA02_FIND_AGENTS_QUEST</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sappho asked you to locate some of her Amazons that she sent out to harass Berhane's forces. She has not heard from them in a while, and hopes that they are in one piece.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >萨福请求你找到她派去干扰勃海因势力的亚马逊间谍。萨福已经有一阵子没有收到她们的消息了，但愿她们安然无恙。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_FIND_AGENTS_QUEST_OBJECTIVE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Find Dido</Data></Cell><Cell><Data
+            ss:Type="String"
+          >找到蒂朵</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Dido - female Amazon character, possible ally to the player character</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_FIND_AGENTS_QUEST_OBJECTIVE_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Find Calliope</Data></Cell><Cell><Data
+            ss:Type="String"
+          >找到卡丽奥佩</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Calliope - female Amazon character, possible ally to the player character</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AMA02_MEET_DIDO_MSG01</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Oh, blessings of the Mother! I’m glad you found me. I was stranded here after my mount broke free. I travel poorly on foot and feel vulnerable without my Swift Beak. If you could find a new one for me, I will lend my strength to your will!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >自然母亲保佑！幸好你找到我了。我的坐骑挣脱之后我就一直被困在这里。步行移动非常没有效率，而且失去了迅猛鸟的我感觉非常不安。如果你可以帮我找到一只新坐骑，我便听命与你！</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Swift Beak - Creature mount</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AMA02_MEET_DIDO_MSG02</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Greetings, sister. You must be Dido. We have been looking for you and Calliope. We’re glad you’re safe and will find a mount for you.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，姐妹。你一定是蒂朵吧。我们正在找你和卡丽奥佩。很高兴看到你安然无恙，我们会帮你找到一只坐骑的。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AMA02_ACQUIRE_MOUNT_QUEST</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Catch A Ride</Data></Cell><Cell><Data
+            ss:Type="String"
+          >抓捕坐骑</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Quest name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AMA02_ACQUIRE_MOUNT_QUEST</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Attack the herd of Swift Beaks so you can capture one of them as a mount for Dido. Your technology can easily tame the beast.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >攻击迅猛鸟群，帮蒂朵捕捉一只坐骑。凭你的科技应该很容易就能驯服这种野兽。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_DIDO_COMPLETE_QUEST_MSG01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thank you, Matron Wateka! My lance is yours until Berhane is taken care of.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >谢谢你，瓦德卡族长！我的长矛听你差遣，直到勃海因被制裁。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">AMA02_MEET_CALLIOPE_MSG01</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hail, sister! You are not Berhane's forces. I am Calliope, of Sappho's branch. Quickly! I discovered the Cryo Facility, where the bodies of the Alpha Expedition lie in rest. They were infected by the first strain of Xenoplague. If you can help me get inside, I can destroy those bodies. That will impede Berhane's research substantially.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，姐妹！你不是勃海因的势力。我叫卡丽奥佩，隶属于萨福。快！我发现了冷冻室，阿尔法探险队的安葬之处。他们被初始异星疫病毒株感染了。如果你掩护我进入其中，我就能毁掉那些尸体，从根源上断绝勃海因的研究。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">
+</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >AMA02_MEET_CALLIOPE_MSG02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hail, sister. Sappho told us of you. Your intuition could prove valuable… Destroying the Alpha Expedition will rob Berhane’s of her most valuable test subjects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，姐妹。萨福向我们说起过你。你的直觉相当有价值…摧毁阿尔法探险队的尸体会使勃海因丧失大部分宝贵测试标本。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_ALPHA_EXPEDITION_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Destroy the Alpha Expedition</Data></Cell><Cell><Data
+            ss:Type="String"
+          >摧毁阿尔法探险队尸体</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Quest name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_ALPHA_EXPEDITION_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Calliope discovered a Cryo Facility where the bodies of the Alpha Expedition who first encountered the Xeno strain are stored. She asked us to help her gain entry to the facility so that she can take care of the bodies in an effort to hamper Berhane.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >卡丽奥佩发现了一个冷冻室，保存着阿尔法探险队员们的尸体，他们是第一批接触异星疫病毒株的人。她请求我们帮她进入冷冻室，这样她就能摧毁这些尸体，阻止勃海因。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_ALPHA_EXPEDITION_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The bodies have been destroyed.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >尸体已经摧毁。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_ALPHA_EXPEDITION_COMPLETION_MSG01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Great sky, sisters! Our success here brings Berhane's inevitable defeat closer. In return for your aid, I pledge you my service. I savor any chance to strike at that outlaw…</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >太好了，姐妹们！我们的成功让勃海因不可避免的失败又近了一步。作为回报，我会效忠于你。我会抓住制裁那个不法之徒的每一个机会…</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_HEADER_QUEST_END_THE_AMAZON_CONFLICT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Victory Condition: End the Amazon Conflict</Data></Cell><Cell><Data
+            ss:Type="String"
+          >胜利条件：平息亚马逊争端</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_HEADER_QUEST_END_THE_AMAZON_CONFLICT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >End the Amazon Conflict</Data></Cell><Cell><Data
+            ss:Type="String"
+          >平息亚马逊争端</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Quest name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMA02_HEADER_QUEST_END_THE_AMAZON_CONFLICT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You can win this map by stopping Berhane.[br/][br/]Berhane Defeated: {INT_0}/{INT_1}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >阻止勃海因即可获得这张地图的胜利。[br/][br/]已击败勃海因：{INT_0}/{INT_1}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_HEADER_QUEST_END_THE_AMAZON_CONFLICT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >OBJECTIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Berhane Defeated: {INT_0}/{INT_1}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >已击败勃海因：{INT_0}/{INT_1}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_DEFEAT_BERHANE_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defeat Berhane</Data></Cell><Cell><Data
+            ss:Type="String"
+          >击败勃海因</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Quest name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_DEFEAT_BERHANE_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >To end the conflict, Berhane must be brought to justice. This wayward Matriarch cannot be allowed to divide us. We are Amazons. We are one. We shall defeat her!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >要平息这场争端，就一定要将勃海因绳之以法。不能让这个刚愎自用的族长离间我们。我们是亚马逊人。我们是团结的。我们一定会击败她！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_DEFEAT_BERHANE_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We've defeated Berhane!</Data></Cell><Cell><Data
+            ss:Type="String"
+          >我们打败了勃海因！</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data
+            ss:Type="String"
+          >AMA02_DEFEAT_BERHANE_SCRIPTED_OBJECTIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{INT_0}/{INT_1} Defeat Berhane</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{INT_0}/{INT_1}击败勃海因</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AMA02_MEET_BERHANE_MSG01</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hello, {STR_LeaderFirstName}. I knew you would find me eventually. You have always been one of my more persistent students. Too bad you’re wasting your talents on the wrong cause.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，{STR_LeaderFirstName}。我就知道你最终会找到我。你一直是我最执着的学生之一。很可惜你的才干浪费在了错误的信念上。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AMA02_MEET_BERHANE_MSG02</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Enough, Berhane! You’ve betrayed our people, devastated entire worlds with your infection! But worst of all, you are defiling the Amazon genome with your filthy parasite. This all ends now. Old mentor or not, there will be no mercy this time.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >够了，勃海因！你背叛了你的人民，还用你的疫病给一个又一个世界带去灭顶之灾！但最可恶的是，你正用那肮脏的寄生物玷污我们亚马逊人的基因。这一切现在就要结束。不管你是不是我以前的导师，这次我决不留情。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AMA02_MEET_BERHANE_MSG03</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spoken like a true soldier. Didn’t I teach you better than to blindly follow orders? The other Matriarchs are hypocrites. It was genetic manipulation that allowed our race to survive after the Star Union fell, and it will be genetic manipulation that ensures the Amazon stay ahead of the other factions emerging from the past.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的口吻听起来是个真正的士兵。难道我没有教你不要盲目听从命令么？那些族长都是伪君子。我们种族正是依靠基因控制才能在星联毁灭之后存活下来，能让亚马逊人一直领先于来自过去的那些种族的也将是基因控制。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AMA02_MEET_BERHANE_MSG04</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Without my work and vision, the perfect world we’ve been creating will fall victim to their greed. The other Matriarchs did not listen to my warnings. Fortunately, there are still older and wiser beings in this galaxy than our ignorant sisters. With the tools I was given, a new generation of immaculate Amazons will be born.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >没有我的努力和先见之明，我们长久以来创造的完美世界将被他们的贪婪所蚕食。那些族长从不听我的劝告。幸运的是，在这个银河系中还有其他比我们那些无知的姐妹们更古老更智慧的存在。凭借他们给我的工具，将会诞生新一代的完美亚马逊人。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AMA02_MEET_BERHANE_MSG05</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Immaculate? They will be tainted monstrosities! I once admired your sharp intellect, Berhane. But it seems high ambitions and an inflated ego have dulled that most striking weapon you wield. It is time for you to withdraw. The new generation you’re talking about is already here to take over.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >完美？她们只会成为被疫病污染了的怪物！我曾经敬仰你杰出的才智，勃海因。但蓬勃的野心还有膨胀的傲慢已经使你那最强大的智慧武器变得愚钝。快放弃吧，你所说的新一代亚马逊人已经在你眼前，准备接管一切了。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AMA02_MEET_BERHANE_MSG06</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Your words have barbs, but they sting the wrong enemy. You cannot stop evolution, {STR_LeaderFirstName}. Your stubbornness will be your death.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的话语如此锋利，但是你说错人了。你无法阻止进化，{STR_LeaderFirstName}。你的顽固会害死你的。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AMA02_MEET_FEMITA_MSG01</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You really are a pathetic specimen, {STR_LeaderFirstName}. I will not let you or anyone else come between Berhane and the full potential of the Xenoplague!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你真是可悲至极，{STR_LeaderFirstName}。我是不会让你还有其他人妨碍勃海因和拥有无限潜力的异星疫病的！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AMA02_MEET_FEMITA_MSG02</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >I promise you this, Femita: if you stand in my way, you will be crushed and tossed aside for hopperhound meat. You are choosing to be an enemy of the Amazon sisterhood. Nothing prevails against us.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我保证，费米塔。如果你敢当我的路，我就把你碾碎你拿去喂跳蝗。你现在是亚马逊姐妹们的敌人。没有谁可以战胜我们。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Femita - female Syndicate character</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AMA02_MEET_FEMITA_MSG03</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Syndicate law dictates that the highest bidder holds the reigns, so I cannot stand down. I suppose I'll have to cut out your heart instead!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >辛迪加法律规定出价最高的人拥有决定权，所以我不能退开。看来我只好把你的心挖出来了！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_FEMITA_DEFEATED_MSG01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gah! Why am I always a stickler for contracts?! The highest bidder has only led me to ruin. {STR_LeaderFirstName}, you wretch, do what you wish…</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >唉！为什么我总是这么忠于合同？！那个出价最高的人只会带领我走向毁灭。{STR_LeaderFirstName}，你个卑鄙小人，快动手吧…</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_BERHANE_DEFEATED_MSG_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Time is up, Berhane. Pray, and meet your creator.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >时间到了，勃海因。快祈祷，然后去见你的主吧。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_BERHANE_DEFEATED_MSG_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >No, this cannot be! My perfect children, how were you able to stop them?[br/][br/]Mercy… Aliuna, come and save me! My unfinished work, the exalted gardens of Ebra…</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >不，这不可能！我完美的孩子们，你们怎么可能阻止得了她们？[br/][br/]发发善心…阿琉娜，快来救我！我尚未完成的工作，高贵的伊布拉花园…</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Aliuna - first name of a supposedly female character
+Ebra - name of an unknown character or location</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_BERHANE_DEFEATED_MSG_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >My poor Berhane, how the Alpha Strain has altered your once fair features. You have pushed yourself too hard - not all paths can lead to salvation. Rest now. Sleep and dream of Regenesis.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >可怜的勃海因，初始毒株毁掉了你曾经美丽的容颜。你把自己逼得太紧了 - 不是所有道路都能通向救赎。安息吧。愿你在睡梦中得到新生。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Alpha Strain - name of the Xenoplague parasite</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_BERHANE_DEFEATED_MSG_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Aliuna… please…[br/][br/](Before your troops can make any attempt to touch Berhane, her body twitches in a flash of teal light and drops lifeless to the ground.)</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >阿琉娜……求求你……[br/][br/]（正当你的士兵想要抓住勃海因时，她的身体在一道蓝绿色光中抽搐着，毫无生气地倒在地上。）</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Aliuna - first name of a supposedly female character</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_BERHANE_DEFEATED_MSG_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shrike and spear! Our hunt has come to a successful end. Still, I cannot ignore the things we just witnessed. Berhane was not alone in her efforts. Someone had given her the means to experiment with the Xenoplague – and now that someone made sure to silence her before she could reveal more.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >太好了！我们的抓捕行动成功完成。然而，我不能忽视我们刚才所目睹的。勃海因不是一个人制造了这场浩劫。有人给她提供了研究异星疫病的手段，并且在勃海因透露更多信息之前了结了她。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Shrike and spear! - an Amazon war cry (Shrike is the Amazon scout unit)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_BERHANE_DEFEATED_MSG_06</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Well fought, {STR_LeaderName}. With the death of Berhane and her plague, the light of order has returned to Avium SK-51. CORE is sending its commendations. I suspect we will meet again in the future. May the Celestian teachings guide you.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >干得漂亮，{STR_LeaderName}。随着勃海因还有她疫病的消亡，秩序之光再次回到了阿维姆 SK-51。核心送来了它的嘉奖。我们在将来可能还会再见。愿星神的教导继续指引你。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Avium SK-51 - name of the planet</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AMA02_FRANK_DEFEATED_MSG</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Pestilence. Blight. The purity of the Celestian spirit will protect me from the foul whispers of death. Remember your wrongs when we meet again, {STR_LeaderName}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >瘟疫。浩劫。星神之灵的纯洁将会保护我不受死亡的滋扰。我们再见面之时希望你记得自己的过错，{STR_LeaderName}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AMA02_JIKUKU_DEFEATED_MSG</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Twitch… twitch… my legs… are twitching the final death knell.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >抽搐…抽搐…我抽搐的双腿…预示着死亡的到来。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_TERRAFORM_HEADER_TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Terratech Anouncement</Data></Cell><Cell><Data
+            ss:Type="String"
+          >泰拉科技通告</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMA02_TERRAFORM_ARCADIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Attention! Global terraforming protocol initialized! The planet will be converted into Arcadian terrain!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >注意！全球环境改造协议已启动！星球将改变为田园地形！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_TERRAFORM_ARCTIC_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Attention! Global terraforming protocol initialized! The planet will be converted into Arctic terrain!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >注意！全球环境改造协议已启动！星球将改变为极寒地形！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_TERRAFORM_FUNGAL_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Attention! Global terraforming protocol initialized! The planet will be converted into Fungal terrain!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >注意！全球环境改造协议已启动！星球将改变为真菌地形！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_TERRAFORM_ARID_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Attention! Global terraforming protocol initialized! The planet will be converted into Arid terrain!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >注意！全球环境改造协议已启动！星球将改变为干燥地形！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_TERRAFORM_BADLANDS_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Attention! Global terraforming protocol initialized! The planet will be converted into Badlands terrain!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >注意！全球环境改造协议已启动！星球将改变为荒地地形！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_MEET_JIKUKU_QUEST_SCRIPTED_OBJECTIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{INT_0}/{INT_1} Kir'Ko Swarm Herald Met</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{INT_0}/{INT_1} 与奇尔寇族群使者碰面</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_SAPPHO_BETRAYED_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sister {STR_LeaderFirstName}, why are you defecting? Did Berhane’s poison twist your mind to let you turn against your friends and allies? When this is through, I hope that peace will find you.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_LeaderFirstName}姐妹，你为什么要叛逃？难道是勃海因的毒药扭曲了你的思想，所以你才背叛了你的朋友和盟友？当这一切结束后，我希望你能重归平静。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >AMA02_TERRAFORM_COMPLETED_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Terraforming cycle completed! Stay attentive for future test announcements!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >环境改造周期完成！注意今后的测试公告！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >RELATION_MODIFIER_MAHINA_TOWARDS_BERHANE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mission to stop Berhane; former protegé</Data></Cell><Cell><Data
+            ss:Type="String"
+          >阻止勃海因的任务；曾经的学徒</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >RELATION_MODIFIER_MAHINA_TOWARDS_SAPPHO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Matron training friends</Data></Cell><Cell><Data
+            ss:Type="String"
+          >族长训练朋友</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RELATION_MODIFIER_BERHANE_TOWARDS_MAHINA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Former mentor</Data></Cell><Cell><Data
+            ss:Type="String"
+          >曾经的导师</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RELATION_MODIFIER_FEMITAE_TOWARDS_MAHINA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hired to protect Berhane</Data></Cell><Cell><Data
+            ss:Type="String"
+          >受雇保护勃海因</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data
+            ss:Type="String"
+          >RELATION_MODIFIER_MAHINA_HAS_XENOPLAGUE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Infected with Xenoplague</Data></Cell><Cell><Data
+            ss:Type="String"
+          >感染异星疫病</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CASUS_BELLI_CHANGING_AMAZON_GENOME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Corrupting the Amazon DNA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >侵蚀亚马逊人 DNA</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Zoom>115</Zoom><Selected /><TopRowVisible
+      >113</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >132</ActiveRow><ActiveCol>4</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

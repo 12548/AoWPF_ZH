@@ -1,1 +1,989 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Glenn Smits</LastAuthor><LastSaved>2019-08-12T08:29:05Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style><Style ss:ID="s63"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Interior/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="259.5" ss:DefaultRowHeight="15"><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="147"/><Column ss:StyleID="s62" ss:Width="127.5"/><Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="191.25"/><Column ss:StyleID="s62" ss:Width="120"/><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">EQUIPMENT_DLC03</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell><Cell><Data ss:Type="String">OLD TEXT</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HERALD_DAGGER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Herald Dagger</Data></Cell><Cell><Data ss:Type="String">先驱匕首</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HERALD_DAGGER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Attempt to sacrifice the target.</Data></Cell><Cell><Data ss:Type="String">尝试献祭目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RITE_OF_THE_HERALD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Rite of the Herald</Data></Cell><Cell><Data ss:Type="String">先驱仪式</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">RITE_OF_THE_HERALD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">If the target is slain by this attack, the user gains the [abilityblue]Summon the Herald[/abilityblue] ability until the end of combat.</Data></Cell><Cell><Data ss:Type="String">如果目标被此攻击击杀，使用者将获得[abilityblue]召唤先驱[/abilityblue]技能，直到战斗结束。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SUMMON_THE_HERALD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Summon the Herald</Data></Cell><Cell><Data ss:Type="String">召唤先驱</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SUMMON_THE_HERALD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Summon a [abilityred]Feeble[/abilityred] Herald of Oblivion that lasts until the end of combat.</Data></Cell><Cell><Data ss:Type="String">召唤一个[abilityred]软弱无力[/abilityred]的遗忘先驱，持续到战斗结束。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CHEMICAL_DAGGER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Chemical Scythe</Data></Cell><Cell><Data ss:Type="String">化学镰刀</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CULLING_SCYTHE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Culler's Gaze</Data></Cell><Cell><Data ss:Type="String">杀戮者凝视</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REAPER_SNIPER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Reaper Sniper</Data></Cell><Cell><Data ss:Type="String">死神狙击枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BODY_ODOR_DISPERSER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Body Odor Disperser</Data></Cell><Cell><Data ss:Type="String">体臭分散剂</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">BODY_ODOR_DISPERSER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Now you too can smell like the Megasow![br/]Unit gains [abilityblue]Rancid Stench[/abilityblue]: at the end of this unit's turn, adjacent enemy Biological and Cyborg ground units become [abilityred]Poisoned[/abilityred].</Data></Cell><Cell><Data ss:Type="String">现在，你闻起来也像是一只巨猪了！[br/]单位获得[abilityblue]腐臭气息[/abilityblue]在该单位的回合结束时，相邻的敌方生物和半机械人陆地单位将会[abilityred]中毒[/abilityred]。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Megasow - Is a unit, a huge mutated pig. This is related to the unit</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HEAVY_HITTER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Heavy Hitter</Data></Cell><Cell><Data ss:Type="String">重击者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HEAVY_HITTER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A melee attack.</Data></Cell><Cell><Data ss:Type="String">近战攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHADOWS_EMBRACE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Shadow's Embrace</Data></Cell><Cell><Data ss:Type="String">暗影之拥</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PSISTONE_OF_MISFORTUNE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Psi-stone of Misfortune</Data></Cell><Cell><Data ss:Type="String">厄运灵能石</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">PSISTONE_OF_MISFORTUNE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Gain a {FumbleChance}% Fumble chance, and summon {SummonNumber} Whispers of Discord adjacent to you that last until end of combat.</Data></Cell><Cell><Data ss:Type="String">获得 {FumbleChance}% 失手率，并在相邻位置召唤 {SummonNumber} 个不谐低语，持续到战斗结束。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Whispers of Discord as in the unit of the same name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PSISTONE_OF_MISFORTUNE</Data></Cell><Cell><Data ss:Type="String">PROP_NAME</Data></Cell><Cell><Data ss:Type="String">Curse of Misfortune</Data></Cell><Cell><Data ss:Type="String">厄运诅咒</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">PSISTONE_OF_MISFORTUNE</Data></Cell><Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit made a temporary dark deal. It has a {Fumble Chance}% increased Fumble Chance.</Data></Cell><Cell><Data ss:Type="String">该单位签订了临时的黑暗契约，失手率提升 {Fumble Chance}%。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ESTEQ_SHOTGUN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Es'Teq Shotgun</Data></Cell><Cell><Data ss:Type="String">埃斯特克霰弹枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ESTEQ_SHOTGUN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire at a target.</Data></Cell><Cell><Data ss:Type="String">朝目标射击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ESTEQ_FANGS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Es'Teq Fangs</Data></Cell><Cell><Data ss:Type="String">埃斯特克獠牙</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ESSENCE_OF_THE_DEVOURER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Essence of the Devourer</Data></Cell><Cell><Data ss:Type="String">吞噬者精华</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STAFF_OF_THE_PONTIFF</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Staff of the Pontiff</Data></Cell><Cell><Data ss:Type="String">教皇法杖</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FLARE_ESSENCE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Flare Essence</Data></Cell><Cell><Data ss:Type="String">燃烧精华</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FLARE_ESSENCE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The staff flares and drains the essence of the target.</Data></Cell><Cell><Data ss:Type="String">这把法杖能够烧掉并汲取目标的精华。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s63"><Data ss:Type="String">RUMBLE_PACK</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Rumble Pack</Data></Cell><Cell><Data ss:Type="String">震动包</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s63"><Data ss:Type="String">RUMBLE_PACK</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Get Ready to Rumble</Data></Cell><Cell><Data ss:Type="String">准备震动</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell ss:StyleID="s63"><Data ss:Type="String">RUMBLE_PACK</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Grants {DamageBoost} damage and one level of [abilityblue]Stagger Resistance[/abilityblue] to target friendly non-Mindless unit for {Turns}[turn/].</Data></Cell><Cell><Data ss:Type="String">给予目标友方非无意识单位 {DamageBoost} 伤害加成和 1 级[abilityblue]动摇抵抗[/abilityblue]，持续 {Turns}[turn/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s63"><Data ss:Type="String">RUMBLE_PACK</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">BUFF_NAME</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Ready to Rumble</Data></Cell><Cell><Data ss:Type="String">震动就绪</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s63"><Data ss:Type="String">RUMBLE_PACK</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">BUFF_DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Has {DamageBoost} damage and one level of [abilityblue]Stagger Resistance[/abilityblue].</Data></Cell><Cell><Data ss:Type="String">获得 {DamageBoost} 伤害加成和 1 级[abilityblue]动摇抵抗[/abilityblue]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s63"><Data ss:Type="String">ANTARAN_ARMOR</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Antaran Armor</Data></Cell><Cell><Data ss:Type="String">安塔兰护甲</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell ss:StyleID="s63"><Data ss:Type="String">ANTARAN_ARMOR</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Whenever damage is dealt to this unit, {DamageReflect} of the damage is reflected back to its source.</Data></Cell><Cell><Data ss:Type="String">该单位无论何时受到伤害时，都会将受到伤害的 {DamageReflect} 反弹给伤害制造者。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s63"><Data ss:Type="String">PROTOTYPE_DVR_SUIT</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Prototype DV-R Suit</Data></Cell><Cell><Data ss:Type="String">原型 DV-R 套装</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s63"><Data ss:Type="String">PROTOTYPE_DVR_SUIT</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Grants the wearer [abilityblue]Status Effect Immunity[/abilityblue].</Data></Cell><Cell><Data ss:Type="String">给予穿戴者[abilityblue]状态效果免疫[/abilityblue]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PARAGON_GUARD_SPEAR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Paragon Guard Spear</Data></Cell><Cell><Data ss:Type="String">完人守卫长矛</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">PARAGON_GUARD_SPEAR</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A melee attack. The user enters defense mode after attacking.</Data></Cell><Cell><Data ss:Type="String">近战攻击。使用者攻击后会进入防御模式。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GYROJET_ASSAULT_RIFLE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Gyrojet Assault Cannon</Data></Cell><Cell><Data ss:Type="String">回旋突击加农炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GYROJET_ASSAULT_RIFLE</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire the Gyrojet Assault Cannon.</Data></Cell><Cell><Data ss:Type="String">发射回旋突击加农炮。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HYDRA_HOST</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">NEKRIS Host</Data></Cell><Cell><Data ss:Type="String">奈克里斯主机</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">HYDRA has been renamed to NEKRIS</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">HYDRA_HOST</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit hosts NEKRIS, granting it the ability to dispel status effects from another friendly Mechanical or Cyborg unit and grant them {SpreadHydraBuff}.</Data></Cell><Cell><Data ss:Type="String">该单位成为奈克里斯运行的主机，能够驱散其他友方机械或半机械人单位的状态效果并赋予 {SpreadHydraBuff}。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">HYDRA has been renamed to NEKRIS</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPREAD_HYDRA</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Spread NEKRIS</Data></Cell><Cell><Data ss:Type="String">扩散奈克里斯</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">HYDRA has been renamed to NEKRIS</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SPREAD_HYDRA</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Spread NEKRIS to a target friendly Mechanical or Cyborg unit, dispelling status effects and granting them {SpreadHydraBuff}.</Data></Cell><Cell><Data ss:Type="String">将奈克里斯扩散至目标友方机械或半机械人单位，驱散其状态效果并赋予 {SpreadHydraBuff}。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">HYDRA has been renamed to NEKRIS</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HYDRA_PROXY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">NEKRIS proxy</Data></Cell><Cell><Data ss:Type="String">奈克里斯代理</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">HYDRA has been renamed to NEKRIS</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">HYDRA_PROXY</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is connected to NEKRIS, granting it {SpreadHydraBuff}.</Data></Cell><Cell><Data ss:Type="String">该单位已连接至奈克里斯，获得 {SpreadHydraBuff}。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">HYDRA has been renamed to NEKRIS</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HYDRA_POSESSED</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">NEKRIS Possessed</Data></Cell><Cell><Data ss:Type="String">奈克里斯控制</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">HYDRA_POSESSED</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is infected by NEKRIS and under its control or its owner's control for {PosessedDuration}.</Data></Cell><Cell><Data ss:Type="String">该单位被奈克里斯感染且被奈克里斯或其所有者控制，持续 {PosessedDuration}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ESTEQ_SNIPER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Es'Teq Sniper</Data></Cell><Cell><Data ss:Type="String">埃斯特克狙击枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ESTEQ_SNIPER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire at a target.</Data></Cell><Cell><Data ss:Type="String">朝目标射击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SUNBRINGER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Sunbringer</Data></Cell><Cell><Data ss:Type="String">太阳使者</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SUNBRINGER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Deals its damage to enemy units adjacent to target unit.</Data></Cell><Cell><Data ss:Type="String">对目标单位相邻的敌方单位造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TYRES_GIFT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Tyre's Gift</Data></Cell><Cell><Data ss:Type="String">泰尔的馈赠</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">TYRES_GIFT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Dispel all status effects, positive or negative, from target unit. Grants an Essence Charge.</Data></Cell><Cell><Data ss:Type="String">驱散目标单位的所有正面和负面状态效果，获得 1 个精华充能。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DRAINING_SHOTGUN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Draining Shotgun</Data></Cell><Cell><Data ss:Type="String">汲取霰弹枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SIPHONER_STAFF</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Siphoner Staff</Data></Cell><Cell><Data ss:Type="String">生命汲取者法杖</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LINK_SHARD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Link Shard</Data></Cell><Cell><Data ss:Type="String">连接碎片</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ESSENCE_LINK</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Essence Link</Data></Cell><Cell><Data ss:Type="String">精华连接</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">ESSENCE_LINK</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Target a friendly Biological, Cyborg or Mineral unit. Both units are linked together in an [abilityblue]Essence Link[/abilityblue]. While the link is active, both units gain +{shields}[shield/] plus an additional +{shieldsCharge}[shield/] for each [abilityblue][essencecharge/]Essence Charge[/abilityblue] they have.</Data></Cell><Cell><Data ss:Type="String">以友方生物、半机械人或矿物单位为目标。两个单位将建立起[abilityblue]精华连接[/abilityblue]。连接激活时，两个单位都将获得 +{shields}[shield/]，此外，连接单位每拥有一个 [abilityblue][essencecharge/]精华充能[/abilityblue]，就会额外获得 {shieldsCharge}[shield/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ESSENCE_RESTORATION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Essence Restoration</Data></Cell><Cell><Data ss:Type="String">精华恢复</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ESSENCE_RESTORATION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Heal linked unit and self for {HPAmount}[hp/]. This breaks the [abilityblue]Essence Link[/abilityblue].</Data></Cell><Cell><Data ss:Type="String">治疗自身和链接单位 {HPAmount}[hp/]，这将会断开[abilityblue]精华连接[/abilityblue]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TIME_ANOMALY_GENERATOR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Time Anomaly Generator</Data></Cell><Cell><Data ss:Type="String">时间异常生成器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TIME_ANOMALY_GENERATOR</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Generate Time Anomaly</Data></Cell><Cell><Data ss:Type="String">生成异常时间</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">THE_BLACK_EGG</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">The Black Egg</Data></Cell><Cell><Data ss:Type="String">暗黑之卵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">THE_BLACK_EGG</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Ethereal Hatching</Data></Cell><Cell><Data ss:Type="String">虚灵孵化</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">THE_BLACK_EGG</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Spawn an Ethereal Penguin adjacent to the hero.</Data></Cell><Cell><Data ss:Type="String">在英雄相邻位置生成一只虚灵企鹅。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PSITEC_VOX_AMP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">PsiTec Vox Amp</Data></Cell><Cell><Data ss:Type="String">灵能科技声音放大器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PSITEC_VOX_AMP</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Psionic Scream</Data></Cell><Cell><Data ss:Type="String">灵能尖啸</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="48.75"><Cell><Data ss:Type="String">PSITEC_VOX_AMP</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Deal damage in a {range} hex cone.</Data></Cell><Cell><Data ss:Type="String">对 {range} 个单元格扇形范围造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BURDEN_BEARER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">The Burden Bearer</Data></Cell><Cell><Data ss:Type="String">负担者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BURDEN_BEARER</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Unburden</Data></Cell><Cell><Data ss:Type="String">卸去负担</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="61.5"><Cell><Data ss:Type="String">BURDEN_BEARER</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Dispel all negative status effects from target ally. When used, this damages the user for {selfdamage} and grants the user {essenceamount} [abilityblue]Essence Charge[/abilityblue].</Data></Cell><Cell><Data ss:Type="String">驱散目标同盟的所有负面状态效果。使用此技能会对使用者造成 {selfdamage} 伤害，并赋予使用者 {essenceamount} 个[abilityblue]精华充能[/abilityblue]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIO_SCANNER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Bio Scanner</Data></Cell><Cell><Data ss:Type="String">生化扫描器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PROTO_TYRANNODON_MUSCLE_STRUCTURE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Proto-Tyrannodon Muscle Structure</Data></Cell><Cell><Data ss:Type="String">原型暴龙肌肉结构</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PROTO_TYRANNODON_MUSCLE_STRUCTURE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Grants [abilityblue]Fast Movement Speed[/abilityblue].</Data></Cell><Cell><Data ss:Type="String">赋予[abilityblue]迅捷移动速度[/abilityblue]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GYROJET_ASSAULT_CANNON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Gyrojet Assault Cannon</Data></Cell><Cell><Data ss:Type="String">回旋突击加农炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GYROJET_ASSAULT_CANNON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a barrage of rockets at the target.</Data></Cell><Cell><Data ss:Type="String">朝目标发射一阵火箭弹幕。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MASTERCRAFTED_ARMOR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Mastercrafted Armor</Data></Cell><Cell><Data ss:Type="String">精制护甲</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">MASTERCRAFTED_ARMOR</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Grants [abilityblue]Defense Mode: Hyper Armor[/abilityblue].</Data></Cell><Cell><Data ss:Type="String">赋予[abilityblue]防御模式：超级护甲[/abilityblue]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GAUNTLET_OF_EMPIRES</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Gauntlet of Empires</Data></Cell><Cell><Data ss:Type="String">帝国臂铠</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GAUNTLET_OF_EMPIRES</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Grants the wearer [abilityblue]Unmake[/abilityblue].</Data></Cell><Cell><Data ss:Type="String">给予穿戴者[abilityblue]毁坏[/abilityblue]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GAUNTLET_OF_EMPIRES</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Smash an enemy with the Gauntlet of Empires.</Data></Cell><Cell><Data ss:Type="String">使用帝国臂铠粉碎敌人。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GAUNTLET_OF_EMPIRES</Data></Cell><Cell><Data ss:Type="String">UNMAKE_ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Unmake</Data></Cell><Cell><Data ss:Type="String">毁坏</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GAUNTLET_OF_EMPIRES</Data></Cell><Cell><Data ss:Type="String">UNMAKE_ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Deals damage to all enemy non-Flying, non-Floating units, as well as all obstacles.</Data></Cell><Cell><Data ss:Type="String">对敌方所有非飞行单位、非悬浮单位和障碍物造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">THADEUS_MEMORY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Thadeus' Memory</Data></Cell><Cell><Data ss:Type="String">撒迪厄斯的记忆</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">THADEUS_MEMORY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire bullets infused with Thadeus' scarred memories.</Data></Cell><Cell><Data ss:Type="String">发射灌注了撒迪厄斯伤痕累累记忆的子弹。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CORE_PROJECTION_RELAY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">CORE Projection Relay</Data></Cell><Cell><Data ss:Type="String">“核心”投射中继器</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="48"><Cell><Data ss:Type="String">CORE_PROJECTION_RELAY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Operation strength is increased by {opstrengthincrease} on operations that target sectors with this hero in them. Grants 'Initialize Connections'.</Data></Cell><Cell><Data ss:Type="String">以该英雄所在区域为目标发起行动时，行动力量提高 {opstrengthincrease}。赋予“初始化连接”。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TIME_ANOMALY_GENERATOR</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Generate a time anomaly, giving target friendly units [abilityblue]Fast Movement[/abilityblue] and target enemy units [abilityred]Slow Movement[/abilityred] for {Duration}[turn/]</Data></Cell><Cell><Data ss:Type="String">制造一阵时间异常，给予目标友方单位[abilityblue]迅捷移动[/abilityblue]并给予目标敌方单位[abilityred]缓慢移动[/abilityred]，持续 {Duration}[turn/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIO_SCANNER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A biomancer's scanner. Grants the 'Scan: Catalogue' ability.</Data></Cell><Cell><Data ss:Type="String">某个生化师的扫描器，赋予“扫描：目录”技能。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HEARTBREAK_PISTOL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Heartbreaker Handgun</Data></Cell><Cell><Data ss:Type="String">碎心者手枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HEARTBREAK_PISTOL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire 2 bullets at an enemy.</Data></Cell><Cell><Data ss:Type="String">向敌人发射两发子弹。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HEARTBREAK_PISTOL</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{strengthChance} strength chance to apply [abilityred]Distracted[/abilityred] for {turns}.</Data></Cell><Cell><Data ss:Type="String">有 {strengthChance} 力量几率施加[abilityred]分心[/abilityred]，持续 {turns}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLLOW_ESSENCE_ARK</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Hollow Essence Ark</Data></Cell><Cell><Data ss:Type="String">空洞精华方舟</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLLOW_ESSENCE_ARK</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Grants [abilityblue]Resurgence[/abilityblue] and revives the hero with {reviveHP} after {turns} in tactical combat.</Data></Cell><Cell><Data ss:Type="String">给予[abilityblue]复苏[/abilityblue]并在战术战斗中 {turns} 后复活英雄，英雄复活时将拥有 {reviveHP}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLLOW_ESSENCE_ARK</Data></Cell><Cell><Data ss:Type="String">UNDYING_ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Undying</Data></Cell><Cell><Data ss:Type="String">不死不灭</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLLOW_ESSENCE_ARK</Data></Cell><Cell><Data ss:Type="String">UNDYING_ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">When killed in tactical combat, the hero will resurrect with {hp} afte {turntimer}. Can only occur once per combat.</Data></Cell><Cell><Data ss:Type="String">英雄在战术战斗中死亡时，将在 {turntimer} 后复活并拥有 {hp}。每次战斗只能触发一次。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ESSENCE_ARK</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Essence Ark</Data></Cell><Cell><Data ss:Type="String">精华方舟</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ESSENCE_ARK</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Open the Ark</Data></Cell><Cell><Data ss:Type="String">打开方舟</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ESSENCE_ARK</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Spawn a Drained unit adjacent to the hero.</Data></Cell><Cell><Data ss:Type="String">在英雄相邻位置生成一个枯萎者单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EDICT_INTERDICTA</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Edict Interdicta</Data></Cell><Cell><Data ss:Type="String">禁止法令</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EDICT_INTERDICTA</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Edict of Interdiction</Data></Cell><Cell><Data ss:Type="String">禁止法令</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EDICT_INTERDICTA</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Enemy units in the target area have a {PsiStr}[strengthpsyche/] chance to become Pacified, disabling them from using abilities for {duration}[turn/]</Data></Cell><Cell><Data ss:Type="String">目标区域内的敌方单位有 {PsiStr}[strengthpsyche/] 几率被安抚平息，使其无法使用技能，持续 {duration}[turn/]</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Selected/><TopRowVisible>72</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>88</ActiveRow><ActiveCol>2</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Glenn Smits</LastAuthor><LastSaved>2019-08-12T08:29:05Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Interior
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="259.5"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="147" /><Column
+        ss:StyleID="s62"
+        ss:Width="127.5"
+      /><Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="191.25"
+      /><Column ss:StyleID="s62" ss:Width="120" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">EQUIPMENT_DLC03</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >OLD TEXT</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HERALD_DAGGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Herald Dagger</Data></Cell><Cell><Data
+            ss:Type="String"
+          >先驱匕首</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HERALD_DAGGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Attempt to sacrifice the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >尝试献祭目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">RITE_OF_THE_HERALD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Rite of the Herald</Data></Cell><Cell><Data
+            ss:Type="String"
+          >先驱仪式</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">RITE_OF_THE_HERALD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >If the target is slain by this attack, the user gains the [abilityblue]Summon the Herald[/abilityblue] ability until the end of combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >如果目标被此攻击击杀，使用者将获得[abilityblue]召唤先驱[/abilityblue]技能，直到战斗结束。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SUMMON_THE_HERALD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Summon the Herald</Data></Cell><Cell><Data
+            ss:Type="String"
+          >召唤先驱</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SUMMON_THE_HERALD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Summon a [abilityred]Feeble[/abilityred] Herald of Oblivion that lasts until the end of combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >召唤一个[abilityred]软弱无力[/abilityred]的遗忘先驱，持续到战斗结束。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CHEMICAL_DAGGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Chemical Scythe</Data></Cell><Cell><Data
+            ss:Type="String"
+          >化学镰刀</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CULLING_SCYTHE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Culler's Gaze</Data></Cell><Cell><Data
+            ss:Type="String"
+          >杀戮者凝视</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >REAPER_SNIPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reaper Sniper</Data></Cell><Cell><Data
+            ss:Type="String"
+          >死神狙击枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BODY_ODOR_DISPERSER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Body Odor Disperser</Data></Cell><Cell><Data
+            ss:Type="String"
+          >体臭分散剂</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">BODY_ODOR_DISPERSER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Now you too can smell like the Megasow![br/]Unit gains [abilityblue]Rancid Stench[/abilityblue]: at the end of this unit's turn, adjacent enemy Biological and Cyborg ground units become [abilityred]Poisoned[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >现在，你闻起来也像是一只巨猪了！[br/]单位获得[abilityblue]腐臭气息[/abilityblue]在该单位的回合结束时，相邻的敌方生物和半机械人陆地单位将会[abilityred]中毒[/abilityred]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Megasow - Is a unit, a huge mutated pig. This is related to the unit</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEAVY_HITTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heavy Hitter</Data></Cell><Cell><Data
+            ss:Type="String"
+          >重击者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HEAVY_HITTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A melee attack.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >近战攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SHADOWS_EMBRACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shadow's Embrace</Data></Cell><Cell><Data
+            ss:Type="String"
+          >暗影之拥</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PSISTONE_OF_MISFORTUNE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psi-stone of Misfortune</Data></Cell><Cell><Data
+            ss:Type="String"
+          >厄运灵能石</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">PSISTONE_OF_MISFORTUNE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gain a {FumbleChance}% Fumble chance, and summon {SummonNumber} Whispers of Discord adjacent to you that last until end of combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >获得 {FumbleChance}% 失手率，并在相邻位置召唤 {SummonNumber} 个不谐低语，持续到战斗结束。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Whispers of Discord as in the unit of the same name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PSISTONE_OF_MISFORTUNE</Data></Cell><Cell
+        ><Data ss:Type="String">PROP_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Curse of Misfortune</Data></Cell><Cell><Data
+            ss:Type="String"
+          >厄运诅咒</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PSISTONE_OF_MISFORTUNE</Data></Cell><Cell
+        ><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit made a temporary dark deal. It has a {Fumble Chance}% increased Fumble Chance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位签订了临时的黑暗契约，失手率提升 {Fumble Chance}%。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ESTEQ_SHOTGUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Es'Teq Shotgun</Data></Cell><Cell><Data
+            ss:Type="String"
+          >埃斯特克霰弹枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">ESTEQ_SHOTGUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire at a target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >朝目标射击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ESTEQ_FANGS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Es'Teq Fangs</Data></Cell><Cell><Data
+            ss:Type="String"
+          >埃斯特克獠牙</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ESSENCE_OF_THE_DEVOURER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Essence of the Devourer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >吞噬者精华</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >STAFF_OF_THE_PONTIFF</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Staff of the Pontiff</Data></Cell><Cell><Data
+            ss:Type="String"
+          >教皇法杖</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FLARE_ESSENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Flare Essence</Data></Cell><Cell><Data
+            ss:Type="String"
+          >燃烧精华</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FLARE_ESSENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The staff flares and drains the essence of the target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这把法杖能够烧掉并汲取目标的精华。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >RUMBLE_PACK</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Rumble Pack</Data></Cell><Cell><Data
+            ss:Type="String"
+          >震动包</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">RUMBLE_PACK</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">Get Ready to Rumble</Data></Cell><Cell><Data
+            ss:Type="String"
+          >准备震动</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >RUMBLE_PACK</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Grants {DamageBoost} damage and one level of [abilityblue]Stagger Resistance[/abilityblue] to target friendly non-Mindless unit for {Turns}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >给予目标友方非无意识单位 {DamageBoost} 伤害加成和 1 级[abilityblue]动摇抵抗[/abilityblue]，持续 {Turns}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >RUMBLE_PACK</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >BUFF_NAME</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Ready to Rumble</Data></Cell><Cell><Data
+            ss:Type="String"
+          >震动就绪</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >RUMBLE_PACK</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >BUFF_DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Has {DamageBoost} damage and one level of [abilityblue]Stagger Resistance[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >获得 {DamageBoost} 伤害加成和 1 级[abilityblue]动摇抵抗[/abilityblue]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >ANTARAN_ARMOR</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Antaran Armor</Data></Cell><Cell><Data
+            ss:Type="String"
+          >安塔兰护甲</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >ANTARAN_ARMOR</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Whenever damage is dealt to this unit, {DamageReflect} of the damage is reflected back to its source.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位无论何时受到伤害时，都会将受到伤害的 {DamageReflect} 反弹给伤害制造者。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >PROTOTYPE_DVR_SUIT</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Prototype DV-R Suit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >原型 DV-R 套装</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >PROTOTYPE_DVR_SUIT</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grants the wearer [abilityblue]Status Effect Immunity[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >给予穿戴者[abilityblue]状态效果免疫[/abilityblue]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PARAGON_GUARD_SPEAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Paragon Guard Spear</Data></Cell><Cell><Data
+            ss:Type="String"
+          >完人守卫长矛</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PARAGON_GUARD_SPEAR</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A melee attack. The user enters defense mode after attacking.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >近战攻击。使用者攻击后会进入防御模式。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GYROJET_ASSAULT_RIFLE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gyrojet Assault Cannon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >回旋突击加农炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">GYROJET_ASSAULT_RIFLE</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire the Gyrojet Assault Cannon.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >发射回旋突击加农炮。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HYDRA_HOST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NEKRIS Host</Data></Cell><Cell><Data
+            ss:Type="String"
+          >奈克里斯主机</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >HYDRA has been renamed to NEKRIS</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">HYDRA_HOST</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit hosts NEKRIS, granting it the ability to dispel status effects from another friendly Mechanical or Cyborg unit and grant them {SpreadHydraBuff}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位成为奈克里斯运行的主机，能够驱散其他友方机械或半机械人单位的状态效果并赋予 {SpreadHydraBuff}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >HYDRA has been renamed to NEKRIS</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SPREAD_HYDRA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spread NEKRIS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >扩散奈克里斯</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >HYDRA has been renamed to NEKRIS</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">SPREAD_HYDRA</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spread NEKRIS to a target friendly Mechanical or Cyborg unit, dispelling status effects and granting them {SpreadHydraBuff}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将奈克里斯扩散至目标友方机械或半机械人单位，驱散其状态效果并赋予 {SpreadHydraBuff}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >HYDRA has been renamed to NEKRIS</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HYDRA_PROXY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NEKRIS proxy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >奈克里斯代理</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >HYDRA has been renamed to NEKRIS</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">HYDRA_PROXY</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is connected to NEKRIS, granting it {SpreadHydraBuff}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位已连接至奈克里斯，获得 {SpreadHydraBuff}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >HYDRA has been renamed to NEKRIS</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HYDRA_POSESSED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NEKRIS Possessed</Data></Cell><Cell><Data
+            ss:Type="String"
+          >奈克里斯控制</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">HYDRA_POSESSED</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is infected by NEKRIS and under its control or its owner's control for {PosessedDuration}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位被奈克里斯感染且被奈克里斯或其所有者控制，持续 {PosessedDuration}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ESTEQ_SNIPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Es'Teq Sniper</Data></Cell><Cell><Data
+            ss:Type="String"
+          >埃斯特克狙击枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">ESTEQ_SNIPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire at a target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >朝目标射击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SUNBRINGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sunbringer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >太阳使者</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SUNBRINGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deals its damage to enemy units adjacent to target unit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >对目标单位相邻的敌方单位造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TYRES_GIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tyre's Gift</Data></Cell><Cell><Data
+            ss:Type="String"
+          >泰尔的馈赠</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">TYRES_GIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dispel all status effects, positive or negative, from target unit. Grants an Essence Charge.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >驱散目标单位的所有正面和负面状态效果，获得 1 个精华充能。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DRAINING_SHOTGUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Draining Shotgun</Data></Cell><Cell><Data
+            ss:Type="String"
+          >汲取霰弹枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SIPHONER_STAFF</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Siphoner Staff</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生命汲取者法杖</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">LINK_SHARD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Link Shard</Data></Cell><Cell><Data
+            ss:Type="String"
+          >连接碎片</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ESSENCE_LINK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Essence Link</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精华连接</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">ESSENCE_LINK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target a friendly Biological, Cyborg or Mineral unit. Both units are linked together in an [abilityblue]Essence Link[/abilityblue]. While the link is active, both units gain +{shields}[shield/] plus an additional +{shieldsCharge}[shield/] for each [abilityblue][essencecharge/]Essence Charge[/abilityblue] they have.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >以友方生物、半机械人或矿物单位为目标。两个单位将建立起[abilityblue]精华连接[/abilityblue]。连接激活时，两个单位都将获得 +{shields}[shield/]，此外，连接单位每拥有一个 [abilityblue][essencecharge/]精华充能[/abilityblue]，就会额外获得 {shieldsCharge}[shield/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ESSENCE_RESTORATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Essence Restoration</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精华恢复</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ESSENCE_RESTORATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heal linked unit and self for {HPAmount}[hp/]. This breaks the [abilityblue]Essence Link[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >治疗自身和链接单位 {HPAmount}[hp/]，这将会断开[abilityblue]精华连接[/abilityblue]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TIME_ANOMALY_GENERATOR</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Time Anomaly Generator</Data></Cell><Cell><Data
+            ss:Type="String"
+          >时间异常生成器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">TIME_ANOMALY_GENERATOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Generate Time Anomaly</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生成异常时间</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >THE_BLACK_EGG</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Black Egg</Data></Cell><Cell><Data
+            ss:Type="String"
+          >暗黑之卵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >THE_BLACK_EGG</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ethereal Hatching</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚灵孵化</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >THE_BLACK_EGG</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spawn an Ethereal Penguin adjacent to the hero.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在英雄相邻位置生成一只虚灵企鹅。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PSITEC_VOX_AMP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PsiTec Vox Amp</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵能科技声音放大器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PSITEC_VOX_AMP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psionic Scream</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵能尖啸</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="48.75"
+      ><Cell><Data ss:Type="String">PSITEC_VOX_AMP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deal damage in a {range} hex cone.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >对 {range} 个单元格扇形范围造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BURDEN_BEARER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Burden Bearer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >负担者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BURDEN_BEARER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unburden</Data></Cell><Cell><Data
+            ss:Type="String"
+          >卸去负担</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="61.5"
+      ><Cell><Data ss:Type="String">BURDEN_BEARER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dispel all negative status effects from target ally. When used, this damages the user for {selfdamage} and grants the user {essenceamount} [abilityblue]Essence Charge[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >驱散目标同盟的所有负面状态效果。使用此技能会对使用者造成 {selfdamage} 伤害，并赋予使用者 {essenceamount} 个[abilityblue]精华充能[/abilityblue]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIO_SCANNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bio Scanner</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化扫描器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PROTO_TYRANNODON_MUSCLE_STRUCTURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Proto-Tyrannodon Muscle Structure</Data></Cell><Cell><Data
+            ss:Type="String"
+          >原型暴龙肌肉结构</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data
+            ss:Type="String"
+          >PROTO_TYRANNODON_MUSCLE_STRUCTURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grants [abilityblue]Fast Movement Speed[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >赋予[abilityblue]迅捷移动速度[/abilityblue]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GYROJET_ASSAULT_CANNON</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gyrojet Assault Cannon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >回旋突击加农炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">GYROJET_ASSAULT_CANNON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a barrage of rockets at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >朝目标发射一阵火箭弹幕。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MASTERCRAFTED_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mastercrafted Armor</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精制护甲</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">MASTERCRAFTED_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grants [abilityblue]Defense Mode: Hyper Armor[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >赋予[abilityblue]防御模式：超级护甲[/abilityblue]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GAUNTLET_OF_EMPIRES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gauntlet of Empires</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国臂铠</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GAUNTLET_OF_EMPIRES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grants the wearer [abilityblue]Unmake[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >给予穿戴者[abilityblue]毁坏[/abilityblue]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GAUNTLET_OF_EMPIRES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Smash an enemy with the Gauntlet of Empires.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用帝国臂铠粉碎敌人。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GAUNTLET_OF_EMPIRES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNMAKE_ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unmake</Data></Cell><Cell><Data
+            ss:Type="String"
+          >毁坏</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GAUNTLET_OF_EMPIRES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNMAKE_ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deals damage to all enemy non-Flying, non-Floating units, as well as all obstacles.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >对敌方所有非飞行单位、非悬浮单位和障碍物造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">THADEUS_MEMORY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thadeus' Memory</Data></Cell><Cell><Data
+            ss:Type="String"
+          >撒迪厄斯的记忆</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">THADEUS_MEMORY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire bullets infused with Thadeus' scarred memories.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发射灌注了撒迪厄斯伤痕累累记忆的子弹。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CORE_PROJECTION_RELAY</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CORE Projection Relay</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“核心”投射中继器</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="48"
+      ><Cell><Data ss:Type="String">CORE_PROJECTION_RELAY</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Operation strength is increased by {opstrengthincrease} on operations that target sectors with this hero in them. Grants 'Initialize Connections'.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >以该英雄所在区域为目标发起行动时，行动力量提高 {opstrengthincrease}。赋予“初始化连接”。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TIME_ANOMALY_GENERATOR</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Generate a time anomaly, giving target friendly units [abilityblue]Fast Movement[/abilityblue] and target enemy units [abilityred]Slow Movement[/abilityred] for {Duration}[turn/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >制造一阵时间异常，给予目标友方单位[abilityblue]迅捷移动[/abilityblue]并给予目标敌方单位[abilityred]缓慢移动[/abilityred]，持续 {Duration}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIO_SCANNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A biomancer's scanner. Grants the 'Scan: Catalogue' ability.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >某个生化师的扫描器，赋予“扫描：目录”技能。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEARTBREAK_PISTOL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heartbreaker Handgun</Data></Cell><Cell><Data
+            ss:Type="String"
+          >碎心者手枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HEARTBREAK_PISTOL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire 2 bullets at an enemy.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向敌人发射两发子弹。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEARTBREAK_PISTOL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{strengthChance} strength chance to apply [abilityred]Distracted[/abilityred] for {turns}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {strengthChance} 力量几率施加[abilityred]分心[/abilityred]，持续 {turns}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HOLLOW_ESSENCE_ARK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hollow Essence Ark</Data></Cell><Cell><Data
+            ss:Type="String"
+          >空洞精华方舟</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HOLLOW_ESSENCE_ARK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grants [abilityblue]Resurgence[/abilityblue] and revives the hero with {reviveHP} after {turns} in tactical combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >给予[abilityblue]复苏[/abilityblue]并在战术战斗中 {turns} 后复活英雄，英雄复活时将拥有 {reviveHP}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HOLLOW_ESSENCE_ARK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNDYING_ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Undying</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不死不灭</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HOLLOW_ESSENCE_ARK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNDYING_ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >When killed in tactical combat, the hero will resurrect with {hp} afte {turntimer}. Can only occur once per combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >英雄在战术战斗中死亡时，将在 {turntimer} 后复活并拥有 {hp}。每次战斗只能触发一次。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ESSENCE_ARK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Essence Ark</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精华方舟</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ESSENCE_ARK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Open the Ark</Data></Cell><Cell><Data
+            ss:Type="String"
+          >打开方舟</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ESSENCE_ARK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spawn a Drained unit adjacent to the hero.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >在英雄相邻位置生成一个枯萎者单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EDICT_INTERDICTA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Edict Interdicta</Data></Cell><Cell><Data
+            ss:Type="String"
+          >禁止法令</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EDICT_INTERDICTA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Edict of Interdiction</Data></Cell><Cell><Data
+            ss:Type="String"
+          >禁止法令</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EDICT_INTERDICTA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Enemy units in the target area have a {PsiStr}[strengthpsyche/] chance to become Pacified, disabling them from using abilities for {duration}[turn/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标区域内的敌方单位有 {PsiStr}[strengthpsyche/] 几率被安抚平息，使其无法使用技能，持续 {duration}[turn/]</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Selected /><TopRowVisible>72</TopRowVisible><Panes><Pane
+        ><Number>3</Number><ActiveRow>88</ActiveRow><ActiveCol
+          >2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

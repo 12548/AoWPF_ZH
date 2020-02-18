@@ -1,1 +1,2245 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:56:13Z</Created><LastSaved>2019-06-25T15:56:13Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style><Style ss:ID="s63"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s64"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Borders/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s65"><Alignment ss:Vertical="Top" ss:WrapText="1"/><NumberFormat ss:Format="0%"/></Style><Style ss:ID="s67"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/><Interior/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15"><Column ss:StyleID="s62" ss:Width="171"/><Column ss:StyleID="s62" ss:Width="114"/><Column ss:StyleID="s62" ss:Width="327.75"/><Column ss:StyleID="s62" ss:Width="147.75"/><Column ss:StyleID="s62" ss:Width="305.25"/><Column ss:StyleID="s62" ss:Width="226.5"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="254.25"/><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">UNIT_UPGRADES_CORE</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MECHANICAL_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Mechanical</Data></Cell><Cell><Data ss:Type="String">机械</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">MECHANICAL_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A unit made primarily from machinery and electronics. Mechanical units are vulnerable to Arc damage and take reduced damage from Psionic damage.</Data></Cell><Cell><Data ss:Type="String">一种主要由机械和电子元件构成的单位。机械单位更容易受到电弧伤害，但受到的灵能伤害更少。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIOLOGICAL_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Biological</Data></Cell><Cell><Data ss:Type="String">生物</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIOLOGICAL_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A carbon-based lifeform.</Data></Cell><Cell><Data ss:Type="String">一种碳基生命形式。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CYBORG_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Cyborg</Data></Cell><Cell><Data ss:Type="String">半机器人</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">CYBORG_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A cybernetic organism composed of both mechanical and biological parts. Cyborgs have an inherent {CyborgResistance} resistance to all status effects.</Data></Cell><Cell><Data ss:Type="String">由机械和生物组件组成的神经机械生物。半机器人对所有状态效果天生拥有 {CyborgResistance} 抵抗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CYBORG_REQUISITE</Data></Cell><Cell><Data ss:Type="String">RESISTANCE</Data></Cell><Cell><Data ss:Type="String">Cyborg Resistance</Data></Cell><Cell><Data ss:Type="String">半机器人抵抗</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MINERAL_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Mineral</Data></Cell><Cell><Data ss:Type="String">矿物</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">MINERAL_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A silicon-based lifeform. Mineral units are vulnerable to Biochemical damage and take reduced damage from Arc and Thermal damage. They are immune to all Damage over Time status effects.</Data></Cell><Cell><Data ss:Type="String">一种硅基生命形式。矿物单位更容易受到生化伤害，但受到的电弧和热能伤害更少。矿物单位对所有持续伤害效果免疫。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ETHEREAL_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Ethereal</Data></Cell><Cell><Data ss:Type="String">虚灵</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">ETHEREAL_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">An energy-based lifeform. Ethereal units are able to pass through walls and have resistance against the Kinetic, Biochemical and Arc damage.</Data></Cell><Cell><Data ss:Type="String">一种基于能量的生命形式。虚灵单位可以穿过墙体，对动能、生化和电弧伤害具有抵抗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LIGHT_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Light Unit</Data></Cell><Cell><Data ss:Type="String">轻型单位</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LIGHT_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A small, standard unit.</Data></Cell><Cell><Data ss:Type="String">体型较小的标准单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HEAVY_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Heavy Unit</Data></Cell><Cell><Data ss:Type="String">重型单位</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">HEAVY_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A heavier, stronger unit. Heavy units cannot be staggered by high impact attacks, and do not turn to face their attacker when flanked.</Data></Cell><Cell><Data ss:Type="String">体型更重，实力更强的单位。重型单位不会因高度冲击攻击而动摇，并且被包抄时不会转身面向攻击者。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INFANTRY_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Infantry</Data></Cell><Cell><Data ss:Type="String">步兵</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">INFANTRY_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A unit which is usually bipedal, or at least vaguely humanoid in shape.</Data></Cell><Cell><Data ss:Type="String">一种通常使用双足行走或是形态类似于人类的单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ANIMAL_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Animal</Data></Cell><Cell><Data ss:Type="String">动物</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ANIMAL_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A non-sapient unit.</Data></Cell><Cell><Data ss:Type="String">一种不具有智慧的单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ARBORIAN_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Arborian</Data></Cell><Cell><Data ss:Type="String">树人</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ARBORIAN_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">An arborian based creature.</Data></Cell><Cell><Data ss:Type="String">一种树型生物。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MOUNTED_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Mounted</Data></Cell><Cell><Data ss:Type="String">骑乘</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MOUNTED_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is mounted on an animal.</Data></Cell><Cell><Data ss:Type="String">该单位骑乘在某只动物上。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MINDLESS_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Mindless</Data></Cell><Cell><Data ss:Type="String">无意识</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MINDLESS_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is immune to Psionic status effects and Morale changes.</Data></Cell><Cell><Data ss:Type="String">该单位免疫灵能状态效果和士气改变。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VANGUARD_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">{XML_SPECIES_HUMANS@RACE@NAME_SINGULAR}</Data></Cell><Cell><Data ss:Type="String">{XML_SPECIES_HUMANS@RACE@NAME_SINGULAR}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">{text} inserts the vanguard singular name</Data></Cell><Cell><Data ss:Type="String">Links to Species_Humans(_Split).xml</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">VANGUARD_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A Vanguard unit.[br/]{XML_SPECIES_HUMANS@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell><Data ss:Type="String">先锋单位。[br/]{XML_SPECIES_HUMANS@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">{text} inserts the short vanguard description.</Data></Cell><Cell><Data ss:Type="String">Links to Species_Humans(_Split).xml</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ASSEMBLY_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">{XML_SPECIES_ASSEMBLY@RACE@NAME_SINGULAR}</Data></Cell><Cell><Data ss:Type="String">{XML_SPECIES_ASSEMBLY@RACE@NAME_SINGULAR}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">{text} inserts the assembly singular name</Data></Cell><Cell><Data ss:Type="String">Links to Species_Assembly(_Split).xml</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ASSEMBLY_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">An Assembly unit.[br/]{XML_SPECIES_ASSEMBLY@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell><Data ss:Type="String">半机械人单位。[br/]{XML_SPECIES_ASSEMBLY@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">{text} inserts the short assembly description.</Data></Cell><Cell><Data ss:Type="String">Links to Species_Assembly(_Split).xml</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">KIRKO_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">{XML_SPECIES_KIRKO@RACE@NAME_SINGULAR}</Data></Cell><Cell><Data ss:Type="String">{XML_SPECIES_KIRKO@RACE@NAME_SINGULAR}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">{text} inserts the kirko singular name</Data></Cell><Cell><Data ss:Type="String">Links to Species_Kirko(_Split).xml</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">KIRKO_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A Kir'Ko unit.[br/]{XML_SPECIES_KIRKO@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell><Data ss:Type="String">奇尔寇单位。[br/]{XML_SPECIES_KIRKO@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">{text} inserts the short kirko description.</Data></Cell><Cell><Data ss:Type="String">Links to Species_Kirko(_Split).xml</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DVAR_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">{XML_SPECIES_DVAR@RACE@NAME_SINGULAR}</Data></Cell><Cell><Data ss:Type="String">{XML_SPECIES_DVAR@RACE@NAME_SINGULAR}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">{text} inserts the dvar singular name</Data></Cell><Cell><Data ss:Type="String">Links to Species_Dvar(_Split).xml</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">DVAR_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A Dvar unit.[br/]{XML_SPECIES_DVAR@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell><Data ss:Type="String">矮人单位。[br/]{XML_SPECIES_DVAR@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">{text} inserts the short dvar description.</Data></Cell><Cell><Data ss:Type="String">Links to Species_Dvar(_Split).xml</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMAZON_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">{XML_SPECIES_AMAZONS@RACE@NAME_SINGULAR}</Data></Cell><Cell><Data ss:Type="String">{XML_SPECIES_AMAZONS@RACE@NAME_SINGULAR}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">{text} inserts the amazon singular name</Data></Cell><Cell><Data ss:Type="String">Links to Species_Amazon(_Split).xml</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AMAZON_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">An Amazon unit.[br/]{XML_SPECIES_AMAZONS@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell><Data ss:Type="String">亚马逊单位。[br/]{XML_SPECIES_AMAZONS@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">{text} inserts the short amazon description.</Data></Cell><Cell><Data ss:Type="String">Links to Species_Amazon(_Split).xml</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SYNDICATE_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">{XML_SPECIES_SYNDICATE@RACE@NAME_SINGULAR}</Data></Cell><Cell><Data ss:Type="String">{XML_SPECIES_SYNDICATE@RACE@NAME_SINGULAR}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">{text} inserts the syndicate singular name</Data></Cell><Cell><Data ss:Type="String">Links to Species_Syndicate(_Split).xml</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SYNDICATE_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A Syndicate unit.[br/]{XML_SPECIES_SYNDICATE@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell><Data ss:Type="String">辛迪加单位。[br/]{XML_SPECIES_SYNDICATE@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">{text} inserts the short syndicate description.</Data></Cell><Cell><Data ss:Type="String">Links to Species_Syndicate(_Split).xml</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCOUT_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Scout</Data></Cell><Cell><Data ss:Type="String">侦察兵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCOUT_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Scouts are mobile reconnaissance units.</Data></Cell><Cell><Data ss:Type="String">侦察兵是机动性很强的侦察单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLANT_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Plant</Data></Cell><Cell><Data ss:Type="String">植物</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">PLANT_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A biological plant lifeform. Plants are vulnerable to Thermal damage, but resistant to Arc damage.</Data></Cell><Cell><Data ss:Type="String">一种生物植物生命形式。植物容易受到热能伤害，但对电弧伤害具有抵抗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">COLONIZER_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Colonizer</Data></Cell><Cell><Data ss:Type="String">殖民者</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">COLONIZER_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit can create new colonies if the Colonizer unit occupies an empty sector center. Colonies cannot be created in sectors adjacent to existing colonies.[br/]Building a new colony will remove the Colonizer unit.[br/]Each colonizer you build will cost {energyCost}, {crystalCost} and {productionCost} than the one before it.</Data></Cell><Cell><Data ss:Type="String">如果殖民者单位占领了某个空的区域中心，就能建造新殖民地。新的殖民地无法建造在与现有殖民地相邻的区域中。[br/]建造新殖民地将会移除殖民者单位。[br/]你所建造的每一个殖民者将比上一个殖民者多消耗 {energyCost}、{crystalCost} 和 {productionCost}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">KINETIC_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Kinetic Immunity</Data></Cell><Cell><Data ss:Type="String">动能免疫</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">KINETIC_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be affected by [damagephysical/] Damage or Effects.</Data></Cell><Cell><Data ss:Type="String">该单位不受[damagephysical/]伤害或效果影响。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">THERMAL_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Thermal Immunity</Data></Cell><Cell><Data ss:Type="String">热能免疫</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">THERMAL_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be affected by [damagethermal/] Damage or Effects.</Data></Cell><Cell><Data ss:Type="String">该单位不受[damagethermal/]伤害或效果影响。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">THERMAL_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">STATUS_NAME</Data></Cell><Cell><Data ss:Type="String">Thermal Status Effect Immunity</Data></Cell><Cell><Data ss:Type="String">热能状态效果免疫</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">THERMAL_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">STATUS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be affected by [damagethermal/] Status or Hazard Effects.</Data></Cell><Cell><Data ss:Type="String">该单位不受[damagethermal/]状态或灾害效果影响。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Hazard Immunity</Data></Cell><Cell><Data ss:Type="String">灾害免疫</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be affected by Hazard Effects.</Data></Cell><Cell><Data ss:Type="String">该单位不受灾害效果影响。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">THERMAL_RESISTANCE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Thermal Resistance</Data></Cell><Cell><Data ss:Type="String">热能抵抗</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">THERMAL_RESISTANCE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has {ThermalResistance} resistance.</Data></Cell><Cell><Data ss:Type="String">该单位拥有 {ThermalResistance} 抵抗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PSIONIC_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Psionic Immunity</Data></Cell><Cell><Data ss:Type="String">灵能免疫</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PSIONIC_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be affected by [damagepsyche/] Damage or Effects</Data></Cell><Cell><Data ss:Type="String">该单位不受[damagepsyche/]伤害或效果影响</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PSIONIC_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">STATUS_NAME</Data></Cell><Cell><Data ss:Type="String">Psionic Status Effect Immunity</Data></Cell><Cell><Data ss:Type="String">灵能状态效果免疫</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">PSIONIC_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">STATUS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be affected by [damagepsyche/] Status or Hazard Effects.</Data></Cell><Cell><Data ss:Type="String">该单位不受[damagepsyche/]状态或灾害效果影响。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIOCHEMICAL_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Biochemical Immunity</Data></Cell><Cell><Data ss:Type="String">生化免疫</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIOCHEMICAL_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be affected by [damagebio/] Damage or Effects.</Data></Cell><Cell><Data ss:Type="String">该单位不受[damagebio/]伤害或效果影响。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIOCHEMICAL_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">STATUS_NAME</Data></Cell><Cell><Data ss:Type="String">Biochemical Status Effect Immunity</Data></Cell><Cell><Data ss:Type="String">生化状态效果免疫</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">BIOCHEMICAL_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">STATUS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be affected by [damagebio/] Status or Hazard Effects.</Data></Cell><Cell><Data ss:Type="String">该单位不受[damagebio/]状态或灾害效果影响。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ARC_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Arc Immunity</Data></Cell><Cell><Data ss:Type="String">电弧免疫</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ARC_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be affected by [damagewave/] Damage or Effects.</Data></Cell><Cell><Data ss:Type="String">该单位不受[damagewave/]伤害或效果影响。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ARC_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">STATUS_NAME</Data></Cell><Cell><Data ss:Type="String">Arc Status Effect Immunity</Data></Cell><Cell><Data ss:Type="String">电弧状态效果免疫</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ARC_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">STATUS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be affected by [damagewave/] Status or Hazard Effects.</Data></Cell><Cell><Data ss:Type="String">该单位不受[damagewave/]状态或灾害效果影响。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">COMPLETE_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Complete Immunity</Data></Cell><Cell><Data ss:Type="String">完全免疫</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">COMPLETE_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be affected by any Damage, and Status or Hazard Effects.</Data></Cell><Cell><Data ss:Type="String">该单位不受任何伤害、状态或灾害效果影响。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DAMAGE_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Damage Immunity</Data></Cell><Cell><Data ss:Type="String">伤害免疫</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DAMAGE_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be damaged.</Data></Cell><Cell><Data ss:Type="String">该单位不会受到伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STATUS_EFFECT_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Status Effect Immunity</Data></Cell><Cell><Data ss:Type="String">状态效果免疫</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STATUS_EFFECT_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be affected by Status Effects.</Data></Cell><Cell><Data ss:Type="String">该单位不受状态效果影响。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DAMAGE_OVER_TIME_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Status Effect: Damage Over Time Immunity</Data></Cell><Cell><Data ss:Type="String">状态效果：持续伤害免疫</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DAMAGE_OVER_TIME_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be affected by Damage over Time Status Effects.</Data></Cell><Cell><Data ss:Type="String">该单位不受持续伤害状态效果影响。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LAND_MOVEMENT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Land Movement</Data></Cell><Cell><Data ss:Type="String">陆地移动</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LAND_MOVEMENT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit can move over land hexes.</Data></Cell><Cell><Data ss:Type="String">该单位可以在陆地单元格上移动。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">WATER_MOVEMENT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Water Movement</Data></Cell><Cell><Data ss:Type="String">水域移动</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">WATER_MOVEMENT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit can only move on water hexes.</Data></Cell><Cell><Data ss:Type="String">该单位只能在水域单元格上移动。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Expedited Movement (Universal)</Data></Cell><Cell><Data ss:Type="String">加速移动（通用）</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has increased movement on all terrain types.</Data></Cell><Cell><Data ss:Type="String">该单位在所有地形类型上具有更快的移动速度。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_FLATTERRAIN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Expedited Movement (Flat Terrain)</Data></Cell><Cell><Data ss:Type="String">加速移动（平坦地形）</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_FLATTERRAIN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has increased movement on Roads, Plains and Volcanic terrain.</Data></Cell><Cell><Data ss:Type="String">该单位在道路、平原和火山地形上具有更快的移动速度。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_FOREST</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Expedited Movement (Forest)</Data></Cell><Cell><Data ss:Type="String">加速移动（森林）</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_FOREST</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has increased movement on Forest terrain.</Data></Cell><Cell><Data ss:Type="String">该单位在森林地形上具有更快的移动速度。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_HILL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Expedited Movement (Hill)</Data></Cell><Cell><Data ss:Type="String">加速移动（丘陵）</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_HILL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has increased movement on Hill terrain.</Data></Cell><Cell><Data ss:Type="String">该单位在丘陵地形上具有更快的移动速度。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_MOUNTAIN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Expedited Movement (Mountain)</Data></Cell><Cell><Data ss:Type="String">加速移动（山地）</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_MOUNTAIN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has increased movement on Mountain terrain.</Data></Cell><Cell><Data ss:Type="String">该单位在山地地形上具有更快的移动速度。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_PLAINS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Expedited Movement (Fertile Plains)</Data></Cell><Cell><Data ss:Type="String">加速移动（肥沃平原）</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_PLAINS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has increased movement on Fertile Plains terrain.</Data></Cell><Cell><Data ss:Type="String">该单位在肥沃平原地形上具有更快的移动速度。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_ROCKY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Expedited Movement (Rocky)</Data></Cell><Cell><Data ss:Type="String">加速移动（岩石）</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_ROCKY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has increased movement on Rocky terrain.</Data></Cell><Cell><Data ss:Type="String">该单位在岩石地形上具有更快的移动速度。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_SWAMP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Expedited Movement (Wetlands)</Data></Cell><Cell><Data ss:Type="String">加速移动（湿地）</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_SWAMP</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has increased movement on Wetlands terrain.</Data></Cell><Cell><Data ss:Type="String">该单位在湿地地形上具有更快的移动速度。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_RUINS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Expedited Movement (Ruins)</Data></Cell><Cell><Data ss:Type="String">加速移动（废墟）</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_RUINS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has increased movement on Ruins terrain.</Data></Cell><Cell><Data ss:Type="String">该单位在废墟地形上具有更快的移动速度。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RIVER_CROSSING</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">River Crossing Expertise</Data></Cell><Cell><Data ss:Type="String">过河技艺</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">RIVER_CROSSING</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has been trained in crossing rivers, and does so at a greatly reduced move point cost.</Data></Cell><Cell><Data ss:Type="String">该单位进行了过河训练，因此极大地减少了过河消耗的移动点数。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GARRISON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Colony Militia</Data></Cell><Cell><Data ss:Type="String">殖民地卫队</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GARRISON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is in a Colony Militia.</Data></Cell><Cell><Data ss:Type="String">该单位属于殖民地卫队。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FLYING</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Flying</Data></Cell><Cell><Data ss:Type="String">飞行</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">FLYING</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is Flying, and is {flyingPenalty} harder to hit with most weapons.</Data></Cell><Cell><Data ss:Type="String">该单位为飞行单位，因此大多数武器命中该单位的难度增加 {flyingPenalty}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ALLROUND_AWARENESS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">All-round Awareness</Data></Cell><Cell><Data ss:Type="String">全方位觉察</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ALLROUND_AWARENESS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be Flanked.</Data></Cell><Cell><Data ss:Type="String">该单位不会被包抄。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FARSIGHT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Farsight</Data></Cell><Cell><Data ss:Type="String">远视</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FARSIGHT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The unit has {farsightVisionBonus} vision range.</Data></Cell><Cell><Data ss:Type="String">该单位拥有 {farsightVisionBonus} 视野范围。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFENSE_MODE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Defense Mode</Data></Cell><Cell><Data ss:Type="String">防御模式</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">DEFENSE_MODE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit ends its turn and goes into a defensive mode. It becomes {DefensiveAccuracyTarget} harder to hit and cannot be flanked.[br/]If this unit is staggered, the defensive mode is canceled.</Data></Cell><Cell><Data ss:Type="String">该单位结束回合并进入防御模式，命中难度增加 {DefensiveAccuracyTarget} 且无法被包抄。[br/]如果该单位被动摇，防御模式将被中止。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFENSE_MODE_EVASION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Defense Mode: Evasion</Data></Cell><Cell><Data ss:Type="String">防御模式：闪避</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">DEFENSE_MODE_EVASION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit ends its turn and goes into a defensive mode. It becomes {DefensiveAccuracyTarget} harder to hit and cannot be flanked.[br/]If this unit is staggered, the defensive mode is canceled.</Data></Cell><Cell><Data ss:Type="String">该单位结束回合并进入防御模式，命中难度增加 {DefensiveAccuracyTarget} 且无法被包抄。[br/]如果该单位被动摇，防御模式将被中止。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">DEFENSE_MODE_EVASION</Data></Cell><Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit evades incoming attacks, and becomes {EvadeHitPenalty} harder to hit.</Data></Cell><Cell><Data ss:Type="String">该单位将躲避袭来的攻击，使其命中难度增加 {EvadeHitPenalty}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFENSE_MODE_SHIELDS_UP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Defense Mode: Shields Up</Data></Cell><Cell><Data ss:Type="String">防御模式：起盾</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">DEFENSE_MODE_SHIELDS_UP</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit ends its turn and goes into a defensive mode. It gains {DefensiveShields}, becomes {DefensiveAccuracyTarget} harder to hit and cannot be flanked.[br/]If this unit is staggered, the defensive mode is canceled.</Data></Cell><Cell><Data ss:Type="String">该单位结束回合并进入防御模式，获得 {DefensiveShields}、命中难度增加 {DefensiveAccuracyTarget} 且无法被包抄。[br/]如果该单位被动摇，防御模式将被中止。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFENSE_MODE_HYPER_ARMOR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Defense Mode: Hyper Armor</Data></Cell><Cell><Data ss:Type="String">防御模式：超级护甲</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">DEFENSE_MODE_HYPER_ARMOR</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit ends its turn and goes into a defensive mode. It gains {DefensiveArmor}, becomes {DefensiveAccuracyTarget} harder to hit and cannot be flanked.[br/]If this unit is staggered, the defensive mode is canceled.</Data></Cell><Cell><Data ss:Type="String">该单位结束回合并进入防御模式，获得 {DefensiveArmor}、命中难度增加 {DefensiveAccuracyTarget} 且无法被包抄。[br/]如果该单位被动摇，防御模式将被中止。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFENSE_MODE_REGENERATION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Defense Mode: Regeneration</Data></Cell><Cell><Data ss:Type="String">防御模式：再生</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">DEFENSE_MODE_REGENERATION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit ends its turn and goes into a defensive mode. It regenerates {DefensiveRegeneration}, becomes {DefensiveAccuracyTarget} harder to hit and cannot be flanked.[br/]If this unit is staggered, the defensive mode is canceled.</Data></Cell><Cell><Data ss:Type="String">该单位结束回合并进入防御模式，恢复 {DefensiveRegeneration}、命中难度增加 {DefensiveAccuracyTarget} 且无法被包抄。[br/]如果该单位被动摇，防御模式将被中止。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFENSE_MODE_PSITEC_SHIELD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Defense Mode: PsiTec Shield</Data></Cell><Cell><Data ss:Type="String">防御模式：灵能科技护盾</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">DEFENSE_MODE_PSITEC_SHIELD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit ends its turn and goes into a defensive mode. It grants itself and adjacent allies {DefenseModePsiTecShieldDefense}. It also becomes {DefensiveAccuracyTarget} harder to hit and cannot be flanked.[br/]If this unit is staggered, the defensive mode is canceled.</Data></Cell><Cell><Data ss:Type="String">该单位结束回合并进入防御模式，使自身和相邻友军获得 {DefenseModePsiTecShieldDefense}，同时自身命中难度增加 {DefensiveAccuracyTarget} 且无法被包抄。[br/]如果该单位被动摇，防御模式将被中止。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFENSE_MODE_MIRAGE_FIELD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Defense Mode: Mirage Field</Data></Cell><Cell><Data ss:Type="String">防御模式：幻象护盾</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">DEFENSE_MODE_MIRAGE_FIELD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit ends its turn and goes into a defensive mode. It grants [abilityblue]Obscured[/abilityblue] to all units in a 1 hex radius below it. This unit also becomes {DefensiveAccuracyTarget} harder to hit, gains [abilityBlue]Impact Resistance[/abilityBlue] and cannot be flanked.[br/] If this unit is staggered, the defensive mode is canceled. </Data></Cell><Cell><Data ss:Type="String">该单位结束回合并进入防御模式，使位于其下方 1 个单元格范围内的所有单位获得[abilityblue]模糊[/abilityblue]，同时自身命中难度增加 {DefensiveAccuracyTarget} 并获得[abilityBlue]冲击抵抗[/abilityBlue]，该单位不会被包抄。[br/]如果该单位被动摇，防御模式将被中止。 </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFENSE_MODE_SUBMERGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Defense Mode: Submerge</Data></Cell><Cell><Data ss:Type="String">防御模式：遮掩</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">DEFENSE_MODE_SUBMERGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit ends its turn and goes into a defensive mode. It becomes {SubmergeHitChance} harder to hit, recovers {SubmergeRegen} and can't be flanked.[br/]If this unit is staggered, the defensive mode is canceled.</Data></Cell><Cell><Data ss:Type="String">该单位结束回合并进入防御模式，命中难度增加 {SubmergeHitChance}、恢复{SubmergeRegen} 且无法被包抄。[br/]如果该单位被动摇，防御模式将被中止</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHIELDED</Data></Cell><Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell><Cell><Data ss:Type="String">Shielded</Data></Cell><Cell><Data ss:Type="String">得到保护</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SHIELDED</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is shielded by a nearby ally, granting them {ShieldedDefense}.</Data></Cell><Cell><Data ss:Type="String">该单位受到附近友军保护，获得 {ShieldedDefense}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MEDUSA_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Medusa</Data></Cell><Cell><Data ss:Type="String">美杜莎</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LARGE_TARGET</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Large Target</Data></Cell><Cell><Data ss:Type="String">大型目标</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">LARGE_TARGET</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is {largeTargetPenalty} easier to hit with ranged attacks, and cannot make use of cover. It can be used by other units as cover.</Data></Cell><Cell><Data ss:Type="String">使用远程攻击命中该单位的难度降低 {largeTargetPenalty} 且无法利用掩体，但可以被其他单位用来作为掩体。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SMALL_TARGET</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Small Target</Data></Cell><Cell><Data ss:Type="String">小型目标</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SMALL_TARGET</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is {SmallTargetAccuracy} harder to hit with ranged attacks.</Data></Cell><Cell><Data ss:Type="String">使用远程攻击命中该单位的难度增加 {SmallTargetAccuracy}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LIFE_DRAIN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Life Drain</Data></Cell><Cell><Data ss:Type="String">生命汲取</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">LIFE_DRAIN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit heals for {LifeAmount} whenever they deal damage with a melee attack. Only works on Biological and Cyborg units.</Data></Cell><Cell><Data ss:Type="String">该单位使用近战攻击造成伤害时可治疗 {LifeAmount}。该技能仅对生物和半机械人单位有效。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">LIFE_DRAIN</Data></Cell><Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Heals {LifeAmount} when attacking Biological or Cyborg units.</Data></Cell><Cell><Data ss:Type="String">攻击生物或半机械人单位时，治疗 {LifeAmount}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REINFORCEMENT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Reinforcement</Data></Cell><Cell><Data ss:Type="String">增援</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REINFORCEMENT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit will disappear at the end of combat.</Data></Cell><Cell><Data ss:Type="String">该单位将在战斗结束后消失。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RAPID_EVOLUTION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Rapid Evolution</Data></Cell><Cell><Data ss:Type="String">快速进化</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RAPID_EVOLUTION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit gains {ExpIncrease} more experience when victorious in combat.</Data></Cell><Cell><Data ss:Type="String">该单位在战斗胜利后可额外获得 {ExpIncrease} 经验。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">float as in hovering above any type of terrain (ground and water)</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LEADER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Commander</Data></Cell><Cell><Data ss:Type="String">指挥官</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LEADER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This character is the Commander of their faction.</Data></Cell><Cell><Data ss:Type="String">该角色是其阵营的指挥官。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">FLOATING</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Floating</Data></Cell><Cell><Data ss:Type="String">悬浮</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">float as in hovering above any type of terrain (ground and water)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">FLOATING</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is Floating, enabling it to traverse every type of terrain at a move cost of {floatingMovementCost}, except Mountains, which cost {flyingMountainMovementCost}.</Data></Cell><Cell><Data ss:Type="String">该单位悬浮在半空，可消耗 {floatingMovementCost} 穿过除山地地形外的所有地形类型，山地地形需消耗 {flyingMountainMovementCost}。</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">When this unit reaches elite rank it evolves (at the end of tactical combat).</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PSIONICS_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Psionic</Data></Cell><Cell><Data ss:Type="String">灵能</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PSIONICS_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A unit with Psionic powers.</Data></Cell><Cell><Data ss:Type="String">具有灵能力量的单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">METAMORPHOSIS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Metamorphosis</Data></Cell><Cell><Data ss:Type="String">变形</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">METAMORPHOSIS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit evolves when it reaches the Prime Rank.</Data></Cell><Cell><Data ss:Type="String">该单位在达到精兵军阶后会进化。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">gold medal is the highest level a unit can get in-game. Units can gain levels by fighting and for each level they gain they become stronger.</Data></Cell><Cell><Data ss:Type="String">When this unit reaches elite rank it evolves (at the end of tactical combat).</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BOAT_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Ship</Data></Cell><Cell><Data ss:Type="String">战舰</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BOAT_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A standard ship for naval combat.</Data></Cell><Cell><Data ss:Type="String">海战标准战舰。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMPHIBIOUS_REQUISITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Amphibious</Data></Cell><Cell><Data ss:Type="String">水陆两栖</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AMPHIBIOUS_REQUISITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit can move over land and water hexes.[br/]When in the water, unit is Immune to [abilityred]Burning[/abilityred] and [abilityred]Immolation[/abilityred] due to its capability to submerge.</Data></Cell><Cell><Data ss:Type="String">该单位可在陆地和水域单元格上移动。[br/]位于水域单元格时，该单位能够潜入水下免疫[abilityred]燃烧[/abilityred]和[abilityred]焚祭[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLANT_ROOTS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Defense Mode: Plant Roots</Data></Cell><Cell><Data ss:Type="String">防御模式：植物根茎</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLANT_ROOTS_IMPROVED</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Defense Mode: Plant Roots (Improved)</Data></Cell><Cell><Data ss:Type="String">防御模式：植物根茎（强化）</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">PLANT_ROOTS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit ends its turn and goes into a defensive mode. It burrows roots into the soil, healing {healAmount}[hp/], gaining +{ArmorAmount}[armor/] and becoming [abilityblue]Stagger Immune[/abilityblue] until the next turn.</Data></Cell><Cell><Data ss:Type="String">该单位结束回合并进入防御模式，将其根茎扎入土地，治疗 {healAmount}[hp/]、获得 +{ArmorAmount}[armor/] 和[abilityblue]动摇免疫[/abilityblue]，效果持续至下一回合。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DETECTION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Detection</Data></Cell><Cell><Data ss:Type="String">侦察</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DETECTION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit can see concealed units within its vision range.</Data></Cell><Cell><Data ss:Type="String">该单位可看见视野范围内的隐藏单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REGENERATION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Regeneration</Data></Cell><Cell><Data ss:Type="String">恢复力</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REGENERATION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is regenerating {RegenAmount}[hp/] each Tactical turn. This unit regenerates all of its [hp/] each Strategic turn.</Data></Cell><Cell><Data ss:Type="String">该单位在每个战术回合将恢复 {RegenAmount}[hp/]，并且在每个战略回合将恢复全部[hp/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RAGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Blood Fury</Data></Cell><Cell><Data ss:Type="String">血怒</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">RAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unit is filled with rage, causing it to deal {RageDamageI} Damage and regenerate {RageHP}[hp/] per turn for each stack of Rage.</Data></Cell><Cell><Data ss:Type="String">该单位充满了愤怒，使其能够造成 {RageDamageI} 伤害，并且每叠加一层“怒火”，该单位在每回合将恢复 {RageHP}[hp/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RAGE_INDUCER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Blood Fury Inducers</Data></Cell><Cell><Data ss:Type="String">血怒诱因</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">RAGE_INDUCER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">When a Biological, Cyborg or Arborian unit dies in battle, this gives this unit one stack of [abilityblue]Blood Fury[/abilityblue], increasing damage by {RageDamage} and regenerating {RageHP}[hp/] per stack. Up to {RageStacks} stacks.</Data></Cell><Cell><Data ss:Type="String">当生物、半机械人或树人单位在战斗中死亡时，该单位将获得一层[abilityblue]血怒[/abilityblue]，每层提高该单位 {RageDamage} 伤害并恢复 {RageHP}[hp/]。最高可叠加 {RageStacks} 层。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LAVA_WALKING</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Lava Walking</Data></Cell><Cell><Data ss:Type="String">熔岩行走</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LAVA_WALKING</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The unit is able to walk over lava.</Data></Cell><Cell><Data ss:Type="String">该单位可行走于熔岩之上。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">UNIT_CORE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Core</Data></Cell><Cell><Data ss:Type="String">核心</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">UNIT_CORE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A basic unit.</Data></Cell><Cell><Data ss:Type="String">基础单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">UNIT_SKIRMISHER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Skirmisher</Data></Cell><Cell><Data ss:Type="String">散兵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">UNIT_SKIRMISHER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Offensive unit.</Data></Cell><Cell><Data ss:Type="String">攻击单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">UNIT_SPECIALIST</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Specialist</Data></Cell><Cell><Data ss:Type="String">专家</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">UNIT_SPECIALIST</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Specialized unit.</Data></Cell><Cell><Data ss:Type="String">专家单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">UNIT_ELITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Elite</Data></Cell><Cell><Data ss:Type="String">精英</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">UNIT_ELITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Elite unit.</Data></Cell><Cell><Data ss:Type="String">精英单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FOREST_AFFINITY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Forest Affinity</Data></Cell><Cell><Data ss:Type="String">森林亲和</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">FOREST_AFFINITY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unit gains +{MoraleBonus}[happiness/] Morale when fighting on Forest Hexes.</Data></Cell><Cell><Data ss:Type="String">单位在森林单元格中战斗时，获得 +{MoraleBonus}[happiness/] 士气。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FRIENDLY_TERRITORY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Friendly Territory</Data></Cell><Cell><Data ss:Type="String">友方领地</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">FRIENDLY_TERRITORY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unit regeneration is increased by {healing} per turn while in friendly territory.</Data></Cell><Cell><Data ss:Type="String">单位在位于友方领土时，恢复提高 {healing}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HEALING_ASSEMBLY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Scavenge Spare Parts</Data></Cell><Cell><Data ss:Type="String">搜刮备用零件</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">HEALING_ASSEMBLY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The Assembly restore themselves with parts taken from fallen foes, healing them for {healing} after each battle. </Data></Cell><Cell><Data ss:Type="String">半机械人可从阵亡的敌人身上搜刮零件来治疗自身，每次战斗结束后可治疗 {healing}。 </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HEALING_KIRKO</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Strategic Regeneration</Data></Cell><Cell><Data ss:Type="String">战略再生</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">HEALING_KIRKO</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The Kir'Ko are naturally adept at healing, increasing their Strategic Turn regeneration by {healing}.</Data></Cell><Cell><Data ss:Type="String">奇尔寇天生擅长治愈，其战略回合恢复提高 {healing}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TERRAIN_PREFERENCE_AMAZON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Favored Terrain - Arcadian</Data></Cell><Cell><Data ss:Type="String">偏好地形 - 田园</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">TERRAIN_PREFERENCE_AMAZON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Due to the likeness of the Arcadian climate to the Amazon home planet, all Amazon units gain {morale} when fighting in Arcadian terrain.</Data></Cell><Cell><Data ss:Type="String">由于田园气候与亚马逊人母星的气候相近，所有亚马逊人单位在田园地形上战斗时获得 {morale}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TERRAIN_PREFERENCE_VANGUARD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Favored Terrain - Arcadian</Data></Cell><Cell><Data ss:Type="String">偏好地形 - 田园</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">TERRAIN_PREFERENCE_VANGUARD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Due to the likeness of the Arcadian climate to the Vanguard home planet, all Vanguard units gain {morale} when fighting in Arcadian terrain.</Data></Cell><Cell><Data ss:Type="String">由于田园气候与先锋母星的气候相近，所有先锋单位在田园地形上战斗时获得 {morale}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TERRAIN_PREFERENCE_ASSEMBLY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Favored Terrain - Arctic</Data></Cell><Cell><Data ss:Type="String">偏好地形 - 极寒</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">TERRAIN_PREFERENCE_ASSEMBLY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Due to the likeness of the Arctic climate to the Assembly home planet, all Assembly units gain {morale} when fighting in Arctic terrain.</Data></Cell><Cell><Data ss:Type="String">由于极寒气候与半机械人母星的气候相近，所有半机械人单位在极寒地形上战斗时获得 {morale}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TERRAIN_PREFERENCE_DVAR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Favored Terrain - Arid</Data></Cell><Cell><Data ss:Type="String">偏好地形 - 干燥</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">TERRAIN_PREFERENCE_DVAR</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Due to the likeness of the Arid climate to the Dvar home planet, all Dvar units gain {morale} when fighting in Arid terrain.</Data></Cell><Cell><Data ss:Type="String">由于干燥气候与矮人母星的气候相近，所有矮人在干燥地形上战斗时获得 {morale}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TERRAIN_PREFERENCE_SYNDICATE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Favored Terrain - Arid</Data></Cell><Cell><Data ss:Type="String">偏好地形 - 干燥</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">TERRAIN_PREFERENCE_SYNDICATE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Due to the likeness of the Arid climate to the Syndicate home planet, all Syndicate units gain {morale} when fighting in Arid terrain.</Data></Cell><Cell><Data ss:Type="String">由于干燥气候与辛迪加人母星的气候相近，所有辛迪加人在干燥地形上战斗时获得 {morale}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TERRAIN_PREFERENCE_KIRKO</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Favored Terrain - Fungal</Data></Cell><Cell><Data ss:Type="String">偏好地形 - 真菌</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">TERRAIN_PREFERENCE_KIRKO</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Due to the likeness of the Fungal climate to the Kir'Ko home planet, all Kir'Ko units gain {morale} when fighting in Fungal terrain.</Data></Cell><Cell><Data ss:Type="String">由于真菌气候与奇尔寇母星的气候相近，所有奇尔寇在真菌地形上战斗时获得 {morale}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHIELD_BYPASS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Shield Bypass</Data></Cell><Cell><Data ss:Type="String">忽视护盾</Data></Cell><Cell ss:Index="9" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHIELD_BYPASS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION_MOD</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Bypass {ShieldBypass}</Data></Cell><Cell><Data ss:Type="String">忽视 {ShieldBypass}</Data></Cell><Cell ss:Index="9" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFENSE_BYPASS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Defense Bypass</Data></Cell><Cell><Data ss:Type="String">忽视防御</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFENSE_BYPASS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Bypass {ArmorBypass} and {ShieldBypass}</Data></Cell><Cell><Data ss:Type="String">忽视 {ArmorBypass} 及 {ShieldBypass}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">OFFENSIVE_MOD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Offensive Mod</Data></Cell><Cell><Data ss:Type="String">攻击模块</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">OFFENSIVE_MOD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Additionally, this mod grants the unit {OffensiveModDamage} increased damage on all abilities.</Data></Cell><Cell><Data ss:Type="String">该模块能够使单位的所有技能伤害提高 {OffensiveModDamage}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HEALTH_MOD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Defense Mod - Hit Points</Data></Cell><Cell><Data ss:Type="String">防御模块 - 生命值</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HEALTH_MOD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Additionally, this mod grants the unit {HealthModDamage}.</Data></Cell><Cell><Data ss:Type="String">该模块能够赋予单位 {HealthModDamage}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFENSE_MOD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Defense Mod - Armor</Data></Cell><Cell><Data ss:Type="String">防御模块 - 护甲</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFENSE_MOD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Additionally, this mod grants the unit {ArmorModDamage}.</Data></Cell><Cell><Data ss:Type="String">该模块能够赋予单位 {ArmorModDamage}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHIELD_MOD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Defense Mod - Shields</Data></Cell><Cell><Data ss:Type="String">防御模块 - 护盾</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHIELD_MOD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Additionally, this mod grants the unit {ShieldModDamage}.</Data></Cell><Cell><Data ss:Type="String">该模块能够赋予单位 {ShieldModDamage}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CRASH_DOWN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Crash Down</Data></Cell><Cell><Data ss:Type="String">坠落</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">CRASH_DOWN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">When destroyed, this unit will crash to the ground on a nearby hex, damaging anything on that hex.</Data></Cell><Cell><Data ss:Type="String">该单位在被摧毁时将坠落至附近单元格地面，对该单元格上的所有物体造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GOLD_RANK_OFFENSIVE_01</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Prime Rank: Critical</Data></Cell><Cell><Data ss:Type="String">精兵军阶：暴击</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">GOLD_RANK_OFFENSIVE_01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit's combat experience grants it {CritIncrease} increased critical hit chance.</Data></Cell><Cell><Data ss:Type="String">该单位的战斗经验使其暴击率提升 {CritIncrease}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GOLD_RANK_OFFENSIVE_02</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Prime Rank: Bypass Cover</Data></Cell><Cell><Data ss:Type="String">精兵军阶：忽视掩体</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">GOLD_RANK_OFFENSIVE_02</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit's combat experience allows it to ignore {LoSIgnore} of cover and unit in the way penalties with ranged weapons.</Data></Cell><Cell><Data ss:Type="String">该单位的战斗经验使其在使用远程武器时忽略 {LoSIgnore} 因掩体和阻挡单位造成的惩罚。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GOLD_RANK_OFFENSIVE_03</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Prime Rank: Range</Data></Cell><Cell><Data ss:Type="String">精兵军阶：射程</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">GOLD_RANK_OFFENSIVE_03</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit's combat experience increases its ranged weapon range by {RangeIncrease}.</Data></Cell><Cell><Data ss:Type="String">该单位的战斗经验使其远程武器的射程增加 {RangeIncrease}。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">GOLD_RANK_OFFENSIVE_04</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Prime Rank: Improved Overwatch</Data></Cell><Cell><Data ss:Type="String">精兵军阶：强化警戒</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GOLD_RANK_OFFENSIVE_04</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit's combat experience grants it +{accuracyBonus}% accuracy when using overwatch.</Data></Cell><Cell><Data ss:Type="String">该单位的战斗经验使其使用警戒时的准度 +{accuracyBonus}%。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GOLD_RANK_DEFENSIVE_01</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Prime Rank: Shrug Off</Data></Cell><Cell><Data ss:Type="String">精兵军阶：抵挡</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">GOLD_RANK_DEFENSIVE_01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit's combat experience grants it {ShrugoffValue} resistance against all Status Effects.</Data></Cell><Cell><Data ss:Type="String">该单位的战斗经验使其获得对所有状态效果获得 {ShrugoffValue} 抵抗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GOLD_RANK_DEFENSIVE_02</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Prime Rank: Evasive</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">精兵军阶：闪避</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GOLD_RANK_DEFENSIVE_02</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit's combat experience makes it {EvasionIncrease} harder to hit.</Data></Cell><Cell><Data ss:Type="String">该单位的战斗经验使其命中难度增加 {EvasionIncrease}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GOLD_RANK_DEFENSIVE_03</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Prime Rank: Firm</Data></Cell><Cell><Data ss:Type="String">精兵军阶：坚定</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GOLD_RANK_DEFENSIVE_03</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit's combat experience grants it a level of Stagger Resistance.</Data></Cell><Cell><Data ss:Type="String">该单位的战斗经验使其获得 1 级动摇抵抗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GOLD_RANK_UTILITY_01</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Prime Rank: Overwatch</Data></Cell><Cell><Data ss:Type="String">精兵军阶：警戒</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GOLD_RANK_UTILITY_01</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit's combat experience grants it Overwatch.</Data></Cell><Cell><Data ss:Type="String">该单位的战斗经验使其获得警戒。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GOLD_RANK_UTILITY_02</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Prime Rank: Morale</Data></Cell><Cell><Data ss:Type="String">精兵军阶：士气</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GOLD_RANK_UTILITY_02</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit's combat experience grants it {MoraleBoost} increased morale.</Data></Cell><Cell><Data ss:Type="String">该单位的战斗经验使其士气提升 {MoraleBoost}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GOLD_RANK_UTILITY_03</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Prime Rank: Ignore Overwatch</Data></Cell><Cell><Data ss:Type="String">精兵军阶：无视警戒</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GOLD_RANK_UTILITY_03</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit's combat experience allows it to ignore enemy Overwatch.</Data></Cell><Cell><Data ss:Type="String">该单位的战斗经验使其无视敌人的警戒。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GLOBAL_UNIT_MOD_TEMPLATE_01</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Advanced</Data></Cell><Cell><Data ss:Type="String">先进的</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GLOBAL_UNIT_MOD_TEMPLATE_02</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Elite</Data></Cell><Cell><Data ss:Type="String">精英</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Used to say that an ability is an inherent part of a unit (e.g. Cats are inherently furry)</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SKITTER</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Skitter</Data></Cell><Cell><Data ss:Type="String">飞掠者</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SKITTER</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit becomes {amountPercentage} harder to hit for each hex it moved during its last turn.</Data></Cell><Cell><Data ss:Type="String">该单位在上一回合中每走过一个单元格，命中难度就增加 {amountPercentage}。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">INHERENT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Inherent</Data></Cell><Cell><Data ss:Type="String">固有</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Used to say that an ability is an inherent part of a unit (e.g. Cats are inherently furry)</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TEMPORARY_UNIT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Temporary Unit</Data></Cell><Cell ss:StyleID="Default"><Data ss:Type="String">临时单位</Data></Cell><Cell ss:Index="7" ss:StyleID="Default"/><Cell ss:StyleID="s67"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TEMPORARY_UNIT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit will disappear after a certain amount of turns.</Data></Cell><Cell ss:StyleID="Default"><Data ss:Type="String">该单位经过一定回合后将会消失。</Data></Cell><Cell ss:Index="7" ss:StyleID="Default"/><Cell ss:StyleID="s67"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EVASIVE_MANEUVERS</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Evasive Maneuvers</Data></Cell><Cell><Data ss:Type="String">机动规避</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EVASIVE_MANEUVERS</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit becomes {amountPercentage} harder to hit for each hex it moved during its last turn.</Data></Cell><Cell><Data ss:Type="String">该单位在上一回合中每走过一个单元格，命中难度就增加 {amountPercentage}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">KINETIC_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">STATUS_NAME</Data></Cell><Cell><Data ss:Type="String">Kinetic Status Effect Immunity</Data></Cell><Cell><Data ss:Type="String">动能状态效果免疫</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">KINETIC_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">STATUS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be affected by [damagephysical/] Status or Hazard Effects.</Data></Cell><Cell><Data ss:Type="String">该单位不受[damagephysical/]状态或灾害效果影响。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPY_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Entropy Immunity</Data></Cell><Cell><Data ss:Type="String">混沌免疫</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPY_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be affected by [damageentropy/] Damage or Effects.</Data></Cell><Cell><Data ss:Type="String">该单位不受[damageentropy/]伤害或效果影响。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPY_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">STATUS_NAME</Data></Cell><Cell><Data ss:Type="String">Entropy Status Effect Immunity</Data></Cell><Cell><Data ss:Type="String">混沌状态效果免疫</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPY_IMMUNITY</Data></Cell><Cell><Data ss:Type="String">STATUS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be affected by [damageentropy/] Status or Hazard Effects.</Data></Cell><Cell><Data ss:Type="String">该单位不受[damageentropy/]状态或灾害效果影响。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SUBMERGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Submerge</Data></Cell><Cell><Data ss:Type="String">下潜</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SUBMERGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unit is Immune to [abilityred]Burning[/abilityred] and [abilityred]Immolation[/abilityred] due to its capability to submerge underwater.</Data></Cell><Cell><Data ss:Type="String">该单位能够潜入水下，免疫[abilityred]燃烧[/abilityred]和[abilityred]焚祭[/abilityred]。</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="8"><Data ss:Type="String">{levitationMovementCost}: 4 [moveWalk/]; {roadAndWaterFloatingMovementCost}: 3 [moveWalk/]; French added, other languages need update.</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Selected/><TopRowVisible>214</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>244</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:56:13Z</Created><LastSaved
+    >2019-06-25T15:56:13Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s64"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Borders /><Interior
+      /><NumberFormat /><Protection /></Style><Style ss:ID="s65"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /><NumberFormat ss:Format="0%" /></Style><Style ss:ID="s67"><Alignment
+        ss:Vertical="Bottom"
+        ss:WrapText="1"
+      /><Interior /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="171" /><Column
+        ss:StyleID="s62"
+        ss:Width="114"
+      /><Column ss:StyleID="s62" ss:Width="327.75" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s62" ss:Width="305.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="226.5"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="254.25" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">UNIT_UPGRADES_CORE</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MECHANICAL_REQUISITE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mechanical</Data></Cell><Cell><Data
+            ss:Type="String"
+          >机械</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">MECHANICAL_REQUISITE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A unit made primarily from machinery and electronics. Mechanical units are vulnerable to Arc damage and take reduced damage from Psionic damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一种主要由机械和电子元件构成的单位。机械单位更容易受到电弧伤害，但受到的灵能伤害更少。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIOLOGICAL_REQUISITE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Biological</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生物</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BIOLOGICAL_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A carbon-based lifeform.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >一种碳基生命形式。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">CYBORG_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cyborg</Data></Cell><Cell><Data
+            ss:Type="String"
+          >半机器人</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">CYBORG_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A cybernetic organism composed of both mechanical and biological parts. Cyborgs have an inherent {CyborgResistance} resistance to all status effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由机械和生物组件组成的神经机械生物。半机器人对所有状态效果天生拥有 {CyborgResistance} 抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CYBORG_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RESISTANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cyborg Resistance</Data></Cell><Cell><Data
+            ss:Type="String"
+          >半机器人抵抗</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MINERAL_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mineral</Data></Cell><Cell><Data
+            ss:Type="String"
+          >矿物</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">MINERAL_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A silicon-based lifeform. Mineral units are vulnerable to Biochemical damage and take reduced damage from Arc and Thermal damage. They are immune to all Damage over Time status effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一种硅基生命形式。矿物单位更容易受到生化伤害，但受到的电弧和热能伤害更少。矿物单位对所有持续伤害效果免疫。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ETHEREAL_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ethereal</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚灵</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">ETHEREAL_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >An energy-based lifeform. Ethereal units are able to pass through walls and have resistance against the Kinetic, Biochemical and Arc damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一种基于能量的生命形式。虚灵单位可以穿过墙体，对动能、生化和电弧伤害具有抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LIGHT_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Light Unit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >轻型单位</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >LIGHT_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A small, standard unit.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >体型较小的标准单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEAVY_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heavy Unit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >重型单位</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">HEAVY_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A heavier, stronger unit. Heavy units cannot be staggered by high impact attacks, and do not turn to face their attacker when flanked.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >体型更重，实力更强的单位。重型单位不会因高度冲击攻击而动摇，并且被包抄时不会转身面向攻击者。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INFANTRY_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Infantry</Data></Cell><Cell><Data
+            ss:Type="String"
+          >步兵</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">INFANTRY_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A unit which is usually bipedal, or at least vaguely humanoid in shape.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一种通常使用双足行走或是形态类似于人类的单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ANIMAL_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Animal</Data></Cell><Cell><Data
+            ss:Type="String"
+          >动物</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ANIMAL_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A non-sapient unit.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >一种不具有智慧的单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARBORIAN_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arborian</Data></Cell><Cell><Data
+            ss:Type="String"
+          >树人</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ARBORIAN_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >An arborian based creature.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >一种树型生物。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOUNTED_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mounted</Data></Cell><Cell><Data
+            ss:Type="String"
+          >骑乘</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOUNTED_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is mounted on an animal.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >该单位骑乘在某只动物上。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MINDLESS_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mindless</Data></Cell><Cell><Data
+            ss:Type="String"
+          >无意识</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MINDLESS_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is immune to Psionic status effects and Morale changes.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位免疫灵能状态效果和士气改变。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VANGUARD_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_SPECIES_HUMANS@RACE@NAME_SINGULAR}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_SPECIES_HUMANS@RACE@NAME_SINGULAR}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >{text} inserts the vanguard singular name</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Links to Species_Humans(_Split).xml</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">VANGUARD_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A Vanguard unit.[br/]{XML_SPECIES_HUMANS@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >先锋单位。[br/]{XML_SPECIES_HUMANS@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >{text} inserts the short vanguard description.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Links to Species_Humans(_Split).xml</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ASSEMBLY_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_SPECIES_ASSEMBLY@RACE@NAME_SINGULAR}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_SPECIES_ASSEMBLY@RACE@NAME_SINGULAR}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >{text} inserts the assembly singular name</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Links to Species_Assembly(_Split).xml</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ASSEMBLY_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >An Assembly unit.[br/]{XML_SPECIES_ASSEMBLY@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >半机械人单位。[br/]{XML_SPECIES_ASSEMBLY@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >{text} inserts the short assembly description.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Links to Species_Assembly(_Split).xml</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">KIRKO_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_SPECIES_KIRKO@RACE@NAME_SINGULAR}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_SPECIES_KIRKO@RACE@NAME_SINGULAR}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >{text} inserts the kirko singular name</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Links to Species_Kirko(_Split).xml</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">KIRKO_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A Kir'Ko unit.[br/]{XML_SPECIES_KIRKO@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >奇尔寇单位。[br/]{XML_SPECIES_KIRKO@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >{text} inserts the short kirko description.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Links to Species_Kirko(_Split).xml</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DVAR_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_SPECIES_DVAR@RACE@NAME_SINGULAR}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_SPECIES_DVAR@RACE@NAME_SINGULAR}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >{text} inserts the dvar singular name</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Links to Species_Dvar(_Split).xml</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DVAR_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A Dvar unit.[br/]{XML_SPECIES_DVAR@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >矮人单位。[br/]{XML_SPECIES_DVAR@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >{text} inserts the short dvar description.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Links to Species_Dvar(_Split).xml</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AMAZON_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_SPECIES_AMAZONS@RACE@NAME_SINGULAR}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_SPECIES_AMAZONS@RACE@NAME_SINGULAR}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >{text} inserts the amazon singular name</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Links to Species_Amazon(_Split).xml</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AMAZON_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >An Amazon unit.[br/]{XML_SPECIES_AMAZONS@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >亚马逊单位。[br/]{XML_SPECIES_AMAZONS@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >{text} inserts the short amazon description.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Links to Species_Amazon(_Split).xml</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SYNDICATE_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_SPECIES_SYNDICATE@RACE@NAME_SINGULAR}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_SPECIES_SYNDICATE@RACE@NAME_SINGULAR}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >{text} inserts the syndicate singular name</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Links to Species_Syndicate(_Split).xml</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SYNDICATE_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A Syndicate unit.[br/]{XML_SPECIES_SYNDICATE@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >辛迪加单位。[br/]{XML_SPECIES_SYNDICATE@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >{text} inserts the short syndicate description.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Links to Species_Syndicate(_Split).xml</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCOUT_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Scout</Data></Cell><Cell><Data
+            ss:Type="String"
+          >侦察兵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SCOUT_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Scouts are mobile reconnaissance units.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >侦察兵是机动性很强的侦察单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLANT_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Plant</Data></Cell><Cell><Data
+            ss:Type="String"
+          >植物</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PLANT_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A biological plant lifeform. Plants are vulnerable to Thermal damage, but resistant to Arc damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一种生物植物生命形式。植物容易受到热能伤害，但对电弧伤害具有抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COLONIZER_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Colonizer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民者</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">COLONIZER_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit can create new colonies if the Colonizer unit occupies an empty sector center. Colonies cannot be created in sectors adjacent to existing colonies.[br/]Building a new colony will remove the Colonizer unit.[br/]Each colonizer you build will cost {energyCost}, {crystalCost} and {productionCost} than the one before it.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >如果殖民者单位占领了某个空的区域中心，就能建造新殖民地。新的殖民地无法建造在与现有殖民地相邻的区域中。[br/]建造新殖民地将会移除殖民者单位。[br/]你所建造的每一个殖民者将比上一个殖民者多消耗 {energyCost}、{crystalCost} 和 {productionCost}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">KINETIC_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Kinetic Immunity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >动能免疫</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">KINETIC_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be affected by [damagephysical/] Damage or Effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位不受[damagephysical/]伤害或效果影响。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">THERMAL_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thermal Immunity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >热能免疫</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">THERMAL_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be affected by [damagethermal/] Damage or Effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位不受[damagethermal/]伤害或效果影响。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">THERMAL_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thermal Status Effect Immunity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >热能状态效果免疫</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">THERMAL_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be affected by [damagethermal/] Status or Hazard Effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位不受[damagethermal/]状态或灾害效果影响。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HAZARD_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hazard Immunity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灾害免疫</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HAZARD_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be affected by Hazard Effects.</Data></Cell><Cell
+        ><Data ss:Type="String">该单位不受灾害效果影响。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">THERMAL_RESISTANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thermal Resistance</Data></Cell><Cell><Data
+            ss:Type="String"
+          >热能抵抗</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >THERMAL_RESISTANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has {ThermalResistance} resistance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位拥有 {ThermalResistance} 抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PSIONIC_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psionic Immunity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵能免疫</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PSIONIC_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be affected by [damagepsyche/] Damage or Effects</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位不受[damagepsyche/]伤害或效果影响</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PSIONIC_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psionic Status Effect Immunity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵能状态效果免疫</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PSIONIC_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be affected by [damagepsyche/] Status or Hazard Effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位不受[damagepsyche/]状态或灾害效果影响。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIOCHEMICAL_IMMUNITY</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Biochemical Immunity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化免疫</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BIOCHEMICAL_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be affected by [damagebio/] Damage or Effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位不受[damagebio/]伤害或效果影响。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIOCHEMICAL_IMMUNITY</Data></Cell><Cell
+        ><Data ss:Type="String">STATUS_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Biochemical Status Effect Immunity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化状态效果免疫</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">BIOCHEMICAL_IMMUNITY</Data></Cell><Cell
+        ><Data ss:Type="String">STATUS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be affected by [damagebio/] Status or Hazard Effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位不受[damagebio/]状态或灾害效果影响。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARC_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arc Immunity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电弧免疫</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ARC_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be affected by [damagewave/] Damage or Effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位不受[damagewave/]伤害或效果影响。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARC_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arc Status Effect Immunity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电弧状态效果免疫</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ARC_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be affected by [damagewave/] Status or Hazard Effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位不受[damagewave/]状态或灾害效果影响。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COMPLETE_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Complete Immunity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >完全免疫</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">COMPLETE_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be affected by any Damage, and Status or Hazard Effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位不受任何伤害、状态或灾害效果影响。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DAMAGE_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Damage Immunity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >伤害免疫</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DAMAGE_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be damaged.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >该单位不会受到伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">STATUS_EFFECT_IMMUNITY</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Status Effect Immunity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >状态效果免疫</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >STATUS_EFFECT_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be affected by Status Effects.</Data></Cell><Cell
+        ><Data ss:Type="String">该单位不受状态效果影响。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DAMAGE_OVER_TIME_IMMUNITY</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Status Effect: Damage Over Time Immunity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >状态效果：持续伤害免疫</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DAMAGE_OVER_TIME_IMMUNITY</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be affected by Damage over Time Status Effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位不受持续伤害状态效果影响。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LAND_MOVEMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Land Movement</Data></Cell><Cell><Data
+            ss:Type="String"
+          >陆地移动</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >LAND_MOVEMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit can move over land hexes.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >该单位可以在陆地单元格上移动。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">WATER_MOVEMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Water Movement</Data></Cell><Cell><Data
+            ss:Type="String"
+          >水域移动</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >WATER_MOVEMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit can only move on water hexes.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >该单位只能在水域单元格上移动。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Expedited Movement (Universal)</Data></Cell><Cell><Data
+            ss:Type="String"
+          >加速移动（通用）</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">EXPEDITED_MOVEMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has increased movement on all terrain types.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在所有地形类型上具有更快的移动速度。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >EXPEDITED_MOVEMENT_FLATTERRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Expedited Movement (Flat Terrain)</Data></Cell><Cell><Data
+            ss:Type="String"
+          >加速移动（平坦地形）</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >EXPEDITED_MOVEMENT_FLATTERRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has increased movement on Roads, Plains and Volcanic terrain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在道路、平原和火山地形上具有更快的移动速度。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_FOREST</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Expedited Movement (Forest)</Data></Cell><Cell><Data
+            ss:Type="String"
+          >加速移动（森林）</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">EXPEDITED_MOVEMENT_FOREST</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has increased movement on Forest terrain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在森林地形上具有更快的移动速度。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_HILL</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Expedited Movement (Hill)</Data></Cell><Cell><Data
+            ss:Type="String"
+          >加速移动（丘陵）</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">EXPEDITED_MOVEMENT_HILL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has increased movement on Hill terrain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在丘陵地形上具有更快的移动速度。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >EXPEDITED_MOVEMENT_MOUNTAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Expedited Movement (Mountain)</Data></Cell><Cell><Data
+            ss:Type="String"
+          >加速移动（山地）</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >EXPEDITED_MOVEMENT_MOUNTAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has increased movement on Mountain terrain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在山地地形上具有更快的移动速度。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_PLAINS</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Expedited Movement (Fertile Plains)</Data></Cell><Cell><Data
+            ss:Type="String"
+          >加速移动（肥沃平原）</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_PLAINS</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has increased movement on Fertile Plains terrain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在肥沃平原地形上具有更快的移动速度。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_ROCKY</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Expedited Movement (Rocky)</Data></Cell><Cell><Data
+            ss:Type="String"
+          >加速移动（岩石）</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">EXPEDITED_MOVEMENT_ROCKY</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has increased movement on Rocky terrain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在岩石地形上具有更快的移动速度。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_SWAMP</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Expedited Movement (Wetlands)</Data></Cell><Cell><Data
+            ss:Type="String"
+          >加速移动（湿地）</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">EXPEDITED_MOVEMENT_SWAMP</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has increased movement on Wetlands terrain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在湿地地形上具有更快的移动速度。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXPEDITED_MOVEMENT_RUINS</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Expedited Movement (Ruins)</Data></Cell><Cell><Data
+            ss:Type="String"
+          >加速移动（废墟）</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">EXPEDITED_MOVEMENT_RUINS</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has increased movement on Ruins terrain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在废墟地形上具有更快的移动速度。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RIVER_CROSSING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >River Crossing Expertise</Data></Cell><Cell><Data
+            ss:Type="String"
+          >过河技艺</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">RIVER_CROSSING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has been trained in crossing rivers, and does so at a greatly reduced move point cost.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位进行了过河训练，因此极大地减少了过河消耗的移动点数。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GARRISON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Colony Militia</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地卫队</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GARRISON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is in a Colony Militia.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >该单位属于殖民地卫队。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FLYING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Flying</Data></Cell><Cell><Data
+            ss:Type="String"
+          >飞行</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FLYING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is Flying, and is {flyingPenalty} harder to hit with most weapons.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位为飞行单位，因此大多数武器命中该单位的难度增加 {flyingPenalty}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ALLROUND_AWARENESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All-round Awareness</Data></Cell><Cell><Data
+            ss:Type="String"
+          >全方位觉察</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ALLROUND_AWARENESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be Flanked.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >该单位不会被包抄。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">FARSIGHT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Farsight</Data></Cell><Cell><Data
+            ss:Type="String"
+          >远视</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FARSIGHT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit has {farsightVisionBonus} vision range.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位拥有 {farsightVisionBonus} 视野范围。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DEFENSE_MODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defense Mode</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御模式</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">DEFENSE_MODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit ends its turn and goes into a defensive mode. It becomes {DefensiveAccuracyTarget} harder to hit and cannot be flanked.[br/]If this unit is staggered, the defensive mode is canceled.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位结束回合并进入防御模式，命中难度增加 {DefensiveAccuracyTarget} 且无法被包抄。[br/]如果该单位被动摇，防御模式将被中止。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DEFENSE_MODE_EVASION</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defense Mode: Evasion</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御模式：闪避</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">DEFENSE_MODE_EVASION</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit ends its turn and goes into a defensive mode. It becomes {DefensiveAccuracyTarget} harder to hit and cannot be flanked.[br/]If this unit is staggered, the defensive mode is canceled.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位结束回合并进入防御模式，命中难度增加 {DefensiveAccuracyTarget} 且无法被包抄。[br/]如果该单位被动摇，防御模式将被中止。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DEFENSE_MODE_EVASION</Data></Cell><Cell
+        ><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit evades incoming attacks, and becomes {EvadeHitPenalty} harder to hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位将躲避袭来的攻击，使其命中难度增加 {EvadeHitPenalty}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DEFENSE_MODE_SHIELDS_UP</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defense Mode: Shields Up</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御模式：起盾</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">DEFENSE_MODE_SHIELDS_UP</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit ends its turn and goes into a defensive mode. It gains {DefensiveShields}, becomes {DefensiveAccuracyTarget} harder to hit and cannot be flanked.[br/]If this unit is staggered, the defensive mode is canceled.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位结束回合并进入防御模式，获得 {DefensiveShields}、命中难度增加 {DefensiveAccuracyTarget} 且无法被包抄。[br/]如果该单位被动摇，防御模式将被中止。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DEFENSE_MODE_HYPER_ARMOR</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defense Mode: Hyper Armor</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御模式：超级护甲</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">DEFENSE_MODE_HYPER_ARMOR</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit ends its turn and goes into a defensive mode. It gains {DefensiveArmor}, becomes {DefensiveAccuracyTarget} harder to hit and cannot be flanked.[br/]If this unit is staggered, the defensive mode is canceled.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位结束回合并进入防御模式，获得 {DefensiveArmor}、命中难度增加 {DefensiveAccuracyTarget} 且无法被包抄。[br/]如果该单位被动摇，防御模式将被中止。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DEFENSE_MODE_REGENERATION</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defense Mode: Regeneration</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御模式：再生</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">DEFENSE_MODE_REGENERATION</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit ends its turn and goes into a defensive mode. It regenerates {DefensiveRegeneration}, becomes {DefensiveAccuracyTarget} harder to hit and cannot be flanked.[br/]If this unit is staggered, the defensive mode is canceled.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位结束回合并进入防御模式，恢复 {DefensiveRegeneration}、命中难度增加 {DefensiveAccuracyTarget} 且无法被包抄。[br/]如果该单位被动摇，防御模式将被中止。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >DEFENSE_MODE_PSITEC_SHIELD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defense Mode: PsiTec Shield</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御模式：灵能科技护盾</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data
+            ss:Type="String"
+          >DEFENSE_MODE_PSITEC_SHIELD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit ends its turn and goes into a defensive mode. It grants itself and adjacent allies {DefenseModePsiTecShieldDefense}. It also becomes {DefensiveAccuracyTarget} harder to hit and cannot be flanked.[br/]If this unit is staggered, the defensive mode is canceled.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位结束回合并进入防御模式，使自身和相邻友军获得 {DefenseModePsiTecShieldDefense}，同时自身命中难度增加 {DefensiveAccuracyTarget} 且无法被包抄。[br/]如果该单位被动摇，防御模式将被中止。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DEFENSE_MODE_MIRAGE_FIELD</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defense Mode: Mirage Field</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御模式：幻象护盾</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">DEFENSE_MODE_MIRAGE_FIELD</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit ends its turn and goes into a defensive mode. It grants [abilityblue]Obscured[/abilityblue] to all units in a 1 hex radius below it. This unit also becomes {DefensiveAccuracyTarget} harder to hit, gains [abilityBlue]Impact Resistance[/abilityBlue] and cannot be flanked.[br/] If this unit is staggered, the defensive mode is canceled. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位结束回合并进入防御模式，使位于其下方 1 个单元格范围内的所有单位获得[abilityblue]模糊[/abilityblue]，同时自身命中难度增加 {DefensiveAccuracyTarget} 并获得[abilityBlue]冲击抵抗[/abilityBlue]，该单位不会被包抄。[br/]如果该单位被动摇，防御模式将被中止。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DEFENSE_MODE_SUBMERGE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defense Mode: Submerge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御模式：遮掩</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">DEFENSE_MODE_SUBMERGE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit ends its turn and goes into a defensive mode. It becomes {SubmergeHitChance} harder to hit, recovers {SubmergeRegen} and can't be flanked.[br/]If this unit is staggered, the defensive mode is canceled.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位结束回合并进入防御模式，命中难度增加 {SubmergeHitChance}、恢复{SubmergeRegen} 且无法被包抄。[br/]如果该单位被动摇，防御模式将被中止</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SHIELDED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shielded</Data></Cell><Cell><Data
+            ss:Type="String"
+          >得到保护</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SHIELDED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is shielded by a nearby ally, granting them {ShieldedDefense}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位受到附近友军保护，获得 {ShieldedDefense}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MEDUSA_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Medusa</Data></Cell><Cell><Data
+            ss:Type="String"
+          >美杜莎</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >LARGE_TARGET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Large Target</Data></Cell><Cell><Data
+            ss:Type="String"
+          >大型目标</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">LARGE_TARGET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is {largeTargetPenalty} easier to hit with ranged attacks, and cannot make use of cover. It can be used by other units as cover.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用远程攻击命中该单位的难度降低 {largeTargetPenalty} 且无法利用掩体，但可以被其他单位用来作为掩体。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SMALL_TARGET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Small Target</Data></Cell><Cell><Data
+            ss:Type="String"
+          >小型目标</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SMALL_TARGET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is {SmallTargetAccuracy} harder to hit with ranged attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用远程攻击命中该单位的难度增加 {SmallTargetAccuracy}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LIFE_DRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Life Drain</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生命汲取</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">LIFE_DRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit heals for {LifeAmount} whenever they deal damage with a melee attack. Only works on Biological and Cyborg units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位使用近战攻击造成伤害时可治疗 {LifeAmount}。该技能仅对生物和半机械人单位有效。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">LIFE_DRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heals {LifeAmount} when attacking Biological or Cyborg units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >攻击生物或半机械人单位时，治疗 {LifeAmount}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REINFORCEMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reinforcement</Data></Cell><Cell><Data
+            ss:Type="String"
+          >增援</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >REINFORCEMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit will disappear at the end of combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位将在战斗结束后消失。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RAPID_EVOLUTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Rapid Evolution</Data></Cell><Cell><Data
+            ss:Type="String"
+          >快速进化</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RAPID_EVOLUTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit gains {ExpIncrease} more experience when victorious in combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在战斗胜利后可额外获得 {ExpIncrease} 经验。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >float as in hovering above any type of terrain (ground and water)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Commander</Data></Cell><Cell><Data
+            ss:Type="String"
+          >指挥官</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >LEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This character is the Commander of their faction.</Data></Cell><Cell
+        ><Data ss:Type="String">该角色是其阵营的指挥官。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FLOATING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Floating</Data></Cell><Cell><Data
+            ss:Type="String"
+          >悬浮</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >float as in hovering above any type of terrain (ground and water)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">FLOATING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is Floating, enabling it to traverse every type of terrain at a move cost of {floatingMovementCost}, except Mountains, which cost {flyingMountainMovementCost}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位悬浮在半空，可消耗 {floatingMovementCost} 穿过除山地地形外的所有地形类型，山地地形需消耗 {flyingMountainMovementCost}。</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >When this unit reaches elite rank it evolves (at the end of tactical combat).</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PSIONICS_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psionic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵能</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PSIONICS_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A unit with Psionic powers.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >具有灵能力量的单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">METAMORPHOSIS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Metamorphosis</Data></Cell><Cell><Data
+            ss:Type="String"
+          >变形</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">METAMORPHOSIS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit evolves when it reaches the Prime Rank.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在达到精兵军阶后会进化。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >gold medal is the highest level a unit can get in-game. Units can gain levels by fighting and for each level they gain they become stronger.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >When this unit reaches elite rank it evolves (at the end of tactical combat).</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BOAT_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ship</Data></Cell><Cell><Data
+            ss:Type="String"
+          >战舰</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BOAT_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A standard ship for naval combat.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >海战标准战舰。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">AMPHIBIOUS_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Amphibious</Data></Cell><Cell><Data
+            ss:Type="String"
+          >水陆两栖</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AMPHIBIOUS_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit can move over land and water hexes.[br/]When in the water, unit is Immune to [abilityred]Burning[/abilityred] and [abilityred]Immolation[/abilityred] due to its capability to submerge.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位可在陆地和水域单元格上移动。[br/]位于水域单元格时，该单位能够潜入水下免疫[abilityred]燃烧[/abilityred]和[abilityred]焚祭[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLANT_ROOTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defense Mode: Plant Roots</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御模式：植物根茎</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANT_ROOTS_IMPROVED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defense Mode: Plant Roots (Improved)</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御模式：植物根茎（强化）</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">PLANT_ROOTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit ends its turn and goes into a defensive mode. It burrows roots into the soil, healing {healAmount}[hp/], gaining +{ArmorAmount}[armor/] and becoming [abilityblue]Stagger Immune[/abilityblue] until the next turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位结束回合并进入防御模式，将其根茎扎入土地，治疗 {healAmount}[hp/]、获得 +{ArmorAmount}[armor/] 和[abilityblue]动摇免疫[/abilityblue]，效果持续至下一回合。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DETECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Detection</Data></Cell><Cell><Data
+            ss:Type="String"
+          >侦察</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DETECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit can see concealed units within its vision range.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位可看见视野范围内的隐藏单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REGENERATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Regeneration</Data></Cell><Cell><Data
+            ss:Type="String"
+          >恢复力</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >REGENERATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is regenerating {RegenAmount}[hp/] each Tactical turn. This unit regenerates all of its [hp/] each Strategic turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在每个战术回合将恢复 {RegenAmount}[hp/]，并且在每个战略回合将恢复全部[hp/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blood Fury</Data></Cell><Cell><Data
+            ss:Type="String"
+          >血怒</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">RAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit is filled with rage, causing it to deal {RageDamageI} Damage and regenerate {RageHP}[hp/] per turn for each stack of Rage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位充满了愤怒，使其能够造成 {RageDamageI} 伤害，并且每叠加一层“怒火”，该单位在每回合将恢复 {RageHP}[hp/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RAGE_INDUCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blood Fury Inducers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >血怒诱因</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">RAGE_INDUCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >When a Biological, Cyborg or Arborian unit dies in battle, this gives this unit one stack of [abilityblue]Blood Fury[/abilityblue], increasing damage by {RageDamage} and regenerating {RageHP}[hp/] per stack. Up to {RageStacks} stacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >当生物、半机械人或树人单位在战斗中死亡时，该单位将获得一层[abilityblue]血怒[/abilityblue]，每层提高该单位 {RageDamage} 伤害并恢复 {RageHP}[hp/]。最高可叠加 {RageStacks} 层。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LAVA_WALKING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Lava Walking</Data></Cell><Cell><Data
+            ss:Type="String"
+          >熔岩行走</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >LAVA_WALKING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit is able to walk over lava.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >该单位可行走于熔岩之上。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">UNIT_CORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Core</Data></Cell><Cell><Data
+            ss:Type="String"
+          >核心</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >UNIT_CORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A basic unit.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >基础单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >UNIT_SKIRMISHER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Skirmisher</Data></Cell><Cell><Data
+            ss:Type="String"
+          >散兵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >UNIT_SKIRMISHER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Offensive unit.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >攻击单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >UNIT_SPECIALIST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Specialist</Data></Cell><Cell><Data
+            ss:Type="String"
+          >专家</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >UNIT_SPECIALIST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Specialized unit.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >专家单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >UNIT_ELITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Elite</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精英</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >UNIT_ELITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Elite unit.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精英单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FOREST_AFFINITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Forest Affinity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >森林亲和</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FOREST_AFFINITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit gains +{MoraleBonus}[happiness/] Morale when fighting on Forest Hexes.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位在森林单元格中战斗时，获得 +{MoraleBonus}[happiness/] 士气。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FRIENDLY_TERRITORY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Friendly Territory</Data></Cell><Cell><Data
+            ss:Type="String"
+          >友方领地</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FRIENDLY_TERRITORY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit regeneration is increased by {healing} per turn while in friendly territory.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位在位于友方领土时，恢复提高 {healing}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEALING_ASSEMBLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Scavenge Spare Parts</Data></Cell><Cell><Data
+            ss:Type="String"
+          >搜刮备用零件</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">HEALING_ASSEMBLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Assembly restore themselves with parts taken from fallen foes, healing them for {healing} after each battle. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >半机械人可从阵亡的敌人身上搜刮零件来治疗自身，每次战斗结束后可治疗 {healing}。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEALING_KIRKO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Strategic Regeneration</Data></Cell><Cell><Data
+            ss:Type="String"
+          >战略再生</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">HEALING_KIRKO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Kir'Ko are naturally adept at healing, increasing their Strategic Turn regeneration by {healing}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >奇尔寇天生擅长治愈，其战略回合恢复提高 {healing}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TERRAIN_PREFERENCE_AMAZON</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Favored Terrain - Arcadian</Data></Cell><Cell><Data
+            ss:Type="String"
+          >偏好地形 - 田园</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">TERRAIN_PREFERENCE_AMAZON</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Due to the likeness of the Arcadian climate to the Amazon home planet, all Amazon units gain {morale} when fighting in Arcadian terrain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由于田园气候与亚马逊人母星的气候相近，所有亚马逊人单位在田园地形上战斗时获得 {morale}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >TERRAIN_PREFERENCE_VANGUARD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Favored Terrain - Arcadian</Data></Cell><Cell><Data
+            ss:Type="String"
+          >偏好地形 - 田园</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >TERRAIN_PREFERENCE_VANGUARD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Due to the likeness of the Arcadian climate to the Vanguard home planet, all Vanguard units gain {morale} when fighting in Arcadian terrain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由于田园气候与先锋母星的气候相近，所有先锋单位在田园地形上战斗时获得 {morale}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >TERRAIN_PREFERENCE_ASSEMBLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Favored Terrain - Arctic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >偏好地形 - 极寒</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >TERRAIN_PREFERENCE_ASSEMBLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Due to the likeness of the Arctic climate to the Assembly home planet, all Assembly units gain {morale} when fighting in Arctic terrain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由于极寒气候与半机械人母星的气候相近，所有半机械人单位在极寒地形上战斗时获得 {morale}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TERRAIN_PREFERENCE_DVAR</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Favored Terrain - Arid</Data></Cell><Cell><Data
+            ss:Type="String"
+          >偏好地形 - 干燥</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">TERRAIN_PREFERENCE_DVAR</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Due to the likeness of the Arid climate to the Dvar home planet, all Dvar units gain {morale} when fighting in Arid terrain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由于干燥气候与矮人母星的气候相近，所有矮人在干燥地形上战斗时获得 {morale}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >TERRAIN_PREFERENCE_SYNDICATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Favored Terrain - Arid</Data></Cell><Cell><Data
+            ss:Type="String"
+          >偏好地形 - 干燥</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >TERRAIN_PREFERENCE_SYNDICATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Due to the likeness of the Arid climate to the Syndicate home planet, all Syndicate units gain {morale} when fighting in Arid terrain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由于干燥气候与辛迪加人母星的气候相近，所有辛迪加人在干燥地形上战斗时获得 {morale}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TERRAIN_PREFERENCE_KIRKO</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Favored Terrain - Fungal</Data></Cell><Cell><Data
+            ss:Type="String"
+          >偏好地形 - 真菌</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">TERRAIN_PREFERENCE_KIRKO</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Due to the likeness of the Fungal climate to the Kir'Ko home planet, all Kir'Ko units gain {morale} when fighting in Fungal terrain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由于真菌气候与奇尔寇母星的气候相近，所有奇尔寇在真菌地形上战斗时获得 {morale}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SHIELD_BYPASS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Shield Bypass</Data></Cell><Cell><Data
+            ss:Type="String"
+          >忽视护盾</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SHIELD_BYPASS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION_MOD</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Bypass {ShieldBypass}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >忽视 {ShieldBypass}</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DEFENSE_BYPASS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defense Bypass</Data></Cell><Cell><Data
+            ss:Type="String"
+          >忽视防御</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DEFENSE_BYPASS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bypass {ArmorBypass} and {ShieldBypass}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >忽视 {ArmorBypass} 及 {ShieldBypass}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OFFENSIVE_MOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Offensive Mod</Data></Cell><Cell><Data
+            ss:Type="String"
+          >攻击模块</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">OFFENSIVE_MOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Additionally, this mod grants the unit {OffensiveModDamage} increased damage on all abilities.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该模块能够使单位的所有技能伤害提高 {OffensiveModDamage}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEALTH_MOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defense Mod - Hit Points</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御模块 - 生命值</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">HEALTH_MOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Additionally, this mod grants the unit {HealthModDamage}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该模块能够赋予单位 {HealthModDamage}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DEFENSE_MOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defense Mod - Armor</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御模块 - 护甲</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">DEFENSE_MOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Additionally, this mod grants the unit {ArmorModDamage}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该模块能够赋予单位 {ArmorModDamage}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SHIELD_MOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defense Mod - Shields</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御模块 - 护盾</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">SHIELD_MOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Additionally, this mod grants the unit {ShieldModDamage}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该模块能够赋予单位 {ShieldModDamage}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CRASH_DOWN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Crash Down</Data></Cell><Cell><Data
+            ss:Type="String"
+          >坠落</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CRASH_DOWN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >When destroyed, this unit will crash to the ground on a nearby hex, damaging anything on that hex.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在被摧毁时将坠落至附近单元格地面，对该单元格上的所有物体造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GOLD_RANK_OFFENSIVE_01</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Prime Rank: Critical</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精兵军阶：暴击</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">GOLD_RANK_OFFENSIVE_01</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's combat experience grants it {CritIncrease} increased critical hit chance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的战斗经验使其暴击率提升 {CritIncrease}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GOLD_RANK_OFFENSIVE_02</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Prime Rank: Bypass Cover</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精兵军阶：忽视掩体</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">GOLD_RANK_OFFENSIVE_02</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's combat experience allows it to ignore {LoSIgnore} of cover and unit in the way penalties with ranged weapons.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的战斗经验使其在使用远程武器时忽略 {LoSIgnore} 因掩体和阻挡单位造成的惩罚。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GOLD_RANK_OFFENSIVE_03</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Prime Rank: Range</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精兵军阶：射程</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">GOLD_RANK_OFFENSIVE_03</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's combat experience increases its ranged weapon range by {RangeIncrease}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的战斗经验使其远程武器的射程增加 {RangeIncrease}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">GOLD_RANK_OFFENSIVE_04</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Prime Rank: Improved Overwatch</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精兵军阶：强化警戒</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">GOLD_RANK_OFFENSIVE_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's combat experience grants it +{accuracyBonus}% accuracy when using overwatch.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的战斗经验使其使用警戒时的准度 +{accuracyBonus}%。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GOLD_RANK_DEFENSIVE_01</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Prime Rank: Shrug Off</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精兵军阶：抵挡</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">GOLD_RANK_DEFENSIVE_01</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's combat experience grants it {ShrugoffValue} resistance against all Status Effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的战斗经验使其获得对所有状态效果获得 {ShrugoffValue} 抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GOLD_RANK_DEFENSIVE_02</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Prime Rank: Evasive</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >精兵军阶：闪避</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">GOLD_RANK_DEFENSIVE_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's combat experience makes it {EvasionIncrease} harder to hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的战斗经验使其命中难度增加 {EvasionIncrease}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GOLD_RANK_DEFENSIVE_03</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Prime Rank: Firm</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精兵军阶：坚定</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">GOLD_RANK_DEFENSIVE_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's combat experience grants it a level of Stagger Resistance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的战斗经验使其获得 1 级动摇抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GOLD_RANK_UTILITY_01</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Prime Rank: Overwatch</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精兵军阶：警戒</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">GOLD_RANK_UTILITY_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's combat experience grants it Overwatch.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的战斗经验使其获得警戒。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GOLD_RANK_UTILITY_02</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Prime Rank: Morale</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精兵军阶：士气</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">GOLD_RANK_UTILITY_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's combat experience grants it {MoraleBoost} increased morale.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的战斗经验使其士气提升 {MoraleBoost}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GOLD_RANK_UTILITY_03</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Prime Rank: Ignore Overwatch</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精兵军阶：无视警戒</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">GOLD_RANK_UTILITY_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's combat experience allows it to ignore enemy Overwatch.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的战斗经验使其无视敌人的警戒。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >GLOBAL_UNIT_MOD_TEMPLATE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Advanced</Data></Cell><Cell><Data
+            ss:Type="String"
+          >先进的</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GLOBAL_UNIT_MOD_TEMPLATE_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Elite</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精英</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used to say that an ability is an inherent part of a unit (e.g. Cats are inherently furry)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SKITTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Skitter</Data></Cell><Cell><Data
+            ss:Type="String"
+          >飞掠者</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SKITTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit becomes {amountPercentage} harder to hit for each hex it moved during its last turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在上一回合中每走过一个单元格，命中难度就增加 {amountPercentage}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">INHERENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Inherent</Data></Cell><Cell><Data
+            ss:Type="String"
+          >固有</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used to say that an ability is an inherent part of a unit (e.g. Cats are inherently furry)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TEMPORARY_UNIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Temporary Unit</Data></Cell><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >临时单位</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="s67"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >TEMPORARY_UNIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit will disappear after a certain amount of turns.</Data></Cell><Cell
+          ss:StyleID="Default"
+        ><Data
+            ss:Type="String"
+          >该单位经过一定回合后将会消失。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s67" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EVASIVE_MANEUVERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Evasive Maneuvers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >机动规避</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EVASIVE_MANEUVERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit becomes {amountPercentage} harder to hit for each hex it moved during its last turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在上一回合中每走过一个单元格，命中难度就增加 {amountPercentage}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">KINETIC_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Kinetic Status Effect Immunity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >动能状态效果免疫</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">KINETIC_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be affected by [damagephysical/] Status or Hazard Effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位不受[damagephysical/]状态或灾害效果影响。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTROPY_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropy Immunity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌免疫</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENTROPY_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be affected by [damageentropy/] Damage or Effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位不受[damageentropy/]伤害或效果影响。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTROPY_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropy Status Effect Immunity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌状态效果免疫</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">ENTROPY_IMMUNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be affected by [damageentropy/] Status or Hazard Effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位不受[damageentropy/]状态或灾害效果影响。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SUBMERGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Submerge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >下潜</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SUBMERGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit is Immune to [abilityred]Burning[/abilityred] and [abilityred]Immolation[/abilityred] due to its capability to submerge underwater.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位能够潜入水下，免疫[abilityred]燃烧[/abilityred]和[abilityred]焚祭[/abilityred]。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >{levitationMovementCost}: 4 [moveWalk/]; {roadAndWaterFloatingMovementCost}: 3 [moveWalk/]; French added, other languages need update.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Selected /><TopRowVisible>214</TopRowVisible><Panes><Pane
+        ><Number>3</Number><ActiveRow>244</ActiveRow><ActiveCol
+          >3</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

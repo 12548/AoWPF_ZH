@@ -1,7 +1,677 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:57:46Z</Created><LastSaved>2019-06-25T15:57:46Z</LastSaved><Version>15.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX>0</WindowTopX><WindowTopY>0</WindowTopY><MaxChange>0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s57"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/></Style><Style ss:ID="s58"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style><Style ss:ID="s59"><Alignment ss:Vertical="Top"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s57" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15"><Column ss:StyleID="s57" ss:Width="121.5"/><Column ss:StyleID="s57" ss:Width="198"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="252.75"/><Column ss:StyleID="s57" ss:Width="147.75"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="252.75"/><Column ss:StyleID="s57" ss:Width="120"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="252.75"/><Row ss:AutoFitHeight="0" ss:Height="120"><Cell ss:StyleID="s58"><Data ss:Type="String">VOIDTECH_TECHGROUPS</Data></Cell><Cell ss:StyleID="s58"/><Cell ss:StyleID="s58"/><Cell ss:StyleID="s58"/><Cell ss:Index="7" ss:StyleID="s58"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell><Cell ss:StyleID="s58"/><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">SCENE ID</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">TEXT ID</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">VOIDTECH</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">VoidTech</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">虚空科技</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"/><Cell ss:StyleID="s58"/><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell ss:StyleID="s58"><Data ss:Type="String">VOIDTECH</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{XML_VOIDTECH_TECHGROUPS@VOIDTECH@DESC}[br/][br/]{XML_VOIDTECH_TECHGROUPS@VOIDTECH@FEATURES}</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">{XML_VOIDTECH_TECHGROUPS@VOIDTECH@DESC}[br/][br/]{XML_VOIDTECH_TECHGROUPS@VOIDTECH@FEATURES}</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data ss:Type="String">No need to translate. This inserts the VOIDTECH_TECHGROUPS@VOIDTECH@DESC and VOIDTECH_TECHGROUPS@VOIDTECH@FEATURES texts with some white space.</Data></Cell><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell ss:StyleID="s58"><Data ss:Type="String">VOIDTECH</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">DESC</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">[hyperlink,000003AC0000032C]Voidtech[/hyperlink] warps the laws of physics, allowing the manipulation and teleportation of matter and energy.</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">[hyperlink,000003AC0000032C]虚空科技[/hyperlink]能够扭曲物理定律，控制和传送物质与能量。</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"/><Cell ss:StyleID="s59"/><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell ss:StyleID="s58"><Data ss:Type="String">VOIDTECH</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">FEATURES</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">[bulletlist][bullet]Command highly mobile units that can teleport and pass through obstacles[/bullet][bullet]Create temporal clones of units[/bullet][bullet]Destabilize and decelerate enemies[/bullet][bullet]Uses the Arc and Kinetic damage channels[/bullet][/bulletlist]</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">[bulletlist][bullet]指挥能够传送和通过障碍物的高机动性单位[/bullet][bullet]制造单位临时克隆体[/bullet][bullet]减速敌人并使其失去稳定[/bullet][bullet]使用电弧和动能伤害类型[/bullet][/bulletlist]</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"/><Cell ss:StyleID="s59"/><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_1_STRATEGIC_NAME</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">Void Technology</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">虚空科技</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"/><Cell ss:StyleID="s59"/><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_1_STRATEGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“The Void is the ultimate frontier. Theoretically infinite emptiness has many uses, the very least being that it’s the perfect junkyard for storing things you never want to see again… like your enemy’s limbs.”[br/]– Professor Willow Fisk, Dimensionalist</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“虚空是终极的边缘。理论上来讲，无尽的虚无拥有很多用途，最起码可以用来当成堆放你不想再看到之物的完美垃圾场，比如…敌人残破的肢体。”[br/]- 维洛·菲斯克教授，维度学家</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_2_FORCES_NAME</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">Phase Manipulator Program</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">相位控制程序</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"/><Cell ss:StyleID="s59"/><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_2_FORCES_DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“The ability to move through this material world like a ghost leaves questions about the truthfulness of such fables. Are there subtler dimensions? Spirits? A heaven and hell? We definitely should do more research. Perhaps our new troops can provide us with test subjects.”[br/]– Alexa Romanov, CEO Voidtech</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“人们对能够像幽灵一样穿行于这个物质世界的寓言故事表示怀疑。真的有不为人知的维度？幽灵？天堂和地狱？我们一定要做进一步的研究。或许我们的新部队能够为我们带来测试体。”[br/]- 阿雷科萨·罗曼诺夫，虚空科技首席执行官</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">V.O.: Dvar Female</Data></Cell><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_2_TACTICAL_NAME</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">Phase Manipulation</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">相位控制</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"/><Cell ss:StyleID="s59"/><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_2_TACTICAL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“There is no obstacle I cannot pass through with my harmonic phase modulator. Matter doesn’t matter. Who would suppose that substance is merely two waveforms in alignment?”[br/]– Tek Oylar, Voidtech Lion Patrol</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“我的协调相位调制器可以带我穿过一切障碍，物质已不再是麻烦。有谁会想到，实体物质只是两道相互对齐的波形呢？”[br/]- 特克·欧易拉尔，虚空科技“狮子”巡逻队</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_2_STRATEGIC_NAME</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">Quantum Gain</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">量子增益</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"/><Cell ss:StyleID="s59"/><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_2_STRATEGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“You won’t believe how paranoid you become once you finally glimpse the future and all the possibilities that hinge upon individual choices.”[br/]– Emperor Tholian</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“如果你没有看见最终的未来和所有依赖个人抉择的可能性，你绝不会相信自己会变得多么偏执。”[br/]- 帝皇托利安</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_3_TACTICAL_NAME</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">Vortex Instability</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">漩涡动荡</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"/><Cell ss:StyleID="s59"/><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_3_TACTICAL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">"Haven’t I met you somewhere before? This is no pickup line. My instruments indicate you’re a temporal anomaly. Or am I reality’s echo?”[br/]– Rutger Norris II, Echo Walker</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“我是不是以前在哪见过你？别误会，这不是在搭讪。我的仪器显示称你的时间出现异常。还是说，我是现实的回声？”[br/]- 拉特杰尔·诺里斯二世，回声行者</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_4_FORCES_NAME</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">Echo Walker Program</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">回声行者程序</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"/><Cell ss:StyleID="s59"/><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_4_FORCES_DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“You never need live with regret when you can rewind time, but your age will catch up with you.”[br/]– Rutger Norris, Echo Walker</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“当你能够逆转时间时，你就不必活在悔恨中了，但你终会老去。”[br/]- 拉特杰尔·诺里斯，回声行者</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_4_TACTICAL_NAME</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">Phase Echo Generation</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">相位回声生成</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"/><Cell ss:StyleID="s59"/><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_4_TACTICAL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“This power to manipulate gravity, distort time and transport instantly from one place to another could be used to create wonders untold, but it looks like, for now, we’re going to use it to destroy the next enemy.”[br/]– Raylynn Preem, Technology Ethicist</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“这种控制重力、扭曲时间和瞬间传送的力量可以创造出无数奇迹，不过现在看来，我们将把这种力量用来消灭下一个敌人身上。”[br/]- 雷林·普利姆，科技伦理学家</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">V.O.: Amazon</Data></Cell><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_4_STRATEGIC_NAME</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">Dimensional Control</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">维度控制</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"/><Cell ss:StyleID="s59"/><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_4_STRATEGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“Time is an infinite sequence of consequences. If the present is N, the next consequence is N+1, with N approaching infinity. Correlate N to N+1, N+2 and so forth. Mathematically, that’s a Phase Echo. Of course, don’t forget N-1 and all infinite prior consequences.”[br/]– Dr. Rex Purllox, Voidtech Mathematician</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“时间是结果的无限序列。如果现在是 N，那么下一个结果就是 N+1，N 趋近无限。相关数 N 到 N+1、N+2 依次累加。从数学上讲，那就是相位回声。当然，别忘了 N-1 以及无数先前的结果。”[br/]- 雷克斯·普尔洛克斯博士，虚空科技数学家</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">V.O.: Vanguard Male
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:57:46Z</Created><LastSaved
+    >2019-06-25T15:57:46Z</LastSaved><Version
+    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX
+    >0</WindowTopX><WindowTopY>0</WindowTopY><MaxChange
+    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s57"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
+      ss:ID="s58"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s59"
+    ><Alignment ss:Vertical="Top" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s57"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s57" ss:Width="121.5" /><Column
+        ss:StyleID="s57"
+        ss:Width="198"
+      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="252.75" /><Column
+        ss:StyleID="s57"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="252.75" /><Column
+        ss:StyleID="s57"
+        ss:Width="120"
+      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="252.75" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >VOIDTECH_TECHGROUPS</Data></Cell><Cell ss:StyleID="s58" /><Cell
+          ss:StyleID="s58"
+        /><Cell ss:StyleID="s58" /><Cell ss:Index="7" ss:StyleID="s58"><Data
+            ss:Type="String"
+          >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell><Cell
+          ss:StyleID="s58"
+        /><Cell ss:StyleID="s58" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s58"
+        ><Data ss:Type="String">SCENE ID</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data ss:Type="String">TEXT ID</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell><Cell
+          ss:StyleID="s58"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >VOIDTECH</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >VoidTech</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >虚空科技</Data></Cell><Cell ss:Index="7" ss:StyleID="s58" /><Cell
+          ss:StyleID="s58"
+        /><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell ss:StyleID="s58"><Data ss:Type="String">VOIDTECH</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_VOIDTECH_TECHGROUPS@VOIDTECH@DESC}[br/][br/]{XML_VOIDTECH_TECHGROUPS@VOIDTECH@FEATURES}</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >{XML_VOIDTECH_TECHGROUPS@VOIDTECH@DESC}[br/][br/]{XML_VOIDTECH_TECHGROUPS@VOIDTECH@FEATURES}</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >No need to translate. This inserts the VOIDTECH_TECHGROUPS@VOIDTECH@DESC and VOIDTECH_TECHGROUPS@VOIDTECH@FEATURES texts with some white space.</Data></Cell><Cell
+          ss:StyleID="s58"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell
+          ss:StyleID="s58"
+        ><Data ss:Type="String">VOIDTECH</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data ss:Type="String">DESC</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >[hyperlink,000003AC0000032C]Voidtech[/hyperlink] warps the laws of physics, allowing the manipulation and teleportation of matter and energy.</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >[hyperlink,000003AC0000032C]虚空科技[/hyperlink]能够扭曲物理定律，控制和传送物质与能量。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s58"
+        /><Cell ss:StyleID="s59" /><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell ss:StyleID="s58"><Data ss:Type="String">VOIDTECH</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data ss:Type="String">FEATURES</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >[bulletlist][bullet]Command highly mobile units that can teleport and pass through obstacles[/bullet][bullet]Create temporal clones of units[/bullet][bullet]Destabilize and decelerate enemies[/bullet][bullet]Uses the Arc and Kinetic damage channels[/bullet][/bulletlist]</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >[bulletlist][bullet]指挥能够传送和通过障碍物的高机动性单位[/bullet][bullet]制造单位临时克隆体[/bullet][bullet]减速敌人并使其失去稳定[/bullet][bullet]使用电弧和动能伤害类型[/bullet][/bulletlist]</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s58"
+        /><Cell ss:StyleID="s59" /><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_1_STRATEGIC_NAME</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >Void Technology</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >虚空科技</Data></Cell><Cell ss:Index="7" ss:StyleID="s58" /><Cell
+          ss:StyleID="s59"
+        /><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_1_STRATEGIC_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“The Void is the ultimate frontier. Theoretically infinite emptiness has many uses, the very least being that it’s the perfect junkyard for storing things you never want to see again… like your enemy’s limbs.”[br/]– Professor Willow Fisk, Dimensionalist</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“虚空是终极的边缘。理论上来讲，无尽的虚无拥有很多用途，最起码可以用来当成堆放你不想再看到之物的完美垃圾场，比如…敌人残破的肢体。”[br/]- 维洛·菲斯克教授，维度学家</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s58"
+        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >V.O.: Vanguard Male</Data></Cell><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_2_FORCES_NAME</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >Phase Manipulator Program</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >相位控制程序</Data></Cell><Cell ss:Index="7" ss:StyleID="s58" /><Cell
+          ss:StyleID="s59"
+        /><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_2_FORCES_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“The ability to move through this material world like a ghost leaves questions about the truthfulness of such fables. Are there subtler dimensions? Spirits? A heaven and hell? We definitely should do more research. Perhaps our new troops can provide us with test subjects.”[br/]– Alexa Romanov, CEO Voidtech</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“人们对能够像幽灵一样穿行于这个物质世界的寓言故事表示怀疑。真的有不为人知的维度？幽灵？天堂和地狱？我们一定要做进一步的研究。或许我们的新部队能够为我们带来测试体。”[br/]- 阿雷科萨·罗曼诺夫，虚空科技首席执行官</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s58"
+        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >V.O.: Dvar Female</Data></Cell><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_2_TACTICAL_NAME</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >Phase Manipulation</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >相位控制</Data></Cell><Cell ss:Index="7" ss:StyleID="s58" /><Cell
+          ss:StyleID="s59"
+        /><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_2_TACTICAL_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“There is no obstacle I cannot pass through with my harmonic phase modulator. Matter doesn’t matter. Who would suppose that substance is merely two waveforms in alignment?”[br/]– Tek Oylar, Voidtech Lion Patrol</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“我的协调相位调制器可以带我穿过一切障碍，物质已不再是麻烦。有谁会想到，实体物质只是两道相互对齐的波形呢？”[br/]- 特克·欧易拉尔，虚空科技“狮子”巡逻队</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s58"
+        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >V.O.: Vanguard Male</Data></Cell><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_2_STRATEGIC_NAME</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >Quantum Gain</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >量子增益</Data></Cell><Cell ss:Index="7" ss:StyleID="s58" /><Cell
+          ss:StyleID="s59"
+        /><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_2_STRATEGIC_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“You won’t believe how paranoid you become once you finally glimpse the future and all the possibilities that hinge upon individual choices.”[br/]– Emperor Tholian</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“如果你没有看见最终的未来和所有依赖个人抉择的可能性，你绝不会相信自己会变得多么偏执。”[br/]- 帝皇托利安</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s58"
+        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >V.O.: Vanguard Male</Data></Cell><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_3_TACTICAL_NAME</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >Vortex Instability</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >漩涡动荡</Data></Cell><Cell ss:Index="7" ss:StyleID="s58" /><Cell
+          ss:StyleID="s59"
+        /><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_3_TACTICAL_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >"Haven’t I met you somewhere before? This is no pickup line. My instruments indicate you’re a temporal anomaly. Or am I reality’s echo?”[br/]– Rutger Norris II, Echo Walker</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“我是不是以前在哪见过你？别误会，这不是在搭讪。我的仪器显示称你的时间出现异常。还是说，我是现实的回声？”[br/]- 拉特杰尔·诺里斯二世，回声行者</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s58"
+        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >V.O.: Vanguard Male</Data></Cell><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_4_FORCES_NAME</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >Echo Walker Program</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >回声行者程序</Data></Cell><Cell ss:Index="7" ss:StyleID="s58" /><Cell
+          ss:StyleID="s59"
+        /><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_4_FORCES_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“You never need live with regret when you can rewind time, but your age will catch up with you.”[br/]– Rutger Norris, Echo Walker</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“当你能够逆转时间时，你就不必活在悔恨中了，但你终会老去。”[br/]- 拉特杰尔·诺里斯，回声行者</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s58"
+        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >V.O.: Vanguard Male</Data></Cell><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_4_TACTICAL_NAME</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >Phase Echo Generation</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >相位回声生成</Data></Cell><Cell ss:Index="7" ss:StyleID="s58" /><Cell
+          ss:StyleID="s59"
+        /><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_4_TACTICAL_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“This power to manipulate gravity, distort time and transport instantly from one place to another could be used to create wonders untold, but it looks like, for now, we’re going to use it to destroy the next enemy.”[br/]– Raylynn Preem, Technology Ethicist</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“这种控制重力、扭曲时间和瞬间传送的力量可以创造出无数奇迹，不过现在看来，我们将把这种力量用来消灭下一个敌人身上。”[br/]- 雷林·普利姆，科技伦理学家</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s58"
+        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >V.O.: Amazon</Data></Cell><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_4_STRATEGIC_NAME</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >Dimensional Control</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >维度控制</Data></Cell><Cell ss:Index="7" ss:StyleID="s58" /><Cell
+          ss:StyleID="s59"
+        /><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_4_STRATEGIC_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“Time is an infinite sequence of consequences. If the present is N, the next consequence is N+1, with N approaching infinity. Correlate N to N+1, N+2 and so forth. Mathematically, that’s a Phase Echo. Of course, don’t forget N-1 and all infinite prior consequences.”[br/]– Dr. Rex Purllox, Voidtech Mathematician</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“时间是结果的无限序列。如果现在是 N，那么下一个结果就是 N+1，N 趋近无限。相关数 N 到 N+1、N+2 依次累加。从数学上讲，那就是相位回声。当然，别忘了 N-1 以及无数先前的结果。”[br/]- 雷克斯·普尔洛克斯博士，虚空科技数学家</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s58"
+        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >V.O.: Vanguard Male
 
-Edit: removed extra space before "Correlate"</Data></Cell><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_5_TACTICAL_NAME</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">Temporal Dislocation</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">时间错位</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"/><Cell ss:StyleID="s59"/><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_5_TACTICAL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“Who would willingly accept failure when they can make every outcome a success? By changing the fundamental interaction of time, matter and reality from a mechanical model to a probabilistic model, we roll the dice again, essentially resetting any unfavorable consequences.”[br/]– Trina Mars, Time Control Agent</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“当所有人都能把结果变成必定成功时，谁还愿意接受失败？我们把时间、物质和现实的基本相互作用从力学模型改变为了概率模型，再来一次，从根本上重置所有不理想的结果。”[br/]- 特里娜·马尔斯，时间控制局</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">V.O.: Vanguard Female</Data></Cell><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_5_STRATEGIC_NAME</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">Void Tactics</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">虚空战术</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"/><Cell ss:StyleID="s59"/><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_5_STRATEGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“Forget about meaningful relationships in the shadow of that Phase Echo generator. Half the people here aren’t native to this plane of existence. They just shift in and out of our reality. I must confess, my relationships never last, regardless of whether the generator’s active.”[br/]– Teddy Slade, Vanguard Infantryman</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“在相位回声生成器的阴影中就不要再想什么人际关系的事了，这一位面中的大多数都不是本地人。他们只是在我们的现实中进进出出。但我必须承认，无论是否激活了生成器，我的人际关系也从来不会太长久。”[br/]- 泰迪·斯莱德，先锋步兵</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_6_FORCES_NAME</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">Rift Generation</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">裂隙生成</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"/><Cell ss:StyleID="s59"/><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_6_FORCES_DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“The rules that govern our reality are quite necessary to sustain the structural integrity of matter. Seeing as how we’re all made from matter, our new Rift Generator ships guarantee we will warp the reality of conflict in our favor.”[br/]– Captain Warren Fullmer, Voidtech Military Research Division</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“控制我们现实的规则对于维持物质结构完整非常重要。借鉴物质造就我们的方式，我们的新型裂隙生成舰船能够保证我们扭曲冲突的现实，将局势转向我们这边。”[br/]- 瓦伦·福尔梅尔队长，虚空科技军事研究部</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_6_TACTICAL_NAME</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">Dimension Weaponization</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">维度武器化</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"/><Cell ss:StyleID="s59"/><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_6_TACTICAL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“We reject our gods' limits. They declared the universe bound to basic rules and interactions between matter and energy. Fortunately for us, they appear not to be paying attention. We can now do forbidden things.”[br/]– Emperor Tholian  </Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“我们排斥神的限制，他们声称宇宙被物质和能量之间的基础规则和相互作用所束缚。对我们来说幸运的是，他们似乎并没有注意。现在，我们可以做一些禁忌之事了。”[br/]- 帝皇托利安  </Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">V.O.: Vanguard Male
+Edit: removed extra space before "Correlate"</Data></Cell><Cell
+          ss:StyleID="s58"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_5_TACTICAL_NAME</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >Temporal Dislocation</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >时间错位</Data></Cell><Cell ss:Index="7" ss:StyleID="s58" /><Cell
+          ss:StyleID="s59"
+        /><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_5_TACTICAL_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“Who would willingly accept failure when they can make every outcome a success? By changing the fundamental interaction of time, matter and reality from a mechanical model to a probabilistic model, we roll the dice again, essentially resetting any unfavorable consequences.”[br/]– Trina Mars, Time Control Agent</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“当所有人都能把结果变成必定成功时，谁还愿意接受失败？我们把时间、物质和现实的基本相互作用从力学模型改变为了概率模型，再来一次，从根本上重置所有不理想的结果。”[br/]- 特里娜·马尔斯，时间控制局</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s58"
+        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >V.O.: Vanguard Female</Data></Cell><Cell
+          ss:StyleID="s58"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_5_STRATEGIC_NAME</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >Void Tactics</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >虚空战术</Data></Cell><Cell ss:Index="7" ss:StyleID="s58" /><Cell
+          ss:StyleID="s59"
+        /><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_5_STRATEGIC_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“Forget about meaningful relationships in the shadow of that Phase Echo generator. Half the people here aren’t native to this plane of existence. They just shift in and out of our reality. I must confess, my relationships never last, regardless of whether the generator’s active.”[br/]– Teddy Slade, Vanguard Infantryman</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“在相位回声生成器的阴影中就不要再想什么人际关系的事了，这一位面中的大多数都不是本地人。他们只是在我们的现实中进进出出。但我必须承认，无论是否激活了生成器，我的人际关系也从来不会太长久。”[br/]- 泰迪·斯莱德，先锋步兵</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s58"
+        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >V.O.: Vanguard Male</Data></Cell><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_6_FORCES_NAME</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >Rift Generation</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >裂隙生成</Data></Cell><Cell ss:Index="7" ss:StyleID="s58" /><Cell
+          ss:StyleID="s59"
+        /><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_6_FORCES_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“The rules that govern our reality are quite necessary to sustain the structural integrity of matter. Seeing as how we’re all made from matter, our new Rift Generator ships guarantee we will warp the reality of conflict in our favor.”[br/]– Captain Warren Fullmer, Voidtech Military Research Division</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“控制我们现实的规则对于维持物质结构完整非常重要。借鉴物质造就我们的方式，我们的新型裂隙生成舰船能够保证我们扭曲冲突的现实，将局势转向我们这边。”[br/]- 瓦伦·福尔梅尔队长，虚空科技军事研究部</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s58"
+        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >V.O.: Vanguard Male</Data></Cell><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_6_TACTICAL_NAME</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >Dimension Weaponization</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >维度武器化</Data></Cell><Cell ss:Index="7" ss:StyleID="s58" /><Cell
+          ss:StyleID="s59"
+        /><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_6_TACTICAL_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“We reject our gods' limits. They declared the universe bound to basic rules and interactions between matter and energy. Fortunately for us, they appear not to be paying attention. We can now do forbidden things.”[br/]– Emperor Tholian  </Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“我们排斥神的限制，他们声称宇宙被物质和能量之间的基础规则和相互作用所束缚。对我们来说幸运的是，他们似乎并没有注意。现在，我们可以做一些禁忌之事了。”[br/]- 帝皇托利安  </Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s58"
+        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >V.O.: Vanguard Male
 
 Changed "God's" to "gods'"
 "He" to "They"
-"Appears" to "Appear"</Data></Cell><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_7_STRATEGIC_NAME</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">Quantum Leap</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">量子跃迁</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"/><Cell ss:StyleID="s59"/><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_7_STRATEGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“True quantum networking allows all possible data transfers in one exchange. The trick to discovery now lies—not in careful research and design—but, in selecting from millions of speculative designs and determining if it’s really what we want.”[br/]– Dr. Thurgood Onahan, Quantum Research Division</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“真正的量子网络可以在一次交换中传输所有潜在数据。发现的诀窍不在于悉心的研究和设计，而在于从成千上万的推测设计中精心挑选，然后再决定那是不是我们想要的。”[br/]- 瑟古德·欧纳汉博士，量子研究部</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_8_STRATEGIC_NAME</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">Alter Reality</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">改变现实</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"/><Cell ss:StyleID="s59"/><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_8_STRATEGIC__DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“No, there is no real evidence of that rumor. They’re perfectly safe. Only conspiracy theorists believe that it was a Void Bomb that destroyed the Star Union and destabilized hyperspace.”[br/]– Dr. Quinlinn T. Ortivexis, Star Union Historian</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“不，那传闻并没有实质的证据。它们很安全，只有阴谋论者才会相信是虚空炸弹摧毁了星际联盟和超空间。”[br/]- 奎里恩·T·奥迪威希斯博士，星际联盟史学家</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">V.O.: Syndicate Male</Data></Cell><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_10_STRATEGIC_NAME</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">Dimensional Mastery</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">维度掌控</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"/><Cell ss:StyleID="s59"/><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell ss:StyleID="s58"><Data ss:Type="String">TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">SKILLGROUP_10_STRATEGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“Are you ready for infinite energy? Imagine a collapsed parallel universe siphoned through a controlled rift! What will you power when energy has no cost and how will it transform this world? A new reality starts today.”[br/]– Alexa Romanov, CEO Voidtech</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">“准备好接受无尽能量了么？想象一个崩坏的平行宇宙被吸入受控裂隙中的情景！假如能量无需任何代价，你将用它为何物充能？它将如何改变这个世界？新的现实从今天开始。”[br/]- 阿雷科萨·罗曼诺夫，虚空科技首席执行官</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">V.O.: Dvar Female</Data></Cell><Cell ss:StyleID="s58"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data ss:Type="String">SKILLGROUP_2_FORCES_SUBSKILL_1</Data></Cell><Cell><Data ss:Type="String">Unit: Phase Manipulator</Data></Cell><Cell><Data ss:Type="String">单位：相位操纵器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data ss:Type="String">SKILLGROUP_2_FORCES_SUBSKILL_2</Data></Cell><Cell><Data ss:Type="String">Equipment: Energy Blaster</Data></Cell><Cell><Data ss:Type="String">装备：能量爆能枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_1</Data></Cell><Cell><Data ss:Type="String">Unit: Echo Walker</Data></Cell><Cell><Data ss:Type="String">单位：回声行者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_2</Data></Cell><Cell><Data ss:Type="String">Equipment: Void Blades</Data></Cell><Cell><Data ss:Type="String">装备：虚空之刃</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_1</Data></Cell><Cell><Data ss:Type="String">Unit: Rift Generator</Data></Cell><Cell><Data ss:Type="String">单位：裂隙生成器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_2</Data></Cell><Cell><Data ss:Type="String">Vehicle: Rift Generator</Data></Cell><Cell><Data ss:Type="String">载具：裂隙生成器</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Zoom>130</Zoom><Selected/><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+"Appears" to "Appear"</Data></Cell><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_7_STRATEGIC_NAME</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >Quantum Leap</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >量子跃迁</Data></Cell><Cell ss:Index="7" ss:StyleID="s58" /><Cell
+          ss:StyleID="s59"
+        /><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_7_STRATEGIC_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“True quantum networking allows all possible data transfers in one exchange. The trick to discovery now lies—not in careful research and design—but, in selecting from millions of speculative designs and determining if it’s really what we want.”[br/]– Dr. Thurgood Onahan, Quantum Research Division</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“真正的量子网络可以在一次交换中传输所有潜在数据。发现的诀窍不在于悉心的研究和设计，而在于从成千上万的推测设计中精心挑选，然后再决定那是不是我们想要的。”[br/]- 瑟古德·欧纳汉博士，量子研究部</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s58"
+        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >V.O.: Vanguard Male</Data></Cell><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_8_STRATEGIC_NAME</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >Alter Reality</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >改变现实</Data></Cell><Cell ss:Index="7" ss:StyleID="s58" /><Cell
+          ss:StyleID="s59"
+        /><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_8_STRATEGIC__DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“No, there is no real evidence of that rumor. They’re perfectly safe. Only conspiracy theorists believe that it was a Void Bomb that destroyed the Star Union and destabilized hyperspace.”[br/]– Dr. Quinlinn T. Ortivexis, Star Union Historian</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“不，那传闻并没有实质的证据。它们很安全，只有阴谋论者才会相信是虚空炸弹摧毁了星际联盟和超空间。”[br/]- 奎里恩·T·奥迪威希斯博士，星际联盟史学家</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s58"
+        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >V.O.: Syndicate Male</Data></Cell><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_10_STRATEGIC_NAME</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data ss:Type="String">Dimensional Mastery</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data ss:Type="String">维度掌控</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s58"
+        /><Cell ss:StyleID="s59" /><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SKILLGROUP_10_STRATEGIC_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“Are you ready for infinite energy? Imagine a collapsed parallel universe siphoned through a controlled rift! What will you power when energy has no cost and how will it transform this world? A new reality starts today.”[br/]– Alexa Romanov, CEO Voidtech</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >“准备好接受无尽能量了么？想象一个崩坏的平行宇宙被吸入受控裂隙中的情景！假如能量无需任何代价，你将用它为何物充能？它将如何改变这个世界？新的现实从今天开始。”[br/]- 阿雷科萨·罗曼诺夫，虚空科技首席执行官</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s58"
+        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >V.O.: Dvar Female</Data></Cell><Cell ss:StyleID="s58" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SKILLGROUP_2_FORCES_SUBSKILL_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit: Phase Manipulator</Data></Cell><Cell><Data
+            ss:Type="String"
+          >单位：相位操纵器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SKILLGROUP_2_FORCES_SUBSKILL_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Equipment: Energy Blaster</Data></Cell><Cell><Data
+            ss:Type="String"
+          >装备：能量爆能枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SKILLGROUP_4_FORCES_SUBSKILL_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit: Echo Walker</Data></Cell><Cell><Data
+            ss:Type="String"
+          >单位：回声行者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SKILLGROUP_4_FORCES_SUBSKILL_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Equipment: Void Blades</Data></Cell><Cell><Data
+            ss:Type="String"
+          >装备：虚空之刃</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SKILLGROUP_6_FORCES_SUBSKILL_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit: Rift Generator</Data></Cell><Cell><Data
+            ss:Type="String"
+          >单位：裂隙生成器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SKILLGROUP_6_FORCES_SUBSKILL_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vehicle: Rift Generator</Data></Cell><Cell><Data
+            ss:Type="String"
+          >载具：裂隙生成器</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>130</Zoom><Selected
+      /><ProtectObjects>False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

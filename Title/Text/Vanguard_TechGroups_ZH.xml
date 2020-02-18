@@ -1,1 +1,728 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:57:45Z</Created><LastSaved>2019-06-25T15:57:45Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange>0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/></Style><Style ss:ID="s63"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style><Style ss:ID="s64"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Interior/></Style><Style ss:ID="s65"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/><Interior/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="230.25" ss:DefaultRowHeight="15"><Column ss:StyleID="s62" ss:Width="199.5"/><Column ss:StyleID="s62" ss:Width="156"/><Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75"/><Column ss:StyleID="s62" ss:Width="228.75"/><Column ss:StyleID="s62" ss:Width="120"/><Row ss:AutoFitHeight="0" ss:Height="120"><Cell ss:StyleID="s63"><Data ss:Type="String">EXPEDITIONAIRYWARFARE_TECHGROUPS</Data></Cell><Cell ss:StyleID="s63"/><Cell ss:StyleID="s63"/><Cell ss:StyleID="s63"/><Cell ss:Index="7" ss:StyleID="s63"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell><Cell ss:StyleID="s63"/><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s63"><Data ss:Type="String">SCENE ID</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">TEXT ID</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s63"><Data ss:Type="String">VANGUARD_SKILLS</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">GROUP_NAME</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Vanguard</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">先锋</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"/><Cell ss:StyleID="s63"/><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s63"><Data ss:Type="String">NANITE_SUPPORT_STATION</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Nanite Support Station</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">纳米支援站</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"/><Cell ss:StyleID="s63"/><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="120"><Cell ss:StyleID="s63"><Data ss:Type="String">NANITE_SUPPORT_STATION</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Drops a Nanite Support Station onto the battlefield. The Nanite Support Station has a built-in blur field which gives [abilityblue]Obscured[/abilityblue] to all adjacent units. In addition, the station heals all adjacent friendly units {MedicalHealAmount} at the start of each turn. The Nanite Support Station is destroyable.</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">向战场投放一个纳米支援站。纳米支援站内部建有模糊力场，可给予所有相邻单位[abilityblue]模糊[/abilityblue]。此外，站点还会在每回合开始时治疗所有相邻友方单位 {MedicalHealAmount}。纳米支援站可被摧毁。</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"/><Cell ss:StyleID="s64"/><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell ss:StyleID="s63"><Data ss:Type="String">NANITE_SUPPORT_STATION</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Sends out support nanites to heal adjacent units for {NaniteSupportHeal} at the start of each of its turns.</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">该单位在每回合开始时会派出支援纳米机器人治疗相邻单位 {NaniteSupportHeal} 。</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"/><Cell ss:StyleID="s63"/><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s63"><Data ss:Type="String">DEPLOY_AUTOTURRETS</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Launcher Turret</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">发射器炮塔</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"/><Cell ss:StyleID="s63"/><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell ss:StyleID="s63"><Data ss:Type="String">DEPLOY_AUTOTURRETS</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Deploys a Launcher Turret into combat. [br/][br/]The turret deals [damagephysical/] area of effect damage and lasts until end of combat.</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">在战斗中部署发射器炮塔。[br/][br/]炮塔造成 [damagephysical/] 范围伤害，持续到战斗结束。</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"/><Cell ss:StyleID="s63"/><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s63"><Data ss:Type="String">INFERNO_DROP_POD</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Deploy Valkyrie</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">部署瓦尔基里</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"/><Cell ss:StyleID="s63"/><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell ss:StyleID="s63"><Data ss:Type="String">INFERNO_DROP_POD</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">An orbital drop pod lands at target location, dealing {damage} damage with [abilityred]High Impact[/abilityred] to units in a 1 hex radius area of effect around the impact location. The drop pod unfolds into cover. The drop pod contains a Valkyrie unit which lasts until end of combat.</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">轨道空降舱在目标区域着陆，造成 {damage} 伤害并对冲击点周围 1 个单元格范围的单位造成[abilityred]高度冲击[/abilityred]。空降舱会展开变成掩体。空降舱中有一个瓦尔基里单位，持续到战斗结束。</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"/><Cell ss:StyleID="s63"/><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s63"><Data ss:Type="String">DIRECT_COMMAND</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Direct Command</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">直接命令</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"/><Cell ss:StyleID="s63"/><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell ss:StyleID="s63"><Data ss:Type="String">DIRECT_COMMAND</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">All friendly non-mindless units gain {moraleBonus}[happiness/] and [abilityblue]Stagger Resistance[/abilityblue] for {duration}[turn/]</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">所有友方非无意识单位获得 {moraleBonus}[happiness/]和[abilityblue]动摇抵抗[/abilityblue]，持续 {duration}[turn/]</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"/><Cell ss:StyleID="s63"/><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s63"><Data ss:Type="String">DIRECT_COMMAND</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">INSPIRED_EFFECT_NAME</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Directly Commanded</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">直接受命</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"/><Cell ss:StyleID="s63"/><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell ss:StyleID="s63"><Data ss:Type="String">DIRECT_COMMAND</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">INSPIRED_EFFECT_DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">This unit has +{moraleBonus} and {staggerBonus} is less likely to be [abilityred]Staggered[/abilityred].</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">该单位获得 +{moraleBonus} 和 {staggerBonus}，同时被[abilityred]动摇[/abilityred]的几率更低。</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"/><Cell ss:StyleID="s63"/><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s63"><Data ss:Type="String">COMBAT_ASSIST_SYSTEM</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Combat Assist System</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">战斗辅助系统</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"/><Cell ss:StyleID="s63"/><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell ss:StyleID="s63"><Data ss:Type="String">COMBAT_ASSIST_SYSTEM</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Send a CAS drone to assist target unit. The drone purges any negative status effects and provides {CombatShields} while it is active, for up to {CombatDuration}.</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">派遣战斗辅助系统无人机协助目标单位。无人机会净化所有负面状态效果并在其激活期间提供 {CombatShields}，最多持续 {CombatDuration}。</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"/><Cell ss:StyleID="s63"/><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s63"><Data ss:Type="String">COMBAT_ASSIST_SYSTEM</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">The unit temporarily has +{CombatShields} shields from the CAS drone operation.</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">该单位正受益于战斗辅助系统无人机，临时获得 +{CombatShields} 护盾。</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"/><Cell ss:StyleID="s63"/><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EMERGENCY_RECON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Emergency Recon</Data></Cell><Cell><Data ss:Type="String">紧急侦察</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">EMERGENCY_RECON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Deploy an OWL from the colony reserves to provide emergency reconnaissance.</Data></Cell><Cell><Data ss:Type="String">从殖民地储备库中部署一个猫头鹰单位进行紧急侦察。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">EMERGENCY_RECON</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">An OWL has been deployed from the colony reserves.</Data></Cell><Cell><Data ss:Type="String">猫头鹰单位已从殖民地储备库中部署。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECURITY_DRONES</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Security Drones</Data></Cell><Cell><Data ss:Type="String">安保无人机</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">SECURITY_DRONES</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Security drones are active in the colony's domain. When friendly armies fight in that domain, {AmountUnitsSpawned} random Drones will aid them in combat.[br/]The drones disappear at the end of combat.</Data></Cell><Cell><Data ss:Type="String">安保无人机在殖民地领域内有效。当友方军队在该领域作战时，{AmountUnitsSpawned} 个随机无人机将会在战斗中提供帮助。[br/]无人机将在战斗结束后消失。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SECURITY_DRONES</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">Drones have been deployed to aid in defending this territory.</Data></Cell><Cell><Data ss:Type="String">已部署无人机协助防卫该领地。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BUNKER_BUSTER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Bunker Buster</Data></Cell><Cell><Data ss:Type="String">地堡爆破炸弹</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">BUNKER_BUSTER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Target an enemy colony or army with a Bunker Buster bomb. If a colony is affected it destroys {DestroyedUpgrade} random colony structure, if there are any, and if an army is affected it deals {KineticDamage} damage to all units in that hex.</Data></Cell><Cell><Data ss:Type="String">向目标敌方殖民地或军队投掷地堡爆破炸弹。如果殖民地受到影响，则炸弹会摧毁 {DestroyedUpgrade} 个随机殖民地建筑（如有）。如果军队受到影响，则炸弹会对该单元格中的所有单位造成 {KineticDamage} 伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">BUNKER_BUSTER</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">We successfully dropped a Bunker Buster on a target.</Data></Cell><Cell><Data ss:Type="String">我们已成功向目标投放了地堡爆破炸弹。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">BUNKER_BUSTER</Data></Cell><Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell><Cell><Data ss:Type="String">The Bunker Buster missed its mark, rendering it useless.</Data></Cell><Cell><Data ss:Type="String">地堡爆破炸弹未命中目标，导致攻击无效。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">BUNKER_BUSTER</Data></Cell><Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell><Cell><Data ss:Type="String">Our enemies have targeted us with a Bunker Buster!</Data></Cell><Cell><Data ss:Type="String">敌人用地堡爆破炸弹轰炸了我们！</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">BUNKER_BUSTER</Data></Cell><Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell><Cell><Data ss:Type="String">Our enemies tried targeting us with a Bunker Buster, but it landed off-target. This has still worried our citizens.</Data></Cell><Cell><Data ss:Type="String">敌人尝试用地堡爆破炸弹轰炸我们，但炸弹偏离了目标。不过我们的居民还是有些担忧。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Orbital Laser Cannon</Data></Cell><Cell><Data ss:Type="String">轨道激光炮</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Deals damage equal to {damage} of the targeted army's [hp/]. If a colony center is targeted, it will kill {ColonistsKilled} colonists and reduce colony happiness by {HappinessIncome} for {TurnDuration}.</Data></Cell><Cell><Data ss:Type="String">造成等同于目标军队{damage}[hp/]的伤害。如果以殖民地中心为目标，将会击杀 {ColonistsKilled} 个移住民并减少该殖民地 {HappinessIncome} 幸福值，持续 {TurnDuration}。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">The Orbital Laser Cannon has inflicted heavy damage on its target.</Data></Cell><Cell><Data ss:Type="String">轨道激光炮对目标造成了大量伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell><Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell><Cell><Data ss:Type="String">The Orbital Laser Cannon only partially damaged the target. They proved resilient in the face of its power and their spirit is undiminished.</Data></Cell><Cell><Data ss:Type="String">轨道激光炮对目标仅造成了部分伤害。目标在应对激光炮时非常顽强，他们的意志也并未被削弱。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell><Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell><Cell><Data ss:Type="String">Your army was targeted by an Orbital Laser Cannon and has suffered heavy damage.</Data></Cell><Cell><Data ss:Type="String">你的军队被轨道激光炮攻击并受到了大量伤害。</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell><Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell><Cell><Data ss:Type="String">Your army was targeted by an Orbital Laser Cannon, but your troops managed to avoid the worst of it.</Data></Cell><Cell><Data ss:Type="String">你的军队被轨道激光炮攻击了，但部队设法避开了最糟糕的结果。</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell><Cell><Data ss:Type="String">EFFECT_STRING</Data></Cell><Cell><Data ss:Type="String">Reduces happiness by {HappinessLowered} for {TurnDuration}</Data></Cell><Cell><Data ss:Type="String">幸福值减少 {HappinessLowered}，持续 {TurnDuration}</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell><Cell><Data ss:Type="String">EFFECT_STRING_DAMAGE</Data></Cell><Cell><Data ss:Type="String">The army suffered {Damage} damage.</Data></Cell><Cell><Data ss:Type="String">军队受到 {Damage} 伤害。</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SUPPLY_DROP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Supply Drop</Data></Cell><Cell><Data ss:Type="String">空降补给</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">SUPPLY_DROP</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Target friendly army is resupplied by Vanguard support drones, healing them to full [hp/] and increasing their damage by {DamageIncrease} until the end of next combat.</Data></Cell><Cell><Data ss:Type="String">目标友方军队获得先锋支援无人机的补给，恢复全部[hp/]同时伤害提升 {DamageIncrease}，直到下次战斗结束。</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SUPPLY_DROP</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">Your army has been resupplied. Their vigor is renewed and they are ready for action!</Data></Cell><Cell><Data ss:Type="String">你的军队已获得重新补给。他们恢复了活力并准备好进行下一次行动了！</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SUPPLY_DROP</Data></Cell><Cell><Data ss:Type="String">EFFECT_NAME</Data></Cell><Cell><Data ss:Type="String">Supplied</Data></Cell><Cell><Data ss:Type="String">补给完毕</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SUPPLY_DROP</Data></Cell><Cell><Data ss:Type="String">UNIT_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unit deals {DamageBonus} increased damage until end of combat.</Data></Cell><Cell><Data ss:Type="String">单位额外造成 {DamageBonus} 伤害，直到战斗结束。</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SUPPLY_DROP</Data></Cell><Cell><Data ss:Type="String">EFFECT_STRING_HEAL</Data></Cell><Cell><Data ss:Type="String">Affected units have full [hp/]</Data></Cell><Cell><Data ss:Type="String">受影响单位恢复全部[hp/]</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SUPPLY_DROP</Data></Cell><Cell><Data ss:Type="String">EFFECT_STRING_DAMAGE</Data></Cell><Cell><Data ss:Type="String">Affected units deal {DamageIncrease} increased damage until the end of their next combat.</Data></Cell><Cell><Data ss:Type="String">受影响单位额外造成 {DamageIncrease} 伤害，直到其下次战斗结束。</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FRONTIER_SURVIVAL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Frontier Survival</Data></Cell><Cell><Data ss:Type="String">边境生存</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">FRONTIER_SURVIVAL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">For as long as the Vanguard have been sent to remote worlds, they have been trained to sustain themselves while new supplies were en route. As a result, the military helps to maintain and control food consumption in our colony.[br/][br/]{FoodIncome} in your colonies.</Data></Cell><Cell><Data ss:Type="String">自从先锋被派往偏远的星球后，他们进过无数次训练，学会了在物资运输期间维持生计。因此，军队会帮助维持并控制我们殖民地的食物消耗。[br/][br/]你的殖民地获得 {FoodIncome}。</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">COLONY_MILITA</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Colony Militia</Data></Cell><Cell><Data ss:Type="String">殖民地卫队</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="135"><Cell><Data ss:Type="String">COLONY_MILITA</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The population is armed and ready. Recruiting troops directly from our colony militia reduces training time, allowing us to bring troops to the field more rapidly.[br/][br/]Production cost of all units reduced by {ProductionCost1} in your colonies. In addition, the production cost is further reduced by an extra {ProductionCost2} for each Colony Militia Barracks or Defense building in your colony.[br/][br/][firecol]Unit costs can never be lowered more than 75%.[/firecol]</Data></Cell><Cell><Data ss:Type="String">殖民地中的民众已经全副武装。直接从我们的殖民地卫队中招募部队的训练时间减少，从而使我们能够更快地将部队投入战场。[br/][br/]殖民地中所有单位的产力消耗减少 {ProductionCost1}。此外，殖民地中每拥有一个殖民地卫队兵营或防御建筑，产力消耗就会减少 {ProductionCost2}。[br/][br/][firecol]单位消耗减少不能超过 75%。[/firecol]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INTEGRATED_SUPPORT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Integrated Support</Data></Cell><Cell><Data ss:Type="String">融合支援</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">INTEGRATED_SUPPORT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">We gain advantage over the enemy through the rapid deployment of our forces.[br/][br/]You are able to cast Tactical Operations starting from the first turn of combat.</Data></Cell><Cell><Data ss:Type="String">通过快速部署军队，我们比敌人拥有了更多优势。[br/][br/]你从第一轮战斗开始就可以施放战术行动。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HEARTS_AND_MINDS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Hearts and Minds</Data></Cell><Cell><Data ss:Type="String">全心全意</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">HEARTS_AND_MINDS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">We can pacify populations faster using our natural charisma and leadership.[br/][br/]+{InfluenceIncome} gained from completing Quests. In addition, absorbing colonies is {AbsorbtionSpeed} faster.</Data></Cell><Cell><Data ss:Type="String">利用我们与生俱来的魅力和领导力，我们能更快安抚民众。[br/][br/]完成任务时获得 +{InfluenceIncome}。此外，殖民地吸收速度提升 {AbsorbtionSpeed}。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">HEARTS_AND_MINDS</Data></Cell><Cell><Data ss:Type="String">SHORT_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{InfluenceIncome} Influence for completing quests.</Data></Cell><Cell><Data ss:Type="String">完成任务时获得 {InfluenceIncome} 声望值。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIG_STICK_DIPLOMACY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Big Stick Diplomacy</Data></Cell><Cell><Data ss:Type="String">大棒外交</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">BIG_STICK_DIPLOMACY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">We can leverage military threats to bring peace.[br/][br/]Starting a war no longer gives reputation penalties, and other players no longer will receive a [casusBelli/] against us when we have a negative reputation.[br/]In addition, Dwelling Shop costs do not increase when you have a negative reputation and we gain a {reputation}[reputation6/] increase.</Data></Cell><Cell><Data ss:Type="String">我们可以利用军事威胁来换取和平。[br/][br/]开战不再受到声望惩罚。同时，当我们拥有负值声望时，其他玩家也不再会获得针对我们的[casusBelli/]。[br/]此外，当你的声望为负值时，居住地商店消耗不会提升，并且我们还会获得 {reputation}[reputation6/] 提升。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLANETARY_CONQUEST</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Planetary Conquest</Data></Cell><Cell><Data ss:Type="String">星球征服</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">PLANETARY_CONQUEST</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Proclaiming our military success convinces the populace that we are unbeatable, final victory looming on the horizon.[br/][br/]You have an extra {PopularSupportIncrease} Popular Support while this Doctrine is active.</Data></Cell><Cell><Data ss:Type="String">声张我们的军事成果能够让民众相信我们战无不胜，最终的胜利就在眼前。[br/][br/]激活此教义时，你将额外获得 {PopularSupportIncrease} 民众支持。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell><Cell><Data ss:Type="String">FAILURE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">On failure, targeted army suffers {Damage} damage</Data></Cell><Cell><Data ss:Type="String">如果失败，则目标军队会受到 {Damage} 伤害。</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Zoom>115</Zoom><Selected/><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:57:45Z</Created><LastSaved
+    >2019-06-25T15:57:45Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
+    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s64"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Interior /></Style><Style
+      ss:ID="s65"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /><Interior
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="230.25"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="199.5" /><Column
+        ss:StyleID="s62"
+        ss:Width="156"
+      /><Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75" /><Column
+        ss:StyleID="s62"
+        ss:Width="228.75"
+      /><Column ss:StyleID="s62" ss:Width="120" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >EXPEDITIONAIRYWARFARE_TECHGROUPS</Data></Cell><Cell
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s63" /><Cell ss:StyleID="s63" /><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        ><Data
+            ss:Type="String"
+          >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s63" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">SCENE ID</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">TEXT ID</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >VANGUARD_SKILLS</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >GROUP_NAME</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Vanguard</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >先锋</Data></Cell><Cell ss:Index="7" ss:StyleID="s63" /><Cell
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s63" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">NANITE_SUPPORT_STATION</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Nanite Support Station</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >纳米支援站</Data></Cell><Cell ss:Index="7" ss:StyleID="s63" /><Cell
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >NANITE_SUPPORT_STATION</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Drops a Nanite Support Station onto the battlefield. The Nanite Support Station has a built-in blur field which gives [abilityblue]Obscured[/abilityblue] to all adjacent units. In addition, the station heals all adjacent friendly units {MedicalHealAmount} at the start of each turn. The Nanite Support Station is destroyable.</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data
+            ss:Type="String"
+          >向战场投放一个纳米支援站。纳米支援站内部建有模糊力场，可给予所有相邻单位[abilityblue]模糊[/abilityblue]。此外，站点还会在每回合开始时治疗所有相邻友方单位 {MedicalHealAmount}。纳米支援站可被摧毁。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s64" /><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >NANITE_SUPPORT_STATION</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Sends out support nanites to heal adjacent units for {NaniteSupportHeal} at the start of each of its turns.</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data
+            ss:Type="String"
+          >该单位在每回合开始时会派出支援纳米机器人治疗相邻单位 {NaniteSupportHeal} 。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s63" /><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >DEPLOY_AUTOTURRETS</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Launcher Turret</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >发射器炮塔</Data></Cell><Cell ss:Index="7" ss:StyleID="s63" /><Cell
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >DEPLOY_AUTOTURRETS</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Deploys a Launcher Turret into combat. [br/][br/]The turret deals [damagephysical/] area of effect damage and lasts until end of combat.</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data
+            ss:Type="String"
+          >在战斗中部署发射器炮塔。[br/][br/]炮塔造成 [damagephysical/] 范围伤害，持续到战斗结束。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s63" /><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >INFERNO_DROP_POD</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Deploy Valkyrie</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >部署瓦尔基里</Data></Cell><Cell ss:Index="7" ss:StyleID="s63" /><Cell
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >INFERNO_DROP_POD</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >An orbital drop pod lands at target location, dealing {damage} damage with [abilityred]High Impact[/abilityred] to units in a 1 hex radius area of effect around the impact location. The drop pod unfolds into cover. The drop pod contains a Valkyrie unit which lasts until end of combat.</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data
+            ss:Type="String"
+          >轨道空降舱在目标区域着陆，造成 {damage} 伤害并对冲击点周围 1 个单元格范围的单位造成[abilityred]高度冲击[/abilityred]。空降舱会展开变成掩体。空降舱中有一个瓦尔基里单位，持续到战斗结束。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s63" /><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >DIRECT_COMMAND</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Direct Command</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >直接命令</Data></Cell><Cell ss:Index="7" ss:StyleID="s63" /><Cell
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >DIRECT_COMMAND</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >All friendly non-mindless units gain {moraleBonus}[happiness/] and [abilityblue]Stagger Resistance[/abilityblue] for {duration}[turn/]</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data
+            ss:Type="String"
+          >所有友方非无意识单位获得 {moraleBonus}[happiness/]和[abilityblue]动摇抵抗[/abilityblue]，持续 {duration}[turn/]</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s63" /><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >DIRECT_COMMAND</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >INSPIRED_EFFECT_NAME</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Directly Commanded</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >直接受命</Data></Cell><Cell ss:Index="7" ss:StyleID="s63" /><Cell
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >DIRECT_COMMAND</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >INSPIRED_EFFECT_DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >This unit has +{moraleBonus} and {staggerBonus} is less likely to be [abilityred]Staggered[/abilityred].</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data
+            ss:Type="String"
+          >该单位获得 +{moraleBonus} 和 {staggerBonus}，同时被[abilityred]动摇[/abilityred]的几率更低。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s63" /><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >COMBAT_ASSIST_SYSTEM</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Combat Assist System</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >战斗辅助系统</Data></Cell><Cell ss:Index="7" ss:StyleID="s63" /><Cell
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >COMBAT_ASSIST_SYSTEM</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Send a CAS drone to assist target unit. The drone purges any negative status effects and provides {CombatShields} while it is active, for up to {CombatDuration}.</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data
+            ss:Type="String"
+          >派遣战斗辅助系统无人机协助目标单位。无人机会净化所有负面状态效果并在其激活期间提供 {CombatShields}，最多持续 {CombatDuration}。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s63" /><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >COMBAT_ASSIST_SYSTEM</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >The unit temporarily has +{CombatShields} shields from the CAS drone operation.</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data
+            ss:Type="String"
+          >该单位正受益于战斗辅助系统无人机，临时获得 +{CombatShields} 护盾。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s63" /><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMERGENCY_RECON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Emergency Recon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >紧急侦察</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">EMERGENCY_RECON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deploy an OWL from the colony reserves to provide emergency reconnaissance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >从殖民地储备库中部署一个猫头鹰单位进行紧急侦察。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">EMERGENCY_RECON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >An OWL has been deployed from the colony reserves.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >猫头鹰单位已从殖民地储备库中部署。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SECURITY_DRONES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Security Drones</Data></Cell><Cell><Data
+            ss:Type="String"
+          >安保无人机</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">SECURITY_DRONES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Security drones are active in the colony's domain. When friendly armies fight in that domain, {AmountUnitsSpawned} random Drones will aid them in combat.[br/]The drones disappear at the end of combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >安保无人机在殖民地领域内有效。当友方军队在该领域作战时，{AmountUnitsSpawned} 个随机无人机将会在战斗中提供帮助。[br/]无人机将在战斗结束后消失。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SECURITY_DRONES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Drones have been deployed to aid in defending this territory.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >已部署无人机协助防卫该领地。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BUNKER_BUSTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bunker Buster</Data></Cell><Cell><Data
+            ss:Type="String"
+          >地堡爆破炸弹</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">BUNKER_BUSTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target an enemy colony or army with a Bunker Buster bomb. If a colony is affected it destroys {DestroyedUpgrade} random colony structure, if there are any, and if an army is affected it deals {KineticDamage} damage to all units in that hex.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标敌方殖民地或军队投掷地堡爆破炸弹。如果殖民地受到影响，则炸弹会摧毁 {DestroyedUpgrade} 个随机殖民地建筑（如有）。如果军队受到影响，则炸弹会对该单元格中的所有单位造成 {KineticDamage} 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">BUNKER_BUSTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We successfully dropped a Bunker Buster on a target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们已成功向目标投放了地堡爆破炸弹。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">BUNKER_BUSTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Bunker Buster missed its mark, rendering it useless.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >地堡爆破炸弹未命中目标，导致攻击无效。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">BUNKER_BUSTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our enemies have targeted us with a Bunker Buster!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >敌人用地堡爆破炸弹轰炸了我们！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">BUNKER_BUSTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our enemies tried targeting us with a Bunker Buster, but it landed off-target. This has still worried our citizens.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >敌人尝试用地堡爆破炸弹轰炸我们，但炸弹偏离了目标。不过我们的居民还是有些担忧。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Orbital Laser Cannon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >轨道激光炮</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deals damage equal to {damage} of the targeted army's [hp/]. If a colony center is targeted, it will kill {ColonistsKilled} colonists and reduce colony happiness by {HappinessIncome} for {TurnDuration}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >造成等同于目标军队{damage}[hp/]的伤害。如果以殖民地中心为目标，将会击杀 {ColonistsKilled} 个移住民并减少该殖民地 {HappinessIncome} 幸福值，持续 {TurnDuration}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell><Cell
+        ><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Orbital Laser Cannon has inflicted heavy damage on its target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >轨道激光炮对目标造成了大量伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell><Cell
+        ><Data ss:Type="String">CASTER_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Orbital Laser Cannon only partially damaged the target. They proved resilient in the face of its power and their spirit is undiminished.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >轨道激光炮对目标仅造成了部分伤害。目标在应对激光炮时非常顽强，他们的意志也并未被削弱。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell><Cell
+        ><Data ss:Type="String">TARGET_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Your army was targeted by an Orbital Laser Cannon and has suffered heavy damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的军队被轨道激光炮攻击并受到了大量伤害。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >ORBITAL_LASER_CANNON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Your army was targeted by an Orbital Laser Cannon, but your troops managed to avoid the worst of it.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的军队被轨道激光炮攻击了，但部队设法避开了最糟糕的结果。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >ORBITAL_LASER_CANNON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reduces happiness by {HappinessLowered} for {TurnDuration}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >幸福值减少 {HappinessLowered}，持续 {TurnDuration}</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ORBITAL_LASER_CANNON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_STRING_DAMAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The army suffered {Damage} damage.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >军队受到 {Damage} 伤害。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SUPPLY_DROP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Supply Drop</Data></Cell><Cell><Data
+            ss:Type="String"
+          >空降补给</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >SUPPLY_DROP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target friendly army is resupplied by Vanguard support drones, healing them to full [hp/] and increasing their damage by {DamageIncrease} until the end of next combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标友方军队获得先锋支援无人机的补给，恢复全部[hp/]同时伤害提升 {DamageIncrease}，直到下次战斗结束。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >SUPPLY_DROP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Your army has been resupplied. Their vigor is renewed and they are ready for action!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的军队已获得重新补给。他们恢复了活力并准备好进行下一次行动了！</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SUPPLY_DROP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Supplied</Data></Cell><Cell><Data
+            ss:Type="String"
+          >补给完毕</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >SUPPLY_DROP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit deals {DamageBonus} increased damage until end of combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位额外造成 {DamageBonus} 伤害，直到战斗结束。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SUPPLY_DROP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_STRING_HEAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Affected units have full [hp/]</Data></Cell><Cell><Data
+            ss:Type="String"
+          >受影响单位恢复全部[hp/]</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >SUPPLY_DROP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_STRING_DAMAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Affected units deal {DamageIncrease} increased damage until the end of their next combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >受影响单位额外造成 {DamageIncrease} 伤害，直到其下次战斗结束。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FRONTIER_SURVIVAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Frontier Survival</Data></Cell><Cell><Data
+            ss:Type="String"
+          >边境生存</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
+            ss:Type="String"
+          >FRONTIER_SURVIVAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >For as long as the Vanguard have been sent to remote worlds, they have been trained to sustain themselves while new supplies were en route. As a result, the military helps to maintain and control food consumption in our colony.[br/][br/]{FoodIncome} in your colonies.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >自从先锋被派往偏远的星球后，他们进过无数次训练，学会了在物资运输期间维持生计。因此，军队会帮助维持并控制我们殖民地的食物消耗。[br/][br/]你的殖民地获得 {FoodIncome}。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >COLONY_MILITA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Colony Militia</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地卫队</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="135"
+      ><Cell><Data ss:Type="String">COLONY_MILITA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The population is armed and ready. Recruiting troops directly from our colony militia reduces training time, allowing us to bring troops to the field more rapidly.[br/][br/]Production cost of all units reduced by {ProductionCost1} in your colonies. In addition, the production cost is further reduced by an extra {ProductionCost2} for each Colony Militia Barracks or Defense building in your colony.[br/][br/][firecol]Unit costs can never be lowered more than 75%.[/firecol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >殖民地中的民众已经全副武装。直接从我们的殖民地卫队中招募部队的训练时间减少，从而使我们能够更快地将部队投入战场。[br/][br/]殖民地中所有单位的产力消耗减少 {ProductionCost1}。此外，殖民地中每拥有一个殖民地卫队兵营或防御建筑，产力消耗就会减少 {ProductionCost2}。[br/][br/][firecol]单位消耗减少不能超过 75%。[/firecol]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INTEGRATED_SUPPORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Integrated Support</Data></Cell><Cell><Data
+            ss:Type="String"
+          >融合支援</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">INTEGRATED_SUPPORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We gain advantage over the enemy through the rapid deployment of our forces.[br/][br/]You are able to cast Tactical Operations starting from the first turn of combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >通过快速部署军队，我们比敌人拥有了更多优势。[br/][br/]你从第一轮战斗开始就可以施放战术行动。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEARTS_AND_MINDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hearts and Minds</Data></Cell><Cell><Data
+            ss:Type="String"
+          >全心全意</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">HEARTS_AND_MINDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We can pacify populations faster using our natural charisma and leadership.[br/][br/]+{InfluenceIncome} gained from completing Quests. In addition, absorbing colonies is {AbsorbtionSpeed} faster.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >利用我们与生俱来的魅力和领导力，我们能更快安抚民众。[br/][br/]完成任务时获得 +{InfluenceIncome}。此外，殖民地吸收速度提升 {AbsorbtionSpeed}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">HEARTS_AND_MINDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{InfluenceIncome} Influence for completing quests.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >完成任务时获得 {InfluenceIncome} 声望值。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIG_STICK_DIPLOMACY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Big Stick Diplomacy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >大棒外交</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">BIG_STICK_DIPLOMACY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We can leverage military threats to bring peace.[br/][br/]Starting a war no longer gives reputation penalties, and other players no longer will receive a [casusBelli/] against us when we have a negative reputation.[br/]In addition, Dwelling Shop costs do not increase when you have a negative reputation and we gain a {reputation}[reputation6/] increase.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们可以利用军事威胁来换取和平。[br/][br/]开战不再受到声望惩罚。同时，当我们拥有负值声望时，其他玩家也不再会获得针对我们的[casusBelli/]。[br/]此外，当你的声望为负值时，居住地商店消耗不会提升，并且我们还会获得 {reputation}[reputation6/] 提升。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLANETARY_CONQUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Planetary Conquest</Data></Cell><Cell><Data
+            ss:Type="String"
+          >星球征服</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">PLANETARY_CONQUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Proclaiming our military success convinces the populace that we are unbeatable, final victory looming on the horizon.[br/][br/]You have an extra {PopularSupportIncrease} Popular Support while this Doctrine is active.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >声张我们的军事成果能够让民众相信我们战无不胜，最终的胜利就在眼前。[br/][br/]激活此教义时，你将额外获得 {PopularSupportIncrease} 民众支持。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell><Cell
+        ><Data ss:Type="String">FAILURE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >On failure, targeted army suffers {Damage} damage</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >如果失败，则目标军队会受到 {Damage} 伤害。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>115</Zoom><Selected
+      /><ProtectObjects>False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

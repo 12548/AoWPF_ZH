@@ -1,1 +1,871 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:51:37Z</Created><LastSaved>2019-06-25T15:51:37Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style><Style ss:ID="s63"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15"><Column ss:StyleID="s62" ss:Width="148.5"/><Column ss:StyleID="s62" ss:Width="146.25"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="301.5"/><Column ss:StyleID="s62" ss:Width="147.75"/><Column ss:StyleID="s62" ss:Width="300"/><Column ss:StyleID="s62" ss:Width="238.5"/><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">PSIFISH_UNITPROPERTIES</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MIND_STRIKE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Mind Strike</Data></Cell><Cell><Data ss:Type="String">心灵打击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MIND_STRIKE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Pulse with Psionic energy, dealing a mind strike to the target.</Data></Cell><Cell><Data ss:Type="String">发出灵能能量对目标进行心灵打击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PSIONIC_BLAST</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Psionic Blast</Data></Cell><Cell><Data ss:Type="String">灵能冲击</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">PSIONIC_BLAST</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Project a Psionic Blast onto the battlefield, dealing damage in a {PsionicBlastArea} hex area.</Data></Cell><Cell><Data ss:Type="String">向战场发射灵能冲击，对 {PsionicBlastArea} 个单元格范围造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MIND_BLAST</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Mind Blast</Data></Cell><Cell><Data ss:Type="String">心灵震爆</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">MIND_BLAST</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Channel Psionic power to the target's mind, dealing Psionic damage.</Data></Cell><Cell><Data ss:Type="String">将灵能力量引导进目标心灵，造成灵能伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FASCINATING_BOND</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Fascinating Bond</Data></Cell><Cell><Data ss:Type="String">魅惑连接</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">FASCINATING_BOND</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Bond with target enemy, making it unable to use actions. If this unit is staggered, the bond is broken and the effect ends. </Data></Cell><Cell><Data ss:Type="String">连接目标敌人，该敌人无法使用行动。如果施放单位被动摇，则连接会被破坏，效果也会结束。 </Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">FASCINATING_BOND</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{FascinatingChance} strength chance to apply [abilityred]Fascinated[/abilityred] to a non-Mindless unit for {FascinatingBondTime}. If resisted, it applies [abilityred]Broken Mind[/abilityred].</Data></Cell><Cell><Data ss:Type="String">有 {FascinatingChance} 力量几率对非无意识单位施加[abilityred]着迷[/abilityred]，持续 {FascinatingBondTime}。如果被抵抗，则施加[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FASCINATED</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Fascinated</Data></Cell><Cell><Data ss:Type="String">着迷</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">FASCINATED</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is linked to another unit, making it unable to use actions. Staggering the caster will cancel the effect.</Data></Cell><Cell><Data ss:Type="String">该单位正与另一个单位相互连接，无法使用行动。动摇施放单位将取消此效果。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BONDED</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Bond</Data></Cell><Cell><Data ss:Type="String">连接</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">BONDED</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is currently bonded to another, applying an effect. If this unit is staggered, the effect will end.</Data></Cell><Cell><Data ss:Type="String">该单位当前正与另一个单位相互连接并施加效果。如果该单位被动摇，则效果将会结束。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEVOURING_TENDRILS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Devouring Tendrils</Data></Cell><Cell><Data ss:Type="String">吞噬触须</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEVOURING_TENDRILS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Lash out with Psionic-enhanced tentacles.</Data></Cell><Cell><Data ss:Type="String">使用经过灵能强化的触须发动猛击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CAPTIVATING_BOND</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Captivating Bond</Data></Cell><Cell><Data ss:Type="String">迷惑连接</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">CAPTIVATING_BOND</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Bond with target enemy, making it unable to move or use actions. If this unit is staggered, the bond will be broken and the effect will end.</Data></Cell><Cell><Data ss:Type="String">连接目标敌人，该敌人无法移动或使用行动。如果施放单位被动摇，则连接会被破坏，效果也会结束。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">CAPTIVATING_BOND</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{CaptivatingChance} strength chance to apply [abilityred]Captivated[/abilityred] to a non-Mindless unit for {CaptivatingBondTime}. If resisted, it applies [abilityred]Broken Mind[/abilityred].</Data></Cell><Cell><Data ss:Type="String">有 {CaptivatingChance} 力量几率对非无意识单位施加[abilityred]迷惑[/abilityred]，持续 {CaptivatingBondTime}。如果被抵抗，则施加[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CAPTIVATED</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Captivated</Data></Cell><Cell><Data ss:Type="String">迷惑</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">CAPTIVATED</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is linked to another unit, making it unable to move or use actions. Staggering the caster will cancel the effect.</Data></Cell><Cell><Data ss:Type="String">该单位正与另一个单位相互连接，无法移动或使用行动。动摇施放单位将取消此效果。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MIND_FLAY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Mind Flay</Data></Cell><Cell><Data ss:Type="String">心灵鞭笞</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">MIND_FLAY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A ranged Psionic attack against target enemy unit's mind. Attempts to apply Broken Mind.</Data></Cell><Cell><Data ss:Type="String">使用远程灵能攻击目标敌方单位的心灵，并尝试施加破碎心灵。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IMPREGNATE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Impregnate</Data></Cell><Cell><Data ss:Type="String">受育</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">IMPREGNATE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Inject adjacent Biological or Cyborg enemy Infantry unit with an embryo. The unit goes into a [abilityred]Panic[/abilityred] and will run away randomly for {ImpregnateTime}.[br/]At the end of the effect the unit will transform into a Chrysalis under your control.[br/]Doesn't work on Commanders and Heroes.</Data></Cell><Cell><Data ss:Type="String">向相邻敌方生物步兵单位或半机械人步兵单位注射胚胎，使其陷入[abilityred]恐慌[/abilityred]并随机向四处逃散，持续 {ImpregnateTime}。[br/]效果结束时，单位将转变成一个受你控制的蛹。[br/]对指挥官和英雄无效。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTICING_BOND</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Enticing Bond</Data></Cell><Cell><Data ss:Type="String">引诱连接</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">ENTICING_BOND</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Bond with target enemy, making it use all of its [movewalk/] to run towards the caster. If this unit is staggered, the bond will be broken and the effect will end.</Data></Cell><Cell><Data ss:Type="String">连接目标敌人，该敌人将耗尽所有[movewalk/]奔向施放者。如果施放单位被动摇，则连接会被破坏，效果也会结束。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">ENTICING_BOND</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{EnticeChance} strength chance to apply [abilityred]Enticed[/abilityred] to a non-Mindless unit for {EnticeTurns}. If resisted, it applies [abilityred]Broken Mind[/abilityred].</Data></Cell><Cell><Data ss:Type="String">有 {EnticeChance} 力量几率对非无意识单位施加[abilityred]引诱[/abilityred]，持续 {EnticeTurns}。如果被抵抗，则施加[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PSIFISH_PARASITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Psi-Fish Parasite</Data></Cell><Cell><Data ss:Type="String">灵能水母寄生虫</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">PSIFISH_PARASITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit's mind is being consumed by a Psi-Fish Embryo that will soon create a Chrysalis, making this unit lose its turns due to running randomly in a panic.</Data></Cell><Cell><Data ss:Type="String">该单位的心灵正在被灵能水母的胚胎吞食并且不久将产出蛹，使其在惊慌中四处逃逸而失去其回合。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTICED</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Enticed</Data></Cell><Cell><Data ss:Type="String">引诱</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">ENTICED</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is linked to another unit, and will do its best to run towards the unit it is linked to. Staggering the caster will cancel the effect.</Data></Cell><Cell><Data ss:Type="String">该单位正与另一个单位相互连接，会用尽全力向连接的单位奔去。动摇施放单位将取消此效果。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MIND_WARP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Mind Warp</Data></Cell><Cell><Data ss:Type="String">心灵扭曲</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MIND_WARP</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A Psionic attack against the mind of target enemy unit.</Data></Cell><Cell><Data ss:Type="String">一种攻击目标敌方单位心灵的灵能攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PSYCHIC_ERUPTION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Psychic Eruption</Data></Cell><Cell><Data ss:Type="String">灵能爆发</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PSYCHIC_ERUPTION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">All non-Psionic units take Psionic damage.</Data></Cell><Cell><Data ss:Type="String">所有非灵能单位受到灵能伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">NURTURING_BOND</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Nurturing Bond</Data></Cell><Cell><Data ss:Type="String">滋养连接</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="79.3125"><Cell><Data ss:Type="String">NURTURING_BOND</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit links itself to target friendly non-Mechanical unit, causing it to regenerate {Hpregen} at the end of its turn, and gain +{ResistanceValue} resistance to all damage, for {NurturingDuration} turns.</Data></Cell><Cell><Data ss:Type="String">该单位将自身与目标非机械单位连接，被连接的单位在其回合结束时能够恢复 {Hpregen}，同时对所有伤害获得 +{ResistanceValue} 抵抗，持续 {NurturingDuration} 回合。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">NURTURE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Nurture</Data></Cell><Cell><Data ss:Type="String">滋养</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">NURTURE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has {NurtureResist} resistance to all damage, and regenerates {Hpregen} per turn.</Data></Cell><Cell><Data ss:Type="String">该单位拥有 {NurtureResist} 对所有伤害的抵抗，并且每回合恢复 {Hpregen}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CYCLE_OF_REBIRTH</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Cycle of Rebirth</Data></Cell><Cell><Data ss:Type="String">重生循环</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="68.25"><Cell><Data ss:Type="String">CYCLE_OF_REBIRTH</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Target dead, friendly Psi-Fish unit is returned to life as a Chrysalis.</Data></Cell><Cell><Data ss:Type="String">阵亡的友方目标灵能水母单位将复活并成为一个蛹。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="68.25"><Cell><Data ss:Type="String">CYCLE_OF_REBIRTH</Data></Cell><Cell><Data ss:Type="String">EFFECT_STRING</Data></Cell><Cell><Data ss:Type="String">Reborn as Chrysalis</Data></Cell><Cell><Data ss:Type="String">重生为蛹</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MATERNAL_INSTINCT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Maternal Instinct</Data></Cell><Cell><Data ss:Type="String">母性本能</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">MATERNAL_INSTINCT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Each time a Psi-Fish unit of lower tier dies in combat, the Medusa will gain 1 stack of [abilityblue]Maternal Rage[/abilityblue].[br/][bulletList][bullet]Stack 1: Mind Warp does {damage} more damage.[/bullet][bullet]Stack 2: Mind Warp now attempts to apply [abilityred]Insanity[/abilityred] with {StrenghtChance} Strength Chance.[/bullet][bullet]Stack 3: Unlocks [hyperlink,0000039A00000840]Psychic Eruption[/hyperlink], an attack that deals 12[damagepsyche/] damage to all non-Psionic units.</Data></Cell><Cell><Data ss:Type="String">每当有阶级较低的灵能水母单位在战斗中死亡，美杜莎将获得 1 层[abilityblue]母性怒火[/abilityblue]。[br/][bulletList][bullet]1 层：心灵扭曲额外造成 {damage} 伤害。[/bullet][bullet]2 层：心灵扭曲有 {StrenghtChance} 力量几率尝试施加[abilityred]错乱[/abilityred]。[/bullet][bullet]3 层：解锁[hyperlink,0000039A00000840]心灵爆发[/hyperlink]，对所有非灵能单位造成 12[damagepsyche/] 伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MATERNAL_RAGE_1</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Maternal Rage I</Data></Cell><Cell><Data ss:Type="String">母性怒火 1</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MATERNAL_RAGE_1</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Mind Warp is 50% stronger.</Data></Cell><Cell><Data ss:Type="String">心灵扭曲额外造成 50% 伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MATERNAL_RAGE_2</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Maternal Rage II</Data></Cell><Cell><Data ss:Type="String">母性怒火 2</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MATERNAL_RAGE_2</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Mind Warp attempts to apply Insanity.</Data></Cell><Cell><Data ss:Type="String">心灵扭曲将能尝试施加错乱。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MATERNAL_RAGE_3</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Maternal Rage III</Data></Cell><Cell><Data ss:Type="String">母性怒火 3</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MATERNAL_RAGE_3</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unlocks Psychic Eruption.</Data></Cell><Cell><Data ss:Type="String">解锁心灵爆发。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">DEVOURING_TENDRILS_LIFE_DRAIN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Psionic Drain</Data></Cell><Cell><Data ss:Type="String">灵能汲取</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">DEVOURING_TENDRILS_LIFE_DRAIN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Heals {healamount} per hit on non-Mindless units</Data></Cell><Cell><Data ss:Type="String">每次攻击非无意识单位时治疗 {healamount}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MIND_BARRIER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Mind Barrier</Data></Cell><Cell><Data ss:Type="String">心灵屏障</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">MIND_BARRIER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This mod creates a small psionic barrier arround the unit, granting it +{PsiStatusResistance} status resistance and +{PsiDamageResistance} damage resistance.</Data></Cell><Cell><Data ss:Type="String">该模块会在单位周围产生小型灵能屏障，使单位获得 +{PsiStatusResistance} 状态抵抗和 +{PsiDamageResistance} 伤害抵抗。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">MIND_BARRIER</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has+{PsiStatusResistance} status resistance and +{PsiDamageResistance} damage resistance.</Data></Cell><Cell><Data ss:Type="String">该单位获得 +{PsiStatusResistance} 状态抵抗和 +{PsiDamageResistance} 伤害抵抗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EYES_OF_ETERNITY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Eyes of Eternity</Data></Cell><Cell><Data ss:Type="String">永恒之眼</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">EYES_OF_ETERNITY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The Psi-Fish can create much stronger bonds while they gaze to infinity. The strength chance of the Captivating, Fascinating and Enticing Bond abilities is increased to {EyesChance}. Additionally, all of their Psionic ranged abilities have their range increased by {Rangeincrease}.</Data></Cell><Cell><Data ss:Type="String">当灵能水母凝视永恒时会产生出更加强大的连接。迷惑连接、魅惑连接和引诱连接技能的力量几率提升至 {EyesChance}。此外，灵能水母的所有远程灵能技能射程提升 {Rangeincrease}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MANTRA_OF_ILLUSION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Mantra of Illusion</Data></Cell><Cell><Data ss:Type="String">幻象咒语</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">MANTRA_OF_ILLUSION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A mantra devised for those who seek to fool others. Psionic support abilities grant [abilityblue]Lightly Obscured[/abilityblue], and their psionic attacks have a {MantraIllusionStr} strength chance to apply [abilityred]Hallucinating[/abilityred] for {HallucinationDuration}.</Data></Cell><Cell><Data ss:Type="String">欺骗他人的咒语。灵能辅助技能将赋予[abilityblue]轻度模糊[/abilityblue]，且其灵能攻击有 {MantraIllusionStr} 力量几率施加[abilityred]致幻[/abilityred]，持续 {HallucinationDuration}。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">MANTRA_OF_ILLUSION</Data></Cell><Cell><Data ss:Type="String">BUFF_MODIFIER_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Units gain Lightly Obscured, making them harder to hit.</Data></Cell><Cell><Data ss:Type="String">单位获得轻度模糊，使其更难以被命中。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PATH_OF_THE_CHIMERA</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Focus: Chimera</Data></Cell><Cell><Data ss:Type="String">专注：奇美拉</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">PATH_OF_THE_CHIMERA</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Psionic users on this path have a {PathChimeraStr} strength chance to apply [abilityred]Burning[/abilityred], [abilityred]Electrified[/abilityred] and [abilityred]Poison[/abilityred] when their attacks strike a target.[br/][br/][productioncol]Only one focus mod can be active at a time.[/productioncol]</Data></Cell><Cell><Data ss:Type="String">位于此道的灵能使用者在攻击目标时，有 {PathChimeraStr} 力量几率施加[abilityred]燃烧[/abilityred]、[abilityred]触电[/abilityred]和[abilityred]中毒[/abilityred]。[br/][br/][productioncol]一次只能激活一个专注模块。[/productioncol]</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">PSIFISH_DWELLING_PSIONIC_VOLATILITY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Psionic Volatility</Data></Cell><Cell><Data ss:Type="String">灵能波动</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">PSIFISH_DWELLING_PSIONIC_VOLATILITY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Each {turn} [turn/], the wild Psionic flux caused by the Psi-Fish will try to burst the minds of the assailants. A random attacking unit and any adjacent attacking unit suffers {damage} Psionic damage with {BrokenMindChance} strength chance to apply [abilityred]Broken Mind[/abilityred].</Data></Cell><Cell><Data ss:Type="String">每 {turn} [turn/]，灵能水母制造的猛烈灵能波动将会尝试炸裂攻击者的心灵。一个随机的攻击单位和所有与其相邻的攻击单位将受到 {damage} 灵能伤害，并且有 {BrokenMindChance} 力量几率被施加[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MIND_BARRIER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Brain Shield</Data></Cell><Cell><Data ss:Type="String">大脑护盾</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MIND_BARRIER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Cerebral</Data></Cell><Cell><Data ss:Type="String">大脑</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MIND_BARRIER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Psi Fortress</Data></Cell><Cell><Data ss:Type="String">灵能要塞</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MIND_BARRIER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Tranquil</Data></Cell><Cell><Data ss:Type="String">宁静的</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MIND_BARRIER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Intellectual</Data></Cell><Cell><Data ss:Type="String">智慧</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MIND_BARRIER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Stout Brain</Data></Cell><Cell><Data ss:Type="String">结实大脑</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MANTRA_OF_ILLUSION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Illusionist</Data></Cell><Cell><Data ss:Type="String">幻术师</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MANTRA_OF_ILLUSION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Mesmerizing</Data></Cell><Cell><Data ss:Type="String">迷惑</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MANTRA_OF_ILLUSION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Enthralling</Data></Cell><Cell><Data ss:Type="String">迷人</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MANTRA_OF_ILLUSION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Bedazzler</Data></Cell><Cell><Data ss:Type="String">困惑</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MANTRA_OF_ILLUSION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Fascinating</Data></Cell><Cell><Data ss:Type="String">着迷</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MANTRA_OF_ILLUSION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Spellbinder</Data></Cell><Cell><Data ss:Type="String">蛊惑</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PATH_OF_THE_CHIMERA</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Universalist</Data></Cell><Cell><Data ss:Type="String">普遍主义者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PATH_OF_THE_CHIMERA</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Ubiquitous</Data></Cell><Cell><Data ss:Type="String">无所不在</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PATH_OF_THE_CHIMERA</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Tumultuous</Data></Cell><Cell><Data ss:Type="String">喧哗动乱</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PATH_OF_THE_CHIMERA</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Anarchist</Data></Cell><Cell><Data ss:Type="String">扰乱分子</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PATH_OF_THE_CHIMERA</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Master of All</Data></Cell><Cell><Data ss:Type="String">全能者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PATH_OF_THE_CHIMERA</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Virtuoso</Data></Cell><Cell><Data ss:Type="String">名家大师</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EYES_OF_ETERNITY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Perpetual</Data></Cell><Cell><Data ss:Type="String">永恒无休</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EYES_OF_ETERNITY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Allseer</Data></Cell><Cell><Data ss:Type="String">全能先知</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EYES_OF_ETERNITY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Chrono Lord</Data></Cell><Cell><Data ss:Type="String">时间领主</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EYES_OF_ETERNITY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Omnipotent</Data></Cell><Cell><Data ss:Type="String">全知全能</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EYES_OF_ETERNITY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Evervision</Data></Cell><Cell><Data ss:Type="String">永恒幻象</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EYES_OF_ETERNITY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s63"><Data ss:Type="String">Seer of the Cosmos</Data></Cell><Cell><Data ss:Type="String">宇宙先知</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Selected/><TopRowVisible>62</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>71</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:51:37Z</Created><LastSaved
+    >2019-06-25T15:51:37Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="148.5" /><Column
+        ss:StyleID="s62"
+        ss:Width="146.25"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="301.5" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s62" ss:Width="300" /><Column
+        ss:StyleID="s62"
+        ss:Width="238.5"
+      /><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >PSIFISH_UNITPROPERTIES</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MIND_STRIKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mind Strike</Data></Cell><Cell><Data
+            ss:Type="String"
+          >心灵打击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MIND_STRIKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Pulse with Psionic energy, dealing a mind strike to the target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发出灵能能量对目标进行心灵打击。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PSIONIC_BLAST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psionic Blast</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵能冲击</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PSIONIC_BLAST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Project a Psionic Blast onto the battlefield, dealing damage in a {PsionicBlastArea} hex area.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向战场发射灵能冲击，对 {PsionicBlastArea} 个单元格范围造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MIND_BLAST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mind Blast</Data></Cell><Cell><Data
+            ss:Type="String"
+          >心灵震爆</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">MIND_BLAST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Channel Psionic power to the target's mind, dealing Psionic damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将灵能力量引导进目标心灵，造成灵能伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FASCINATING_BOND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fascinating Bond</Data></Cell><Cell><Data
+            ss:Type="String"
+          >魅惑连接</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FASCINATING_BOND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bond with target enemy, making it unable to use actions. If this unit is staggered, the bond is broken and the effect ends. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >连接目标敌人，该敌人无法使用行动。如果施放单位被动摇，则连接会被破坏，效果也会结束。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">FASCINATING_BOND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{FascinatingChance} strength chance to apply [abilityred]Fascinated[/abilityred] to a non-Mindless unit for {FascinatingBondTime}. If resisted, it applies [abilityred]Broken Mind[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {FascinatingChance} 力量几率对非无意识单位施加[abilityred]着迷[/abilityred]，持续 {FascinatingBondTime}。如果被抵抗，则施加[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FASCINATED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fascinated</Data></Cell><Cell><Data
+            ss:Type="String"
+          >着迷</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FASCINATED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is linked to another unit, making it unable to use actions. Staggering the caster will cancel the effect.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位正与另一个单位相互连接，无法使用行动。动摇施放单位将取消此效果。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BONDED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bond</Data></Cell><Cell><Data
+            ss:Type="String"
+          >连接</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">BONDED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is currently bonded to another, applying an effect. If this unit is staggered, the effect will end.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位当前正与另一个单位相互连接并施加效果。如果该单位被动摇，则效果将会结束。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DEVOURING_TENDRILS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Devouring Tendrils</Data></Cell><Cell><Data
+            ss:Type="String"
+          >吞噬触须</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DEVOURING_TENDRILS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Lash out with Psionic-enhanced tentacles.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用经过灵能强化的触须发动猛击。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CAPTIVATING_BOND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Captivating Bond</Data></Cell><Cell><Data
+            ss:Type="String"
+          >迷惑连接</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">CAPTIVATING_BOND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bond with target enemy, making it unable to move or use actions. If this unit is staggered, the bond will be broken and the effect will end.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >连接目标敌人，该敌人无法移动或使用行动。如果施放单位被动摇，则连接会被破坏，效果也会结束。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">CAPTIVATING_BOND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{CaptivatingChance} strength chance to apply [abilityred]Captivated[/abilityred] to a non-Mindless unit for {CaptivatingBondTime}. If resisted, it applies [abilityred]Broken Mind[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {CaptivatingChance} 力量几率对非无意识单位施加[abilityred]迷惑[/abilityred]，持续 {CaptivatingBondTime}。如果被抵抗，则施加[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CAPTIVATED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Captivated</Data></Cell><Cell><Data
+            ss:Type="String"
+          >迷惑</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CAPTIVATED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is linked to another unit, making it unable to move or use actions. Staggering the caster will cancel the effect.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位正与另一个单位相互连接，无法移动或使用行动。动摇施放单位将取消此效果。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MIND_FLAY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mind Flay</Data></Cell><Cell><Data
+            ss:Type="String"
+          >心灵鞭笞</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">MIND_FLAY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A ranged Psionic attack against target enemy unit's mind. Attempts to apply Broken Mind.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用远程灵能攻击目标敌方单位的心灵，并尝试施加破碎心灵。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IMPREGNATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Impregnate</Data></Cell><Cell><Data
+            ss:Type="String"
+          >受育</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">IMPREGNATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Inject adjacent Biological or Cyborg enemy Infantry unit with an embryo. The unit goes into a [abilityred]Panic[/abilityred] and will run away randomly for {ImpregnateTime}.[br/]At the end of the effect the unit will transform into a Chrysalis under your control.[br/]Doesn't work on Commanders and Heroes.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向相邻敌方生物步兵单位或半机械人步兵单位注射胚胎，使其陷入[abilityred]恐慌[/abilityred]并随机向四处逃散，持续 {ImpregnateTime}。[br/]效果结束时，单位将转变成一个受你控制的蛹。[br/]对指挥官和英雄无效。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTICING_BOND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Enticing Bond</Data></Cell><Cell><Data
+            ss:Type="String"
+          >引诱连接</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">ENTICING_BOND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bond with target enemy, making it use all of its [movewalk/] to run towards the caster. If this unit is staggered, the bond will be broken and the effect will end.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >连接目标敌人，该敌人将耗尽所有[movewalk/]奔向施放者。如果施放单位被动摇，则连接会被破坏，效果也会结束。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">ENTICING_BOND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{EnticeChance} strength chance to apply [abilityred]Enticed[/abilityred] to a non-Mindless unit for {EnticeTurns}. If resisted, it applies [abilityred]Broken Mind[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {EnticeChance} 力量几率对非无意识单位施加[abilityred]引诱[/abilityred]，持续 {EnticeTurns}。如果被抵抗，则施加[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PSIFISH_PARASITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psi-Fish Parasite</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵能水母寄生虫</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">PSIFISH_PARASITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's mind is being consumed by a Psi-Fish Embryo that will soon create a Chrysalis, making this unit lose its turns due to running randomly in a panic.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的心灵正在被灵能水母的胚胎吞食并且不久将产出蛹，使其在惊慌中四处逃逸而失去其回合。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTICED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Enticed</Data></Cell><Cell><Data
+            ss:Type="String"
+          >引诱</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">ENTICED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is linked to another unit, and will do its best to run towards the unit it is linked to. Staggering the caster will cancel the effect.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位正与另一个单位相互连接，会用尽全力向连接的单位奔去。动摇施放单位将取消此效果。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MIND_WARP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mind Warp</Data></Cell><Cell><Data
+            ss:Type="String"
+          >心灵扭曲</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MIND_WARP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A Psionic attack against the mind of target enemy unit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一种攻击目标敌方单位心灵的灵能攻击。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PSYCHIC_ERUPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psychic Eruption</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵能爆发</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PSYCHIC_ERUPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All non-Psionic units take Psionic damage.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >所有非灵能单位受到灵能伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">NURTURING_BOND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Nurturing Bond</Data></Cell><Cell><Data
+            ss:Type="String"
+          >滋养连接</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="79.3125"
+      ><Cell><Data ss:Type="String">NURTURING_BOND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit links itself to target friendly non-Mechanical unit, causing it to regenerate {Hpregen} at the end of its turn, and gain +{ResistanceValue} resistance to all damage, for {NurturingDuration} turns.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位将自身与目标非机械单位连接，被连接的单位在其回合结束时能够恢复 {Hpregen}，同时对所有伤害获得 +{ResistanceValue} 抵抗，持续 {NurturingDuration} 回合。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">NURTURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Nurture</Data></Cell><Cell><Data
+            ss:Type="String"
+          >滋养</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">NURTURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has {NurtureResist} resistance to all damage, and regenerates {Hpregen} per turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位拥有 {NurtureResist} 对所有伤害的抵抗，并且每回合恢复 {Hpregen}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CYCLE_OF_REBIRTH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cycle of Rebirth</Data></Cell><Cell><Data
+            ss:Type="String"
+          >重生循环</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="68.25"
+      ><Cell><Data ss:Type="String">CYCLE_OF_REBIRTH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target dead, friendly Psi-Fish unit is returned to life as a Chrysalis.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >阵亡的友方目标灵能水母单位将复活并成为一个蛹。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="68.25"
+      ><Cell><Data ss:Type="String">CYCLE_OF_REBIRTH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reborn as Chrysalis</Data></Cell><Cell><Data
+            ss:Type="String"
+          >重生为蛹</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MATERNAL_INSTINCT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Maternal Instinct</Data></Cell><Cell><Data
+            ss:Type="String"
+          >母性本能</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">MATERNAL_INSTINCT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Each time a Psi-Fish unit of lower tier dies in combat, the Medusa will gain 1 stack of [abilityblue]Maternal Rage[/abilityblue].[br/][bulletList][bullet]Stack 1: Mind Warp does {damage} more damage.[/bullet][bullet]Stack 2: Mind Warp now attempts to apply [abilityred]Insanity[/abilityred] with {StrenghtChance} Strength Chance.[/bullet][bullet]Stack 3: Unlocks [hyperlink,0000039A00000840]Psychic Eruption[/hyperlink], an attack that deals 12[damagepsyche/] damage to all non-Psionic units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每当有阶级较低的灵能水母单位在战斗中死亡，美杜莎将获得 1 层[abilityblue]母性怒火[/abilityblue]。[br/][bulletList][bullet]1 层：心灵扭曲额外造成 {damage} 伤害。[/bullet][bullet]2 层：心灵扭曲有 {StrenghtChance} 力量几率尝试施加[abilityred]错乱[/abilityred]。[/bullet][bullet]3 层：解锁[hyperlink,0000039A00000840]心灵爆发[/hyperlink]，对所有非灵能单位造成 12[damagepsyche/] 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MATERNAL_RAGE_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Maternal Rage I</Data></Cell><Cell><Data
+            ss:Type="String"
+          >母性怒火 1</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MATERNAL_RAGE_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mind Warp is 50% stronger.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >心灵扭曲额外造成 50% 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MATERNAL_RAGE_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Maternal Rage II</Data></Cell><Cell><Data
+            ss:Type="String"
+          >母性怒火 2</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MATERNAL_RAGE_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mind Warp attempts to apply Insanity.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >心灵扭曲将能尝试施加错乱。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MATERNAL_RAGE_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Maternal Rage III</Data></Cell><Cell><Data
+            ss:Type="String"
+          >母性怒火 3</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MATERNAL_RAGE_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unlocks Psychic Eruption.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >解锁心灵爆发。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >DEVOURING_TENDRILS_LIFE_DRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psionic Drain</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵能汲取</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >DEVOURING_TENDRILS_LIFE_DRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heals {healamount} per hit on non-Mindless units</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每次攻击非无意识单位时治疗 {healamount}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MIND_BARRIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mind Barrier</Data></Cell><Cell><Data
+            ss:Type="String"
+          >心灵屏障</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">MIND_BARRIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This mod creates a small psionic barrier arround the unit, granting it +{PsiStatusResistance} status resistance and +{PsiDamageResistance} damage resistance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该模块会在单位周围产生小型灵能屏障，使单位获得 +{PsiStatusResistance} 状态抵抗和 +{PsiDamageResistance} 伤害抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">MIND_BARRIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has+{PsiStatusResistance} status resistance and +{PsiDamageResistance} damage resistance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位获得 +{PsiStatusResistance} 状态抵抗和 +{PsiDamageResistance} 伤害抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EYES_OF_ETERNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Eyes of Eternity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >永恒之眼</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">EYES_OF_ETERNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Psi-Fish can create much stronger bonds while they gaze to infinity. The strength chance of the Captivating, Fascinating and Enticing Bond abilities is increased to {EyesChance}. Additionally, all of their Psionic ranged abilities have their range increased by {Rangeincrease}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >当灵能水母凝视永恒时会产生出更加强大的连接。迷惑连接、魅惑连接和引诱连接技能的力量几率提升至 {EyesChance}。此外，灵能水母的所有远程灵能技能射程提升 {Rangeincrease}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MANTRA_OF_ILLUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mantra of Illusion</Data></Cell><Cell><Data
+            ss:Type="String"
+          >幻象咒语</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">MANTRA_OF_ILLUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A mantra devised for those who seek to fool others. Psionic support abilities grant [abilityblue]Lightly Obscured[/abilityblue], and their psionic attacks have a {MantraIllusionStr} strength chance to apply [abilityred]Hallucinating[/abilityred] for {HallucinationDuration}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >欺骗他人的咒语。灵能辅助技能将赋予[abilityblue]轻度模糊[/abilityblue]，且其灵能攻击有 {MantraIllusionStr} 力量几率施加[abilityred]致幻[/abilityred]，持续 {HallucinationDuration}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">MANTRA_OF_ILLUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BUFF_MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Units gain Lightly Obscured, making them harder to hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位获得轻度模糊，使其更难以被命中。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PATH_OF_THE_CHIMERA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Focus: Chimera</Data></Cell><Cell><Data
+            ss:Type="String"
+          >专注：奇美拉</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">PATH_OF_THE_CHIMERA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psionic users on this path have a {PathChimeraStr} strength chance to apply [abilityred]Burning[/abilityred], [abilityred]Electrified[/abilityred] and [abilityred]Poison[/abilityred] when their attacks strike a target.[br/][br/][productioncol]Only one focus mod can be active at a time.[/productioncol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >位于此道的灵能使用者在攻击目标时，有 {PathChimeraStr} 力量几率施加[abilityred]燃烧[/abilityred]、[abilityred]触电[/abilityred]和[abilityred]中毒[/abilityred]。[br/][br/][productioncol]一次只能激活一个专注模块。[/productioncol]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data
+            ss:Type="String"
+          >PSIFISH_DWELLING_PSIONIC_VOLATILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psionic Volatility</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵能波动</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data
+            ss:Type="String"
+          >PSIFISH_DWELLING_PSIONIC_VOLATILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Each {turn} [turn/], the wild Psionic flux caused by the Psi-Fish will try to burst the minds of the assailants. A random attacking unit and any adjacent attacking unit suffers {damage} Psionic damage with {BrokenMindChance} strength chance to apply [abilityred]Broken Mind[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每 {turn} [turn/]，灵能水母制造的猛烈灵能波动将会尝试炸裂攻击者的心灵。一个随机的攻击单位和所有与其相邻的攻击单位将受到 {damage} 灵能伤害，并且有 {BrokenMindChance} 力量几率被施加[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MIND_BARRIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Brain Shield</Data></Cell><Cell><Data
+            ss:Type="String"
+          >大脑护盾</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MIND_BARRIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Cerebral</Data></Cell><Cell><Data
+            ss:Type="String"
+          >大脑</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MIND_BARRIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Psi Fortress</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵能要塞</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MIND_BARRIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Tranquil</Data></Cell><Cell><Data
+            ss:Type="String"
+          >宁静的</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MIND_BARRIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Intellectual</Data></Cell><Cell><Data
+            ss:Type="String"
+          >智慧</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MIND_BARRIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Stout Brain</Data></Cell><Cell><Data
+            ss:Type="String"
+          >结实大脑</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MANTRA_OF_ILLUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Illusionist</Data></Cell><Cell><Data
+            ss:Type="String"
+          >幻术师</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MANTRA_OF_ILLUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Mesmerizing</Data></Cell><Cell><Data
+            ss:Type="String"
+          >迷惑</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MANTRA_OF_ILLUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Enthralling</Data></Cell><Cell><Data
+            ss:Type="String"
+          >迷人</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MANTRA_OF_ILLUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Bedazzler</Data></Cell><Cell><Data
+            ss:Type="String"
+          >困惑</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MANTRA_OF_ILLUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Fascinating</Data></Cell><Cell><Data
+            ss:Type="String"
+          >着迷</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MANTRA_OF_ILLUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Spellbinder</Data></Cell><Cell><Data
+            ss:Type="String"
+          >蛊惑</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PATH_OF_THE_CHIMERA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Universalist</Data></Cell><Cell><Data
+            ss:Type="String"
+          >普遍主义者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PATH_OF_THE_CHIMERA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Ubiquitous</Data></Cell><Cell><Data
+            ss:Type="String"
+          >无所不在</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PATH_OF_THE_CHIMERA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Tumultuous</Data></Cell><Cell><Data
+            ss:Type="String"
+          >喧哗动乱</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PATH_OF_THE_CHIMERA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Anarchist</Data></Cell><Cell><Data
+            ss:Type="String"
+          >扰乱分子</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PATH_OF_THE_CHIMERA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Master of All</Data></Cell><Cell><Data
+            ss:Type="String"
+          >全能者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PATH_OF_THE_CHIMERA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Virtuoso</Data></Cell><Cell><Data
+            ss:Type="String"
+          >名家大师</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EYES_OF_ETERNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Perpetual</Data></Cell><Cell><Data
+            ss:Type="String"
+          >永恒无休</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EYES_OF_ETERNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Allseer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >全能先知</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EYES_OF_ETERNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Chrono Lord</Data></Cell><Cell><Data
+            ss:Type="String"
+          >时间领主</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EYES_OF_ETERNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Omnipotent</Data></Cell><Cell><Data
+            ss:Type="String"
+          >全知全能</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EYES_OF_ETERNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Evervision</Data></Cell><Cell><Data
+            ss:Type="String"
+          >永恒幻象</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EYES_OF_ETERNITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Seer of the Cosmos</Data></Cell><Cell><Data
+            ss:Type="String"
+          >宇宙先知</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><TopRowVisible
+      >62</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >71</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

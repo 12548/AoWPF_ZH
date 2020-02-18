@@ -1,5 +1,115 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:51:38Z</Created><LastSaved>2019-06-25T15:51:39Z</LastSaved><Version>15.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX>0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s57"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s57" ss:DefaultRowHeight="15"><Column ss:StyleID="s57" ss:Width="132.75"/><Column ss:StyleID="s57" ss:Width="75.75"/><Column ss:StyleID="s57" ss:Width="216.75"/><Column ss:StyleID="s57" ss:Width="147.75"/><Column ss:StyleID="s57" ss:Width="178.5"/><Column ss:StyleID="s57" ss:Width="120"/><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">PSYNUMBRA_HERO_SKILLS</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">PSYNUMBRA_SKILL_GROUP</Data></Cell><Cell><Data ss:Type="String">SKILL_SUBTITLE</Data></Cell><Cell><Data ss:Type="String">Psynumbra Hero Skill</Data></Cell><Cell><Data ss:Type="String">赛努布拉英雄技能</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Skill tree header. 
-Psynumbra is an in-game secret tech.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ANTHEM_OF_THE_ABYSS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Anthem of the Abyss</Data></Cell><Cell><Data ss:Type="String">深渊圣歌</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Skill name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">ANTHEM_OF_THE_ABYSS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">All allies gain [abilityblue]Dark Elation[/abilityblue] for {AnthemDuration}, granting +{MoraleIncrease} morale and {PsiResIncrease} resistance. All enemy units gain [abilityred]Broken Mind[/abilityred] for {AnthemDebuffDuration}</Data></Cell><Cell><Data ss:Type="String">所有同盟获得[abilityblue]黑暗欢愉[/abilityblue]，持续 {AnthemDuration}，获得 +{MoraleIncrease} 士气和 {PsiResIncrease} 抵抗。所有敌方单位获得[abilityred]破碎心灵[/abilityred]，持续 {AnthemDebuffDuration}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Skill description.
-Dark Elation is an in-game buff, Broken Mind is a debuff.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">Text between {} should NOT be localized as they are numerical values in-game. Text between [] should NOT be localized as they are either icons or text formatting
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:51:38Z</Created><LastSaved
+    >2019-06-25T15:51:39Z</LastSaved><Version
+    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX
+    >0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s57"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s57"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s57" ss:Width="132.75" /><Column
+        ss:StyleID="s57"
+        ss:Width="75.75"
+      /><Column ss:StyleID="s57" ss:Width="216.75" /><Column
+        ss:StyleID="s57"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s57" ss:Width="178.5" /><Column
+        ss:StyleID="s57"
+        ss:Width="120"
+      /><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data
+            ss:Type="String"
+          >PSYNUMBRA_HERO_SKILLS</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">PSYNUMBRA_SKILL_GROUP</Data></Cell><Cell
+        ><Data ss:Type="String">SKILL_SUBTITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psynumbra Hero Skill</Data></Cell><Cell><Data
+            ss:Type="String"
+          >赛努布拉英雄技能</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Skill tree header. 
+Psynumbra is an in-game secret tech.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ANTHEM_OF_THE_ABYSS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Anthem of the Abyss</Data></Cell><Cell><Data
+            ss:Type="String"
+          >深渊圣歌</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Skill name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">ANTHEM_OF_THE_ABYSS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All allies gain [abilityblue]Dark Elation[/abilityblue] for {AnthemDuration}, granting +{MoraleIncrease} morale and {PsiResIncrease} resistance. All enemy units gain [abilityred]Broken Mind[/abilityred] for {AnthemDebuffDuration}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有同盟获得[abilityblue]黑暗欢愉[/abilityblue]，持续 {AnthemDuration}，获得 +{MoraleIncrease} 士气和 {PsiResIncrease} 抵抗。所有敌方单位获得[abilityred]破碎心灵[/abilityred]，持续 {AnthemDebuffDuration}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Skill description.
+Dark Elation is an in-game buff, Broken Mind is a debuff.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Text between {} should NOT be localized as they are numerical values in-game. Text between [] should NOT be localized as they are either icons or text formatting
 
-EXAMPLE: "Hero gains {PersonaAccDmg} increased damage and accuracy " looks in-game like "Hero gains +5 increased damage and accuracy"</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Selected/><TopRowVisible>3</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>5</ActiveRow><ActiveCol>2</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+EXAMPLE: "Hero gains {PersonaAccDmg} increased damage and accuracy " looks in-game like "Hero gains +5 increased damage and accuracy"</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Selected /><TopRowVisible>3</TopRowVisible><Panes><Pane
+        ><Number>3</Number><ActiveRow>5</ActiveRow><ActiveCol
+          >2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

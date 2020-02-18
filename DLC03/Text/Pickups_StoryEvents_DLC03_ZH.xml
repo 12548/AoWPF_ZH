@@ -1,1 +1,783 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author>Bas Staffhorst</Author><LastAuthor>Bas Staffhorst</LastAuthor><Created>2019-06-04T10:45:44Z</Created><LastSaved>2019-07-02T12:32:41Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15"><Column ss:StyleID="s62" ss:Width="243"/><Column ss:StyleID="s62" ss:Width="66.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="369"/><Column ss:StyleID="s62" ss:Width="147.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="318"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="191.25"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="369"/><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">PICKUPS_STORYEVENTS</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PLACEHOLDER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Star Union Diplomatic Data</Data></Cell><Cell><Data ss:Type="String">星际联盟外交数据</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">This event will reward the player with influence. And thusly the description should hint at materials/knowledge that would translate to influence.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PLACEHOLDER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">You find remnants of diplomatic reports dating all the way back to the golden age of the Star Union. Among the reports is data on several negotiation techniques which we can study to increase our influential power on this planet.</Data></Cell><Cell><Data ss:Type="String">你发现了一些残存的外交报告，可追溯至星际联盟的黄金年代。在这些报告中，有几种关于协商技巧的数据，我们可以研究这些技巧来增强我们在这个星球上的影响力。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PLACEHOLDER_BUTTON</Data></Cell><Cell><Data ss:Type="String">LABEL</Data></Cell><Cell><Data ss:Type="String">Learn from the past: {STR_Rewards}</Data></Cell><Cell><Data ss:Type="String">向过去学习：{STR_Rewards}</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PLACEHOLDER_BUTTON</Data></Cell><Cell><Data ss:Type="String">TOOLTIP</Data></Cell><Cell><Data ss:Type="String">Influence is used to trade with NPC faction dwellings. It can also be used to convert outposts and to have NPC faction armies vacate from structures.</Data></Cell><Cell><Data ss:Type="String">影响力可用来与 NPC 阵营居住地进行交易，也可用来转化前哨或让 NPC 阵营军队从建筑中撤离。</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Influence description</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_POPULAR_SUPPORT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Propaganda Tools</Data></Cell><Cell><Data ss:Type="String">宣传工具</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">This event will reward the player with popular support. Popular support is the approval of your people for the wars you have going on.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_POPULAR_SUPPORT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Amongst the convoy, your troops find scattered materials and devices used to sway public opinion against a common enemy. No matter which nemesis of the Star Union this used to be targeted at, it can now be modified to target the current enemies of our burgeoning empire.</Data></Cell><Cell><Data ss:Type="String">你的部队在一支车队中发现了一些曾经用来动摇公众舆论的散乱材料和手段。无论星际联盟曾经用这些手段用来对付谁，我们现在可以将它们稍作修改，用来对付我们帝国当前的敌人。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Amongst the convoy your troops find scattered materials and devices used to sway public opinion against a common enemy. Whichever nemesis of the Star Union this used to be targeted at, it can now be modified to target the enemies of our upcoming empire.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_POPULAR_SUPPORT_BUTTON</Data></Cell><Cell><Data ss:Type="String">LABEL</Data></Cell><Cell><Data ss:Type="String">Utilize the Propaganda Devices: gain 200[popularsupport2/]Popular Support</Data></Cell><Cell><Data ss:Type="String">利用宣传手段：获得 200[popularsupport2/] 民众支持</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Utilize the Propaganda Devices: Gain 200[popularsupport2/]Popular Support</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_POPULAR_SUPPORT_BUTTON</Data></Cell><Cell><Data ss:Type="String">TOOLTIP</Data></Cell><Cell><Data ss:Type="String">Popular Support improves the happiness and upkeep of your empire, but will diminish over time.</Data></Cell><Cell><Data ss:Type="String">民众支持可以提高帝国的幸福值和维持，但会随时间的推移逐渐减少。</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Popular support description</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data></Cell><Cell><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data ss:Type="String">Holopad Pickup</Data></Cell><Cell><Data ss:Type="String">全息板拾取物</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Race Relationships</Data></Cell><Cell><Data ss:Type="String">种族关系</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">This event will reward the player with either with increasing their race relations with their own race, or with any race but their own. Which is the public image of your faction towards a specific race.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The holopad is filled with collections of diplomatic techniques and their supposed effects. Among them is one that stands out; a technique to reform your public image of that of a protector of your race, or a welcoming xenophile.</Data></Cell><Cell><Data ss:Type="String">全息板中包含了各种外交技巧及其可能带来的效果。其中有一个最为突出：无论你是种族保护者，还是热情的亲外者，这种技巧可以改变你的公众形象。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data></Cell><Cell><Data ss:Type="String">LABEL1</Data></Cell><Cell><Data ss:Type="String">Gain 100[happiness/] relation to your own race.</Data></Cell><Cell><Data ss:Type="String">自己种族获得 100[happiness/] 关系。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data></Cell><Cell><Data ss:Type="String">LABEL2</Data></Cell><Cell><Data ss:Type="String">Gain 100[happiness/] relation to every other race.</Data></Cell><Cell><Data ss:Type="String">其他种族获得 100[happiness/] 关系。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data></Cell><Cell><Data ss:Type="String">TOOLTIP</Data></Cell><Cell><Data ss:Type="String">Race relationships influence the outpost costs, upkeep costs and unit morale for that particular race.</Data></Cell><Cell><Data ss:Type="String">种族关系影响特定种族的前哨消耗、维持消耗和单位士气。</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Race relations description</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_AUTONOM</Data></Cell><Cell><Data ss:Type="String">LABEL1</Data></Cell><Cell><Data ss:Type="String">Reset relations with the Autonom to neutral [nonagression/]</Data></Cell><Cell><Data ss:Type="String">将与自主机械的关系重置为中立 [nonagression/]</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Choice of peace with NPC faction X</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_NPC_FACTION</Data></Cell><Cell><Data ss:Type="String">TOOLTIP</Data></Cell><Cell><Data ss:Type="String">This will immediately stop the war with the NPC faction and reset your relation with them to 0.</Data></Cell><Cell><Data ss:Type="String">这将立即停止与 NPC 阵营的战争，并将关系重置为 0。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_AUTONOM</Data></Cell><Cell><Data ss:Type="String">LABEL2</Data></Cell><Cell><Data ss:Type="String">Initiate negotiations: gain 10 [diplomaticlinks/] with the Autonom</Data></Cell><Cell><Data ss:Type="String">发起协商：与自主机械的关系获得 10[diplomaticlinks/]</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Choice of getting favor reward with NPC faction x</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_NPC_FACTION</Data></Cell><Cell><Data ss:Type="String">TOOLTIP</Data></Cell><Cell><Data ss:Type="String">Favor can get you into higher states of relationships with NPC factions, unlocking new trading options and the ability to call them to war.</Data></Cell><Cell><Data ss:Type="String">好感度可以让你与 NPC 阵营进入更高级的关系状态，从而解锁新的交易选项，还能向 NPC 阵营发起战斗号召。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Favor can get you into higher states of relationships with NPC factions, unlocking the ability to call them to war and new trading options.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_PARAGON</Data></Cell><Cell><Data ss:Type="String">LABEL1</Data></Cell><Cell><Data ss:Type="String">Reset relations with the Paragon to neutral [nonagression/]</Data></Cell><Cell><Data ss:Type="String">将与完人的关系重置为中立 [nonagression/]</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Choice of peace with NPC faction X</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_PARAGON</Data></Cell><Cell><Data ss:Type="String">LABEL2</Data></Cell><Cell><Data ss:Type="String">Initiate negotiations: gain 10 [diplomaticlinks/] with the Paragon</Data></Cell><Cell><Data ss:Type="String">发起协商：与完人的关系获得 10[diplomaticlinks/]</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Choice of getting favor reward with NPC faction x</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_GROWTH</Data></Cell><Cell><Data ss:Type="String">LABEL1</Data></Cell><Cell><Data ss:Type="String">Reset relations with the Growth to neutral [nonagression/]</Data></Cell><Cell><Data ss:Type="String">将与灵植的关系重置为中立 [nonagression/]</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Choice of peace with NPC faction X</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_GROWTH</Data></Cell><Cell><Data ss:Type="String">LABEL2</Data></Cell><Cell><Data ss:Type="String">Initiate negotiations: gain 10 [diplomaticlinks/] with the Growth</Data></Cell><Cell><Data ss:Type="String">发起协商：与灵植的关系获得 10[diplomaticlinks/]</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Choice of getting favor reward with NPC faction x</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_FORGOTTEN</Data></Cell><Cell><Data ss:Type="String">LABEL1</Data></Cell><Cell><Data ss:Type="String">Reset relations with the Forgotten to neutral [nonagression/]</Data></Cell><Cell><Data ss:Type="String">将与被遗忘者的关系重置为中立 [nonagression/]</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Choice of peace with NPC faction X</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_FORGOTTEN</Data></Cell><Cell><Data ss:Type="String">LABEL2</Data></Cell><Cell><Data ss:Type="String">Initiate negotiations: gain 10 [diplomaticlinks/] with the Forgotten</Data></Cell><Cell><Data ss:Type="String">发起协商：与被遗忘者的关系获得 10[diplomaticlinks/]</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Choice of getting favor reward with NPC faction x</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_SPACERS</Data></Cell><Cell><Data ss:Type="String">LABEL1</Data></Cell><Cell><Data ss:Type="String">Reset relations with the Spacers to neutral [nonagression/]</Data></Cell><Cell><Data ss:Type="String">将与太空掠夺者的关系重置为中立 [nonagression/]</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Choice of peace with NPC faction X</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_SPACERS</Data></Cell><Cell><Data ss:Type="String">LABEL2</Data></Cell><Cell><Data ss:Type="String">Initiate negotiations: gain 10 [diplomaticlinks/] with the Spacers</Data></Cell><Cell><Data ss:Type="String">发起协商：与太空掠夺者的关系获得 10[diplomaticlinks/]</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Choice of getting favor reward with NPC faction x</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_PSIFISH</Data></Cell><Cell><Data ss:Type="String">LABEL1</Data></Cell><Cell><Data ss:Type="String">Reset relations with the Psifish to neutral [nonagression/]</Data></Cell><Cell><Data ss:Type="String">将灵能水母的关系重置为中立 [nonagression/]</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Choice of peace with NPC faction X</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_PSIFISH</Data></Cell><Cell><Data ss:Type="String">LABEL2</Data></Cell><Cell><Data ss:Type="String">Initiate negotiations: gain 10 [diplomaticlinks/] with the Psifish</Data></Cell><Cell><Data ss:Type="String">发起协商：与灵能水母的关系获得 10[diplomaticlinks/]</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Choice of getting favor reward with NPC faction x</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_NPC_FACTION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Relationship Reset</Data></Cell><Cell><Data ss:Type="String">关系重置</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_NPC_FACTION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The captured holopad flickers on and the AI within the device offers two choices: it can either convince the local faction to forget your past misdeeds, allowing you to begin a new relationship with a clean slate, or it can provide information of the faction's unique negotiation techniques to teach to your diplomats.</Data></Cell><Cell><Data ss:Type="String">夺取的全息板闪烁起来，设备内的人工智能提供了两种选择：一是它可以说服当地阵营原谅你过去犯下的罪行，让你能重新与他们建立新的关系；二是它可以提供有关该阵营独特协商技巧的信息，并将此技巧传授给你的外交官。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_PEACE_NPC_FACTION</Data></Cell><Cell><Data ss:Type="String">LABEL2</Data></Cell><Cell><Data ss:Type="String">Download the negotiation techniques: gain {STR_Rewards}</Data></Cell><Cell><Data ss:Type="String">下载协商技巧：获得 {STR_Rewards}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">influence reward</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_NPC_FACTION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Diplomacy Lesson</Data></Cell><Cell><Data ss:Type="String">外交课程</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_NPC_FACTION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">You power the holopad on, and a holographic representation of a diplomat belonging to the local faction appears before you. It is very difficult to understand at first, but the holopad quickly adjusts to your speech patterns, and it determines that it can help initiate negotiations with its faction. Alternatively, it offers an advanced course in diplomacy.</Data></Cell><Cell><Data ss:Type="String">你打开了全息板，一个当地阵营外交官的全息影像出现在你面前。一开始很难理解全息影像的语言，但全息板很快就适应了你的说话模式，它决定帮助你与这个阵营协商。如果你不想这样做的话，它还为你提供了高级外交课程。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HOLOPAD_PICKUP_EVENT_FAVOR_NPC_FACTION</Data></Cell><Cell><Data ss:Type="String">LABEL1</Data></Cell><Cell><Data ss:Type="String">Take the diplomacy course: gain {STR_Rewards}</Data></Cell><Cell><Data ss:Type="String">接受外交课程：获得 {STR_Rewards}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">influence reward</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FORGOTTEN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Lying Dormant</Data></Cell><Cell><Data ss:Type="String">沉睡休眠</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FORGOTTEN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">You spot a Forgotten casket submerged in the dirt. One of them lies sleeping within! It is clearly on life support. On the other hand, you could sell the precious materials that the casket is made from…</Data></Cell><Cell><Data ss:Type="String">你发现了一个淹没在泥土中的被遗忘者棺材，一名被遗忘者还在里面沉睡！显然，它是依靠生命力进行维持。不过，你也可以将这口棺材作为珍贵的材料卖掉。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FORGOTTEN_BUTTON_01</Data></Cell><Cell><Data ss:Type="String">LABEL</Data></Cell><Cell><Data ss:Type="String">Save the Forgotten unit ({STR_UnitName}) inside.</Data></Cell><Cell><Data ss:Type="String">拯救棺材中的被遗忘者单位（{STR_UnitName}）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FORGOTTEN_BUTTON_01</Data></Cell><Cell><Data ss:Type="String">TOOLTIP</Data></Cell><Cell><Data ss:Type="String">You receive: {STR_UnitName}</Data></Cell><Cell><Data ss:Type="String">你获得：{STR_UnitName}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FORGOTTEN_BUTTON_02</Data></Cell><Cell><Data ss:Type="String">LABEL</Data></Cell><Cell><Data ss:Type="String">Dismantle and sell the casket: gain {STR_Rewards}</Data></Cell><Cell><Data ss:Type="String">分解并出售棺材：获得 {STR_Rewards}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FORGOTTEN_BUTTON_02</Data></Cell><Cell><Data ss:Type="String">TOOLTIP</Data></Cell><Cell><Data ss:Type="String">The nearest colony receives: {STR_Rewards}</Data></Cell><Cell><Data ss:Type="String">最近的殖民地获得：{STR_Rewards}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_FORGOTTEN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">An Untapped Font</Data></Cell><Cell><Data ss:Type="String">未开发的圣坛</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_FORGOTTEN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">You come across a rusted old auto-scribe. The machinery still works, and it apparently contains ancient Es’Teq knowledge regarding the Forgotten.[br/][productioncol]This decision will affect relations with this Faction.[/productioncol]</Data></Cell><Cell><Data ss:Type="String">你发现了一个锈迹斑斑的古代自动抄写器。这台机器依旧在运作，显然这里有着关于被遗忘者的古老埃斯特克知识。[br/][productioncol]此决定将影响与该阵营的关系。[/productioncol]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_FORGOTTEN_BUTTON_01</Data></Cell><Cell><Data ss:Type="String">LABEL</Data></Cell><Cell><Data ss:Type="String">Deliver the auto-scribe to the Forgotten: gain {STR_Rewards}</Data></Cell><Cell><Data ss:Type="String">将自动抄写器交给被遗忘者：获得 {STR_Rewards}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_FORGOTTEN_BUTTON_01</Data></Cell><Cell><Data ss:Type="String">TOOLTIP</Data></Cell><Cell><Data ss:Type="String">You receive: {STR_Rewards}, and your relations with the Forgotten improve</Data></Cell><Cell><Data ss:Type="String">你获得：{STR_Rewards}，同时与被遗忘者的关系提升</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_FORGOTTEN_BUTTON_02</Data></Cell><Cell><Data ss:Type="String">LABEL</Data></Cell><Cell><Data ss:Type="String">Keep the knowledge: gain {STR_Rewards}</Data></Cell><Cell><Data ss:Type="String">将知识保留下来：获得 {STR_Rewards}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_FORGOTTEN_BUTTON_02</Data></Cell><Cell><Data ss:Type="String">TOOLTIP</Data></Cell><Cell><Data ss:Type="String">You receive: {STR_Rewards}, but your relations with the Forgotten declines</Data></Cell><Cell><Data ss:Type="String">你获得：{STR_Rewards}，同时与被遗忘者的关系下降</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Selected/><TopRowVisible>12</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>23</ActiveRow><ActiveCol>4</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author
+    >Bas Staffhorst</Author><LastAuthor>Bas Staffhorst</LastAuthor><Created
+    >2019-06-04T10:45:44Z</Created><LastSaved
+    >2019-07-02T12:32:41Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:CharSet="1"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="243" /><Column
+        ss:StyleID="s62"
+        ss:Width="66.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="369" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="318" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="191.25"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="369" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">PICKUPS_STORYEVENTS</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_PLACEHOLDER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Star Union Diplomatic Data</Data></Cell><Cell><Data
+            ss:Type="String"
+          >星际联盟外交数据</Data></Cell><Cell ss:Index="8"><Data
+            ss:Type="String"
+          >This event will reward the player with influence. And thusly the description should hint at materials/knowledge that would translate to influence.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_PLACEHOLDER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You find remnants of diplomatic reports dating all the way back to the golden age of the Star Union. Among the reports is data on several negotiation techniques which we can study to increase our influential power on this planet.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你发现了一些残存的外交报告，可追溯至星际联盟的黄金年代。在这些报告中，有几种关于协商技巧的数据，我们可以研究这些技巧来增强我们在这个星球上的影响力。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_PLACEHOLDER_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Learn from the past: {STR_Rewards}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向过去学习：{STR_Rewards}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_PLACEHOLDER_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Influence is used to trade with NPC faction dwellings. It can also be used to convert outposts and to have NPC faction armies vacate from structures.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >影响力可用来与 NPC 阵营居住地进行交易，也可用来转化前哨或让 NPC 阵营军队从建筑中撤离。</Data></Cell><Cell
+          ss:Index="8"
+        ><Data ss:Type="String">Influence description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_POPULAR_SUPPORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Propaganda Tools</Data></Cell><Cell><Data
+            ss:Type="String"
+          >宣传工具</Data></Cell><Cell ss:Index="8"><Data
+            ss:Type="String"
+          >This event will reward the player with popular support. Popular support is the approval of your people for the wars you have going on.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_POPULAR_SUPPORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Amongst the convoy, your troops find scattered materials and devices used to sway public opinion against a common enemy. No matter which nemesis of the Star Union this used to be targeted at, it can now be modified to target the current enemies of our burgeoning empire.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的部队在一支车队中发现了一些曾经用来动摇公众舆论的散乱材料和手段。无论星际联盟曾经用这些手段用来对付谁，我们现在可以将它们稍作修改，用来对付我们帝国当前的敌人。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Amongst the convoy your troops find scattered materials and devices used to sway public opinion against a common enemy. Whichever nemesis of the Star Union this used to be targeted at, it can now be modified to target the enemies of our upcoming empire.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_POPULAR_SUPPORT_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Utilize the Propaganda Devices: gain 200[popularsupport2/]Popular Support</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >利用宣传手段：获得 200[popularsupport2/] 民众支持</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Utilize the Propaganda Devices: Gain 200[popularsupport2/]Popular Support</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_POPULAR_SUPPORT_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Popular Support improves the happiness and upkeep of your empire, but will diminish over time.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >民众支持可以提高帝国的幸福值和维持，但会随时间的推移逐渐减少。</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Popular support description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Holopad Pickup</Data></Cell><Cell><Data
+            ss:Type="String"
+          >全息板拾取物</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Race Relationships</Data></Cell><Cell><Data
+            ss:Type="String"
+          >种族关系</Data></Cell><Cell ss:Index="8"><Data
+            ss:Type="String"
+          >This event will reward the player with either with increasing their race relations with their own race, or with any race but their own. Which is the public image of your faction towards a specific race.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The holopad is filled with collections of diplomatic techniques and their supposed effects. Among them is one that stands out; a technique to reform your public image of that of a protector of your race, or a welcoming xenophile.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >全息板中包含了各种外交技巧及其可能带来的效果。其中有一个最为突出：无论你是种族保护者，还是热情的亲外者，这种技巧可以改变你的公众形象。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gain 100[happiness/] relation to your own race.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >自己种族获得 100[happiness/] 关系。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gain 100[happiness/] relation to every other race.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >其他种族获得 100[happiness/] 关系。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_RACE_RELATIONSHIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Race relationships influence the outpost costs, upkeep costs and unit morale for that particular race.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >种族关系影响特定种族的前哨消耗、维持消耗和单位士气。</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Race relations description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_PEACE_AUTONOM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reset relations with the Autonom to neutral [nonagression/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将与自主机械的关系重置为中立 [nonagression/]</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Choice of peace with NPC faction X</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_PEACE_NPC_FACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This will immediately stop the war with the NPC faction and reset your relation with them to 0.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这将立即停止与 NPC 阵营的战争，并将关系重置为 0。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_FAVOR_AUTONOM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Initiate negotiations: gain 10 [diplomaticlinks/] with the Autonom</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发起协商：与自主机械的关系获得 10[diplomaticlinks/]</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Choice of getting favor reward with NPC faction x</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_FAVOR_NPC_FACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Favor can get you into higher states of relationships with NPC factions, unlocking new trading options and the ability to call them to war.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >好感度可以让你与 NPC 阵营进入更高级的关系状态，从而解锁新的交易选项，还能向 NPC 阵营发起战斗号召。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Favor can get you into higher states of relationships with NPC factions, unlocking the ability to call them to war and new trading options.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_PEACE_PARAGON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reset relations with the Paragon to neutral [nonagression/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将与完人的关系重置为中立 [nonagression/]</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Choice of peace with NPC faction X</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_FAVOR_PARAGON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Initiate negotiations: gain 10 [diplomaticlinks/] with the Paragon</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发起协商：与完人的关系获得 10[diplomaticlinks/]</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Choice of getting favor reward with NPC faction x</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_PEACE_GROWTH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reset relations with the Growth to neutral [nonagression/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将与灵植的关系重置为中立 [nonagression/]</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Choice of peace with NPC faction X</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_FAVOR_GROWTH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Initiate negotiations: gain 10 [diplomaticlinks/] with the Growth</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发起协商：与灵植的关系获得 10[diplomaticlinks/]</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Choice of getting favor reward with NPC faction x</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_PEACE_FORGOTTEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reset relations with the Forgotten to neutral [nonagression/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将与被遗忘者的关系重置为中立 [nonagression/]</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Choice of peace with NPC faction X</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_FAVOR_FORGOTTEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Initiate negotiations: gain 10 [diplomaticlinks/] with the Forgotten</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发起协商：与被遗忘者的关系获得 10[diplomaticlinks/]</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Choice of getting favor reward with NPC faction x</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_PEACE_SPACERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reset relations with the Spacers to neutral [nonagression/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将与太空掠夺者的关系重置为中立 [nonagression/]</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Choice of peace with NPC faction X</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_FAVOR_SPACERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Initiate negotiations: gain 10 [diplomaticlinks/] with the Spacers</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发起协商：与太空掠夺者的关系获得 10[diplomaticlinks/]</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Choice of getting favor reward with NPC faction x</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_PEACE_PSIFISH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reset relations with the Psifish to neutral [nonagression/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将灵能水母的关系重置为中立 [nonagression/]</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Choice of peace with NPC faction X</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_FAVOR_PSIFISH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Initiate negotiations: gain 10 [diplomaticlinks/] with the Psifish</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发起协商：与灵能水母的关系获得 10[diplomaticlinks/]</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Choice of getting favor reward with NPC faction x</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_PEACE_NPC_FACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Relationship Reset</Data></Cell><Cell><Data
+            ss:Type="String"
+          >关系重置</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_NPC_FACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The captured holopad flickers on and the AI within the device offers two choices: it can either convince the local faction to forget your past misdeeds, allowing you to begin a new relationship with a clean slate, or it can provide information of the faction's unique negotiation techniques to teach to your diplomats.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >夺取的全息板闪烁起来，设备内的人工智能提供了两种选择：一是它可以说服当地阵营原谅你过去犯下的罪行，让你能重新与他们建立新的关系；二是它可以提供有关该阵营独特协商技巧的信息，并将此技巧传授给你的外交官。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_PEACE_NPC_FACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Download the negotiation techniques: gain {STR_Rewards}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >下载协商技巧：获得 {STR_Rewards}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">influence reward</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_FAVOR_NPC_FACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Diplomacy Lesson</Data></Cell><Cell><Data
+            ss:Type="String"
+          >外交课程</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_FAVOR_NPC_FACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You power the holopad on, and a holographic representation of a diplomat belonging to the local faction appears before you. It is very difficult to understand at first, but the holopad quickly adjusts to your speech patterns, and it determines that it can help initiate negotiations with its faction. Alternatively, it offers an advanced course in diplomacy.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你打开了全息板，一个当地阵营外交官的全息影像出现在你面前。一开始很难理解全息影像的语言，但全息板很快就适应了你的说话模式，它决定帮助你与这个阵营协商。如果你不想这样做的话，它还为你提供了高级外交课程。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HOLOPAD_PICKUP_EVENT_FAVOR_NPC_FACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Take the diplomacy course: gain {STR_Rewards}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >接受外交课程：获得 {STR_Rewards}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">influence reward</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >PRODUCTION_PICKUP_EVENT_FORGOTTEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Lying Dormant</Data></Cell><Cell><Data
+            ss:Type="String"
+          >沉睡休眠</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PRODUCTION_PICKUP_EVENT_FORGOTTEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You spot a Forgotten casket submerged in the dirt. One of them lies sleeping within! It is clearly on life support. On the other hand, you could sell the precious materials that the casket is made from…</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你发现了一个淹没在泥土中的被遗忘者棺材，一名被遗忘者还在里面沉睡！显然，它是依靠生命力进行维持。不过，你也可以将这口棺材作为珍贵的材料卖掉。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >PRODUCTION_PICKUP_EVENT_FORGOTTEN_BUTTON_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Save the Forgotten unit ({STR_UnitName}) inside.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >拯救棺材中的被遗忘者单位（{STR_UnitName}）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >PRODUCTION_PICKUP_EVENT_FORGOTTEN_BUTTON_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You receive: {STR_UnitName}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >你获得：{STR_UnitName}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >PRODUCTION_PICKUP_EVENT_FORGOTTEN_BUTTON_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dismantle and sell the casket: gain {STR_Rewards}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >分解并出售棺材：获得 {STR_Rewards}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >PRODUCTION_PICKUP_EVENT_FORGOTTEN_BUTTON_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The nearest colony receives: {STR_Rewards}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >最近的殖民地获得：{STR_Rewards}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >RESEARCH_PICKUP_EVENT_FORGOTTEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >An Untapped Font</Data></Cell><Cell><Data
+            ss:Type="String"
+          >未开发的圣坛</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RESEARCH_PICKUP_EVENT_FORGOTTEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You come across a rusted old auto-scribe. The machinery still works, and it apparently contains ancient Es’Teq knowledge regarding the Forgotten.[br/][productioncol]This decision will affect relations with this Faction.[/productioncol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你发现了一个锈迹斑斑的古代自动抄写器。这台机器依旧在运作，显然这里有着关于被遗忘者的古老埃斯特克知识。[br/][productioncol]此决定将影响与该阵营的关系。[/productioncol]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >RESEARCH_PICKUP_EVENT_FORGOTTEN_BUTTON_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deliver the auto-scribe to the Forgotten: gain {STR_Rewards}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将自动抄写器交给被遗忘者：获得 {STR_Rewards}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >RESEARCH_PICKUP_EVENT_FORGOTTEN_BUTTON_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You receive: {STR_Rewards}, and your relations with the Forgotten improve</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你获得：{STR_Rewards}，同时与被遗忘者的关系提升</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >RESEARCH_PICKUP_EVENT_FORGOTTEN_BUTTON_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Keep the knowledge: gain {STR_Rewards}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >将知识保留下来：获得 {STR_Rewards}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >RESEARCH_PICKUP_EVENT_FORGOTTEN_BUTTON_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You receive: {STR_Rewards}, but your relations with the Forgotten declines</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你获得：{STR_Rewards}，同时与被遗忘者的关系下降</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><TopRowVisible
+      >12</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >23</ActiveRow><ActiveCol>4</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

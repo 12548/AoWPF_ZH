@@ -1,1 +1,878 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:50:38Z</Created><LastSaved>2019-06-25T15:50:38Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange>0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15"><Column ss:Width="228.75"/><Column ss:Width="175.5"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="339.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="150.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="135.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="123"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="339.75"/><Row ss:AutoFitHeight="0" ss:Height="210"><Cell><Data ss:Type="String">ECONOMY_TECHGROUPS</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ECONOMY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Economy</Data></Cell><Cell><Data ss:Type="String">经济</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ECONOMY</Data></Cell><Cell><Data ss:Type="String">NAME_PRODUCTION</Data></Cell><Cell><Data ss:Type="String">Production</Data></Cell><Cell><Data ss:Type="String">产力</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ECONOMY</Data></Cell><Cell><Data ss:Type="String">NAME_RESEARCH</Data></Cell><Cell><Data ss:Type="String">Research</Data></Cell><Cell><Data ss:Type="String">研究</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ECONOMY</Data></Cell><Cell><Data ss:Type="String">NAME_ENERGY</Data></Cell><Cell><Data ss:Type="String">Energy</Data></Cell><Cell><Data ss:Type="String">能量</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ECONOMY</Data></Cell><Cell><Data ss:Type="String">NAME_FOOD</Data></Cell><Cell><Data ss:Type="String">Food</Data></Cell><Cell><Data ss:Type="String">食物</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ECONOMY</Data></Cell><Cell><Data ss:Type="String">NAME_INFRASTRUCTURE</Data></Cell><Cell><Data ss:Type="String">Infrastructure</Data></Cell><Cell><Data ss:Type="String">基础设施</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ECONOMY</Data></Cell><Cell><Data ss:Type="String">NAME_WATER</Data></Cell><Cell><Data ss:Type="String">Water</Data></Cell><Cell><Data ss:Type="String">水域</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ECONOMY</Data></Cell><Cell><Data ss:Type="String">NAME_TERRAIN</Data></Cell><Cell><Data ss:Type="String">Terrain</Data></Cell><Cell><Data ss:Type="String">地形</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">RESEARCH_LEVELUP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Research Sector Level</Data></Cell><Cell><Data ss:Type="String">研究区域等级</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Level as in, a number of steps in the development of a sector, a sector begins at level 1 and can be upgraded to level 5, where it provides stronger benefits.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">ENERGY_LEVELUP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Energy Sector Level</Data></Cell><Cell><Data ss:Type="String">能量区域等级</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Level as in, a number of steps in the development of a sector, a sector begins at level 1 and can be upgraded to level 5, where it provides stronger benefits.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">PRODUCTION_LEVELUP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Production Sector Level</Data></Cell><Cell><Data ss:Type="String">产力区域等级</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Level as in, a number of steps in the development of a sector, a sector begins at level 1 and can be upgraded to level 5, where it provides stronger benefits.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">FOOD_LEVELUP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Food Sector Level</Data></Cell><Cell><Data ss:Type="String">食物区域等级</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Level as in, a number of steps in the development of a sector, a sector begins at level 1 and can be upgraded to level 5, where it provides stronger benefits.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">ARCADIAN_LEVELUP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Arcadian Sector Level</Data></Cell><Cell><Data ss:Type="String">田园区域等级</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Level as in, a number of steps in the development of a sector, a sector begins at level 1 and can be upgraded to level 5, where it provides stronger benefits.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ARCADIAN_REGEN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Arcadian Recovery</Data></Cell><Cell><Data ss:Type="String">田园恢复</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Arcadian refers to Arcadia, i.e. an idyllic climate.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">ARCADIAN_REGEN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Having adapted to the environment, your forces recover {ArcadianRec} each turn on the world map while in an Arcadian climate.</Data></Cell><Cell><Data ss:Type="String">你的部队已经适应了环境，处于田园气候时，你的部队在世界地图上每回合将恢复 {ArcadianRec}。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Arcadian refers to Arcadia, i.e. an idyllic climate.</Data></Cell><Cell><Data ss:Type="String">Having adapted to the environment, your forces recover {ArcadianRec} Hit Points each turn on the world map while in an Arcadian climate.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ARCADIAN_HAPPINESS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Arcadian Habitats</Data></Cell><Cell><Data ss:Type="String">田园栖息地</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Arcadian refers to Arcadia, i.e. an idyllic climate.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">ARCADIAN_HAPPINESS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">By adapting the habitats for your colonists to the Arcadian climate, you can improve their quality of life.[br/][br/]Your colony gains {happiness} for each Arcadian sector within the colony's domain.</Data></Cell><Cell><Data ss:Type="String">将移住民栖息地改造为田园气候，从而提升移住民的生活质量。[br/][br/]你的殖民地领域中每有一片田园区域，殖民地就会获得 {happiness}。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Arcadian refers to Arcadia, i.e. an idyllic climate.</Data></Cell><Cell><Data ss:Type="String">By adapting the habitats for your colonists to the Arcadian climate, you improve your colonists' quality of life.[br/][br/]Your colony gains {happiness} Happiness for each Arcadian sector within the colony's domain.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ARID_LEVELUP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Arid Sector Level</Data></Cell><Cell><Data ss:Type="String">干燥区域等级</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Arid is the terrain type for deserts.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ARID_REGEN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Arid Recovery</Data></Cell><Cell><Data ss:Type="String">干燥恢复</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Arid is the terrain type for deserts.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ARID_REGEN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Having adapted to the environment, your forces recover {AridRec} each turn on the world map while in an Arid climate.</Data></Cell><Cell><Data ss:Type="String">你的部队已经适应了环境，处于干燥气候时，你的部队在世界地图上每回合将恢复 {AridRec}。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Arid is the terrain type for deserts.</Data></Cell><Cell><Data ss:Type="String">Having adapted to the environment, your forces recover {AridRec} Hit Points each turn on the world map while in an Arid climate.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ARID_HAPPINESS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Arid Habitats</Data></Cell><Cell><Data ss:Type="String">干燥栖息地</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Arid is the terrain type for deserts.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">ARID_HAPPINESS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">By adapting the habitats for your colonists to the Arid climate, you can improve their quality of life.[br/][br/]Your colony gains {happiness} for each Arid sector within the colony's domain.</Data></Cell><Cell><Data ss:Type="String">将移住民栖息地改造为干燥气候，从而提升移住民的生活质量。[br/][br/]你的殖民地领域中每有一片干燥区域，殖民地就会获得 {happiness}。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Arid is the terrain type for deserts.</Data></Cell><Cell><Data ss:Type="String">By adapting the habitats for your colonists to the Arid climate, you improve your colonists' quality of life.[br/][br/]Your colony gains {happiness} Happiness for each Arid sector within the colony's domain.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ARCTIC_LEVELUP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Arctic Sector Level</Data></Cell><Cell><Data ss:Type="String">极寒区域等级</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Arctic is the terrain type for arctic.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ARCTIC_REGEN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Arctic Recovery</Data></Cell><Cell><Data ss:Type="String">极寒恢复</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Arctic is the terrain type for arctic.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">ARCTIC_REGEN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Having adapted to the environment, your forces recover {ArcticRec} each turn on the world map while in an Arctic climate.</Data></Cell><Cell><Data ss:Type="String">你的部队已经适应了环境，处于极寒气候时，你的部队在世界地图上每回合将恢复 {ArcticRec}。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Arctic is the terrain type for arctic.</Data></Cell><Cell><Data ss:Type="String">Having adapted to the environment, your forces recover {ArcticRec} Hit Points each turn on the world map while in an Arctic climate.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ARCTIC_HAPPINESS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Arctic Habitats</Data></Cell><Cell><Data ss:Type="String">极寒栖息地</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Arctic is the terrain type for arctic.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">ARCTIC_HAPPINESS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">By adapting the habitats for your colonists to the Arctic climate, you can improve their quality of life.[br/][br/]Your colony gains {happiness} for each Arctic sector within the colony's domain.</Data></Cell><Cell><Data ss:Type="String">将移住民栖息地改造为极寒气候，从而提升移住民的生活质量。[br/][br/]你的殖民地领域中每有一片极寒区域，殖民地就会获得 {happiness}。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Arctic is the terrain type for arctic.</Data></Cell><Cell><Data ss:Type="String">By adapting the habitats for your colonists to the Arctic climate, you improve your colonists' quality of life.[br/][br/]Your colony gains {happiness} Happiness for each Arctic sector within the colony's domain.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">FUNGAL_LEVELUP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Fungal Sector Level</Data></Cell><Cell><Data ss:Type="String">真菌区域等级</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Fungal is the terrain type for alien sectors that are overgrown with fungus like growth</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">FUNGAL_REGEN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Fungal Recovery</Data></Cell><Cell><Data ss:Type="String">真菌恢复</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Fungal is the terrain type for alien sectors that are overgrown with fungus like growth</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">FUNGAL_REGEN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Having adapted to the environment, your forces recover {FungalRec} each turn on the world map while in a Fungal climate.</Data></Cell><Cell><Data ss:Type="String">你的部队已经适应了环境，处于真菌气候时，你的部队在世界地图上每回合将恢复 {FungalRec}。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Fungal is the terrain type for alien sectors that are overgrown with fungus like growth</Data></Cell><Cell><Data ss:Type="String">Having adapted to the environment, your forces recover {FungalRec} Hit Points each turn on the world map while in a Fungal climate.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">FUNGAL_HAPPINESS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Fungal Habitats</Data></Cell><Cell><Data ss:Type="String">真菌栖息地</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Fungal is the terrain type for alien sectors that are overgrown with fungus like growth</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">FUNGAL_HAPPINESS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">By adapting the habitats for your colonists to the Fungal climate, you can improve their quality of life.[br/][br/]Your colony gains {happiness} for each Fungal sector within the colony's domain.</Data></Cell><Cell><Data ss:Type="String">将移住民栖息地改造为真菌气候，从而提升移住民的生活质量。[br/][br/]你的殖民地领域中每有一片真菌区域，殖民地就获得 {happiness}。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Fungal is the terrain type for alien sectors that are overgrown with fungus like growth</Data></Cell><Cell><Data ss:Type="String">By adapting the habitats for your colonists to the Fungal climate, you improve your colonists' quality of life.[br/][br/]Your colony gains {happiness} Happiness for each Fungal sector within the colony's domain.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BADLANDS_LEVELUP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Volcanic Sector Level</Data></Cell><Cell><Data ss:Type="String">火山区域等级</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FOREST_LEVELUP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Forest Sector Level</Data></Cell><Cell><Data ss:Type="String">森林区域等级</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FOREST_GLOBAL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Forest Navigation</Data></Cell><Cell><Data ss:Type="String">森林行走</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">FOREST_GLOBAL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">All units with Amphibious or Land Movement gain Expedited Movement in Forests, reducing the cost of moving through this terrain.</Data></Cell><Cell><Data ss:Type="String">所有拥有“水陆两栖”或“陆地移动”的单位在森林区域中获得“加速移动”，减少穿越森林区域时所需的消耗。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Expedited movement is a unit property that increases a units speed when moving through that terrain</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MOUNTAIN_LEVELUP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Mountain Sector Level</Data></Cell><Cell><Data ss:Type="String">山地区域等级</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MOUNTAIN_GLOBAL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Mountain Navigation</Data></Cell><Cell><Data ss:Type="String">山地行走</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">MOUNTAIN_GLOBAL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">All units with Amphibious or Land Movement gain Expedited Movement in Mountains, reducing the cost of moving through this terrain.</Data></Cell><Cell><Data ss:Type="String">所有拥有“水陆两栖”或“陆地移动”的单位在山地区域中获得“加速移动”，减少穿越山地区域时所需的消耗。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Expedited movement is a unit property that increases a units speed when moving through that terrain</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RUINS_LEVELUP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Ruins Sector Level</Data></Cell><Cell><Data ss:Type="String">废墟区域等级</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RUINS_GLOBAL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Ruins Navigation</Data></Cell><Cell><Data ss:Type="String">废墟行走</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">RUINS_GLOBAL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">All units with Amphibious or Land Movement gain Expedited Movement in Ruins, reducing the cost of moving through this terrain.</Data></Cell><Cell><Data ss:Type="String">所有拥有“水陆两栖”或“陆地移动”的单位在废墟区域中获得“加速移动”，减少穿越废墟区域时所需的消耗。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Expedited movement is a unit property that increases a units speed when moving through that terrain</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLAINS_LEVELUP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Fertile Plains Sector Level</Data></Cell><Cell><Data ss:Type="String">肥沃平原区域等级</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLAINS_GLOBAL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Plains Navigation</Data></Cell><Cell><Data ss:Type="String">平原行走</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">PLAINS_GLOBAL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">All units with Amphibious or Land Movement gain Expedited Movement in Fertile Plains, reducing the cost of moving through this terrain.</Data></Cell><Cell><Data ss:Type="String">所有拥有“水陆两栖”或“陆地移动”的单位在肥沃平原区域中获得“加速移动”，减少穿越平原区域时所需的消耗。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Expedited movement is a unit property that increases a units speed when moving through that terrain</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">WATER_LEVELUP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Coast Sector Level</Data></Cell><Cell><Data ss:Type="String">海滨区域等级</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TRANSPORT_BONUS_I</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Transport Reinforcement</Data></Cell><Cell><Data ss:Type="String">运输强化</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">TRANSPORT_BONUS_I</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">New naval technologies allow for transports to be reinforced to increase survivability.[br/[br/]Transports gain {hp} and {armor}.</Data></Cell><Cell><Data ss:Type="String">新的舰船科技可强化运输工具的存活能力。[br/[br/]运输工具获得 {hp} 和 {armor}。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">TRANSPORT_BONUS_I</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This transport has been reinforced with additional {hp} and {armor}.</Data></Cell><Cell><Data ss:Type="String">该运输工具已得到强化，拥有额外 {hp} 和 {armor}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TRANSPORT_BONUS_II</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Transport Expedience</Data></Cell><Cell><Data ss:Type="String">运输工具便利</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">TRANSPORT_BONUS_II</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Specializing in naval technologies allows for quicker maneuvering in the water, as well as stronger resistance to enemy attacks.[br/][br/]Transports gain medium movement speed and have {resistance} resistance to all damage and status effects.</Data></Cell><Cell><Data ss:Type="String">对舰船科技的研究使运输工具在水中拥有更快的机动性，同时对敌人攻击也具有更强的抵抗能力。[br/][br/]运输工具获得中速移动速度且对所有伤害和状态效果具有 {resistance} 抵抗。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">TRANSPORT_BONUS_II</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This transport has medium movement speed and {resistance} resistance to all damage and status effects.</Data></Cell><Cell><Data ss:Type="String">该运输工具拥有中速移动速度且对所有伤害和状态效果具有 {resistance} 抵抗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RIVER_BONUS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">River Exploitation</Data></Cell><Cell><Data ss:Type="String">河流开发点</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">RIVER_BONUS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Colonies with a River going through their domain generate {Food} food income.</Data></Cell><Cell><Data ss:Type="String">领域内有河流经过的殖民地生成 {Food} 食物收益。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LAVA_BONUS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Lava Exploitation</Data></Cell><Cell><Data ss:Type="String">岩浆开发点</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">LAVA_BONUS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Colonies with a Lava stream going through their domain generate {Energy} energy income.</Data></Cell><Cell><Data ss:Type="String">领域内有岩浆流经过的殖民地生成 {Energy} 能量收益。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">HAZARD_REMOVAL_VEIL_OF_TRANQUILITY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Hazard Removal: Veil of Tranquility</Data></Cell><Cell><Data ss:Type="String">灾害消除：静谧帷幕</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">HAZARD_REMOVAL_ABYSSAL_TEAR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Hazard Removal: Abyssal Tear</Data></Cell><Cell><Data ss:Type="String">灾害消除：深渊裂隙</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">HAZARD_REMOVAL_NUCLEAR_FALLOUT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Hazard Removal: Nuclear Fallout</Data></Cell><Cell><Data ss:Type="String">灾害消除：核能辐射</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">HAZARD_REMOVAL_SPORE_CLOUD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Hazard Removal: Spore Clouds</Data></Cell><Cell><Data ss:Type="String">灾害消除：孢子云</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">HAZARD_REMOVAL_ARC_STORM</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Hazard Removal: Ion Storm</Data></Cell><Cell><Data ss:Type="String">灾害消除：离子风暴</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">HAZARD_REMOVAL_GEOTHERMAL_INSTABILITY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Hazard Removal: Geothermal Instability</Data></Cell><Cell><Data ss:Type="String">灾害消除：地热动荡</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">HAZARD_REMOVAL_VOID_BOMB</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Hazard Removal: Void Storm</Data></Cell><Cell><Data ss:Type="String">灾害消除：虚空风暴</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">HAZARD_REMOVAL_OIL_SPILL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Hazard Removal: Oil Spill</Data></Cell><Cell><Data ss:Type="String">灾害消除：石油泄漏</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_REMOVAL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Hazard Removal</Data></Cell><Cell><Data ss:Type="String">灾害消除</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">HAZARD_REMOVAL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unlocks the ability to remove Hazards from the world map using special operations.</Data></Cell><Cell><Data ss:Type="String">解锁利用特殊行动消除世界地图灾害的能力。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_REMOVAL</Data></Cell><Cell><Data ss:Type="String">POPUP</Data></Cell><Cell><Data ss:Type="String">Spend resources to remove the hazard from this sector.</Data></Cell><Cell><Data ss:Type="String">花费资源消除该区域的灾害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_REMOVAL</Data></Cell><Cell><Data ss:Type="String">IN_PROGRESS</Data></Cell><Cell><Data ss:Type="String">Hazard removal in progress [INT_duration]</Data></Cell><Cell><Data ss:Type="String">正在消除灾害[INT_duration]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GENERATE_RESEARCH</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Generate Knowledge</Data></Cell><Cell><Data ss:Type="String">产出知识</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">GENERATE_RESEARCH</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unlocks the option for your colonies to 'Generate Knowledge', turning {ResearchAmount} of your production capacity into knowledge when activated.</Data></Cell><Cell><Data ss:Type="String">为你的殖民地解锁“生成知识”选项，激活时可将 {ResearchAmount} 生产力转换成知识。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">COSMITE_GLOBAL_INCOME</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Cosmite Catalyst</Data></Cell><Cell><Data ss:Type="String">宇宙合金催化剂</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">COSMITE_GLOBAL_INCOME</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Applying a Cosmite catalyst to all Cosmite-generating structures can boost yields.[br/][br/]Global Income of Cosmite increased by {cosmiteIncomeModifier}.</Data></Cell><Cell><Data ss:Type="String">为所有宇宙合金生成的建筑应用宇宙合金催化剂，可提高收益。[br/][br/]宇宙合金的全局性收益增加 {cosmiteIncomeModifier}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell><Cell><Data ss:Type="String">TRANSPORT_NAME</Data></Cell><Cell><Data ss:Type="String">Sea Transport</Data></Cell><Cell><Data ss:Type="String">海洋运输</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell><Cell><Data ss:Type="String">TRANSPORT_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Allows units to embark into a transport to travel across the water.</Data></Cell><Cell><Data ss:Type="String">可使单位搭载运输工具在水上穿行。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell><Cell><Data ss:Type="String">WATER_BASE_NAME</Data></Cell><Cell><Data ss:Type="String">Water Base</Data></Cell><Cell><Data ss:Type="String">水上基地</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell><Cell><Data ss:Type="String">WATER_BASE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unlocks the ability to build bases on water and coastal sectors.</Data></Cell><Cell><Data ss:Type="String">解锁建造水上基地和海滨区域的能力。</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Zoom>115</Zoom><Selected/><Panes><Pane><Number>3</Number><ActiveCol>8</ActiveCol><RangeSelection>C9</RangeSelection></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:50:38Z</Created><LastSaved
+    >2019-06-25T15:50:38Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
+    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment
+        ss:Vertical="Bottom"
+        ss:WrapText="1"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:Width="228.75" /><Column ss:Width="175.5" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="339.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="150.75" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="135.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="123" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="339.75"
+      /><Row ss:AutoFitHeight="0" ss:Height="210"><Cell><Data
+            ss:Type="String"
+          >ECONOMY_TECHGROUPS</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ECONOMY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Economy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >经济</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ECONOMY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_PRODUCTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Production</Data></Cell><Cell><Data
+            ss:Type="String"
+          >产力</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ECONOMY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Research</Data></Cell><Cell><Data
+            ss:Type="String"
+          >研究</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ECONOMY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_ENERGY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Energy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >能量</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ECONOMY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_FOOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Food</Data></Cell><Cell><Data
+            ss:Type="String"
+          >食物</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ECONOMY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_INFRASTRUCTURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Infrastructure</Data></Cell><Cell><Data
+            ss:Type="String"
+          >基础设施</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ECONOMY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_WATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Water</Data></Cell><Cell><Data
+            ss:Type="String"
+          >水域</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ECONOMY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_TERRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Terrain</Data></Cell><Cell><Data
+            ss:Type="String"
+          >地形</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">RESEARCH_LEVELUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Research Sector Level</Data></Cell><Cell><Data
+            ss:Type="String"
+          >研究区域等级</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Level as in, a number of steps in the development of a sector, a sector begins at level 1 and can be upgraded to level 5, where it provides stronger benefits.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">ENERGY_LEVELUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Energy Sector Level</Data></Cell><Cell><Data
+            ss:Type="String"
+          >能量区域等级</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Level as in, a number of steps in the development of a sector, a sector begins at level 1 and can be upgraded to level 5, where it provides stronger benefits.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">PRODUCTION_LEVELUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Production Sector Level</Data></Cell><Cell><Data
+            ss:Type="String"
+          >产力区域等级</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Level as in, a number of steps in the development of a sector, a sector begins at level 1 and can be upgraded to level 5, where it provides stronger benefits.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">FOOD_LEVELUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Food Sector Level</Data></Cell><Cell><Data
+            ss:Type="String"
+          >食物区域等级</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Level as in, a number of steps in the development of a sector, a sector begins at level 1 and can be upgraded to level 5, where it provides stronger benefits.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">ARCADIAN_LEVELUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arcadian Sector Level</Data></Cell><Cell><Data
+            ss:Type="String"
+          >田园区域等级</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Level as in, a number of steps in the development of a sector, a sector begins at level 1 and can be upgraded to level 5, where it provides stronger benefits.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ARCADIAN_REGEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arcadian Recovery</Data></Cell><Cell><Data
+            ss:Type="String"
+          >田园恢复</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Arcadian refers to Arcadia, i.e. an idyllic climate.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">ARCADIAN_REGEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Having adapted to the environment, your forces recover {ArcadianRec} each turn on the world map while in an Arcadian climate.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的部队已经适应了环境，处于田园气候时，你的部队在世界地图上每回合将恢复 {ArcadianRec}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Arcadian refers to Arcadia, i.e. an idyllic climate.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Having adapted to the environment, your forces recover {ArcadianRec} Hit Points each turn on the world map while in an Arcadian climate.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ARCADIAN_HAPPINESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arcadian Habitats</Data></Cell><Cell><Data
+            ss:Type="String"
+          >田园栖息地</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Arcadian refers to Arcadia, i.e. an idyllic climate.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">ARCADIAN_HAPPINESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >By adapting the habitats for your colonists to the Arcadian climate, you can improve their quality of life.[br/][br/]Your colony gains {happiness} for each Arcadian sector within the colony's domain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将移住民栖息地改造为田园气候，从而提升移住民的生活质量。[br/][br/]你的殖民地领域中每有一片田园区域，殖民地就会获得 {happiness}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Arcadian refers to Arcadia, i.e. an idyllic climate.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >By adapting the habitats for your colonists to the Arcadian climate, you improve your colonists' quality of life.[br/][br/]Your colony gains {happiness} Happiness for each Arcadian sector within the colony's domain.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ARID_LEVELUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arid Sector Level</Data></Cell><Cell><Data
+            ss:Type="String"
+          >干燥区域等级</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Arid is the terrain type for deserts.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ARID_REGEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arid Recovery</Data></Cell><Cell><Data
+            ss:Type="String"
+          >干燥恢复</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Arid is the terrain type for deserts.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ARID_REGEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Having adapted to the environment, your forces recover {AridRec} each turn on the world map while in an Arid climate.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的部队已经适应了环境，处于干燥气候时，你的部队在世界地图上每回合将恢复 {AridRec}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Arid is the terrain type for deserts.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Having adapted to the environment, your forces recover {AridRec} Hit Points each turn on the world map while in an Arid climate.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ARID_HAPPINESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arid Habitats</Data></Cell><Cell><Data
+            ss:Type="String"
+          >干燥栖息地</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Arid is the terrain type for deserts.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">ARID_HAPPINESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >By adapting the habitats for your colonists to the Arid climate, you can improve their quality of life.[br/][br/]Your colony gains {happiness} for each Arid sector within the colony's domain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将移住民栖息地改造为干燥气候，从而提升移住民的生活质量。[br/][br/]你的殖民地领域中每有一片干燥区域，殖民地就会获得 {happiness}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Arid is the terrain type for deserts.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >By adapting the habitats for your colonists to the Arid climate, you improve your colonists' quality of life.[br/][br/]Your colony gains {happiness} Happiness for each Arid sector within the colony's domain.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ARCTIC_LEVELUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arctic Sector Level</Data></Cell><Cell><Data
+            ss:Type="String"
+          >极寒区域等级</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Arctic is the terrain type for arctic.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ARCTIC_REGEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arctic Recovery</Data></Cell><Cell><Data
+            ss:Type="String"
+          >极寒恢复</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Arctic is the terrain type for arctic.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">ARCTIC_REGEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Having adapted to the environment, your forces recover {ArcticRec} each turn on the world map while in an Arctic climate.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的部队已经适应了环境，处于极寒气候时，你的部队在世界地图上每回合将恢复 {ArcticRec}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Arctic is the terrain type for arctic.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Having adapted to the environment, your forces recover {ArcticRec} Hit Points each turn on the world map while in an Arctic climate.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ARCTIC_HAPPINESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arctic Habitats</Data></Cell><Cell><Data
+            ss:Type="String"
+          >极寒栖息地</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Arctic is the terrain type for arctic.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">ARCTIC_HAPPINESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >By adapting the habitats for your colonists to the Arctic climate, you can improve their quality of life.[br/][br/]Your colony gains {happiness} for each Arctic sector within the colony's domain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将移住民栖息地改造为极寒气候，从而提升移住民的生活质量。[br/][br/]你的殖民地领域中每有一片极寒区域，殖民地就会获得 {happiness}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Arctic is the terrain type for arctic.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >By adapting the habitats for your colonists to the Arctic climate, you improve your colonists' quality of life.[br/][br/]Your colony gains {happiness} Happiness for each Arctic sector within the colony's domain.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">FUNGAL_LEVELUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fungal Sector Level</Data></Cell><Cell><Data
+            ss:Type="String"
+          >真菌区域等级</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Fungal is the terrain type for alien sectors that are overgrown with fungus like growth</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">FUNGAL_REGEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fungal Recovery</Data></Cell><Cell><Data
+            ss:Type="String"
+          >真菌恢复</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Fungal is the terrain type for alien sectors that are overgrown with fungus like growth</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">FUNGAL_REGEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Having adapted to the environment, your forces recover {FungalRec} each turn on the world map while in a Fungal climate.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的部队已经适应了环境，处于真菌气候时，你的部队在世界地图上每回合将恢复 {FungalRec}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Fungal is the terrain type for alien sectors that are overgrown with fungus like growth</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Having adapted to the environment, your forces recover {FungalRec} Hit Points each turn on the world map while in a Fungal climate.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">FUNGAL_HAPPINESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fungal Habitats</Data></Cell><Cell><Data
+            ss:Type="String"
+          >真菌栖息地</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Fungal is the terrain type for alien sectors that are overgrown with fungus like growth</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">FUNGAL_HAPPINESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >By adapting the habitats for your colonists to the Fungal climate, you can improve their quality of life.[br/][br/]Your colony gains {happiness} for each Fungal sector within the colony's domain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将移住民栖息地改造为真菌气候，从而提升移住民的生活质量。[br/][br/]你的殖民地领域中每有一片真菌区域，殖民地就获得 {happiness}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Fungal is the terrain type for alien sectors that are overgrown with fungus like growth</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >By adapting the habitats for your colonists to the Fungal climate, you improve your colonists' quality of life.[br/][br/]Your colony gains {happiness} Happiness for each Fungal sector within the colony's domain.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BADLANDS_LEVELUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Volcanic Sector Level</Data></Cell><Cell><Data
+            ss:Type="String"
+          >火山区域等级</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FOREST_LEVELUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Forest Sector Level</Data></Cell><Cell><Data
+            ss:Type="String"
+          >森林区域等级</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FOREST_GLOBAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Forest Navigation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >森林行走</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">FOREST_GLOBAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units with Amphibious or Land Movement gain Expedited Movement in Forests, reducing the cost of moving through this terrain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有拥有“水陆两栖”或“陆地移动”的单位在森林区域中获得“加速移动”，减少穿越森林区域时所需的消耗。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Expedited movement is a unit property that increases a units speed when moving through that terrain</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MOUNTAIN_LEVELUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mountain Sector Level</Data></Cell><Cell><Data
+            ss:Type="String"
+          >山地区域等级</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOUNTAIN_GLOBAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mountain Navigation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >山地行走</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">MOUNTAIN_GLOBAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units with Amphibious or Land Movement gain Expedited Movement in Mountains, reducing the cost of moving through this terrain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有拥有“水陆两栖”或“陆地移动”的单位在山地区域中获得“加速移动”，减少穿越山地区域时所需的消耗。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Expedited movement is a unit property that increases a units speed when moving through that terrain</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RUINS_LEVELUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ruins Sector Level</Data></Cell><Cell><Data
+            ss:Type="String"
+          >废墟区域等级</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RUINS_GLOBAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ruins Navigation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >废墟行走</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">RUINS_GLOBAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units with Amphibious or Land Movement gain Expedited Movement in Ruins, reducing the cost of moving through this terrain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有拥有“水陆两栖”或“陆地移动”的单位在废墟区域中获得“加速移动”，减少穿越废墟区域时所需的消耗。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Expedited movement is a unit property that increases a units speed when moving through that terrain</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLAINS_LEVELUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fertile Plains Sector Level</Data></Cell><Cell><Data
+            ss:Type="String"
+          >肥沃平原区域等级</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLAINS_GLOBAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Plains Navigation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >平原行走</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">PLAINS_GLOBAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units with Amphibious or Land Movement gain Expedited Movement in Fertile Plains, reducing the cost of moving through this terrain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有拥有“水陆两栖”或“陆地移动”的单位在肥沃平原区域中获得“加速移动”，减少穿越平原区域时所需的消耗。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Expedited movement is a unit property that increases a units speed when moving through that terrain</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">WATER_LEVELUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Coast Sector Level</Data></Cell><Cell><Data
+            ss:Type="String"
+          >海滨区域等级</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >TRANSPORT_BONUS_I</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Transport Reinforcement</Data></Cell><Cell><Data
+            ss:Type="String"
+          >运输强化</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">TRANSPORT_BONUS_I</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >New naval technologies allow for transports to be reinforced to increase survivability.[br/[br/]Transports gain {hp} and {armor}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >新的舰船科技可强化运输工具的存活能力。[br/[br/]运输工具获得 {hp} 和 {armor}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">TRANSPORT_BONUS_I</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This transport has been reinforced with additional {hp} and {armor}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该运输工具已得到强化，拥有额外 {hp} 和 {armor}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRANSPORT_BONUS_II</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Transport Expedience</Data></Cell><Cell><Data
+            ss:Type="String"
+          >运输工具便利</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">TRANSPORT_BONUS_II</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Specializing in naval technologies allows for quicker maneuvering in the water, as well as stronger resistance to enemy attacks.[br/][br/]Transports gain medium movement speed and have {resistance} resistance to all damage and status effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >对舰船科技的研究使运输工具在水中拥有更快的机动性，同时对敌人攻击也具有更强的抵抗能力。[br/][br/]运输工具获得中速移动速度且对所有伤害和状态效果具有 {resistance} 抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">TRANSPORT_BONUS_II</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This transport has medium movement speed and {resistance} resistance to all damage and status effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该运输工具拥有中速移动速度且对所有伤害和状态效果具有 {resistance} 抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RIVER_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >River Exploitation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >河流开发点</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">RIVER_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Colonies with a River going through their domain generate {Food} food income.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >领域内有河流经过的殖民地生成 {Food} 食物收益。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LAVA_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Lava Exploitation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >岩浆开发点</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">LAVA_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Colonies with a Lava stream going through their domain generate {Energy} energy income.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >领域内有岩浆流经过的殖民地生成 {Energy} 能量收益。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_REMOVAL_VEIL_OF_TRANQUILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hazard Removal: Veil of Tranquility</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灾害消除：静谧帷幕</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_REMOVAL_ABYSSAL_TEAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hazard Removal: Abyssal Tear</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灾害消除：深渊裂隙</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_REMOVAL_NUCLEAR_FALLOUT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hazard Removal: Nuclear Fallout</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灾害消除：核能辐射</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_REMOVAL_SPORE_CLOUD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hazard Removal: Spore Clouds</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灾害消除：孢子云</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">HAZARD_REMOVAL_ARC_STORM</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hazard Removal: Ion Storm</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灾害消除：离子风暴</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_REMOVAL_GEOTHERMAL_INSTABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hazard Removal: Geothermal Instability</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灾害消除：地热动荡</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">HAZARD_REMOVAL_VOID_BOMB</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hazard Removal: Void Storm</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灾害消除：虚空风暴</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">HAZARD_REMOVAL_OIL_SPILL</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hazard Removal: Oil Spill</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灾害消除：石油泄漏</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Hazards are sector effects that negatively affect units and structures in that sector.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HAZARD_REMOVAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hazard Removal</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灾害消除</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">HAZARD_REMOVAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unlocks the ability to remove Hazards from the world map using special operations.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >解锁利用特殊行动消除世界地图灾害的能力。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HAZARD_REMOVAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >POPUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spend resources to remove the hazard from this sector.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >花费资源消除该区域的灾害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HAZARD_REMOVAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >IN_PROGRESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hazard removal in progress [INT_duration]</Data></Cell><Cell><Data
+            ss:Type="String"
+          >正在消除灾害[INT_duration]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERATE_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Generate Knowledge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >产出知识</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">GENERATE_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unlocks the option for your colonies to 'Generate Knowledge', turning {ResearchAmount} of your production capacity into knowledge when activated.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >为你的殖民地解锁“生成知识”选项，激活时可将 {ResearchAmount} 生产力转换成知识。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COSMITE_GLOBAL_INCOME</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cosmite Catalyst</Data></Cell><Cell><Data
+            ss:Type="String"
+          >宇宙合金催化剂</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">COSMITE_GLOBAL_INCOME</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Applying a Cosmite catalyst to all Cosmite-generating structures can boost yields.[br/][br/]Global Income of Cosmite increased by {cosmiteIncomeModifier}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >为所有宇宙合金生成的建筑应用宇宙合金催化剂，可提高收益。[br/][br/]宇宙合金的全局性收益增加 {cosmiteIncomeModifier}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TRANSPORT_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sea Transport</Data></Cell><Cell><Data
+            ss:Type="String"
+          >海洋运输</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DEFAULT_SKILLS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TRANSPORT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Allows units to embark into a transport to travel across the water.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >可使单位搭载运输工具在水上穿行。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WATER_BASE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Water Base</Data></Cell><Cell><Data
+            ss:Type="String"
+          >水上基地</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DEFAULT_SKILLS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WATER_BASE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unlocks the ability to build bases on water and coastal sectors.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >解锁建造水上基地和海滨区域的能力。</Data></Cell></Row><Row><Cell
+        ><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Zoom>115</Zoom><Selected /><Panes><Pane><Number
+          >3</Number><ActiveCol>8</ActiveCol><RangeSelection
+          >C9</RangeSelection></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

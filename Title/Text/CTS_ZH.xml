@@ -1,3 +1,704 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author>Hanneke Debie</Author><LastAuthor>Arno van Wingerden</LastAuthor><Created>2007-06-04T09:26:00Z</Created><LastSaved>2019-05-27T11:46:38Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>11430</WindowHeight><WindowWidth>28770</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Arial" x:Family="Swiss"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62" ss:Name="Default"><Font ss:FontName="Arial1"/></Style><Style ss:ID="s63" ss:Name="Triumph_XML_Format"><Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/><Borders/><Font ss:FontName="Arial" x:Family="Swiss"/><Interior/><NumberFormat/></Style><Style ss:ID="s65" ss:Parent="s62"><Alignment ss:Vertical="Center" ss:WrapText="1"/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/></Style><Style ss:ID="s67" ss:Parent="s63"><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/><Interior/></Style><Style ss:ID="s68" ss:Parent="s63"><Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/><Interior/></Style><Style ss:ID="s69"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/></Style><Style ss:ID="s70" ss:Parent="s63"><Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/><Interior/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s65" ss:DefaultColumnWidth="412.5" ss:DefaultRowHeight="15"><Column ss:StyleID="s67" ss:Width="46.5"/><Column ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="168"/><Column ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="250.5"/><Column ss:StyleID="s67" ss:Width="147.75"/><Column ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="346.5"/><Column ss:StyleID="s67" ss:Width="121.5"/><Column ss:StyleID="s67" ss:AutoFitWidth="0" ss:Span="2"/><Row ss:AutoFitHeight="0" ss:Height="90"><Cell ss:StyleID="s68"><Data ss:Type="String">CTS</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:Index="7" ss:StyleID="s69"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">SCENE ID</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">TEXT ID</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell ss:StyleID="s70"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">EMAIL</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">TRIUMPH_SUPPORT</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Triumph Support</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">胜利支持</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Used as sender name</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">HEADER</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String" x:Ticked="1">from: {STR_fromname}</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">发件人：{STR_fromname}</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String" x:Ticked="1">Subject field</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">SESSION_OVERVIEW</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Session Overview</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">战局总览</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Area header in new turn email message</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">USERS</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Users</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">用户</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Area header in new turn email message</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">TEAM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">team</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">队伍</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Tag used for team games</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">VICTORY</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">victory</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">胜利</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Tag used for victorious players</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">DEFEATED</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">defeated</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">败北</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Tag used for defeated players</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">HOST</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">host</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">主持者</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Tag used for hosting player</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">ITS_YOUR_TURN</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">it's your turn</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">你的回合</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Tag used for the player who's turn it is</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">KICKED</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">kicked</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">已踢出</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Tag used for kicked player</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">LEFT</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">left</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">已离开</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Tag user for left player</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">TURN_RESTARTED</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">restarted</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">已重启</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Tag used for a user that restarted it's turn.</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">TURN_TIMER_SET</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">turn timer set to:</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">回合计时器设为：</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Turn timer duration label</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">TURN_TIMER_DISABLED</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">turn timer: disabled</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">回合计时器：已禁用</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Turn timer disabled</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">TIME</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">DAY</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">day</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">天</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Time value</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">TIME</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">DAYS</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">days</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">天</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Time value</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">TIME</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">HOUR</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">hour</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">时</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Time value</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">TIME</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">HOURS</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">hours</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">时</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Time value</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">TIME</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">MINUTE</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">minute</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">分</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Time value</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">TIME</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">MINUTES</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">minutes</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">分</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Time value</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">TIME</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">SECOND</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">second</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">秒</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Time value</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">TIME</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">SECONDS</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">seconds</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">秒</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Time value</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s68"><Data ss:Type="String">TIME</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">AND</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">and</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">零</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Used for time values e.g. 5 minutes and 3 seconds.</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">KICKED_BODY</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">You were kicked out by the host and have no longer access to the session.</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">你已被主持者踢出，且无法再次加入此战局。</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Mail message</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM_</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">KICKED_SUBJECT</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">You were kicked</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">你已被踢出。</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Mail message</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">ALL_SKIPPED_BODY</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">The game reverted to the last played turn because all turns were skipped. The turn timer will be resumed when {STR_username} completes their turn.</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">由于所有回合都被跳过，游戏还原为上一个游玩的回合。回合计时器将在{STR_username}完成自己回合时继续。</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Mail message</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">SKIPPED_BODY</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">The turn timer for your turn has expired. Your turn was automatically ended.</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">你的回合已超时。你的回合已自动结束。</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Mail message</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">SKIPPED_SUBJECT</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Your turn has been skipped</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">你已跳过自己的回合。</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Mail message</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">REVERT_BODY</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">The server was unable to process your latest turn. Please re-do / re-upload your turn to allow this session to continue.</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">服务器无法处理你的上一个回合。请重新进行/重新上传你的回合以使此战局继续下去。</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Mail message</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">NEW_TURN_DURATION_BODY</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">You have {STR_duration} to complete your turn!</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">你有{STR_duration}的时间完成自己的回合！</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Mail message</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">NEW_TURN_BODY</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">A new turn is ready for you…</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">你的新回合已经准备就绪……</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Mail message</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">NEW_TURN_SUBJECT</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">It's your turn!</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">轮到你了！</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Mail message</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">NEW_TURN_REVERT_SUBJECT</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Please re-upload your turn</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">请重新上传你的回合。</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Mail message</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">NEW_TURN_OTHER_BODY</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">The turn changed to: {STR_username}</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">回合进行者变为：{STR_username}</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Mail message</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">NEW_TURN_OTHER_SUBJECT</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">It's {STR_username}'s turn</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">轮到{STR_username}了</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Mail message</Data></Cell><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PBEM</Data></Cell><Cell><Data ss:Type="String">ROUND_SUBJECT_ADD</Data></Cell><Cell><Data ss:Type="String">(round: {STR_round})</Data></Cell><Cell><Data ss:Type="String">（轮次：{STR_round}）</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Added to subject indicating the round(=turn) that is ready to be played</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PBEM</Data></Cell><Cell><Data ss:Type="String">COMBAT_ROUND_SUBJECT_ADD</Data></Cell><Cell><Data ss:Type="String">(combat round: {STR_round})</Data></Cell><Cell><Data ss:Type="String">（战斗轮次：{STR_round}）</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Added to subject indicating the round(=turn) that is ready to be played</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PBEM</Data></Cell><Cell><Data ss:Type="String">BEING_ATTACKED_SUBJECT</Data></Cell><Cell><Data ss:Type="String">You are being attacked!</Data></Cell><Cell><Data ss:Type="String">你正遭到攻击！</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data ss:Type="String">Mail message</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PBEM</Data></Cell><Cell><Data ss:Type="String">USER_MESSAGE_SUBJECT</Data></Cell><Cell><Data ss:Type="String">From: {STR_username}</Data></Cell><Cell><Data ss:Type="String">发件人：{STR_username}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PBEM</Data></Cell><Cell><Data ss:Type="String">REVERTED_TURN_SUBJECT</Data></Cell><Cell><Data ss:Type="String">{STR_username} repaired the turn!</Data></Cell><Cell><Data ss:Type="String">{STR_username}修复了回合！</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Subject in mail when player reverts an online turn.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">These texts are used by our back-end - the account servers - when sending emails to our customers.
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author
+    >Hanneke Debie</Author><LastAuthor>Arno van Wingerden</LastAuthor><Created
+    >2007-06-04T09:26:00Z</Created><LastSaved
+    >2019-05-27T11:46:38Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>11430</WindowHeight><WindowWidth>28770</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Arial"
+        x:Family="Swiss"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+      ss:Name="Default"
+    ><Font ss:FontName="Arial1" /></Style><Style
+      ss:ID="s63"
+      ss:Name="Triumph_XML_Format"
+    ><Alignment
+        ss:Horizontal="Left"
+        ss:Vertical="Center"
+        ss:WrapText="1"
+      /><Borders /><Font ss:FontName="Arial" x:Family="Swiss" /><Interior
+      /><NumberFormat /></Style><Style ss:ID="s65" ss:Parent="s62"><Alignment
+        ss:Vertical="Center"
+        ss:WrapText="1"
+      /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+      /></Style><Style ss:ID="s67" ss:Parent="s63"><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+      /><Interior /></Style><Style ss:ID="s68" ss:Parent="s63"><Alignment
+        ss:Horizontal="Left"
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" /><Interior
+      /></Style><Style ss:ID="s69"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+      /></Style><Style ss:ID="s70" ss:Parent="s63"><Alignment
+        ss:Horizontal="Center"
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" /><Interior
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s65"
+      ss:DefaultColumnWidth="412.5"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s67" ss:Width="46.5" /><Column
+        ss:StyleID="s67"
+        ss:AutoFitWidth="0"
+        ss:Width="168"
+      /><Column ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="250.5" /><Column
+        ss:StyleID="s67"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="346.5" /><Column
+        ss:StyleID="s67"
+        ss:Width="121.5"
+      /><Column ss:StyleID="s67" ss:AutoFitWidth="0" ss:Span="2" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell ss:StyleID="s68"><Data ss:Type="String">CTS</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:Index="7"
+          ss:StyleID="s69"
+        ><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >SCENE ID</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell ss:StyleID="s70"><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s68"><Data ss:Type="String">EMAIL</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">TRIUMPH_SUPPORT</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Triumph Support</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">胜利支持</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Used as sender name</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >PBEM</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >HEADER</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+            x:Ticked="1"
+          >from: {STR_fromname}</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >发件人：{STR_fromname}</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        ><Data ss:Type="String" x:Ticked="1">Subject field</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >PBEM</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >SESSION_OVERVIEW</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Session Overview</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >战局总览</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Area header in new turn email message</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >PBEM</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >USERS</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Users</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >用户</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Area header in new turn email message</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >PBEM</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >TEAM</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >team</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >队伍</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Tag used for team games</Data></Cell><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">VICTORY</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">victory</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">胜利</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        ><Data
+            ss:Type="String"
+          >Tag used for victorious players</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >PBEM</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >DEFEATED</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >defeated</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >败北</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Tag used for defeated players</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >PBEM</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >HOST</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >host</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >主持者</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Tag used for hosting player</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >PBEM</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >ITS_YOUR_TURN</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >it's your turn</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >你的回合</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Tag used for the player who's turn it is</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >PBEM</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >KICKED</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >kicked</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >已踢出</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Tag used for kicked player</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >PBEM</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >LEFT</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >left</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >已离开</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Tag user for left player</Data></Cell><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">TURN_RESTARTED</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">restarted</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">已重启</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        ><Data
+            ss:Type="String"
+          >Tag used for a user that restarted it's turn.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >PBEM</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >TURN_TIMER_SET</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >turn timer set to:</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >回合计时器设为：</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Turn timer duration label</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >PBEM</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >TURN_TIMER_DISABLED</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >turn timer: disabled</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >回合计时器：已禁用</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Turn timer disabled</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >TIME</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >DAY</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >day</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >天</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Time value</Data></Cell><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s68"><Data ss:Type="String">TIME</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">DAYS</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >days</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >天</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Time value</Data></Cell><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s68"><Data ss:Type="String">TIME</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">HOUR</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >hour</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >时</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Time value</Data></Cell><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s68"><Data ss:Type="String">TIME</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">HOURS</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >hours</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >时</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Time value</Data></Cell><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s68"><Data ss:Type="String">TIME</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">MINUTE</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >minute</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >分</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Time value</Data></Cell><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s68"><Data ss:Type="String">TIME</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">MINUTES</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">minutes</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">分</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Time value</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >TIME</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >SECOND</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >second</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >秒</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Time value</Data></Cell><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s68"><Data ss:Type="String">TIME</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">SECONDS</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">seconds</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">秒</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Time value</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">TIME</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >AND</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >and</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >零</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Used for time values e.g. 5 minutes and 3 seconds.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >KICKED_BODY</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >You were kicked out by the host and have no longer access to the session.</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data
+            ss:Type="String"
+          >你已被主持者踢出，且无法再次加入此战局。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Mail message</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >PBEM_</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >KICKED_SUBJECT</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >You were kicked</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >你已被踢出。</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Mail message</Data></Cell><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">ALL_SKIPPED_BODY</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data
+            ss:Type="String"
+          >The game reverted to the last played turn because all turns were skipped. The turn timer will be resumed when {STR_username} completes their turn.</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data
+            ss:Type="String"
+          >由于所有回合都被跳过，游戏还原为上一个游玩的回合。回合计时器将在{STR_username}完成自己回合时继续。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Mail message</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >SKIPPED_BODY</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >The turn timer for your turn has expired. Your turn was automatically ended.</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data
+            ss:Type="String"
+          >你的回合已超时。你的回合已自动结束。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Mail message</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >PBEM</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >SKIPPED_SUBJECT</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Your turn has been skipped</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >你已跳过自己的回合。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Mail message</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">PBEM</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >REVERT_BODY</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >The server was unable to process your latest turn. Please re-do / re-upload your turn to allow this session to continue.</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data
+            ss:Type="String"
+          >服务器无法处理你的上一个回合。请重新进行/重新上传你的回合以使此战局继续下去。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Mail message</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >PBEM</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >NEW_TURN_DURATION_BODY</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >You have {STR_duration} to complete your turn!</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data
+            ss:Type="String"
+          >你有{STR_duration}的时间完成自己的回合！</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Mail message</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >PBEM</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >NEW_TURN_BODY</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >A new turn is ready for you…</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">你的新回合已经准备就绪……</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Mail message</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >PBEM</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >NEW_TURN_SUBJECT</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >It's your turn!</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >轮到你了！</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Mail message</Data></Cell><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s68"><Data ss:Type="String">PBEM</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">NEW_TURN_REVERT_SUBJECT</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Please re-upload your turn</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data ss:Type="String">请重新上传你的回合。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Mail message</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >PBEM</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >NEW_TURN_OTHER_BODY</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >The turn changed to: {STR_username}</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data
+            ss:Type="String"
+          >回合进行者变为：{STR_username}</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Mail message</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >PBEM</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >NEW_TURN_OTHER_SUBJECT</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >It's {STR_username}'s turn</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >轮到{STR_username}了</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        ><Data ss:Type="String">Mail message</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /><Cell ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PBEM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ROUND_SUBJECT_ADD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >(round: {STR_round})</Data></Cell><Cell><Data
+            ss:Type="String"
+          >（轮次：{STR_round}）</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Added to subject indicating the round(=turn) that is ready to be played</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PBEM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_ROUND_SUBJECT_ADD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >(combat round: {STR_round})</Data></Cell><Cell><Data
+            ss:Type="String"
+          >（战斗轮次：{STR_round}）</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Added to subject indicating the round(=turn) that is ready to be played</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PBEM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BEING_ATTACKED_SUBJECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You are being attacked!</Data></Cell><Cell><Data
+            ss:Type="String"
+          >你正遭到攻击！</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Mail message</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PBEM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >USER_MESSAGE_SUBJECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >From: {STR_username}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >发件人：{STR_username}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PBEM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >REVERTED_TURN_SUBJECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_username} repaired the turn!</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_username}修复了回合！</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Subject in mail when player reverts an online turn.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >These texts are used by our back-end - the account servers - when sending emails to our customers.
 
-Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row><Cell><Data ss:Type="String">PBEM</Data></Cell><Cell><Data ss:Type="String">ALL_SKIPPED_SUBJECT</Data></Cell><Cell><Data ss:Type="String">Turn timer paused</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Mail message</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Zoom>85</Zoom><Selected/><TopRowVisible>27</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>55</ActiveRow><ActiveCol>2</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions><ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel"><Range>R4C3:R4C4</Range><Condition><Value1>NOT(EXACT(RC,#REF!))</Value1><Format Style="background:red"/></Condition></ConditionalFormatting><ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel"><Range>R4C7:R4C8</Range><Condition><Value1>NOT(EXACT(RC,#REF!))</Value1><Format Style="background:#92D050"/></Condition></ConditionalFormatting></Worksheet></Workbook>
+Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String">PBEM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALL_SKIPPED_SUBJECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Turn timer paused</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mail message</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>85</Zoom><Selected
+      /><TopRowVisible>27</TopRowVisible><Panes><Pane><Number
+          >3</Number><ActiveRow>55</ActiveRow><ActiveCol
+          >2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions><ConditionalFormatting
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Range>R4C3:R4C4</Range><Condition><Value1
+        >NOT(EXACT(RC,#REF!))</Value1><Format
+          Style="background:red"
+        /></Condition></ConditionalFormatting><ConditionalFormatting
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Range>R4C7:R4C8</Range><Condition><Value1
+        >NOT(EXACT(RC,#REF!))</Value1><Format
+          Style="background:#92D050"
+        /></Condition></ConditionalFormatting></Worksheet></Workbook>

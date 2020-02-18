@@ -1,1 +1,2045 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:57:47Z</Created><LastSaved>2019-06-25T15:57:47Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange>0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style><Style ss:ID="s63"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Interior ss:Color="#FFFF00" ss:Pattern="Solid"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15"><Column ss:StyleID="s62" ss:Width="236.25"/><Column ss:StyleID="s62" ss:Width="168.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="296.25"/><Column ss:StyleID="s62" ss:Width="147.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="258.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="144.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="296.25"/><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">VOIDTECH_TECHGROUPS</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOIDTECH</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">VoidTech</Data></Cell><Cell><Data ss:Type="String">虚空科技</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASEWALK_MODULATOR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Phasewalk Modulator</Data></Cell><Cell><Data ss:Type="String">相位行走调制器</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">PHASEWALK_MODULATOR</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unit gains [abilityblue]Phase Field[/abilityblue]. The unit is able to walk through obstacles and is {PhaseEvasion}% harder to hit in combat.</Data></Cell><Cell><Data ss:Type="String">单位获得[abilityblue]相位力场[/abilityblue]，该单位在战斗中能够穿过障碍物且命中难度增加 {PhaseEvasion}%。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RIFT_COILS</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Distortion Rift Coils</Data></Cell><Cell><Data ss:Type="String">扭曲裂隙线圈</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RIFT_COILS</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Discharges built up instability at a target.</Data></Cell><Cell><Data ss:Type="String">向目标释放汇聚的不稳定因子。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Gravity Pulse Grenade</Data></Cell><Cell><Data ss:Type="String">重力脉冲手雷</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Throw a Gravity Pulse Grenade dealing damage in a {hexrad} hex radius area.</Data></Cell><Cell><Data ss:Type="String">扔出一枚重力脉冲手雷，对 {hexrad} 个单元格范围造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Void Augmentation</Data></Cell><Cell><Data ss:Type="String">虚空放大</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The unit's attacks gain a {VoidAugmentChance}[strengthphysical/] strength chance ({VoidAugmentChanceRepeating}[strengthphysical/] for repeating attacks) to apply [abilityred]Dimensional Instability[/abilityred].[br/]If the attack already applies this status effect, instead increase its strength by +{VoidAugmentChanceRepeating}[strengthphysical/].</Data></Cell><Cell><Data ss:Type="String">该单位的攻击有 {VoidAugmentChance}[strengthphysical/] 力量几率（重复攻击有 {VoidAugmentChanceRepeating}[strengthphysical/] 几率）施加[abilityred]维度动荡[/abilityred]。[br/]如果该次攻击已经施加了此状态效果，则其力量 +{VoidAugmentChanceRepeating}[strengthphysical/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Phase Drive</Data></Cell><Cell><Data ss:Type="String">相位驱动</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Stasis Pocket Inducer</Data></Cell><Cell><Data ss:Type="String">袖珍停滞导流片</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The unit's attacks gain a {StasisChance}[strengthphysical/] strength chance ({StasisChanceRepeating}[strengthphysical/] for repeating attacks) to remove {stasisremoveap} action point from the target.</Data></Cell><Cell><Data ss:Type="String">该单位的攻击有 {StasisChance}[strengthphysical/] 力量几率（重复攻击有 {StasisChanceRepeating}[strengthphysical/] 几率）移除目标 {stasisremoveap} 操作点数。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Quantum Avatar</Data></Cell><Cell><Data ss:Type="String">量子化身</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="120"><Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Whenever the unit takes damage, its attacker is teleported {QuantumAvatarTeleport} hex away from their current position, receives [abilityred]Dimensional Instability[/abilityred] and becomes [abilityred]Staggered[/abilityred].[br/][br/]Voidtech or Voidtech-modded units adjacent to this one receive {QuantumAvatarShields} and gain a level of [abilityblue]Stagger Resistance[/abilityblue].</Data></Cell><Cell><Data ss:Type="String">该单位受到伤害时，攻击者将会被传送至其当前位置 {QuantumAvatarTeleport} 个单元格之外，获得[abilityred]维度动荡[/abilityred]并且会被[abilityred]动摇[/abilityred]。[br/][br/]与该单位相邻的虚空科技单位或者装有虚空科技模块的单位获得 {QuantumAvatarShields} 并获得 1 级[abilityblue]动摇抵抗[/abilityblue]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell><Cell><Data ss:Type="String">EFFECT_NAME</Data></Cell><Cell><Data ss:Type="String">Quantum Avatar Halo</Data></Cell><Cell><Data ss:Type="String">量子化身光环</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell><Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This Voidtech unit stands within a Quantum Avatar halo effect, gaining {QuantumAvatarShields} and High Impact resistance.</Data></Cell><Cell><Data ss:Type="String">该虚空科技单位正处于量子化身光环的效果范围内，获得 {QuantumAvatarShields} 和高度冲击抵抗。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"><Data ss:Type="String">Is this supposed to be Stagger Resistance, like in the mod description?</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ECHO_PROTOCOLS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Echo Protocols</Data></Cell><Cell><Data ss:Type="String">回声协议</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="72"><Cell><Data ss:Type="String">ECHO_PROTOCOLS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Voidtech allows for the capability of creating limited echo copies of people that can perform actual tasks, increasing colony resource ouput.[br/][br/]All colonies' [Food/], [Energy/], [Production/] and [Research/] slots produce {ResourceIncome} of their respective resource per colonist working it.</Data></Cell><Cell><Data ss:Type="String">虚空科技能够创造出可以执行实际任务的有限民众回声副本，从而提升殖民地的资源输出。[br/][br/]所有殖民地的[Food/]、[Energy/]、[Production/]和[Research/]槽位额外产出每个移住民开发的各个资源的 {ResourceIncome}。</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Applies to Food, Knowledge, Production, Energy</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PREVENTATIVE_SURVEILLANCE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Preventative Surveillance</Data></Cell><Cell><Data ss:Type="String">预防性监视</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">PREVENTATIVE_SURVEILLANCE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Voidtech technology can be applied to sensors, boosting the range and allowing them to read the dimensional signature of entities.[br/][br/]Scout units and colonies get {ScoutSensorRange} sensor and vision range. Non-Scout units get {NonScoutSensorRange} sensor and vision range.</Data></Cell><Cell><Data ss:Type="String">虚空科技可用于传感器，提升视野范围并读出实体的维度信号。[br/][br/]侦察兵单位和殖民地获得 {ScoutSensorRange} 传感器和视野范围，非侦察兵单位获得 {NonScoutSensorRange} 传感器和视野范围。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RESEARCH_SHARING</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Quantum Energy Tapping</Data></Cell><Cell><Data ss:Type="String">量子能量开发</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">RESEARCH_SHARING</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">If we're generating energy in this dimension, surely another version of us is doing the same in a different dimension. If we could find a way to tap into that energy...[br/][br/]Colonies produce an extra {EnergyIncome}</Data></Cell><Cell><Data ss:Type="String">如果我们在这个维度产出能量，另一个位于不同维度的我们肯定也会做同样的事。如果我们能够找到一种充分利用那种能量的方法…[br/][br/]殖民地额外产出 {EnergyIncome}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">THE_QUANTUM_PROJECT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">The Quantum Project</Data></Cell><Cell><Data ss:Type="String">量子项目</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">THE_QUANTUM_PROJECT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">By implementing quantum networking, research speed can be boosted tremendously.[br/][br/]{ResearchIncome} in each colony for every research sector linked to it.</Data></Cell><Cell><Data ss:Type="String">通过运用量子网络，研究速度获得巨幅提升。[br/][br/]每有一个与该网络相连的研究区域，每个殖民地就获得 {ResearchIncome}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOIDTECH_UNIT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Voidtech Unit</Data></Cell><Cell><Data ss:Type="String">虚空科技单位</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">VOIDTECH_UNIT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is considered a Voidtech Unit and is protected from offensive Voidtech Operations and abilities.</Data></Cell><Cell><Data ss:Type="String">该单位被视作虚空科技单位，受到攻击型虚空行动和技能保护。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE_SHIFT_ABDUCT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Phase Shift: Abduct</Data></Cell><Cell><Data ss:Type="String">相位变换：劫持</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">PHASE_SHIFT_ABDUCT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Forcefully attempt to teleport target unit to a hex adjacent to this unit with a strength {teleportchance} chance. A unit can only be targeted by this ability once per turn.</Data></Cell><Cell><Data ss:Type="String">以 {teleportchance} 力量几率尝试将目标单位强制传送到与该单位相邻的单元格中。每回合对同一目标只能使用一次此技能。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE_SHIFT_ABDUCT</Data></Cell><Cell><Data ss:Type="String">MOD_NAME</Data></Cell><Cell><Data ss:Type="String">Phase Pull</Data></Cell><Cell><Data ss:Type="String">相位牵引</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE_SHIFT_EVACUATE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Phase Shift: Evacuate</Data></Cell><Cell><Data ss:Type="String">相位变换：撤退</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">PHASE_SHIFT_EVACUATE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Target friendly unit is teleported to a hex adjacent to this unit, healing for {Evacuateheal} and gaining +{shieldgain} for {turnshield}</Data></Cell><Cell><Data ss:Type="String">将目标友方单位传送至与该单位相邻的单元格，治疗 {Evacuateheal} 并获得 +{shieldgain}，持续 {turnshield}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE_SHIFT_EVACUATE</Data></Cell><Cell><Data ss:Type="String">UNIT_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unit has +{shieldgain}</Data></Cell><Cell><Data ss:Type="String">单位拥有 +{shieldgain}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_BLADES</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Void Blades</Data></Cell><Cell><Data ss:Type="String">虚空之刃</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_BLADES</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Melee attack with dimensional blades.</Data></Cell><Cell><Data ss:Type="String">使用维度之刃发动近战攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_HAMMER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Void Hammer</Data></Cell><Cell><Data ss:Type="String">虚空之锤</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">VOID_HAMMER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Powerful melee attack that [abilityred]knocks back[/abilityred] Light units.</Data></Cell><Cell><Data ss:Type="String">可[abilityred]击退[/abilityred]轻型单位的强力近战攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_GLAIVE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Void Glaive</Data></Cell><Cell><Data ss:Type="String">虚空阔剑</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_GLAIVE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Melee attack with dimensional blades.</Data></Cell><Cell><Data ss:Type="String">使用维度之刃发动近战攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Dimensional Instability</Data></Cell><Cell><Data ss:Type="String">维度动荡</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{DimensionalInstabilityChance}[StrengthPhysical/] strength chance to cause [abilityred]Dimensional Instability[/abilityred] until the end of combat. </Data></Cell><Cell><Data ss:Type="String">有 {DimensionalInstabilityChance}[StrengthPhysical/] 的力量几率造成[abilityred]维度动荡[/abilityred]，直到战斗结束。 </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_1</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Dimensional Instability 1</Data></Cell><Cell><Data ss:Type="String">维度动荡 1</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_1</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has -{PhysicalResistanceDecrease}[DefensePhysical/] resistance.</Data></Cell><Cell><Data ss:Type="String">该单位拥有 -{PhysicalResistanceDecrease}[DefensePhysical/]抵抗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_2</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Dimensional Instability 2</Data></Cell><Cell><Data ss:Type="String">维度动荡 2</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_2</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is no longer solidly connected to this dimension. They lose one level of Stagger Resistance.</Data></Cell><Cell><Data ss:Type="String">该单位与此维度之间的连接变得不稳定，失去 1 级动摇抵抗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_3</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Dimensional Instability 3</Data></Cell><Cell><Data ss:Type="String">维度动荡 3</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_3</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is losing its grip on this dimension, reducing the damage its attacks deal by {PsionicDamageDecrease}%.</Data></Cell><Cell><Data ss:Type="String">该单位彻底失去对此维度的掌控，攻击造成的伤害减少 {PsionicDamageDecrease}%。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_4</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Dimensional Instability 4</Data></Cell><Cell><Data ss:Type="String">维度动荡 4</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_4</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit's very existence is unstable. At the start of their turn, they randomly teleport up to {TeleportRange} hexes away from their original position.</Data></Cell><Cell><Data ss:Type="String">该单位的存在已经失去了稳定。该单位在回合开始时将被随机传送到距离原来位置最多 {TeleportRange} 个单元格之外的地方。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">QUANTUM_ECHO</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Quantum Echo</Data></Cell><Cell><Data ss:Type="String">量子回声</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">QUANTUM_ECHO</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The unit splits into alternate versions of itself. The clone unit teleports a short distance, leaving the original version behind. The clone lasts {turns}. If the original unit is killed while cloned, the clone will remain, replacing the original unit.</Data></Cell><Cell><Data ss:Type="String">单位分裂出另一个自己。克隆单位会传送出去一小段距离，将本体留在后方。克隆体持续 {turns}。如果本体被击杀，则克隆体将替代本体继续存在。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">QUANTUM_PULSE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Quantum Pulse</Data></Cell><Cell><Data ss:Type="String">量子脉冲</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">QUANTUM_PULSE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The unit splits into alternate versions of itself. The clone unit teleports a short distance, delivering a burst of instability, leaving the original version behind. The clone lasts {turns}. If the original unit is killed while cloned, the clone will remain, replacing the original unit.</Data></Cell><Cell><Data ss:Type="String">单位分裂出另一个自己。克隆单位会传送出去一小段距离，将本体留在后方，造成不稳定冲击。克隆体持续 {turns}。如果本体被击杀，则克隆体将替代本体继续存在。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">QUANTUM_CLONE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Quantum Clone</Data></Cell><Cell><Data ss:Type="String">量子克隆</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">QUANTUM_CLONE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is a quantum clone. If the original unit is killed, this unit will replace it, becoming the original.</Data></Cell><Cell><Data ss:Type="String">该单位是量子克隆体，如果本体被击杀，该单位将替代本体。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE_FIELD</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Phase Field</Data></Cell><Cell><Data ss:Type="String">相位力场</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">PHASE_FIELD</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit can move through obstacles in tactical combat and is {PhaseFieldDef} harder to hit.</Data></Cell><Cell><Data ss:Type="String">该单位可在战术战斗中穿过障碍物且命中难度增加 {PhaseFieldDef}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DIMENSIONAL_DESYNC</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Dimensional Desync</Data></Cell><Cell><Data ss:Type="String">维度失调</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">DIMENSIONAL_DESYNC</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Target unit is phased halfway out of the physical dimension for {dimensionaldesynctime}, becoming immune to damage but being unable to use abilities.</Data></Cell><Cell><Data ss:Type="String">目标单位的相位有一半已经脱离了物理维度，持续 {dimensionaldesynctime}，免疫伤害但无法使用技能。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DIMENSIONAL_DESYNCED</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Dimensionally Desynced</Data></Cell><Cell><Data ss:Type="String">维度失调</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DIMENSIONAL_DESYNCED</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unit is immune to damage, but cannot use abilities.</Data></Cell><Cell><Data ss:Type="String">该单位免疫伤害，但无法使用技能。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Dimensional Rift</Data></Cell><Cell><Data ss:Type="String">维度裂隙</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Cause a minor rift to manifest in a {hexrad} hex radius area, dealing damage and teleporting targets {DimensionalRiftHexes} hexes in a random direction.</Data></Cell><Cell><Data ss:Type="String">在 {hexrad} 个单元格范围内制造出一条小型裂隙，造成伤害并将目标向随机方向传送 {DimensionalRiftHexes} 个单元格。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TIME_WARP</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Time Warp</Data></Cell><Cell><Data ss:Type="String">时间扭曲</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">TIME_WARP</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Affects all units in a {TimeWarpRadius} hex radius area. Friendly units gain [abilityblue]Fast Movement[/abilityblue], and enemy units are inflicted with [abilityred]Slow Movement[/abilityred] for {TimeWarpDuration}.</Data></Cell><Cell><Data ss:Type="String">影响 {TimeWarpRadius} 个单元格范围内的所有单位。友方单位获得[abilityblue]迅捷移动[/abilityblue]，敌方单位则获得[abilityred]缓慢移动[/abilityred]，持续 {TimeWarpDuration}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TIME_WARP</Data></Cell><Cell><Data ss:Type="String">FRIENDLY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has [abilityblue]Fast Movement[/abilityblue].</Data></Cell><Cell><Data ss:Type="String">该单位拥有[abilityblue]迅捷移动[/abilityblue]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TIME_WARP</Data></Cell><Cell><Data ss:Type="String">ENEMY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has [abilityred]Slow Movement[/abilityred].</Data></Cell><Cell><Data ss:Type="String">该单位拥有[abilityred]缓慢移动[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REACTIVE_PHASE_PROTECTION</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Reactive Phase Protection</Data></Cell><Cell><Data ss:Type="String">应激相位保护</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">REACTIVE_PHASE_PROTECTION</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Target unit receives Reactive Phase Defense for {ReactivePhaseProtectionTime}. Each time the unit takes damage, it is teleported to a random hex within {ReactivePhaseProtectionRange} hexes of their original position.</Data></Cell><Cell><Data ss:Type="String">目标单位获得应激相位保护，持续 {ReactivePhaseProtectionTime}。每当该单位受到伤害时，该单位将会被传送至原本所在位置 {ReactivePhaseProtectionRange} 个单元格范围内的另一个随机单元格。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REACTIVE_PHASE_DEFENSE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Reactive Phase Defense</Data></Cell><Cell><Data ss:Type="String">应激相位防护</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">REACTIVE_PHASE_DEFENSE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Each time the unit takes damage, it is teleported to a random hex within {ReactivePhaseProtectionRange} hexes of their original position.</Data></Cell><Cell><Data ss:Type="String">每当该单位受到伤害时，该单位将会被传送至原本所在位置 {ReactivePhaseProtectionRange} 个单元格范围内的另一个随机单元格。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VORTEX_CHARGE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Vortex Charge</Data></Cell><Cell><Data ss:Type="String">漩涡炸弹</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">VORTEX_CHARGE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Drops a Vortex Charge in a {AoERadius} hex radius area, dealing {VorextChargeDamage} damage to all non-Voidtech units with a strength {VortexChargeChance} chance to inflict [abilityred]Dimensional Instability[/abilityred].</Data></Cell><Cell><Data ss:Type="String">向 {AoERadius} 个单元格范围投放漩涡炸弹，对所有非虚空科技单位造成 {VorextChargeDamage} 伤害，并且有 {VortexChargeChance} 力量几率造成[abilityred]维度动荡[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE_ECHO</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Create Phase Echo</Data></Cell><Cell><Data ss:Type="String">制造相位回声</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">PHASE_ECHO</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Create an Unstable Echo of target non-Hero unit. A copy of the unit appears adjacent to it and is under your control. Unstable Echos deal [abilityred]50%[/abilityred] less damage, but are otherwise indistinguishable from the original.[br/][br/]The Unstable Echo dissipates at end of combat.</Data></Cell><Cell><Data ss:Type="String">制造一个非英雄单位的不稳定回声，该复制体会出现在与本体相邻的位置并且受你控制。不稳定回声造成的伤害减少 [abilityred]50%[/abilityred]，除此之外与本体无异。[br/][br/]不稳定回声将在战斗结束后消散。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">UNSTABLE_ECHO</Data></Cell><Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell><Cell><Data ss:Type="String">Unstable Echo</Data></Cell><Cell><Data ss:Type="String">不稳定回声</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">UNSTABLE_ECHO</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is but a shadow of its real self and inflicts [abilityred]{UnstableEchoDamagePen}[/abilityred] less damage.</Data></Cell><Cell><Data ss:Type="String">该单位是真正本体的影子，造成的伤害减少 [abilityred]{UnstableEchoDamagePen}[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">UNSTABLE_ECHO</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">[abilityred]{UnstableEchoDamagePen}[/abilityred] damage</Data></Cell><Cell><Data ss:Type="String">[abilityred]{UnstableEchoDamagePen}[/abilityred]伤害</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TIME_REWIND</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Time Rewind</Data></Cell><Cell><Data ss:Type="String">时间倒置</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">TIME_REWIND</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Resurrect target friendly dead non-Flying, non-Hero unit with full [hp/].</Data></Cell><Cell><Data ss:Type="String">复活阵亡的目标友方非飞行、非英雄单位，并恢复其全部 [hp/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DIMENSIONAL_VORTEX_BOMB</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Dimensional Vortex Bomb</Data></Cell><Cell><Data ss:Type="String">维度漩涡炸弹</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">DIMENSIONAL_VORTEX_BOMB</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Drop a Dimensional Vortex Bomb onto the target 1 hex radius area, dealing {DimVortexBombDamage}[damagephysical/] damage with Massive Impact. All non-Voidtech units in the area are randomly teleported to a position up to {DimVortexRange} hexes away from their original location.</Data></Cell><Cell><Data ss:Type="String">对 1 个目标单元格范围投放维度漩涡炸弹，造成 {DimVortexBombDamage}[damagephysical/] 伤害并附带强力冲击。该区域内的所有非虚空科技单位将被随机传送至原本所在位置最多 {DimVortexRange} 个单元格之外的位置。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Time Anomaly</Data></Cell><Cell><Data ss:Type="String">时间异常</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Units in target army lose all of their [movewalk/] move points. In addition, all of the units in the targeted army have [abilityred]Very Slow Movement[/abilityred] for {TurnDuration}.</Data></Cell><Cell><Data ss:Type="String">目标军队中的单位失去全部[movewalk/]移动点数。此外，目标军队内的所有单位拥有[abilityred]极度缓慢移动[/abilityred]，持续 {TurnDuration}。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">The temporal lock has successfully affected the target army, halting their advance dead in its tracks.</Data></Cell><Cell><Data ss:Type="String">时间锁成功影响了目标军队，该军队的行进完全停止了。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell><Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell><Cell><Data ss:Type="String">The temporal lock did not manage to displace local time, but it at least partially affected the target army.</Data></Cell><Cell><Data ss:Type="String">时间锁没能置换当地时间，但还是对目标军队造成了部分影响。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell><Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell><Cell><Data ss:Type="String">The time and space around one of our armies has been distorted, halting their advance.</Data></Cell><Cell><Data ss:Type="String">我们一支军队周围的时空被扭曲了，军队的行进也因此被中断。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell><Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell><Cell><Data ss:Type="String">Our enemies tried to target one of our armies with a temporal time lock to halt their advance. Our army has been only partially affected.</Data></Cell><Cell><Data ss:Type="String">我们的敌人尝试用时间锁阻止我们军队的行进，但我们的军队只受到了部分影响。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell><Cell><Data ss:Type="String">EFFECT_STRING_MOVEPOINT</Data></Cell><Cell><Data ss:Type="String">Units in affected army lost all of their [movewalk/] move points.</Data></Cell><Cell><Data ss:Type="String">受影响军队中的单位失去全部[movewalk/]移动点数。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell><Cell><Data ss:Type="String">EFFECT_STRING_PROPERTY</Data></Cell><Cell><Data ss:Type="String">On failure, units in the affected army have [abilityred]Very Slow Movement[/abilityred] for {TurnDuration}.</Data></Cell><Cell><Data ss:Type="String">如果失败，受影响军队中的单位将获得[abilityred]极度缓慢移动[/abilityred]，持续{TurnDuration}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell><Cell><Data ss:Type="String">UNIT_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unit has [abilityred]Very Slow Movement.[/abilityred]</Data></Cell><Cell><Data ss:Type="String">单位拥有[abilityred]极度缓慢移动[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INSTABILITY_RIFT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DMG</Data></Cell><Cell><Data ss:Type="String">Instability Rift Damage Boost</Data></Cell><Cell><Data ss:Type="String">不稳定裂隙伤害提升</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INSTABILITY_RIFT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION_DMG</Data></Cell><Cell><Data ss:Type="String">Unit has {InstabilityDmgI}% increased damage.</Data></Cell><Cell><Data ss:Type="String">单位拥有 {InstabilityDmgI}% 额外伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EMERGENCY_REDEPLOY</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Emergency Redeploy</Data></Cell><Cell><Data ss:Type="String">紧急再部署</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">EMERGENCY_REDEPLOY</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Teleport the target owned army to the capital colony and give all units in the army [abilityblue]Fast Movement[/abilityblue] for {TurnDuration}.</Data></Cell><Cell><Data ss:Type="String">将已拥有的目标军队传送至首都殖民地，并给予该军队中的所有单位[abilityblue]迅捷移动[/abilityblue]，持续 {TurnDuration}。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">EMERGENCY_REDEPLOY</Data></Cell><Cell><Data ss:Type="String">EFFECT_STRING</Data></Cell><Cell><Data ss:Type="String">The army was recalled to the capital colony and has [abilityblue]Fast Movement[/abilityblue] for {TurnCounter}.</Data></Cell><Cell><Data ss:Type="String">该军队被召回了首都殖民地并拥有[abilityblue]迅捷移动[/abilityblue]，持续 {TurnCounter}。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">EMERGENCY_REDEPLOY</Data></Cell><Cell><Data ss:Type="String">UNIT_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit was recalled to the capital colony and has [abilityblue]Fast Movement.[/abilityblue]</Data></Cell><Cell><Data ss:Type="String">该单位被召回了首都殖民地并拥有[abilityblue]迅捷移动[/abilityblue]。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">EMERGENCY_REDEPLOY</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">The mass recall beacon has functioned exactly as intended, returning the targeted army to the capital colony.</Data></Cell><Cell><Data ss:Type="String">群体召回信标如期运转，正在将目标军队召回首都殖民地。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_STORM</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Void Storm</Data></Cell><Cell><Data ss:Type="String">虚空风暴</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="165"><Cell><Data ss:Type="String">VOID_STORM</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A Void Storm hazard is spawned in the target sector, reducing [energy/] income by {IncomeReduction} and happiness by {HappinessReduction} in affected colonies. The Void Storm also has a chance to apply [abilityred]Dimensional Instability[/abilityred] to all units in the sector every {TurnChance} in tactical combat.[br/][br/]In addition, all non-Voidtech units in the sector take damage equal to {PercentageDamageCurrentHP} of their current [hp/][br/][br/]On failure, the Void Storm does not spawn, but damage is still dealt to units.</Data></Cell><Cell><Data ss:Type="String">一场虚空风暴出现在了目标区域，受影响的殖民地减少 {IncomeReduction}[energy/]收益和 {HappinessReduction} 幸福值。战术战斗中，虚空风暴每 {TurnChance} 有几率向该区域内的所有单位施加[abilityred]维度动荡[/abilityred]。[br/][br/]此外，该区域内的所有非虚空科技单位会受到等同于其当前[hp/]{PercentageDamageCurrentHP} 的伤害。[br/][br/]如果失败，虚空风暴不会出现，但仍会对单位造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">VOID_STORM</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">The Void Storm successfully formed in a violent explosion in the target location. Enemy non-Voidtech units in the sector suffered significant damage.</Data></Cell><Cell><Data ss:Type="String">虚空风暴成功在目标地点剧烈爆发，该区域中的敌方非虚空科技单位受到了大量伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">VOID_STORM</Data></Cell><Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell><Cell><Data ss:Type="String">The Void Storm failed to anchor in this dimension, but still damaged enemy units in the sector.</Data></Cell><Cell><Data ss:Type="String">虚空风暴未能在该维度稳定下来，但还是对该区域内的敌方单位造成了伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">VOID_STORM</Data></Cell><Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell><Cell><Data ss:Type="String">A Void Storm hazard spawned in your sector, dealing damage to the armies present in the sector.</Data></Cell><Cell><Data ss:Type="String">一场虚空风暴灾害出现在了你的区域内，对位于该区域的军队造成了伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">VOID_STORM</Data></Cell><Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell><Cell><Data ss:Type="String">A Void Storm failed to anchor in your sector, but not without damaging the armies there.</Data></Cell><Cell><Data ss:Type="String">虚空风暴未能在你的区域中稳定下来，但还是对那里的军队造成了伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">VOID_STORM</Data></Cell><Cell><Data ss:Type="String">EFFECT_STRING</Data></Cell><Cell><Data ss:Type="String">Units suffered {PercentageDamageCurrentHP} damage of their current [hp/]</Data></Cell><Cell><Data ss:Type="String">单位受到其当前[hp/]{PercentageDamageCurrentHP} 的伤害</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DIMENSIONAL_CASCADE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Dimensional Cascade</Data></Cell><Cell><Data ss:Type="String">维度倾泻</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Instability Rift</Data></Cell><Cell><Data ss:Type="String">不稳定裂隙</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data ss:Type="String">VICTORY_CONDITION</Data></Cell><Cell><Data ss:Type="String">Encompass the world in Dimensional Rifts, drawing energy from them.</Data></Cell><Cell><Data ss:Type="String">将整个星球包裹在维度裂隙之中并汲取能量。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data ss:Type="String">LEVEL_1_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Energy income reduced by {EnergyDrain}[energy/]; the Voidtech player gains this energy.</Data></Cell><Cell><Data ss:Type="String">能量收益减少{EnergyDrain}[energy/]，虚空科技玩家获得此能量。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data ss:Type="String">LEVEL_2_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Energy income reduced by {EnergyDrain}[energy/]; the Voidtech player gains this energy.[br/]All Voidtech player units gain {damageIncrease}% increased damage.</Data></Cell><Cell><Data ss:Type="String">能量收益减少 {EnergyDrain}[energy/]，虚空科技玩家获得此能量。[br/]所有虚空科技玩家单位获得额外 {damageIncrease}% 伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data ss:Type="String">LEVEL_3_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Energy income reduced by {EnergyDrain}[energy/]; the Voidtech player gains this energy.[br/]All Voidtech player units gain {damageIncrease}% increased damage.[br/]Non-Voidtech player units have a {TeleportChance} strength chance to be randomly teleported up to {teleportDistance} hexes away each turn in combat.</Data></Cell><Cell><Data ss:Type="String">能量收益减少 {EnergyDrain}[energy/]，虚空科技玩家获得此能量。[br/]所有虚空科技玩家单位获得额外 {damageIncrease}% 伤害。[br/]非虚空科技玩家在战斗中每回合有 {TeleportChance} 力量几率被随机传送至最多 {teleportDistance} 个单元格之外的位置。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data ss:Type="String">LEVEL_3_NAME</Data></Cell><Cell><Data ss:Type="String">Instability Rift Level 3</Data></Cell><Cell><Data ss:Type="String">不稳定裂隙等级 3</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{TeleportChance} strength chance to randomly teleport units not owned by a Voidtech player up to 2 hexes away at the start of each combat turn.</Data></Cell><Cell><Data ss:Type="String">在每个战斗回合开始，未被虚空科技玩家拥有的单位将有 {TeleportChance} 力量几率被随机传送至最多 2 个单元格之外的位置。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Dimensional Rift</Data></Cell><Cell><Data ss:Type="String">维度裂隙</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Tear space-time at target non-Voidtech enemy colony, creating a Dimensional Rift for {duration}. This effect increases in strength as you build more Dimensional Amplifier Tower.</Data></Cell><Cell><Data ss:Type="String">撕裂目标非虚空科技敌方殖民地的空间并制造出一道维度裂隙，持续 {duration}。你建造的维度放大塔越多，此效果的力量就越强。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">The rift generators have fired successfully, and a rift has been torn open around the target colony. Already we are beginning to extract energy from the rift for use in our empire.</Data></Cell><Cell><Data ss:Type="String">裂隙生成器已成功发射，已在目标殖民地撕开一道裂隙。我们已经开始从裂隙汲取能量供我们帝国使用。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell><Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell><Cell><Data ss:Type="String">Enemy defensive systems have interfered with the function of our rift generators, causing them to fail. As the rift collapsed, shockwaves blasted through the colony, causing panic in the streets.</Data></Cell><Cell><Data ss:Type="String">敌方防御系统干扰了我们裂隙生成器的运行，裂隙生成器已经失效。随着裂隙崩塌，一股冲击波贯穿了殖民地，给当地民众造成了恐慌。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell><Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell><Cell><Data ss:Type="String">The enemy has torn open some sort of dimensional rift over one of our colony. The rift is interfering with local infrastructure and power systems, causing chaos.</Data></Cell><Cell><Data ss:Type="String">敌人在我们的殖民地中撕裂出了某种裂隙，裂隙干扰了当地基建和电力系统，从而造成了混乱。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell><Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell><Cell><Data ss:Type="String">The enemy has attempted to tear open some sort of dimensional rift over one of our colonies, but was thwarted by our defensive systems. The aftermath of the attack caused some minor damage though, which has led to rioting and panic among the populace.</Data></Cell><Cell><Data ss:Type="String">敌人试图在我们的殖民地中撕裂出某种裂隙，但被我们的防御系统阻止了。不过此次攻击的后遗效果仍然造成了少量伤害，导致民众出现了暴乱和恐慌。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DIMENSIONAL_AMPLIFIER_TOWER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Dimensional Amplifier Tower</Data></Cell><Cell><Data ss:Type="String">维度放大塔</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">DIMENSIONAL_AMPLIFIER_TOWER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The Dimensional Amplifier Tower unlocks the Dimensional Rift Doomsday Weapon. Each additional Dimensional Amplifier Tower you build increases the level of the weapon, making it stronger.[br/][br/]Only one Dimensional Amplifier Tower may be built per colony.</Data></Cell><Cell><Data ss:Type="String">维度放大塔可以解锁“维度裂隙”末日武器。每额外建造一座维度放大塔，该武器便会升级并变得更加强大。[br/][br/]每个殖民地只能建造一座维度放大塔。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DIMENSIONAL_CASCADE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Dimensional Cascade</Data></Cell><Cell><Data ss:Type="String">维度倾泻</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">DIMENSIONAL_CASCADE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The final step in the Voidtech plan opens Dimensional Rifts throughout various worlds, drawing a near infinite amount of energy from them.[br/][br/]Requires Instability Rift level 3.[br/]</Data></Cell><Cell><Data ss:Type="String">虚空科技计划的最后一步打开各个星球的维度裂隙，并从中汲取几近无限的能量。[br/][br/]需要不稳定裂隙达到等级 3。[br/]</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">DIMENSIONAL_CASCADE</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">After years of arduous research and endless experiments, the moment is finally upon us. Just as our calculations predicted, the cascade has flooded across the planet, opening rift after rift. Once the process is complete, we will have access to power without limit!</Data></Cell><Cell><Data ss:Type="String">经过多年不懈研究和无数次实验，成功的时刻终于到来了。正如我们所计算的一样，维度倾泻已经侵袭了整个星球，开启了一个又一个的裂隙。一旦这个过程完毕，我们就能不受限制地获取能量了！</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DIMENSIONAL_COLLAPSE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Dimensional Collapse</Data></Cell><Cell><Data ss:Type="String">维度崩塌</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">DIMENSIONAL_COLLAPSE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Collapse reality around the target, with a {InstaKillChance} strength chance to instantly killing them without leaving a corpse. If this fails, deal {DimensionalCollapseDamage} damage and [abilityred]Massive Impact[/abilityred] instead.[br/][br/]Cannot target Heroes or Tier IV units.</Data></Cell><Cell><Data ss:Type="String">使目标周围的现实世界分崩离析，有 {InstaKillChance} 力量几率立即杀死目标并且不会留下任何尸骨。如果失败，则造成 {DimensionalCollapseDamage} 伤害和[abilityred]强力冲击[/abilityred]。[br/][br/]无法以英雄和 4 阶单位为目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE_ECHO_GUARD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Phase Echo Guard</Data></Cell><Cell><Data ss:Type="String">相位回声守卫</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">PHASE_ECHO_GUARD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Prepare Phase Echoes in the target friendly colony. These will spawn during any combat that takes place within the colony's domain. At the start of combat, this will create Unstable Echoes of {PhaseEchoGuardNumber} random friendly units. The Echoes remain until end of combat.</Data></Cell><Cell><Data ss:Type="String">在目标友方殖民地内准备相位回声。相位回声守卫将在殖民地领域内发生的所有战斗中出现。战斗开始时将生成 {PhaseEchoGuardNumber} 个随机友方单位的不稳定回声。回声将持续到战斗结束。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">PHASE_ECHO_GUARD</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">The Phase Echo Guards have been prepared and are ready to be deployed into combat.</Data></Cell><Cell><Data ss:Type="String">相位回声守卫已经准备就绪且可投入战斗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE_ECHO_GUARD</Data></Cell><Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The defender has deployed Unstable Echoes into this battle.</Data></Cell><Cell><Data ss:Type="String">防守者已在此次战斗中部署了不稳定回声。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Localized Void Rift</Data></Cell><Cell><Data ss:Type="String">局部虚空裂隙</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data ss:Type="String">DEBUFF_NAME_SUCCESS</Data></Cell><Cell><Data ss:Type="String">Destabilized</Data></Cell><Cell><Data ss:Type="String">失去稳定</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data ss:Type="String">DEBUFF_NAME_FAILURE</Data></Cell><Cell><Data ss:Type="String">Demoralized</Data></Cell><Cell><Data ss:Type="String">士气低落</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Non-Mindless units in target army gain [abilityred]Destabilized[/abilityred] for {TurnDuration}, reducing damage resistance by {LoweredResistance} and decreasing morale by {LoweredMorale}.[br/][br/]On failure, they are [abilityred]Demoralized[/abilityred] instead, reducing their morale by {LoweredMorale}.</Data></Cell><Cell><Data ss:Type="String">目标军队中的非无意识单位获得[abilityred]失去稳定[/abilityred]，持续 {TurnDuration}，并减少 {LoweredResistance} 伤害抵抗和 {LoweredMorale} 士气。[br/][br/]如果失败，则单位获得[abilityred]士气低落[/abilityred]，减少 {LoweredMorale} 士气。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The unit suffers from {LoweredResistance} on all resistance channels and {LoweredMorale}.</Data></Cell><Cell><Data ss:Type="String">该单位所有类型的抵抗减少 {LoweredResistance}，同时减少 {LoweredMorale}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION_FAILURE</Data></Cell><Cell><Data ss:Type="String">The unit suffers from {LoweredMorale}.</Data></Cell><Cell><Data ss:Type="String">单位减少 {LoweredMorale}。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">Our localized Void technology has successfully destabilized our enemies.</Data></Cell><Cell><Data ss:Type="String">我们的局部虚空科技成功使敌人失去了稳定。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell><Cell><Data ss:Type="String">Our localized Void rift collapsed almost immediately. The sight of the Void only demoralized our enemies.</Data></Cell><Cell><Data ss:Type="String">我们的局部虚空裂隙几乎瞬间就崩塌了，虚空的乍现只降低了敌人的士气。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell><Cell><Data ss:Type="String">Our enemies have opened a local Void rift, destabilizing our troops.</Data></Cell><Cell><Data ss:Type="String">我们的敌人已开启局部虚空裂隙，我们的部队即将失去稳定。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell><Cell><Data ss:Type="String">Our enemies tried opening a local Void rift, but it collapsed quickly. The sight of the Void, however, demoralized our troops.</Data></Cell><Cell><Data ss:Type="String">我们的敌人试图打开局部虚空裂隙，不过裂隙很快就崩塌了。不过虚空之景还是降低了我们部队的士气。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data ss:Type="String">EFFECT_STRING_SUCCCESS</Data></Cell><Cell><Data ss:Type="String">Target army has [abilityred]Destabilized[/abilityred] for {TurnDuration}, reducing their damage resistance by {LoweredResistance} and their morale by {LoweredMorale}</Data></Cell><Cell><Data ss:Type="String">目标军队已[abilityred]失去稳定[/abilityred]，持续 {TurnDuration}，伤害抵抗减少 {LoweredResistance}，士气减少 {LoweredMorale}</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data ss:Type="String">EFFECT_STRING_FAILURE</Data></Cell><Cell><Data ss:Type="String">Target army is [abilityred]Demoralized[/abilityred] for {TurnDuration}, reducing their morale by {LoweredMorale}</Data></Cell><Cell><Data ss:Type="String">目标军队[abilityred]士气低落[/abilityred]，持续{TurnDuration}，士气减少 {LoweredMorale}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_BARRIERS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Void Barriers</Data></Cell><Cell><Data ss:Type="String">虚空屏障</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">VOID_BARRIERS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Enemy units within the affected friendly colony domain have to use {ExtraMovePoints} extra move points for every hex they move and have [abilityred]Slow Movement[/abilityred] when fighting in this domain.</Data></Cell><Cell><Data ss:Type="String">处于受到影响的友方殖民地领域内的敌方单位在移动至每个单元格时必须额外消耗 {ExtraMovePoints} 移动点数，并且在该领域中战斗时将获得[abilityred]缓慢移动[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">VOID_BARRIERS</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">We succesfully put up Void Barriers around the colony which will damage and slow down any unwelcome visitors.</Data></Cell><Cell><Data ss:Type="String">我们成功在殖民地周围竖起了虚空屏障，这将能够伤害并减速任何不速之客。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_BARRIERS</Data></Cell><Cell><Data ss:Type="String">COMBAT_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Affected units have Slow Movement.</Data></Cell><Cell><Data ss:Type="String">受到影响的单位获得缓慢移动。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_BARRIERS</Data></Cell><Cell><Data ss:Type="String">UNIT_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has Slow Movement.</Data></Cell><Cell><Data ss:Type="String">该单位拥有缓慢移动。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_EVENT_INITIAL_NOTIFICATION</Data></Cell><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data ss:Type="String">Victory Condition: Dimensional Cascade</Data></Cell><Cell><Data ss:Type="String">胜利条件：维度倾泻</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_CAPTURED</Data></Cell><Cell><Data ss:Type="String">YOU</Data></Cell><Cell><Data ss:Type="String">One of our Dimensional Amplifier Towers has been captured!</Data></Cell><Cell><Data ss:Type="String">我们的一座维度放大塔已被夺走！</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_LOST</Data></Cell><Cell><Data ss:Type="String">YOU</Data></Cell><Cell><Data ss:Type="String">You have lost a Dimensional Amplifcation Tower!</Data></Cell><Cell><Data ss:Type="String">你失去了一座维度放大塔！</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_LOST</Data></Cell><Cell><Data ss:Type="String">PLAYER</Data></Cell><Cell><Data ss:Type="String">{STR_Player} has lost a Dimensional Amplification Tower!</Data></Cell><Cell><Data ss:Type="String">{STR_Player}失去了一座维度放大塔！</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_LOST_NOT_GLOBAL</Data></Cell><Cell><Data ss:Type="String">YOU</Data></Cell><Cell><Data ss:Type="String">You have lost a Dimensional Amplification Tower. Our attempt at unleashing the Dimensional Cascade has been canceled!</Data></Cell><Cell><Data ss:Type="String">你失去了一座维度放大塔。我们释放维度倾泻的计划被中止了！</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_LOST_GLOBAL</Data></Cell><Cell><Data ss:Type="String">PLAYER</Data></Cell><Cell><Data ss:Type="String">{STR_Player} has lost a Dimensional Amplification Tower. Their attempt at unleashing the Dimensional Cascade has been foiled!</Data></Cell><Cell><Data ss:Type="String">{STR_Player}失去了一座维度放大塔。他们释放维度倾泻的计划失败了！</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_EVENT_INITIAL_TEXT</Data></Cell><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data ss:Type="String">A player has unleashed their Dimensional Cascade!</Data></Cell><Cell><Data ss:Type="String">一名玩家释放了维度倾泻！</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_BUILT_01</Data></Cell><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data ss:Type="String">By building a Dimensional Amplification Tower, {playerName} now has access to their Doomsday Weapon, the Dimensional Cascade. It is weak now, but will become more powerful as more Dimensional Amplification Towers are constructed.</Data></Cell><Cell><Data ss:Type="String">{playerName}通过建造维度放大塔，现在可以使用末日武器“维度倾泻”了。虽然目前武器威力尚弱，但会随维度放大塔数量的增多而变强。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_BUILT_02</Data></Cell><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data ss:Type="String">By building a second Dimensional Amplification Tower, {playerName} has strengthened their Doomsday Weapon, the Dimensional Cascade. You should plan raids to destroy these structures before they become too powerful.</Data></Cell><Cell><Data ss:Type="String">{playerName}通过建造第二座维度放大塔强化了“维度倾泻”末日武器。你应当在这些建筑变得过于强大之前策划突袭并将其摧毁。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_BUILT_03</Data></Cell><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data ss:Type="String">By building their final Dimensional Amplification Tower, {playerName} has maximized the strength of their Doomsday Weapon, the Dimensional Cascade. They are now close to fully unleashing it and winning the game. The time to strike is now!</Data></Cell><Cell><Data ss:Type="String">{playerName}通过建造最后一座维度放大塔使“维度倾泻”末日武器达到了最强的威力。该玩家马上就可以完全释放其力量来获得游戏胜利了。发动袭击就趁现在！</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_CAPTURED_TEXT</Data></Cell><Cell><Data ss:Type="String">YOU</Data></Cell><Cell><Data ss:Type="String">The Doomsday Timer has been paused! You must reclaim the lost Dimensional Amplification Tower or you will lose your chance at unleashing the Dimensional Cascade upon your enemies!</Data></Cell><Cell><Data ss:Type="String">末日武器计时器已暂停！你必须夺回失去的维度放大塔，否则你将失去向敌人释放“维度倾泻”的机会！</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_LOST_GLOBAL_TEXT</Data></Cell><Cell><Data ss:Type="String">PLAYER</Data></Cell><Cell><Data ss:Type="String">The loss of a Dimensional Amplification Tower has canceled the Dimensional Cascade, ending the Doomsday Timer.</Data></Cell><Cell><Data ss:Type="String">维度放大塔的丢失致使“维度倾泻”被打断，同时末日武器计时器停止。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_LOST_NOT_GLOBAL_TEXT</Data></Cell><Cell><Data ss:Type="String">YOU</Data></Cell><Cell><Data ss:Type="String">The loss of a Dimensional Amplification Tower has weakened our Dimensional Cascade, and your Doomsday operations have been canceled.</Data></Cell><Cell><Data ss:Type="String">维度放大塔的丢失弱化了“维度倾泻”的威力，你的末日行动遭到中止。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">VOID_EVENT_FINISHER_CAST_TEXT</Data></Cell><Cell><Data ss:Type="String">PLAYER</Data></Cell><Cell><Data ss:Type="String">Our enemies have activated their Doomsday Weapon, a Dimensional Cascade has spread across the planet, and your own Doomsday Weapon has been wiped out by the cataclysm. You have {numTurns} to destroy one of their Dimensional Amplification Towers or they will win the game.</Data></Cell><Cell><Data ss:Type="String">敌人激活了他们的末日武器，“维度倾泻”已经在整个星球上蔓延。你的末日武器也在这场大灾变中被摧毁。你需要在 {numTurns} 内摧毁一座敌人的维度放大塔，否则敌人将获得游戏胜利。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">VOID_EVENT_RUNNING_VICTORY_TIMER</Data></Cell><Cell><Data ss:Type="String">YOU</Data></Cell><Cell><Data ss:Type="String">The Dimensional Cascade is active, and you will win in {numTurns} unless you lose one of your Dimensional Amplification Towers.</Data></Cell><Cell><Data ss:Type="String">“维度倾泻”已激活，只要不失去任何维度放大塔，你将会在 {numTurns} 回合后获胜。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">VOID_EVENT_RUNNING_VICTORY_TIMER</Data></Cell><Cell><Data ss:Type="String">PLAYER</Data></Cell><Cell><Data ss:Type="String">The Dimensional Cascade is active, and {playerName} will win in {numTurns} unless you can destroy one of their Dimensional Amplification Towers.</Data></Cell><Cell><Data ss:Type="String">“维度倾泻”已激活，{playerName}将在 {numTurns} 后获胜，除非你能在此之前摧毁其一个维度放大塔。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">VOID_EVENT_VICTORY_TIMER_PAUSED</Data></Cell><Cell><Data ss:Type="String">YOU</Data></Cell><Cell><Data ss:Type="String">A Dimensional Amplification Tower has been captured! If it is destroyed, our Doomsday timer will be canceled. If you recapture the tower, then you will be able to resume the countdown.</Data></Cell><Cell><Data ss:Type="String">一个维度放大塔已被夺走！如果维度放大塔被摧毁，末日计时器将会停止。如果你重新夺回维度放大塔，计时器将会恢复。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">VOID_EVENT_VICTORY_TIMER_PAUSED</Data></Cell><Cell><Data ss:Type="String">PLAYER</Data></Cell><Cell><Data ss:Type="String">A Dimensional Amplification Tower has been captured! If it is destroyed, the Doomsday timer will be canceled. If {playerName} recaptures the tower, then they will be able to resume the countdown.</Data></Cell><Cell><Data ss:Type="String">一座维度放大塔已被夺走。如果维度放大塔被摧毁，末日计时器将会停止。如果{playerName}重新夺回维度放大塔，计时器将会恢复。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">VOID_EVENT_FINISHER_PRIMING</Data></Cell><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data ss:Type="String">{playerName} is priming their Dimensional Cascade Doomsday Weapon! If they are allowed to finish, your own Doomsday Weapon will be wiped out, and {playerName} will be but one step away from total victory!</Data></Cell><Cell><Data ss:Type="String">{playerName}正在准备释放“维度倾泻”末日武器！如果成功释放，你的末日武器将被摧毁，{playerName}距离胜利也将仅剩一步之遥！</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">VOID_END_GAME</Data></Cell><Cell><Data ss:Type="String">VICTORY_TEXT</Data></Cell><Cell><Data ss:Type="String">You are the ruler of this world… at least in this dimension.[br/]There are infinite dimensions in which you are not.[br/]You enjoy your victory, but the costs of your actions[br/]reverberate across the multiverse.[br/]Each action triggers some form of reaction,[br/]even in quantum physics.</Data></Cell><Cell><Data ss:Type="String">你是这个星球的统治者…至少在这个维度是。[br/]在其他无数的维度中，你还不是统治者。[br/]你享受胜利，但你行为的代价[br/]影响了多元宇宙。[br/]每个行动都会触发某种反应，[br/]甚至是量子物理的反应。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">VO: Empress Carminia</Data></Cell><Cell><Data ss:Type="String">You are the ruler of this world… at least in this dimension.[br/]There are infinite dimensions where you are not.[br/]You enjoy your victory, but the costs of your actions[br/]reverberate across the multiverse.[br/]Each action triggers some form of reaction,[br/]even in quantum physics.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASEWALK_MODULATOR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Intangible</Data></Cell><Cell><Data ss:Type="String">无影无形</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASEWALK_MODULATOR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Phased</Data></Cell><Cell><Data ss:Type="String">相位变幻</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASEWALK_MODULATOR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Ghost</Data></Cell><Cell><Data ss:Type="String">幽魂</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASEWALK_MODULATOR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Specter</Data></Cell><Cell><Data ss:Type="String">幽灵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASEWALK_MODULATOR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Disassociated</Data></Cell><Cell><Data ss:Type="String">分离</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASEWALK_MODULATOR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Split State</Data></Cell><Cell><Data ss:Type="String">分裂状态</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASEWALK_MODULATOR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell><Cell><Data ss:Type="String">Fathom</Data></Cell><Cell><Data ss:Type="String">高深莫测</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Unstable</Data></Cell><Cell><Data ss:Type="String">不稳定</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Voided</Data></Cell><Cell><Data ss:Type="String">虚无</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Erratic</Data></Cell><Cell><Data ss:Type="String">游离</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Chaotic</Data></Cell><Cell><Data ss:Type="String">混乱</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Anarchist</Data></Cell><Cell><Data ss:Type="String">扰乱分子</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Void Crafter</Data></Cell><Cell><Data ss:Type="String">虚空工匠</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell><Cell><Data ss:Type="String">Void Smith</Data></Cell><Cell><Data ss:Type="String">虚空铁匠</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_8</Data></Cell><Cell><Data ss:Type="String">Qubit</Data></Cell><Cell><Data ss:Type="String">量子位</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Void Bomber</Data></Cell><Cell><Data ss:Type="String">虚空投弹手</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Vortex Juggler</Data></Cell><Cell><Data ss:Type="String">漩涡魔术师</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Supernova</Data></Cell><Cell><Data ss:Type="String">超新星</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Gravitational</Data></Cell><Cell><Data ss:Type="String">引力</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Quantum-spun</Data></Cell><Cell><Data ss:Type="String">量子自旋</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Black Hole</Data></Cell><Cell><Data ss:Type="String">黑洞</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell><Cell><Data ss:Type="String">Time-torn</Data></Cell><Cell><Data ss:Type="String">时光破碎</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_8</Data></Cell><Cell><Data ss:Type="String">Graviton</Data></Cell><Cell><Data ss:Type="String">万有引力</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Void Flash</Data></Cell><Cell><Data ss:Type="String">虚空闪现</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Plane Runner</Data></Cell><Cell><Data ss:Type="String">平面行者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Rift Runner</Data></Cell><Cell><Data ss:Type="String">裂隙行者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Split Second</Data></Cell><Cell><Data ss:Type="String">刹那</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Warped</Data></Cell><Cell><Data ss:Type="String">扭曲</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Photonic</Data></Cell><Cell><Data ss:Type="String">光子</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell><Cell><Data ss:Type="String">Boogeyman</Data></Cell><Cell><Data ss:Type="String">恶灵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_8</Data></Cell><Cell><Data ss:Type="String">Jump Scare</Data></Cell><Cell><Data ss:Type="String">惊吓</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_9</Data></Cell><Cell><Data ss:Type="String">Polarized</Data></Cell><Cell><Data ss:Type="String">极化</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_10</Data></Cell><Cell><Data ss:Type="String">Multiversed</Data></Cell><Cell><Data ss:Type="String">多元宇宙</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Time Sapper</Data></Cell><Cell><Data ss:Type="String">时光工兵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Freeze Frame</Data></Cell><Cell><Data ss:Type="String">冻结框架</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Paralyzer</Data></Cell><Cell><Data ss:Type="String">阻滞剂</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Suppressor</Data></Cell><Cell><Data ss:Type="String">抑制器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Petrifying</Data></Cell><Cell><Data ss:Type="String">石化</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Stunning</Data></Cell><Cell><Data ss:Type="String">晕眩</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell><Cell><Data ss:Type="String">Slowpoke</Data></Cell><Cell><Data ss:Type="String">迟钝</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_8</Data></Cell><Cell><Data ss:Type="String">Blue Bandit</Data></Cell><Cell><Data ss:Type="String">蓝色大盗</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_9</Data></Cell><Cell><Data ss:Type="String">Temporal</Data></Cell><Cell><Data ss:Type="String">暂时</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Exodimensional</Data></Cell><Cell><Data ss:Type="String">外维度</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Plane Tearer</Data></Cell><Cell><Data ss:Type="String">平面撕裂者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Phase Gemini</Data></Cell><Cell><Data ss:Type="String">相位双子</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Antimatter</Data></Cell><Cell><Data ss:Type="String">反物质</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Event Horizon</Data></Cell><Cell><Data ss:Type="String">视界</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Reality Scrambler</Data></Cell><Cell><Data ss:Type="String">现实扰频器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell><Cell><Data ss:Type="String">Rift Breaker</Data></Cell><Cell><Data ss:Type="String">裂隙制造者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TIME_WARP_FRIENDLY</Data></Cell><Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell><Cell><Data ss:Type="String">Time Warp Acceleration</Data></Cell><Cell><Data ss:Type="String">时间扭曲加速</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TIME_WARP_ENEMY</Data></Cell><Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell><Cell><Data ss:Type="String">Time Warp Deceleration</Data></Cell><Cell><Data ss:Type="String">时间扭曲减速</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Zoom>115</Zoom><Selected/><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:57:47Z</Created><LastSaved
+    >2019-06-25T15:57:47Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
+    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Interior
+        ss:Color="#FFFF00"
+        ss:Pattern="Solid"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="236.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="168.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="296.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="258.75" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="144.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="296.25" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">VOIDTECH_TECHGROUPS</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOIDTECH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >VoidTech</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚空科技</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASEWALK_MODULATOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Phasewalk Modulator</Data></Cell><Cell><Data
+            ss:Type="String"
+          >相位行走调制器</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">PHASEWALK_MODULATOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit gains [abilityblue]Phase Field[/abilityblue]. The unit is able to walk through obstacles and is {PhaseEvasion}% harder to hit in combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位获得[abilityblue]相位力场[/abilityblue]，该单位在战斗中能够穿过障碍物且命中难度增加 {PhaseEvasion}%。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RIFT_COILS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Distortion Rift Coils</Data></Cell><Cell><Data
+            ss:Type="String"
+          >扭曲裂隙线圈</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RIFT_COILS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Discharges built up instability at a target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向目标释放汇聚的不稳定因子。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gravity Pulse Grenade</Data></Cell><Cell><Data
+            ss:Type="String"
+          >重力脉冲手雷</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell><Cell
+        ><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Throw a Gravity Pulse Grenade dealing damage in a {hexrad} hex radius area.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >扔出一枚重力脉冲手雷，对 {hexrad} 个单元格范围造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Void Augmentation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚空放大</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit's attacks gain a {VoidAugmentChance}[strengthphysical/] strength chance ({VoidAugmentChanceRepeating}[strengthphysical/] for repeating attacks) to apply [abilityred]Dimensional Instability[/abilityred].[br/]If the attack already applies this status effect, instead increase its strength by +{VoidAugmentChanceRepeating}[strengthphysical/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的攻击有 {VoidAugmentChance}[strengthphysical/] 力量几率（重复攻击有 {VoidAugmentChanceRepeating}[strengthphysical/] 几率）施加[abilityred]维度动荡[/abilityred]。[br/]如果该次攻击已经施加了此状态效果，则其力量 +{VoidAugmentChanceRepeating}[strengthphysical/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Phase Drive</Data></Cell><Cell><Data
+            ss:Type="String"
+          >相位驱动</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >STASIS_POCKET_INDUCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Stasis Pocket Inducer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >袖珍停滞导流片</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell><Cell
+        ><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit's attacks gain a {StasisChance}[strengthphysical/] strength chance ({StasisChanceRepeating}[strengthphysical/] for repeating attacks) to remove {stasisremoveap} action point from the target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的攻击有 {StasisChance}[strengthphysical/] 力量几率（重复攻击有 {StasisChanceRepeating}[strengthphysical/] 几率）移除目标 {stasisremoveap} 操作点数。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Quantum Avatar</Data></Cell><Cell><Data
+            ss:Type="String"
+          >量子化身</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Whenever the unit takes damage, its attacker is teleported {QuantumAvatarTeleport} hex away from their current position, receives [abilityred]Dimensional Instability[/abilityred] and becomes [abilityred]Staggered[/abilityred].[br/][br/]Voidtech or Voidtech-modded units adjacent to this one receive {QuantumAvatarShields} and gain a level of [abilityblue]Stagger Resistance[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位受到伤害时，攻击者将会被传送至其当前位置 {QuantumAvatarTeleport} 个单元格之外，获得[abilityred]维度动荡[/abilityred]并且会被[abilityred]动摇[/abilityred]。[br/][br/]与该单位相邻的虚空科技单位或者装有虚空科技模块的单位获得 {QuantumAvatarShields} 并获得 1 级[abilityblue]动摇抵抗[/abilityblue]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Quantum Avatar Halo</Data></Cell><Cell><Data
+            ss:Type="String"
+          >量子化身光环</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This Voidtech unit stands within a Quantum Avatar halo effect, gaining {QuantumAvatarShields} and High Impact resistance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该虚空科技单位正处于量子化身光环的效果范围内，获得 {QuantumAvatarShields} 和高度冲击抵抗。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        ><Data
+            ss:Type="String"
+          >Is this supposed to be Stagger Resistance, like in the mod description?</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ECHO_PROTOCOLS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Echo Protocols</Data></Cell><Cell><Data
+            ss:Type="String"
+          >回声协议</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="72"
+      ><Cell><Data ss:Type="String">ECHO_PROTOCOLS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Voidtech allows for the capability of creating limited echo copies of people that can perform actual tasks, increasing colony resource ouput.[br/][br/]All colonies' [Food/], [Energy/], [Production/] and [Research/] slots produce {ResourceIncome} of their respective resource per colonist working it.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >虚空科技能够创造出可以执行实际任务的有限民众回声副本，从而提升殖民地的资源输出。[br/][br/]所有殖民地的[Food/]、[Energy/]、[Production/]和[Research/]槽位额外产出每个移住民开发的各个资源的 {ResourceIncome}。</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Applies to Food, Knowledge, Production, Energy</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PREVENTATIVE_SURVEILLANCE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Preventative Surveillance</Data></Cell><Cell><Data
+            ss:Type="String"
+          >预防性监视</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">PREVENTATIVE_SURVEILLANCE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Voidtech technology can be applied to sensors, boosting the range and allowing them to read the dimensional signature of entities.[br/][br/]Scout units and colonies get {ScoutSensorRange} sensor and vision range. Non-Scout units get {NonScoutSensorRange} sensor and vision range.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >虚空科技可用于传感器，提升视野范围并读出实体的维度信号。[br/][br/]侦察兵单位和殖民地获得 {ScoutSensorRange} 传感器和视野范围，非侦察兵单位获得 {NonScoutSensorRange} 传感器和视野范围。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RESEARCH_SHARING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Quantum Energy Tapping</Data></Cell><Cell><Data
+            ss:Type="String"
+          >量子能量开发</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">RESEARCH_SHARING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >If we're generating energy in this dimension, surely another version of us is doing the same in a different dimension. If we could find a way to tap into that energy...[br/][br/]Colonies produce an extra {EnergyIncome}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >如果我们在这个维度产出能量，另一个位于不同维度的我们肯定也会做同样的事。如果我们能够找到一种充分利用那种能量的方法…[br/][br/]殖民地额外产出 {EnergyIncome}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">THE_QUANTUM_PROJECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Quantum Project</Data></Cell><Cell><Data
+            ss:Type="String"
+          >量子项目</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">THE_QUANTUM_PROJECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >By implementing quantum networking, research speed can be boosted tremendously.[br/][br/]{ResearchIncome} in each colony for every research sector linked to it.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >通过运用量子网络，研究速度获得巨幅提升。[br/][br/]每有一个与该网络相连的研究区域，每个殖民地就获得 {ResearchIncome}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOIDTECH_UNIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Voidtech Unit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚空科技单位</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">VOIDTECH_UNIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is considered a Voidtech Unit and is protected from offensive Voidtech Operations and abilities.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位被视作虚空科技单位，受到攻击型虚空行动和技能保护。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PHASE_SHIFT_ABDUCT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Phase Shift: Abduct</Data></Cell><Cell><Data
+            ss:Type="String"
+          >相位变换：劫持</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">PHASE_SHIFT_ABDUCT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Forcefully attempt to teleport target unit to a hex adjacent to this unit with a strength {teleportchance} chance. A unit can only be targeted by this ability once per turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >以 {teleportchance} 力量几率尝试将目标单位强制传送到与该单位相邻的单元格中。每回合对同一目标只能使用一次此技能。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PHASE_SHIFT_ABDUCT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Phase Pull</Data></Cell><Cell><Data
+            ss:Type="String"
+          >相位牵引</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASE_SHIFT_EVACUATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Phase Shift: Evacuate</Data></Cell><Cell><Data
+            ss:Type="String"
+          >相位变换：撤退</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">PHASE_SHIFT_EVACUATE</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target friendly unit is teleported to a hex adjacent to this unit, healing for {Evacuateheal} and gaining +{shieldgain} for {turnshield}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将目标友方单位传送至与该单位相邻的单元格，治疗 {Evacuateheal} 并获得 +{shieldgain}，持续 {turnshield}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PHASE_SHIFT_EVACUATE</Data></Cell><Cell
+        ><Data ss:Type="String">UNIT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit has +{shieldgain}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >单位拥有 +{shieldgain}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOID_BLADES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Void Blades</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚空之刃</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >VOID_BLADES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Melee attack with dimensional blades.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用维度之刃发动近战攻击。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOID_HAMMER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Void Hammer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚空之锤</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">VOID_HAMMER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Powerful melee attack that [abilityred]knocks back[/abilityred] Light units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >可[abilityred]击退[/abilityred]轻型单位的强力近战攻击。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOID_GLAIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Void Glaive</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚空阔剑</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >VOID_GLAIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Melee attack with dimensional blades.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用维度之刃发动近战攻击。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dimensional Instability</Data></Cell><Cell><Data
+            ss:Type="String"
+          >维度动荡</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{DimensionalInstabilityChance}[StrengthPhysical/] strength chance to cause [abilityred]Dimensional Instability[/abilityred] until the end of combat. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {DimensionalInstabilityChance}[StrengthPhysical/] 的力量几率造成[abilityred]维度动荡[/abilityred]，直到战斗结束。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_1</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dimensional Instability 1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >维度动荡 1</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_1</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has -{PhysicalResistanceDecrease}[DefensePhysical/] resistance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位拥有 -{PhysicalResistanceDecrease}[DefensePhysical/]抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_2</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dimensional Instability 2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >维度动荡 2</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_2</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is no longer solidly connected to this dimension. They lose one level of Stagger Resistance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位与此维度之间的连接变得不稳定，失去 1 级动摇抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_3</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dimensional Instability 3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >维度动荡 3</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_3</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is losing its grip on this dimension, reducing the damage its attacks deal by {PsionicDamageDecrease}%.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位彻底失去对此维度的掌控，攻击造成的伤害减少 {PsionicDamageDecrease}%。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_4</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dimensional Instability 4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >维度动荡 4</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_4</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's very existence is unstable. At the start of their turn, they randomly teleport up to {TeleportRange} hexes away from their original position.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的存在已经失去了稳定。该单位在回合开始时将被随机传送到距离原来位置最多 {TeleportRange} 个单元格之外的地方。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">QUANTUM_ECHO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Quantum Echo</Data></Cell><Cell><Data
+            ss:Type="String"
+          >量子回声</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">QUANTUM_ECHO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit splits into alternate versions of itself. The clone unit teleports a short distance, leaving the original version behind. The clone lasts {turns}. If the original unit is killed while cloned, the clone will remain, replacing the original unit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位分裂出另一个自己。克隆单位会传送出去一小段距离，将本体留在后方。克隆体持续 {turns}。如果本体被击杀，则克隆体将替代本体继续存在。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">QUANTUM_PULSE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Quantum Pulse</Data></Cell><Cell><Data
+            ss:Type="String"
+          >量子脉冲</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">QUANTUM_PULSE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit splits into alternate versions of itself. The clone unit teleports a short distance, delivering a burst of instability, leaving the original version behind. The clone lasts {turns}. If the original unit is killed while cloned, the clone will remain, replacing the original unit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位分裂出另一个自己。克隆单位会传送出去一小段距离，将本体留在后方，造成不稳定冲击。克隆体持续 {turns}。如果本体被击杀，则克隆体将替代本体继续存在。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">QUANTUM_CLONE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Quantum Clone</Data></Cell><Cell><Data
+            ss:Type="String"
+          >量子克隆</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">QUANTUM_CLONE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is a quantum clone. If the original unit is killed, this unit will replace it, becoming the original.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位是量子克隆体，如果本体被击杀，该单位将替代本体。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PHASE_FIELD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Phase Field</Data></Cell><Cell><Data
+            ss:Type="String"
+          >相位力场</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PHASE_FIELD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit can move through obstacles in tactical combat and is {PhaseFieldDef} harder to hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位可在战术战斗中穿过障碍物且命中难度增加 {PhaseFieldDef}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_DESYNC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dimensional Desync</Data></Cell><Cell><Data
+            ss:Type="String"
+          >维度失调</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_DESYNC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target unit is phased halfway out of the physical dimension for {dimensionaldesynctime}, becoming immune to damage but being unable to use abilities.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标单位的相位有一半已经脱离了物理维度，持续 {dimensionaldesynctime}，免疫伤害但无法使用技能。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_DESYNCED</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dimensionally Desynced</Data></Cell><Cell><Data
+            ss:Type="String"
+          >维度失调</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DIMENSIONAL_DESYNCED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit is immune to damage, but cannot use abilities.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位免疫伤害，但无法使用技能。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dimensional Rift</Data></Cell><Cell><Data
+            ss:Type="String"
+          >维度裂隙</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cause a minor rift to manifest in a {hexrad} hex radius area, dealing damage and teleporting targets {DimensionalRiftHexes} hexes in a random direction.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在 {hexrad} 个单元格范围内制造出一条小型裂隙，造成伤害并将目标向随机方向传送 {DimensionalRiftHexes} 个单元格。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TIME_WARP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Time Warp</Data></Cell><Cell><Data
+            ss:Type="String"
+          >时间扭曲</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">TIME_WARP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Affects all units in a {TimeWarpRadius} hex radius area. Friendly units gain [abilityblue]Fast Movement[/abilityblue], and enemy units are inflicted with [abilityred]Slow Movement[/abilityred] for {TimeWarpDuration}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >影响 {TimeWarpRadius} 个单元格范围内的所有单位。友方单位获得[abilityblue]迅捷移动[/abilityblue]，敌方单位则获得[abilityred]缓慢移动[/abilityred]，持续 {TimeWarpDuration}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TIME_WARP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FRIENDLY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has [abilityblue]Fast Movement[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位拥有[abilityblue]迅捷移动[/abilityblue]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TIME_WARP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENEMY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has [abilityred]Slow Movement[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位拥有[abilityred]缓慢移动[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REACTIVE_PHASE_PROTECTION</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reactive Phase Protection</Data></Cell><Cell><Data
+            ss:Type="String"
+          >应激相位保护</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">REACTIVE_PHASE_PROTECTION</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target unit receives Reactive Phase Defense for {ReactivePhaseProtectionTime}. Each time the unit takes damage, it is teleported to a random hex within {ReactivePhaseProtectionRange} hexes of their original position.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标单位获得应激相位保护，持续 {ReactivePhaseProtectionTime}。每当该单位受到伤害时，该单位将会被传送至原本所在位置 {ReactivePhaseProtectionRange} 个单元格范围内的另一个随机单元格。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REACTIVE_PHASE_DEFENSE</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reactive Phase Defense</Data></Cell><Cell><Data
+            ss:Type="String"
+          >应激相位防护</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">REACTIVE_PHASE_DEFENSE</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Each time the unit takes damage, it is teleported to a random hex within {ReactivePhaseProtectionRange} hexes of their original position.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每当该单位受到伤害时，该单位将会被传送至原本所在位置 {ReactivePhaseProtectionRange} 个单元格范围内的另一个随机单元格。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VORTEX_CHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vortex Charge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >漩涡炸弹</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">VORTEX_CHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Drops a Vortex Charge in a {AoERadius} hex radius area, dealing {VorextChargeDamage} damage to all non-Voidtech units with a strength {VortexChargeChance} chance to inflict [abilityred]Dimensional Instability[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向 {AoERadius} 个单元格范围投放漩涡炸弹，对所有非虚空科技单位造成 {VorextChargeDamage} 伤害，并且有 {VortexChargeChance} 力量几率造成[abilityred]维度动荡[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PHASE_ECHO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Create Phase Echo</Data></Cell><Cell><Data
+            ss:Type="String"
+          >制造相位回声</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">PHASE_ECHO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Create an Unstable Echo of target non-Hero unit. A copy of the unit appears adjacent to it and is under your control. Unstable Echos deal [abilityred]50%[/abilityred] less damage, but are otherwise indistinguishable from the original.[br/][br/]The Unstable Echo dissipates at end of combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >制造一个非英雄单位的不稳定回声，该复制体会出现在与本体相邻的位置并且受你控制。不稳定回声造成的伤害减少 [abilityred]50%[/abilityred]，除此之外与本体无异。[br/][br/]不稳定回声将在战斗结束后消散。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">UNSTABLE_ECHO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unstable Echo</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不稳定回声</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">UNSTABLE_ECHO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is but a shadow of its real self and inflicts [abilityred]{UnstableEchoDamagePen}[/abilityred] less damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位是真正本体的影子，造成的伤害减少 [abilityred]{UnstableEchoDamagePen}[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">UNSTABLE_ECHO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[abilityred]{UnstableEchoDamagePen}[/abilityred] damage</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[abilityred]{UnstableEchoDamagePen}[/abilityred]伤害</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TIME_REWIND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Time Rewind</Data></Cell><Cell><Data
+            ss:Type="String"
+          >时间倒置</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">TIME_REWIND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Resurrect target friendly dead non-Flying, non-Hero unit with full [hp/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >复活阵亡的目标友方非飞行、非英雄单位，并恢复其全部 [hp/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_VORTEX_BOMB</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dimensional Vortex Bomb</Data></Cell><Cell><Data
+            ss:Type="String"
+          >维度漩涡炸弹</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_VORTEX_BOMB</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Drop a Dimensional Vortex Bomb onto the target 1 hex radius area, dealing {DimVortexBombDamage}[damagephysical/] damage with Massive Impact. All non-Voidtech units in the area are randomly teleported to a position up to {DimVortexRange} hexes away from their original location.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >对 1 个目标单元格范围投放维度漩涡炸弹，造成 {DimVortexBombDamage}[damagephysical/] 伤害并附带强力冲击。该区域内的所有非虚空科技单位将被随机传送至原本所在位置最多 {DimVortexRange} 个单元格之外的位置。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Time Anomaly</Data></Cell><Cell><Data
+            ss:Type="String"
+          >时间异常</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Units in target army lose all of their [movewalk/] move points. In addition, all of the units in the targeted army have [abilityred]Very Slow Movement[/abilityred] for {TurnDuration}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标军队中的单位失去全部[movewalk/]移动点数。此外，目标军队内的所有单位拥有[abilityred]极度缓慢移动[/abilityred]，持续 {TurnDuration}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The temporal lock has successfully affected the target army, halting their advance dead in its tracks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >时间锁成功影响了目标军队，该军队的行进完全停止了。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The temporal lock did not manage to displace local time, but it at least partially affected the target army.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >时间锁没能置换当地时间，但还是对目标军队造成了部分影响。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The time and space around one of our armies has been distorted, halting their advance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们一支军队周围的时空被扭曲了，军队的行进也因此被中断。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our enemies tried to target one of our armies with a temporal time lock to halt their advance. Our army has been only partially affected.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的敌人尝试用时间锁阻止我们军队的行进，但我们的军队只受到了部分影响。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_STRING_MOVEPOINT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Units in affected army lost all of their [movewalk/] move points.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >受影响军队中的单位失去全部[movewalk/]移动点数。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_STRING_PROPERTY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >On failure, units in the affected army have [abilityred]Very Slow Movement[/abilityred] for {TurnDuration}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >如果失败，受影响军队中的单位将获得[abilityred]极度缓慢移动[/abilityred]，持续{TurnDuration}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit has [abilityred]Very Slow Movement.[/abilityred]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位拥有[abilityred]极度缓慢移动[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INSTABILITY_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DMG</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Instability Rift Damage Boost</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不稳定裂隙伤害提升</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">INSTABILITY_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION_DMG</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit has {InstabilityDmgI}% increased damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位拥有 {InstabilityDmgI}% 额外伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMERGENCY_REDEPLOY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Emergency Redeploy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >紧急再部署</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">EMERGENCY_REDEPLOY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Teleport the target owned army to the capital colony and give all units in the army [abilityblue]Fast Movement[/abilityblue] for {TurnDuration}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将已拥有的目标军队传送至首都殖民地，并给予该军队中的所有单位[abilityblue]迅捷移动[/abilityblue]，持续 {TurnDuration}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">EMERGENCY_REDEPLOY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The army was recalled to the capital colony and has [abilityblue]Fast Movement[/abilityblue] for {TurnCounter}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该军队被召回了首都殖民地并拥有[abilityblue]迅捷移动[/abilityblue]，持续 {TurnCounter}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">EMERGENCY_REDEPLOY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit was recalled to the capital colony and has [abilityblue]Fast Movement.[/abilityblue]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位被召回了首都殖民地并拥有[abilityblue]迅捷移动[/abilityblue]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">EMERGENCY_REDEPLOY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The mass recall beacon has functioned exactly as intended, returning the targeted army to the capital colony.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >群体召回信标如期运转，正在将目标军队召回首都殖民地。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOID_STORM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Void Storm</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚空风暴</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="165"
+      ><Cell><Data ss:Type="String">VOID_STORM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A Void Storm hazard is spawned in the target sector, reducing [energy/] income by {IncomeReduction} and happiness by {HappinessReduction} in affected colonies. The Void Storm also has a chance to apply [abilityred]Dimensional Instability[/abilityred] to all units in the sector every {TurnChance} in tactical combat.[br/][br/]In addition, all non-Voidtech units in the sector take damage equal to {PercentageDamageCurrentHP} of their current [hp/][br/][br/]On failure, the Void Storm does not spawn, but damage is still dealt to units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一场虚空风暴出现在了目标区域，受影响的殖民地减少 {IncomeReduction}[energy/]收益和 {HappinessReduction} 幸福值。战术战斗中，虚空风暴每 {TurnChance} 有几率向该区域内的所有单位施加[abilityred]维度动荡[/abilityred]。[br/][br/]此外，该区域内的所有非虚空科技单位会受到等同于其当前[hp/]{PercentageDamageCurrentHP} 的伤害。[br/][br/]如果失败，虚空风暴不会出现，但仍会对单位造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">VOID_STORM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Void Storm successfully formed in a violent explosion in the target location. Enemy non-Voidtech units in the sector suffered significant damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >虚空风暴成功在目标地点剧烈爆发，该区域中的敌方非虚空科技单位受到了大量伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">VOID_STORM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Void Storm failed to anchor in this dimension, but still damaged enemy units in the sector.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >虚空风暴未能在该维度稳定下来，但还是对该区域内的敌方单位造成了伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">VOID_STORM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A Void Storm hazard spawned in your sector, dealing damage to the armies present in the sector.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一场虚空风暴灾害出现在了你的区域内，对位于该区域的军队造成了伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">VOID_STORM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A Void Storm failed to anchor in your sector, but not without damaging the armies there.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >虚空风暴未能在你的区域中稳定下来，但还是对那里的军队造成了伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">VOID_STORM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Units suffered {PercentageDamageCurrentHP} damage of their current [hp/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位受到其当前[hp/]{PercentageDamageCurrentHP} 的伤害</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_CASCADE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dimensional Cascade</Data></Cell><Cell><Data
+            ss:Type="String"
+          >维度倾泻</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DOOMSDAY_WEAPON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Instability Rift</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不稳定裂隙</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >VICTORY_CONDITION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Encompass the world in Dimensional Rifts, drawing energy from them.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将整个星球包裹在维度裂隙之中并汲取能量。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LEVEL_1_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Energy income reduced by {EnergyDrain}[energy/]; the Voidtech player gains this energy.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >能量收益减少{EnergyDrain}[energy/]，虚空科技玩家获得此能量。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LEVEL_2_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Energy income reduced by {EnergyDrain}[energy/]; the Voidtech player gains this energy.[br/]All Voidtech player units gain {damageIncrease}% increased damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >能量收益减少 {EnergyDrain}[energy/]，虚空科技玩家获得此能量。[br/]所有虚空科技玩家单位获得额外 {damageIncrease}% 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LEVEL_3_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Energy income reduced by {EnergyDrain}[energy/]; the Voidtech player gains this energy.[br/]All Voidtech player units gain {damageIncrease}% increased damage.[br/]Non-Voidtech player units have a {TeleportChance} strength chance to be randomly teleported up to {teleportDistance} hexes away each turn in combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >能量收益减少 {EnergyDrain}[energy/]，虚空科技玩家获得此能量。[br/]所有虚空科技玩家单位获得额外 {damageIncrease}% 伤害。[br/]非虚空科技玩家在战斗中每回合有 {TeleportChance} 力量几率被随机传送至最多 {teleportDistance} 个单元格之外的位置。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LEVEL_3_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Instability Rift Level 3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不稳定裂隙等级 3</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{TeleportChance} strength chance to randomly teleport units not owned by a Voidtech player up to 2 hexes away at the start of each combat turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在每个战斗回合开始，未被虚空科技玩家拥有的单位将有 {TeleportChance} 力量几率被随机传送至最多 2 个单元格之外的位置。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dimensional Rift</Data></Cell><Cell><Data
+            ss:Type="String"
+          >维度裂隙</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tear space-time at target non-Voidtech enemy colony, creating a Dimensional Rift for {duration}. This effect increases in strength as you build more Dimensional Amplifier Tower.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >撕裂目标非虚空科技敌方殖民地的空间并制造出一道维度裂隙，持续 {duration}。你建造的维度放大塔越多，此效果的力量就越强。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The rift generators have fired successfully, and a rift has been torn open around the target colony. Already we are beginning to extract energy from the rift for use in our empire.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >裂隙生成器已成功发射，已在目标殖民地撕开一道裂隙。我们已经开始从裂隙汲取能量供我们帝国使用。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Enemy defensive systems have interfered with the function of our rift generators, causing them to fail. As the rift collapsed, shockwaves blasted through the colony, causing panic in the streets.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >敌方防御系统干扰了我们裂隙生成器的运行，裂隙生成器已经失效。随着裂隙崩塌，一股冲击波贯穿了殖民地，给当地民众造成了恐慌。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The enemy has torn open some sort of dimensional rift over one of our colony. The rift is interfering with local infrastructure and power systems, causing chaos.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >敌人在我们的殖民地中撕裂出了某种裂隙，裂隙干扰了当地基建和电力系统，从而造成了混乱。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The enemy has attempted to tear open some sort of dimensional rift over one of our colonies, but was thwarted by our defensive systems. The aftermath of the attack caused some minor damage though, which has led to rioting and panic among the populace.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >敌人试图在我们的殖民地中撕裂出某种裂隙，但被我们的防御系统阻止了。不过此次攻击的后遗效果仍然造成了少量伤害，导致民众出现了暴乱和恐慌。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >DIMENSIONAL_AMPLIFIER_TOWER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dimensional Amplifier Tower</Data></Cell><Cell><Data
+            ss:Type="String"
+          >维度放大塔</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data
+            ss:Type="String"
+          >DIMENSIONAL_AMPLIFIER_TOWER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Dimensional Amplifier Tower unlocks the Dimensional Rift Doomsday Weapon. Each additional Dimensional Amplifier Tower you build increases the level of the weapon, making it stronger.[br/][br/]Only one Dimensional Amplifier Tower may be built per colony.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >维度放大塔可以解锁“维度裂隙”末日武器。每额外建造一座维度放大塔，该武器便会升级并变得更加强大。[br/][br/]每个殖民地只能建造一座维度放大塔。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_CASCADE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dimensional Cascade</Data></Cell><Cell><Data
+            ss:Type="String"
+          >维度倾泻</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_CASCADE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The final step in the Voidtech plan opens Dimensional Rifts throughout various worlds, drawing a near infinite amount of energy from them.[br/][br/]Requires Instability Rift level 3.[br/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >虚空科技计划的最后一步打开各个星球的维度裂隙，并从中汲取几近无限的能量。[br/][br/]需要不稳定裂隙达到等级 3。[br/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_CASCADE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >After years of arduous research and endless experiments, the moment is finally upon us. Just as our calculations predicted, the cascade has flooded across the planet, opening rift after rift. Once the process is complete, we will have access to power without limit!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >经过多年不懈研究和无数次实验，成功的时刻终于到来了。正如我们所计算的一样，维度倾泻已经侵袭了整个星球，开启了一个又一个的裂隙。一旦这个过程完毕，我们就能不受限制地获取能量了！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_COLLAPSE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dimensional Collapse</Data></Cell><Cell><Data
+            ss:Type="String"
+          >维度崩塌</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">DIMENSIONAL_COLLAPSE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Collapse reality around the target, with a {InstaKillChance} strength chance to instantly killing them without leaving a corpse. If this fails, deal {DimensionalCollapseDamage} damage and [abilityred]Massive Impact[/abilityred] instead.[br/][br/]Cannot target Heroes or Tier IV units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使目标周围的现实世界分崩离析，有 {InstaKillChance} 力量几率立即杀死目标并且不会留下任何尸骨。如果失败，则造成 {DimensionalCollapseDamage} 伤害和[abilityred]强力冲击[/abilityred]。[br/][br/]无法以英雄和 4 阶单位为目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PHASE_ECHO_GUARD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Phase Echo Guard</Data></Cell><Cell><Data
+            ss:Type="String"
+          >相位回声守卫</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">PHASE_ECHO_GUARD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Prepare Phase Echoes in the target friendly colony. These will spawn during any combat that takes place within the colony's domain. At the start of combat, this will create Unstable Echoes of {PhaseEchoGuardNumber} random friendly units. The Echoes remain until end of combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在目标友方殖民地内准备相位回声。相位回声守卫将在殖民地领域内发生的所有战斗中出现。战斗开始时将生成 {PhaseEchoGuardNumber} 个随机友方单位的不稳定回声。回声将持续到战斗结束。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PHASE_ECHO_GUARD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Phase Echo Guards have been prepared and are ready to be deployed into combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >相位回声守卫已经准备就绪且可投入战斗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PHASE_ECHO_GUARD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The defender has deployed Unstable Echoes into this battle.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >防守者已在此次战斗中部署了不稳定回声。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Localized Void Rift</Data></Cell><Cell><Data
+            ss:Type="String"
+          >局部虚空裂隙</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEBUFF_NAME_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Destabilized</Data></Cell><Cell><Data
+            ss:Type="String"
+          >失去稳定</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEBUFF_NAME_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Demoralized</Data></Cell><Cell><Data
+            ss:Type="String"
+          >士气低落</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Non-Mindless units in target army gain [abilityred]Destabilized[/abilityred] for {TurnDuration}, reducing damage resistance by {LoweredResistance} and decreasing morale by {LoweredMorale}.[br/][br/]On failure, they are [abilityred]Demoralized[/abilityred] instead, reducing their morale by {LoweredMorale}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标军队中的非无意识单位获得[abilityred]失去稳定[/abilityred]，持续 {TurnDuration}，并减少 {LoweredResistance} 伤害抵抗和 {LoweredMorale} 士气。[br/][br/]如果失败，则单位获得[abilityred]士气低落[/abilityred]，减少 {LoweredMorale} 士气。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit suffers from {LoweredResistance} on all resistance channels and {LoweredMorale}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位所有类型的抵抗减少 {LoweredResistance}，同时减少 {LoweredMorale}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit suffers from {LoweredMorale}.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >单位减少 {LoweredMorale}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our localized Void technology has successfully destabilized our enemies.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的局部虚空科技成功使敌人失去了稳定。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our localized Void rift collapsed almost immediately. The sight of the Void only demoralized our enemies.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的局部虚空裂隙几乎瞬间就崩塌了，虚空的乍现只降低了敌人的士气。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our enemies have opened a local Void rift, destabilizing our troops.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的敌人已开启局部虚空裂隙，我们的部队即将失去稳定。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our enemies tried opening a local Void rift, but it collapsed quickly. The sight of the Void, however, demoralized our troops.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的敌人试图打开局部虚空裂隙，不过裂隙很快就崩塌了。不过虚空之景还是降低了我们部队的士气。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_STRING_SUCCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target army has [abilityred]Destabilized[/abilityred] for {TurnDuration}, reducing their damage resistance by {LoweredResistance} and their morale by {LoweredMorale}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标军队已[abilityred]失去稳定[/abilityred]，持续 {TurnDuration}，伤害抵抗减少 {LoweredResistance}，士气减少 {LoweredMorale}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_STRING_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target army is [abilityred]Demoralized[/abilityred] for {TurnDuration}, reducing their morale by {LoweredMorale}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标军队[abilityred]士气低落[/abilityred]，持续{TurnDuration}，士气减少 {LoweredMorale}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOID_BARRIERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Void Barriers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚空屏障</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">VOID_BARRIERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Enemy units within the affected friendly colony domain have to use {ExtraMovePoints} extra move points for every hex they move and have [abilityred]Slow Movement[/abilityred] when fighting in this domain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >处于受到影响的友方殖民地领域内的敌方单位在移动至每个单元格时必须额外消耗 {ExtraMovePoints} 移动点数，并且在该领域中战斗时将获得[abilityred]缓慢移动[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">VOID_BARRIERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We succesfully put up Void Barriers around the colony which will damage and slow down any unwelcome visitors.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们成功在殖民地周围竖起了虚空屏障，这将能够伤害并减速任何不速之客。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOID_BARRIERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Affected units have Slow Movement.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >受到影响的单位获得缓慢移动。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOID_BARRIERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has Slow Movement.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >该单位拥有缓慢移动。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >VOID_EVENT_INITIAL_NOTIFICATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Victory Condition: Dimensional Cascade</Data></Cell><Cell><Data
+            ss:Type="String"
+          >胜利条件：维度倾泻</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >VOID_EVENT_UPGRADE_CAPTURED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >YOU</Data></Cell><Cell><Data
+            ss:Type="String"
+          >One of our Dimensional Amplifier Towers has been captured!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的一座维度放大塔已被夺走！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_LOST</Data></Cell><Cell
+        ><Data ss:Type="String">YOU</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You have lost a Dimensional Amplifcation Tower!</Data></Cell><Cell
+        ><Data ss:Type="String">你失去了一座维度放大塔！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_LOST</Data></Cell><Cell
+        ><Data ss:Type="String">PLAYER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_Player} has lost a Dimensional Amplification Tower!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_Player}失去了一座维度放大塔！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >VOID_EVENT_UPGRADE_LOST_NOT_GLOBAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >YOU</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You have lost a Dimensional Amplification Tower. Our attempt at unleashing the Dimensional Cascade has been canceled!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你失去了一座维度放大塔。我们释放维度倾泻的计划被中止了！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >VOID_EVENT_UPGRADE_LOST_GLOBAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PLAYER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_Player} has lost a Dimensional Amplification Tower. Their attempt at unleashing the Dimensional Cascade has been foiled!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_Player}失去了一座维度放大塔。他们释放维度倾泻的计划失败了！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOID_EVENT_INITIAL_TEXT</Data></Cell><Cell
+        ><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A player has unleashed their Dimensional Cascade!</Data></Cell><Cell
+        ><Data ss:Type="String">一名玩家释放了维度倾泻！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data
+            ss:Type="String"
+          >VOID_EVENT_UPGRADE_BUILT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >By building a Dimensional Amplification Tower, {playerName} now has access to their Doomsday Weapon, the Dimensional Cascade. It is weak now, but will become more powerful as more Dimensional Amplification Towers are constructed.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{playerName}通过建造维度放大塔，现在可以使用末日武器“维度倾泻”了。虽然目前武器威力尚弱，但会随维度放大塔数量的增多而变强。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >VOID_EVENT_UPGRADE_BUILT_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >By building a second Dimensional Amplification Tower, {playerName} has strengthened their Doomsday Weapon, the Dimensional Cascade. You should plan raids to destroy these structures before they become too powerful.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{playerName}通过建造第二座维度放大塔强化了“维度倾泻”末日武器。你应当在这些建筑变得过于强大之前策划突袭并将其摧毁。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data
+            ss:Type="String"
+          >VOID_EVENT_UPGRADE_BUILT_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >By building their final Dimensional Amplification Tower, {playerName} has maximized the strength of their Doomsday Weapon, the Dimensional Cascade. They are now close to fully unleashing it and winning the game. The time to strike is now!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{playerName}通过建造最后一座维度放大塔使“维度倾泻”末日武器达到了最强的威力。该玩家马上就可以完全释放其力量来获得游戏胜利了。发动袭击就趁现在！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >VOID_EVENT_UPGRADE_CAPTURED_TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >YOU</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Doomsday Timer has been paused! You must reclaim the lost Dimensional Amplification Tower or you will lose your chance at unleashing the Dimensional Cascade upon your enemies!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >末日武器计时器已暂停！你必须夺回失去的维度放大塔，否则你将失去向敌人释放“维度倾泻”的机会！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >VOID_EVENT_UPGRADE_LOST_GLOBAL_TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PLAYER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The loss of a Dimensional Amplification Tower has canceled the Dimensional Cascade, ending the Doomsday Timer.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >维度放大塔的丢失致使“维度倾泻”被打断，同时末日武器计时器停止。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >VOID_EVENT_UPGRADE_LOST_NOT_GLOBAL_TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >YOU</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The loss of a Dimensional Amplification Tower has weakened our Dimensional Cascade, and your Doomsday operations have been canceled.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >维度放大塔的丢失弱化了“维度倾泻”的威力，你的末日行动遭到中止。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data
+            ss:Type="String"
+          >VOID_EVENT_FINISHER_CAST_TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PLAYER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our enemies have activated their Doomsday Weapon, a Dimensional Cascade has spread across the planet, and your own Doomsday Weapon has been wiped out by the cataclysm. You have {numTurns} to destroy one of their Dimensional Amplification Towers or they will win the game.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >敌人激活了他们的末日武器，“维度倾泻”已经在整个星球上蔓延。你的末日武器也在这场大灾变中被摧毁。你需要在 {numTurns} 内摧毁一座敌人的维度放大塔，否则敌人将获得游戏胜利。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >VOID_EVENT_RUNNING_VICTORY_TIMER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >YOU</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Dimensional Cascade is active, and you will win in {numTurns} unless you lose one of your Dimensional Amplification Towers.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“维度倾泻”已激活，只要不失去任何维度放大塔，你将会在 {numTurns} 回合后获胜。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >VOID_EVENT_RUNNING_VICTORY_TIMER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PLAYER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Dimensional Cascade is active, and {playerName} will win in {numTurns} unless you can destroy one of their Dimensional Amplification Towers.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“维度倾泻”已激活，{playerName}将在 {numTurns} 后获胜，除非你能在此之前摧毁其一个维度放大塔。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >VOID_EVENT_VICTORY_TIMER_PAUSED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >YOU</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A Dimensional Amplification Tower has been captured! If it is destroyed, our Doomsday timer will be canceled. If you recapture the tower, then you will be able to resume the countdown.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一个维度放大塔已被夺走！如果维度放大塔被摧毁，末日计时器将会停止。如果你重新夺回维度放大塔，计时器将会恢复。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >VOID_EVENT_VICTORY_TIMER_PAUSED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PLAYER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A Dimensional Amplification Tower has been captured! If it is destroyed, the Doomsday timer will be canceled. If {playerName} recaptures the tower, then they will be able to resume the countdown.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一座维度放大塔已被夺走。如果维度放大塔被摧毁，末日计时器将会停止。如果{playerName}重新夺回维度放大塔，计时器将会恢复。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >VOID_EVENT_FINISHER_PRIMING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{playerName} is priming their Dimensional Cascade Doomsday Weapon! If they are allowed to finish, your own Doomsday Weapon will be wiped out, and {playerName} will be but one step away from total victory!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{playerName}正在准备释放“维度倾泻”末日武器！如果成功释放，你的末日武器将被摧毁，{playerName}距离胜利也将仅剩一步之遥！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">VOID_END_GAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >VICTORY_TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You are the ruler of this world… at least in this dimension.[br/]There are infinite dimensions in which you are not.[br/]You enjoy your victory, but the costs of your actions[br/]reverberate across the multiverse.[br/]Each action triggers some form of reaction,[br/]even in quantum physics.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你是这个星球的统治者…至少在这个维度是。[br/]在其他无数的维度中，你还不是统治者。[br/]你享受胜利，但你行为的代价[br/]影响了多元宇宙。[br/]每个行动都会触发某种反应，[br/]甚至是量子物理的反应。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">VO: Empress Carminia</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You are the ruler of this world… at least in this dimension.[br/]There are infinite dimensions where you are not.[br/]You enjoy your victory, but the costs of your actions[br/]reverberate across the multiverse.[br/]Each action triggers some form of reaction,[br/]even in quantum physics.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PHASEWALK_MODULATOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Intangible</Data></Cell><Cell><Data
+            ss:Type="String"
+          >无影无形</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASEWALK_MODULATOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Phased</Data></Cell><Cell><Data
+            ss:Type="String"
+          >相位变幻</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASEWALK_MODULATOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ghost</Data></Cell><Cell><Data
+            ss:Type="String"
+          >幽魂</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASEWALK_MODULATOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Specter</Data></Cell><Cell><Data
+            ss:Type="String"
+          >幽灵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASEWALK_MODULATOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Disassociated</Data></Cell><Cell><Data
+            ss:Type="String"
+          >分离</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASEWALK_MODULATOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Split State</Data></Cell><Cell><Data
+            ss:Type="String"
+          >分裂状态</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASEWALK_MODULATOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_7</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fathom</Data></Cell><Cell><Data
+            ss:Type="String"
+          >高深莫测</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >VOID_AUGMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unstable</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不稳定</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >VOID_AUGMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Voided</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚无</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >VOID_AUGMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Erratic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >游离</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >VOID_AUGMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Chaotic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混乱</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >VOID_AUGMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Anarchist</Data></Cell><Cell><Data
+            ss:Type="String"
+          >扰乱分子</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >VOID_AUGMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Void Crafter</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚空工匠</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >VOID_AUGMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_7</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Void Smith</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚空铁匠</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >VOID_AUGMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_8</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Qubit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >量子位</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GRAVITY_PULSE_GRENADES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Void Bomber</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚空投弹手</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GRAVITY_PULSE_GRENADES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vortex Juggler</Data></Cell><Cell><Data
+            ss:Type="String"
+          >漩涡魔术师</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GRAVITY_PULSE_GRENADES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Supernova</Data></Cell><Cell><Data
+            ss:Type="String"
+          >超新星</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GRAVITY_PULSE_GRENADES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gravitational</Data></Cell><Cell><Data
+            ss:Type="String"
+          >引力</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GRAVITY_PULSE_GRENADES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Quantum-spun</Data></Cell><Cell><Data
+            ss:Type="String"
+          >量子自旋</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GRAVITY_PULSE_GRENADES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Black Hole</Data></Cell><Cell><Data
+            ss:Type="String"
+          >黑洞</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GRAVITY_PULSE_GRENADES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_7</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Time-torn</Data></Cell><Cell><Data
+            ss:Type="String"
+          >时光破碎</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GRAVITY_PULSE_GRENADES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_8</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Graviton</Data></Cell><Cell><Data
+            ss:Type="String"
+          >万有引力</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASE_DRIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Void Flash</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚空闪现</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASE_DRIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Plane Runner</Data></Cell><Cell><Data
+            ss:Type="String"
+          >平面行者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASE_DRIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Rift Runner</Data></Cell><Cell><Data
+            ss:Type="String"
+          >裂隙行者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASE_DRIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Split Second</Data></Cell><Cell><Data
+            ss:Type="String"
+          >刹那</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASE_DRIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Warped</Data></Cell><Cell><Data
+            ss:Type="String"
+          >扭曲</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASE_DRIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Photonic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >光子</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASE_DRIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_7</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Boogeyman</Data></Cell><Cell><Data
+            ss:Type="String"
+          >恶灵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASE_DRIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_8</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Jump Scare</Data></Cell><Cell><Data
+            ss:Type="String"
+          >惊吓</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASE_DRIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_9</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Polarized</Data></Cell><Cell><Data
+            ss:Type="String"
+          >极化</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASE_DRIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_10</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Multiversed</Data></Cell><Cell><Data
+            ss:Type="String"
+          >多元宇宙</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >STASIS_POCKET_INDUCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Time Sapper</Data></Cell><Cell><Data
+            ss:Type="String"
+          >时光工兵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >STASIS_POCKET_INDUCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Freeze Frame</Data></Cell><Cell><Data
+            ss:Type="String"
+          >冻结框架</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >STASIS_POCKET_INDUCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Paralyzer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >阻滞剂</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >STASIS_POCKET_INDUCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Suppressor</Data></Cell><Cell><Data
+            ss:Type="String"
+          >抑制器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >STASIS_POCKET_INDUCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Petrifying</Data></Cell><Cell><Data
+            ss:Type="String"
+          >石化</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >STASIS_POCKET_INDUCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Stunning</Data></Cell><Cell><Data
+            ss:Type="String"
+          >晕眩</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >STASIS_POCKET_INDUCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_7</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Slowpoke</Data></Cell><Cell><Data
+            ss:Type="String"
+          >迟钝</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >STASIS_POCKET_INDUCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_8</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blue Bandit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >蓝色大盗</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >STASIS_POCKET_INDUCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_9</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Temporal</Data></Cell><Cell><Data
+            ss:Type="String"
+          >暂时</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >QUANTUM_AVATAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Exodimensional</Data></Cell><Cell><Data
+            ss:Type="String"
+          >外维度</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >QUANTUM_AVATAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Plane Tearer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >平面撕裂者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >QUANTUM_AVATAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Phase Gemini</Data></Cell><Cell><Data
+            ss:Type="String"
+          >相位双子</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >QUANTUM_AVATAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Antimatter</Data></Cell><Cell><Data
+            ss:Type="String"
+          >反物质</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >QUANTUM_AVATAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Event Horizon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >视界</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >QUANTUM_AVATAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reality Scrambler</Data></Cell><Cell><Data
+            ss:Type="String"
+          >现实扰频器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >QUANTUM_AVATAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_7</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Rift Breaker</Data></Cell><Cell><Data
+            ss:Type="String"
+          >裂隙制造者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >TIME_WARP_FRIENDLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Time Warp Acceleration</Data></Cell><Cell><Data
+            ss:Type="String"
+          >时间扭曲加速</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >TIME_WARP_ENEMY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Time Warp Deceleration</Data></Cell><Cell><Data
+            ss:Type="String"
+          >时间扭曲减速</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>115</Zoom><Selected
+      /><ProtectObjects>False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

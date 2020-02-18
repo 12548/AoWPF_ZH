@@ -1,1 +1,617 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:51:04Z</Created><LastSaved>2019-06-25T15:51:04Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>9150</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15"><Column ss:StyleID="s62" ss:Width="235.5"/><Column ss:StyleID="s62" ss:Width="132.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="398.25"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="443.25"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="316.5"/><Column ss:StyleID="s62" ss:Width="147"/><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">OPERATIONDEFINITIONS_STRATEGIC</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CITY_OPERATION_ABSORB</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Absorb</Data></Cell><Cell><Data ss:Type="String">吸收</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">text for the button to absorb the colony into your own kingdom</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CITY_OPERATION_ABSORB</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">You absorb the colony into your empire, bringing it under your control.</Data></Cell><Cell><Data ss:Type="String">你将殖民地人口吸收进了你的帝国，使其处于你的控制之下。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CITY_OPERATION_ABSORB</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This colony is being absorbed. Process will complete in [INT_duration].</Data></Cell><Cell><Data ss:Type="String">正在将该殖民地吸收进你的帝国。完成尚需[INT_duration]。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">CITY_OPERATION_RAZE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Raze</Data></Cell><Cell><Data ss:Type="String">夷平</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">text for the button to raze the colony, see cell below for more information about the action</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">CITY_OPERATION_RAZE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Burn the colony to the ground. This renders various colony upgrades unusable and the colony itself uninhabitable until reconstructed.[br/][br/]You receive:[br/][fireCol]{ReputationDecrease} Reputation[br/]{RaceRelationDecrease} Race Relations with the race of the colony[/fireCol] </Data></Cell><Cell><Data ss:Type="String">将殖民地夷平。在完成该行动后，各种殖民地升级项将不可用，且殖民地居住属性将失效，直到再次重建。[br/][br/]你收到：[br/][fireCol]{ReputationDecrease}声望[br/]{RaceRelationDecrease}与殖民地种族的关系[/fireCol] </Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Burns the town to the ground. Removed Instantly for each language!</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CITY_OPERATION_RAZE</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The colony is being razed. Process will complete in [INT_duration].</Data></Cell><Cell><Data ss:Type="String">正在摧毁该殖民地。尚需 [INT_duration]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CITY_OPERATION_TRANSFER_HQ</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Transfer HQ</Data></Cell><Cell><Data ss:Type="String">转移总部</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">CITY_OPERATION_TRANSFER_HQ</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Transfers the HQ building to another colony center. The HQ building is responsible for base economic income and is where your Leader will appear when they return from the Void.</Data></Cell><Cell><Data ss:Type="String">将总部建筑转移到另一个殖民地中心位置。总部建筑用于处理基地经济收入以及作为首领从虚空归来的办公生活场所。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CITY_OPERATION_TRANSFER_HQ</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The HQ is being transferred. Process will complete in [INT_duration].</Data></Cell><Cell><Data ss:Type="String">正在转移总部。尚需 [INT_duration]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_OPERATION_RAZE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Raze</Data></Cell><Cell><Data ss:Type="String">夷平</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SECTOR_OPERATION_RAZE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Burn a sector's base to the ground.[br/][firecol]This will also destroy all upgrades and remove ownership over this sector.[/firecol]</Data></Cell><Cell><Data ss:Type="String">将该区域基地夷平。[br/][firecol]在完成该行动后，所有升级项将失效，且失去该区域所有权。[/firecol]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_OPERATION_RAZE</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The sector's base is being razed. Process will complete in [INT_duration].</Data></Cell><Cell><Data ss:Type="String">正在摧毁该区域基地。尚需 [INT_duration]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_OPERATION_RAZE_DEFENSE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Raze this imperial defense.</Data></Cell><Cell><Data ss:Type="String">摧毁帝国防御设施</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_OPERATION_RAZE_DEFENSE</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This imperial defense is being razed. Process will complete in [INT_duration].</Data></Cell><Cell><Data ss:Type="String">正在摧毁该帝国防御设施。尚需 [INT_duration]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_OPERATION_CAPTURE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">[annex/] Capture and annex sector to {STR_cityName}</Data></Cell><Cell><Data ss:Type="String">[annex/]占领该区域，并将其吞并至{STR_cityName}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_OPERATION_CAPTURE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Captures the sector and annexes it to your colony.</Data></Cell><Cell><Data ss:Type="String">攻占该区域，并将其吞并至你的殖民地。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_OPERATION_CAPTURE</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This sector is currently being annexed. Process will complete in [INT_duration].</Data></Cell><Cell><Data ss:Type="String">正在吞并该区域。尚需 [INT_duration]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_OPERATION_TRANSFER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Transfer to {STR_cityName}</Data></Cell><Cell><Data ss:Type="String">转移至{STR_cityName}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_OPERATION_TRANSFER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Transfer the sector from one colony to another colony.</Data></Cell><Cell><Data ss:Type="String">将该区域从一个殖民地转移到另一个殖民地。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_OPERATION_TRANSFER</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Transferring the sector into your colony. Process will complete in [INT_duration].</Data></Cell><Cell><Data ss:Type="String">正在将该区域吸收你的帝国。尚需 [INT_duration]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_OPERATION_RELEASE_FORWARD_BASE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Release sector as forward base</Data></Cell><Cell><Data ss:Type="String">将区域释放为前线基地</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">SECTOR_OPERATION_RELEASE_FORWARD_BASE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Releases the sector base as a forward base, detaching it from your colony.[br/][firecol]This removes all income from this sector.[/firecol][br/][br/]A forward base does not allow you to gather income from the sector, but it does project a claim to all adjacent sectors, give vision of the surrounding area and serves as an obstacle for your enemies.</Data></Cell><Cell><Data ss:Type="String">将该区域从殖民地划分出去，释放为前线基地。[br/][firecol]在完成该操作后，该区域收入将被移除。[/firecol][br/][br/]前线基地无法为你带来收入，但可以宣布拥有相邻所有区域的主权。此外，前线基地可作为前线基地临近区域观测点，并在敌军进犯时充当你的障碍物。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SECTOR_OPERATION_RELEASE_FORWARD_BASE</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This sector is being released as a forward base. Process will complete in [INT_duration].</Data></Cell><Cell><Data ss:Type="String">正在将该区域释放为前线基地。尚需 [INT_duration]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_OPERATION_FORWARD_BASE_ANNEX</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">[annex/] Annex forward base as sector to {STR_cityName}</Data></Cell><Cell><Data ss:Type="String">[annex/]将前线基地吞并至{STR_cityName}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_OPERATION_FORWARD_BASE_ANNEX</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Annexes the forward base to a colony, turning it into a sector base.</Data></Cell><Cell><Data ss:Type="String">将前线基地吞并至殖民地，并将其转化为区域基地。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SECTOR_OPERATION_FORWARD_BASE_ANNEX</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Annexing the forward base as a sector base. Process will complete in [INT_duration].</Data></Cell><Cell><Data ss:Type="String">正在将前线基地吞并为区域基地。尚需 [INT_duration]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_OPERATION_FORWARD_BASE_CAPTURE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Capture forward base</Data></Cell><Cell><Data ss:Type="String">攻占前线基地</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_OPERATION_FORWARD_BASE_CAPTURE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Captures the forward base, transferring ownership of it to you.</Data></Cell><Cell><Data ss:Type="String">攻占前线基地，据为己有。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_OPERATION_FORWARD_BASE_CAPTURE</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This forward base is being captured. Process will complete in [INT_duration].</Data></Cell><Cell><Data ss:Type="String">正在攻占该前线基地。尚需 [INT_duration]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LANDMARK_OPERATION_ANNEX</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">[annex/] Annex landmark to {STR_cityName}</Data></Cell><Cell><Data ss:Type="String">[annex/]将地标吞并至{STR_cityName}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LANDMARK_OPERATION_ANNEX</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Annexes the landmark to your colony.</Data></Cell><Cell><Data ss:Type="String">将地标吞并至你的殖民地</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LANDMARK_OPERATION_ANNEX</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This landmark is currently being annexed. Process will complete in [INT_duration].</Data></Cell><Cell><Data ss:Type="String">正在吞并该地标。尚需 [INT_duration]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LANDMARK_OPERATION_RELEASE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Release landmark</Data></Cell><Cell><Data ss:Type="String">释放地标</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LANDMARK_OPERATION_RELEASE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Releases the landmark from the colony.</Data></Cell><Cell><Data ss:Type="String">将该地标从殖民地释放出去。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LANDMARK_OPERATION_RELEASE</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This landmark is currently being released. Process will complete in [INT_duration].</Data></Cell><Cell><Data ss:Type="String">正在释放该地标。尚需 [INT_duration]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LANDMARK_OPERATION_CAPTURE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">[annex/] Capture and annex landmark to {STR_cityName}</Data></Cell><Cell><Data ss:Type="String">[annex/]占领该地标，并将其吞并至{STR_cityName}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LANDMARK_OPERATION_CAPTURE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Captures the landmark and annexes it to your colony.</Data></Cell><Cell><Data ss:Type="String">攻占该地标，并将其吞并至你的殖民地。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LANDMARK_OPERATION_CAPTURE</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This landmark is currently being annexed. Process will complete in [INT_duration].</Data></Cell><Cell><Data ss:Type="String">正在吞并该地标。尚需 [INT_duration]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DWELLING_OPERATION_ANNEX</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">[annex/] Annex dwelling to {STR_cityName}</Data></Cell><Cell><Data ss:Type="String">[annex/]将居住地吞并至{STR_cityName}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DWELLING_OPERATION_ANNEX</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Annexes the dwelling to your colony.</Data></Cell><Cell><Data ss:Type="String">将这块居住地归至你的殖民地</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DWELLING_OPERATION_ANNEX</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This dwelling is currently being annexed. Process will complete in [INT_duration].</Data></Cell><Cell><Data ss:Type="String">正在吞并这块居住地。尚需 [INT_duration]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DWELLING_OPERATION_RELEASE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Release dwelling</Data></Cell><Cell><Data ss:Type="String">释放居住地</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DWELLING_OPERATION_RELEASE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Releases the dwelling from your colony.</Data></Cell><Cell><Data ss:Type="String">将这块居住地从殖民地释放出去。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DWELLING_OPERATION_RELEASE</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This dwelling is currently being released. Process will complete in [INT_duration].</Data></Cell><Cell><Data ss:Type="String">正在释放这块居住地。尚需 [INT_duration]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DWELLING_OPERATION_CAPTURE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">[annex/] Capture and annex dwelling to {STR_cityName}</Data></Cell><Cell><Data ss:Type="String">[annex/]占领该居住地，并将其吞并至{STR_cityName}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DWELLING_OPERATION_CAPTURE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Captures the dwelling and annexes it to your colony.</Data></Cell><Cell><Data ss:Type="String">攻占这块居住地，并将其吞并至你的殖民地。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DWELLING_OPERATION_CAPTURE</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This dwelling is currently being annexed. Process will complete in [INT_duration].</Data></Cell><Cell><Data ss:Type="String">正在吞并这块居住地。尚需 [INT_duration]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTER_STRUCTURE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Enter</Data></Cell><Cell><Data ss:Type="String">进入</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTER_STRUCTURE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Enter this location to fight its inhabitants. Only the army standing on top of the structure can enter, adjacent armies will not participate in this combat. </Data></Cell><Cell><Data ss:Type="String">进入该地点与栖息者战斗。只有站在建筑上的军队才能进入建筑，相邻军队不会参与这场战斗。 </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LANDMARK_OPERATION_CAPTURE_RELEASE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Capture and release landmark</Data></Cell><Cell><Data ss:Type="String">夺取并释放地标</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LANDMARK_OPERATION_CAPTURE_RELEASE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Captures the landmark, and releases it as a disconnected sector.</Data></Cell><Cell><Data ss:Type="String">夺取地标，并将其释放为分离的区域。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LANDMARK_OPERATION_CAPTURE_RELEASE</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This landmark is currently being captured. Process will complete in [INT_duration].</Data></Cell><Cell><Data ss:Type="String">该地标正在被夺取，将于 [INT_duration] 后完成。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DWELLING_OPERATION_CAPTURE_RELEASE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Capture and Release dwelling</Data></Cell><Cell><Data ss:Type="String">夺取并释放居住地</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DWELLING_OPERATION_CAPTURE_RELEASE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Captures the dwelling, and releases it as a disconnected sector.</Data></Cell><Cell><Data ss:Type="String">夺取居住地，并将其释放为分离的区域。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DWELLING_OPERATION_CAPTURE_RELEASE</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This dwelling is currently being captured. Process will complete in [INT_duration].</Data></Cell><Cell><Data ss:Type="String">该居住地正在被夺取，将于 [INT_duration] 后完成。</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Zoom>115</Zoom><Selected/><TopRowVisible>21</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>54</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:51:04Z</Created><LastSaved
+    >2019-06-25T15:51:04Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>9150</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="235.5" /><Column
+        ss:StyleID="s62"
+        ss:Width="132.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="398.25" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="443.25"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="316.5" /><Column
+        ss:StyleID="s62"
+        ss:Width="147"
+      /><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >OPERATIONDEFINITIONS_STRATEGIC</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CITY_OPERATION_ABSORB</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Absorb</Data></Cell><Cell><Data
+            ss:Type="String"
+          >吸收</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >text for the button to absorb the colony into your own kingdom</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CITY_OPERATION_ABSORB</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You absorb the colony into your empire, bringing it under your control.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你将殖民地人口吸收进了你的帝国，使其处于你的控制之下。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CITY_OPERATION_ABSORB</Data></Cell><Cell
+        ><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This colony is being absorbed. Process will complete in [INT_duration].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在将该殖民地吸收进你的帝国。完成尚需[INT_duration]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CITY_OPERATION_RAZE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Raze</Data></Cell><Cell><Data
+            ss:Type="String"
+          >夷平</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >text for the button to raze the colony, see cell below for more information about the action</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">CITY_OPERATION_RAZE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Burn the colony to the ground. This renders various colony upgrades unusable and the colony itself uninhabitable until reconstructed.[br/][br/]You receive:[br/][fireCol]{ReputationDecrease} Reputation[br/]{RaceRelationDecrease} Race Relations with the race of the colony[/fireCol] </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将殖民地夷平。在完成该行动后，各种殖民地升级项将不可用，且殖民地居住属性将失效，直到再次重建。[br/][br/]你收到：[br/][fireCol]{ReputationDecrease}声望[br/]{RaceRelationDecrease}与殖民地种族的关系[/fireCol] </Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Burns the town to the ground. Removed Instantly for each language!</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CITY_OPERATION_RAZE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The colony is being razed. Process will complete in [INT_duration].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在摧毁该殖民地。尚需 [INT_duration]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >CITY_OPERATION_TRANSFER_HQ</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Transfer HQ</Data></Cell><Cell><Data
+            ss:Type="String"
+          >转移总部</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >CITY_OPERATION_TRANSFER_HQ</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Transfers the HQ building to another colony center. The HQ building is responsible for base economic income and is where your Leader will appear when they return from the Void.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将总部建筑转移到另一个殖民地中心位置。总部建筑用于处理基地经济收入以及作为首领从虚空归来的办公生活场所。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >CITY_OPERATION_TRANSFER_HQ</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The HQ is being transferred. Process will complete in [INT_duration].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在转移总部。尚需 [INT_duration]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SECTOR_OPERATION_RAZE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Raze</Data></Cell><Cell><Data
+            ss:Type="String"
+          >夷平</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SECTOR_OPERATION_RAZE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Burn a sector's base to the ground.[br/][firecol]This will also destroy all upgrades and remove ownership over this sector.[/firecol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将该区域基地夷平。[br/][firecol]在完成该行动后，所有升级项将失效，且失去该区域所有权。[/firecol]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SECTOR_OPERATION_RAZE</Data></Cell><Cell
+        ><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The sector's base is being razed. Process will complete in [INT_duration].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在摧毁该区域基地。尚需 [INT_duration]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_RAZE_DEFENSE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Raze this imperial defense.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >摧毁帝国防御设施</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">SECTOR_OPERATION_RAZE_DEFENSE</Data></Cell><Cell
+        ><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This imperial defense is being razed. Process will complete in [INT_duration].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在摧毁该帝国防御设施。尚需 [INT_duration]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SECTOR_OPERATION_CAPTURE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[annex/] Capture and annex sector to {STR_cityName}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[annex/]占领该区域，并将其吞并至{STR_cityName}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SECTOR_OPERATION_CAPTURE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Captures the sector and annexes it to your colony.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >攻占该区域，并将其吞并至你的殖民地。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SECTOR_OPERATION_CAPTURE</Data></Cell><Cell
+        ><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This sector is currently being annexed. Process will complete in [INT_duration].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在吞并该区域。尚需 [INT_duration]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SECTOR_OPERATION_TRANSFER</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Transfer to {STR_cityName}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >转移至{STR_cityName}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SECTOR_OPERATION_TRANSFER</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Transfer the sector from one colony to another colony.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将该区域从一个殖民地转移到另一个殖民地。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SECTOR_OPERATION_TRANSFER</Data></Cell><Cell
+        ><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Transferring the sector into your colony. Process will complete in [INT_duration].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在将该区域吸收你的帝国。尚需 [INT_duration]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_RELEASE_FORWARD_BASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Release sector as forward base</Data></Cell><Cell><Data
+            ss:Type="String"
+          >将区域释放为前线基地</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_RELEASE_FORWARD_BASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Releases the sector base as a forward base, detaching it from your colony.[br/][firecol]This removes all income from this sector.[/firecol][br/][br/]A forward base does not allow you to gather income from the sector, but it does project a claim to all adjacent sectors, give vision of the surrounding area and serves as an obstacle for your enemies.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将该区域从殖民地划分出去，释放为前线基地。[br/][firecol]在完成该操作后，该区域收入将被移除。[/firecol][br/][br/]前线基地无法为你带来收入，但可以宣布拥有相邻所有区域的主权。此外，前线基地可作为前线基地临近区域观测点，并在敌军进犯时充当你的障碍物。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_RELEASE_FORWARD_BASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This sector is being released as a forward base. Process will complete in [INT_duration].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在将该区域释放为前线基地。尚需 [INT_duration]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_FORWARD_BASE_ANNEX</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[annex/] Annex forward base as sector to {STR_cityName}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[annex/]将前线基地吞并至{STR_cityName}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_FORWARD_BASE_ANNEX</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Annexes the forward base to a colony, turning it into a sector base.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将前线基地吞并至殖民地，并将其转化为区域基地。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_FORWARD_BASE_ANNEX</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Annexing the forward base as a sector base. Process will complete in [INT_duration].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在将前线基地吞并为区域基地。尚需 [INT_duration]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_FORWARD_BASE_CAPTURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Capture forward base</Data></Cell><Cell><Data
+            ss:Type="String"
+          >攻占前线基地</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_FORWARD_BASE_CAPTURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Captures the forward base, transferring ownership of it to you.</Data></Cell><Cell
+        ><Data ss:Type="String">攻占前线基地，据为己有。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_FORWARD_BASE_CAPTURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This forward base is being captured. Process will complete in [INT_duration].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在攻占该前线基地。尚需 [INT_duration]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LANDMARK_OPERATION_ANNEX</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[annex/] Annex landmark to {STR_cityName}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[annex/]将地标吞并至{STR_cityName}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LANDMARK_OPERATION_ANNEX</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Annexes the landmark to your colony.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >将地标吞并至你的殖民地</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LANDMARK_OPERATION_ANNEX</Data></Cell><Cell
+        ><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This landmark is currently being annexed. Process will complete in [INT_duration].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在吞并该地标。尚需 [INT_duration]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >LANDMARK_OPERATION_RELEASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Release landmark</Data></Cell><Cell><Data
+            ss:Type="String"
+          >释放地标</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >LANDMARK_OPERATION_RELEASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Releases the landmark from the colony.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >将该地标从殖民地释放出去。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >LANDMARK_OPERATION_RELEASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This landmark is currently being released. Process will complete in [INT_duration].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在释放该地标。尚需 [INT_duration]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >LANDMARK_OPERATION_CAPTURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[annex/] Capture and annex landmark to {STR_cityName}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[annex/]占领该地标，并将其吞并至{STR_cityName}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >LANDMARK_OPERATION_CAPTURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Captures the landmark and annexes it to your colony.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >攻占该地标，并将其吞并至你的殖民地。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >LANDMARK_OPERATION_CAPTURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This landmark is currently being annexed. Process will complete in [INT_duration].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在吞并该地标。尚需 [INT_duration]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DWELLING_OPERATION_ANNEX</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[annex/] Annex dwelling to {STR_cityName}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[annex/]将居住地吞并至{STR_cityName}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DWELLING_OPERATION_ANNEX</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Annexes the dwelling to your colony.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >将这块居住地归至你的殖民地</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DWELLING_OPERATION_ANNEX</Data></Cell><Cell
+        ><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This dwelling is currently being annexed. Process will complete in [INT_duration].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在吞并这块居住地。尚需 [INT_duration]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >DWELLING_OPERATION_RELEASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Release dwelling</Data></Cell><Cell><Data
+            ss:Type="String"
+          >释放居住地</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DWELLING_OPERATION_RELEASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Releases the dwelling from your colony.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >将这块居住地从殖民地释放出去。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >DWELLING_OPERATION_RELEASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This dwelling is currently being released. Process will complete in [INT_duration].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在释放这块居住地。尚需 [INT_duration]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >DWELLING_OPERATION_CAPTURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[annex/] Capture and annex dwelling to {STR_cityName}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[annex/]占领该居住地，并将其吞并至{STR_cityName}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >DWELLING_OPERATION_CAPTURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Captures the dwelling and annexes it to your colony.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >攻占这块居住地，并将其吞并至你的殖民地。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >DWELLING_OPERATION_CAPTURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This dwelling is currently being annexed. Process will complete in [INT_duration].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在吞并这块居住地。尚需 [INT_duration]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTER_STRUCTURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Enter</Data></Cell><Cell><Data
+            ss:Type="String"
+          >进入</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENTER_STRUCTURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Enter this location to fight its inhabitants. Only the army standing on top of the structure can enter, adjacent armies will not participate in this combat. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >进入该地点与栖息者战斗。只有站在建筑上的军队才能进入建筑，相邻军队不会参与这场战斗。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >LANDMARK_OPERATION_CAPTURE_RELEASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Capture and release landmark</Data></Cell><Cell><Data
+            ss:Type="String"
+          >夺取并释放地标</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data
+            ss:Type="String"
+          >LANDMARK_OPERATION_CAPTURE_RELEASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Captures the landmark, and releases it as a disconnected sector.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >夺取地标，并将其释放为分离的区域。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >LANDMARK_OPERATION_CAPTURE_RELEASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This landmark is currently being captured. Process will complete in [INT_duration].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该地标正在被夺取，将于 [INT_duration] 后完成。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >DWELLING_OPERATION_CAPTURE_RELEASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Capture and Release dwelling</Data></Cell><Cell><Data
+            ss:Type="String"
+          >夺取并释放居住地</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data
+            ss:Type="String"
+          >DWELLING_OPERATION_CAPTURE_RELEASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Captures the dwelling, and releases it as a disconnected sector.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >夺取居住地，并将其释放为分离的区域。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >DWELLING_OPERATION_CAPTURE_RELEASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This dwelling is currently being captured. Process will complete in [INT_duration].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该居住地正在被夺取，将于 [INT_duration] 后完成。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Zoom>115</Zoom><Selected /><TopRowVisible
+      >21</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >54</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

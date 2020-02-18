@@ -1,1 +1,1014 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:51:05Z</Created><LastSaved>2019-06-25T15:51:05Z</LastSaved><Version>15.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX>0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s57"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style><Style ss:ID="s58"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s59"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s57" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15"><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="173.25"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="123"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="456.75"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="182.25"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="275.25"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="131.25"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="444.75"/><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">PARAGON_UNITPROPERTIES</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLAST_CANNON</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Blast Cannon</Data></Cell><Cell><Data ss:Type="String">神威大炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLAST_CANNON</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a heavy blast cannon, dealing damage in a 1 hex radius.</Data></Cell><Cell><Data ss:Type="String">发射神威大炮，在 1 单元格半径范围内造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CALL_IN_REINFORCEMENTS</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Call in Reinforcements</Data></Cell><Cell><Data ss:Type="String">召集援军</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CALL_IN_REINFORCEMENTS</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Call in Paragon reinforcements to aid in the battle.</Data></Cell><Cell><Data ss:Type="String">召集完人援军，助你一臂之力。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFENSE_BLASTER</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Defense Blaster</Data></Cell><Cell><Data ss:Type="String">攻城兵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFENSE_BLASTER</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire the defensive blaster hidden in the floating throne.</Data></Cell><Cell><Data ss:Type="String">干掉漂浮王座中的攻城兵。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENERGY_SHIELD</Data></Cell><Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell><Cell><Data ss:Type="String">Energy Shield</Data></Cell><Cell><Data ss:Type="String">能量护盾</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENERGY_SHIELD</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Flanking attacks against this unit ignore up to {EnergyShields}.</Data></Cell><Cell><Data ss:Type="String">该单位可无视最多 {EnergyShields} 的包抄攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HEAVY_REPEATER</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Heavy Repeater</Data></Cell><Cell><Data ss:Type="String">重型连发枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HEAVY_REPEATER</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire the Heavy Repeater at the target.</Data></Cell><Cell><Data ss:Type="String">使用重型连发枪攻击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">OVERDRIVE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Overdrive</Data></Cell><Cell><Data ss:Type="String">过载</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">OVERDRIVE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Hack into target Paragon unit with Imperial Augments, causing them to [abilityblue]Overcharge[/abilityblue], granting them new abilities, increased damage and changing their Kinetic attacks to Arc for {OverchargeDuration}.</Data></Cell><Cell><Data ss:Type="String">借助帝国强化装备黑进目标完人单位，使目标[abilityblue]过载[/abilityblue]，赋予单位新的技能并提升单位的攻击力，并将其动能攻击变为电弧攻击，持续 {OverchargeDuration}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">OVERDRIVE_PULSE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Overdrive Field</Data></Cell><Cell><Data ss:Type="String">过载场</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">OVERDRIVE_PULSE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A mass hack into all friendly Paragon units with Imperial Augments, causing them to [abilityblue]Overcharge[/abilityblue], granting the units new abilities, increased damage and changing their Kinetic attacks to Arc for {OverchargeDuration}.</Data></Cell><Cell><Data ss:Type="String">借助帝国强化装备黑进所有友方完人单位，造成目标[abilityblue]过载[/abilityblue]，赋予单位新的技能并提升单位的攻击力，并将其动能攻击变为电弧攻击，持续 {OverchargeDuration}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">OVERCHARGE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Overcharged</Data></Cell><Cell><Data ss:Type="String">已过载</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">OVERCHARGE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit now deals Arc damage and becomes more effective. If they become [abilityred]Staggered[/abilityred], they lose this effect.</Data></Cell><Cell><Data ss:Type="String">该单位现在可以造成电弧伤害，攻击力获得提升。若他们进入[abilityred]动摇[/abilityred]效果，该效果失效。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUGMENTED_ASSAULT</Data></Cell><Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell><Cell><Data ss:Type="String">Augmented Assault</Data></Cell><Cell><Data ss:Type="String">强化攻袭</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AUGMENTED_ASSAULT</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit gains Fast movement, one level of Stagger Resistance and +{OverchargeShields}[shield/].</Data></Cell><Cell><Data ss:Type="String">该单位获得迅捷移动、1 层动摇抵抗以及 + {OverchargeShields}[shield/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">UNSTABLE_AUGMENTS</Data></Cell><Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell><Cell><Data ss:Type="String">Unstable Augments</Data></Cell><Cell><Data ss:Type="String">不稳定强化</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">UNSTABLE_AUGMENTS</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">On death, this unit will explode in a {UnstableExplosionRadius} hex radius, dealing {UnstableDamage} damage, and [abilityred]Staggering[/abilityred] those hit.</Data></Cell><Cell><Data ss:Type="String">死亡时，该单位可对 {UnstableExplosionRadius} 个单元格范围内造成爆炸，造成 {UnstableDamage} 伤害，并[abilityred]动摇[/abilityred]命中的单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PARAGON_BLASTER_PISTOL</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Paragon Blaster Pistol</Data></Cell><Cell><Data ss:Type="String">完人冲击手枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PARAGON_BLASTER_PISTOL</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire the Blaster at the target.</Data></Cell><Cell><Data ss:Type="String">使用冲击手枪攻击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PHASE_AUGMENT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Activate Phase Augment</Data></Cell><Cell><Data ss:Type="String">激活相位强化</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">PHASE_AUGMENT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Using their specialized phase augments, this unit can teleport up to {PhaseTeleportRange} hexes away.</Data></Cell><Cell><Data ss:Type="String">借助独特的相位强化技能，该单位传送至最多 {PhaseTeleportRange} 单元格之外。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PULSE_SLAM</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Pulse Slam</Data></Cell><Cell><Data ss:Type="String">脉冲暴击</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">PULSE_SLAM</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit slams their weapon on the ground, unleashing a pulse wave from their augments that damages all adjacent units.</Data></Cell><Cell><Data ss:Type="String">该单位可将地方武器击落在地，并从强化装备中施放脉冲波，对所有相邻单位造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHIELD_CHARGE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Shield Charge</Data></Cell><Cell><Data ss:Type="String">护盾冲锋</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SHIELD_CHARGE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit charges forward, [abilityred]knocking back[/abilityred] its target and taking its place. Can only target Light units.</Data></Cell><Cell><Data ss:Type="String">该单位一马当先，[abilityred]击退[/abilityred]目标，然后占据目标位置。仅能以轻型单位为目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHOCK_SPEAR</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Shock Spear</Data></Cell><Cell><Data ss:Type="String">电击长矛</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHOCK_SPEAR</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Stab the target with this unit's spear.</Data></Cell><Cell><Data ss:Type="String">使用该单位装备的长矛刺伤敌人。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TARGETING_JAMMERS</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Targeting Jammers</Data></Cell><Cell><Data ss:Type="String">定向干扰发射机</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TARGETING_JAMMERS</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is {TargetingAccuracyDecrease} harder to hit with attacks.</Data></Cell><Cell><Data ss:Type="String">该单位的命中难度增加 {TargetingAccuracyDecrease}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">WRATH_OF_THE_OLD_MACHINES</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Wrath of the Old Machines</Data></Cell><Cell><Data ss:Type="String">古老机器之怒</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">WRATH_OF_THE_OLD_MACHINES</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Order an orbiting satellite to blast a {WrathTotalRadius} hex radius, dealing damage and staggering those hit. This damage is reduced the further from the center hex a unit is.</Data></Cell><Cell><Data ss:Type="String">命令轨道卫星对 {WrathTotalRadius} 单元格半径内范围进行轰炸，造成伤害并附加动摇效果。攻击力随目标单元离单元格中心距离增加而递减。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SMART_ROUNDS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Smart Rounds</Data></Cell><Cell><Data ss:Type="String">智能回环击</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SMART_ROUNDS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">When shooting at a target, this unit's Firearm attacks ignore cover and unit in the way penalties.</Data></Cell><Cell><Data ss:Type="String">该单位攻击目标时，枪炮攻击可无视因掩体和阻挡单位造成的惩罚。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">OVERCHARGER_AUGMENT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Overcharger Augment</Data></Cell><Cell><Data ss:Type="String">过载强化</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">OVERCHARGER_AUGMENT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Allows the unit to [abilityblue]Overcharge[/abilityblue] themselves, granting them new abilities, increased damage and changing their Kinetic attacks to Arc for {OverchargeDuration}.</Data></Cell><Cell><Data ss:Type="String">允许该单位[abilityblue]过载[/abilityblue]自身，赋予单位新的技能并提升单位的攻击力，并将其动能攻击变为电弧攻击，持续 {OverchargeDuration}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REACTIVE_SHIELDING</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Reactive Shielding</Data></Cell><Cell><Data ss:Type="String">应激护盾</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">REACTIVE_SHIELDING</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Whenever this unit is struck by a ranged attack, it gains +{ShieldReact}, for {ShieldReactTurn}. This effect can stack.</Data></Cell><Cell><Data ss:Type="String">该单位受到远程攻击后，会获得 +{ShieldReact} 加成，持续 {ShieldReactTurn}。该效果可叠加。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REACTIVE_SHIELDING</Data></Cell><Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has +{ShieldReact} per stack.</Data></Cell><Cell><Data ss:Type="String">该单位每次叠加可获得 {ShieldReact} 加成。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">COMBAT_PROTOCOL_IMPLANTS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Combat Protocol Implants</Data></Cell><Cell><Data ss:Type="String">战斗协议植入体</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">COMBAT_PROTOCOL_IMPLANTS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">These implants make the unit quicker on the battlefield, granting it {CombatImplantsAccCrit} increased accuracy and critical hit chance, as well as making this unit {CombatImplantEvasion} harder to hit.</Data></Cell><Cell><Data ss:Type="String">这些植入体可在提升单位在战斗中的速度，提高 {CombatImplantsAccCrit} 准度和暴击率，命中难度增加 {CombatImplantEvasion}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LAUNCH_TORPEDO</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Launch Torpedo</Data></Cell><Cell><Data ss:Type="String">发射鱼雷</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LAUNCH_TORPEDO</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Launch an Auto-Torpedo.</Data></Cell><Cell><Data ss:Type="String">发射自动鱼雷。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HEAVY_DECK_GUN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Heavy Deck Gun</Data></Cell><Cell><Data ss:Type="String">重型甲板炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HEAVY_DECK_GUN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a Heavy Deck Gun at the target.</Data></Cell><Cell><Data ss:Type="String">向目标发射重型甲板炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SELF_DESTRUCT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Self-destruct</Data></Cell><Cell><Data ss:Type="String">自毁</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SELF_DESTRUCT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Explode, dealing heavy damage to all units adjacent to the torpedo.</Data></Cell><Cell><Data ss:Type="String">具备自爆功能，可对所有相邻单位造成重伤。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXTRA_DAMAGE_MECHANICAL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Extra Damage vs. Mechanical</Data></Cell><Cell><Data ss:Type="String">对机械单位造成额外伤害</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXTRA_DAMAGE_MECHANICAL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{ExtraMechaDamage} damage against Mechanical units.</Data></Cell><Cell><Data ss:Type="String">对机械单位造成 {ExtraMechaDamage} 额外伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LAUNCH_BLAZE_TORPEDO</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Launch Blaze Torpedo</Data></Cell><Cell><Data ss:Type="String">发射爆炸鱼雷</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LAUNCH_BLAZE_TORPEDO</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Launch a Blaze Auto-Torpedo.</Data></Cell><Cell><Data ss:Type="String">发射自动爆炸鱼雷</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INFERNO_SHELL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Inferno Shell</Data></Cell><Cell><Data ss:Type="String">炼狱炮弹</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INFERNO_SHELL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a shell full of flaming oil, spreading a Thermal Spill around the target unit when hit.</Data></Cell><Cell><Data ss:Type="String">向目标发射饱含燃油的炮弹，击中后在目标单位周围造成火焰溅射效果。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLAZE_SELF_DESTRUCT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Blaze Self-destruct</Data></Cell><Cell><Data ss:Type="String">自毁烈火</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">BLAZE_SELF_DESTRUCT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Explode, dealing Thermal damage to all units adjacent to the torpedo and creating a hazard in the water.</Data></Cell><Cell><Data ss:Type="String">具备爆炸功能，可对相邻鱼雷的所有单位造成热能伤害，并在水中制造一片灾害区。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RAILGUN_CANNON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Railgun Cannon</Data></Cell><Cell><Data ss:Type="String">轨道轰天炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RAILGUN_CANNON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a Railgun at the target.</Data></Cell><Cell><Data ss:Type="String">向目标发射轨道炮。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SMOKESCREEN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Smokescreen</Data></Cell><Cell><Data ss:Type="String">烟幕</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SMOKESCREEN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Disperse smoke around the unit, [abilityblue]Concealing[/abilityblue] it and adjacent units, making them {AccObscure} harder to hit.</Data></Cell><Cell><Data ss:Type="String">在单位四周施放烟雾，[abilityblue]隐藏[/abilityblue]该单位及其相邻单位，命中难度增加 {AccObscure}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REPAIR_NANITES</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Repair Nanites</Data></Cell><Cell><Data ss:Type="String">修复纳米机器人</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">REPAIR_NANITES</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Spread nanites over a {hexrad} hex radius area that heals units for {RepairNanitesAmount}[HP/].</Data></Cell><Cell><Data ss:Type="String">在 {hexrad} 单元格半径范围区域内布置纳米机器人，为单位恢复 {RepairNanitesAmount}[HP/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">THERMAL_SPILL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Thermal Spill</Data></Cell><Cell><Data ss:Type="String">烈焰溅射</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">THERMAL_SPILL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Deal {ThermalSpill} damage to units that move through or end their turn in this hazard.</Data></Cell><Cell><Data ss:Type="String">通过该灾害或回合结束时位于该灾害的单位受到 {ThermalSpill} 伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MALFUNCTIONING</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Malfunctioning</Data></Cell><Cell><Data ss:Type="String">故障</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MALFUNCTIONING</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot act this turn.</Data></Cell><Cell><Data ss:Type="String">该单位无法在该回合行动。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IMPERIAL_AUGMENTS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Imperial Augments</Data></Cell><Cell><Data ss:Type="String">帝国强化装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">IMPERIAL_AUGMENTS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This Cyborg is mostly composed of weakened augments and parts. If Overcharged, this unit gains increased attack, deals Arc damage and may gain additional abilities.</Data></Cell><Cell><Data ss:Type="String">这类半机械人通常由弱化的增强设备和组件构成。若加以过载，该单位攻击力会获得提升，造成电弧伤害，甚至获得额外的技能。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">APC_TACTICAL_SCANNERS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">APC Tactical Scanners</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">APC 战术扫描器</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">APC_TACTICAL_SCANNERS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Start the APC scanners up to give targeting information to all friendly units, increasing both accuracy by {APCScannerACC} and morale by {APCScannerMorale} for {APCScannersTurn}[turn/].</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">启动自动相位控制扫描器，向所有友军单位共享目标信息，提升 {APCScannerACC} 准度，提升 {APCScannerMorale} 士气，持续 {APCScannersTurn}[turn/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">APC_TACTICAL_SCANNERS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION_EFFECT</Data></Cell><Cell><Data ss:Type="String">This unit has {APCScannerACC} increased accuracy and +{APCScannerMorale}.</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">该单位获得 {APCScannerACC} 准度和 {APCScannerMorale}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">APC_TACTICAL_RETREAT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">APC Tactical Retreat</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">自动相位控制战术撤退</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">APC_TACTICAL_RETREAT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Target a friendly unit, telling it to leave combat.[br/][br/]Only works when this unit is the attacker in tactical combat.</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">选择友军单位，通知其撤离战斗。[br/][br/]仅在该单位作为战术战斗攻击方时有效。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REACTIVE_SHIELDING</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Reactive</Data></Cell><Cell><Data ss:Type="String">应激</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REACTIVE_SHIELDING</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Pre-shielded</Data></Cell><Cell><Data ss:Type="String">预先防护</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REACTIVE_SHIELDING</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Safeguard</Data></Cell><Cell><Data ss:Type="String">保护措施</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REACTIVE_SHIELDING</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Preventive</Data></Cell><Cell><Data ss:Type="String">预防性</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REACTIVE_SHIELDING</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Holo Screen</Data></Cell><Cell><Data ss:Type="String">全息屏幕</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REACTIVE_SHIELDING</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Shield Grid</Data></Cell><Cell><Data ss:Type="String">防护网</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">COMBAT_PROTOCOL_IMPLANTS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Routinary</Data></Cell><Cell><Data ss:Type="String">循环</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">COMBAT_PROTOCOL_IMPLANTS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Regimen</Data></Cell><Cell><Data ss:Type="String">政体</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">COMBAT_PROTOCOL_IMPLANTS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Drilled</Data></Cell><Cell><Data ss:Type="String">已经过演练</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">COMBAT_PROTOCOL_IMPLANTS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Disciplined</Data></Cell><Cell><Data ss:Type="String">纪律严明</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">COMBAT_PROTOCOL_IMPLANTS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Combat Primed</Data></Cell><Cell><Data ss:Type="String">战斗就绪</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">COMBAT_PROTOCOL_IMPLANTS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Trained</Data></Cell><Cell><Data ss:Type="String">已经过训练</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">COMBAT_PROTOCOL_IMPLANTS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Obligated</Data></Cell><Cell><Data ss:Type="String">责无旁贷</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">OVERCHARGER_AUGMENT</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Abundant</Data></Cell><Cell><Data ss:Type="String">丰富充裕</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">OVERCHARGER_AUGMENT</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Superfluous</Data></Cell><Cell><Data ss:Type="String">多余的</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">OVERCHARGER_AUGMENT</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Hypercharged</Data></Cell><Cell><Data ss:Type="String">超载</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">OVERCHARGER_AUGMENT</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Rapture</Data></Cell><Cell><Data ss:Type="String">兴高采烈</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">OVERCHARGER_AUGMENT</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Rhapsodized</Data></Cell><Cell><Data ss:Type="String">狂热溢美</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">OVERCHARGER_AUGMENT</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Packed</Data></Cell><Cell><Data ss:Type="String">已封装</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SMART_ROUNDS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Stargazer</Data></Cell><Cell><Data ss:Type="String">星辰凝视者</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SMART_ROUNDS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Gun Bender</Data></Cell><Cell><Data ss:Type="String">枪炮弯曲机</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SMART_ROUNDS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Trace Curver</Data></Cell><Cell><Data ss:Type="String">踪迹曲线</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SMART_ROUNDS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Trajectory</Data></Cell><Cell><Data ss:Type="String">弹道</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SMART_ROUNDS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Gambit</Data></Cell><Cell><Data ss:Type="String">开局战术</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SMART_ROUNDS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s59"><Data ss:Type="String">Omnimarker</Data></Cell><Cell><Data ss:Type="String">全能信标</Data></Cell><Cell ss:Index="9" ss:StyleID="s59"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PEACEKEEPER_TURRET</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Fire Peacekeeper Burst</Data></Cell><Cell><Data ss:Type="String">发射和平使者炮弹</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PEACEKEEPER_TURRET</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a burst from the Peacekeeper turret's six barrels.</Data></Cell><Cell><Data ss:Type="String">使用和平使者炮塔的六门炮管发射炮弹。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TIME_RAVAGED</Data></Cell><Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell><Cell><Data ss:Type="String">Time Ravaged</Data></Cell><Cell><Data ss:Type="String">时间摧残</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TIME_RAVAGED</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Time has not been kind to this unit, at the start of every turn it has a {MalfunctionChance} strength chance to suffer [abilityred]Malfunctioning[/abilityred].</Data></Cell><Cell><Data ss:Type="String">时间对这个单位并不友好。每回合开始时，该单位有 {MalfunctionChance} 力量几率遭受[abilityred]故障[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">APC_TACTICAL_SCANNERS</Data></Cell><Cell><Data ss:Type="String">NAME_EFFECT</Data></Cell><Cell><Data ss:Type="String">APC Tactical Scanner Support</Data></Cell><Cell><Data ss:Type="String">APC 战术扫描器支持</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Selected/><Panes><Pane><Number>3</Number><ActiveRow>7</ActiveRow><ActiveCol>4</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:51:05Z</Created><LastSaved
+    >2019-06-25T15:51:05Z</LastSaved><Version
+    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX
+    >0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s57"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s58"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s59"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s57"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="173.25" /><Column
+        ss:StyleID="s57"
+        ss:AutoFitWidth="0"
+        ss:Width="123"
+      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="456.75" /><Column
+        ss:StyleID="s57"
+        ss:AutoFitWidth="0"
+        ss:Width="182.25"
+      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="275.25" /><Column
+        ss:StyleID="s57"
+        ss:AutoFitWidth="0"
+        ss:Width="131.25"
+      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="444.75" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">PARAGON_UNITPROPERTIES</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BLAST_CANNON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blast Cannon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >神威大炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BLAST_CANNON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a heavy blast cannon, dealing damage in a 1 hex radius.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发射神威大炮，在 1 单元格半径范围内造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CALL_IN_REINFORCEMENTS</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Call in Reinforcements</Data></Cell><Cell><Data
+            ss:Type="String"
+          >召集援军</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CALL_IN_REINFORCEMENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Call in Paragon reinforcements to aid in the battle.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >召集完人援军，助你一臂之力。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DEFENSE_BLASTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defense Blaster</Data></Cell><Cell><Data
+            ss:Type="String"
+          >攻城兵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DEFENSE_BLASTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire the defensive blaster hidden in the floating throne.</Data></Cell><Cell
+        ><Data ss:Type="String">干掉漂浮王座中的攻城兵。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENERGY_SHIELD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Energy Shield</Data></Cell><Cell><Data
+            ss:Type="String"
+          >能量护盾</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENERGY_SHIELD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Flanking attacks against this unit ignore up to {EnergyShields}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位可无视最多 {EnergyShields} 的包抄攻击。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEAVY_REPEATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heavy Repeater</Data></Cell><Cell><Data
+            ss:Type="String"
+          >重型连发枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HEAVY_REPEATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire the Heavy Repeater at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用重型连发枪攻击目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OVERDRIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Overdrive</Data></Cell><Cell><Data
+            ss:Type="String"
+          >过载</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">OVERDRIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hack into target Paragon unit with Imperial Augments, causing them to [abilityblue]Overcharge[/abilityblue], granting them new abilities, increased damage and changing their Kinetic attacks to Arc for {OverchargeDuration}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >借助帝国强化装备黑进目标完人单位，使目标[abilityblue]过载[/abilityblue]，赋予单位新的技能并提升单位的攻击力，并将其动能攻击变为电弧攻击，持续 {OverchargeDuration}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OVERDRIVE_PULSE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Overdrive Field</Data></Cell><Cell><Data
+            ss:Type="String"
+          >过载场</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">OVERDRIVE_PULSE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A mass hack into all friendly Paragon units with Imperial Augments, causing them to [abilityblue]Overcharge[/abilityblue], granting the units new abilities, increased damage and changing their Kinetic attacks to Arc for {OverchargeDuration}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >借助帝国强化装备黑进所有友方完人单位，造成目标[abilityblue]过载[/abilityblue]，赋予单位新的技能并提升单位的攻击力，并将其动能攻击变为电弧攻击，持续 {OverchargeDuration}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OVERCHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Overcharged</Data></Cell><Cell><Data
+            ss:Type="String"
+          >已过载</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">OVERCHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit now deals Arc damage and becomes more effective. If they become [abilityred]Staggered[/abilityred], they lose this effect.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位现在可以造成电弧伤害，攻击力获得提升。若他们进入[abilityred]动摇[/abilityred]效果，该效果失效。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AUGMENTED_ASSAULT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Augmented Assault</Data></Cell><Cell><Data
+            ss:Type="String"
+          >强化攻袭</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AUGMENTED_ASSAULT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit gains Fast movement, one level of Stagger Resistance and +{OverchargeShields}[shield/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位获得迅捷移动、1 层动摇抵抗以及 + {OverchargeShields}[shield/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">UNSTABLE_AUGMENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unstable Augments</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不稳定强化</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">UNSTABLE_AUGMENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >On death, this unit will explode in a {UnstableExplosionRadius} hex radius, dealing {UnstableDamage} damage, and [abilityred]Staggering[/abilityred] those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >死亡时，该单位可对 {UnstableExplosionRadius} 个单元格范围内造成爆炸，造成 {UnstableDamage} 伤害，并[abilityred]动摇[/abilityred]命中的单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PARAGON_BLASTER_PISTOL</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Paragon Blaster Pistol</Data></Cell><Cell><Data
+            ss:Type="String"
+          >完人冲击手枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PARAGON_BLASTER_PISTOL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire the Blaster at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用冲击手枪攻击目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PHASE_AUGMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Activate Phase Augment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >激活相位强化</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PHASE_AUGMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Using their specialized phase augments, this unit can teleport up to {PhaseTeleportRange} hexes away.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >借助独特的相位强化技能，该单位传送至最多 {PhaseTeleportRange} 单元格之外。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PULSE_SLAM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Pulse Slam</Data></Cell><Cell><Data
+            ss:Type="String"
+          >脉冲暴击</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PULSE_SLAM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit slams their weapon on the ground, unleashing a pulse wave from their augments that damages all adjacent units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位可将地方武器击落在地，并从强化装备中施放脉冲波，对所有相邻单位造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SHIELD_CHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shield Charge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >护盾冲锋</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SHIELD_CHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit charges forward, [abilityred]knocking back[/abilityred] its target and taking its place. Can only target Light units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位一马当先，[abilityred]击退[/abilityred]目标，然后占据目标位置。仅能以轻型单位为目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SHOCK_SPEAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shock Spear</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电击长矛</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SHOCK_SPEAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Stab the target with this unit's spear.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用该单位装备的长矛刺伤敌人。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TARGETING_JAMMERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Targeting Jammers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >定向干扰发射机</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">TARGETING_JAMMERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is {TargetingAccuracyDecrease} harder to hit with attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的命中难度增加 {TargetingAccuracyDecrease}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">WRATH_OF_THE_OLD_MACHINES</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Wrath of the Old Machines</Data></Cell><Cell><Data
+            ss:Type="String"
+          >古老机器之怒</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">WRATH_OF_THE_OLD_MACHINES</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Order an orbiting satellite to blast a {WrathTotalRadius} hex radius, dealing damage and staggering those hit. This damage is reduced the further from the center hex a unit is.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >命令轨道卫星对 {WrathTotalRadius} 单元格半径内范围进行轰炸，造成伤害并附加动摇效果。攻击力随目标单元离单元格中心距离增加而递减。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SMART_ROUNDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Smart Rounds</Data></Cell><Cell><Data
+            ss:Type="String"
+          >智能回环击</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SMART_ROUNDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >When shooting at a target, this unit's Firearm attacks ignore cover and unit in the way penalties.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位攻击目标时，枪炮攻击可无视因掩体和阻挡单位造成的惩罚。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OVERCHARGER_AUGMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Overcharger Augment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >过载强化</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">OVERCHARGER_AUGMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Allows the unit to [abilityblue]Overcharge[/abilityblue] themselves, granting them new abilities, increased damage and changing their Kinetic attacks to Arc for {OverchargeDuration}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >允许该单位[abilityblue]过载[/abilityblue]自身，赋予单位新的技能并提升单位的攻击力，并将其动能攻击变为电弧攻击，持续 {OverchargeDuration}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REACTIVE_SHIELDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reactive Shielding</Data></Cell><Cell><Data
+            ss:Type="String"
+          >应激护盾</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">REACTIVE_SHIELDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Whenever this unit is struck by a ranged attack, it gains +{ShieldReact}, for {ShieldReactTurn}. This effect can stack.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位受到远程攻击后，会获得 +{ShieldReact} 加成，持续 {ShieldReactTurn}。该效果可叠加。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REACTIVE_SHIELDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROP_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has +{ShieldReact} per stack.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >该单位每次叠加可获得 {ShieldReact} 加成。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COMBAT_PROTOCOL_IMPLANTS</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Combat Protocol Implants</Data></Cell><Cell><Data
+            ss:Type="String"
+          >战斗协议植入体</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">COMBAT_PROTOCOL_IMPLANTS</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >These implants make the unit quicker on the battlefield, granting it {CombatImplantsAccCrit} increased accuracy and critical hit chance, as well as making this unit {CombatImplantEvasion} harder to hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这些植入体可在提升单位在战斗中的速度，提高 {CombatImplantsAccCrit} 准度和暴击率，命中难度增加 {CombatImplantEvasion}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LAUNCH_TORPEDO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch Torpedo</Data></Cell><Cell><Data
+            ss:Type="String"
+          >发射鱼雷</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >LAUNCH_TORPEDO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch an Auto-Torpedo.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >发射自动鱼雷。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">HEAVY_DECK_GUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heavy Deck Gun</Data></Cell><Cell><Data
+            ss:Type="String"
+          >重型甲板炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HEAVY_DECK_GUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a Heavy Deck Gun at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向目标发射重型甲板炮</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SELF_DESTRUCT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Self-destruct</Data></Cell><Cell><Data
+            ss:Type="String"
+          >自毁</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SELF_DESTRUCT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Explode, dealing heavy damage to all units adjacent to the torpedo.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >具备自爆功能，可对所有相邻单位造成重伤。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXTRA_DAMAGE_MECHANICAL</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Extra Damage vs. Mechanical</Data></Cell><Cell><Data
+            ss:Type="String"
+          >对机械单位造成额外伤害</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXTRA_DAMAGE_MECHANICAL</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{ExtraMechaDamage} damage against Mechanical units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >对机械单位造成 {ExtraMechaDamage} 额外伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LAUNCH_BLAZE_TORPEDO</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch Blaze Torpedo</Data></Cell><Cell><Data
+            ss:Type="String"
+          >发射爆炸鱼雷</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >LAUNCH_BLAZE_TORPEDO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch a Blaze Auto-Torpedo.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >发射自动爆炸鱼雷</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">INFERNO_SHELL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Inferno Shell</Data></Cell><Cell><Data
+            ss:Type="String"
+          >炼狱炮弹</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >INFERNO_SHELL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a shell full of flaming oil, spreading a Thermal Spill around the target unit when hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标发射饱含燃油的炮弹，击中后在目标单位周围造成火焰溅射效果。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BLAZE_SELF_DESTRUCT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blaze Self-destruct</Data></Cell><Cell><Data
+            ss:Type="String"
+          >自毁烈火</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">BLAZE_SELF_DESTRUCT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Explode, dealing Thermal damage to all units adjacent to the torpedo and creating a hazard in the water.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >具备爆炸功能，可对相邻鱼雷的所有单位造成热能伤害，并在水中制造一片灾害区。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RAILGUN_CANNON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Railgun Cannon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >轨道轰天炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RAILGUN_CANNON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a Railgun at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向目标发射轨道炮。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">SMOKESCREEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Smokescreen</Data></Cell><Cell><Data
+            ss:Type="String"
+          >烟幕</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SMOKESCREEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Disperse smoke around the unit, [abilityblue]Concealing[/abilityblue] it and adjacent units, making them {AccObscure} harder to hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在单位四周施放烟雾，[abilityblue]隐藏[/abilityblue]该单位及其相邻单位，命中难度增加 {AccObscure}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REPAIR_NANITES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Repair Nanites</Data></Cell><Cell><Data
+            ss:Type="String"
+          >修复纳米机器人</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">REPAIR_NANITES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spread nanites over a {hexrad} hex radius area that heals units for {RepairNanitesAmount}[HP/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在 {hexrad} 单元格半径范围区域内布置纳米机器人，为单位恢复 {RepairNanitesAmount}[HP/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">THERMAL_SPILL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thermal Spill</Data></Cell><Cell><Data
+            ss:Type="String"
+          >烈焰溅射</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >THERMAL_SPILL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deal {ThermalSpill} damage to units that move through or end their turn in this hazard.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >通过该灾害或回合结束时位于该灾害的单位受到 {ThermalSpill} 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MALFUNCTIONING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Malfunctioning</Data></Cell><Cell><Data
+            ss:Type="String"
+          >故障</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MALFUNCTIONING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot act this turn.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >该单位无法在该回合行动。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IMPERIAL_AUGMENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Augments</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国强化装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">IMPERIAL_AUGMENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This Cyborg is mostly composed of weakened augments and parts. If Overcharged, this unit gains increased attack, deals Arc damage and may gain additional abilities.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这类半机械人通常由弱化的增强设备和组件构成。若加以过载，该单位攻击力会获得提升，造成电弧伤害，甚至获得额外的技能。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">APC_TACTICAL_SCANNERS</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >APC Tactical Scanners</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >APC 战术扫描器</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">APC_TACTICAL_SCANNERS</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Start the APC scanners up to give targeting information to all friendly units, increasing both accuracy by {APCScannerACC} and morale by {APCScannerMorale} for {APCScannersTurn}[turn/].</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >启动自动相位控制扫描器，向所有友军单位共享目标信息，提升 {APCScannerACC} 准度，提升 {APCScannerMorale} 士气，持续 {APCScannersTurn}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">APC_TACTICAL_SCANNERS</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has {APCScannerACC} increased accuracy and +{APCScannerMorale}.</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >该单位获得 {APCScannerACC} 准度和 {APCScannerMorale}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">APC_TACTICAL_RETREAT</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >APC Tactical Retreat</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >自动相位控制战术撤退</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">APC_TACTICAL_RETREAT</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target a friendly unit, telling it to leave combat.[br/][br/]Only works when this unit is the attacker in tactical combat.</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >选择友军单位，通知其撤离战斗。[br/][br/]仅在该单位作为战术战斗攻击方时有效。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REACTIVE_SHIELDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Reactive</Data></Cell><Cell><Data
+            ss:Type="String"
+          >应激</Data></Cell><Cell ss:Index="9" ss:StyleID="s59" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REACTIVE_SHIELDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Pre-shielded</Data></Cell><Cell><Data
+            ss:Type="String"
+          >预先防护</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s59"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >REACTIVE_SHIELDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Safeguard</Data></Cell><Cell><Data
+            ss:Type="String"
+          >保护措施</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s59"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >REACTIVE_SHIELDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Preventive</Data></Cell><Cell><Data
+            ss:Type="String"
+          >预防性</Data></Cell><Cell ss:Index="9" ss:StyleID="s59" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REACTIVE_SHIELDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Holo Screen</Data></Cell><Cell><Data
+            ss:Type="String"
+          >全息屏幕</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s59"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >REACTIVE_SHIELDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Shield Grid</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防护网</Data></Cell><Cell ss:Index="9" ss:StyleID="s59" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COMBAT_PROTOCOL_IMPLANTS</Data></Cell><Cell
+        ><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell
+          ss:StyleID="s59"
+        ><Data ss:Type="String">Routinary</Data></Cell><Cell><Data
+            ss:Type="String"
+          >循环</Data></Cell><Cell ss:Index="9" ss:StyleID="s59" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COMBAT_PROTOCOL_IMPLANTS</Data></Cell><Cell
+        ><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell
+          ss:StyleID="s59"
+        ><Data ss:Type="String">Regimen</Data></Cell><Cell><Data
+            ss:Type="String"
+          >政体</Data></Cell><Cell ss:Index="9" ss:StyleID="s59" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COMBAT_PROTOCOL_IMPLANTS</Data></Cell><Cell
+        ><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell
+          ss:StyleID="s59"
+        ><Data ss:Type="String">Drilled</Data></Cell><Cell><Data
+            ss:Type="String"
+          >已经过演练</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s59"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >COMBAT_PROTOCOL_IMPLANTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Disciplined</Data></Cell><Cell><Data
+            ss:Type="String"
+          >纪律严明</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s59"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >COMBAT_PROTOCOL_IMPLANTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Combat Primed</Data></Cell><Cell><Data
+            ss:Type="String"
+          >战斗就绪</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s59"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >COMBAT_PROTOCOL_IMPLANTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Trained</Data></Cell><Cell><Data
+            ss:Type="String"
+          >已经过训练</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s59"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >COMBAT_PROTOCOL_IMPLANTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_7</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Obligated</Data></Cell><Cell><Data
+            ss:Type="String"
+          >责无旁贷</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s59"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >OVERCHARGER_AUGMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Abundant</Data></Cell><Cell><Data
+            ss:Type="String"
+          >丰富充裕</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s59"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >OVERCHARGER_AUGMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Superfluous</Data></Cell><Cell><Data
+            ss:Type="String"
+          >多余的</Data></Cell><Cell ss:Index="9" ss:StyleID="s59" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OVERCHARGER_AUGMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Hypercharged</Data></Cell><Cell><Data
+            ss:Type="String"
+          >超载</Data></Cell><Cell ss:Index="9" ss:StyleID="s59" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OVERCHARGER_AUGMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Rapture</Data></Cell><Cell><Data
+            ss:Type="String"
+          >兴高采烈</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s59"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >OVERCHARGER_AUGMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Rhapsodized</Data></Cell><Cell><Data
+            ss:Type="String"
+          >狂热溢美</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s59"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >OVERCHARGER_AUGMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Packed</Data></Cell><Cell><Data
+            ss:Type="String"
+          >已封装</Data></Cell><Cell ss:Index="9" ss:StyleID="s59" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SMART_ROUNDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Stargazer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >星辰凝视者</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s59"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SMART_ROUNDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Gun Bender</Data></Cell><Cell><Data
+            ss:Type="String"
+          >枪炮弯曲机</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s59"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SMART_ROUNDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Trace Curver</Data></Cell><Cell><Data
+            ss:Type="String"
+          >踪迹曲线</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s59"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SMART_ROUNDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Trajectory</Data></Cell><Cell><Data
+            ss:Type="String"
+          >弹道</Data></Cell><Cell ss:Index="9" ss:StyleID="s59" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SMART_ROUNDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Gambit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >开局战术</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s59"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SMART_ROUNDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >Omnimarker</Data></Cell><Cell><Data
+            ss:Type="String"
+          >全能信标</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s59"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PEACEKEEPER_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire Peacekeeper Burst</Data></Cell><Cell><Data
+            ss:Type="String"
+          >发射和平使者炮弹</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PEACEKEEPER_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a burst from the Peacekeeper turret's six barrels.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用和平使者炮塔的六门炮管发射炮弹。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TIME_RAVAGED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Time Ravaged</Data></Cell><Cell><Data
+            ss:Type="String"
+          >时间摧残</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >TIME_RAVAGED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Time has not been kind to this unit, at the start of every turn it has a {MalfunctionChance} strength chance to suffer [abilityred]Malfunctioning[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >时间对这个单位并不友好。每回合开始时，该单位有 {MalfunctionChance} 力量几率遭受[abilityred]故障[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">APC_TACTICAL_SCANNERS</Data></Cell><Cell
+        ><Data ss:Type="String">NAME_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >APC Tactical Scanner Support</Data></Cell><Cell><Data
+            ss:Type="String"
+          >APC 战术扫描器支持</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><Panes><Pane><Number
+          >3</Number><ActiveRow>7</ActiveRow><ActiveCol
+          >4</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

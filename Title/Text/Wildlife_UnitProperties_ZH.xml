@@ -1,1 +1,1213 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:57:47Z</Created><LastSaved>2019-06-25T15:57:47Z</LastSaved><Version>15.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX>0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s57"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style><Style ss:ID="s58"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Interior/></Style><Style ss:ID="s59"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/></Style><Style ss:ID="s60"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s57" ss:DefaultColumnWidth="242.25" ss:DefaultRowHeight="15"><Column ss:StyleID="s57" ss:Width="189"/><Column ss:StyleID="s57" ss:Width="117.75"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="281.25"/><Column ss:StyleID="s57" ss:Width="147.75"/><Column ss:StyleID="s57" ss:Width="243"/><Column ss:StyleID="s57" ss:Width="120"/><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">WILDLIFE_UNITPROPERTIES</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Bite</Data></Cell><Cell><Data ss:Type="String">啃咬</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A melee bite attack.</Data></Cell><Cell><Data ss:Type="String">近战啃咬攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PINCER_ATTACK</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Pincer Attack</Data></Cell><Cell><Data ss:Type="String">螯击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PINCER_ATTACK</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A melee pincer attack.</Data></Cell><Cell><Data ss:Type="String">近战螯击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CLAW_STRIKE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Claw Strike</Data></Cell><Cell><Data ss:Type="String">爪击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CLAW_STRIKE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A melee claw strike attack.</Data></Cell><Cell><Data ss:Type="String">近战爪击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">WIDE_SLASH</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Wide Slash</Data></Cell><Cell><Data ss:Type="String">大幅挥砍</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">WIDE_SLASH</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A wide melee slash that hits multiple units in front of the user.</Data></Cell><Cell><Data ss:Type="String">大范围近战砍击，能够攻击使用者前方多个单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BASH</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Wild Bash</Data></Cell><Cell><Data ss:Type="String">狂野猛击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BASH</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A melee bash attack.</Data></Cell><Cell><Data ss:Type="String">近战猛击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SLAM</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Slam</Data></Cell><Cell><Data ss:Type="String">摔击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SLAM</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A melee slam attack.</Data></Cell><Cell><Data ss:Type="String">近战摔击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STING</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Sting</Data></Cell><Cell><Data ss:Type="String">穿刺</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STING</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A melee sting attack.</Data></Cell><Cell><Data ss:Type="String">近战穿刺攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FLAME_JET</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Flame Jet</Data></Cell><Cell><Data ss:Type="String">火焰喷嘴</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FLAME_JET</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Shoot intense flames in a 2 hex cone.</Data></Cell><Cell><Data ss:Type="String">向 2 个扇形单元格范围喷射剧烈火焰。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">UNDERMINE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Undermine</Data></Cell><Cell><Data ss:Type="String">暗中破坏</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">UNDERMINE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unit tunnels to target hex, erupting from the earth and dealing damage to all adjacent units.</Data></Cell><Cell><Data ss:Type="String">单位挖掘隧道前往目标单元格并从地底冲出，对所有相邻单位造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INFERNAL_BITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Infernal Bite</Data></Cell><Cell><Data ss:Type="String">地狱啃咬</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INFERNAL_BITE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Maw attack that crushes a target.</Data></Cell><Cell><Data ss:Type="String">可以粉碎目标的啃咬攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INFERNAL_BITE</Data></Cell><Cell><Data ss:Type="String">MOD_NAME</Data></Cell><Cell><Data ss:Type="String">Swallow Whole</Data></Cell><Cell><Data ss:Type="String">生吞</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">INFERNAL_BITE</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{SwallowwholeSTRchance} strength chance to [abilityred]Devour[/abilityred] Light units.</Data></Cell><Cell><Data ss:Type="String">有 {SwallowwholeSTRchance} 力量几率[abilityred]吞噬[/abilityred]轻型单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LAUNCH_QUARTZITE_CRYSTAL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Crystal Burst</Data></Cell><Cell><Data ss:Type="String">水晶爆发</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">LAUNCH_QUARTZITE_CRYSTAL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Launch a crystal that bursts in electricity, dealing Arc damage in a {hexrad} hex radius. If there are any Mineral units in this area, they heal for {Hpcrystalheal} instead.</Data></Cell><Cell><Data ss:Type="String">发射能够迸发出电流的水晶，对 {hexrad} 个单元格范围造成伤害。如果范围内存在任何矿物单位，这些单位将治疗 {Hpcrystalheal}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STATIC_AURA</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Static Aura</Data></Cell><Cell><Data ss:Type="String">静电光环</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">STATIC_AURA</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">At the start of this unit's turn, non-Mineral units in a 3 hex radius of this unit suffer [abilityred]Static Charge[/abilityred].</Data></Cell><Cell><Data ss:Type="String">该单位回合开始时，位于其 3 个单元格范围内的非矿物单位受到[abilityred]静电电荷[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LIGHTNING_DISCHARGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Lightning Discharge</Data></Cell><Cell><Data ss:Type="String">闪电倾泻</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">LIGHTNING_DISCHARGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Discharge an arc current at the target, damaging them and then jumping to new targets within {hexrangejump} hexes up to {jumptimes} times.</Data></Cell><Cell><Data ss:Type="String">向目标释放电弧电流，伤害目标且电弧电流随后将弹跳至目标 {hexrangejump} 个单元格范围内的其他目标，最多弹跳 {jumptimes} 次。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CRYSTAL_SELF_DESTRUCT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Crystal Self Destruct</Data></Cell><Cell><Data ss:Type="String">水晶自毁</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">CRYSTAL_SELF_DESTRUCT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The crystal destabilizes further and explodes, dealing Arc damage to adjacent units.</Data></Cell><Cell><Data ss:Type="String">水晶变得愈发不稳定，接着将会爆炸，对相邻单位造成电弧伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VINE_SLASH</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Vine Slash</Data></Cell><Cell><Data ss:Type="String">藤蔓鞭笞</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VINE_SLASH</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A slash with a vine tentacle.</Data></Cell><Cell><Data ss:Type="String">藤蔓触须鞭笞攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MAGMA_SPIT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Magma Spit</Data></Cell><Cell><Data ss:Type="String">熔岩喷涂</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MAGMA_SPIT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Spit balls of molten rock at the target.</Data></Cell><Cell><Data ss:Type="String">向目标喷吐熔化岩球。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CHAIN_DISCHARGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Chain Discharge</Data></Cell><Cell><Data ss:Type="String">连锁闪电</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">CHAIN_DISCHARGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Discharge an Arc pulse that also jumps to {ExtraTargeters} extra targets within a {Radius} hex range of the original.</Data></Cell><Cell><Data ss:Type="String">释放电弧脉冲攻击初始目标，电弧还会额外弹跳至初始目标 {Radius} 个单元格范围内 {ExtraTargeters} 个目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SLING_ARC_CRYSTAL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Sling Arc Crystal</Data></Cell><Cell><Data ss:Type="String">投掷电弧水晶</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SLING_ARC_CRYSTAL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Throw a chunk of crystalized Arc, damaging units in a {Hexrad} hex radius.</Data></Cell><Cell><Data ss:Type="String">投掷一大块晶化电弧，伤害 {Hexrad} 个单元格范围内的单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">SLING_MAGMA</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">Sling Magma</Data></Cell><Cell><Data ss:Type="String">投掷熔岩</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s58"><Data ss:Type="String">SLING_MAGMA</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">Throw a chunk of magma, damaging units in a {Hexrad} hex radius and creating a Thermal Hazard on the ground.</Data></Cell><Cell><Data ss:Type="String">投掷一大块熔岩，伤害 {Hexrad} 个单元格范围内的单位并在地面制造热能灾害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLAZING_INFUSION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Blazing Infusion</Data></Cell><Cell><Data ss:Type="String">燃烧灌注</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">BLAZING_INFUSION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit's attacks have a {BurnChance} strength chance to cause [abilityred]Burning[/abilityred] to non-Mineral and non-Ethereal targets for {BurnTurn}. At the start of this unit's turn, adjacent enemy units take {InfusionAdjacentDamage} damage, and adjacent Flame Quartzite units heal for {InfusionHeal}.</Data></Cell><Cell><Data ss:Type="String">该单位的攻击有 {BurnChance} 力量几率对非矿物和非虚灵目标造成[abilityred]燃烧[/abilityred]，持续 {BurnTurn}。该单位回合开始时，与其相邻的敌方单位会受到 {InfusionAdjacentDamage} 伤害，与其相邻的火焰石英岩兽单位则会治疗 {InfusionHeal}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FIERY_INFUSION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Fiery Infusion</Data></Cell><Cell><Data ss:Type="String">炽热灌注</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">FIERY_INFUSION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The unit's attacks have a {BurnChance} strength chance to cause [abilityred]Burning[/abilityred] to non-Mineral and non-Ethereal targets for {BurnTurn}.</Data></Cell><Cell><Data ss:Type="String">该单位的攻击有 {BurnChance} 力量几率对非矿物和非虚灵目标造成[abilityred]燃烧[/abilityred]，持续 {BurnTurn}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PARALYZING_INFUSION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Paralyzing Infusion</Data></Cell><Cell><Data ss:Type="String">瘫痪灌注</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">PARALYZING_INFUSION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit's attacks have a {StunChance} strength chance to cause [abilityred]Stunned[/abilityred] to non-Ethereal targets for {StunTurn}.</Data></Cell><Cell><Data ss:Type="String">该单位的攻击有 {StunChance} 力量几率使非虚灵目标[abilityred]晕眩[/abilityred]，持续 {StunTurn}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STURDY_SHELLS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Tempered Shells</Data></Cell><Cell><Data ss:Type="String">调节外壳</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STURDY_SHELLS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has +{KineticRes} resistance.</Data></Cell><Cell><Data ss:Type="String">该单位拥有 +{KineticRes} 抵抗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SUPERIOR_EVOLUTIONARY_MUTATION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Superior Evolutionary Mutation</Data></Cell><Cell><Data ss:Type="String">高级进化突变</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SUPERIOR_EVOLUTIONARY_MUTATION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is superior to others of its kind. It has +{MutationMorale}[happiness/] and +{ResistanceStatus} resistance to all status effects.</Data></Cell><Cell><Data ss:Type="String">该单位比其他同类级别高，拥有 +{MutationMorale}[happiness/]并且对所有状态效果拥有 +{ResistanceStatus} 抵抗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EVOLUTIONARY_MUTATION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Evolutionary Mutation</Data></Cell><Cell><Data ss:Type="String">进化突变</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">EVOLUTIONARY_MUTATION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is better than others of its kind. It has +{MutationMorale}[happiness/] and +{ResistanceStatus} resistance to all status effects.</Data></Cell><Cell><Data ss:Type="String">该单位比其他同类强，拥有 +{MutationMorale}[happiness/]并且对所有状态效果拥有 +{ResistanceStatus} 抵抗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLAGUE_CARRIER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Plague Carrier</Data></Cell><Cell><Data ss:Type="String">瘟疫携带者</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Edit: Plagued --&gt; Plague</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="120"><Cell><Data ss:Type="String">PLAGUE_CARRIER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is carrying a plague, causing adjacent Biological and Cyborg enemy units to take {ContaminationHaloDamage} damage at the end of this unit's turn, with a {BlightPlagueChance} strength chance of applying [abilityred]Blighted Plague[/abilityred]. This gives the enemy unit -{BlightMorale}, -{BlightAcc} accuracy on attacks and causes them to take {BlightDamage} damage per [turn/].</Data></Cell><Cell><Data ss:Type="String">该单位携带瘟疫。该单位回合结束时，相邻敌方生物和半机械人单位受到 {ContaminationHaloDamage} 伤害，并有 {BlightPlagueChance} 力量几率对其施加[abilityred]枯萎瘟疫[/abilityred]，使敌方单位 -{BlightMorale}和 -{BlightAcc} 攻击准度，并且每[turn/]受到 {BlightDamage} 伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CONTAMINATION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Contaminated Claws</Data></Cell><Cell><Data ss:Type="String">感染之爪</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">CONTAMINATION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit's melee attacks have a {ContaminatedChance} strength chance to cause [abilityred]Poisoned[/abilityred] to Biological and Cyborg units for {Poisonturn}</Data></Cell><Cell><Data ss:Type="String">该单位的近战攻击有 {ContaminatedChance} 力量几率使生物和半机械人单位[abilityred]中毒[/abilityred]，持续 {Poisonturn}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HARDENED-SCYTHING_CLAWS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Hardened Scything Claws</Data></Cell><Cell><Data ss:Type="String">强化镰刃爪</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">HARDENED-SCYTHING_CLAWS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Hardened claws give this unit's melee attacks one level of [abilityred]Stagger Impact[/abilityred] and a {BleedChance} strength chance to cause [abilityred]Bleeding[/abilityred].</Data></Cell><Cell><Data ss:Type="String">强化镰刃爪能够给予该单位 1 级[abilityred]动摇冲击[/abilityred]，并有 {BleedChance} 力量几率造成[abilityred]流血[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCYTHING_CLAWS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Scything Claws</Data></Cell><Cell><Data ss:Type="String">镰刃爪</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SCYTHING_CLAWS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">These unit's claws are sharper than others, giving this unit's melee attacks a {BleedChance} strength chance to cause [abilityred]Bleeding[/abilityred].</Data></Cell><Cell><Data ss:Type="String">这些单位的爪子锋利无比，使该单位的近战攻击有 {BleedChance} 力量几率造成[abilityred]流血[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">UNDYING_BEETLE_MOD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Undying Infection</Data></Cell><Cell><Data ss:Type="String">不死传染病</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INFECTION_X</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Infection X</Data></Cell><Cell><Data ss:Type="String">X 传染病</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">INFECTION_X</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is infected with an experimental virus that brings the dead back to life. When it is killed, it comes back to life {GhoulingTurns} later with {Ghoulinghealth}[hp/], -{GhoulingArmorReduction}, and its attacks deal +{GhoulingDamage} damage.[br/]This can only occur once per battle.</Data></Cell><Cell><Data ss:Type="String">该单位被一种能够起死回生的实验病毒所感染。该单位被击杀时，将在 {GhoulingTurns} 后以 {Ghoulinghealth}[hp/]和 -{GhoulingArmorReduction} 复活，但攻击能够造成 +{GhoulingDamage} 伤害。[br/]每次战斗只触发一次。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">INFECTION_X</Data></Cell><Cell><Data ss:Type="String">UNDYING_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has been revived by Infection X. It has less [armor/], but deals more damage.</Data></Cell><Cell><Data ss:Type="String">该单位已被 X 传染病复活，拥有更低[armor/]但会造成更多伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INFECTION_X</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{DamageIncreaseInfection}% increased damage.</Data></Cell><Cell><Data ss:Type="String">提升 {DamageIncreaseInfection}% 伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MINOR_INFECTION_X</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Minor Infection X</Data></Cell><Cell><Data ss:Type="String">轻微 X 传染病</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AXE_BEAK</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Axe Beak</Data></Cell><Cell><Data ss:Type="String">斧喙</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AXE_BEAK</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Melee attack with a sharp beak.</Data></Cell><Cell><Data ss:Type="String">使用尖锐的喙发动近战攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLAZE_SPIT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Blaze Spit</Data></Cell><Cell><Data ss:Type="String">烈焰喷吐</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLAZE_SPIT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Spit blazing saliva at a target.</Data></Cell><Cell><Data ss:Type="String">向目标喷吐燃烧的唾液。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INFLAME</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Inflame</Data></Cell><Cell><Data ss:Type="String">点火</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INFLAME</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Spew fire in a 2 hex cone.</Data></Cell><Cell><Data ss:Type="String">向 2 个单元格扇形范围喷吐火焰。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INFLAME</Data></Cell><Cell><Data ss:Type="String">MOD_NAME</Data></Cell><Cell><Data ss:Type="String">Inflaming</Data></Cell><Cell><Data ss:Type="String">着火</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INFLAME</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{Bonus} damage against Burning or Immolated targets.</Data></Cell><Cell><Data ss:Type="String">对燃烧或焚祭目标额外造成 {Bonus} 伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">JUMP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Jump</Data></Cell><Cell><Data ss:Type="String">跳跃</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">JUMP</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Jump to target location.</Data></Cell><Cell><Data ss:Type="String">跳向目标地点。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLATE_CRUNCH</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Plate Crunch</Data></Cell><Cell><Data ss:Type="String">装甲咬嚼</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLATE_CRUNCH</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Melee bite attack.</Data></Cell><Cell><Data ss:Type="String">近战啃咬攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLATE_CRUNCH</Data></Cell><Cell><Data ss:Type="String">MOD_NAME</Data></Cell><Cell><Data ss:Type="String">Metal Feed</Data></Cell><Cell><Data ss:Type="String">金属饲养</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">PLATE_CRUNCH</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Heal {amount} when attacking Cyborg or Mechanical units.</Data></Cell><Cell><Data ss:Type="String">攻击半机械人或机械单位时治疗 {amount}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HULL_PIERCER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Hull Piercer Spike</Data></Cell><Cell><Data ss:Type="String">外壳穿透尖刺</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HULL_PIERCER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Medium ranged piercing attack.</Data></Cell><Cell><Data ss:Type="String">中距离穿刺攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PROTECTIVE_CARAPACE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Protective Carapace</Data></Cell><Cell><Data ss:Type="String">保护外壳</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PROTECTIVE_CARAPACE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be flanked.</Data></Cell><Cell><Data ss:Type="String">该单位不会被包抄。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCUTUM_FORMATION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Chelus Formation</Data></Cell><Cell><Data ss:Type="String">蛇颈龟阵型</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SCUTUM_FORMATION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unit gains {ScutumFormationAmount} when it is adjacent to a friendly unit with Chelus Formation.</Data></Cell><Cell><Data ss:Type="String">当单位与处于蛇颈龟阵型中的友方单位相邻时，获得 {ScutumFormationAmount}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">NEST_COHESION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Nest Cohesion</Data></Cell><Cell><Data ss:Type="String">巢穴凝聚</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">NEST_COHESION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Remove all non-Psionic negative Status Effects from this unit and adjacent friendly units, as well as healing them for {NestCohesionAmount}.</Data></Cell><Cell><Data ss:Type="String">移除该单位及其相邻友方单位身上所有的非灵能负面状态效果，同时治疗这些单位 {NestCohesionAmount}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">YOUNGLING_BITE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Youngling Bite</Data></Cell><Cell><Data ss:Type="String">幼崽啃咬</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EGG_CLUTCH</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Egg Clutch</Data></Cell><Cell><Data ss:Type="String">蛋床</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">EGG_CLUTCH</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Spawn an egg next to the unit. The egg will hatch into a Chelus Youngling next turn.</Data></Cell><Cell><Data ss:Type="String">在单位旁生成一个龟蛋，龟蛋将会在下回合孵化成蛇颈龟幼崽。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EGG_HATCH</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Egg Hatch</Data></Cell><Cell><Data ss:Type="String">孵化</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">EGG_HATCH</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The Chelus egg will hatch next turn. If the egg is destroyed, there is a 50% it will still hatch, but only with 50% of the maximum [hp/] of a natural hatch.</Data></Cell><Cell><Data ss:Type="String">蛇颈龟蛋将在下回合孵化。如果龟蛋被摧毁，仍然有 50% 的几率孵化成功，但[hp/]只有正常孵化出来的幼崽的 50%。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CRASH</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Crash</Data></Cell><Cell><Data ss:Type="String">粉碎</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">As in a collision</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CRASH</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Crashes against a target within melee range.</Data></Cell><Cell><Data ss:Type="String">粉碎近战范围内的一个目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">OCTOWHALE_SONG</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Octowhale Song</Data></Cell><Cell><Data ss:Type="String">八爪鲸之歌</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">OCTOWHALE_SONG</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit casts Song of Swiftness at the beginning of its first turn in combat.</Data></Cell><Cell><Data ss:Type="String">该单位将在战斗的第一回合开始时吟唱迅捷之歌。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SONG_OF_SWIFTNESS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Song of Swiftness</Data></Cell><Cell><Data ss:Type="String">迅捷之歌</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SONG_OF_SWIFTNESS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The Octowhale Elder sings to its allies, increasing their movement speed and making them {EvasiveSong} harder to hit.[br/]Cancels Song of Aggression.</Data></Cell><Cell><Data ss:Type="String">八爪鲸长老向同盟吟唱歌曲，提升同盟的移动速度并使其命中难度增加 {EvasiveSong}。[br/]这将取消侵略之歌。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SONG_OF_SWIFTNESS</Data></Cell><Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has Fast Movement speed and is {EvasiveSong} harder to hit.</Data></Cell><Cell><Data ss:Type="String">该单位拥有迅捷移动速度且命中难度增加 {EvasiveSong}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SONG_OF_AGGRESSION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Song of Aggression</Data></Cell><Cell><Data ss:Type="String">侵略之歌</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">SONG_OF_AGGRESSION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The Octowhale Elder sings to its allies, granting their melee attacks a {SongConcussionSTR} strength chance to [abilityred]Disable[/abilityred]. In addition, their ranged attacks gain {CritSong} increased critical hit chance.[br/]Cancels Song of Swiftness.</Data></Cell><Cell><Data ss:Type="String">八爪鲸长老向同盟吟唱歌曲，使同盟的近战攻击有 {SongConcussionSTR} 力量几率施加[abilityred]瘫痪[/abilityred]。此外，同盟远程攻击的暴击率增加 {CritSong}。[br/]这将取消迅捷之歌。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SONG_OF_AGGRESSION</Data></Cell><Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit's melee attacks have a chance to Disable, and its ranged attacks have {CritSong} increased critical hit chance.</Data></Cell><Cell><Data ss:Type="String">该单位的近战攻击有几率瘫痪目标，远程攻击的暴击率增加 {CritSong}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SONG_OF_AGGRESSION</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{CritSong} increased critical hit chance.</Data></Cell><Cell><Data ss:Type="String">提升 {CritSong} 暴击率。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BEAK_PECK</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Beak Peck</Data></Cell><Cell><Data ss:Type="String">喙啄</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BEAK_PECK</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A repeating melee attack with a beak.</Data></Cell><Cell><Data ss:Type="String">使用啄进行的重复攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PENGUIN_LEAP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Penguin Leap</Data></Cell><Cell><Data ss:Type="String">企鹅跳跃</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PENGUIN_LEAP</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The Penguin jumps, damaging far away or Flying units.</Data></Cell><Cell><Data ss:Type="String">企鹅跃向空中，伤害远处或飞行单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PENGUIN_LEAP</Data></Cell><Cell><Data ss:Type="String">MOD_NAME</Data></Cell><Cell><Data ss:Type="String">Water Momentum</Data></Cell><Cell><Data ss:Type="String">水动力</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">PENGUIN_LEAP</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{WaterDamage} damage and {RangeIncrease} range in water battles.</Data></Cell><Cell><Data ss:Type="String">在水中战斗时造成 {WaterDamage} 伤害并拥有 {RangeIncrease} 范围。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FAV_TERRAIN_ARCTIC</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Favored Terrain - Arctic</Data></Cell><Cell><Data ss:Type="String">偏好地形 - 极寒</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">FAV_TERRAIN_ARCTIC</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Penguins gain {IncMorale} when fighting in Arctic terrain.</Data></Cell><Cell><Data ss:Type="String">在极寒地形战斗时，企鹅获得 {IncMorale}。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Removed the word Morale</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s59"><Data ss:Type="String">INVIGORATING_STRIDULATION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Invigorating Stridulation</Data></Cell><Cell><Data ss:Type="String">亢奋鸣叫</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Stridulation - the sound crickets make.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell ss:StyleID="s59"><Data ss:Type="String">INVIGORATING_STRIDULATION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Produce invigorating sounds by rubbing limbs together, granting this unit and friendly units within {hexrad} hexes +{InvStridMorale} morale and Fast Movement for {StridTurn}.</Data></Cell><Cell><Data ss:Type="String">通过摩擦肢体制造亢奋的鸣叫，赋予该单位和 {hexrad} 个单元格内的友方单位 +{InvStridMorale} 士气和迅捷移动，持续 {StridTurn}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s59"><Data ss:Type="String">INVIGORATING_STRIDULATION</Data></Cell><Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has {InvStridMorale} morale and Fast Movement.</Data></Cell><Cell><Data ss:Type="String">该单位拥有 {InvStridMorale} 士气和迅捷移动。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s59"><Data ss:Type="String">SONIC_SLASH</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Sonic Slash</Data></Cell><Cell><Data ss:Type="String">声波砍击</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell ss:StyleID="s59"><Data ss:Type="String">SONIC_SLASH</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Create a sonic boom by slashing the air incredibly quickly, directing a damaging shockwave at the enemy.</Data></Cell><Cell><Data ss:Type="String">以极快的速度劈砍空气制造声波爆炸，向敌人施放冲击波并造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s59"><Data ss:Type="String">STRIKE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Strike</Data></Cell><Cell><Data ss:Type="String">打击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s59"><Data ss:Type="String">STRIKE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Strike an enemy.</Data></Cell><Cell><Data ss:Type="String">打击敌人。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">CORROSIVE_SPIT</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">Corrosive Spit</Data></Cell><Cell><Data ss:Type="String">腐蚀唾液</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">CORROSIVE_SPIT</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">Spit a blob of Biochemical goo at a target unit.</Data></Cell><Cell><Data ss:Type="String">向目标单位喷吐一团生化黏液。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">BEETLE_SPIT</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Beetle Spit</Data></Cell><Cell><Data ss:Type="String">甲虫兽喷吐</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s58"><Data ss:Type="String">BEETLE_SPIT</Data></Cell><Cell ss:StyleID="s58"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Spit a Biochemical agent at a target unit.</Data></Cell><Cell><Data ss:Type="String">向目标单位喷吐生化剂。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HURL_MAGMA</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Hurl Magma</Data></Cell><Cell><Data ss:Type="String">投掷熔岩</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEVOUR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Devoured/Swallowed Whole</Data></Cell><Cell><Data ss:Type="String">吞食/生吞</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEVOUR</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A unit that is Devoured or Swallowed Whole, that didn't die during the process, can be retrieved if the unit who ate it is killed before it devours another unit or uses the [abilityred]Spawn Larva[/abilityred] ability.</Data></Cell><Cell><Data ss:Type="String">被吞食或被生吞的单位在过程中不会死亡，如果吃掉该单位的单位在吞食其他单位或使用[abilityred]孵化幼虫[/abilityred]技能之前被击杀，则该单位将能从中逃脱。</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text. You and Your might be examples of this.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Selected/><TopRowVisible>114</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>119</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:57:47Z</Created><LastSaved
+    >2019-06-25T15:57:47Z</LastSaved><Version
+    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX
+    >0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s57"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s58"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Interior /></Style><Style
+      ss:ID="s59"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /></Style><Style ss:ID="s60"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s57"
+      ss:DefaultColumnWidth="242.25"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s57" ss:Width="189" /><Column
+        ss:StyleID="s57"
+        ss:Width="117.75"
+      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="281.25" /><Column
+        ss:StyleID="s57"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s57" ss:Width="243" /><Column
+        ss:StyleID="s57"
+        ss:Width="120"
+      /><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
+            ss:Type="String"
+          >WILDLIFE_UNITPROPERTIES</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bite</Data></Cell><Cell><Data
+            ss:Type="String"
+          >啃咬</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A melee bite attack.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >近战啃咬攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PINCER_ATTACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Pincer Attack</Data></Cell><Cell><Data
+            ss:Type="String"
+          >螯击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PINCER_ATTACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A melee pincer attack.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >近战螯击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CLAW_STRIKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Claw Strike</Data></Cell><Cell><Data
+            ss:Type="String"
+          >爪击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CLAW_STRIKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A melee claw strike attack.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >近战爪击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >WIDE_SLASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Wide Slash</Data></Cell><Cell><Data
+            ss:Type="String"
+          >大幅挥砍</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">WIDE_SLASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A wide melee slash that hits multiple units in front of the user.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >大范围近战砍击，能够攻击使用者前方多个单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Wild Bash</Data></Cell><Cell><Data
+            ss:Type="String"
+          >狂野猛击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A melee bash attack.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >近战猛击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SLAM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Slam</Data></Cell><Cell><Data
+            ss:Type="String"
+          >摔击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SLAM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A melee slam attack.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >近战摔击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >STING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sting</Data></Cell><Cell><Data
+            ss:Type="String"
+          >穿刺</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >STING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A melee sting attack.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >近战穿刺攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">FLAME_JET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Flame Jet</Data></Cell><Cell><Data
+            ss:Type="String"
+          >火焰喷嘴</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FLAME_JET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shoot intense flames in a 2 hex cone.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向 2 个扇形单元格范围喷射剧烈火焰。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">UNDERMINE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Undermine</Data></Cell><Cell><Data
+            ss:Type="String"
+          >暗中破坏</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">UNDERMINE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit tunnels to target hex, erupting from the earth and dealing damage to all adjacent units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位挖掘隧道前往目标单元格并从地底冲出，对所有相邻单位造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INFERNAL_BITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Infernal Bite</Data></Cell><Cell><Data
+            ss:Type="String"
+          >地狱啃咬</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >INFERNAL_BITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Maw attack that crushes a target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >可以粉碎目标的啃咬攻击。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INFERNAL_BITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Swallow Whole</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生吞</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">INFERNAL_BITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{SwallowwholeSTRchance} strength chance to [abilityred]Devour[/abilityred] Light units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {SwallowwholeSTRchance} 力量几率[abilityred]吞噬[/abilityred]轻型单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LAUNCH_QUARTZITE_CRYSTAL</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Crystal Burst</Data></Cell><Cell><Data
+            ss:Type="String"
+          >水晶爆发</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">LAUNCH_QUARTZITE_CRYSTAL</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch a crystal that bursts in electricity, dealing Arc damage in a {hexrad} hex radius. If there are any Mineral units in this area, they heal for {Hpcrystalheal} instead.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发射能够迸发出电流的水晶，对 {hexrad} 个单元格范围造成伤害。如果范围内存在任何矿物单位，这些单位将治疗 {Hpcrystalheal}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">STATIC_AURA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Static Aura</Data></Cell><Cell><Data
+            ss:Type="String"
+          >静电光环</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">STATIC_AURA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >At the start of this unit's turn, non-Mineral units in a 3 hex radius of this unit suffer [abilityred]Static Charge[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位回合开始时，位于其 3 个单元格范围内的非矿物单位受到[abilityred]静电电荷[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LIGHTNING_DISCHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Lightning Discharge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >闪电倾泻</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">LIGHTNING_DISCHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Discharge an arc current at the target, damaging them and then jumping to new targets within {hexrangejump} hexes up to {jumptimes} times.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标释放电弧电流，伤害目标且电弧电流随后将弹跳至目标 {hexrangejump} 个单元格范围内的其他目标，最多弹跳 {jumptimes} 次。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CRYSTAL_SELF_DESTRUCT</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Crystal Self Destruct</Data></Cell><Cell><Data
+            ss:Type="String"
+          >水晶自毁</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CRYSTAL_SELF_DESTRUCT</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The crystal destabilizes further and explodes, dealing Arc damage to adjacent units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >水晶变得愈发不稳定，接着将会爆炸，对相邻单位造成电弧伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VINE_SLASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vine Slash</Data></Cell><Cell><Data
+            ss:Type="String"
+          >藤蔓鞭笞</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >VINE_SLASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A slash with a vine tentacle.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >藤蔓触须鞭笞攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MAGMA_SPIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Magma Spit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >熔岩喷涂</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MAGMA_SPIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spit balls of molten rock at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向目标喷吐熔化岩球。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CHAIN_DISCHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Chain Discharge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >连锁闪电</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CHAIN_DISCHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Discharge an Arc pulse that also jumps to {ExtraTargeters} extra targets within a {Radius} hex range of the original.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >释放电弧脉冲攻击初始目标，电弧还会额外弹跳至初始目标 {Radius} 个单元格范围内 {ExtraTargeters} 个目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SLING_ARC_CRYSTAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sling Arc Crystal</Data></Cell><Cell><Data
+            ss:Type="String"
+          >投掷电弧水晶</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SLING_ARC_CRYSTAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Throw a chunk of crystalized Arc, damaging units in a {Hexrad} hex radius.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >投掷一大块晶化电弧，伤害 {Hexrad} 个单元格范围内的单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SLING_MAGMA</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >Sling Magma</Data></Cell><Cell><Data
+            ss:Type="String"
+          >投掷熔岩</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >SLING_MAGMA</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >Throw a chunk of magma, damaging units in a {Hexrad} hex radius and creating a Thermal Hazard on the ground.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >投掷一大块熔岩，伤害 {Hexrad} 个单元格范围内的单位并在地面制造热能灾害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BLAZING_INFUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blazing Infusion</Data></Cell><Cell><Data
+            ss:Type="String"
+          >燃烧灌注</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">BLAZING_INFUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's attacks have a {BurnChance} strength chance to cause [abilityred]Burning[/abilityred] to non-Mineral and non-Ethereal targets for {BurnTurn}. At the start of this unit's turn, adjacent enemy units take {InfusionAdjacentDamage} damage, and adjacent Flame Quartzite units heal for {InfusionHeal}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的攻击有 {BurnChance} 力量几率对非矿物和非虚灵目标造成[abilityred]燃烧[/abilityred]，持续 {BurnTurn}。该单位回合开始时，与其相邻的敌方单位会受到 {InfusionAdjacentDamage} 伤害，与其相邻的火焰石英岩兽单位则会治疗 {InfusionHeal}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FIERY_INFUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fiery Infusion</Data></Cell><Cell><Data
+            ss:Type="String"
+          >炽热灌注</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">FIERY_INFUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit's attacks have a {BurnChance} strength chance to cause [abilityred]Burning[/abilityred] to non-Mineral and non-Ethereal targets for {BurnTurn}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的攻击有 {BurnChance} 力量几率对非矿物和非虚灵目标造成[abilityred]燃烧[/abilityred]，持续 {BurnTurn}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PARALYZING_INFUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Paralyzing Infusion</Data></Cell><Cell><Data
+            ss:Type="String"
+          >瘫痪灌注</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">PARALYZING_INFUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's attacks have a {StunChance} strength chance to cause [abilityred]Stunned[/abilityred] to non-Ethereal targets for {StunTurn}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的攻击有 {StunChance} 力量几率使非虚灵目标[abilityred]晕眩[/abilityred]，持续 {StunTurn}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">STURDY_SHELLS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tempered Shells</Data></Cell><Cell><Data
+            ss:Type="String"
+          >调节外壳</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >STURDY_SHELLS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has +{KineticRes} resistance.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >该单位拥有 +{KineticRes} 抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SUPERIOR_EVOLUTIONARY_MUTATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Superior Evolutionary Mutation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >高级进化突变</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >SUPERIOR_EVOLUTIONARY_MUTATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is superior to others of its kind. It has +{MutationMorale}[happiness/] and +{ResistanceStatus} resistance to all status effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位比其他同类级别高，拥有 +{MutationMorale}[happiness/]并且对所有状态效果拥有 +{ResistanceStatus} 抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EVOLUTIONARY_MUTATION</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Evolutionary Mutation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >进化突变</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">EVOLUTIONARY_MUTATION</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is better than others of its kind. It has +{MutationMorale}[happiness/] and +{ResistanceStatus} resistance to all status effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位比其他同类强，拥有 +{MutationMorale}[happiness/]并且对所有状态效果拥有 +{ResistanceStatus} 抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLAGUE_CARRIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Plague Carrier</Data></Cell><Cell><Data
+            ss:Type="String"
+          >瘟疫携带者</Data></Cell><Cell ss:Index="8"><Data
+            ss:Type="String"
+          >Edit: Plagued --&gt; Plague</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell><Data ss:Type="String">PLAGUE_CARRIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is carrying a plague, causing adjacent Biological and Cyborg enemy units to take {ContaminationHaloDamage} damage at the end of this unit's turn, with a {BlightPlagueChance} strength chance of applying [abilityred]Blighted Plague[/abilityred]. This gives the enemy unit -{BlightMorale}, -{BlightAcc} accuracy on attacks and causes them to take {BlightDamage} damage per [turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位携带瘟疫。该单位回合结束时，相邻敌方生物和半机械人单位受到 {ContaminationHaloDamage} 伤害，并有 {BlightPlagueChance} 力量几率对其施加[abilityred]枯萎瘟疫[/abilityred]，使敌方单位 -{BlightMorale}和 -{BlightAcc} 攻击准度，并且每[turn/]受到 {BlightDamage} 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CONTAMINATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Contaminated Claws</Data></Cell><Cell><Data
+            ss:Type="String"
+          >感染之爪</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">CONTAMINATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's melee attacks have a {ContaminatedChance} strength chance to cause [abilityred]Poisoned[/abilityred] to Biological and Cyborg units for {Poisonturn}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的近战攻击有 {ContaminatedChance} 力量几率使生物和半机械人单位[abilityred]中毒[/abilityred]，持续 {Poisonturn}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HARDENED-SCYTHING_CLAWS</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hardened Scything Claws</Data></Cell><Cell><Data
+            ss:Type="String"
+          >强化镰刃爪</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">HARDENED-SCYTHING_CLAWS</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hardened claws give this unit's melee attacks one level of [abilityred]Stagger Impact[/abilityred] and a {BleedChance} strength chance to cause [abilityred]Bleeding[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >强化镰刃爪能够给予该单位 1 级[abilityred]动摇冲击[/abilityred]，并有 {BleedChance} 力量几率造成[abilityred]流血[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCYTHING_CLAWS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Scything Claws</Data></Cell><Cell><Data
+            ss:Type="String"
+          >镰刃爪</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">SCYTHING_CLAWS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >These unit's claws are sharper than others, giving this unit's melee attacks a {BleedChance} strength chance to cause [abilityred]Bleeding[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这些单位的爪子锋利无比，使该单位的近战攻击有 {BleedChance} 力量几率造成[abilityred]流血[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">UNDYING_BEETLE_MOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Undying Infection</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不死传染病</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >INFECTION_X</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Infection X</Data></Cell><Cell><Data
+            ss:Type="String"
+          >X 传染病</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">INFECTION_X</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is infected with an experimental virus that brings the dead back to life. When it is killed, it comes back to life {GhoulingTurns} later with {Ghoulinghealth}[hp/], -{GhoulingArmorReduction}, and its attacks deal +{GhoulingDamage} damage.[br/]This can only occur once per battle.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位被一种能够起死回生的实验病毒所感染。该单位被击杀时，将在 {GhoulingTurns} 后以 {Ghoulinghealth}[hp/]和 -{GhoulingArmorReduction} 复活，但攻击能够造成 +{GhoulingDamage} 伤害。[br/]每次战斗只触发一次。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">INFECTION_X</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNDYING_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has been revived by Infection X. It has less [armor/], but deals more damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位已被 X 传染病复活，拥有更低[armor/]但会造成更多伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INFECTION_X</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{DamageIncreaseInfection}% increased damage.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >提升 {DamageIncreaseInfection}% 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MINOR_INFECTION_X</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Minor Infection X</Data></Cell><Cell><Data
+            ss:Type="String"
+          >轻微 X 传染病</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">AXE_BEAK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Axe Beak</Data></Cell><Cell><Data
+            ss:Type="String"
+          >斧喙</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AXE_BEAK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Melee attack with a sharp beak.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用尖锐的喙发动近战攻击。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BLAZE_SPIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blaze Spit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >烈焰喷吐</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BLAZE_SPIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spit blazing saliva at a target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向目标喷吐燃烧的唾液。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INFLAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Inflame</Data></Cell><Cell><Data
+            ss:Type="String"
+          >点火</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >INFLAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spew fire in a 2 hex cone.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向 2 个单元格扇形范围喷吐火焰。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INFLAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Inflaming</Data></Cell><Cell><Data
+            ss:Type="String"
+          >着火</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >INFLAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Bonus} damage against Burning or Immolated targets.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >对燃烧或焚祭目标额外造成 {Bonus} 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">JUMP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Jump</Data></Cell><Cell><Data
+            ss:Type="String"
+          >跳跃</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >JUMP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Jump to target location.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >跳向目标地点。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLATE_CRUNCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Plate Crunch</Data></Cell><Cell><Data
+            ss:Type="String"
+          >装甲咬嚼</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PLATE_CRUNCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Melee bite attack.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >近战啃咬攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLATE_CRUNCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Metal Feed</Data></Cell><Cell><Data
+            ss:Type="String"
+          >金属饲养</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PLATE_CRUNCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heal {amount} when attacking Cyborg or Mechanical units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >攻击半机械人或机械单位时治疗 {amount}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HULL_PIERCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hull Piercer Spike</Data></Cell><Cell><Data
+            ss:Type="String"
+          >外壳穿透尖刺</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HULL_PIERCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Medium ranged piercing attack.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >中距离穿刺攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PROTECTIVE_CARAPACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Protective Carapace</Data></Cell><Cell><Data
+            ss:Type="String"
+          >保护外壳</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PROTECTIVE_CARAPACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be flanked.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >该单位不会被包抄。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">SCUTUM_FORMATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Chelus Formation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >蛇颈龟阵型</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SCUTUM_FORMATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit gains {ScutumFormationAmount} when it is adjacent to a friendly unit with Chelus Formation.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >当单位与处于蛇颈龟阵型中的友方单位相邻时，获得 {ScutumFormationAmount}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">NEST_COHESION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Nest Cohesion</Data></Cell><Cell><Data
+            ss:Type="String"
+          >巢穴凝聚</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">NEST_COHESION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Remove all non-Psionic negative Status Effects from this unit and adjacent friendly units, as well as healing them for {NestCohesionAmount}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >移除该单位及其相邻友方单位身上所有的非灵能负面状态效果，同时治疗这些单位 {NestCohesionAmount}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">YOUNGLING_BITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Youngling Bite</Data></Cell><Cell><Data
+            ss:Type="String"
+          >幼崽啃咬</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EGG_CLUTCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Egg Clutch</Data></Cell><Cell><Data
+            ss:Type="String"
+          >蛋床</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">EGG_CLUTCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spawn an egg next to the unit. The egg will hatch into a Chelus Youngling next turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在单位旁生成一个龟蛋，龟蛋将会在下回合孵化成蛇颈龟幼崽。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EGG_HATCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Egg Hatch</Data></Cell><Cell><Data
+            ss:Type="String"
+          >孵化</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">EGG_HATCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Chelus egg will hatch next turn. If the egg is destroyed, there is a 50% it will still hatch, but only with 50% of the maximum [hp/] of a natural hatch.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >蛇颈龟蛋将在下回合孵化。如果龟蛋被摧毁，仍然有 50% 的几率孵化成功，但[hp/]只有正常孵化出来的幼崽的 50%。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CRASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Crash</Data></Cell><Cell><Data
+            ss:Type="String"
+          >粉碎</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >As in a collision</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">CRASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Crashes against a target within melee range.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >粉碎近战范围内的一个目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OCTOWHALE_SONG</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Octowhale Song</Data></Cell><Cell><Data
+            ss:Type="String"
+          >八爪鲸之歌</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">OCTOWHALE_SONG</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit casts Song of Swiftness at the beginning of its first turn in combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位将在战斗的第一回合开始时吟唱迅捷之歌。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SONG_OF_SWIFTNESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Song of Swiftness</Data></Cell><Cell><Data
+            ss:Type="String"
+          >迅捷之歌</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">SONG_OF_SWIFTNESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Octowhale Elder sings to its allies, increasing their movement speed and making them {EvasiveSong} harder to hit.[br/]Cancels Song of Aggression.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >八爪鲸长老向同盟吟唱歌曲，提升同盟的移动速度并使其命中难度增加 {EvasiveSong}。[br/]这将取消侵略之歌。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SONG_OF_SWIFTNESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has Fast Movement speed and is {EvasiveSong} harder to hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位拥有迅捷移动速度且命中难度增加 {EvasiveSong}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SONG_OF_AGGRESSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Song of Aggression</Data></Cell><Cell><Data
+            ss:Type="String"
+          >侵略之歌</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">SONG_OF_AGGRESSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Octowhale Elder sings to its allies, granting their melee attacks a {SongConcussionSTR} strength chance to [abilityred]Disable[/abilityred]. In addition, their ranged attacks gain {CritSong} increased critical hit chance.[br/]Cancels Song of Swiftness.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >八爪鲸长老向同盟吟唱歌曲，使同盟的近战攻击有 {SongConcussionSTR} 力量几率施加[abilityred]瘫痪[/abilityred]。此外，同盟远程攻击的暴击率增加 {CritSong}。[br/]这将取消迅捷之歌。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">SONG_OF_AGGRESSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's melee attacks have a chance to Disable, and its ranged attacks have {CritSong} increased critical hit chance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的近战攻击有几率瘫痪目标，远程攻击的暴击率增加 {CritSong}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SONG_OF_AGGRESSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{CritSong} increased critical hit chance.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >提升 {CritSong} 暴击率。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BEAK_PECK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Beak Peck</Data></Cell><Cell><Data
+            ss:Type="String"
+          >喙啄</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BEAK_PECK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A repeating melee attack with a beak.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用啄进行的重复攻击。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PENGUIN_LEAP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Penguin Leap</Data></Cell><Cell><Data
+            ss:Type="String"
+          >企鹅跳跃</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PENGUIN_LEAP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Penguin jumps, damaging far away or Flying units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >企鹅跃向空中，伤害远处或飞行单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PENGUIN_LEAP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Water Momentum</Data></Cell><Cell><Data
+            ss:Type="String"
+          >水动力</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PENGUIN_LEAP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{WaterDamage} damage and {RangeIncrease} range in water battles.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在水中战斗时造成 {WaterDamage} 伤害并拥有 {RangeIncrease} 范围。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FAV_TERRAIN_ARCTIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Favored Terrain - Arctic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >偏好地形 - 极寒</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FAV_TERRAIN_ARCTIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Penguins gain {IncMorale} when fighting in Arctic terrain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在极寒地形战斗时，企鹅获得 {IncMorale}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Removed the word Morale</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >INVIGORATING_STRIDULATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Invigorating Stridulation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >亢奋鸣叫</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Stridulation - the sound crickets make.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >INVIGORATING_STRIDULATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data
+            ss:Type="String"
+          >Produce invigorating sounds by rubbing limbs together, granting this unit and friendly units within {hexrad} hexes +{InvStridMorale} morale and Fast Movement for {StridTurn}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >通过摩擦肢体制造亢奋的鸣叫，赋予该单位和 {hexrad} 个单元格内的友方单位 +{InvStridMorale} 士气和迅捷移动，持续 {StridTurn}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >INVIGORATING_STRIDULATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has {InvStridMorale} morale and Fast Movement.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位拥有 {InvStridMorale} 士气和迅捷移动。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >SONIC_SLASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sonic Slash</Data></Cell><Cell><Data
+            ss:Type="String"
+          >声波砍击</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s59"><Data
+            ss:Type="String"
+          >SONIC_SLASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Create a sonic boom by slashing the air incredibly quickly, directing a damaging shockwave at the enemy.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >以极快的速度劈砍空气制造声波爆炸，向敌人施放冲击波并造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s59"><Data ss:Type="String">STRIKE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Strike</Data></Cell><Cell><Data
+            ss:Type="String"
+          >打击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s59"
+        ><Data ss:Type="String">STRIKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Strike an enemy.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >打击敌人。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s58"
+        ><Data ss:Type="String">CORROSIVE_SPIT</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >Corrosive Spit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >腐蚀唾液</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s58"
+        ><Data ss:Type="String">CORROSIVE_SPIT</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data
+            ss:Type="String"
+          >Spit a blob of Biochemical goo at a target unit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标单位喷吐一团生化黏液。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >BEETLE_SPIT</Data></Cell><Cell ss:StyleID="s58"><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Beetle Spit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >甲虫兽喷吐</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s58"
+        ><Data ss:Type="String">BEETLE_SPIT</Data></Cell><Cell
+          ss:StyleID="s58"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spit a Biochemical agent at a target unit.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向目标单位喷吐生化剂。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HURL_MAGMA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hurl Magma</Data></Cell><Cell><Data
+            ss:Type="String"
+          >投掷熔岩</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DEVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Devoured/Swallowed Whole</Data></Cell><Cell><Data
+            ss:Type="String"
+          >吞食/生吞</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DEVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A unit that is Devoured or Swallowed Whole, that didn't die during the process, can be retrieved if the unit who ate it is killed before it devours another unit or uses the [abilityred]Spawn Larva[/abilityred] ability.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >被吞食或被生吞的单位在过程中不会死亡，如果吃掉该单位的单位在吞食其他单位或使用[abilityred]孵化幼虫[/abilityred]技能之前被击杀，则该单位将能从中逃脱。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text. You and Your might be examples of this.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><TopRowVisible
+      >114</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >119</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

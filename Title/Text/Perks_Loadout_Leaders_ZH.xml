@@ -1,1 +1,887 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:51:08Z</Created><LastSaved>2019-07-03T22:53:35Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style><Style ss:ID="s63"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Interior/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="258" ss:DefaultRowHeight="15"><Column ss:StyleID="s62" ss:Width="203.25"/><Column ss:StyleID="s62" ss:Width="66.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="318.75" ss:Span="1"/><Column ss:Index="5" ss:StyleID="s62" ss:Width="221.25"/><Column ss:StyleID="s62" ss:Width="120"/><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">LOADOUT_PERKS</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BASIC_TRAINING_VANGUARD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Vanguard Basic Equipment</Data></Cell><Cell><Data ss:Type="String">先锋基础装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">BASIC_TRAINING_VANGUARD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The standard-issue pack you received after basic training.[br/][br/]The pack includes:[br/]A [AbilityGreen]Laser Rifle[/AbilityGreen] that deals repeated [DamageThermal/] Thermal damage.[br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell><Cell><Data ss:Type="String">你完成基础训练后收到的标准制式装备，[br/][br/]其中包含：[br/]一把[AbilityGreen]激光步枪[/AbilityGreen]（可造成重复[DamageThermal/]热能伤害）以及[br/]一颗[AbilityGreen]基础手雷[/AbilityGreen]（对一定范围造成[DamagePhysical/]动能伤害，并动摇命中的单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BASIC_TRAINING_ASSEMBLY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Assembly Basic Equipment</Data></Cell><Cell><Data ss:Type="String">半机械人基础装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">BASIC_TRAINING_ASSEMBLY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The standard-issue pack you received after basic training.[br/][br/]The pack includes:[br/]An [AbilityGreen]Arc Projector[/AbilityGreen] that deals repeated [DamageWave/] Arc damage.[br/]An [AbilityGreen]Arc Grenade[/AbilityGreen] that deals [DamageWave/] Arc damage and staggers those hit.</Data></Cell><Cell><Data ss:Type="String">你完成基础训练后收到的标准制式装备，[br/][br/]其中包含：[br/]一把[AbilityGreen]电弧投射器[/AbilityGreen]（可造成持续性[DamageWave/]电弧伤害）以及[br/]一颗[AbilityGreen]电弧手雷[/AbilityGreen]（可在一定范围内造成[DamageWave/]电弧伤害，并对击中单位造成晕眩效果。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BASIC_TRAINING_KIRKO</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Kir'Ko Basic Equipment</Data></Cell><Cell><Data ss:Type="String">奇尔寇基础装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">BASIC_TRAINING_KIRKO</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The standard-issue pack you received after basic training.[br/][br/]The pack includes:[br/]A [AbilityGreen]Thrax Rifle[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage.[br/]A [AbilityGreen]Psi-stone of Dissonance[/AbilityGreen] that deals [DamagePsyche/] Psionic damage in an area.</Data></Cell><Cell><Data ss:Type="String">你完成基础训练后收到的标准制式装备，[br/][br/]其中包含：[br/]一把[AbilityGreen]特拉科斯步枪[/AbilityGreen]（可造成持续性[DamageBio/]生化伤害）以及[br/]一颗[AbilityGreen]不谐灵能石[/AbilityGreen]（可在一定范围内造成[DamagePsyche/]灵能伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BASIC_TRAINING_AMAZON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Amazon Basic Equipment</Data></Cell><Cell><Data ss:Type="String">亚马逊基础装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">BASIC_TRAINING_AMAZON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The standard-issue pack you received after basic training.[br/][br/]The pack includes:[br/]A [AbilityGreen]Hunting Bow[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage and has a chance to poison.[br/]A [AbilityGreen]Thermal Grenade[/AbilityGreen] that deals [DamageThermal/] Thermal damage in an area and has a chance to burn those hit.</Data></Cell><Cell><Data ss:Type="String">你完成基础训练后收到的标准制式装备，[br/][br/]其中包含：[br/]一把[AbilityGreen]猎弓[/AbilityGreen]（可造成持续性[DamageBio/]生化伤害，并有几率让目标中毒）以及[br/]一颗[AbilityGreen]热能手雷[/AbilityGreen]（可在一定范围内造成[DamageThermal/]热能伤害，并有一定几率点燃所击中的单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BASIC_TRAINING_DVAR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Dvar Basic Equipment</Data></Cell><Cell><Data ss:Type="String">矮人基础装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">BASIC_TRAINING_DVAR</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The standard-issue pack you received after basic training.[br/][br/]The pack includes:[br/]A [AbilityGreen]Spike Gun[/AbilityGreen] that fires a single, powerful shot that deals [DamagePhysical/] Kinetic damage.[br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell><Cell><Data ss:Type="String">你完成基础训练后收到的标准制式装备组，[br/][br/]其中包含：[br/]一把[AbilityGreen]钉枪[/AbilityGreen]（强力的单发火器，造成[DamagePhysical/]动能伤害，以及[br/]一颗[AbilityGreen]基础手雷[/AbilityGreen]（可在一定范围内造成[DamagePhysical/]动能伤害，并动摇击中的目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BASIC_TRAINING_SYNDICATE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Syndicate Basic Equipment</Data></Cell><Cell><Data ss:Type="String">辛迪加基础装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">BASIC_TRAINING_SYNDICATE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The standard-issue pack you received after basic training.[br/][br/]The pack includes:[br/]A [AbilityGreen]Pulse Repeater[/AbilityGreen] that deals repeated [DamageWave/] Arc damage.[br/]A [AbilityGreen]PsiTec Grenade[/AbilityGreen] that deals [DamagePsyche/] Psionic damage in an area and has a chance to cripple those hit.</Data></Cell><Cell><Data ss:Type="String">你完成基础训练后收到的标准制式装备，[br/][br/]其中包含：[br/]一把[AbilityGreen]脉冲连发枪[/AbilityGreen]（可造成持续性[DamageWave/]电弧伤害）以及[br/]一颗[AbilityGreen]灵能手雷[/AbilityGreen]（可在一定范围内造成[DamagePsyche/]灵能伤害，并致残击中的单位）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_VANGUARD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Vanguard Close Combat Equipment</Data></Cell><Cell><Data ss:Type="String">先锋近战装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_VANGUARD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Close Combat training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/].[br/][br/]The pack includes:[br/]A [AbilityGreen]Laser Sword[/AbilityGreen] that deals repeated [DamageThermal/] Thermal damage at close range.[br/]An [AbilityGreen]Imperial Revolver[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in a single burst.</Data></Cell><Cell><Data ss:Type="String">你完成近战训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]近战专家 I[/AbilityGreen]（使用近战武器时可提升伤害）。[br/][AbilityGreen]活力 I[/AbilityGreen](提升最大[hp/]）。[br/][br/]装备包含：[br/]一把[AbilityGreen]激光剑[/AbilityGreen]（可在近距离范围内造成持续性[DamageThermal/]热能伤害）以及一把[br/][AbilityGreen]帝国左轮手枪[/AbilityGreen]（单次伤害，可造成[DamagePhysical/]动能伤害）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_ASSEMBLY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Assembly Close Combat Equipment</Data></Cell><Cell><Data ss:Type="String">半机械人近战装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_ASSEMBLY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Close Combat training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/].[br/][br/]The pack includes:[br/]A [AbilityGreen]Arc Sword[/AbilityGreen] that deals repeated [DamageWave/] Arc damage at close range.[br/]A [AbilityGreen]Imperial Pistol[/AbilityGreen] that deals repeated [DamagePhysical/] Kinetic damage.</Data></Cell><Cell><Data ss:Type="String">你完成近战训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]近战专家 I[/AbilityGreen]（使用近战武器时可提升伤害）。[br/][AbilityGreen]活力 I[/AbilityGreen](提升最大[hp/]）。[br/][br/]装备包含：[br/]一把[AbilityGreen]电弧剑[/AbilityGreen]（可在近距离范围内造成持续性[DamageWave/]电弧伤害）以及一把[br/][AbilityGreen]帝国手枪[/AbilityGreen]（可重复造成[DamagePhysical/]动能伤害）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_KIRKO</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Kir'Ko Close Combat Equipment</Data></Cell><Cell><Data ss:Type="String">奇尔寇近战装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_KIRKO</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Close Combat training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/].[br/][br/]The pack includes:[br/] [AbilityGreen]Rending Claws[/AbilityGreen] that deal repeated [DamagePhysical/] Kinetic damage at close range.[br/]A [AbilityGreen]Thrax Blaster[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage.</Data></Cell><Cell><Data ss:Type="String">你完成近战训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]近战专家 I[/AbilityGreen]（使用近战武器时可提升伤害）。[br/][AbilityGreen]活力 I[/AbilityGreen](提升最大[hp/]）。[br/][br/]装备包含：[br/]一把[AbilityGreen]裂魂爪[/AbilityGreen]（可在近距离范围内持续造成[DamagePhysical/]动能伤害）以及一把[br/][AbilityGreen]特拉科斯爆破枪[/AbilityGreen]（可重复造成[DamageBio/]生化伤害）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_AMAZON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Amazon Close Combat Equipment</Data></Cell><Cell><Data ss:Type="String">亚马逊近战装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_AMAZON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Close Combat training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/].[br/][br/]The pack includes:[br/]A [AbilityGreen]Laser Glaive[/AbilityGreen] that deals repeated [DamageThermal/] Thermal damage at close range.[br/]A [AbilityGreen]Bio Blaster[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage.</Data></Cell><Cell><Data ss:Type="String">你完成近战训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]近战专家 I[/AbilityGreen]（使用近战武器时可提升伤害）。[br/][AbilityGreen]活力 I[/AbilityGreen](提升最大[hp/]）。[br/][br/]装备包含：[br/]一把[AbilityGreen]激光阔剑[/AbilityGreen]（可在近距离范围内持续造成[DamageThermal/]热能伤害）[br/]以及一把[br/][AbilityGreen]生化爆能枪[/AbilityGreen]（可重复造成[DamageBio/]生化伤害）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_DVAR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Dvar Close Combat Equipment</Data></Cell><Cell><Data ss:Type="String">矮人近战装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_DVAR</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Close Combat training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/].[br/][br/]The pack includes:[br/]A [AbilityGreen]Rocket Hammer[/AbilityGreen] that deals a single burst of [DamagePhysical/] Kinetic damage at close range.[br/]An [AbilityGreen]Imperial Revolver[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in a single burst.</Data></Cell><Cell><Data ss:Type="String">你完成近战训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]近战专家 I[/AbilityGreen]（使用近战武器时可提升伤害）。[br/][AbilityGreen]活力 I[/AbilityGreen](提升最大[hp/]）。[br/][br/]装备包含：[br/]一把[AbilityGreen]火箭之锤[/AbilityGreen]（单次伤害，可在近距离范围内造成[DamagePhysical/]动能伤害）以及一把[br/][AbilityGreen]帝国左轮手枪[/AbilityGreen]（单次伤害，可造成[DamagePhysical/]动能伤害）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_SYNDICATE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Syndicate Close Combat Equipment</Data></Cell><Cell><Data ss:Type="String">辛迪加近战装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_SYNDICATE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Close Combat training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/].[br/][br/]The pack includes:[br/] [AbilityGreen]PsiTec Fists[/AbilityGreen] that deal repeated [DamagePsyche/] Psionic damage at close range.[br/] [AbilityGreen]Arc Bolas[/AbilityGreen] that deal [DamageWave/] Arc damage and attempt to immobilize the target.</Data></Cell><Cell><Data ss:Type="String">你完成近战训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]近战专家 I[/AbilityGreen]（使用近战武器时可提升伤害）。[br/][AbilityGreen]活力 I[/AbilityGreen](提升最大[hp/]）。[br/][br/]装备包含：[br/]一把[AbilityGreen]灵能拳[/AbilityGreen]（可在近距离范围内造成持续性[DamagePsyche/]灵能伤害）[br/]以及一把[br/][AbilityGreen]电弧流星锤[/AbilityGreen]（可造成[DamageWave/]电弧伤害，并可让目标无法移动）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ASSAULT_TRAINING_VANGUARD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Vanguard Assault Equipment</Data></Cell><Cell><Data ss:Type="String">先锋突击装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="165"><Cell><Data ss:Type="String">ASSAULT_TRAINING_VANGUARD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Assault training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Laser Rifle[/AbilityGreen] that deals repeated [DamageThermal/] Thermal damage.[br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell><Cell><Data ss:Type="String">你完成突击训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）、[br/][AbilityGreen]稳定瞄准[/AbilityGreen](在处于掩体中时可提升准度）。[br/][br/]装备包含：[br/]一把[AbilityGreen]激光步枪[/AbilityGreen]（可重复造成[DamageThermal/]热能伤害）以及[br/]一颗[AbilityGreen]基础手雷[/AbilityGreen]（可对一定范围造成[DamagePhysical/]动能伤害，并动摇击中的单位）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ASSAULT_TRAINING_ASSEMBLY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Assembly Assault Equipment</Data></Cell><Cell><Data ss:Type="String">半机械人突击装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell><Data ss:Type="String">ASSAULT_TRAINING_ASSEMBLY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Assault training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]An [AbilityGreen]Arc Projector[/AbilityGreen] that deals repeated [DamageWave/] Arc damage.[br/]An [AbilityGreen]Arc Grenade[/AbilityGreen] that deals [DamageWave/] Arc and staggers those hit.</Data></Cell><Cell><Data ss:Type="String">你完成突击训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可获得伤害提升）、[br/][AbilityGreen]稳定瞄准[/AbilityGreen](在处于掩体中时可提升准度）。[br/][br/]装备包含：[br/]一把[AbilityGreen]电弧投射器[/AbilityGreen]（可重复造成[DamageWave/]电弧伤害）以及[br/]一颗[AbilityGreen]电弧手雷[/AbilityGreen]（可对一定范围造成[DamageWave/]电弧伤害，并动摇击中的单位）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ASSAULT_TRAINING_KIRKO</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Kir'Ko Assault Equipment</Data></Cell><Cell><Data ss:Type="String">奇尔寇突击装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell><Data ss:Type="String">ASSAULT_TRAINING_KIRKO</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Assault training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Thrax Rifle[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage.[br/]A [AbilityGreen]Psi-stone of Dissonance[/AbilityGreen] that deals [DamagePsyche/] Psionic damage in an area.</Data></Cell><Cell><Data ss:Type="String">你完成突击训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）、[br/][AbilityGreen]稳定瞄准[/AbilityGreen](在处于掩体中时可提升准度）。[br/][br/]装备包含：[br/]一把[AbilityGreen]特拉科斯步枪[/AbilityGreen]（可重复造成[DamageBio/]生化伤害）以及[br/]一颗[AbilityGreen]不谐灵能石[/AbilityGreen]（可对一定范围造成[DamagePsyche/]灵能伤害）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ASSAULT_TRAINING_AMAZON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Amazon Assault Equipment</Data></Cell><Cell><Data ss:Type="String">亚马逊突击装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="180"><Cell><Data ss:Type="String">ASSAULT_TRAINING_AMAZON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Assault training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - Increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - Increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Hunting Bow[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage and has a chance to poison.[br/]A [AbilityGreen]Thermal Grenade[/AbilityGreen], that when used causes [DamageThermal/] Thermal damage in an area and has a chance to burn those hit.</Data></Cell><Cell><Data ss:Type="String">你完成突击训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）、[br/][AbilityGreen]稳定瞄准[/AbilityGreen](在处于掩体中时可提升准度）。[br/][br/]装备包含：[br/]一把[AbilityGreen]狩猎弓[/AbilityGreen]（可重复造成[DamageBio/]生化伤害）、[br/]一颗[AbilityGreen]热能手雷[/AbilityGreen]（可对一定范围造成[DamageThermal/]动能伤害，并有一定几率点燃击中的目标）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ASSAULT_TRAINING_DVAR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Dvar Assault Equipment</Data></Cell><Cell><Data ss:Type="String">矮人突击装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="165"><Cell><Data ss:Type="String">ASSAULT_TRAINING_DVAR</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Assault training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Spike Gun[/AbilityGreen] that fires a single powerful shot that deals [DamagePhysical/] Kinetic damage.[br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell><Cell><Data ss:Type="String">你完成突击训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）、[br/][AbilityGreen]稳定瞄准[/AbilityGreen](在处于掩体中时可提升准度）。[br/][br/]装备包含：[br/]一把[AbilityGreen]钉枪[/AbilityGreen]（单次伤害，可造成强力[DamagePhysical/]动能伤害）以及[br/]一颗[AbilityGreen]基础手雷[/AbilityGreen]（可对一定范围造成[DamagePhysical/]动能伤害，并动摇击中的单位）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ASSAULT_TRAINING_SYNDICATE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Syndicate Assault Equipment</Data></Cell><Cell><Data ss:Type="String">辛迪加突击装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="165"><Cell><Data ss:Type="String">ASSAULT_TRAINING_SYNDICATE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Assault training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Pulse Repeater[/AbilityGreen] that deals repeated [DamageWave/] Arc damage.[br/]A [AbilityGreen]PsiTec Grenade[/AbilityGreen] that deals [DamagePsyche/] Psionic damage in an area and has a chance to cripple those hit.</Data></Cell><Cell><Data ss:Type="String">你完成突击训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）、[br/][AbilityGreen]稳定瞄准[/AbilityGreen](在处于掩体中时可提升准度）。[br/][br/]装备包含：[br/]一把[AbilityGreen]脉冲连发枪[/AbilityGreen]（可重复造成[DamageWave/]电弧伤害）以及[br/]一颗[AbilityGreen]灵能手雷[/AbilityGreen]（可对一定范围造成[DamagePsyche/]灵能伤害，并致残击中的单位）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_VANGUARD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Vanguard Sharpshooter Equipment</Data></Cell><Cell><Data ss:Type="String">先锋神射手装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_VANGUARD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Sharpshooter training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Dead Eye I[/AbilityGreen] - slightly increases accuracy and critical hit chance.[br/][br/]The pack includes:[br/]A [AbilityGreen]Sniper Rifle[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage.[br/]An [AbilityGreen]Imperial Revolver[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in a single burst.</Data></Cell><Cell><Data ss:Type="String">你完成神射手训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）以及[br/][AbilityGreen]死神之眼 I[/AbilityGreen](少量提升准度和暴击率）。[br/][br/]装备包含：[br/]一把[AbilityGreen]狙击步枪[/AbilityGreen]（可造成[DamagePhysical/]动能伤害）以及[br/]一把[AbilityGreen]帝国左轮手枪[/AbilityGreen]（可造成单次[DamagePhysical/]动能伤害）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_ASSEMBLY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Assembly Sharpshooter Equipment</Data></Cell><Cell><Data ss:Type="String">半机械人神射手装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_ASSEMBLY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Sharpshooter training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Dead Eye I[/AbilityGreen] - slightly increases accuracy and critical hit chance.[br/][br/]The pack includes:[br/]A [AbilityGreen]Vorpal Sniper[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage.[br/]An [AbilityGreen]Arc Grenade[/AbilityGreen] that deals [DamageWave/] Arc damage and staggers those hit.</Data></Cell><Cell><Data ss:Type="String">你完成神射手训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）以及[br/][AbilityGreen]死神之眼 I[/AbilityGreen](少量提升准度和暴击率）。[br/][br/]装备包含：[br/]一把[AbilityGreen]夺命狙击步枪[/AbilityGreen]（可造成[DamagePhysical/]动能伤害）以及[br/]一颗[AbilityGreen]电弧手雷[/AbilityGreen]（可造成[DamageWave/]电弧伤害，并动摇击中的目标）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_KIRKO</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Kir'Ko Sharpshooter Equipment</Data></Cell><Cell><Data ss:Type="String">奇尔寇神射手装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_KIRKO</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Sharpshooter training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Dead Eye I[/AbilityGreen] - slightly increases accuracy and critical hit chance.[br/][br/]The pack includes:[br/]A [AbilityGreen]Psi-Rifle[/AbilityGreen] that deals [DamagePsyche/] Psionic damage.[br/]A [AbilityGreen]Thrax Blaster[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage.</Data></Cell><Cell><Data ss:Type="String">你完成神射手训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）以及[br/][AbilityGreen]死神之眼 I[/AbilityGreen]（少量提升准度和暴击率）。[br/][br/]装备包含：[br/]一把[AbilityGreen]灵能步枪[/AbilityGreen]（可造成[DamagePsyche/]灵能伤害）以及[br/]一把[AbilityGreen]特拉科斯爆破枪[/AbilityGreen]（可重复造成[DamageBio/]生化伤害）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_AMAZON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Amazon Sharpshooter Equipment</Data></Cell><Cell><Data ss:Type="String">亚马逊神射手装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_AMAZON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Sharpshooter training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Dead Eye I[/AbilityGreen] - slightly increases accuracy and critical hit chance.[br/][br/]The pack includes:[br/]A [AbilityGreen]Laser Sniper[/AbilityGreen] that deals [DamageThermal/] Thermal damage.[br/]A [AbilityGreen]Bio Blaster[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage.</Data></Cell><Cell><Data ss:Type="String">你完成神射手训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）以及[br/][AbilityGreen]死神之眼 I[/AbilityGreen]（少量提升准度和暴击率）。[br/][br/]装备包含：[br/]一把[AbilityGreen]激光狙击枪[/AbilityGreen]（可造成[DamageThermal/]热能伤害）以及[br/]一把[AbilityGreen]生化爆能枪[/AbilityGreen]（可重复造成[DamageBio/]生化伤害）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_DVAR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Dvar Sharpshooter Equipment</Data></Cell><Cell><Data ss:Type="String">矮人神射手装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="165"><Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_DVAR</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Sharpshooter training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Dead Eye I[/AbilityGreen] - slightly increases accuracy and critical hit chance.[br/][br/]The pack includes:[br/]An [AbilityGreen]Imperial Sniper Rifle[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage.[br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell><Cell><Data ss:Type="String">你完成神射手训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）以及[br/][AbilityGreen]死神之眼 I[/AbilityGreen]（少量提升准度和暴击率）。[br/][br/]装备包含：[br/]一把[AbilityGreen]帝国狙击步枪[/AbilityGreen]（可造成[DamagePhysical/]动能伤害）以及[br/]一颗[AbilityGreen]基础手雷[/AbilityGreen]（可对一定范围造成[DamagePhysical/]动能伤害，并动摇击中的目标）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_SYNDICATE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Syndicate Sharpshooter Equipment</Data></Cell><Cell><Data ss:Type="String">辛迪加神射手装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_SYNDICATE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Sharpshooter training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Dead Eye I[/AbilityGreen] - slightly increases accuracy and critical hit chance.[br/][br/]The pack includes:[br/]A [AbilityGreen]Pulse Sniper[/AbilityGreen] that deals [DamageWave/] Arc damage.[br/][AbilityGreen]Arc Bolas[/AbilityGreen] that deal [DamageWave/] Arc damage to a target and has a chance to immobilize them.</Data></Cell><Cell><Data ss:Type="String">你完成神射手训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）以及[br/][AbilityGreen]死神之眼 I[/AbilityGreen]（少量提升准度和暴击率）。[br/][br/]装备包含：[br/]一把[AbilityGreen]脉冲狙击步枪[/AbilityGreen]（可造成[DamageWave/]电弧伤害）以及[br/]一把[AbilityGreen]电弧流星锤[/AbilityGreen]（可对目标造成[DamageWave/]电弧伤害，并有一定几率让目标无法移动）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DAREDEVIL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Assault Vehicle</Data></Cell><Cell><Data ss:Type="String">突击载具</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DAREDEVIL_VANGUARD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Vanguard Assault Vehicle</Data></Cell><Cell><Data ss:Type="String">先锋突击载具</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="195"><Cell><Data ss:Type="String">DAREDEVIL_VANGUARD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">You always cherished your [AbilityGreen]Assault Bike[/AbilityGreen], and through some special connections, you were able to bring it with you.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Assault Bike[/AbilityGreen], which possesses powerful [DamageThermal/] Laser capabilities plus a [AbilityGreen]Mod.[/AbilityGreen][br/]An [AbilityGreen]Imperial Revolver[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage to a single target.</Data></Cell><Cell><Data ss:Type="String">你总是对自己的[AbilityGreen]突击机车[/AbilityGreen]倍加珍惜，即使要通过某种特殊关系，你也一定要把它带在身边。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]你的[AbilityGreen]突击机车[/AbilityGreen]（配备强力[DamageThermal/]激光武器和[AbilityGreen]模块[/AbilityGreen]）以及[br/]一把[AbilityGreen]帝国左轮手枪[/AbilityGreen]（可对单个目标造成[DamagePhysical/]动能伤害）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DAREDEVIL_ASSEMBLY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Assembly Assault Vehicle</Data></Cell><Cell><Data ss:Type="String">半机械人突击载具</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="210"><Cell><Data ss:Type="String">DAREDEVIL_ASSEMBLY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">You were a grand scientist, but they despised you due to your [AbilityGreen]Chopper[/AbilityGreen]. Now is the time to prove to them that your modified combat vehicle is all you need.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Chopper[/AbilityGreen], which possesses powerful [DamagePhysical/] Kinetic capabilities plus a [AbilityGreen]Mod.[/AbilityGreen][br/]An [AbilityGreen]Arc Grenade[/AbilityGreen] that deals [DamageWave/] Arc damage and staggers those hit.</Data></Cell><Cell><Data ss:Type="String">你担任首席科学家，但由于你的[AbilityGreen]斩切者[/AbilityGreen]，他们对你倍加鄙视。是时候向他们证明自己所改进的战斗乘具恰合其需。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）[br/][br/]装备包括：[br/]你的[AbilityGreen]斩切者[/AbilityGreen]（配备强力[DamagePhysical/]动能武器和[AbilityGreen]模块[/AbilityGreen]）以及[br/]一颗[AbilityGreen]电弧手雷[/AbilityGreen]（可造成[DamageWave/]电弧伤害，并动摇击中的目标）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DAREDEVIL_KIRKO</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Kir'Ko Assault Vehicle</Data></Cell><Cell><Data ss:Type="String">奇尔寇突击载具</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="195"><Cell><Data ss:Type="String">DAREDEVIL_KIRKO</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">During a terrible battle, an Emergent saved your life. It later grew into an [AbilityGreen]Abyssian[/AbilityGreen]. You have been together ever since.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Abyssian[/AbilityGreen], which possesses powerful [DamageBio/] Biochemical capabilities plus a [AbilityGreen]Mod.[/AbilityGreen][br/]A [AbilityGreen]Psi-stone of Dissonance[/AbilityGreen] that deals [DamagePsyche/] Psionic damage in an area.</Data></Cell><Cell><Data ss:Type="String">在一场恶战中，一只新生幼虫救了你一命。之后，它成长为[AbilityGreen]深渊幽鬼[/AbilityGreen]。自那以后，你们便形影不离。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]你的[AbilityGreen]深渊幽鬼[/AbilityGreen]（配备强力[DamageBio/]生化武器和[AbilityGreen]模块[/AbilityGreen]）以及[br/]一颗[AbilityGreen]不谐灵能石[/AbilityGreen]（可对一定范围造成[DamagePsyche/]灵能伤害）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DAREDEVIL_AMAZON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Amazon Assault Mount</Data></Cell><Cell><Data ss:Type="String">亚马逊突击坐骑</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="195"><Cell><Data ss:Type="String">DAREDEVIL_AMAZON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">You have your own personal [AbilityGreen]Lancer[/AbilityGreen]. You still remember when it was just a zygote in the birthing chambers. You have been inseparable ever since.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Lancer[/AbilityGreen], which possesses powerful [DamageThermal/] Thermal capabilities plus a [AbilityGreen]Mod.[/AbilityGreen][br/]A [AbilityGreen]Bio Blaster[/AbilityGreen] that deals [DamageBio/] Biochemical damage.</Data></Cell><Cell><Data ss:Type="String">你有你自己的[AbilityGreen]长矛兵[/AbilityGreen]箭尾兽。你依然记得它在孵化室中还是受精卵时的模样。自那以后，你们便形影不离。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]你的[AbilityGreen]长矛兵[/AbilityGreen]箭尾兽（配备强大热能[DamageThermal/]武器和[AbilityGreen]模块[/AbilityGreen]）以及[br/]一把[AbilityGreen]生化爆能枪[/AbilityGreen]（可造成[DamageBio/]生化伤害）。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DAREDEVIL_DVAR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Dvar Assault Vehicle</Data></Cell><Cell><Data ss:Type="String">矮人突击载具</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="195"><Cell><Data ss:Type="String">DAREDEVIL_DVAR</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Built with blood, sweat and tears, your [AbilityGreen]Bulwark[/AbilityGreen] is your greatest creation yet. Now let's see how it fights![br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Bulwark[/AbilityGreen], which possesses powerful [DamagePhysical/] Kinetic capabilities plus a [AbilityGreen]Mod.[/AbilityGreen][br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell><Cell><Data ss:Type="String">你耗尽心血，没日没夜打造出了自己的集大成之作[AbilityGreen]筑垒卫士[/AbilityGreen]。让我们看看它开起来怎么样！[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]你的[AbilityGreen]筑垒卫士[/AbilityGreen]（配备强力[DamagePhysical/]动能武器和[AbilityGreen]模块[/AbilityGreen]）以及[br/]一颗[AbilityGreen]基础手雷[/AbilityGreen]（可对一定范围造成[DamagePhysical/]动能伤害，并动摇命中的目标）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DAREDEVIL_SYNDICATE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Syndicate Assault Vehicle</Data></Cell><Cell><Data ss:Type="String">辛迪加突击载具</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="210"><Cell><Data ss:Type="String">DAREDEVIL_SYNDICATE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Your parents gave you a [AbilityGreen]Hoverbike[/AbilityGreen] for your 16th birthday... they couldn't even get it in the right color, but you persevered and became an expert at riding it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Hoverbike[/AbilityGreen], which possesses powerful [DamagePsyche/] Psionic capabilities plus a [AbilityGreen]Mod.[/AbilityGreen][br/][AbilityGreen]Arc Bolas[/AbilityGreen] that deal [DamageWave/] Arc damage and has a chance to immobilize the target.</Data></Cell><Cell><Data ss:Type="String">你的父母送你了一辆[AbilityGreen]悬浮机车[/AbilityGreen]作为你 16 岁的生日礼物…你不喜欢父母挑的颜色，但是你还是细心保养，并逐渐领悟了领航之道。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]你的[AbilityGreen]悬浮机车[/AbilityGreen]（拥有强大的[DamagePsyche/]灵能技能和[AbilityGreen]模块）以及[/AbilityGreen][br/]一把[AbilityGreen]电弧流星锤[/AbilityGreen]（可造成[DamageWave/]电弧伤害，并可让目标无法移动）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SUPPORT_PILOT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Support Vehicle</Data></Cell><Cell><Data ss:Type="String">辅助载具</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="165"><Cell><Data ss:Type="String">SUPPORT_PILOT_VANGUARD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">You found a lost [AbilityGreen]Imperial APC[/AbilityGreen] and repaired it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]An [AbilityGreen]Imperial APC[/AbilityGreen] with various support abilities.[br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell><Cell><Data ss:Type="String">你发现了一辆遗失的[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]并修好了它。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]一辆[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]（配备不同的辅助技能）以及[br/]一颗[AbilityGreen]基础手雷[/AbilityGreen]（可对一定范围造成[DamagePhysical/]动能伤害，并动摇击中的目标）。</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Changed Empire APC to Imperial APC</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell><Data ss:Type="String">SUPPORT_PILOT_ASSEMBLY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">You found a lost [AbilityGreen]Imperial APC[/AbilityGreen] and repaired it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]An [AbilityGreen]Imperial APC[/AbilityGreen] with various support abilities.[br/]An [AbilityGreen]Arc Grenade[/AbilityGreen] that deals [DamageWave/] Arc damage and staggers those hit.</Data></Cell><Cell><Data ss:Type="String">你发现了一辆遗失的[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]并修好了它。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]一辆[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]（配备不同的辅助技能）以及[br/]一颗[AbilityGreen]电弧手雷[/AbilityGreen]（可造成[DamageWave/]电弧伤害，并动摇击中的目标）。</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Changed Empire APC to Imperial APC</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell><Data ss:Type="String">SUPPORT_PILOT_KIRKO</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">You found a lost [AbilityGreen]Imperial APC[/AbilityGreen] and repaired it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] hit points.[br/][br/]The loadout includes:[br/]An [AbilityGreen]Imperial APC[/AbilityGreen] with various support abilities.[br/]A [AbilityGreen]Psi-stone of Dissonance[/AbilityGreen], that when used causes [DamagePsyche/] Psionic damage in an area.</Data></Cell><Cell><Data ss:Type="String">你发现了一辆遗失的[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]并修好了它。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]一辆[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]（配备不同的辅助技能）以及[br/]一颗[AbilityGreen]不谐灵能石[/AbilityGreen]（可对一定范围造成[DamagePsyche/]灵能伤害）。</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Changed Empire APC to Imperial APC</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="165"><Cell><Data ss:Type="String">SUPPORT_PILOT_AMAZON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">You found a lost [AbilityGreen]Imperial APC[/AbilityGreen] and repaired it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]An [AbilityGreen]Imperial APC[/AbilityGreen] with various support abilities.[br/]A [AbilityGreen]Thermal Grenade[/AbilityGreen] that deals [DamageThermal/] Thermal damage in an area and has a chance to burn those hit.</Data></Cell><Cell><Data ss:Type="String">你发现了一辆遗失的[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]并修好了它。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]一辆[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]（配备不同的辅助技能）以及[br/]一颗[AbilityGreen]热能手雷[/AbilityGreen]（可对一定范围造成[DamageThermal/]热能伤害，并有几率点燃击中的目标）。</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Changed Empire APC to Imperial APC</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="165"><Cell><Data ss:Type="String">SUPPORT_PILOT_DVAR</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">You found a lost [AbilityGreen]Imperial APC[/AbilityGreen] and repaired it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]An [AbilityGreen]Imperial APC[/AbilityGreen] with various support abilities.[br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell><Cell><Data ss:Type="String">你发现了一辆遗失的[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]并修好了它。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]一辆[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]（配备不同的辅助技能）以及[br/]一颗[AbilityGreen]基础手雷[/AbilityGreen]（可对一定范围造成[DamagePhysical/]动能伤害，并动摇击中的目标）。</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Changed Empire APC to Imperial APC</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="165"><Cell><Data ss:Type="String">SUPPORT_PILOT_SYNDICATE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">You found a lost [AbilityGreen]Imperial APC[/AbilityGreen] and repaired it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]An [AbilityGreen]Imperial APC[/AbilityGreen] with various support abilities.[br/]A [AbilityGreen]PsiTec Grenade[/AbilityGreen] that deals [DamagePsyche/] Psionic damage in an area and has a chance to cripple those hit.</Data></Cell><Cell><Data ss:Type="String">你发现了一辆遗失的[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]并修好了它。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]一辆[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]（配备不同的辅助技能）以及[br/]一颗[AbilityGreen]灵能手雷[/AbilityGreen]（可对一定范围造成[DamagePsyche/]灵能伤害，并有几率致残击中的目标）。</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Changed Empire APC to Imperial APC</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_XENOPLAGUE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Xenoplague Close Combat Equipment</Data></Cell><Cell><Data ss:Type="String">异星疫病近战装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="165"><Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_XENOPLAGUE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after the Xenoplague Close Combat training.[br/][br/]This expert training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/] Hit Points.[br/][br/]The pack includes:[br/][AbilityGreen]Pestilence[/AbilityGreen], a vicious living gauntlet that infects your foes while dealing [DamageBio/] Biochemical damage at close range.[br/]A [AbilityGreen]Bio Grenade[/AbilityGreen] that deals [DamageBio/] Biochemical damage in an area and has a chance to poison those hit.</Data></Cell><Cell><Data ss:Type="String">你完成异星疫病近战训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]近战专家 I[/AbilityGreen]（使用近战武器时可提升伤害）。[br/][AbilityGreen]活力 I[/AbilityGreen]（提升最大[hp/]生命值）。[br/][br/]装备包含：[br/][AbilityGreen]瘟疫[/AbilityGreen]（恶毒活体病毒臂铠，可传染敌人，并在近距离范围内造成[DamageBio/]生化伤害）以及[br/]一颗[AbilityGreen]生化手雷[/AbilityGreen]（对一定范围造成[DamageBio/]生化伤害，并有几率使命中的目标中毒）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_VOIDTECH</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Voidtech Close Combat Equipment</Data></Cell><Cell><Data ss:Type="String">虚空科技近战装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_VOIDTECH</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Voidtech Close Combat training.[br/][br/]This expert training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/] Hit Points.[br/][br/]The pack includes:[br/] [AbilityGreen]Void Blades[/AbilityGreen], dimension-distorting blades that deal [DamagePhysical/] Kinetic damage at close range.[br/]An [AbilityGreen]Arc Grenade[/AbilityGreen] that deals [DamageWave/] Arc damage and staggers those hit.</Data></Cell><Cell><Data ss:Type="String">你完成虚空科技族近战训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]近战专家 I[/AbilityGreen]（使用近战武器时可提升伤害）。[br/][AbilityGreen]活力 I[/AbilityGreen]（提升最大[hp/]生命值）。[br/][br/]装备包含：[br/][AbilityGreen]虚空之刃[/AbilityGreen]（扭曲之刃，在近距离范围内造成[DamagePhysical/]动能伤害）以及[br/]一颗[AbilityGreen]电弧手雷[/AbilityGreen]（造成[DamageWave/]电弧伤害，并动摇击中的目标）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_CELESTIAN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Celestian Close Combat Equipment</Data></Cell><Cell><Data ss:Type="String">星神近战装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="165"><Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_CELESTIAN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Celestian Close Combat training.[br/][br/]This expert training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/] Hit Points.[br/][br/]The pack includes:[br/] [AbilityGreen]Inferno Fists[/AbilityGreen], fiery gauntlets that deal [DamageThermal/] Thermal damage at close range.[br/]An [AbilityGreen]Ego Bomb[/AbilityGreen] that deals [DamagePsyche/] and has a chance of applying Broken Mind to those hit.</Data></Cell><Cell><Data ss:Type="String">你完成星神近战训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]近战专家 I[/AbilityGreen]（使用近战武器时可提升伤害）。[br/][AbilityGreen]活力 I[/AbilityGreen]（提升最大[hp/]生命值）。[br/][br/]装备包含：[br/][AbilityGreen]炼狱之拳[/AbilityGreen]（一双威力无穷的臂铠，可在近距离范围内造成[DamageThermal/]热能伤害）以及[br/]一颗[AbilityGreen]自我感应炸弹[/AbilityGreen]（可造成[DamagePsyche/]伤害，并有一定几率对击中的目标施加破碎心灵）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ASSAULT_TRAINING_PROMETHEAN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Promethean Assault Equipment</Data></Cell><Cell><Data ss:Type="String">圣火突击装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="165"><Cell><Data ss:Type="String">ASSAULT_TRAINING_PROMETHEAN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Promethean Assault training.[br/][br/]This expert training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Purifier Gun[/AbilityGreen] that deals a burst of [DamageThermal/] Thermal damage.[br/]A [AbilityGreen]Thermal Grenade[/AbilityGreen] that deals [DamageThermal/] Thermal damage in an area and has a chance to burn those hit.</Data></Cell><Cell><Data ss:Type="String">你完成圣火突击训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）、[br/][AbilityGreen]稳定瞄准[/AbilityGreen](在处于掩体中时可提升准度）。[br/][br/]装备包含：[br/]一把[AbilityGreen]净化者枪[/AbilityGreen]（可重复造成[DamageThermal/]热能伤害）以及[br/]一颗[AbilityGreen]热能手雷[/AbilityGreen]（可对一定范围造成[DamageThermal/]热能伤害，并有几率点燃击中的目标）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ASSAULT_TRAINING_PSYNUMBRA</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Psynumbra Assault Equipment</Data></Cell><Cell><Data ss:Type="String">赛努布拉突击装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="165"><Cell><Data ss:Type="String">ASSAULT_TRAINING_PSYNUMBRA</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Psynumbra Assault training.[br/][br/]This expert training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Soul Splitter[/AbilityGreen], a gun that targets the mind of its foes, dealing [DamagePsyche/] Psionic damage.[br/]A [AbilityGreen]Psi-stone of Dissonance[/AbilityGreen] that deals [DamagePsyche/] Psionic damage in an area.</Data></Cell><Cell><Data ss:Type="String">你完成赛努布拉突击训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）、[br/][AbilityGreen]稳定瞄准[/AbilityGreen]（在处于掩体中时可提升准度）。[br/][br/]装备包含：[br/]一把[AbilityGreen]灵魂分解者[/AbilityGreen]（瞄准敌人心口，可造成[DamagePsyche/]灵能伤害）以及[br/]一颗[AbilityGreen]不谐灵能石[/AbilityGreen]（可对一定范围造成[DamagePsyche/]灵能伤害）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ASSAULT_TRAINING_SYNTHESIS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Synthesis Assault Equipment</Data></Cell><Cell><Data ss:Type="String">合成突击装备</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell><Data ss:Type="String">ASSAULT_TRAINING_SYNTHESIS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The pack you received after Synthesis Assault training.[br/][br/]This expert training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Hasher SMG[/AbilityGreen], a powerful submachine gun that deals [DamageWave/] Arc damage.[br/]An [AbilityGreen]Arc Grenade[/AbilityGreen] that deals [DamageWave/] Arc damage and staggers those hit.</Data></Cell><Cell><Data ss:Type="String">你完成合成突击训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）、[br/][AbilityGreen]稳定瞄准[/AbilityGreen](在处于掩体中时可提升准度）。[br/][br/]装备包含：[br/]一把[AbilityGreen]哈舍尔冲锋枪[/AbilityGreen]（威力巨大的轻型自动枪，可造成[DamageWave/]电弧伤害）以及[br/]一颗[AbilityGreen]电弧手雷[/AbilityGreen]（可对一定范围造成[DamageWave/]电弧伤害，并动摇命中的目标）。</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Selected/><TopRowVisible>22</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>25</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:51:08Z</Created><LastSaved
+    >2019-07-03T22:53:35Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Interior
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="258"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="203.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="66.75"
+      /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="318.75"
+        ss:Span="1"
+      /><Column ss:Index="5" ss:StyleID="s62" ss:Width="221.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="120"
+      /><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
+            ss:Type="String"
+          >LOADOUT_PERKS</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BASIC_TRAINING_VANGUARD</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vanguard Basic Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >先锋基础装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">BASIC_TRAINING_VANGUARD</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The standard-issue pack you received after basic training.[br/][br/]The pack includes:[br/]A [AbilityGreen]Laser Rifle[/AbilityGreen] that deals repeated [DamageThermal/] Thermal damage.[br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成基础训练后收到的标准制式装备，[br/][br/]其中包含：[br/]一把[AbilityGreen]激光步枪[/AbilityGreen]（可造成重复[DamageThermal/]热能伤害）以及[br/]一颗[AbilityGreen]基础手雷[/AbilityGreen]（对一定范围造成[DamagePhysical/]动能伤害，并动摇命中的单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BASIC_TRAINING_ASSEMBLY</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Assembly Basic Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >半机械人基础装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">BASIC_TRAINING_ASSEMBLY</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The standard-issue pack you received after basic training.[br/][br/]The pack includes:[br/]An [AbilityGreen]Arc Projector[/AbilityGreen] that deals repeated [DamageWave/] Arc damage.[br/]An [AbilityGreen]Arc Grenade[/AbilityGreen] that deals [DamageWave/] Arc damage and staggers those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成基础训练后收到的标准制式装备，[br/][br/]其中包含：[br/]一把[AbilityGreen]电弧投射器[/AbilityGreen]（可造成持续性[DamageWave/]电弧伤害）以及[br/]一颗[AbilityGreen]电弧手雷[/AbilityGreen]（可在一定范围内造成[DamageWave/]电弧伤害，并对击中单位造成晕眩效果。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BASIC_TRAINING_KIRKO</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Kir'Ko Basic Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >奇尔寇基础装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">BASIC_TRAINING_KIRKO</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The standard-issue pack you received after basic training.[br/][br/]The pack includes:[br/]A [AbilityGreen]Thrax Rifle[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage.[br/]A [AbilityGreen]Psi-stone of Dissonance[/AbilityGreen] that deals [DamagePsyche/] Psionic damage in an area.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成基础训练后收到的标准制式装备，[br/][br/]其中包含：[br/]一把[AbilityGreen]特拉科斯步枪[/AbilityGreen]（可造成持续性[DamageBio/]生化伤害）以及[br/]一颗[AbilityGreen]不谐灵能石[/AbilityGreen]（可在一定范围内造成[DamagePsyche/]灵能伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BASIC_TRAINING_AMAZON</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Amazon Basic Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >亚马逊基础装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">BASIC_TRAINING_AMAZON</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The standard-issue pack you received after basic training.[br/][br/]The pack includes:[br/]A [AbilityGreen]Hunting Bow[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage and has a chance to poison.[br/]A [AbilityGreen]Thermal Grenade[/AbilityGreen] that deals [DamageThermal/] Thermal damage in an area and has a chance to burn those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成基础训练后收到的标准制式装备，[br/][br/]其中包含：[br/]一把[AbilityGreen]猎弓[/AbilityGreen]（可造成持续性[DamageBio/]生化伤害，并有几率让目标中毒）以及[br/]一颗[AbilityGreen]热能手雷[/AbilityGreen]（可在一定范围内造成[DamageThermal/]热能伤害，并有一定几率点燃所击中的单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BASIC_TRAINING_DVAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dvar Basic Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >矮人基础装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">BASIC_TRAINING_DVAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The standard-issue pack you received after basic training.[br/][br/]The pack includes:[br/]A [AbilityGreen]Spike Gun[/AbilityGreen] that fires a single, powerful shot that deals [DamagePhysical/] Kinetic damage.[br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成基础训练后收到的标准制式装备组，[br/][br/]其中包含：[br/]一把[AbilityGreen]钉枪[/AbilityGreen]（强力的单发火器，造成[DamagePhysical/]动能伤害，以及[br/]一颗[AbilityGreen]基础手雷[/AbilityGreen]（可在一定范围内造成[DamagePhysical/]动能伤害，并动摇击中的目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BASIC_TRAINING_SYNDICATE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Syndicate Basic Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >辛迪加基础装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">BASIC_TRAINING_SYNDICATE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The standard-issue pack you received after basic training.[br/][br/]The pack includes:[br/]A [AbilityGreen]Pulse Repeater[/AbilityGreen] that deals repeated [DamageWave/] Arc damage.[br/]A [AbilityGreen]PsiTec Grenade[/AbilityGreen] that deals [DamagePsyche/] Psionic damage in an area and has a chance to cripple those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成基础训练后收到的标准制式装备，[br/][br/]其中包含：[br/]一把[AbilityGreen]脉冲连发枪[/AbilityGreen]（可造成持续性[DamageWave/]电弧伤害）以及[br/]一颗[AbilityGreen]灵能手雷[/AbilityGreen]（可在一定范围内造成[DamagePsyche/]灵能伤害，并致残击中的单位）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >CLOSE_COMBAT_TRAINING_VANGUARD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vanguard Close Combat Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >先锋近战装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell><Data
+            ss:Type="String"
+          >CLOSE_COMBAT_TRAINING_VANGUARD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Close Combat training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/].[br/][br/]The pack includes:[br/]A [AbilityGreen]Laser Sword[/AbilityGreen] that deals repeated [DamageThermal/] Thermal damage at close range.[br/]An [AbilityGreen]Imperial Revolver[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in a single burst.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成近战训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]近战专家 I[/AbilityGreen]（使用近战武器时可提升伤害）。[br/][AbilityGreen]活力 I[/AbilityGreen](提升最大[hp/]）。[br/][br/]装备包含：[br/]一把[AbilityGreen]激光剑[/AbilityGreen]（可在近距离范围内造成持续性[DamageThermal/]热能伤害）以及一把[br/][AbilityGreen]帝国左轮手枪[/AbilityGreen]（单次伤害，可造成[DamagePhysical/]动能伤害）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >CLOSE_COMBAT_TRAINING_ASSEMBLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Assembly Close Combat Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >半机械人近战装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell><Data
+            ss:Type="String"
+          >CLOSE_COMBAT_TRAINING_ASSEMBLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Close Combat training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/].[br/][br/]The pack includes:[br/]A [AbilityGreen]Arc Sword[/AbilityGreen] that deals repeated [DamageWave/] Arc damage at close range.[br/]A [AbilityGreen]Imperial Pistol[/AbilityGreen] that deals repeated [DamagePhysical/] Kinetic damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成近战训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]近战专家 I[/AbilityGreen]（使用近战武器时可提升伤害）。[br/][AbilityGreen]活力 I[/AbilityGreen](提升最大[hp/]）。[br/][br/]装备包含：[br/]一把[AbilityGreen]电弧剑[/AbilityGreen]（可在近距离范围内造成持续性[DamageWave/]电弧伤害）以及一把[br/][AbilityGreen]帝国手枪[/AbilityGreen]（可重复造成[DamagePhysical/]动能伤害）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >CLOSE_COMBAT_TRAINING_KIRKO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Kir'Ko Close Combat Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >奇尔寇近战装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell><Data
+            ss:Type="String"
+          >CLOSE_COMBAT_TRAINING_KIRKO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Close Combat training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/].[br/][br/]The pack includes:[br/] [AbilityGreen]Rending Claws[/AbilityGreen] that deal repeated [DamagePhysical/] Kinetic damage at close range.[br/]A [AbilityGreen]Thrax Blaster[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成近战训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]近战专家 I[/AbilityGreen]（使用近战武器时可提升伤害）。[br/][AbilityGreen]活力 I[/AbilityGreen](提升最大[hp/]）。[br/][br/]装备包含：[br/]一把[AbilityGreen]裂魂爪[/AbilityGreen]（可在近距离范围内持续造成[DamagePhysical/]动能伤害）以及一把[br/][AbilityGreen]特拉科斯爆破枪[/AbilityGreen]（可重复造成[DamageBio/]生化伤害）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >CLOSE_COMBAT_TRAINING_AMAZON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Amazon Close Combat Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >亚马逊近战装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell><Data
+            ss:Type="String"
+          >CLOSE_COMBAT_TRAINING_AMAZON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Close Combat training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/].[br/][br/]The pack includes:[br/]A [AbilityGreen]Laser Glaive[/AbilityGreen] that deals repeated [DamageThermal/] Thermal damage at close range.[br/]A [AbilityGreen]Bio Blaster[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成近战训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]近战专家 I[/AbilityGreen]（使用近战武器时可提升伤害）。[br/][AbilityGreen]活力 I[/AbilityGreen](提升最大[hp/]）。[br/][br/]装备包含：[br/]一把[AbilityGreen]激光阔剑[/AbilityGreen]（可在近距离范围内持续造成[DamageThermal/]热能伤害）[br/]以及一把[br/][AbilityGreen]生化爆能枪[/AbilityGreen]（可重复造成[DamageBio/]生化伤害）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >CLOSE_COMBAT_TRAINING_DVAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dvar Close Combat Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >矮人近战装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell><Data
+            ss:Type="String"
+          >CLOSE_COMBAT_TRAINING_DVAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Close Combat training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/].[br/][br/]The pack includes:[br/]A [AbilityGreen]Rocket Hammer[/AbilityGreen] that deals a single burst of [DamagePhysical/] Kinetic damage at close range.[br/]An [AbilityGreen]Imperial Revolver[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in a single burst.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成近战训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]近战专家 I[/AbilityGreen]（使用近战武器时可提升伤害）。[br/][AbilityGreen]活力 I[/AbilityGreen](提升最大[hp/]）。[br/][br/]装备包含：[br/]一把[AbilityGreen]火箭之锤[/AbilityGreen]（单次伤害，可在近距离范围内造成[DamagePhysical/]动能伤害）以及一把[br/][AbilityGreen]帝国左轮手枪[/AbilityGreen]（单次伤害，可造成[DamagePhysical/]动能伤害）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >CLOSE_COMBAT_TRAINING_SYNDICATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Syndicate Close Combat Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >辛迪加近战装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell><Data
+            ss:Type="String"
+          >CLOSE_COMBAT_TRAINING_SYNDICATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Close Combat training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/].[br/][br/]The pack includes:[br/] [AbilityGreen]PsiTec Fists[/AbilityGreen] that deal repeated [DamagePsyche/] Psionic damage at close range.[br/] [AbilityGreen]Arc Bolas[/AbilityGreen] that deal [DamageWave/] Arc damage and attempt to immobilize the target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成近战训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]近战专家 I[/AbilityGreen]（使用近战武器时可提升伤害）。[br/][AbilityGreen]活力 I[/AbilityGreen](提升最大[hp/]）。[br/][br/]装备包含：[br/]一把[AbilityGreen]灵能拳[/AbilityGreen]（可在近距离范围内造成持续性[DamagePsyche/]灵能伤害）[br/]以及一把[br/][AbilityGreen]电弧流星锤[/AbilityGreen]（可造成[DamageWave/]电弧伤害，并可让目标无法移动）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ASSAULT_TRAINING_VANGUARD</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vanguard Assault Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >先锋突击装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="165"
+      ><Cell><Data ss:Type="String">ASSAULT_TRAINING_VANGUARD</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Assault training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Laser Rifle[/AbilityGreen] that deals repeated [DamageThermal/] Thermal damage.[br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成突击训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）、[br/][AbilityGreen]稳定瞄准[/AbilityGreen](在处于掩体中时可提升准度）。[br/][br/]装备包含：[br/]一把[AbilityGreen]激光步枪[/AbilityGreen]（可重复造成[DamageThermal/]热能伤害）以及[br/]一颗[AbilityGreen]基础手雷[/AbilityGreen]（可对一定范围造成[DamagePhysical/]动能伤害，并动摇击中的单位）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ASSAULT_TRAINING_ASSEMBLY</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Assembly Assault Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >半机械人突击装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell><Data ss:Type="String">ASSAULT_TRAINING_ASSEMBLY</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Assault training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]An [AbilityGreen]Arc Projector[/AbilityGreen] that deals repeated [DamageWave/] Arc damage.[br/]An [AbilityGreen]Arc Grenade[/AbilityGreen] that deals [DamageWave/] Arc and staggers those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成突击训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可获得伤害提升）、[br/][AbilityGreen]稳定瞄准[/AbilityGreen](在处于掩体中时可提升准度）。[br/][br/]装备包含：[br/]一把[AbilityGreen]电弧投射器[/AbilityGreen]（可重复造成[DamageWave/]电弧伤害）以及[br/]一颗[AbilityGreen]电弧手雷[/AbilityGreen]（可对一定范围造成[DamageWave/]电弧伤害，并动摇击中的单位）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ASSAULT_TRAINING_KIRKO</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Kir'Ko Assault Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >奇尔寇突击装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell><Data ss:Type="String">ASSAULT_TRAINING_KIRKO</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Assault training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Thrax Rifle[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage.[br/]A [AbilityGreen]Psi-stone of Dissonance[/AbilityGreen] that deals [DamagePsyche/] Psionic damage in an area.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成突击训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）、[br/][AbilityGreen]稳定瞄准[/AbilityGreen](在处于掩体中时可提升准度）。[br/][br/]装备包含：[br/]一把[AbilityGreen]特拉科斯步枪[/AbilityGreen]（可重复造成[DamageBio/]生化伤害）以及[br/]一颗[AbilityGreen]不谐灵能石[/AbilityGreen]（可对一定范围造成[DamagePsyche/]灵能伤害）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ASSAULT_TRAINING_AMAZON</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Amazon Assault Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >亚马逊突击装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="180"
+      ><Cell><Data ss:Type="String">ASSAULT_TRAINING_AMAZON</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Assault training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - Increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - Increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Hunting Bow[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage and has a chance to poison.[br/]A [AbilityGreen]Thermal Grenade[/AbilityGreen], that when used causes [DamageThermal/] Thermal damage in an area and has a chance to burn those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成突击训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）、[br/][AbilityGreen]稳定瞄准[/AbilityGreen](在处于掩体中时可提升准度）。[br/][br/]装备包含：[br/]一把[AbilityGreen]狩猎弓[/AbilityGreen]（可重复造成[DamageBio/]生化伤害）、[br/]一颗[AbilityGreen]热能手雷[/AbilityGreen]（可对一定范围造成[DamageThermal/]动能伤害，并有一定几率点燃击中的目标）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ASSAULT_TRAINING_DVAR</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dvar Assault Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >矮人突击装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="165"
+      ><Cell><Data ss:Type="String">ASSAULT_TRAINING_DVAR</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Assault training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Spike Gun[/AbilityGreen] that fires a single powerful shot that deals [DamagePhysical/] Kinetic damage.[br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成突击训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）、[br/][AbilityGreen]稳定瞄准[/AbilityGreen](在处于掩体中时可提升准度）。[br/][br/]装备包含：[br/]一把[AbilityGreen]钉枪[/AbilityGreen]（单次伤害，可造成强力[DamagePhysical/]动能伤害）以及[br/]一颗[AbilityGreen]基础手雷[/AbilityGreen]（可对一定范围造成[DamagePhysical/]动能伤害，并动摇击中的单位）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >ASSAULT_TRAINING_SYNDICATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Syndicate Assault Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >辛迪加突击装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="165"
+      ><Cell><Data
+            ss:Type="String"
+          >ASSAULT_TRAINING_SYNDICATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Assault training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Pulse Repeater[/AbilityGreen] that deals repeated [DamageWave/] Arc damage.[br/]A [AbilityGreen]PsiTec Grenade[/AbilityGreen] that deals [DamagePsyche/] Psionic damage in an area and has a chance to cripple those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成突击训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）、[br/][AbilityGreen]稳定瞄准[/AbilityGreen](在处于掩体中时可提升准度）。[br/][br/]装备包含：[br/]一把[AbilityGreen]脉冲连发枪[/AbilityGreen]（可重复造成[DamageWave/]电弧伤害）以及[br/]一颗[AbilityGreen]灵能手雷[/AbilityGreen]（可对一定范围造成[DamagePsyche/]灵能伤害，并致残击中的单位）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SHARPSHOOTER_TRAINING_VANGUARD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vanguard Sharpshooter Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >先锋神射手装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell><Data
+            ss:Type="String"
+          >SHARPSHOOTER_TRAINING_VANGUARD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Sharpshooter training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Dead Eye I[/AbilityGreen] - slightly increases accuracy and critical hit chance.[br/][br/]The pack includes:[br/]A [AbilityGreen]Sniper Rifle[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage.[br/]An [AbilityGreen]Imperial Revolver[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in a single burst.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成神射手训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）以及[br/][AbilityGreen]死神之眼 I[/AbilityGreen](少量提升准度和暴击率）。[br/][br/]装备包含：[br/]一把[AbilityGreen]狙击步枪[/AbilityGreen]（可造成[DamagePhysical/]动能伤害）以及[br/]一把[AbilityGreen]帝国左轮手枪[/AbilityGreen]（可造成单次[DamagePhysical/]动能伤害）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SHARPSHOOTER_TRAINING_ASSEMBLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Assembly Sharpshooter Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >半机械人神射手装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell><Data
+            ss:Type="String"
+          >SHARPSHOOTER_TRAINING_ASSEMBLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Sharpshooter training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Dead Eye I[/AbilityGreen] - slightly increases accuracy and critical hit chance.[br/][br/]The pack includes:[br/]A [AbilityGreen]Vorpal Sniper[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage.[br/]An [AbilityGreen]Arc Grenade[/AbilityGreen] that deals [DamageWave/] Arc damage and staggers those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成神射手训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）以及[br/][AbilityGreen]死神之眼 I[/AbilityGreen](少量提升准度和暴击率）。[br/][br/]装备包含：[br/]一把[AbilityGreen]夺命狙击步枪[/AbilityGreen]（可造成[DamagePhysical/]动能伤害）以及[br/]一颗[AbilityGreen]电弧手雷[/AbilityGreen]（可造成[DamageWave/]电弧伤害，并动摇击中的目标）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SHARPSHOOTER_TRAINING_KIRKO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Kir'Ko Sharpshooter Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >奇尔寇神射手装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell><Data
+            ss:Type="String"
+          >SHARPSHOOTER_TRAINING_KIRKO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Sharpshooter training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Dead Eye I[/AbilityGreen] - slightly increases accuracy and critical hit chance.[br/][br/]The pack includes:[br/]A [AbilityGreen]Psi-Rifle[/AbilityGreen] that deals [DamagePsyche/] Psionic damage.[br/]A [AbilityGreen]Thrax Blaster[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成神射手训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）以及[br/][AbilityGreen]死神之眼 I[/AbilityGreen]（少量提升准度和暴击率）。[br/][br/]装备包含：[br/]一把[AbilityGreen]灵能步枪[/AbilityGreen]（可造成[DamagePsyche/]灵能伤害）以及[br/]一把[AbilityGreen]特拉科斯爆破枪[/AbilityGreen]（可重复造成[DamageBio/]生化伤害）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SHARPSHOOTER_TRAINING_AMAZON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Amazon Sharpshooter Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >亚马逊神射手装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell><Data
+            ss:Type="String"
+          >SHARPSHOOTER_TRAINING_AMAZON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Sharpshooter training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Dead Eye I[/AbilityGreen] - slightly increases accuracy and critical hit chance.[br/][br/]The pack includes:[br/]A [AbilityGreen]Laser Sniper[/AbilityGreen] that deals [DamageThermal/] Thermal damage.[br/]A [AbilityGreen]Bio Blaster[/AbilityGreen] that deals repeated [DamageBio/] Biochemical damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成神射手训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）以及[br/][AbilityGreen]死神之眼 I[/AbilityGreen]（少量提升准度和暴击率）。[br/][br/]装备包含：[br/]一把[AbilityGreen]激光狙击枪[/AbilityGreen]（可造成[DamageThermal/]热能伤害）以及[br/]一把[AbilityGreen]生化爆能枪[/AbilityGreen]（可重复造成[DamageBio/]生化伤害）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SHARPSHOOTER_TRAINING_DVAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dvar Sharpshooter Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >矮人神射手装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="165"
+      ><Cell><Data
+            ss:Type="String"
+          >SHARPSHOOTER_TRAINING_DVAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Sharpshooter training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Dead Eye I[/AbilityGreen] - slightly increases accuracy and critical hit chance.[br/][br/]The pack includes:[br/]An [AbilityGreen]Imperial Sniper Rifle[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage.[br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成神射手训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）以及[br/][AbilityGreen]死神之眼 I[/AbilityGreen]（少量提升准度和暴击率）。[br/][br/]装备包含：[br/]一把[AbilityGreen]帝国狙击步枪[/AbilityGreen]（可造成[DamagePhysical/]动能伤害）以及[br/]一颗[AbilityGreen]基础手雷[/AbilityGreen]（可对一定范围造成[DamagePhysical/]动能伤害，并动摇击中的目标）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SHARPSHOOTER_TRAINING_SYNDICATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Syndicate Sharpshooter Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >辛迪加神射手装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell><Data
+            ss:Type="String"
+          >SHARPSHOOTER_TRAINING_SYNDICATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Sharpshooter training.[br/][br/]This advanced training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Dead Eye I[/AbilityGreen] - slightly increases accuracy and critical hit chance.[br/][br/]The pack includes:[br/]A [AbilityGreen]Pulse Sniper[/AbilityGreen] that deals [DamageWave/] Arc damage.[br/][AbilityGreen]Arc Bolas[/AbilityGreen] that deal [DamageWave/] Arc damage to a target and has a chance to immobilize them.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成神射手训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）以及[br/][AbilityGreen]死神之眼 I[/AbilityGreen]（少量提升准度和暴击率）。[br/][br/]装备包含：[br/]一把[AbilityGreen]脉冲狙击步枪[/AbilityGreen]（可造成[DamageWave/]电弧伤害）以及[br/]一把[AbilityGreen]电弧流星锤[/AbilityGreen]（可对目标造成[DamageWave/]电弧伤害，并有一定几率让目标无法移动）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DAREDEVIL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Assault Vehicle</Data></Cell><Cell><Data
+            ss:Type="String"
+          >突击载具</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DAREDEVIL_VANGUARD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vanguard Assault Vehicle</Data></Cell><Cell><Data
+            ss:Type="String"
+          >先锋突击载具</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="195"
+      ><Cell><Data ss:Type="String">DAREDEVIL_VANGUARD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You always cherished your [AbilityGreen]Assault Bike[/AbilityGreen], and through some special connections, you were able to bring it with you.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Assault Bike[/AbilityGreen], which possesses powerful [DamageThermal/] Laser capabilities plus a [AbilityGreen]Mod.[/AbilityGreen][br/]An [AbilityGreen]Imperial Revolver[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage to a single target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你总是对自己的[AbilityGreen]突击机车[/AbilityGreen]倍加珍惜，即使要通过某种特殊关系，你也一定要把它带在身边。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]你的[AbilityGreen]突击机车[/AbilityGreen]（配备强力[DamageThermal/]激光武器和[AbilityGreen]模块[/AbilityGreen]）以及[br/]一把[AbilityGreen]帝国左轮手枪[/AbilityGreen]（可对单个目标造成[DamagePhysical/]动能伤害）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DAREDEVIL_ASSEMBLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Assembly Assault Vehicle</Data></Cell><Cell><Data
+            ss:Type="String"
+          >半机械人突击载具</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="210"
+      ><Cell><Data ss:Type="String">DAREDEVIL_ASSEMBLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You were a grand scientist, but they despised you due to your [AbilityGreen]Chopper[/AbilityGreen]. Now is the time to prove to them that your modified combat vehicle is all you need.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Chopper[/AbilityGreen], which possesses powerful [DamagePhysical/] Kinetic capabilities plus a [AbilityGreen]Mod.[/AbilityGreen][br/]An [AbilityGreen]Arc Grenade[/AbilityGreen] that deals [DamageWave/] Arc damage and staggers those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你担任首席科学家，但由于你的[AbilityGreen]斩切者[/AbilityGreen]，他们对你倍加鄙视。是时候向他们证明自己所改进的战斗乘具恰合其需。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）[br/][br/]装备包括：[br/]你的[AbilityGreen]斩切者[/AbilityGreen]（配备强力[DamagePhysical/]动能武器和[AbilityGreen]模块[/AbilityGreen]）以及[br/]一颗[AbilityGreen]电弧手雷[/AbilityGreen]（可造成[DamageWave/]电弧伤害，并动摇击中的目标）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DAREDEVIL_KIRKO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Kir'Ko Assault Vehicle</Data></Cell><Cell><Data
+            ss:Type="String"
+          >奇尔寇突击载具</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="195"
+      ><Cell><Data ss:Type="String">DAREDEVIL_KIRKO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >During a terrible battle, an Emergent saved your life. It later grew into an [AbilityGreen]Abyssian[/AbilityGreen]. You have been together ever since.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Abyssian[/AbilityGreen], which possesses powerful [DamageBio/] Biochemical capabilities plus a [AbilityGreen]Mod.[/AbilityGreen][br/]A [AbilityGreen]Psi-stone of Dissonance[/AbilityGreen] that deals [DamagePsyche/] Psionic damage in an area.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在一场恶战中，一只新生幼虫救了你一命。之后，它成长为[AbilityGreen]深渊幽鬼[/AbilityGreen]。自那以后，你们便形影不离。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]你的[AbilityGreen]深渊幽鬼[/AbilityGreen]（配备强力[DamageBio/]生化武器和[AbilityGreen]模块[/AbilityGreen]）以及[br/]一颗[AbilityGreen]不谐灵能石[/AbilityGreen]（可对一定范围造成[DamagePsyche/]灵能伤害）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DAREDEVIL_AMAZON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Amazon Assault Mount</Data></Cell><Cell><Data
+            ss:Type="String"
+          >亚马逊突击坐骑</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="195"
+      ><Cell><Data ss:Type="String">DAREDEVIL_AMAZON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You have your own personal [AbilityGreen]Lancer[/AbilityGreen]. You still remember when it was just a zygote in the birthing chambers. You have been inseparable ever since.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Lancer[/AbilityGreen], which possesses powerful [DamageThermal/] Thermal capabilities plus a [AbilityGreen]Mod.[/AbilityGreen][br/]A [AbilityGreen]Bio Blaster[/AbilityGreen] that deals [DamageBio/] Biochemical damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你有你自己的[AbilityGreen]长矛兵[/AbilityGreen]箭尾兽。你依然记得它在孵化室中还是受精卵时的模样。自那以后，你们便形影不离。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]你的[AbilityGreen]长矛兵[/AbilityGreen]箭尾兽（配备强大热能[DamageThermal/]武器和[AbilityGreen]模块[/AbilityGreen]）以及[br/]一把[AbilityGreen]生化爆能枪[/AbilityGreen]（可造成[DamageBio/]生化伤害）。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DAREDEVIL_DVAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dvar Assault Vehicle</Data></Cell><Cell><Data
+            ss:Type="String"
+          >矮人突击载具</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="195"
+      ><Cell><Data ss:Type="String">DAREDEVIL_DVAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Built with blood, sweat and tears, your [AbilityGreen]Bulwark[/AbilityGreen] is your greatest creation yet. Now let's see how it fights![br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Bulwark[/AbilityGreen], which possesses powerful [DamagePhysical/] Kinetic capabilities plus a [AbilityGreen]Mod.[/AbilityGreen][br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你耗尽心血，没日没夜打造出了自己的集大成之作[AbilityGreen]筑垒卫士[/AbilityGreen]。让我们看看它开起来怎么样！[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]你的[AbilityGreen]筑垒卫士[/AbilityGreen]（配备强力[DamagePhysical/]动能武器和[AbilityGreen]模块[/AbilityGreen]）以及[br/]一颗[AbilityGreen]基础手雷[/AbilityGreen]（可对一定范围造成[DamagePhysical/]动能伤害，并动摇命中的目标）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DAREDEVIL_SYNDICATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Syndicate Assault Vehicle</Data></Cell><Cell><Data
+            ss:Type="String"
+          >辛迪加突击载具</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="210"
+      ><Cell><Data ss:Type="String">DAREDEVIL_SYNDICATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Your parents gave you a [AbilityGreen]Hoverbike[/AbilityGreen] for your 16th birthday... they couldn't even get it in the right color, but you persevered and became an expert at riding it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]Your [AbilityGreen]Hoverbike[/AbilityGreen], which possesses powerful [DamagePsyche/] Psionic capabilities plus a [AbilityGreen]Mod.[/AbilityGreen][br/][AbilityGreen]Arc Bolas[/AbilityGreen] that deal [DamageWave/] Arc damage and has a chance to immobilize the target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的父母送你了一辆[AbilityGreen]悬浮机车[/AbilityGreen]作为你 16 岁的生日礼物…你不喜欢父母挑的颜色，但是你还是细心保养，并逐渐领悟了领航之道。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]你的[AbilityGreen]悬浮机车[/AbilityGreen]（拥有强大的[DamagePsyche/]灵能技能和[AbilityGreen]模块）以及[/AbilityGreen][br/]一把[AbilityGreen]电弧流星锤[/AbilityGreen]（可造成[DamageWave/]电弧伤害，并可让目标无法移动）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SUPPORT_PILOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Support Vehicle</Data></Cell><Cell><Data
+            ss:Type="String"
+          >辅助载具</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="165"
+      ><Cell><Data ss:Type="String">SUPPORT_PILOT_VANGUARD</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You found a lost [AbilityGreen]Imperial APC[/AbilityGreen] and repaired it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]An [AbilityGreen]Imperial APC[/AbilityGreen] with various support abilities.[br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你发现了一辆遗失的[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]并修好了它。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]一辆[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]（配备不同的辅助技能）以及[br/]一颗[AbilityGreen]基础手雷[/AbilityGreen]（可对一定范围造成[DamagePhysical/]动能伤害，并动摇击中的目标）。</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Changed Empire APC to Imperial APC</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell><Data ss:Type="String">SUPPORT_PILOT_ASSEMBLY</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You found a lost [AbilityGreen]Imperial APC[/AbilityGreen] and repaired it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]An [AbilityGreen]Imperial APC[/AbilityGreen] with various support abilities.[br/]An [AbilityGreen]Arc Grenade[/AbilityGreen] that deals [DamageWave/] Arc damage and staggers those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你发现了一辆遗失的[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]并修好了它。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]一辆[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]（配备不同的辅助技能）以及[br/]一颗[AbilityGreen]电弧手雷[/AbilityGreen]（可造成[DamageWave/]电弧伤害，并动摇击中的目标）。</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Changed Empire APC to Imperial APC</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell><Data ss:Type="String">SUPPORT_PILOT_KIRKO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You found a lost [AbilityGreen]Imperial APC[/AbilityGreen] and repaired it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] hit points.[br/][br/]The loadout includes:[br/]An [AbilityGreen]Imperial APC[/AbilityGreen] with various support abilities.[br/]A [AbilityGreen]Psi-stone of Dissonance[/AbilityGreen], that when used causes [DamagePsyche/] Psionic damage in an area.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你发现了一辆遗失的[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]并修好了它。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]一辆[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]（配备不同的辅助技能）以及[br/]一颗[AbilityGreen]不谐灵能石[/AbilityGreen]（可对一定范围造成[DamagePsyche/]灵能伤害）。</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Changed Empire APC to Imperial APC</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="165"
+      ><Cell><Data ss:Type="String">SUPPORT_PILOT_AMAZON</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You found a lost [AbilityGreen]Imperial APC[/AbilityGreen] and repaired it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]An [AbilityGreen]Imperial APC[/AbilityGreen] with various support abilities.[br/]A [AbilityGreen]Thermal Grenade[/AbilityGreen] that deals [DamageThermal/] Thermal damage in an area and has a chance to burn those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你发现了一辆遗失的[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]并修好了它。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]一辆[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]（配备不同的辅助技能）以及[br/]一颗[AbilityGreen]热能手雷[/AbilityGreen]（可对一定范围造成[DamageThermal/]热能伤害，并有几率点燃击中的目标）。</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Changed Empire APC to Imperial APC</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="165"
+      ><Cell><Data ss:Type="String">SUPPORT_PILOT_DVAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You found a lost [AbilityGreen]Imperial APC[/AbilityGreen] and repaired it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]An [AbilityGreen]Imperial APC[/AbilityGreen] with various support abilities.[br/]A [AbilityGreen]Basic Grenade[/AbilityGreen] that deals [DamagePhysical/] Kinetic damage in an area and staggers those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你发现了一辆遗失的[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]并修好了它。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]一辆[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]（配备不同的辅助技能）以及[br/]一颗[AbilityGreen]基础手雷[/AbilityGreen]（可对一定范围造成[DamagePhysical/]动能伤害，并动摇击中的目标）。</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Changed Empire APC to Imperial APC</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="165"
+      ><Cell><Data ss:Type="String">SUPPORT_PILOT_SYNDICATE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You found a lost [AbilityGreen]Imperial APC[/AbilityGreen] and repaired it.[br/][br/]You have the following skills:[br/][AbilityGreen]Piloting[/AbilityGreen] - enables the Commander to ride basic vehicles and mounts.[br/][AbilityGreen]Vitality I[/AbilityGreen] - greatly increases your maximum [hp/] Hit Points.[br/][br/]The loadout includes:[br/]An [AbilityGreen]Imperial APC[/AbilityGreen] with various support abilities.[br/]A [AbilityGreen]PsiTec Grenade[/AbilityGreen] that deals [DamagePsyche/] Psionic damage in an area and has a chance to cripple those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你发现了一辆遗失的[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]并修好了它。[br/][br/]你拥有如下技能：[br/][AbilityGreen]领航[/AbilityGreen]（让指挥官骑乘基础载具和坐骑）。[br/][AbilityGreen]活力 I[/AbilityGreen]（可显著提升最大[hp/]生命值）。[br/][br/]装备包括：[br/]一辆[AbilityGreen]帝国自动相位控制战车[/AbilityGreen]（配备不同的辅助技能）以及[br/]一颗[AbilityGreen]灵能手雷[/AbilityGreen]（可对一定范围造成[DamagePsyche/]灵能伤害，并有几率致残击中的目标）。</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Changed Empire APC to Imperial APC</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >CLOSE_COMBAT_TRAINING_XENOPLAGUE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Xenoplague Close Combat Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >异星疫病近战装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="165"
+      ><Cell><Data
+            ss:Type="String"
+          >CLOSE_COMBAT_TRAINING_XENOPLAGUE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after the Xenoplague Close Combat training.[br/][br/]This expert training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/] Hit Points.[br/][br/]The pack includes:[br/][AbilityGreen]Pestilence[/AbilityGreen], a vicious living gauntlet that infects your foes while dealing [DamageBio/] Biochemical damage at close range.[br/]A [AbilityGreen]Bio Grenade[/AbilityGreen] that deals [DamageBio/] Biochemical damage in an area and has a chance to poison those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成异星疫病近战训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]近战专家 I[/AbilityGreen]（使用近战武器时可提升伤害）。[br/][AbilityGreen]活力 I[/AbilityGreen]（提升最大[hp/]生命值）。[br/][br/]装备包含：[br/][AbilityGreen]瘟疫[/AbilityGreen]（恶毒活体病毒臂铠，可传染敌人，并在近距离范围内造成[DamageBio/]生化伤害）以及[br/]一颗[AbilityGreen]生化手雷[/AbilityGreen]（对一定范围造成[DamageBio/]生化伤害，并有几率使命中的目标中毒）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >CLOSE_COMBAT_TRAINING_VOIDTECH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Voidtech Close Combat Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚空科技近战装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell><Data
+            ss:Type="String"
+          >CLOSE_COMBAT_TRAINING_VOIDTECH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Voidtech Close Combat training.[br/][br/]This expert training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/] Hit Points.[br/][br/]The pack includes:[br/] [AbilityGreen]Void Blades[/AbilityGreen], dimension-distorting blades that deal [DamagePhysical/] Kinetic damage at close range.[br/]An [AbilityGreen]Arc Grenade[/AbilityGreen] that deals [DamageWave/] Arc damage and staggers those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成虚空科技族近战训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]近战专家 I[/AbilityGreen]（使用近战武器时可提升伤害）。[br/][AbilityGreen]活力 I[/AbilityGreen]（提升最大[hp/]生命值）。[br/][br/]装备包含：[br/][AbilityGreen]虚空之刃[/AbilityGreen]（扭曲之刃，在近距离范围内造成[DamagePhysical/]动能伤害）以及[br/]一颗[AbilityGreen]电弧手雷[/AbilityGreen]（造成[DamageWave/]电弧伤害，并动摇击中的目标）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >CLOSE_COMBAT_TRAINING_CELESTIAN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Celestian Close Combat Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >星神近战装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="165"
+      ><Cell><Data
+            ss:Type="String"
+          >CLOSE_COMBAT_TRAINING_CELESTIAN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Celestian Close Combat training.[br/][br/]This expert training gives you the following skills:[br/][AbilityGreen]Close Quarter Specialist I[/AbilityGreen] - increases damage dealt when using Melee Weapons.[br/][AbilityGreen]Vitality I[/AbilityGreen] - increases your maximum [hp/] Hit Points.[br/][br/]The pack includes:[br/] [AbilityGreen]Inferno Fists[/AbilityGreen], fiery gauntlets that deal [DamageThermal/] Thermal damage at close range.[br/]An [AbilityGreen]Ego Bomb[/AbilityGreen] that deals [DamagePsyche/] and has a chance of applying Broken Mind to those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成星神近战训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]近战专家 I[/AbilityGreen]（使用近战武器时可提升伤害）。[br/][AbilityGreen]活力 I[/AbilityGreen]（提升最大[hp/]生命值）。[br/][br/]装备包含：[br/][AbilityGreen]炼狱之拳[/AbilityGreen]（一双威力无穷的臂铠，可在近距离范围内造成[DamageThermal/]热能伤害）以及[br/]一颗[AbilityGreen]自我感应炸弹[/AbilityGreen]（可造成[DamagePsyche/]伤害，并有一定几率对击中的目标施加破碎心灵）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >ASSAULT_TRAINING_PROMETHEAN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Promethean Assault Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >圣火突击装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="165"
+      ><Cell><Data
+            ss:Type="String"
+          >ASSAULT_TRAINING_PROMETHEAN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Promethean Assault training.[br/][br/]This expert training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Purifier Gun[/AbilityGreen] that deals a burst of [DamageThermal/] Thermal damage.[br/]A [AbilityGreen]Thermal Grenade[/AbilityGreen] that deals [DamageThermal/] Thermal damage in an area and has a chance to burn those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成圣火突击训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）、[br/][AbilityGreen]稳定瞄准[/AbilityGreen](在处于掩体中时可提升准度）。[br/][br/]装备包含：[br/]一把[AbilityGreen]净化者枪[/AbilityGreen]（可重复造成[DamageThermal/]热能伤害）以及[br/]一颗[AbilityGreen]热能手雷[/AbilityGreen]（可对一定范围造成[DamageThermal/]热能伤害，并有几率点燃击中的目标）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >ASSAULT_TRAINING_PSYNUMBRA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psynumbra Assault Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >赛努布拉突击装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="165"
+      ><Cell><Data
+            ss:Type="String"
+          >ASSAULT_TRAINING_PSYNUMBRA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Psynumbra Assault training.[br/][br/]This expert training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Soul Splitter[/AbilityGreen], a gun that targets the mind of its foes, dealing [DamagePsyche/] Psionic damage.[br/]A [AbilityGreen]Psi-stone of Dissonance[/AbilityGreen] that deals [DamagePsyche/] Psionic damage in an area.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成赛努布拉突击训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）、[br/][AbilityGreen]稳定瞄准[/AbilityGreen]（在处于掩体中时可提升准度）。[br/][br/]装备包含：[br/]一把[AbilityGreen]灵魂分解者[/AbilityGreen]（瞄准敌人心口，可造成[DamagePsyche/]灵能伤害）以及[br/]一颗[AbilityGreen]不谐灵能石[/AbilityGreen]（可对一定范围造成[DamagePsyche/]灵能伤害）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >ASSAULT_TRAINING_SYNTHESIS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Synthesis Assault Equipment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >合成突击装备</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell><Data
+            ss:Type="String"
+          >ASSAULT_TRAINING_SYNTHESIS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pack you received after Synthesis Assault training.[br/][br/]This expert training gives you the following skills:[br/][AbilityGreen]Ranged Specialist[/AbilityGreen] - increases damage dealt when using Ranged Weapons.[br/][AbilityGreen]Steady Aim[/AbilityGreen] - increases your accuracy when behind cover.[br/][br/]The pack includes:[br/]A [AbilityGreen]Hasher SMG[/AbilityGreen], a powerful submachine gun that deals [DamageWave/] Arc damage.[br/]An [AbilityGreen]Arc Grenade[/AbilityGreen] that deals [DamageWave/] Arc damage and staggers those hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你完成合成突击训练后收到的装备。[br/][br/]通过此次进阶训练，你获得如下技能：[br/][AbilityGreen]远程专家[/AbilityGreen]（使用远程武器时可提升伤害）、[br/][AbilityGreen]稳定瞄准[/AbilityGreen](在处于掩体中时可提升准度）。[br/][br/]装备包含：[br/]一把[AbilityGreen]哈舍尔冲锋枪[/AbilityGreen]（威力巨大的轻型自动枪，可造成[DamageWave/]电弧伤害）以及[br/]一颗[AbilityGreen]电弧手雷[/AbilityGreen]（可对一定范围造成[DamageWave/]电弧伤害，并动摇命中的目标）。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Selected /><TopRowVisible>22</TopRowVisible><Panes><Pane
+        ><Number>3</Number><ActiveRow>25</ActiveRow><ActiveCol
+          >3</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

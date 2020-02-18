@@ -1,8 +1,229 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:39:14Z</Created><LastSaved>2019-06-25T15:39:14Z</LastSaved><Version>15.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>14730</WindowHeight><WindowWidth>28740</WindowWidth><WindowTopX>0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s57"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s57" ss:DefaultColumnWidth="353.25" ss:DefaultRowHeight="15"><Column ss:StyleID="s57" ss:Width="145.5"/><Column ss:StyleID="s57" ss:Width="118.5"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="276.75"/><Column ss:StyleID="s57" ss:Width="147.75"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="195"/><Column ss:StyleID="s57" ss:Width="165.75"/><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">ARTIFICIAL_HERO_SKILLS</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ARTIFICIAL_SKILL_GROUP</Data></Cell><Cell><Data ss:Type="String">SKILL_SUBTITLE</Data></Cell><Cell><Data ss:Type="String">Synthesis Hero Skill</Data></Cell><Cell><Data ss:Type="String">合成英雄技能</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DISRUPTING_HACK</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Disrupting Hack</Data></Cell><Cell><Data ss:Type="String">干扰性入侵</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Skill name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">DISRUPTING_HACK</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Send a disrupting wave to hack an area, [abilityred]Compromising[/abilityred] Mechanical and Cyborg units in that area.</Data></Cell><Cell><Data ss:Type="String">发出干扰波入侵一个区域，[abilityred]扰乱[/abilityred]该区域内的机械单位和半机械单位。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Skill description.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DISRUPTING_HACK</Data></Cell><Cell><Data ss:Type="String">MOD_NAME</Data></Cell><Cell><Data ss:Type="String">Compromised</Data></Cell><Cell><Data ss:Type="String">被扰乱</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Unit modification item name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">DISRUPTING_HACK</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Units hit by this ability are Compromised.</Data></Cell><Cell><Data ss:Type="String">被这个技能击中的单位将被扰乱。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Unit modification item description.
-Compromised is an in-game debuff</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">OVERRIDE_DAEMON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Override Daemon</Data></Cell><Cell><Data ss:Type="String">覆盖精灵</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Skill name.
-Daemon is an in-game status effect</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ASSISTED_BREACH</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Assisted Breach</Data></Cell><Cell><Data ss:Type="String">辅助突破</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Skill name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">ASSISTED_BREACH</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Attacks by units in this hero's army bypass {AssistBreach}.[br/]Only functions when the hero is the army's commander.</Data></Cell><Cell><Data ss:Type="String">该英雄军队单位的攻击将绕过 {AssistBreach}。[br/]只有当该英雄是军队指挥官时才能生效。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Skill description.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ASSISTED_BREACH</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION_UNIT</Data></Cell><Cell><Data ss:Type="String">Through assisted defense breaching from this army's Hero, bypass {AssistBreachShield} Shields and {AssistBreachArmor} Armor.</Data></Cell><Cell><Data ss:Type="String">军队英雄协助摧毁敌人的防御，可无视 {AssistBreachShield} 护盾和 {AssistBreachArmor} 护甲。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Skill debuff description.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">COMPROMISE_EXPLOITATION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Compromise Exploitation</Data></Cell><Cell><Data ss:Type="String">深度扰乱</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Skill name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">COMPROMISE_EXPLOITATION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Units in this hero's stack have a strength {ComExp}[strengthwave/] chance to apply [abilityred]Electrified[/abilityred] when attacking Compromised units.[br/]Only functions when the hero is the army's commander.</Data></Cell><Cell><Data ss:Type="String">英雄小组内的单位攻击被扰乱的单位时有 {ComExp}[strengthwave/] 力量几率施加[abilityred]触电[/abilityred]。[br/]只有当该英雄是军队指挥官时才能生效。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Skill description.
-Electrified is an in-game debuff. Commander in this case means the leader of an army, NOT the player character</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">COMPROMISE_EXPLOITATION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION_UNIT</Data></Cell><Cell><Data ss:Type="String">Unit has a strength {ComExp}[strengthwave/] chance to apply [abilityred]Electrified[/abilityred] when attacking Compromised units.</Data></Cell><Cell><Data ss:Type="String">该单位攻击被扰乱的单位时有 {ComExp}[strengthwave/] 力量几率施加[abilityred]触电[/abilityred]。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Skill debuff description.
-Compromised and Electrified are in-game debuffs.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">COMPROMISE_EXPLOITATION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION_MOD</Data></Cell><Cell><Data ss:Type="String">Strength {ComExp}[strengthwave/] chance to apply [abilityred]Electrified[/abilityred] to Compromised units for {ComExpDuration}.</Data></Cell><Cell><Data ss:Type="String">有 {ComExp}[strengthwave/] 力量几率对被扰乱单位施加[abilityred]触电[/abilityred]，持续 {ComExpDuration}。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Skill debuff description.
-Compromised and Electrified are in-game debuffs.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">Text between {} should NOT be localized as they are numerical values in-game. Text between [] should NOT be localized as they are either icons or text formatting
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:39:14Z</Created><LastSaved
+    >2019-06-25T15:39:14Z</LastSaved><Version
+    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>14730</WindowHeight><WindowWidth>28740</WindowWidth><WindowTopX
+    >0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s57"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s57"
+      ss:DefaultColumnWidth="353.25"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s57" ss:Width="145.5" /><Column
+        ss:StyleID="s57"
+        ss:Width="118.5"
+      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="276.75" /><Column
+        ss:StyleID="s57"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="195" /><Column
+        ss:StyleID="s57"
+        ss:Width="165.75"
+      /><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data
+            ss:Type="String"
+          >ARTIFICIAL_HERO_SKILLS</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARTIFICIAL_SKILL_GROUP</Data></Cell><Cell
+        ><Data ss:Type="String">SKILL_SUBTITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Synthesis Hero Skill</Data></Cell><Cell><Data
+            ss:Type="String"
+          >合成英雄技能</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DISRUPTING_HACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Disrupting Hack</Data></Cell><Cell><Data
+            ss:Type="String"
+          >干扰性入侵</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Skill name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">DISRUPTING_HACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Send a disrupting wave to hack an area, [abilityred]Compromising[/abilityred] Mechanical and Cyborg units in that area.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发出干扰波入侵一个区域，[abilityred]扰乱[/abilityred]该区域内的机械单位和半机械单位。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Skill description.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DISRUPTING_HACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Compromised</Data></Cell><Cell><Data
+            ss:Type="String"
+          >被扰乱</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Unit modification item name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DISRUPTING_HACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Units hit by this ability are Compromised.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >被这个技能击中的单位将被扰乱。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Unit modification item description.
+Compromised is an in-game debuff</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">OVERRIDE_DAEMON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Override Daemon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >覆盖精灵</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Skill name.
+Daemon is an in-game status effect</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ASSISTED_BREACH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Assisted Breach</Data></Cell><Cell><Data
+            ss:Type="String"
+          >辅助突破</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Skill name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">ASSISTED_BREACH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Attacks by units in this hero's army bypass {AssistBreach}.[br/]Only functions when the hero is the army's commander.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该英雄军队单位的攻击将绕过 {AssistBreach}。[br/]只有当该英雄是军队指挥官时才能生效。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Skill description.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ASSISTED_BREACH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION_UNIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Through assisted defense breaching from this army's Hero, bypass {AssistBreachShield} Shields and {AssistBreachArmor} Armor.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >军队英雄协助摧毁敌人的防御，可无视 {AssistBreachShield} 护盾和 {AssistBreachArmor} 护甲。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Skill debuff description.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COMPROMISE_EXPLOITATION</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Compromise Exploitation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >深度扰乱</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Skill name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">COMPROMISE_EXPLOITATION</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Units in this hero's stack have a strength {ComExp}[strengthwave/] chance to apply [abilityred]Electrified[/abilityred] when attacking Compromised units.[br/]Only functions when the hero is the army's commander.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >英雄小组内的单位攻击被扰乱的单位时有 {ComExp}[strengthwave/] 力量几率施加[abilityred]触电[/abilityred]。[br/]只有当该英雄是军队指挥官时才能生效。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Skill description.
+Electrified is an in-game debuff. Commander in this case means the leader of an army, NOT the player character</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">COMPROMISE_EXPLOITATION</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION_UNIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit has a strength {ComExp}[strengthwave/] chance to apply [abilityred]Electrified[/abilityred] when attacking Compromised units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位攻击被扰乱的单位时有 {ComExp}[strengthwave/] 力量几率施加[abilityred]触电[/abilityred]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Skill debuff description.
+Compromised and Electrified are in-game debuffs.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">COMPROMISE_EXPLOITATION</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION_MOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Strength {ComExp}[strengthwave/] chance to apply [abilityred]Electrified[/abilityred] to Compromised units for {ComExpDuration}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {ComExp}[strengthwave/] 力量几率对被扰乱单位施加[abilityred]触电[/abilityred]，持续 {ComExpDuration}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Skill debuff description.
+Compromised and Electrified are in-game debuffs.</Data></Cell></Row><Row><Cell
+        ><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Text between {} should NOT be localized as they are numerical values in-game. Text between [] should NOT be localized as they are either icons or text formatting
 
-EXAMPLE: "Hero gains {PersonaAccDmg} increased damage and accuracy " looks in-game like "Hero gains +5 increased damage and accuracy"</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Zoom>115</Zoom><Selected/><TopRowVisible>6</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>14</ActiveRow><ActiveCol>1</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+EXAMPLE: "Hero gains {PersonaAccDmg} increased damage and accuracy " looks in-game like "Hero gains +5 increased damage and accuracy"</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>115</Zoom><Selected
+      /><TopRowVisible>6</TopRowVisible><Panes><Pane><Number
+          >3</Number><ActiveRow>14</ActiveRow><ActiveCol
+          >1</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

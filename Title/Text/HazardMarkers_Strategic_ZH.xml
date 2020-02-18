@@ -1,1 +1,680 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:50:45Z</Created><LastSaved>2019-06-25T15:50:45Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62" ss:Name="Hyperlink"><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0000FF" ss:Underline="Single"/></Style><Style ss:ID="s63"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/></Style><Style ss:ID="s65" ss:Parent="s62"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="14.4375"><Column ss:StyleID="s63" ss:Width="221.25"/><Column ss:StyleID="s63" ss:Width="168.75"/><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="362.25"/><Column ss:StyleID="s63" ss:Width="147.75"/><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="228"/><Column ss:StyleID="s63" ss:Width="120"/><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="362.25"/><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="358.5"/><Row ss:AutoFitHeight="0" ss:Height="86.4375"><Cell><Data ss:Type="String">HAZARDMARKERS_STRATEGIC</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Geothermal Instability</Data></Cell><Cell><Data ss:Type="String">地热动荡</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="28.6875"><Cell><Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This sector is geothermally unstable, causing fire and heat to leak through to the surface. </Data></Cell><Cell><Data ss:Type="String">该区域受地热不稳定，火焰和热量会泄出地表。 </Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="171"><Cell><Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell><Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][production/][/bullet][bullet]Units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][bullet]Units in this sector suffer [abilityred]{ResistanceReduction}[/abilityred] resistance.[/bullet][bullet]Every {turns} combat turns:[/bullet][bulletList][bullet]All units take {TCdamage} damage with a strength {Burnchance} chance to cause [abilityred]Burning[/abilityred] to non-Ethereal and non-Mineral units for {BurningDuration}[turn/].[/bullet][/bulletList][/bulletList]</Data></Cell><Cell><Data ss:Type="String">[bulletList][bullet]吞并该区域将使殖民地受到 [abilityred]{Happiness}[/abilityred]惩罚[/bullet][bullet]吞并该区域将会使殖民地[production/]产量 [abilityred]-20%[/abilityred][/bullet][bullet]该区域内的单位失去策略地图[hp/][abilityred]再生[/abilityred]。[/bullet][bullet]该区域内的单位减少 [abilityred]{ResistanceReduction}[/abilityred]抵抗。[/bullet][bullet]每 {turns} 个战斗回合：[/bullet][bulletList][bullet]所有单位受到 {TCdamage} 伤害，并且非缥缈单位和非矿物单位有 {Burnchance} 的力量几率受到[abilityred]燃烧[/abilityred]，持续 {BurningDuration}[turn/]。[/bullet][/bulletList][/bulletList]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Annexing a sector means attaching the sector to your colony sector.All units have 'Regeneration'  on the world map, which is how much life they get every turn. Ethereal and Mineral are unit types, meaing a ghostlike or rocklike creature, respectively.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="65.25"><Cell><Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell><Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Every {turns}[turn/], the battlefield surges with geothermal heat, dealing {Tcdamage} damage to all units, with a strength {Burnchance} chance to cause [abilityred]Burning[/abilityred] to non-Ethereal and non-Mineral units for {BurningDuration}[turn/]</Data></Cell><Cell><Data ss:Type="String">每 {turns}[turn/]战场将涌出地热能量，对所有单位造成 {Tcdamage} 伤害，非缥缈单位和非矿物单位有 {Burnchance} 的力量几率受到[abilityred]燃烧[/abilityred]，持续{BurningDuration}[turn/]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Ethereal and Mineral are unit types, meaing a ghostlike or rocklike creature, respectively.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="43.3125"><Cell><Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is affected by the Geothermal Instability in this sector, nullifying the [hp/] regeneration received each strategic turn.[br/]Unit suffers [abilityred]{Resistancereduction}[/abilityred] resistance.</Data></Cell><Cell><Data ss:Type="String">该单位受到该区域地热动荡的影响，每个战略回合获得的[hp/]恢复将会无效。[br/]单位减少 [abilityred]{Resistancereduction}[/abilityred]抵抗。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">All units have a resistance against damage and status effects.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell><Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell><Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][production/]</Data></Cell><Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][production/]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Ion Storm</Data></Cell><Cell><Data ss:Type="String">离子风暴</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="28.6875"><Cell><Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This sector is under the effect of an Ion Storm, causing Arc bolts to surge through the air.</Data></Cell><Cell><Data ss:Type="String">该区域正受到离子风暴影响，电弧闪电在空中涌现。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="152.25"><Cell><Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell><Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][energy/][/bullet][bullet]Units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][bullet]Units in this sector suffer [abilityred]{ResistanceReduction}[/abilityred] resistance.[/bullet][bullet]Every {turns} combat turns:[/bullet][bulletList][bullet]{TargetNumber} random units take {TCdamage} damage with a strength {Electrifiedchance} chance to apply [abilityred]Electrified[/abilityred] to non-Ethereal units for {ElectrifiedDuration}[turn/][/bullet][/bulletList][/bulletList]</Data></Cell><Cell><Data ss:Type="String">[bulletList][bullet]吞并该区域将使殖民地受到 [abilityred]{Happiness}[/abilityred]惩罚[/bullet][bullet]吞并该区域将会使殖民地[energy/]产量 [abilityred]-20%[/abilityred][/bullet][bullet]该区域内的单位失去策略地图[hp/][abilityred]再生[/abilityred]。[/bullet][bullet]该区域内的单位减少 [abilityred]{ResistanceReduction}[/abilityred]抵抗。[/bullet][bullet]每 {turns} 个战斗回合：[/bullet][bulletList][bullet]{TargetNumber}随机单位受到 {TCdamage} 伤害，并且有 {Electrifiedchance} 力量几率对非缥缈单位施加[abilityred]触电[/abilityred]，持续 {ElectrifiedDuration}[turn/][/bullet][/bulletList][/bulletList]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Happiness is a value in your colonies, that deals with how happy the population in your colony is. </Data></Cell><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0" ss:Height="63"><Cell><Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell><Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Every {turns}[turn/], {TargetNumber} random units are hit by Arc bolts, dealing {BoltDamage}[damagewave/] with a strength {ElectrifiedStrength} chance to cause [abilityred]Electrified[/abilityred] to non-Ethereal units for {ElectrifiedDuration}[turn/]</Data></Cell><Cell><Data ss:Type="String">每 {turns}[turn/]，{TargetNumber} 个随机单位将遭到电弧闪电攻击，受到 {BoltDamage}[damagewave/]且非虚灵单位有 {ElectrifiedStrength} 力量几率受到[abilityred]触电[/abilityred]，持续{ElectrifiedDuration}[turn/]</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="43.3125"><Cell><Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is affected by the Ion Storm in this sector, nullifying the [hp/] regeneration received per strategic turn.[br/]Unit suffers [abilityred]{Resistancereduction}[/abilityred] resistance.</Data></Cell><Cell><Data ss:Type="String">该单位受到该区域离子风暴的影响，每个战略回合获得的[hp/]恢复将会无效。[br/]单位减少 [abilityred]{Resistancereduction}[/abilityred]抵抗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell><Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell><Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][energy/]</Data></Cell><Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][energy/]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Spore Cloud</Data></Cell><Cell><Data ss:Type="String">孢子云</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="28.6875"><Cell><Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This sector is affected by a Spore Cloud, a Biochemical hazard dangerous to most conventional lifeforms. </Data></Cell><Cell><Data ss:Type="String">该区域正受到孢子云影响，这种生化灾害对大多数传统生物而言都非常危险。 </Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="152.25"><Cell><Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell><Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][food/][/bullet][bullet]Non-Xenoplague units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][bullet]Non-Xenoplague units in this sector suffer [abilityred]{ResistanceReduction}[/abilityred] resistance.[/bullet][bullet]Every combat turn:[/bullet][bulletList][bullet]Non-Xenoplague Biological and Cyborg units have a strength {PoisonStrength} chance to become [abilityred]Poisoned[/abilityred] for {PoisonDuration}[/bullet][/bulletList][/bulletList]</Data></Cell><Cell><Data ss:Type="String">[bulletList][bullet]吞并该区域将使殖民地受到 [abilityred]{Happiness}[/abilityred]惩罚[/bullet][bullet]吞并该区域将会使殖民地[food/]产量 [abilityred]-20%[/abilityred][/bullet][bullet]该区域内的非异星疫病单位失去策略地图[hp/][abilityred]再生[/abilityred]。[/bullet][bullet]该区域内的非异星疫病单位减少 [abilityred]{ResistanceReduction}[/abilityred]抵抗。[/bullet][bullet]每个战斗回合：[/bullet][bulletList][bullet]非异星疫病生物单位和半机械人单位有 {PoisonStrength} 的力量几率[abilityred]中毒[/abilityred]，持续{PoisonDuration}[/bullet][/bulletList][/bulletList]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Xenoplague is one of the secret technologies of the game. </Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="43.3125"><Cell><Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell><Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Every turn, all non-Xenoplague Biological and Cyborg units have a strength {Poisonchance} chance to become [abilityred]Poisoned[/abilityred] for {PoisonDuration}[turn/]</Data></Cell><Cell><Data ss:Type="String">每回合，所有非异星疫病生物单位和半机械人单位有 {Poisonchance} 的力量几率[abilityred]中毒[/abilityred]，持续{PoisonDuration}[turn/]</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="43.3125"><Cell><Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is affected by the Spore Cloud in this sector, nullifying the [hp/] regeneration received per strategic turn.[br/]Unit suffers [abilityred]{Resistancereduction}[/abilityred] resistance.</Data></Cell><Cell><Data ss:Type="String">该单位受到该区域孢子云影响，每个战略回合获得的[hp/]恢复将会无效。[br/]单位减少 [abilityred]{Resistancereduction}[/abilityred]抵抗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell><Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell><Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][food/]</Data></Cell><Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][food/]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Nuclear Fallout</Data></Cell><Cell><Data ss:Type="String">核能辐射</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This sector is affected by Nuclear Fallout from a past detonation. </Data></Cell><Cell><Data ss:Type="String">该区域正受到过去爆炸产生的核辐射影响。 </Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="111.75"><Cell><Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell><Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][food/][/bullet][bullet]Units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][bullet]Units in this sector suffer [abilityred]{ResistanceReduction}[/abilityred] to all damage resistances.[/bullet]</Data></Cell><Cell><Data ss:Type="String">[bulletList][bullet]吞并该区域将使殖民地受到 [abilityred]{Happiness}[/abilityred]惩罚[/bullet][bullet]吞并该区域将会使殖民地[food/]产量 [abilityred]-20%[/abilityred][/bullet][bullet]该区域内的单位失去策略地图[hp/][abilityred]再生[/abilityred]。[/bullet][bullet]该区域内的单位对所有伤害的抵抗减少 [abilityred]{ResistanceReduction}[/abilityred]。[/bullet]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell><Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Units suffer [abilityred]{ResistanceReduction}[/abilityred] to all resistances.</Data></Cell><Cell><Data ss:Type="String">单位对所有伤害的抵抗减少 [abilityred]{ResistanceReduction}[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="43.3125"><Cell><Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is affected by the Nuclear Fallout in this sector, nullifying the [hp/] regeneration received per strategic turn.[br/]Unit suffers {resistances} to all resistances.</Data></Cell><Cell><Data ss:Type="String">该单位受到该区域核能辐射影响，每个战略回合获得的[hp/]恢复将会无效。[br/]单位的所有抵抗减少 {resistances}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell><Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell><Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][food/]</Data></Cell><Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][food/]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Abyssal Tear</Data></Cell><Cell><Data ss:Type="String">深渊裂隙</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="28.6875"><Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This sector contains a tear into the Abyss through which its malevolent influence seeps into this world.</Data></Cell><Cell><Data ss:Type="String">该区域中开启了一条通往深渊的裂缝，邪恶正从中涌入这个世界。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="146.25"><Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell><Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][production/][/bullet][bullet]Units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][bullet]Vision and scanning range of Non-Psynumbra units is reduced by {SightRangeReduction}[/bullet][bullet]Non-Mindless and non-Psynumbra units suffer {MoraleDebuff}[/bullet][bullet]Psynumbra Marauders spawn here to raid their surroundings.[/bullet]</Data></Cell><Cell><Data ss:Type="String">[bulletList][bullet]吞并该区域将使殖民地受到 [abilityred]{Happiness}[/abilityred]惩罚[/bullet][bullet]吞并该区域将会使殖民地[production/]产量 [abilityred]-20%[/abilityred][/bullet][bullet]该区域内的单位失去策略地图[hp/][abilityred]再生[/abilityred]。[/bullet][bullet]非赛努布拉单位的视野和扫描范围减少 {SightRangeReduction}[/bullet][bullet]非无意识单位和非赛努布拉单位受到 {MoraleDebuff}[/bullet][bullet]此处将生成赛努布拉劫掠者并向四周发动袭击。[/bullet]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Psynumbra is one of the secret technologies of the game. Vision and scanning range deal with how far a unit can see or detect units on the world map, respectively. Mindless units are units without a mind, so simple drones and robots etc. Marauders are units on the world map that cannot be engaged in diplomacy, and attack everything they see in sight.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell><Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Non-Mindless and non-Psynumbra units suffer {MoraleReduction}</Data></Cell><Cell><Data ss:Type="String">非无意识单位和非赛努布拉单位减少 {MoraleReduction}</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="28.6875"><Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is affected by the Abyssal Tear in this sector, nullifying the [hp/] regeneration received per strategic turn.</Data></Cell><Cell><Data ss:Type="String">此单位受到该区域深渊裂隙影响，每个战术回合获得的[hp/]恢复将会无效。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell><Cell><Data ss:Type="String">PROPERTY_02_NAME</Data></Cell><Cell><Data ss:Type="String">Abyssal Obfuscation</Data></Cell><Cell><Data ss:Type="String">深渊困惑</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="28.6875"><Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell><Cell><Data ss:Type="String">PROPERTY_02_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is affected by the Abyssal Tear in this sector, causing its vision and scanning range to be reduced by {SightRangeReduction}.</Data></Cell><Cell><Data ss:Type="String">该单位受到该区域深渊裂隙影响，视野和扫描范围减少 {SightRangeReduction}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell><Cell><Data ss:Type="String">PROPERTY_03_NAME</Data></Cell><Cell><Data ss:Type="String">Abyssal Morale Dampen</Data></Cell><Cell><Data ss:Type="String">深渊士气压制</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="28.6875"><Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell><Cell><Data ss:Type="String">PROPERTY_03_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is affected by the Abyssal Tear in this sector, suffering from {MoraleDebuff}.</Data></Cell><Cell><Data ss:Type="String">该单位受到该区域深渊裂隙影响，受到 {MoraleDebuff}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell><Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell><Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][production/]</Data></Cell><Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][production/]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Void Storm</Data></Cell><Cell><Data ss:Type="String">虚空风暴</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="50.25"><Cell><Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This sector is Dimensionally Unstable, causing the reality in this section of space to blur. </Data></Cell><Cell><Data ss:Type="String">该区域的维度动荡不安，现实空间变得模糊不清。 </Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Dimensionally unstable is in refering to alternate dimensions that are interfering with the current dimension (reality) of the sector.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="123"><Cell><Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell><Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][energy/][/bullet][bullet]Units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][bullet]Every combat turn:[/bullet][bulletList][bullet]Non-Voidtech units have a strength {Instabilitychance} chance to receive [abilityred]Dimensional Instability[/abilityred][/bullet]</Data></Cell><Cell><Data ss:Type="String">[bulletList][bullet]吞并该区域将使殖民地受到 [abilityred]{Happiness}[/abilityred]惩罚[/bullet][bullet]吞并该区域将会使殖民地[energy/]产量 [abilityred]-20%[/abilityred][/bullet][bullet]该区域内的单位失去策略地图[hp/][abilityred]再生[/abilityred]。[/bullet][bullet]每个战斗回合：[/bullet][bulletList][bullet]非虚空科技单位有 {Instabilitychance} 的力量几率获得[abilityred]维度动荡[/abilityred][/bullet]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Voidtech is one of the secret technologies of the game. Dimensional Instability is a status effect that</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="28.6875"><Cell><Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell><Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Every turn, non-Voidtech units have a strength {DimensionalInstabilityStrength} chance to receive [abilityred]Dimensional Instability[abilityred/].</Data></Cell><Cell><Data ss:Type="String">每回合，非虚空科技单位有 {DimensionalInstabilityStrength} 的力量几率获得[abilityred]维度动荡[abilityred/]。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="28.6875"><Cell><Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is affected by the Void Storm in this sector, nullifying the [hp/] regeneration received per strategic turn.</Data></Cell><Cell><Data ss:Type="String">该单位受到该区域虚空风暴影响，每个战术回合获得的[hp/]恢复将会无效。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell><Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell><Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][energy/]</Data></Cell><Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][energy/]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Veil of Tranquility</Data></Cell><Cell><Data ss:Type="String">静谧帷幕</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="28.6875"><Cell><Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This sector is under the Veil of Tranquility, granting refuge to the faithful and damnation to the accused.</Data></Cell><Cell><Data ss:Type="String">该区域处于静谧帷幕之下，虔诚之人将获得庇护，罪恶之人将受到惩戒。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="128.25"><Cell><Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell><Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">[bulletList][bullet]Annexing this sector grants {Happiness} to the colony.[/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][research/][/bullet][bullet]Non-Mechanical and non-Psynumbra units regain an additional {WorldmapRecoveryBonus} per strategic turn.[/bullet][bullet]Every combat turn:[/bullet][bulletList][bullet][abilityblue]Enlightened[/abilityblue] units are healed for {EnlightenedHeal}[/bullet][bullet]Units afflicted with [abilityred]Soulburn[/abilityred] take {SoulblazeDamage} damage.[/bullet]</Data></Cell><Cell><Data ss:Type="String">[bulletList][bullet]吞并该区域将使殖民地获得 {Happiness}。[/bullet][bullet]吞并该区域将会使殖民地 [research/] 产量 [abilityred]-20%[/abilityred][/bullet][bullet]非机械和非赛努布拉单位每个战略回合额外恢复 {WorldmapRecoveryBonus}。[/bullet][bullet]每个战斗回合：[/bullet][bulletList][bullet][abilityblue]启迪[/abilityblue]单位治疗 {EnlightenedHeal}[/bullet][bullet]受到[abilityred]灵魂燃烧[/abilityred]影响的单位受到 {SoulblazeDamage} 伤害。[/bullet]</Data></Cell><Cell><Data ss:Type="String">Edit: --&gt; Soulfire to Soulburn</Data></Cell><Cell><Data ss:Type="String">编辑：--&gt;“灵魂烈焰”改为“灵魂燃烧”</Data></Cell><Cell><Data ss:Type="String">Celestian is one of the secret technologies of the game. Enlightened is a celestian status effect that speaks to their soul being enlighted with starlight, washing their soul in truth. Soulburn is a debuff applied to enemy units, that sets their soul on fire, dealing damage and debuffing them.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="43.3125"><Cell><Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell><Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Every turn, [abilityblue]Enlightened[/abilityblue] units are healed for {EnlightenedHeal}, and [abilityred]Soulblazed[/abilityred] units take {SoulblazeDamage} damage.</Data></Cell><Cell><Data ss:Type="String">每回合，[abilityblue]启迪[/abilityblue]单位治疗 {EnlightenedHeal}，同时受到[abilityred]灵魂烈焰[/abilityred]影响的单位受到 {SoulblazeDamage} 的伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="28.6875"><Cell><Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is affected by the Veil of Tranquility in this sector, receiving an extra {Hpregen} per strategic turn.</Data></Cell><Cell><Data ss:Type="String">该单位受到该区域静谧帷幕影响，每个战略回合额外获得 {Hpregen}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell><Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell><Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][research/]</Data></Cell><Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][research/]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Oil Spill</Data></Cell><Cell><Data ss:Type="String">石油泄漏</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">There is an oil spill contaminating this sector.</Data></Cell><Cell><Data ss:Type="String">该区域被泄露的石油污染。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="77.25"><Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell><Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][energy/] and [supply/][/bullet][bullet]Units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][/bulletlist]</Data></Cell><Cell><Data ss:Type="String">[bulletList][bullet]吞并该区域将使殖民地受到 [abilityred]{Happiness}[/abilityred]惩罚[/bullet][bullet]吞并该区域将会使殖民地[energy/]和[supply/]产量 [abilityred]-20%[/abilityred][/bullet][bullet]该区域内的单位失去策略地图[hp/][abilityred]再生[/abilityred]。[/bullet][/bulletlist]</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="28.6875"><Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is affected by the Oil Spill in this sector, nullifying the [hp/] regeneration received per strategic turn.</Data></Cell><Cell><Data ss:Type="String">该单位受到该区域石油泄漏影响，每个战略回合获得的[hp/]恢复将会无效。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell><Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell><Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][energy/]</Data></Cell><Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][energy/]</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Zoom>115</Zoom><Selected/><TopRowVisible>6</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>7</ActiveRow><ActiveCol>4</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:50:45Z</Created><LastSaved
+    >2019-06-25T15:50:45Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+      ss:Name="Hyperlink"
+    ><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#0000FF"
+        ss:Underline="Single"
+      /></Style><Style ss:ID="s63"><Alignment
+        ss:Vertical="Bottom"
+        ss:WrapText="1"
+      /></Style><Style ss:ID="s65" ss:Parent="s62"><Alignment
+        ss:Vertical="Bottom"
+        ss:WrapText="1"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s63"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="14.4375"
+    ><Column ss:StyleID="s63" ss:Width="221.25" /><Column
+        ss:StyleID="s63"
+        ss:Width="168.75"
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="362.25" /><Column
+        ss:StyleID="s63"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="228" /><Column
+        ss:StyleID="s63"
+        ss:Width="120"
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="362.25" /><Column
+        ss:StyleID="s63"
+        ss:AutoFitWidth="0"
+        ss:Width="358.5"
+      /><Row ss:AutoFitHeight="0" ss:Height="86.4375"><Cell><Data
+            ss:Type="String"
+          >HAZARDMARKERS_STRATEGIC</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Geothermal Instability</Data></Cell><Cell><Data
+            ss:Type="String"
+          >地热动荡</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="28.6875"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This sector is geothermally unstable, causing fire and heat to leak through to the surface. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该区域受地热不稳定，火焰和热量会泄出地表。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="171"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOGIC_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][production/][/bullet][bullet]Units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][bullet]Units in this sector suffer [abilityred]{ResistanceReduction}[/abilityred] resistance.[/bullet][bullet]Every {turns} combat turns:[/bullet][bulletList][bullet]All units take {TCdamage} damage with a strength {Burnchance} chance to cause [abilityred]Burning[/abilityred] to non-Ethereal and non-Mineral units for {BurningDuration}[turn/].[/bullet][/bulletList][/bulletList]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[bulletList][bullet]吞并该区域将使殖民地受到 [abilityred]{Happiness}[/abilityred]惩罚[/bullet][bullet]吞并该区域将会使殖民地[production/]产量 [abilityred]-20%[/abilityred][/bullet][bullet]该区域内的单位失去策略地图[hp/][abilityred]再生[/abilityred]。[/bullet][bullet]该区域内的单位减少 [abilityred]{ResistanceReduction}[/abilityred]抵抗。[/bullet][bullet]每 {turns} 个战斗回合：[/bullet][bulletList][bullet]所有单位受到 {TCdamage} 伤害，并且非缥缈单位和非矿物单位有 {Burnchance} 的力量几率受到[abilityred]燃烧[/abilityred]，持续 {BurningDuration}[turn/]。[/bullet][/bulletList][/bulletList]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Annexing a sector means attaching the sector to your colony sector.All units have 'Regeneration'  on the world map, which is how much life they get every turn. Ethereal and Mineral are unit types, meaing a ghostlike or rocklike creature, respectively.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="65.25"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Every {turns}[turn/], the battlefield surges with geothermal heat, dealing {Tcdamage} damage to all units, with a strength {Burnchance} chance to cause [abilityred]Burning[/abilityred] to non-Ethereal and non-Mineral units for {BurningDuration}[turn/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每 {turns}[turn/]战场将涌出地热能量，对所有单位造成 {Tcdamage} 伤害，非缥缈单位和非矿物单位有 {Burnchance} 的力量几率受到[abilityred]燃烧[/abilityred]，持续{BurningDuration}[turn/]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Ethereal and Mineral are unit types, meaing a ghostlike or rocklike creature, respectively.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="43.3125"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is affected by the Geothermal Instability in this sector, nullifying the [hp/] regeneration received each strategic turn.[br/]Unit suffers [abilityred]{Resistancereduction}[/abilityred] resistance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位受到该区域地热动荡的影响，每个战略回合获得的[hp/]恢复将会无效。[br/]单位减少 [abilityred]{Resistancereduction}[/abilityred]抵抗。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >All units have a resistance against damage and status effects.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SCREEN_INCOME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[abilityred]-20%[/abilityred][production/]</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[abilityred]-20%[/abilityred][production/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ion Storm</Data></Cell><Cell><Data
+            ss:Type="String"
+          >离子风暴</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="28.6875"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This sector is under the effect of an Ion Storm, causing Arc bolts to surge through the air.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该区域正受到离子风暴影响，电弧闪电在空中涌现。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="152.25"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOGIC_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][energy/][/bullet][bullet]Units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][bullet]Units in this sector suffer [abilityred]{ResistanceReduction}[/abilityred] resistance.[/bullet][bullet]Every {turns} combat turns:[/bullet][bulletList][bullet]{TargetNumber} random units take {TCdamage} damage with a strength {Electrifiedchance} chance to apply [abilityred]Electrified[/abilityred] to non-Ethereal units for {ElectrifiedDuration}[turn/][/bullet][/bulletList][/bulletList]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[bulletList][bullet]吞并该区域将使殖民地受到 [abilityred]{Happiness}[/abilityred]惩罚[/bullet][bullet]吞并该区域将会使殖民地[energy/]产量 [abilityred]-20%[/abilityred][/bullet][bullet]该区域内的单位失去策略地图[hp/][abilityred]再生[/abilityred]。[/bullet][bullet]该区域内的单位减少 [abilityred]{ResistanceReduction}[/abilityred]抵抗。[/bullet][bullet]每 {turns} 个战斗回合：[/bullet][bulletList][bullet]{TargetNumber}随机单位受到 {TCdamage} 伤害，并且有 {Electrifiedchance} 力量几率对非缥缈单位施加[abilityred]触电[/abilityred]，持续 {ElectrifiedDuration}[turn/][/bullet][/bulletList][/bulletList]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Happiness is a value in your colonies, that deals with how happy the population in your colony is. </Data></Cell><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="63"><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Every {turns}[turn/], {TargetNumber} random units are hit by Arc bolts, dealing {BoltDamage}[damagewave/] with a strength {ElectrifiedStrength} chance to cause [abilityred]Electrified[/abilityred] to non-Ethereal units for {ElectrifiedDuration}[turn/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每 {turns}[turn/]，{TargetNumber} 个随机单位将遭到电弧闪电攻击，受到 {BoltDamage}[damagewave/]且非虚灵单位有 {ElectrifiedStrength} 力量几率受到[abilityred]触电[/abilityred]，持续{ElectrifiedDuration}[turn/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="43.3125"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is affected by the Ion Storm in this sector, nullifying the [hp/] regeneration received per strategic turn.[br/]Unit suffers [abilityred]{Resistancereduction}[/abilityred] resistance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位受到该区域离子风暴的影响，每个战略回合获得的[hp/]恢复将会无效。[br/]单位减少 [abilityred]{Resistancereduction}[/abilityred]抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SCREEN_INCOME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[abilityred]-20%[/abilityred][energy/]</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[abilityred]-20%[/abilityred][energy/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spore Cloud</Data></Cell><Cell><Data
+            ss:Type="String"
+          >孢子云</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="28.6875"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This sector is affected by a Spore Cloud, a Biochemical hazard dangerous to most conventional lifeforms. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该区域正受到孢子云影响，这种生化灾害对大多数传统生物而言都非常危险。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="152.25"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOGIC_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][food/][/bullet][bullet]Non-Xenoplague units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][bullet]Non-Xenoplague units in this sector suffer [abilityred]{ResistanceReduction}[/abilityred] resistance.[/bullet][bullet]Every combat turn:[/bullet][bulletList][bullet]Non-Xenoplague Biological and Cyborg units have a strength {PoisonStrength} chance to become [abilityred]Poisoned[/abilityred] for {PoisonDuration}[/bullet][/bulletList][/bulletList]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[bulletList][bullet]吞并该区域将使殖民地受到 [abilityred]{Happiness}[/abilityred]惩罚[/bullet][bullet]吞并该区域将会使殖民地[food/]产量 [abilityred]-20%[/abilityred][/bullet][bullet]该区域内的非异星疫病单位失去策略地图[hp/][abilityred]再生[/abilityred]。[/bullet][bullet]该区域内的非异星疫病单位减少 [abilityred]{ResistanceReduction}[/abilityred]抵抗。[/bullet][bullet]每个战斗回合：[/bullet][bulletList][bullet]非异星疫病生物单位和半机械人单位有 {PoisonStrength} 的力量几率[abilityred]中毒[/abilityred]，持续{PoisonDuration}[/bullet][/bulletList][/bulletList]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Xenoplague is one of the secret technologies of the game. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="43.3125"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Every turn, all non-Xenoplague Biological and Cyborg units have a strength {Poisonchance} chance to become [abilityred]Poisoned[/abilityred] for {PoisonDuration}[turn/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每回合，所有非异星疫病生物单位和半机械人单位有 {Poisonchance} 的力量几率[abilityred]中毒[/abilityred]，持续{PoisonDuration}[turn/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="43.3125"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is affected by the Spore Cloud in this sector, nullifying the [hp/] regeneration received per strategic turn.[br/]Unit suffers [abilityred]{Resistancereduction}[/abilityred] resistance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位受到该区域孢子云影响，每个战略回合获得的[hp/]恢复将会无效。[br/]单位减少 [abilityred]{Resistancereduction}[/abilityred]抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SCREEN_INCOME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[abilityred]-20%[/abilityred][food/]</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[abilityred]-20%[/abilityred][food/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Nuclear Fallout</Data></Cell><Cell><Data
+            ss:Type="String"
+          >核能辐射</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This sector is affected by Nuclear Fallout from a past detonation. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该区域正受到过去爆炸产生的核辐射影响。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="111.75"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOGIC_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][food/][/bullet][bullet]Units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][bullet]Units in this sector suffer [abilityred]{ResistanceReduction}[/abilityred] to all damage resistances.[/bullet]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[bulletList][bullet]吞并该区域将使殖民地受到 [abilityred]{Happiness}[/abilityred]惩罚[/bullet][bullet]吞并该区域将会使殖民地[food/]产量 [abilityred]-20%[/abilityred][/bullet][bullet]该区域内的单位失去策略地图[hp/][abilityred]再生[/abilityred]。[/bullet][bullet]该区域内的单位对所有伤害的抵抗减少 [abilityred]{ResistanceReduction}[/abilityred]。[/bullet]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Units suffer [abilityred]{ResistanceReduction}[/abilityred] to all resistances.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位对所有伤害的抵抗减少 [abilityred]{ResistanceReduction}[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="43.3125"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is affected by the Nuclear Fallout in this sector, nullifying the [hp/] regeneration received per strategic turn.[br/]Unit suffers {resistances} to all resistances.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位受到该区域核能辐射影响，每个战略回合获得的[hp/]恢复将会无效。[br/]单位的所有抵抗减少 {resistances}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SCREEN_INCOME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[abilityred]-20%[/abilityred][food/]</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[abilityred]-20%[/abilityred][food/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Abyssal Tear</Data></Cell><Cell><Data
+            ss:Type="String"
+          >深渊裂隙</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="28.6875"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This sector contains a tear into the Abyss through which its malevolent influence seeps into this world.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该区域中开启了一条通往深渊的裂缝，邪恶正从中涌入这个世界。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="146.25"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOGIC_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][production/][/bullet][bullet]Units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][bullet]Vision and scanning range of Non-Psynumbra units is reduced by {SightRangeReduction}[/bullet][bullet]Non-Mindless and non-Psynumbra units suffer {MoraleDebuff}[/bullet][bullet]Psynumbra Marauders spawn here to raid their surroundings.[/bullet]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[bulletList][bullet]吞并该区域将使殖民地受到 [abilityred]{Happiness}[/abilityred]惩罚[/bullet][bullet]吞并该区域将会使殖民地[production/]产量 [abilityred]-20%[/abilityred][/bullet][bullet]该区域内的单位失去策略地图[hp/][abilityred]再生[/abilityred]。[/bullet][bullet]非赛努布拉单位的视野和扫描范围减少 {SightRangeReduction}[/bullet][bullet]非无意识单位和非赛努布拉单位受到 {MoraleDebuff}[/bullet][bullet]此处将生成赛努布拉劫掠者并向四周发动袭击。[/bullet]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Psynumbra is one of the secret technologies of the game. Vision and scanning range deal with how far a unit can see or detect units on the world map, respectively. Mindless units are units without a mind, so simple drones and robots etc. Marauders are units on the world map that cannot be engaged in diplomacy, and attack everything they see in sight.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Non-Mindless and non-Psynumbra units suffer {MoraleReduction}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >非无意识单位和非赛努布拉单位减少 {MoraleReduction}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="28.6875"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is affected by the Abyssal Tear in this sector, nullifying the [hp/] regeneration received per strategic turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位受到该区域深渊裂隙影响，每个战术回合获得的[hp/]恢复将会无效。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_02_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Abyssal Obfuscation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >深渊困惑</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="28.6875"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_02_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is affected by the Abyssal Tear in this sector, causing its vision and scanning range to be reduced by {SightRangeReduction}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位受到该区域深渊裂隙影响，视野和扫描范围减少 {SightRangeReduction}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_03_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Abyssal Morale Dampen</Data></Cell><Cell><Data
+            ss:Type="String"
+          >深渊士气压制</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="28.6875"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_03_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is affected by the Abyssal Tear in this sector, suffering from {MoraleDebuff}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位受到该区域深渊裂隙影响，受到 {MoraleDebuff}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SCREEN_INCOME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[abilityred]-20%[/abilityred][production/]</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[abilityred]-20%[/abilityred][production/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Void Storm</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚空风暴</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="50.25"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This sector is Dimensionally Unstable, causing the reality in this section of space to blur. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该区域的维度动荡不安，现实空间变得模糊不清。 </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Dimensionally unstable is in refering to alternate dimensions that are interfering with the current dimension (reality) of the sector.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="123"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOGIC_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][energy/][/bullet][bullet]Units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][bullet]Every combat turn:[/bullet][bulletList][bullet]Non-Voidtech units have a strength {Instabilitychance} chance to receive [abilityred]Dimensional Instability[/abilityred][/bullet]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[bulletList][bullet]吞并该区域将使殖民地受到 [abilityred]{Happiness}[/abilityred]惩罚[/bullet][bullet]吞并该区域将会使殖民地[energy/]产量 [abilityred]-20%[/abilityred][/bullet][bullet]该区域内的单位失去策略地图[hp/][abilityred]再生[/abilityred]。[/bullet][bullet]每个战斗回合：[/bullet][bulletList][bullet]非虚空科技单位有 {Instabilitychance} 的力量几率获得[abilityred]维度动荡[/abilityred][/bullet]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Voidtech is one of the secret technologies of the game. Dimensional Instability is a status effect that</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="28.6875"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Every turn, non-Voidtech units have a strength {DimensionalInstabilityStrength} chance to receive [abilityred]Dimensional Instability[abilityred/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每回合，非虚空科技单位有 {DimensionalInstabilityStrength} 的力量几率获得[abilityred]维度动荡[abilityred/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="28.6875"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is affected by the Void Storm in this sector, nullifying the [hp/] regeneration received per strategic turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位受到该区域虚空风暴影响，每个战术回合获得的[hp/]恢复将会无效。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SCREEN_INCOME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[abilityred]-20%[/abilityred][energy/]</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[abilityred]-20%[/abilityred][energy/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Veil of Tranquility</Data></Cell><Cell><Data
+            ss:Type="String"
+          >静谧帷幕</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="28.6875"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This sector is under the Veil of Tranquility, granting refuge to the faithful and damnation to the accused.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该区域处于静谧帷幕之下，虔诚之人将获得庇护，罪恶之人将受到惩戒。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="128.25"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOGIC_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[bulletList][bullet]Annexing this sector grants {Happiness} to the colony.[/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][research/][/bullet][bullet]Non-Mechanical and non-Psynumbra units regain an additional {WorldmapRecoveryBonus} per strategic turn.[/bullet][bullet]Every combat turn:[/bullet][bulletList][bullet][abilityblue]Enlightened[/abilityblue] units are healed for {EnlightenedHeal}[/bullet][bullet]Units afflicted with [abilityred]Soulburn[/abilityred] take {SoulblazeDamage} damage.[/bullet]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[bulletList][bullet]吞并该区域将使殖民地获得 {Happiness}。[/bullet][bullet]吞并该区域将会使殖民地 [research/] 产量 [abilityred]-20%[/abilityred][/bullet][bullet]非机械和非赛努布拉单位每个战略回合额外恢复 {WorldmapRecoveryBonus}。[/bullet][bullet]每个战斗回合：[/bullet][bulletList][bullet][abilityblue]启迪[/abilityblue]单位治疗 {EnlightenedHeal}[/bullet][bullet]受到[abilityred]灵魂燃烧[/abilityred]影响的单位受到 {SoulblazeDamage} 伤害。[/bullet]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Edit: --&gt; Soulfire to Soulburn</Data></Cell><Cell><Data
+            ss:Type="String"
+          >编辑：--&gt;“灵魂烈焰”改为“灵魂燃烧”</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Celestian is one of the secret technologies of the game. Enlightened is a celestian status effect that speaks to their soul being enlighted with starlight, washing their soul in truth. Soulburn is a debuff applied to enemy units, that sets their soul on fire, dealing damage and debuffing them.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="43.3125"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Every turn, [abilityblue]Enlightened[/abilityblue] units are healed for {EnlightenedHeal}, and [abilityred]Soulblazed[/abilityred] units take {SoulblazeDamage} damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每回合，[abilityblue]启迪[/abilityblue]单位治疗 {EnlightenedHeal}，同时受到[abilityred]灵魂烈焰[/abilityred]影响的单位受到 {SoulblazeDamage} 的伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="28.6875"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is affected by the Veil of Tranquility in this sector, receiving an extra {Hpregen} per strategic turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位受到该区域静谧帷幕影响，每个战略回合额外获得 {Hpregen}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SCREEN_INCOME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[abilityred]-20%[/abilityred][research/]</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[abilityred]-20%[/abilityred][research/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Oil Spill</Data></Cell><Cell><Data
+            ss:Type="String"
+          >石油泄漏</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HAZARD_SOURCE_OIL_SPILL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >There is an oil spill contaminating this sector.</Data></Cell><Cell
+        ><Data ss:Type="String">该区域被泄露的石油污染。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="77.25"
+      ><Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell><Cell
+        ><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][energy/] and [supply/][/bullet][bullet]Units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][/bulletlist]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[bulletList][bullet]吞并该区域将使殖民地受到 [abilityred]{Happiness}[/abilityred]惩罚[/bullet][bullet]吞并该区域将会使殖民地[energy/]和[supply/]产量 [abilityred]-20%[/abilityred][/bullet][bullet]该区域内的单位失去策略地图[hp/][abilityred]再生[/abilityred]。[/bullet][/bulletlist]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="28.6875"
+      ><Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell><Cell
+        ><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is affected by the Oil Spill in this sector, nullifying the [hp/] regeneration received per strategic turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位受到该区域石油泄漏影响，每个战略回合获得的[hp/]恢复将会无效。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell><Cell
+        ><Data ss:Type="String">SCREEN_INCOME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[abilityred]-20%[/abilityred][energy/]</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[abilityred]-20%[/abilityred][energy/]</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Zoom>115</Zoom><Selected /><TopRowVisible
+      >6</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >7</ActiveRow><ActiveCol>4</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

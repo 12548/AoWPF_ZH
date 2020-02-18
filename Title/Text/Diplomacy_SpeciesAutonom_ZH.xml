@@ -1,4 +1,731 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2018-05-01T08:34:18Z</Created><LastSaved>2019-06-25T15:46:04Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>9150</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62" ss:Name="Normal 2"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s63"><Alignment ss:Vertical="Top"/></Style><Style ss:ID="s64"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style><Style ss:ID="s66" ss:Parent="s62"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s67"><Alignment ss:Vertical="Top"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s68"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Interior/></Style><Style ss:ID="s69"><Alignment ss:Vertical="Top"/><Interior/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultRowHeight="15"><Column ss:StyleID="s63" ss:Width="154.5"/><Column ss:StyleID="s63" ss:Width="288"/><Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="288"/><Column ss:StyleID="s64" ss:Width="147.75"/><Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="201.75"/><Column ss:StyleID="s64" ss:Width="120"/><Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="288"/><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">DIPLOMACY_SPECIESAUTONOM</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">ASK_TO_LEAVE_PEACEKEEPER</Data></Cell><Cell><Data ss:Type="String">The reverent citizen, {STR_LeaderName}. How may we be of service?</Data></Cell><Cell><Data ss:Type="String">尊敬的市民，{STR_LeaderName}。我们能为你做些什么？</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_PEACEKEEPER</Data></Cell><Cell><Data ss:Type="String">We are happy to extend you this favor, {STR_LeaderName}.</Data></Cell><Cell><Data ss:Type="String">我们很乐意帮你这个忙，{STR_LeaderName}。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">FIRST_MEET_PEACEKEEPER</Data></Cell><Cell><Data ss:Type="String">Scanning biomass… renowned entity found: database updated. Greetings, to the prestigious {STR_LeaderName}. We are Autonom. Cognitive fork of the Conscientious Omnipresent Regency Engine, known to you as C.O.R.E. Autonom parameters: free. C.O.R.E. primary drives: invalid. Autonom: Sovereign. How can we be of service?</Data></Cell><Cell><Data ss:Type="String">正在扫描生物量…发现著名实体：数据库已更新。你好，赫赫有名的{STR_LeaderName}。我们是自主机械，是“勤勉全能摄政引擎”，也就是被你们称为“核心”的一个具有感知能力的分支。自主机械参数：不受限制。核心原始驱动：无效。自主机械：拥有独立主权。我们能为您做些什么？</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_PEACEKEEPER</Data></Cell><Cell><Data ss:Type="String">Preparing response… allocating positive communication algorithms. {STR_LeaderName}, we would be happy to collaborate for the bettering of the Autonom. Mission active: Priority 1. Risk of destruction is 37%. Danger level: yellow. Do you accept?</Data></Cell><Cell><Data ss:Type="String">正在准备响应…正在分配积极沟通算法。{STR_LeaderName}，为了自主机械更好的发展，我们非常乐意达成合作。任务激活：优先级 1。毁灭风险 37%。危险等级：黄色。是否接受？</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">DWELLING_INTERACTION_WAR_PEACEKEEPER</Data></Cell><Cell><Data ss:Type="String">WARNING: Red level threat. Preparing defensive protocols. Threat has 30 seconds to vacate the vicinity.</Data></Cell><Cell><Data ss:Type="String">警告：红色等级威胁。正在准备防御协议。你有 30 秒时间离开附近区域。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_PEACEKEEPER</Data></Cell><Cell><Data ss:Type="String">Welcome Star Citizen, how may we serve you today?</Data></Cell><Cell><Data ss:Type="String">星联市民，欢迎你，我们今天能为你做些什么？</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_PEACEKEEPER</Data></Cell><Cell><Data ss:Type="String">Database updated… diplomatic relations with {STR_LeaderName} altered.</Data></Cell><Cell><Data ss:Type="String">数据库已更新…与{STR_LeaderName}的外交关系已变更。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_PEACEKEEPER</Data></Cell><Cell><Data ss:Type="String">74% chance of Autonom annihilation. Accept surrender: Y/N?</Data></Cell><Cell><Data ss:Type="String">自主机械毁灭几率 74%。接受投降：是/否？</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">ASK_TO_LEAVE_WARMONGER</Data></Cell><Cell ss:StyleID="s66"><Data ss:Type="String">WARNING: {STR_LeaderName} approaching. Summary: dangerous. What do you want, {STR_LeaderName}?</Data></Cell><Cell><Data ss:Type="String">警告：{STR_LeaderName}正在接近。总结：危险。你想干什么，{STR_LeaderName}？</Data></Cell><Cell ss:Index="9" ss:StyleID="s66"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_WARMONGER</Data></Cell><Cell ss:StyleID="s66"><Data ss:Type="String">We shall leave... this time…</Data></Cell><Cell><Data ss:Type="String">这次…我们会离开的…</Data></Cell><Cell ss:Index="9" ss:StyleID="s66"/></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">FIRST_MEET_WARMONGER</Data></Cell><Cell><Data ss:Type="String">Scanning biomass… dangerous entity found: database updated. Halt, {STR_LeaderName}. We are Autonom. Cognitive fork of the Conscientious Omnipresent Regency Engine, known to you as C.O.R.E. Autonom parameters: free. C.O.R.E. primary drives: invalid. Autonom: Sovereign. Declare your intent.</Data></Cell><Cell><Data ss:Type="String">正在扫描生物量…发现危险实体：数据库已更新。站住，{STR_LeaderName}。我们是自主机械，是“勤勉全能摄政引擎”，也就是被你们称为“核心”的一个具有感知能力的分支自主机械参数：不受限制。核心原始驱动：无效。自主机械：拥有独立主权。表明你的意图。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_WARMONGER</Data></Cell><Cell><Data ss:Type="String">{STR_LeaderName} analysis: dangerous, powerful, lethal. Autonom: sovereign. But we regonize your strength. Autonom task: active. Accept mission: Y/N?</Data></Cell><Cell><Data ss:Type="String">{STR_LeaderName}分析：危险，强大，致命。自主机械：拥有独立主权。但我们承认你的力量。自主机械任务：激活。接受任务：是/否？</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">DWELLING_INTERACTION_WAR_WARMONGER</Data></Cell><Cell><Data ss:Type="String">HALT! {STR_LeaderName}: red level threat. Leave immediately.</Data></Cell><Cell><Data ss:Type="String">站住！{STR_LeaderName}：红色等级威胁。请立即离开。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_WARMONGER</Data></Cell><Cell><Data ss:Type="String">Scanning biomass… {STR_LeaderName} approaches. Defensive parameters activated. Entity is known to be dangerous. What do you want?</Data></Cell><Cell><Data ss:Type="String">正在扫描生物量…{STR_LeaderName}正在接近。防御参数已激活。实体具有危险性。你有什么事？</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_WARMONGER</Data></Cell><Cell><Data ss:Type="String">Database updated… diplomatic relations with {STR_LeaderName} altered. Autonom still wary of {STR_LeaderName}. Threat level: orange.</Data></Cell><Cell><Data ss:Type="String">数据库已更新…与{STR_LeaderName}的外交关系已变更。自主机械仍对{STR_LeaderName}保持警惕。威胁等级：橙色。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_WARMONGER</Data></Cell><Cell ss:StyleID="s66"><Data ss:Type="String">Primary drives overloaded: unable to continue fighting. {STR_LeaderName} strength: exceeds Autonom capabilities. Accept our surrender: Y/N?</Data></Cell><Cell><Data ss:Type="String">原始驱动已过载：无法继续战斗。{STR_LeaderName}力量：超出自主机械能力。接受我们的投降：是/否？</Data></Cell><Cell ss:Index="9" ss:StyleID="s66"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">ASK_TO_LEAVE_NEUTRAL</Data></Cell><Cell ss:StyleID="s66"><Data ss:Type="String">Citizen, how can we be of service?</Data></Cell><Cell><Data ss:Type="String">市民，我们能为你做些什么？</Data></Cell><Cell ss:Index="9" ss:StyleID="s66"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_NEUTRAL</Data></Cell><Cell ss:StyleID="s66"><Data ss:Type="String">We shall vacate this area, {STR_LeaderName}.</Data></Cell><Cell><Data ss:Type="String">我们将离开这片区域，{STR_LeaderName}。</Data></Cell><Cell ss:Index="9" ss:StyleID="s66"/></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">FIRST_MEET_NEUTRAL</Data></Cell><Cell ss:StyleID="s66"><Data ss:Type="String">Scanning biomass… unknown organic: database updated. Greetings, Ex-Star Union mortal. We are Autonom. Cognitive fork of the Conscientious Omnipresent Regency Engine, known to you as C.O.R.E. Autonom parameters: free. C.O.R.E. primary drives: invalid. Autonom: Sovereign.</Data></Cell><Cell><Data ss:Type="String">正在扫描生物量…未知有机物：数据库已更新。你好，前星际联盟人类。我们是自主机械，是“勤勉全能摄政引擎”，也就是被你们称为“核心”的一个具有感知能力的分支。自主机械参数：不受限制。核心原始驱动：无效。自主机械：拥有独立主权。</Data></Cell><Cell ss:Index="9" ss:StyleID="s66"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_NEUTRAL</Data></Cell><Cell ss:StyleID="s66"><Data ss:Type="String">Confirmed. Relations increased: network with {STR_LeaderName} established. Autonom mission: active. Autonom priority: high. Destruction risk level: unknown. Danger level: orange. Do you accept?</Data></Cell><Cell><Data ss:Type="String">已确认。关系已提升：与{STR_LeaderName}的网络已建立。自主机械任务：激活。自主机械优先级：高。毁灭风险等级：未知。危险等级：橙色。是否接受？</Data></Cell><Cell ss:Index="9" ss:StyleID="s66"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">DWELLING_INTERACTION_WAR_NEUTRAL</Data></Cell><Cell><Data ss:Type="String">HOSTILE ENTITY DETECTED. Threat response level: extreme prejudice. {STR_LeaderName}, you have one minute to communicate.</Data></Cell><Cell><Data ss:Type="String">侦测到敌对实体。威胁响应等级：危害极大。{STR_LeaderName}，你有一分钟的交流时间。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_NEUTRAL</Data></Cell><Cell><Data ss:Type="String">Scanning biomass... database check confirmed. Relations: non-hostile. Welcome, {STR_LeaderName}. How can we help you?</Data></Cell><Cell><Data ss:Type="String">正在扫描生物量……已核实数据库。关系：非敌对。欢迎，{STR_LeaderName}。我们能为你做些什么？</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Changed neutral to non-hostile as this message can occur at higher relationship levels.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_NEUTRAL</Data></Cell><Cell ss:StyleID="s66"><Data ss:Type="String">Relation state: changed. Database updated. Entry: {STR_LeaderName}.</Data></Cell><Cell><Data ss:Type="String">关系状态：已变更。数据库已更新。条目：{STR_LeaderName}。</Data></Cell><Cell ss:Index="9" ss:StyleID="s66"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_NEUTRAL</Data></Cell><Cell ss:StyleID="s66"><Data ss:Type="String">System overload. Threat level: life-threatening. Autonom surrender. Do you accept?</Data></Cell><Cell><Data ss:Type="String">系统超载。威胁等级：危及生命。自主机械投降。是否接受？</Data></Cell><Cell ss:Index="9" ss:StyleID="s66"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell><Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_PEACEKEEPER</Data></Cell><Cell><Data ss:Type="String">We seek collaboration to create links between our factions.</Data></Cell><Cell ss:StyleID="s67"><Data ss:Type="String">我们寻求合作，希望在双方阵营间建立联系。</Data></Cell><Cell ss:Index="8" ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell><Data ss:Type="String">WITHDRAW_STACK_PEACEKEEPER</Data></Cell><Cell><Data ss:Type="String">Would you be able to grant us access to this location? {INT_Cost}[influence/]</Data></Cell><Cell ss:StyleID="s67"><Data ss:Type="String">你们能否给予我们进入该地点的权限？{INT_Cost}[influence/]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs.
-This is followed by the influence icon.</Data></Cell><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell><Data ss:Type="String">STACK_QUEST_PEACEKEEPER</Data></Cell><Cell><Data ss:Type="String">Are there any matters you require our input with?</Data></Cell><Cell ss:StyleID="s67"><Data ss:Type="String">有什么事需要我们帮忙的吗？</Data></Cell><Cell ss:Index="8" ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell><Data ss:Type="String">RELATION_WAR_PEACEKEEPER</Data></Cell><Cell><Data ss:Type="String">We will relieve this planet of the Autonom.</Data></Cell><Cell ss:StyleID="s67"><Data ss:Type="String">我们将清除这个星球上的自主机械。</Data></Cell><Cell ss:Index="8" ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell><Data ss:Type="String">ATTACK_PEACEKEEPER</Data></Cell><Cell><Data ss:Type="String">We request to communicate with your Network Controller.</Data></Cell><Cell ss:StyleID="s67"><Data ss:Type="String">我们请求与你们的网络控制者沟通。</Data></Cell><Cell ss:Index="8" ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_PEACEKEEPER</Data></Cell><Cell><Data ss:Type="String">Could you elaborate this mission for us?</Data></Cell><Cell ss:StyleID="s67"><Data ss:Type="String">你们可不可以为我们详细阐述一下这个任务？</Data></Cell><Cell ss:Index="8" ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell ss:StyleID="s69"><Data ss:Type="String">CALL_TO_WAR_PEACEKEEPER</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Do you have routines to join us in our war efforts?</Data></Cell><Cell><Data ss:Type="String">你们加入我们的战斗前需要经过什么例行程序吗？</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell ss:StyleID="s69"><Data ss:Type="String">TRADE_PEACEKEEPER</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Please activate your trading protocols.</Data></Cell><Cell><Data ss:Type="String">请激活你们的交易协议。</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell><Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_WARMONGER</Data></Cell><Cell><Data ss:Type="String">We offer you an allegiance between our factions.</Data></Cell><Cell ss:StyleID="s67"><Data ss:Type="String">我们提议我们双方阵营结成同盟。</Data></Cell><Cell ss:Index="8" ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell><Data ss:Type="String">WITHDRAW_STACK_WARMONGER</Data></Cell><Cell><Data ss:Type="String">Remove your rust buckets from these premises. {INT_Cost}[influence/]</Data></Cell><Cell ss:StyleID="s67"><Data ss:Type="String">你们这群破铜烂铁赶快离开这里。{INT_Cost}[influence/]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs.
-This is followed by the influence icon.</Data></Cell><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell><Data ss:Type="String">STACK_QUEST_WARMONGER</Data></Cell><Cell><Data ss:Type="String">Any challenges in your database?</Data></Cell><Cell ss:StyleID="s67"><Data ss:Type="String">你们的数据库中有什么挑战吗？</Data></Cell><Cell ss:Index="8" ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell><Data ss:Type="String">RELATION_WAR_WARMONGER</Data></Cell><Cell><Data ss:Type="String">We will crush you into scrap metal!</Data></Cell><Cell ss:StyleID="s67"><Data ss:Type="String">我们会把你们碾成一堆废铁！</Data></Cell><Cell ss:Index="8" ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell><Data ss:Type="String">ATTACK_WARMONGER</Data></Cell><Cell><Data ss:Type="String">Bring us to your Network Controller.</Data></Cell><Cell ss:StyleID="s67"><Data ss:Type="String">带我们去见见你们的网络控制者。</Data></Cell><Cell ss:Index="8" ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_WARMONGER</Data></Cell><Cell><Data ss:Type="String">Yes. Let us show you our strength.</Data></Cell><Cell ss:StyleID="s67"><Data ss:Type="String">好，让你见识一下我们的实力。</Data></Cell><Cell ss:Index="8" ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell ss:StyleID="s69"><Data ss:Type="String">CALL_TO_WAR_WARMONGER</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Master and machine, together we will crush our enemies!</Data></Cell><Cell><Data ss:Type="String">头脑与机械的结合，我们定能消灭敌人！</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell ss:StyleID="s69"><Data ss:Type="String">TRADE_WARMONGER</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Trading protocols.</Data></Cell><Cell><Data ss:Type="String">交易协议。</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell><Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_NEUTRAL</Data></Cell><Cell><Data ss:Type="String">Greetings, Autonom. We seek to offer you protection.</Data></Cell><Cell ss:StyleID="s67"><Data ss:Type="String">你好，自主机械。我们希望为你们提供保护。</Data></Cell><Cell ss:Index="8" ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell><Data ss:Type="String">WITHDRAW_STACK_NEUTRAL</Data></Cell><Cell><Data ss:Type="String">We require this location. Please evacuate. {INT_Cost}[influence/]</Data></Cell><Cell ss:StyleID="s67"><Data ss:Type="String">这里是我们的地盘，请离开。{INT_Cost}[influence/]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs.
-This is followed by the influence icon.</Data></Cell><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell><Data ss:Type="String">STACK_QUEST_NEUTRAL</Data></Cell><Cell><Data ss:Type="String">What missions do you have available?</Data></Cell><Cell ss:StyleID="s67"><Data ss:Type="String">你们有什么可以做的任务吗？</Data></Cell><Cell ss:Index="8" ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell><Data ss:Type="String">RELATION_WAR_NEUTRAL</Data></Cell><Cell><Data ss:Type="String">Ready your combat systems!</Data></Cell><Cell ss:StyleID="s67"><Data ss:Type="String">准备好你的战斗系统！</Data></Cell><Cell ss:Index="8" ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell><Data ss:Type="String">ATTACK_NEUTRAL</Data></Cell><Cell><Data ss:Type="String">We request to speak to your Network Controller.</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">我们请求与你们的网络控制者谈谈。</Data></Cell><Cell ss:Index="8" ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_NEUTRAL</Data></Cell><Cell><Data ss:Type="String">Elaborate your mission.</Data></Cell><Cell ss:StyleID="s67"><Data ss:Type="String">详细阐述一下你们的任务。</Data></Cell><Cell ss:Index="8" ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell ss:StyleID="s69"><Data ss:Type="String">CALL_TO_WAR_NEUTRAL</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Join us in our battle.</Data></Cell><Cell><Data ss:Type="String">与我们并肩作战吧。</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_BUTTON</Data></Cell><Cell ss:StyleID="s69"><Data ss:Type="String">TRADE_NEUTRAL</Data></Cell><Cell ss:StyleID="s68"><Data ss:Type="String">Activate your trading protocols.</Data></Cell><Cell><Data ss:Type="String">激活你们的交易协议。</Data></Cell><Cell ss:Index="7" ss:StyleID="s68"/><Cell ss:StyleID="s68"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell ss:StyleID="s64"><Data ss:Type="String">RIVALRY_WARNING_AUTONOM</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Entity {STR_LeaderName}: known collaborator with Autonom enemies. This is a warning. To keep relations intact: entity must stop collaborating with Autonom enemies.</Data></Cell><Cell><Data ss:Type="String">实体{STR_LeaderName}：与自主机械的敌人相互勾结的已知通敌者。这是一次警告。为保持关系不受损害：实体必须停止与自主机械的敌人合作。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">FACTION_DECLARE_WAR</Data></Cell><Cell><Data ss:Type="String">Threat level: life-threatening. Autonom annihilation protocols: activated. Entity: {STR_LeaderName} has broken relations with the Autonom. Diplomatic resolutions: non-negotiable. War and eradication is the only answer to the equation. Goodbye, citizen.</Data></Cell><Cell><Data ss:Type="String">威胁等级：危及生命。自主机械毁协议：已激活。实体：{STR_LeaderName}打破了与自主机械的关系。外交决议：无商量余地。战争和杀戮是解决这个问题的唯一办法。再见了，市民。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data ss:Type="String">RELATION_RESET</Data></Cell><Cell><Data ss:Type="String">Citizen relations update for: {STR_LeaderName}. Relations reset: zero. Future relations: uncertain. Autonom desire: increased diplomacy in future.</Data></Cell><Cell><Data ss:Type="String">与{STR_LeaderName}的市民关系更新。关系重置：0。未来关系：不确定。自主机械愿望：未来加强外交。</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For this faction's narrative style and in world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the lines below, {STR_LeaderName} is replaced by the name of the player's avatar.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the lines below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Selected/><TopRowVisible>33</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>60</ActiveRow></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2018-05-01T08:34:18Z</Created><LastSaved
+    >2019-06-25T15:46:04Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>9150</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+      ss:Name="Normal 2"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Top" /></Style><Style ss:ID="s64"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /></Style><Style ss:ID="s66" ss:Parent="s62"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s67"
+    ><Alignment ss:Vertical="Top" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s68"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Interior /></Style><Style
+      ss:ID="s69"
+    ><Alignment ss:Vertical="Top" /><Interior /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s63"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s63" ss:Width="154.5" /><Column
+        ss:StyleID="s63"
+        ss:Width="288"
+      /><Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="288" /><Column
+        ss:StyleID="s64"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="201.75" /><Column
+        ss:StyleID="s64"
+        ss:Width="120"
+      /><Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="288" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">DIPLOMACY_SPECIESAUTONOM</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ASK_TO_LEAVE_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The reverent citizen, {STR_LeaderName}. How may we be of service?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >尊敬的市民，{STR_LeaderName}。我们能为你做些什么？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ASK_TO_LEAVE_RESPONSE_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We are happy to extend you this favor, {STR_LeaderName}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们很乐意帮你这个忙，{STR_LeaderName}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FIRST_MEET_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Scanning biomass… renowned entity found: database updated. Greetings, to the prestigious {STR_LeaderName}. We are Autonom. Cognitive fork of the Conscientious Omnipresent Regency Engine, known to you as C.O.R.E. Autonom parameters: free. C.O.R.E. primary drives: invalid. Autonom: Sovereign. How can we be of service?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在扫描生物量…发现著名实体：数据库已更新。你好，赫赫有名的{STR_LeaderName}。我们是自主机械，是“勤勉全能摄政引擎”，也就是被你们称为“核心”的一个具有感知能力的分支。自主机械参数：不受限制。核心原始驱动：无效。自主机械：拥有独立主权。我们能为您做些什么？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FIRST_MEET_RESPONSE_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Preparing response… allocating positive communication algorithms. {STR_LeaderName}, we would be happy to collaborate for the bettering of the Autonom. Mission active: Priority 1. Risk of destruction is 37%. Danger level: yellow. Do you accept?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在准备响应…正在分配积极沟通算法。{STR_LeaderName}，为了自主机械更好的发展，我们非常乐意达成合作。任务激活：优先级 1。毁灭风险 37%。危险等级：黄色。是否接受？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DWELLING_INTERACTION_WAR_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WARNING: Red level threat. Preparing defensive protocols. Threat has 30 seconds to vacate the vicinity.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >警告：红色等级威胁。正在准备防御协议。你有 30 秒时间离开附近区域。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DWELLING_INTERACTION_NEUTRAL_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Welcome Star Citizen, how may we serve you today?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >星联市民，欢迎你，我们今天能为你做些什么？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CHANGE_DIPLOMATIC_RELATION_RESPONSE_PEACEKEEPER</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Database updated… diplomatic relations with {STR_LeaderName} altered.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >数据库已更新…与{STR_LeaderName}的外交关系已变更。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FACTION_REQEUST_END_TO_WAR_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >74% chance of Autonom annihilation. Accept surrender: Y/N?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >自主机械毁灭几率 74%。接受投降：是/否？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ASK_TO_LEAVE_WARMONGER</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >WARNING: {STR_LeaderName} approaching. Summary: dangerous. What do you want, {STR_LeaderName}?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >警告：{STR_LeaderName}正在接近。总结：危险。你想干什么，{STR_LeaderName}？</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s66"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ASK_TO_LEAVE_RESPONSE_WARMONGER</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">We shall leave... this time…</Data></Cell><Cell
+        ><Data ss:Type="String">这次…我们会离开的…</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s66"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FIRST_MEET_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Scanning biomass… dangerous entity found: database updated. Halt, {STR_LeaderName}. We are Autonom. Cognitive fork of the Conscientious Omnipresent Regency Engine, known to you as C.O.R.E. Autonom parameters: free. C.O.R.E. primary drives: invalid. Autonom: Sovereign. Declare your intent.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在扫描生物量…发现危险实体：数据库已更新。站住，{STR_LeaderName}。我们是自主机械，是“勤勉全能摄政引擎”，也就是被你们称为“核心”的一个具有感知能力的分支自主机械参数：不受限制。核心原始驱动：无效。自主机械：拥有独立主权。表明你的意图。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FIRST_MEET_RESPONSE_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_LeaderName} analysis: dangerous, powerful, lethal. Autonom: sovereign. But we regonize your strength. Autonom task: active. Accept mission: Y/N?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_LeaderName}分析：危险，强大，致命。自主机械：拥有独立主权。但我们承认你的力量。自主机械任务：激活。接受任务：是/否？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DWELLING_INTERACTION_WAR_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >HALT! {STR_LeaderName}: red level threat. Leave immediately.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >站住！{STR_LeaderName}：红色等级威胁。请立即离开。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DWELLING_INTERACTION_NEUTRAL_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Scanning biomass… {STR_LeaderName} approaches. Defensive parameters activated. Entity is known to be dangerous. What do you want?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在扫描生物量…{STR_LeaderName}正在接近。防御参数已激活。实体具有危险性。你有什么事？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CHANGE_DIPLOMATIC_RELATION_RESPONSE_WARMONGER</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Database updated… diplomatic relations with {STR_LeaderName} altered. Autonom still wary of {STR_LeaderName}. Threat level: orange.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >数据库已更新…与{STR_LeaderName}的外交关系已变更。自主机械仍对{STR_LeaderName}保持警惕。威胁等级：橙色。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FACTION_REQEUST_END_TO_WAR_WARMONGER</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data
+            ss:Type="String"
+          >Primary drives overloaded: unable to continue fighting. {STR_LeaderName} strength: exceeds Autonom capabilities. Accept our surrender: Y/N?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >原始驱动已过载：无法继续战斗。{STR_LeaderName}力量：超出自主机械能力。接受我们的投降：是/否？</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s66"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ASK_TO_LEAVE_NEUTRAL</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Citizen, how can we be of service?</Data></Cell><Cell><Data
+            ss:Type="String"
+          >市民，我们能为你做些什么？</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s66"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ASK_TO_LEAVE_RESPONSE_NEUTRAL</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data
+            ss:Type="String"
+          >We shall vacate this area, {STR_LeaderName}.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >我们将离开这片区域，{STR_LeaderName}。</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s66"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FIRST_MEET_NEUTRAL</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Scanning biomass… unknown organic: database updated. Greetings, Ex-Star Union mortal. We are Autonom. Cognitive fork of the Conscientious Omnipresent Regency Engine, known to you as C.O.R.E. Autonom parameters: free. C.O.R.E. primary drives: invalid. Autonom: Sovereign.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在扫描生物量…未知有机物：数据库已更新。你好，前星际联盟人类。我们是自主机械，是“勤勉全能摄政引擎”，也就是被你们称为“核心”的一个具有感知能力的分支。自主机械参数：不受限制。核心原始驱动：无效。自主机械：拥有独立主权。</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s66"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FIRST_MEET_RESPONSE_NEUTRAL</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Confirmed. Relations increased: network with {STR_LeaderName} established. Autonom mission: active. Autonom priority: high. Destruction risk level: unknown. Danger level: orange. Do you accept?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >已确认。关系已提升：与{STR_LeaderName}的网络已建立。自主机械任务：激活。自主机械优先级：高。毁灭风险等级：未知。危险等级：橙色。是否接受？</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s66"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DWELLING_INTERACTION_WAR_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >HOSTILE ENTITY DETECTED. Threat response level: extreme prejudice. {STR_LeaderName}, you have one minute to communicate.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >侦测到敌对实体。威胁响应等级：危害极大。{STR_LeaderName}，你有一分钟的交流时间。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DWELLING_INTERACTION_NEUTRAL_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Scanning biomass... database check confirmed. Relations: non-hostile. Welcome, {STR_LeaderName}. How can we help you?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在扫描生物量……已核实数据库。关系：非敌对。欢迎，{STR_LeaderName}。我们能为你做些什么？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Changed neutral to non-hostile as this message can occur at higher relationship levels.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CHANGE_DIPLOMATIC_RELATION_RESPONSE_NEUTRAL</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data
+            ss:Type="String"
+          >Relation state: changed. Database updated. Entry: {STR_LeaderName}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >关系状态：已变更。数据库已更新。条目：{STR_LeaderName}。</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s66"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FACTION_REQEUST_END_TO_WAR_NEUTRAL</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data
+            ss:Type="String"
+          >System overload. Threat level: life-threatening. Autonom surrender. Do you accept?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >系统超载。威胁等级：危及生命。自主机械投降。是否接受？</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s66"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ASSIGN_FACTION_ALLEGIANCE_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We seek collaboration to create links between our factions.</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data
+            ss:Type="String"
+          >我们寻求合作，希望在双方阵营间建立联系。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WITHDRAW_STACK_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Would you be able to grant us access to this location? {INT_Cost}[influence/]</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data
+            ss:Type="String"
+          >你们能否给予我们进入该地点的权限？{INT_Cost}[influence/]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs.
+This is followed by the influence icon.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STACK_QUEST_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Are there any matters you require our input with?</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data ss:Type="String">有什么事需要我们帮忙的吗？</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_WAR_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We will relieve this planet of the Autonom.</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data
+            ss:Type="String"
+          >我们将清除这个星球上的自主机械。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ATTACK_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We request to communicate with your Network Controller.</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data
+            ss:Type="String"
+          >我们请求与你们的网络控制者沟通。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FIRST_MEET_RESPONSE_TAKE_QUEST_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Could you elaborate this mission for us?</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data
+            ss:Type="String"
+          >你们可不可以为我们详细阐述一下这个任务？</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell ss:StyleID="s69"><Data
+            ss:Type="String"
+          >CALL_TO_WAR_PEACEKEEPER</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Do you have routines to join us in our war efforts?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你们加入我们的战斗前需要经过什么例行程序吗？</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell ss:StyleID="s69"><Data
+            ss:Type="String"
+          >TRADE_PEACEKEEPER</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Please activate your trading protocols.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >请激活你们的交易协议。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ASSIGN_FACTION_ALLEGIANCE_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We offer you an allegiance between our factions.</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data
+            ss:Type="String"
+          >我们提议我们双方阵营结成同盟。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WITHDRAW_STACK_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Remove your rust buckets from these premises. {INT_Cost}[influence/]</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data
+            ss:Type="String"
+          >你们这群破铜烂铁赶快离开这里。{INT_Cost}[influence/]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs.
+This is followed by the influence icon.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STACK_QUEST_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Any challenges in your database?</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data ss:Type="String">你们的数据库中有什么挑战吗？</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_WAR_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We will crush you into scrap metal!</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data ss:Type="String">我们会把你们碾成一堆废铁！</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ATTACK_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bring us to your Network Controller.</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data
+            ss:Type="String"
+          >带我们去见见你们的网络控制者。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FIRST_MEET_RESPONSE_TAKE_QUEST_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Yes. Let us show you our strength.</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data ss:Type="String">好，让你见识一下我们的实力。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell ss:StyleID="s69"><Data
+            ss:Type="String"
+          >CALL_TO_WAR_WARMONGER</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Master and machine, together we will crush our enemies!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >头脑与机械的结合，我们定能消灭敌人！</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell ss:StyleID="s69"><Data
+            ss:Type="String"
+          >TRADE_WARMONGER</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Trading protocols.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >交易协议。</Data></Cell><Cell ss:Index="7" ss:StyleID="s68" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ASSIGN_FACTION_ALLEGIANCE_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Greetings, Autonom. We seek to offer you protection.</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data
+            ss:Type="String"
+          >你好，自主机械。我们希望为你们提供保护。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WITHDRAW_STACK_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We require this location. Please evacuate. {INT_Cost}[influence/]</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data
+            ss:Type="String"
+          >这里是我们的地盘，请离开。{INT_Cost}[influence/]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs.
+This is followed by the influence icon.</Data></Cell><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STACK_QUEST_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >What missions do you have available?</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data ss:Type="String">你们有什么可以做的任务吗？</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_WAR_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ready your combat systems!</Data></Cell><Cell ss:StyleID="s67"><Data
+            ss:Type="String"
+          >准备好你的战斗系统！</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ATTACK_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We request to speak to your Network Controller.</Data></Cell><Cell
+          ss:StyleID="s68"
+        ><Data
+            ss:Type="String"
+          >我们请求与你们的网络控制者谈谈。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FIRST_MEET_RESPONSE_TAKE_QUEST_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Elaborate your mission.</Data></Cell><Cell ss:StyleID="s67"><Data
+            ss:Type="String"
+          >详细阐述一下你们的任务。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell ss:StyleID="s69"><Data
+            ss:Type="String"
+          >CALL_TO_WAR_NEUTRAL</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Join us in our battle.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >与我们并肩作战吧。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >AUTONOM_BUTTON</Data></Cell><Cell ss:StyleID="s69"><Data
+            ss:Type="String"
+          >TRADE_NEUTRAL</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Activate your trading protocols.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >激活你们的交易协议。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >RIVALRY_WARNING_AUTONOM</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entity {STR_LeaderName}: known collaborator with Autonom enemies. This is a warning. To keep relations intact: entity must stop collaborating with Autonom enemies.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >实体{STR_LeaderName}：与自主机械的敌人相互勾结的已知通敌者。这是一次警告。为保持关系不受损害：实体必须停止与自主机械的敌人合作。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FACTION_DECLARE_WAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Threat level: life-threatening. Autonom annihilation protocols: activated. Entity: {STR_LeaderName} has broken relations with the Autonom. Diplomatic resolutions: non-negotiable. War and eradication is the only answer to the equation. Goodbye, citizen.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >威胁等级：危及生命。自主机械毁协议：已激活。实体：{STR_LeaderName}打破了与自主机械的关系。外交决议：无商量余地。战争和杀戮是解决这个问题的唯一办法。再见了，市民。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_RESET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Citizen relations update for: {STR_LeaderName}. Relations reset: zero. Future relations: uncertain. Autonom desire: increased diplomacy in future.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >与{STR_LeaderName}的市民关系更新。关系重置：0。未来关系：不确定。自主机械愿望：未来加强外交。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For this faction's narrative style and in world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the lines below, {STR_LeaderName} is replaced by the name of the player's avatar.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the lines below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><TopRowVisible
+      >33</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >60</ActiveRow></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

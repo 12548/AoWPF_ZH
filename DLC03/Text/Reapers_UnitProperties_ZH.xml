@@ -1,1 +1,434 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Luis Ferreira</LastAuthor><LastSaved>2019-06-05T10:56:15Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>5640</WindowHeight><WindowWidth>15345</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="242.25" ss:DefaultRowHeight="15"><Column ss:StyleID="s62" ss:Width="189"/><Column ss:StyleID="s62" ss:Width="117.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="281.25"/><Column ss:StyleID="s62" ss:Width="147.75"/><Column ss:StyleID="s62" ss:Width="243"/><Column ss:StyleID="s62" ss:Width="120"/><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">REAPERS_UNITPROPERTIES</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ESTEQ_HUNTER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Es'Teq Hunter</Data></Cell><Cell><Data ss:Type="String">埃斯特克猎手</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">ESTEQ_HUNTER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is immune to [abilityred]Energy Drain[/abilityred] and has +{AccIncrease}% accuracy against targets with an [abilityblue]Essence Charge[/abilityblue].</Data></Cell><Cell><Data ss:Type="String">该单位免疫[abilityred]能量干涸[/abilityred]，并且在对目标使用[abilityblue]精华充能[/abilityblue]时 +{AccIncrease}% 准度。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Energy Drain is a negative Status Effect.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REAPER_SHOT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Reaper Shot</Data></Cell><Cell><Data ss:Type="String">死神射击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REAPER_SHOT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a hindering shot at the target.</Data></Cell><Cell><Data ss:Type="String">向目标发射阻碍射击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">POINT_BLANK_SHOT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Point-Blank Shot</Data></Cell><Cell><Data ss:Type="String">近距平射</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">POINT_BLANK_SHOT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a high potency shot at close range.</Data></Cell><Cell><Data ss:Type="String">从近距离发射高威力的射击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENGAGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Engage</Data></Cell><Cell><Data ss:Type="String">准备交战</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">ENGAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Jump to target hex and gain [abilityblue]Cloaked[/abilityblue], granting the unit +{IncreasedEvasion}% evasion against attacks.</Data></Cell><Cell><Data ss:Type="String">跳向目标单元格并获得[abilityblue]隐踪[/abilityblue]，给予单位 +{IncreasedEvasion}% 攻击闪避。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTOMATIC_DISENGAGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Automatic Disengage</Data></Cell><Cell><Data ss:Type="String">自动脱战</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">AUTOMATIC_DISENGAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">When this unit's [hp/] drops below zero, it automatically jumps to a random position {HexRange} hexes away, heals for {HealAmount}[hp/] and gains  [abilityblue]Cloaked[/abilityblue], granting the unit +{IncreasedEvasion}% evasion against attacks. Can only happen once per battle.</Data></Cell><Cell><Data ss:Type="String">当该单位的 [hp/] 降至 0 以下时，该单位将自动跳向最多 {HexRange} 个单元格外的一个随机位置并治疗 {HealAmount}[hp/]，此外还将获得[abilityblue]隐踪[/abilityblue]，给予单位 +{IncreasedEvasion}% 攻击闪避。每场战斗只可触发一次。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CLOAKED</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Cloaked</Data></Cell><Cell><Data ss:Type="String">隐踪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CLOAKED</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unit has +{IncreasedEvasion}% evasion.</Data></Cell><Cell><Data ss:Type="String">单位拥有 +{IncreasedEvasion}% 闪避。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STALKER_CAMOUFLAGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Stalker's Camouflage</Data></Cell><Cell><Data ss:Type="String">追踪者伪装</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">STALKER_CAMOUFLAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be detected when standing on an Arid, Ruin or Volcanic hex.</Data></Cell><Cell><Data ss:Type="String">该单位在位于干旱、废墟和火山单元格时不会被侦察到。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Arid, Ruin and Volcanic are terrain types in the game.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CULL_ESSENCE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Cull Essence</Data></Cell><Cell><Data ss:Type="String">采集精华</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">CULL_ESSENCE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Psionic strike at a unit's Essence, attempting to drain and expunge it through the Culler's systems.</Data></Cell><Cell><Data ss:Type="String">利用灵能攻击单位的精华，尝试通过杀戮者系统汲取和抹除精华。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPUNGE_ESSENCE</Data></Cell><Cell><Data ss:Type="String">MOD_NAME</Data></Cell><Cell><Data ss:Type="String">Expunge Essence</Data></Cell><Cell><Data ss:Type="String">抹除精华</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPUNGE_ESSENCE</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">On kill, this unit heals for {HealAmount}[hp/]</Data></Cell><Cell><Data ss:Type="String">该单位完成击杀时可治疗 {HealAmount}[hp/]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SEVER_LINKS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Sever Links</Data></Cell><Cell><Data ss:Type="String">切断连接</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SEVER_LINKS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Target enemy unit loses all positive Status Effects and loses all of its links.</Data></Cell><Cell><Data ss:Type="String">目标敌方单位失去所有正面状态效果和连接。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CORPSE_DENIAL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Corpse Denial</Data></Cell><Cell><Data ss:Type="String">尸体管制</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">CORPSE_DENIAL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Target Biological, Cyborg or Mineral corpse explodes, dealing damage to enemy units in a {HexRange} hex radius.</Data></Cell><Cell><Data ss:Type="String">目标生物、半机械人和矿物单位的尸体将会爆炸，对 {HexRange} 个单元格范围内的敌方单位造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CULLER_CAMOUFLAGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Culler's Camouflage</Data></Cell><Cell><Data ss:Type="String">杀戮者伪装</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">CULLER_CAMOUFLAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be detected when standing on an Arcadian, Arctic or Forest hex.</Data></Cell><Cell><Data ss:Type="String">该单位在位于田园、极寒和森林单元格时不会被侦察到。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Arcadian, Arctic and Forest are terrain types in the game.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">REACTIVE_STAB</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Reactive Stab</Data></Cell><Cell><Data ss:Type="String">应激穿刺</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">REACTIVE_STAB</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Strike a target with a Biochemical blade. The chemicals in the blade react differently when striking the flank.</Data></Cell><Cell><Data ss:Type="String">使用生化刃攻击目标。发动包抄攻击时，刀刃中的化学物质将产生不同的反应。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CHEMICAL_DAGGER_THROW</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Chemical Blade Throw</Data></Cell><Cell><Data ss:Type="String">生化刃投掷</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CHEMICAL_DAGGER_THROW</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Throw a small poisoned blade at a target.</Data></Cell><Cell><Data ss:Type="String">向目标投掷一把剧毒的小型飞刃。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CARVE_AND_REND</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Carve and Rend</Data></Cell><Cell><Data ss:Type="String">割裂</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">CARVE_AND_REND</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Jump to target hex and strike all adjacent ground enemy units in a flurry.</Data></Cell><Cell><Data ss:Type="String">跳向目标单元格并快速攻击所有相邻的地面敌人单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LIQUIDATOR_CAMOUFLAGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Liquidator's Camouflage</Data></Cell><Cell><Data ss:Type="String">清算者伪装</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">LIQUIDATOR_CAMOUFLAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit cannot be detected when standing on a Fertile Plains, Fungal or Mountain hex.</Data></Cell><Cell><Data ss:Type="String">该单位在位于肥沃平原、真菌和山地单元格时不会被侦察到。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Plains, Fungal and Mountain are terrain types in the game.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text. You and Your might be examples of this.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Selected/><TopRowVisible>3</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>25</ActiveRow><ActiveCol>4</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Luis Ferreira</LastAuthor><LastSaved
+    >2019-06-05T10:56:15Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>5640</WindowHeight><WindowWidth>15345</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="242.25"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="189" /><Column
+        ss:StyleID="s62"
+        ss:Width="117.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="281.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s62" ss:Width="243" /><Column
+        ss:StyleID="s62"
+        ss:Width="120"
+      /><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
+            ss:Type="String"
+          >REAPERS_UNITPROPERTIES</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ESTEQ_HUNTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Es'Teq Hunter</Data></Cell><Cell><Data
+            ss:Type="String"
+          >埃斯特克猎手</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">ESTEQ_HUNTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is immune to [abilityred]Energy Drain[/abilityred] and has +{AccIncrease}% accuracy against targets with an [abilityblue]Essence Charge[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位免疫[abilityred]能量干涸[/abilityred]，并且在对目标使用[abilityblue]精华充能[/abilityblue]时 +{AccIncrease}% 准度。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Energy Drain is a negative Status Effect.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REAPER_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reaper Shot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >死神射击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >REAPER_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a hindering shot at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向目标发射阻碍射击。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">POINT_BLANK_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Point-Blank Shot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >近距平射</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >POINT_BLANK_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a high potency shot at close range.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >从近距离发射高威力的射击。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENGAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Engage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >准备交战</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">ENGAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Jump to target hex and gain [abilityblue]Cloaked[/abilityblue], granting the unit +{IncreasedEvasion}% evasion against attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >跳向目标单元格并获得[abilityblue]隐踪[/abilityblue]，给予单位 +{IncreasedEvasion}% 攻击闪避。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AUTOMATIC_DISENGAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Automatic Disengage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >自动脱战</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">AUTOMATIC_DISENGAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >When this unit's [hp/] drops below zero, it automatically jumps to a random position {HexRange} hexes away, heals for {HealAmount}[hp/] and gains  [abilityblue]Cloaked[/abilityblue], granting the unit +{IncreasedEvasion}% evasion against attacks. Can only happen once per battle.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >当该单位的 [hp/] 降至 0 以下时，该单位将自动跳向最多 {HexRange} 个单元格外的一个随机位置并治疗 {HealAmount}[hp/]，此外还将获得[abilityblue]隐踪[/abilityblue]，给予单位 +{IncreasedEvasion}% 攻击闪避。每场战斗只可触发一次。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CLOAKED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cloaked</Data></Cell><Cell><Data
+            ss:Type="String"
+          >隐踪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CLOAKED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit has +{IncreasedEvasion}% evasion.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >单位拥有 +{IncreasedEvasion}% 闪避。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">STALKER_CAMOUFLAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Stalker's Camouflage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >追踪者伪装</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">STALKER_CAMOUFLAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be detected when standing on an Arid, Ruin or Volcanic hex.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在位于干旱、废墟和火山单元格时不会被侦察到。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Arid, Ruin and Volcanic are terrain types in the game.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CULL_ESSENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cull Essence</Data></Cell><Cell><Data
+            ss:Type="String"
+          >采集精华</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CULL_ESSENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psionic strike at a unit's Essence, attempting to drain and expunge it through the Culler's systems.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >利用灵能攻击单位的精华，尝试通过杀戮者系统汲取和抹除精华。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXPUNGE_ESSENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Expunge Essence</Data></Cell><Cell><Data
+            ss:Type="String"
+          >抹除精华</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXPUNGE_ESSENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >On kill, this unit heals for {HealAmount}[hp/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位完成击杀时可治疗 {HealAmount}[hp/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SEVER_LINKS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sever Links</Data></Cell><Cell><Data
+            ss:Type="String"
+          >切断连接</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SEVER_LINKS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target enemy unit loses all positive Status Effects and loses all of its links.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标敌方单位失去所有正面状态效果和连接。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CORPSE_DENIAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Corpse Denial</Data></Cell><Cell><Data
+            ss:Type="String"
+          >尸体管制</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">CORPSE_DENIAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target Biological, Cyborg or Mineral corpse explodes, dealing damage to enemy units in a {HexRange} hex radius.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标生物、半机械人和矿物单位的尸体将会爆炸，对 {HexRange} 个单元格范围内的敌方单位造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CULLER_CAMOUFLAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Culler's Camouflage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >杀戮者伪装</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CULLER_CAMOUFLAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be detected when standing on an Arcadian, Arctic or Forest hex.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在位于田园、极寒和森林单元格时不会被侦察到。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Arcadian, Arctic and Forest are terrain types in the game.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REACTIVE_STAB</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reactive Stab</Data></Cell><Cell><Data
+            ss:Type="String"
+          >应激穿刺</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">REACTIVE_STAB</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Strike a target with a Biochemical blade. The chemicals in the blade react differently when striking the flank.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用生化刃攻击目标。发动包抄攻击时，刀刃中的化学物质将产生不同的反应。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CHEMICAL_DAGGER_THROW</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Chemical Blade Throw</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化刃投掷</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CHEMICAL_DAGGER_THROW</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Throw a small poisoned blade at a target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向目标投掷一把剧毒的小型飞刃。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CARVE_AND_REND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Carve and Rend</Data></Cell><Cell><Data
+            ss:Type="String"
+          >割裂</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CARVE_AND_REND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Jump to target hex and strike all adjacent ground enemy units in a flurry.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >跳向目标单元格并快速攻击所有相邻的地面敌人单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LIQUIDATOR_CAMOUFLAGE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Liquidator's Camouflage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >清算者伪装</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">LIQUIDATOR_CAMOUFLAGE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit cannot be detected when standing on a Fertile Plains, Fungal or Mountain hex.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在位于肥沃平原、真菌和山地单元格时不会被侦察到。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Plains, Fungal and Mountain are terrain types in the game.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text. You and Your might be examples of this.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><TopRowVisible
+      >3</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >25</ActiveRow><ActiveCol>4</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

@@ -1,1 +1,1047 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:56:12Z</Created><LastSaved>2019-06-25T15:56:12Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style><Style ss:ID="s63"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Interior/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15"><Column ss:StyleID="s62" ss:Width="143.25"/><Column ss:StyleID="s62" ss:Width="120"/><Column ss:StyleID="s62" ss:Width="309.75"/><Column ss:StyleID="s62" ss:Width="147.75"/><Column ss:StyleID="s62" ss:Width="297"/><Column ss:StyleID="s62" ss:Width="120"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="300"/><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">UNIT_UPGRADES_BIO</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GUNK_SHOT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Gunk Shot</Data></Cell><Cell><Data ss:Type="String">灰尘射击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GUNK_SHOT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Medium-range Biochemical attack</Data></Cell><Cell><Data ss:Type="String">中距离生化攻击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BATTLE_VOMIT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Battle Vomit</Data></Cell><Cell><Data ss:Type="String">战斗呕吐</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BATTLE_VOMIT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Short-range Biochemical area of effect attack.</Data></Cell><Cell><Data ss:Type="String">近距离生化范围攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GUNK_SPIT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Gunk Spit</Data></Cell><Cell><Data ss:Type="String">灰尘喷吐</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GUNK_SPIT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Medium-range Biochemical attack.</Data></Cell><Cell><Data ss:Type="String">中距离生化攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIOCHEMICAL_DISCHARGE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Biochemical Discharge</Data></Cell><Cell><Data ss:Type="String">生化释放</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">BIOCHEMICAL_DISCHARGE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Discharges a torrent of biochemicals at short range, dealing high damage.</Data></Cell><Cell><Data ss:Type="String">近距离释放一道生化洪流，造成高额伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIOCHEMICAL_BARRAGE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Biochemical Barrage</Data></Cell><Cell><Data ss:Type="String">生化弹幕</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIOCHEMICAL_BARRAGE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a repeating barrage of Biochemicals at the target.</Data></Cell><Cell><Data ss:Type="String">向目标发射重复的生化弹幕攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CAUSTIC_SMOKE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Caustic Smoke</Data></Cell><Cell><Data ss:Type="String">腐蚀烟雾</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">CAUSTIC_SMOKE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Cover a {hexradius} hex radius area with an acid cloud that melts armor and deals damage.</Data></Cell><Cell><Data ss:Type="String">将 {hexradius} 个单元格范围区域笼罩在酸雾之中，能够融化单位的护甲并造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ACIDIC_INFUSION</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Acidic Composite</Data></Cell><Cell><Data ss:Type="String">酸性合成物</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="49.5"><Cell><Data ss:Type="String">ACIDIC_INFUSION</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Attacks from Biochemical weapons are infused with acid, giving [abilityred]Melt Armor[/abilityred], removing {armorMelt}[armor/] with each hit.</Data></Cell><Cell><Data ss:Type="String">将生化武器灌入酸液，能够造成[abilityred]熔甲[/abilityred]，每次命中移除 {armorMelt}[armor/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ION_CONDUCTIVE_INFUSION</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Infusion: Ionic</Data></Cell><Cell><Data ss:Type="String">灌注：离子</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">ION_CONDUCTIVE_INFUSION</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Attacks from Biochemical Weapons now deal Arc damage and have a 12[strengthWave/] strength chance (8[strengthwave/] for repeating attacks) to apply [abilityred]Electrified[/abilityred] to non-Ethereal units for 3[turn/].[br/][br/]Only one Infusion can be active at a time.</Data></Cell><Cell><Data ss:Type="String">生化武器的攻击现在将造成电弧伤害，并拥有 12[strengthWave/] 力量几率（重复攻击有 8[strengthwave/] 几率）向非虚灵单位施加[abilityred]触电[/abilityred]，持续 3[turn/]。[br/][br/]一次只能激活一种灌注。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CEREBRAL_STRAIN</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Cerebral Strain</Data></Cell><Cell><Data ss:Type="String">脑部压力</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">CEREBRAL_STRAIN</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Biochemical attacks deal +{extradamage} damage against non-Mindless units and have a {CatatonicChance}[StrengthPsyche/] strength chance ({CatatonicChanceRepeating}[StrengthPsyche/] on repeating attacks) to apply [abilityred]Catatonic[/abilityred] to non-Mindless Psionic units for {CatatonicTurn}[turn/].</Data></Cell><Cell><Data ss:Type="String">生化攻击对非无意识单位造成 +{extradamage} 伤害，并有 {CatatonicChance}[StrengthPsyche/] 力量几率（重复攻击有 {CatatonicChanceRepeating}[StrengthPsyche/] 几率）对非无意识的灵能单位施加[abilityred]紧张[/abilityred]，持续 {CatatonicTurn}[turn/]。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">CEREBRAL_STRAIN</Data></Cell><Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{CerebralDamage} extra damage against non-Mindless units and {CerebralChance}[strengthpsyche/] to apply [abilityred]Catatonic[/abilityred] to non-Mindless Psionic units for {CerebralTurn}[turn/].</Data></Cell><Cell><Data ss:Type="String">对非无意识单位额外造成 {CerebralDamage} 伤害，并有 {CerebralChance}[strengthpsyche/]力量几率对非无意识的灵能单位施加[abilityred]紧张[/abilityred]，持续{CerebralTurn}[turn/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VISCOUS_COMPOSITE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Viscous Strain</Data></Cell><Cell><Data ss:Type="String">粘稠毒株</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">VISCOUS_COMPOSITE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Biochemical attacks have a {SlowChanceSingle}[strengthBio/] strength chance ({SlowChanceRepeating}[StrengthBio/] on repeating attacks) to apply [abilityred]Slow[/abilityred] to non-Ethereal units for {ViscousTurn}[turn/].[br/][br/]If a unit is already [abilityred]Slowed[/abilityred], that unit has a {ImmobilizeChanceSingle}[StrengthBio/] strength chance ({ImmobilizeChanceRepeating}[StrengthBio/] on repeating attacks) to become [abilityred]Immobilize[/abilityred] for {ImmobilizeDuration}[turn/].</Data></Cell><Cell><Data ss:Type="String">生化攻击有 {SlowChanceSingle}[strengthBio/] 力量几率（重复攻击有 {SlowChanceRepeating}[StrengthBio/] 几率）对非虚灵目标施加[abilityred]减速[/abilityred]，持续 {ViscousTurn}[turn/]。[br/][br/]如果一个单位已经被[abilityred]减速[/abilityred]，则该单位有 {ImmobilizeChanceSingle}[StrengthBio/] 力量几率（重复攻击有 {ImmobilizeChanceRepeating}[StrengthBio/] 几率）[abilityred]无法移动[/abilityred]，持续 {ImmobilizeDuration}[turn/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLIGHT_BRINGER</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Blight Bringer</Data></Cell><Cell><Data ss:Type="String">枯萎使者</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">BLIGHT_BRINGER</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unit gains +{IncreasedResistanceBio}[damageBio/] resistance and Immunity to [abilityblue]Biochemical Status Effects and Hazards[/abilityblue].[br/]At the end of this unit's turn, any Biological or Cyborg enemy unit within {BlightRadiusHex} hexes of this unit has a {BlightBringerChance} strength chance to be affected by [abilityred]Blighted Plague[/abilityred] for {BlightTurns}.</Data></Cell><Cell><Data ss:Type="String">单位获得 +{IncreasedResistanceBio}[damageBio/]抵抗并对[abilityblue]生化状态效果和灾害[/abilityblue]免疫。[br/]在该单位的回合结束时，{BlightRadiusHex} 个单元格内的所有敌方生物或半机械人单位有 {BlightBringerChance} 力量几率感染[abilityred]枯萎瘟疫[/abilityred]，持续 {BlightTurns}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Blight Infection</Data></Cell><Cell><Data ss:Type="String">枯萎感染</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{BlightParasitesChance}[strengthbio/] strength chance to apply [abilityred]Blight Infection[/abilityred] to Biological or Cyborg units until the end of combat.</Data></Cell><Cell><Data ss:Type="String">有 {BlightParasitesChance}[strengthbio/] 力量几率对生物和半机械人单位施加[abilityred]枯萎感染[/abilityred]，效果持续到战斗结束。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Biochemical attacks have a {BlightWormChance}[strengthbio/] strength chance ({BlightWormChanceRepeating}[strengthbio/] for repeating attacks) to apply [abilityred]Blight Infection[/abilityred] until end of combat. A unit infected will explode in a {HexRadius} hex radius when it dies, dealing {BiochemicalDamage}[damagebio/] to all units in the explosion.</Data></Cell><Cell><Data ss:Type="String">生化攻击有 {BlightWormChance}[strengthbio/] 力量几率（重复攻击有 {BlightWormChanceRepeating}[strengthbio/] 几率）施加[abilityred]枯萎感染[/abilityred]，持续至战斗结束。受到感染的单位阵亡时将在 {HexRadius} 个单元格范围内发生爆炸，对所有受爆炸影响的单位造成 {BiochemicalDamage}[damagebio/] 伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data ss:Type="String">DEBUFF_NAME</Data></Cell><Cell><Data ss:Type="String">Blight Infection</Data></Cell><Cell><Data ss:Type="String">枯萎感染</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data ss:Type="String">DEBUFF_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is infected by a Blight infection until end of combat. If the unit dies, it will explode in a {HexRadius} hex radius, dealing {BiochemicalDamage} to all units caught in the explosion.</Data></Cell><Cell><Data ss:Type="String">该单位受到枯萎感染影响，效果持续至战斗结束。该单位死亡时将在 {HexRadius} 个单元格范围内发生爆炸，对所有受爆炸影响的单位造成 {BiochemicalDamage} 伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">THRAX_RIFLE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Thrax Rifle</Data></Cell><Cell><Data ss:Type="String">特拉科斯步枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">THRAX_RIFLE</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A medium-range Biochemical attack.</Data></Cell><Cell><Data ss:Type="String">一种中距离生化攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">THRAX_BLASTER</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Thrax Pistol</Data></Cell><Cell><Data ss:Type="String">特拉科斯手枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">THRAX_BLASTER</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A low damage, short-range Biochemical attack.</Data></Cell><Cell><Data ss:Type="String">一种伤害较低的近距离生化攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GUNK_THROWER</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Gunk Thrower</Data></Cell><Cell><Data ss:Type="String">灰尘投掷器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GUNK_THROWER</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Shoot a glob of Biochemical matter at medium range.</Data></Cell><Cell><Data ss:Type="String">向中距离发射一团生化物质。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CORROSIVE_BILE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Corrosive Bile</Data></Cell><Cell><Data ss:Type="String">腐蚀胆汁</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CORROSIVE_BILE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Spit armor melting Biochemicals at the target.</Data></Cell><Cell><Data ss:Type="String">向目标喷吐能够融化盔甲的生化物质。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">WAX_CEMENT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Wax Cement</Data></Cell><Cell><Data ss:Type="String">蜡胶粘剂</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">WAX_CEMENT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Vomit a quick-hardening bile on the target.</Data></Cell><Cell><Data ss:Type="String">向目标喷吐快速硬化的胆汁。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TOXIN_SPIT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Toxin Spit</Data></Cell><Cell><Data ss:Type="String">剧毒喷吐</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TOXIN_SPIT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Spit a highly poisonous blob of toxic vomit at the target.</Data></Cell><Cell><Data ss:Type="String">向目标喷吐一团毒性剧烈的呕吐物。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CEMENTING_SPRAY</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Cementing Spray</Data></Cell><Cell><Data ss:Type="String">胶合喷射</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CEMENTING_SPRAY</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Vomit a hardening Biochemical mix on the target.</Data></Cell><Cell><Data ss:Type="String">向目标喷吐一团硬化生化混合物。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIO_ARROW</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Bio Arrows</Data></Cell><Cell><Data ss:Type="String">生化箭矢</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIO_ARROW</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire arrows with Biochemical tips at the target.</Data></Cell><Cell><Data ss:Type="String">向目标发射箭头沾有生化物质的箭矢。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIO_BLASTER</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Fire Bio Blaster</Data></Cell><Cell><Data ss:Type="String">发射生化爆能枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIO_BLASTER</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a Biochemical round at the target.</Data></Cell><Cell><Data ss:Type="String">向目标发射生化子弹。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIO_SHELL</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Bio Shell Bombardment</Data></Cell><Cell><Data ss:Type="String">生化子弹轰击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIO_SHELL</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Launch a series of Biochemical shells at the target.</Data></Cell><Cell><Data ss:Type="String">向目标发射一连串生化子弹。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIO_CANNON</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Bio Cannon</Data></Cell><Cell><Data ss:Type="String">生化加农炮</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">BIO_CANNON</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a mounted cannon filled with Biochemical mass at the target.</Data></Cell><Cell><Data ss:Type="String">使用装满生化物质的搭载加农炮攻击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIO_BLASTER</Data></Cell><Cell><Data ss:Type="String">EQUIPMENT_NAME</Data></Cell><Cell><Data ss:Type="String">Bio Blaster</Data></Cell><Cell><Data ss:Type="String">生化爆能枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HUNTING_BOW</Data></Cell><Cell><Data ss:Type="String">EQUIPMENT_NAME</Data></Cell><Cell><Data ss:Type="String">Hunting Bow</Data></Cell><Cell><Data ss:Type="String">狩猎弓</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">POISON_ARROWS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Poison Arrows</Data></Cell><Cell><Data ss:Type="String">毒箭</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">POISON_ARROWS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire arrows with Poisoned tips at the target.</Data></Cell><Cell><Data ss:Type="String">向目标发射箭头沾有有毒物质的箭矢。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIO_VAPOR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Biochemical Vaporizer</Data></Cell><Cell><Data ss:Type="String">生化雾化器</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">BIO_VAPOR</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a slew of vaporized chemicals, damaging any material it makes contact with.</Data></Cell><Cell><Data ss:Type="String">发射大量雾化生化物质，对所有接触到的物质造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GLAND_SECRETION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Gland Secretion</Data></Cell><Cell><Data ss:Type="String">腺体分泌物</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">GLAND_SECRETION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Launch a glob of Biochemical secretions at the target, dealing half damage to units adjacent to the target.</Data></Cell><Cell><Data ss:Type="String">向目标发射一团生化分泌物，对与目标相邻的单位造成一半伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INK_EJECTOR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Bio Ink Launcher</Data></Cell><Cell><Data ss:Type="String">生化墨汁发射器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INK_EJECTOR</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire blinding Biochemical ink at the target.</Data></Cell><Cell><Data ss:Type="String">向目标发射能够致盲的生化墨汁。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIO_INK</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Ink Glob</Data></Cell><Cell><Data ss:Type="String">墨汁团</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIO_INK</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Shoot a glob of ink that causes Biochemical damage.</Data></Cell><Cell><Data ss:Type="String">发射一团能够造成生化伤害的墨汁。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VISCOUS_BIO_INK</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Viscous Ink Glob</Data></Cell><Cell><Data ss:Type="String">黏稠墨汁团</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIO_GRENADE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Bio Grenade</Data></Cell><Cell><Data ss:Type="String">生化手雷</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIO_GRENADE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Throw a grenade with a Biochemical payload that deals damage in a {hexrad} hex radius.</Data></Cell><Cell><Data ss:Type="String">投掷一个装有生化爆炸物的手雷，对 {hexrad} 个单元格范围单位造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INK_CLOUD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Ink Cloud</Data></Cell><Cell><Data ss:Type="String">墨云</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">INK_CLOUD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Eject a cloud of ink around this unit that damages adjacent units.</Data></Cell><Cell><Data ss:Type="String">向该单位周围喷射出墨云，对相邻单位造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VISCOUS_INK_CLOUD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Viscous Ink Cloud</Data></Cell><Cell><Data ss:Type="String">黏稠墨云</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIO_TURRET</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Bio Turret</Data></Cell><Cell><Data ss:Type="String">生化炮台</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIO_TURRET</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a repeating Biochemical attack at a single target.</Data></Cell><Cell><Data ss:Type="String">对单一目标发动重复的生化攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VISCOUS_COMPOSITE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Oozy</Data></Cell><Cell><Data ss:Type="String">潮湿</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VISCOUS_COMPOSITE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Gooey</Data></Cell><Cell><Data ss:Type="String">黏糊</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VISCOUS_COMPOSITE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Slimy</Data></Cell><Cell><Data ss:Type="String">黏滑</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VISCOUS_COMPOSITE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Adhesive</Data></Cell><Cell><Data ss:Type="String">黏合</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VISCOUS_COMPOSITE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Sticky</Data></Cell><Cell><Data ss:Type="String">黏性</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VISCOUS_COMPOSITE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Glutinous</Data></Cell><Cell><Data ss:Type="String">黏质</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IONIC_INFUSION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Ionian</Data></Cell><Cell><Data ss:Type="String">离子</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IONIC_INFUSION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Electrolite</Data></Cell><Cell><Data ss:Type="String">电解</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IONIC_INFUSION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Conductor</Data></Cell><Cell><Data ss:Type="String">导体</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IONIC_INFUSION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Electrochemical</Data></Cell><Cell><Data ss:Type="String">电化物质</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IONIC_INFUSION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Compound</Data></Cell><Cell><Data ss:Type="String">聚合物</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IONIC_INFUSION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Ionized</Data></Cell><Cell><Data ss:Type="String">离子化</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ACIDIC_STRAIN</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Armor Melter</Data></Cell><Cell><Data ss:Type="String">熔甲者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ACIDIC_STRAIN</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Etching</Data></Cell><Cell><Data ss:Type="String">蚀刻</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ACIDIC_STRAIN</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Dissolver</Data></Cell><Cell><Data ss:Type="String">溶解剂</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ACIDIC_STRAIN</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Hydrofluoric</Data></Cell><Cell><Data ss:Type="String">氢氟酸</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ACIDIC_STRAIN</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Steel Biter</Data></Cell><Cell><Data ss:Type="String">钢铁啮咬者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ACIDIC_STRAIN</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Acid Spewer</Data></Cell><Cell><Data ss:Type="String">酸液喷吐者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CEREBRAL_STRAIN</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Mind Acid</Data></Cell><Cell><Data ss:Type="String">思想酸蚀</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CEREBRAL_STRAIN</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Brain Melter</Data></Cell><Cell><Data ss:Type="String">头脑融化者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CEREBRAL_STRAIN</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Neurotoxic</Data></Cell><Cell><Data ss:Type="String">神经毒素</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CEREBRAL_STRAIN</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Spirit Breaker</Data></Cell><Cell><Data ss:Type="String">灵魂碎裂者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CEREBRAL_STRAIN</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Anti-Psionic</Data></Cell><Cell><Data ss:Type="String">反灵能</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CEREBRAL_STRAIN</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Skull Rotter</Data></Cell><Cell><Data ss:Type="String">骸骨腐蚀者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CEREBRAL_STRAIN</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell><Cell><Data ss:Type="String">Neurodegenerative</Data></Cell><Cell><Data ss:Type="String">神经退化</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Plague Spreader</Data></Cell><Cell><Data ss:Type="String">瘟疫散播者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Infector</Data></Cell><Cell><Data ss:Type="String">感染者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Bubonic</Data></Cell><Cell><Data ss:Type="String">黑死病</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Moldfingers</Data></Cell><Cell><Data ss:Type="String">霉指</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Septicemic</Data></Cell><Cell><Data ss:Type="String">败血病</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Pneumonic</Data></Cell><Cell><Data ss:Type="String">肺炎</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell><Cell><Data ss:Type="String">Deteriorating</Data></Cell><Cell><Data ss:Type="String">恶化</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLIGHT_BRINGER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Plague Bringer</Data></Cell><Cell><Data ss:Type="String">瘟疫使者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLIGHT_BRINGER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Deity of Decay</Data></Cell><Cell><Data ss:Type="String">腐化之神</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLIGHT_BRINGER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Rotten Vortex</Data></Cell><Cell><Data ss:Type="String">腐烂漩涡</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLIGHT_BRINGER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Blighthaze</Data></Cell><Cell><Data ss:Type="String">枯萎阴霾</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLIGHT_BRINGER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Grave Rotter</Data></Cell><Cell><Data ss:Type="String">坟墓腐蚀者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLIGHT_BRINGER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Plague Shroud</Data></Cell><Cell><Data ss:Type="String">瘟疫裹尸布</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BLIGHT_BRINGER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell><Cell><Data ss:Type="String">Creeping Death</Data></Cell><Cell><Data ss:Type="String">死亡蔓延</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Selected/><TopRowVisible>6</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>19</ActiveRow><ActiveCol>2</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:56:12Z</Created><LastSaved
+    >2019-06-25T15:56:12Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Interior
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="143.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="120"
+      /><Column ss:StyleID="s62" ss:Width="309.75" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s62" ss:Width="297" /><Column
+        ss:StyleID="s62"
+        ss:Width="120"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="300" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">UNIT_UPGRADES_BIO</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GUNK_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gunk Shot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灰尘射击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GUNK_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Medium-range Biochemical attack</Data></Cell><Cell><Data
+            ss:Type="String"
+          >中距离生化攻击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">BATTLE_VOMIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Battle Vomit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >战斗呕吐</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BATTLE_VOMIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Short-range Biochemical area of effect attack.</Data></Cell><Cell
+        ><Data ss:Type="String">近距离生化范围攻击。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GUNK_SPIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gunk Spit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灰尘喷吐</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GUNK_SPIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Medium-range Biochemical attack.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >中距离生化攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">BIOCHEMICAL_DISCHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Biochemical Discharge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化释放</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">BIOCHEMICAL_DISCHARGE</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Discharges a torrent of biochemicals at short range, dealing high damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >近距离释放一道生化洪流，造成高额伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIOCHEMICAL_BARRAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Biochemical Barrage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化弹幕</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BIOCHEMICAL_BARRAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a repeating barrage of Biochemicals at the target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标发射重复的生化弹幕攻击。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CAUSTIC_SMOKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Caustic Smoke</Data></Cell><Cell><Data
+            ss:Type="String"
+          >腐蚀烟雾</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CAUSTIC_SMOKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cover a {hexradius} hex radius area with an acid cloud that melts armor and deals damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将 {hexradius} 个单元格范围区域笼罩在酸雾之中，能够融化单位的护甲并造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACIDIC_INFUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Acidic Composite</Data></Cell><Cell><Data
+            ss:Type="String"
+          >酸性合成物</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="49.5"
+      ><Cell><Data ss:Type="String">ACIDIC_INFUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Attacks from Biochemical weapons are infused with acid, giving [abilityred]Melt Armor[/abilityred], removing {armorMelt}[armor/] with each hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将生化武器灌入酸液，能够造成[abilityred]熔甲[/abilityred]，每次命中移除 {armorMelt}[armor/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ION_CONDUCTIVE_INFUSION</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Infusion: Ionic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灌注：离子</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">ION_CONDUCTIVE_INFUSION</Data></Cell><Cell
+        ><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Attacks from Biochemical Weapons now deal Arc damage and have a 12[strengthWave/] strength chance (8[strengthwave/] for repeating attacks) to apply [abilityred]Electrified[/abilityred] to non-Ethereal units for 3[turn/].[br/][br/]Only one Infusion can be active at a time.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >生化武器的攻击现在将造成电弧伤害，并拥有 12[strengthWave/] 力量几率（重复攻击有 8[strengthwave/] 几率）向非虚灵单位施加[abilityred]触电[/abilityred]，持续 3[turn/]。[br/][br/]一次只能激活一种灌注。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CEREBRAL_STRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cerebral Strain</Data></Cell><Cell><Data
+            ss:Type="String"
+          >脑部压力</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">CEREBRAL_STRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Biochemical attacks deal +{extradamage} damage against non-Mindless units and have a {CatatonicChance}[StrengthPsyche/] strength chance ({CatatonicChanceRepeating}[StrengthPsyche/] on repeating attacks) to apply [abilityred]Catatonic[/abilityred] to non-Mindless Psionic units for {CatatonicTurn}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >生化攻击对非无意识单位造成 +{extradamage} 伤害，并有 {CatatonicChance}[StrengthPsyche/] 力量几率（重复攻击有 {CatatonicChanceRepeating}[StrengthPsyche/] 几率）对非无意识的灵能单位施加[abilityred]紧张[/abilityred]，持续 {CatatonicTurn}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">CEREBRAL_STRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{CerebralDamage} extra damage against non-Mindless units and {CerebralChance}[strengthpsyche/] to apply [abilityred]Catatonic[/abilityred] to non-Mindless Psionic units for {CerebralTurn}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >对非无意识单位额外造成 {CerebralDamage} 伤害，并有 {CerebralChance}[strengthpsyche/]力量几率对非无意识的灵能单位施加[abilityred]紧张[/abilityred]，持续{CerebralTurn}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VISCOUS_COMPOSITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Viscous Strain</Data></Cell><Cell><Data
+            ss:Type="String"
+          >粘稠毒株</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">VISCOUS_COMPOSITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Biochemical attacks have a {SlowChanceSingle}[strengthBio/] strength chance ({SlowChanceRepeating}[StrengthBio/] on repeating attacks) to apply [abilityred]Slow[/abilityred] to non-Ethereal units for {ViscousTurn}[turn/].[br/][br/]If a unit is already [abilityred]Slowed[/abilityred], that unit has a {ImmobilizeChanceSingle}[StrengthBio/] strength chance ({ImmobilizeChanceRepeating}[StrengthBio/] on repeating attacks) to become [abilityred]Immobilize[/abilityred] for {ImmobilizeDuration}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >生化攻击有 {SlowChanceSingle}[strengthBio/] 力量几率（重复攻击有 {SlowChanceRepeating}[StrengthBio/] 几率）对非虚灵目标施加[abilityred]减速[/abilityred]，持续 {ViscousTurn}[turn/]。[br/][br/]如果一个单位已经被[abilityred]减速[/abilityred]，则该单位有 {ImmobilizeChanceSingle}[StrengthBio/] 力量几率（重复攻击有 {ImmobilizeChanceRepeating}[StrengthBio/] 几率）[abilityred]无法移动[/abilityred]，持续 {ImmobilizeDuration}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BLIGHT_BRINGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blight Bringer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >枯萎使者</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">BLIGHT_BRINGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit gains +{IncreasedResistanceBio}[damageBio/] resistance and Immunity to [abilityblue]Biochemical Status Effects and Hazards[/abilityblue].[br/]At the end of this unit's turn, any Biological or Cyborg enemy unit within {BlightRadiusHex} hexes of this unit has a {BlightBringerChance} strength chance to be affected by [abilityred]Blighted Plague[/abilityred] for {BlightTurns}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位获得 +{IncreasedResistanceBio}[damageBio/]抵抗并对[abilityblue]生化状态效果和灾害[/abilityblue]免疫。[br/]在该单位的回合结束时，{BlightRadiusHex} 个单元格内的所有敌方生物或半机械人单位有 {BlightBringerChance} 力量几率感染[abilityred]枯萎瘟疫[/abilityred]，持续 {BlightTurns}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blight Infection</Data></Cell><Cell><Data
+            ss:Type="String"
+          >枯萎感染</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{BlightParasitesChance}[strengthbio/] strength chance to apply [abilityred]Blight Infection[/abilityred] to Biological or Cyborg units until the end of combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {BlightParasitesChance}[strengthbio/] 力量几率对生物和半机械人单位施加[abilityred]枯萎感染[/abilityred]，效果持续到战斗结束。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Biochemical attacks have a {BlightWormChance}[strengthbio/] strength chance ({BlightWormChanceRepeating}[strengthbio/] for repeating attacks) to apply [abilityred]Blight Infection[/abilityred] until end of combat. A unit infected will explode in a {HexRadius} hex radius when it dies, dealing {BiochemicalDamage}[damagebio/] to all units in the explosion.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >生化攻击有 {BlightWormChance}[strengthbio/] 力量几率（重复攻击有 {BlightWormChanceRepeating}[strengthbio/] 几率）施加[abilityred]枯萎感染[/abilityred]，持续至战斗结束。受到感染的单位阵亡时将在 {HexRadius} 个单元格范围内发生爆炸，对所有受爆炸影响的单位造成 {BiochemicalDamage}[damagebio/] 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEBUFF_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blight Infection</Data></Cell><Cell><Data
+            ss:Type="String"
+          >枯萎感染</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEBUFF_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is infected by a Blight infection until end of combat. If the unit dies, it will explode in a {HexRadius} hex radius, dealing {BiochemicalDamage} to all units caught in the explosion.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位受到枯萎感染影响，效果持续至战斗结束。该单位死亡时将在 {HexRadius} 个单元格范围内发生爆炸，对所有受爆炸影响的单位造成 {BiochemicalDamage} 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">THRAX_RIFLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thrax Rifle</Data></Cell><Cell><Data
+            ss:Type="String"
+          >特拉科斯步枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >THRAX_RIFLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A medium-range Biochemical attack.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >一种中距离生化攻击。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">THRAX_BLASTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thrax Pistol</Data></Cell><Cell><Data
+            ss:Type="String"
+          >特拉科斯手枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >THRAX_BLASTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A low damage, short-range Biochemical attack.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一种伤害较低的近距离生化攻击。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GUNK_THROWER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gunk Thrower</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灰尘投掷器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GUNK_THROWER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shoot a glob of Biochemical matter at medium range.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向中距离发射一团生化物质。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CORROSIVE_BILE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Corrosive Bile</Data></Cell><Cell><Data
+            ss:Type="String"
+          >腐蚀胆汁</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CORROSIVE_BILE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spit armor melting Biochemicals at the target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标喷吐能够融化盔甲的生化物质。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">WAX_CEMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Wax Cement</Data></Cell><Cell><Data
+            ss:Type="String"
+          >蜡胶粘剂</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >WAX_CEMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vomit a quick-hardening bile on the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向目标喷吐快速硬化的胆汁。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TOXIN_SPIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Toxin Spit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >剧毒喷吐</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >TOXIN_SPIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spit a highly poisonous blob of toxic vomit at the target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标喷吐一团毒性剧烈的呕吐物。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CEMENTING_SPRAY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cementing Spray</Data></Cell><Cell><Data
+            ss:Type="String"
+          >胶合喷射</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CEMENTING_SPRAY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vomit a hardening Biochemical mix on the target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标喷吐一团硬化生化混合物。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIO_ARROW</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bio Arrows</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化箭矢</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BIO_ARROW</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire arrows with Biochemical tips at the target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标发射箭头沾有生化物质的箭矢。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIO_BLASTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire Bio Blaster</Data></Cell><Cell><Data
+            ss:Type="String"
+          >发射生化爆能枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">BIO_BLASTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a Biochemical round at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向目标发射生化子弹。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIO_SHELL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bio Shell Bombardment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化子弹轰击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BIO_SHELL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch a series of Biochemical shells at the target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标发射一连串生化子弹。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIO_CANNON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bio Cannon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化加农炮</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">BIO_CANNON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a mounted cannon filled with Biochemical mass at the target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用装满生化物质的搭载加农炮攻击目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIO_BLASTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EQUIPMENT_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bio Blaster</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化爆能枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HUNTING_BOW</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EQUIPMENT_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hunting Bow</Data></Cell><Cell><Data
+            ss:Type="String"
+          >狩猎弓</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >POISON_ARROWS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Poison Arrows</Data></Cell><Cell><Data
+            ss:Type="String"
+          >毒箭</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >POISON_ARROWS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire arrows with Poisoned tips at the target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标发射箭头沾有有毒物质的箭矢。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIO_VAPOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Biochemical Vaporizer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化雾化器</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">BIO_VAPOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a slew of vaporized chemicals, damaging any material it makes contact with.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发射大量雾化生化物质，对所有接触到的物质造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GLAND_SECRETION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gland Secretion</Data></Cell><Cell><Data
+            ss:Type="String"
+          >腺体分泌物</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">GLAND_SECRETION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch a glob of Biochemical secretions at the target, dealing half damage to units adjacent to the target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标发射一团生化分泌物，对与目标相邻的单位造成一半伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INK_EJECTOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bio Ink Launcher</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化墨汁发射器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">INK_EJECTOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire blinding Biochemical ink at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向目标发射能够致盲的生化墨汁。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIO_INK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ink Glob</Data></Cell><Cell><Data
+            ss:Type="String"
+          >墨汁团</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BIO_INK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shoot a glob of ink that causes Biochemical damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发射一团能够造成生化伤害的墨汁。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VISCOUS_BIO_INK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Viscous Ink Glob</Data></Cell><Cell><Data
+            ss:Type="String"
+          >黏稠墨汁团</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BIO_GRENADE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bio Grenade</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化手雷</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BIO_GRENADE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Throw a grenade with a Biochemical payload that deals damage in a {hexrad} hex radius.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >投掷一个装有生化爆炸物的手雷，对 {hexrad} 个单元格范围单位造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INK_CLOUD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ink Cloud</Data></Cell><Cell><Data
+            ss:Type="String"
+          >墨云</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">INK_CLOUD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Eject a cloud of ink around this unit that damages adjacent units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向该单位周围喷射出墨云，对相邻单位造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VISCOUS_INK_CLOUD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Viscous Ink Cloud</Data></Cell><Cell><Data
+            ss:Type="String"
+          >黏稠墨云</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BIO_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bio Turret</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化炮台</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BIO_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a repeating Biochemical attack at a single target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >对单一目标发动重复的生化攻击。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VISCOUS_COMPOSITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Oozy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >潮湿</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VISCOUS_COMPOSITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gooey</Data></Cell><Cell><Data
+            ss:Type="String"
+          >黏糊</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VISCOUS_COMPOSITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Slimy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >黏滑</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VISCOUS_COMPOSITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Adhesive</Data></Cell><Cell><Data
+            ss:Type="String"
+          >黏合</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VISCOUS_COMPOSITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sticky</Data></Cell><Cell><Data
+            ss:Type="String"
+          >黏性</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VISCOUS_COMPOSITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Glutinous</Data></Cell><Cell><Data
+            ss:Type="String"
+          >黏质</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IONIC_INFUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ionian</Data></Cell><Cell><Data
+            ss:Type="String"
+          >离子</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IONIC_INFUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Electrolite</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电解</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IONIC_INFUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Conductor</Data></Cell><Cell><Data
+            ss:Type="String"
+          >导体</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IONIC_INFUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Electrochemical</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电化物质</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >IONIC_INFUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Compound</Data></Cell><Cell><Data
+            ss:Type="String"
+          >聚合物</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IONIC_INFUSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ionized</Data></Cell><Cell><Data
+            ss:Type="String"
+          >离子化</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACIDIC_STRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Armor Melter</Data></Cell><Cell><Data
+            ss:Type="String"
+          >熔甲者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACIDIC_STRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Etching</Data></Cell><Cell><Data
+            ss:Type="String"
+          >蚀刻</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACIDIC_STRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dissolver</Data></Cell><Cell><Data
+            ss:Type="String"
+          >溶解剂</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACIDIC_STRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hydrofluoric</Data></Cell><Cell><Data
+            ss:Type="String"
+          >氢氟酸</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACIDIC_STRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Steel Biter</Data></Cell><Cell><Data
+            ss:Type="String"
+          >钢铁啮咬者</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ACIDIC_STRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Acid Spewer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >酸液喷吐者</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CEREBRAL_STRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mind Acid</Data></Cell><Cell><Data
+            ss:Type="String"
+          >思想酸蚀</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CEREBRAL_STRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Brain Melter</Data></Cell><Cell><Data
+            ss:Type="String"
+          >头脑融化者</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CEREBRAL_STRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Neurotoxic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >神经毒素</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CEREBRAL_STRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spirit Breaker</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵魂碎裂者</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CEREBRAL_STRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Anti-Psionic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >反灵能</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CEREBRAL_STRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Skull Rotter</Data></Cell><Cell><Data
+            ss:Type="String"
+          >骸骨腐蚀者</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CEREBRAL_STRAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_7</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Neurodegenerative</Data></Cell><Cell><Data
+            ss:Type="String"
+          >神经退化</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BLIGHT_INFECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Plague Spreader</Data></Cell><Cell><Data
+            ss:Type="String"
+          >瘟疫散播者</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BLIGHT_INFECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Infector</Data></Cell><Cell><Data
+            ss:Type="String"
+          >感染者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bubonic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >黑死病</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Moldfingers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >霉指</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Septicemic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >败血病</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Pneumonic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >肺炎</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_7</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deteriorating</Data></Cell><Cell><Data
+            ss:Type="String"
+          >恶化</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BLIGHT_BRINGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Plague Bringer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >瘟疫使者</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BLIGHT_BRINGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deity of Decay</Data></Cell><Cell><Data
+            ss:Type="String"
+          >腐化之神</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BLIGHT_BRINGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Rotten Vortex</Data></Cell><Cell><Data
+            ss:Type="String"
+          >腐烂漩涡</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BLIGHT_BRINGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blighthaze</Data></Cell><Cell><Data
+            ss:Type="String"
+          >枯萎阴霾</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BLIGHT_BRINGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grave Rotter</Data></Cell><Cell><Data
+            ss:Type="String"
+          >坟墓腐蚀者</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BLIGHT_BRINGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Plague Shroud</Data></Cell><Cell><Data
+            ss:Type="String"
+          >瘟疫裹尸布</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BLIGHT_BRINGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_7</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Creeping Death</Data></Cell><Cell><Data
+            ss:Type="String"
+          >死亡蔓延</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Selected /><TopRowVisible>6</TopRowVisible><Panes><Pane
+        ><Number>3</Number><ActiveRow>19</ActiveRow><ActiveCol
+          >2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

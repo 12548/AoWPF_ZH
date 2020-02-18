@@ -1,1 +1,209 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:39:13Z</Created><LastSaved>2019-06-25T15:39:13Z</LastSaved><Version>15.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>14730</WindowHeight><WindowWidth>28740</WindowWidth><WindowTopX>0</WindowTopX><WindowTopY>0</WindowTopY><MaxChange>0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s57"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s57" ss:DefaultColumnWidth="242.25" ss:DefaultRowHeight="15"><Column ss:StyleID="s57" ss:Width="153.75"/><Column ss:StyleID="s57" ss:Width="147"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="362.25"/><Column ss:StyleID="s57" ss:Width="147.75"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="211.5"/><Column ss:StyleID="s57" ss:Width="120"/><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="362.25"/><Row ss:AutoFitHeight="0" ss:Height="135"><Cell><Data ss:Type="String">ARC_TECHGROUPS</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ARC_DISCHARGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Arc Discharge</Data></Cell><Cell><Data ss:Type="String">电弧放电</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">ARC_DISCHARGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Discharges an Arc blast on a single enemy unit, dealing {ArcDamage}[damagewave/] damage with [abilityred]High Impact[/abilityred]. This attack can jump to {ArcJumpTargets} additional targets within {ArcJumpHexes} hexes of each other.</Data></Cell><Cell><Data ss:Type="String">向一个敌人单位释放电弧冲击波，以[abilityred]高度冲击[/abilityred]造成 {ArcDamage}[damagewave/] 伤害。该攻击可弹跳到 {ArcJumpHexes} 个单元格范围内的 {ArcJumpTargets} 个额外目标上。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ARC_MANIFOLD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Arc Manifold</Data></Cell><Cell><Data ss:Type="String">电弧流形</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">ARC_MANIFOLD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The Arc Manifold strikes a random enemy unit, dealing {amount} Arc damage and causing [abilityred]High Impact[/abilityred] with a strength {ElectrifiedChance} chance of applying [abilityred]Electrified[/abilityred] to non-Ethereal targets.[br/]Arc Manifold strikes at the start of each enemy turn for {ArcManiDuration}.</Data></Cell><Cell><Data ss:Type="String">电弧流形会随机攻击一个敌人，造成 {amount} 电弧伤害并造成[abilityred]高度冲击[/abilityred]，有 {ElectrifiedChance} 力量几率向非虚灵目标施加[abilityred]触电[/abilityred]。[br/]电弧流形会在每一个敌方回合开始时攻击，持续 {ArcManiDuration}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AEON_FLUX_CHARGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Aeon Flux Charge</Data></Cell><Cell><Data ss:Type="String">宇宙乱流</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">AEON_FLUX_CHARGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Infuse a Mechanical or Cyborg unit with an Aeon Flux Charge. The unit deals {IncreasedDamage} damage and gains [abilityblue]Fast Movement[/abilityblue] for {time}[turn/]. Every turn, the unit has a {danger} chance to become [abilityred]Overloaded[/abilityred] for {OverloadTime}[turn/].</Data></Cell><Cell><Data ss:Type="String">向机械单位或半机械单位注入宇宙乱流。单位可造成 {IncreasedDamage} 伤害并获得[abilityblue]迅捷移动[/abilityblue]，持续 {time}[turn/]。每回合，该单位有 {danger} 的几率变为[abilityred]过载[/abilityred]，持续 {OverloadTime}[turn/]。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AEON_FLUX_CHARGE</Data></Cell><Cell><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit deals {IncreasedDamage} damage and has Fast Movement. Every turn, the unit has a {danger} chance to become [abilityred]Stunned[/abilityred] for {OverloadTime}[turn/].</Data></Cell><Cell><Data ss:Type="String">该单位造成 {IncreasedDamage} 伤害并拥有“迅捷移动”。该单位每回合有 {danger} 几率陷入[abilityred]晕眩[/abilityred]，持续 {OverloadTime}[turn/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AEON_FLUX_CHARGE</Data></Cell><Cell><Data ss:Type="String">PROPERTY_1</Data></Cell><Cell><Data ss:Type="String">Fast Movement</Data></Cell><Cell><Data ss:Type="String">迅捷移动</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">POSITRON_CONVERSION_FIELD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Positron Converter</Data></Cell><Cell><Data ss:Type="String">正电转换器</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">POSITRON_CONVERSION_FIELD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The Positron Converter emits a field that flips the electron charge on friendly Arc weaponry. All owned units' Arc abilities can [abilityred]Stun[/abilityred] targets and deal {IncreasedDamage}[DamageWave/] damage for {time}[turn/].</Data></Cell><Cell><Data ss:Type="String">正电转换器会投射一道力场，将电子电荷投向友方电弧武器。所有已拥有的友方单位的电弧技能将会[abilityred]晕眩[/abilityred]目标并造成 {IncreasedDamage}[DamageWave/]伤害，持续 {time}[turn/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">POSITRON_CONVERSION_FIELD</Data></Cell><Cell><Data ss:Type="String">STATUS_EFFECT_NAME</Data></Cell><Cell><Data ss:Type="String">Positron Damage</Data></Cell><Cell><Data ss:Type="String">正电破坏</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">POSITRON_CONVERSION_FIELD</Data></Cell><Cell><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit deals {IncreasedDamage}[DamageWave/] additional damage and has a {StunChance} strength chance to [abilityred]Stun[/abilityred] targets for {StunDuration}</Data></Cell><Cell><Data ss:Type="String">该单位额外造成 {IncreasedDamage}[DamageWave/]伤害并拥有 {StunChance} 力量几率[abilityred]眩晕[/abilityred]目标，持续 {StunDuration}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">POSITRON_CONVERSION_FIELD</Data></Cell><Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{IncreasedDamage} damage</Data></Cell><Cell><Data ss:Type="String">{IncreasedDamage}伤害</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PULSE_DISRUPTION_LANCE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Pulse Disruption Lance</Data></Cell><Cell><Data ss:Type="String">脉冲干扰矛</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">PULSE_DISRUPTION_LANCE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Target Mechanical or Cyborg unit suffers {PulseDisruptionLanceDamage}[wavedamage/] damage and has a strength {PulseDisruptionLanceStrength} chance to be [abilityred]Stunned[/abilityred]. If resisted, the unit is [abilityred]Staggered[/abilityred] instead.</Data></Cell><Cell><Data ss:Type="String">目标机械或半机械人单位受到 {PulseDisruptionLanceDamage}[wavedamage/]伤害并有 {PulseDisruptionLanceStrength} 力量几率被[abilityred]晕眩[/abilityred]。如果被抵抗，则单位将被[abilityred]动摇[/abilityred]。</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Selected/><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:39:13Z</Created><LastSaved
+    >2019-06-25T15:39:13Z</LastSaved><Version
+    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>14730</WindowHeight><WindowWidth>28740</WindowWidth><WindowTopX
+    >0</WindowTopX><WindowTopY>0</WindowTopY><MaxChange
+    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s57"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s57"
+      ss:DefaultColumnWidth="242.25"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s57" ss:Width="153.75" /><Column
+        ss:StyleID="s57"
+        ss:Width="147"
+      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="362.25" /><Column
+        ss:StyleID="s57"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="211.5" /><Column
+        ss:StyleID="s57"
+        ss:Width="120"
+      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="362.25" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="135"
+      ><Cell><Data ss:Type="String">ARC_TECHGROUPS</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARC_DISCHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arc Discharge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电弧放电</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">ARC_DISCHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Discharges an Arc blast on a single enemy unit, dealing {ArcDamage}[damagewave/] damage with [abilityred]High Impact[/abilityred]. This attack can jump to {ArcJumpTargets} additional targets within {ArcJumpHexes} hexes of each other.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向一个敌人单位释放电弧冲击波，以[abilityred]高度冲击[/abilityred]造成 {ArcDamage}[damagewave/] 伤害。该攻击可弹跳到 {ArcJumpHexes} 个单元格范围内的 {ArcJumpTargets} 个额外目标上。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARC_MANIFOLD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arc Manifold</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电弧流形</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">ARC_MANIFOLD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Arc Manifold strikes a random enemy unit, dealing {amount} Arc damage and causing [abilityred]High Impact[/abilityred] with a strength {ElectrifiedChance} chance of applying [abilityred]Electrified[/abilityred] to non-Ethereal targets.[br/]Arc Manifold strikes at the start of each enemy turn for {ArcManiDuration}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >电弧流形会随机攻击一个敌人，造成 {amount} 电弧伤害并造成[abilityred]高度冲击[/abilityred]，有 {ElectrifiedChance} 力量几率向非虚灵目标施加[abilityred]触电[/abilityred]。[br/]电弧流形会在每一个敌方回合开始时攻击，持续 {ArcManiDuration}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AEON_FLUX_CHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Aeon Flux Charge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >宇宙乱流</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">AEON_FLUX_CHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Infuse a Mechanical or Cyborg unit with an Aeon Flux Charge. The unit deals {IncreasedDamage} damage and gains [abilityblue]Fast Movement[/abilityblue] for {time}[turn/]. Every turn, the unit has a {danger} chance to become [abilityred]Overloaded[/abilityred] for {OverloadTime}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向机械单位或半机械单位注入宇宙乱流。单位可造成 {IncreasedDamage} 伤害并获得[abilityblue]迅捷移动[/abilityblue]，持续 {time}[turn/]。每回合，该单位有 {danger} 的几率变为[abilityred]过载[/abilityred]，持续 {OverloadTime}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AEON_FLUX_CHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_EFFECT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit deals {IncreasedDamage} damage and has Fast Movement. Every turn, the unit has a {danger} chance to become [abilityred]Stunned[/abilityred] for {OverloadTime}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位造成 {IncreasedDamage} 伤害并拥有“迅捷移动”。该单位每回合有 {danger} 几率陷入[abilityred]晕眩[/abilityred]，持续 {OverloadTime}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AEON_FLUX_CHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fast Movement</Data></Cell><Cell><Data
+            ss:Type="String"
+          >迅捷移动</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >POSITRON_CONVERSION_FIELD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Positron Converter</Data></Cell><Cell><Data
+            ss:Type="String"
+          >正电转换器</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">POSITRON_CONVERSION_FIELD</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Positron Converter emits a field that flips the electron charge on friendly Arc weaponry. All owned units' Arc abilities can [abilityred]Stun[/abilityred] targets and deal {IncreasedDamage}[DamageWave/] damage for {time}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正电转换器会投射一道力场，将电子电荷投向友方电弧武器。所有已拥有的友方单位的电弧技能将会[abilityred]晕眩[/abilityred]目标并造成 {IncreasedDamage}[DamageWave/]伤害，持续 {time}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">POSITRON_CONVERSION_FIELD</Data></Cell><Cell
+        ><Data ss:Type="String">STATUS_EFFECT_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Positron Damage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >正电破坏</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >POSITRON_CONVERSION_FIELD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_EFFECT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit deals {IncreasedDamage}[DamageWave/] additional damage and has a {StunChance} strength chance to [abilityred]Stun[/abilityred] targets for {StunDuration}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位额外造成 {IncreasedDamage}[DamageWave/]伤害并拥有 {StunChance} 力量几率[abilityred]眩晕[/abilityred]目标，持续 {StunDuration}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">POSITRON_CONVERSION_FIELD</Data></Cell><Cell
+        ><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{IncreasedDamage} damage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{IncreasedDamage}伤害</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PULSE_DISRUPTION_LANCE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Pulse Disruption Lance</Data></Cell><Cell><Data
+            ss:Type="String"
+          >脉冲干扰矛</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">PULSE_DISRUPTION_LANCE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target Mechanical or Cyborg unit suffers {PulseDisruptionLanceDamage}[wavedamage/] damage and has a strength {PulseDisruptionLanceStrength} chance to be [abilityred]Stunned[/abilityred]. If resisted, the unit is [abilityred]Staggered[/abilityred] instead.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标机械或半机械人单位受到 {PulseDisruptionLanceDamage}[wavedamage/]伤害并有 {PulseDisruptionLanceStrength} 力量几率被[abilityred]晕眩[/abilityred]。如果被抵抗，则单位将被[abilityred]动摇[/abilityred]。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Selected /><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

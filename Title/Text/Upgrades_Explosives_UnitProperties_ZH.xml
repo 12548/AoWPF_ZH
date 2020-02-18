@@ -1,1 +1,1099 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:56:14Z</Created><LastSaved>2019-06-25T15:56:14Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style><Style ss:ID="s63"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Interior/></Style><Style ss:ID="s64"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/><Interior/></Style><Style ss:ID="s65"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15"><Column ss:StyleID="s62" ss:Width="145.5"/><Column ss:StyleID="s62" ss:Width="107.25"/><Column ss:StyleID="s62" ss:Width="280.5"/><Column ss:StyleID="s62" ss:Width="147.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="327"/><Column ss:StyleID="s62" ss:Width="120"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="323.25"/><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">UNIT_UPGRADES_EXPLOSIVES</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FRAG_GRENADE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Grenade</Data></Cell><Cell><Data ss:Type="String">手雷</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">FRAG_GRENADE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Throw a grenade, dealing damage in a {hexrad} hex radius.</Data></Cell><Cell><Data ss:Type="String">投掷一个手雷，对 {hexrad} 个单元格范围造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FRAG_MISSILE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Strike Missile</Data></Cell><Cell><Data ss:Type="String">攻击导弹</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FRAG_MISSILE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Launch a missile, dealing damage in a {hexrad} hex radius.</Data></Cell><Cell><Data ss:Type="String">发射一枚导弹，对 {hexrad} 个单元格范围造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SELF_DESTRUCT_MODULE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Self-destruct</Data></Cell><Cell><Data ss:Type="String">自毁</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SELF_DESTRUCT_MODULE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit self-destructs, dealing damage to all adjacent units.</Data></Cell><Cell><Data ss:Type="String">该单位进行自我毁灭，对所有相邻单位造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SELF_DESTRUCT_ON_DEATH</Data></Cell><Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell><Cell><Data ss:Type="String">Unstable Construction</Data></Cell><Cell><Data ss:Type="String">不稳定结构</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SELF_DESTRUCT_ON_DEATH</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit will explode on death, dealing {DestructDamage} damage to all adjacent units.</Data></Cell><Cell><Data ss:Type="String">该单位死亡时将会爆炸，对所有相邻单位造成 {DestructDamage} 伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PYRX_SELF_DESTRUCT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Incendiary Self-destruct</Data></Cell><Cell><Data ss:Type="String">焚烧自毁</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">PYRX_SELF_DESTRUCT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit self-destructs, dealing [damagethermal/] damage to all adjacent units.</Data></Cell><Cell><Data ss:Type="String">该单位进行自我毁灭，对所有相邻单位造成 [damagethermal/] 伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIOGAS_SELF_DESTRUCT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Bio-gas Self-destruct</Data></Cell><Cell><Data ss:Type="String">生化毒气自毁</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">BIOGAS_SELF_DESTRUCT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit self-destructs, dealing [damageBio/] damage to all adjacent units.</Data></Cell><Cell><Data ss:Type="String">该单位进行自我毁灭，对所有相邻单位造成 [damageBio/] 伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EMP_SELF_DESTRUCT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Arc Self-destruct</Data></Cell><Cell><Data ss:Type="String">电弧自毁</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">EMP_SELF_DESTRUCT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit self-destructs, dealing [damagewave/] damage to all adjacent units.</Data></Cell><Cell><Data ss:Type="String">该单位进行自我毁灭，对所有相邻单位造成 [damagewave/] 伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EQUIPMENT</Data></Cell><Cell><Data ss:Type="String">BASIC_GRENADE_NAME</Data></Cell><Cell><Data ss:Type="String">Basic Grenade</Data></Cell><Cell><Data ss:Type="String">基础手雷</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SWARM_MISSILES</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Swarm Missiles</Data></Cell><Cell><Data ss:Type="String">集群导弹</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SWARM_MISSILES</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a swarm of missiles, striking an area around the target unit.</Data></Cell><Cell><Data ss:Type="String">发射集群导弹，对目标单位附近范围进行攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXECUTION_MISSILES</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Punisher Missile</Data></Cell><Cell><Data ss:Type="String">惩罚者导弹</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">EXECUTION_MISSILES</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Launch a missile at the target hex, dealing damage to everything in the area of effect.</Data></Cell><Cell><Data ss:Type="String">向目标单元格发射导弹，对效果范围内的所有物体造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BUSTER_MISSILES</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Buster Missile</Data></Cell><Cell><Data ss:Type="String">爆裂者导弹</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">BUSTER_MISSILES</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Launch a missile at the target hex, dealing damage to everything in the area of effect.</Data></Cell><Cell><Data ss:Type="String">向目标单元格发射导弹，对效果范围内的所有物体造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FLASHBANG_GRENADE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Flashbang Grenade</Data></Cell><Cell><Data ss:Type="String">闪光手雷</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">FLASHBANG_GRENADE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Throw a grenade that does Explosive damage in a flash to target hex and adjacent hexes.</Data></Cell><Cell><Data ss:Type="String">投掷一枚手雷，瞬间对目标单元格及相邻单元格造成爆炸伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FLASHBANG_GRENADE</Data></Cell><Cell><Data ss:Type="String">PLUGIN_ADDITION</Data></Cell><Cell><Data ss:Type="String">Flashbang</Data></Cell><Cell><Data ss:Type="String">闪光弹</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAND_MORTAR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Hand Mortar</Data></Cell><Cell><Data ss:Type="String">手持迫击炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HAND_MORTAR</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a Hand Mortar, damaging units in a {hexrad} hex radius.</Data></Cell><Cell><Data ss:Type="String">发射手持迫击炮，对 {hexrad} 个单元格范围内的单位造成伤害。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RAMJET_MISSILE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Ramjet Rocket</Data></Cell><Cell><Data ss:Type="String">冲压喷气火箭</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">RAMJET_MISSILE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a rocket, dealing Explosive damage in a {hexrad} hex radius.</Data></Cell><Cell><Data ss:Type="String">发射一枚火箭，对 {hexrad} 个单元格范围造成爆炸伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEMOLISHER_CANNON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Demolisher Cannon</Data></Cell><Cell><Data ss:Type="String">粉碎者火炮</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">DEMOLISHER_CANNON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire the Demolisher Cannon, doing Explosive damage to targets in a {hexread} hex radius.</Data></Cell><Cell><Data ss:Type="String">发射粉碎者火炮，对 {hexread} 个单元格范围内的目标造成爆炸伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MISSILE_BARRAGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Missile Barrage</Data></Cell><Cell><Data ss:Type="String">导弹弹幕</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MISSILE_BARRAGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a repeating barrage of Explosives at the target.</Data></Cell><Cell><Data ss:Type="String">对目标发射重复的爆炸弹幕。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TOSS_BOMB</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Toss Bomb</Data></Cell><Cell><Data ss:Type="String">投掷炸弹</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TOSS_BOMB</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Throw a bomb at a single target, dealing Explosive damage.</Data></Cell><Cell><Data ss:Type="String">对单个目标投掷炸弹，造成爆炸伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data></Cell><Cell><Data ss:Type="String">UPGRADE_NAME</Data></Cell><Cell><Data ss:Type="String">Guided Delivery Mechanisms</Data></Cell><Cell><Data ss:Type="String">导向输送装置</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Increases the range of ranged Explosive attacks by {GuidedDelRan} hexes and their accuracy by {GuidedDelAcc}.</Data></Cell><Cell><Data ss:Type="String">远程爆炸攻击的射程增加 {GuidedDelRan} 个单元格，且准度提高 {GuidedDelAcc}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data></Cell><Cell><Data ss:Type="String">MOD_NAME</Data></Cell><Cell><Data ss:Type="String">Guiding Mechanism</Data></Cell><Cell><Data ss:Type="String">导向装置</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Attack range is increased by {GuidedDelRan} hexes and has +{GuidedDelAcc} accuracy.</Data></Cell><Cell><Data ss:Type="String">攻击射程增加 {GuidedDelRan} 个单元格并拥有 +{GuidedDelAcc} 准度。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FLASH_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">UPGRADE_NAME</Data></Cell><Cell><Data ss:Type="String">Flash Payload</Data></Cell><Cell><Data ss:Type="String">爆闪弹头</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">FLASH_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Explosive attacks now have a {FlashPayloadStrength}[strengthphysical/] strength chance ({FlashPayloadStrengthRepeating}[strengthphysical/] for repeating attacks) to apply [abilityred]Blinded[/abilityred] to non-Ethereal units, for {BlindDuration}[turn/].</Data></Cell><Cell><Data ss:Type="String">爆炸攻击现在有 {FlashPayloadStrength}[strengthphysical/] 力量几率（重复攻击有 {FlashPayloadStrengthRepeating}[strengthphysical/] 几率）向非虚灵单位施加[abilityred]致盲[/abilityred]，持续 {BlindDuration}[turn/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INCENDIARY_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">UPGRADE_NAME</Data></Cell><Cell><Data ss:Type="String">Explosives: Incendiary</Data></Cell><Cell><Data ss:Type="String">爆炸：焚烧</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">INCENDIARY_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Explosive attacks now deal Thermal damage and have a 12[StrengthThermal/] strength chance (8[strengthThermal/] for repeating attacks) to apply [abilityred]Burning[/abilityred].[br/][br/][productioncol]Cannot be combined with Explosives: Electrical.[/productioncol]</Data></Cell><Cell><Data ss:Type="String">爆炸攻击现在可造成热能伤害，并有 12[StrengthThermal/] 力量几率（重复攻击有 8[strengthThermal/] 力量几率）施加[abilityred]燃烧[/abilityred]。[br/][br/][productioncol]无法与“爆炸：电力”结合使用。[/productioncol]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SABOTAGE_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">UPGRADE_NAME</Data></Cell><Cell><Data ss:Type="String">Explosives: Electrical</Data></Cell><Cell><Data ss:Type="String">爆炸：电力</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SABOTAGE_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Explosive attacks now deal Arc damage and have a 12[StrengthWave/] strength chance ({CharredRepeatingChance}[strengthWave/] for repeating attacks) to apply [abilityred]Electrified[/abilityred].[br/][br/][productioncol]Cannot be combined with Explosives: Incendiary.[/productioncol]</Data></Cell><Cell><Data ss:Type="String">爆炸攻击现在可造成电弧伤害，并有 12[StrengthWave/] 力量几率（重复攻击有 {CharredRepeatingChance}[strengthWave/] 几率）施加[abilityred]触电[/abilityred]。[br/][br/][productioncol]无法与“爆炸：焚烧”结合使用。[/productioncol]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Micro Nuclear Payload</Data></Cell><Cell><Data ss:Type="String">小型核弹头</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Explosive attacks gain a level of [abilityred]Stagger Impact[/abilityred], destroy {amountA}[armor/] and {amountS}[shield/] per hit and have a {ImmolateStrength}[strengthThermal/] strength chance ({ImmolateStrengthRepeating}[strengthThermal/] for repeating attacks) to apply [abilityred]Immolate[/abilityred].</Data></Cell><Cell><Data ss:Type="String">爆炸攻击可获得 1 级[abilityred]动摇冲击[/abilityred]，每次命中可摧毁 {amountA}[armor/] 和 {amountS}[shield/]，并有 {ImmolateStrength}[strengthThermal/] 力量几率（重复攻击有 {ImmolateStrengthRepeating}[strengthThermal/] 几率）施加[abilityred]焚祭[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">MOD_NAME</Data></Cell><Cell><Data ss:Type="String">Defense Melt</Data></Cell><Cell><Data ss:Type="String">防御熔化</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Destroy {amountA}[armor/] and {amountS}[shield/] per hit.</Data></Cell><Cell><Data ss:Type="String">每次命中可摧毁 {amountA}[armor/] 和 {amountS}[shield/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SMART_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Smart Payload</Data></Cell><Cell><Data ss:Type="String">智能弹头</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SMART_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Explosive attacks ignore friendly targets and gain a level of [abilityred]Stagger Impact[/abilityred].</Data></Cell><Cell><Data ss:Type="String">爆炸攻击能够无视友方目标并获得 1 级[abilityred]动摇冲击[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SMART_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Ignores friendly targets</Data></Cell><Cell><Data ss:Type="String">无视友方目标</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">NAVAL_MISSILE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Launch Naval Missile</Data></Cell><Cell><Data ss:Type="String">发射海军导弹</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">NAVAL_MISSILE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Launch a missile at the target hex, dealing damage to everything in the area of effect.</Data></Cell><Cell><Data ss:Type="String">向目标单元格发射导弹，对效果范围内的所有物体造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HEAVY_SHELL_TURRET</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Heavy Shell Turret</Data></Cell><Cell><Data ss:Type="String">重型炮台</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">HEAVY_SHELL_TURRET</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire the Heavy Shell Turret at the target, dealing Explosive damage. Adjacent units receive {DamagePercentage} of that damage.</Data></Cell><Cell><Data ss:Type="String">使用重型炮台攻击目标，造成爆炸伤害。相邻单位将受到 {DamagePercentage} 伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BROADSIDE_BOMBARDMENT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Broadside Bombardment</Data></Cell><Cell><Data ss:Type="String">排炮轰击</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">BROADSIDE_BOMBARDMENT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Let loose with all available weapons, dealing damage in a {hexrad} hex radius. This builds up smoke and heat which need to be expelled before this attack can be used again.</Data></Cell><Cell><Data ss:Type="String">所有武器随意开火，对 {hexrad} 个单元格范围造成伤害。此攻击会使烟尘和热量不断堆积，需将烟尘与热量排出后才能再次使用。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPEL_EXHAUST_FUMES</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Expel Exhaust Fumes</Data></Cell><Cell><Data ss:Type="String">排出废气</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">EXPEL_EXHAUST_FUMES</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Vent exhaust fumes and heat, enabling Broadside Bombardment and clouding the area around this unit. All units in the smoke are {evadeup} harder to hit.</Data></Cell><Cell><Data ss:Type="String">排出废气与热量，使排炮轰击可以再次使用，并使该单位附近范围笼罩在烟雾之中。所有处于烟雾中的单位的命中难度增加 {evadeup}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BOMBARD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Bombard</Data></Cell><Cell><Data ss:Type="String">轰击炮</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">BOMBARD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a powerful but inaccurate artillery shell at the target location, dealing damage in a 1 hex radius area.</Data></Cell><Cell><Data ss:Type="String">向目标地点发射一枚威力巨大但准度欠佳的炮弹，对 1 个单元格范围造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOSIVE_ROUND</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Explosive Round</Data></Cell><Cell><Data ss:Type="String">爆炸子弹</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">EXPLOSIVE_ROUND</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a single Explosive round at the target location, dealing damage in a {hexrad} hex radius.</Data></Cell><Cell><Data ss:Type="String">向目标地点发射一轮爆炸子弹，对 {hexrad} 个单元格范围造成伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TACTICAL_FACE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Tactical F.A.C.E.</Data></Cell><Cell><Data ss:Type="String">战术接触炸弹</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">TACTICAL_FACE</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The Forcefully Applied Contact Explosive is a highly efficient method of crowd control.</Data></Cell><Cell><Data ss:Type="String">强制应用接触炸弹是进行群体控制的高效方法。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BOMB</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">B.O.M.B.</Data></Cell><Cell><Data ss:Type="String">体源群爆炸弹</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">BOMB</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The Body-Originating Mass Blast hits all adjacent units, dealing Explosive damage. Ideal for when you don't have the time to F.A.C.E everybody.</Data></Cell><Cell><Data ss:Type="String">体源群爆炸弹可对所有相邻单位造成爆炸伤害，当你没有时间为每一个敌人准备接触炸弹时将会是很好的选择。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FLASH_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Flashy</Data></Cell><Cell><Data ss:Type="String">闪光</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FLASH_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Glistening</Data></Cell><Cell><Data ss:Type="String">闪耀</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FLASH_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Flickerwick</Data></Cell><Cell><Data ss:Type="String">闪烁灯芯</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FLASH_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Boom Blinking</Data></Cell><Cell><Data ss:Type="String">爆闪</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FLASH_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Shiny</Data></Cell><Cell><Data ss:Type="String">闪亮</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FLASH_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Sparkly</Data></Cell><Cell><Data ss:Type="String">耀眼</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOSIVES_INCENDIARY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Incinerating</Data></Cell><Cell><Data ss:Type="String">焚化</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOSIVES_INCENDIARY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Enkindling</Data></Cell><Cell><Data ss:Type="String">点燃</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOSIVES_INCENDIARY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Flammable</Data></Cell><Cell><Data ss:Type="String">易燃</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOSIVES_INCENDIARY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Napalm</Data></Cell><Cell><Data ss:Type="String">凝固汽油</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOSIVES_INCENDIARY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Charring</Data></Cell><Cell><Data ss:Type="String">炭化</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOSIVES_INCENDIARY</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Cyanide</Data></Cell><Cell><Data ss:Type="String">氰化物</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Optimized</Data></Cell><Cell><Data ss:Type="String">优化</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Assisted</Data></Cell><Cell><Data ss:Type="String">辅助</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Sleekshot</Data></Cell><Cell><Data ss:Type="String">华丽射击</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Streamlined</Data></Cell><Cell><Data ss:Type="String">流线型</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Directed</Data></Cell><Cell><Data ss:Type="String">定向</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Driftshot</Data></Cell><Cell><Data ss:Type="String">飘移射击</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOSIVES_ELECTRICAL</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Shock Packed</Data></Cell><Cell><Data ss:Type="String">强烈震荡</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOSIVES_ELECTRICAL</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Lightning bomb</Data></Cell><Cell><Data ss:Type="String">闪电炸弹</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOSIVES_ELECTRICAL</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Electrostatic</Data></Cell><Cell><Data ss:Type="String">静电</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOSIVES_ELECTRICAL</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Conducting</Data></Cell><Cell><Data ss:Type="String">导向</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOSIVES_ELECTRICAL</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Charged</Data></Cell><Cell><Data ss:Type="String">充能完毕</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EXPLOSIVES_ELECTRICAL</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Volt Blaster</Data></Cell><Cell><Data ss:Type="String">电压炸药</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SMART_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Neural Launcher</Data></Cell><Cell><Data ss:Type="String">神经发射器</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SMART_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Friendly Fire</Data></Cell><Cell><Data ss:Type="String">误伤</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SMART_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Efficient</Data></Cell><Cell><Data ss:Type="String">高效</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SMART_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Smart Launcher</Data></Cell><Cell><Data ss:Type="String">智能发射器</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SMART_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">High Tech</Data></Cell><Cell><Data ss:Type="String">高科技</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SMART_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Smart Targetter</Data></Cell><Cell><Data ss:Type="String">智能瞄准器</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">The End</Data></Cell><Cell><Data ss:Type="String">终焉</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Doom Launcher</Data></Cell><Cell><Data ss:Type="String">末日发射器</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Meltdown</Data></Cell><Cell><Data ss:Type="String">熔化</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">The Judge</Data></Cell><Cell><Data ss:Type="String">审判</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Hell's Bells</Data></Cell><Cell><Data ss:Type="String">地狱钟声</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Final War</Data></Cell><Cell><Data ss:Type="String">最终决战</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">War Stopper</Data></Cell><Cell><Data ss:Type="String">止战者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/><Cell ss:StyleID="s65"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">GREATER_FRAG_MISSILE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Upgraded Strike Missile</Data></Cell><Cell><Data ss:Type="String">升级攻击导弹</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TRIGGER_SELF_DESTRUCT_MODULE</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Trigger Self-destruct</Data></Cell><Cell><Data ss:Type="String">触发自毁</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Selected/><TopRowVisible>47</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>71</ActiveRow><ActiveCol>2</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:56:14Z</Created><LastSaved
+    >2019-06-25T15:56:14Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Interior /></Style><Style
+      ss:ID="s64"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+      /><Interior /></Style><Style ss:ID="s65"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="145.5" /><Column
+        ss:StyleID="s62"
+        ss:Width="107.25"
+      /><Column ss:StyleID="s62" ss:Width="280.5" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="327" /><Column
+        ss:StyleID="s62"
+        ss:Width="120"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="323.25" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">UNIT_UPGRADES_EXPLOSIVES</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FRAG_GRENADE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grenade</Data></Cell><Cell><Data
+            ss:Type="String"
+          >手雷</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FRAG_GRENADE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Throw a grenade, dealing damage in a {hexrad} hex radius.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >投掷一个手雷，对 {hexrad} 个单元格范围造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FRAG_MISSILE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Strike Missile</Data></Cell><Cell><Data
+            ss:Type="String"
+          >攻击导弹</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FRAG_MISSILE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch a missile, dealing damage in a {hexrad} hex radius.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发射一枚导弹，对 {hexrad} 个单元格范围造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SELF_DESTRUCT_MODULE</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Self-destruct</Data></Cell><Cell><Data
+            ss:Type="String"
+          >自毁</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SELF_DESTRUCT_MODULE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit self-destructs, dealing damage to all adjacent units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位进行自我毁灭，对所有相邻单位造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SELF_DESTRUCT_ON_DEATH</Data></Cell><Cell
+        ><Data ss:Type="String">PROPERTY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unstable Construction</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不稳定结构</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SELF_DESTRUCT_ON_DEATH</Data></Cell><Cell
+        ><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit will explode on death, dealing {DestructDamage} damage to all adjacent units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位死亡时将会爆炸，对所有相邻单位造成 {DestructDamage} 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PYRX_SELF_DESTRUCT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Incendiary Self-destruct</Data></Cell><Cell><Data
+            ss:Type="String"
+          >焚烧自毁</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PYRX_SELF_DESTRUCT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit self-destructs, dealing [damagethermal/] damage to all adjacent units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位进行自我毁灭，对所有相邻单位造成 [damagethermal/] 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIOGAS_SELF_DESTRUCT</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bio-gas Self-destruct</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化毒气自毁</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">BIOGAS_SELF_DESTRUCT</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit self-destructs, dealing [damageBio/] damage to all adjacent units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位进行自我毁灭，对所有相邻单位造成 [damageBio/] 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMP_SELF_DESTRUCT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arc Self-destruct</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电弧自毁</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">EMP_SELF_DESTRUCT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit self-destructs, dealing [damagewave/] damage to all adjacent units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位进行自我毁灭，对所有相邻单位造成 [damagewave/] 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EQUIPMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BASIC_GRENADE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Basic Grenade</Data></Cell><Cell><Data
+            ss:Type="String"
+          >基础手雷</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SWARM_MISSILES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Swarm Missiles</Data></Cell><Cell><Data
+            ss:Type="String"
+          >集群导弹</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SWARM_MISSILES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a swarm of missiles, striking an area around the target unit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发射集群导弹，对目标单位附近范围进行攻击。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXECUTION_MISSILES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Punisher Missile</Data></Cell><Cell><Data
+            ss:Type="String"
+          >惩罚者导弹</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">EXECUTION_MISSILES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch a missile at the target hex, dealing damage to everything in the area of effect.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标单元格发射导弹，对效果范围内的所有物体造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BUSTER_MISSILES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Buster Missile</Data></Cell><Cell><Data
+            ss:Type="String"
+          >爆裂者导弹</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">BUSTER_MISSILES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch a missile at the target hex, dealing damage to everything in the area of effect.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标单元格发射导弹，对效果范围内的所有物体造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FLASHBANG_GRENADE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Flashbang Grenade</Data></Cell><Cell><Data
+            ss:Type="String"
+          >闪光手雷</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FLASHBANG_GRENADE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Throw a grenade that does Explosive damage in a flash to target hex and adjacent hexes.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >投掷一枚手雷，瞬间对目标单元格及相邻单元格造成爆炸伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FLASHBANG_GRENADE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PLUGIN_ADDITION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Flashbang</Data></Cell><Cell><Data
+            ss:Type="String"
+          >闪光弹</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HAND_MORTAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hand Mortar</Data></Cell><Cell><Data
+            ss:Type="String"
+          >手持迫击炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HAND_MORTAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a Hand Mortar, damaging units in a {hexrad} hex radius.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发射手持迫击炮，对 {hexrad} 个单元格范围内的单位造成伤害。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RAMJET_MISSILE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ramjet Rocket</Data></Cell><Cell><Data
+            ss:Type="String"
+          >冲压喷气火箭</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">RAMJET_MISSILE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a rocket, dealing Explosive damage in a {hexrad} hex radius.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发射一枚火箭，对 {hexrad} 个单元格范围造成爆炸伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DEMOLISHER_CANNON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Demolisher Cannon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >粉碎者火炮</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DEMOLISHER_CANNON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire the Demolisher Cannon, doing Explosive damage to targets in a {hexread} hex radius.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发射粉碎者火炮，对 {hexread} 个单元格范围内的目标造成爆炸伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MISSILE_BARRAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Missile Barrage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >导弹弹幕</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MISSILE_BARRAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a repeating barrage of Explosives at the target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >对目标发射重复的爆炸弹幕。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TOSS_BOMB</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Toss Bomb</Data></Cell><Cell><Data
+            ss:Type="String"
+          >投掷炸弹</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >TOSS_BOMB</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Throw a bomb at a single target, dealing Explosive damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >对单个目标投掷炸弹，造成爆炸伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >GUIDED_DELIVERY_MECHANISMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Guided Delivery Mechanisms</Data></Cell><Cell><Data
+            ss:Type="String"
+          >导向输送装置</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >GUIDED_DELIVERY_MECHANISMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Increases the range of ranged Explosive attacks by {GuidedDelRan} hexes and their accuracy by {GuidedDelAcc}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >远程爆炸攻击的射程增加 {GuidedDelRan} 个单元格，且准度提高 {GuidedDelAcc}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >GUIDED_DELIVERY_MECHANISMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Guiding Mechanism</Data></Cell><Cell><Data
+            ss:Type="String"
+          >导向装置</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >GUIDED_DELIVERY_MECHANISMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Attack range is increased by {GuidedDelRan} hexes and has +{GuidedDelAcc} accuracy.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >攻击射程增加 {GuidedDelRan} 个单元格并拥有 +{GuidedDelAcc} 准度。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FLASH_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Flash Payload</Data></Cell><Cell><Data
+            ss:Type="String"
+          >爆闪弹头</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FLASH_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Explosive attacks now have a {FlashPayloadStrength}[strengthphysical/] strength chance ({FlashPayloadStrengthRepeating}[strengthphysical/] for repeating attacks) to apply [abilityred]Blinded[/abilityred] to non-Ethereal units, for {BlindDuration}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >爆炸攻击现在有 {FlashPayloadStrength}[strengthphysical/] 力量几率（重复攻击有 {FlashPayloadStrengthRepeating}[strengthphysical/] 几率）向非虚灵单位施加[abilityred]致盲[/abilityred]，持续 {BlindDuration}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INCENDIARY_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Explosives: Incendiary</Data></Cell><Cell><Data
+            ss:Type="String"
+          >爆炸：焚烧</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">INCENDIARY_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Explosive attacks now deal Thermal damage and have a 12[StrengthThermal/] strength chance (8[strengthThermal/] for repeating attacks) to apply [abilityred]Burning[/abilityred].[br/][br/][productioncol]Cannot be combined with Explosives: Electrical.[/productioncol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >爆炸攻击现在可造成热能伤害，并有 12[StrengthThermal/] 力量几率（重复攻击有 8[strengthThermal/] 力量几率）施加[abilityred]燃烧[/abilityred]。[br/][br/][productioncol]无法与“爆炸：电力”结合使用。[/productioncol]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SABOTAGE_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Explosives: Electrical</Data></Cell><Cell><Data
+            ss:Type="String"
+          >爆炸：电力</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">SABOTAGE_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Explosive attacks now deal Arc damage and have a 12[StrengthWave/] strength chance ({CharredRepeatingChance}[strengthWave/] for repeating attacks) to apply [abilityred]Electrified[/abilityred].[br/][br/][productioncol]Cannot be combined with Explosives: Incendiary.[/productioncol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >爆炸攻击现在可造成电弧伤害，并有 12[StrengthWave/] 力量几率（重复攻击有 {CharredRepeatingChance}[strengthWave/] 几率）施加[abilityred]触电[/abilityred]。[br/][br/][productioncol]无法与“爆炸：焚烧”结合使用。[/productioncol]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Micro Nuclear Payload</Data></Cell><Cell><Data
+            ss:Type="String"
+          >小型核弹头</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Explosive attacks gain a level of [abilityred]Stagger Impact[/abilityred], destroy {amountA}[armor/] and {amountS}[shield/] per hit and have a {ImmolateStrength}[strengthThermal/] strength chance ({ImmolateStrengthRepeating}[strengthThermal/] for repeating attacks) to apply [abilityred]Immolate[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >爆炸攻击可获得 1 级[abilityred]动摇冲击[/abilityred]，每次命中可摧毁 {amountA}[armor/] 和 {amountS}[shield/]，并有 {ImmolateStrength}[strengthThermal/] 力量几率（重复攻击有 {ImmolateStrengthRepeating}[strengthThermal/] 几率）施加[abilityred]焚祭[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell
+        ><Data ss:Type="String">MOD_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defense Melt</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御熔化</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Destroy {amountA}[armor/] and {amountS}[shield/] per hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每次命中可摧毁 {amountA}[armor/] 和 {amountS}[shield/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SMART_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Smart Payload</Data></Cell><Cell><Data
+            ss:Type="String"
+          >智能弹头</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SMART_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Explosive attacks ignore friendly targets and gain a level of [abilityred]Stagger Impact[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >爆炸攻击能够无视友方目标并获得 1 级[abilityred]动摇冲击[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SMART_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ignores friendly targets</Data></Cell><Cell><Data
+            ss:Type="String"
+          >无视友方目标</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >NAVAL_MISSILE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch Naval Missile</Data></Cell><Cell><Data
+            ss:Type="String"
+          >发射海军导弹</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">NAVAL_MISSILE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch a missile at the target hex, dealing damage to everything in the area of effect.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标单元格发射导弹，对效果范围内的所有物体造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEAVY_SHELL_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heavy Shell Turret</Data></Cell><Cell><Data
+            ss:Type="String"
+          >重型炮台</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">HEAVY_SHELL_TURRET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire the Heavy Shell Turret at the target, dealing Explosive damage. Adjacent units receive {DamagePercentage} of that damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用重型炮台攻击目标，造成爆炸伤害。相邻单位将受到 {DamagePercentage} 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BROADSIDE_BOMBARDMENT</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Broadside Bombardment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >排炮轰击</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">BROADSIDE_BOMBARDMENT</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Let loose with all available weapons, dealing damage in a {hexrad} hex radius. This builds up smoke and heat which need to be expelled before this attack can be used again.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有武器随意开火，对 {hexrad} 个单元格范围造成伤害。此攻击会使烟尘和热量不断堆积，需将烟尘与热量排出后才能再次使用。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXPEL_EXHAUST_FUMES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Expel Exhaust Fumes</Data></Cell><Cell><Data
+            ss:Type="String"
+          >排出废气</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">EXPEL_EXHAUST_FUMES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vent exhaust fumes and heat, enabling Broadside Bombardment and clouding the area around this unit. All units in the smoke are {evadeup} harder to hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >排出废气与热量，使排炮轰击可以再次使用，并使该单位附近范围笼罩在烟雾之中。所有处于烟雾中的单位的命中难度增加 {evadeup}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BOMBARD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bombard</Data></Cell><Cell><Data
+            ss:Type="String"
+          >轰击炮</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">BOMBARD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a powerful but inaccurate artillery shell at the target location, dealing damage in a 1 hex radius area.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标地点发射一枚威力巨大但准度欠佳的炮弹，对 1 个单元格范围造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXPLOSIVE_ROUND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Explosive Round</Data></Cell><Cell><Data
+            ss:Type="String"
+          >爆炸子弹</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">EXPLOSIVE_ROUND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a single Explosive round at the target location, dealing damage in a {hexrad} hex radius.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标地点发射一轮爆炸子弹，对 {hexrad} 个单元格范围造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TACTICAL_FACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tactical F.A.C.E.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >战术接触炸弹</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">TACTICAL_FACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Forcefully Applied Contact Explosive is a highly efficient method of crowd control.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >强制应用接触炸弹是进行群体控制的高效方法。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BOMB</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >B.O.M.B.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >体源群爆炸弹</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">BOMB</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Body-Originating Mass Blast hits all adjacent units, dealing Explosive damage. Ideal for when you don't have the time to F.A.C.E everybody.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >体源群爆炸弹可对所有相邻单位造成爆炸伤害，当你没有时间为每一个敌人准备接触炸弹时将会是很好的选择。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FLASH_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Flashy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >闪光</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FLASH_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Glistening</Data></Cell><Cell><Data
+            ss:Type="String"
+          >闪耀</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FLASH_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Flickerwick</Data></Cell><Cell><Data
+            ss:Type="String"
+          >闪烁灯芯</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FLASH_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Boom Blinking</Data></Cell><Cell><Data
+            ss:Type="String"
+          >爆闪</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FLASH_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Shiny</Data></Cell><Cell><Data
+            ss:Type="String"
+          >闪亮</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FLASH_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Sparkly</Data></Cell><Cell><Data
+            ss:Type="String"
+          >耀眼</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXPLOSIVES_INCENDIARY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Incinerating</Data></Cell><Cell><Data
+            ss:Type="String"
+          >焚化</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXPLOSIVES_INCENDIARY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Enkindling</Data></Cell><Cell><Data
+            ss:Type="String"
+          >点燃</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXPLOSIVES_INCENDIARY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Flammable</Data></Cell><Cell><Data
+            ss:Type="String"
+          >易燃</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXPLOSIVES_INCENDIARY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Napalm</Data></Cell><Cell><Data
+            ss:Type="String"
+          >凝固汽油</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXPLOSIVES_INCENDIARY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Charring</Data></Cell><Cell><Data
+            ss:Type="String"
+          >炭化</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXPLOSIVES_INCENDIARY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Cyanide</Data></Cell><Cell><Data
+            ss:Type="String"
+          >氰化物</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GUIDED_DELIVERY_MECHANISMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Optimized</Data></Cell><Cell><Data
+            ss:Type="String"
+          >优化</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GUIDED_DELIVERY_MECHANISMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Assisted</Data></Cell><Cell><Data
+            ss:Type="String"
+          >辅助</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GUIDED_DELIVERY_MECHANISMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Sleekshot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >华丽射击</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GUIDED_DELIVERY_MECHANISMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Streamlined</Data></Cell><Cell><Data
+            ss:Type="String"
+          >流线型</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GUIDED_DELIVERY_MECHANISMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Directed</Data></Cell><Cell><Data
+            ss:Type="String"
+          >定向</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GUIDED_DELIVERY_MECHANISMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Driftshot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >飘移射击</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXPLOSIVES_ELECTRICAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Shock Packed</Data></Cell><Cell><Data
+            ss:Type="String"
+          >强烈震荡</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXPLOSIVES_ELECTRICAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Lightning bomb</Data></Cell><Cell><Data
+            ss:Type="String"
+          >闪电炸弹</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXPLOSIVES_ELECTRICAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Electrostatic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >静电</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXPLOSIVES_ELECTRICAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Conducting</Data></Cell><Cell><Data
+            ss:Type="String"
+          >导向</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXPLOSIVES_ELECTRICAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Charged</Data></Cell><Cell><Data
+            ss:Type="String"
+          >充能完毕</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXPLOSIVES_ELECTRICAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Volt Blaster</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电压炸药</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SMART_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Neural Launcher</Data></Cell><Cell><Data
+            ss:Type="String"
+          >神经发射器</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SMART_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Friendly Fire</Data></Cell><Cell><Data
+            ss:Type="String"
+          >误伤</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SMART_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Efficient</Data></Cell><Cell><Data
+            ss:Type="String"
+          >高效</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SMART_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Smart Launcher</Data></Cell><Cell><Data
+            ss:Type="String"
+          >智能发射器</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SMART_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >High Tech</Data></Cell><Cell><Data
+            ss:Type="String"
+          >高科技</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SMART_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Smart Targetter</Data></Cell><Cell><Data
+            ss:Type="String"
+          >智能瞄准器</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >The End</Data></Cell><Cell><Data
+            ss:Type="String"
+          >终焉</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Doom Launcher</Data></Cell><Cell><Data
+            ss:Type="String"
+          >末日发射器</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Meltdown</Data></Cell><Cell><Data
+            ss:Type="String"
+          >熔化</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >The Judge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >审判</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Hell's Bells</Data></Cell><Cell><Data
+            ss:Type="String"
+          >地狱钟声</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Final War</Data></Cell><Cell><Data
+            ss:Type="String"
+          >最终决战</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_7</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >War Stopper</Data></Cell><Cell><Data
+            ss:Type="String"
+          >止战者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GREATER_FRAG_MISSILE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Upgraded Strike Missile</Data></Cell><Cell><Data
+            ss:Type="String"
+          >升级攻击导弹</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >TRIGGER_SELF_DESTRUCT_MODULE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Trigger Self-destruct</Data></Cell><Cell><Data
+            ss:Type="String"
+          >触发自毁</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><TopRowVisible
+      >47</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >71</ActiveRow><ActiveCol>2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

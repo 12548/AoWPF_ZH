@@ -1,1 +1,491 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:46:00Z</Created><LastSaved>2019-06-25T15:46:00Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>9150</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style><Style ss:ID="s64"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/></Style><Style ss:ID="s65"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s66"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Borders/><Interior/><NumberFormat/><Protection/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="297" ss:DefaultRowHeight="15"><Column ss:StyleID="s62" ss:Width="219.75"/><Column ss:StyleID="s62" ss:Width="132.75"/><Column ss:Index="4" ss:StyleID="s62" ss:Width="326.25"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="198.75"/><Column ss:StyleID="s62" ss:Width="294"/><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">COLONYDEFINITION_STRATEGIC</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CITY_SECTOR_BASE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Colony Center</Data></Cell><Cell><Data ss:Type="String">殖民地中心</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_BASE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Sector Base</Data></Cell><Cell><Data ss:Type="String">区域基地</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_BASE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A structure that claims the sector and expands domain.</Data></Cell><Cell><Data ss:Type="String">拥有区域主权并扩张领域的建筑。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FORWARD_BASE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Forward Base</Data></Cell><Cell><Data ss:Type="String">前线基地</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">FORWARD_BASE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This structure claims the sector for its owner. It provides healing to your units, and enemies cannot enter it without trespassing. However, it does not gather any income. [br/][br/]Founding a Colony on this structure will give it a free [hyperlink,0000034100000959]Military Infrastructure[/hyperlink] upgrade.</Data></Cell><Cell><Data ss:Type="String">该建筑能使所有者拥有区域的主权，能够治疗你的单位。除非采取入侵方式，否则敌人将不能进入该建筑。但该建筑不会采集任何收益。[br/][br/]该建筑上建立的殖民地将免费获得[hyperlink,0000034100000959]军事基础设施[/hyperlink]升级。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_BASE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">[annex/] Annex Sector as Province for {STR_cityName}</Data></Cell><Cell><Data ss:Type="String">为{STR_cityName}[annex/]吞并区域</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">STR_cityName is the name of the city</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_BASE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Builds a base which gives you ownership over the sector its built in. It projects domain and allows you to gather income from the sector.</Data></Cell><Cell><Data ss:Type="String">建造一个能够给予你该区域所有权的基地。这会使领域扩张并允许你从该区域采集收益。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_BASE</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Building a base on this sector. Process will complete in [INT_duration].</Data></Cell><Cell><Data ss:Type="String">正在该区域建造基地，将于 [INT_duration] 后完成。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">INT_duration is an amount of turns</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_WATER_BASE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">[annex/] Annex Naval Base for {STR_cityName}</Data></Cell><Cell><Data ss:Type="String">为{STR_cityName}[annex/]吞并海军基地</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">STR_cityName is the name of the city</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_WATER_BASE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Builds a Naval Base which gives you ownership over the sector its built in. It projects domain and allows you to gather income from the sector.</Data></Cell><Cell><Data ss:Type="String">建造一个能够给予你该区域所有权的海军基地。这会使领域扩张并允许你从该区域采集收益。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_WATER_BASE</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Building a Naval Base in this sector. Process will complete in [INT_duration]</Data></Cell><Cell><Data ss:Type="String">正在该区域建造海军基地，将于 [INT_duration] 后完成</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_FORWARD_BASE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Build Forward Base</Data></Cell><Cell><Data ss:Type="String">建造前线基地</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_FORWARD_BASE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Builds a forward base which gives you ownership over the sector its built in. It does not project domain and does not allow you to gather income from the sector, but it provides vision and serves as an obstacle for your enemies.</Data></Cell><Cell><Data ss:Type="String">建造一个能够给予你该区域所有权的前线基地。这不会使领域扩张也无法从该区域采集收益，但能够提供视野并充当敌人的障碍物。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_FORWARD_BASE</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Building a forward base in this sector. Process will complete in [INT_duration]</Data></Cell><Cell><Data ss:Type="String">正在该区域建造前线基地，将于 [INT_duration] 后完成。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:StyleID="Default"><Cell><Data ss:Type="String">HAPPINESS_SUPPLY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Happiness Event: Food!</Data></Cell><Cell><Data ss:Type="String">幸福事件：食物！</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default"><Cell><Data ss:Type="String">HAPPINESS_SUPPLY</Data></Cell><Cell><Data ss:Type="String">LORE_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Due to the happiness[happiness/] of your population there is a boost in food income!</Data></Cell><Cell><Data ss:Type="String">由于你居民的幸福值[happiness/]，食物收益获得提升！</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default"><Cell><Data ss:Type="String">HAPPINESS_SUPPLY</Data></Cell><Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">The colony's food[supply/] income is increased by {INT_Percentage}% this turn.</Data></Cell><Cell><Data ss:Type="String">本回合殖民地食物[supply/]收益提升 {INT_Percentage}%。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:StyleID="Default"><Cell><Data ss:Type="String">HAPPINESS_PRODUCTION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Happiness Event: Production!</Data></Cell><Cell><Data ss:Type="String">幸福事件：产力！</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default"><Cell><Data ss:Type="String">HAPPINESS_PRODUCTION</Data></Cell><Cell><Data ss:Type="String">LORE_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Due to the happiness[happiness/] of your population there is a boost in production income!</Data></Cell><Cell><Data ss:Type="String">由于你居民的幸福值[happiness/]，产力收益获得提升！</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="59.25" ss:StyleID="Default"><Cell><Data ss:Type="String">HAPPINESS_PRODUCTION</Data></Cell><Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">The colony's production[production/] income is increased by {INT_Percentage}% this turn.</Data></Cell><Cell ss:StyleID="s62"><Data ss:Type="String">本回合殖民地产力[production/]收益提升 {INT_Percentage}%。</Data></Cell><Cell ss:Index="7" ss:StyleID="s62"/><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0" ss:StyleID="Default"><Cell><Data ss:Type="String">HAPPINESS_ENERGY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Happiness Event: Energy!</Data></Cell><Cell><Data ss:Type="String">幸福事件：能源！</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default"><Cell><Data ss:Type="String">HAPPINESS_ENERGY</Data></Cell><Cell><Data ss:Type="String">LORE_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Due to the happiness[happiness/] of your population there is a boost in energy income!</Data></Cell><Cell><Data ss:Type="String">由于你居民的幸福值[happiness/]，能源收益获得提升！</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default"><Cell><Data ss:Type="String">HAPPINESS_ENERGY</Data></Cell><Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">The colony's energy[energy/] income is increased by {INT_Percentage}% this turn.</Data></Cell><Cell><Data ss:Type="String">本回合殖民地能源[energy/]收益提升 {INT_Percentage}%。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:StyleID="Default"><Cell><Data ss:Type="String">HAPPINESS_RESEARCH</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Happiness Event: Knowledge!</Data></Cell><Cell><Data ss:Type="String">幸福事件：知识！</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="Default"><Cell><Data ss:Type="String">HAPPINESS_RESEARCH</Data></Cell><Cell><Data ss:Type="String">LORE_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Due to the happiness[happiness/]of your population there is a boost in knowledge income!</Data></Cell><Cell><Data ss:Type="String">由于你居民的幸福值[happiness/]，知识收益获得提升！</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="Default"><Cell><Data ss:Type="String">HAPPINESS_RESEARCH</Data></Cell><Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">The colony's knowledge[research/] income is increased by {INT_Percentage}% this turn.</Data></Cell><Cell><Data ss:Type="String">本回合殖民地知识[research/]收益提升 {INT_Percentage}%。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">UNREST</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s65"><Data ss:Type="String">Unrest</Data></Cell><Cell><Data ss:Type="String">动荡</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">UNREST</Data></Cell><Cell><Data ss:Type="String">LORE_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unhappiness[anger/] in your colony has led to unrest among its population! </Data></Cell><Cell><Data ss:Type="String">由于移住民感到不幸福[anger/]，殖民地中发生了动乱！ </Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="128.25"><Cell><Data ss:Type="String">UNREST</Data></Cell><Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{UnrestColonists} of the colonists in this colony have become rioters. Rioters cannot be moved from their slot and no longer produce resources.[br/][br/]Increase your [hyperlink,000003AC00000026]Colony Happiness[/hyperlink] to turn rioters back into normal colonists or activate [hyperlink,000003AC000002AB]Martial Law[/hyperlink], which will disable the happiness system at a loss of income, and convert rioters into normal colonists.</Data></Cell><Cell><Data ss:Type="String">移住民中的 {UnrestColonists} 已成为暴乱者。暴乱者不会再生产资源，也无法将其移出所在槽位。[br/][br/]提升你的[hyperlink,000003AC00000026]殖民地幸福值[/hyperlink]将暴乱者变回普通移住民，或是以一定收益为代价启用[hyperlink,000003AC000002AB]戒严令[/hyperlink]来禁用幸福值系统，从而使暴乱者变回普通移住民。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">UnrestColonists is a number of colonists</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">UNHAPPINESS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Growing Unhappiness</Data></Cell><Cell><Data ss:Type="String">日渐消沉</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">UNHAPPINESS</Data></Cell><Cell><Data ss:Type="String">LORE_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data ss:Type="String">The people in the colony are unhappy. If we do not act, they might start rioting![br/]Rioting colonists will occupy resource slots and not provide income!</Data></Cell><Cell><Data ss:Type="String">殖民地中的移住民感到苦闷。若不采取行动，他们可能会发起暴乱！[br/]暴乱的殖民者将占据资源槽位且不会提供收益！</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="135"><Cell><Data ss:Type="String">UNHAPPINESS</Data></Cell><Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data ss:Type="String">We should consider building a upgrades that increase happiness, such as: [hyperlink,0000034100000AD3]{XML_COLONYUPGRADES_STRATEGIC@CITY_SECTOR_HAPPINESS_I@NAME}[/hyperlink], [hyperlink,0000034100000AD9]{XML_COLONYUPGRADES_STRATEGIC@CITY_SECTOR_HAPPINESS_II@NAME}[/hyperlink], [hyperlink,0000034100000AD9]{XML_COLONYUPGRADES_STRATEGIC@CITY_SECTOR_HAPPINESS_III@NAME}[/hyperlink]. We could also assign colonists to produce more happiness.</Data></Cell><Cell><Data ss:Type="String">我们应考虑进行一些能够提升幸福值的升级，比如：[hyperlink,0000034100000AD3]{XML_COLONYUPGRADES_STRATEGIC@CITY_SECTOR_HAPPINESS_I@NAME}[/hyperlink]、[hyperlink,0000034100000AD9]{XML_COLONYUPGRADES_STRATEGIC@CITY_SECTOR_HAPPINESS_II@NAME}[/hyperlink]和[hyperlink,0000034100000AD9]{XML_COLONYUPGRADES_STRATEGIC@CITY_SECTOR_HAPPINESS_III@NAME}[/hyperlink]。我们也可以指派移住民生产更多的幸福值。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The structure names are: Recreational Dome (ColonyUpgrades_Strategic.xml, CITY_SECTOR_HAPPINESS_I, NAME), Botanical Gardens (ColonyUpgrades_Strategic.xml, CITY_SECTOR_HAPPINESS_II, NAME), Virtual Entertainment Plaza (ColonyUpgrades_Strategic.xml, CITY_SECTOR_HAPPINESS_III, NAME)</Data></Cell><Cell><Data ss:Type="String">If the names of these upgrades are changed, this line might need to be relocalized because of the gender of the inserted nouns has changed.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_OPERATION_HAZARD_CLEANUP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Remove Hazard</Data></Cell><Cell><Data ss:Type="String">消除灾害</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SECTOR_OPERATION_HAZARD_CLEANUP</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Removes the hazard affecting this sector, also removing its related penalties.</Data></Cell><Cell><Data ss:Type="String">消除影响该区域的灾害，这将同时消除相应的惩罚。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SECTOR_OPERATION_HAZARD_CLEANUP</Data></Cell><Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Removing a Hazard from this sector. Process will complete in [INT_duration]</Data></Cell><Cell><Data ss:Type="String">正在消除该区域的灾害，将于 [INT_duration] 后完成。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">INT_duration is an amount of turns</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CITY_SECTOR_BASE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The Colony Center location within the sector.</Data></Cell><Cell><Data ss:Type="String">区域内的殖民地中心地点。</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Zoom>115</Zoom><Selected/><Panes><Pane><Number>3</Number><ActiveRow>10</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:46:00Z</Created><LastSaved
+    >2019-06-25T15:46:00Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>9150</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s64"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
+      ss:ID="s65"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s66"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Borders /><Interior
+      /><NumberFormat /><Protection /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="297"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="219.75" /><Column
+        ss:StyleID="s62"
+        ss:Width="132.75"
+      /><Column ss:Index="4" ss:StyleID="s62" ss:Width="326.25" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="198.75"
+      /><Column ss:StyleID="s62" ss:Width="294" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data
+            ss:Type="String"
+          >COLONYDEFINITION_STRATEGIC</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CITY_SECTOR_BASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Colony Center</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地中心</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SECTOR_BASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sector Base</Data></Cell><Cell><Data
+            ss:Type="String"
+          >区域基地</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SECTOR_BASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A structure that claims the sector and expands domain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >拥有区域主权并扩张领域的建筑。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FORWARD_BASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Forward Base</Data></Cell><Cell><Data
+            ss:Type="String"
+          >前线基地</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">FORWARD_BASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This structure claims the sector for its owner. It provides healing to your units, and enemies cannot enter it without trespassing. However, it does not gather any income. [br/][br/]Founding a Colony on this structure will give it a free [hyperlink,0000034100000959]Military Infrastructure[/hyperlink] upgrade.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该建筑能使所有者拥有区域的主权，能够治疗你的单位。除非采取入侵方式，否则敌人将不能进入该建筑。但该建筑不会采集任何收益。[br/][br/]该建筑上建立的殖民地将免费获得[hyperlink,0000034100000959]军事基础设施[/hyperlink]升级。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_BUILD_BASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[annex/] Annex Sector as Province for {STR_cityName}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >为{STR_cityName}[annex/]吞并区域</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >STR_cityName is the name of the city</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_BUILD_BASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Builds a base which gives you ownership over the sector its built in. It projects domain and allows you to gather income from the sector.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >建造一个能够给予你该区域所有权的基地。这会使领域扩张并允许你从该区域采集收益。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_BUILD_BASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Building a base on this sector. Process will complete in [INT_duration].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在该区域建造基地，将于 [INT_duration] 后完成。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >INT_duration is an amount of turns</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_BUILD_WATER_BASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[annex/] Annex Naval Base for {STR_cityName}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >为{STR_cityName}[annex/]吞并海军基地</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >STR_cityName is the name of the city</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_BUILD_WATER_BASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Builds a Naval Base which gives you ownership over the sector its built in. It projects domain and allows you to gather income from the sector.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >建造一个能够给予你该区域所有权的海军基地。这会使领域扩张并允许你从该区域采集收益。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_BUILD_WATER_BASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Building a Naval Base in this sector. Process will complete in [INT_duration]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在该区域建造海军基地，将于 [INT_duration] 后完成</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_BUILD_FORWARD_BASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Build Forward Base</Data></Cell><Cell><Data
+            ss:Type="String"
+          >建造前线基地</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_BUILD_FORWARD_BASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Builds a forward base which gives you ownership over the sector its built in. It does not project domain and does not allow you to gather income from the sector, but it provides vision and serves as an obstacle for your enemies.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >建造一个能够给予你该区域所有权的前线基地。这不会使领域扩张也无法从该区域采集收益，但能够提供视野并充当敌人的障碍物。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_BUILD_FORWARD_BASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Building a forward base in this sector. Process will complete in [INT_duration]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在该区域建造前线基地，将于 [INT_duration] 后完成。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:StyleID="Default"
+      ><Cell><Data ss:Type="String">HAPPINESS_SUPPLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Happiness Event: Food!</Data></Cell><Cell><Data
+            ss:Type="String"
+          >幸福事件：食物！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+        ss:StyleID="Default"
+      ><Cell><Data ss:Type="String">HAPPINESS_SUPPLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Due to the happiness[happiness/] of your population there is a boost in food income!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由于你居民的幸福值[happiness/]，食物收益获得提升！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+        ss:StyleID="Default"
+      ><Cell><Data ss:Type="String">HAPPINESS_SUPPLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >The colony's food[supply/] income is increased by {INT_Percentage}% this turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >本回合殖民地食物[supply/]收益提升 {INT_Percentage}%。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:StyleID="Default"
+      ><Cell><Data ss:Type="String">HAPPINESS_PRODUCTION</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Happiness Event: Production!</Data></Cell><Cell><Data
+            ss:Type="String"
+          >幸福事件：产力！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+        ss:StyleID="Default"
+      ><Cell><Data ss:Type="String">HAPPINESS_PRODUCTION</Data></Cell><Cell
+        ><Data ss:Type="String">LORE_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Due to the happiness[happiness/] of your population there is a boost in production income!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由于你居民的幸福值[happiness/]，产力收益获得提升！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="59.25"
+        ss:StyleID="Default"
+      ><Cell><Data ss:Type="String">HAPPINESS_PRODUCTION</Data></Cell><Cell
+        ><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >The colony's production[production/] income is increased by {INT_Percentage}% this turn.</Data></Cell><Cell
+          ss:StyleID="s62"
+        ><Data
+            ss:Type="String"
+          >本回合殖民地产力[production/]收益提升 {INT_Percentage}%。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s62"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:StyleID="Default"
+      ><Cell><Data ss:Type="String">HAPPINESS_ENERGY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Happiness Event: Energy!</Data></Cell><Cell><Data
+            ss:Type="String"
+          >幸福事件：能源！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+        ss:StyleID="Default"
+      ><Cell><Data ss:Type="String">HAPPINESS_ENERGY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Due to the happiness[happiness/] of your population there is a boost in energy income!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由于你居民的幸福值[happiness/]，能源收益获得提升！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+        ss:StyleID="Default"
+      ><Cell><Data ss:Type="String">HAPPINESS_ENERGY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >The colony's energy[energy/] income is increased by {INT_Percentage}% this turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >本回合殖民地能源[energy/]收益提升 {INT_Percentage}%。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:StyleID="Default"
+      ><Cell><Data ss:Type="String">HAPPINESS_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Happiness Event: Knowledge!</Data></Cell><Cell><Data
+            ss:Type="String"
+          >幸福事件：知识！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+        ss:StyleID="Default"
+      ><Cell><Data ss:Type="String">HAPPINESS_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Due to the happiness[happiness/]of your population there is a boost in knowledge income!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由于你居民的幸福值[happiness/]，知识收益获得提升！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+        ss:StyleID="Default"
+      ><Cell><Data ss:Type="String">HAPPINESS_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >The colony's knowledge[research/] income is increased by {INT_Percentage}% this turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >本回合殖民地知识[research/]收益提升 {INT_Percentage}%。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">UNREST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Unrest</Data></Cell><Cell><Data
+            ss:Type="String"
+          >动荡</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">UNREST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unhappiness[anger/] in your colony has led to unrest among its population! </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由于移住民感到不幸福[anger/]，殖民地中发生了动乱！ </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="128.25"
+      ><Cell><Data ss:Type="String">UNREST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOGIC_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{UnrestColonists} of the colonists in this colony have become rioters. Rioters cannot be moved from their slot and no longer produce resources.[br/][br/]Increase your [hyperlink,000003AC00000026]Colony Happiness[/hyperlink] to turn rioters back into normal colonists or activate [hyperlink,000003AC000002AB]Martial Law[/hyperlink], which will disable the happiness system at a loss of income, and convert rioters into normal colonists.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >移住民中的 {UnrestColonists} 已成为暴乱者。暴乱者不会再生产资源，也无法将其移出所在槽位。[br/][br/]提升你的[hyperlink,000003AC00000026]殖民地幸福值[/hyperlink]将暴乱者变回普通移住民，或是以一定收益为代价启用[hyperlink,000003AC000002AB]戒严令[/hyperlink]来禁用幸福值系统，从而使暴乱者变回普通移住民。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >UnrestColonists is a number of colonists</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">UNHAPPINESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Growing Unhappiness</Data></Cell><Cell><Data
+            ss:Type="String"
+          >日渐消沉</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">UNHAPPINESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >The people in the colony are unhappy. If we do not act, they might start rioting![br/]Rioting colonists will occupy resource slots and not provide income!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >殖民地中的移住民感到苦闷。若不采取行动，他们可能会发起暴乱！[br/]暴乱的殖民者将占据资源槽位且不会提供收益！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="135"
+      ><Cell><Data ss:Type="String">UNHAPPINESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >We should consider building a upgrades that increase happiness, such as: [hyperlink,0000034100000AD3]{XML_COLONYUPGRADES_STRATEGIC@CITY_SECTOR_HAPPINESS_I@NAME}[/hyperlink], [hyperlink,0000034100000AD9]{XML_COLONYUPGRADES_STRATEGIC@CITY_SECTOR_HAPPINESS_II@NAME}[/hyperlink], [hyperlink,0000034100000AD9]{XML_COLONYUPGRADES_STRATEGIC@CITY_SECTOR_HAPPINESS_III@NAME}[/hyperlink]. We could also assign colonists to produce more happiness.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们应考虑进行一些能够提升幸福值的升级，比如：[hyperlink,0000034100000AD3]{XML_COLONYUPGRADES_STRATEGIC@CITY_SECTOR_HAPPINESS_I@NAME}[/hyperlink]、[hyperlink,0000034100000AD9]{XML_COLONYUPGRADES_STRATEGIC@CITY_SECTOR_HAPPINESS_II@NAME}[/hyperlink]和[hyperlink,0000034100000AD9]{XML_COLONYUPGRADES_STRATEGIC@CITY_SECTOR_HAPPINESS_III@NAME}[/hyperlink]。我们也可以指派移住民生产更多的幸福值。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The structure names are: Recreational Dome (ColonyUpgrades_Strategic.xml, CITY_SECTOR_HAPPINESS_I, NAME), Botanical Gardens (ColonyUpgrades_Strategic.xml, CITY_SECTOR_HAPPINESS_II, NAME), Virtual Entertainment Plaza (ColonyUpgrades_Strategic.xml, CITY_SECTOR_HAPPINESS_III, NAME)</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >If the names of these upgrades are changed, this line might need to be relocalized because of the gender of the inserted nouns has changed.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_HAZARD_CLEANUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Remove Hazard</Data></Cell><Cell><Data
+            ss:Type="String"
+          >消除灾害</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_HAZARD_CLEANUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Removes the hazard affecting this sector, also removing its related penalties.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >消除影响该区域的灾害，这将同时消除相应的惩罚。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_HAZARD_CLEANUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INPROGRESS_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Removing a Hazard from this sector. Process will complete in [INT_duration]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在消除该区域的灾害，将于 [INT_duration] 后完成。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >INT_duration is an amount of turns</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CITY_SECTOR_BASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Colony Center location within the sector.</Data></Cell><Cell
+        ><Data ss:Type="String">区域内的殖民地中心地点。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>115</Zoom><Selected /><Panes
+      ><Pane><Number>3</Number><ActiveRow>10</ActiveRow><ActiveCol
+          >3</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

@@ -1,1 +1,1517 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:52:43Z</Created><LastSaved>2019-06-25T15:52:43Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange>0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/></Style><Style ss:ID="s63"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15"><Column ss:StyleID="s62" ss:Width="236.25"/><Column ss:StyleID="s62" ss:Width="66.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="439.5"/><Column ss:StyleID="s62" ss:Width="147.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="151.5"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="188.25"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="439.5"/><Row ss:AutoFitHeight="0" ss:Height="135" ss:StyleID="s63"><Cell><Data ss:Type="String">SECTORDEFINITIONS_STRATEGIC</Data></Cell><Cell ss:Index="3" ss:StyleID="s62"/><Cell ss:StyleID="s62"/><Cell ss:Index="7" ss:StyleID="s62"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell><Cell ss:StyleID="s62"/><Cell ss:StyleID="s62"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30.75"><Cell><Data ss:Type="String">HOPPERHOUND_SPAWNER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Hopperhound Nest</Data></Cell><Cell><Data ss:Type="String">跳蝗巢穴</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Structure name. Hopperhounds are wildlife.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">HOPPERHOUND_SPAWNER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A nest of Hopperhounds, vicious creatures that plague post-collapse Star Union worlds.[br/]If neglected, the creatures will attack nearby colonies and armies.</Data></Cell><Cell><Data ss:Type="String">跳蝗的巢穴。这是一种恶毒的生物，滋生于星际联盟崩坏后的各个星球。[br/]如果忽视这个巢穴，跳蝗将攻击附近的殖民地和军队。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Structure description.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">QUARTZITE_SPAWNER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Quartzite Nest</Data></Cell><Cell><Data ss:Type="String">石英岩兽巢穴</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Structure name. Quartzite are wildlife.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">QUARTZITE_SPAWNER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A nest of Quartzite, silicon lifeforms with different properties based on their rock formation.[br/]If neglected, the creatures will attack nearby colonies and armies.</Data></Cell><Cell><Data ss:Type="String">石英岩兽的巢穴。这是一种硅石生命形态，基于不同的岩石构造拥有不同的属性。[br/]如果忽视这个巢穴，石英岩兽将攻击附近的殖民地和军队。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Structure description.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="33"><Cell><Data ss:Type="String">BEETLE_SPAWNER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Beetle Nest</Data></Cell><Cell><Data ss:Type="String">甲虫兽巢穴</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Structure name. Beetles are wildlife.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45.75"><Cell><Data ss:Type="String">BEETLE_SPAWNER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A nest of Mega Beetles, creatures with strong pincers, Biochemical attacks and explosive death rattles.[br/]If neglected, the creatures will attack nearby colonies and armies.</Data></Cell><Cell><Data ss:Type="String">大甲虫兽的巢穴。这种生物长有强健的螯，能够发动生化攻击并在死亡时发生爆炸。[br/]如果忽视这个巢穴，甲虫兽将攻击附近的殖民地和军队。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Structure description. Explosive death rattle means that they explode when killed.</Data></Cell><Cell><Data ss:Type="String">A nest of Mega Beetles, creatures with strong pincers, biochemical attacks and explosive death rattles.[br/]If neglected, the creatures will attack nearby colonies and armies.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PIRATE_SPAWNER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Pirate Hideout</Data></Cell><Cell><Data ss:Type="String">海盗藏匿处</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Structure name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">PIRATE_SPAWNER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Hideout of freemen and ex-mercenaries, surviving by stealing and selling tech and gear.[br/]If neglected, the pirates will raid nearby colonies and armies.</Data></Cell><Cell><Data ss:Type="String">自由民众和前佣兵人员构成的团伙藏身之处，靠偷窃和贩卖科技和装备为生。[br/]如果忽略这个藏匿处，海盗将掠夺附近的殖民地和军队。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Structure description</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AQUATIC_SPAWNER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Aquatic Nest</Data></Cell><Cell><Data ss:Type="String">水兽巢穴</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Struture name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">AQUATIC_SPAWNER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The gentle Octowhale and the boat-eating Chelus live in these depths, aiding one another.[br/]If neglected, the creatures will attack nearby colonies and armies.</Data></Cell><Cell><Data ss:Type="String">性情温和的八爪鲸和喜爱啃食船只的蛇颈龟在这些深暗的地方生活并相互扶持。[br/]如果忽略这个巢穴，这些生物将攻击附近的殖民地和军队。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Structure description.</Data></Cell><Cell><Data ss:Type="String">The gentle Octowhale and the boat eating Chelus live in these depths, aiding one another.[br/]If neglected, the creatures will attack nearby colonies and armies.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SUBMARINE_SPAWNER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Empire Naval Base</Data></Cell><Cell><Data ss:Type="String">帝国海军基地</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Struture name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SUBMARINE_SPAWNER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Empire submarines guard these waters, attacking any intruders they detect on their radars.[br/]If neglected, the submarines will attack nearby colonies and armies.</Data></Cell><Cell><Data ss:Type="String">帝国潜艇守卫着这些水域，他们会攻击出现在雷达上的任何入侵者。[br/]如果忽视这个基地，潜艇将攻击附近的殖民地和军队。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Structure description.</Data></Cell><Cell><Data ss:Type="String">Empire submarines guard these waters, attacking any intruders they detect in their radars.[br/]If neglected, the submarines will attack nearby colonies and armies.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:StyleID="s63"><Cell><Data ss:Type="String">WILDLIFE_SPAWNER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s62"><Data ss:Type="String">Wildlife Nest</Data></Cell><Cell ss:StyleID="s62"><Data ss:Type="String">野生动物巢穴</Data></Cell><Cell ss:Index="7" ss:StyleID="s62"><Data ss:Type="String">Struture name.</Data></Cell><Cell ss:StyleID="s62"/><Cell ss:StyleID="s62"/></Row><Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63"><Cell><Data ss:Type="String">WILDLIFE_SPAWNER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s62"><Data ss:Type="String">Once locked in zoos by the Star Union, their collection now nests here after the Collapse.[br/]If neglected, the creatures will attack nearby colonies and armies.</Data></Cell><Cell ss:StyleID="s62"><Data ss:Type="String">曾经被关在星际联盟的动物园中的动物在联盟崩坏后聚居于此。[br/]如果忽略这个巢穴，这些生物将攻击附近的殖民地和军队。</Data></Cell><Cell ss:Index="7" ss:StyleID="s62"><Data ss:Type="String">Structure description.</Data></Cell><Cell ss:StyleID="s62"/><Cell ss:StyleID="s62"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MOUNTAIN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Mountain</Data></Cell><Cell><Data ss:Type="String">山地</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Biome type name.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MOUNTAIN</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">A mountain range is present within the sector.</Data></Cell><Cell><Data ss:Type="String">该区域内有山脉。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Short biome description.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">MOUNTAIN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A mountain range is present within the sector. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_4_NAME}[/bullet][br/][indent]All Production [production/] and Energy [energy/] sectors on Mountains gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell><Data ss:Type="String">该区域内有山脉。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_4_NAME}[/bullet][br/][indent]位于山地的所有产力[production/]和能量[energy/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Long biome description with player tips and economy info.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FOREST</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Forest</Data></Cell><Cell><Data ss:Type="String">森林</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Biome type name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">FOREST</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">There is a forested area present in this sector. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_4_NAME}[/bullet][br/][indent]All Production [production/] and Food [supply/] sectors on Forest gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell><Data ss:Type="String">该区域内有森林。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_4_NAME}[/bullet][br/][indent]位于森林的所有产力[production/]和食物[supply/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Long biome description with player tips and economy info.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RUINS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Ruins</Data></Cell><Cell><Data ss:Type="String">废墟</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Biome type name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">RUINS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Old remains of the Star Union are still present in this sector. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_5_NAME}[/bullet][br/][indent]All Research [research/] and Energy [energy/] sectors on Ruins gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell><Data ss:Type="String">该区域中仍有星际联盟的古老废墟。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_5_NAME}[/bullet][br/][indent]位于废墟的所有研究[research/]和能量[energy/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Long biome description with player tips and economy info.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLAINS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Fertile Plains</Data></Cell><Cell><Data ss:Type="String">肥沃平原</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Biome type name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">PLAINS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">These plains are highly fertile and have a rich population of microscopic life. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_5_NAME}[/bullet][br/][indent]All Research [research/] and Food [supply/] sectors on Fertile Plains gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell><Data ss:Type="String">这些平原非常肥沃，拥有丰富多样的微生物。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_5_NAME}[/bullet][br/][indent]位于肥沃平原上的研究[research/]和食物[supply/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Long biome description with player tips and economy info.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">COASTAL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Coast</Data></Cell><Cell><Data ss:Type="String">海滨</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Biome type name.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">COASTAL</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">Coastal sectors are sectors of Ocean that are bordered by a landmass. Due to their proximity to land, Coastal sectors are more easily exploited.</Data></Cell><Cell><Data ss:Type="String">海滨区域是指与大陆相邻的海洋区域。由于靠近陆地，海滨区域更容易得到开发。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Short biome description.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">COASTAL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Coastal sectors are sectors of Ocean that are bordered by a landmass. Due to their proximity to land, Coastal sectors are more easily exploited. Coast sectors yield Energy [energy/], Food [supply/] and Knowledge [research/]. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_NAME}[/bullet][br/][indent]All Coast sectors gain +1 level.[/indent][/bulletlist][br/][br/]Further Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_5_NAME}[/bullet][br/][indent]All Coast sectors gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell><Data ss:Type="String">海滨区域是指与大陆相邻的海洋区域。由于靠近陆地，海滨区域更容易得到开发。海滨区域可以产出能量[energy/]、食物[supply/]和知识[research/]。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_NAME}[/bullet][br/][indent]所有海滨区域等级 +1。[/indent][/bulletlist][br/][br/]深入研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_5_NAME}[/bullet][br/][indent]所有海滨区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Long biome description with player tips and economy info.</Data></Cell><Cell><Data ss:Type="String">This is a water sector with a coast present.  Coast sectors yield Energy [energy/], Food [supply/] and Knowledge [research/]. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_NAME}[/bullet][br/][indent]All Coast sectors gain +1 level.[/indent][/bulletlist][br/][br/]Further Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_5_NAME}[/bullet][br/][indent]All Coast sectors gain +1 level.[/indent][/bulletlist]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ARCADIAN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Arcadian</Data></Cell><Cell><Data ss:Type="String">田园</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Clime type name.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ARCADIAN</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">The arcadian climate is an unspoiled, harmonious wilderness predominantly consisting of grasslands.</Data></Cell><Cell><Data ss:Type="String">田园气候带是自然而和谐的荒野区域，主要由草原构成。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Short clime description.</Data></Cell><Cell><Data ss:Type="String">The arcadian climate is an unspoiled, harmonious wilderness composed of predominantly grasslands</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">ARCADIAN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The arcadian climate is an unspoiled, harmonious wilderness predominantly consisting of grasslands. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_3_NAME}[/bullet][br/][indent]All Food [supply/] and Energy [energy/] sectors on Arcadian gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell><Data ss:Type="String">田园气候带是自然而和谐的荒野区域，主要由草原构成。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_3_NAME}[/bullet][br/][indent]位于田园区域的所有食物[supply/]和能量[energy/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Long clime description with player tips and economy info.</Data></Cell><Cell><Data ss:Type="String">The arcadian climate is an unspoiled, harmonious wilderness compromised of predominantly grasslands. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_3_NAME}[/bullet][br/][indent]All Food [supply/] and Energy [energy/] sectors on Arcadian gain +1 level.[/indent][/bulletlist]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ARCTIC</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Arctic</Data></Cell><Cell><Data ss:Type="String">极寒</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Clime type name.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ARCTIC</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">The arctic climate is a snow covered landscape with harsh conditions.</Data></Cell><Cell><Data ss:Type="String">极寒气候带地表由白雪覆盖，环境恶劣。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Short clime description.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">ARCTIC</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The arctic climate is a snow covered landscape with harsh conditions.[br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_2_NAME}[/bullet][br/][indent]All Research [research/] and Production [production/] sectors on Arctic gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell><Data ss:Type="String">极寒气候带地表由白雪覆盖，环境恶劣。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_2_NAME}[/bullet][br/][indent]位于极寒区域的所有研究[research/]和产力[production/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Long clime description with player tips and economy info.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ARID</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Arid</Data></Cell><Cell><Data ss:Type="String">干燥</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Clime type name.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ARID</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">The arid climate is defined by a dry, unforgiving heat and a general lack of water.</Data></Cell><Cell><Data ss:Type="String">干燥区域气候干旱、温度极高且普遍缺少水分。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Short clime description.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">ARID</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The arid climate is defined by a dry, unforgiving heat and a general lack of water. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_2_NAME}[/bullet][br/][indent]All Energy [energy/] and Production [production/] sectors on Arid gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell><Data ss:Type="String">干燥区域气候干旱、温度极高且普遍缺少水分。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_2_NAME}[/bullet][br/][indent]位于干燥区域的所有能量[energy/]和产力[production/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Long clime description with player tips and economy info.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FUNGAL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Fungal</Data></Cell><Cell><Data ss:Type="String">真菌</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Clime type name.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FUNGAL</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">The fungal climate is host to wild growth resulting in an extremely biodiverse area.</Data></Cell><Cell><Data ss:Type="String">真菌区域是许多野生植物生长的地带，因此形成了生物极其多样化的区域。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Short clime description.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">FUNGAL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The fungal climate is host to wild growth resulting in an extremely biodiverse area. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_3_NAME}[/bullet][br/][indent]All Research [research/] and Food [supply/] sectors on Fungal gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell><Data ss:Type="String">真菌区域是许多野生植物生长的地带，因此形成了生物极其多样化的区域。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_3_NAME}[/bullet][br/][indent]位于真菌区域的所有研究[research/]和食物[supply/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Long clime description with player tips and economy info.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BADLANDS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Volcanic</Data></Cell><Cell><Data ss:Type="String">火山</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">sector type name.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BADLANDS</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">Volcanic sectors are hostile wastelands with harsh living conditions.</Data></Cell><Cell><Data ss:Type="String">火山区域是种恶劣的废土区域，生存条件恶劣。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Short sector description.</Data></Cell><Cell><Data ss:Type="String">Volcanic sectors are a hostile wasteland with harsh living conditions.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">BADLANDS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Volcanic sectors are hostile wastelands with harsh living conditions.[br/][br/][negative]Colonies in this sector get [abilityred]-8[/abilityred][anger/].[/negative][br/][br/]Possible research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_6_NAME}[/bullet][br/][indent]All sectors on Volcanic terrain gain +1 level.[br/] Colonies ignore all economic penalties from Volcanic terrain.[/indent][/bulletlist]</Data></Cell><Cell><Data ss:Type="String">火山区域是一种不利的废土区域，生存条件极为恶劣。[br/][br/][negative]该区域中的殖民地获得 [abilityred]-8[/abilityred][anger/]。.[/negative][br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_6_NAME}[/bullet][br/][indent]所有位于火山地形上的区域等级 +1。[br/]殖民地无视火山地形带来的所有经济惩罚。[/indent][/bulletlist]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Long sector description with player tips and economy info.</Data></Cell><Cell><Data ss:Type="String">Volcanic sectors are a hostile wasteland with harsh living conditions.[br/][br/][negative]Colonies with this sector get [abilityred]-8[/abilityred][anger/].</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BADLANDS</Data></Cell><Cell><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data ss:Type="String">{IncomePenalty}</Data></Cell><Cell><Data ss:Type="String">{IncomePenalty}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">No translation required</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">OCEAN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Ocean</Data></Cell><Cell><Data ss:Type="String">海洋</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">sector type name.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">OCEAN</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">Ocean sectors are great regions signified by a vast amount of water and endless depths. </Data></Cell><Cell><Data ss:Type="String">海洋区域无边无际、深不见底，由大面积的海水覆盖。 </Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Short sector description.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">OCEAN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Ocean sectors are great regions signified by a vast amount of water and endless depths. Ocean sectors normally do not provide any economic bonuses and cannot be annexed to a colony, except if a Coast is present.</Data></Cell><Cell><Data ss:Type="String">海洋区域无边无际、深不见底，由大面积的海水覆盖。海洋区域不会提供任何经济加成且无法被殖民地吞并，除非区域中存在海滨。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Long sector description with player tips and economy info.</Data></Cell><Cell><Data ss:Type="String">Ocean sectors normally do not provide any economic bonusses and cannot be annexed to a colony, except if a Coast is present.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FULL_LAVA</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Lava</Data></Cell><Cell><Data ss:Type="String">岩浆</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">sector type name.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FULL_LAVA</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">Lava sectors are large regions of never cooling, constantly hot lava.</Data></Cell><Cell><Data ss:Type="String">岩浆区域面积广阔，充满了永不冷却的高温岩浆。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Short sector description.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FULL_LAVA</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Lava sectors are large regions of never cooling, constantly hot lava. Lava sectors do not provide any economic bonusses and cannot be annexed to a colony.</Data></Cell><Cell><Data ss:Type="String">岩浆区域面积广阔，充满了永不冷却的高温岩浆。岩浆区域不会提供任何经济加成且无法被殖民地吞并。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">sector type name.</Data></Cell><Cell><Data ss:Type="String">Lava sectors do not provide any economic bonusses and cannot be annexed to a colony.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Void</Data></Cell><Cell><Data ss:Type="String">虚空</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Short sector description.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">Void sectors are parts of the planet that have disappeared into the Void dimension.</Data></Cell><Cell><Data ss:Type="String">虚空区域是星球上已经消失在虚空维度中的地区。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">sector type name.</Data></Cell><Cell><Data ss:Type="String">Vast void sector.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">VOID</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Void sectors are parts of the planet that have disappeared into the Void dimension. Void sectors do not provide any economic bonuses and cannot be annexed to a colony.</Data></Cell><Cell><Data ss:Type="String">虚空区域是星球上已经消失在虚空维度中的地区。虚空区域不会提供任何经济加成且无法被殖民地吞并。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Short sector description.</Data></Cell><Cell><Data ss:Type="String">Void sectors do not provide any economic bonusses and cannot be annexed to a colony.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LAVA</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Lava</Data></Cell><Cell><Data ss:Type="String">岩浆</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Short sector description.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">LAVA</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A chasm filled with lava runs through this sector. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_6_NAME}[/bullet][br/][indent]Your colony gains {energy} Energy for each sector with a Lava chasm within its domain.[/indent][/bulletlist]</Data></Cell><Cell><Data ss:Type="String">一个满是熔岩流淌的裂口从该区域穿过。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_6_NAME}[/bullet][br/][indent]殖民地领域内每存在一个带有熔岩裂口的区域，就获得 {energy} 能量。[/indent][/bulletlist]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Long sector description with player tips and economy info.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">RIVER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">River</Data></Cell><Cell><Data ss:Type="String">河流</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Short sector description.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">RIVER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A river runs through this sector. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_2_5_NAME}[/bullet][br/][indent]Your colony gains {food} Food for each sector with a River within its domain.[/indent][/bulletlist]</Data></Cell><Cell><Data ss:Type="String">一条河流从该区域流过。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_2_5_NAME}[/bullet][br/][indent]殖民地领域内每存在一个带有河流的区域，就获得 {food} 食物。[/indent][/bulletlist]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Long sector description with player tips and economy info.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">COLONIZABLE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Potential Colony Location</Data></Cell><Cell><Data ss:Type="String">潜在殖民地点</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">COLONIZABLE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This sector is a potential location to found a new colony. Founding a new colony requires a Colonizer unit.</Data></Cell><Cell><Data ss:Type="String">该区域是建造新殖民地的潜在地点。建造殖民地需要殖民者单位。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property description.</Data></Cell><Cell><Data ss:Type="String">This sector is a potential location to found a new colony. Founding a new colony requires a colonizer unit.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">UNINHABITABLE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Uninhabitable</Data></Cell><Cell><Data ss:Type="String">不宜居</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">UNINHABITABLE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This sector is uninhabitable. You cannot build a colony or a forward base here, nor can you annex this sector to a colony.</Data></Cell><Cell><Data ss:Type="String">该区域不宜居住。你无法在此建造殖民地或前线基地，也无法将该区域吞并至殖民地。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property description.</Data></Cell><Cell><Data ss:Type="String">This sector is uninhabitable, you cannot build a colony or a forward base here, nor can you annex this sector to a colony.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ALREADY_PROSPECTED</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Cannot Prospect</Data></Cell><Cell><Data ss:Type="String">无法勘探</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ALREADY_PROSPECTED</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This sector cannot be prospected to gain extra resources.</Data></Cell><Cell><Data ss:Type="String">无法通过勘探该区域获得额外资源。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property description.</Data></Cell><Cell><Data ss:Type="String">This sector cannot be Prospected to gain extra resources.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_MEADOWS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Meadow</Data></Cell><Cell><Data ss:Type="String">牧场</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SPECIAL_SECTOR_MEADOWS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fertile meadows are perfect for food production. [br/]Grants {MeadowsSupply} [supply/]Food to the colony it is linked to.</Data></Cell><Cell><Data ss:Type="String">肥沃的牧场非常适合食物生产。[br/]与该区域相连接的殖民地获得 {MeadowsSupply} [supply/]食物。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property description.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">SPECIAL_SECTOR_MEADOWS</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">Hidden from the naked eye, these 'meadows' are artificially modified to be unnaturally fertile. Food production for fresh Star Union colonies would often begin here as larger supply facilities were still being constructed. </Data></Cell><Cell><Data ss:Type="String">这些所谓的牧场经过肉眼无法识别的人工改造变得极其肥沃。在建造更大的补给设施时，新建立的星际联盟殖民地通常会从这些地方开始进行食物生产。 </Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell><Data ss:Type="String">These fertile meadows seem natural but are artificially made as incredibly fertile as they are via manners invisible to the naked eye, maintained by terratech in the Union's prime these fields are now left to grow unchecked.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_MEADOWS</Data></Cell><Cell><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">No translation required</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_DELTA</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">River Delta</Data></Cell><Cell><Data ss:Type="String">河口三角洲</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SPECIAL_SECTOR_DELTA</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This sector features a River Delta. [br/]Grants {DeltaSupply} [supply/]Food to the colony it is linked to.</Data></Cell><Cell><Data ss:Type="String">该区域中有一个河口三角洲。[br/]与该区域相连的殖民地获得 {DeltaSupply} [supply/]食物。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property description.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SPECIAL_SECTOR_DELTA</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">River Deltas had been vital to the development of civilization, but with the advancement of civilization, their importance has been marginalized. They are still fertile lands perfect for agriculture, and smaller colonies often made use of them.</Data></Cell><Cell><Data ss:Type="String">河口三角洲在文明的发展过程中极其重要，但随着文明的不断进步，其重要性渐渐被忽视了。这些区域仍然是适合农业发展的肥沃地区。规模较小的殖民地往往会利用这些三角洲地带。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_DELTA</Data></Cell><Cell><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">No translation required</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_GEOTHERMAL_RIFT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Geothermal Rift</Data></Cell><Cell><Data ss:Type="String">地热裂隙</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SPECIAL_SECTOR_GEOTHERMAL_RIFT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Geothermal Rifts contain chasms of boiling magma, rife with energy to be exploited. [br/]Grants {GeothermalEnergy} [energy/]Energy to the colony it is linked to.</Data></Cell><Cell><Data ss:Type="String">地热裂隙中有沸腾的岩浆裂口，蕴含诸多待开发的能量。[br/]与该区域相连的殖民地获得 {GeothermalEnergy} [energy/]能量。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property description.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">SPECIAL_SECTOR_GEOTHERMAL_RIFT</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">Geothermal energy is ever-present in habitable planets. Sometimes this violent energy erupts onto the surface, creating Geothermal Rifts. Ideal resources of natural energy, these Rifts are often used to generate the power necessary for the function of nearby Star Union colonies.</Data></Cell><Cell><Data ss:Type="String">适宜居住的星球上一直都存在地热能量，有时这种剧烈的能量会爆发至地表，形成地热裂隙。地热裂隙中的能量通常用来生成附近星际联盟殖民地运转所必须的能源。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_GEOTHERMAL_RIFT</Data></Cell><Cell><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">No translation required</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_HIGHRISE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Highrise</Data></Cell><Cell><Data ss:Type="String">高层建筑</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SPECIAL_SECTOR_HIGHRISE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Highrise districts housed many of the Star Union's citizenry in their tall residential blocks. [br/]Grants +{slot} [Foodslot/], +{slot} [productionslot/], +{slot} [energyslot/] and +{slot} [researchslot/] to the colony it is linked to.</Data></Cell><Cell><Data ss:Type="String">高层建筑区中高耸的住宅区中聚居着大量星际联盟居民。[br/]与该区域相连的殖民地获得 +{slot} [Foodslot/]、+{slot} [productionslot/]、+{slot} [energyslot/] 以及 +{slot} [researchslot/]。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property description.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SPECIAL_SECTOR_HIGHRISE</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">The residential blocks of the Star Union's Highrise districts housed thousands of citizens each. It was in these blocks that the Star Union's middle class lived, under the watchful eye of CORE.</Data></Cell><Cell><Data ss:Type="String">每个星际联盟的高层建筑住宅区内都居住着成千上万的市民，居住在这些街区中的居民均为中产阶级并受到核心的密切监视。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_HIGHRISE</Data></Cell><Cell><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">No translation required</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_TRANSIT_HUB</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Transit Hub</Data></Cell><Cell><Data ss:Type="String">交通枢纽</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SPECIAL_SECTOR_TRANSIT_HUB</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Star Union Transit Hubs are vital to any colony's logistics efforts. This sector contains an unusually high amount of retrievable supplies and logistical structures.</Data></Cell><Cell><Data ss:Type="String">星际联盟交通枢纽对所有殖民地的物流工作都非常重要。该区域内通常含有大量可以回收的补给和物流建筑。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property description.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SPECIAL_SECTOR_TRANSIT_HUB</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">Transit Hubs are common on Star Union worlds, functioning as centers of on-world logistics. From these sectors, the allocation and transport of resources is coordinated, and they function as storage centers for shipments before they are sent out.</Data></Cell><Cell><Data ss:Type="String">交通枢纽在星际联盟的各个星球上十分常见。它们是星球内物流运输的中心，各种资源通过这些区域协调后进行分配和运输。在资源被送出前，这些区域也充当着储备中心的作用。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_INDUSTRIAL_REFINERY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Industrial Refinery District</Data></Cell><Cell><Data ss:Type="String">工业精炼厂区</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">SPECIAL_SECTOR_INDUSTRIAL_REFINERY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Industrial Refineries were where a large part of the automated manufacturing for the Star Union took place. This district has strong production capabilities. Additionally, this sector contains a refinery which has been claimed by the Spacers, who use it to refine traditional fuels to supply their raids. [br/]Grants {RefineryIncome} [production/] to the colony it is linked to.</Data></Cell><Cell><Data ss:Type="String">工业精炼厂是星际联盟大部分自动化生产工作的发生地。该区域拥有强大的生产能力。此外，该区域内有座精炼厂被太空掠夺者占领，他们用精炼厂提炼传统燃料以此来为他们的掠夺活动提供补给。[br/]与该区域连接的殖民地获得 {RefineryIncome} [production/]。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property description.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SPECIAL_SECTOR_INDUSTRIAL_REFINERY</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">Traditional fuels had always retained a degree of use in heavy machinery in the Star Union. After the Cataclysm the Spacers' became the main consumers of these fuels, using them to supply their vehicles as they fought for resources on their isolated worlds.</Data></Cell><Cell><Data ss:Type="String">一直以来，传统燃料都应用于星际联盟的重型机械。大灾变之后，太空掠夺者成为了传统燃料的主要消费者。他们在偏僻的星球中四处掠夺资源时，会使用这种燃料为他们的载具提供补给。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell><Data ss:Type="String">Traditional fuels had always retained a degree of use in heavy machinery in the Star Union. After the Cataclysm the Spacers' became the main consumers of these fuels, using them to supply their vehicles as they fought for resources on their isolated worlds.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_INDUSTRIAL_REFINERY</Data></Cell><Cell><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">No translation required</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_SUNKEN_DISTRICT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Sunken District</Data></Cell><Cell><Data ss:Type="String">沉没区域</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SPECIAL_SECTOR_SUNKEN_DISTRICT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This sector was once a thriving Star Union colony district, before being reclaimed by the sea.[br/]Grants {SunkenDistrictResearch} [research/] to the colony it is linked to.</Data></Cell><Cell><Data ss:Type="String">该区域曾是繁荣的星际联盟殖民地，后被海洋吞没。[br/]与该区域连接的殖民地获得 {SunkenDistrictResearch} [research/]。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property description.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">SPECIAL_SECTOR_SUNKEN_DISTRICT</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">The Star Union districts sprawl across its worlds. In order to make efficient use of space, certain sectors were laid dry to allow for urbanization. Now that the land is no longer maintained, these districts are once more at the mercy of the sea, the riches the district once contained washed away with the tide.</Data></Cell><Cell><Data ss:Type="String">星际联盟的区域在星球上不断拓展。为了高效利用空间，星际联盟将某些水域填补起来进行城市化建设。现在这些区域的土地因为年久无人维护而再次被海洋淹没，地区中宝贵的财富也随着海潮一并被冲刷殆尽。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_SUNKEN_DISTRICT</Data></Cell><Cell><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">No translation required</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_REEF</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Reef</Data></Cell><Cell><Data ss:Type="String">暗礁</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SPECIAL_REEF</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This sector contains a reef, a good source of food and a prime location for wildlife to breed and make their nests. [br/]Grants {ReefFoodIncome} [supply/] to the colony it is linked to.</Data></Cell><Cell><Data ss:Type="String">该区域内有一处暗礁，这里拥有大量食物资源，同时也是野生动物繁衍栖息的主要地方。[br/]与该区域相连的殖民地获得 {ReefFoodIncome} [supply/]。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property description.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SPECIAL_REEF</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">Reefs are still rare, even on life-bearing worlds featuring oceans. Wherever they can be found, however, they are hotbeds for wildlife, making them prime sources of food for nearby Star Union colonies. </Data></Cell><Cell><Data ss:Type="String">暗礁即使是在充满生物的海洋星球上都非常罕见，但无论在什么地方，它们总能成为野生动植物的温床。暗礁也就成了附近星际联盟殖民地的主要食物来源。 </Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_REEF</Data></Cell><Cell><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">No translation required</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_TECTONIC_RIFT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Tectonic Rift</Data></Cell><Cell><Data ss:Type="String">地壳裂隙</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SPECIAL_TECTONIC_RIFT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This sector contains a tectonic rift through which geothermal energy from the planet's core is leaking into the ocean.[br/] Grants {RiftIncome} [energy/] to the colony it is linked to.</Data></Cell><Cell><Data ss:Type="String">该区域内存在地壳裂隙，星球核心内的地热能量正是从这个裂隙流向海洋。[br/]与该区域连接的殖民地获得 {RiftIncome} [energy/]。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property description.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SPECIAL_TECTONIC_RIFT</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">Underwater rifts are formed on the edges of tectonic plates and are signified by magmatic activity. The resulting heat leaking from these rifts comes directly from the planet's core and is nearly endless, making them a great source for harvesting geothermal energy.</Data></Cell><Cell><Data ss:Type="String">海底裂隙形成于地壳板块边缘，预示着岩浆活动的发生。从这些裂缝中渗透出的热量直接来自星球核心，并且几乎没有穷尽。因此成为了收获地热能量的绝佳来源。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_TECTONIC_RIFT</Data></Cell><Cell><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">No translation required</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_QUARTZITE_CRYSTALS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Quartzite Crystal Field</Data></Cell><Cell><Data ss:Type="String">石英岩兽水晶田</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SPECIAL_SECTOR_QUARTZITE_CRYSTALS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Beneath these fields lie endless tunnels where Quartzite dig up the minerals they use as sustenance and bring them to the surface. These fields were always a prime target for Star Union mining operations.</Data></Cell><Cell><Data ss:Type="String">这些水晶田下有许多没有尽头的隧道，石英岩兽在这些地方挖掘他们赖以生存的矿物并带至地表。这些水晶田一直以来都是星际联盟矿采活动的首要目标。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property description.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">SPECIAL_SECTOR_QUARTZITE_CRYSTALS</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">A useful byproduct to the Quartzite lifecycle is the formation of Quartzite crystals, grown onto the body of Quartzite and filled with energy absorbed from the minerals they consume. These crystals are secreted from the body and litter their territories to serve as food sources in the future. They can be found in vast underground tunnel networks in Quartzite regions, sometimes fusing together and growing into a crystal cluster that breaches the surface.</Data></Cell><Cell><Data ss:Type="String">石英岩兽水晶是石英岩兽生命周期内形成的一种十分有用的副产品，这些水晶生长于石英岩兽的身体之上，充满着他们从矿物中吸收的能量。石英岩兽身体里分泌出的这些水晶散落在它们的领地各处，它们日后将会以这些水晶为食。水晶可以在石英岩兽领域内的庞大地下隧道网络中找到。有时这些水晶会融合在一起，并逐渐成长为水晶簇，最后冲破地表。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_TRANSMISSION_TOWER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Communications District</Data></Cell><Cell><Data ss:Type="String">通讯区</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">SPECIAL_SECTOR_TRANSMISSION_TOWER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">A Communications District contains massive transmission towers that were used to broadcast propaganda and all other communications on the planet. It also intercepted all communication for processing by CORE. Information of all aspects of the Star Union was stored here and could be retrieved.[br/] Grants {CommunicationKnowledge} [research/] to the colony it is linked to.</Data></Cell><Cell><Data ss:Type="String">通讯区中有着数量极多的传输塔，用来进行广播宣传和传输星球中的其他所有通讯信息。此外，还会拦截所有通讯并交给核心处理。星际联盟的各方面信息都可以在这里进行储存和索取。[br/]与该区域连接的殖民地获得 {CommunicationKnowledge} [research/]。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property description.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SPECIAL_SECTOR_TRANSMISSION_TOWER</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">Transmission towers were essential to the function of the civilian layer of the Nexus. All transmissions through the ether would pass through these towers, under CORE's watchful eye. </Data></Cell><Cell><Data ss:Type="String">传输塔是民用级通讯网络运转的关键，所有通过以太空间传输的信息都将在核心的严密监控下从这些传输塔中经过。 </Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_TRANSMISSION_TOWER</Data></Cell><Cell><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">No translation required</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_PARAGON_TRAINING_FACILITY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Paragon Training District</Data></Cell><Cell><Data ss:Type="String">完人训练区</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SPECIAL_SECTOR_PARAGON_TRAINING_FACILITY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This district was once the main hub for training the Star Union's Vanguard. Since the Cataclysm, they have only served to reinforce the Paragon's military pride. [br/] Grants {TrainingIncome} [research/] to the colony it is linked to.</Data></Cell><Cell><Data ss:Type="String">该区域曾是星际联盟先锋的主要训练中心。大灾变后，这些地方的唯一作用就是满足完人的军事自豪感。[br/]与该区域连接的殖民地获得 {TrainingIncome} [research/]。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property description.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">SPECIAL_SECTOR_PARAGON_TRAINING_FACILITY</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">During the height of the Star Union, these training districts were present on most of its worlds, raising fresh soldiers for the Vanguard. Now the training facilities within these districts function as little more than trophies for Paragon lords, but an ambitious leader might make good use of these facilities.</Data></Cell><Cell><Data ss:Type="String">在星际联盟的鼎盛时期，这些训练区在星际联盟的各个世界中随处可见，为先锋培育着新兵。如今，这些区域内的训练设施在完人领主的眼中仅仅是战利品而已。不过有抱负的首领也许能发现它们的用途。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_PARAGON_TRAINING_FACILITY</Data></Cell><Cell><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">No translation required</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_CELESTIAN_ARTIFACT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Artifact Dig Site</Data></Cell><Cell><Data ss:Type="String">工艺品挖掘点</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SPECIAL_SECTOR_CELESTIAN_ARTIFACT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Multiple artifacts can be found in this sector, incentivizing the researching community.[br/]Grants {DigSiteResearch} to the colony it is linked to.</Data></Cell><Cell><Data ss:Type="String">该区域中蕴藏众多工艺品，激励了许多研究团体前来挖掘。[br/]与该区域连接的殖民地获得 {DigSiteResearch}。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property description.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">SPECIAL_SECTOR_CELESTIAN_ARTIFACT</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">During the Star Union's rule, artifacts bearing Celestian markings were unearthed all over their territory. Some archeologists theorized that these might be proof that this 'Celestian' civilization is older than the Star Union itself, but these theories were quickly silenced.</Data></Cell><Cell><Data ss:Type="String">在星际联盟的统治期间，联盟领域内发掘出了大量带有星神标记的工艺品。有的考古学家推论说，这些工艺品很有可能证明“星神”文明是比星际联盟还要古老的存在，但不久这些推论便销声匿迹了。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_CELESTIAN_ARTIFACT</Data></Cell><Cell><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">No translation required</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_FACTORY_COMPLEX</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Factory Complex</Data></Cell><Cell><Data ss:Type="String">工厂建筑群</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">SPECIAL_SECTOR_FACTORY_COMPLEX</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Factory Complexes such as these are commonly found throughout the remains of the Star Union. They produced much of the Union's goods, both for the military and for civilians.[br/]Grants {FactoryComplexProduction} [production/] to the colony it is linked to.</Data></Cell><Cell><Data ss:Type="String">类似于这样的工厂建筑群在星际联盟遗址中随处可见。大量星际联盟的货物都是在这些工厂中生产的，包括军事物品和民用物品。[br/]与该区域连接的殖民地获得 {FactoryComplexProduction} [production/]。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property description.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">SPECIAL_SECTOR_FACTORY_COMPLEX</Data></Cell><Cell><Data ss:Type="String">FLAVOUR</Data></Cell><Cell><Data ss:Type="String">Factory Complexes were not directly owned by the many megacorporations of the Star Union. Instead, these complexes were established by local governors for use by smaller corporations, though many of these eventually became merely extentions of a megacorporation's interests.</Data></Cell><Cell><Data ss:Type="String">工厂建筑群并非由星际联盟的许多特大型企业直接拥有。相反，这些工厂由当地统治者建立并为规模较小的企业所用，不过这些工厂最后大都成为了大型企业延伸利益链的一环。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPECIAL_SECTOR_FACTORY_COMPLEX</Data></Cell><Cell><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell><Data ss:Type="String">{Income}</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">No translation required</Data></Cell><Cell ss:StyleID="s63"/></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Zoom>115</Zoom><Selected/><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:52:43Z</Created><LastSaved
+    >2019-06-25T15:52:43Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
+    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="236.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="66.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="439.5" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="151.5" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="188.25"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="439.5" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="135"
+        ss:StyleID="s63"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTORDEFINITIONS_STRATEGIC</Data></Cell><Cell
+          ss:Index="3"
+          ss:StyleID="s62"
+        /><Cell ss:StyleID="s62" /><Cell ss:Index="7" ss:StyleID="s62"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell><Cell
+          ss:StyleID="s62"
+        /><Cell ss:StyleID="s62" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30.75"
+      ><Cell><Data ss:Type="String">HOPPERHOUND_SPAWNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hopperhound Nest</Data></Cell><Cell><Data
+            ss:Type="String"
+          >跳蝗巢穴</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Structure name. Hopperhounds are wildlife.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">HOPPERHOUND_SPAWNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A nest of Hopperhounds, vicious creatures that plague post-collapse Star Union worlds.[br/]If neglected, the creatures will attack nearby colonies and armies.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >跳蝗的巢穴。这是一种恶毒的生物，滋生于星际联盟崩坏后的各个星球。[br/]如果忽视这个巢穴，跳蝗将攻击附近的殖民地和军队。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Structure description.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">QUARTZITE_SPAWNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Quartzite Nest</Data></Cell><Cell><Data
+            ss:Type="String"
+          >石英岩兽巢穴</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Structure name. Quartzite are wildlife.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">QUARTZITE_SPAWNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A nest of Quartzite, silicon lifeforms with different properties based on their rock formation.[br/]If neglected, the creatures will attack nearby colonies and armies.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >石英岩兽的巢穴。这是一种硅石生命形态，基于不同的岩石构造拥有不同的属性。[br/]如果忽视这个巢穴，石英岩兽将攻击附近的殖民地和军队。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Structure description.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="33"
+      ><Cell><Data ss:Type="String">BEETLE_SPAWNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Beetle Nest</Data></Cell><Cell><Data
+            ss:Type="String"
+          >甲虫兽巢穴</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Structure name. Beetles are wildlife.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45.75"
+      ><Cell><Data ss:Type="String">BEETLE_SPAWNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A nest of Mega Beetles, creatures with strong pincers, Biochemical attacks and explosive death rattles.[br/]If neglected, the creatures will attack nearby colonies and armies.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >大甲虫兽的巢穴。这种生物长有强健的螯，能够发动生化攻击并在死亡时发生爆炸。[br/]如果忽视这个巢穴，甲虫兽将攻击附近的殖民地和军队。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Structure description. Explosive death rattle means that they explode when killed.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >A nest of Mega Beetles, creatures with strong pincers, biochemical attacks and explosive death rattles.[br/]If neglected, the creatures will attack nearby colonies and armies.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PIRATE_SPAWNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Pirate Hideout</Data></Cell><Cell><Data
+            ss:Type="String"
+          >海盗藏匿处</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Structure name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PIRATE_SPAWNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hideout of freemen and ex-mercenaries, surviving by stealing and selling tech and gear.[br/]If neglected, the pirates will raid nearby colonies and armies.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >自由民众和前佣兵人员构成的团伙藏身之处，靠偷窃和贩卖科技和装备为生。[br/]如果忽略这个藏匿处，海盗将掠夺附近的殖民地和军队。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Structure description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AQUATIC_SPAWNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Aquatic Nest</Data></Cell><Cell><Data
+            ss:Type="String"
+          >水兽巢穴</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Struture name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">AQUATIC_SPAWNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The gentle Octowhale and the boat-eating Chelus live in these depths, aiding one another.[br/]If neglected, the creatures will attack nearby colonies and armies.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >性情温和的八爪鲸和喜爱啃食船只的蛇颈龟在这些深暗的地方生活并相互扶持。[br/]如果忽略这个巢穴，这些生物将攻击附近的殖民地和军队。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Structure description.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The gentle Octowhale and the boat eating Chelus live in these depths, aiding one another.[br/]If neglected, the creatures will attack nearby colonies and armies.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SUBMARINE_SPAWNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Empire Naval Base</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国海军基地</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Struture name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SUBMARINE_SPAWNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Empire submarines guard these waters, attacking any intruders they detect on their radars.[br/]If neglected, the submarines will attack nearby colonies and armies.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >帝国潜艇守卫着这些水域，他们会攻击出现在雷达上的任何入侵者。[br/]如果忽视这个基地，潜艇将攻击附近的殖民地和军队。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Structure description.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Empire submarines guard these waters, attacking any intruders they detect in their radars.[br/]If neglected, the submarines will attack nearby colonies and armies.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:StyleID="s63"
+      ><Cell><Data ss:Type="String">WILDLIFE_SPAWNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s62"><Data
+            ss:Type="String"
+          >Wildlife Nest</Data></Cell><Cell ss:StyleID="s62"><Data
+            ss:Type="String"
+          >野生动物巢穴</Data></Cell><Cell ss:Index="7" ss:StyleID="s62"><Data
+            ss:Type="String"
+          >Struture name.</Data></Cell><Cell ss:StyleID="s62" /><Cell
+          ss:StyleID="s62"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63"><Cell
+        ><Data ss:Type="String">WILDLIFE_SPAWNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s62"><Data
+            ss:Type="String"
+          >Once locked in zoos by the Star Union, their collection now nests here after the Collapse.[br/]If neglected, the creatures will attack nearby colonies and armies.</Data></Cell><Cell
+          ss:StyleID="s62"
+        ><Data
+            ss:Type="String"
+          >曾经被关在星际联盟的动物园中的动物在联盟崩坏后聚居于此。[br/]如果忽略这个巢穴，这些生物将攻击附近的殖民地和军队。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s62"
+        ><Data ss:Type="String">Structure description.</Data></Cell><Cell
+          ss:StyleID="s62"
+        /><Cell ss:StyleID="s62" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOUNTAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mountain</Data></Cell><Cell><Data
+            ss:Type="String"
+          >山地</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Biome type name.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOUNTAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A mountain range is present within the sector.</Data></Cell><Cell
+        ><Data ss:Type="String">该区域内有山脉。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Short biome description.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">MOUNTAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A mountain range is present within the sector. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_4_NAME}[/bullet][br/][indent]All Production [production/] and Energy [energy/] sectors on Mountains gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该区域内有山脉。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_4_NAME}[/bullet][br/][indent]位于山地的所有产力[production/]和能量[energy/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Long biome description with player tips and economy info.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FOREST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Forest</Data></Cell><Cell><Data
+            ss:Type="String"
+          >森林</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Biome type name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">FOREST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >There is a forested area present in this sector. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_4_NAME}[/bullet][br/][indent]All Production [production/] and Food [supply/] sectors on Forest gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该区域内有森林。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_4_NAME}[/bullet][br/][indent]位于森林的所有产力[production/]和食物[supply/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Long biome description with player tips and economy info.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RUINS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ruins</Data></Cell><Cell><Data
+            ss:Type="String"
+          >废墟</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Biome type name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">RUINS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Old remains of the Star Union are still present in this sector. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_5_NAME}[/bullet][br/][indent]All Research [research/] and Energy [energy/] sectors on Ruins gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该区域中仍有星际联盟的古老废墟。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_5_NAME}[/bullet][br/][indent]位于废墟的所有研究[research/]和能量[energy/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Long biome description with player tips and economy info.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLAINS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fertile Plains</Data></Cell><Cell><Data
+            ss:Type="String"
+          >肥沃平原</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Biome type name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">PLAINS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >These plains are highly fertile and have a rich population of microscopic life. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_5_NAME}[/bullet][br/][indent]All Research [research/] and Food [supply/] sectors on Fertile Plains gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这些平原非常肥沃，拥有丰富多样的微生物。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_5_NAME}[/bullet][br/][indent]位于肥沃平原上的研究[research/]和食物[supply/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Long biome description with player tips and economy info.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COASTAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Coast</Data></Cell><Cell><Data
+            ss:Type="String"
+          >海滨</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Biome type name.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">COASTAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Coastal sectors are sectors of Ocean that are bordered by a landmass. Due to their proximity to land, Coastal sectors are more easily exploited.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >海滨区域是指与大陆相邻的海洋区域。由于靠近陆地，海滨区域更容易得到开发。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Short biome description.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">COASTAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Coastal sectors are sectors of Ocean that are bordered by a landmass. Due to their proximity to land, Coastal sectors are more easily exploited. Coast sectors yield Energy [energy/], Food [supply/] and Knowledge [research/]. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_NAME}[/bullet][br/][indent]All Coast sectors gain +1 level.[/indent][/bulletlist][br/][br/]Further Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_5_NAME}[/bullet][br/][indent]All Coast sectors gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >海滨区域是指与大陆相邻的海洋区域。由于靠近陆地，海滨区域更容易得到开发。海滨区域可以产出能量[energy/]、食物[supply/]和知识[research/]。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_NAME}[/bullet][br/][indent]所有海滨区域等级 +1。[/indent][/bulletlist][br/][br/]深入研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_5_NAME}[/bullet][br/][indent]所有海滨区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Long biome description with player tips and economy info.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >This is a water sector with a coast present.  Coast sectors yield Energy [energy/], Food [supply/] and Knowledge [research/]. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_NAME}[/bullet][br/][indent]All Coast sectors gain +1 level.[/indent][/bulletlist][br/][br/]Further Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_5_NAME}[/bullet][br/][indent]All Coast sectors gain +1 level.[/indent][/bulletlist]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARCADIAN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arcadian</Data></Cell><Cell><Data
+            ss:Type="String"
+          >田园</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Clime type name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ARCADIAN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The arcadian climate is an unspoiled, harmonious wilderness predominantly consisting of grasslands.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >田园气候带是自然而和谐的荒野区域，主要由草原构成。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Short clime description.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >The arcadian climate is an unspoiled, harmonious wilderness composed of predominantly grasslands</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">ARCADIAN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The arcadian climate is an unspoiled, harmonious wilderness predominantly consisting of grasslands. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_3_NAME}[/bullet][br/][indent]All Food [supply/] and Energy [energy/] sectors on Arcadian gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >田园气候带是自然而和谐的荒野区域，主要由草原构成。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_3_NAME}[/bullet][br/][indent]位于田园区域的所有食物[supply/]和能量[energy/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Long clime description with player tips and economy info.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >The arcadian climate is an unspoiled, harmonious wilderness compromised of predominantly grasslands. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_3_NAME}[/bullet][br/][indent]All Food [supply/] and Energy [energy/] sectors on Arcadian gain +1 level.[/indent][/bulletlist]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARCTIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arctic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >极寒</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Clime type name.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">ARCTIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The arctic climate is a snow covered landscape with harsh conditions.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >极寒气候带地表由白雪覆盖，环境恶劣。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Short clime description.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">ARCTIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The arctic climate is a snow covered landscape with harsh conditions.[br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_2_NAME}[/bullet][br/][indent]All Research [research/] and Production [production/] sectors on Arctic gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >极寒气候带地表由白雪覆盖，环境恶劣。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_2_NAME}[/bullet][br/][indent]位于极寒区域的所有研究[research/]和产力[production/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Long clime description with player tips and economy info.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arid</Data></Cell><Cell><Data
+            ss:Type="String"
+          >干燥</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Clime type name.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">ARID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The arid climate is defined by a dry, unforgiving heat and a general lack of water.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >干燥区域气候干旱、温度极高且普遍缺少水分。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Short clime description.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">ARID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The arid climate is defined by a dry, unforgiving heat and a general lack of water. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_2_NAME}[/bullet][br/][indent]All Energy [energy/] and Production [production/] sectors on Arid gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >干燥区域气候干旱、温度极高且普遍缺少水分。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_2_NAME}[/bullet][br/][indent]位于干燥区域的所有能量[energy/]和产力[production/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Long clime description with player tips and economy info.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FUNGAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fungal</Data></Cell><Cell><Data
+            ss:Type="String"
+          >真菌</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Clime type name.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">FUNGAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The fungal climate is host to wild growth resulting in an extremely biodiverse area.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >真菌区域是许多野生植物生长的地带，因此形成了生物极其多样化的区域。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Short clime description.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">FUNGAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The fungal climate is host to wild growth resulting in an extremely biodiverse area. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_3_NAME}[/bullet][br/][indent]All Research [research/] and Food [supply/] sectors on Fungal gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >真菌区域是许多野生植物生长的地带，因此形成了生物极其多样化的区域。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_3_NAME}[/bullet][br/][indent]位于真菌区域的所有研究[research/]和食物[supply/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Long clime description with player tips and economy info.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BADLANDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Volcanic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >火山</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >sector type name.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">BADLANDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Volcanic sectors are hostile wastelands with harsh living conditions.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >火山区域是种恶劣的废土区域，生存条件恶劣。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Short sector description.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Volcanic sectors are a hostile wasteland with harsh living conditions.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">BADLANDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Volcanic sectors are hostile wastelands with harsh living conditions.[br/][br/][negative]Colonies in this sector get [abilityred]-8[/abilityred][anger/].[/negative][br/][br/]Possible research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_6_NAME}[/bullet][br/][indent]All sectors on Volcanic terrain gain +1 level.[br/] Colonies ignore all economic penalties from Volcanic terrain.[/indent][/bulletlist]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >火山区域是一种不利的废土区域，生存条件极为恶劣。[br/][br/][negative]该区域中的殖民地获得 [abilityred]-8[/abilityred][anger/]。.[/negative][br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_6_NAME}[/bullet][br/][indent]所有位于火山地形上的区域等级 +1。[br/]殖民地无视火山地形带来的所有经济惩罚。[/indent][/bulletlist]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Long sector description with player tips and economy info.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Volcanic sectors are a hostile wasteland with harsh living conditions.[br/][br/][negative]Colonies with this sector get [abilityred]-8[/abilityred][anger/].</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BADLANDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{IncomePenalty}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{IncomePenalty}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >OCEAN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ocean</Data></Cell><Cell><Data
+            ss:Type="String"
+          >海洋</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >sector type name.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">OCEAN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ocean sectors are great regions signified by a vast amount of water and endless depths. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >海洋区域无边无际、深不见底，由大面积的海水覆盖。 </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Short sector description.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">OCEAN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ocean sectors are great regions signified by a vast amount of water and endless depths. Ocean sectors normally do not provide any economic bonuses and cannot be annexed to a colony, except if a Coast is present.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >海洋区域无边无际、深不见底，由大面积的海水覆盖。海洋区域不会提供任何经济加成且无法被殖民地吞并，除非区域中存在海滨。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Long sector description with player tips and economy info.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Ocean sectors normally do not provide any economic bonusses and cannot be annexed to a colony, except if a Coast is present.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FULL_LAVA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Lava</Data></Cell><Cell><Data
+            ss:Type="String"
+          >岩浆</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >sector type name.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">FULL_LAVA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Lava sectors are large regions of never cooling, constantly hot lava.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >岩浆区域面积广阔，充满了永不冷却的高温岩浆。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Short sector description.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FULL_LAVA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Lava sectors are large regions of never cooling, constantly hot lava. Lava sectors do not provide any economic bonusses and cannot be annexed to a colony.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >岩浆区域面积广阔，充满了永不冷却的高温岩浆。岩浆区域不会提供任何经济加成且无法被殖民地吞并。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">sector type name.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Lava sectors do not provide any economic bonusses and cannot be annexed to a colony.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Void</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚空</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Short sector description.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Void sectors are parts of the planet that have disappeared into the Void dimension.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >虚空区域是星球上已经消失在虚空维度中的地区。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">sector type name.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vast void sector.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">VOID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Void sectors are parts of the planet that have disappeared into the Void dimension. Void sectors do not provide any economic bonuses and cannot be annexed to a colony.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >虚空区域是星球上已经消失在虚空维度中的地区。虚空区域不会提供任何经济加成且无法被殖民地吞并。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Short sector description.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Void sectors do not provide any economic bonusses and cannot be annexed to a colony.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LAVA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Lava</Data></Cell><Cell><Data
+            ss:Type="String"
+          >岩浆</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Short sector description.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">LAVA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A chasm filled with lava runs through this sector. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_6_NAME}[/bullet][br/][indent]Your colony gains {energy} Energy for each sector with a Lava chasm within its domain.[/indent][/bulletlist]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一个满是熔岩流淌的裂口从该区域穿过。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_6_NAME}[/bullet][br/][indent]殖民地领域内每存在一个带有熔岩裂口的区域，就获得 {energy} 能量。[/indent][/bulletlist]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Long sector description with player tips and economy info.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RIVER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >River</Data></Cell><Cell><Data
+            ss:Type="String"
+          >河流</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Short sector description.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">RIVER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A river runs through this sector. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_2_5_NAME}[/bullet][br/][indent]Your colony gains {food} Food for each sector with a River within its domain.[/indent][/bulletlist]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一条河流从该区域流过。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_2_5_NAME}[/bullet][br/][indent]殖民地领域内每存在一个带有河流的区域，就获得 {food} 食物。[/indent][/bulletlist]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Long sector description with player tips and economy info.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COLONIZABLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Potential Colony Location</Data></Cell><Cell><Data
+            ss:Type="String"
+          >潜在殖民地点</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Sector property.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">COLONIZABLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This sector is a potential location to found a new colony. Founding a new colony requires a Colonizer unit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该区域是建造新殖民地的潜在地点。建造殖民地需要殖民者单位。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property description.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >This sector is a potential location to found a new colony. Founding a new colony requires a colonizer unit.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">UNINHABITABLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Uninhabitable</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不宜居</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Sector property.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">UNINHABITABLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This sector is uninhabitable. You cannot build a colony or a forward base here, nor can you annex this sector to a colony.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该区域不宜居住。你无法在此建造殖民地或前线基地，也无法将该区域吞并至殖民地。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property description.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >This sector is uninhabitable, you cannot build a colony or a forward base here, nor can you annex this sector to a colony.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ALREADY_PROSPECTED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cannot Prospect</Data></Cell><Cell><Data
+            ss:Type="String"
+          >无法勘探</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Sector property.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">ALREADY_PROSPECTED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This sector cannot be prospected to gain extra resources.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >无法通过勘探该区域获得额外资源。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property description.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >This sector cannot be Prospected to gain extra resources.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SPECIAL_SECTOR_MEADOWS</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Meadow</Data></Cell><Cell><Data
+            ss:Type="String"
+          >牧场</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Sector property.</Data></Cell><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SPECIAL_SECTOR_MEADOWS</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fertile meadows are perfect for food production. [br/]Grants {MeadowsSupply} [supply/]Food to the colony it is linked to.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >肥沃的牧场非常适合食物生产。[br/]与该区域相连接的殖民地获得 {MeadowsSupply} [supply/]食物。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property description.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_MEADOWS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hidden from the naked eye, these 'meadows' are artificially modified to be unnaturally fertile. Food production for fresh Star Union colonies would often begin here as larger supply facilities were still being constructed. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这些所谓的牧场经过肉眼无法识别的人工改造变得极其肥沃。在建造更大的补给设施时，新建立的星际联盟殖民地通常会从这些地方开始进行食物生产。 </Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >These fertile meadows seem natural but are artificially made as incredibly fertile as they are via manners invisible to the naked eye, maintained by terratech in the Union's prime these fields are now left to grow unchecked.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SPECIAL_SECTOR_MEADOWS</Data></Cell><Cell
+        ><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_DELTA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >River Delta</Data></Cell><Cell><Data
+            ss:Type="String"
+          >河口三角洲</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Sector property.</Data></Cell><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SPECIAL_SECTOR_DELTA</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This sector features a River Delta. [br/]Grants {DeltaSupply} [supply/]Food to the colony it is linked to.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该区域中有一个河口三角洲。[br/]与该区域相连的殖民地获得 {DeltaSupply} [supply/]食物。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property description.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_DELTA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >River Deltas had been vital to the development of civilization, but with the advancement of civilization, their importance has been marginalized. They are still fertile lands perfect for agriculture, and smaller colonies often made use of them.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >河口三角洲在文明的发展过程中极其重要，但随着文明的不断进步，其重要性渐渐被忽视了。这些区域仍然是适合农业发展的肥沃地区。规模较小的殖民地往往会利用这些三角洲地带。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_DELTA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_GEOTHERMAL_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Geothermal Rift</Data></Cell><Cell><Data
+            ss:Type="String"
+          >地热裂隙</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Sector property.</Data></Cell><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_GEOTHERMAL_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Geothermal Rifts contain chasms of boiling magma, rife with energy to be exploited. [br/]Grants {GeothermalEnergy} [energy/]Energy to the colony it is linked to.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >地热裂隙中有沸腾的岩浆裂口，蕴含诸多待开发的能量。[br/]与该区域相连的殖民地获得 {GeothermalEnergy} [energy/]能量。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property description.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_GEOTHERMAL_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Geothermal energy is ever-present in habitable planets. Sometimes this violent energy erupts onto the surface, creating Geothermal Rifts. Ideal resources of natural energy, these Rifts are often used to generate the power necessary for the function of nearby Star Union colonies.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >适宜居住的星球上一直都存在地热能量，有时这种剧烈的能量会爆发至地表，形成地热裂隙。地热裂隙中的能量通常用来生成附近星际联盟殖民地运转所必须的能源。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_GEOTHERMAL_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_HIGHRISE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Highrise</Data></Cell><Cell><Data
+            ss:Type="String"
+          >高层建筑</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Sector property.</Data></Cell><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">SPECIAL_SECTOR_HIGHRISE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Highrise districts housed many of the Star Union's citizenry in their tall residential blocks. [br/]Grants +{slot} [Foodslot/], +{slot} [productionslot/], +{slot} [energyslot/] and +{slot} [researchslot/] to the colony it is linked to.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >高层建筑区中高耸的住宅区中聚居着大量星际联盟居民。[br/]与该区域相连的殖民地获得 +{slot} [Foodslot/]、+{slot} [productionslot/]、+{slot} [energyslot/] 以及 +{slot} [researchslot/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property description.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_HIGHRISE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The residential blocks of the Star Union's Highrise districts housed thousands of citizens each. It was in these blocks that the Star Union's middle class lived, under the watchful eye of CORE.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每个星际联盟的高层建筑住宅区内都居住着成千上万的市民，居住在这些街区中的居民均为中产阶级并受到核心的密切监视。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_HIGHRISE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_TRANSIT_HUB</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Transit Hub</Data></Cell><Cell><Data
+            ss:Type="String"
+          >交通枢纽</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Sector property.</Data></Cell><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_TRANSIT_HUB</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Star Union Transit Hubs are vital to any colony's logistics efforts. This sector contains an unusually high amount of retrievable supplies and logistical structures.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >星际联盟交通枢纽对所有殖民地的物流工作都非常重要。该区域内通常含有大量可以回收的补给和物流建筑。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property description.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_TRANSIT_HUB</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Transit Hubs are common on Star Union worlds, functioning as centers of on-world logistics. From these sectors, the allocation and transport of resources is coordinated, and they function as storage centers for shipments before they are sent out.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >交通枢纽在星际联盟的各个星球上十分常见。它们是星球内物流运输的中心，各种资源通过这些区域协调后进行分配和运输。在资源被送出前，这些区域也充当着储备中心的作用。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_INDUSTRIAL_REFINERY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Industrial Refinery District</Data></Cell><Cell><Data
+            ss:Type="String"
+          >工业精炼厂区</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Sector property.</Data></Cell><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_INDUSTRIAL_REFINERY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Industrial Refineries were where a large part of the automated manufacturing for the Star Union took place. This district has strong production capabilities. Additionally, this sector contains a refinery which has been claimed by the Spacers, who use it to refine traditional fuels to supply their raids. [br/]Grants {RefineryIncome} [production/] to the colony it is linked to.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >工业精炼厂是星际联盟大部分自动化生产工作的发生地。该区域拥有强大的生产能力。此外，该区域内有座精炼厂被太空掠夺者占领，他们用精炼厂提炼传统燃料以此来为他们的掠夺活动提供补给。[br/]与该区域连接的殖民地获得 {RefineryIncome} [production/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property description.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_INDUSTRIAL_REFINERY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Traditional fuels had always retained a degree of use in heavy machinery in the Star Union. After the Cataclysm the Spacers' became the main consumers of these fuels, using them to supply their vehicles as they fought for resources on their isolated worlds.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一直以来，传统燃料都应用于星际联盟的重型机械。大灾变之后，太空掠夺者成为了传统燃料的主要消费者。他们在偏僻的星球中四处掠夺资源时，会使用这种燃料为他们的载具提供补给。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Traditional fuels had always retained a degree of use in heavy machinery in the Star Union. After the Cataclysm the Spacers' became the main consumers of these fuels, using them to supply their vehicles as they fought for resources on their isolated worlds.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_INDUSTRIAL_REFINERY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_SUNKEN_DISTRICT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sunken District</Data></Cell><Cell><Data
+            ss:Type="String"
+          >沉没区域</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Sector property.</Data></Cell><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_SUNKEN_DISTRICT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This sector was once a thriving Star Union colony district, before being reclaimed by the sea.[br/]Grants {SunkenDistrictResearch} [research/] to the colony it is linked to.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该区域曾是繁荣的星际联盟殖民地，后被海洋吞没。[br/]与该区域连接的殖民地获得 {SunkenDistrictResearch} [research/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property description.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_SUNKEN_DISTRICT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Star Union districts sprawl across its worlds. In order to make efficient use of space, certain sectors were laid dry to allow for urbanization. Now that the land is no longer maintained, these districts are once more at the mercy of the sea, the riches the district once contained washed away with the tide.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >星际联盟的区域在星球上不断拓展。为了高效利用空间，星际联盟将某些水域填补起来进行城市化建设。现在这些区域的土地因为年久无人维护而再次被海洋淹没，地区中宝贵的财富也随着海潮一并被冲刷殆尽。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_SUNKEN_DISTRICT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_REEF</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reef</Data></Cell><Cell><Data
+            ss:Type="String"
+          >暗礁</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Sector property.</Data></Cell><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">SPECIAL_REEF</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This sector contains a reef, a good source of food and a prime location for wildlife to breed and make their nests. [br/]Grants {ReefFoodIncome} [supply/] to the colony it is linked to.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该区域内有一处暗礁，这里拥有大量食物资源，同时也是野生动物繁衍栖息的主要地方。[br/]与该区域相连的殖民地获得 {ReefFoodIncome} [supply/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property description.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_REEF</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reefs are still rare, even on life-bearing worlds featuring oceans. Wherever they can be found, however, they are hotbeds for wildlife, making them prime sources of food for nearby Star Union colonies. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >暗礁即使是在充满生物的海洋星球上都非常罕见，但无论在什么地方，它们总能成为野生动植物的温床。暗礁也就成了附近星际联盟殖民地的主要食物来源。 </Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_REEF</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_TECTONIC_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tectonic Rift</Data></Cell><Cell><Data
+            ss:Type="String"
+          >地壳裂隙</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Sector property.</Data></Cell><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SPECIAL_TECTONIC_RIFT</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This sector contains a tectonic rift through which geothermal energy from the planet's core is leaking into the ocean.[br/] Grants {RiftIncome} [energy/] to the colony it is linked to.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该区域内存在地壳裂隙，星球核心内的地热能量正是从这个裂隙流向海洋。[br/]与该区域连接的殖民地获得 {RiftIncome} [energy/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property description.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_TECTONIC_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Underwater rifts are formed on the edges of tectonic plates and are signified by magmatic activity. The resulting heat leaking from these rifts comes directly from the planet's core and is nearly endless, making them a great source for harvesting geothermal energy.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >海底裂隙形成于地壳板块边缘，预示着岩浆活动的发生。从这些裂缝中渗透出的热量直接来自星球核心，并且几乎没有穷尽。因此成为了收获地热能量的绝佳来源。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_TECTONIC_RIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_QUARTZITE_CRYSTALS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Quartzite Crystal Field</Data></Cell><Cell><Data
+            ss:Type="String"
+          >石英岩兽水晶田</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Sector property.</Data></Cell><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_QUARTZITE_CRYSTALS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Beneath these fields lie endless tunnels where Quartzite dig up the minerals they use as sustenance and bring them to the surface. These fields were always a prime target for Star Union mining operations.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这些水晶田下有许多没有尽头的隧道，石英岩兽在这些地方挖掘他们赖以生存的矿物并带至地表。这些水晶田一直以来都是星际联盟矿采活动的首要目标。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property description.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_QUARTZITE_CRYSTALS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A useful byproduct to the Quartzite lifecycle is the formation of Quartzite crystals, grown onto the body of Quartzite and filled with energy absorbed from the minerals they consume. These crystals are secreted from the body and litter their territories to serve as food sources in the future. They can be found in vast underground tunnel networks in Quartzite regions, sometimes fusing together and growing into a crystal cluster that breaches the surface.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >石英岩兽水晶是石英岩兽生命周期内形成的一种十分有用的副产品，这些水晶生长于石英岩兽的身体之上，充满着他们从矿物中吸收的能量。石英岩兽身体里分泌出的这些水晶散落在它们的领地各处，它们日后将会以这些水晶为食。水晶可以在石英岩兽领域内的庞大地下隧道网络中找到。有时这些水晶会融合在一起，并逐渐成长为水晶簇，最后冲破地表。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_TRANSMISSION_TOWER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Communications District</Data></Cell><Cell><Data
+            ss:Type="String"
+          >通讯区</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Sector property.</Data></Cell><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_TRANSMISSION_TOWER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A Communications District contains massive transmission towers that were used to broadcast propaganda and all other communications on the planet. It also intercepted all communication for processing by CORE. Information of all aspects of the Star Union was stored here and could be retrieved.[br/] Grants {CommunicationKnowledge} [research/] to the colony it is linked to.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >通讯区中有着数量极多的传输塔，用来进行广播宣传和传输星球中的其他所有通讯信息。此外，还会拦截所有通讯并交给核心处理。星际联盟的各方面信息都可以在这里进行储存和索取。[br/]与该区域连接的殖民地获得 {CommunicationKnowledge} [research/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property description.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_TRANSMISSION_TOWER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Transmission towers were essential to the function of the civilian layer of the Nexus. All transmissions through the ether would pass through these towers, under CORE's watchful eye. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >传输塔是民用级通讯网络运转的关键，所有通过以太空间传输的信息都将在核心的严密监控下从这些传输塔中经过。 </Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_TRANSMISSION_TOWER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_PARAGON_TRAINING_FACILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Paragon Training District</Data></Cell><Cell><Data
+            ss:Type="String"
+          >完人训练区</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Sector property.</Data></Cell><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_PARAGON_TRAINING_FACILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This district was once the main hub for training the Star Union's Vanguard. Since the Cataclysm, they have only served to reinforce the Paragon's military pride. [br/] Grants {TrainingIncome} [research/] to the colony it is linked to.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该区域曾是星际联盟先锋的主要训练中心。大灾变后，这些地方的唯一作用就是满足完人的军事自豪感。[br/]与该区域连接的殖民地获得 {TrainingIncome} [research/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property description.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_PARAGON_TRAINING_FACILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >During the height of the Star Union, these training districts were present on most of its worlds, raising fresh soldiers for the Vanguard. Now the training facilities within these districts function as little more than trophies for Paragon lords, but an ambitious leader might make good use of these facilities.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在星际联盟的鼎盛时期，这些训练区在星际联盟的各个世界中随处可见，为先锋培育着新兵。如今，这些区域内的训练设施在完人领主的眼中仅仅是战利品而已。不过有抱负的首领也许能发现它们的用途。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_PARAGON_TRAINING_FACILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_CELESTIAN_ARTIFACT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Artifact Dig Site</Data></Cell><Cell><Data
+            ss:Type="String"
+          >工艺品挖掘点</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Sector property.</Data></Cell><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_CELESTIAN_ARTIFACT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Multiple artifacts can be found in this sector, incentivizing the researching community.[br/]Grants {DigSiteResearch} to the colony it is linked to.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该区域中蕴藏众多工艺品，激励了许多研究团体前来挖掘。[br/]与该区域连接的殖民地获得 {DigSiteResearch}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property description.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_CELESTIAN_ARTIFACT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >During the Star Union's rule, artifacts bearing Celestian markings were unearthed all over their territory. Some archeologists theorized that these might be proof that this 'Celestian' civilization is older than the Star Union itself, but these theories were quickly silenced.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在星际联盟的统治期间，联盟领域内发掘出了大量带有星神标记的工艺品。有的考古学家推论说，这些工艺品很有可能证明“星神”文明是比星际联盟还要古老的存在，但不久这些推论便销声匿迹了。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_CELESTIAN_ARTIFACT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_FACTORY_COMPLEX</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Factory Complex</Data></Cell><Cell><Data
+            ss:Type="String"
+          >工厂建筑群</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Sector property.</Data></Cell><Cell ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_FACTORY_COMPLEX</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Factory Complexes such as these are commonly found throughout the remains of the Star Union. They produced much of the Union's goods, both for the military and for civilians.[br/]Grants {FactoryComplexProduction} [production/] to the colony it is linked to.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >类似于这样的工厂建筑群在星际联盟遗址中随处可见。大量星际联盟的货物都是在这些工厂中生产的，包括军事物品和民用物品。[br/]与该区域连接的殖民地获得 {FactoryComplexProduction} [production/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property description.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_FACTORY_COMPLEX</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Factory Complexes were not directly owned by the many megacorporations of the Star Union. Instead, these complexes were established by local governors for use by smaller corporations, though many of these eventually became merely extentions of a megacorporation's interests.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >工厂建筑群并非由星际联盟的许多特大型企业直接拥有。相反，这些工厂由当地统治者建立并为规模较小的企业所用，不过这些工厂最后大都成为了大型企业延伸利益链的一环。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Sector property flavour.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_SECTOR_FACTORY_COMPLEX</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>115</Zoom><Selected
+      /><ProtectObjects>False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

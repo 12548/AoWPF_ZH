@@ -1,1 +1,789 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:45:56Z</Created><LastSaved>2019-06-25T15:45:56Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Borders/></Style><Style ss:ID="s63"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/><Borders/></Style><Style ss:ID="s64"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/></Style><Style ss:ID="s65"><Borders/><Interior ss:Color="#F8CBAD" ss:Pattern="Solid"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="219.75" ss:DefaultRowHeight="15"><Column ss:Index="2" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="169.5"/><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="235.5"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="157.5"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="174"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="148.5"/><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="235.5"/><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">UPGRADES_UNCATEGORIZED_UNITPROPERTIES</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">OMNIDIRECTIONAL_CAMERA</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Omnidirectional Camera</Data></Cell><Cell><Data ss:Type="String">全面监控</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">OMNIDIRECTIONAL_CAMERA</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has Overwatch in all directions.</Data></Cell><Cell><Data ss:Type="String">该单位拥有全方位的警戒。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CALCULATE_TARGETING_PARAMETERS</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Calculate Targeting Parameters</Data></Cell><Cell><Data ss:Type="String">计算瞄准参数</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">CALCULATE_TARGETING_PARAMETERS</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Raise this unit's accuracy and critical hit chance by {CalculateAccuracyIncrease}. All [abilityblue]Networked[/abilityblue] units also gain this effect.</Data></Cell><Cell><Data ss:Type="String">提升该单位 {CalculateAccuracyIncrease}.准度和暴击率。所有[abilityblue]网络连接[/abilityblue]单位也会获得该效果。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CALCULATE_TARGETING_PARAMETERS</Data></Cell><Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell><Cell><Data ss:Type="String">Enhanced Targeting</Data></Cell><Cell><Data ss:Type="String">强化瞄准</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">CALCULATE_TARGETING_PARAMETERS</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit gains {CalculateAccuracyIncrease} accuracy and {CalculateCriticalIncrease} critical hit chance per stack.</Data></Cell><Cell><Data ss:Type="String">每一层会使该单位获得 {CalculateAccuracyIncrease} 的准度和 {CalculateCriticalIncrease} 暴击率。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">CALCULATE_TARGETING_PARAMETERS</Data></Cell><Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{CalculateAccuracyIncrease} accuracy and {CalculateCriticalIncrease} critical hit chance.</Data></Cell><Cell><Data ss:Type="String">{CalculateAccuracyIncrease} 准度和 {CalculateCriticalIncrease} 暴击率。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">NANITE_REPAIR_CLOUD</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Transmit Repair Nanites</Data></Cell><Cell><Data ss:Type="String">传输修复纳米机器人</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">NANITE_REPAIR_CLOUD</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Transmit repair nanites through the network, healing all [abilityblue]Networked[/abilityblue] units for {healAmount} per Network level.</Data></Cell><Cell><Data ss:Type="String">通过网络传输修复纳米机器人，每个网络等级中的所有[abilityblue]网络连接[/abilityblue]单位治疗 {healAmount}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHIELD_PROJECTION</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Shield Projection</Data></Cell><Cell><Data ss:Type="String">护罩投掷</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SHIELD_PROJECTION</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Project a shield outwards, granting the unit and all [abilityblue]Networked[/abilityblue] friendly units {ShieldAmount} for {ShieldTurn}.</Data></Cell><Cell><Data ss:Type="String">向外投掷护罩，该单位和所有友方[abilityblue]网络连接[/abilityblue]单位获得 {ShieldAmount}，持续 {ShieldTurn}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHIELD_PROJECTION</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has +{ShieldAmount}.</Data></Cell><Cell><Data ss:Type="String">该单位拥有 +{ShieldAmount}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CONTACT_TECH_SUPPORT</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Contact Technical Support</Data></Cell><Cell><Data ss:Type="String">呼叫技术支持</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">CONTACT_TECH_SUPPORT</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit calls for assistance and summons one random Autonom unit into an adjacent hex.</Data></Cell><Cell><Data ss:Type="String">该单位呼叫救援并在相邻单元格随机召唤出一个自主机械单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SENTENCE_TARGET</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Sentence Target</Data></Cell><Cell><Data ss:Type="String">判决</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SENTENCE_TARGET</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Mark target unit for destruction. The unit has -{DamageResistanceDown} resistance in all damage channels and is {EvadeDown}% easier to hit.</Data></Cell><Cell><Data ss:Type="String">标记目标实施摧毁。该单位对所有类型的攻击获得 -{DamageResistanceDown} 抵抗且命中难度降低 {EvadeDown}%。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SENTENCE_TARGET</Data></Cell><Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell><Cell><Data ss:Type="String">Sentenced</Data></Cell><Cell><Data ss:Type="String">被判决</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SENTENCE_TARGET</Data></Cell><Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Unit has -{DamageResistanceDown} resistance in all damage channels and is {EvadeDown}% easier to hit.</Data></Cell><Cell><Data ss:Type="String">单位对所有类型的攻击获得 -{DamageResistanceDown} 抵抗且命中难度降低 {EvadeDown}%。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">INITIALIZE_CONNECTION</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Initialize Connections</Data></Cell><Cell><Data ss:Type="String">初始化连接</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="180"><Cell><Data ss:Type="String">INITIALIZE_CONNECTION</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">[abilityblue]Network[/abilityblue] all friendly Mechanical units , granting them a bonus that becomes stronger with each subsequent use: [br/][bulletList][bullet]Level 1: {accuracyBonus} accuracy on attacks and +{arcResistance}[DefenseWave/] resistance. [/bullet][bullet]Level 2: Unit's attacks gain one level of [abilityred]Stagger Impact[/abilityred]. [/bullet][bullet]Level 3: {damageBonus} increased damage to all attacks and {rangeBonus} range on ranged attacks.[/bullet][/bulletList]</Data></Cell><Cell><Data ss:Type="String">[abilityblue]网络连接[/abilityblue]所有友方机械单位并赋予加成效果，随着后续等级的提升单位将变得越来越强大：[br/][bulletList][bullet]等级 1：{accuracyBonus} 准度和 +{arcResistance}[DefenseWave/]抵抗。[/bullet][bullet]等级 2：单位的攻击获得 1 级[abilityred]动摇冲击[/abilityred]。[/bullet][bullet]等级 3：所有攻击造成的伤害提升 {damageBonus}，远程攻击射程提升 {rangeBonus}。[/bullet][/bulletList]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CONNECTED_LEVEL_1</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Networked Level 1</Data></Cell><Cell><Data ss:Type="String">网络连接等级 1</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">CONNECTED_LEVEL_1</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is sharing processing power with its allies, gaining {accuracyBonus} accuracy and +{arcResistance}[DefenseWave/] resistance.</Data></Cell><Cell><Data ss:Type="String">该单位正与盟友分享处理能量，获得 {accuracyBonus} 准度和 +{arcResistance}[DefenseWave/]抵抗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CONNECTED_LEVEL_2</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Networked Level 2</Data></Cell><Cell><Data ss:Type="String">网络连接等级 2</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">CONNECTED_LEVEL_2</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">All of this unit's attacks gain one level of [abilityred]Stagger Impact[/abilityred].</Data></Cell><Cell><Data ss:Type="String">该单位的所有攻击获得 1 级[abilityred]动摇冲击[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CONNECTED_LEVEL_3</Data></Cell><Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data ss:Type="String">Networked Level 3</Data></Cell><Cell><Data ss:Type="String">网络连接等级 3</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">CONNECTED_LEVEL_3</Data></Cell><Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit gains {damageBonus} increased damage on all attacks and +{rangeBonus} range on ranged attacks.</Data></Cell><Cell><Data ss:Type="String">该单位所有攻击造成的伤害提升 {damageBonus} 伤害，远程攻击射程 +{rangeBonus}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CONNECTED_LEVEL_3</Data></Cell><Cell><Data ss:Type="String">MODIFIER_DESCRIPTION_MELEE</Data></Cell><Cell><Data ss:Type="String">{damageBonus} increased damage.</Data></Cell><Cell><Data ss:Type="String">提升 {damageBonus} 伤害。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">CONNECTED_LEVEL_3</Data></Cell><Cell><Data ss:Type="String">MODIFIER_DESCRIPTION_RANGE</Data></Cell><Cell><Data ss:Type="String">{damageBonus} increased damage and {rangeBonus} range.</Data></Cell><Cell><Data ss:Type="String">提升 {damageBonus} 伤害和 {rangeBonus} 射程。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SUDDEN_DISCONNECTION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Sudden Disconnection</Data></Cell><Cell><Data ss:Type="String">突然中断</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MAIN_NODE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Main Node</Data></Cell><Cell><Data ss:Type="String">主节点</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">MAIN_NODE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">One level of [abilityblue]Networked[/abilityblue] will be lost on all affected units if this unit is killed.</Data></Cell><Cell><Data ss:Type="String">如果该单位被击杀，所有受影响的单位将失去 1 级[abilityblue]网络连接[/abilityblue]等级。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CONCUSSIVE_ORDENANCE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Concussive Ordnance</Data></Cell><Cell><Data ss:Type="String">震荡炮</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">CONCUSSIVE_ORDENANCE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit's Explosive attacks gain a {ConcussChance}[strengthPhysical/] strength chance ({ConcussChanceRep}[strengthPhysical/] for repeating attacks) to apply [abilityred]Concussion[/abilityred] to non-Ethereal and non-Mechanical units for {ConcussTurn}[turn/].</Data></Cell><Cell><Data ss:Type="String">该单位的爆炸攻击有 {ConcussChance}[strengthPhysical/] 力量几率（重复攻击有 {ConcussChanceRep}[strengthPhysical/] 几率）向非虚灵单位和非机械单位施加[abilityred]震荡[/abilityred]，持续 {ConcussTurn}[turn/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Self-repair Systems</Data></Cell><Cell><Data ss:Type="String">自修复系统</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has self-repair systems that heal it during battle for {healbattle} each turn, and heal it to full [hp/] at the start of every Strategic turn.</Data></Cell><Cell><Data ss:Type="String">该单位拥有自修复系统，在战斗中每回合治疗 {healbattle}，此外在每个战略回合开始时恢复全部[hp/]。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data></Cell><Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit self-repairs during battle for {healbattle} each turn, and heals to full [hp/] at the start of every Strategic turn.</Data></Cell><Cell><Data ss:Type="String">该单位在战斗中能够自我修复，每回合治疗 {healbattle}，并且在每个战略回合开始时恢复全部[hp/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IMMOLATION_MATRIX</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Immolation Matrix</Data></Cell><Cell><Data ss:Type="String">焚祭矩阵</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="81.75"><Cell><Data ss:Type="String">IMMOLATION_MATRIX</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This matrix causes Laser attacks to ignite units hit, giving a {DisruptionMatStr}[strengthThermal/] strength chance ({DisruptionMatStrRep}[strengthThermal/] for repeating attacks) to [abilityred]Immolate[/abilityred] non-Ethereal and non-Mineral units for {ImmoTurn}[turn/]. If resisted, apply [abilityred]Burning[/abilityred] instead.</Data></Cell><Cell><Data ss:Type="String">该矩阵能够使激光攻击点燃被命中的单位，有 {DisruptionMatStr}[strengthThermal/] 力量几率（重复攻击有 {DisruptionMatStrRep}[strengthThermal/] 几率）[abilityred]焚祭[/abilityred]非虚灵单位和非矿物单位，持续 {ImmoTurn}[turn/]。如果抵抗，则施加[abilityred]燃烧[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MINING_LASER_UPGRADE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Mining Laser Upgrade</Data></Cell><Cell><Data ss:Type="String">采矿激光升级</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">MINING_LASER_UPGRADE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">All Laser attacks gain [abilityred]Melt Armor[/abilityred], removing {armorMelt}[armor/] with each hit.</Data></Cell><Cell><Data ss:Type="String">所有激光攻击获得[abilityred]熔甲[/abilityred]，每次攻击能够移除 {armorMelt}[armor/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">NETWORK_COMPATIBLE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Network Compatible</Data></Cell><Cell><Data ss:Type="String">网络兼容</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">NETWORK_COMPATIBLE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit is Nework Compatible and can benefit from [abilityblue]Networked[/abilityblue].</Data></Cell><Cell><Data ss:Type="String">该单位与网络兼容，因此可从[abilityblue]网络连接[/abilityblue]获益。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Autonom Network Connector</Data></Cell><Cell><Data ss:Type="String">自主机械网络连接器</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit gains Network Compatible, allowing it to benefit from [abilityblue]Networked[/abilityblue].</Data></Cell><Cell><Data ss:Type="String">该单位获得网络兼容因此可从[abilityblue]网络连接[/abilityblue]获益。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Linked</Data></Cell><Cell><Data ss:Type="String">已连接</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Wired</Data></Cell><Cell><Data ss:Type="String">已联网</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Matrix</Data></Cell><Cell><Data ss:Type="String">矩阵</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">On Grid</Data></Cell><Cell><Data ss:Type="String">连通网络</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Online</Data></Cell><Cell><Data ss:Type="String">在线</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Networked</Data></Cell><Cell><Data ss:Type="String">网络连接</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MINING_LASER_UPGRADE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Stone Melting</Data></Cell><Cell><Data ss:Type="String">熔石</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MINING_LASER_UPGRADE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Borehole</Data></Cell><Cell><Data ss:Type="String">钻孔</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MINING_LASER_UPGRADE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Fracturing</Data></Cell><Cell><Data ss:Type="String">裂天毁地</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MINING_LASER_UPGRADE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Plate Splitter</Data></Cell><Cell><Data ss:Type="String">板块割裂者</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MINING_LASER_UPGRADE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Refracting</Data></Cell><Cell><Data ss:Type="String">折射</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">MINING_LASER_UPGRADE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Perforating</Data></Cell><Cell><Data ss:Type="String">穿孔</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CONCUSSIVE_ORDNANCE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Forcewave</Data></Cell><Cell><Data ss:Type="String">能量波</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CONCUSSIVE_ORDNANCE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Skull Boomer</Data></Cell><Cell><Data ss:Type="String">颅骨炸裂者</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CONCUSSIVE_ORDNANCE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Cannonball</Data></Cell><Cell><Data ss:Type="String">炮弹</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CONCUSSIVE_ORDNANCE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Knockout</Data></Cell><Cell><Data ss:Type="String">击倒</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CONCUSSIVE_ORDNANCE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Earth Shaker</Data></Cell><Cell><Data ss:Type="String">撼地者</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CONCUSSIVE_ORDNANCE</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Quake</Data></Cell><Cell><Data ss:Type="String">震荡</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Overhauler</Data></Cell><Cell><Data ss:Type="String">检修器</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Self-Reconstructor</Data></Cell><Cell><Data ss:Type="String">自重组器</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Auto Healer</Data></Cell><Cell><Data ss:Type="String">自动医疗器</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Regen Bot</Data></Cell><Cell><Data ss:Type="String">再生机器人</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Self-Welder</Data></Cell><Cell><Data ss:Type="String">自焊接器</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Unwrecker</Data></Cell><Cell><Data ss:Type="String">修整器</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IMMOLATION_MATRIX</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Smouldering</Data></Cell><Cell><Data ss:Type="String">阴燃</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IMMOLATION_MATRIX</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Blaze Grid</Data></Cell><Cell><Data ss:Type="String">火焰网</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IMMOLATION_MATRIX</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Conflagrated</Data></Cell><Cell><Data ss:Type="String">燃烧</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IMMOLATION_MATRIX</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Circuit Fryer</Data></Cell><Cell><Data ss:Type="String">电路焚毁器</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IMMOLATION_MATRIX</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Spark Plug</Data></Cell><Cell><Data ss:Type="String">火花塞</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">IMMOLATION_MATRIX</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s64"><Data ss:Type="String">Semiconductor</Data></Cell><Cell><Data ss:Type="String">半导体</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">Review</Data></Cell><Cell ss:StyleID="s64"/></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Selected/><TopRowVisible>42</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>45</ActiveRow><ActiveCol>2</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:45:56Z</Created><LastSaved
+    >2019-06-25T15:45:56Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Borders /></Style><Style ss:ID="s63"><Alignment
+        ss:Vertical="Bottom"
+        ss:WrapText="1"
+      /><Borders /></Style><Style ss:ID="s64"><Alignment
+        ss:Vertical="Bottom"
+        ss:WrapText="1"
+      /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /></Style><Style ss:ID="s65"><Borders /><Interior
+        ss:Color="#F8CBAD"
+        ss:Pattern="Solid"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="219.75"
+      ss:DefaultRowHeight="15"
+    ><Column
+        ss:Index="2"
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="169.5"
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="235.5" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="157.5"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="174" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="148.5"
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="235.5" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data
+            ss:Type="String"
+          >UPGRADES_UNCATEGORIZED_UNITPROPERTIES</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OMNIDIRECTIONAL_CAMERA</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Omnidirectional Camera</Data></Cell><Cell><Data
+            ss:Type="String"
+          >全面监控</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >OMNIDIRECTIONAL_CAMERA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has Overwatch in all directions.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >该单位拥有全方位的警戒。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >CALCULATE_TARGETING_PARAMETERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Calculate Targeting Parameters</Data></Cell><Cell><Data
+            ss:Type="String"
+          >计算瞄准参数</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >CALCULATE_TARGETING_PARAMETERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Raise this unit's accuracy and critical hit chance by {CalculateAccuracyIncrease}. All [abilityblue]Networked[/abilityblue] units also gain this effect.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >提升该单位 {CalculateAccuracyIncrease}.准度和暴击率。所有[abilityblue]网络连接[/abilityblue]单位也会获得该效果。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >CALCULATE_TARGETING_PARAMETERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Enhanced Targeting</Data></Cell><Cell><Data
+            ss:Type="String"
+          >强化瞄准</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >CALCULATE_TARGETING_PARAMETERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit gains {CalculateAccuracyIncrease} accuracy and {CalculateCriticalIncrease} critical hit chance per stack.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每一层会使该单位获得 {CalculateAccuracyIncrease} 的准度和 {CalculateCriticalIncrease} 暴击率。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >CALCULATE_TARGETING_PARAMETERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{CalculateAccuracyIncrease} accuracy and {CalculateCriticalIncrease} critical hit chance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{CalculateAccuracyIncrease} 准度和 {CalculateCriticalIncrease} 暴击率。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">NANITE_REPAIR_CLOUD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Transmit Repair Nanites</Data></Cell><Cell><Data
+            ss:Type="String"
+          >传输修复纳米机器人</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">NANITE_REPAIR_CLOUD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Transmit repair nanites through the network, healing all [abilityblue]Networked[/abilityblue] units for {healAmount} per Network level.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >通过网络传输修复纳米机器人，每个网络等级中的所有[abilityblue]网络连接[/abilityblue]单位治疗 {healAmount}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SHIELD_PROJECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shield Projection</Data></Cell><Cell><Data
+            ss:Type="String"
+          >护罩投掷</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">SHIELD_PROJECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Project a shield outwards, granting the unit and all [abilityblue]Networked[/abilityblue] friendly units {ShieldAmount} for {ShieldTurn}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向外投掷护罩，该单位和所有友方[abilityblue]网络连接[/abilityblue]单位获得 {ShieldAmount}，持续 {ShieldTurn}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SHIELD_PROJECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has +{ShieldAmount}.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >该单位拥有 +{ShieldAmount}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CONTACT_TECH_SUPPORT</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Contact Technical Support</Data></Cell><Cell><Data
+            ss:Type="String"
+          >呼叫技术支持</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CONTACT_TECH_SUPPORT</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit calls for assistance and summons one random Autonom unit into an adjacent hex.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位呼叫救援并在相邻单元格随机召唤出一个自主机械单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SENTENCE_TARGET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sentence Target</Data></Cell><Cell><Data
+            ss:Type="String"
+          >判决</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">SENTENCE_TARGET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mark target unit for destruction. The unit has -{DamageResistanceDown} resistance in all damage channels and is {EvadeDown}% easier to hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >标记目标实施摧毁。该单位对所有类型的攻击获得 -{DamageResistanceDown} 抵抗且命中难度降低 {EvadeDown}%。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SENTENCE_TARGET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sentenced</Data></Cell><Cell><Data
+            ss:Type="String"
+          >被判决</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SENTENCE_TARGET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit has -{DamageResistanceDown} resistance in all damage channels and is {EvadeDown}% easier to hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位对所有类型的攻击获得 -{DamageResistanceDown} 抵抗且命中难度降低 {EvadeDown}%。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INITIALIZE_CONNECTION</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Initialize Connections</Data></Cell><Cell><Data
+            ss:Type="String"
+          >初始化连接</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="180"
+      ><Cell><Data ss:Type="String">INITIALIZE_CONNECTION</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[abilityblue]Network[/abilityblue] all friendly Mechanical units , granting them a bonus that becomes stronger with each subsequent use: [br/][bulletList][bullet]Level 1: {accuracyBonus} accuracy on attacks and +{arcResistance}[DefenseWave/] resistance. [/bullet][bullet]Level 2: Unit's attacks gain one level of [abilityred]Stagger Impact[/abilityred]. [/bullet][bullet]Level 3: {damageBonus} increased damage to all attacks and {rangeBonus} range on ranged attacks.[/bullet][/bulletList]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[abilityblue]网络连接[/abilityblue]所有友方机械单位并赋予加成效果，随着后续等级的提升单位将变得越来越强大：[br/][bulletList][bullet]等级 1：{accuracyBonus} 准度和 +{arcResistance}[DefenseWave/]抵抗。[/bullet][bullet]等级 2：单位的攻击获得 1 级[abilityred]动摇冲击[/abilityred]。[/bullet][bullet]等级 3：所有攻击造成的伤害提升 {damageBonus}，远程攻击射程提升 {rangeBonus}。[/bullet][/bulletList]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CONNECTED_LEVEL_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Networked Level 1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >网络连接等级 1</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">CONNECTED_LEVEL_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is sharing processing power with its allies, gaining {accuracyBonus} accuracy and +{arcResistance}[DefenseWave/] resistance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位正与盟友分享处理能量，获得 {accuracyBonus} 准度和 +{arcResistance}[DefenseWave/]抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CONNECTED_LEVEL_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Networked Level 2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >网络连接等级 2</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CONNECTED_LEVEL_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All of this unit's attacks gain one level of [abilityred]Stagger Impact[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的所有攻击获得 1 级[abilityred]动摇冲击[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CONNECTED_LEVEL_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Networked Level 3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >网络连接等级 3</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">CONNECTED_LEVEL_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit gains {damageBonus} increased damage on all attacks and +{rangeBonus} range on ranged attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位所有攻击造成的伤害提升 {damageBonus} 伤害，远程攻击射程 +{rangeBonus}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CONNECTED_LEVEL_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_DESCRIPTION_MELEE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{damageBonus} increased damage.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >提升 {damageBonus} 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CONNECTED_LEVEL_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_DESCRIPTION_RANGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{damageBonus} increased damage and {rangeBonus} range.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >提升 {damageBonus} 伤害和 {rangeBonus} 射程。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SUDDEN_DISCONNECTION</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sudden Disconnection</Data></Cell><Cell><Data
+            ss:Type="String"
+          >突然中断</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MAIN_NODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Main Node</Data></Cell><Cell><Data
+            ss:Type="String"
+          >主节点</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">MAIN_NODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >One level of [abilityblue]Networked[/abilityblue] will be lost on all affected units if this unit is killed.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >如果该单位被击杀，所有受影响的单位将失去 1 级[abilityblue]网络连接[/abilityblue]等级。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CONCUSSIVE_ORDENANCE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Concussive Ordnance</Data></Cell><Cell><Data
+            ss:Type="String"
+          >震荡炮</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">CONCUSSIVE_ORDENANCE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's Explosive attacks gain a {ConcussChance}[strengthPhysical/] strength chance ({ConcussChanceRep}[strengthPhysical/] for repeating attacks) to apply [abilityred]Concussion[/abilityred] to non-Ethereal and non-Mechanical units for {ConcussTurn}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的爆炸攻击有 {ConcussChance}[strengthPhysical/] 力量几率（重复攻击有 {ConcussChanceRep}[strengthPhysical/] 几率）向非虚灵单位和非机械单位施加[abilityred]震荡[/abilityred]，持续 {ConcussTurn}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Self-repair Systems</Data></Cell><Cell><Data
+            ss:Type="String"
+          >自修复系统</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has self-repair systems that heal it during battle for {healbattle} each turn, and heal it to full [hp/] at the start of every Strategic turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位拥有自修复系统，在战斗中每回合治疗 {healbattle}，此外在每个战略回合开始时恢复全部[hp/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROP_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit self-repairs during battle for {healbattle} each turn, and heals to full [hp/] at the start of every Strategic turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位在战斗中能够自我修复，每回合治疗 {healbattle}，并且在每个战略回合开始时恢复全部[hp/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IMMOLATION_MATRIX</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Immolation Matrix</Data></Cell><Cell><Data
+            ss:Type="String"
+          >焚祭矩阵</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="81.75"
+      ><Cell><Data ss:Type="String">IMMOLATION_MATRIX</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This matrix causes Laser attacks to ignite units hit, giving a {DisruptionMatStr}[strengthThermal/] strength chance ({DisruptionMatStrRep}[strengthThermal/] for repeating attacks) to [abilityred]Immolate[/abilityred] non-Ethereal and non-Mineral units for {ImmoTurn}[turn/]. If resisted, apply [abilityred]Burning[/abilityred] instead.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该矩阵能够使激光攻击点燃被命中的单位，有 {DisruptionMatStr}[strengthThermal/] 力量几率（重复攻击有 {DisruptionMatStrRep}[strengthThermal/] 几率）[abilityred]焚祭[/abilityred]非虚灵单位和非矿物单位，持续 {ImmoTurn}[turn/]。如果抵抗，则施加[abilityred]燃烧[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MINING_LASER_UPGRADE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mining Laser Upgrade</Data></Cell><Cell><Data
+            ss:Type="String"
+          >采矿激光升级</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">MINING_LASER_UPGRADE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All Laser attacks gain [abilityred]Melt Armor[/abilityred], removing {armorMelt}[armor/] with each hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有激光攻击获得[abilityred]熔甲[/abilityred]，每次攻击能够移除 {armorMelt}[armor/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">NETWORK_COMPATIBLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Network Compatible</Data></Cell><Cell><Data
+            ss:Type="String"
+          >网络兼容</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">NETWORK_COMPATIBLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is Nework Compatible and can benefit from [abilityblue]Networked[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位与网络兼容，因此可从[abilityblue]网络连接[/abilityblue]获益。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Autonom Network Connector</Data></Cell><Cell><Data
+            ss:Type="String"
+          >自主机械网络连接器</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit gains Network Compatible, allowing it to benefit from [abilityblue]Networked[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位获得网络兼容因此可从[abilityblue]网络连接[/abilityblue]获益。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data></Cell><Cell
+        ><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Linked</Data></Cell><Cell><Data
+            ss:Type="String"
+          >已连接</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data></Cell><Cell
+        ><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Wired</Data></Cell><Cell><Data
+            ss:Type="String"
+          >已联网</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data></Cell><Cell
+        ><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Matrix</Data></Cell><Cell><Data
+            ss:Type="String"
+          >矩阵</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data></Cell><Cell
+        ><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">On Grid</Data></Cell><Cell><Data
+            ss:Type="String"
+          >连通网络</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data></Cell><Cell
+        ><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Online</Data></Cell><Cell><Data
+            ss:Type="String"
+          >在线</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AUTONOM_NETWORK_CONNECTOR</Data></Cell><Cell
+        ><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Networked</Data></Cell><Cell><Data
+            ss:Type="String"
+          >网络连接</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MINING_LASER_UPGRADE</Data></Cell><Cell
+        ><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Stone Melting</Data></Cell><Cell><Data
+            ss:Type="String"
+          >熔石</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MINING_LASER_UPGRADE</Data></Cell><Cell
+        ><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Borehole</Data></Cell><Cell><Data
+            ss:Type="String"
+          >钻孔</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MINING_LASER_UPGRADE</Data></Cell><Cell
+        ><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Fracturing</Data></Cell><Cell><Data
+            ss:Type="String"
+          >裂天毁地</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MINING_LASER_UPGRADE</Data></Cell><Cell
+        ><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Plate Splitter</Data></Cell><Cell><Data
+            ss:Type="String"
+          >板块割裂者</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MINING_LASER_UPGRADE</Data></Cell><Cell
+        ><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Refracting</Data></Cell><Cell><Data
+            ss:Type="String"
+          >折射</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MINING_LASER_UPGRADE</Data></Cell><Cell
+        ><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Perforating</Data></Cell><Cell><Data
+            ss:Type="String"
+          >穿孔</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CONCUSSIVE_ORDNANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Forcewave</Data></Cell><Cell><Data
+            ss:Type="String"
+          >能量波</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CONCUSSIVE_ORDNANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Skull Boomer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >颅骨炸裂者</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CONCUSSIVE_ORDNANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Cannonball</Data></Cell><Cell><Data
+            ss:Type="String"
+          >炮弹</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CONCUSSIVE_ORDNANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Knockout</Data></Cell><Cell><Data
+            ss:Type="String"
+          >击倒</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CONCUSSIVE_ORDNANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Earth Shaker</Data></Cell><Cell><Data
+            ss:Type="String"
+          >撼地者</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CONCUSSIVE_ORDNANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Quake</Data></Cell><Cell><Data
+            ss:Type="String"
+          >震荡</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Overhauler</Data></Cell><Cell><Data
+            ss:Type="String"
+          >检修器</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Self-Reconstructor</Data></Cell><Cell><Data
+            ss:Type="String"
+          >自重组器</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Auto Healer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >自动医疗器</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Regen Bot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >再生机器人</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SELF_REPAIR_SYSTEMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Self-Welder</Data></Cell><Cell><Data
+            ss:Type="String"
+          >自焊接器</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SELF_REPAIR_SYSTEMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Unwrecker</Data></Cell><Cell><Data
+            ss:Type="String"
+          >修整器</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IMMOLATION_MATRIX</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Smouldering</Data></Cell><Cell><Data
+            ss:Type="String"
+          >阴燃</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IMMOLATION_MATRIX</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Blaze Grid</Data></Cell><Cell><Data
+            ss:Type="String"
+          >火焰网</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IMMOLATION_MATRIX</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Conflagrated</Data></Cell><Cell><Data
+            ss:Type="String"
+          >燃烧</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IMMOLATION_MATRIX</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Circuit Fryer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电路焚毁器</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IMMOLATION_MATRIX</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Spark Plug</Data></Cell><Cell><Data
+            ss:Type="String"
+          >火花塞</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IMMOLATION_MATRIX</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Semiconductor</Data></Cell><Cell><Data
+            ss:Type="String"
+          >半导体</Data></Cell><Cell ss:Index="8" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Review</Data></Cell><Cell ss:StyleID="s64" /></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><TopRowVisible
+      >42</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >45</ActiveRow><ActiveCol>2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

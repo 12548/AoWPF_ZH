@@ -1,2 +1,867 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Luis Ferreira</LastAuthor><LastSaved>2019-07-22T13:42:56Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style><Style ss:ID="s63"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="242.25" ss:DefaultRowHeight="15"><Column ss:StyleID="s62" ss:Width="189"/><Column ss:StyleID="s62" ss:Width="117.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="281.25"/><Column ss:StyleID="s62" ss:Width="147.75"/><Column ss:StyleID="s62" ss:Width="243"/><Column ss:StyleID="s62" ss:Width="120"/><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">FORGOTTEN_UNITPROPERTIES</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ESSENCE_FIEND</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Essence Fiend</Data></Cell><Cell><Data ss:Type="String">精华瘾君子</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">ESSENCE_FIEND</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit can carry up to {EssenceAmount}[EssenceCharge/] [abilityblue]Essence Charges[/abilityblue].[br/]When this unit kills another with an ability that doesn't spend Essence, it consumes the corpse and gains {EssenceGain}[EssenceCharge/][abilityblue]Essence Charge[/abilityblue] and heals for {HealAmount}[hp/].</Data></Cell><Cell><Data ss:Type="String">该单位最多能够拥有 {EssenceAmount}[EssenceCharge/][abilityblue]精华充能[/abilityblue]。[br/]当该单位使用无需消耗精华的技能击杀敌人时，能够吞噬敌人的尸体，获得 {EssenceGain}[EssenceCharge/][abilityblue]精华充能[/abilityblue]并治疗 {HealAmount}[hp/]。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Essence Charges and Essence is described in the glossary.
-EssenceAmount numbers the quantity of essence charges this unit can carry.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ESSENCE_CHANNELER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Essence Channeler</Data></Cell><Cell><Data ss:Type="String">精华引导者</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell><Data ss:Type="String">ESSENCE_CHANNELER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit can carry up to {EssenceAmount}[EssenceCharge/] [abilityblue]Essence Charges[/abilityblue].[br/]When this unit kills another with an ability that doesn't spend Essence, it consumes the corpse and gains {EssenceGain}[EssenceCharge/][abilityblue]Essence Charge[/abilityblue] and heals for {HealAmount}[hp/].[br/][br/]This unit and all friendly units gain +{ShieldAmount}[shield/] per active [EssenceCharge/][abilityblue]Essence Charge[/abilityblue], up to a maximum of +{MaxShields}[shield/].</Data></Cell><Cell><Data ss:Type="String">该单位最多能够拥有 {EssenceAmount}[EssenceCharge/][abilityblue]精华充能[/abilityblue]。[br/]当该单位使用无需消耗精华的技能击杀敌人时，能够吞噬敌人的尸体，获得 {EssenceGain}[EssenceCharge/][abilityblue]精华充能[/abilityblue]并治疗 {HealAmount}[hp/]。[br/][br/]每有一个激活的 [EssenceCharge/][abilityblue]精华充能[/abilityblue]，该单位及所有友方单位获得 +{MaxShields}[shield/]，最多获得 +{ShieldAmount}[shield/]。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">EssenceAmount numbers the quantity of essence charges this unit can carry.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CHANNELED_SHIELD</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Channeled Shield</Data></Cell><Cell><Data ss:Type="String">引导护盾</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">CHANNELED_SHIELD</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has +{ShieldChanneler}[shield/] from a friendly unit.[br/]This can stack up to {MaxStacks}.</Data></Cell><Cell><Data ss:Type="String">该单位因友方单位获得了 +{ShieldChanneler}[shield/]。[br/]最多可叠加 {MaxStacks}。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ESSENCE_GORGER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Essence Gorger</Data></Cell><Cell><Data ss:Type="String">精华吞食者</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="135"><Cell><Data ss:Type="String">ESSENCE_GORGER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit can carry up to {EssenceAmount}[EssenceCharge/] [abilityblue]Essence Charges[/abilityblue].[br/]When this unit kills another with an ability that doesn't spend Essence, it consumes the corpse and gains {EssenceGain}[EssenceCharge/][abilityblue]Essence Charge[/abilityblue] and heals for {HealAmount}[hp/].[br/][br/]This unit gains +{IncreasedCriticalChance}% critical hit chance per active [EssenceCharge/][abilityblue]Essence Charge[/abilityblue].</Data></Cell><Cell><Data ss:Type="String">该单位最多能够拥有 {EssenceAmount}[EssenceCharge/][abilityblue]精华充能[/abilityblue]。[br/]当该单位使用无需消耗精华的技能击杀敌人时，能够吞噬敌人的尸体，获得 {EssenceGain}[EssenceCharge/][abilityblue]精华充能[/abilityblue]并治疗 {HealAmount}[hp/]。[br/][br/]每有一个激活的 [EssenceCharge/][abilityblue]精华充能[/abilityblue]，该单位获得 +{IncreasedCriticalChance}% 暴击率。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">EssenceAmount numbers the quantity of essence charges this unit can carry.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CRITICAL_GORGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Gorge</Data></Cell><Cell><Data ss:Type="String">吞食</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">CRITICAL_GORGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has +{CriticalPercentage}% critical hit chance per stack.</Data></Cell><Cell><Data ss:Type="String">每层使该单位获得 +{CriticalPercentage}% 暴击率。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">COVET_ESSENCE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Covet Essence</Data></Cell><Cell><Data ss:Type="String">觊觎精华</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">COVET_ESSENCE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Melee attack.</Data></Cell><Cell><Data ss:Type="String">近战攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">UNSTABLE_DECAY</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Unstable Decay</Data></Cell><Cell><Data ss:Type="String">不稳定衰败</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">UNSTABLE_DECAY</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Requires and uses {EssenceChargeNumber}[EssenceCharge/][abilityblue]Essence Charge[/abilityblue].[br/]This unit destroys itself in an unstable burst and damages all adjacent units.</Data></Cell><Cell><Data ss:Type="String">需要使用 {EssenceChargeNumber}[EssenceCharge/][abilityblue] 精华充能[/abilityblue]。[br/]该单位在不稳定的爆炸中自毁，对所有相邻单位造成伤害。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">EssenceChargeNumber refers to the amount of Essence Charges the unit spends when using this ability.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFENSIVE_SHOT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Defensive Shot</Data></Cell><Cell><Data ss:Type="String">防御射击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEFENSIVE_SHOT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Fire a shot against those who would disturb your vessel.</Data></Cell><Cell><Data ss:Type="String">射击干扰你载具的敌人。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ESSENCE_CORROSION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Essence Corrosion</Data></Cell><Cell><Data ss:Type="String">精华腐蚀</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">ESSENCE_CORROSION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Requires and uses {EssenceChargeNumber}[EssenceCharge/][abilityblue]Essence Charge[/abilityblue].[br/]Send unstable corrupt essence to an area, dealing damage in a {HexRadius} hex radius.</Data></Cell><Cell><Data ss:Type="String">需要使用 {EssenceChargeNumber}[EssenceCharge/][abilityblue] 精华充能[/abilityblue]。[br/]将不稳定的堕落精华发送至一个区域，对 {HexRadius} 个单元格范围造成伤害。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">EssenceChargeNumber refers to the amount of Essence Charges the unit spends when using this ability.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ESSENCE_FANGS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Essence Fangs</Data></Cell><Cell><Data ss:Type="String">精华獠牙</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ESSENCE_FANGS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Melee attack with sharp fangs that dissolve and drain Essence.</Data></Cell><Cell><Data ss:Type="String">利用锋利的獠牙进行近战攻击，能够溶解并汲取精华。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">STINGER_SHOT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Stinger Shot</Data></Cell><Cell><Data ss:Type="String">针刺射击</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">STINGER_SHOT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">An entropic shot from the stinger of the unit that drains essence.</Data></Cell><Cell><Data ss:Type="String">从单位针刺中射出能够汲取精华的混沌攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ROT_EMANATION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Rot Emanation</Data></Cell><Cell><Data ss:Type="String">腐败散发</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">ROT_EMANATION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Requires and uses {EssenceChargeNumber}[EssenceCharge/][abilityblue]Essence Charge[/abilityblue].[br/]This unit expels a {ConeHex} hex cone of rotting essence.</Data></Cell><Cell><Data ss:Type="String">需要使用 {EssenceChargeNumber}[EssenceCharge/][abilityblue]精华充能[/abilityblue]。[br/]该单位向 {ConeHex} 个单元格扇形区域散发腐烂精华。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">EssenceChargeNumber refers to the amount of Essence Charges the unit spends when using this ability.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ESSENCE_CRUSH</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Essence Crush</Data></Cell><Cell><Data ss:Type="String">精华粉碎</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ESSENCE_CRUSH</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Two hands made of ethereal essence appear to crush a target.</Data></Cell><Cell><Data ss:Type="String">一双由虚灵精华组成的双手将目标粉碎。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ESSENCE_SLAM</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Essence Slam</Data></Cell><Cell><Data ss:Type="String">精华猛击</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">ESSENCE_SLAM</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Teleport to target hex and then slam all units in a {hexradius} hex radius with ethereal hands. If a corpse is in the area, it is destroyed and this unit gains an {EssenceAmount}[EssenceCharge/][abilityblue]Essence Charge[/abilityblue].</Data></Cell><Cell><Data ss:Type="String">传送至目标单元格，然后用虚灵之手拍击 {hexradius} 个单元格范围内的所有单位。如果区域中有尸体存在，则摧毁该尸体且该单位获得 {EssenceAmount}[EssenceCharge/][abilityblue]精华充能[/abilityblue]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEVOUR_THE_DEAD</Data></Cell><Cell><Data ss:Type="String">MOD_NAME</Data></Cell><Cell><Data ss:Type="String">Devourer of the Dead</Data></Cell><Cell><Data ss:Type="String">尸体吞噬者</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">DEVOUR_THE_DEAD</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit devours the corpses of those it kills with this ability, healing {HealAmount}[hp/] and gaining {EssenceAmount}[EssenceCharge/][abilityblue]Essence Charge[/abilityblue].</Data></Cell><Cell><Data ss:Type="String">如果该单位使用此技能击杀了敌人，则会吞噬敌人的尸体，治疗 {HealAmount}[hp/] 并获得 {EssenceAmount}[EssenceCharge/][abilityblue]精华充能[/abilityblue]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PUNISHMENT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Punishment</Data></Cell><Cell><Data ss:Type="String">惩戒</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">PUNISHMENT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Requires and uses {EssenceChargeNumber}[EssenceCharge/][abilityblue]Essence Charges[/abilityblue].[br/]Crush all enemies in the battlefield with dense ethereal hands.</Data></Cell><Cell><Data ss:Type="String">需要使用 {EssenceChargeNumber}[EssenceCharge/][abilityblue] 精华充能[/abilityblue]。[br/]用密集的虚灵之手粉碎战场上的所有敌人。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">EssenceChargeNumber refers to the amount of Essence Charges the unit spends when using this ability.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHATTERED_COMMUNION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Shattered Communion</Data></Cell><Cell><Data ss:Type="String">破碎通灵</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">SHATTERED_COMMUNION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Perform a corrupt communion with target enemy unit. The unit takes {EntropyDamage}[damageEntropy/] damage and gains one stack of both  [abilityred]Energy Drained[/abilityred] and [abilityred]Entropic Decay[/abilityred] at the start of its turn. If the Shattered Ark is staggered, the link will end along with the effect.</Data></Cell><Cell><Data ss:Type="String">与目标敌方单位进行一次堕落通灵。本回合开始时，该敌方单位受到 {EntropyDamage}[damageEntropy/] 伤害并获得 1 层[abilityred]能量枯萎[/abilityred]和[abilityred]混沌衰败[/abilityred]。如果破碎方舟被动摇，则连接将会与此效果一同结束。</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Energy Drain and Entropic Decay are Status Effects.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CORRUPT_COMMUNION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Corrupt Communion</Data></Cell><Cell><Data ss:Type="String">堕落通灵</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">CORRUPT_COMMUNION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">At the start of its turn, this unit takes {EntropyDamageCorruption}[damageEntropy/] damage and gains one stack of [abilityred]Energy Drained[/abilityred] and [abilityred]Entropic Decay[/abilityred].</Data></Cell><Cell><Data ss:Type="String">本回合开始时，该单位受到 {EntropyDamageCorruption}[damageEntropy/] 伤害并获得 1 层[abilityred]能量枯萎[/abilityred]和[abilityred]混沌衰败[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">CORRUPT_COMMUNION</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{CorruptCommunionChance}[strengthEntropy/] strength chance to apply [abilityred]Corrupt Communion[/abilityred] to target non-RPR unit.</Data></Cell><Cell><Data ss:Type="String">有 {CorruptCommunionChance}[strengthEntropy/] 力量几率向非 RPR 目标单位施加[abilityred]堕落通灵[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">CORRUPT_COMMUNION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION_CASTER</Data></Cell><Cell><Data ss:Type="String">This unit is in Corrupt Communion with another unit.</Data></Cell><Cell><Data ss:Type="String">该单位与另一个单位进行堕落通灵。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ATROPHIC_PENANCE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Atrophic Penance</Data></Cell><Cell><Data ss:Type="String">萎缩忏悔</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">ATROPHIC_PENANCE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Deal damage to a unit with [abilityred]Corrupt Communion[/abilityred] and attempt to apply multiple stacks of [abilityred]Entropic Decay[/abilityred].</Data></Cell><Cell><Data ss:Type="String">对拥有[abilityred]堕落通灵[/abilityred]的单位造成伤害，并尝试施加多层[abilityred]混沌衰败[/abilityred]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EMBALM_ESSENCE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Embalm Essence</Data></Cell><Cell><Data ss:Type="String">不朽精华</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">EMBALM_ESSENCE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Requires and uses {EssenceChargeNumber}[EssenceCharge/][abilityblue]Essence Charges[/abilityblue].[br/]Target friendly unit has its negative status effects dispelled and is healed for {healAmount}[hp/]. That unit gains +{Resistance} resistance to all damage for {EmbalmDuration}[turn/].</Data></Cell><Cell><Data ss:Type="String">需要使用 {EssenceChargeNumber}[EssenceCharge/][abilityblue] 精华充能[/abilityblue]。[br/]驱散目标友方单位身上的负面状态效果并治疗 {healAmount}[hp/]，该友方单位对所有伤害获得 +{Resistance} 抗性，持续 {EmbalmDuration}[turn/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">EMBALM_ESSENCE</Data></Cell><Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit has +{Resistance} resistance to all damage.</Data></Cell><Cell><Data ss:Type="String">该单位对所有伤害拥有 +{Resistance} 抵抗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPIC_NECROPHAGY</Data></Cell><Cell><Data ss:Type="String">MOD_NAME</Data></Cell><Cell><Data ss:Type="String">Entropic Necrophagy</Data></Cell><Cell><Data ss:Type="String">混沌食尸</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FORGOTTEN_SIPHON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Forgotten Essence Siphon</Data></Cell><Cell><Data ss:Type="String">被遗忘者精华虹吸</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FORGOTTEN_SIPHON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Non-Entropic attacks gain a {EnergyDrainChance}[strengthEntropy/] strength chance to apply [abilityred]Energy Drain[/abilityred] ({EnergyDrainSingleAttack}[strengthEntropy/] strength chance on repeating attacks).</Data></Cell><Cell><Data ss:Type="String">非混沌攻击有 {EnergyDrainChance}[strengthEntropy/] 力量几率施加[abilityred]能量干涸[/abilityred]（重复攻击有 {EnergyDrainSingleAttack}[strengthEntropy/] 力量几率）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DECAY_SURGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Decay Surge</Data></Cell><Cell><Data ss:Type="String">衰败之潮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DECAY_SURGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Requires and uses {EssenceChargeNumber}[EssenceCharge/][abilityblue]Essence Charges[/abilityblue].[br/]This unit sends an Entropic surge at the target which then jumps to {unitAmount} other enemy units within {hexrange} hexes.</Data></Cell><Cell><Data ss:Type="String">需要使用 {EssenceChargeNumber}[EssenceCharge/][abilityblue]精华充能[/abilityblue]。[br/]该单位向目标释放一阵混沌之潮，混沌之潮会弹跳至 {hexrange} 个单元格范围内的其他 {unitAmount} 个敌方单位。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPIC_TRANSPOSITIONER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Entropic Transpositioner</Data></Cell><Cell><Data ss:Type="String">混沌调换者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPIC_TRANSPOSITIONER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Non-melee Entropy attacks now bypass [shield/].</Data></Cell><Cell><Data ss:Type="String">现在，非近战混沌攻击能够忽视 [shield/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPIC_TRANSPOSITIONER</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Bypass all [shield/].</Data></Cell><Cell><Data ss:Type="String">忽视所有 [shield/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CORRUPTED_INCARNATION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Corrupted Incarnation</Data></Cell><Cell><Data ss:Type="String">腐败化身</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CORRUPTED_INCARNATION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit no longer is affected by morale changes.[br/]This unit gains [abilityblue]Entropic Necrophagy[/abilityblue] on its attacks that don't spend [abilityblue]Essence[/abilityblue][EssenceCharge/]: When this unit kills another, it consumes the corpse and gains {EssenceGain}[EssenceCharge/][abilityblue]Essence Charge[/abilityblue] and heals for {HealAmount}[hp/][br/][br/][productioncol]Only one kind of Incarnation can be active at any time.[/productioncol]</Data></Cell><Cell><Data ss:Type="String">该单位不再受到士气变化的影响。[br/]该单位不消耗[abilityblue]精华充能[/abilityblue][EssenceCharge/]的攻击获得[abilityblue]混沌食尸[/abilityblue]：该单位击杀敌人时会吞食被击杀的敌人尸体，获得 {EssenceGain}[EssenceCharge/][abilityblue]精华充能[/abilityblue]并治疗 {HealAmount}[hp/][br/][br/][productioncol]一次只能激活一种化身。[/productioncol]</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Entropic Chaos Inducer</Data></Cell><Cell><Data ss:Type="String">混沌紊乱诱导者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">This unit's Entropy attacks gain a {ChaosChance}[strengthEntropy/] strength chance to apply [abilityred]{NegativeStatusEffects} random debuffs[/abilityred] to non-Mindless, non-Mineral or non-Ethereal units for {ChaosTime}[turn/].({ChaosSingleAttack}[strengthEntropy/] strength chance on repeating attacks).</Data></Cell><Cell><Data ss:Type="String">该单位的混沌攻击有 {ChaosChance}[strengthEntropy/] 力量几率对非无意识、非矿物或非虚灵单位施加 [abilityred]{NegativeStatusEffects} 随机减益[/abilityred]，持续 {ChaosTime}[turn/]。（重复攻击有 {ChaosSingleAttack}[strengthEntropy/] 力量几率）。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell><Data ss:Type="String">MOD_NAME</Data></Cell><Cell><Data ss:Type="String">Entropic Chaos</Data></Cell><Cell><Data ss:Type="String">混沌紊乱</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{ChaosChance}[StrengthEntropy/] strength chance to apply [abilityred]{NegativeStatusEffects} random debuffs[/abilityred] to non-Mindless, non-Mineral or non-Ethereal units for {ChaosTime}[turn/].</Data></Cell><Cell><Data ss:Type="String">有 {ChaosChance}[StrengthEntropy/] 力量几率对非无意识、非矿物或非虚灵单位施加 [abilityred]{NegativeStatusEffects} 随机减益[/abilityred]，持续 {ChaosTime}[turn/]。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPIC_TRANSPOSITIONER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Circumventing</Data></Cell><Cell><Data ss:Type="String">迂回绕道</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPIC_TRANSPOSITIONER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Bypassing</Data></Cell><Cell><Data ss:Type="String">规避传输</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPIC_TRANSPOSITIONER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Spritely</Data></Cell><Cell><Data ss:Type="String">鬼魅移形</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPIC_TRANSPOSITIONER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Shifting</Data></Cell><Cell><Data ss:Type="String">变幻移动</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPIC_TRANSPOSITIONER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Substitution</Data></Cell><Cell><Data ss:Type="String">替代转换</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPIC_TRANSPOSITIONER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Beguiler</Data></Cell><Cell><Data ss:Type="String">欺骗者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FORGOTTEN_ESSENCE_SIPHON</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Draining</Data></Cell><Cell><Data ss:Type="String">精华汲取</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FORGOTTEN_ESSENCE_SIPHON</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Conductive</Data></Cell><Cell><Data ss:Type="String">精华传导</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FORGOTTEN_ESSENCE_SIPHON</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Casting</Data></Cell><Cell><Data ss:Type="String">投掷吊射</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FORGOTTEN_ESSENCE_SIPHON</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Impairing</Data></Cell><Cell><Data ss:Type="String">削弱阻碍</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FORGOTTEN_ESSENCE_SIPHON</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Extractor</Data></Cell><Cell><Data ss:Type="String">萃取者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">FORGOTTEN_ESSENCE_SIPHON</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Dwindler</Data></Cell><Cell><Data ss:Type="String">削弱者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Reality Warper</Data></Cell><Cell><Data ss:Type="String">现实扭曲者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">The Crazed</Data></Cell><Cell><Data ss:Type="String">癫狂者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">Wild Card</Data></Cell><Cell><Data ss:Type="String">万变之牌</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">The Ruinous</Data></Cell><Cell><Data ss:Type="String">毁灭之人</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Madness Causer</Data></Cell><Cell><Data ss:Type="String">癫狂制造者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Reality Tearing</Data></Cell><Cell><Data ss:Type="String">现实撕裂</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CORRUPTED_INCARNATION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data ss:Type="String">Consumer</Data></Cell><Cell><Data ss:Type="String">吞食者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CORRUPTED_INCARNATION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell><Cell><Data ss:Type="String">Entropic Devouring</Data></Cell><Cell><Data ss:Type="String">混沌吞噬</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CORRUPTED_INCARNATION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell><Cell><Data ss:Type="String">The Uncaring</Data></Cell><Cell><Data ss:Type="String">冷漠者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CORRUPTED_INCARNATION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell><Cell><Data ss:Type="String">Dispassionate</Data></Cell><Cell><Data ss:Type="String">漠不关心</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CORRUPTED_INCARNATION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell><Cell><Data ss:Type="String">Greedy</Data></Cell><Cell><Data ss:Type="String">贪婪的</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CORRUPTED_INCARNATION</Data></Cell><Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell><Cell><Data ss:Type="String">Gluttonous</Data></Cell><Cell><Data ss:Type="String">暴食的</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text. You and Your might be examples of this.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Selected/><TopRowVisible>40</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>8</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Luis Ferreira</LastAuthor><LastSaved
+    >2019-07-22T13:42:56Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment
+        ss:Vertical="Bottom"
+        ss:WrapText="1"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="242.25"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="189" /><Column
+        ss:StyleID="s62"
+        ss:Width="117.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="281.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s62" ss:Width="243" /><Column
+        ss:StyleID="s62"
+        ss:Width="120"
+      /><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
+            ss:Type="String"
+          >FORGOTTEN_UNITPROPERTIES</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ESSENCE_FIEND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Essence Fiend</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精华瘾君子</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">ESSENCE_FIEND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit can carry up to {EssenceAmount}[EssenceCharge/] [abilityblue]Essence Charges[/abilityblue].[br/]When this unit kills another with an ability that doesn't spend Essence, it consumes the corpse and gains {EssenceGain}[EssenceCharge/][abilityblue]Essence Charge[/abilityblue] and heals for {HealAmount}[hp/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位最多能够拥有 {EssenceAmount}[EssenceCharge/][abilityblue]精华充能[/abilityblue]。[br/]当该单位使用无需消耗精华的技能击杀敌人时，能够吞噬敌人的尸体，获得 {EssenceGain}[EssenceCharge/][abilityblue]精华充能[/abilityblue]并治疗 {HealAmount}[hp/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Essence Charges and Essence is described in the glossary.
+EssenceAmount numbers the quantity of essence charges this unit can carry.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ESSENCE_CHANNELER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Essence Channeler</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精华引导者</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell><Data ss:Type="String">ESSENCE_CHANNELER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit can carry up to {EssenceAmount}[EssenceCharge/] [abilityblue]Essence Charges[/abilityblue].[br/]When this unit kills another with an ability that doesn't spend Essence, it consumes the corpse and gains {EssenceGain}[EssenceCharge/][abilityblue]Essence Charge[/abilityblue] and heals for {HealAmount}[hp/].[br/][br/]This unit and all friendly units gain +{ShieldAmount}[shield/] per active [EssenceCharge/][abilityblue]Essence Charge[/abilityblue], up to a maximum of +{MaxShields}[shield/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位最多能够拥有 {EssenceAmount}[EssenceCharge/][abilityblue]精华充能[/abilityblue]。[br/]当该单位使用无需消耗精华的技能击杀敌人时，能够吞噬敌人的尸体，获得 {EssenceGain}[EssenceCharge/][abilityblue]精华充能[/abilityblue]并治疗 {HealAmount}[hp/]。[br/][br/]每有一个激活的 [EssenceCharge/][abilityblue]精华充能[/abilityblue]，该单位及所有友方单位获得 +{MaxShields}[shield/]，最多获得 +{ShieldAmount}[shield/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >EssenceAmount numbers the quantity of essence charges this unit can carry.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CHANNELED_SHIELD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Channeled Shield</Data></Cell><Cell><Data
+            ss:Type="String"
+          >引导护盾</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CHANNELED_SHIELD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has +{ShieldChanneler}[shield/] from a friendly unit.[br/]This can stack up to {MaxStacks}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位因友方单位获得了 +{ShieldChanneler}[shield/]。[br/]最多可叠加 {MaxStacks}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ESSENCE_GORGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Essence Gorger</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精华吞食者</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="135"
+      ><Cell><Data ss:Type="String">ESSENCE_GORGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit can carry up to {EssenceAmount}[EssenceCharge/] [abilityblue]Essence Charges[/abilityblue].[br/]When this unit kills another with an ability that doesn't spend Essence, it consumes the corpse and gains {EssenceGain}[EssenceCharge/][abilityblue]Essence Charge[/abilityblue] and heals for {HealAmount}[hp/].[br/][br/]This unit gains +{IncreasedCriticalChance}% critical hit chance per active [EssenceCharge/][abilityblue]Essence Charge[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位最多能够拥有 {EssenceAmount}[EssenceCharge/][abilityblue]精华充能[/abilityblue]。[br/]当该单位使用无需消耗精华的技能击杀敌人时，能够吞噬敌人的尸体，获得 {EssenceGain}[EssenceCharge/][abilityblue]精华充能[/abilityblue]并治疗 {HealAmount}[hp/]。[br/][br/]每有一个激活的 [EssenceCharge/][abilityblue]精华充能[/abilityblue]，该单位获得 +{IncreasedCriticalChance}% 暴击率。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >EssenceAmount numbers the quantity of essence charges this unit can carry.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CRITICAL_GORGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gorge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >吞食</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CRITICAL_GORGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has +{CriticalPercentage}% critical hit chance per stack.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每层使该单位获得 +{CriticalPercentage}% 暴击率。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COVET_ESSENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Covet Essence</Data></Cell><Cell><Data
+            ss:Type="String"
+          >觊觎精华</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >COVET_ESSENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Melee attack.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >近战攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >UNSTABLE_DECAY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unstable Decay</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不稳定衰败</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">UNSTABLE_DECAY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Requires and uses {EssenceChargeNumber}[EssenceCharge/][abilityblue]Essence Charge[/abilityblue].[br/]This unit destroys itself in an unstable burst and damages all adjacent units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >需要使用 {EssenceChargeNumber}[EssenceCharge/][abilityblue] 精华充能[/abilityblue]。[br/]该单位在不稳定的爆炸中自毁，对所有相邻单位造成伤害。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >EssenceChargeNumber refers to the amount of Essence Charges the unit spends when using this ability.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DEFENSIVE_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defensive Shot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御射击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DEFENSIVE_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a shot against those who would disturb your vessel.</Data></Cell><Cell
+        ><Data ss:Type="String">射击干扰你载具的敌人。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ESSENCE_CORROSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Essence Corrosion</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精华腐蚀</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">ESSENCE_CORROSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Requires and uses {EssenceChargeNumber}[EssenceCharge/][abilityblue]Essence Charge[/abilityblue].[br/]Send unstable corrupt essence to an area, dealing damage in a {HexRadius} hex radius.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >需要使用 {EssenceChargeNumber}[EssenceCharge/][abilityblue] 精华充能[/abilityblue]。[br/]将不稳定的堕落精华发送至一个区域，对 {HexRadius} 个单元格范围造成伤害。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >EssenceChargeNumber refers to the amount of Essence Charges the unit spends when using this ability.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ESSENCE_FANGS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Essence Fangs</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精华獠牙</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ESSENCE_FANGS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Melee attack with sharp fangs that dissolve and drain Essence.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >利用锋利的獠牙进行近战攻击，能够溶解并汲取精华。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">STINGER_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Stinger Shot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >针刺射击</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">STINGER_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >An entropic shot from the stinger of the unit that drains essence.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >从单位针刺中射出能够汲取精华的混沌攻击。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ROT_EMANATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Rot Emanation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >腐败散发</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">ROT_EMANATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Requires and uses {EssenceChargeNumber}[EssenceCharge/][abilityblue]Essence Charge[/abilityblue].[br/]This unit expels a {ConeHex} hex cone of rotting essence.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >需要使用 {EssenceChargeNumber}[EssenceCharge/][abilityblue]精华充能[/abilityblue]。[br/]该单位向 {ConeHex} 个单元格扇形区域散发腐烂精华。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >EssenceChargeNumber refers to the amount of Essence Charges the unit spends when using this ability.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ESSENCE_CRUSH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Essence Crush</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精华粉碎</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ESSENCE_CRUSH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Two hands made of ethereal essence appear to crush a target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一双由虚灵精华组成的双手将目标粉碎。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ESSENCE_SLAM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Essence Slam</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精华猛击</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">ESSENCE_SLAM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Teleport to target hex and then slam all units in a {hexradius} hex radius with ethereal hands. If a corpse is in the area, it is destroyed and this unit gains an {EssenceAmount}[EssenceCharge/][abilityblue]Essence Charge[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >传送至目标单元格，然后用虚灵之手拍击 {hexradius} 个单元格范围内的所有单位。如果区域中有尸体存在，则摧毁该尸体且该单位获得 {EssenceAmount}[EssenceCharge/][abilityblue]精华充能[/abilityblue]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DEVOUR_THE_DEAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Devourer of the Dead</Data></Cell><Cell><Data
+            ss:Type="String"
+          >尸体吞噬者</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DEVOUR_THE_DEAD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit devours the corpses of those it kills with this ability, healing {HealAmount}[hp/] and gaining {EssenceAmount}[EssenceCharge/][abilityblue]Essence Charge[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >如果该单位使用此技能击杀了敌人，则会吞噬敌人的尸体，治疗 {HealAmount}[hp/] 并获得 {EssenceAmount}[EssenceCharge/][abilityblue]精华充能[/abilityblue]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PUNISHMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Punishment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >惩戒</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">PUNISHMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Requires and uses {EssenceChargeNumber}[EssenceCharge/][abilityblue]Essence Charges[/abilityblue].[br/]Crush all enemies in the battlefield with dense ethereal hands.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >需要使用 {EssenceChargeNumber}[EssenceCharge/][abilityblue] 精华充能[/abilityblue]。[br/]用密集的虚灵之手粉碎战场上的所有敌人。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >EssenceChargeNumber refers to the amount of Essence Charges the unit spends when using this ability.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SHATTERED_COMMUNION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shattered Communion</Data></Cell><Cell><Data
+            ss:Type="String"
+          >破碎通灵</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">SHATTERED_COMMUNION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Perform a corrupt communion with target enemy unit. The unit takes {EntropyDamage}[damageEntropy/] damage and gains one stack of both  [abilityred]Energy Drained[/abilityred] and [abilityred]Entropic Decay[/abilityred] at the start of its turn. If the Shattered Ark is staggered, the link will end along with the effect.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >与目标敌方单位进行一次堕落通灵。本回合开始时，该敌方单位受到 {EntropyDamage}[damageEntropy/] 伤害并获得 1 层[abilityred]能量枯萎[/abilityred]和[abilityred]混沌衰败[/abilityred]。如果破碎方舟被动摇，则连接将会与此效果一同结束。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Energy Drain and Entropic Decay are Status Effects.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CORRUPT_COMMUNION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Corrupt Communion</Data></Cell><Cell><Data
+            ss:Type="String"
+          >堕落通灵</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">CORRUPT_COMMUNION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >At the start of its turn, this unit takes {EntropyDamageCorruption}[damageEntropy/] damage and gains one stack of [abilityred]Energy Drained[/abilityred] and [abilityred]Entropic Decay[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >本回合开始时，该单位受到 {EntropyDamageCorruption}[damageEntropy/] 伤害并获得 1 层[abilityred]能量枯萎[/abilityred]和[abilityred]混沌衰败[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">CORRUPT_COMMUNION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{CorruptCommunionChance}[strengthEntropy/] strength chance to apply [abilityred]Corrupt Communion[/abilityred] to target non-RPR unit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {CorruptCommunionChance}[strengthEntropy/] 力量几率向非 RPR 目标单位施加[abilityred]堕落通灵[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">CORRUPT_COMMUNION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION_CASTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is in Corrupt Communion with another unit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位与另一个单位进行堕落通灵。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ATROPHIC_PENANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Atrophic Penance</Data></Cell><Cell><Data
+            ss:Type="String"
+          >萎缩忏悔</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >ATROPHIC_PENANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deal damage to a unit with [abilityred]Corrupt Communion[/abilityred] and attempt to apply multiple stacks of [abilityred]Entropic Decay[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >对拥有[abilityred]堕落通灵[/abilityred]的单位造成伤害，并尝试施加多层[abilityred]混沌衰败[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMBALM_ESSENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Embalm Essence</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不朽精华</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">EMBALM_ESSENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Requires and uses {EssenceChargeNumber}[EssenceCharge/][abilityblue]Essence Charges[/abilityblue].[br/]Target friendly unit has its negative status effects dispelled and is healed for {healAmount}[hp/]. That unit gains +{Resistance} resistance to all damage for {EmbalmDuration}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >需要使用 {EssenceChargeNumber}[EssenceCharge/][abilityblue] 精华充能[/abilityblue]。[br/]驱散目标友方单位身上的负面状态效果并治疗 {healAmount}[hp/]，该友方单位对所有伤害获得 +{Resistance} 抗性，持续 {EmbalmDuration}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMBALM_ESSENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROP_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has +{Resistance} resistance to all damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位对所有伤害拥有 +{Resistance} 抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTROPIC_NECROPHAGY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropic Necrophagy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌食尸</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FORGOTTEN_SIPHON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Forgotten Essence Siphon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >被遗忘者精华虹吸</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">FORGOTTEN_SIPHON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Non-Entropic attacks gain a {EnergyDrainChance}[strengthEntropy/] strength chance to apply [abilityred]Energy Drain[/abilityred] ({EnergyDrainSingleAttack}[strengthEntropy/] strength chance on repeating attacks).</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >非混沌攻击有 {EnergyDrainChance}[strengthEntropy/] 力量几率施加[abilityred]能量干涸[/abilityred]（重复攻击有 {EnergyDrainSingleAttack}[strengthEntropy/] 力量几率）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DECAY_SURGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Decay Surge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >衰败之潮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DECAY_SURGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Requires and uses {EssenceChargeNumber}[EssenceCharge/][abilityblue]Essence Charges[/abilityblue].[br/]This unit sends an Entropic surge at the target which then jumps to {unitAmount} other enemy units within {hexrange} hexes.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >需要使用 {EssenceChargeNumber}[EssenceCharge/][abilityblue]精华充能[/abilityblue]。[br/]该单位向目标释放一阵混沌之潮，混沌之潮会弹跳至 {hexrange} 个单元格范围内的其他 {unitAmount} 个敌方单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTROPIC_TRANSPOSITIONER</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropic Transpositioner</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌调换者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENTROPIC_TRANSPOSITIONER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Non-melee Entropy attacks now bypass [shield/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >现在，非近战混沌攻击能够忽视 [shield/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTROPIC_TRANSPOSITIONER</Data></Cell><Cell
+        ><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bypass all [shield/].</Data></Cell><Cell><Data
+            ss:Type="String"
+          >忽视所有 [shield/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CORRUPTED_INCARNATION</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Corrupted Incarnation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >腐败化身</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CORRUPTED_INCARNATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit no longer is affected by morale changes.[br/]This unit gains [abilityblue]Entropic Necrophagy[/abilityblue] on its attacks that don't spend [abilityblue]Essence[/abilityblue][EssenceCharge/]: When this unit kills another, it consumes the corpse and gains {EssenceGain}[EssenceCharge/][abilityblue]Essence Charge[/abilityblue] and heals for {HealAmount}[hp/][br/][br/][productioncol]Only one kind of Incarnation can be active at any time.[/productioncol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位不再受到士气变化的影响。[br/]该单位不消耗[abilityblue]精华充能[/abilityblue][EssenceCharge/]的攻击获得[abilityblue]混沌食尸[/abilityblue]：该单位击杀敌人时会吞食被击杀的敌人尸体，获得 {EssenceGain}[EssenceCharge/][abilityblue]精华充能[/abilityblue]并治疗 {HealAmount}[hp/][br/][br/][productioncol]一次只能激活一种化身。[/productioncol]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropic Chaos Inducer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌紊乱诱导者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's Entropy attacks gain a {ChaosChance}[strengthEntropy/] strength chance to apply [abilityred]{NegativeStatusEffects} random debuffs[/abilityred] to non-Mindless, non-Mineral or non-Ethereal units for {ChaosTime}[turn/].({ChaosSingleAttack}[strengthEntropy/] strength chance on repeating attacks).</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的混沌攻击有 {ChaosChance}[strengthEntropy/] 力量几率对非无意识、非矿物或非虚灵单位施加 [abilityred]{NegativeStatusEffects} 随机减益[/abilityred]，持续 {ChaosTime}[turn/]。（重复攻击有 {ChaosSingleAttack}[strengthEntropy/] 力量几率）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell
+        ><Data ss:Type="String">MOD_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropic Chaos</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌紊乱</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{ChaosChance}[StrengthEntropy/] strength chance to apply [abilityred]{NegativeStatusEffects} random debuffs[/abilityred] to non-Mindless, non-Mineral or non-Ethereal units for {ChaosTime}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {ChaosChance}[StrengthEntropy/] 力量几率对非无意识、非矿物或非虚灵单位施加 [abilityred]{NegativeStatusEffects} 随机减益[/abilityred]，持续 {ChaosTime}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTROPIC_TRANSPOSITIONER</Data></Cell><Cell
+        ><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Circumventing</Data></Cell><Cell><Data
+            ss:Type="String"
+          >迂回绕道</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENTROPIC_TRANSPOSITIONER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bypassing</Data></Cell><Cell><Data
+            ss:Type="String"
+          >规避传输</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENTROPIC_TRANSPOSITIONER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spritely</Data></Cell><Cell><Data
+            ss:Type="String"
+          >鬼魅移形</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENTROPIC_TRANSPOSITIONER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shifting</Data></Cell><Cell><Data
+            ss:Type="String"
+          >变幻移动</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENTROPIC_TRANSPOSITIONER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Substitution</Data></Cell><Cell><Data
+            ss:Type="String"
+          >替代转换</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENTROPIC_TRANSPOSITIONER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Beguiler</Data></Cell><Cell><Data
+            ss:Type="String"
+          >欺骗者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FORGOTTEN_ESSENCE_SIPHON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Draining</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精华汲取</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FORGOTTEN_ESSENCE_SIPHON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Conductive</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精华传导</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FORGOTTEN_ESSENCE_SIPHON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Casting</Data></Cell><Cell><Data
+            ss:Type="String"
+          >投掷吊射</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FORGOTTEN_ESSENCE_SIPHON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Impairing</Data></Cell><Cell><Data
+            ss:Type="String"
+          >削弱阻碍</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FORGOTTEN_ESSENCE_SIPHON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Extractor</Data></Cell><Cell><Data
+            ss:Type="String"
+          >萃取者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FORGOTTEN_ESSENCE_SIPHON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dwindler</Data></Cell><Cell><Data
+            ss:Type="String"
+          >削弱者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reality Warper</Data></Cell><Cell><Data
+            ss:Type="String"
+          >现实扭曲者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Crazed</Data></Cell><Cell><Data
+            ss:Type="String"
+          >癫狂者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Wild Card</Data></Cell><Cell><Data
+            ss:Type="String"
+          >万变之牌</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Ruinous</Data></Cell><Cell><Data
+            ss:Type="String"
+          >毁灭之人</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Madness Causer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >癫狂制造者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reality Tearing</Data></Cell><Cell><Data
+            ss:Type="String"
+          >现实撕裂</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CORRUPTED_INCARNATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Consumer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >吞食者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CORRUPTED_INCARNATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropic Devouring</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌吞噬</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CORRUPTED_INCARNATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Uncaring</Data></Cell><Cell><Data
+            ss:Type="String"
+          >冷漠者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CORRUPTED_INCARNATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dispassionate</Data></Cell><Cell><Data
+            ss:Type="String"
+          >漠不关心</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CORRUPTED_INCARNATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Greedy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >贪婪的</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CORRUPTED_INCARNATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gluttonous</Data></Cell><Cell><Data
+            ss:Type="String"
+          >暴食的</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text. You and Your might be examples of this.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><TopRowVisible
+      >40</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >8</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

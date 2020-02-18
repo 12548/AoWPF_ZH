@@ -1,16 +1,527 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:52:52Z</Created><LastSaved>2019-06-25T15:52:52Z</LastSaved><Version>15.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX>0</WindowTopX><WindowTopY>0</WindowTopY><MaxChange>0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s57" ss:Name="Hyperlink"><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12.65" ss:Color="#0000FF" ss:Underline="Single"/></Style><Style ss:ID="s58"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style><Style ss:ID="s59" ss:Parent="s57"><Alignment ss:Vertical="Top" ss:WrapText="1"/><NumberFormat/><Protection/></Style><Style ss:ID="s60"><Alignment ss:Vertical="Top" ss:WrapText="1"/><NumberFormat/></Style><Style ss:ID="s61"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Interior ss:Color="#FF0000" ss:Pattern="Solid"/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s58" ss:DefaultColumnWidth="9" ss:DefaultRowHeight="15"><Column ss:StyleID="s58" ss:AutoFitWidth="0" ss:Width="206.25"/><Column ss:StyleID="s58" ss:Width="102"/><Column ss:StyleID="s58" ss:AutoFitWidth="0" ss:Width="477"/><Column ss:StyleID="s58" ss:Width="144.75"/><Column ss:StyleID="s58" ss:Width="149.25"/><Column ss:StyleID="s58" ss:AutoFitWidth="0" ss:Width="123.75"/><Column ss:StyleID="s58" ss:AutoFitWidth="0" ss:Width="239.25" ss:Span="2"/><Row ss:AutoFitHeight="0" ss:Height="135"><Cell><Data ss:Type="String">SPECIES_AMAZONS</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="18"><Cell><Data ss:Type="String">RACE</Data></Cell><Cell><Data ss:Type="String">NAME_SINGULAR</Data></Cell><Cell><Data ss:Type="String">Amazon</Data></Cell><Cell><Data ss:Type="String">亚马逊人</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="17.25"><Cell><Data ss:Type="String">RACE</Data></Cell><Cell><Data ss:Type="String">NAME_PLURAL</Data></Cell><Cell><Data ss:Type="String">Amazons</Data></Cell><Cell><Data ss:Type="String">亚马逊人</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="115.5"><Cell><Data ss:Type="String">RACE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s59" ss:HRef=""><Data ss:Type="String">{XML_SPECIES_AMAZONS@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][hyperlink,0000039E0000000E]Bio[/hyperlink] Weapons Group[/bullet][bullet][hyperlink,0000039E00000010]Laser[/hyperlink] Weapons Group[/bullet][bullet]Command genetically engineered beasts[/bullet][bullet]Terraform forests and manipulate wildlife[/bullet][bullet]Increased economy and combat capability in forests[/bullet][bullet]Racial Ability: [hyperlink,0000039600000B37]Forest Affinity[/hyperlink][/bullet][/bulletList]</Data></Cell><Cell><Data ss:Type="String">{XML_SPECIES_AMAZONS@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][hyperlink,0000039E0000000E]生物[/hyperlink]武器组[/bullet][bullet][hyperlink,0000039E00000010]激光[/hyperlink]武器组[/bullet][bullet]指挥转基因野兽[/bullet][bullet]改造森林并驯化野生动物[/bullet][bullet]提高森林区域的经济和作战能力[/bullet][bullet]种族技能：[hyperlink,0000039600000B37]森林亲和[/hyperlink][/bullet][/bulletList]</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">The {text} inserts the DESCRIPTION_SHORT text below.</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60.75"><Cell><Data ss:Type="String">RACE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION_SHORT</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">The bio-engineering [hyperlink,0000039E00000016]Amazons[/hyperlink] have the ability to alter life and survive harsh circumstances. Their fearsome troops have spartan discipline and are experts in guerrilla tactics. Their arsenal includes genetically engineered beasts that the Amazons ride in to battle.</Data></Cell><Cell><Data ss:Type="String">经过基因改造的[hyperlink,0000039E00000016]亚马逊人[/hyperlink]可以改变自身来适应任何恶劣的生存环境。她们那斯巴达式的军队使敌人闻风丧胆，同时又是游击战的行家里手。她们还通过基因工程改造出很多巨兽，亚马逊人会骑乘这些巨兽进行战斗。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CAMP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Amazon Settlement</Data></Cell><Cell><Data ss:Type="String">亚马逊人定居地</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="15.75"><Cell><Data ss:Type="String">CAMP</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">A settlement is a small independent colony that might join you if you have enough influence.</Data></Cell><Cell><Data ss:Type="String">定居点是小型的独立殖民地，如果你拥有足够的影响力，定居点可能会加入你的势力。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.25"><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Migrate Colony: Amazon</Data></Cell><Cell><Data ss:Type="String">更改殖民地：亚马逊</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="50.25"><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Migrate the population of this colony to Amazon. The colony will become an Amazon colony.[br/][br/][fireCol]By migrating the population, {PopulationDeath} of the colonists of the colony will be killed.[/fireCol] [br/][br/]You receive:[br/][fireCol]{Reputation} Reputation[br/]{RaceRelation} Race Relation with the {STR_raceName}[/fireCol] </Data></Cell><Cell><Data ss:Type="String">将殖民地的居民移民为亚马逊，之后该殖民地将变为亚马逊殖民地。[br/][br/][fireCol]迁移人口后，该殖民地 {PopulationDeath} 的移住民将会死亡。[/fireCol][br/][br/]你获得：[br/][fireCol]{Reputation} 声望[br/]与{STR_raceName}的种族关系 {RaceRelation}[/fireCol] </Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="18"><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data ss:Type="String">IN_PROGRESS</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Colony is currently being migrated to an Amazon population. Process will complete in [INT_duration].</Data></Cell><Cell><Data ss:Type="String">殖民地正迁移为亚马逊殖民地，将于 [INT_duration] 后完成。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="16.5"><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data ss:Type="String">CONFIRMATION</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Are you sure you want to migrate this colony to an Amazon colony?</Data></Cell><Cell><Data ss:Type="String">是否确定将该殖民地变更为亚马逊殖民地？</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HUNTRESS</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Huntress</Data></Cell><Cell><Data ss:Type="String">女猎手</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="165"><Cell><Data ss:Type="String">HUNTRESS</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">“At the forest-moon of Gen-II, we discovered the Terratech Research Park stripped of all its tech. Disappointed in the loss of such valuable assets, the team searched the forest. That’s when we saw them: powerful females armed with ultramodern bows. These Huntresses moved like ghosts in and out of the trees. Visible one moment, gone the next. We demanded they surrender their armor and weapons, clearly using modified tech from the old Star Union facility. Ignoring us, they launched a volley of modified arrows, some laced with biotoxins and others that produced blinding flashes.”— Major Matt Maxim, “RV-3424M: Terratech Salvage Mission Gen-II”</Data></Cell><Cell><Data ss:Type="String">“在森林卫星 Gen-II 上，我们发现泰拉科技公园被掠夺了其全部的科技。失去如此宝贵的资产令人十分失望，搜寻队搜查了森林。我们看到了以下景象：强力女战士手持由尖端科技打造的强弓。这些女猎手在树丛间悄无声息的来回穿插。上一刻还在眼前，下一刻就消失的无影无踪。我们要求他们缴械投降，因为她们在使用的是从前星际联盟研究设施中掠夺的技术所改造的武器。她们并没有回应我们，取而代之的是一阵改装箭矢乱射，其中一些附带的是生物毒素，而其他箭矢会发出致盲的闪光。”- 马特·马西姆少校，“RV-3424M：‘二代’泰拉科技救助任务”</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Edit: Powerful -&gt; powerful
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:52:52Z</Created><LastSaved
+    >2019-06-25T15:52:52Z</LastSaved><Version
+    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX
+    >0</WindowTopX><WindowTopY>0</WindowTopY><MaxChange
+    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s57"
+      ss:Name="Hyperlink"
+    ><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="12.65"
+        ss:Color="#0000FF"
+        ss:Underline="Single"
+      /></Style><Style ss:ID="s58"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /></Style><Style ss:ID="s59" ss:Parent="s57"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /><NumberFormat /><Protection /></Style><Style ss:ID="s60"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /><NumberFormat /></Style><Style ss:ID="s61"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /><Interior ss:Color="#FF0000" ss:Pattern="Solid" /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s58"
+      ss:DefaultColumnWidth="9"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s58" ss:AutoFitWidth="0" ss:Width="206.25" /><Column
+        ss:StyleID="s58"
+        ss:Width="102"
+      /><Column ss:StyleID="s58" ss:AutoFitWidth="0" ss:Width="477" /><Column
+        ss:StyleID="s58"
+        ss:Width="144.75"
+      /><Column ss:StyleID="s58" ss:Width="149.25" /><Column
+        ss:StyleID="s58"
+        ss:AutoFitWidth="0"
+        ss:Width="123.75"
+      /><Column
+        ss:StyleID="s58"
+        ss:AutoFitWidth="0"
+        ss:Width="239.25"
+        ss:Span="2"
+      /><Row ss:AutoFitHeight="0" ss:Height="135"><Cell><Data
+            ss:Type="String"
+          >SPECIES_AMAZONS</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="18"
+      ><Cell><Data ss:Type="String">RACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_SINGULAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Amazon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >亚马逊人</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="17.25"
+      ><Cell><Data ss:Type="String">RACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_PLURAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Amazons</Data></Cell><Cell><Data
+            ss:Type="String"
+          >亚马逊人</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="115.5"
+      ><Cell><Data ss:Type="String">RACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s59" ss:HRef=""><Data
+            ss:Type="String"
+          >{XML_SPECIES_AMAZONS@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][hyperlink,0000039E0000000E]Bio[/hyperlink] Weapons Group[/bullet][bullet][hyperlink,0000039E00000010]Laser[/hyperlink] Weapons Group[/bullet][bullet]Command genetically engineered beasts[/bullet][bullet]Terraform forests and manipulate wildlife[/bullet][bullet]Increased economy and combat capability in forests[/bullet][bullet]Racial Ability: [hyperlink,0000039600000B37]Forest Affinity[/hyperlink][/bullet][/bulletList]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{XML_SPECIES_AMAZONS@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][hyperlink,0000039E0000000E]生物[/hyperlink]武器组[/bullet][bullet][hyperlink,0000039E00000010]激光[/hyperlink]武器组[/bullet][bullet]指挥转基因野兽[/bullet][bullet]改造森林并驯化野生动物[/bullet][bullet]提高森林区域的经济和作战能力[/bullet][bullet]种族技能：[hyperlink,0000039600000B37]森林亲和[/hyperlink][/bullet][/bulletList]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The {text} inserts the DESCRIPTION_SHORT text below.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60.75"
+      ><Cell><Data ss:Type="String">RACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION_SHORT</Data></Cell><Cell ss:StyleID="s60"><Data
+            ss:Type="String"
+          >The bio-engineering [hyperlink,0000039E00000016]Amazons[/hyperlink] have the ability to alter life and survive harsh circumstances. Their fearsome troops have spartan discipline and are experts in guerrilla tactics. Their arsenal includes genetically engineered beasts that the Amazons ride in to battle.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >经过基因改造的[hyperlink,0000039E00000016]亚马逊人[/hyperlink]可以改变自身来适应任何恶劣的生存环境。她们那斯巴达式的军队使敌人闻风丧胆，同时又是游击战的行家里手。她们还通过基因工程改造出很多巨兽，亚马逊人会骑乘这些巨兽进行战斗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CAMP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s60"><Data
+            ss:Type="String"
+          >Amazon Settlement</Data></Cell><Cell><Data
+            ss:Type="String"
+          >亚马逊人定居地</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="15.75"
+      ><Cell><Data ss:Type="String">CAMP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data
+            ss:Type="String"
+          >A settlement is a small independent colony that might join you if you have enough influence.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >定居点是小型的独立殖民地，如果你拥有足够的影响力，定居点可能会加入你的势力。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="14.25"
+      ><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s60"><Data
+            ss:Type="String"
+          >Migrate Colony: Amazon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >更改殖民地：亚马逊</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="50.25"
+      ><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data
+            ss:Type="String"
+          >Migrate the population of this colony to Amazon. The colony will become an Amazon colony.[br/][br/][fireCol]By migrating the population, {PopulationDeath} of the colonists of the colony will be killed.[/fireCol] [br/][br/]You receive:[br/][fireCol]{Reputation} Reputation[br/]{RaceRelation} Race Relation with the {STR_raceName}[/fireCol] </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将殖民地的居民移民为亚马逊，之后该殖民地将变为亚马逊殖民地。[br/][br/][fireCol]迁移人口后，该殖民地 {PopulationDeath} 的移住民将会死亡。[/fireCol][br/][br/]你获得：[br/][fireCol]{Reputation} 声望[br/]与{STR_raceName}的种族关系 {RaceRelation}[/fireCol] </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="18"
+      ><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >IN_PROGRESS</Data></Cell><Cell ss:StyleID="s60"><Data
+            ss:Type="String"
+          >Colony is currently being migrated to an Amazon population. Process will complete in [INT_duration].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >殖民地正迁移为亚马逊殖民地，将于 [INT_duration] 后完成。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="16.5"
+      ><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONFIRMATION</Data></Cell><Cell ss:StyleID="s60"><Data
+            ss:Type="String"
+          >Are you sure you want to migrate this colony to an Amazon colony?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >是否确定将该殖民地变更为亚马逊殖民地？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HUNTRESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Huntress</Data></Cell><Cell><Data
+            ss:Type="String"
+          >女猎手</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="165"
+      ><Cell><Data ss:Type="String">HUNTRESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“At the forest-moon of Gen-II, we discovered the Terratech Research Park stripped of all its tech. Disappointed in the loss of such valuable assets, the team searched the forest. That’s when we saw them: powerful females armed with ultramodern bows. These Huntresses moved like ghosts in and out of the trees. Visible one moment, gone the next. We demanded they surrender their armor and weapons, clearly using modified tech from the old Star Union facility. Ignoring us, they launched a volley of modified arrows, some laced with biotoxins and others that produced blinding flashes.”— Major Matt Maxim, “RV-3424M: Terratech Salvage Mission Gen-II”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“在森林卫星 Gen-II 上，我们发现泰拉科技公园被掠夺了其全部的科技。失去如此宝贵的资产令人十分失望，搜寻队搜查了森林。我们看到了以下景象：强力女战士手持由尖端科技打造的强弓。这些女猎手在树丛间悄无声息的来回穿插。上一刻还在眼前，下一刻就消失的无影无踪。我们要求他们缴械投降，因为她们在使用的是从前星际联盟研究设施中掠夺的技术所改造的武器。她们并没有回应我们，取而代之的是一阵改装箭矢乱射，其中一些附带的是生物毒素，而其他箭矢会发出致盲的闪光。”- 马特·马西姆少校，“RV-3424M：‘二代’泰拉科技救助任务”</Data></Cell><Cell
+          ss:Index="8"
+        ><Data ss:Type="String">Edit: Powerful -&gt; powerful
 Edit: changed semicolon to comma
-Edit: "arrows laced with biotoxins or that dispensed deadly gas" -&gt; "arrows, some laced with biotoxins and others that produced blinding flashes"</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BIOMANCER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Biomancer</Data></Cell><Cell><Data ss:Type="String">生化师</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">BIOMANCER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">“How can you harm your own mother? Think of her. Motherhood is sacred. All flesh comes from Mother’s flesh. I assure you, I am no threat. Sure, I will protect my offspring and discipline my children, but that’s only because Mother knows best. Biomancers are the mothers of all living kindred—melded to the cosmic womb. We nurture all life. We were first to coax it from the fertile earth, to encourage it to fly, to sing. Embrace beauty. I know your kind. Come. Let me nurse you back to strength.”— Matron Bu Brandyvine, “RV-7005D: Lure of the Biomancer”</Data></Cell><Cell><Data ss:Type="String">“你怎么能伤害自己的母亲？替她想想，母亲都是神圣的。她冒着生命威险把你生下。你不必担心，我对你没有威胁。当然，我会保护我的后代并训导我的孩子们，但仅仅是把自己的经验传授给他们。生化师是所有生物的母亲-跟宇宙的子宫紧密相连。我们养育了所有生命形式。我们首先吸引其离开丰饶的地球，鼓励其飞翔、歌唱。追求美的事物。我对你们很熟悉。来吧，让我帮你恢复力量。”-布·布兰迪薇恩族长，“RV-7005D。生化师的诱惑”</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Edit: changed last dash in quote to comma</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SHRIKE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Shrike</Data></Cell><Cell><Data ss:Type="String">翼龙</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="165"><Cell><Data ss:Type="String">SHRIKE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">“Kinswoman Hannahess tamed the feral avian, pterodactyl-like creatures from our jungle planet. She converted these flying predators into flocks of servants out of love for them. She captured their biometrics for Terratech where it was ignored. After the Revolt, she petitioned the Matriarchy to give her children a purpose among the Amazons. The result is the Shrike: a spy with special affinity for forests, capable of seeing farthest, sporting a low-powered bioelectrical laser gun, and an instinct to swoop at intruders targeting their eyes. A most useful tool for our cause, tamed by our own.”— Archivist Historian Emmilla-Galen, “RV-1109H: A History”</Data></Cell><Cell><Data ss:Type="String">“我们的同族汉娜斯驯化了我们丛林星球上的野生鸟类，一群外型很像翼龙的生物。她将这些空中的捕食者改造成了冷酷的仆从。她将被泰拉科技所遗漏的生物特征补完。在暴动期间，她向星系族长请愿让她的孩子能加入到亚马逊人族群中。最终她们成为了翼龙，一种具有特殊森林亲和力的间谍单位，具有超远的视力、配备有低功率生物电能激光枪，并可凭借本能专门袭击入侵者的眼睛。我们族群中最实用的工具之一，由我们独立驯化。”档案历史学家艾米拉-格兰，“RV-1109H：一段历史”</Data></Cell><Cell ss:Index="8" ss:StyleID="s61"><Data ss:Type="String">Edit: its -&gt; their
+Edit: "arrows laced with biotoxins or that dispensed deadly gas" -&gt; "arrows, some laced with biotoxins and others that produced blinding flashes"</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIOMANCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Biomancer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化师</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">BIOMANCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“How can you harm your own mother? Think of her. Motherhood is sacred. All flesh comes from Mother’s flesh. I assure you, I am no threat. Sure, I will protect my offspring and discipline my children, but that’s only because Mother knows best. Biomancers are the mothers of all living kindred—melded to the cosmic womb. We nurture all life. We were first to coax it from the fertile earth, to encourage it to fly, to sing. Embrace beauty. I know your kind. Come. Let me nurse you back to strength.”— Matron Bu Brandyvine, “RV-7005D: Lure of the Biomancer”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“你怎么能伤害自己的母亲？替她想想，母亲都是神圣的。她冒着生命威险把你生下。你不必担心，我对你没有威胁。当然，我会保护我的后代并训导我的孩子们，但仅仅是把自己的经验传授给他们。生化师是所有生物的母亲-跟宇宙的子宫紧密相连。我们养育了所有生命形式。我们首先吸引其离开丰饶的地球，鼓励其飞翔、歌唱。追求美的事物。我对你们很熟悉。来吧，让我帮你恢复力量。”-布·布兰迪薇恩族长，“RV-7005D。生化师的诱惑”</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Edit: changed last dash in quote to comma</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SHRIKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shrike</Data></Cell><Cell><Data
+            ss:Type="String"
+          >翼龙</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="165"
+      ><Cell><Data ss:Type="String">SHRIKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“Kinswoman Hannahess tamed the feral avian, pterodactyl-like creatures from our jungle planet. She converted these flying predators into flocks of servants out of love for them. She captured their biometrics for Terratech where it was ignored. After the Revolt, she petitioned the Matriarchy to give her children a purpose among the Amazons. The result is the Shrike: a spy with special affinity for forests, capable of seeing farthest, sporting a low-powered bioelectrical laser gun, and an instinct to swoop at intruders targeting their eyes. A most useful tool for our cause, tamed by our own.”— Archivist Historian Emmilla-Galen, “RV-1109H: A History”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“我们的同族汉娜斯驯化了我们丛林星球上的野生鸟类，一群外型很像翼龙的生物。她将这些空中的捕食者改造成了冷酷的仆从。她将被泰拉科技所遗漏的生物特征补完。在暴动期间，她向星系族长请愿让她的孩子能加入到亚马逊人族群中。最终她们成为了翼龙，一种具有特殊森林亲和力的间谍单位，具有超远的视力、配备有低功率生物电能激光枪，并可凭借本能专门袭击入侵者的眼睛。我们族群中最实用的工具之一，由我们独立驯化。”档案历史学家艾米拉-格兰，“RV-1109H：一段历史”</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s61"
+        ><Data ss:Type="String">Edit: its -&gt; their
 Edit: A -&gt; a
 Edit: an enemy's -&gt; their
 Edit: laser-gun -&gt; laser gun
-NOTE: calling it 'herstory' is poking fun at feminists. We do NOT want to make this joke! It will only cause problems.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LANCER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Lancer</Data></Cell><Cell><Data ss:Type="String">兰瑟战马</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="120"><Cell><Data ss:Type="String">LANCER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">“I chose Landon from the herd of juvenile arrow tails. Though bio-engineered to carry me, I felt its warmth under my thighs; its heaving muscular frame bucking under me. We blazed into battle with unmatched speed, striking at the enemy’s flanks. It was for Landon that I trained harder than my fellow Lancers. I used my energy buckler to shield Landon’s hypnotic eyes from harm. How can one as young as I express the bond I shared with my first mount? It was physical, emotional, and spiritual.”— Hannovir Jane, Romance Novelist, “RV-3424E: Lancers of the Forest”</Data></Cell><Cell><Data ss:Type="String">“我从幼年箭尾种群中选择了兰登。尽管它是生物工程的产物，但能清晰感受到它温热的体温，奔跑中律动的肌肉。战斗中，我们风驰电掣地攻破敌人两翼。我训练兰登时比训练其他战马都上心，甚至曾用自己的能量护盾为睡梦中的遮风避雨。我实在过于稚嫩，无法完全表达出自己与第一头坐骑之间的感情，那是一种集生理、情感和精神于一身的感情。”- 汉诺威尔·简，浪漫小说家，“RV-3424E:“森林战马”</Data></Cell><Cell ss:Index="8" ss:StyleID="s61"><Data ss:Type="String">Edit: removed "with Laser-Lance"
+NOTE: calling it 'herstory' is poking fun at feminists. We do NOT want to make this joke! It will only cause problems.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LANCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Lancer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >兰瑟战马</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell><Data ss:Type="String">LANCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“I chose Landon from the herd of juvenile arrow tails. Though bio-engineered to carry me, I felt its warmth under my thighs; its heaving muscular frame bucking under me. We blazed into battle with unmatched speed, striking at the enemy’s flanks. It was for Landon that I trained harder than my fellow Lancers. I used my energy buckler to shield Landon’s hypnotic eyes from harm. How can one as young as I express the bond I shared with my first mount? It was physical, emotional, and spiritual.”— Hannovir Jane, Romance Novelist, “RV-3424E: Lancers of the Forest”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“我从幼年箭尾种群中选择了兰登。尽管它是生物工程的产物，但能清晰感受到它温热的体温，奔跑中律动的肌肉。战斗中，我们风驰电掣地攻破敌人两翼。我训练兰登时比训练其他战马都上心，甚至曾用自己的能量护盾为睡梦中的遮风避雨。我实在过于稚嫩，无法完全表达出自己与第一头坐骑之间的感情，那是一种集生理、情感和精神于一身的感情。”- 汉诺威尔·简，浪漫小说家，“RV-3424E:“森林战马”</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s61"
+        ><Data ss:Type="String">Edit: removed "with Laser-Lance"
 Edit: Energy-Buckler -&gt; energy buckler
-NOTE: this is really gross and sexist, and alludes to bestiality. NEEDS REVISION.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ARBORIAN_SENTINEL</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Arborian Sentinel</Data></Cell><Cell><Data ss:Type="String">树人哨兵</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ARBORIAN_SENTINEL_CAMPAIGN_VERSION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Arborian Planter</Data></Cell><Cell><Data ss:Type="String">树人种植者</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">ARBORIAN_SENTINEL</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">“How the first Arborians came about remains a mystery. Terratech used many unrelated technologies, but the Arborians remain the most effective form of biomechanical terraforming technology in its arsenal. Needless to say, there was a scientific breakthrough. Originally sought by Mother to assist in growing forests that shelters all life, Arborians hold the highest honors. They are a welcome addition to the armed conflict as well. They can cast out a web of entangling roots and cripple the enemy, perfectly concealed among the trees.”— Archivist Historian Emmilla-Galen, “RV-996H: A History”</Data></Cell><Cell><Data ss:Type="String">“第一批树人是如何产生的目前仍是个不解之谜。尽管泰拉科技开发了许多不同类别的技术，但树人仍是生物机械转化技术领域最高效的种族。很明显，它们的科技突破了瓶颈。而这一切的起因都是主母想要通过种植树木来为万物提供庇护所。树人享受着无上的荣耀，尚武且擅武。它们能够用树根缠绕并致残敌人。并且还不会暴露自己在树林中的位置。”历史档案管理员埃米拉-盖伦，“RV-996H:一段历史”</Data></Cell><Cell ss:Index="8" ss:StyleID="s61"><Data ss:Type="String">NOTE: calling it 'herstory' is poking fun at feminists. We do NOT want to make this joke! It will only cause problems.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HARRIER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Harrier</Data></Cell><Cell><Data ss:Type="String">鹞龙</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell><Data ss:Type="String">HARRIER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">“Autonom Directive Assessment:[br/]&lt;Scanning&gt; Amazon Harrier – Terrestrial limitations overridden. Large avian predators to serve as air-support vehicles. Biochemical cells power laser blaster tech-pack upgrades. Formidable air-to-air &amp; air-to-ground assault capability. &lt;/Scanning &gt;[br/]&lt;+&gt;Terratech Planet-forming base technology &amp; weaponry. [br/]&lt;+&gt;Exist outside boundaries of technological dependence.[br/]&lt;+&gt;Corroded electrical comlinks replaced with biolinks to control native biodiversity.[br/]&lt;+&gt;Inhabited worlds robust &amp; invigorated.[br/]&lt;+&gt;Plagues predetermined to decimate fragile organic life, join them in symbiosis.[br/]&lt;+&gt;Species acts in contradiction of predictable Human Instinct Module (HIM).[br/] === Threat Level: Critical ===”[br/]— QA-Autonom Monitor Transmission, “RV-0010935C: Tracking Sequence C=64”                                                    </Data></Cell><Cell><Data ss:Type="String">“自动指示评估：[br/]&lt;Scanning&gt;亚马逊鹞龙 - 不受地域限制。作为空中支援载具的大型鸟类。生物细胞能量射线发射背包升级。具备空对空和空对地能力。&lt;/Scanning &gt;[br/]&lt;+&gt;泰拉科技星球改造基本科技和武器。[br/]&lt;+&gt;离开技术依赖边界。[br/]&lt;+&gt;已用生物连接取代被腐化的电联，以控制当地的生物多样性。[br/]&lt;+&gt;已占领世界强壮且富有生机。[br/]&lt;+&gt;疫病旨在大量消灭脆弱的有机生命体，使其加入共生。[br/]&lt;+&gt;物种行动与人类本能模块相悖 (HIM)。[br/]===威胁等级：致命===”[br/]- QA-自主机械监控传输，“RV-0010935C：追踪序列 C=64”                                                    </Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Removed: 'Vegetation Camouflage' from the description.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BOMBARDON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Bombardon</Data></Cell><Cell><Data ss:Type="String">轰龙</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">BOMBARDON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">“For decades we lived in Hilltop Fort safely, protected behind our walls from the giant swamp-dwelling, toxin-belching toads. Those monsters eat anything given the chance.  Then witches came. They preached that men were wicked and women didn’t need us. To keep our women safe, we burned the heretics. The hags fled into the low swamps, disappearing among the trees. Nothing survives long there, so we thought them doomed. But the witches enchanted the monsters. They returned riding giant toads with magic cauldrons on their backs. They cast their venom over our walls, destroying Hilltop Fort.”— Mason Monahan, “RV-67588D: Refugee Records”</Data></Cell><Cell><Data ss:Type="String">“数十年来，我们安全地生活在山顶堡垒中，在城墙后方，远离那些巨大的沼泽和毒蟾。那些怪物逮到什么吃什么。后来有一伙女巫来到了这里。她们鼓吹男人是邪恶的，女人不需要男人。为了保证女人们的安全，我们烧死了这伙异教徒。丑陋的女巫们逃进沼泽，消失在树丛中。没有生物能在那存活下来，所以我们觉得她们必死无疑。但是女巫向那些怪物施咒，将毒蟾变为了自己的坐骑，背着坩埚杀了回来。她们命令怪物向城墙喷射毒液，山顶堡垒毁于一旦。”- 梅森·莫纳汉，“RV-67588D: 难民记录”</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Edit: dwelt -&gt; lived
-Edit: moved "giant" to before "swamp-dwelling"</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CLOUD_SHIP</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Cloudship</Data></Cell><Cell><Data ss:Type="String">云端飞船</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="120"><Cell><Data ss:Type="String">CLOUD_SHIP</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">“Few things I’ve seen over the centuries compare to the beauty of Amazon Cloudships. Sleek crafts swooped through the sky. Thick rumbling clouds gathered around it like a cloak. The hairs on the tops of my bare feet lifted to the sky. Electricity crackled around the caravan’s machinery. Vehicle motors seized. Old Union flying ships tumbled in the rumbling sky like untethered kites while the Cloudship remained fixed. Below, women marched out surrounded in soothing mist. They looked radiant. I did what any explorer would do: I surrendered to the group controlling the weather.”— Mah Reg’Nib, “RV-7077X: Misadventures through the Void”</Data></Cell><Cell><Data ss:Type="String">“数百年以来，很少有事物能在壮丽上与亚马逊云端飞船相提并论。优美的船体划过天际，厚重的云层聚集在它的周围将其遮蔽。车队的载具开始噼啪作响，引擎停止了运转。古老联盟的飞船在天际来回穿梭，就像断了弦的风筝，而云端飞船却一直岿然不动。女子从迷雾中走出，满脸喜色。我做了一件所有探险家都会做的事：臣服于这些能够控制天气的人。”- 玛·瑞格尼布，“RV-7077X：虚空中的不幸”</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Edit: bare-feet -&gt; bare feet
+NOTE: this is really gross and sexist, and alludes to bestiality. NEEDS REVISION.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARBORIAN_SENTINEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arborian Sentinel</Data></Cell><Cell><Data
+            ss:Type="String"
+          >树人哨兵</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >ARBORIAN_SENTINEL_CAMPAIGN_VERSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arborian Planter</Data></Cell><Cell><Data
+            ss:Type="String"
+          >树人种植者</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">ARBORIAN_SENTINEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“How the first Arborians came about remains a mystery. Terratech used many unrelated technologies, but the Arborians remain the most effective form of biomechanical terraforming technology in its arsenal. Needless to say, there was a scientific breakthrough. Originally sought by Mother to assist in growing forests that shelters all life, Arborians hold the highest honors. They are a welcome addition to the armed conflict as well. They can cast out a web of entangling roots and cripple the enemy, perfectly concealed among the trees.”— Archivist Historian Emmilla-Galen, “RV-996H: A History”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“第一批树人是如何产生的目前仍是个不解之谜。尽管泰拉科技开发了许多不同类别的技术，但树人仍是生物机械转化技术领域最高效的种族。很明显，它们的科技突破了瓶颈。而这一切的起因都是主母想要通过种植树木来为万物提供庇护所。树人享受着无上的荣耀，尚武且擅武。它们能够用树根缠绕并致残敌人。并且还不会暴露自己在树林中的位置。”历史档案管理员埃米拉-盖伦，“RV-996H:一段历史”</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s61"
+        ><Data
+            ss:Type="String"
+          >NOTE: calling it 'herstory' is poking fun at feminists. We do NOT want to make this joke! It will only cause problems.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HARRIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Harrier</Data></Cell><Cell><Data
+            ss:Type="String"
+          >鹞龙</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell><Data ss:Type="String">HARRIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“Autonom Directive Assessment:[br/]&lt;Scanning&gt; Amazon Harrier – Terrestrial limitations overridden. Large avian predators to serve as air-support vehicles. Biochemical cells power laser blaster tech-pack upgrades. Formidable air-to-air &amp; air-to-ground assault capability. &lt;/Scanning &gt;[br/]&lt;+&gt;Terratech Planet-forming base technology &amp; weaponry. [br/]&lt;+&gt;Exist outside boundaries of technological dependence.[br/]&lt;+&gt;Corroded electrical comlinks replaced with biolinks to control native biodiversity.[br/]&lt;+&gt;Inhabited worlds robust &amp; invigorated.[br/]&lt;+&gt;Plagues predetermined to decimate fragile organic life, join them in symbiosis.[br/]&lt;+&gt;Species acts in contradiction of predictable Human Instinct Module (HIM).[br/] === Threat Level: Critical ===”[br/]— QA-Autonom Monitor Transmission, “RV-0010935C: Tracking Sequence C=64”                                                    </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“自动指示评估：[br/]&lt;Scanning&gt;亚马逊鹞龙 - 不受地域限制。作为空中支援载具的大型鸟类。生物细胞能量射线发射背包升级。具备空对空和空对地能力。&lt;/Scanning &gt;[br/]&lt;+&gt;泰拉科技星球改造基本科技和武器。[br/]&lt;+&gt;离开技术依赖边界。[br/]&lt;+&gt;已用生物连接取代被腐化的电联，以控制当地的生物多样性。[br/]&lt;+&gt;已占领世界强壮且富有生机。[br/]&lt;+&gt;疫病旨在大量消灭脆弱的有机生命体，使其加入共生。[br/]&lt;+&gt;物种行动与人类本能模块相悖 (HIM)。[br/]===威胁等级：致命===”[br/]- QA-自主机械监控传输，“RV-0010935C：追踪序列 C=64”                                                    </Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Removed: 'Vegetation Camouflage' from the description.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BOMBARDON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bombardon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >轰龙</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">BOMBARDON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“For decades we lived in Hilltop Fort safely, protected behind our walls from the giant swamp-dwelling, toxin-belching toads. Those monsters eat anything given the chance.  Then witches came. They preached that men were wicked and women didn’t need us. To keep our women safe, we burned the heretics. The hags fled into the low swamps, disappearing among the trees. Nothing survives long there, so we thought them doomed. But the witches enchanted the monsters. They returned riding giant toads with magic cauldrons on their backs. They cast their venom over our walls, destroying Hilltop Fort.”— Mason Monahan, “RV-67588D: Refugee Records”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“数十年来，我们安全地生活在山顶堡垒中，在城墙后方，远离那些巨大的沼泽和毒蟾。那些怪物逮到什么吃什么。后来有一伙女巫来到了这里。她们鼓吹男人是邪恶的，女人不需要男人。为了保证女人们的安全，我们烧死了这伙异教徒。丑陋的女巫们逃进沼泽，消失在树丛中。没有生物能在那存活下来，所以我们觉得她们必死无疑。但是女巫向那些怪物施咒，将毒蟾变为了自己的坐骑，背着坩埚杀了回来。她们命令怪物向城墙喷射毒液，山顶堡垒毁于一旦。”- 梅森·莫纳汉，“RV-67588D: 难民记录”</Data></Cell><Cell
+          ss:Index="8"
+        ><Data ss:Type="String">Edit: dwelt -&gt; lived
+Edit: moved "giant" to before "swamp-dwelling"</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CLOUD_SHIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cloudship</Data></Cell><Cell><Data
+            ss:Type="String"
+          >云端飞船</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell><Data ss:Type="String">CLOUD_SHIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“Few things I’ve seen over the centuries compare to the beauty of Amazon Cloudships. Sleek crafts swooped through the sky. Thick rumbling clouds gathered around it like a cloak. The hairs on the tops of my bare feet lifted to the sky. Electricity crackled around the caravan’s machinery. Vehicle motors seized. Old Union flying ships tumbled in the rumbling sky like untethered kites while the Cloudship remained fixed. Below, women marched out surrounded in soothing mist. They looked radiant. I did what any explorer would do: I surrendered to the group controlling the weather.”— Mah Reg’Nib, “RV-7077X: Misadventures through the Void”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“数百年以来，很少有事物能在壮丽上与亚马逊云端飞船相提并论。优美的船体划过天际，厚重的云层聚集在它的周围将其遮蔽。车队的载具开始噼啪作响，引擎停止了运转。古老联盟的飞船在天际来回穿梭，就像断了弦的风筝，而云端飞船却一直岿然不动。女子从迷雾中走出，满脸喜色。我做了一件所有探险家都会做的事：臣服于这些能够控制天气的人。”- 玛·瑞格尼布，“RV-7077X：虚空中的不幸”</Data></Cell><Cell
+          ss:Index="8"
+        ><Data ss:Type="String">Edit: bare-feet -&gt; bare feet
 Edit: removed extra space before "Below"
 Edit: last comma changed to colon
-Edit: added "the" before "group"</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">TYRANNODON</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Tyrannodon</Data></Cell><Cell><Data ss:Type="String">暴龙</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">TYRANNODON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">“Listen carefully, kin-daughters. The day is come when our past oppressors return. Their ships invade   our sacred spaces. Our time of peace is over. Now we fight. Aggression serves the organism. The predator dominates prey, but prey sustains the predator. We Amazons conquered our aggression by removing it from our species. Now, when we apply aggression, we do it deliberately. The Tyrannodon is our vessel. Once savage and untamed, our touch refines it, making it the perfect weapon. We control the apex predator. Our enemies will regret ever returning.”— War Matron Nimue Gaddow, “RV-9994M: Mother’s Nursery for War”</Data></Cell><Cell><Data ss:Type="String">“听仔细了，族女们，过去的压迫者即将再次来临。他们的飞船入侵了......我们神圣的空间。和平已经结束，我们必须作战。只有战斗才能带来秩序。猎食者的确以消灭猎物为生，但猎物也不会坐以待毙。我们亚马逊人完成征服的方式就是将敌人连根拔除。现在，如果我们要进攻，就要进攻得彻底。暴龙就是我们的武器，尽管它残暴，极具野性，但我们的抚摸足以使它升华为完美的武器。最强大的猎食者都处在我们的控制之下，我们的敌人一定会为自己的返回感到后悔。”- 战争领主加朵，“RV-9994M：圣母的战争教育”</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Edit: Kin -&gt; kin
-Edit: removed comma after "Matron"</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ARBORIAN_QUEEN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Arborian Queen</Data></Cell><Cell><Data ss:Type="String">树人女王</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">ARBORIAN_QUEEN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">“The Dvar came with their machines and their poison, stripping away life for dead treasure. Oh, my beloved trees slaughtered only to be consumed as fuel for their furnaces. Then I heard it. Their song. The Arborians summoned her. The Arborian Queen awakens, filling the air with healing. Whatever their noxious poison withers, she regrows. Kin-sisters, watch! Her roots shake the earth as they stumble to flee. Let our arrows strike them as she grows forests to conceal us. Her tendrils tear their machines asunder while their roads are broken to pieces.”— Huntress Sophinestra Sorrenta, “RV-25320M: Woodlands Awakened”</Data></Cell><Cell><Data ss:Type="String">“矮人带着机械和剧毒而来，夺走自然中的生命，以换取没有生命的财宝。我挚爱的树木惨遭砍伐，被作为熔炉的燃料。随后我听到了它们的歌声。树人召唤了她，树人女王苏醒了，她将治愈之力洒向空中，所有因剧毒而凋零的生物都在她的影响下焕发生机，快看！她的根茎使大地震颤起来，那伙矮人只得落荒而逃。在她为我们制造可以遮蔽身形的森林期间，我们手中的弓箭也没有停歇。她的粗枝将所有机器和道路都拆个粉碎。”- 女猎人索菲尼斯特拉·索伦塔，“RV-25320M：林地觉醒”</Data></Cell><Cell ss:Index="9" ss:StyleID="s60"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HYDROMANCER</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Hydromancer</Data></Cell><Cell><Data ss:Type="String">水师</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data ss:Type="String">HYDROMANCER</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">“The sleek Amazon vessel knifed through the water. ‘Just one vessel! Destroy it,’ Spacer Perskull ordered. Our guns rattled, peppering the sea’s surface, but the Hydromancer hid beneath a bulge of water that grew and swirled into a raging vortex. One of the lads cursed as a turret surfaced from the surface of the water. The Hydromancer splattered his vessel with corrosive goo. Perskull roared, ‘The thing shoots acid slime?! It purifies water! Just blow it up!’ I throttled the engines, but the ship spun in place. The Hydromancer threaded the waves, striking us as it pleased.”— Tumbleweed Spiff, “RV-99813D: Spacer’s Cases”</Data></Cell><Cell><Data ss:Type="String">“美丽的亚马逊舰船行驶在河面上。‘就一艘船，干掉它！’太空掠夺者珀斯库尔命令道。枪炮轰鸣，击打在海面上，但巫师隐藏在海浪之下，水面也在不断地翻涌着，最终形成了一道漩涡。当一门炮塔出现在水面时，一声谩骂声也随之传来。水师用腐蚀性液体将一艘船解体了。珀斯库尔大喊，‘那东西能射出酸液？！它在净化这片水域，把它干掉！’我加大了油门，但是船却没有移动。水师如履平地一般在海浪之中穿行，随心所欲地向我们发起攻击。”- 风滚草斯比弗，“RV-99813D：太空掠夺者案例”</Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Edit: added comma after "waves"</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">AQUATICA</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Aquatica</Data></Cell><Cell><Data ss:Type="String">水兽</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">AQUATICA</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">“The promise of a fresh forest growing across the sea—healing man-blasted lands—was too much a lure for me. Yet, our sea-barges are vulnerable to rival men lusting to enslave us. Mother called the Aquatica from the sea. The waves roiled. Its burning eye cut through the hulls of enemy vessels. Its fins shielded our vessel. She holds dominion over life in the sea, and with the thrash of her tentacles, her oceanic friends come to protect us. She’s my faithful friend, and our journey to a new land was a delight.”— Kinsmother J’Elle Grame, “RV-55110H: Isla Verde” </Data></Cell><Cell><Data ss:Type="String">“生长在海中的森林，能够治疗创伤的土地，对我的吸引力实在过大。但是，我们的驳船根本难以应对那些试图奴役我们的敌对分子。圣母召唤了海中的水兽。海面瞬间波涛汹涌，她一边从眼中迸发灼热射线，将敌人的船体一分为二，一边用鱼鳍保护着我们的船体。她就是这片大海的统治者，在她触手的拍打之下，她的海洋朋友们也赶了过来，为我们提供保护。她是我最忠诚的朋友，前往新大陆的旅程也因为她而变得惬意了起来。”- 族长艾黎·格拉米，“RV-55110H：伊斯拉·维尔德” </Data></Cell><Cell ss:Index="8"><Data ss:Type="String">Edit: shield -&gt; shielded
+Edit: added "the" before "group"</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TYRANNODON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tyrannodon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >暴龙</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">TYRANNODON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“Listen carefully, kin-daughters. The day is come when our past oppressors return. Their ships invade   our sacred spaces. Our time of peace is over. Now we fight. Aggression serves the organism. The predator dominates prey, but prey sustains the predator. We Amazons conquered our aggression by removing it from our species. Now, when we apply aggression, we do it deliberately. The Tyrannodon is our vessel. Once savage and untamed, our touch refines it, making it the perfect weapon. We control the apex predator. Our enemies will regret ever returning.”— War Matron Nimue Gaddow, “RV-9994M: Mother’s Nursery for War”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“听仔细了，族女们，过去的压迫者即将再次来临。他们的飞船入侵了......我们神圣的空间。和平已经结束，我们必须作战。只有战斗才能带来秩序。猎食者的确以消灭猎物为生，但猎物也不会坐以待毙。我们亚马逊人完成征服的方式就是将敌人连根拔除。现在，如果我们要进攻，就要进攻得彻底。暴龙就是我们的武器，尽管它残暴，极具野性，但我们的抚摸足以使它升华为完美的武器。最强大的猎食者都处在我们的控制之下，我们的敌人一定会为自己的返回感到后悔。”- 战争领主加朵，“RV-9994M：圣母的战争教育”</Data></Cell><Cell
+          ss:Index="8"
+        ><Data ss:Type="String">Edit: Kin -&gt; kin
+Edit: removed comma after "Matron"</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARBORIAN_QUEEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arborian Queen</Data></Cell><Cell><Data
+            ss:Type="String"
+          >树人女王</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">ARBORIAN_QUEEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data
+            ss:Type="String"
+          >“The Dvar came with their machines and their poison, stripping away life for dead treasure. Oh, my beloved trees slaughtered only to be consumed as fuel for their furnaces. Then I heard it. Their song. The Arborians summoned her. The Arborian Queen awakens, filling the air with healing. Whatever their noxious poison withers, she regrows. Kin-sisters, watch! Her roots shake the earth as they stumble to flee. Let our arrows strike them as she grows forests to conceal us. Her tendrils tear their machines asunder while their roads are broken to pieces.”— Huntress Sophinestra Sorrenta, “RV-25320M: Woodlands Awakened”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“矮人带着机械和剧毒而来，夺走自然中的生命，以换取没有生命的财宝。我挚爱的树木惨遭砍伐，被作为熔炉的燃料。随后我听到了它们的歌声。树人召唤了她，树人女王苏醒了，她将治愈之力洒向空中，所有因剧毒而凋零的生物都在她的影响下焕发生机，快看！她的根茎使大地震颤起来，那伙矮人只得落荒而逃。在她为我们制造可以遮蔽身形的森林期间，我们手中的弓箭也没有停歇。她的粗枝将所有机器和道路都拆个粉碎。”- 女猎人索菲尼斯特拉·索伦塔，“RV-25320M：林地觉醒”</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s60"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HYDROMANCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hydromancer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >水师</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">HYDROMANCER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“The sleek Amazon vessel knifed through the water. ‘Just one vessel! Destroy it,’ Spacer Perskull ordered. Our guns rattled, peppering the sea’s surface, but the Hydromancer hid beneath a bulge of water that grew and swirled into a raging vortex. One of the lads cursed as a turret surfaced from the surface of the water. The Hydromancer splattered his vessel with corrosive goo. Perskull roared, ‘The thing shoots acid slime?! It purifies water! Just blow it up!’ I throttled the engines, but the ship spun in place. The Hydromancer threaded the waves, striking us as it pleased.”— Tumbleweed Spiff, “RV-99813D: Spacer’s Cases”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“美丽的亚马逊舰船行驶在河面上。‘就一艘船，干掉它！’太空掠夺者珀斯库尔命令道。枪炮轰鸣，击打在海面上，但巫师隐藏在海浪之下，水面也在不断地翻涌着，最终形成了一道漩涡。当一门炮塔出现在水面时，一声谩骂声也随之传来。水师用腐蚀性液体将一艘船解体了。珀斯库尔大喊，‘那东西能射出酸液？！它在净化这片水域，把它干掉！’我加大了油门，但是船却没有移动。水师如履平地一般在海浪之中穿行，随心所欲地向我们发起攻击。”- 风滚草斯比弗，“RV-99813D：太空掠夺者案例”</Data></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >Edit: added comma after "waves"</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AQUATICA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Aquatica</Data></Cell><Cell><Data
+            ss:Type="String"
+          >水兽</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">AQUATICA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“The promise of a fresh forest growing across the sea—healing man-blasted lands—was too much a lure for me. Yet, our sea-barges are vulnerable to rival men lusting to enslave us. Mother called the Aquatica from the sea. The waves roiled. Its burning eye cut through the hulls of enemy vessels. Its fins shielded our vessel. She holds dominion over life in the sea, and with the thrash of her tentacles, her oceanic friends come to protect us. She’s my faithful friend, and our journey to a new land was a delight.”— Kinsmother J’Elle Grame, “RV-55110H: Isla Verde” </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“生长在海中的森林，能够治疗创伤的土地，对我的吸引力实在过大。但是，我们的驳船根本难以应对那些试图奴役我们的敌对分子。圣母召唤了海中的水兽。海面瞬间波涛汹涌，她一边从眼中迸发灼热射线，将敌人的船体一分为二，一边用鱼鳍保护着我们的船体。她就是这片大海的统治者，在她触手的拍打之下，她的海洋朋友们也赶了过来，为我们提供保护。她是我最忠诚的朋友，前往新大陆的旅程也因为她而变得惬意了起来。”- 族长艾黎·格拉米，“RV-55110H：伊斯拉·维尔德” </Data></Cell><Cell
+          ss:Index="8"
+        ><Data ss:Type="String">Edit: shield -&gt; shielded
 Edit: its -&gt; her
-Edit: added comma after "tentacles"</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LASER_ARBORIAN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Laser Turret</Data></Cell><Cell><Data ss:Type="String">激光炮塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">LASER_ARBORIAN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Laser Turrets are the Amazon colony defense turrets.</Data></Cell><Cell><Data ss:Type="String">激光炮塔是亚马逊殖民地的防御塔。</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">PLANET_ARRIVAL</Data></Cell><Cell><Data ss:Type="String">LOG</Data></Cell><Cell><Data ss:Type="String">Greetings, Amazon sister. You have used your bioengineering skills to adapt and survive on distant worlds. The collapse of the Union has freed you from ancient dogma and the slow-moving process of evolution. You have shaped your bodies, society and environment to meet your own needs and ideals, but know there are no universal truths. May your sisterhood create a brighter future for all on this world.</Data></Cell><Cell><Data ss:Type="String">你们好，亚马逊的姐妹们，你们虽然地处偏远，但依靠着生物工程技术，你们生存着，进化着。星际联盟的崩溃使你们摆脱了古老的信条，缓慢地走在进化的道路上。你们按照自己的需要和理想重塑着自己的身体、社会以及环境，但宇宙万物都有自己的规则，愿你们能够在这个世界上建造一个更光明的未来。</Data></Cell><Cell ss:Index="7" ss:StyleID="s62"><Data ss:Type="String">The character referred to here is always female, since she's an Amazon. No alt text required.</Data></Cell><Cell ss:StyleID="s62"><Data ss:Type="String">VO: Empress Carminia - Female</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="135"><Cell><Data ss:Type="String">AMAZON_ PYLON</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">“It is an essential component of terraforming technology that energy stations be placed in a grid to cover the planet. The stations are used to monitor planetary anomalies, track weather and climate conditions and observe the local flora and fauna. I see it like that. These Amazons stole their tech from the Star Union’s Terratech Corporation, deploying regional instruments for localized enhancements. These devices they call Pylons are capable of amplifying their abilities, nourishing their weak, and even luring local wildlife to their cause.” — Major Matt Maxim, “RV-3426M: Terratech Salvage Mission Gen-II”  </Data></Cell><Cell><Data ss:Type="String">“能量站是改造技术的必要组成部分，可放置在坐标方格内以完成对整个星球的覆盖。能量站的功能为监视星球异变、追踪天气和气候条件，观察当地生物群，起码我是这么认为的。这群亚马逊人从星盟的泰拉科技组织手上盗走了这项技术，并作为地域性增幅装置使用。这种被称为标塔的装置能够增强他们的能力，消除他们的弱点，甚至还能让当地的野生动物按照她们的意志行动。”- 马特·马克西姆少校，“RV-3426M：‘二代’泰拉科技救助任务”  </Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Print><ValidPrinterInfo/><HorizontalResolution>600</HorizontalResolution><VerticalResolution>600</VerticalResolution></Print><Zoom>115</Zoom><Selected/><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+Edit: added comma after "tentacles"</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LASER_ARBORIAN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Laser Turret</Data></Cell><Cell><Data
+            ss:Type="String"
+          >激光炮塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >LASER_ARBORIAN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Laser Turrets are the Amazon colony defense turrets.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >激光炮塔是亚马逊殖民地的防御塔。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">PLANET_ARRIVAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOG</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Greetings, Amazon sister. You have used your bioengineering skills to adapt and survive on distant worlds. The collapse of the Union has freed you from ancient dogma and the slow-moving process of evolution. You have shaped your bodies, society and environment to meet your own needs and ideals, but know there are no universal truths. May your sisterhood create a brighter future for all on this world.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你们好，亚马逊的姐妹们，你们虽然地处偏远，但依靠着生物工程技术，你们生存着，进化着。星际联盟的崩溃使你们摆脱了古老的信条，缓慢地走在进化的道路上。你们按照自己的需要和理想重塑着自己的身体、社会以及环境，但宇宙万物都有自己的规则，愿你们能够在这个世界上建造一个更光明的未来。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s62"
+        ><Data
+            ss:Type="String"
+          >The character referred to here is always female, since she's an Amazon. No alt text required.</Data></Cell><Cell
+          ss:StyleID="s62"
+        ><Data
+            ss:Type="String"
+          >VO: Empress Carminia - Female</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="135"
+      ><Cell><Data ss:Type="String">AMAZON_ PYLON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“It is an essential component of terraforming technology that energy stations be placed in a grid to cover the planet. The stations are used to monitor planetary anomalies, track weather and climate conditions and observe the local flora and fauna. I see it like that. These Amazons stole their tech from the Star Union’s Terratech Corporation, deploying regional instruments for localized enhancements. These devices they call Pylons are capable of amplifying their abilities, nourishing their weak, and even luring local wildlife to their cause.” — Major Matt Maxim, “RV-3426M: Terratech Salvage Mission Gen-II”  </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“能量站是改造技术的必要组成部分，可放置在坐标方格内以完成对整个星球的覆盖。能量站的功能为监视星球异变、追踪天气和气候条件，观察当地生物群，起码我是这么认为的。这群亚马逊人从星盟的泰拉科技组织手上盗走了这项技术，并作为地域性增幅装置使用。这种被称为标塔的装置能够增强他们的能力，消除他们的弱点，甚至还能让当地的野生动物按照她们的意志行动。”- 马特·马克西姆少校，“RV-3426M：‘二代’泰拉科技救助任务”  </Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>115</Zoom><Selected
+      /><ProtectObjects>False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

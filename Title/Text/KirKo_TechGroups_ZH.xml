@@ -1,1 +1,527 @@
-<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40"><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor>Djurre van Dijk</LastAuthor><Created>2019-06-25T15:50:57Z</Created><LastSaved>2019-06-25T15:50:57Z</LastSaved><Version>16.00</Version></DocumentProperties><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><AllowPNG/></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX>32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Normal"><Alignment ss:Vertical="Bottom"/><Borders/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/><Interior/><NumberFormat/><Protection/></Style><Style ss:ID="s62"><Alignment ss:Vertical="Top" ss:WrapText="1"/></Style><Style ss:ID="s63"><Alignment ss:Vertical="Top" ss:WrapText="1"/><Interior/></Style></Styles><Worksheet ss:Name="Script"><Table x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="234.75" ss:DefaultRowHeight="15"><Column ss:StyleID="s62" ss:Width="131.25"/><Column ss:StyleID="s62" ss:Width="198"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="246.75"/><Column ss:StyleID="s62" ss:Width="147.75"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="207"/><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="153"/><Row ss:AutoFitHeight="0" ss:Height="135"><Cell><Data ss:Type="String">GENETICS_TECHGROUPS</Data></Cell><Cell ss:Index="7"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data ss:Type="String">TEXT ID</Data></Cell><Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">KIRKO_SKILLS</Data></Cell><Cell><Data ss:Type="String">GROUP_NAME</Data></Cell><Cell><Data ss:Type="String">Kir'Ko</Data></Cell><Cell><Data ss:Type="String">奇尔寇</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ONE_WITH_THE_SWARM</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">One with the Swarm</Data></Cell><Cell><Data ss:Type="String">与族群同在</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">ONE_WITH_THE_SWARM</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Swarm Shield now grants an additional {Shieldbonus} for {turntime}.</Data></Cell><Cell><Data ss:Type="String">族群护盾现在获得 {Shieldbonus} 额外加成，持续 {turntime}。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DEPLOY_ABYSSIAN</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Deploy Abyssian</Data></Cell><Cell><Data ss:Type="String">部署深渊幽鬼</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">DEPLOY_ABYSSIAN</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Summon an Abyssian onto target hex during combat. The summon lasts until the end of combat.[br/]This unit has strong Biochemical abilities that can [abilityred]Encase[/abilityred] a target in a waxy cement.</Data></Cell><Cell><Data ss:Type="String">在战斗中召唤深渊幽鬼，对目标施放妖法。召唤持续到战斗结束。[br/]该单位具有强力生化技能，可将目标[abilityred]围困[/abilityred]在蜡泥之中。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HEALING_SURGE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Healing Surge</Data></Cell><Cell><Data ss:Type="String">治疗之潮</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">HEALING_SURGE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Target non-Mechanical unit is healed for {Healamount}[hp/]. This heal can jump to nearby friendly units within a {range} hex range up to {jumps} times.</Data></Cell><Cell><Data ss:Type="String">为非机械目标单位治疗 {Healamount}[hp/]。该治疗可转移到 {range} 单元格范围内友军身上，最多可转移 {jumps} 次。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">DREAM_SHARING</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Dream Sharing</Data></Cell><Cell><Data ss:Type="String">分享梦境</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">DREAM_SHARING</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Sharing the past memories of our great warriors with the Kir'Ko that fight at the forefront helps them to improve more rapidly.[br/][br/]All Kir'Ko units gain {ExperienceIncrease} experience from combat.</Data></Cell><Cell><Data ss:Type="String">向奇尔寇分享我们伟大战士为它们浴血奋战，助它们获取更多经验。[br/][br/]所有奇尔寇单位可从战斗中获取额外 {ExperienceIncrease} 经验。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PRESERVING_THE_FUTURE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Preserving the Future</Data></Cell><Cell><Data ss:Type="String">保护未来</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">PRESERVING_THE_FUTURE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The new generations are our future, so the larger the new generation is, the better.[br/][br/]All owned colonies benefit from an increase of {FoodIncome} [food/] income.</Data></Cell><Cell><Data ss:Type="String">新生代是我们的未来，新生代数量越多，我们的未来越辉煌。[br/][br/]所有下辖殖民地收入提升 {FoodIncome}[food/]。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ACT_OF_RETRIBUTION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Act of Retribution</Data></Cell><Cell><Data ss:Type="String">以牙还牙</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">ACT_OF_RETRIBUTION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The Kir'Ko have not forgiven those who once enslaved them, and will take vengeance on their former oppressors.[br/][br/]Friendly units deal +{ExtraDamage} damage to all non-Kir'Ko units.</Data></Cell><Cell><Data ss:Type="String">奇尔寇无法宽恕那些曾经奴役过他们的人，它们必将以牙还牙。[br/][br/]友方单位对所有非奇尔寇单位额外造成 {ExtraDamage} 伤害。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ACT_OF_RETRIBUTION</Data></Cell><Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">{ExtraDamage} damage to all non Kir'ko units</Data></Cell><Cell><Data ss:Type="String">对所有非奇尔寇单位额外造成 {ExtraDamage} 伤害。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">ACT_OF_RECONCILIATION</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Act of Reconciliation</Data></Cell><Cell><Data ss:Type="String">不问恩仇</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="120"><Cell><Data ss:Type="String">ACT_OF_RECONCILIATION</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The Kir'Ko have learned to forgive and welcome their old enemies as their new allies.[br/][br/]All owned Colonies receive {HappinessIncomePeace} [happiness/] for each Non-Aggression Pact with other players, {HappinessIncomeDefensive}[happiness/] for each Defensive Pact with other players, and {HappinessIncomeAlliance}[happiness/] for each Alliance with other players.</Data></Cell><Cell><Data ss:Type="String">奇尔寇学会了宽容，并接纳昔日之敌成为他们的盟友。[br/][br/]所有下辖殖民地与其他玩家每签订一份互不侵犯协议，将获得 {HappinessIncomePeace}[happiness/]，每签订一份防御协议，将获得 {HappinessIncomeDefensive}[happiness/]，而每次与其它玩家结盟，将获得 {HappinessIncomeAlliance}[happiness/]。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">PLANETARY_SWARMING</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Planetary Swarming</Data></Cell><Cell><Data ss:Type="String">星罗密布</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data ss:Type="String">PLANETARY_SWARMING</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Sheer numbers will overwhelm any and all opposition. Together we are strong.[br/][br/]Upkeep for all Kir'Ko units is reduced by {ReducedUpkeep}[energy/]. In addition, all Light units are {ProductionCostReduction} cheaper to produce.[br/][br/][firecol]Unit costs can never be lowered more than 75%.[/firecol][firecol]Unit upkeep can never be lowered more than 50%.[/firecol]</Data></Cell><Cell><Data ss:Type="String">纯粹的数量优势足以碾压任何敌人。团结一致，我们势不可挡。[br/][br/]所有奇尔寇单位的维持消耗降低 {ReducedUpkeep}[energy/]。此外，所有轻型单位的产力消耗降低 {ProductionCostReduction}。[br/][br/][firecol]单位消耗减少不能超过 75%。[/firecol][firecol]单位的维持消耗减少不能超过 50%[/firecol]。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">HIVE_EMBRACE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Hive's Embrace</Data></Cell><Cell><Data ss:Type="String">族群狂欢</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">HIVE_EMBRACE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Happiness event rewards are doubled, and each non-Kir'Ko colony that you own contributes {InfluenceIncome}[influence/].</Data></Cell><Cell><Data ss:Type="String">幸福值奖励翻倍，每个你拥有的非奇尔寇殖民地将贡献 {InfluenceIncome}[influence/]。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPAWN_EMERGENT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Spawn Emergent</Data></Cell><Cell><Data ss:Type="String">召唤新生幼虫</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">SPAWN_EMERGENT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Summons a Kir'Ko Emergent to the target hex. This unit can transform into an Engulfer or Transcendant.</Data></Cell><Cell><Data ss:Type="String">向目标单元格召唤奇尔寇新生幼虫，该单位可转化为吞食飞虫或超然灵虫。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">SPAWN_EMERGENT</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">A new Emergent has spawned under your control.</Data></Cell><Cell><Data ss:Type="String">生成一只新的新生幼虫并由你控制。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BERSERKER_PHEROMONES</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Berserker Pheromones</Data></Cell><Cell><Data ss:Type="String">狂暴激素</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">BERSERKER_PHEROMONES</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Heals all Biological and Cyborg units in the targeted army to full [hp/], and all melee damage dealt is increased by {MeleeDamage} for {Duration}.</Data></Cell><Cell><Data ss:Type="String">为目标军队中的所有生物单位和半机械人单位恢复全部[hp/]，所有近战攻击伤害提升 {MeleeDamage}，持续 {Duration}。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BERSERKER_PHEROMONES</Data></Cell><Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">The unit deals {MeleeDamage} melee damage.</Data></Cell><Cell><Data ss:Type="String">该单位造成 {MeleeDamage} 近战伤害。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">BERSERKER_PHEROMONES</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">Pheromones have driven this army berserk.</Data></Cell><Cell><Data ss:Type="String">在激素的催化下，这支军队陷入狂怒状态。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">BERSERKER_PHEROMONES</Data></Cell><Cell><Data ss:Type="String">EFFECT_STRING</Data></Cell><Cell><Data ss:Type="String">Your units have regenerated rapidly as a result of being exposed to specific pheromones.</Data></Cell><Cell><Data ss:Type="String">你的单位在接触某种激素后，再生速度明显变快。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">CALL_OF_THE_HIVE</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Call of the Hive</Data></Cell><Cell><Data ss:Type="String">族群召唤</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">CALL_OF_THE_HIVE</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Target an owned colony. When friendly armies fight in that colony's domain, spawn {AmountUnitsSpawned} Kir'Ko Hive Guards to aid them during combat. The spawned units disappear at the end of combat.</Data></Cell><Cell><Data ss:Type="String">以一个已被拥有的殖民地为目标。当友方军队在该殖民地领域中作战时，生成 {AmountUnitsSpawned} 个奇尔寇蜂巢护卫协助友方军队加入战斗。这些单位将在战斗结束后消失。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"><Data ss:Type="String">Changed references from Sector to Owned Colony</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">CALL_OF_THE_HIVE</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">We have successfully called forth extra warriors to defend our colonies.</Data></Cell><Cell><Data ss:Type="String">我们已成功召唤出额外的战士，助我们保卫殖民地。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data ss:Type="String">CALL_OF_THE_HIVE</Data></Cell><Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Extra Kir'Ko Hive Guards have been summoned to aid in defending the hive.</Data></Cell><Cell><Data ss:Type="String">已成功召唤出额外的奇尔寇蜂巢护卫，为保卫族群提供助力。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"><Data ss:Type="String">Now correctly mentions the Hive Guard units it spawns instead of the Frenzied</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data></Cell><Cell><Data ss:Type="String">NAME</Data></Cell><Cell><Data ss:Type="String">Noxious Bombardment</Data></Cell><Cell><Data ss:Type="String">毒气轰炸</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data></Cell><Cell><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data ss:Type="String">Damage target enemy army for {Damage} of their current [hp/] and give them {ResistanceReduction} on all resistances for {AmountOfTurns}.</Data></Cell><Cell><Data ss:Type="String">对目标敌方军队造成相当于其当前[hp/]{Damage} 的伤害，且目标的所有抵抗降低 {ResistanceReduction}，持续 {AmountOfTurns}。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data></Cell><Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data ss:Type="String">A Noxious Bombardment was successfully unleashed upon the target army, inflicting casualties and weakening their resistance to any damage taken in combat for {NoxiousBomardmentDuration}.</Data></Cell><Cell><Data ss:Type="String">已成功向目标军队施放毒气轰炸，造成敌方伤亡，并削弱敌方 {NoxiousBomardmentDuration} 在战斗中对所有伤害的抵抗。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data></Cell><Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell><Cell><Data ss:Type="String">A Noxious Bombardment was successfully unleashed upon the target army, but the strike did not impact at maximum effectiveness. The gas was not potent enough, but it still managed to inflict light damage on the enemy army.</Data></Cell><Cell><Data ss:Type="String">已向目标军队施放毒气轰炸，但效果不太理想。毒气毒性不足，但仍然给敌军造成了轻量伤害。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data></Cell><Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell><Cell><Data ss:Type="String">A Noxious Bombardment was successfully unleashed upon your army, inflicting casualties and weakening their resistance to any damage taken in combat for {BiochemicalGasStrikeDuration}.</Data></Cell><Cell><Data ss:Type="String">你的军队遭到了毒气轰炸，造成伤亡，并削弱 {BiochemicalGasStrikeDuration} 在战斗中对所有伤害的抵抗。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data></Cell><Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell><Cell><Data ss:Type="String">A Noxious Bombardment was successfully unleashed upon your forces, but your troops were able to avoid the worst of it, and only light casualties were suffered.</Data></Cell><Cell><Data ss:Type="String">你的军队遭到了毒气轰炸，但士兵们成功避过了其锋芒，仅有轻微的伤亡。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data></Cell><Cell><Data ss:Type="String">EFFECT_STRING</Data></Cell><Cell><Data ss:Type="String">The targeted units lost {damage} of their current [hp/] and are suffering {ResistanceReduction} resistance on all damage channels.</Data></Cell><Cell><Data ss:Type="String">目标单位损失 {damage} 当前[hp/]，并且对所有伤害的抵抗降低 {ResistanceReduction}。</Data></Cell><Cell ss:Index="8" ss:StyleID="s63"/></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell><Data ss:Type="String"/></Cell><Cell ss:Index="7"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><Unsynced/><Selected/><TopRowVisible>18</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow>22</ActiveRow><ActiveCol>4</ActiveCol></Pane></Panes><ProtectObjects>False</ProtectObjects><ProtectScenarios>False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:50:57Z</Created><LastSaved
+    >2019-06-25T15:50:57Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Interior
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="234.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="131.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="198"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="246.75" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="207" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="153"
+      /><Row ss:AutoFitHeight="0" ss:Height="135"><Cell><Data
+            ss:Type="String"
+          >GENETICS_TECHGROUPS</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">KIRKO_SKILLS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GROUP_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Kir'Ko</Data></Cell><Cell><Data
+            ss:Type="String"
+          >奇尔寇</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ONE_WITH_THE_SWARM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >One with the Swarm</Data></Cell><Cell><Data
+            ss:Type="String"
+          >与族群同在</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ONE_WITH_THE_SWARM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Swarm Shield now grants an additional {Shieldbonus} for {turntime}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >族群护盾现在获得 {Shieldbonus} 额外加成，持续 {turntime}。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DEPLOY_ABYSSIAN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deploy Abyssian</Data></Cell><Cell><Data
+            ss:Type="String"
+          >部署深渊幽鬼</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">DEPLOY_ABYSSIAN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Summon an Abyssian onto target hex during combat. The summon lasts until the end of combat.[br/]This unit has strong Biochemical abilities that can [abilityred]Encase[/abilityred] a target in a waxy cement.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在战斗中召唤深渊幽鬼，对目标施放妖法。召唤持续到战斗结束。[br/]该单位具有强力生化技能，可将目标[abilityred]围困[/abilityred]在蜡泥之中。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEALING_SURGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Healing Surge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >治疗之潮</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">HEALING_SURGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target non-Mechanical unit is healed for {Healamount}[hp/]. This heal can jump to nearby friendly units within a {range} hex range up to {jumps} times.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >为非机械目标单位治疗 {Healamount}[hp/]。该治疗可转移到 {range} 单元格范围内友军身上，最多可转移 {jumps} 次。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DREAM_SHARING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dream Sharing</Data></Cell><Cell><Data
+            ss:Type="String"
+          >分享梦境</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">DREAM_SHARING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sharing the past memories of our great warriors with the Kir'Ko that fight at the forefront helps them to improve more rapidly.[br/][br/]All Kir'Ko units gain {ExperienceIncrease} experience from combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向奇尔寇分享我们伟大战士为它们浴血奋战，助它们获取更多经验。[br/][br/]所有奇尔寇单位可从战斗中获取额外 {ExperienceIncrease} 经验。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PRESERVING_THE_FUTURE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Preserving the Future</Data></Cell><Cell><Data
+            ss:Type="String"
+          >保护未来</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">PRESERVING_THE_FUTURE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The new generations are our future, so the larger the new generation is, the better.[br/][br/]All owned colonies benefit from an increase of {FoodIncome} [food/] income.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >新生代是我们的未来，新生代数量越多，我们的未来越辉煌。[br/][br/]所有下辖殖民地收入提升 {FoodIncome}[food/]。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ACT_OF_RETRIBUTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Act of Retribution</Data></Cell><Cell><Data
+            ss:Type="String"
+          >以牙还牙</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >ACT_OF_RETRIBUTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Kir'Ko have not forgiven those who once enslaved them, and will take vengeance on their former oppressors.[br/][br/]Friendly units deal +{ExtraDamage} damage to all non-Kir'Ko units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >奇尔寇无法宽恕那些曾经奴役过他们的人，它们必将以牙还牙。[br/][br/]友方单位对所有非奇尔寇单位额外造成 {ExtraDamage} 伤害。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ACT_OF_RETRIBUTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{ExtraDamage} damage to all non Kir'ko units</Data></Cell><Cell><Data
+            ss:Type="String"
+          >对所有非奇尔寇单位额外造成 {ExtraDamage} 伤害。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ACT_OF_RECONCILIATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Act of Reconciliation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不问恩仇</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="120"><Cell><Data
+            ss:Type="String"
+          >ACT_OF_RECONCILIATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Kir'Ko have learned to forgive and welcome their old enemies as their new allies.[br/][br/]All owned Colonies receive {HappinessIncomePeace} [happiness/] for each Non-Aggression Pact with other players, {HappinessIncomeDefensive}[happiness/] for each Defensive Pact with other players, and {HappinessIncomeAlliance}[happiness/] for each Alliance with other players.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >奇尔寇学会了宽容，并接纳昔日之敌成为他们的盟友。[br/][br/]所有下辖殖民地与其他玩家每签订一份互不侵犯协议，将获得 {HappinessIncomePeace}[happiness/]，每签订一份防御协议，将获得 {HappinessIncomeDefensive}[happiness/]，而每次与其它玩家结盟，将获得 {HappinessIncomeAlliance}[happiness/]。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PLANETARY_SWARMING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Planetary Swarming</Data></Cell><Cell><Data
+            ss:Type="String"
+          >星罗密布</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
+            ss:Type="String"
+          >PLANETARY_SWARMING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sheer numbers will overwhelm any and all opposition. Together we are strong.[br/][br/]Upkeep for all Kir'Ko units is reduced by {ReducedUpkeep}[energy/]. In addition, all Light units are {ProductionCostReduction} cheaper to produce.[br/][br/][firecol]Unit costs can never be lowered more than 75%.[/firecol][firecol]Unit upkeep can never be lowered more than 50%.[/firecol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >纯粹的数量优势足以碾压任何敌人。团结一致，我们势不可挡。[br/][br/]所有奇尔寇单位的维持消耗降低 {ReducedUpkeep}[energy/]。此外，所有轻型单位的产力消耗降低 {ProductionCostReduction}。[br/][br/][firecol]单位消耗减少不能超过 75%。[/firecol][firecol]单位的维持消耗减少不能超过 50%[/firecol]。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HIVE_EMBRACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hive's Embrace</Data></Cell><Cell><Data
+            ss:Type="String"
+          >族群狂欢</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >HIVE_EMBRACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Happiness event rewards are doubled, and each non-Kir'Ko colony that you own contributes {InfluenceIncome}[influence/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >幸福值奖励翻倍，每个你拥有的非奇尔寇殖民地将贡献 {InfluenceIncome}[influence/]。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPAWN_EMERGENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spawn Emergent</Data></Cell><Cell><Data
+            ss:Type="String"
+          >召唤新生幼虫</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >SPAWN_EMERGENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Summons a Kir'Ko Emergent to the target hex. This unit can transform into an Engulfer or Transcendant.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标单元格召唤奇尔寇新生幼虫，该单位可转化为吞食飞虫或超然灵虫。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPAWN_EMERGENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A new Emergent has spawned under your control.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >生成一只新的新生幼虫并由你控制。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BERSERKER_PHEROMONES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Berserker Pheromones</Data></Cell><Cell><Data
+            ss:Type="String"
+          >狂暴激素</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >BERSERKER_PHEROMONES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heals all Biological and Cyborg units in the targeted army to full [hp/], and all melee damage dealt is increased by {MeleeDamage} for {Duration}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >为目标军队中的所有生物单位和半机械人单位恢复全部[hp/]，所有近战攻击伤害提升 {MeleeDamage}，持续 {Duration}。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BERSERKER_PHEROMONES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit deals {MeleeDamage} melee damage.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >该单位造成 {MeleeDamage} 近战伤害。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BERSERKER_PHEROMONES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Pheromones have driven this army berserk.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >在激素的催化下，这支军队陷入狂怒状态。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >BERSERKER_PHEROMONES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Your units have regenerated rapidly as a result of being exposed to specific pheromones.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的单位在接触某种激素后，再生速度明显变快。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CALL_OF_THE_HIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Call of the Hive</Data></Cell><Cell><Data
+            ss:Type="String"
+          >族群召唤</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >CALL_OF_THE_HIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target an owned colony. When friendly armies fight in that colony's domain, spawn {AmountUnitsSpawned} Kir'Ko Hive Guards to aid them during combat. The spawned units disappear at the end of combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >以一个已被拥有的殖民地为目标。当友方军队在该殖民地领域中作战时，生成 {AmountUnitsSpawned} 个奇尔寇蜂巢护卫协助友方军队加入战斗。这些单位将在战斗结束后消失。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        ><Data
+            ss:Type="String"
+          >Changed references from Sector to Owned Colony</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CALL_OF_THE_HIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We have successfully called forth extra warriors to defend our colonies.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们已成功召唤出额外的战士，助我们保卫殖民地。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >CALL_OF_THE_HIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Extra Kir'Ko Hive Guards have been summoned to aid in defending the hive.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >已成功召唤出额外的奇尔寇蜂巢护卫，为保卫族群提供助力。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        ><Data
+            ss:Type="String"
+          >Now correctly mentions the Hive Guard units it spawns instead of the Frenzied</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Noxious Bombardment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >毒气轰炸</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >NOXIOUS_BOMBARDMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Damage target enemy army for {Damage} of their current [hp/] and give them {ResistanceReduction} on all resistances for {AmountOfTurns}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >对目标敌方军队造成相当于其当前[hp/]{Damage} 的伤害，且目标的所有抵抗降低 {ResistanceReduction}，持续 {AmountOfTurns}。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
+            ss:Type="String"
+          >NOXIOUS_BOMBARDMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A Noxious Bombardment was successfully unleashed upon the target army, inflicting casualties and weakening their resistance to any damage taken in combat for {NoxiousBomardmentDuration}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >已成功向目标军队施放毒气轰炸，造成敌方伤亡，并削弱敌方 {NoxiousBomardmentDuration} 在战斗中对所有伤害的抵抗。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
+            ss:Type="String"
+          >NOXIOUS_BOMBARDMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A Noxious Bombardment was successfully unleashed upon the target army, but the strike did not impact at maximum effectiveness. The gas was not potent enough, but it still managed to inflict light damage on the enemy army.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >已向目标军队施放毒气轰炸，但效果不太理想。毒气毒性不足，但仍然给敌军造成了轻量伤害。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
+            ss:Type="String"
+          >NOXIOUS_BOMBARDMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A Noxious Bombardment was successfully unleashed upon your army, inflicting casualties and weakening their resistance to any damage taken in combat for {BiochemicalGasStrikeDuration}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的军队遭到了毒气轰炸，造成伤亡，并削弱 {BiochemicalGasStrikeDuration} 在战斗中对所有伤害的抵抗。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >NOXIOUS_BOMBARDMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_FAILURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A Noxious Bombardment was successfully unleashed upon your forces, but your troops were able to avoid the worst of it, and only light casualties were suffered.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的军队遭到了毒气轰炸，但士兵们成功避过了其锋芒，仅有轻微的伤亡。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >NOXIOUS_BOMBARDMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The targeted units lost {damage} of their current [hp/] and are suffering {ResistanceReduction} resistance on all damage channels.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标单位损失 {damage} 当前[hp/]，并且对所有伤害的抵抗降低 {ResistanceReduction}。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s63"
+        /></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Selected /><TopRowVisible>18</TopRowVisible><Panes><Pane
+        ><Number>3</Number><ActiveRow>22</ActiveRow><ActiveCol
+          >4</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
