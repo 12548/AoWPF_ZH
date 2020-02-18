@@ -376,7 +376,7 @@
     <Cell ss:StyleID="s67"><Data ss:Type="String">HUD_UNITPANEL</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">RESISTANCE</Data></Cell>
     <Cell><Data ss:Type="String">Resistance</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">抵抗</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">抗性</Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >character property; as Resistance against the elements. (fire, water, poison)</Data></Cell>
@@ -385,7 +385,7 @@
     <Cell ss:StyleID="s67"><Data ss:Type="String">HUD_UNITPANEL</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">RECRUIT</Data></Cell>
     <Cell><Data ss:Type="String">Recruit</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">招募</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">青铜</Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >lowest experience level of a unit, level 1</Data></Cell>
@@ -394,7 +394,7 @@
     <Cell ss:StyleID="s67"><Data ss:Type="String">HUD_UNITPANEL</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">TROOPER</Data></Cell>
     <Cell><Data ss:Type="String">Novice</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">见习兵</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">白银</Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >experience level of a unit, level 2</Data></Cell>
@@ -403,7 +403,7 @@
     <Cell ss:StyleID="s67"><Data ss:Type="String">HUD_UNITPANEL</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">VETERAN</Data></Cell>
     <Cell><Data ss:Type="String">Veteran</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">老兵</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">黄金</Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >experience level of a unit, level 3</Data></Cell>
@@ -412,7 +412,7 @@
     <Cell ss:StyleID="s67"><Data ss:Type="String">HUD_UNITPANEL</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">EXPERT</Data></Cell>
     <Cell><Data ss:Type="String">Expert</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">专家</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">白金</Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >experience level of a unit, level 4</Data></Cell>
@@ -421,7 +421,7 @@
     <Cell ss:StyleID="s67"><Data ss:Type="String">HUD_UNITPANEL</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">ELITE</Data></Cell>
     <Cell><Data ss:Type="String">Prime</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">精兵</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">传奇</Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >highest experience level of a unit, level 5</Data></Cell>
@@ -10450,7 +10450,7 @@
     <Cell ss:StyleID="s67"><Data ss:Type="String">CONTROLS</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">ENTER</Data></Cell>
     <Cell><Data ss:Type="String">Enter</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">进入</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">回车</Data></Cell>
     <Cell ss:Index="7"><Data ss:Type="String">Keybinding key</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -26625,13 +26625,13 @@
     <Cell><Data ss:Type="String">UNIT</Data></Cell>
     <Cell><Data ss:Type="String">UPGRADE</Data></Cell>
     <Cell><Data ss:Type="String">Mod Unit</Data></Cell>
-    <Cell><Data ss:Type="String">模块单位</Data></Cell>
+    <Cell><Data ss:Type="String">对单位应用修改</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">TEXT</Data></Cell>
     <Cell><Data ss:Type="String">UPGRADE_EQUIVALENT_UNITS</Data></Cell>
     <Cell><Data ss:Type="String">Mod equivalent units</Data></Cell>
-    <Cell><Data ss:Type="String">模块等效单位</Data></Cell>
+    <Cell><Data ss:Type="String">对相同单位应用修改</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">TEXT</Data></Cell>
@@ -26673,7 +26673,7 @@
     <Cell><Data ss:Type="String">TEXT</Data></Cell>
     <Cell><Data ss:Type="String">INFO_CTRL</Data></Cell>
     <Cell><Data ss:Type="String">Info CTRL</Data></Cell>
-    <Cell><Data ss:Type="String">信息控制</Data></Cell>
+    <Cell><Data ss:Type="String">按CTRL显示信息</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">TEXT</Data></Cell>
@@ -27559,7 +27559,7 @@
     <Cell><Data ss:Type="String">TEXT</Data></Cell>
     <Cell><Data ss:Type="String">IN_ORDER_TO_UNLOCK</Data></Cell>
     <Cell><Data ss:Type="String">In order to unlock:</Data></Cell>
-    <Cell><Data ss:Type="String">为解锁：</Data></Cell>
+    <Cell><Data ss:Type="String">解锁条件：</Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >Please put a space after the text. &quot;Colonly of &quot;</Data></Cell>
