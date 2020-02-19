@@ -121,7 +121,7 @@
           >The unit is {WetwareEvade} harder to hit by ranged attacks. They also become [abilityblue]Integrated[/abilityblue], allowing them to interface with Synthesis technology.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位被远程单位命中的难度增加 {WetwareEvade}，并且变为[abilityblue]融合[/abilityblue]，可以接入合成科技。</Data></Cell><Cell
+          >该单位被远程单位命中的难度增加 {WetwareEvade}，并且变为[abilityblue]融合体[/abilityblue]，可以接入合成科技。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -144,7 +144,7 @@
           >The unit gains {InformationAccuracy} accuracy and {InformationCrit} critical hit chance. They also become [abilityblue]Integrated[/abilityblue], allowing them to interface with Synthesis technology.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位获得 {InformationAccuracy} 准度以及 {InformationCrit} 暴击率，并且变为[abilityblue]融合[/abilityblue]，可以接入合成科技。</Data></Cell><Cell
+          >该单位获得 {InformationAccuracy} 准度以及 {InformationCrit} 暴击率，并且变为[abilityblue]融合体[/abilityblue]，可以接入合成科技。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -160,7 +160,7 @@
           >A Targeting Daemon is [abilityblue]Integrated[/abilityblue] with this unit, increasing their accuracy by {InformationAccuracy} and their critical hit chance by {InformationCrit}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >一个瞄准精灵与这个单位[abilityblue]融合[/abilityblue]，准度提升 {InformationAccuracy}，暴击率提升 {InformationCrit}。</Data></Cell></Row><Row
+          >一个瞄准精灵与这个单位[abilityblue]融合体[/abilityblue]，准度提升 {InformationAccuracy}，暴击率提升 {InformationCrit}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">TARGETING_DAEMON_SHELL</Data></Cell><Cell
         ><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
@@ -204,7 +204,7 @@
           >Provides the unit with a Daemon Shell containing an Incapacitate Daemon that they can deploy to disrupt enemy units. They also become [abilityblue]Integrated[/abilityblue], allowing them to interface with Synthesis technology.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >提供一个带有致残精灵的精灵外壳，放置外壳可干扰敌方单位。放置外壳的单位也会变为[abilityblue]融合[/abilityblue]，可以接入合成科技。</Data></Cell><Cell
+          >提供一个带有致残精灵的精灵外壳，放置外壳可干扰敌方单位。放置外壳的单位也会变为[abilityblue]融合体[/abilityblue]，可以接入合成科技。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -250,7 +250,7 @@
           >The unit is immune to stagger. If the unit dies in combat, they are revived with {NetworkReviveHP} of their maximum [hp/] at the start of the next turn. By creating an emergency backup of this unit's conciousness, they also become [abilityblue]Integrated[/abilityblue], allowing them to interface with Synthesis technology.[br/][br/][firecol]A unit can only revive itself once per battle.[/firecol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位对动摇以及所有状态效果免疫。如果该单位在战斗中死亡，下回合开始时将以最大 [hp/] 的 {NetworkReviveHP} 复活。对该单位的意识进行紧急备份后还会变为[abilityblue]融合[/abilityblue]，可以接入合成科技。[br/][br/][firecol]每个单位在每场战斗中只能复活自己一次。[/firecol]</Data></Cell><Cell
+          >该单位对动摇以及所有状态效果免疫。如果该单位在战斗中死亡，下回合开始时将以最大 [hp/] 的 {NetworkReviveHP} 复活。通过对其意识进行紧急备份，该单位还会变为[abilityblue]融合体[/abilityblue]，可以接入合成科技。[br/][br/][firecol]每个单位在每场战斗中只能复活自己一次。[/firecol]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -327,7 +327,7 @@
           >All Mechanical and Cyborg units are [abilityblue]Integrated[/abilityblue], allowing them to interface with Synthesis technology.[br/]All militia units you control become [abilityblue]Integrated[/abilityblue].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >所有机械和半机械单位变为[abilityblue]融合[/abilityblue]状态，从而可接入合成科技。[br/]你控制的所有卫队单位也将变为[abilityblue]融合[/abilityblue]状态。</Data></Cell><Cell
+          >所有机械和半机械单位变为[abilityblue]融合体[/abilityblue]状态，从而可接入合成科技。[br/]你控制的所有卫队单位也将变为[abilityblue]融合体[/abilityblue]状态。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -342,7 +342,7 @@
             ss:Type="String"
           >Integrated</Data></Cell><Cell><Data
             ss:Type="String"
-          >融合的</Data></Cell></Row><Row
+          >融合体</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">INTEGRATED</Data></Cell><Cell><Data
@@ -467,7 +467,7 @@
           >Upon destruction of its shell, the Malware Daemon will try to forcibly integrate with a random enemy Mechanical or Cyborg unit within {EmergencyRange} hexes. The enemy unit will have a strength {EmergencyChance} chance to be [abilityred]Mind Controlled[/abilityred] and switch allegiance until the end of combat. On failure, the unit is [abilityred]Compromised[/abilityred] instead. If the unit switches allegiance, they will become [abilityblue]Integrated[/abilityblue] as well.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >恶意软件精灵将会在外壳被摧毁后强制与 {EmergencyRange} 个单元格范围内的敌方机械单位和半机械单位融合。敌方单位将会有 {EmergencyChance} 力量几率被[abilityred]心灵控制[/abilityred]然后改变拥阵营，直到战斗结束。如果心灵控制失败，则该单位会被[abilityred]扰乱[/abilityred]。如果该单位改变阵营，他们也会变为[abilityblue]融合[/abilityblue]。</Data></Cell><Cell
+          >恶意软件精灵将会在外壳被摧毁后强制与 {EmergencyRange} 个单元格范围内的敌方机械单位和半机械单位融合。敌方单位将会有 {EmergencyChance} 力量几率被[abilityred]心灵控制[/abilityred]然后改变拥阵营，直到战斗结束。如果心灵控制失败，则该单位会被[abilityred]扰乱[/abilityred]。如果该单位改变阵营，他们也会变为[abilityblue]融合体[/abilityblue]。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -625,7 +625,7 @@
           >Upload an artificial consciousness to a susceptible unit. This resets target friendly [abilityblue]Integrated[/abilityblue] unit's cooldowns and once per battle abilities. </Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >向易感单位上传人造意识 (AC)。该操作将会重置己方[abilityblue]融合[/abilityblue]目标的冷却时间，并重置一场战斗中只能使用一次的技能。 </Data></Cell><Cell
+          >向易感单位上传人造意识 (AC)。该操作将会重置己方[abilityblue]融合体[/abilityblue]目标的冷却时间，并重置一场战斗中只能使用一次的技能。 </Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -702,7 +702,7 @@
           >Sends a Daemon to interface with target [abilityblue]Integrated[/abilityblue] unit, resetting their status. The unit has all hostile effects dispelled, becomes immune to all status effects and regains {ResetSaveStateDaemonHP} of their maximum [hp/] at the start of the turn for {ResetSaveStateDaemonTime}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >派出一个精灵接入目标[abilityblue]融合[/abilityblue]单位。重置该单位的状态，驱散该单位身上的所有敌对效果并使其免疫所有状态效果。在每个回合开始时，该单位还会恢复最大 [hp/] 的 {ResetSaveStateDaemonHP}，持续 {ResetSaveStateDaemonTime}。</Data></Cell><Cell
+          >派出一个精灵接入目标[abilityblue]融合体[/abilityblue]单位。重置该单位的状态，驱散该单位身上的所有敌对效果并使其免疫所有状态效果。在每个回合开始时，该单位还会恢复最大 [hp/] 的 {ResetSaveStateDaemonHP}，持续 {ResetSaveStateDaemonTime}。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -814,7 +814,7 @@
           >Send a friendly Daemon to interface with target friendly unit, boosting it immensely. The unit deals {AmplifyDaemonDam} damage, and gains {AmplifyDaemonResist} level of Impact resistance and Fast Movement. The unit also becomes [abilityblue]Integrated[/abilityblue]. This lasts for {duration}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >派出一个己方精灵接入选中的己方单位，使其得到大幅提升。该单位可造成 {AmplifyDaemonDam} 伤害，并获得第 {AmplifyDaemonResist} 级的冲击抵抗和迅捷移动。同时该单位变为[abilityblue]融合[/abilityblue]。持续 {duration}。</Data></Cell><Cell
+          >派出一个己方精灵接入选中的己方单位，使其得到大幅提升。该单位可造成 {AmplifyDaemonDam} 伤害，并获得第 {AmplifyDaemonResist} 级的冲击抵抗和迅捷移动。同时该单位变为[abilityblue]融合体[/abilityblue]。持续 {duration}。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -831,7 +831,7 @@
           >A friendly Daemon has [abilityblue]Integrated[/abilityblue] with this unit, boosting its abilities. They deal +{AmplifyDaemonDam} damage, and have gained {AmplifyDaemonResist} level of Impact resistance and Fast Movement.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >一个己方精灵已经与该单位[abilityblue]融合[/abilityblue]，能力得到提升，可造成 +{AmplifyDaemonDam} 伤害，并获得第 {AmplifyDaemonResist} 级的冲击抵抗和迅捷移动。</Data></Cell><Cell
+          >一个己方精灵已经与该单位[abilityblue]融合体[/abilityblue]，能力得到提升，可造成 +{AmplifyDaemonDam} 伤害，并获得第 {AmplifyDaemonResist} 级的冲击抵抗和迅捷移动。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -856,7 +856,7 @@
           >Uploads protective subroutines to all [abilityblue]Integrated[/abilityblue] units. They receive {AegisSubroutinesShield} for {AegisSubroutinesTurns}</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >向所有[abilityblue]融合[/abilityblue]的单位上传保护性子程序。它们获得 {AegisSubroutinesShield}，持续 {AegisSubroutinesTurns}</Data></Cell><Cell
+          >向所有[abilityblue]融合体[/abilityblue]的单位上传保护性子程序。它们获得 {AegisSubroutinesShield}，持续 {AegisSubroutinesTurns}</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -945,7 +945,7 @@
           >Uploads repair subroutines to all friendly [abilityblue]Integrated[/abilityblue] units. They heal for {RepairSubroutinesHeal}[hp/] at the end of each turn for {RepairSubroutinesTurns}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >向所有己方[abilityblue]融合[/abilityblue]单位上传修复子程序，每回合结束时将治疗其 {RepairSubroutinesHeal}[hp/]，持续 {RepairSubroutinesTurns}。</Data></Cell><Cell
+          >向所有己方[abilityblue]融合体[/abilityblue]单位上传修复子程序，每回合结束时将治疗其 {RepairSubroutinesHeal}[hp/]，持续 {RepairSubroutinesTurns}。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -998,7 +998,7 @@
           >Uploads combat subroutines to all friendly [abilityblue]Integrated[/abilityblue] units. They gain +{SkirmishImpactIncrease} Impact resistance and deal +{SkirmishDamageIncrease} damage for {SkirmishTurns}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >向所有己方[abilityblue]融合[/abilityblue]单位上传战斗子程序。它们获得 +{SkirmishImpactIncrease} 冲击抵抗并可造成 +{SkirmishDamageIncrease} 伤害，持续 {SkirmishTurns}。</Data></Cell><Cell
+          >向所有己方[abilityblue]融合体[/abilityblue]单位上传战斗子程序。它们获得 +{SkirmishImpactIncrease} 冲击抵抗并可造成 +{SkirmishDamageIncrease} 伤害，持续 {SkirmishTurns}。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -1219,7 +1219,7 @@
           >All [abilityblue]Integrated[/abilityblue] units in target friendly army heal to full [hp/] and gain [abilityblue]Finely-tuned[/abilityblue] for {duration} strategic turn, granting them +{accuracy} accuracy and +{damage} damage.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >所有[abilityblue]融合[/abilityblue]的目标友方单位将会获得满 [hp/] 的治疗，同时获得[abilityblue]精细调试[/abilityblue]，持续 {duration} 个策略回合，他们还会获得 +{accuracy} 准度和 +{damage} 的伤害。</Data></Cell><Cell
+          >所有[abilityblue]融合体[/abilityblue]的目标友方单位将会获得满 [hp/] 的治疗，同时获得[abilityblue]精细调试[/abilityblue]，持续 {duration} 个策略回合，他们还会获得 +{accuracy} 准度和 +{damage} 的伤害。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
