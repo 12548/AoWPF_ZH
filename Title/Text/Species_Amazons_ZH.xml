@@ -10,12 +10,12 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:52:52Z</Created><LastSaved
     >2019-06-25T15:52:52Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><MaxChange
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
     >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
@@ -26,7 +26,7 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
       ss:Name="Hyperlink"
     ><Font
         ss:FontName="Calibri"
@@ -34,20 +34,20 @@
         ss:Size="12.65"
         ss:Color="#0000FF"
         ss:Underline="Single"
-      /></Style><Style ss:ID="s58"><Alignment
+      /></Style><Style ss:ID="s63"><Alignment
         ss:Vertical="Top"
         ss:WrapText="1"
-      /></Style><Style ss:ID="s59" ss:Parent="s57"><Alignment
+      /></Style><Style ss:ID="s65" ss:Parent="s62"><Alignment
         ss:Vertical="Top"
         ss:WrapText="1"
-      /><NumberFormat /><Protection /></Style><Style ss:ID="s60"><Alignment
+      /><NumberFormat /><Protection /></Style><Style ss:ID="s66"><Alignment
         ss:Vertical="Top"
         ss:WrapText="1"
-      /><NumberFormat /></Style><Style ss:ID="s61"><Alignment
+      /><NumberFormat /></Style><Style ss:ID="s67"><Alignment
         ss:Vertical="Top"
         ss:WrapText="1"
       /><Interior ss:Color="#FF0000" ss:Pattern="Solid" /></Style><Style
-      ss:ID="s62"
+      ss:ID="s68"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Font
         ss:FontName="Calibri"
         x:Family="Swiss"
@@ -56,21 +56,21 @@
       /></Style></Styles><Worksheet ss:Name="Script"><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s58"
+      ss:StyleID="s63"
       ss:DefaultColumnWidth="9"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s58" ss:AutoFitWidth="0" ss:Width="206.25" /><Column
-        ss:StyleID="s58"
+    ><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="206.25" /><Column
+        ss:StyleID="s63"
         ss:Width="102"
-      /><Column ss:StyleID="s58" ss:AutoFitWidth="0" ss:Width="477" /><Column
-        ss:StyleID="s58"
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="477" /><Column
+        ss:StyleID="s63"
         ss:Width="144.75"
-      /><Column ss:StyleID="s58" ss:Width="149.25" /><Column
-        ss:StyleID="s58"
+      /><Column ss:StyleID="s63" ss:Width="149.25" /><Column
+        ss:StyleID="s63"
         ss:AutoFitWidth="0"
         ss:Width="123.75"
       /><Column
-        ss:StyleID="s58"
+        ss:StyleID="s63"
         ss:AutoFitWidth="0"
         ss:Width="239.25"
         ss:Span="2"
@@ -118,12 +118,12 @@
         ss:Height="115.5"
       ><Cell><Data ss:Type="String">RACE</Data></Cell><Cell><Data
             ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s59" ss:HRef=""><Data
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s65" ss:HRef=""><Data
             ss:Type="String"
-          >{XML_SPECIES_AMAZONS@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][hyperlink,0000039E0000000E]Bio[/hyperlink] Weapons Group[/bullet][bullet][hyperlink,0000039E00000010]Laser[/hyperlink] Weapons Group[/bullet][bullet]Command genetically engineered beasts[/bullet][bullet]Terraform forests and manipulate wildlife[/bullet][bullet]Increased economy and combat capability in forests[/bullet][bullet]Racial Ability: [hyperlink,0000039600000B37]Forest Affinity[/hyperlink][/bullet][/bulletList]</Data></Cell><Cell
+          >{XML_SPECIES_AMAZONS@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]Starting Bonus:[/sand] 1 random Animal unit[/bullet][bullet][sand]Long-Term Bonus:[/sand] Killing [hyperlink,000003250000067C]Animals[/hyperlink] grants [hyperlink,000003AC00000022]Food[supply/][/hyperlink][/bullet][bullet][hyperlink,0000039E0000000E]Bio[/hyperlink] Weapons Group[/bullet][bullet][hyperlink,0000039E00000010]Laser[/hyperlink] Weapons Group[/bullet][bullet]Command genetically engineered beasts[/bullet][bullet]Terraform forests and manipulate wildlife[/bullet][bullet]Racial Ability: [hyperlink,0000039600000B37]Forest Affinity[/hyperlink][/bullet][/bulletList]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >{XML_SPECIES_AMAZONS@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][hyperlink,0000039E0000000E]生物[/hyperlink]武器组[/bullet][bullet][hyperlink,0000039E00000010]激光[/hyperlink]武器组[/bullet][bullet]指挥转基因野兽[/bullet][bullet]改造森林并驯化野生动物[/bullet][bullet]提高森林区域的经济和作战能力[/bullet][bullet]种族技能：[hyperlink,0000039600000B37]森林亲和[/hyperlink][/bullet][/bulletList]</Data></Cell><Cell
+          >{XML_SPECIES_AMAZONS@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]初始加成：[/sand]1 个随机动物单位[/bullet][bullet][sand]长期加成：[/sand]杀死[hyperlink,000003250000067C]动物[/hyperlink]可获得[hyperlink,000003AC00000022]食物[supply/][/hyperlink][/bullet][bullet][hyperlink,0000039E0000000E]生物[/hyperlink]武器组[/bullet][bullet][hyperlink,0000039E00000010]激光[/hyperlink]武器组[/bullet][bullet]指挥转基因野兽[/bullet][bullet]改造森林并驯化野生动物[/bullet][bullet]种族技能：[hyperlink,0000039600000B37]森林亲和[/hyperlink][/bullet][/bulletList]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -132,7 +132,7 @@
         ss:Height="60.75"
       ><Cell><Data ss:Type="String">RACE</Data></Cell><Cell><Data
             ss:Type="String"
-          >DESCRIPTION_SHORT</Data></Cell><Cell ss:StyleID="s60"><Data
+          >DESCRIPTION_SHORT</Data></Cell><Cell ss:StyleID="s66"><Data
             ss:Type="String"
           >The bio-engineering [hyperlink,0000039E00000016]Amazons[/hyperlink] have the ability to alter life and survive harsh circumstances. Their fearsome troops have spartan discipline and are experts in guerrilla tactics. Their arsenal includes genetically engineered beasts that the Amazons ride in to battle.</Data></Cell><Cell
         ><Data
@@ -141,7 +141,7 @@
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">CAMP</Data></Cell><Cell><Data
             ss:Type="String"
-          >NAME</Data></Cell><Cell ss:StyleID="s60"><Data
+          >NAME</Data></Cell><Cell ss:StyleID="s66"><Data
             ss:Type="String"
           >Amazon Settlement</Data></Cell><Cell><Data
             ss:Type="String"
@@ -150,7 +150,7 @@
         ss:Height="15.75"
       ><Cell><Data ss:Type="String">CAMP</Data></Cell><Cell><Data
             ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
             ss:Type="String"
           >A settlement is a small independent colony that might join you if you have enough influence.</Data></Cell><Cell
         ><Data
@@ -160,7 +160,7 @@
         ss:Height="14.25"
       ><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data
             ss:Type="String"
-          >NAME</Data></Cell><Cell ss:StyleID="s60"><Data
+          >NAME</Data></Cell><Cell ss:StyleID="s66"><Data
             ss:Type="String"
           >Migrate Colony: Amazon</Data></Cell><Cell><Data
             ss:Type="String"
@@ -169,7 +169,7 @@
         ss:Height="50.25"
       ><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data
             ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
             ss:Type="String"
           >Migrate the population of this colony to Amazon. The colony will become an Amazon colony.[br/][br/][fireCol]By migrating the population, {PopulationDeath} of the colonists of the colony will be killed.[/fireCol] [br/][br/]You receive:[br/][fireCol]{Reputation} Reputation[br/]{RaceRelation} Race Relation with the {STR_raceName}[/fireCol] </Data></Cell><Cell
         ><Data
@@ -179,7 +179,7 @@
         ss:Height="18"
       ><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data
             ss:Type="String"
-          >IN_PROGRESS</Data></Cell><Cell ss:StyleID="s60"><Data
+          >IN_PROGRESS</Data></Cell><Cell ss:StyleID="s66"><Data
             ss:Type="String"
           >Colony is currently being migrated to an Amazon population. Process will complete in [INT_duration].</Data></Cell><Cell
         ><Data
@@ -189,7 +189,7 @@
         ss:Height="16.5"
       ><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data
             ss:Type="String"
-          >CONFIRMATION</Data></Cell><Cell ss:StyleID="s60"><Data
+          >CONFIRMATION</Data></Cell><Cell ss:StyleID="s66"><Data
             ss:Type="String"
           >Are you sure you want to migrate this colony to an Amazon colony?</Data></Cell><Cell
         ><Data
@@ -258,7 +258,7 @@ Edit: "arrows laced with biotoxins or that dispensed deadly gas" -&gt; "arrows, 
             ss:Type="String"
           >“我们的同族汉娜斯驯化了我们丛林星球上的野生鸟类，一群外型很像翼龙的生物。她将这些空中的捕食者改造成了冷酷的仆从。她将被泰拉科技所遗漏的生物特征补完。在暴动期间，她向星系族长请愿让她的孩子能加入到亚马逊人族群中。最终她们成为了翼龙，一种具有特殊森林亲和力的间谍单位，具有超远的视力、配备有低功率生物电能激光枪，并可凭借本能专门袭击入侵者的眼睛。我们族群中最实用的工具之一，由我们独立驯化。”档案历史学家艾米拉-格兰，“RV-1109H：一段历史”</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         ><Data ss:Type="String">Edit: its -&gt; their
 Edit: A -&gt; a
 Edit: an enemy's -&gt; their
@@ -283,7 +283,7 @@ NOTE: calling it 'herstory' is poking fun at feminists. We do NOT want to make t
             ss:Type="String"
           >“我从幼年箭尾种群中选择了兰登。尽管它是生物工程的产物，但能清晰感受到它温热的体温，奔跑中律动的肌肉。战斗中，我们风驰电掣地攻破敌人两翼。我训练兰登时比训练其他战马都上心，甚至曾用自己的能量护盾为睡梦中的遮风避雨。我实在过于稚嫩，无法完全表达出自己与第一头坐骑之间的感情，那是一种集生理、情感和精神于一身的感情。”- 汉诺威尔·简，浪漫小说家，“RV-3424E:“森林战马”</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         ><Data ss:Type="String">Edit: removed "with Laser-Lance"
 Edit: Energy-Buckler -&gt; energy buckler
 NOTE: this is really gross and sexist, and alludes to bestiality. NEEDS REVISION.</Data></Cell></Row><Row
@@ -317,7 +317,7 @@ NOTE: this is really gross and sexist, and alludes to bestiality. NEEDS REVISION
             ss:Type="String"
           >“第一批树人是如何产生的目前仍是个不解之谜。尽管泰拉科技开发了许多不同类别的技术，但树人仍是生物机械转化技术领域最高效的种族。很明显，它们的科技突破了瓶颈。而这一切的起因都是主母想要通过种植树木来为万物提供庇护所。树人享受着无上的荣耀，尚武且擅武。它们能够用树根缠绕并致残敌人。并且还不会暴露自己在树林中的位置。”历史档案管理员埃米拉-盖伦，“RV-996H:一段历史”</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         ><Data
             ss:Type="String"
           >NOTE: calling it 'herstory' is poking fun at feminists. We do NOT want to make this joke! It will only cause problems.</Data></Cell></Row><Row
@@ -420,14 +420,14 @@ Edit: removed comma after "Matron"</Data></Cell></Row><Row
         ss:Height="105"
       ><Cell><Data ss:Type="String">ARBORIAN_QUEEN</Data></Cell><Cell><Data
             ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
             ss:Type="String"
           >“The Dvar came with their machines and their poison, stripping away life for dead treasure. Oh, my beloved trees slaughtered only to be consumed as fuel for their furnaces. Then I heard it. Their song. The Arborians summoned her. The Arborian Queen awakens, filling the air with healing. Whatever their noxious poison withers, she regrows. Kin-sisters, watch! Her roots shake the earth as they stumble to flee. Let our arrows strike them as she grows forests to conceal us. Her tendrils tear their machines asunder while their roads are broken to pieces.”— Huntress Sophinestra Sorrenta, “RV-25320M: Woodlands Awakened”</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >“矮人带着机械和剧毒而来，夺走自然中的生命，以换取没有生命的财宝。我挚爱的树木惨遭砍伐，被作为熔炉的燃料。随后我听到了它们的歌声。树人召唤了她，树人女王苏醒了，她将治愈之力洒向空中，所有因剧毒而凋零的生物都在她的影响下焕发生机，快看！她的根茎使大地震颤起来，那伙矮人只得落荒而逃。在她为我们制造可以遮蔽身形的森林期间，我们手中的弓箭也没有停歇。她的粗枝将所有机器和道路都拆个粉碎。”- 女猎人索菲尼斯特拉·索伦塔，“RV-25320M：林地觉醒”</Data></Cell><Cell
           ss:Index="9"
-          ss:StyleID="s60"
+          ss:StyleID="s66"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >HYDROMANCER</Data></Cell><Cell><Data
@@ -501,11 +501,11 @@ Edit: added comma after "tentacles"</Data></Cell></Row><Row
             ss:Type="String"
           >你们好，亚马逊的姐妹们，你们虽然地处偏远，但依靠着生物工程技术，你们生存着，进化着。星际联盟的崩溃使你们摆脱了古老的信条，缓慢地走在进化的道路上。你们按照自己的需要和理想重塑着自己的身体、社会以及环境，但宇宙万物都有自己的规则，愿你们能够在这个世界上建造一个更光明的未来。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s62"
+          ss:StyleID="s68"
         ><Data
             ss:Type="String"
           >The character referred to here is always female, since she's an Amazon. No alt text required.</Data></Cell><Cell
-          ss:StyleID="s62"
+          ss:StyleID="s68"
         ><Data
             ss:Type="String"
           >VO: Empress Carminia - Female</Data></Cell></Row><Row

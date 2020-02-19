@@ -10,13 +10,14 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:50:36Z</Created><LastSaved
     >2019-06-25T15:50:36Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14730</WindowHeight><WindowWidth>28740</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><MaxChange
-    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
+    >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -26,25 +27,25 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
     ss:Name="Script"
   ><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultColumnWidth="245.25"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s57" ss:Width="160.5" /><Column
-        ss:StyleID="s57"
+    ><Column ss:StyleID="s62" ss:Width="160.5" /><Column
+        ss:StyleID="s62"
         ss:Width="121.5"
-      /><Column ss:StyleID="s57" ss:Width="243.75" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:Width="243.75" /><Column
+        ss:StyleID="s62"
         ss:Width="147.75"
-      /><Column ss:StyleID="s57" ss:Width="243" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:Width="243" /><Column
+        ss:StyleID="s62"
         ss:Width="120"
-      /><Column ss:StyleID="s57" ss:Width="243.75" /><Row
+      /><Column ss:StyleID="s62" ss:Width="243.75" /><Row
         ss:AutoFitHeight="0"
         ss:Height="75"
       ><Cell><Data ss:Type="String">DWELLING_SPECIESEMPIRE</Data></Cell><Cell
@@ -82,10 +83,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Make friends with the Paragon faction to make purchases from this dwelling, or conquer it for immediate rewards and annexation. When annexed, this structure acts as a max level exploitation.</Data></Cell><Cell
+          >Make friends with the Paragon faction to make purchases from this dwelling, or conquer it for immediate rewards and annexation. When annexed, this structure acts as a max level exploitation.[br/][br/]Grants {Cosmite} Cosmite and {Influence} Influence to the colony it is linked to.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >购买此居住地物品与完人阵营成为朋友，或是将其征服直接获得奖励并将其吞并。吞并后，此建筑将作为最高等级的开发点。</Data></Cell></Row><Row
+          >购买此居住地物品与完人阵营成为朋友，或是将其征服直接获得奖励并将其吞并。吞并后，此建筑将作为最高等级的开发点。[br/][br/]给予相连的殖民地 {Cosmite} 宇宙合金和 {Influence} 影响力。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">PARAGON_BASE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -396,10 +397,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >You have the support of the Paragon to restore the empire. All who oppose you must be crushed.[br/][br/]While this is active, you no longer suffer [anger/] popular support penalties for being in a war without [casusBelli/] Cassus Belli. </Data></Cell><Cell
+          >You have the support of the Paragon to restore the empire. All who oppose you must be crushed.[br/][br/]While this is active, you no longer suffer [anger/] popular support penalties for being in a war without [casusBelli/] Cassus Belli. [br/]You also recieve {influenceBonus} income per turn.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >你已获得完人的支持来重建帝国，挡路者死。[br/][br/]此效果激活时，你不再会因处于战争中且没有[casusBelli/]宣战理由而受到[anger/]民众支持惩罚。 </Data></Cell><Cell
+          >你已获得完人的支持来重建帝国，挡路者死。[br/][br/]此效果激活时，你不再会因处于战争中但没有 [casusBelli/] 宣战理由而受到 [anger/] 民众支持惩罚。[br/]此外，每回合你还将获得 {influenceBonus} 收入。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"

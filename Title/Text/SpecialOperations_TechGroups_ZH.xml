@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
     >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -985,10 +985,10 @@
             ss:Type="String"
           >OPERATIONAL_SUPPORT_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Gain {OperationalSupportBonus} Strategic Operation points and {OperationalSupportBonusTactical} Tactical Operation points.</Data></Cell><Cell
+          >Gain {OperationalSupportBonus} Strategic Operation points and {OperationalSupportBonusTactical} Tactical Operation points.[br/][br/]This allows you to use more operations each turn, both in and out of combat.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >获得 {OperationalSupportBonus} 战略行动点数和 {OperationalSupportBonusTactical} 战术行动点数。</Data></Cell></Row><Row
+          >获得 {OperationalSupportBonus} 战略行动点数和 {OperationalSupportBonusTactical} 战术行动点数。[br/][br/]这可以使你每回合使用更多的行动，无论战斗中还是战斗外。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1043,10 +1043,10 @@
             ss:Type="String"
           >OPERATIONAL_PROWESS_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Gain {OperationalStrengthBonus} Operational Strength and {OperationalDefenceBonus} Operational Defence.</Data></Cell><Cell
+          >Gain {OperationalStrengthBonus} Operational Strength and {OperationalDefenceBonus} Operational Defence.[br/][br/]This makes your operations more likely to succeed on your enemies, and your enemies' operations less like to succeed against you.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >获得 {OperationalStrengthBonus} 行动力量和 {OperationalDefenceBonus} 行动防御。</Data></Cell></Row><Row
+          >获得 {OperationalStrengthBonus} 行动力量和 {OperationalDefenceBonus} 行动防御。[br/][br/]这可以使你向敌人发动的行动成功几率更高，使敌人对你发动的行动成功几率更低。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">GUERRILLA_STRIKE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1061,10 +1061,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Spawn an army of the selected friendly faction to attack the target player. Not usable if no friendly factions are known.</Data></Cell><Cell
+          >Spawn an army of the selected non-hostile faction to attack the target player. Not usable if no non-hostile factions are known.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >生成一支所选友方阵营军队攻击目标玩家。如果没有已知的友方阵营，则不可用。</Data></Cell></Row><Row
+          >生成一支所选非敌对阵营军队攻击目标玩家。如果没有已知的非敌对阵营，则不可用。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">GUERRILLA_STRIKE</Data></Cell><Cell><Data
@@ -1768,10 +1768,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Unlocks capability rankings, shown in the Empire Tasks interface. Capability is visible for your Empire and its allies.</Data></Cell><Cell
+          >Unlocks capability rankings, shown in the Empire Tasks interface, allowing you to see how your Empire compares to that of other players.[br/][br/]Capability is visible for your Empire and its allies. To see the ranks of other players you must use [abilityblue]Infiltrate Operation Center[/abilityblue].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >解锁在帝国任务界面显示的能力排名，你的帝国和同盟将可以看到能力。</Data></Cell></Row><Row
+          >解锁帝国任务界面显示的能力排名，使你可以查看并比较你的帝国和其他玩家的帝国。[br/][br/]你可以看见你的帝国和盟友的能力排名。如果想查看其他玩家的排名，必须使用[abilityblue]渗透行动中心[/abilityblue]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ALERT_LEVEL</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1810,6 +1810,94 @@
           >警报等级现在为 {INT_newLevel}！</Data></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
           >The system prints this if the alert level is raised OR if the alert level is at max level and cannot be raised</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRANSLOCATE_COSMITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cosmite Translocators</Data></Cell><Cell><Data
+            ss:Type="String"
+          >宇宙合金转运器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">TRANSLOCATE_COSMITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Collect {INT_percentage} of the targeted player's total cosmite income over a fixed number of turns. The cosmite will transfer to us once the operation has run for {duration}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在一定回合内收集目标玩家总宇宙合金收益 {INT_percentage} 的宇宙合金。这些宇宙合金将在行动发动 {duration} 后传输给我们。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRANSLOCATE_COSMITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS_UNDETECTED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our agents successfully infiltrated the enemy's facilities, and have installed the cosmite translocators. In a few turns, the sequence will complete and the stolen cosmite will be transmitted to us.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我方特工已成功渗透敌方设施并安装了宇宙合金转运器。几个回合后，序列将会完成，窃取的宇宙合金将传输给我们。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRANSLOCATE_COSMITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_FAILURE_UNDETECTED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our agents were caught while they were infiltrating the enemy's facilities and were unable to install the cosmite translocators. Fortunately, they were able to talk their way out of trouble, so the enemy is unaware of our infiltration attempt.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我方特工在渗透敌方设施时被发现，未能安装宇宙合金转运器。幸运的是，他们凭借自己的三寸不烂之舌摆脱了困境，敌人没有察觉到我们的渗透企图。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRANSLOCATE_COSMITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_FAILURE_DETECTED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our agents were caught while they were infiltrating the enemy's facilities and were unable to install the cosmite translocators. Unfortunately, our agents broke under enemy interrogation and revealed our involvement in the operation.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我方特工在渗透敌方设施时被抓获，未能安装宇宙合金转运器。很不幸，我方特工未能经受住敌人的审讯，暴露了我们参与其中的事情。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRANSLOCATE_COSMITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_FAILURE_DETECTED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Enemy agents have been caught trying to infiltrate our facilities to install devices designed to translocate precious cosmite from our reserves. After hours of interrogation, we managed to identify the state behind this dastardly attempt.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >敌方特工在企图渗透我方设施并安装宇宙合金转运器时被抓获。经过数小时的审讯，我们终于确定了这一卑鄙行径的幕后主使。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRANSLOCATE_COSMITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS_ANONYMOUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our translocators functioned perfectly, and have teleported the Cosmite to us. The translocators self-destructed, leaving no evidence that could link us to this theft.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的转运器完美运行，并且已将敌方宇宙合金成功运回。转运器已经自毁，没有留下任何引人怀疑的证据。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRANSLOCATE_COSMITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASTER_SUCCESS_REVEALED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our translocators functioned perfectly, and have teleported the Cosmite to us. However, one translocator failed to self-destruct, and the enemy is now aware of our involvement in this theft.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的转运器完美运行，并且已将敌方宇宙合金成功运回。但其中一个转运器未能自毁，敌人已知晓我们参与其中。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRANSLOCATE_COSMITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_SUCCESS_ANONYMOUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We have lost a large amount of cosmite through the use of some sort of translocation device. Unfortunately, the devices self-destructed before we could analyze them, so we have no information about who planted them.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们因为某种转运器而损失了大量宇宙合金。很不幸，我们还没来得及进行分析，该装置就自毁了，没有任何信息能帮助我们确定是谁安装了它们。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRANSLOCATE_COSMITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TARGET_SUCCESS_REVEALED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We have lost a large amount of cosmite through the use of some sort of translocation device. We have managed to retrieve one of the devices for analysis, and have traced the cosmite transfer target to an enemy state.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们因为某种转运器而损失了大量宇宙合金。我们设法找回了其中一个装置进行分析，并查明了宇宙合金运送目的地是一个敌对国家。</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell

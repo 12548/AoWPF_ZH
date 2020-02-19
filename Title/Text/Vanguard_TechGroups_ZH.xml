@@ -14,9 +14,10 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
-    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -138,11 +139,12 @@
             ss:Type="String"
           >NAME</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >Launcher Turret</Data></Cell><Cell ss:StyleID="s63"><Data
+          >Heavy Launcher Turret</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >发射器炮塔</Data></Cell><Cell ss:Index="7" ss:StyleID="s63" /><Cell
+          >重型发射器炮塔</Data></Cell><Cell
+          ss:Index="7"
           ss:StyleID="s63"
-        /><Cell ss:StyleID="s63" /></Row><Row
+        /><Cell ss:StyleID="s63" /><Cell ss:StyleID="s63" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
       ><Cell ss:StyleID="s63"><Data
@@ -151,11 +153,11 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >Deploys a Launcher Turret into combat. [br/][br/]The turret deals [damagephysical/] area of effect damage and lasts until end of combat.</Data></Cell><Cell
+          >Deploys a Heavy Launcher Turret into combat. [br/][br/]The turret deals [damagephysical/] area of effect damage and lasts until end of combat.</Data></Cell><Cell
           ss:StyleID="s63"
         ><Data
             ss:Type="String"
-          >在战斗中部署发射器炮塔。[br/][br/]炮塔造成 [damagephysical/] 范围伤害，持续到战斗结束。</Data></Cell><Cell
+          >部署重型发射器炮塔加入战斗。[br/][br/]炮塔造成 [damagephysical/] 范围伤害，持续到战斗结束。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /><Cell ss:StyleID="s63" /><Cell ss:StyleID="s63" /></Row><Row
@@ -207,11 +209,11 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >All friendly non-mindless units gain {moraleBonus}[happiness/] and [abilityblue]Stagger Resistance[/abilityblue] for {duration}[turn/]</Data></Cell><Cell
+          >All friendly non-mindless units gain {moraleBonus}[happiness/], have a {DamageIncrease}% damage increase and gain a level of [abilityblue]Stagger Resistance[/abilityblue] for {duration}[turn/]</Data></Cell><Cell
           ss:StyleID="s63"
         ><Data
             ss:Type="String"
-          >所有友方非无意识单位获得 {moraleBonus}[happiness/]和[abilityblue]动摇抵抗[/abilityblue]，持续 {duration}[turn/]</Data></Cell><Cell
+          >所有友方非无意识单位获得 {moraleBonus}[happiness/]，伤害提高 {DamageIncrease}% 并获得 1 级[abilityblue]动摇抵抗[/abilityblue]，持续 {duration}[turn/]</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /><Cell ss:StyleID="s63" /><Cell ss:StyleID="s63" /></Row><Row
@@ -235,11 +237,11 @@
             ss:Type="String"
           >INSPIRED_EFFECT_DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >This unit has +{moraleBonus} and {staggerBonus} is less likely to be [abilityred]Staggered[/abilityred].</Data></Cell><Cell
+          >Unit has +{moraleBonus}, +{DamageIncrease}% damage and an increased level of [abilityblue]Stagger Resistance[/abilityblue].</Data></Cell><Cell
           ss:StyleID="s63"
         ><Data
             ss:Type="String"
-          >该单位获得 +{moraleBonus} 和 {staggerBonus}，同时被[abilityred]动摇[/abilityred]的几率更低。</Data></Cell><Cell
+          >单位获得 +{moraleBonus} 和 +{DamageIncrease}%伤害，且获得了更高等级的[abilityblue]动摇抵抗[/abilityblue]。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /><Cell ss:StyleID="s63" /><Cell ss:StyleID="s63" /></Row><Row

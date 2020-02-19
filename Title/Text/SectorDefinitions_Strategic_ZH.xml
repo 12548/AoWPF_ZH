@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
     >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -277,10 +277,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >A mountain range is present within the sector. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_4_NAME}[/bullet][br/][indent]All Production [production/] and Energy [energy/] sectors on Mountains gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell
+          >A mountain range is present within the sector. [br/][br/][bulletlist][bullet]All Production [production/] and Energy [energy/] sectors on Mountains gain +1 level.[/bullet][/bulletlist]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该区域内有山脉。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_4_NAME}[/bullet][br/][indent]位于山地的所有产力[production/]和能量[energy/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell
+          >该区域内有山脉。[br/][br/][bulletlist][bullet]位于山地的所有产力 [production/] 和能量 [energy/] 区域等级 +1。[/bullet][/bulletlist]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -301,10 +301,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >There is a forested area present in this sector. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_4_NAME}[/bullet][br/][indent]All Production [production/] and Food [supply/] sectors on Forest gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell
+          >There is a forested area present in this sector. [br/][br/][bulletlist][bullet]All Production [production/] and Food [supply/] sectors on Forest gain +1 level.[/bullet][/bulletlist]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该区域内有森林。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_4_NAME}[/bullet][br/][indent]位于森林的所有产力[production/]和食物[supply/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell
+          >该区域内有森林。[br/][br/][bulletlist][bullet]位于森林的所有产力 [production/] 和食物 [supply/] 区域等级 +1。[/bullet][/bulletlist]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -325,10 +325,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Old remains of the Star Union are still present in this sector. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_5_NAME}[/bullet][br/][indent]All Research [research/] and Energy [energy/] sectors on Ruins gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell
+          >Old remains of the Star Union are still present in this sector. [br/][br/][bulletlist][bullet]All Research [research/] and Energy [energy/] sectors on Ruins gain +1 level.[/bullet][/bulletlist]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该区域中仍有星际联盟的古老废墟。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_5_NAME}[/bullet][br/][indent]位于废墟的所有研究[research/]和能量[energy/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell
+          >该区域中仍有星际联盟的古老废墟。[br/][br/][bulletlist][bullet]位于废墟的所有研究 [research/] 和能量 [energy/] 区域等级 +1。[/bullet][/bulletlist]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -349,10 +349,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >These plains are highly fertile and have a rich population of microscopic life. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_5_NAME}[/bullet][br/][indent]All Research [research/] and Food [supply/] sectors on Fertile Plains gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell
+          >These plains are highly fertile and have a rich population of microscopic life. [br/][br/][bulletlist][bullet]All Research [research/] and Food [supply/] sectors on Fertile Plains gain +1 level.[/bullet][/bulletlist]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >这些平原非常肥沃，拥有丰富多样的微生物。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_5_NAME}[/bullet][br/][indent]位于肥沃平原上的研究[research/]和食物[supply/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell
+          >这些平原非常肥沃，拥有丰富多样的微生物。[br/][br/][bulletlist][bullet]位于肥沃平原的所有研究 [research/] 和食物 [supply/] 区域等级 +1。[/bullet][/bulletlist]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -383,10 +383,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Coastal sectors are sectors of Ocean that are bordered by a landmass. Due to their proximity to land, Coastal sectors are more easily exploited. Coast sectors yield Energy [energy/], Food [supply/] and Knowledge [research/]. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_NAME}[/bullet][br/][indent]All Coast sectors gain +1 level.[/indent][/bulletlist][br/][br/]Further Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_5_NAME}[/bullet][br/][indent]All Coast sectors gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell
+          >Coastal sectors are sectors of Ocean that are bordered by a landmass. Due to their proximity to land, Coastal sectors are more easily exploited. Coast sectors yield Energy [energy/], Food [supply/] and Knowledge [research/]. [br/][br/]Colony Upgrades:[br/][bulletlist][bullet][titleBrown]{XML_COLONYUPGRADES_STRATEGIC@LEVEL_UP@NAME_WATER}[/titleBrown][/bullet][br/][grey]Required Research: {XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_NAME}[/grey][/bulletlist][br/][bulletlist][bullet][titleBrown]{XML_COLONYUPGRADES_STRATEGIC@LEVEL_UP@NAME_WATER_II}[/titleBrown][/bullet][br/][grey]Required Research: {XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_5_NAME}[/grey][/bulletlist]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >海滨区域是指与大陆相邻的海洋区域。由于靠近陆地，海滨区域更容易得到开发。海滨区域可以产出能量[energy/]、食物[supply/]和知识[research/]。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_NAME}[/bullet][br/][indent]所有海滨区域等级 +1。[/indent][/bulletlist][br/][br/]深入研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_5_NAME}[/bullet][br/][indent]所有海滨区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell
+          >海滨区域是指与大陆相邻的海洋区域。由于靠近陆地，海滨区域更容易进行开发。海滨区域可以产出能量 [energy/]、食物 [supply/] 和知识 [research/]。[br/][br/]殖民地升级：[br/][bulletlist][bullet][titleBrown]{XML_COLONYUPGRADES_STRATEGIC@LEVEL_UP@NAME_WATER}[/titleBrown][/bullet][br/][grey]需要研究：{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_NAME}[/grey][/bulletlist][br/][bulletlist][bullet][titleBrown]{XML_COLONYUPGRADES_STRATEGIC@LEVEL_UP@NAME_WATER_II}[/titleBrown][/bullet][br/][grey]需要研究：{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_5_NAME}[/grey][/bulletlist]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -425,10 +425,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The arcadian climate is an unspoiled, harmonious wilderness predominantly consisting of grasslands. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_3_NAME}[/bullet][br/][indent]All Food [supply/] and Energy [energy/] sectors on Arcadian gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell
+          >The arcadian climate is an unspoiled, harmonious wilderness predominantly consisting of grasslands. [br/][br/][bulletlist][bullet]All Food [supply/] and Energy [energy/] sectors on Arcadian gain +1 level.[/bullet][/bulletlist]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >田园气候带是自然而和谐的荒野区域，主要由草原构成。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_3_NAME}[/bullet][br/][indent]位于田园区域的所有食物[supply/]和能量[energy/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell
+          >田园气候带是自然而和谐的荒野区域，主要由草原构成。[br/][br/][bulletlist][bullet]位于田园区域的所有食物 [supply/] 和能量 [energy/] 区域等级 +1。[/bullet][/bulletlist]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -462,10 +462,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The arctic climate is a snow covered landscape with harsh conditions.[br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_2_NAME}[/bullet][br/][indent]All Research [research/] and Production [production/] sectors on Arctic gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell
+          >The arctic climate is a snow covered landscape with harsh conditions.[br/][br/][bulletlist][bullet]All Research [research/] and Production [production/] sectors on Arctic gain +1 level.[/bullet][/bulletlist]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >极寒气候带地表由白雪覆盖，环境恶劣。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_2_NAME}[/bullet][br/][indent]位于极寒区域的所有研究[research/]和产力[production/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell
+          >极寒气候带地表由白雪覆盖，环境恶劣。[br/][br/][bulletlist][bullet]位于极寒区域的所有研究 [research/] 和产力 [production/] 区域等级 +1。[/bullet][/bulletlist]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -496,10 +496,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The arid climate is defined by a dry, unforgiving heat and a general lack of water. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_2_NAME}[/bullet][br/][indent]All Energy [energy/] and Production [production/] sectors on Arid gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell
+          >The arid climate is defined by a dry, unforgiving heat and a general lack of water. [br/][br/][bulletlist][bullet]All Energy [energy/] and Production [production/] sectors on Arid gain +1 level.[/bullet][/bulletlist]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >干燥区域气候干旱、温度极高且普遍缺少水分。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_2_NAME}[/bullet][br/][indent]位于干燥区域的所有能量[energy/]和产力[production/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell
+          >干燥区域气候干旱、温度极高且普遍缺少水分。[br/][br/][bulletlist][bullet]位于干燥区域的所有能量 [energy/] 和产力 [production/] 区域等级 +1。[/bullet][/bulletlist]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -530,10 +530,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The fungal climate is host to wild growth resulting in an extremely biodiverse area. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_3_NAME}[/bullet][br/][indent]All Research [research/] and Food [supply/] sectors on Fungal gain +1 level.[/indent][/bulletlist]</Data></Cell><Cell
+          >The fungal climate is host to wild growth resulting in an extremely biodiverse area. [br/][br/][bulletlist][bullet]All Research [research/] and Food [supply/] sectors on Fungal gain +1 level.[/bullet][/bulletlist]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >真菌区域是许多野生植物生长的地带，因此形成了生物极其多样化的区域。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_4_3_NAME}[/bullet][br/][indent]位于真菌区域的所有研究[research/]和食物[supply/]区域等级 +1。[/indent][/bulletlist]</Data></Cell><Cell
+          >真菌区域是许多野生植物生长的地带，形成了生物极其多样化的区域。[br/][br/][bulletlist][bullet]位于真菌区域的所有研究 [research/] 和食物 [supply/] 区域等级 +1。[/bullet][/bulletlist]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -567,10 +567,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Volcanic sectors are hostile wastelands with harsh living conditions.[br/][br/][negative]Colonies in this sector get [abilityred]-8[/abilityred][anger/].[/negative][br/][br/]Possible research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_6_NAME}[/bullet][br/][indent]All sectors on Volcanic terrain gain +1 level.[br/] Colonies ignore all economic penalties from Volcanic terrain.[/indent][/bulletlist]</Data></Cell><Cell
+          >Volcanic sectors are hostile wastelands with harsh living conditions.[br/][br/][negative]Colonies in this sector get [abilityred]-8[/abilityred][anger/].[/negative][br/][br/]Possible research:[br/][bulletlist][bullet][titlebrown]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_6_NAME}[/titlebrown][/bullet][br/][indent]Colonies ignore all economic penalties from Volcanic terrain.[/indent][/bulletlist]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >火山区域是一种不利的废土区域，生存条件极为恶劣。[br/][br/][negative]该区域中的殖民地获得 [abilityred]-8[/abilityred][anger/]。.[/negative][br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_6_NAME}[/bullet][br/][indent]所有位于火山地形上的区域等级 +1。[br/]殖民地无视火山地形带来的所有经济惩罚。[/indent][/bulletlist]</Data></Cell><Cell
+          >火山区域是环境不利的废土区域，生存条件极为恶劣。[br/][br/][negative]该区域中的殖民地获得 [abilityred]-8[/abilityred][anger/]。[/negative][br/][br/]潜在研究：[br/][bulletlist][bullet][titlebrown]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_6_NAME}[/titlebrown][/bullet][br/][indent]殖民地无视火山地形带来的所有经济惩罚。[/indent][/bulletlist]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -716,10 +716,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >A chasm filled with lava runs through this sector. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_6_NAME}[/bullet][br/][indent]Your colony gains {energy} Energy for each sector with a Lava chasm within its domain.[/indent][/bulletlist]</Data></Cell><Cell
+          >A chasm filled with lava runs through this sector. [br/][br/]Possible Research:[br/][bulletlist][bullet][titlebrown]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_6_NAME}[/titlebrown][/bullet][br/][indent]Your colony gains {energy} Energy for each sector with a Lava chasm within its domain.[/indent][/bulletlist]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >一个满是熔岩流淌的裂口从该区域穿过。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_6_NAME}[/bullet][br/][indent]殖民地领域内每存在一个带有熔岩裂口的区域，就获得 {energy} 能量。[/indent][/bulletlist]</Data></Cell><Cell
+          >一个满是熔岩流淌的裂口从该区域穿过。[br/][br/]潜在研究：[br/][bulletlist][bullet][titlebrown]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_6_NAME}[/titlebrown][/bullet][br/][indent]殖民地领域内每存在一个带有熔岩裂口的区域，就获得 {energy} 能量。[/indent][/bulletlist]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -740,10 +740,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >A river runs through this sector. [br/][br/]Possible Research:[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_2_5_NAME}[/bullet][br/][indent]Your colony gains {food} Food for each sector with a River within its domain.[/indent][/bulletlist]</Data></Cell><Cell
+          >A river runs through this sector. [br/][br/]Possible Research:[br/][bulletlist][bullet][titlebrown]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_2_5_NAME}[/titlebrown][/bullet][br/][indent]Your colony gains {food} Food for each sector with a River within its domain.[/indent][/bulletlist]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >一条河流从该区域流过。[br/][br/]潜在研究：[br/][bulletlist][bullet]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_2_5_NAME}[/bullet][br/][indent]殖民地领域内每存在一个带有河流的区域，就获得 {food} 食物。[/indent][/bulletlist]</Data></Cell><Cell
+          >一条河流从该区域流过。[br/][br/]潜在研究：[br/][bulletlist][bullet][titlebrown]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_2_5_NAME}[/titlebrown][/bullet][br/][indent]殖民地领域内每存在一个带有河流的区域，就获得 {food} 食物。[/indent][/bulletlist]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"

@@ -10,12 +10,12 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:39:11Z</Created><LastSaved
     >2019-06-25T15:39:11Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14730</WindowHeight><WindowWidth>28740</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
     >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
@@ -26,25 +26,25 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
-      ss:ID="s58"
+      ss:ID="s63"
     ><Alignment
         ss:Vertical="Bottom"
         ss:WrapText="1"
       /></Style></Styles><Worksheet ss:Name="Script"><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultColumnWidth="312.75"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s57" ss:Width="117" /><Column
-        ss:StyleID="s57"
+    ><Column ss:StyleID="s62" ss:Width="117" /><Column
+        ss:StyleID="s62"
         ss:Width="99"
-      /><Column ss:Index="4" ss:StyleID="s57" ss:Width="147.75" /><Column
-        ss:StyleID="s57"
+      /><Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75" /><Column
+        ss:StyleID="s62"
         ss:Width="297"
-      /><Column ss:StyleID="s57" ss:Width="120" /><Row
+      /><Column ss:StyleID="s62" ss:Width="120" /><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
       ><Cell><Data ss:Type="String">AMAZON_HERO_SKILLS</Data></Cell><Cell
@@ -87,7 +87,7 @@ Amazon is an-game race.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >Renewal</Data></Cell><Cell><Data
             ss:Type="String"
-          >复苏</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data
+          >复苏</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"><Data
             ss:Type="String"
           >Skill name.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
@@ -110,7 +110,7 @@ Biological and Cyborg are in-game unit types.</Data></Cell></Row><Row
             ss:Type="String"
           >War Cry</Data></Cell><Cell><Data
             ss:Type="String"
-          >战吼</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data
+          >战吼</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"><Data
             ss:Type="String"
           >Skill name.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
@@ -142,7 +142,7 @@ Biological and Cyborg are in-game unit types.</Data></Cell></Row><Row
             ss:Type="String"
           >Biology Expert</Data></Cell><Cell><Data
             ss:Type="String"
-          >生物专家</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data
+          >生物专家</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"><Data
             ss:Type="String"
           >Skill name.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
@@ -151,10 +151,10 @@ Biological and Cyborg are in-game unit types.</Data></Cell></Row><Row
             ss:Type="String"
           >HERO_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The hero trains its army on the properties of Biochemical weapons and how to improve their bodies, giving Biological units in the army +{BiologyExpertResistanceBio}[DefenseBio/] resistance.[br/]Only functions when the hero is the army's commander.</Data></Cell><Cell
+          >The hero trains its army on the properties of Biochemical weapons and how to improve their bodies, giving Biological and Cyborg units in the army +{BiologyExpertResistanceBio}[DefenseBio/] resistance and +{HPExtra} max [hp/].[br/]Only functions when the hero is the army's commander.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该英雄专注于提升军队生化武器和身体机能，军队中的生物单位 +{BiologyExpertResistanceBio}[DefenseBio/]抵抗。[br/]只有当该英雄是军队指挥官时才能生效。</Data></Cell><Cell
+          >这名英雄专注于提升军队的生化武器和身体机能，军队中的生物和半机器人单位 +{BiologyExpertResistanceBio}[DefenseBio/] 抵抗和 +{HPExtra} 最大 [hp/]。[br/]只有当该英雄是军队指挥官时才能生效。</Data></Cell><Cell
           ss:Index="7"
         ><Data ss:Type="String">Skill description.
 Commander in this context means the leader of an army, NOT the player character
@@ -166,7 +166,7 @@ Biochemical is an in-game weapon type</Data></Cell></Row><Row
             ss:Type="String"
           >Visual Acuity</Data></Cell><Cell><Data
             ss:Type="String"
-          >视力敏锐</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data
+          >视力敏锐</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"><Data
             ss:Type="String"
           >Skill name.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
@@ -198,7 +198,7 @@ Biochemical is an in-game weapon type</Data></Cell></Row><Row
             ss:Type="String"
           >Call of the Wild</Data></Cell><Cell><Data
             ss:Type="String"
-          >野性呼唤</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data
+          >野性呼唤</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"><Data
             ss:Type="String"
           >Skill name.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
@@ -222,7 +222,7 @@ Biochemical is an in-game weapon type</Data></Cell></Row><Row
             ss:Type="String"
           >Animal Discipline</Data></Cell><Cell><Data
             ss:Type="String"
-          >动物管教</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data
+          >动物管教</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"><Data
             ss:Type="String"
           >Skill name.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
@@ -257,7 +257,7 @@ Commander in this context means the leader of an army, NOT the player character<
             ss:Type="String"
           >Ranger Training</Data></Cell><Cell><Data
             ss:Type="String"
-          >游骑兵训练</Data></Cell><Cell ss:Index="7" ss:StyleID="s58"><Data
+          >游骑兵训练</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"><Data
             ss:Type="String"
           >Skill name.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"

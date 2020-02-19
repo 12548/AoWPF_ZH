@@ -10,13 +10,13 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:57:47Z</Created><LastSaved
     >2019-06-25T15:57:47Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -26,17 +26,17 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
-      ss:ID="s58"
+      ss:ID="s63"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Interior /></Style><Style
-      ss:ID="s59"
+      ss:ID="s64"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Font
         ss:FontName="Calibri"
         x:Family="Swiss"
         ss:Size="11"
         ss:Color="#000000"
-      /></Style><Style ss:ID="s60"><Alignment
+      /></Style><Style ss:ID="s65"><Alignment
         ss:Vertical="Top"
         ss:WrapText="1"
       /><Borders /><Font
@@ -49,17 +49,17 @@
   ><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultColumnWidth="242.25"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s57" ss:Width="189" /><Column
-        ss:StyleID="s57"
+    ><Column ss:StyleID="s62" ss:Width="189" /><Column
+        ss:StyleID="s62"
         ss:Width="117.75"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="281.25" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="281.25" /><Column
+        ss:StyleID="s62"
         ss:Width="147.75"
-      /><Column ss:StyleID="s57" ss:Width="243" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:Width="243" /><Column
+        ss:StyleID="s62"
         ss:Width="120"
       /><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
             ss:Type="String"
@@ -398,22 +398,22 @@
             ss:Type="String"
           >投掷一大块晶化电弧，伤害 {Hexrad} 个单元格范围内的单位。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s58"><Data
+      ><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >SLING_MAGMA</Data></Cell><Cell ss:StyleID="s58"><Data
+          >SLING_MAGMA</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >NAME</Data></Cell><Cell ss:StyleID="s58"><Data
+          >NAME</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
           >Sling Magma</Data></Cell><Cell><Data
             ss:Type="String"
           >投掷熔岩</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
-      ><Cell ss:StyleID="s58"><Data
+      ><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >SLING_MAGMA</Data></Cell><Cell ss:StyleID="s58"><Data
+          >SLING_MAGMA</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
           >Throw a chunk of magma, damaging units in a {Hexrad} hex radius and creating a Thermal Hazard on the ground.</Data></Cell><Cell
         ><Data
@@ -621,10 +621,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit is infected with an experimental virus that brings the dead back to life. When it is killed, it comes back to life {GhoulingTurns} later with {Ghoulinghealth}[hp/], -{GhoulingArmorReduction}, and its attacks deal +{GhoulingDamage} damage.[br/]This can only occur once per battle.</Data></Cell><Cell
+          >This unit is infected with an experimental virus that brings the dead back to life. When it is killed, it comes back to life {GhoulingTurns} later with {Ghoulinghealth}[hp/], -{GhoulingArmorReduction}, and its attacks deal +{GhoulingDamage} damage.[br/][br/][firecol]A unit can only revive itself once per battle.[/firecol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位被一种能够起死回生的实验病毒所感染。该单位被击杀时，将在 {GhoulingTurns} 后以 {Ghoulinghealth}[hp/]和 -{GhoulingArmorReduction} 复活，但攻击能够造成 +{GhoulingDamage} 伤害。[br/]每次战斗只触发一次。</Data></Cell></Row><Row
+          >该单位被一种能够起死回生的实验病毒所感染。该单位被击杀时，将在 {GhoulingTurns} 后以 {Ghoulinghealth}[hp/] 和 -{GhoulingArmorReduction} 的状态复活，但攻击能够造成 +{GhoulingDamage} 伤害。[br/][br/][firecol]每个单位在每场战斗中只能复活自己一次。[/firecol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">INFECTION_X</Data></Cell><Cell><Data
@@ -1044,7 +1044,7 @@
           ss:Index="7"
         ><Data ss:Type="String">Removed the word Morale</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s59"><Data
+      ><Cell ss:StyleID="s64"><Data
             ss:Type="String"
           >INVIGORATING_STRIDULATION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1057,18 +1057,18 @@
           >Stridulation - the sound crickets make.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
-      ><Cell ss:StyleID="s59"><Data
+      ><Cell ss:StyleID="s64"><Data
             ss:Type="String"
           >INVIGORATING_STRIDULATION</Data></Cell><Cell><Data
             ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
           >Produce invigorating sounds by rubbing limbs together, granting this unit and friendly units within {hexrad} hexes +{InvStridMorale} morale and Fast Movement for {StridTurn}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >通过摩擦肢体制造亢奋的鸣叫，赋予该单位和 {hexrad} 个单元格内的友方单位 +{InvStridMorale} 士气和迅捷移动，持续 {StridTurn}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s59"><Data
+      ><Cell ss:StyleID="s64"><Data
             ss:Type="String"
           >INVIGORATING_STRIDULATION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1079,7 +1079,7 @@
             ss:Type="String"
           >该单位拥有 {InvStridMorale} 士气和迅捷移动。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s59"><Data
+      ><Cell ss:StyleID="s64"><Data
             ss:Type="String"
           >SONIC_SLASH</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1090,7 +1090,7 @@
           >声波砍击</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
-      ><Cell ss:StyleID="s59"><Data
+      ><Cell ss:StyleID="s64"><Data
             ss:Type="String"
           >SONIC_SLASH</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1101,13 +1101,13 @@
             ss:Type="String"
           >以极快的速度劈砍空气制造声波爆炸，向敌人施放冲击波并造成伤害。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s59"><Data ss:Type="String">STRIKE</Data></Cell><Cell
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">STRIKE</Data></Cell><Cell
         ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
             ss:Type="String"
           >Strike</Data></Cell><Cell><Data
             ss:Type="String"
           >打击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         ><Data ss:Type="String">STRIKE</Data></Cell><Cell><Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
@@ -1115,19 +1115,19 @@
           >Strike an enemy.</Data></Cell><Cell><Data
             ss:Type="String"
           >打击敌人。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
-          ss:StyleID="s58"
+          ss:StyleID="s63"
         ><Data ss:Type="String">CORROSIVE_SPIT</Data></Cell><Cell
-          ss:StyleID="s58"
-        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s58"><Data
+          ss:StyleID="s63"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
           >Corrosive Spit</Data></Cell><Cell><Data
             ss:Type="String"
           >腐蚀唾液</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
-          ss:StyleID="s58"
+          ss:StyleID="s63"
         ><Data ss:Type="String">CORROSIVE_SPIT</Data></Cell><Cell
-          ss:StyleID="s58"
+          ss:StyleID="s63"
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
-          ss:StyleID="s58"
+          ss:StyleID="s63"
         ><Data
             ss:Type="String"
           >Spit a blob of Biochemical goo at a target unit.</Data></Cell><Cell
@@ -1135,18 +1135,18 @@
             ss:Type="String"
           >向目标单位喷吐一团生化黏液。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s58"><Data
+      ><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >BEETLE_SPIT</Data></Cell><Cell ss:StyleID="s58"><Data
+          >BEETLE_SPIT</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
           >NAME</Data></Cell><Cell><Data
             ss:Type="String"
           >Beetle Spit</Data></Cell><Cell><Data
             ss:Type="String"
           >甲虫兽喷吐</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
-          ss:StyleID="s58"
+          ss:StyleID="s63"
         ><Data ss:Type="String">BEETLE_SPIT</Data></Cell><Cell
-          ss:StyleID="s58"
+          ss:StyleID="s63"
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
           >Spit a Biochemical agent at a target unit.</Data></Cell><Cell><Data

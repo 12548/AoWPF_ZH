@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
     >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -3380,8 +3380,8 @@
             ss:Type="String"
           >TITLE</Data></Cell><Cell><Data
             ss:Type="String"
-          >Are you sure you want to request this ally to attack?</Data></Cell><Cell
-        ><Data ss:Type="String">是否确定号召该盟友发动攻击？</Data></Cell><Cell
+          >Are you sure you want to start coordinating this ally?</Data></Cell><Cell
+        ><Data ss:Type="String">确定要协调该盟友？</Data></Cell><Cell
           ss:Index="7"
         ><Data ss:Type="String">Pop-up title</Data></Cell><Cell><Data
             ss:Type="String"
@@ -3392,10 +3392,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Requesting {STR_allyName} to attack {STR_opponentName} costs {INT_influenceCost}[influence/] and motivates them to focus on their attention on {STR_opponentName}.</Data></Cell><Cell
+          >Requesting to coordinate {STR_allyName} costs {INT_influenceCost}[influence/] and motivates them to focus on targets of your choosing. {STR_allyName} will try to follow your war coordination requests for up to {INT_turns}[turn/], though they may abort or decline before that time runs out. After that time they will abort any current mission and the coordination automatically ends.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >号召{STR_allyName}攻击{STR_opponentName}会消耗 {INT_influenceCost}[influence/]并使盟友的精力集中在{STR_opponentName}上。</Data></Cell><Cell
+          >请求协调 {STR_allyName} 将消耗 {INT_influenceCost}[influence/]，促使盟友专注于你选定的目标。{STR_allyName} 将服从你的战争协调请求，持续 {INT_turns}[turn/]。不过，盟友可能会提前中止或拒绝服从。持续时间过后，盟友将中止当前进行的任何任务，协调也将自动结束。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -3407,19 +3407,20 @@
       ><Cell><Data ss:Type="String">CONFIRM_ABORTCALLTOARMS</Data></Cell><Cell
         ><Data ss:Type="String">TITLE</Data></Cell><Cell><Data
             ss:Type="String"
-          >Are you sure you want to abort your attack request?</Data></Cell><Cell
-        ><Data ss:Type="String">是否确定要中止攻击请求？</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Pop-up title</Data></Cell></Row><Row
+          >Are you sure you want to abort your request?</Data></Cell><Cell><Data
+            ss:Type="String"
+          >是否确定要中止请求？</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Pop-up title</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="75"
       ><Cell><Data ss:Type="String">CONFIRM_ABORTCALLTOARMS</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Are you sure you want to abort this attack request? This will immediately abort the action without refunding any spent [influence/] points!</Data></Cell><Cell
+          >Are you sure you want to abort this war coordination request? This will immediately abort the action without refunding any spent [influence/] points!</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >是否确定要中止该次攻击请求？这将立即中止行动且不会返还已消耗的[influence/]点数！</Data></Cell><Cell
+          >是否确定要中止此次战争协调请求？这将立即中止行动且不会返还任何已消耗的 [influence/] 点数！</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -3871,9 +3872,9 @@
             ss:Type="String"
           >TITLE</Data></Cell><Cell><Data
             ss:Type="String"
-          >Request attack</Data></Cell><Cell><Data
+          >War Coordination</Data></Cell><Cell><Data
             ss:Type="String"
-          >请求攻击</Data></Cell><Cell ss:Index="7"><Data
+          >战争协调</Data></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
           >Button caption for requesting an ally to attack another player</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
@@ -3882,9 +3883,9 @@
             ss:Type="String"
           >TARGET</Data></Cell><Cell><Data
             ss:Type="String"
-          >Attack Request - target: {STR_leaderName}</Data></Cell><Cell><Data
+          >War Coordination - target: {STR_leaderName}</Data></Cell><Cell><Data
             ss:Type="String"
-          >攻击请求 - 目标：{STR_leaderName}</Data></Cell><Cell
+          >战争协调 - 目标：{STR_leaderName}</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -4137,10 +4138,10 @@
             ss:Type="String"
           >UPDATE_FINISHED</Data></Cell><Cell><Data
             ss:Type="String"
-          >I attacked a position I determined to be strategically important. I have fulfilled your request.</Data></Cell><Cell
+          >Threat eliminated, scanning perimeter for more hostiles.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >我完成了你的请求，攻击了一处我认为在战略上十分重要的地方。</Data></Cell><Cell
+          >威胁已消除，正在扫描周边，寻找更多的敌人。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -4632,11 +4633,170 @@
         ><Data
             ss:Type="String"
           >[fireCol]+{INT_value}%[largeTab/]居住地商店消耗增加[/fireCol]</Data></Cell></Row><Row
-      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
             ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          >NAME_NOTARGET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >War Coordination</Data></Cell><Cell><Data
+            ss:Type="String"
+          >战争协调</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CALLTOARMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_DEFENDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defending location</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防守地点</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CALLTOARMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BUTTON_CHANGETARGET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Change target</Data></Cell><Cell><Data
+            ss:Type="String"
+          >更改目标</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Button caption for changing the target of the call to arms</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BUTTON_CHOOSETARGET_BACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Different target</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不同目标</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CALLTOARMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BUTTON_DEFEND_TARGET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defend this location</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防守此地点</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CALLTOARMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BUTTON_ATTACK_TARGET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Attack this location</Data></Cell><Cell><Data
+            ss:Type="String"
+          >攻击此地点</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CALLTOARMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPDATE_REACHED_DEFENSIVE_POSITION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >I've reached the target, my army is guarding the location!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我已到达目标，我的军队正在防守此地点！</Data></Cell><Cell
           ss:Index="7"
         ><Data
+            ss:Type="String"
+          >Message response from the other player when asking the current status of the attack request. - The player cancels the attack</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPDATE_COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >I've fulfilled my duties and trust my services were satisfactory.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我已经履行职责，相信我的行动能令你满意。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Message response from the other player when asking the current status of the attack request. - The player has performed the attack</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INFLUENCE_REFUNDED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{INT_influence} [influence/] was refunded.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{INT_influence} [influence/] 返还。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROMPT_SELECTLOCATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Where should I assist you?</Data></Cell><Cell><Data
+            ss:Type="String"
+          >我该怎么帮助你？</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROMPT_SELECTMISSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Focus on this location?</Data></Cell><Cell><Data
+            ss:Type="String"
+          >专注于这个地点？</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INFO_SELECTSTRUCTURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Select a structure that can be attacked or defended</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >选择一个可以进攻或防守的建筑</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INFO_INVALID_STRUCTURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[fireCol]Structure cannot be targeted[/fireCol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[fireCol]无法以建筑为目标[/fireCol]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INFO_VALID_ATTACK_TARGET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[xpCol]This structure can be attacked {STR_buttontag}[/xpCol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[xpCol]无法攻击此建筑{STR_buttontag}[/xpCol]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INFO_VALID_DEFEND_TARGET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[xpCol]This structure can be defended {STR_buttontag}[/xpCol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[xpCol]无法防守此建筑{STR_buttontag}[/xpCol]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INFO_MAX_DURATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >War Coordination lasts for {INT_turns}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >战争协调持续 {INT_turns}[turn/] 回合。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INFO_CASTINSTRUCTIONS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Structures you are both at war with can be attacked. Structures belonging to players with whom {STR_leaderName} shares at least a defensive pact with can be defended (including their own structures).</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >与双方都处于战争状态的建筑为可进攻的建筑。与 {STR_leaderName} 共享有防御协议或以上关系的玩家所拥有的建筑为可防守的建筑（包括其自己的建筑）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FIRSTMEET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHOW_LOCATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Show where we met</Data></Cell><Cell><Data
+            ss:Type="String"
+          >显示我们初次相遇的地方</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
           >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"

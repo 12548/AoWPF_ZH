@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
     >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -342,10 +342,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit plants itself in the ground for {SpawnForestDuration}, after which it terraforms the sector into a Forest Sector.[br/]Doesn't work on Mountain sectors.</Data></Cell><Cell
+          >This unit plants itself in the ground for {SpawnForestDuration}, after which it terraforms the sector into a Forest ([supply/]/[production/] ) Sector.[br/]Doesn't work on Mountain sectors.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位将自身种入土壤，经过 {SpawnForestDuration} 将该区域转化成森林区域。[br/]山地区域无效。</Data></Cell><Cell
+          >该单位将自身种入土壤，经过 {SpawnForestDuration} 将该区域转化成森林（[supply/]/[production/]）区域。[br/]山地区域无效。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /><Cell ss:StyleID="s63" /></Row><Row
@@ -368,9 +368,10 @@
             ss:Type="String"
           >UNIT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit can terraform sectors into Forest.</Data></Cell><Cell><Data
+          >This unit can terraform sectors into Forest ([supply/]/[production/] ) </Data></Cell><Cell
+        ><Data
             ss:Type="String"
-          >这个单位可以将特定区域转化成森林。</Data></Cell><Cell
+          >该单位可以将区域转化成森林（[supply/]/[production/]）</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /><Cell ss:StyleID="s63" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -481,10 +482,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Control a creature's instinctual reactions. The unit gains {Morale}[happiness/] and {PsionicResistance}[defensePsyche/] resistance.</Data></Cell><Cell
+          >Control a creature's instinctual reactions. The unit gains {Morale}[happiness/] and {StatusResistance} resistance to status effects.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >控制生物本能反应。该单位获得 {Morale}[happiness/] 以及 {PsionicResistance}[defensePsyche/] 抵抗。</Data></Cell><Cell
+          >控制一个生物的本能反应。该单位获得 {Morale}[happiness/] 和 {StatusResistance} 状态效果抵抗。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /><Cell ss:StyleID="s63" /></Row><Row ss:AutoFitHeight="0"><Cell><Data

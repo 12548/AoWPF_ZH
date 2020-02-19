@@ -1181,10 +1181,10 @@
             ss:Type="String"
           >TEXT</Data></Cell><Cell><Data
             ss:Type="String"
-          >A critical hit or a fumble can occur when a [hyperlink,000003AC0000009A]Unit[/hyperlink] uses an [hyperlink,000003AC000000AA]Active Abilities[/hyperlink] to damage another unit in [hyperlink,000003AC0000025E]Tactical Combat[/hyperlink].[br/][br/]When a unit critically hits, the attack deals 50% extra damage and is guaranteed to hit. If it was a repeating attack, all of the hits are considered critical hits.[br/][br/]When a unit fumbles, the attack misses without the chance of [hyperlink,000003AC0000030D]Grazing[/hyperlink]. If it was a repeating attack, all of the shots miss.[br/][br/]Critical hits and fumbles are connected to a unit’s [hyperlink,000003AC000000C3]Morale[/hyperlink], but the chance can be modified by other unit abilities or by one of the unit’s [hyperlink,000003AC000000C6]Passive Abilities[/hyperlink].</Data></Cell><Cell
+          >A critical hit or a fumble can occur when a [hyperlink,000003AC0000009A]Unit[/hyperlink] uses an [hyperlink,000003AC000000AA]Active Abilities[/hyperlink] to damage another unit in [hyperlink,000003AC0000025E]Tactical Combat[/hyperlink].[br/][br/]When a unit critically hits, the attack deals 50% extra damage and is guaranteed to hit. If it was a repeating attack, all of the hits are considered critical hits.[br/][br/]When a unit fumbles, all [hyperlink,000003AC0000030D]grazes[/hyperlink] are converted to misses, and all hits are converted to [hyperlink,000003AC0000030D]grazes[/hyperlink]. If the attack cannot graze, then it will always miss.[br/][br/]Critical hits and fumbles are connected to a unit’s [hyperlink,000003AC000000C3]Morale[/hyperlink], but the chance can be modified by other unit abilities or by one of the unit’s [hyperlink,000003AC000000C6]Passive Abilities[/hyperlink].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >[hyperlink,000003AC0000009A]单位[/hyperlink]在[hyperlink,000003AC0000025E]战术战斗[/hyperlink]中使用[hyperlink,000003AC000000AA]主动技能[/hyperlink]伤害其他单位时，可能会造成暴击或者失手。[br/][br/]当单位造成暴击时，该次攻击将额外造成 50% 的伤害并且必定会命中。如果该攻击是重复攻击，则所有攻击都将造成暴击。[br/][br/]当单位失手时，该次攻击将会未命中并且不会有任何几率造成[hyperlink,000003AC0000030D]擦伤[/hyperlink]。如果该攻击是重复攻击，则所有攻击都将未命中。[br/][br/]暴击和失手的几率与单位[hyperlink,000003AC000000C3]士气[/hyperlink]有关，但也会受到其他单位的技能或单位的[hyperlink,000003AC000000C6]被动技能[/hyperlink]影响。</Data></Cell></Row><Row
+          >[hyperlink,000003AC0000009A]单位[/hyperlink]在[hyperlink,000003AC0000025E]战术战斗[/hyperlink]中使用[hyperlink,000003AC000000AA]主动技能[/hyperlink]伤害其他单位时，可能会造成暴击或者失手。[br/][br/]当单位造成暴击时，该次攻击将额外造成 50% 的伤害并且必定会命中。如果该攻击是重复攻击，则所有攻击都将造成暴击。[br/][br/]当单位失手时，所有的[hyperlink,000003AC0000030D]擦伤[/hyperlink]都会转化为未命中，所有的命中转化为[hyperlink,000003AC0000030D]擦伤[/hyperlink]。如果攻击不能造成擦伤，则将会始终未命中。[br/][br/]暴击和失手的几率与单位[hyperlink,000003AC000000C3]士气[/hyperlink]有关，但也会受到其他单位的技能或单位的[hyperlink,000003AC000000C6]被动技能[/hyperlink]影响。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">DAMAGE_CHANNELS</Data></Cell><Cell><Data
             ss:Type="String"
@@ -2812,10 +2812,10 @@
             ss:Type="String"
           >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
             ss:Type="String"
-          >Morale represents a [hyperlink,000003AC0000009A]Unit’s[/hyperlink] general motivation, affecting its chance to [hyperlink,000003AC000002DC]Critically Hit or Fumble[/hyperlink] an attack. A unit’s current morale level can be found on the top right corner of its unit panel.[br/]The higher the morale level, the higher the chance for it to critically hit an enemy. The lower it gets, the higher the chance for the unit to fumble its attack. A unit might even [hyperlink,000003AC000002DF]Desert[/hyperlink] the army if its morale level is too low.[br/][br/]The following table shows the chance of a unit to critically hit or fumbling an attack based on their Morale.[br/][br/]  Unit Morale[tab/][largetab/][largetab/]   Critical/Fumble Chance[line/][br/][tab/] 200[happiness/][largetab/][largetab/][largetab/][tab/]10% Critical Chance[br/][tab/] 400[happiness/][largetab/][largetab/][largetab/][tab/]15% Critical Chance[br/][tab/] 600[happiness/][largetab/][largetab/][largetab/][tab/]20% Critical Chance[br/][br/][tab/]-200[anger/][largetab/][largetab/][largetab/][tab/]15% Fumble Chance[br/][tab/]-400[anger/][largetab/][largetab/][largetab/][tab/]30% Fumble Chance[br/][tab/]-600[anger/][largetab/][largetab/][largetab/][tab/]50% Fumble Chance[br/][br/]</Data></Cell><Cell
+          >Morale represents a [hyperlink,000003AC0000009A]Unit’s[/hyperlink] general motivation, affecting its chance to [hyperlink,000003AC000002DC]Critically Hit or Fumble[/hyperlink] an attack. A unit’s current morale level can be found on the top right corner of its unit panel.[br/]The higher the morale level, the higher the chance for it to critically hit an enemy. The lower it gets, the higher the chance for the unit to fumble its attack. A unit might even [hyperlink,000003AC000002DF]Desert[/hyperlink] the army if its morale level is too low.[br/][br/]The following table shows the chance of a unit to critically hit or fumbling an attack based on their Morale.[br/][br/]  Unit Morale[tab/][largetab/][largetab/]   Critical/Fumble Chance[line/][br/][tab/] 200[happiness/][largetab/][largetab/][largetab/][tab/]{lowCritical}% Critical Chance[br/][tab/] 400[happiness/][largetab/][largetab/][largetab/][tab/]{mediumCritical}% Critical Chance[br/][tab/] 600[happiness/][largetab/][largetab/][largetab/][tab/]{highCritical}% Critical Chance[br/][br/][tab/]-200[anger/][largetab/][largetab/][largetab/][tab/]{lowFumble}% Fumble Chance[br/][tab/]-400[anger/][largetab/][largetab/][largetab/][tab/]{mediumFumble}% Fumble Chance[br/][tab/]-600[anger/][largetab/][largetab/][largetab/][tab/]{highFumble}% Fumble Chance[br/][br/]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >士气代表[hyperlink,000003AC0000009A]单位[/hyperlink]的整体积极性，将会影响单位攻击[hyperlink,000003AC000002DC]暴击或失手[/hyperlink]的几率。单位的当前士气等级将显示在单位面板右上角。[br/]士气等级越高，单位对敌人造成的暴击率就越高。士气越低，单位失手的几率就越高。当士气等级过低时，单位甚至可能从军队中[hyperlink,000003AC000002DF]叛逃[/hyperlink]。[br/][br/]以下表格将基于单位士气列出单位暴击和失手的几率。[br/][br/]  单位士气[tab/][largetab/][largetab/]暴击/失手几率[line/][br/][tab/] 200[happiness/][largetab/][largetab/][largetab/]10% 暴击率[br/][tab/] 400[happiness/][largetab/][largetab/][largetab/]15% 暴击率[br/][tab/] 600[happiness/][largetab/][largetab/][largetab/]20% 暴击率[br/][br/][tab/]-200[anger/][largetab/][largetab/][largetab/]15% 失手率[br/][tab/]-400[anger/][largetab/][largetab/][largetab/]30% 失手率[br/][tab/]-600[anger/][largetab/][largetab/][largetab/]50% 失手率[br/][br/]</Data></Cell></Row><Row
+          >士气代表[hyperlink,000003AC0000009A]单位[/hyperlink]的整体积极性，将会影响单位攻击[hyperlink,000003AC000002DC]暴击或失手[/hyperlink]的几率。单位的当前士气等级将显示在单位面板右上角。[br/]士气等级越高，单位对敌人造成的暴击率就越高。士气越低，单位失手的几率就越高。当士气等级过低时，单位甚至可能从军队中[hyperlink,000003AC000002DF]叛逃[/hyperlink]。[br/][br/]以下表格将基于单位士气列出单位暴击和失手的几率。[br/][br/]单位士气[tab/][largetab/][largetab/]暴击/失手几率[line/][br/][tab/] 200[happiness/][largetab/][largetab/][largetab/][tab/]{lowCritical}% 暴击率[br/][tab/] 400[happiness/][largetab/][largetab/][largetab/][tab/]{mediumCritical}% 暴击率[br/][tab/] 600[happiness/][largetab/][largetab/][largetab/][tab/]{highCritical}% 暴击率[br/][br/][tab/]-200[anger/][largetab/][largetab/][largetab/][tab/]{lowFumble}% 失手率[br/][tab/]-400[anger/][largetab/][largetab/][largetab/][tab/]{mediumFumble}% 失手率[br/][tab/]-600[anger/][largetab/][largetab/][largetab/][tab/]{highFumble}% 失手率[br/][br/]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">MOVE_POINTS</Data></Cell><Cell><Data
             ss:Type="String"
@@ -4355,10 +4355,10 @@
             ss:Type="String"
           >TEXT</Data></Cell><Cell><Data
             ss:Type="String"
-          >Secret Techs are technologies that focus on developing your empire in a specific way, flavored by some of the fallen empire’s experimental and forbidden technologies. All of these forgotten technologies are remnants of the past, and can guide you into tailoring your play style even further.[br/][br/]The secret techs available to you are:[br/][bulletList][bullet][hyperlink,000003AC0000032E]Secret Tech: Celestian[/hyperlink][/bullet][bullet][hyperlink,000003AC0000032F]Secret Tech: Promethean[/hyperlink][/bullet][bullet][hyperlink,000003AC0000032B]Secret Tech: Psynumbra[/hyperlink][/bullet][bullet][hyperlink,000003AC0000032D]Secret Tech: Synthesis[/hyperlink][/bullet][bullet][hyperlink,000003AC0000032C]Secret Tech: Voidtech[/hyperlink][/bullet][bullet][hyperlink,000003AC0000032A]Secret Tech: Xenoplague[/hyperlink][/bullet][/bulletList]</Data></Cell><Cell
+          >Secret Techs are technologies that focus on developing your empire in a specific way, flavored by some of the fallen empire’s experimental and forbidden technologies. All of these forgotten technologies are remnants of the past, and can guide you into tailoring your play style even further.[br/][br/]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >秘密科技能够以让玩家接触到某些失落帝国的实验科技和禁忌科技，用特殊的方式来发展玩家的帝国。这些被人遗忘的科技是来自过去的遗物，能够为玩家带来进一步的个性化游戏风格。[br/][br/]玩家可使用的秘密科技包括：[br/][bulletList][bullet][hyperlink,000003AC0000032E]秘密科技：星神[/hyperlink][/bullet][bullet][hyperlink,000003AC0000032F]秘密科技：圣火[/hyperlink][/bullet][bullet][hyperlink,000003AC0000032B]秘密科技：赛努布拉[/hyperlink][/bullet][bullet][hyperlink,000003AC0000032D]秘密科技：合成[/hyperlink][/bullet][bullet][hyperlink,000003AC0000032C]秘密科技：虚空科技[/hyperlink][/bullet][bullet][hyperlink,000003AC0000032A]秘密科技：异星疫病[/hyperlink][/bullet][/bulletList]</Data></Cell></Row><Row
+          >秘密科技能够让玩家接触到某些失落帝国的实验科技和禁忌科技，用特殊的方式来发展玩家的帝国。这些被人遗忘的科技是来自过去的遗产，能够为玩家带来进一步的个性化游戏风格。[br/][br/]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">SECTOR_CLAIMS</Data></Cell><Cell><Data
             ss:Type="String"
@@ -4943,10 +4943,10 @@
             ss:Type="String"
           >TEXT</Data></Cell><Cell><Data
             ss:Type="String"
-          >The tech tree is organized into themed tech groups that depend on the race and secret tech you chose at the start of the game. All tech groups are tiered from 1 to 10; previous tiers have to be unlocked in order to advance through the tech groups. These dependencies are per tech group.[br/][br/]You’ll have access to the following Tech Groups:[br/][bulletList][bullet]The [hyperlink,000003AC00000264]Racial Tech Groups[/hyperlink][/bullet][bullet]The [hyperlink,000003AC00000265]Weapon Tech Groups[/hyperlink][/bullet][bullet]The [hyperlink,000003AC00000266]Secret Tech Groups[/hyperlink][/bullet][bullet]The [hyperlink,000003AC00000267]Doctrine Tech Group[/hyperlink][/bullet][bullet]The [hyperlink,000003AC00000268]Economy Research[/hyperlink][/bullet][bullet]And the [hyperlink,000003AC00000269]Operations Tech Group[/hyperlink][/bullet][/bulletList]</Data></Cell><Cell
+          >The tech tree is organized into themed tech groups that depend on the race and secret tech you chose at the start of the game. All tech groups are tiered from 1 to 10; previous tiers have to be unlocked in order to advance through the tech groups. These dependencies are per tech group.[br/][br/]You’ll have access to the following Tech Groups:[br/][bulletList][bullet]The [hyperlink,000003AC00000264]Racial Tech Groups[/hyperlink][/bullet][bullet]The [hyperlink,000003AC00000265]Weapon Tech Groups[/hyperlink][/bullet][bullet]The [hyperlink,000003AC00000266]Secret Tech Groups[/hyperlink][/bullet][bullet]The [hyperlink,000003AC00000267]Doctrine Tech Group[/hyperlink][/bullet][bullet]The [hyperlink,000003AC00000268]Economy Tech Group[/hyperlink][/bullet][bullet]And the [hyperlink,000003AC00000269]Operations Tech Group[/hyperlink][/bullet][/bulletList]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >根据玩家在游戏开始时选择的种族和秘密科技，科技树将分成各种特点鲜明的科技组。所有科技组均设有 1 至 10 阶且必须逐阶进行解锁。[br/][br/]玩家可使用的科技组如下：[br/][bulletList][bullet][hyperlink,000003AC00000264]种族科技组[/hyperlink][/bullet][bullet][hyperlink,000003AC00000265]武器科技组[/hyperlink][/bullet][bullet][hyperlink,000003AC00000266]秘密科技组[/hyperlink][/bullet][bullet][hyperlink,000003AC00000267]教义科技组[/hyperlink][/bullet][bullet][hyperlink,000003AC00000268]经济研究[/hyperlink][/bullet][bullet][hyperlink,000003AC00000269]行动科技组[/hyperlink][/bullet][/bulletList]</Data></Cell></Row><Row
+          >根据玩家在游戏开始时选择的种族和秘密科技，科技树将分成各种特点鲜明的科技组。所有科技组均设有 1 至 10 阶且必须逐阶进行解锁。[br/][br/]玩家可使用的科技组如下：[br/][bulletList][bullet][hyperlink,000003AC00000264]种族科技组[/hyperlink][/bullet][bullet][hyperlink,000003AC00000265]武器科技组[/hyperlink][/bullet][bullet][hyperlink,000003AC00000266]秘密科技组[/hyperlink][/bullet][bullet][hyperlink,000003AC00000267]教义科技组[/hyperlink][/bullet][bullet][hyperlink,000003AC00000268]经济科技组[/hyperlink][/bullet][bullet][hyperlink,000003AC00000269]行动科技组[/hyperlink][/bullet][/bulletList]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">TECHS</Data></Cell><Cell><Data
             ss:Type="String"
@@ -5707,7 +5707,7 @@
             ss:Type="String"
           >NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Visit Sites</Data></Cell><Cell><Data
+          >Visit Site</Data></Cell><Cell><Data
             ss:Type="String"
           >访问点</Data></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
@@ -7545,7 +7545,55 @@
           >The Global Pool is the combined [hyperlink,000003AC00000022]Food[/hyperlink] from all of your [hyperlink,000003AC00000047]Colonies[/hyperlink], remaining food not used for [hyperlink,000003AC00000305]Upkeep[/hyperlink] or colony growth at the end of the turn is lost.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >整体食物池是玩家所有[hyperlink,000003AC00000047]殖民地[/hyperlink]的[hyperlink,000003AC00000022]食物[/hyperlink]总和。在回合结束时，除了用于[hyperlink,000003AC00000305]维持消耗[/hyperlink]的食物之外，其他未使用的剩余食物将会丢失。</Data></Cell></Row></Table><WorksheetOptions
+          >整体食物池是玩家所有[hyperlink,000003AC00000047]殖民地[/hyperlink]的[hyperlink,000003AC00000022]食物[/hyperlink]总和。在回合结束时，除了用于[hyperlink,000003AC00000305]维持消耗[/hyperlink]的食物之外，其他未使用的剩余食物将会丢失。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXPLORATION_SITES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Exploration Site</Data></Cell><Cell><Data
+            ss:Type="String"
+          >探索点</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXPLORATION_SITES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Exploration sites are [hyperlink,000003AC000000CD]Locations[/hyperlink] on the [hyperlink,000003AC000000CC]Strategic Map[/hyperlink] that can be found in any [hyperlink,0000039E00000076]Sector[/hyperlink]. An Exploration site is a powerful node giving a variety or resource incomes. An Exploration Site is inhabited by powerful guardians however and must be entered and cleared before it can be used.  An Exploration Site often gives a bonus to [hyperlink,000003AC0000009A]Units[/hyperlink] of a particular type built in the [hyperlink,000003AC00000047]Colony[/hyperlink] to which it is [hyperlink,000003BD000016CE]Annexed[/hyperlink]. [br/][br/]Before Exploration Sites can give any benefits to the [hyperlink,000003AC00000047]Colony[/hyperlink] that has their sector [hyperlink,000003BD000016CE]Annexed[/hyperlink], their guards need to be removed. Clearing out Exploration sites is made even more perilous because only a single [hyperlink,000003AC0000009B]Army[/hyperlink] can enter a structure to defeat the army lurking within. [br/][br/]Exploration sites cannot be [hyperlink,000003AC000002A1]Razed[/hyperlink].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >探索点是位于[hyperlink,000003AC000000CC]战略地图[/hyperlink]上的[hyperlink,000003AC000000CD]位置[/hyperlink]，在任何[hyperlink,0000039E00000076]区域[/hyperlink]中都能找到。探索点是一种强大的节点，可提供多种资源收益。然而，探索点中栖息着强大的守卫者，探索之前必须进入并清理这些守卫。探索点通常会给[hyperlink,000003BD000016CE]吞并[/hyperlink]的[hyperlink,000003AC00000047]殖民地[/hyperlink]中建造的某种特定类型的[hyperlink,000003AC0000009A]单位[/hyperlink]提供加成。[br/][br/]必须先清理探索点中的守卫，探索点才会给[hyperlink,000003BD000016CE]吞并[/hyperlink]的[hyperlink,000003AC00000047]殖民地[/hyperlink]区域提供收益。由于探索点只允许一支[hyperlink,000003AC0000009B]军队[/hyperlink]进入并战斗，因此清理探索点将会十分危险。[br/][br/]探索点不能被[hyperlink,000003AC000002A1]夷平[/hyperlink]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTROPY_WEAPONS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropy Weapons [damageentropy/]</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌武器 [damageentropy/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTROPY_WEAPONS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropy Weapons are cruel relics from the Es'Teq Dynasty, designed to drain the life force of an enemy whilst granting the user enhanced strength.[br/]Entropy weapons use the Entropy [damageentropy/][hyperlink,000003AC00000290]Damage Channel[/hyperlink]. The Entropy damage channel imparts Energy Drain debuffs that reduce damage, whilst providing Essence Charges to the user.[br/][br/]There is no known way to resist this damage type.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >混沌武器是埃斯特克王朝遗留下来的残酷遗物，能够汲取敌人的生命力，同时增强使用者的力量。[br/]混沌武器使用混沌 [damageentropy/] [hyperlink,000003AC00000290]伤害类型[/hyperlink]。混沌伤害类型能够施加能量干涸，降低目标伤害的同时为使用者提供精华充能。[br/][br/]目前没有任何已知方法能够抵抗这种伤害类型。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LINK_TIPS_STRATEGICMAP</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >List of all Strategic Map tips</Data></Cell><Cell><Data
+            ss:Type="String"
+          >所有策略地图提示列表</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LINK_TIPS_TACTICALCOMBAT</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >List of all Tactical Combat tips</Data></Cell><Cell><Data
+            ss:Type="String"
+          >所有战术战斗提示列表</Data></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
     ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
         >600</HorizontalResolution><VerticalResolution

@@ -14,9 +14,10 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
-    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -911,10 +912,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >End the vassalage. This releases the vassal, but maintains the alliance without any penalties.</Data></Cell><Cell
+          >End the vassalage. This releases the vassal and reverts the relation back to a non-aggression pact. This action takes one turn and impacts your reputation and the opinion of both players toward each other.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >结束主臣关系。释放封臣，但会继续维持同盟关系且不受任何惩罚。</Data></Cell><Cell
+          >结束主臣关系。这将释放封臣并将关系回退至互不侵犯协议。此行动需花费一个回合的事件，并且会影响你的声望和玩家对彼此的评价。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -932,6 +933,14 @@
         ><Data
             ss:Type="String"
           >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DEMAND_BREAK_VASSALAGE</Data></Cell><Cell
+        ><Data ss:Type="String">AI_DESC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >I've served you long enough. Please grant me more diplomatic freedom and end this vassalage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我已经为你效命了够长时间了，请给我更多的外交自由，结束这段主臣关系。</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell

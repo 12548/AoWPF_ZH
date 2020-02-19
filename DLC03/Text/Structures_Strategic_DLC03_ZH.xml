@@ -15,8 +15,8 @@
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
   ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -286,10 +286,10 @@
             ss:Type="String"
           >LOGIC_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >[br/][br/]Armies that have visited the Es'Teq Essence Pool gain [abilityblue]Es'Teq Enhancements[/abilityblue] until the end of their next combat: [br/][br/] [bulletList][bullet]All non-[damageentropy/]Entropy attacks made by this unit have a {strength}[strengthentropy/] strength chance to apply [abilityred]Energy Drain[/abilityred] and grant this unit one [abilityblue]Essence Charge[/abilityblue].[/bullet][br/][br/]The Es'Teq Essence Pool adds {energy} when it is within a colony's domain.</Data></Cell><Cell
+          >Grants [abilityblue]Es'Teq Enhancements[/abilityblue] for the next combat, granting them {strength} [abilityred]Energy Drain[/abilityred] on their non-[damageentropy/]Entropy attacks. [br/][br/]The Es'teq Essence Pool grants {Income} when it's within a colony's domain.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >[br/][br/]访问埃斯特克精华池的军队将获得[abilityblue]埃斯特克强化[/abilityblue]，持续至下次战斗结束：[br/][br/][bulletList][bullet]该单位发起的所有非 [damageentropy/] 混沌攻击有 {strength}[strengthentropy/] 力量几率施加[abilityred]能量干涸[/abilityred]并给予单位一个[abilityblue]精华充能[/abilityblue]。[/bullet][br/][br/]埃斯特克精华池位于该殖民地领域范围内时增加 {energy} 能量。</Data></Cell><Cell
+          >在下次战斗中给予[abilityblue]埃斯特克强化[/abilityblue]，使非混沌[damageentropy/]攻击获得 {strength} [abilityred]能量干涸[/abilityred]。[br/][br/]埃斯特克精华池位于殖民地领域范围内时会给予 {Income}。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         ><Data

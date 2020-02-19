@@ -10,13 +10,14 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:57:45Z</Created><LastSaved
     >2019-06-25T15:57:45Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><MaxChange
-    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
+    >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -26,26 +27,26 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
     ss:Name="Script"
   ><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultColumnWidth="51.75"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s57" ss:Width="261" /><Column
-        ss:StyleID="s57"
+    ><Column ss:StyleID="s62" ss:Width="261" /><Column
+        ss:StyleID="s62"
         ss:Width="121.5"
-      /><Column ss:StyleID="s57" ss:Width="298.5" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:Width="298.5" /><Column
+        ss:StyleID="s62"
         ss:Width="147.75"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="201" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="201" /><Column
+        ss:StyleID="s62"
         ss:AutoFitWidth="0"
         ss:Width="126"
-      /><Column ss:StyleID="s57" ss:Width="298.5" /><Row
+      /><Column ss:StyleID="s62" ss:Width="298.5" /><Row
         ss:AutoFitHeight="0"
         ss:Height="105"
       ><Cell><Data
@@ -814,9 +815,9 @@
             ss:Type="String"
           >NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Powered Impact</Data></Cell><Cell><Data
+          >Laser Impact</Data></Cell><Cell><Data
             ss:Type="String"
-          >能量冲击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          >激光冲击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >POWERED_RAM</Data></Cell><Cell><Data
             ss:Type="String"
@@ -872,10 +873,10 @@
       ><Cell><Data ss:Type="String">TARGETING_CALIBRATION</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Assist the targeting computers of a friendly Mechanical unit, increasing their accuracy by {TargetingCalibrationAcc} for {TargetingCalibrationDuration}</Data></Cell><Cell
+          >Assist the targeting systems of a friendly Mechanical or Vanguard unit, increasing their accuracy by {TargetingCalibrationAcc} and range by {rangeBoost} for {TargetingCalibrationDuration}[br/]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >辅助友方机械单位的瞄准系统，提升其准度 {TargetingCalibrationAcc}，持续 {TargetingCalibrationDuration}</Data></Cell></Row><Row
+          >辅助友方机械单位的瞄准系统，使其准度提升 {TargetingCalibrationAcc}，射程提升 {rangeBoost}，持续 {TargetingCalibrationDuration}[br/]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">CALIBRATED</Data></Cell><Cell><Data
             ss:Type="String"
@@ -890,10 +891,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit has {TargetingCalibrationAcc} for {TargetingCalibrationDuration}[turn/]</Data></Cell><Cell
+          >This unit has {TargetingCalibrationAcc} accuracy and {TargetingCalibrationRng} range.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位拥有 {TargetingCalibrationAcc}，持续 {TargetingCalibrationDuration}[turn/]</Data></Cell></Row><Row
+          >该单位拥有 {TargetingCalibrationAcc} 准度和 {TargetingCalibrationRng} 射程。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">REPAIR_CHARGE</Data></Cell><Cell><Data
             ss:Type="String"

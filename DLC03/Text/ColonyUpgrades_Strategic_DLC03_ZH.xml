@@ -15,8 +15,8 @@
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
   ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -111,10 +111,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >{SlotBonus}[productionSlot/], {SlotBonus}[energySlot/], {SlotBonus}[foodSlot/], {SlotBonus}[ResearchSlot/], {SlotBonus}[happinessSlot/][br/]Each exploited sector generates {BonnusResources} income of its exploitation type.</Data></Cell><Cell
+          >{SlotBonus}[productionSlot/], {SlotBonus}[energySlot/], {SlotBonus}[foodSlot/], {SlotBonus}[ResearchSlot/], {SlotBonus}[happinessSlot/]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >{SlotBonus}[productionSlot/]、{SlotBonus}[energySlot/]、{SlotBonus}[foodSlot/]、{SlotBonus}[ResearchSlot/]、{SlotBonus}[happinessSlot/][br/]每个开发区域会生成与自身开发点类型对应的 {BonnusResources} 收益。</Data></Cell><Cell
+          >{SlotBonus}[productionSlot/]，{SlotBonus}[energySlot/]，{SlotBonus}[foodSlot/]，{SlotBonus}[ResearchSlot/]，{SlotBonus}[happinessSlot/]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"

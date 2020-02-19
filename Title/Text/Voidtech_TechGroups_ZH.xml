@@ -572,10 +572,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target unit is phased halfway out of the physical dimension for {dimensionaldesynctime}, becoming immune to damage but being unable to use abilities.</Data></Cell><Cell
+          >Has a strength {procChance} to apply [abilityred]Dimensional Desync[/abilityred] to the target unit for {dimensionaldesynctime}, making it immune to damage but unable to use abilities, on failure applies [abilityred]Dimensional Instability[/abilityred].[br/][br/]Always succeeds when targeting allies.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >目标单位的相位有一半已经脱离了物理维度，持续 {dimensionaldesynctime}，免疫伤害但无法使用技能。</Data></Cell></Row><Row
+          >有 {procChance} 力量几率对目标单位施加[abilityred]维度失调[/abilityred]，持续{dimensionaldesynctime}，使其免疫伤害但无法使用技能。如果失败，则改为造成[abilityred]维度动荡[/abilityred]。[br/][br/]以盟友为目标时始终将会成功。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">DIMENSIONAL_DESYNCED</Data></Cell><Cell
         ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
@@ -1026,30 +1026,29 @@
             ss:Type="String"
           >LEVEL_1_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Energy income reduced by {EnergyDrain}[energy/]; the Voidtech player gains this energy.</Data></Cell><Cell
-        ><Data
+          >Steal {EnergyDrain}[energy/] income.</Data></Cell><Cell><Data
             ss:Type="String"
-          >能量收益减少{EnergyDrain}[energy/]，虚空科技玩家获得此能量。</Data></Cell></Row><Row
+          >窃取 {EnergyDrain}[energy/] 收益。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
           >LEVEL_2_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Energy income reduced by {EnergyDrain}[energy/]; the Voidtech player gains this energy.[br/]All Voidtech player units gain {damageIncrease}% increased damage.</Data></Cell><Cell
+          >Steal {EnergyDrain}[energy/] income.[br/]Voidtech units gain +{damageIncrease}% damage.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >能量收益减少 {EnergyDrain}[energy/]，虚空科技玩家获得此能量。[br/]所有虚空科技玩家单位获得额外 {damageIncrease}% 伤害。</Data></Cell></Row><Row
+          >窃取 {EnergyDrain}[energy/] 收益。[br/]虚空科技单位获得 +{damageIncrease}% 伤害。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="90"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
           >LEVEL_3_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Energy income reduced by {EnergyDrain}[energy/]; the Voidtech player gains this energy.[br/]All Voidtech player units gain {damageIncrease}% increased damage.[br/]Non-Voidtech player units have a {TeleportChance} strength chance to be randomly teleported up to {teleportDistance} hexes away each turn in combat.</Data></Cell><Cell
+          >Steal {EnergyDrain}[energy/] income.[br/]Voidtech units gain +{damageIncrease}% damage.[br/]Non-Voidtech units have {TeleportChance} strength chance to be randomly teleported up to {teleportDistance} hexes away each [turn/] in combat.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >能量收益减少 {EnergyDrain}[energy/]，虚空科技玩家获得此能量。[br/]所有虚空科技玩家单位获得额外 {damageIncrease}% 伤害。[br/]非虚空科技玩家在战斗中每回合有 {TeleportChance} 力量几率被随机传送至最多 {teleportDistance} 个单元格之外的位置。</Data></Cell></Row><Row
+          >窃取 {EnergyDrain}[energy/] 收益。[br/]虚空科技单位获得 +{damageIncrease}% 伤害。[br/]非虚空科技单位在战斗中每[turn/] 回合有 {TeleportChance} 力量几率被随机传送至最多 {teleportDistance} 个单元格之外的位置。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1188,10 +1187,10 @@
       ><Cell><Data ss:Type="String">DIMENSIONAL_COLLAPSE</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Collapse reality around the target, with a {InstaKillChance} strength chance to instantly killing them without leaving a corpse. If this fails, deal {DimensionalCollapseDamage} damage and [abilityred]Massive Impact[/abilityred] instead.[br/][br/]Cannot target Heroes or Tier IV units.</Data></Cell><Cell
+          >Collapse reality around the target, with a {InstaKillChance} strength chance to instantly killing them without leaving a corpse. If this fails, deal {DimensionalCollapseDamage} damage and [abilityred]Massive Impact[/abilityred] instead.[br/][br/]Cannot target Commander units.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >使目标周围的现实世界分崩离析，有 {InstaKillChance} 力量几率立即杀死目标并且不会留下任何尸骨。如果失败，则造成 {DimensionalCollapseDamage} 伤害和[abilityred]强力冲击[/abilityred]。[br/][br/]无法以英雄和 4 阶单位为目标。</Data></Cell></Row><Row
+          >使目标周围的现实世界分崩离析，有 {InstaKillChance} 力量几率立即杀死目标并且不会留下任何尸骨。如果失败，则改为造成 {DimensionalCollapseDamage} 伤害并附带[abilityred]强力冲击[/abilityred]。[br/][br/]无法以指挥官单位为目标。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">PHASE_ECHO_GUARD</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1355,28 +1354,29 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Enemy units within the affected friendly colony domain have to use {ExtraMovePoints} extra move points for every hex they move and have [abilityred]Slow Movement[/abilityred] when fighting in this domain.</Data></Cell><Cell
+          >Enemy units within the affected friendly colony domain have to use {ExtraMovePoints} extra move points for every hex they move and every {delay} have a {StrChanceSlow} strength chance to gain [abilityred]Slow Movement[/abilityred], for {Duration}[turn/] when fighting in this domain.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >处于受到影响的友方殖民地领域内的敌方单位在移动至每个单元格时必须额外消耗 {ExtraMovePoints} 移动点数，并且在该领域中战斗时将获得[abilityred]缓慢移动[/abilityred]。</Data></Cell></Row><Row
+          >位于受到影响的友方殖民地领域内的敌方单位在移动至每个单元格时必须额外消耗 {ExtraMovePoints} 移动点数，并且在该领域中战斗时，每 {delay} 有 {StrChanceSlow} 力量几率获得[abilityred]缓慢移动[/abilityred]，持续 {Duration}[turn/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">VOID_BARRIERS</Data></Cell><Cell><Data
             ss:Type="String"
           >CASTER_SUCCESS</Data></Cell><Cell><Data
             ss:Type="String"
-          >We succesfully put up Void Barriers around the colony which will damage and slow down any unwelcome visitors.</Data></Cell><Cell
+          >We succesfully put up Void Barriers around the colony which will slow down any unwelcome visitors.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >我们成功在殖民地周围竖起了虚空屏障，这将能够伤害并减速任何不速之客。</Data></Cell></Row><Row
+          >我们成功在殖民地周围竖起了虚空屏障，这将能够减缓任何不速之客的行动。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">VOID_BARRIERS</Data></Cell><Cell><Data
             ss:Type="String"
           >COMBAT_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Affected units have Slow Movement.</Data></Cell><Cell><Data
+          >Every {delay} all enemy units have a {StrChanceSlow} strength chance to gain [abilityred]Slow Movement[/abilityred], for {Duration}[turn/].</Data></Cell><Cell
+        ><Data
             ss:Type="String"
-          >受到影响的单位获得缓慢移动。</Data></Cell></Row><Row
+          >所有敌方单位每 {delay} 有 {StrChanceSlow} 力量几率获得[abilityred]缓慢移动[/abilityred]，持续 {Duration}[turn/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">VOID_BARRIERS</Data></Cell><Cell><Data
             ss:Type="String"

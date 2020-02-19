@@ -10,12 +10,12 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:51:36Z</Created><LastSaved
     >2019-06-25T15:51:36Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
     >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
@@ -26,23 +26,23 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
     ss:Name="Script"
   ><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultColumnWidth="276"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s57" ss:Width="140.25" /><Column
-        ss:StyleID="s57"
+    ><Column ss:StyleID="s62" ss:Width="140.25" /><Column
+        ss:StyleID="s62"
         ss:Width="96.75"
-      /><Column ss:StyleID="s57" ss:Width="273" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:Width="273" /><Column
+        ss:StyleID="s62"
         ss:Width="147.75"
-      /><Column ss:StyleID="s57" ss:Width="272.25" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:Width="272.25" /><Column
+        ss:StyleID="s62"
         ss:Width="120"
       /><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
             ss:Type="String"
@@ -165,10 +165,10 @@ Army's commander in this case means the leader of an army, NOT the player charac
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >All units in the hero's army gain +{FalloutThermalResistance} resistance.[br/]Only functions when the hero is the army's commander.</Data></Cell><Cell
+          >All units in the hero's army gain +{FalloutThermalResistance} resistance and {ArmorIncrease}[armor/].[br/]Only functions when the hero is the army's commander.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >英雄军队内的所有单位获得 +{FalloutThermalResistance} 抵抗。[br/]只有当该英雄是军队指挥官时才能生效。</Data></Cell><Cell
+          >英雄军队内的所有单位获得 +{FalloutThermalResistance} 抵抗和 {ArmorIncrease}[armor/]。[br/]只有当该英雄是军队指挥官时才能生效。</Data></Cell><Cell
           ss:Index="7"
         ><Data ss:Type="String">Skill description.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
@@ -177,10 +177,10 @@ Army's commander in this case means the leader of an army, NOT the player charac
             ss:Type="String"
           >DESCRIPTION_UNIT</Data></Cell><Cell><Data
             ss:Type="String"
-          >The hero's fallout protocols have provided this unit with {ThermalResistance} resistance.</Data></Cell><Cell
+          >The hero's fallout protocols have provided this unit with {ThermalResistance} resistance and {ArmorIncrease}[armor/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >英雄的辐射协议为该单位提供了 {ThermalResistance} 抵抗。</Data></Cell><Cell
+          >英雄的辐射协议为该单位提供了 {ThermalResistance} 抵抗和 {ArmorIncrease}[armor/]。</Data></Cell><Cell
           ss:Index="7"
         ><Data ss:Type="String">Unit buff description.</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data

@@ -16,7 +16,8 @@
     xmlns="urn:schemas-microsoft-com:office:excel"
   ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
-    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -812,22 +813,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >A war monument honoring ancient heroes of the Star Union, filling troops with determination. It provides {ImperialWarMonumentAcc} increased  accuracy to visiting units for their next combat.[br/][br/]The Imperial War Monument adds {happiness} when it is within a colony's domain.</Data></Cell><Cell
+          >A memorial hall honoring revered heroes of the Star Union, monolythic and impressive these structures inspired a reverence of the Star Union's veterans.[br/][br/]Grants {Supply} Food and {Production} Production to the colony it is linked to.[br/]Non-Mindless units built in the owner colony gain {UnitBonus}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >一个记有星际联盟古代英雄和死去士卒的战争纪念碑，能够使拜访单位在下次战斗时准度提升 {ImperialWarMonumentAcc}。[br/][br/]帝国战争纪念碑位于殖民地区域内时可增加{happiness}。</Data></Cell><Cell
-          ss:Index="7"
-          ss:StyleID="s63"
-        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
-            ss:Type="String"
-          >IMPERIAL_WAR_MONUMENT</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STATUS_EFFECT</Data></Cell><Cell><Data
-            ss:Type="String"
-          >This unit has visited an Imperial War Monument, which strengthened its resolve for combat. Its accuracy has been increased by {ImperialWarMonumentAcc} for their next combat.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >该单位最近拜访过帝国战争纪念碑，战斗的决心变得更加坚定。下次战斗时准度提升 {ImperialWarMonumentAcc}。</Data></Cell><Cell
+          >一个纪念星际联盟可敬英雄的纪念堂，宏伟庄重的石碑和建筑能够激发对星际联盟老兵的敬畏。[br/][br/]相连的殖民地获得 {Supply} 食物和 {Production} 产力。[br/]所有者殖民地中生产的非无意识单位获得 {UnitBonus}。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -858,22 +847,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >An old heavy weapons factory specialized in experimental weapon improvements. It provides {HeavyWeaponsDamage} increased damage to visiting units for their next combat.[br/][br/]The Heavy Weapons Factory adds {Production} when it is within a colony's domain.</Data></Cell><Cell
+          >An massive Heavy Weapons Factory, this massive complex once built many of the Star Union's heavy military equipment, now it is derelict, waiting to be looted.[br/][br/]Grants {Production} Production to the colony it is linked to.[br/]Heavy units built in the owner colony gain {UnitBonus}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >一处致力于研究实验性武器升级的重型武器工厂，能够使拜访单位在下次战斗时伤害提升 {HeavyWeaponsDamage}。[br/][br/]重型武器工厂位于殖民地区域内时可增加{Production}。</Data></Cell><Cell
-          ss:Index="7"
-          ss:StyleID="s63"
-        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
-            ss:Type="String"
-          >HEAVY_WEAPONS_FACTORY</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STATUS_EFFECT</Data></Cell><Cell><Data
-            ss:Type="String"
-          >This unit's weapons have been modified to deal {Damage} damage during their next combat.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >该单位的武器经过了改造，下次战斗时造成伤害变为 {Damage}。</Data></Cell><Cell
+          >一个庞大的重型武器工厂，这个巨大的综合建筑曾经建造了许多星际联盟的重型军事装备，但现在早已荒废，里面的资源等待被人挖掘。[br/][br/]相连的殖民地获得 {Production} 产力。[br/]所有者殖民地中生产的重型单位获得 {UnitBonus}。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -893,21 +870,19 @@
             ss:Type="String"
           >NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Paragon Inc. Repair Station</Data></Cell><Cell><Data
+          >Resupply Station</Data></Cell><Cell><Data
             ss:Type="String"
-          >完人公司修理站</Data></Cell><Cell
-          ss:Index="7"
-          ss:StyleID="s63"
-        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
-            ss:Type="String"
-          >REPAIR_STATION</Data></Cell><Cell><Data
+          >补给站</Data></Cell><Cell ss:Index="7" ss:StyleID="s63" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">REPAIR_STATION</Data></Cell><Cell><Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >An old Paragon Repair Station that restores full [hp/] to visiting units. [br/][br/]The Repair Station adds {production} when it is within a colony's domain.</Data></Cell><Cell
+          >Restores full [hp/] to visiting units and grants them {Damagebonus} bonus damage on attacks during their next combat.[br/][br/]The Resupply Station adds {Supply} Food to the colony it is linked to.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >一处古老的完人修理站，可为拜访单位恢复全部[hp/]。[br/][br/]当修理站位于殖民地区域内时可增加{production}。</Data></Cell><Cell
+          >访问单位恢复全部 [hp/]，下一次战斗攻击时获得 {Damagebonus} 额外伤害。[br/][br/]补给站会使相连的殖民地获得 {Supply} 食物。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -938,22 +913,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Plays automated concerts of long-forgotten bands. Visiting units gain {StadiumArcadiumMorale} morale for their next battle. [br/][br/]The Stadium Arcadium adds {happiness} when it is within a colony's domain.</Data></Cell><Cell
+          >The Union's Stadia still play automated concerts of long-forgotten bands. Grants {happiness} Happiness to the colony it is linked to.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >这里自动播放着被遗忘乐队的曲目，可使拜访单位在下次战斗时获得 {StadiumArcadiumMorale} 士气。[br/][br/]星际体育场位于殖民地区域内时可增加{happiness}。</Data></Cell><Cell
-          ss:Index="7"
-          ss:StyleID="s63"
-        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
-            ss:Type="String"
-          >STADIUM_ARCADIUM</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STATUS_EFFECT</Data></Cell><Cell><Data
-            ss:Type="String"
-          >This unit has recently visited a Stadium. Its morale been raised by {StadiumArcadiumMorale}.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >该单位最近拜访过体育场，士气提高 {StadiumArcadiumMorale}。</Data></Cell><Cell
+          >星际体育场依然在播放那些早已被世人遗忘了的乐队歌曲。相连的殖民地获得 {happiness} 幸福值。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -984,10 +947,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Fully restores all move points of visiting units.[br/][br/]The Milestone Charge Station adds {energy} when it is within a colony's domain.</Data></Cell><Cell
+          >Fully restores all move points of visiting units.[br/][br/]The Milestone Charge Station adds {energy} Energy to the colony it is linked to.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >为拜访单位恢复全部移动点数。[br/][br/]里程碑充能站位于殖民地区域内时可增加{energy}。</Data></Cell><Cell
+          >访问单位恢复全部移动点数。[br/][br/]里程碑充能站会使相连的殖民地获得 {energy} 能量。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -1018,22 +981,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The Psi-Shrine grants {shields}, {PsionicResistance} and {damage} damage for Psionic attacks for all visiting units during their next combat.[br/][br/]The Psi-Shrine adds {research} when it is within a colony's domain.</Data></Cell><Cell
+          >Despite the Star Union's ban on psionics and persecution of it's practitioners, shrines like this can be found defiantly hidden all over the Star Union's territories.[br/][br/]Grants {Research} Research and {Energy} Energy to the colony it is linked to.[br/]Units built in the linked colony gain {UnitBonus} Psionic Resistance.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >灵能试探可使所有拜访单位在下次战斗时获得{shields}，{PsionicResistance}和 {damage} 灵能攻击伤害。[br/][br/]灵能圣坛位于殖民地区域内时可增加{research}。</Data></Cell><Cell
-          ss:Index="7"
-          ss:StyleID="s63"
-        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
-            ss:Type="String"
-          >PSI_SHRINE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STATUS_EFFECT</Data></Cell><Cell><Data
-            ss:Type="String"
-          >This unit has visited a Psi-Shrine and received {shields} and {psiResistance} for their next combat. In addition, their Psionic attacks deal {DamageIncrease} damage. </Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >该单位最近拜访过灵能圣坛，下次战斗时获得{shields}和{psiResistance}。另外，灵能攻击可造成 {DamageIncrease} 伤害。 </Data></Cell><Cell
+          >尽管星际联盟设有灵能禁令，也不允许出现灵能修行者，但在星际联盟的领土上到处隐藏着这样的神殿。[br/][br/]与该区域相连的殖民地获得 {Research} 研究和 {Energy} 能量。[br/]相连殖民地生产的单位获得 {UnitBonus} 灵能抵抗。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -1064,22 +1015,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >An old Imperial Seed vault, used to store DNA samples and seeds of all varieties of creatures and vegetation for research purposes. Visiting units gain {experience} experience during their next combat.[br/][br/]The DNA Vault adds {food} when it is within a colony's domain.</Data></Cell><Cell
+          >An old Imperial Seed vault, used to store DNA samples and seeds of all varieties of creatures and vegetation for research purposes. [br/][br/]Grants {Research} Research and {Supply} Food to the colony it is linked to.[br/]Biological and Cyborg units built in the linked colony gain {UnitBonus}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >一处古老的帝国基因宝库，储存有用于研究的基因样本和各种生物和植物的种子，可使拜访单位在下次战斗时获得 {experience} 经验。[br/][br/]基因宝库位于殖民地区域内时可增加{food}。</Data></Cell><Cell
-          ss:Index="7"
-          ss:StyleID="s63"
-        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
-            ss:Type="String"
-          >DNA_VAULT</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STATUS_EFFECT</Data></Cell><Cell><Data
-            ss:Type="String"
-          >This unit gains {experience} experience during their next combat.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >该单位下次战斗时获得 {experience} 经验。</Data></Cell><Cell
+          >一处古老的帝国基因宝库，用来储存进行研究的 DNA 样本和各种生物和植物的种子。[br/][br/]与该区域相连的殖民地获得 {Research} 研究和 {Supply} 食物。[br/]相连殖民地生产的生物单位和半机械人单位获得 {UnitBonus}。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -1110,31 +1049,18 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >An old, abandoned terraforming outpost that still has some supplies left, including some imperial-grade stimulants that boost the immune system. Visiting units gain {Resistance} to all resistances for their next combat. [br/][br/]The Terraforming Outpost adds {food} when it is within a colony's domain.</Data></Cell><Cell
+          >An old, abandoned terraforming outpost that still has some supplies left, including some imperial-grade stimulants that boost the immune system.[br/][br/]Grants {Supply} Food to the colony it is linked to.[br/]Units built in the linked colony gain {UnitBonus} Status Effect Resistance.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >这座被遗弃的改造前哨虽然古老，但里面仍有一些补给残留，其中包括一些能够增强免疫系统的帝国级刺激剂。拜访单位在下次战斗时获得 {Resistance} 全抗。[br/][br/]改造前哨位于殖民地区域内时能够增加{food}。</Data></Cell><Cell
+          >这座被遗弃的改造前哨虽然古老，但里面仍有一些补给残留，其中包括一些能够增强免疫系统的帝国级刺激剂。[br/][br/]与该区域相连的殖民地获得 {Supply} 食物。[br/]相连殖民地生产的单位获得 {UnitBonus} 状态效果抵抗。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         ><Data
             ss:Type="String"
           >Imperial-grade stimulants are a kind of drug you can inject yourself with to boost your immune system / resistance</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="45"
       ><Cell><Data ss:Type="String">TERRAFORMING_OUTPOST</Data></Cell><Cell
-        ><Data ss:Type="String">STATUS_EFFECT</Data></Cell><Cell><Data
-            ss:Type="String"
-          >This unit is under the effect of imperial-grade stimulants and has a boosted immune system. All of its resistances are increased by {resistance}.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >该单位仍处在帝国级别刺激剂的影响下，免疫系统得到全面提升，全抗提高 {resistance}。</Data></Cell><Cell
-          ss:Index="7"
-          ss:StyleID="s63"
-        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
-            ss:Type="String"
-          >TERRAFORMING_OUTPOST</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FEATURE</Data></Cell><Cell><Data
+        ><Data ss:Type="String">FEATURE</Data></Cell><Cell><Data
             ss:Type="String"
           >{Income}</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1341,10 +1267,10 @@
       ><Cell><Data ss:Type="String">PULSE_DEFENSE_TURRET</Data></Cell><Cell
         ><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >[bulletList][bullet]In combat, every {turns}[turn/] turns:[/bullet][bulletList][bullet]All [abilityred]enemy[/abilityred] Mechanical and Cyborg units suffer {TCdamage} Arc damage.[/bullet][bullet][abilityred]Enemy[/abilityred] Mechanical and Cyborg units have a strength {Stunchance} chance to be [abilityred]Stunned[/abilityred] for {Stunduration}.[/bullet]</Data></Cell><Cell
+          >[bulletList][bullet]In combat, every {turns}turns:[/bullet][bulletList][bullet]All [abilityred]enemy[/abilityred] Mechanical and Cyborg units suffer {TCdamage} Arc damage.[/bullet][bullet][abilityred]Enemy[/abilityred] Mechanical and Cyborg units have a strength {Stunchance} chance to be [abilityred]Stunned[/abilityred] for {Stunduration}.[/bullet]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >[bulletList][bullet]在战斗中，每 {turns}[turn/] 个回合：[/bullet][bulletList][bullet]所有[abilityred]敌方[/abilityred]机械和半机械人单位受到 {TCdamage} 电弧伤害。[/bullet][bullet][abilityred]敌方[/abilityred]机械和半机械人单位有 {Stunchance} 力量几率陷入[abilityred]晕眩[/abilityred]，持续 {Stunduration}。[/bullet]</Data></Cell><Cell
+          >[bulletList][bullet]在战斗中，每 {turns} 个回合：[/bullet][bulletList][bullet]所有[abilityred]敌方[/abilityred]机械和半机械人单位受到 {TCdamage} 电弧伤害。[/bullet][bullet][abilityred]敌方[/abilityred]机械和半机械人单位有 {Stunchance} 力量几率陷入[abilityred]晕眩[/abilityred]，持续 {Stunduration}。[/bullet]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -1393,10 +1319,10 @@
       ><Cell><Data ss:Type="String">AERIAL_DENIAL_SYSTEM</Data></Cell><Cell
         ><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >[bulletList][bullet]In combat, every {turns}[turn/] turn: [/bullet][bulletList][bullet]A random [abilityred]Enemy[/abilityred] Flying unit suffers {TCdamage} Kinetic damage and the Turbulence debuff for {turnsTurbulence} turns.[/bullet]</Data></Cell><Cell
+          >[bulletList][bullet]In combat, every {turns} turn: [/bullet][bulletList][bullet]A random [abilityred]Enemy[/abilityred] Flying unit suffers {TCdamage} Kinetic damage and the Turbulence debuff for {turnsTurbulence} turns.[/bullet]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >[bulletList][bullet]在战斗中，每 {turns}[turn/] 个回合：[/bullet][bulletList][bullet]一名随机[abilityred]敌方[/abilityred]飞行单位受到 {TCdamage} 动能伤害和“颠簸”减益效果，持续 {turnsTurbulence} 回合。[/bullet]</Data></Cell><Cell
+          >[bulletList][bullet]在战斗中，每 {turns} 个回合：[/bullet][bulletList][bullet]一名随机[abilityred]敌方[/abilityred]飞行单位受到 {TCdamage} 动能伤害和“颠簸”减益效果，持续 {turnsTurbulence} 回合。[/bullet]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -2211,12 +2137,108 @@ Paragon Trooper and Paragon Guards are the unit names.</Data></Cell></Row><Row
             ss:Type="String"
           >该建筑正在重建，将于 [INT_duration] 后完成。</Data></Cell><Cell
           ss:Index="7"
-        ><Data ss:Type="String">edit: rebuilt</Data></Cell></Row><Row><Cell
-        ><Data ss:Type="String" /></Cell><Cell><Data
+        ><Data ss:Type="String">edit: rebuilt</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REPAIR_STATION</Data></Cell><Cell><Data
             ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          >STATUS_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's weapons have been modified to deal {Damage} damage during their next combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的武器经过了改造，下次战斗时造成 {Damage} 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TERRAFORMING_OUTPOST</Data></Cell><Cell
+        ><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{UnitBonus} resistance to all status effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >对所有状态效果 +{UnitBonus} 抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BROADCAST_STATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Broadcast Station</Data></Cell><Cell><Data
+            ss:Type="String"
+          >广播站</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Resource node name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BROADCAST_STATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Star Union maintained a strong planetary communication and propaganda network. During the empire's prime, these towers allowed for interplanetary communication as well. [br/][br/]Grants {Influencegain} Influence to the colony it is linked to.[br/]Units built in the linked colony gain {UnitBonus} accuracy on their attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >星际联盟维持着强大的星际通讯和宣传网络。在帝国全盛时期，这些传输塔可为星际通讯提供支持。[br/][br/]相连的殖民地获得 {Influencegain} 影响力。[br/]相连殖民地生产的单位在攻击时获得 {UnitBonus} 准度。</Data></Cell><Cell
           ss:Index="7"
         ><Data
+            ss:Type="String"
+          >Resource node description. Autonom are an NPC faction of robots</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BROADCAST_STATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >No translation required.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BROADCAST_STATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Accuracybonus} accuracy.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Accuracybonus} 准度。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PARAGON_BARRACKS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Paragon Barracks</Data></Cell><Cell><Data
+            ss:Type="String"
+          >完人兵营</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Resource node name.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PARAGON_BARRACKS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Though the Paragon maintain a sizable military despite the Star Union's decline, these facilities serve as a reminder of the power the Paragon's legions used to maintain. [br/][br/]Grants {Energy} Energy and {Production} Production to the colony it is linked to.[br/]Light units built in the linked colony gain {UnitBonus}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >尽管星际联盟分崩离析，但完人依旧维持着相当规模的军队，这些设施提醒着人们完人军团的强大。[br/][br/]相连的殖民地获得 {Energy} 能量和 {Production} 产力。[br/]相连殖民地生产的轻型单位获得 {UnitBonus}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Resource node description. Paragon are an NPC faction</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PARAGON_BARRACKS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DWELLING_INCOME_GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{Income}</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
           >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data

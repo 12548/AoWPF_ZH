@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>16365</WindowHeight><WindowWidth>28800</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -89,11 +89,11 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This is an energy exploitation. It provides various economic bonuses based on its level. Levels can be increased via economic research.</Data></Cell><Cell
+          >A sector dedicated to producing energy[energy/], allowing us to build and maintain larger armies.[br/]{XML_COLONYUPGRADES_STRATEGIC@EXPLOITATION_SHARED@LEVEL_DESCRIPTION}</Data></Cell><Cell
           ss:StyleID="s63"
         ><Data
             ss:Type="String"
-          >能源开发建筑，不同等级可提供不同经济加成。可通过经济研究进行升级。</Data></Cell><Cell
+          >专门生产能量 [energy/] 的区域，从而组建并维持更庞大的军队。[br/]{XML_COLONYUPGRADES_STRATEGIC@EXPLOITATION_SHARED@LEVEL_DESCRIPTION}</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         ><Data
@@ -170,10 +170,10 @@ Sector Exploitations have a Level, which is their upgrade level, so a level 1 se
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This is a production exploitation. It provides various economic bonuses based on its level. Levels can be increased via economic research.</Data></Cell><Cell
+          >A sector dedicated to increasing production[production/], allowing the colony to produce units and structures more quickly.[br/]{XML_COLONYUPGRADES_STRATEGIC@EXPLOITATION_SHARED@LEVEL_DESCRIPTION}</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >工业开发建筑，不同等级可提供不同经济加成。可通过经济研究进行升级。</Data></Cell></Row><Row
+          >专门提升产力 [production/] 的区域，可提升殖民地生产单位和建造建筑的速度。[br/]{XML_COLONYUPGRADES_STRATEGIC@EXPLOITATION_SHARED@LEVEL_DESCRIPTION}</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data
@@ -228,10 +228,10 @@ Sector Exploitations have a Level, which is their upgrade level, so a level 1 se
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This is a food exploitation. It provides various economic bonuses based on its level. Levels can be increased via economic research.</Data></Cell><Cell
+          >A sector dedicated to producing food[food/], allowing the colony to gain colonists and annex sectors more quickly.[br/]{XML_COLONYUPGRADES_STRATEGIC@EXPLOITATION_SHARED@LEVEL_DESCRIPTION}</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >农业开发建筑，不同等级可提供不同经济加成。可通过经济研究进行升级。</Data></Cell></Row><Row
+          >专门生产食物 [food/] 的区域，可提升殖民地获得移住民和吞并区域的速度。[br/]{XML_COLONYUPGRADES_STRATEGIC@EXPLOITATION_SHARED@LEVEL_DESCRIPTION}</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -285,10 +285,10 @@ Sector Exploitations have a Level, which is their upgrade level, so a level 1 se
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This is a research exploitation. It provides various economic bonuses based on its level. Levels can be increased via economic research.</Data></Cell><Cell
+          >A sector dedicated to producing research[research/], allowing us to unlock new technologies more quickly.[br/]{XML_COLONYUPGRADES_STRATEGIC@EXPLOITATION_SHARED@LEVEL_DESCRIPTION}</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >研究开发建筑，不同等级可提供不同经济加成。可通过经济研究进行升级。</Data></Cell></Row><Row
+          >专门从事研究 [research/] 的区域，可提升解锁新科技的速度。[br/]{XML_COLONYUPGRADES_STRATEGIC@EXPLOITATION_SHARED@LEVEL_DESCRIPTION}</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data
@@ -343,10 +343,10 @@ Sector Exploitations have a Level, which is their upgrade level, so a level 1 se
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This is a hydro-exploitation. It provides bonuses to both food and energy income. Levels can be increased via economic research. Due to the nature of hydro-exploitation, fewer levels can be gained than from other terrain.</Data></Cell><Cell
+          >A dedicated economic base on the water, providing energy[energy/], research[research/] and food[food/] for a flexible colony.[br/][br/]The level depends on colony structures unlocked via research.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >水利开发建筑，可提供食物和能源收益加成。可通过经济研究进行升级。由于水利开发的特性，该建筑可升级的次数少于其他地形。</Data></Cell><Cell
+          >专门的水上经济基地，可为一个殖民地提供能量 [energy/]、研究 [research/]和食物 [food/]。[br/][br/]等级取决于通过研究解锁的殖民地建筑。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -468,18 +468,18 @@ Sector Exploitations have a Level, which is their upgrade level, so a level 1 se
       ><Cell><Data ss:Type="String">CITY_SECTOR_HOSPITAL</Data></Cell><Cell
         ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Colonial Field Hospital</Data></Cell><Cell><Data
+          >Holistic Military Care Center</Data></Cell><Cell><Data
             ss:Type="String"
-          >殖民区战地医院</Data></Cell></Row><Row
+          >整合军事保健中心</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
       ><Cell><Data ss:Type="String">CITY_SECTOR_HOSPITAL</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The Field Hospital is a defensive military structure that can aid friendly armies within the colony's domain.[br/][br/]Friendly units within this colony's domain regenerate an extra {hp} each turn.</Data></Cell><Cell
+          >The Holistic Military Care Center provides comprehensive care and recouperation to friendly armies within the colony's domain.[br/][br/]Friendly units within this colony's domain have {moraleBonus}[happiness/] and regenerate an extra {hp} each turn.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >战地医院是一种防御性军事建筑，能够帮助殖民地领域内的友方军队。[br/][br/]该殖民地领域内的友方单位每回合额外恢复 {hp}。</Data></Cell><Cell
+          >整合军事保健中心能够为殖民地领域内的友军提供全面的护理和保健。[br/][br/]该殖民地领域内的友方单位获得 {moraleBonus}[happiness/] 且每回合额外恢复 {hp}。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -722,10 +722,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Gathering all broods together allows for more efficient reproduction turnover.[br/][br/]Colony gains {productionassupply} of their food [food/] income (after upkeep) as a production [production/] discount when producing units.</Data></Cell><Cell
+          >Gathering all broods together allows for more efficient reproduction turnover.[br/][br/]Colony gains {productionassupply} of their food [food/] income (after upkeep) as a production [production/] discount when producing units. Food income from Food sharing is excluded. Food converted this way can never exceed 50% of current production income.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >把所有的胚胎聚集在一起，提高繁殖效率。[br/][br/]殖民地在生产单位时减少产力[production/]消耗，减少数值等同于殖民地食物[food/]收益（扣除维持消耗之后）的 {productionassupply}。</Data></Cell><Cell
+          >把所有的胚胎聚集在一起来提高繁殖效率。[br/][br/]殖民地生产单位时的产力 [production/] 消耗减少，数值为殖民地食物[food/]收益（扣除维持消耗之后）的 {productionassupply}。通过食物共享获得的食物收益不计算在内，以此方式被转化的食物不可超过当前产力收益的 50%。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -847,9 +847,9 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Arborean Survey Station</Data></Cell><Cell><Data
+          >Arborean Monitoring Station</Data></Cell><Cell><Data
             ss:Type="String"
-          >植物观测站</Data></Cell></Row><Row
+          >植物监控站</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="75"
       ><Cell><Data
@@ -858,10 +858,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell ss:StyleID="s62"><Data
             ss:Type="String"
-          >Natural observatories make for a great pastime for colonists, with the added advantage of increased border scouting.[br/][br/]Colony gains {moralebonus} happiness for each Forest sector within its domain. In addition, colony vision range is increased by 2 hexes.</Data></Cell><Cell
+          >Much knowledge can be gained through the analysis and monitoring of nearby Forest and the creatures within them.[br/][br/]Colony gains {knowledgebonus}[research/] research for each Forest sector within its domain. In addition, colony vision range is increased by 2 hexes.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >天然观测台是移住民很好的消遣去处，同时还有利于边境侦察。[br/][br/]殖民地领域内每有一个森林区域，便获得 {moralebonus} 幸福值收益。此外，殖民地视野范围扩大 2 个单元格。</Data></Cell><Cell
+          >分析和监测附近的森林和生物可以获得很多知识。[br/][br/]殖民地领域内每有一片森林区域，殖民地获得 {knowledgebonus}[research/] 研究。此外，殖民地视野范围扩大 2 个单元格。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -930,10 +930,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_I_II</Data></Cell><Cell ss:StyleID="s62"><Data
             ss:Type="String"
-          >Food sharing tax reduced to {FoodSharingModifier}%[supply/] in this colony.</Data></Cell><Cell
+          >[food/] sharing tax reduced to {FoodSharingModifier}%.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该殖民地内的食物共享税减少至 {FoodSharingModifier}%[supply/]。</Data></Cell><Cell
+          >[food/] 共享税减少至 {FoodSharingModifier}%。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -946,10 +946,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_III_IV</Data></Cell><Cell><Data
             ss:Type="String"
-          >Food sharing tax reduced to {FoodSharingModifier}%[supply/] in this colony.[br/]+{Supply}[supply/] food when all [foodSlot/] slots are filled. </Data></Cell><Cell
+          >[food/] sharing tax reduced to {FoodSharingModifier}%.[br/]{Food}[food/] per colonist in [foodslot/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该殖民地内的食物共享税减少至 {FoodSharingModifier}%[supply/]。[br/]当所有[foodSlot/]槽位填满时，+ {Supply}[supply/]食物。 </Data></Cell></Row><Row
+          >[food/] 共享税减少至 {FoodSharingModifier}%。[br/][foodslot/] 中每个移住民 {Food}[food/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -979,10 +979,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_I_II</Data></Cell><Cell><Data
             ss:Type="String"
-          >{ColonistThreshold} food needed to gain a new colonist. </Data></Cell><Cell
+          >{ColonistThreshold} [food/] for [population/] growth. </Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >需要 {ColonistThreshold} 食物才能获得新的移住民。 </Data></Cell></Row><Row
+          >[population/] 增长需 {ColonistThreshold} [food/]。 </Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data
@@ -991,10 +991,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_III_IV</Data></Cell><Cell><Data
             ss:Type="String"
-          >{ColonistThreshold} food needed to gain a new colonist. Colonists have {ColonistUpkeep} food upkeep per turn.</Data></Cell><Cell
+          >{ColonistThreshold} [food/] for [population/] growth.[br/]{ColonistUpkeep} upkeep per [population/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >需要 {ColonistThreshold} 食物才能获得新的移住民。移住民每回合拥有 {ColonistUpkeep} 的食物维持消耗。</Data></Cell><Cell
+          >[population/] 增长需 {ColonistThreshold} [food/]。[br/]每 [population/] 维持消耗 {ColonistUpkeep}。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -1032,10 +1032,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_I_II</Data></Cell><Cell><Data
             ss:Type="String"
-          >{HappinessThreshold} happiness needed for a happiness event.</Data></Cell><Cell
+          >[happiness/] events require {HappinessThreshold} less [happiness/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >需要 {HappinessThreshold} 幸福值才能生成幸福事件。</Data></Cell></Row><Row
+          >[happiness/] 事件需要的 [happiness/] 减少 {HappinessThreshold}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data
@@ -1044,10 +1044,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_III_IV</Data></Cell><Cell><Data
             ss:Type="String"
-          >{HappinessThreshold} happiness needed for a happiness event. Happiness events generate {HappinessEventMultiplier}.</Data></Cell><Cell
+          >[happiness/] events require {HappinessThreshold} less [happiness/].[br/][happiness/] events generate {HappinessEventMultiplier}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >需要 {HappinessThreshold} 幸福值才能生成幸福事件。幸福事件生成 {HappinessEventMultiplier}。</Data></Cell></Row><Row
+          >[happiness/] 事件需要的 [happiness/] 减少 {HappinessThreshold}。[br/][happiness/] 事件生成 {HappinessEventMultiplier}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -1078,10 +1078,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_I_II</Data></Cell><Cell><Data
             ss:Type="String"
-          >{ProductionDiscount} production cost for Core, Skirmisher and Specialist units including mods.</Data></Cell><Cell
+          >{ProductionDiscount} [production/] cost for non-Elite units.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >拥有模块的核心、散兵和专家单位的产力消耗减少 {ProductionDiscount}。</Data></Cell><Cell
+          >非精英单位的 [production/] 消耗减少 {ProductionDiscount}。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -1094,10 +1094,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_III_IV</Data></Cell><Cell><Data
             ss:Type="String"
-          >{ProductionDiscount} production cost for Core, Skirmisher and Specialist units including mods. Skirmisher and Specialist units produced in the colony have {Armor}.</Data></Cell><Cell
+          >{ProductionDiscount} [production/] cost for non-Elite units.[br/]Non-Elite units are produced with {Armor}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >拥有模块的核心、散兵和专家单位的产力消耗减少 {ProductionDiscount}。殖民地生产的散兵和专家单位拥有 {Armor} 护甲。</Data></Cell></Row><Row
+          >非精英单位的 [production/] 消耗减少 {ProductionDiscount}。[br/]非精英单位在生产时拥有 {Armor}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -1149,10 +1149,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_I_II</Data></Cell><Cell><Data
             ss:Type="String"
-          >{ProductionDiscount} production cost for colony structures.</Data></Cell><Cell
+          >{ProductionDiscount} [production/] cost for colony structures.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >殖民地建筑的产力消耗减少 {ProductionDiscount}。</Data></Cell></Row><Row
+          >殖民地建筑的 [production/] 消耗减少 {ProductionDiscount}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data
@@ -1161,10 +1161,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_III_IV</Data></Cell><Cell><Data
             ss:Type="String"
-          >{ProductionDiscount} production cost for colony structures. The colony gains {ProductionBonus} production for each structure in the colony center.</Data></Cell><Cell
+          >{ProductionDiscount} [production/] cost for colony structures.[br/]{ProductionBonus} for each colony structure built.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >殖民地建筑的产力消耗减少 {ProductionDiscount}。殖民地中心每有一栋建筑，殖民地便获得 {ProductionBonus} 产量。</Data></Cell></Row><Row
+          >殖民地建筑的 [production/] 消耗减少 {ProductionDiscount}。[br/]每建有一个殖民地建筑，获得 {ProductionBonus}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -1195,10 +1195,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_I_II</Data></Cell><Cell><Data
             ss:Type="String"
-          >{ProductionDiscount} production cost for Elite units including mods.</Data></Cell><Cell
+          >{ProductionDiscount} [production/] cost for Elite units.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >拥有模块的精英单位的产力消耗减少 {ProductionDiscount}。</Data></Cell><Cell
+          >精英单位的 [production/] 消耗减少 {ProductionDiscount}。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -1211,10 +1211,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_III_IV</Data></Cell><Cell><Data
             ss:Type="String"
-          >{ProductionDiscount} production cost for Elite units including mods. Elite units produced in the colony have {Armor} armor.</Data></Cell><Cell
+          >{ProductionDiscount} [production/] cost for Elite units.[br/]Elite units are produced with {Armor}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >拥有模块的精英单位的产力消耗减少 {ProductionDiscount}。殖民地生产的精英单位拥有 {Armor} 护甲。</Data></Cell></Row><Row
+          >精英单位的 [production/] 消耗减少 {ProductionDiscount}。[br/]精英单位在生产时拥有 {Armor}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -1245,10 +1245,9 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_I_II</Data></Cell><Cell><Data
             ss:Type="String"
-          >{EnergyCost} energy cost for units including mods.</Data></Cell><Cell
-        ><Data
+          >{EnergyCost} [energy/] cost for units.</Data></Cell><Cell><Data
             ss:Type="String"
-          >拥有模块的单位的能源消耗为 {EnergyCost}。</Data></Cell><Cell
+          >单位消耗 {EnergyCost}[energy/]。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -1261,10 +1260,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_III_IV</Data></Cell><Cell><Data
             ss:Type="String"
-          >{EnergyCost} energy cost for units including mods. Units produced in this colony have {UnitUpkeep} energy upkeep.</Data></Cell><Cell
+          >{EnergyCost} [energy/] cost for units.[br/]Units are produced with {UnitUpkeep} [energy/] upkeep.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >拥有模块的单位的能源消耗为 {EnergyCost}。该殖民地生产的单位拥有 {UnitUpkeep} 的能源维持消耗。</Data></Cell><Cell
+          >单位消耗 {EnergyCost}[energy/]。[br/]单位在生产时拥有 {UnitUpkeep}[energy/] 的维持消耗。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -1298,10 +1297,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Deploying an Arc defense grid provides vision and scanner coverage to your colony borders. At higher levels, the defense grid becomes so strong that it increases the colony's operational defense.[br/][br/][productioncol]This can only be built in an energy exploitation sector.[/productioncol]</Data></Cell><Cell
+          >Deploying an Arc defense grid provides vision and scanner coverage to your colony borders. At higher levels, the defense grid becomes so strong that it increases the colony domain's operational defense.[br/][br/][productioncol]This can only be built in an energy exploitation sector.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >部署一道电弧防御网，能够提供殖民地边境的视野和扫面覆盖范围。提升至更高等级后，防御网将变得更加强大，提升殖民地的行动防御。[br/][br/][productioncol]仅可在能源开发点区域建造。[/productioncol]</Data></Cell></Row><Row
+          >部署一道电弧防御网，能够提供殖民地边境的视野和扫面覆盖范围。提升至更高等级后，防御网将变得更加强大，使其能够提升殖民地领域的行动防御。[br/][br/][productioncol]仅可在能量开发点区域建造。[/productioncol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -1309,10 +1308,9 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_I</Data></Cell><Cell><Data
             ss:Type="String"
-          >{Range} to Vision and Sensor range of colony borders.</Data></Cell><Cell
-        ><Data
+          >{Range} to colony Vision and Sensor range.</Data></Cell><Cell><Data
             ss:Type="String"
-          >殖民地边境视野和感应范围增加 {Range}。</Data></Cell></Row><Row
+          >殖民地视野和传感器范围增加 {Range}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data
@@ -1321,10 +1319,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_II</Data></Cell><Cell><Data
             ss:Type="String"
-          >{Range} to Vision and Sensor range of colony borders. Colony gains True Sight.</Data></Cell><Cell
+          >{Range} to colony Vision and Sensor range.[br/]Colony gains True Sight.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >殖民地边境视野和感应范围增加 {Range}。殖民地获得真实视野。</Data></Cell></Row><Row
+          >殖民地视野和传感器范围增加 {Range}。[br/]殖民地获得真实视野。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data
@@ -1333,10 +1331,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_III_IV</Data></Cell><Cell><Data
             ss:Type="String"
-          >{Range} to Vision and Sensor range of colony borders. Colony gains True Sight and {OpDefense} operational defense within its domain.</Data></Cell><Cell
+          >{Range} to colony Vision and Sensor range.[br/]Colony gains True Sight and {OpDefense} [operationdefense/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >殖民地边境视野和感应范围增加 {Range}。殖民地获得真实视野且殖民地领域内获得 {OpDefense} 行动防御。</Data></Cell></Row><Row
+          >殖民地视野和传感器范围增加 {Range}。[br/]殖民地获得真实视野和 {OpDefense} [operationdefense/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -1355,10 +1353,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >By controlling colonists and optimizing work processes, efficient gains can be reached during times of focused effort. At higher levels, increased energy production gains can be reached by fully focusing in this direction.[br/][br/][productioncol]This can only be built in an energy exploitation sector.[/productioncol]</Data></Cell><Cell
+          >By controlling colonists and optimizing work processes, efficient gains can be reached during times of focused effort. At higher levels, increased energy gains can be gained from all energy workers.[br/][br/][productioncol]This can only be built in an energy exploitation sector.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >管理殖民地并优化工作流程，集中精力，重点突破，从而实现更高的效益。提升至更高等级后，通过抓住重点发展方向，实现能源产力收益的提升。[br/][br/][productioncol]仅可在能源开发点区域建造。[/productioncol]</Data></Cell><Cell
+          >管理殖民地并优化工作流程，集中精力，重点突破，从而实现更高的效益。提升至更高等级后，提高所有能量工人可以获得的能量。[br/][br/][productioncol]仅可在能量开发点区域建造。[/productioncol]</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
@@ -1367,10 +1365,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_I_II</Data></Cell><Cell><Data
             ss:Type="String"
-          >{CostReduction} energy cost for instantly completing production.</Data></Cell><Cell
+          >"Buy Now" costs {CostReduction} less [energy/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >瞬时完成生产的能源消耗减少 {CostReduction}。</Data></Cell><Cell
+          >“即刻购买”的 [energy/] 消耗减少 {CostReduction}。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -1383,10 +1381,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_III_IV</Data></Cell><Cell><Data
             ss:Type="String"
-          >{CostReduction} energy cost for instantly completing production. Colony gains {Energy} when all energy slots are filled.</Data></Cell><Cell
+          >"Buy Now" costs {CostReduction} less [energy/].[br/]{Energy}[energy/] per colonist in [energyslot/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >瞬时完成生产的能源消耗减少 {CostReduction}。当所有能源槽位填满时，殖民地获得 {Energy} 能源。</Data></Cell></Row><Row
+          >“即刻购买”的 [energy/] 消耗减少 {CostReduction}。[br/][energyslot/] 中每个移住民 {Energy}[energy/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -1405,10 +1403,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Investing research into society progression will allow quicker access to exploitations of the land, leading to long term economic advantages over other factions, as well as faster access to advanced governmental doctrines and espionage opportunities. At higher levels, colony-wide bonuses can be achieved by focusing all your efforts into research.[br/][br/][productioncol]This can only be built in an research exploitation sector.[/productioncol]</Data></Cell><Cell
+          >Investing research into society progression will allow quicker access to exploitations of the land, leading to long term economic advantages over other factions, as well as faster access to advanced governmental doctrines and espionage opportunities. At higher levels, we can increase the general output of all our science workers.[br/][br/][productioncol]This can only be built in an research exploitation sector.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >投资社会发展研究可加快土地开发流程，从而比其他阵营获得更长远的经济优势，同时更快接触到高级政府学说和从事间谍活动的机会。提升至更高等级后，通过全力投入研究活动，使整个殖民地获得加成。[br/][br/][productioncol]仅可在研究开发点区域建造。[/productioncol]</Data></Cell></Row><Row
+          >投资社会发展研究可加快土地开发流程，从而比其他阵营获得更长远的经济优势，同时能够更快地接触到高级政府学说和从事间谍活动的机会。提升至更高等级后，我们可以提升所有科学工人的整体产出。[br/][br/][productioncol]仅可在研究开发点区域中建造。[/productioncol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data
@@ -1417,10 +1415,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_I_II</Data></Cell><Cell><Data
             ss:Type="String"
-          >{ResearchPercentage} additional research income for Society research in this colony.</Data></Cell><Cell
+          >{ResearchPercentage} [research/] for Society research.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该殖民地的社会研究额外获得 {ResearchPercentage} 研究收益。</Data></Cell><Cell
+          >社会研究消耗 {ResearchPercentage} [research/]。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -1433,10 +1431,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_III_IV</Data></Cell><Cell><Data
             ss:Type="String"
-          >{ResearchPercentage} additional research income for Society research in this colony. The colony gains {ResearchIncome} research income when all research slots are filled.</Data></Cell><Cell
+          >{ResearchPercentage} [research/] for Society research.[br/]{Research}[research/] per colonist in [researchslot/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该殖民地的社会研究额外获得 {ResearchPercentage} 研究收益。当所有研究槽位填满时，殖民地获得 {ResearchIncome} 研究收益。</Data></Cell></Row><Row
+          >社会研究消耗 {ResearchPercentage} [research/]。[br/][researchslot/] 中每个移住民 {Research}[research/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -1444,9 +1442,9 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Expedited Learning Center</Data></Cell><Cell><Data
+          >Cosmite Amplification Lab</Data></Cell><Cell><Data
             ss:Type="String"
-          >快速学习中心</Data></Cell></Row><Row
+          >宇宙合金强化实验室</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="90"
       ><Cell><Data
@@ -1455,10 +1453,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >By dedicating research infrastructure to educating troops, their learning capabilities can be enhanced. At higher levels, troops will start with simulated combat experience.[br/][br/]Due to their alien nature, Psi-Fish cannot benefit from this upgrade.[br/][br/][productioncol]This can only be built in an research exploitation sector.[/productioncol]</Data></Cell><Cell
+          >High powered quantum accelerators can amplify the energetic properties of Comsite, meaning less is required for military applications. At higher levels, we can merge traces of stabilized cosmites into our armor, boosting our troops resistance to enemy attacks.[br/][br/][productioncol]This can only be built in an research exploitation sector.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >教育部队专用的研究基础设施，能够提升部队的学习能力。提升至更高等级后，部队将开始进行模拟战斗。[br/][br/]由于灵能水母具有异域性，因此不能从此升级中获益。[br/][br/][productioncol]仅可在研究开发点区域建造。[/productioncol]</Data></Cell><Cell
+          >高能量子加速器可以增强宇宙合金的能量属性，从而使军事应用中需要的能量更少。提升至更高等级后，我们可以将稳定的宇宙合金融入护甲之中，从而提高我们部队的攻击抗性。[br/][br/][productioncol]仅可在研究开发点区域建造。[/productioncol]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -1471,10 +1469,9 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_I_II</Data></Cell><Cell><Data
             ss:Type="String"
-          >Units produced in this colony gain experience {ExperienceGain} faster.</Data></Cell><Cell
-        ><Data
+          >{CosmiteCost} [tricorium/] cost for units.</Data></Cell><Cell><Data
             ss:Type="String"
-          >该殖民地生产的单位的经验获得速度提升 {ExperienceGain}。</Data></Cell></Row><Row
+          >单位消耗 {CosmiteCost}[tricorium/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data
@@ -1483,10 +1480,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_III_IV</Data></Cell><Cell><Data
             ss:Type="String"
-          >Units produced in this colony gain experience {ExperienceGain} faster. Units produced gain {RankUp} rank.</Data></Cell><Cell
+          >{CosmiteCost} [tricorium/] cost for units.[br/]Units are produced with {Resistance} resistance to status effects.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该殖民地生产的单位的经验获得速度提升 {ExperienceGain}。生产的单位获得 {RankUp} 军阶。</Data></Cell></Row><Row
+          >单位消耗 {CosmiteCost}[tricorium/]。[br/]单位在生产时拥有 {Resistance} 状态效果抵抗。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -1494,9 +1491,9 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >PROPERTY_NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Well Trained</Data></Cell><Cell><Data
+          >Stabilized Cosmite</Data></Cell><Cell><Data
             ss:Type="String"
-          >训练有素</Data></Cell></Row><Row
+          >稳定的宇宙合金</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data
@@ -1505,10 +1502,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit is well trained, earning {experience} more experience from all sources.</Data></Cell><Cell
+          >This unit is infused with stabilized cosmite, and has {resistance} resistance against status effects.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位训练有素，从所有途径中获得的经验额外增加 {experience}。</Data></Cell></Row><Row
+          >该单位注入了稳定的宇宙合金，拥有 {resistance} 状态效果抵抗。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -1527,10 +1524,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Dedicating research to military innovation allows the unlocking of units, unit modifications and operations to increase the defensive capabilities of your forces. At higher levels, colony-wide bonuses can be achieved by focusing all your efforts into research.[br/][br/][productioncol]This can only be built in an research exploitation sector.[/productioncol]</Data></Cell><Cell
+          >Dedicating research to military innovation allows the unlocking of units, unit modifications and operations to increase the defensive capabilities of your forces. At higher levels, we can insert scientists into training teams, increasing the quality of produced troops.[br/][br/][productioncol]This can only be built in an research exploitation sector.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >专注于研究军事创新能够解锁单位、单位模块和行动，从而提升部队的防御能力。提升至更高等级后，通过全力投入研究活动，使整个殖民地获得加成。[br/][br/][productioncol]仅可在研究开发点区域建造。[/productioncol]</Data></Cell></Row><Row
+          >专注于研究军事创新能够解锁单位、单位模块和行动，从而提升部队的防御能力。提升至更高等级后，我们可以指派科学家加入训练队伍，从而优化生产部队的质量。[br/][br/][productioncol]仅可在研究开发点区域建造。[/productioncol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data
@@ -1539,10 +1536,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_I_II</Data></Cell><Cell><Data
             ss:Type="String"
-          >{ResearchPercentage} additional research income for Military research in this colony.</Data></Cell><Cell
+          >{ResearchPercentage} [research/] for Military research.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该殖民地的军事研究额外获得 {ResearchPercentage} 研究收益。</Data></Cell><Cell
+          >军事研究消耗 {ResearchPercentage} [research/]。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -1555,10 +1552,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_III_IV</Data></Cell><Cell><Data
             ss:Type="String"
-          >{ResearchPercentage} additional research income for Military research in this colony. The colony gains {ResearchIncome} research income when all research slots are filled.</Data></Cell><Cell
+          >{ResearchPercentage} [research/] for Military research.[br/]Units produced gain {RankUp} [medaliron/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该殖民地的军事研究额外获得 {ResearchPercentage} 研究收益。当所有研究槽位填满时，殖民地获得 {ResearchIncome} 研究收益。</Data></Cell></Row><Row
+          >军事研究消耗 {ResearchPercentage} [research/]。[br/]生产的单位获得 {RankUp} [medaliron/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -1588,10 +1585,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_I_II</Data></Cell><Cell><Data
             ss:Type="String"
-          > +{Food} for each food and hydro exploitation in the colony.</Data></Cell><Cell
+          > +{Food} for each [food/] and [watersector/] exploitation.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          > 殖民地中每有一个食物和水利开发点，+ {Food}。</Data></Cell></Row><Row
+          > 每个 [food/] 和 [watersector/] 开发点 + {Food}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data
@@ -1600,10 +1597,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_III_IV</Data></Cell><Cell><Data
             ss:Type="String"
-          > +{Food} for each food and hydro exploitation in the colony.[br/]+{FoodPercentage}[supply/] income in the colony.</Data></Cell><Cell
+          > +{Food} for each [food/] and [watersector/] exploitation.[br/]+{FoodPercentage}[supply/] income.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          > 殖民地中每有一个食物和水利开发点，+ {Food}。[br/]殖民地收益 + {FoodPercentage}[supply/]。</Data></Cell></Row><Row
+          > 每个 [food/] 和 [watersector/] 开发点 + {Food}。[br/]+ {FoodPercentage}[supply/] 收益。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -1633,10 +1630,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_I_II</Data></Cell><Cell><Data
             ss:Type="String"
-          > +{Energy} for each energy and hydro exploitation in the colony. </Data></Cell><Cell
+          > +{Energy} for each [energy/] and [watersector/] exploitation.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          > 殖民地中每有一个能源和水利开发点，+ {Energy}。 </Data></Cell></Row><Row
+          > 每个 [energy/] 和 [watersector/] 开发点 + {Energy}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data
@@ -1645,10 +1642,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_III_IV</Data></Cell><Cell><Data
             ss:Type="String"
-          > +{Energy} for each energy and hydro exploitation in the colony.[br/]+{EnergyPercentage}[energy/] income in the colony.</Data></Cell><Cell
+          > +{Energy} for each [energy/] and [watersector/] exploitation.[br/]+{EnergyPercentage}[energy/] income.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          > 殖民地中每有一个能源和水利开发点，+ {Energy}。[br/]殖民地 + {EnergyPercentage}[energy/] 收益。</Data></Cell></Row><Row
+          > 每个 [energy/] 和 [watersector/] 开发点 + {Energy}。[br/]+ {EnergyPercentage}[energy/] 收益。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -1667,10 +1664,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Specialized naval training facilities can decrease production times for naval units and make for faster embarkation. At higher levels, naval units produced gain experience levels.[br/][br/][productioncol]This can only be built in an hydro-exploitation sector.[/productioncol][br/][br/][firecol]Unit costs can never be lowered more than 75%.[/firecol]</Data></Cell><Cell
+          >Specialized naval training facilities can decrease production times for naval units. At higher levels, naval units produced gain experience levels.[br/][br/][productioncol]This can only be built in an hydro-exploitation sector.[/productioncol][br/][br/][firecol]Unit costs can never be lowered more than 75%.[/firecol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >专用海军训练设施可以缩短海军单位的生产时间和登船时间。提升至更高等级后，生产的海军单位将获得经验等级。[br/][br/][productioncol]仅可在水利开发点区域建造。[/productioncol][br/][br/][firecol]单位消耗减少不能超过 75%。[/firecol]</Data></Cell></Row><Row
+          >专用海军训练设施可以缩短海军单位的生产时间。提升至更高等级后，生产的海军单位将获得经验等级。[br/][br/][productioncol]仅可在水利开发点区域建造。[/productioncol][br/][br/][firecol]单位消耗减少不能超过 75%。[/firecol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data
@@ -1679,10 +1676,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_II</Data></Cell><Cell><Data
             ss:Type="String"
-          >Naval units are {ProductionDiscount} cheaper to produce. Embarking within the colony's domain does not cost any additional move points.</Data></Cell><Cell
+          >{ProductionDiscount}[production/] cost for naval units.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >海军单位的产力消耗减少 {ProductionDiscount}。在殖民地领域内登船不会消耗任何额外的移动点数。</Data></Cell><Cell
+          >海军单位的 [production/] 消耗减少 {ProductionDiscount}。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -1695,10 +1692,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_III_IV</Data></Cell><Cell><Data
             ss:Type="String"
-          >Naval units are {ProductionDiscount} cheaper to produce. Embarking within the colony's domain does not cost any additional move points. Naval units produced in the colony have {RankUp} rank.</Data></Cell><Cell
+          >{ProductionDiscount}[production/] cost for naval units.[br/]Naval units produced have {RankUp} [medaliron/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >海军单位的产力消耗减少 {ProductionDiscount}。在殖民地领域内登船不会消耗任何额外的移动点数。殖民地生产的海军单位拥有 {RankUp} 军阶。</Data></Cell></Row><Row
+          >海军单位的 [production/] 消耗减少 {ProductionDiscount}。[br/]生产的海军单位获得 {RankUp} [medaliron/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -1734,11 +1731,11 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_II</Data></Cell><Cell><Data
             ss:Type="String"
-          > +{Research} for each research and hydro exploitation in the colony.</Data></Cell><Cell
+          > +{Research} for each [research/] and [watersector/] exploitation.</Data></Cell><Cell
           ss:StyleID="s63"
         ><Data
             ss:Type="String"
-          > 殖民地中每有一个研究和水利开发点，+ {Research}。</Data></Cell></Row><Row
+          > 每个 [research/] 和 [watersector/] 开发点 + {Research}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data
@@ -1747,10 +1744,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >LEVEL_III_IV</Data></Cell><Cell><Data
             ss:Type="String"
-          > +{Research} for each research and hydro exploitation in the colony.[br/]+{ResearchPercentage}[research/] income in the colony.</Data></Cell><Cell
+          > +{Research} for each [research/] and [watersector/] exploitation.[br/]+{ResearchPercentage}[research/] income.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          > 殖民地中每有一个研究和水利开发点，+ {Research}。[br/]殖民地 + {ResearchPercentage}[research/]收益。</Data></Cell></Row><Row
+          > 每个 [research/] 和 [watersector/] 开发点 + {Research}。[br/]+ {ResearchPercentage}[research/] 收益。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">SKIRMISH_BUILDING</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1841,10 +1838,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
       ><Cell><Data ss:Type="String">STARTER_BUILDING_FOOD</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >An efficient biofarm to provide a boost to a newly settled colony's growth. Provides {Food}[br/][br/][productioncol]Only one Central Structure can be built.[/productioncol]</Data></Cell><Cell
+          >An efficient biofarm provides food[food/] allowing the colony to gain colonists and annex sectors more quickly.[br/]Provides {Food}[br/][br/][productioncol]Only one Central Structure can be built.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >促进新建殖民地经济增长的高效生态农场。提供 {Food}[br/][br/][productioncol]只能建造一个中央建筑。[/productioncol]</Data></Cell></Row><Row
+          >提供食物 [food/] 的高效生态农场，可提升殖民地获得移住民和吞并区域的速度。[br/]提供 {Food}[br/][br/][productioncol]只能建造一栋中央建筑。[/productioncol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">STARTER_BUILDING_ENERGY</Data></Cell><Cell
         ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
@@ -1857,10 +1854,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
       ><Cell><Data ss:Type="String">STARTER_BUILDING_ENERGY</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >A compact reactor design to provide a boost to a newly settled colony's energy grid. Provides {Energy}[br/][br/][productioncol]Only one Central Structure can be built.[/productioncol]</Data></Cell><Cell
+          >A compact reactor provides energy[energy/] to pay for creating and maintaining our armies.[br/]Provides {Energy}[br/][br/][productioncol]Only one Central Structure can be built.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >促进新建殖民地能源网发展的小型反应堆。提供 {Energy}[br/][br/][productioncol]只能建造一栋中央建筑。[/productioncol]</Data></Cell></Row><Row
+          >提供能量 [energy/] 的小型反应堆，可用于组建并维持军队。[br/]提供 {Energy}[br/][br/][productioncol]只能建造一栋中央建筑。[/productioncol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -1879,10 +1876,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >A miniature factory that provides a boost to a newly settled colony's production capabilities. Provides {Production}[br/][br/][productioncol]Only one Central Structure can be built.[/productioncol]</Data></Cell><Cell
+          >A miniature factory that increases production[production/], allowing the colony to produce structures and units more quickly.[br/]Provides {Production}[br/][br/][productioncol]Only one Central Structure can be built.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >促进新建殖民地生产能力发展的小型工厂。提供 {Production}[br/][br/][productioncol]只能建造一栋中央建筑。[/productioncol]</Data></Cell></Row><Row
+          >提升产力 [production/] 的小型工厂，可提升殖民地生产单位和建造建筑的速度。[br/]提供 {Production}[br/][br/][productioncol]只能建造一栋中央建筑。[/productioncol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">STARTER_BUILDING_RESEARCH</Data></Cell><Cell
         ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
@@ -1895,10 +1892,10 @@ A colony's domain is simply the surface area on the world map that is encompasse
       ><Cell><Data ss:Type="String">STARTER_BUILDING_RESEARCH</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >A basic research facility to provide a boost to a newly settled colony's research effectiveness. Provides {Research}[br/][br/][productioncol]Only one Central Structure can be built.[/productioncol]</Data></Cell><Cell
+          >A laboratory facility that produces research[research/], allowing us to complete research more quickly.[br/]Provides {Research}[br/][br/][productioncol]Only one Central Structure can be built.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >促进新建殖民地研究效率提升的基础研究设施。提供 {Research}[br/][br/][productioncol]只能建造一栋中央建筑。[/productioncol]</Data></Cell></Row><Row
+          >从事研究 [research/] 的实验设施，可提升解锁新科技的速度。[br/]提供 {Research}[br/][br/][productioncol]只能建造一栋中央建筑。[/productioncol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">COLONY_CORE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -3064,13 +3061,30 @@ A colony's domain is simply the surface area on the world map that is encompasse
             ss:Type="String"
           >Research Sectors Advanced Upgrade</Data></Cell><Cell><Data
             ss:Type="String"
-          >研究区域高级升级</Data></Cell></Row><Row><Cell><Data
+          >研究区域高级升级</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">CITY_SECTOR_WATER_LEVEL_I</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+          >{SupplyIncome}[supply/], {EnergyIncome}[energy/], {ResearchIncome}[research/] income</Data></Cell><Cell
+        ><Data
             ss:Type="String"
-          /></Cell><Cell ss:Index="7"><Data
+          >{SupplyIncome}[supply/]，{EnergyIncome}[energy/]，{ResearchIncome}[research/] 收益</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LEVEL_UP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_WATER_II</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Water Sectors Advanced Upgrade</Data></Cell><Cell><Data
+            ss:Type="String"
+          >水域区域高级升级</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
             ss:Type="String"
           >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
@@ -3078,6 +3092,7 @@ A colony's domain is simply the surface area on the world map that is encompasse
         ><Data
             ss:Type="String"
           >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
@@ -3085,6 +3100,16 @@ A colony's domain is simply the surface area on the world map that is encompasse
         ><Data
             ss:Type="String"
           >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXPLOITATION_SHARED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LEVEL_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[br/]The level depends on the sector's features, and colony structures unlocked via research.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[br/]等级取决于区域特征和通过研究解锁的殖民地建筑。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data
@@ -3093,8 +3118,8 @@ A colony's domain is simply the surface area on the world map that is encompasse
       xmlns="urn:schemas-microsoft-com:office:excel"
     ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
         >600</HorizontalResolution><VerticalResolution
-        >600</VerticalResolution></Print><Selected /><Panes><Pane><Number
-          >3</Number><ActiveRow>3</ActiveRow><ActiveCol
-          >5</ActiveCol></Pane></Panes><ProtectObjects
+        >600</VerticalResolution></Print><Selected /><TopRowVisible
+      >270</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >296</ActiveRow><ActiveCol>4</ActiveCol></Pane></Panes><ProtectObjects
       >False</ProtectObjects><ProtectScenarios
       >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

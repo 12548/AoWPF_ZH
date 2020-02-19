@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9150</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
     >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -200,10 +200,10 @@ Commander in this context means the leader of an army, NOT the player character<
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Hero gains [abilityblue]Farsight[/abilityblue], and has [abilityblue]Agile Overwatch[/abilityblue] when using Overwatch.</Data></Cell><Cell
+          >Hero gains [abilityblue]Farsight[/abilityblue], giving {visionRangeBonus} vision range on the world map, and has [abilityblue]Superior Overwatch[/abilityblue] granting {damageBonus} extra damage when usign overwatch.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >英雄获得[abilityblue]远视[/abilityblue]，并且在使用警戒时拥有[abilityblue]灵活警戒[/abilityblue]。</Data></Cell><Cell
+          >英雄获得[abilityblue]远视[/abilityblue]，在世界地图上获得 {visionRangeBonus} 视野范围，并且在使用警戒时拥有[abilityblue]高级警戒[/abilityblue]，可额外造成 {damageBonus} 伤害。</Data></Cell><Cell
           ss:Index="7"
         ><Data ss:Type="String">Skill description.
 Farsight is a unit ability</Data></Cell></Row><Row><Cell><Data

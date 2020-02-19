@@ -117,23 +117,6 @@ VoidTech is an in-game secret tech.</Data></Cell></Row><Row
             ss:Type="String"
           >A defense mode is a special stance a unit can enter in lieu of attacking, that makes their defense stronger on top of additional effects </Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">ESSENCE_DISCIPLE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Essence Disciple</Data></Cell><Cell><Data
-            ss:Type="String"
-          >精华信徒</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
-            ss:Type="String"
-          >ESSENCE_DISCIPLE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >At the end of combat, the hero gains {xpAmount}[xp/] for each [abilityblue][essencecharge/]Essence Charge[/abilityblue] they are carrying.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >战斗结束后，英雄每携带一个 [abilityblue][essencecharge/]精华充能[/abilityblue]就能获得 {xpAmount}[xp/]。[br/]此外，英雄现在可额外携带一个 [abilityblue][essencecharge/]精华充能。[/abilityblue]</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ESSENCE_SHIELDS</Data></Cell><Cell><Data
             ss:Type="String"
           >NAME</Data></Cell><Cell><Data
@@ -150,6 +133,23 @@ VoidTech is an in-game secret tech.</Data></Cell></Row><Row
         ><Data
             ss:Type="String"
           >英雄每携带一个 [abilityblue][essencecharge/]精华充能[/abilityblue]就能获得 {shieldAmount}[shield/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ESSENCE_SEEKER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Essence Seeker</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精华探寻者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ESSENCE_SEEKER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This hero gains {EssenceChance}[strengthEntropy/] strength chance to apply [abilityred]Energy Drain[/abilityred] on all attacks.[br/][br/]This does not stack with any other essence drain effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这名英雄的所有攻击获得 {EssenceChance}[strengthEntropy/] 力量几率施加[abilityred]能量干涸[/abilityred]。[br/][br/]该效果不与其他精华干涸效果叠加。</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell

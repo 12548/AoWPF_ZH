@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -200,10 +200,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Dispel hostile effects from self and all adjacent Biological and Cyborg units, and heal them for {HealingTouchHP}.</Data></Cell><Cell
+          >Dispel hostile effects from all Biological and Cyborg units in the area of effect, and heal them for {HealingTouchHP}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >驱散目标非无意识生物或半机械人单位身上的负面效果，同时治疗 {HealingTouchHP}。</Data></Cell></Row><Row
+          >驱散效果范围内所有生物和半机械人单位身上的负面效果，同时治疗 {HealingTouchHP}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">TENETS_OF_PACIFISM</Data></Cell><Cell><Data
             ss:Type="String"
@@ -236,10 +236,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >All units adjacent to this one have a strength {PacifiedChance} chance of becoming [abilityred]Pacified[/abilityred], disabling damaging abilities for {PacificationAuraTurns}.</Data></Cell><Cell
+          >All units in the area of effect have a strength {PacifiedChance} chance of becoming [abilityred]Pacified[/abilityred], disabling damaging abilities for {PacificationAuraTurns}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >所有与该单位相邻的单位有 {PacifiedChance} 的力量几率被[abilityred]安抚平息[/abilityred]，伤害型技能将会失效，持续 {PacificationAuraTurns}。</Data></Cell></Row><Row
+          >所有效果范围内的单位有 {PacifiedChance} 的力量几率被[abilityred]安抚平息[/abilityred]，伤害型技能将会失效，持续 {PacificationAuraTurns}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">PACIFISM</Data></Cell><Cell><Data
             ss:Type="String"
@@ -289,10 +289,10 @@
             ss:Type="String"
           >GOVERNANCE_SKILL_1_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >We accept everyone who we can possibly sway to follow the Celestian way. By aiding others, we reveal to them the one and only truth.[br/][br/]The cooldown for requesting a new quest from a faction is reduced by {durationChange}[turn/]</Data></Cell><Cell
+          >We accept everyone who we can possibly sway to follow the Celestian way. By aiding others, we reveal to them the one and only truth.[br/][br/]The cooldown for requesting a new quest from a faction is reduced by {durationChange}[turn/].[br/]While active, factions will make demands at a slower rate.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >我们接纳所有可能会改变信仰并追随星神之人。通过帮助他人，我们会向他们揭露这世间唯一的真相。[br/][br/]向阵营请求新任务的冷却时间减少 {durationChange}[turn/]</Data></Cell></Row><Row
+          >我们接纳所有可能会改变信仰并追随星神之人。通过帮助他人，我们会向他们揭露这世间唯一的真相。[br/][br/]向阵营请求新任务的冷却时间减少 {durationChange}[turn/]。[br/]激活时，阵营提出要求的频率将减缓。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -884,10 +884,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target unit is dispelled of negative status effects and is healed for {CleanseHeal}. This heals for an additional {CleanseAddedHeal} for each [abilityblue]Enlightened[/abilityblue] unit in battle.</Data></Cell><Cell
+          >Target unit is dispelled of negative status effects and is healed for {CleanseHeal}. This heals for an additional {CleanseAddedHeal} for each [abilityblue]Enlightened[/abilityblue] unit in battle.[br/]Caps at {MaxCountUnit} units.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >驱散目标友方单位身上的负面状态效果并治疗 {CleanseHeal}。战斗中每有一个[abilityblue]启迪[/abilityblue]单位，便额外治疗 {CleanseAddedHeal}。</Data></Cell></Row><Row
+          >驱散目标单位身上的负面状态效果并治疗 {CleanseHeal}。战斗中每有一个[abilityblue]启迪[/abilityblue]单位，便额外治疗 {CleanseAddedHeal}，[br/]上限为 {MaxCountUnit} 个单位。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">RESURGENCE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -902,10 +902,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Utilize Psionic energy to pre-emptively ward a friendly living unit from death. If this battle results in victory, the target unit is revived after combat ends if it died during combat.</Data></Cell><Cell
+          >Target unit gains [abilityblue]Regeneration[/abilityblue] for {Duration}[turn/], making it recover {HpRegen}[hp/] per turn. Additionally, this unit gains [abilityblue]Resurgence[/abilityblue] until the end of battle, returning to life with {ResurrectHp}% of its max [hp/] if it died but the battle was won.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >利用灵能能量提前保护友方存活的单位，使其免于死亡。如果目标单位在战斗中阵亡且本次战斗获得了胜利，则该单位将会在战斗结束时复活。</Data></Cell></Row><Row
+          >目标单位获得[abilityblue]再生[/abilityblue]，持续 {Duration}[turn/] 回合，每回合恢复 {HpRegen}[hp/]。此外，该单位还将获得[abilityblue]复苏[/abilityblue]，持续至战斗结束。如果该单位死亡但战斗胜利，则复活该单位并恢复其 {ResurrectHp}% 的最大生命值 [hp/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">NEGATE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1392,10 +1392,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target an enemy colony and compel them to your cause. Summon two Tier 1 or Tier 2 units from the target faction, spawning them adjacent to the enemy colony.</Data></Cell><Cell
+          >Target an enemy colony and compel them to your cause. Summon two Tier 2 units from the target faction, spawning them adjacent to the enemy colony.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >强制一个敌方殖民地为你效命。从目标阵营中召唤两个 1 阶或 2 阶单位，将其生成在与敌方殖民地相邻的位置上。</Data></Cell><Cell
+          >强制一个敌方殖民地为你效命。召唤两个来自目标阵营的 2 阶单位，生成在与地方殖民地相邻的位置上。</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s65"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
@@ -1462,30 +1462,30 @@
             ss:Type="String"
           >LEVEL_1_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Each turn, there is a {LightChance}% chance that a colonist is removed and joins the Celestian player's nearest colony.</Data></Cell><Cell
+          >{LightChance}% to transfer 1 [population/] to your nearest colony each [turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >每回合有 {LightChance}% 的几率移除一名移住民并使其加入星神玩家最近的殖民地。</Data></Cell></Row><Row
+          >每 [turn/] 回合有 {LightChance}% 几率转移 1 个 [population/] 至你最近的殖民地。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
           >LEVEL_2_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Each turn, there is a {LightChance}% chance that a colonist is removed and joins the Celestian player's nearest colony.[br/]All non-Celestian player units gain [abilityred]Soulburn[/abilityred] in combat.</Data></Cell><Cell
+          >{LightChance}% to transfer 1 [population/] to your nearest colony each [turn/].[br/]Non-Celestian units gain [abilityred]Soulburn[/abilityred].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >每回合有 {LightChance}% 的几率移除一名移住民并使其加入星神玩家最近的殖民地。[br/]所有非星神玩家单位在战斗中将获得[abilityred]灵魂燃烧[/abilityred]。</Data></Cell></Row><Row
+          >每 [turn/] 回合有 {LightChance}% 几率转移 1 个 [population/] 至你最近的殖民地。[br/]非星神单位获得[abilityred]灵魂燃烧[/abilityred]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="75"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
           >LEVEL_3_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Each turn, there is a {LightChance}% chance that a colonist is removed and is added to the Celestian player's nearest colony.[br/]All non-Celestian player units gain [abilityred]Soulburn[/abilityred] in combat.[br/]All Celestian player units heal for {LightHeal}[hp/] each round in combat.</Data></Cell><Cell
+          >{LightChance}% to transfer 1 [population/] to your nearest colony each [turn/].[br/]Non-Celestian units gain [abilityred]Soulburn[/abilityred].[br/]Celestian units heal {LightHeal}[hp/] each [turn/] in combat.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >每回合有 {LightChance}% 的几率移除一名移住民并使其加入星神玩家最近的殖民地。[br/]所有非星神玩家单位在战斗中将获得[abilityred]灵魂燃烧[/abilityred]。[br/]所有星神玩家单位在战斗中每轮治疗 {LightHeal}[hp/]。</Data></Cell></Row><Row
+          >每 [turn/] 回合有 {LightChance}% 几率转移 1 个 [population/] 至你最近的殖民地。[br/]非星神单位获得[abilityred]灵魂燃烧[/abilityred]。[br/]星神单位在战斗时每 [turn/] 回合治疗 {LightHeal}[hp/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"

@@ -10,12 +10,12 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:39:14Z</Created><LastSaved
     >2019-06-25T15:39:14Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14730</WindowHeight><WindowWidth>28740</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
     >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
@@ -26,23 +26,23 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
     ss:Name="Script"
   ><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultColumnWidth="353.25"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s57" ss:Width="145.5" /><Column
-        ss:StyleID="s57"
+    ><Column ss:StyleID="s62" ss:Width="145.5" /><Column
+        ss:StyleID="s62"
         ss:Width="118.5"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="276.75" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="276.75" /><Column
+        ss:StyleID="s62"
         ss:Width="147.75"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="195" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="195" /><Column
+        ss:StyleID="s62"
         ss:Width="165.75"
       /><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data
             ss:Type="String"
@@ -168,9 +168,9 @@ Daemon is an in-game status effect</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String">COMPROMISE_EXPLOITATION</Data></Cell><Cell
         ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Compromise Exploitation</Data></Cell><Cell><Data
+          >Electrification Subroutines</Data></Cell><Cell><Data
             ss:Type="String"
-          >深度扰乱</Data></Cell><Cell ss:Index="7"><Data
+          >电气化子程序</Data></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
           >Skill name.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
@@ -178,10 +178,10 @@ Daemon is an in-game status effect</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String">COMPROMISE_EXPLOITATION</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Units in this hero's stack have a strength {ComExp}[strengthwave/] chance to apply [abilityred]Electrified[/abilityred] when attacking Compromised units.[br/]Only functions when the hero is the army's commander.</Data></Cell><Cell
+          >Units in this hero's stack have a strength {ComExp}[strengthwave/] chance to apply [abilityred]Electrified[/abilityred], doing damage over time and reducing target accuracy.[br/]Only functions when the hero is the army's commander.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >英雄小组内的单位攻击被扰乱的单位时有 {ComExp}[strengthwave/] 力量几率施加[abilityred]触电[/abilityred]。[br/]只有当该英雄是军队指挥官时才能生效。</Data></Cell><Cell
+          >这名英雄小组内的单位有 {ComExp}[strengthwave/] 力量几率施加[abilityred]触电[/abilityred]，造成持续伤害并降低目标的准度。[br/]只有当该英雄是军队指挥官时才能生效。</Data></Cell><Cell
           ss:Index="7"
         ><Data ss:Type="String">Skill description.
 Electrified is an in-game debuff. Commander in this case means the leader of an army, NOT the player character</Data></Cell></Row><Row
@@ -190,10 +190,10 @@ Electrified is an in-game debuff. Commander in this case means the leader of an 
       ><Cell><Data ss:Type="String">COMPROMISE_EXPLOITATION</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION_UNIT</Data></Cell><Cell><Data
             ss:Type="String"
-          >Unit has a strength {ComExp}[strengthwave/] chance to apply [abilityred]Electrified[/abilityred] when attacking Compromised units.</Data></Cell><Cell
+          >Unit has a strength {ComExp}[strengthwave/] chance to apply [abilityred]Electrified[/abilityred].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位攻击被扰乱的单位时有 {ComExp}[strengthwave/] 力量几率施加[abilityred]触电[/abilityred]。</Data></Cell><Cell
+          >单位有 {ComExp}[strengthwave/] 力量几率施加[abilityred]触电[/abilityred]。</Data></Cell><Cell
           ss:Index="7"
         ><Data ss:Type="String">Skill debuff description.
 Compromised and Electrified are in-game debuffs.</Data></Cell></Row><Row
@@ -202,10 +202,10 @@ Compromised and Electrified are in-game debuffs.</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String">COMPROMISE_EXPLOITATION</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION_MOD</Data></Cell><Cell><Data
             ss:Type="String"
-          >Strength {ComExp}[strengthwave/] chance to apply [abilityred]Electrified[/abilityred] to Compromised units for {ComExpDuration}.</Data></Cell><Cell
+          >Strength {ComExp}[strengthwave/] chance to apply [abilityred]Electrified[/abilityred] for {ComExpDuration}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >有 {ComExp}[strengthwave/] 力量几率对被扰乱单位施加[abilityred]触电[/abilityred]，持续 {ComExpDuration}。</Data></Cell><Cell
+          >有 {ComExp}[strengthwave/] 力量几率施加[abilityred]触电[/abilityred]，持续 {ComExpDuration}。</Data></Cell><Cell
           ss:Index="7"
         ><Data ss:Type="String">Skill debuff description.
 Compromised and Electrified are in-game debuffs.</Data></Cell></Row><Row><Cell

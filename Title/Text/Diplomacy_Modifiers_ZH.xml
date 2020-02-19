@@ -10,12 +10,12 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:46:04Z</Created><LastSaved
     >2019-06-25T15:46:04Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14730</WindowHeight><WindowWidth>28740</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
     >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
@@ -26,27 +26,27 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
     ><Alignment
         ss:Vertical="Bottom"
         ss:WrapText="1"
       /></Style></Styles><Worksheet ss:Name="Script"><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultColumnWidth="51.75"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s57" ss:Width="118.5" /><Column
-        ss:StyleID="s57"
+    ><Column ss:StyleID="s62" ss:Width="118.5" /><Column
+        ss:StyleID="s62"
         ss:Width="211.5"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="322.5" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="322.5" /><Column
+        ss:StyleID="s62"
         ss:Width="147.75"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="322.5" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="322.5" /><Column
+        ss:StyleID="s62"
         ss:AutoFitWidth="0"
         ss:Width="118.5"
-      /><Column ss:StyleID="s57" ss:Width="330.75" /><Row
+      /><Column ss:StyleID="s62" ss:Width="330.75" /><Row
         ss:AutoFitHeight="0"
         ss:Height="90"
       ><Cell><Data ss:Type="String">DIPLOMACY_MODIFIERS</Data></Cell><Cell
@@ -793,7 +793,21 @@
             ss:Type="String"
           >A sector was liberated</Data></Cell><Cell><Data
             ss:Type="String"
-          >一片区域被解放了</Data></Cell></Row></Table><WorksheetOptions
+          >一片区域被解放了</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">ALIGNMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INDEPENDENTRETREAT_ALLOWRETREAT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Allowed marauders to retreat</Data></Cell><Cell><Data
+            ss:Type="String"
+          >曾允许劫掠者撤退</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">ALIGNMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INDEPENDENTRETREAT_CHASEDOWN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Chased down marauders</Data></Cell><Cell><Data
+            ss:Type="String"
+          >曾追捕过劫掠者</Data></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
     ><Unsynced /><Zoom>115</Zoom><Selected /><Panes><Pane><Number
           >3</Number><ActiveRow>9</ActiveRow><ActiveCol

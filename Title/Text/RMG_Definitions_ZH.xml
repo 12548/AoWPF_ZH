@@ -10,12 +10,12 @@
     >Benny Arents</Author><LastAuthor>Djurre van Dijk</LastAuthor><Created
     >2018-09-21T13:43:41Z</Created><LastSaved
     >2019-06-25T15:51:43Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
     >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
@@ -26,22 +26,22 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
     ss:Name="Script"
   ><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s57" ss:Width="117" /><Column
-        ss:StyleID="s57"
+    ><Column ss:StyleID="s62" ss:Width="117" /><Column
+        ss:StyleID="s62"
         ss:Width="149.25"
-      /><Column ss:StyleID="s57" ss:Width="246" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:Width="246" /><Column
+        ss:StyleID="s62"
         ss:Width="147.75"
-      /><Column ss:StyleID="s57" ss:Width="248.25" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:Width="248.25" /><Column
+        ss:StyleID="s62"
         ss:Width="120"
       /><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
             ss:Type="String"
@@ -1816,7 +1816,40 @@
             ss:Type="String"
           >竞技场-54</Data></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
-          >Translate</Data></Cell></Row></Table><WorksheetOptions
+          >Translate</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GEOGRAPHY_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PRACTICE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Practice World</Data></Cell><Cell><Data
+            ss:Type="String"
+          >练习星球</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of a world / planet template that can be selected when the player is customizing the type of planet they want to play on.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GEOGRAPHY_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PRACTICE_SUBTITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A virtually constructed world for fledgling Commanders to practice.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一个供初出茅庐的指挥官练习实践的虚拟星球。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Description of the world/ planet template. Used as flavor and to give the player an idea of what the gameplay on such a planet is like. EDIT: added full stop, no reloca required</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PRACTICE_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Practorium Demonis</Data></Cell><Cell><Data
+            ss:Type="String"
+          >迪莫尼斯练习星</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
     ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
         >600</HorizontalResolution><VerticalResolution

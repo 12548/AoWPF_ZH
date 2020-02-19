@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
     >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -268,10 +268,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Fire a Phoenix Bomb, dealing damage in a {hexrad} hex radius area and leaving behind a burning Hazard for {plasmaBombDuration}.</Data></Cell><Cell
+          >Fire a Plasma Bomb, dealing damage in a {hexrad} hex radius area and leaving behind a burning Hazard for {plasmaBombDuration}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >发射一枚凤凰炸弹，对 {hexrad} 个单元格范围造成伤害并留下一片燃烧灾害，持续 {plasmaBombDuration}。</Data></Cell></Row><Row
+          >发射一枚等离子炸弹，对 {hexrad} 个单元格范围造成伤害并留下一片燃烧灾害，持续 {plasmaBombDuration}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">INFERNO_BOMBS</Data></Cell><Cell><Data
             ss:Type="String"
@@ -670,10 +670,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target friendly colony is defended by a Superheated Plasma Ray. During combat, {minNumber} to {maxNumber} random non-Mineral and non-Ethereal units have a strength {strength} chance become [abilityred]Immolated[/abilityred] every [turn/].</Data></Cell><Cell
+          >Target friendly colony is defended by a Superheated Plasma Ray. For the first {numTurns} of combat, {minNumber} to {maxNumber} random non-Mineral and non-Ethereal units have a strength {strength} chance to become [abilityred]Immolated[/abilityred] every [turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >目标友方殖民地受到过热等离子射线的防护，在战斗中，{minNumber} 到 {maxNumber} 个随机非矿物单位和非虚灵单位每[turn/]有 {strength} 力量几率被[abilityred]焚祭[/abilityred]。</Data></Cell></Row><Row
+          >目标友方殖民地受到过热等离子射线的防护。在战斗前 {numTurns} 个回合中，{minNumber} 到 {maxNumber} 个随机非矿物单位和非虚灵单位每 [turn/] 有 {strength} 力量几率被[abilityred]焚祭[/abilityred]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">PLASMA_RAY_DEFENSE</Data></Cell><Cell><Data
@@ -690,10 +690,10 @@
             ss:Type="String"
           >EFFECT_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Every tactical [turn/], {minNumber} to {maxNumber} random non-Mineral and non-Ethereal units have a strength {strength} chance become [abilityred]Immolated[/abilityred] in this colony's domain.</Data></Cell><Cell
+          >Every tactical [turn/], {minNumber} to {maxNumber} random non-Mineral and non-Ethereal units have a strength {strength} chance to become [abilityred]Immolated[/abilityred] in this colony's domain.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >每个战术[turn/]，该殖民地领域内 {minNumber} 到 {maxNumber} 个随机非矿物单位和非虚灵单位有 {strength} 力量几率被[abilityred]焚祭[/abilityred]。</Data></Cell></Row><Row
+          >每个战术 [turn/] 中，该殖民地领域内 {minNumber} 到 {maxNumber} 个随机非矿物单位和非虚灵单位有 {strength} 力量几率被[abilityred]焚祭[/abilityred]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">INCINERATION_STRIKE</Data></Cell><Cell><Data
             ss:Type="String"

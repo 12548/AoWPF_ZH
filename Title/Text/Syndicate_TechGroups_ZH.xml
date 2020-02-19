@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>5640</WindowHeight><WindowWidth>15345</WindowWidth><WindowTopX
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
     >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -389,10 +389,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target owned Colony has {HappinesIncome}[happiness/] from distractions and festivities.</Data></Cell><Cell
+          >Target owned Colony has {HappinesIncome}[happiness/] from distractions and festivities, and gains {bonusPercentage} more from happiness events.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >已被拥有的目标殖民地因娱乐和节日庆典获得 {HappinesIncome}[happiness/]。</Data></Cell></Row><Row
+          >被拥有的目标殖民地因娱乐和节日庆典获得 {HappinesIncome}[happiness/]，还能从幸福事件中额外获得 {bonusPercentage}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">BREAD_AND_CIRCUSES</Data></Cell><Cell><Data
@@ -525,10 +525,10 @@
       ><Cell><Data ss:Type="String">PSITEC_CEREBRAL_EXECUTION</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target Biological or Cyborg unit has a {ExecutionStrength} strength chance to be instantly killed. If this fails, the unit instead takes {ExecutionFailDamage} damage and is [abilityred]Staggered[/abilityred].</Data></Cell><Cell
+          >Target Biological or Cyborg non-Commander unit has a {ExecutionStrength} strength chance to be instantly killed. If this fails, the unit instead takes {ExecutionFailDamage} damage and is [abilityred]Staggered[/abilityred].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >目标生物或半机械人单位有 {ExecutionStrength} 力量几率被立刻击杀。如果处决失败，则目标单位将受到 {ExecutionFailDamage} 伤害并被[abilityred]动摇[/abilityred]。</Data></Cell></Row><Row
+          >目标生物或半机械人非指挥官单位有 {ExecutionStrength} 力量几率被立刻击杀。如果失败，则目标单位改为受到 {ExecutionFailDamage} 伤害并被[abilityred]动摇[/abilityred]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">DEPLOY_SENTINEL</Data></Cell><Cell><Data
             ss:Type="String"

@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>5640</WindowHeight><WindowWidth>15345</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -81,10 +81,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >When this unit's [hp/] drops below zero, they automatically teleport up to a random position {EscapeModuleTeleport} hexes away and heals for {EscapeModuleHP}. Can only happen once per battle.</Data></Cell><Cell
+          >When this unit's [hp/] drops below zero, they automatically teleport up to a random position {EscapeModuleTeleport} hexes away and revives with {EscapeModuleHP}. [br/][br/][firecol]A unit can only revive itself once per battle.[/firecol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >当该单位的[hp/]降至 0 以下时，该单位将自动传送至最多 {EscapeModuleTeleport} 个单元格外的随机位置，并治疗 {EscapeModuleHP}。[br/]每场战斗只可触发一次。</Data></Cell></Row><Row
+          >当该单位的 [hp/] 降至 0 以下时，该单位将自动传送至最多 {EscapeModuleTeleport} 个单元格外的随机位置并复活，复活时拥有 {EscapeModuleHP}。[br/][br/][firecol]每个单位在每场战斗中只能复活自己一次。[/firecol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">CEREBRAL_CONTROL_COLLARS</Data></Cell><Cell
         ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
@@ -392,10 +392,10 @@
       ><Cell><Data ss:Type="String">PSITEC_VISION_ENHANCERS</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The unit gains {Resistance} resistance, [abilityblue]Detection[/abilityblue] and +{PsiTecVisionRange} vision range on the world map.</Data></Cell><Cell
+          >The unit gains {Accuracy} accuracy, [abilityblue]Detection[/abilityblue] and +{PsiTecVisionRange} vision range on the world map.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >单位获得 {Resistance} 抵抗及[abilityblue]侦察[/abilityblue]，同时在世界地图上的视野范围 +{PsiTecVisionRange}。</Data></Cell></Row><Row
+          >单位获得 {Accuracy} 准度及[abilityblue]侦察[/abilityblue]，同时在世界地图上的视野范围 +{PsiTecVisionRange}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">CEREBRAL_CONTROL_COLLARS</Data></Cell><Cell
         ><Data ss:Type="String">NAME</Data></Cell><Cell><Data

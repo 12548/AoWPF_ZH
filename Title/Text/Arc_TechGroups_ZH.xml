@@ -10,12 +10,12 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:39:13Z</Created><LastSaved
     >2019-06-25T15:39:13Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14730</WindowHeight><WindowWidth>28740</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><MaxChange
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
     >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
@@ -26,25 +26,25 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
     ss:Name="Script"
   ><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultColumnWidth="242.25"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s57" ss:Width="153.75" /><Column
-        ss:StyleID="s57"
+    ><Column ss:StyleID="s62" ss:Width="153.75" /><Column
+        ss:StyleID="s62"
         ss:Width="147"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="362.25" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="362.25" /><Column
+        ss:StyleID="s62"
         ss:Width="147.75"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="211.5" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="211.5" /><Column
+        ss:StyleID="s62"
         ss:Width="120"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="362.25" /><Row
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="362.25" /><Row
         ss:AutoFitHeight="0"
         ss:Height="135"
       ><Cell><Data ss:Type="String">ARC_TECHGROUPS</Data></Cell><Cell
@@ -118,20 +118,20 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Infuse a Mechanical or Cyborg unit with an Aeon Flux Charge. The unit deals {IncreasedDamage} damage and gains [abilityblue]Fast Movement[/abilityblue] for {time}[turn/]. Every turn, the unit has a {danger} chance to become [abilityred]Overloaded[/abilityred] for {OverloadTime}[turn/].</Data></Cell><Cell
+          >Infuse a Mechanical or Cyborg unit with an Aeon Flux Charge. The unit deals {IncreasedDamage} damage, gains [abilityblue]Fast Movement[/abilityblue] and {ShieldAmount}[shield/] for {time}[turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >向机械单位或半机械单位注入宇宙乱流。单位可造成 {IncreasedDamage} 伤害并获得[abilityblue]迅捷移动[/abilityblue]，持续 {time}[turn/]。每回合，该单位有 {danger} 的几率变为[abilityred]过载[/abilityred]，持续 {OverloadTime}[turn/]。</Data></Cell></Row><Row
+          >向机械或半机械人单位注入宇宙乱流。单位可造成 {IncreasedDamage} 伤害并获得[abilityblue]迅捷移动[/abilityblue]和 {ShieldAmount}[shield/]，持续 {time}[turn/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">AEON_FLUX_CHARGE</Data></Cell><Cell><Data
             ss:Type="String"
           >STATUS_EFFECT_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit deals {IncreasedDamage} damage and has Fast Movement. Every turn, the unit has a {danger} chance to become [abilityred]Stunned[/abilityred] for {OverloadTime}[turn/].</Data></Cell><Cell
+          >This unit deals {IncreasedDamage} damage, has Fast Movement as well as +{ShieldAmount}[shield/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位造成 {IncreasedDamage} 伤害并拥有“迅捷移动”。该单位每回合有 {danger} 几率陷入[abilityred]晕眩[/abilityred]，持续 {OverloadTime}[turn/]。</Data></Cell></Row><Row
+          >该单位造成 {IncreasedDamage} 伤害，拥有“迅捷移动”和 +{ShieldAmount}[shield/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">AEON_FLUX_CHARGE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -192,10 +192,10 @@
       ><Cell><Data ss:Type="String">PULSE_DISRUPTION_LANCE</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target Mechanical or Cyborg unit suffers {PulseDisruptionLanceDamage}[wavedamage/] damage and has a strength {PulseDisruptionLanceStrength} chance to be [abilityred]Stunned[/abilityred]. If resisted, the unit is [abilityred]Staggered[/abilityred] instead.</Data></Cell><Cell
+          >Target unit suffers {PulseDisruptionLanceDamage}[wavedamage/] damage. If it is biological it has a {PulseDisruptionLanceStrength} strength chance to be [abilityred]Electrified[/abilityred]. If it is Mechanical or Cyborg it has a {PulseDisruptionLanceStrength} strength chance to be [abilityred]Stunned[/abilityred], and is [abilityred]Staggered[/abilityred] instead if this is resisted.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >目标机械或半机械人单位受到 {PulseDisruptionLanceDamage}[wavedamage/]伤害并有 {PulseDisruptionLanceStrength} 力量几率被[abilityred]晕眩[/abilityred]。如果被抵抗，则单位将被[abilityred]动摇[/abilityred]。</Data></Cell></Row><Row
+          >目标单位受到 {PulseDisruptionLanceDamage}[wavedamage/] 伤害。如果目标是生物单位，有 {PulseDisruptionLanceStrength} 力量几率受到[abilityred]触电[/abilityred]。如果目标是机械或半机械人单位，则有 {PulseDisruptionLanceStrength} 力量几率被[abilityred]晕眩[/abilityred]。如果抵抗，则改为被[abilityred]动摇[/abilityred]。</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell

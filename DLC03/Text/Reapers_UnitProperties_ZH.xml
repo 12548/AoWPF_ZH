@@ -13,9 +13,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>5640</WindowHeight><WindowWidth>15345</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -150,10 +150,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >When this unit's [hp/] drops below zero, it automatically jumps to a random position {HexRange} hexes away, heals for {HealAmount}[hp/] and gains  [abilityblue]Cloaked[/abilityblue], granting the unit +{IncreasedEvasion}% evasion against attacks. Can only happen once per battle.</Data></Cell><Cell
+          >When this unit's [hp/] drops below zero, it automatically jumps to a random position {HexRange} hexes away, revives with {HealAmount}[hp/] and gains  [abilityblue]Cloaked[/abilityblue], granting the unit +{IncreasedEvasion}% evasion against attacks.[br/][br/][firecol]A unit can only revive itself once per battle.[/firecol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >当该单位的 [hp/] 降至 0 以下时，该单位将自动跳向最多 {HexRange} 个单元格外的一个随机位置并治疗 {HealAmount}[hp/]，此外还将获得[abilityblue]隐踪[/abilityblue]，给予单位 +{IncreasedEvasion}% 攻击闪避。每场战斗只可触发一次。</Data></Cell></Row><Row
+          >当该单位的 [hp/] 降至 0 以下时，该单位将自动跳向最多 {HexRange} 个单元格外的一个随机位置并复活，复活后生命值为 {HealAmount}[hp/]，此外还将获得[abilityblue]隐踪[/abilityblue]，给予单位 +{IncreasedEvasion}% 攻击闪避。[br/][br/][firecol]每个单位在每场战斗中只能复活自己一次。[/firecol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">CLOAKED</Data></Cell><Cell><Data
             ss:Type="String"

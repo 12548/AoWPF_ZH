@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
     >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -121,30 +121,30 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >A sinister chorus permeates the air around the unit. All non-Mindless enemy units adjacent to this unit receive [abilityred]Sinister Melody[/abilityred], reducing their damage resistance by {SinisterResistance} and their accuracy by {SinisterAccuracy}.</Data></Cell><Cell
+          >A sinister chorus permeates the air around the unit. All non-Mindless enemy units adjacent to this unit receive [abilityred]Sinister Melody[/abilityred], reducing their damage resistance by {SinisterResistance} and increasing their fumble chance by {FumbleChance}</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >一阵邪恶的合唱弥漫在单位四周。所有与该单位相邻的非无意识敌方单位获得[abilityred]邪恶旋律[/abilityred]，减少 {SinisterResistance} 伤害抵抗和 {SinisterAccuracy} 准度。</Data></Cell></Row><Row
+          >一阵邪恶的合唱弥漫在单位四周。所有与该单位相邻的非无意识敌方单位获得[abilityred]邪恶旋律[/abilityred]，减少 {SinisterResistance} 伤害抵抗且失手率增加 {FumbleChance}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">SINISTER_MELODY</Data></Cell><Cell><Data
             ss:Type="String"
           >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >A malevolent force reduces this unit's damage resistance by {SinisterResistance} and their accuracy by {SinisterAccuracy}.</Data></Cell><Cell
+          >A malevolent force reduces this unit's damage resistance by {SinisterResistance} and increases their fumble chance by {FumbleChance}</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >一股邪恶的力量减少了该单位 {SinisterResistance} 伤害抵抗和 {SinisterAccuracy} 准度。</Data></Cell></Row><Row
+          >一股邪恶的力量使该单位减少 {SinisterResistance} 伤害抵抗并增加 {FumbleChance} 失手率。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">SINISTER_MELODY</Data></Cell><Cell><Data
             ss:Type="String"
           >EFFECT_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit's accuracy with all attacks is reduced by {SinisterAccuracy}.</Data></Cell><Cell
+          >This unit's fumble chance with all attacks is increased by {SinisterAccuracy}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位所有攻击的准度减少 {SinisterAccuracy}。</Data></Cell></Row><Row
+          >该单位所有攻击的失手率增加 {SinisterAccuracy}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">BLEAK_CRESCENDO</Data></Cell><Cell><Data
             ss:Type="String"
@@ -433,10 +433,10 @@
       ><Cell><Data ss:Type="String">MARK_OF_THE_DARK_SUN</Data></Cell><Cell
         ><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The unit gains {MarkResistance} resistance. Also, each time they deal a killing blow, they gain [abilityblue]Dark Reward[/abilityblue] until end of combat, increasing their damage by {MarkDamage}% per stack, to a maximum of {stacks} stacks.</Data></Cell><Cell
+          >Each time the unit deals a killing blow, they gain [abilityblue]Dark Reward[/abilityblue] until end of combat, increasing their damage by {MarkDamage}% per stack, to a maximum of {stacks} stacks.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >单位获得 {MarkResistance} 抵抗。另外，每当该单位的攻击造成击杀时，单位会在战斗结束后获得[abilityblue]黑暗奖励[/abilityblue]。每层黑暗奖励能够提升其 {MarkDamage}% 伤害，最多叠加 {stacks} 层。</Data></Cell></Row><Row
+          >每当该单位造成击杀时，单位会在战斗结束后获得[abilityblue]黑暗奖励[/abilityblue]。每层黑暗奖励能够提升其 {MarkDamage}% 伤害，最多叠加 {stacks} 层。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">MARK_OF_THE_DARK_SUN</Data></Cell><Cell
         ><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
@@ -926,10 +926,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target friendly unit is shrouded in shadows for {DarkIconDuration}. Any enemy unit within {DarkIconRange} hexes of the targeted unit gains [abilityred]Haunting Melody[/abilityred], lowering all resistances and accuracy. Any friendly unit within {DarkIconRange} hexes of the target gains [abilityblue]Dark Elation[/abilityblue], giving {DarkElationMorale} morale and {DarkElationResistBonus}.</Data></Cell><Cell
+          >Target friendly unit is shrouded in shadows for {DarkIconDuration}. Any enemy unit within {DarkIconRange} hexes of the targeted unit gains [abilityred]Haunting Melody[/abilityred], lowering all resistances and increasing fumble chance. Any friendly unit within {DarkIconRange} hexes of the target gains [abilityblue]Dark Elation[/abilityblue], giving {DarkElationMorale} morale and {DarkElationResistBonus}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >将目标友方单位笼罩在阴影中，持续 {DarkIconDuration}。目标单位 {DarkIconRange} 个单元格范围内的所有敌方单位获得[abilityred]萦绕旋律[/abilityred]，降低其所有类型的抵抗和准度。目标单位 {DarkIconRange} 个单元格范围内的所有友方单位获得[abilityblue]黑暗欢愉[/abilityblue]，获得 {DarkElationMorale} 士气和 {DarkElationResistBonus}。</Data></Cell></Row><Row
+          >将目标友方单位笼罩在阴影中，持续 {DarkIconDuration}。目标单位 {DarkIconRange} 个单元格范围内的所有敌方单位获得[abilityred]萦绕旋律[/abilityred]，降低其所有类型的抵抗并增加失手率。目标单位 {DarkIconRange} 个单元格范围内的所有友方单位获得[abilityblue]黑暗欢愉[/abilityblue]，获得 {DarkElationMorale} 士气和 {DarkElationResistBonus}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">DARK_ICON</Data></Cell><Cell><Data
@@ -954,18 +954,18 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The unit is near a Dark Icon of Psynumbra. While it remains in range, it suffers {HauntingMelodyDamPen} to all resistances and loses {HauntingMelodyAccuracy} accuracy.</Data></Cell><Cell
+          >The unit is near a Dark Icon of Psynumbra. While it remains in range, it suffers {HauntingMelodyDamPen} to all resistances and gains {HauntingMelodyAccuracy} fumble chance.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位正处于赛努布拉黑暗圣象附近。只要位于范围之内，该单位所有类型的抵抗减少 {HauntingMelodyDamPen} 并失去 {HauntingMelodyAccuracy} 准度。</Data></Cell></Row><Row
+          >该单位正处于赛努布拉黑暗圣象附近。只要位于范围之内，该单位所有类型的抵抗减少 {HauntingMelodyDamPen} 并获得 {HauntingMelodyAccuracy} 失手率。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">HAUNTING_MELODY</Data></Cell><Cell><Data
             ss:Type="String"
           >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >{AccuracyPercentage} reduced accuracy</Data></Cell><Cell><Data
+          >{AccuracyPercentage} fumble chance</Data></Cell><Cell><Data
             ss:Type="String"
-          >准度减少 {AccuracyPercentage}。</Data></Cell></Row><Row
+          >{AccuracyPercentage} 失手率</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">DARK_ELATION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1005,26 +1005,26 @@
       ><Cell><Data ss:Type="String">SACRIFICE_TO_THE_ABYSS</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Destroy target friendly Biological or Cyborg unit to summon a weakened Herald of Oblivion in its place. Adjacent enemy units have a strength {SacrificetotheAbyssChance} chance to be [abilityred]Panicked[/abilityred] for {PanicTurns}. The Herald of Oblivion disappears after {HeraldTime}.</Data></Cell><Cell
+          >Destroy target friendly Biological or Cyborg unit to summon a Herald of Oblivion in its place. Adjacent enemy units have a strength {SacrificetotheAbyssChance} chance to be [abilityred]Panicked[/abilityred] for {PanicTurns}. The Herald of Oblivion disappears after {HeraldTime}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >摧毁目标友方生物或半机械人单位，并在其位置上召唤一个弱化的遗忘先驱。相邻敌方单位有 {SacrificetotheAbyssChance} 力量几率变得[abilityred]恐慌[/abilityred]，持续{PanicTurns}。[br/]遗忘先驱将于 {HeraldTime} 后消失。</Data></Cell></Row><Row
+          >摧毁目标友方生物或半机械人单位，并在其位置上召唤一个遗忘先驱。相邻敌方单位有 {SacrificetotheAbyssChance} 力量几率变得[abilityred]恐慌[/abilityred]，持续{PanicTurns}。遗忘先驱将于 {HeraldTime} 后消失。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">SACRIFICE_TO_THE_ABYSS</Data></Cell><Cell
         ><Data ss:Type="String">PROPERTY_NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Feeble </Data></Cell><Cell><Data
+          >Temporary Unit</Data></Cell><Cell><Data
             ss:Type="String"
-          >软弱无力 </Data></Cell></Row><Row
+          >临时单位</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">SACRIFICE_TO_THE_ABYSS</Data></Cell><Cell
         ><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This Herald of Oblivion has but a mere shadow of the power of a true Herald. Damage and Hit Points are reduced, and the unit will die at the end of combat.</Data></Cell><Cell
+          >This unit will die at the end of combat or after {Duration}[turn/] of being summoned.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该遗忘先驱只拥有真正的先驱一小部分力量，伤害和生命值较低且会在战斗结束后死亡。</Data></Cell></Row><Row
+          >该单位将在战斗结束后或被召唤出来 {Duration}[turn/] 回合后消失。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ARIA_OF_EMPTINESS</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1103,10 +1103,10 @@
             ss:Type="String"
           >GOVERNANCE_SKILL_3_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Systematic and controlled torture of our military forces can unlock their hidden psionic potential.[br/][br/]All of your units gain {PsionicResistance} resistance, and deal {PsionicDamage} extra damage with Psionic attacks.</Data></Cell><Cell
+          >Systematic and controlled torture of our military forces can unlock their hidden psionic potential.[br/][br/]All of your units gain {PsionicResistance} resistance to all damage, and deal {PsionicDamage} extra damage with Psionic attacks.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >对军队进行系统而受到管控的折磨，解锁他们体内潜在的灵能之力。[br/][br/]你的所有单位获得 {PsionicResistance} 抵抗，灵能攻击额外造成 {PsionicDamage} 伤害。</Data></Cell></Row><Row
+          >对军队进行系统而有节制的折磨，释放他们体内潜在的灵能之力。[br/][br/]你的所有单位对所有伤害获得 {PsionicResistance} 抵抗，且灵能攻击额外造成 {PsionicDamage} 伤害。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
@@ -1186,30 +1186,30 @@
             ss:Type="String"
           >LEVEL_1_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Happiness reduced by -{unhappiness}[anger/].[br/]Martial Law will always kill Rioters.</Data></Cell><Cell
+          > -{unhappiness}[anger/] happiness.[br/]Martial Law always kills Rioters.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >幸福值减少 -{unhappiness}[anger/]。[br/]戒严令始终会杀死暴乱者。</Data></Cell></Row><Row
+          >-{unhappiness}[anger/] 幸福值。[br/]戒严令始终会杀死暴乱者。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="75"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
           >LEVEL_2_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Happiness reduced by -{unhappiness}[anger/].[br/]Martial Law will always kill Rioters.[br/]Has a {BrokenMindstrength}[strengthPsyche/] strength chance to apply [abilityred]Broken Mind[/abilityred] to non-Psynumbra player units in combat.</Data></Cell><Cell
+          > -{unhappiness}[anger/] happiness.[br/]Martial Law always kills Rioters.[br/]Non-Psynumbra units have {BrokenMindstrength}[strengthPsyche/] strength chance to get [abilityred]Broken Mind[/abilityred] every 2 [turn/] in combat.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >幸福值减少 -{unhappiness}[anger/]。[br/]戒严令始终会杀死暴乱者。[br/]战斗中有 {BrokenMindstrength}[strengthPsyche/] 力量几率对非赛努布拉玩家单位施加[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row
+          >-{unhappiness}[anger/] 幸福值。[br/]戒严令始终会杀死暴乱者。[br/]在战斗中时，非赛努布拉单位每 2 [turn/] 有 {BrokenMindstrength}[strengthPsyche/] 力量几率获得[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="90"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
           >LEVEL_3_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Happiness reduced by -{unhappiness}[anger/].[br/]Martial Law will always kill Rioters.[br/]Has a {BrokenMindstrength}[strengthPsyche/] strength chance to apply [abilityred]Broken Mind[/abilityred] to non-Psynumbra player units in combat.[br/]Applies [abilityblue]Dark Elation[/abilityblue] to Psynumbra player units during combat.</Data></Cell><Cell
+          > -{unhappiness}[anger/] happiness.[br/]Martial Law always kills Rioters.[br/]Non-Psynumbra units have {BrokenMindstrength}[strengthPsyche/] strength chance to get [abilityred]Broken Mind[/abilityred] every 2 [turn/] in combat.[br/]Psynumbra units have [abilityblue]Dark Elation[/abilityblue] in combat.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >幸福值减少 -{unhappiness}[anger/]。[br/]戒严令始终会杀死暴乱者。[br/]战斗中有 {BrokenMindstrength}[strengthPsyche/] 力量几率对非赛努布拉玩家单位施加[abilityred]破碎心灵[/abilityred]。[br/]在战斗期间对赛努布拉玩家单位施加[abilityblue]黑暗欢愉[/abilityblue]。</Data></Cell></Row><Row
+          >-{unhappiness}[anger/] 幸福值。[br/]戒严令始终会杀死暴乱者。[br/]在战斗中时，非赛努布拉单位每 2 [turn/] 有 {BrokenMindstrength}[strengthPsyche/] 力量几率获得[abilityred]破碎心灵[/abilityred]。在战斗中时，[br/]赛努布拉单位获得[abilityblue]黑暗欢愉[/abilityblue]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">THE_DIRGE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1438,10 +1438,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Attempt to curse target unit with insects made of psionic energy, causing intense pain. If the target dies while affected, the insects burst, dealing damage and spreading [abilityred]Filled with Despair[/abilityred] to enemy units within {hexrange} hexes.</Data></Cell><Cell
+          >Attempt to curse target unit with insects made of psionic energy, causing damage over time. If the target dies while affected, the insects burst, dealing damage and spreading [abilityred]Filled with Despair[/abilityred] to enemy units within {hexrange} hexes.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >尝试用灵能能量制造的昆虫诅咒目标单位，造成剧烈疼痛。如果受到影响的单位死亡，昆虫会发生爆炸，造成伤害并对 {hexrange} 个单元格范围内的敌人传播[abilityred]心如死灰[/abilityred]。</Data></Cell></Row><Row
+          >尝试用灵能能量制造的昆虫诅咒目标单位，造成持续伤害。如果受到影响的单位死亡，昆虫会发生爆炸，对 {hexrange} 个单元格范围内的敌人造成伤害并传播[abilityred]心如死灰[/abilityred]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="75"
       ><Cell><Data ss:Type="String">DARK_LOCUSTS</Data></Cell><Cell><Data

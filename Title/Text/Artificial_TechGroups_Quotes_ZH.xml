@@ -10,12 +10,12 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:39:14Z</Created><LastSaved
     >2019-06-25T15:39:14Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14730</WindowHeight><WindowWidth>28740</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><MaxChange
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
     >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
@@ -26,11 +26,11 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
-      ss:ID="s58"
+      ss:ID="s63"
     ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
-      ss:ID="s59"
+      ss:ID="s64"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Borders /><Font
         ss:FontName="Calibri"
         x:Family="Swiss"
@@ -41,15 +41,15 @@
   ><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultColumnWidth="240.75"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s57" ss:Width="123.75" /><Column
-        ss:StyleID="s57"
+    ><Column ss:StyleID="s62" ss:Width="123.75" /><Column
+        ss:StyleID="s62"
         ss:Width="214.5"
-      /><Column ss:Index="4" ss:StyleID="s57" ss:Width="147.75" /><Column
+      /><Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75" /><Column
         ss:Index="6"
-        ss:StyleID="s57"
+        ss:StyleID="s62"
         ss:Width="120"
       /><Row ss:AutoFitHeight="0" ss:Height="120"><Cell><Data
             ss:Type="String"
@@ -84,7 +84,7 @@
         ss:Height="60"
       ><Cell><Data ss:Type="String">ARTIFICIAL</Data></Cell><Cell><Data
             ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
           >{XML_ARTIFICIAL_TECHGROUPS@ARTIFICIAL@DESC}[br/][br/]{XML_ARTIFICIAL_TECHGROUPS@ARTIFICIAL@FEATURES}</Data></Cell><Cell
         ><Data
@@ -112,10 +112,10 @@
             ss:Type="String"
           >FEATURES</Data></Cell><Cell><Data
             ss:Type="String"
-          >[bulletlist][bullet]Deploy AI daemons in battle[/bullet][bullet]Hack and override enemy mechanical units[/bullet][bullet]Bolster strategic operations[/bullet][bullet]Integrate the populace into the network[/bullet][bullet]Uses the Arc and Kinetic damage channels[/bullet][/bulletlist]</Data></Cell><Cell
+          >[bulletlist][bullet][sand]Starting Unit:[/sand] [hyperlink,unitlookup0000039A00000DB3]Hacker[/hyperlink][/bullet][bullet]Deploy AI daemons in battle[/bullet][bullet]Hack and override enemy mechanical units[/bullet][bullet]Bolster strategic operations[/bullet][bullet]Integrate the populace into the network[/bullet][bullet]Uses the Arc and Kinetic damage channels[/bullet][/bulletlist]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >[bulletlist][bullet]在战场上部署人工智能精灵[/bullet][bullet]入侵和重载敌方机械单位[/bullet][bullet]加强战略行动[/bullet][bullet]将人口整合到网络中[/bullet][bullet]使用电弧和动能伤害通道[/bullet][/bulletlist]</Data></Cell></Row><Row
+          >[bulletlist][bullet][sand]初始单位：[/sand] [hyperlink,unitlookup0000039A00000DB3]黑客[/hyperlink][/bullet][bullet]在战场上部署人工智能精灵[/bullet][bullet]入侵和改写敌方机械单位[/bullet][bullet]加强战略行动[/bullet][bullet]将人口整合到网络中[/bullet][bullet]使用电弧和动能伤害类型[/bullet][/bulletlist]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -125,7 +125,7 @@
             ss:Type="String"
           >合成整合</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -149,7 +149,7 @@
             ss:Type="String"
           >精灵部署</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -173,7 +173,7 @@
             ss:Type="String"
           >信息掌控</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -197,7 +197,7 @@
             ss:Type="String"
           >战斗子程序</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="120"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -221,7 +221,7 @@
             ss:Type="String"
           >网络优化</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -245,7 +245,7 @@
             ss:Type="String"
           >行动干扰</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -269,7 +269,7 @@
             ss:Type="String"
           >蜥蜴网络</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -293,7 +293,7 @@
             ss:Type="String"
           >网络连通性</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -317,7 +317,7 @@
             ss:Type="String"
           >安抚密码</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -341,7 +341,7 @@
             ss:Type="String"
           >网络社会</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -365,7 +365,7 @@
             ss:Type="String"
           >系统管理</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -389,7 +389,7 @@
             ss:Type="String"
           >神经整合</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -413,7 +413,7 @@
             ss:Type="String"
           >自主恶意软件</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -437,7 +437,7 @@
             ss:Type="String"
           >蜥蜴独权</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data

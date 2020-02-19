@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -689,10 +689,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit links itself to the target friendly unit. Any damage dealt to the linked unit is reduced by {absorbPainDamageReduction} and is dealt to this unit instead. This effect lasts until end of combat.[br/]Absorb Pain cannot target Mechanical units, Colony Defenses or other units with Absorb Pain.</Data></Cell><Cell
+          >This unit links itself to the target friendly unit. Any damage dealt to the linked unit is reduced by {absorbPainDamageReduction} and is dealt to this unit instead. This effect lasts for {duration}[turn/] or until the caster unit is Staggered.[br/][br/]Absorb Pain cannot target Mechanical units, Colony Defenses or other units with Absorb Pain.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位将自身与目标友方单位相连，连接单位受到的所有伤害减少{absorbPainDamageReduction}并转由该单位承担，效果持续至战斗结束。[br/]吸收痛苦不能以机械单位、殖民地防御或其他拥有吸收痛苦的单位为目标。</Data></Cell><Cell
+          >该单位将自身与目标友方单位相连，连接单位受到的所有伤害减少 {absorbPainDamageReduction} 并转由该单位承担，效果持续 {duration}[turn/]，或直到施法者被动摇。[br/][br/]吸收痛苦不能以机械单位、殖民地防御或其他拥有吸收痛苦的单位为目标。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -1391,11 +1391,36 @@
             ss:Type="String"
           >嘈杂喧嚣</Data></Cell><Cell ss:Index="8" ss:StyleID="s65" /><Cell
           ss:StyleID="s66"
-        /></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
-          ss:Index="7"
+          >GUIDING_PRESENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION_HERO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grants all friendly units in a {HexRad} hex radius {GuidingAccuracy} accuracy and +{GuidingRange} maximum and optimal range for {GuidingTurns}.</Data></Cell><Cell
         ><Data
+            ss:Type="String"
+          >{HexRad} 个单元格范围内的所有友方单位获得 {GuidingAccuracy} 准度和 +{GuidingRange} 最大和最佳射程，持续 {GuidingTurns}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SOUL_REND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Soul Rend</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵魂撕裂</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SOUL_REND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psionic melee attack.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵能近战攻击。</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
           >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data

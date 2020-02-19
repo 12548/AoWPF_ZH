@@ -15,8 +15,8 @@
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
   ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -143,10 +143,10 @@
       ><Cell><Data ss:Type="String">SUBDERMAL_CLOAK_IMPLANTS</Data></Cell><Cell
         ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Advanced technologies grant this unit [abilityblue]Universal Camouflage[/abilityblue]on the World Map and the [abilityblue]Evasion[/abilityblue] defense mode. In addition, the unit becomes {ChameleonicOverwatchAccuracyDecrease} harder to hit with all Overwatch attacks.</Data></Cell><Cell
+          >Advanced technologies grant this unit [abilityblue]Universal Camouflage[/abilityblue]on the World Map and the [abilityblue]Evasion[/abilityblue] defense mode. In addition, the unit becomes {ChameleonicOverwatchAccuracyDecrease} harder to hit with all attacks.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >高级技术可使此单位获得世界地图上的[abilityblue]通用伪装[/abilityblue]以及[abilityblue]回避[/abilityblue]防御模式。另外，使用警戒攻击命中该单位的难度增加{ChameleonicOverwatchAccuracyDecrease}。</Data></Cell></Row><Row
+          >高级技术使该单位在世界地图上获得[abilityblue]通用伪装[/abilityblue]和[abilityblue]闪避[/abilityblue]防御模式。此外，所有攻击命中该单位的难度增加 {ChameleonicOverwatchAccuracyDecrease}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">HAMMER_STRIKE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -223,10 +223,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Create a Construct under the player's control on the target hex.</Data></Cell><Cell
+          >Create a Construct under the player's control on the target hex.[br/][br/]The summoned unit will inherit any compatible mods that do not grant an active ability.[br/]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >在目标单元格建造一只由玩家控制的半机械蜘蛛。</Data></Cell></Row><Row
+          >在目标单元格创造一个由玩家控制的半机械蜘蛛。[br/][br/]召唤单位将会继承所有不会赋予主动技能的兼容模块。[br/]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -243,10 +243,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Create an Advanced Construct under the player's control on the target hex.</Data></Cell><Cell
+          >Create an Advanced Construct under the player's control on the target hex.[br/][br/]The summoned unit will inherit any compatible mods that do not grant an active ability.[br/]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >在目标单元格建造一只由玩家控制的高级半机械蜘蛛。</Data></Cell></Row><Row
+          >在目标单元格创造一个由玩家控制的高级半机械蜘蛛。[br/][br/]召唤单位将会继承所有不会赋予主动技能的兼容模块。[br/]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">REASSEMBLE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -261,10 +261,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target a dead light Cyborg ground unit to bring it back to life with {ResurrectHealth} of its max [hp/]. Target a living Cyborg to heal it for {ReassembleHealAmount}. Cannot target self.</Data></Cell><Cell
+          >Target a dead light Cyborg or Mechanical ground unit to bring it back to life with {ResurrectHealth} of its max [hp/]. Target a living Cyborg or Machanical unit to heal it for {ReassembleHealAmount}. Cannot target self.[br/]Puts the unit into Defense Mode after use.[br/][br/]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >以阵亡的轻型半机械人陆地单位为目标时，可复活目标单位并恢复其 {ResurrectHealth} 的最大[hp/]。以存活的半机械人单位为目标时，可治疗 {ReassembleHealAmount}。无法以自身为目标。</Data></Cell></Row><Row
+          >以阵亡的轻型半机械人或机械陆地单位为目标时，可复活目标单位并恢复其 {ResurrectHealth} 的最大[hp/]。以存活的半机械人或机械单位为目标时，可治疗 {ReassembleHealAmount}。无法以自身为目标。[br/]使用此技能后，单位将进入防御模式。[br/][br/]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ADVANCED_REASSEMBLE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -279,10 +279,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target a dead Cyborg ground unit to bring it back to life with {ResurrectHealth} of its max [hp/]. Target a living Cyborg to heal it for {ReassembleHealAmount}. Cannot target self.</Data></Cell><Cell
+          >Target a dead Cyborg or Mechanical ground unit to bring it back to life with {ResurrectHealth} of its max [hp/]. Target a living Cyborg or Mechanical unit to heal it for {ReassembleHealAmount}. Cannot target self.[br/]Puts the unit into Defense Mode after use.[br/][br/]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >以阵亡的轻型半机械人陆地单位为目标时，可复活目标单位并恢复其 {ResurrectHealth} 的最大[hp/]。以存活的半机械人单位为目标时，可治疗 {ReassembleHealAmount}。无法以自身为目标。</Data></Cell></Row><Row
+          >以阵亡的半机械人或机械陆地单位为目标时，可复活目标单位并恢复其 {ResurrectHealth} 的最大[hp/]。以存活的半机械人或机械单位为目标时，可治疗 {ReassembleHealAmount}。无法以自身为目标。[br/]使用此技能后，单位将进入防御模式。[br/][br/]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ADVANCED_REVERSE_ENGINEER</Data></Cell><Cell
         ><Data ss:Type="String">UPGRADE_NAME</Data></Cell><Cell><Data
@@ -341,10 +341,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Repurpose target dead unit to resupply the Reverse Engineer. Resets the Once Per Battle status on both Reassemble and Create Construct. </Data></Cell><Cell
+          >Destroy the target corpse and heal the unit for {healAmount}.[br/]Puts the unit into defense mode after use.[br/][br/]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >再利用目标阵亡单位来给逆转工程提供补给。重置改造和建造半机械蜘蛛技能的单次战斗使用状态。 </Data></Cell></Row><Row
+          >摧毁目标尸体并治疗单位 {healAmount}。[br/]使用此技能后，单位将进入防御模式。[br/][br/]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">MAINTENANCE_REPAIR</Data></Cell><Cell><Data
             ss:Type="String"
@@ -377,10 +377,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >When destroyed, the Wrecker will return after {ReassemblyTurns} in a weakened state. This can only occur once per battle.</Data></Cell><Cell
+          >When destroyed, the Wrecker will return after {ReassemblyTurns} in a weakened state.[br/][br/][firecol]A unit can only revive itself once per battle.[/firecol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >如果破坏者被摧毁，将在 {ReassemblyTurns} 后以虚弱状态复活。每次战斗只能触发一次。</Data></Cell></Row><Row
+          >如果破坏者被摧毁，将在 {ReassemblyTurns} 后以虚弱状态复活。[br/][br/][firecol]每个单位在每场战斗中只能复活自己一次。[/firecol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">REASSEMBLED</Data></Cell><Cell><Data
             ss:Type="String"
@@ -418,10 +418,10 @@
       ><Cell><Data ss:Type="String">FLESH_TEARER_IMPLANTS</Data></Cell><Cell
         ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Melee attacks do {DamageBonus}% extra damage to Biological and Cyborg units, and have a {FleshTearerChance}[strengthphysical/] strength chance ({FleshTearerChanceRepeating}[strengthphysical/] for repeating attacks) to apply [abilityred]Bleeding[/abilityred] for {BleedDuration}[turn/].</Data></Cell><Cell
+          >Melee attacks against Biological and Cyborg units heal the user for {healAmount}, and have a {FleshTearerChance}[strengthphysical/] strength chance ({FleshTearerChanceRepeating}[strengthphysical/] for repeating attacks) to apply [abilityred]Bleeding[/abilityred], doing damage over time and reducing [DamagePhysical/] resistance for {BleedDuration}[turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >近战攻击对生物单位和半机械人单位额外造成 {DamageBonus}% 伤害并有 {FleshTearerChance}[strengthphysical/] 力量几率（重复攻击有 {FleshTearerChanceRepeating}[strengthphysical/] 几率）施加[abilityred]流血[/abilityred]，持续 {BleedDuration}[turn/]。</Data></Cell></Row><Row
+          >对生物和半机械人单位发动的近战攻击可治疗使用者 {healAmount}，并有 {FleshTearerChance}[strengthphysical/] 力量几率（重复攻击有 {FleshTearerChanceRepeating}[strengthphysical/] 几率）施加[abilityred]流血[/abilityred]，造成持续伤害并减少 [DamagePhysical/] 抵抗，持续 {BleedDuration}[turn/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">NEUROTOXIC_IMPLANTS</Data></Cell><Cell><Data
             ss:Type="String"
@@ -436,10 +436,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit's melee attacks now do Biochemical damage and have a {NeuroChance}[StrengthBio/] strength chance ({NeuroChanceRepeating}[strengthBio/] for repeating attacks) to apply [abilityred]Debilitating Infection[/abilityred] to Biological and Cyborg units, reducing their morale and making them easier to hit for {Duration}[turn/].</Data></Cell><Cell
+          >This unit's melee attacks now do Biochemical damage and have a {NeuroChance}[StrengthBio/] strength chance ({NeuroChanceRepeating}[strengthBio/] for repeating attacks) to apply [abilityred]Neural Toxin[/abilityred] to Biological and Cyborg units, which can damage or stun the target, for {Duration}[turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位的近战攻击将造成生化伤害，并有 {NeuroChance}[StrengthBio/] 力量几率（重复攻击有 {NeuroChanceRepeating}[strengthBio/] 几率）对生物单位和半机械人单位施加[abilityred]衰弱感染[/abilityred]，降低士气并使其更加容易被命中，持续 {Duration}[turn/]。</Data></Cell></Row><Row
+          >该单位的近战攻击将造成生化伤害，并有 {NeuroChance}[StrengthBio/] 力量几率（重复攻击有 {NeuroChanceRepeating}[strengthBio/] 几率）对生物单位和半机械人单位施加[abilityred]神经毒素[/abilityred]，可对目标造成伤害或使其眩晕，持续 {Duration}[turn/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">QUANTUM_SUPPORT_NANITES</Data></Cell><Cell
         ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
@@ -1369,11 +1369,92 @@
           >肢体装配工</Data></Cell><Cell
           ss:Index="9"
           ss:StyleID="s63"
-        /></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
-          ss:Index="7"
+          >MINIATURIZED_CORPSE_RECYCLER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Miniaturized Corpse Processor</Data></Cell><Cell><Data
+            ss:Type="String"
+          >小型尸体处理器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MINIATURIZED_CORPSE_RECYCLER</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A device for the rapid collection, processing and reuse of dead bodies on the battlefield.</Data></Cell><Cell
         ><Data
+            ss:Type="String"
+          >一种能够在战场上快速收集、处理并重复利用尸体的设备。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FLESH_TEARER_IMPLANTS</Data></Cell><Cell
+        ><Data ss:Type="String">MODIFIER_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Flesh Tearer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >血肉撕裂者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FLESH_TEARER_IMPLANTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heals for {AssimilateLifeSteal} when attacking Biological or Cyborg units</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >攻击生物或半机械人单位时，治疗 {AssimilateLifeSteal}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >MINIATURIZED_CORPSE_RECYCLER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAMES_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Recycler</Data></Cell><Cell><Data
+            ss:Type="String"
+          >回收者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MINIATURIZED_CORPSE_RECYCLER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAMES_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Necrotic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >骨疽坏死</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MINIATURIZED_CORPSE_RECYCLER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAMES_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hungering</Data></Cell><Cell><Data
+            ss:Type="String"
+          >饥饿无比</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MINIATURIZED_CORPSE_RECYCLER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAMES_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Death Eater</Data></Cell><Cell><Data
+            ss:Type="String"
+          >食死者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MINIATURIZED_CORPSE_RECYCLER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAMES_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Undertaker</Data></Cell><Cell><Data
+            ss:Type="String"
+          >送葬者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MINIATURIZED_CORPSE_RECYCLER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAMES_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gravestone</Data></Cell><Cell><Data
+            ss:Type="String"
+          >阴森墓碑</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
           >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data

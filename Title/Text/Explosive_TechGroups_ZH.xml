@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
     >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -127,10 +127,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Artillery fire rains on a {hexrad} hex radius area, dealing {CreepingBarrageDamage}[damagephysical/] damage with [abilityred]High Impact[/abilityred]. This triggers at the start of each of your turns for {CreepingBarrageDuration}[turn/], and the radius is increased by 1 hex each turn.</Data></Cell><Cell
+          >Artillery fire rains on a single hex target, dealing {CreepingBarrageDamage}[damagephysical/] damage with [abilityred]High Impact[/abilityred]. This triggers at the start of each of your turns for {CreepingBarrageDuration}[turn/], and the area of effect's radius is increased by 1 hex each turn.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >炮火侵袭 {hexrad} 个单元格范围区域，造成 {CreepingBarrageDamage}[damagephysical/]伤害并施加[abilityred]高度冲击[/abilityred]。此效果将在你的每回合开始时触发，持续 {CreepingBarrageDuration}[turn/]，影响范围每回合将增加 1 个单元格。</Data></Cell></Row><Row
+          >炮火侵袭 1 个单元格，造成 {CreepingBarrageDamage}[damagephysical/] 伤害并施加[abilityred]高度冲击[/abilityred]。此效果将在你的每个回合开始时触发，持续 {CreepingBarrageDuration}[turn/]，且效果范围每回合将增加 1 个单元格。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">CREEPING_BARRAGE</Data></Cell><Cell><Data
@@ -155,10 +155,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Drop a flare on target {hexrad} hex radius area, giving [abilityred]Illuminated[/abilityred] to units who stand there, making them {TimeOnTargetAccuracy}% easier to hit.[br/]At the start of the next turn, the area is hit with artillery fire, dealing {TimeOnTargetDamage}[damagephysical/] damage and applies [abilityred]Massive Impact[/abilityred] to any units that are not immune.</Data></Cell><Cell
+          >Target a unit to drop a flare on. The flare gives units in a {hexrad} hex radius [abilityred]Illuminated[/abilityred], making these {TimeOnTargetAccuracy}% easier to hit.[br/]At the start of the next turn, the targeted unit and allies in a {hexrad} hex radius are hit with artillery fire, causing {TimeOnTargetDamage}[damagePhysical/] and [abilityred]Massive Impact[/abilityred].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >向 {hexrad} 个单元格范围区域投放信号弹，区域中所有单位将被[abilityred]照亮[/abilityred]，使其命中难度降低 {TimeOnTargetAccuracy}%。[br/]下个回合开始时，该区域将受到炮火侵袭，造成 {TimeOnTargetDamage}[damagephysical/]伤害并对非免疫单位施加[abilityred]强力冲击[/abilityred]。</Data></Cell></Row><Row
+          >向目标单位投放一枚信号弹，信号弹会将 {hexrad} 个单元格范围内的单位[abilityred]照亮[/abilityred]，使其命中难度降低 {TimeOnTargetAccuracy}%。[br/]下个回合开始时，{hexrad} 个单元格范围的目标单位及其盟友将受到炮火侵袭，造成 {TimeOnTargetDamage}[damagePhysical/] 伤害并受到[abilityred]强力冲击[/abilityred]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">TACTICAL_NUCLEAR_STRIKE</Data></Cell><Cell
         ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
@@ -171,10 +171,19 @@
       ><Cell><Data ss:Type="String">TACTICAL_NUCLEAR_STRIKE</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >A tactical nuclear missile lands in a {TacticalNuclearStrikeAoE} hex radius area with [abilityred]Massive Impact[/abilityred], dealing {TacticalNuclearStrikeCenterDamage}[damagethermal/] damage in the center. Each additional hex away from the center reduces this damage.[br/]In addition, every enemy unit in combat has a {TacticalNuclearStrikeBlindStrength}[strengthphysical/] strength chance to become [abilityred]Blinded[/abilityred].</Data></Cell><Cell
+          >A tactical nuclear missile lands in a {TacticalNuclearStrikeAoE} hex radius area, dealing {TacticalNuclearStrikeCenterDamage}[damagethermal/] damage and [abilityred]Massive Impact[/abilityred]. [br/]In addition, every enemy unit in combat has a {TacticalNuclearStrikeBlindStrength}[strengthphysical/] strength chance to become [abilityred]Blinded[/abilityred].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >战术核弹轰炸 {TacticalNuclearStrikeAoE} 个单元格范围区域，施加[abilityred]强力冲击[/abilityred]并对中心造成 {TacticalNuclearStrikeCenterDamage}[damagethermal/]伤害。[br/]每远离中心一个单元格，受到的伤害将会降低。[br/]此外，战斗中的每个敌方单位都有 {TacticalNuclearStrikeBlindStrength}[strengthphysical/]力量几率被[abilityred]致盲[/abilityred]。</Data></Cell></Row><Row
+          >战术核弹轰炸 {TacticalNuclearStrikeAoE} 个单元格范围区域，造成 {TacticalNuclearStrikeCenterDamage}[damagethermal/] 伤害和[abilityred]强力冲击[/abilityred]。[br/]此外，战斗中的每个敌方单位都有 {TacticalNuclearStrikeBlindStrength}[strengthphysical/] 力量几率被[abilityred]致盲[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TIME_ON_TARGET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is marked for artillery fire and at the end of its turn it and adjacent allies will receive {TimeOnTargetDamage}[damagePhysical/] and [abilityred]Massive Impact[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位被炮火侵袭标记，回合结束时，该单位及相邻的盟友将受到 {TimeOnTargetDamage}[damagePhysical/] 伤害和[abilityred]强力冲击[/abilityred]。</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell

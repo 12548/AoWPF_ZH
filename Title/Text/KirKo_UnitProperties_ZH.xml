@@ -16,7 +16,8 @@
     xmlns="urn:schemas-microsoft-com:office:excel"
   ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
-    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -199,10 +200,10 @@
             ss:Type="String"
           >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The unit gains [abilityblue]Universal Camouflage[/abilityblue] and is {CloakingAccuracyDecrease} harder to hit.[br/][br/]In addition, each time this unit is hit, it becomes {CloakingAccuracyDecreaseBuff} harder to hit for that turn. This effect can stack up to 3 times.</Data></Cell><Cell
+          >The unit gains [abilityblue]Universal Camouflage[/abilityblue] and is {CloakingAccuracyDecrease} harder to hit.[br/][br/]In addition, each time this unit is hit, it becomes {CloakingAccuracyDecreaseBuff} harder to hit for that turn. This effect can stack up to 3 times.[br/][br/][productioncol]Only one kind of carapace can be active at any time.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位获得[abilityblue]通用伪装[/abilityblue]且命中难度增加 {CloakingAccuracyDecrease}。[br/][br/]此外，该单位每次被击中后，该回合内的命中难度增加 {CloakingAccuracyDecreaseBuff}。该效果最多可叠加 3 次。</Data></Cell></Row><Row
+          >单位获得[abilityblue]通用伪装[/abilityblue]且命中难度增加 {CloakingAccuracyDecrease}。[br/][br/]此外，该单位每次被击中后，该回合内的命中难度增加 {CloakingAccuracyDecreaseBuff}。该效果最多可叠加 3 次。[br/][br/][productioncol]一次只能激活一种甲壳。[/productioncol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">POISON_EXPULSION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -253,19 +254,19 @@
             ss:Type="String"
           >ABILITY_NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Accelerated Healing</Data></Cell><Cell><Data
+          >Regenerative Carapace</Data></Cell><Cell><Data
             ss:Type="String"
-          >加速治疗</Data></Cell></Row><Row
+          >再生甲壳</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">ACCELERATED_HEALING</Data></Cell><Cell><Data
             ss:Type="String"
           >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit gains [abilityblue]Regeneration[/abilityblue], healing {AcceleratedHealthRegen}[hp/] each turn in combat, and recovers all of its [hp/] at the start of its owner's turn on the strategic map.</Data></Cell><Cell
+          >This unit gains [abilityblue]Regeneration[/abilityblue], healing {AcceleratedHealthRegen}[hp/] each turn in combat, and recovers all of its [hp/] at the start of its owner's turn on the strategic map.[br/][br/][productioncol]Only one kind of carapace can be active at any time.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位获得[abilityblue]再生[/abilityblue]，可在战斗中每回合治疗 {AcceleratedHealthRegen}[hp/]，并可在其所有者策略地图回合开始时，恢复全部[hp/]。</Data></Cell></Row><Row
+          >该单位获得[abilityblue]再生[/abilityblue]，在战斗中每回合治疗 {AcceleratedHealthRegen}[hp/]，并在策略地图上其所有者的回合开始时，恢复全部 [hp/]。[br/][br/][productioncol]一次只能激活一种甲壳。[/productioncol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">RESUSCITATION_GLANDS</Data></Cell><Cell
         ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
@@ -278,10 +279,10 @@
       ><Cell><Data ss:Type="String">RESUSCITATION_GLANDS</Data></Cell><Cell
         ><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >If this unit is killed during tactical combat, it will revive after {SpareTurnRevive} with {SpareHealthRevive}.[br/]This can only occur once per battle.</Data></Cell><Cell
+          >If this unit is killed during tactical combat, it will revive after {SpareTurnRevive} with {SpareHealthRevive}.[br/][br/][firecol]A unit can only revive itself once per battle.[/firecol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >如果该单位在战术战斗中被击杀，可在 {SpareTurnRevive} 后复活，复活后血量为 {SpareHealthRevive}。[br/]此技能每次战斗只能使用一次。</Data></Cell></Row><Row
+          >如果该单位在战术战斗中被击杀，可在 {SpareTurnRevive} 后复活，复活后血量为 {SpareHealthRevive}。[br/][br/][firecol]每个单位在每场战斗中只能复活自己一次。[/firecol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">HEIGHTENED_VISION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1222,10 +1223,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Whenever this unit is struck by an attack, it gains +{ArmorReact}, for {ArmorReactTurn}. This effect can stack up to 3 times.</Data></Cell><Cell
+          >Whenever this unit is struck by an attack, it gains +{ArmorReact}, for {ArmorReactTurn}. This effect can stack up to {NumStacks} times.[br/][br/][productioncol]Only one kind of carapace can be active at any time.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >只要该单位受到攻击，就会获得 +{ArmorReact}，持续 {ArmorReactTurn}。该效果最多可叠加 3 次。</Data></Cell></Row><Row
+          >只要该单位受到攻击，就会获得 +{ArmorReact}，持续 {ArmorReactTurn}。该效果最多可叠加 {NumStacks} 次。[br/][br/][productioncol]一次只能激活一种甲壳。[/productioncol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ADAPTIVE_CARAPACE</Data></Cell><Cell><Data
             ss:Type="String"

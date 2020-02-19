@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9150</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>14265</WindowHeight><WindowWidth>28770</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -128,10 +128,9 @@
             ss:Type="String"
           >NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >[annex/] Annex Sector as Province for {STR_cityName}</Data></Cell><Cell
-        ><Data
+          >[annex/] Annex Sector for {STR_cityName}</Data></Cell><Cell><Data
             ss:Type="String"
-          >为{STR_cityName}[annex/]吞并区域</Data></Cell><Cell
+          >为{STR_cityName}吞并[annex/]区域</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -144,10 +143,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Builds a base which gives you ownership over the sector its built in. It projects domain and allows you to gather income from the sector.</Data></Cell><Cell
+          >Link this sector to your colony by building a base.[br/][br/]{XML_COLONYDEFINITION_STRATEGIC@SECTOR_OPERATION_BUILD_BASE@SHARED_TEXT}</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >建造一个能够给予你该区域所有权的基地。这会使领域扩张并允许你从该区域采集收益。</Data></Cell></Row><Row
+          >建造一个基地，将此区域与你的殖民地相连。[br/][br/]{XML_COLONYDEFINITION_STRATEGIC@SECTOR_OPERATION_BUILD_BASE@SHARED_TEXT}</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data
@@ -186,10 +185,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Builds a Naval Base which gives you ownership over the sector its built in. It projects domain and allows you to gather income from the sector.</Data></Cell><Cell
+          >{XML_COLONYDEFINITION_STRATEGIC@SECTOR_OPERATION_BUILD_BASE@DESCRIPTION}</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >建造一个能够给予你该区域所有权的海军基地。这会使领域扩张并允许你从该区域采集收益。</Data></Cell></Row><Row
+          >{XML_COLONYDEFINITION_STRATEGIC@SECTOR_OPERATION_BUILD_BASE@DESCRIPTION}</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data
@@ -220,10 +219,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Builds a forward base which gives you ownership over the sector its built in. It does not project domain and does not allow you to gather income from the sector, but it provides vision and serves as an obstacle for your enemies.</Data></Cell><Cell
+          >Build a forward base to claim this sector for future expansion.[br/][br/][bulletlist][bullet][abilitygreen]Defended by a strong garrison[/abilitygreen][/bullet][bullet][warningred]Does not collect income from locations in the sector[/warningred][/bullet][/bulletlist]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >建造一个能够给予你该区域所有权的前线基地。这不会使领域扩张也无法从该区域采集收益，但能够提供视野并充当敌人的障碍物。</Data></Cell></Row><Row
+          >建造一个前线基地，获得此区域的主权，为未来扩张做准备。[br/][br/][bulletlist][bullet][abilitygreen]由强大的驻防部队守卫[/abilitygreen][/bullet][bullet][warningred]不会从该区域的地点中获得收益[/warningred][/bullet][/bulletlist]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data
@@ -263,10 +262,9 @@
             ss:Type="String"
           >LOGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >The colony's food[supply/] income is increased by {INT_Percentage}% this turn.</Data></Cell><Cell
-        ><Data
+          >The Colony recieves {INT_Reward} [supply/] </Data></Cell><Cell><Data
             ss:Type="String"
-          >本回合殖民地食物[supply/]收益提升 {INT_Percentage}%。</Data></Cell></Row><Row
+          >殖民地获得 {INT_Reward}[supply/]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:StyleID="Default"
       ><Cell><Data ss:Type="String">HAPPINESS_PRODUCTION</Data></Cell><Cell
@@ -295,11 +293,11 @@
           ss:StyleID="s64"
         ><Data
             ss:Type="String"
-          >The colony's production[production/] income is increased by {INT_Percentage}% this turn.</Data></Cell><Cell
+          >The Colony recieves {INT_Reward}[production/]  </Data></Cell><Cell
           ss:StyleID="s62"
         ><Data
             ss:Type="String"
-          >本回合殖民地产力[production/]收益提升 {INT_Percentage}%。</Data></Cell><Cell
+          >殖民地获得 {INT_Reward}[production/]</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s62"
         /><Cell ss:StyleID="s64" /></Row><Row
@@ -330,10 +328,9 @@
             ss:Type="String"
           >LOGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >The colony's energy[energy/] income is increased by {INT_Percentage}% this turn.</Data></Cell><Cell
-        ><Data
+          >The Colony recieves {INT_Reward}[energy/]  </Data></Cell><Cell><Data
             ss:Type="String"
-          >本回合殖民地能源[energy/]收益提升 {INT_Percentage}%。</Data></Cell></Row><Row
+          >殖民地获得 {INT_Reward}[energy/]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:StyleID="Default"
       ><Cell><Data ss:Type="String">HAPPINESS_RESEARCH</Data></Cell><Cell><Data
@@ -361,10 +358,9 @@
             ss:Type="String"
           >LOGIC_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >The colony's knowledge[research/] income is increased by {INT_Percentage}% this turn.</Data></Cell><Cell
-        ><Data
+          >The Colony recieves {INT_Reward}[research/] </Data></Cell><Cell><Data
             ss:Type="String"
-          >本回合殖民地知识[research/]收益提升 {INT_Percentage}%。</Data></Cell></Row><Row
+          >殖民地获得 {INT_Reward}[research/]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">UNREST</Data></Cell><Cell><Data
             ss:Type="String"
@@ -389,10 +385,10 @@
             ss:Type="String"
           >LOGIC_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >{UnrestColonists} of the colonists in this colony have become rioters. Rioters cannot be moved from their slot and no longer produce resources.[br/][br/]Increase your [hyperlink,000003AC00000026]Colony Happiness[/hyperlink] to turn rioters back into normal colonists or activate [hyperlink,000003AC000002AB]Martial Law[/hyperlink], which will disable the happiness system at a loss of income, and convert rioters into normal colonists.</Data></Cell><Cell
+          >{INT_Reward} of the colonists in this colony have become [rioter/] rioters. Rioters cannot be moved from their slot and no longer produce resources.[br/][br/]Increase your [hyperlink,000003AC00000026]Colony Happiness[/hyperlink] to turn rioters back into normal colonists or activate [hyperlink,000003AC000002AB]Martial Law[/hyperlink], which will disable the happiness system at a loss of income, and convert rioters into normal colonists.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >移住民中的 {UnrestColonists} 已成为暴乱者。暴乱者不会再生产资源，也无法将其移出所在槽位。[br/][br/]提升你的[hyperlink,000003AC00000026]殖民地幸福值[/hyperlink]将暴乱者变回普通移住民，或是以一定收益为代价启用[hyperlink,000003AC000002AB]戒严令[/hyperlink]来禁用幸福值系统，从而使暴乱者变回普通移住民。</Data></Cell><Cell
+          >移住民中的{INT_Reward}已成为 [rioter/] 暴乱者。暴乱者不会再生产资源，也无法将其移出所在槽位。[br/][br/]提升你的[hyperlink,000003AC00000026]殖民地幸福值[/hyperlink]将暴乱者变回普通移住民，或是以一定收益为代价启用[hyperlink,000003AC000002AB]戒严令[/hyperlink]来禁用幸福值系统，从而使暴乱者变回普通移住民。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -474,18 +470,82 @@
             ss:Type="String"
           >The Colony Center location within the sector.</Data></Cell><Cell
         ><Data ss:Type="String">区域内的殖民地中心地点。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HAPPINESS_COSMITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Happiness Event: Cosmite!</Data></Cell><Cell><Data
+            ss:Type="String"
+          >幸福事件：宇宙合金！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HAPPINESS_COSMITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Due to the happiness[happiness/]of your population there is a boost in cosmite income!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由于你居民的幸福值[happiness/]，宇宙合金收益获得提升！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HAPPINESS_COSMITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOGIC_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Colony recieves {INT_Reward}[tricorium/] </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >殖民地获得 {INT_Reward}[tricorium/] </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HAPPINESS_INFLUENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Happiness Event: Influence!</Data></Cell><Cell><Data
+            ss:Type="String"
+          >幸福事件：影响力！</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">HAPPINESS_INFLUENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Due to the happiness[happiness/]of your population there is a boost in influence income!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由于你居民的幸福值[happiness/]，影响力收益获得提升！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HAPPINESS_INFLUENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOGIC_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Colony recieves {INT_Reward}[influence/] </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >殖民地获得 {INT_Reward}[influence/] </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
-          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row></Table><WorksheetOptions
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SECTOR_OPERATION_BUILD_BASE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHARED_TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[bulletList][bullet][abilitygreen]Collect income from the sector[/abilitygreen][/bullet][bullet][abilitygreen]Develop annexed sectors to produce more income[/abilitygreen][/bullet][bullet][abilitygreen]Defended by the colony's garrison[/abilitygreen][/bullet][/bulletList]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[bulletList][bullet][abilitygreen]从该区域获得收益[/abilitygreen][/bullet][bullet][abilitygreen]开发被吞并的区域来生产更多的收益[/abilitygreen][/bullet][bullet][abilitygreen]由殖民地驻防部队守卫[/abilitygreen][/bullet][/bulletList]</Data></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
     ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
         >600</HorizontalResolution><VerticalResolution
-        >600</VerticalResolution></Print><Zoom>115</Zoom><Selected /><Panes
-      ><Pane><Number>3</Number><ActiveRow>10</ActiveRow><ActiveCol
+        >600</VerticalResolution></Print><Zoom>115</Zoom><Selected
+      /><TopRowVisible>30</TopRowVisible><Panes><Pane><Number
+          >3</Number><ActiveRow>49</ActiveRow><ActiveCol
           >3</ActiveCol></Pane></Panes><ProtectObjects
       >False</ProtectObjects><ProtectScenarios
       >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

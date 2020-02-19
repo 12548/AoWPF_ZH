@@ -14,8 +14,8 @@
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
   ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -317,10 +317,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Transfers [abilityblue][essencecharge/]Essence Charges[/abilityblue] from the caster to the target unit, restoring its action ponts. Only the required number of charges will be transferred.</Data></Cell><Cell
+          >Transfers [abilityblue][essencecharge/]Essence Charges[/abilityblue] from the caster to the target unit, restoring its action points. Only the required number of charges will be transferred.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >将施放者的[abilityblue][essencecharge/]精华充能[/abilityblue]转移至目标单位，恢复其操作点数。只会转移需求数量的充能。</Data></Cell><Cell
+          >将施法者的[abilityblue][essencecharge/]精华充能[/abilityblue]转移至目标单位，恢复其操作点数。只会转移需求数量的充能。</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -387,9 +387,9 @@
             ss:Type="String"
           >ABILITY_NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Essence Pulse</Data></Cell><Cell ss:StyleID="Default"><Data
+          >Draining Pulse</Data></Cell><Cell ss:StyleID="Default"><Data
             ss:Type="String"
-          >精华脉冲</Data></Cell><Cell
+          >汲取脉冲</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
@@ -398,11 +398,11 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The unit channels the Essence within it in a pulse of Essence, damaging enemy units.</Data></Cell><Cell
+          >The unit triggers an entropic pulse at the target, damaging it and draining its essence.</Data></Cell><Cell
           ss:StyleID="Default"
         ><Data
             ss:Type="String"
-          >该单位引导精华至精华脉冲，对敌方单位造成伤害。</Data></Cell><Cell
+          >单位对目标释放一阵混沌脉冲，造成伤害并汲取其精华。</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
@@ -982,7 +982,7 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Bestow Es'Teq Essence on a unit. Target friendly unit gains their maximum number of [abilityblue][essencecharge/]Essence Charges[/abilityblue].</Data></Cell><Cell
+          >Bestow Es'Teq Essence on a unit. Target friendly unit gains their maximum number of [abilityblue][essencecharge/]Essence Charges[/abilityblue]. </Data></Cell><Cell
         ><Data
             ss:Type="String"
           >赋予单位埃斯特克精华，目标友方单位将获得其最大数量的 [abilityblue][essencecharge/]精华充能[/abilityblue]。</Data></Cell><Cell
@@ -1485,10 +1485,10 @@
             ss:Type="String"
           >LEVEL_1_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
             ss:Type="String"
-          >{Chance}% chance to lose a colonist each turn. If a colonist is lost this way, the Heritor player gains a Drained unit at their nearest by colony.</Data></Cell><Cell
+          >{Chance}% chance to transform {popAmount} into a Drained each [turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >每回合有 {Chance}% 几率失去一个移住民。如果继承者玩家以此方式失去了一个移住民，则将在最近的一个殖民地中获得一个枯萎者单位。</Data></Cell><Cell
+          >每 [turn/] 回合有 {Chance}% 几率将 {popAmount} 转化为枯萎者。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s66"
         /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
@@ -1513,10 +1513,10 @@
             ss:Type="String"
           >LEVEL_2_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
             ss:Type="String"
-          >{Chance}% chance to lose a colonist each turn. If a colonist is lost this way, the Heritor player gains a Drained unit at their nearest by colony.[br/]At the start of each turn, a random non-Heritor unit has a {Strength}[strengthentropy/] strength chance to be [abilityred]Stunned[/abilityred] for {duration}[turn/]. On failure, they gain [abilityred]Entropic Decay[/abilityred] instead.</Data></Cell><Cell
+          >{Chance}% chance to transform {popAmount} into a Drained each [turn/].[br/]In combat, a random non-Heritor unit has a {Strength}[strengthentropy/] strength chance to be [abilityred]Stunned[/abilityred] each [turn/]. On failure, they gain [abilityred]Entropic Decay[/abilityred] instead.[br/</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >每回合有 {Chance}% 几率失去一个移住民。如果继承者玩家以此方式失去了一个移住民，则将在最近的一个殖民地中获得一个枯萎者单位。[br/]每回合开始时，一个随机的非继承者单位有 {Strength}[strengthentropy/] 力量几率陷入[abilityred]晕眩[/abilityred]，持续 {duration}[turn/]。如果失败，则将获得[abilityred]混沌衰败[/abilityred]。</Data></Cell><Cell
+          >每 [turn/] 回合有 {Chance}% 几率将 {popAmount} 转化为枯萎者。[br/]在战斗中，每 [turn/] 回合，一个随机的非继承者单位有 {Strength}[strengthentropy/] 力量几率陷入[abilityred]晕眩[/abilityred]。如果失败，则获得[abilityred]混沌衰败[/abilityred]。[br/</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s66"
         /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
@@ -1541,10 +1541,10 @@
             ss:Type="String"
           >LEVEL_3_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
             ss:Type="String"
-          >{Chance}% chance to lose a colonist each turn. If a colonist is lost this way, the Heritor player gains a Drained unit at their nearest by colony.[br/]At the start of each turn, a random non-Heritor unit has a {Strength}[strengthentropy/] strength chance to be [abilityred]Stunned[/abilityred] for {duration}[turn/]. On failure, they gain [abilityred]Entropic Decay[/abilityred] instead.[br/]All friendly units gain up to their maximum number of [abilityblue][essencecharge/]Essence Charge[/abilityblue] at the start of combat.</Data></Cell><Cell
+          >{Chance}% chance to transform {popAmount} into a Drained each [turn/].[br/]In combat, a random non-Heritor unit has a {Strength}[strengthentropy/] strength chance to be [abilityred]Stunned[/abilityred] each [turn/]. On failure, they gain [abilityred]Entropic Decay[/abilityred] instead.[br/]Friendly units gain full [abilityblue][essencecharge/]Essence Charges[/abilityblue] at the start of combat.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >每回合有 {Chance}% 几率失去一个移住民。如果继承者玩家以此方式失去了一个移住民，则将在最近的一个殖民地中获得一个枯萎者单位。[br/]每回合开始时，一个随机的非继承者单位有 {Strength}[strengthentropy/] 力量几率陷入[abilityred]晕眩[/abilityred]，持续 {duration}[turn/]。如果失败，则将获得[abilityred]混沌衰败[/abilityred]。[br/]战斗开始时，所有友方单位将获得其最大数量的 [abilityblue][essencecharge/]精华充能[/abilityblue]。</Data></Cell><Cell
+          >每 [turn/] 回合有 {Chance}% 几率将 {popAmount} 转化为枯萎者。[br/]在战斗中，每 [turn/] 回合，一个随机的非继承者单位有 {Strength}[strengthentropy/] 力量几率陷入[abilityred]晕眩[/abilityred]。如果失败，则获得[abilityred]混沌衰败[/abilityred]。[br/]友方单位在战斗开始时获得全部 [abilityblue][essencecharge/]精华充能[/abilityblue]。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s66"
         /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
@@ -2123,18 +2123,18 @@
       ><Cell><Data ss:Type="String">ESTEQ_ACOLYTE_INCARNATION</Data></Cell><Cell
         ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Essence Sacrifice</Data></Cell><Cell><Data
+          >Essence Transfer</Data></Cell><Cell><Data
             ss:Type="String"
-          >精华献祭</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          >精华转移</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >ESTEQ_ACOLYTE_INCARNATION</Data></Cell><Cell><Data
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target unit gains {EntropyStackAmount} stack of [abilityred]Energy Drain[/abilityred], and the caster gains {buffstacks} stacks of [abilityblue][essencecharge/]Essence Charge[/abilityblue]. This ability can target both friendly and enemy units, including the caster themselves.</Data></Cell><Cell
+          >Target unit gains {EntropyStackAmount} stack of [abilityred]Energy Drain[/abilityred], and the caster gains {buffstacks} stacks of [abilityblue][essencecharge/]Essence Charge[/abilityblue].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >目标单位获得 {EntropyStackAmount} 层[abilityred]能量干涸[/abilityred]，施法者获得 {buffstacks} 层 [abilityblue][essencecharge/]精华充能[/abilityblue]。该技能可以友方和敌方单位为目标，包括施法者自身。</Data></Cell></Row><Row
+          >目标单位获得 {EntropyStackAmount} 层[abilityred]能量干涸[/abilityred]，施法者获得 {buffstacks} 层 [abilityblue][essencecharge/]精华充能[/abilityblue]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">EMPOWERED_DRAINED</Data></Cell><Cell><Data
             ss:Type="String"
@@ -2288,7 +2288,7 @@
             ss:Type="String"
           >CASTER_FAILURE</Data></Cell><Cell><Data
             ss:Type="String"
-          >We have failed to successfully cure the enemy army. They have taken only minor damage.</Data></Cell><Cell
+          >We have failed to successfully curse the enemy army. They have taken only minor damage.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >我们未能成功诅咒敌军，他们只受到了轻微伤害。</Data></Cell></Row><Row

@@ -548,20 +548,20 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This mod creates a small psionic barrier arround the unit, granting it +{PsiStatusResistance} status resistance and +{PsiDamageResistance} damage resistance.</Data></Cell><Cell
+          >This mod creates a small psionic barrier arround the unit, granting it +{PsiDamageResistance} resistance and +{PsiStatusResistance} to non-psionic status effects.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该模块会在单位周围产生小型灵能屏障，使单位获得 +{PsiStatusResistance} 状态抵抗和 +{PsiDamageResistance} 伤害抵抗。</Data></Cell></Row><Row
+          >该模块会在单位周围创造一道小型灵能屏障，使单位获得 +{PsiStatusResistance} 抵抗和 +{PsiDamageResistance} 非灵能状态效果抵抗。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">MIND_BARRIER</Data></Cell><Cell><Data
             ss:Type="String"
           >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit has+{PsiStatusResistance} status resistance and +{PsiDamageResistance} damage resistance.</Data></Cell><Cell
+          >This unit has +{PsiDamageResistance} resistance and +{PsiStatusResistance} to non-psionic status effects.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位获得 +{PsiStatusResistance} 状态抵抗和 +{PsiDamageResistance} 伤害抵抗。</Data></Cell></Row><Row
+          >该单位获得 +{PsiDamageResistance} 抵抗和 +{PsiStatusResistance} 非灵能状态效果抵抗。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">EYES_OF_ETERNITY</Data></Cell><Cell><Data
             ss:Type="String"

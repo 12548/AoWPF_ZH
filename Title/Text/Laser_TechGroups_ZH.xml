@@ -10,12 +10,12 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:50:59Z</Created><LastSaved
     >2019-06-25T15:50:59Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14730</WindowHeight><WindowWidth>28740</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><MaxChange
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
     >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
@@ -26,13 +26,13 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
     ss:Name="Script"
   ><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultColumnWidth="239.25"
       ss:DefaultRowHeight="15"
     ><Row ss:AutoFitHeight="0" ss:Height="120"><Cell><Data
@@ -124,10 +124,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Deal {AblationDamage} damage with [abilityred]Massive Impact[/abilityred] to target unit and remove {ArmorRemoved} and {ShieldsRemoved}.</Data></Cell><Cell
+          >Deal {AblationDamage} damage with [abilityred]Massive Impact[/abilityred] to target unit, bypassing and removing {ArmorRemoved} and {ShieldsRemoved}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >对敌军造成 {AblationDamage} 伤害，附带[abilityred]强力冲击[/abilityred]，减少 {ArmorRemoved} 和 {ShieldsRemoved}。</Data></Cell></Row><Row
+          >对敌方单位造成 {AblationDamage} 伤害并附带[abilityred]强力冲击[/abilityred]，忽视并减少 {ArmorRemoved} 和 {ShieldsRemoved}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">PHOTONIC_COUNTERMEASURES</Data></Cell><Cell
         ><Data ss:Type="String">NAME</Data></Cell><Cell><Data

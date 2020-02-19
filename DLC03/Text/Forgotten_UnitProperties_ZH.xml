@@ -577,10 +577,10 @@ EssenceAmount numbers the quantity of essence charges this unit can carry.</Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit's Entropy attacks gain a {ChaosChance}[strengthEntropy/] strength chance to apply [abilityred]{NegativeStatusEffects} random debuffs[/abilityred] to non-Mindless, non-Mineral or non-Ethereal units for {ChaosTime}[turn/].({ChaosSingleAttack}[strengthEntropy/] strength chance on repeating attacks).</Data></Cell><Cell
+          >This unit's Entropy attacks gain a {ChaosChance}[strengthEntropy/] strength chance to apply [abilityred]{NegativeStatusEffects} random debuffs[/abilityred] to non-Mindless, non-Mineral or non-Ethereal units for {ChaosTime}[turn/].({ChaosSingleAttack}[strengthEntropy/] strength chance on repeating attacks).[br/][br/][warningred]Does not affect units with Status Effect Immunities.[/warningred]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位的混沌攻击有 {ChaosChance}[strengthEntropy/] 力量几率对非无意识、非矿物或非虚灵单位施加 [abilityred]{NegativeStatusEffects} 随机减益[/abilityred]，持续 {ChaosTime}[turn/]。（重复攻击有 {ChaosSingleAttack}[strengthEntropy/] 力量几率）。</Data></Cell></Row><Row
+          >该单位的混沌攻击有 {ChaosChance}[strengthEntropy/] 力量几率对非无意识、非矿物或非虚灵单位施加 [abilityred]{NegativeStatusEffects} 随机减益[/abilityred]，持续 {ChaosTime}[turn/]。（重复攻击有 {ChaosSingleAttack}[strengthEntropy/] 力量几率）。[br/][br/][warningred]对具有状态效果免疫的单位无效。[/warningred]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell
         ><Data ss:Type="String">MOD_NAME</Data></Cell><Cell><Data

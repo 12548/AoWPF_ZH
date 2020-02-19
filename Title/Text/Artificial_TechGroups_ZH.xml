@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -247,10 +247,10 @@
       ><Cell><Data ss:Type="String">TOTAL_NETWORK_INTEGRATION</Data></Cell><Cell
         ><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The unit is immune to stagger. If the unit dies in combat, they are revived with {NetworkReviveHP} of their maximum [hp/] at the start of the next turn. By creating an emergency backup of this unit's conciousness, they also become [abilityblue]Integrated[/abilityblue], allowing them to interface with Synthesis technology.</Data></Cell><Cell
+          >The unit is immune to stagger. If the unit dies in combat, they are revived with {NetworkReviveHP} of their maximum [hp/] at the start of the next turn. By creating an emergency backup of this unit's conciousness, they also become [abilityblue]Integrated[/abilityblue], allowing them to interface with Synthesis technology.[br/][br/][firecol]A unit can only revive itself once per battle.[/firecol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位对动摇以及所有状态效果免疫。如果该单位在战斗中死亡，下回合开始时将以最大 [hp/] 的 {NetworkReviveHP} 复活。对该单位的意识进行紧急备份后还会变为[abilityblue]融合[/abilityblue]，可以接入合成科技。</Data></Cell><Cell
+          >该单位对动摇以及所有状态效果免疫。如果该单位在战斗中死亡，下回合开始时将以最大 [hp/] 的 {NetworkReviveHP} 复活。对该单位的意识进行紧急备份后还会变为[abilityblue]融合[/abilityblue]，可以接入合成科技。[br/][br/][firecol]每个单位在每场战斗中只能复活自己一次。[/firecol]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -913,10 +913,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Send out a targeted hacking signal to interfere with enemy Mechanical and Cyborg units in a {Radius} hex area of effect, staggering all units with [abilityred]Massive Impact[/abilityred]. In addition, they have a strength {ImmobilizeChance} chance to become [abilityred]Immobilized[/abilityred] for {duration}.</Data></Cell><Cell
+          >Enemy Mechanical and Cyborg units in a {Radius} hex area take {DamageAmount}[damageWave/] with [abilityred]Massive Impact[/abilityred]. In addition, they have a strength {ImmobilizeChance} chance to become [abilityred]Immobilized[/abilityred] for {duration}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >发出指向型入侵信号干扰 {Radius} 个单元格范围的敌方机械单位和半机械单位，使所有受到[abilityred]强力冲击[/abilityred]的单位动摇。另外，它们还有 {ImmobilizeChance} 的力量几率变为[abilityred]无法移动[/abilityred]，持续 {duration}。</Data></Cell><Cell
+          >{Radius} 个单元格范围内的敌方机械和半机械人单位受到 {DamageAmount}[damageWave/] 伤害，且伤害附带[abilityred]强力冲击[/abilityred]。此外，这些单位还有 {ImmobilizeChance} 的力量几率[abilityred]无法移动[/abilityred]，持续 {duration}。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -979,10 +979,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Sends out a targeted hacking signal to interfere with enemy Mechanical and Cyborg units in a {Radius} hex area of effect. They have a strength {DisableChance} chance to become [abilityred]Disabled[/abilityred] for {duration}. If resisted, the units will be Staggered instead.</Data></Cell><Cell
+          >Sends out a targeted hacking signal to interfere with enemy Mechanical and Cyborg units in a {Radius} hex area of effect. They have a strength {DisableChance} chance to become [abilityred]Disabled[/abilityred] for {duration}. If resisted, the units will be Staggered instead. Additionally, Biological units in the area have a {ElectrifiedChance}[strengthWave/] strength chance to become [abilityred]Electrified[/abilityred].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >发出指向型入侵信号干扰 {Radius} 个单元格范围内的敌方机械单位和半机械单位。它们有 {DisableChance} 力量几率被[abilityred]瘫痪[/abilityred]，持续 {duration}。如果被抵抗，则该单位被动摇。</Data></Cell></Row><Row
+          >发出指向型入侵信号干扰 {Radius} 个单元格范围内的敌方机械单位和半机械单位。它们有 {DisableChance} 力量几率被[abilityred]瘫痪[/abilityred]，持续 {duration}。如果被抵抗，则该单位被动摇。此外，范围内的生物单位有 {ElectrifiedChance}[strengthWave/] 力量几率受到[abilityred]触电[/abilityred]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">SKIRMISH_SUBROUTINES</Data></Cell><Cell
         ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
@@ -1267,10 +1267,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Reactivating local imperial androids can provide quick reinforcements in the field. Summon a single android unit at target location. Can only summon a tier 1 or tier 2 unit.</Data></Cell><Cell
+          >Reactivating local imperial androids can provide quick reinforcements in the field. Summon a {number} android units at target location. Can only summon a tier 1 or tier 2 unit.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >复活本地帝国机器人可以为战场提供快速增援。在目标位置召唤一个机器人。仅可召唤等级 1 或等级 2 的单位。</Data></Cell></Row><Row
+          >复活本地帝国机器人可以为战场提供快速增援。在目标位置召唤 {number} 个机器人单位。仅可召唤 1 阶或 2 阶单位。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">CASCADING_SYSTEM_FAILURE</Data></Cell><Cell
         ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
@@ -1395,19 +1395,19 @@
             ss:Type="String"
           >NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >War of the Machines</Data></Cell><Cell><Data
+          >Total War Automation</Data></Cell><Cell><Data
             ss:Type="String"
-          >机械战争</Data></Cell></Row><Row
+          >全面战争自动化</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
       ><Cell><Data ss:Type="String">WAR_OF_THE_MACHINES</Data></Cell><Cell><Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
-          >Total integration of synthesis technology into war factories leads to massive gains in efficiency and effectiveness of compatible units.[br/][br/]All Mechanical and Cyborg units gain {RankModifier} extra rank when produced, and cost {EnergyModifier}.</Data></Cell><Cell
+          >Total integration of synthesis technology into war factories leads to massive gains in efficiency and effectiveness for our units.[br/][br/]All units gain {RankModifier} extra rank when produced, and cost {EnergyModifier}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >合成科技完全整合到战争工厂中，可以最大化提升兼容单位的效率和效力。[br/][br/]制造机械单位和半机械单位时，单位可获得 {RankModifier} 额外等级，同时消耗 {EnergyModifier}。</Data></Cell><Cell
+          >合成科技完全整合到战争工厂中，可以最大化提升我方单位的效率和效力。[br/][br/]所有单位在生产时额外获得 {RankModifier} 军阶且消耗 {EnergyModifier}。</Data></Cell><Cell
           ss:Index="9"
           ss:StyleID="s65"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -1542,10 +1542,9 @@
             ss:Type="String"
           >LEVEL_1_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Knowledge income reduced by {NetworkResearchTheft}. The Synthesis player gains this Knowledge instead.</Data></Cell><Cell
-        ><Data
+          >Steal {NetworkResearchTheft}[research/].</Data></Cell><Cell><Data
             ss:Type="String"
-          >知识收入减少 {NetworkResearchTheft}。合成玩家获得这项知识。</Data></Cell><Cell
+          >窃取 {NetworkResearchTheft}[research/]。</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s64"
         ><Data
@@ -1557,10 +1556,10 @@
             ss:Type="String"
           >LEVEL_2_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Knowledge income reduced by {NetworkResearchTheft}. The Synthesis player gains this Knowledge instead.[br/]Synthesis player units gain {NetworkAcc} accuracy and {NetworkCrit} critical hit chance.</Data></Cell><Cell
+          >Steal {NetworkResearchTheft}[research/].[br/]Synthesis units gain {NetworkAcc} [accuracy/] and {NetworkCrit} crit chance.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >知识收入减少 {NetworkResearchTheft}。合成玩家获得这项知识。[br/]合成玩家单位获得 {NetworkAcc} 的准度和 {NetworkCrit} 的暴击率。</Data></Cell><Cell
+          >窃取 {NetworkResearchTheft}[research/]。[br/]合成单位获得 {NetworkAcc}[accuracy/] 和 {NetworkCrit} 暴击率。</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s64"
         ><Data
@@ -1578,20 +1577,20 @@
             ss:Type="String"
           >LEVEL_2_MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit has {NetworkAcc} accuracy and {NetworkCrit} critical hit chance.</Data></Cell><Cell
+          >This unit has {NetworkAcc} [accuracy/] and {NetworkCrit} crit chance.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位拥有 {NetworkAcc} 的准度和 {NetworkCrit} 的暴击率。</Data></Cell></Row><Row
+          >该单位获得 {NetworkAcc}[accuracy/] 和 {NetworkCrit} 暴击率。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="105"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
           >LEVEL_3_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Knowledge income reduced by {NetworkResearchTheft}. The Synthesis player gains this Knowledge instead.[br/]Synthesis player units gain {NetworkAcc} accuracy and {NetworkCrit} critical hit chance.[br/]Non-Synthesis player units which are [abilityred]Compromised[/abilityred] have a {NetworkDaemonChance} strength chance to be infected by a [abilityred]Incapacitate[/abilityred] or [abilityred]Haywire[/abilityred] Daemon each turn.</Data></Cell><Cell
+          >Steal {NetworkResearchTheft}[research/].[br/]Synthesis units gain {NetworkAcc} [accuracy/] and {NetworkCrit} crit chance.[br/][abilityred]Compromised[/abilityred] non-Synthesis units have {NetworkDaemonChance} strength chance to get an [abilityred]Incapacitate[/abilityred] or [abilityred]Haywire[/abilityred] Daemon each [turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >知识收入减少 {NetworkResearchTheft}。合成玩家获得这项知识。[br/]合成玩家单位获得 {NetworkAcc} 的准度和 {NetworkCrit} 的暴击率。[br/]被[abilityred]扰乱[/abilityred]的非合成玩家单位每回合有 {NetworkDaemonChance} 力量几率被 [abilityred]致残[/abilityred]精灵或[abilityred]混乱[/abilityred]精灵感染。</Data></Cell><Cell
+          >窃取 {NetworkResearchTheft}[research/]。[br/]合成单位获得 {NetworkAcc}[accuracy/] 和 {NetworkCrit} 暴击率。[br/]被[abilityred]扰乱[/abilityred]的非合成单位每 [turn/] 回合有 {NetworkDaemonChance} 力量几率被[abilityred]致残[/abilityred]精灵或[abilityred]混乱[/abilityred]精灵感染。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -1614,10 +1613,10 @@
             ss:Type="String"
           >LEVEL_3_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >All non-Synthesis Mechanical and Cyborg units that are [abilityred]Compromised[/abilityred] have {NetworkDaemonChance} strength chance at the start of each turn to be infected by a [abilityred]Incapacitate[/abilityred] or a [abilityred]Haywire[/abilityred] Daemon.</Data></Cell><Cell
+          >All non-Synthesis units that are [abilityred]Compromised[/abilityred] have {NetworkDaemonChance} strength chance each [turn/] to be infected by a [abilityred]Incapacitate[/abilityred] or a [abilityred]Haywire[/abilityred] Daemon.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >在每回合开始，所有被[abilityred]扰乱[/abilityred]的非合成机械单位和半机械单位有 {NetworkDaemonChance} 的力量几率被[abilityred]致残[/abilityred]精灵或[abilityred]混乱[/abilityred]精灵感染。</Data></Cell><Cell
+          >所有被[abilityred]扰乱[/abilityred]的非合成单位每 [turn/] 回合有 {NetworkDaemonChance} 力量几率被[abilityred]致残[/abilityred]精灵或[abilityred]混乱[/abilityred]精灵感染。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"

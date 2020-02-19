@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
     >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -229,10 +229,10 @@
       ><Cell><Data ss:Type="String">XENO_CONTAMINANT_STRIKE</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target non-Xenoplague Biological or Cyborg unit takes {UnstableContaminationJumpDamage} damage, has a {UnstableContaminationChance} strength chance to gain [abilityred]Parasitic Infection[/abilityred] and [abilityred]Unstable Contamination[/abilityred] for {UnstableContaminationDuration}, causing it to explode upon death. The effect jumps to another target within {UnstableContaminationJumpRange} hexes up to {UnstableContaminationJumpMax} times.</Data></Cell><Cell
+          >Target non-Xenoplague Biological or Cyborg unit and {UnstableContaminationJumpMax} other units within {UnstableContaminationJumpRange} hexes take {UnstableContaminationDamage}[damageBio/] and have a {UnstableContaminationChance} strength chance to gain [abilityred]Parasitic Infection[/abilityred] and [abilityred]Unstable Contamination[/abilityred] until the end of combat, causing them to explode upon death.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >目标单位受到 {UnstableContaminationJumpDamage} 伤害并有 {UnstableContaminationChance} 力量几率受到[abilityred]寄生感染[/abilityred]和[abilityred]不稳定污染[/abilityred]，持续 {UnstableContaminationDuration}，使其在死亡后发生爆炸。该效果还会弹跳至 {UnstableContaminationJumpRange} 个单元格内的其他单位，最多跳转 {UnstableContaminationJumpMax} 次。</Data></Cell></Row><Row
+          >目标非异星疫病生物单位或半机械人单位和 {UnstableContaminationJumpRange} 个单元格内的 {UnstableContaminationJumpMax} 个其他单位受到 {UnstableContaminationDamage}[damageBio/] 伤害并有 {UnstableContaminationChance} 力量几率遭到[abilityred]寄生感染[/abilityred]和[abilityred]不稳定污染[/abilityred]，持续至战斗结束，使其在死亡后会发生爆炸。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">XENO_CONTAMINANT_STRIKE</Data></Cell><Cell
         ><Data ss:Type="String">PROPERTY_NAME</Data></Cell><Cell><Data
@@ -274,10 +274,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target non-Mindless Xenoplague unit heals to full [hp/] and goes [abilityblue]Rabid[/abilityblue] for {duration}. Rabid units are no longer under your control, and automatically attack the nearest enemy unit. In addition, the unit deals {RabidDam} extra damage, is immune to Status Effects, gains {RabidHP} maximum [hp/] and [abilityblue]Fast Movement.[/abilityblue]</Data></Cell><Cell
+          >Target non-Mindless Xenoplague unit and up to {UnitAmount} units within {HexRange} hexes heal for {HealAmount}[hp/] and go [abilityblue]Rabid[/abilityblue] for {duration}. Rabid units are no longer under your control, and automatically attack the nearest enemy unit. In addition, the unit deals {RabidDam} extra damage, is immune to Status Effects, gains {RabidHP} maximum [hp/] and [abilityblue]Fast Movement.[/abilityblue]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >目标非无意识异星疫病单位恢复全部 [hp/] 并变得[abilityblue]狂暴[/abilityblue]，持续 {duration}。狂暴单位不再受你的控制，而是会自动攻击最近的敌方单位，额外造成 {RabidDam} 伤害且免疫状态效果，获得最大 [hp/] 的 {RabidHP} 和[abilityblue]迅捷移动[/abilityblue]。</Data></Cell></Row><Row
+          >{HexRange} 个单元格内最多 {UnitAmount} 个目标非无意识异星疫病单位恢复 {HealAmount}[hp/] 并变得[abilityblue]狂暴[/abilityblue]，持续 {duration}。狂暴单位不再受你的控制，而是会自动攻击最近的敌方单位，额外造成 {RabidDam} 伤害且免疫状态效果，获得 {RabidHP} 最大 [hp/] 和[abilityblue]迅捷移动[/abilityblue]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">AGGRAVATE_INFECTION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -796,10 +796,10 @@
             ss:Type="String"
           >LEVEL_1_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Food income reduced by {supplyPenalty}[supply/].[br/]All Biological and Cyborg units belonging to non-Xenoplague players heal {healPenalty}[hp/] less per turn on the world map.</Data></Cell><Cell
+          >{supplyPenalty}[supply/] income.[br/]Biological and Cyborg non-Xenoplague units heal {healPenalty}[hp/] less every strategic [turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >食物收益减少 {supplyPenalty}[supply/]。[br/]世界地图上所有属于非异星疫病玩家的生物和半机械人单位每回合获得的治疗减少 {healPenalty}[hp/]。</Data></Cell></Row><Row
+          >{supplyPenalty}[supply/] 收益。[br/]非异星疫病生物和半机械人单位在每个战略 [turn/] 获得的治疗减少 {healPenalty}[hp/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
@@ -823,20 +823,20 @@
             ss:Type="String"
           >LEVEL_2_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Food income reduced by {supplyPenalty}[supply/].[br/]All Biological and Cyborg units belonging to non-Xenoplague players heal {healPenalty}[hp/] less per turn on the world map.[br/]Xenoplague player units gain Regeneration, causing them to heal in combat.</Data></Cell><Cell
+          >{supplyPenalty}[supply/] income.[br/]Biological and Cyborg non-Xenoplague units heal {healPenalty}[hp/] less every strategic [turn/].[br/]Xenoplague units gain [abilityblue]Regeneration[/abilityblue/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >食物收益减少 {supplyPenalty}[supply/]。[br/]世界地图上所有属于非异星疫病玩家的生物和半机械人单位每回合获得的治疗减少 {healPenalty}[hp/]。[br/]异星疫病玩家单位获得“再生”，可在战斗中进行治疗。</Data></Cell></Row><Row
+          >{supplyPenalty}[supply/] 收益。[br/]非异星疫病生物和半机械人单位在每个战略 [turn/] 获得的治疗减少 {healPenalty}[hp/]。[br/]异星疫病单位获得[abilityblue]再生[/abilityblue/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="75"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
           >LEVEL_3_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Food income reduced by {supplyPenalty}[supply/].[br/]All Biological and Cyborg units belonging to non-Xenoplague players heal {healPenalty}[hp/] less per turn on the world map and begin combat inflicted with Parasitic Infection.[br/]Xenoplague player units gain Regeneration, causing them to heal in combat.</Data></Cell><Cell
+          >{supplyPenalty}[supply/] income.[br/]Biological and Cyborg non-Xenoplague units heal {healPenalty}[hp/] less every strategic [turn/] and have [abilityred]Parasitic Infection[/abilityred].[br/]Xenoplague units gain [abilityblue]Regeneration[/abilityblue/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >食物收益减少 {supplyPenalty}[supply/]。[br/]世界地图上所有属于非异星疫病玩家的生物和半机械人单位每回合获得的治疗减少 {healPenalty}[hp/]，并以在战斗开始时获得“寄生感染”。[br/]异星疫病玩家单位获得“再生”，可在战斗中进行治疗。</Data></Cell></Row><Row
+          >{supplyPenalty}[supply/] 收益。[br/]非异星疫病生物和半机械人单位在每个战略 [turn/] 获得的治疗减少 {healPenalty}[hp/] 并具有[abilityred]寄生感染[/abilityred]。[br/]异星疫病单位获得[abilityblue]再生[/abilityblue/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">OMEGA_INFECTION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1936,10 +1936,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit benefits from grafted Xenoplague muscles. Melee attacks do {GraftDamage}% extra damage and gain an extra level of [abilityblue]Stagger Impact[/abilityblue].[br/][br/]This mod also grants melee attacks a {InfectionChance}[strengthbio/] strength chance ({InfectionChanceRepeating}[strengthbio/] for repeating attacks) to apply [abilityred]Parasitic Infection[/abilityred] to Biological and Cyborg units.</Data></Cell><Cell
+          >This unit benefits from grafted Xenoplague muscles. Melee attacks do {GraftDamage}% extra damage and gain an extra level of [abilityblue]Stagger Impact[/abilityblue].[br/][br/]This mod also grants melee attacks a {InfectionChance}[strengthbio/] strength chance ({InfectionChanceRepeating}[strengthbio/] for repeating attacks) to apply [abilityred]Parasitic Infection[/abilityred] to Biological and Cyborg units.[br/][br/]On a Xenoplague unit's melee ability or Xenoplague melee weapon, the strength chance is always {InfectionChance}[strengthBio/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位获得异星疫病移植肌肉。近战攻击额外造成 {GraftDamage}% 伤害并额外获得 1 级[abilityblue]动摇冲击[/abilityblue]。[br/][br/]在近战攻击中，该模块还会有 {InfectionChance}[strengthbio/] 力量几率（重复攻击有 {InfectionChanceRepeating}[strengthbio/] 几率）对生物和半机械人单位施加[abilityred]寄生感染[/abilityred]。</Data></Cell></Row><Row
+          >该单位获得异星疫病移植肌肉。近战攻击额外造成 {GraftDamage}% 伤害并额外获得 1 级[abilityblue]动摇冲击[/abilityblue]。[br/][br/]该模块还会使近战攻击有 {InfectionChance}[strengthbio/] 力量几率（重复攻击有 {InfectionChanceRepeating}[strengthbio/] 几率）对生物和半机械人单位施加[abilityred]寄生感染[/abilityred]。[br/][br/]针对异星疫病单位的近战技能或近战武器时，力量几率始终为 {InfectionChance}[strengthBio/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">XENOGRAFTED_MUSCLES</Data></Cell><Cell><Data
             ss:Type="String"

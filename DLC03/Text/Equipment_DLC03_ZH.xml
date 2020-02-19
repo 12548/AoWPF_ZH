@@ -13,8 +13,8 @@
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
   ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -395,20 +395,6 @@
         ><Data
             ss:Type="String"
           >近战攻击。使用者攻击后会进入防御模式。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">GYROJET_ASSAULT_RIFLE</Data></Cell><Cell
-        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Gyrojet Assault Cannon</Data></Cell><Cell><Data
-            ss:Type="String"
-          >回旋突击加农炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
-        ><Data ss:Type="String">GYROJET_ASSAULT_RIFLE</Data></Cell><Cell
-          ss:StyleID="s63"
-        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Fire the Gyrojet Assault Cannon.</Data></Cell><Cell><Data
-            ss:Type="String"
-          >发射回旋突击加农炮。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">HYDRA_HOST</Data></Cell><Cell><Data
             ss:Type="String"
@@ -885,10 +871,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Grants [abilityblue]Resurgence[/abilityblue] and revives the hero with {reviveHP} after {turns} in tactical combat.</Data></Cell><Cell
+          >Grants [abilityblue]Resurgence[/abilityblue] and revives the hero with {reviveHP} after {turns} in tactical combat.[br/][br/][firecol]A unit can only revive itself once per battle.[/firecol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >给予[abilityblue]复苏[/abilityblue]并在战术战斗中 {turns} 后复活英雄，英雄复活时将拥有 {reviveHP}。</Data></Cell></Row><Row
+          >给予[abilityblue]复苏[/abilityblue]并在战术战斗中 {turns} 后复活英雄，英雄复活时将拥有 {reviveHP}。[br/][br/][firecol]每个单位在每场战斗中只能复活自己一次。[/firecol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">HOLLOW_ESSENCE_ARK</Data></Cell><Cell><Data
             ss:Type="String"
@@ -902,10 +888,10 @@
             ss:Type="String"
           >UNDYING_ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >When killed in tactical combat, the hero will resurrect with {hp} afte {turntimer}. Can only occur once per combat.</Data></Cell><Cell
+          >When killed in tactical combat, the hero will resurrect with {hp} afte {turntimer}.[br/][br/][firecol]A unit can only revive itself once per battle.[/firecol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >英雄在战术战斗中死亡时，将在 {turntimer} 后复活并拥有 {hp}。每次战斗只能触发一次。</Data></Cell></Row><Row
+          >英雄在战术战斗中死亡时，将在 {turntimer} 后复活并拥有 {hp}。[br/][br/][firecol]每个单位在每场战斗中只能复活自己一次。[/firecol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ESSENCE_ARK</Data></Cell><Cell><Data
             ss:Type="String"
@@ -955,11 +941,24 @@
         ><Data
             ss:Type="String"
           >目标区域内的敌方单位有 {PsiStr}[strengthpsyche/] 几率被安抚平息，使其无法使用技能，持续 {duration}[turn/]</Data></Cell></Row><Row
-      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ROCKET_ASSAULT_RIFLE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
-          ss:Index="7"
-        ><Data
+          >Rocket Assault Cannon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >火箭突击加农炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">ROCKET_ASSAULT_RIFLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire the Rocket Assault Cannon.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >发射火箭突击加农炮。</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
           >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data

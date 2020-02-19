@@ -147,41 +147,6 @@
           >有 {EntropicDecayChance}[strengthEntropy/] 力量几率对单位施加[abilityred]混沌衰败[/abilityred]，持续 {durationEntropicDecay}[turn/]。</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s64"
-        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
-            ss:Type="String"
-          >REACTIVE_POISON</Data></Cell><Cell><Data
-            ss:Type="String"
-          >MODIFIER</Data></Cell><Cell><Data
-            ss:Type="String"
-          >{PoisonChance}[StrengthBio/] strength chance to apply [abilityred]Neural Toxin[/abilityred] to Biological or Cyborg targets for {durationPoison}[turn/].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >有 {PoisonChance}[StrengthBio/] 力量几率对生物或半机械人目标施加[abilityred]神经毒素[/abilityred]，持续 {durationPoison}[turn/]。</Data></Cell><Cell
-          ss:Index="8"
-          ss:StyleID="s64"
-        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
-            ss:Type="String"
-          >NEURAL_TOXIN</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Neural Toxin</Data></Cell><Cell><Data
-            ss:Type="String"
-          >神经毒素</Data></Cell><Cell
-          ss:Index="8"
-          ss:StyleID="s64"
-        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
-            ss:Type="String"
-          >NEURAL_TOXIN</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
-            ss:Type="String"
-          >This unit has {ToxinChance}[strengthBio/] of becoming [abilityred]Stunned[/abilityred] at the start of each turn. If resisted, deals {DamageAmount}[damageBio/] damage instead.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >该单位拥有 {ToxinChance}[strengthBio/] 几率在每回合开始时被[abilityred]晕眩[/abilityred]。如果被抵抗，则改为造成 {DamageAmount}[damageBio/] 伤害。</Data></Cell><Cell
-          ss:Index="8"
-          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >MUTANT_GOOP</Data></Cell><Cell><Data

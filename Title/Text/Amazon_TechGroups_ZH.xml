@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9150</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
     >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -133,10 +133,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Attempt to [abilityred]Mind Control[/abilityred] a non-Mindless or non-Mechanical Tier I or Tier II Animal unit with a {PrimalChance}[StrengthBio/] strength chance.[br/]If the target is under the effect of [abilityred]Entangle[/abilityred] or [abilityred]Sleep[/abilityred] the strength chance increases to {PrimalSuperiorChance}[StrengthBio/].[br/]If mind controlled this way, the unit permanently comes under your control. If resisted, apply [abilityred]Insanity[/abilityred] instead.</Data></Cell><Cell
+          >Attempt to [abilityred]Mind Control[/abilityred] a non-Mindless or non-Mechanical Tier I or Tier II Animal unit with a {PrimalChance}[StrengthBio/] strength chance.[br/]If the target is under the effect of [abilityred]Entangle[/abilityred] or [abilityred]Sleep[/abilityred] the strength chance increases to {PrimalSuperiorChance}[StrengthBio/].[br/]If mind controlled this way, the unit permanently comes under your control and will be implanted after battle to make it stronger. If resisted, apply [abilityred]Insanity[/abilityred] instead.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >尝试 [abilityred]心灵控制[/abilityred]一个 1 阶或 2 阶的非无意识或非机械的动物单位并附带 {PrimalChance}[StrengthBio/]力量几率。[br/]如果目标处于[abilityred]混乱[/abilityred]或[abilityred]沉睡[/abilityred]状态，则力量几率提升至 {PrimalSuperiorChance}[StrengthBio/]。[br/]以这种方式控制的单位将会永久听命于你。如果抵抗，则施加[abilityred]错乱[/abilityred]状态。</Data></Cell><Cell
+          >有 {PrimalChance}[StrengthBio/] 力量几率尝试[abilityred]心灵控制[/abilityred]一个 1 阶或 2 阶的非无意识或非机械的动物单位。[br/]如果目标正受到[abilityred]缠绕[/abilityred]或[abilityred]沉睡[/abilityred]效果影响，则力量几率提升至 {PrimalSuperiorChance}[StrengthBio/]。[br/]以这种方式控制的单位将会永久听命于你，并且会在战斗后获得植入而变得更强。如果抵抗，则改为施加[abilityred]错乱[/abilityred]。</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -227,10 +227,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Transform the target sector into a Forest sector.[br/][br/][productioncol]Cannot be launched on Mountain or Enemy sectors.[/productioncol]</Data></Cell><Cell
+          >Transform the target sector into a Forest ([supply/]/[production/]) sector.[br/][br/][productioncol]Cannot be launched on Mountain or Enemy sectors.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >将目标区域转化成森林区域。[br/][br/][productioncol]在山地地区和敌方区域无法执行。[/productioncol]</Data></Cell></Row><Row
+          >将目标区域转化成森林（[supply/]/[production/]）区域。[br/][br/][productioncol]在山地地区和敌方区域无法执行。[/productioncol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">RAPID_REFORESTATION</Data></Cell><Cell><Data
@@ -306,27 +306,27 @@
       ><Cell><Data ss:Type="String">INTRODUCE_PREADATORS</Data></Cell><Cell
         ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Introduce Predators</Data></Cell><Cell><Data
+          >Clone Predator</Data></Cell><Cell><Data
             ss:Type="String"
-          >引入掠食者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          >克隆掠食者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >INTRODUCE_PREADATORS</Data></Cell><Cell><Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Spawn a hostile Hopperhound spawner at the center of an empty target sector.</Data></Cell><Cell
+          >Summons a powerful predator on the target location</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >在空旷目标区域中心地区放置一个敌对的跳蝗出生点。</Data></Cell></Row><Row
+          >在目标地点召唤一个强大的掠食者</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">INTRODUCE_PREADATORS</Data></Cell><Cell
         ><Data ss:Type="String">CASTER_SUCCESS</Data></Cell><Cell><Data
             ss:Type="String"
-          >Successfully deployed the predator lure in the target sector, attracting a brood of hopperhounds.</Data></Cell><Cell
+          >Successfully cloned a local predator and deployed it, ready to be used</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >已成功在目标区域部署掠食者诱饵，吸引到了一群跳蝗。</Data></Cell></Row><Row
+          >已成功在目标地点克隆并部署了一个掠食者，已准备就绪</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ARCADIAN_RESTORATION</Data></Cell><Cell
         ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
@@ -339,10 +339,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target sector is terraformed into an Arcadian sector.</Data></Cell><Cell
+          >Target sector is terraformed into an Arcadian ([supply/] / [energy/]) sector.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >目标区域已经转化成田园区域。</Data></Cell></Row><Row
+          >目标区域已经转化成田园（[supply/] / [energy/]）区域。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">ARCADIAN_RESTORATION</Data></Cell><Cell
@@ -387,10 +387,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >We can invest in genetically-modified crops that exploit fertile land to the fullest, making our harvests more bountiful.[br/][br/]{FoodIncomeIncrease} for every Arcadian sector connected to your colonies.</Data></Cell><Cell
+          >We can invest in genetically-modified crops that exploit fertile land to the fullest, making our harvests more bountiful.[br/][br/]Your colonies gain {GlobalFoodIncomeIncrease}, and an additional {FoodIncomeIncrease} for every Arcadian sector connected to them.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >我们可以使用经过基因修改的庄稼将肥沃土壤利用效率最大化，从而获得更好的收成。[br/][br/]每有一个与你的殖民地相连的田园区域，都将获得{FoodIncomeIncrease}。</Data></Cell><Cell
+          >我们可以使用经过基因修改的庄稼将肥沃土壤利用效率最大化，从而获得更好的收成。[br/][br/]你的殖民地获得 {GlobalFoodIncomeIncrease}，另外每有一个相连的田园区域，可额外获得 {FoodIncomeIncrease}。</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -413,41 +413,23 @@
             ss:Type="String"
           >陨落的星联遗留下来了很多东西，有些很有用，而有些对大自然和生物却是有害的。去除这些破坏性遗留物并将世界恢复成原来的自然美景是我们义不容辞的责任。[br/][br/]清理世界有害物会降低 {EnergyCostReduction}。[br/][abilityblue]快速造林[/abilityblue]和[abilityblue]田园恢复[/abilityblue]策略性操作现在降低了 {EnergyCostStratOpReduction}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">SELECTIVE_BREEDING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Selective Breeding</Data></Cell><Cell><Data
-            ss:Type="String"
-          >选择性繁育</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="75"
-      ><Cell><Data ss:Type="String">SELECTIVE_BREEDING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Our scientists invest time in breeding and perfecting the organisms we use for war. As a result, we have a wider variety of specimens to pick from, which will increase both their efficiency in combat and reduce the effort it takes to train them.[br/][br/]{RankIncrease} for all newly produced Animal and Mounted units. Their [production/] and [energy/] cost is also reduced by {ProductionCostReduction} when producing these.[br/][br/][firecol]Unit costs can never be lowered more than 75%.[/firecol]</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >我们的科学家们在繁育方面投入了时间，更加完善了我们用于战斗的生物体。因此我们可以选择的物种更为广泛，可以提升它们的战斗效率，同时减少训练投入。[br/][br/]新生产的动物和骑乘单位获得 {RankIncrease}，并且生产这些单位所需的[production/]和[energy/]消耗减少 {ProductionCostReduction}。[br/][br/][firecol]单位消耗减少不能超过 75%。[/firecol]</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ARBOREAL_HABITATION</Data></Cell><Cell><Data
             ss:Type="String"
           >NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Arboreal Habitation</Data></Cell><Cell><Data
+          >Arboreal Eden</Data></Cell><Cell><Data
             ss:Type="String"
-          >林木栖息</Data></Cell></Row><Row
+          >林木伊甸园</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
       ><Cell><Data ss:Type="String">ARBOREAL_HABITATION</Data></Cell><Cell><Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The Amazons are experts at integrating housing into forested areas without disturbing any of the wildlife or overpopulating their colonies.[br/][br/]In forest sectors, gain {ColonistSlots} Colonist slots in each resource type for a resource exploitation of that type. This applies to all colonies.</Data></Cell><Cell
+          >Through the holistic integration of the forest and its organisms into every aspect of Amazon society, perfect symbiosis can be achieved.[br/][br/]Forest sectors grant {happinessBonus} when linked to colonies.[br/]The movement cost of forests is further reduced, and your units gain an additional {moraleBonus} morale when fighting within them.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >亚马逊人擅长将住所安置于森林区域，且不会影响其他野生动物或使殖民地人口过剩。[br/][br/]在森林区域，所有种类的资源在进行开采时都获得 {ColonistSlots} 个移住民槽位。所有殖民地都将受益。</Data></Cell></Row><Row
+          >亚马逊人将社会的各个方面与森林和生物体融合，实现了完美的共生。[br/][br/]森林区域连接至殖民地时给予 {happinessBonus}。[br/]森林区域移动消耗进一步减少，你的单位在森林区域中战斗时额外获得 {moraleBonus} 士气。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">BIO_CRUSADE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -462,10 +444,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >We must focus our efforts in cleansing this planet of all machines and non-organics. They are unnatural beings that need to be destroyed in order to let nature prosper.[br/][br/]Amazon and Animal units deal {DamageIncrease} added damage when fighting Mechanical and Cyborg units.</Data></Cell><Cell
+          >We must focus our efforts in cleansing this planet of all machines and non-organics. They are unnatural beings that need to be destroyed in order to let nature prosper.[br/][br/]Your units deal {DamageIncrease} added damage when fighting Mechanical and Cyborg units.[br/]Your Mounted or Animal units with Melee attacks gain [abilityblue]Frenzy[/abilityblue]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >我们必须集中力量将这个星球上的所有机器和非有机物全部清除。它们是非自然的产物，只有毁掉它们自然才能繁荣生长。[br/][br/]在与机械和半机械人战斗时，亚马逊人和动物单位造成伤害增加 {DamageIncrease} 点。</Data></Cell></Row><Row
+          >我们必须集中力量将这个星球上的所有机器和非有机物全部清除。它们是非自然的产物，只有毁掉它们，自然才能繁荣生长。[br/][br/]在与机械和半机械人战斗时，你的单位造成伤害增加 {DamageIncrease} 点。[br/]你使用近战攻击的骑乘或动物单位获得[abilityblue]狂暴[/abilityblue]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">BIO_CRUSADE</Data></Cell><Cell><Data
@@ -485,6 +467,46 @@
         ><Data
             ss:Type="String"
           >在与机械和半机械人战斗时造成伤害增加 {DamageIncrease} 点。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">WILDLIFE_MILITARIZATION</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Advanced Wildlife Militarization</Data></Cell><Cell><Data
+            ss:Type="String"
+          >高级野生动物军事化</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">WILDLIFE_MILITARIZATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >By dedicating extra resources to animal welfare and implantation, we can further integrate non-sapient beings into our military forces, boosting their general wellbeing as well as their effectiveness in combat.[br/][br/]All Animal and Mounted units gain {moraleBonus}, {healthBonus}, and gain [xp/] {xpBonus} faster.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >通过向动物福利和植物培植投入更多资源，我们可以进一步将没有智慧的生物融入到我们的军事力量之中，提升他们的整体福祉和作战效率。[br/][br/]所有动物与骑乘单位获得 {moraleBonus} 和 {healthBonus}，经验 [xp/] 获取速度提高 {xpBonus}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">WILDLIFE_MILITARIZATION</Data></Cell><Cell
+        ><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is expertly trained and cared for by Amazon handlers. It has {moraleBonus}, {healthBonus}, and gains [xp/] {xpBonus} faster.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位接受过专业训练，由亚马逊驯兽师专门照料。拥有 {moraleBonus} 和 {healthBonus}，且经验 [xp/] 获取速度提高 {xpBonus}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ECOLOGICAL_WARFARE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ecological Warfare</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生态战争</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ECOLOGICAL_WARFARE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Train your soldiers in techniques to extract chemicals from local plants and animals for combat purposes.[br/][br/]Your units' Melee and Biological attacks have a strength {strength} chance to apply [abilityred]Poison[/abilityred] to Biological and Cyborg targets, reducing their morale and doing damage over time.[br/][br/]In addition your non-mechanical units heal an additional {heal} per turn on the world map.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >训练你的士兵，让他们学会从当地植物和动物体内提取化学物质并用于战斗。[br/][br/]你单位的近战和生物攻击有 {strength} 力量几率向生物和半机械人目标施加[abilityred]中毒[/abilityred]，降低其士气并造成持续伤害。[br/][br/]此外，你的非机械单位在世界地图上每回合额外治疗 {heal}。</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell

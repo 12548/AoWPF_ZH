@@ -10,12 +10,12 @@
     >Laszlo Pieper</Author><LastAuthor>Djurre van Dijk</LastAuthor><Created
     >2018-09-14T10:48:07Z</Created><LastSaved
     >2019-06-25T15:45:58Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14730</WindowHeight><WindowWidth>28740</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><MaxChange
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
     >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
@@ -26,7 +26,7 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
       ss:Name="Normal 2"
     ><Alignment ss:Vertical="Bottom" /><Borders /><Font
         ss:FontName="Calibri"
@@ -34,37 +34,37 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s58"
+      ss:ID="s63"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
-      ss:ID="s59"
+      ss:ID="s64"
     ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
-      ss:ID="s60"
-      ss:Parent="s57"
+      ss:ID="s66"
+      ss:Parent="s62"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Borders /><Font
         ss:FontName="Calibri"
         x:Family="Swiss"
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s61"
+      ss:ID="s67"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Interior
       /></Style></Styles><Worksheet ss:Name="Script"><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s58"
+      ss:StyleID="s63"
       ss:DefaultColumnWidth="51.75"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s58" ss:AutoFitWidth="0" ss:Width="267" /><Column
-        ss:StyleID="s58"
+    ><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="267" /><Column
+        ss:StyleID="s63"
         ss:Width="204"
-      /><Column ss:StyleID="s58" ss:AutoFitWidth="0" ss:Width="252.75" /><Column
-        ss:StyleID="s58"
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="252.75" /><Column
+        ss:StyleID="s63"
         ss:AutoFitWidth="0"
         ss:Width="93"
-      /><Column ss:StyleID="s58" ss:AutoFitWidth="0" ss:Width="257.25" /><Column
-        ss:StyleID="s58"
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="257.25" /><Column
+        ss:StyleID="s63"
         ss:Width="115.5"
-      /><Column ss:StyleID="s58" ss:AutoFitWidth="0" ss:Width="252.75" /><Row
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="252.75" /><Row
         ss:AutoFitHeight="0"
         ss:Height="105"
       ><Cell><Data ss:Type="String">CELESTIAN_TECHGROUPS</Data></Cell><Cell
@@ -93,7 +93,7 @@
         ss:Height="60"
       ><Cell><Data ss:Type="String">CELESTIAN</Data></Cell><Cell><Data
             ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s59"><Data
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
           >{XML_CELESTIAN_TECHGROUPS@CELESTIAN@DESC}[br/][br/]{XML_CELESTIAN_TECHGROUPS@CELESTIAN@FEATURES}</Data></Cell><Cell
         ><Data
@@ -103,7 +103,7 @@
         ><Data
             ss:Type="String"
           >No need to translate. This inserts the CELESTIAN_TECHGROUPS@CELESTIAN@DESC and CELESTIAN_TECHGROUPS@CELESTIAN@FEATURES texts with some white space.</Data></Cell><Cell
-          ss:StyleID="s60"
+          ss:StyleID="s66"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="120"><Cell><Data
             ss:Type="String"
           >CELESTIAN</Data></Cell><Cell><Data
@@ -115,19 +115,19 @@
             ss:Type="String"
           >[hyperlink,000003AC0000032E]星神[/hyperlink]是一个古老的修会，由一群天赋异禀的灵能者组成。他们追求获得心灵上的觉悟，努力在宇宙间创造平衡与和谐。他们相信灵能来源于星辰，并用这股力量守护着他们的理想和教义。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s60"
+          ss:StyleID="s66"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
           >CELESTIAN</Data></Cell><Cell><Data
             ss:Type="String"
           >FEATURES</Data></Cell><Cell><Data
             ss:Type="String"
-          >[bulletlist][bullet]Sway enemy soldiers and colonists to your cause[/bullet][bullet]NPC diplomacy bonuses[/bullet][bullet]Strong Morale buffing and damage reflection[/bullet][bullet]Uses the Psionic and Thermal damage channels[/bullet][/bulletlist]</Data></Cell><Cell
+          >[bulletlist][bullet][sand]Starting Unit:[/sand] [hyperlink,unitlookup0000039A00000D9C]Light Bringer[/hyperlink][/bullet][bullet]Sway enemy soldiers and colonists to your cause[/bullet][bullet]NPC diplomacy bonuses[/bullet][bullet]Strong Morale buffing and damage reflection[/bullet][bullet]Uses the Psionic and Thermal damage channels[/bullet][/bulletlist]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >[bulletlist][bullet]策反敌方士兵和移住民加入你的事业[/bullet][bullet]NPC 外交加成[/bullet][bullet]强大的士气增益和伤害反弹[/bullet][bullet]使用灵能和热能伤害类型[/bullet][/bulletlist]</Data></Cell><Cell
+          >[bulletlist][bullet][sand]初始单位：[/sand] [hyperlink,unitlookup0000039A00000D9C]光明使者[/hyperlink][/bullet][bullet]策反敌方士兵和移住民为你效命[/bullet][bullet]NPC 外交加成[/bullet][bullet]强大的士气增益和伤害反弹[/bullet][bullet]使用灵能和热能伤害类型[/bullet][/bulletlist]</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s60"
+          ss:StyleID="s66"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -138,7 +138,7 @@
             ss:Type="String"
           >光之怀抱</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="91.5"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -150,7 +150,7 @@
             ss:Type="String"
           >“望着这道烛火，凝思。借着它温暖的光亮，看看你这一生在黑暗中跌跌撞撞积累下来的伤痕，你仍愿意活在黑暗中吗？这将由你自己决定。”[br/]– 来自修女瑞比·卡蒂尔的净化邀请</Data></Cell><Cell
           ss:Index="7"
-        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s61"><Data
+        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >V.O.: Amazon</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
@@ -160,7 +160,7 @@
             ss:Type="String"
           >Luminance</Data></Cell><Cell><Data
             ss:Type="String"
-          >光明</Data></Cell><Cell ss:Index="8" ss:StyleID="s61" /></Row><Row
+          >光明</Data></Cell><Cell ss:Index="8" ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="75"
       ><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
@@ -172,7 +172,7 @@
             ss:Type="String"
           >“让带来光明的使者尽情燃烧，让光耀越过海湾，让那些在黑暗的湍流中苦苦挣扎的灵魂能够指引他们的船只安全靠岸。”[br/]– 光子守护者鲁卡拉 坎德莉</Data></Cell><Cell
           ss:Index="7"
-        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s61"><Data
+        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >V.O.: Syndicate Female
 
@@ -184,7 +184,7 @@ Edit: added space before "Lu'Kalla"</Data></Cell></Row><Row
             ss:Type="String"
           >Penance</Data></Cell><Cell><Data
             ss:Type="String"
-          >忏悔</Data></Cell><Cell ss:Index="8" ss:StyleID="s61" /></Row><Row
+          >忏悔</Data></Cell><Cell ss:Index="8" ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="75"
       ><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
@@ -196,7 +196,7 @@ Edit: added space before "Lu'Kalla"</Data></Cell></Row><Row
             ss:Type="String"
           >“忏悔并非惩罚，而是一种颂扬，是通往信任的道路。聪明的强国从不与他们不信任之人分享秘密。”[br/]– 重力守护者鲁萨马里斯</Data></Cell><Cell
           ss:Index="7"
-        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s61"><Data
+        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >V.O.: Vanguard Male</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
@@ -208,7 +208,7 @@ Edit: added space before "Lu'Kalla"</Data></Cell></Row><Row
             ss:Type="String"
           >坚持不懈</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -220,7 +220,7 @@ Edit: added space before "Lu'Kalla"</Data></Cell></Row><Row
             ss:Type="String"
           >“磨炼你的意志，宇宙便会向你吐露它的秘密。”[br/]– 意志守护者鲁千武</Data></Cell><Cell
           ss:Index="7"
-        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s61"><Data
+        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >V.O.: Syndicate Male</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
@@ -232,7 +232,7 @@ Edit: added space before "Lu'Kalla"</Data></Cell></Row><Row
             ss:Type="String"
           >心魄之火</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -244,7 +244,7 @@ Edit: added space before "Lu'Kalla"</Data></Cell></Row><Row
             ss:Type="String"
           >“指引之星的每一个孩子生来就拥有明辨是非的智慧之光。当自私的选择诱惑他们即将熄灭那光芒之时，他们就会惩罚自己，然后接受他们的弱点。”[br/]– 纯贞之星厄里丝·哈珀</Data></Cell><Cell
           ss:Index="7"
-        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s61"><Data
+        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >V.O.: Vanguard Female</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
@@ -256,7 +256,7 @@ Edit: added space before "Lu'Kalla"</Data></Cell></Row><Row
             ss:Type="String"
           >星辰降临</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -268,7 +268,7 @@ Edit: added space before "Lu'Kalla"</Data></Cell></Row><Row
             ss:Type="String"
           >“我充满了黑暗的无知；[br/]我迷失的人生在晦暗耻辱的角落里饥渴难耐，[br/]悔恨的面纱包裹着我[br/]令我感到窒息。[br/]你的仁慈之心穿透了我内疚的外衣，[br/]爱意之举是我黑夜中的星辰。[br/]我看见了：[br/]你的恩惠之光指引着一切。”[br/]– 德纳克，星辰向导的忏悔</Data></Cell><Cell
           ss:Index="7"
-        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s61"><Data
+        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >V.O.: Syndicate Male
 
@@ -282,19 +282,19 @@ Edit: This -&gt; this</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >和平之路</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
             ss:Type="String"
           >SKILLGROUP_5_TACTICAL_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >“There is no value in pride.[br/]There is no safety behind walls.[br/]There is no strength in rage.[br/]There is no freedom behind bars.[br/]There is no joy in judgment. There is no fortune in gold.[br/]There is no peace in war.”[br/]– Aya Nago, Teacher’s Tenets of Pacifism</Data></Cell><Cell
+          >“There is no value in pride.[br/]There is no safety behind walls.[br/]There is no strength in rage.[br/]There is no freedom behind bars.[br/]There is no joy in judgment.[br/]There is no fortune in gold.[br/]There is no peace in war.”[br/]– Aya Nago, Teacher’s Tenets of Pacifism</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >“骄傲中没有价值。[br/]高墙内没有安全。[br/]愤怒里没有力量。[br/]牢狱内没有自由。[br/]审判中没有愉悦。黄金里没有好运。[br/]战争中也没有和平。”[br/]– 阿雅·娜戈，导师的和平主义信条</Data></Cell><Cell
+          >“骄傲中没有价值。[br/]高墙内没有安全。[br/]愤怒里没有力量。[br/]牢狱内没有自由。[br/]审判中没有愉悦。[br/]黄金里没有好运。[br/]战争中也没有和平。”[br/]- 阿雅·娜戈，导师的和平主义信条</Data></Cell><Cell
           ss:Index="7"
-        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s61"><Data
+        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >V.O.: Syndicate Female</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
@@ -306,7 +306,7 @@ Edit: This -&gt; this</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >真理之光</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -318,7 +318,7 @@ Edit: This -&gt; this</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >“真正的智慧生物拥有爱的能力。爱能够将失去化为奉献，叫人甘愿忍受痛苦。爱能够洞察每一个灵魂的价值，用无私的奉献激励他们放下骄傲与仇恨。”[br/]– 升华朝圣者苏尔利·奥罗</Data></Cell><Cell
           ss:Index="7"
-        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s61"><Data
+        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >V.O.: Syndicate Male</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
@@ -328,7 +328,7 @@ Edit: This -&gt; this</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >Repercussion</Data></Cell><Cell><Data
             ss:Type="String"
-          >恶果</Data></Cell><Cell ss:Index="8" ss:StyleID="s61" /></Row><Row
+          >恶果</Data></Cell><Cell ss:Index="8" ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
       ><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
@@ -340,7 +340,7 @@ Edit: This -&gt; this</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >“无悲悯之人亦不会得到怜悯，无悔恨之人终将遭到报应。”[br/]– 钥之守护者鲁维科尔</Data></Cell><Cell
           ss:Index="7"
-        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s61"><Data
+        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >V.O.: Kir'ko Female</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
@@ -352,7 +352,7 @@ Edit: This -&gt; this</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >星辰守卫</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -364,7 +364,7 @@ Edit: This -&gt; this</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >“为了崛起，我们踏上了殉道之路。但只要这个世界上仍有智慧存留，阵亡者的血液流淌之声将在启蒙者的耳边高声回响。他们的灵魂将在不公不义面前退缩，因为他们偷走了真正值得活下来之人的生命。”[br/]– 秉烛人约拿·卡沃内特</Data></Cell><Cell
           ss:Index="7"
-        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s61"><Data
+        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >V.O.: Syndicate Male</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
@@ -376,7 +376,7 @@ Edit: This -&gt; this</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >光之公理</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -388,7 +388,7 @@ Edit: This -&gt; this</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >“智慧能够揭开抉择的国度，正如阳光能够勾勒出许多条道路，使它们的目标清晰可见。用言语表达光明也是如此，向旅人传递纯粹的智慧，无论他们是导师或是学生。””[br/]– 门之守护者鲁德庞</Data></Cell><Cell
           ss:Index="7"
-        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s61"><Data
+        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >V.O.: Kir'ko Female</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
@@ -400,7 +400,7 @@ Edit: This -&gt; this</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >殖民地圣所</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -412,7 +412,7 @@ Edit: This -&gt; this</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >“嘿！兄弟姐妹们，既然我们已经见证了真理并拥有了救济苦难的力量，你们的内心是否燃起了一股烈焰，想要把它分享给所有愿意接纳之人？让我们一起努力，将追求光明的虔诚朝圣者聚集起来。”[br/]– 彗星之友，西格瑞丝</Data></Cell><Cell
           ss:Index="7"
-        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s61"><Data
+        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >V.O.: Dvar Female</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
         ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
@@ -421,7 +421,7 @@ Edit: This -&gt; this</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >Ascension</Data></Cell><Cell><Data
             ss:Type="String"
-          >升华</Data></Cell><Cell ss:Index="8" ss:StyleID="s61" /></Row><Row
+          >升华</Data></Cell><Cell ss:Index="8" ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
       ><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
@@ -433,7 +433,7 @@ Edit: This -&gt; this</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >“生活并非偶然，也绝非是一场运气的游戏。生活是宇宙和谐的自然结果，是构成现实的琴弦上弹奏的伟大和谐韵曲。”[br/]– 尊贵超然者阿雅·娜戈</Data></Cell><Cell
           ss:Index="7"
-        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s61"><Data
+        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >V.O.: Syndicate Female</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
@@ -445,7 +445,7 @@ Edit: This -&gt; this</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >新福音派</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -457,7 +457,7 @@ Edit: This -&gt; this</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >“我们是星辰的子民。无论你来自何方，光明欢迎每一个诚实的灵魂。亲自来看看吧。”[br/]– 女皇凯米尼亚</Data></Cell><Cell
           ss:Index="7"
-        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s61"><Data
+        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >V.O.: Empress Carminia</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
@@ -469,7 +469,7 @@ Edit: This -&gt; this</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >星神统治</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -481,7 +481,7 @@ Edit: This -&gt; this</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >“虽然我们渴望栖息在比星辰还要明亮的巢穴里，但总有一些灵魂将被孤立在族群之外，燃烧着逐渐陨灭的星火。穿透黑暗，飞向迷失者，让它们的火花燃烧得更加闪耀。”[br/]– 奇尔寇区域联盟星神传教士皮克基·波克</Data></Cell><Cell
           ss:Index="7"
-        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s61"><Data
+        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >V.O.: Kir'ko Male
 

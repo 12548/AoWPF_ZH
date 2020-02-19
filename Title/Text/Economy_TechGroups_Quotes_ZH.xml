@@ -10,12 +10,12 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:50:38Z</Created><LastSaved
     >2019-06-25T15:50:38Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14730</WindowHeight><WindowWidth>28740</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><MaxChange
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
     >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
@@ -26,13 +26,13 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
     ><Alignment ss:Vertical="Top" /><Font
         ss:FontName="Calibri"
         x:Family="Swiss"
         ss:Size="11"
         ss:Color="#000000"
-      /></Style><Style ss:ID="s58"><Alignment
+      /></Style><Style ss:ID="s63"><Alignment
         ss:Vertical="Top"
         ss:WrapText="1"
       /><Font
@@ -40,10 +40,10 @@
         x:Family="Swiss"
         ss:Size="11"
         ss:Color="#000000"
-      /></Style><Style ss:ID="s59"><Alignment ss:Vertical="Top" /></Style><Style
-      ss:ID="s60"
+      /></Style><Style ss:ID="s64"><Alignment ss:Vertical="Top" /></Style><Style
+      ss:ID="s65"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
-      ss:ID="s61"
+      ss:ID="s66"
     ><Alignment ss:Vertical="Top" /><Borders /><Font
         ss:FontName="Calibri"
         x:Family="Swiss"
@@ -54,23 +54,23 @@
   ><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultColumnWidth="230.25"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s57" ss:Width="122.25" /><Column
-        ss:StyleID="s57"
+    ><Column ss:StyleID="s62" ss:Width="122.25" /><Column
+        ss:StyleID="s62"
         ss:Width="152.25"
-      /><Column ss:StyleID="s58" ss:AutoFitWidth="0" /><Column
-        ss:StyleID="s58"
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" /><Column
+        ss:StyleID="s63"
         ss:Width="147.75"
-      /><Column ss:StyleID="s58" ss:AutoFitWidth="0" ss:Width="233.25" /><Column
-        ss:StyleID="s58"
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="233.25" /><Column
+        ss:StyleID="s63"
         ss:Width="207.75"
       /><Row ss:AutoFitHeight="0" ss:Height="120"><Cell><Data
             ss:Type="String"
           >ECONOMY_TECHGROUPS</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s58"
+          ss:StyleID="s63"
         ><Data
             ss:Type="String"
           >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row
@@ -90,7 +90,7 @@
           >LOCALIZATION NOTES</Data></Cell><Cell><Data
             ss:Type="String"
           >DEV TEAM / MISC NOTES</Data></Cell><Cell
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -214,19 +214,19 @@
         ss:Height="90"
       ><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
             ss:Type="String"
-          >SKILLGROUP_2_4_DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data
+          >SKILLGROUP_2_4_DESCRIPTION</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
           >“In conclusion, knowledge is power, but being well-educated has an additional benefit. No one can call you stupid… especially if you’ve researched weaponry that would vaporize them if they did.”[br/]– Dr. Millicent Rickles, Head Researcher, Lazilite Inc.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >“总之，知识就是力量。接受良好的教育还有一个额外的好处，就是没人会说你是傻子…尤其是当你研发出了能够让他们灰飞烟灭的武器时，他们就更不会那样说了。”[br/]-拉兹里特公司首席研究员米莉森特·里克斯博士</Data></Cell><Cell
           ss:Index="7"
-        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s60"><Data
+        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
           >V.O.: Vanguard Male
 
 Edit: well educated -&gt; well-educated</Data></Cell><Cell
-          ss:StyleID="s60"
+          ss:StyleID="s65"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
@@ -240,7 +240,7 @@ Edit: well educated -&gt; well-educated</Data></Cell><Cell
         ss:Height="90"
       ><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
             ss:Type="String"
-          >SKILLGROUP_2_5_DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data
+          >SKILLGROUP_2_5_DESCRIPTION</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
           >“It’s important to imagine this patch of land without the raging hell fracture of cosmic death spewing forth pollutants from a dimension of pure agony and horror.”[br/]– Phil Dunford, Imperious IV Colony Real Estate Agency</Data></Cell><Cell
         ><Data
@@ -284,18 +284,18 @@ Edit: well educated -&gt; well-educated</Data></Cell><Cell
         ss:Height="75"
       ><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
             ss:Type="String"
-          >SKILLGROUP_3_2_DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data
+          >SKILLGROUP_3_2_DESCRIPTION</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
           >“There is something out there hiding in the ice, moving, shifting, watching and learning. Take heed. There is power to be had here. It is so much more than a frozen wasteland.”[br/]– Natali Budler, Arctic Artificer</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >“某种东西正躲藏在冰层下面移动、变化、观察、学习，要多加小心。这里有可以获取的能量，并不仅是一片冰冻的废土而已。”[br/]- 严寒工匠纳塔利·布德勒</Data></Cell><Cell
           ss:Index="7"
-        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s60"><Data
+        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
           >V.O.: Dvar Female
 
-Edit: Artic -&gt; Arctic</Data></Cell><Cell ss:StyleID="s60" /></Row><Row
+Edit: Artic -&gt; Arctic</Data></Cell><Cell ss:StyleID="s65" /></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -337,7 +337,7 @@ Edit: Artic -&gt; Arctic</Data></Cell><Cell ss:StyleID="s60" /></Row><Row
             ss:Type="String"
           >“有些生命依靠智慧文明慷慨的仁慈而存在于世，培育丛林并收获其中的资源需要科学上的创造和精神上的耐心。它象征着一个高度发展的文明社会。”[br/]- 树语者维奥拉·戴尔塔爵士</Data></Cell><Cell
           ss:Index="7"
-        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s60"><Data
+        ><Data ss:Type="String">Female</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
           >V.O.: Amazon</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
@@ -374,7 +374,7 @@ Edit: Artic -&gt; Arctic</Data></Cell><Cell ss:StyleID="s60" /></Row><Row
         ss:Height="105"
       ><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
             ss:Type="String"
-          >SKILLGROUP_3_6_DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data
+          >SKILLGROUP_3_6_DESCRIPTION</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
           >“You can’t forge strong alliances and meaningful friendships before you understand the motives and desires of those you seek to befriend. Polite ignorance is not a diplomatic strategy and will only be tolerated for the first few encounters.”[br/]– Cerera Tan of House Voyan, Diplomatic Consort</Data></Cell><Cell
         ><Data
@@ -389,9 +389,9 @@ Edit: Artic -&gt; Arctic</Data></Cell><Cell ss:StyleID="s60" /></Row><Row
             ss:Type="String"
           >SKILLGROUP_4_NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Colonist Care</Data></Cell><Cell><Data
+          >Virtual Hospitality Systems</Data></Cell><Cell><Data
             ss:Type="String"
-          >移住民照料</Data></Cell></Row><Row
+          >虚拟款待系统</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="105"
       ><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
@@ -549,7 +549,7 @@ Edit: Artic -&gt; Arctic</Data></Cell><Cell ss:StyleID="s60" /></Row><Row
         ss:Height="75"
       ><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
             ss:Type="String"
-          >SKILLGROUP_5_3_DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data
+          >SKILLGROUP_5_3_DESCRIPTION</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
           >“Perpetual motion machines are our business. Though, now that I think about it, if we did invent such a thing, we’d be out of business.”[br/]– Dillon Ullard, CEO of Forward Energy Solutions</Data></Cell><Cell
         ><Data
@@ -571,7 +571,7 @@ Edit: Artic -&gt; Arctic</Data></Cell><Cell ss:StyleID="s60" /></Row><Row
         ss:Height="60"
       ><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
             ss:Type="String"
-          >SKILLGROUP_5_4_DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data
+          >SKILLGROUP_5_4_DESCRIPTION</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
           >“Of course, you can’t live in this industrial zone! This is where we manufacture and ship out all the things you can’t live without.”[br/]– Redikk Flinkov, Dvar Foreman</Data></Cell><Cell
         ><Data
@@ -592,7 +592,7 @@ Edit: Artic -&gt; Arctic</Data></Cell><Cell ss:StyleID="s60" /></Row><Row
         ss:Height="90"
       ><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
             ss:Type="String"
-          >SKILLGROUP_5_5_DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data
+          >SKILLGROUP_5_5_DESCRIPTION</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
           >“Now that we’ve discovered how to extract every possible detail from our research, and created some truly wonderous things, let’s document the process and then claim that’s how we did it all along.”[br/]– Ryan Calkins, Configuration Manager</Data></Cell><Cell
         ><Data
@@ -614,7 +614,7 @@ Edit: Artic -&gt; Arctic</Data></Cell><Cell ss:StyleID="s60" /></Row><Row
         ss:Height="120"
       ><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
             ss:Type="String"
-          >SKILLGROUP_5_6_DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data
+          >SKILLGROUP_5_6_DESCRIPTION</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
           >"Breakthroughs in gravitic containment and inertial dampening systems intended to facilitate increased cosmite production prove to have serendipitous applications in mass transit systems across a variety of terrains, allowing for more efficient transport across colonies where this technology is deployed."[br/]– Dr. Axynnic, Chief Researcher, MagTec Inc.</Data></Cell><Cell
         ><Data
@@ -632,19 +632,19 @@ Edit: Artic -&gt; Arctic</Data></Cell><Cell ss:StyleID="s60" /></Row><Row
             ss:Type="String"
           >宇宙合金精通</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s61"
+          ss:StyleID="s66"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="120"><Cell><Data
             ss:Type="String"
           >TECH_TREE</Data></Cell><Cell><Data
             ss:Type="String"
-          >SKILLGROUP_9_2_DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data
+          >SKILLGROUP_9_2_DESCRIPTION</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
           >“Cosmite is coveted for its uncanny reality-bending properties. The best tech requires it. Now that we’ve achieved Cosmite Mastery, it’s time to purge society of the lies, misconceptions, and cults surrounding this profitable resource. It’s time to use it without fear.”[br/]– Toriq Vestum, CEO of Cosmite Extraction Industries</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >“宇宙合金因其能够扭曲现实的神秘属性而令人觊觎，最顶尖的科技也需要用到宇宙合金。现在，既然我们已经达到了宇宙合金精通，是时候消除社会中对这一宝贵资源所怀有各种的谎言、误解和崇拜了，是时候毫无畏惧地使用它了。”[br/]- 宇宙合金萃取行业首席执行官托瑞克·维斯托姆</Data></Cell><Cell
           ss:Index="7"
-        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s61"><Data
+        ><Data ss:Type="String">Male</Data></Cell><Cell ss:StyleID="s66"><Data
             ss:Type="String"
           >V.O.:Vanguard Male</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
         ><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
@@ -658,7 +658,7 @@ Edit: Artic -&gt; Arctic</Data></Cell><Cell ss:StyleID="s60" /></Row><Row
         ss:Height="90"
       ><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
             ss:Type="String"
-          >SKILLGROUP_6_DESCRIPTION</Data></Cell><Cell ss:StyleID="s60"><Data
+          >SKILLGROUP_6_DESCRIPTION</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
           >“I’ve never understood the aversion some have to toxins. Nature uses toxins to repel rival lifeforms. The inability to live in a toxic landfill is just an indicator that we, as a race, need to do a little evolving.”[br/]– Charlene Hester, Botanist, Terratech Labs</Data></Cell><Cell
         ><Data
@@ -667,7 +667,28 @@ Edit: Artic -&gt; Arctic</Data></Cell><Cell ss:StyleID="s60" /></Row><Row
           ss:Index="7"
         ><Data ss:Type="String">Female</Data></Cell><Cell><Data
             ss:Type="String"
-          >V.O.: Amazon</Data></Cell></Row><Row><Cell><Data
+          >V.O.: Amazon</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SKILLGROUP_5_7_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Accelerated Force Deployment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >加速兵力部署</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >TECH_TREE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SKILLGROUP_5_7_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“All speed records are made to be broken. There is no more time for pleasant byways and scenic detours. If we are to survive the breakneck pace of industry, we must bulldoze even the most curious obstacle. The vistas may not be as majestic as that of the first mountain climber, but our thoroughfares can penetrate a mountain’s heart for the sake of progress.”[br/]—Enzo Mantle, Transportation Minister</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“所有的速度记录都是用来打破的。我们没有时间在那些惬意的小路上闲逛，或是绕道风景优美的弯路。要想在飞速发展的工业社会生存下来，再是艰难诡异的障碍我们都需要战胜。纵然我们看到的景色也许不如第一位登山者看到的那样宏伟壮观，但为了寻求进步，我们的宽阔大道可以穿过大山的心脏。”[br/]- 恩佐·曼特，交通部长</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Male</Data></Cell><Cell><Data
+            ss:Type="String"
+          >V.O.:Vanguard Male</Data></Cell></Row><Row><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"

@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -119,10 +119,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target Biological or Cyborg unit heals {HealingKitHP}[hp/].</Data></Cell><Cell
+          >Target Biological or Cyborg unit heals {HealingKitHP}[hp/] and has its non-Psionic negative Status Effects dispelled.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >治疗目标生物或半机械人单位 {HealingKitHP}[hp/]。</Data></Cell></Row><Row
+          >治疗目标生物或半机械人单位 {HealingKitHP}[hp/]，并驱散其非灵能负面状态效果。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">INCENTIVIZE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -432,10 +432,10 @@
             ss:Type="String"
           >MOD_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >{DisruptStrength} strength chance to remove 1[movewalk/] Action Point from Mechanical and Cyborg targets.</Data></Cell><Cell
+          >{DisruptStrength} strength chance to remove all Action Points from Mechanical and Cyborg targets.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >有 {DisruptStrength} 力量几率移除机械和半机械人目标 1 点[movewalk/]操作点数。</Data></Cell></Row><Row
+          >有 {DisruptStrength} 力量几率移除机械和半机械人目标的所有操作点数。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">EAT_DUST</Data></Cell><Cell><Data
             ss:Type="String"
@@ -450,10 +450,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Activate the engine's boosters, immediately refunding all [movewalk/] and attempting to apply [abilityred]Blinded[/abilityred] to all adjacent units, which reduces their accuracy by 40%.</Data></Cell><Cell
+          >Attempt to apply [abilityred]Blinded[/abilityred] to all adjacent units. Then regain all [movewalk/] but the unit can only move or activate a [abilityblue]Defense Mode[/abilityblue].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >激活引擎强化器，立即返还全部[movewalk/]并尝试对所有相邻单位施加[abilityred]致盲[/abilityred]，使其准度降低 40%。</Data></Cell></Row><Row
+          >尝试对所有相邻单位施加[abilityred]致盲[/abilityred]。随后单位恢复全部 [movewalk/] 但只能进行移动或激活[abilityblue]防御模式[/abilityblue]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">TRACTOR_BEAM</Data></Cell><Cell><Data
             ss:Type="String"
@@ -484,10 +484,10 @@
             ss:Type="String"
           >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Adjacent enemy units take {GrinderDamage}[DamagePhysical/] each turn.</Data></Cell><Cell
+          >At the end of the turn, any adjacent enemy units take {Grinder} damage and have a strength {GrinderChance} chance to be [abilityred]Immobilized[/abilityred] for {duration}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >相邻的敌方单位每回合受到 {GrinderDamage}[DamagePhysical/]。</Data></Cell></Row><Row
+          >回合结束时，所有相邻的敌方单位受到 {Grinder} 伤害并有 {GrinderChance} 力量几率[abilityred]无法移动[/abilityred]，持续 {duration}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">CRUSH_AND_PROCESS</Data></Cell><Cell><Data
             ss:Type="String"
@@ -502,10 +502,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Crush an adjacent Light target. There is a {Crush&amp;ProcessInstaKill} strength chance that the target instantly dies. If this fails, they take {Crush&amp;ProcessDamage} instead.</Data></Cell><Cell
+          >Crush a target. If the target is a Light unit, there is a {Crush&amp;ProcessInstaKill} strength chance that it will instantly die.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >碾压一个相邻的轻型目标，有 {Crush&amp;ProcessInstaKill} 力量几率使目标立即死亡。如果失败，则目标单位将受到 {Crush&amp;ProcessDamage} 伤害。</Data></Cell></Row><Row
+          >碾碎目标。如果目标为轻型单位，则有 {Crush&amp;ProcessInstaKill} 力量几率立即死亡。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">CONCUSSIVE_VOLLEY</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1564,7 +1564,14 @@
             ss:Type="String"
           >Afterburners Engaged</Data></Cell><Cell><Data
             ss:Type="String"
-          >加力燃烧室已使用</Data></Cell></Row><Row><Cell><Data
+          >加力燃烧室已使用</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">AERIAL_RAM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Melee collision attack.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >近战碰撞攻击。</Data></Cell></Row><Row><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"

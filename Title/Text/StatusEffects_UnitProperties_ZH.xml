@@ -15,8 +15,8 @@
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
   ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -2704,7 +2704,53 @@
         ><Data
             ss:Type="String"
           >每层[essencecharge/]可使单位伤害 +10%。[br/]最多可叠加 {INT_max} 次。</Data></Cell></Row><Row
-      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PSIONICS_BASIC_PANIC</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Panic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >恐慌</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PSIONICS_BASIC_PANIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{PanicChance}[StrengthPsyche/] strength chance to [abilityred]Panic[/abilityred] to non-Mindless for {durationPanic}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {PanicChance}[StrengthPsyche/] 力量几率对非无意识单位施加[abilityred]恐慌[/abilityred]，持续 {durationPanic}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">NEURAL_TOXIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Neural Toxin</Data></Cell><Cell><Data
+            ss:Type="String"
+          >神经毒素</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >REACTIVE_POISON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{PoisonChance}[StrengthBio/] strength chance to apply [abilityred]Neural Toxin[/abilityred] to Biological or Cyborg targets for {durationPoison}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {PoisonChance}[StrengthBio/] 力量几率对生物或半机械人目标施加[abilityred]神经毒素[/abilityred]，持续 {durationPoison}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">NEURAL_TOXIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has {ToxinChance}[strengthBio/] of becoming [abilityred]Stunned[/abilityred] at the start of each turn. If resisted, deals {DamageAmount}[damageBio/] damage instead.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位有 {ToxinChance}[strengthBio/] 几率在每回合开始时被[abilityred]晕眩[/abilityred]。如果抵抗，则改为造成 {DamageAmount}[damageBio/] 伤害。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Stunend as in the status condition</Data></Cell></Row><Row><Cell
+        ><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
           ss:Index="7"

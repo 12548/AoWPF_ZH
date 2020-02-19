@@ -10,12 +10,12 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:51:38Z</Created><LastSaved
     >2019-06-25T15:51:38Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
     >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
@@ -26,27 +26,27 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
     ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
-      ss:ID="s58"
+      ss:ID="s63"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
     ss:Name="Script"
   ><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultColumnWidth="51.75"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s57" ss:Width="112.5" /><Column
-        ss:StyleID="s57"
+    ><Column ss:StyleID="s62" ss:Width="112.5" /><Column
+        ss:StyleID="s62"
         ss:Width="66.75"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="309.75" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="309.75" /><Column
+        ss:StyleID="s62"
         ss:Width="147.75"
-      /><Column ss:StyleID="s57" ss:Width="309" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:Width="309" /><Column
+        ss:StyleID="s62"
         ss:Width="120.75"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="306.75" /><Row
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="306.75" /><Row
         ss:AutoFitHeight="0"
         ss:Height="90"
       ><Cell><Data ss:Type="String">PSIONIC_TECHGROUPS</Data></Cell><Cell
@@ -120,10 +120,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The target non-Mindless unit becomes [abilityblue]Immune to Psionic Status Effects[/abilityblue], [abilityblue]Stagger Immune[/abilityblue] and gains {bonushealth} maximum [hp/] for {Duration}[turn/].</Data></Cell><Cell
+          >The target non-Mindless unit becomes [abilityblue]Immune to Psionic Status Effects[/abilityblue], [abilityblue]Stagger Immune[/abilityblue] and gains {bonushealth} maximum [hp/] unit the end of combat.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >目标非无意识单位[abilityblue]免疫灵能状态效果[/abilityblue]并获得[abilityblue]动摇免疫[/abilityblue]，同时获得 {bonushealth} 最大[hp/]，持续 {Duration}[turn/]。</Data></Cell></Row><Row
+          >目标非无意识单位[abilityblue]免疫灵能状态效果[/abilityblue]并获得[abilityblue]动摇免疫[/abilityblue]，同时获得 {bonushealth} 最大 [hp/]，持续至战斗结束。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">PSYCHIC_CONTROL</Data></Cell><Cell><Data
             ss:Type="String"
@@ -161,7 +161,7 @@
             ss:Type="String"
           >该单位受到灵能增强，免疫灵能状态效果并获得[abilityblue]动摇免疫[/abilityblue]。同时，还会获得 {Health} 最大[hp/]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:StyleID="s58"
+        ss:StyleID="s63"
       ><Cell><Data ss:Type="String">ACTIVATE_CLEANSING_PULSE</Data></Cell><Cell
         ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
             ss:Type="String"
@@ -170,7 +170,7 @@
           >净化脉冲</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="28.6875"
-        ss:StyleID="s58"
+        ss:StyleID="s63"
       ><Cell><Data ss:Type="String">ACTIVATE_CLEANSING_PULSE</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"

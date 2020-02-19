@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
     >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -227,23 +227,6 @@
             ss:Type="String"
           >Arcadian refers to Arcadia, i.e. an idyllic climate.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="60"
-      ><Cell><Data ss:Type="String">ARCADIAN_HAPPINESS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >By adapting the habitats for your colonists to the Arcadian climate, you can improve their quality of life.[br/][br/]Your colony gains {happiness} for each Arcadian sector within the colony's domain.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >将移住民栖息地改造为田园气候，从而提升移住民的生活质量。[br/][br/]你的殖民地领域中每有一片田园区域，殖民地就会获得 {happiness}。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Arcadian refers to Arcadia, i.e. an idyllic climate.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >By adapting the habitats for your colonists to the Arcadian climate, you improve your colonists' quality of life.[br/][br/]Your colony gains {happiness} Happiness for each Arcadian sector within the colony's domain.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">ARID_LEVELUP</Data></Cell><Cell><Data
             ss:Type="String"
@@ -445,9 +428,9 @@
             ss:Type="String"
           >NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Volcanic Sector Level</Data></Cell><Cell><Data
+          >Volcanic Adaptation</Data></Cell><Cell><Data
             ss:Type="String"
-          >火山区域等级</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          >火山适应</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >FOREST_LEVELUP</Data></Cell><Cell><Data
             ss:Type="String"
@@ -864,8 +847,27 @@
           >Unlocks the ability to build bases on water and coastal sectors.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >解锁建造水上基地和海滨区域的能力。</Data></Cell></Row><Row><Cell
-        ><Data ss:Type="String" /></Cell><Cell><Data
+          >解锁建造水上基地和海滨区域的能力。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BADLANDS_LEVELUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Colonies ignore all economic penalties from Volcanic terrain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >殖民地无视火山地形造成的所有经济惩罚。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARCADIAN_HAPPINESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >By adapting the habitats for your colonists to the Arcadian climate, you can improve their quality of life.[br/][br/]Your colony gains {happiness} for each Arcadian sector within the colony's domain.</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Arcadian refers to Arcadia, i.e. an idyllic climate.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data
             ss:Type="String"

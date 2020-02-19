@@ -10,12 +10,12 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:51:39Z</Created><LastSaved
     >2019-06-25T15:51:39Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><MaxChange
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
     >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
@@ -26,33 +26,33 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
-      ss:ID="s58"
+      ss:ID="s63"
     ><Alignment
         ss:Vertical="Bottom"
         ss:WrapText="1"
       /></Style></Styles><Worksheet ss:Name="Script"><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultColumnWidth="51.75"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="178.5" /><Column
-        ss:StyleID="s57"
+    ><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="178.5" /><Column
+        ss:StyleID="s62"
         ss:AutoFitWidth="0"
         ss:Width="206.25"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="238.5" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="238.5" /><Column
+        ss:StyleID="s62"
         ss:AutoFitWidth="0"
         ss:Width="149.25"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="246" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="246" /><Column
+        ss:StyleID="s62"
         ss:AutoFitWidth="0"
         ss:Width="182.25"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="238.5" /><Column
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="238.5" /><Column
         ss:Index="12"
-        ss:StyleID="s57"
+        ss:StyleID="s62"
         ss:AutoFitWidth="0"
         ss:Width="49.5"
       /><Row ss:AutoFitHeight="0" ss:Height="120"><Cell><Data
@@ -80,7 +80,7 @@
         ss:Height="75"
       ><Cell><Data ss:Type="String">PSYNUMBRA</Data></Cell><Cell><Data
             ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s58"><Data
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
           >{XML_PSYNUMBRA_TECHGROUPS@PSYNUMBRA@DESC}[br/][br/]{XML_PSYNUMBRA_TECHGROUPS@PSYNUMBRA@FEATURES}</Data></Cell><Cell
         ><Data
@@ -90,7 +90,7 @@
         ><Data
             ss:Type="String"
           >No need to translate. This inserts the PSYNUMBRA_TECHGROUPS@PSYNUMBRA@DESC and PSYNUMBRA_TECHGROUPS@PSYNUMBRA@FEATURES texts with some white space.</Data></Cell><Cell
-          ss:StyleID="s58"
+          ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
             ss:Type="String"
           >PSYNUMBRA</Data></Cell><Cell><Data
@@ -109,10 +109,10 @@
             ss:Type="String"
           >FEATURES</Data></Cell><Cell><Data
             ss:Type="String"
-          >[bulletlist][bullet]Summon ethereal beings[/bullet][bullet]Break enemy's minds[/bullet][bullet]Shatter reality to terrorize the populace[/bullet][bullet]Uses the Psionic damage channel[/bullet][/bulletlist]</Data></Cell><Cell
+          >[bulletlist][bullet][sand]Starting Unit:[/sand] [hyperlink,unitlookup0000038700001FC7]Initiate[/hyperlink][/bullet][bullet]Summon ethereal beings[/bullet][bullet]Break enemy's minds[/bullet][bullet]Shatter reality to terrorize the populace[/bullet][bullet]Uses the Psionic damage channel[/bullet][/bulletlist]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >[bulletlist][bullet]召唤虚灵物种[/bullet][bullet]破坏敌人心智[/bullet][bullet]撕裂现实，恐吓人民[/bullet][bullet]使用灵能伤害类型[/bullet][/bulletlist]</Data></Cell></Row><Row
+          >[bulletlist][bullet][sand]初始单位：[/sand][hyperlink,unitlookup0000038700001FC7]初灵[/hyperlink][/bullet][bullet]召唤虚灵物种[/bullet][bullet]破坏敌人心智[/bullet][bullet]撕裂现实，恐吓人民[/bullet][bullet]使用灵能伤害类型[/bullet][/bulletlist]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">TECH_TREE</Data></Cell><Cell><Data
             ss:Type="String"

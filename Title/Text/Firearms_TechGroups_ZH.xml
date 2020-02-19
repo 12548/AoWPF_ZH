@@ -10,13 +10,13 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:50:42Z</Created><LastSaved
     >2019-07-03T22:02:48Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>15000</WindowHeight><WindowWidth>19440</WindowWidth><WindowTopX
-    >-120</WindowTopX><WindowTopY>-120</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -26,28 +26,30 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
     ss:Name="Script"
   ><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultColumnWidth="189"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s57" ss:Width="120.75" /><Column
+    ><Column ss:StyleID="s62" ss:Width="120.75" /><Column
         ss:Index="3"
-        ss:StyleID="s57"
+        ss:StyleID="s62"
         ss:AutoFitWidth="0"
         ss:Width="318.75"
         ss:Span="1"
-      /><Column ss:Index="6" ss:StyleID="s57" ss:Width="120.75" /><Row
+      /><Column ss:Index="6" ss:StyleID="s62" ss:Width="120.75" /><Row
+        ss:AutoFitHeight="0"
         ss:Height="150"
       ><Cell><Data ss:Type="String">FIREARMS_TECHGROUPS</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
           >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
             ss:Type="String"
@@ -63,17 +65,18 @@
             ss:Type="String"
           >LOCALIZATION NOTES</Data></Cell><Cell><Data
             ss:Type="String"
-          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          >SHRAPNEL_BOMB</Data></Cell><Cell><Data
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SHRAPNEL_BOMB</Data></Cell><Cell><Data
             ss:Type="String"
           >NAME</Data></Cell><Cell><Data
             ss:Type="String"
           >Shredder Bomb</Data></Cell><Cell><Data
             ss:Type="String"
-          >撕裂炸弹</Data></Cell></Row><Row ss:Height="60"><Cell><Data
-            ss:Type="String"
-          >SHRAPNEL_BOMB</Data></Cell><Cell><Data
+          >撕裂炸弹</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">SHRAPNEL_BOMB</Data></Cell><Cell><Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -81,15 +84,17 @@
         ><Data
             ss:Type="String"
           >向战场投放撕裂炸弹，对 1 个单元格范围造成 {ShrapnelDamage} 伤害，[br/]并有 {BleedingChance} 的力量几率对生物单位和半机械人单位施加[abilityred]流血[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">MASS-DRIVER_CANNON</Data></Cell><Cell><Data
             ss:Type="String"
           >NAME</Data></Cell><Cell><Data
             ss:Type="String"
           >Mass-Driver Cannon</Data></Cell><Cell><Data
             ss:Type="String"
-          >质量加速加农炮</Data></Cell></Row><Row ss:Height="75"><Cell><Data
-            ss:Type="String"
-          >MASS-DRIVER_CANNON</Data></Cell><Cell><Data
+          >质量加速加农炮</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">MASS-DRIVER_CANNON</Data></Cell><Cell><Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -97,13 +102,14 @@
         ><Data
             ss:Type="String"
           >质量加速加农炮能够将粒子加速到接近光速。有 {MassDisintegrate} 的力量几率击杀并瓦解位于中心的目标单位。对 1 个单元格范围区域造成 {DriverDamage} 伤害，并造成[abilityred]强力冲击[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">FIREARM_SKILLS</Data></Cell><Cell><Data
             ss:Type="String"
           >GROUP_NAME</Data></Cell><Cell><Data
             ss:Type="String"
           >Firearms</Data></Cell><Cell><Data
             ss:Type="String"
-          >枪炮</Data></Cell></Row><Row><Cell><Data
+          >枪炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >DEPLOY_MAGNET_FIELD</Data></Cell><Cell><Data
             ss:Type="String"
@@ -111,9 +117,10 @@
             ss:Type="String"
           >Kinetic Vectoring Field</Data></Cell><Cell><Data
             ss:Type="String"
-          >动力引导力场</Data></Cell></Row><Row ss:Height="75"><Cell><Data
-            ss:Type="String"
-          >DEPLOY_MAGNET_FIELD</Data></Cell><Cell><Data
+          >动力引导力场</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">DEPLOY_MAGNET_FIELD</Data></Cell><Cell><Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -121,6 +128,7 @@
         ><Data
             ss:Type="String"
           >投放动力引导力场，覆盖 2 个单元格范围区域。力场内的所有单位被远程攻击命中的难度增加 {EvasionPercentage}，同时枪炮攻击额外造成 {DamageBonusPercentage} 伤害。引导力场持续 {FieldDuration}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">DEPLOY_MAGNET_FIELD</Data></Cell><Cell><Data
             ss:Type="String"
@@ -130,22 +138,25 @@
         ><Data
             ss:Type="String"
           >该单位额外造成 {DamageBonusPercentage} 伤害，被远程攻击命中的难度增加 {EvasionPercentage}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">CLUSTER_SHELL</Data></Cell><Cell><Data
             ss:Type="String"
           >NAME</Data></Cell><Cell><Data
             ss:Type="String"
           >Cluster Shell</Data></Cell><Cell><Data
             ss:Type="String"
-          >分散炮弹</Data></Cell></Row><Row ss:Height="75"><Cell><Data
-            ss:Type="String"
-          >CLUSTER_SHELL</Data></Cell><Cell><Data
+          >分散炮弹</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">CLUSTER_SHELL</Data></Cell><Cell><Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Unleashes a volley of Cluster Shells on enemy targets.[br/]At the end of your enemy's next {ClusterDuration}[turn/] mortar shells hit between {ClusterMin} to {ClusterMax} random enemies, dealing {ClusterImpactDamage} damage, and causing [abilityred]Massive Impact[/abilityred].</Data></Cell><Cell
+          >Unleashes a volley of Cluster Shells on enemy targets.[br/]At the end of your next {ClusterDuration}[turn/] mortar shells hit between {ClusterMin} to {ClusterMax} random enemies, dealing {ClusterImpactDamage} damage, and causing [abilityred]Massive Impact[/abilityred].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >向敌方目标释放一连串分散炮弹。[br/]在敌人接下来的 {ClusterDuration}[turn/]结束时，迫击炮弹将攻击 {ClusterMin} 到 {ClusterMax} 个任意敌人，造成 {ClusterImpactDamage} 伤害并施加[abilityred]强力冲击[/abilityred]。</Data></Cell></Row><Row
+          >向敌方目标释放一连串分散炮弹。[br/]在你接下来的 {ClusterDuration}[turn/] 结束时，迫击炮弹将命中 {ClusterMin} 到 {ClusterMax} 个随机敌人，造成 {ClusterImpactDamage} 伤害并施加[abilityred]强力冲击[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">DEPLOY_MAGNET_FIELD</Data></Cell><Cell><Data
             ss:Type="String"
@@ -170,8 +181,8 @@
             ss:Type="String"
           >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
-    ><Selected /><TopRowVisible>3</TopRowVisible><Panes><Pane><Number
-          >3</Number><ActiveRow>3</ActiveRow><RangeSelection
+    ><Unsynced /><Selected /><TopRowVisible>3</TopRowVisible><Panes><Pane
+        ><Number>3</Number><ActiveRow>3</ActiveRow><RangeSelection
           >R1:R1048576</RangeSelection></Pane></Panes><ProtectObjects
       >False</ProtectObjects><ProtectScenarios
       >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
