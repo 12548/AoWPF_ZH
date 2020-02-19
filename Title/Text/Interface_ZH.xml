@@ -8820,7 +8820,7 @@ Are these used for TC? Otherwise these might be AoW3 lines used for switching la
             ss:Type="String"
           >Original Modifier {INT_value}</Data></Cell><Cell
           ss:StyleID="s67"
-        ><Data ss:Type="String">初始修改器 {INT_value}</Data></Cell><Cell
+        ><Data ss:Type="String">初始影响项 {INT_value}</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -8852,7 +8852,7 @@ Are these used for TC? Otherwise these might be AoW3 lines used for switching la
             ss:Type="String"
           >Current Modifier {INT_value}</Data></Cell><Cell
           ss:StyleID="s67"
-        ><Data ss:Type="String">当前修改器 {INT_value}</Data></Cell><Cell
+        ><Data ss:Type="String">当前影响项 {INT_value}</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -13781,7 +13781,7 @@ Out of sync in multiplayer means that the game world on one computer is not the 
             ss:Type="String"
           >Relationship Modifiers</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >关系修改器</Data></Cell><Cell ss:Index="7"><Data
+          >关系影响项</Data></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
           >Actions that change the player's relation with another player in some way</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
@@ -15137,7 +15137,7 @@ Out of sync in multiplayer means that the game world on one computer is not the 
             ss:Type="String"
           >Modifiers</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >修改器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          >影响项</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
           ss:StyleID="s67"
         ><Data ss:Type="String">TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
@@ -15709,7 +15709,7 @@ Out of sync in multiplayer means that the game world on one computer is not the 
           ss:StyleID="s67"
         ><Data
             ss:Type="String"
-          >交易出售宣战理由的玩家会获得声望修改器：</Data></Cell></Row><Row
+          >交易出售宣战理由的玩家会获得声望影响项：</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell ss:StyleID="s67"><Data ss:Type="String">COLONY</Data></Cell><Cell
@@ -24553,7 +24553,7 @@ This is 'Location' as in 'your current location'.</Data></Cell></Row><Row
           ss:StyleID="s67"
         ><Data
             ss:Type="String"
-          >交易出售宣战理由的玩家会获得声望修改器：</Data></Cell></Row><Row
+          >交易出售宣战理由的玩家会获得声望影响项：</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="90"
       ><Cell ss:StyleID="s67"><Data ss:Type="String">TEXT</Data></Cell><Cell
@@ -27255,7 +27255,7 @@ This is 'Location' as in 'your current location'.</Data></Cell></Row><Row
             ss:Type="String"
           >Modifiers (Cannot Exceed {INT.MULTIPLIER}%):</Data></Cell><Cell><Data
             ss:Type="String"
-          >修改器（不能超过 {INT.MULTIPLIER}%）：</Data></Cell></Row><Row
+          >影响项（不能超过 {INT.MULTIPLIER}%）：</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">HAPPINESS_TOOLTIP</Data></Cell><Cell><Data
             ss:Type="String"
