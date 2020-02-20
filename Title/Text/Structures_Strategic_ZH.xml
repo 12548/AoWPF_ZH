@@ -816,7 +816,7 @@
           >A memorial hall honoring revered heroes of the Star Union, monolythic and impressive these structures inspired a reverence of the Star Union's veterans.[br/][br/]Grants {Supply} Food and {Production} Production to the colony it is linked to.[br/]Non-Mindless units built in the owner colony gain {UnitBonus}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >一个纪念星际联盟可敬英雄的纪念堂，宏伟庄重的石碑和建筑能够激发对星际联盟老兵的敬畏。[br/][br/]相连的殖民地获得 {Supply} 食物和 {Production} 产力。[br/]所有者殖民地中生产的非无意识单位获得 {UnitBonus}。</Data></Cell><Cell
+          >一个纪念星际联盟可敬英雄的纪念堂，宏伟庄重的石碑和建筑能够激发对星际联盟老兵的敬畏。[br/][br/]所属殖民地获得 {Supply} 食物和 {Production} 产力。[br/]所有者殖民地中生产的非无意识单位获得 {UnitBonus}。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -850,7 +850,7 @@
           >An massive Heavy Weapons Factory, this massive complex once built many of the Star Union's heavy military equipment, now it is derelict, waiting to be looted.[br/][br/]Grants {Production} Production to the colony it is linked to.[br/]Heavy units built in the owner colony gain {UnitBonus}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >一个庞大的重型武器工厂，这个巨大的综合建筑曾经建造了许多星际联盟的重型军事装备，但现在早已荒废，里面的资源等待被人挖掘。[br/][br/]相连的殖民地获得 {Production} 产力。[br/]所有者殖民地中生产的重型单位获得 {UnitBonus}。</Data></Cell><Cell
+          >一个庞大的重型武器工厂，这个巨大的综合建筑曾经建造了许多星际联盟的重型军事装备，但现在早已荒废，里面的资源等待被人挖掘。[br/][br/]所属殖民地获得 {Production} 产力。[br/]所有者殖民地中生产的重型单位获得 {UnitBonus}。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -882,7 +882,7 @@
           >Restores full [hp/] to visiting units and grants them {Damagebonus} bonus damage on attacks during their next combat.[br/][br/]The Resupply Station adds {Supply} Food to the colony it is linked to.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >访问单位恢复全部 [hp/]，下一次战斗攻击时获得 {Damagebonus} 额外伤害。[br/][br/]补给站会使相连的殖民地获得 {Supply} 食物。</Data></Cell><Cell
+          >访问单位恢复全部 [hp/]，下一次战斗攻击时获得 {Damagebonus} 额外伤害。[br/][br/]补给站会使所属殖民地获得 {Supply} 食物。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -916,7 +916,7 @@
           >The Union's Stadia still play automated concerts of long-forgotten bands. Grants {happiness} Happiness to the colony it is linked to.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >星际体育场依然在播放那些早已被世人遗忘了的乐队歌曲。相连的殖民地获得 {happiness} 幸福值。</Data></Cell><Cell
+          >星际体育场依然在播放那些早已被世人遗忘了的乐队歌曲。所属殖民地获得 {happiness} 幸福值。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -950,7 +950,7 @@
           >Fully restores all move points of visiting units.[br/][br/]The Milestone Charge Station adds {energy} Energy to the colony it is linked to.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >访问单位恢复全部移动点数。[br/][br/]里程碑充能站会使相连的殖民地获得 {energy} 能量。</Data></Cell><Cell
+          >访问单位恢复全部移动点数。[br/][br/]里程碑充能站会使所属殖民地获得 {energy} 能量。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -2173,7 +2173,7 @@ Paragon Trooper and Paragon Guards are the unit names.</Data></Cell></Row><Row
           >The Star Union maintained a strong planetary communication and propaganda network. During the empire's prime, these towers allowed for interplanetary communication as well. [br/][br/]Grants {Influencegain} Influence to the colony it is linked to.[br/]Units built in the linked colony gain {UnitBonus} accuracy on their attacks.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >星际联盟维持着强大的星际通讯和宣传网络。在帝国全盛时期，这些传输塔可为星际通讯提供支持。[br/][br/]相连的殖民地获得 {Influencegain} 影响力。[br/]所属殖民地生产的单位在攻击时获得 {UnitBonus} 准度。</Data></Cell><Cell
+          >星际联盟维持着强大的星际通讯和宣传网络。在帝国全盛时期，这些传输塔可为星际通讯提供支持。[br/][br/]所属殖民地获得 {Influencegain} 影响力。[br/]所属殖民地生产的单位在攻击时获得 {UnitBonus} 准度。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -2214,7 +2214,7 @@ Paragon Trooper and Paragon Guards are the unit names.</Data></Cell></Row><Row
           >Though the Paragon maintain a sizable military despite the Star Union's decline, these facilities serve as a reminder of the power the Paragon's legions used to maintain. [br/][br/]Grants {Energy} Energy and {Production} Production to the colony it is linked to.[br/]Light units built in the linked colony gain {UnitBonus}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >尽管星际联盟分崩离析，但完人依旧维持着相当规模的军队，这些设施提醒着人们完人军团的强大。[br/][br/]相连的殖民地获得 {Energy} 能量和 {Production} 产力。[br/]所属殖民地生产的轻型单位获得 {UnitBonus}。</Data></Cell><Cell
+          >尽管星际联盟分崩离析，但完人依旧维持着相当规模的军队，这些设施提醒着人们完人军团的强大。[br/][br/]所属殖民地获得 {Energy} 能量和 {Production} 产力。[br/]所属殖民地生产的轻型单位获得 {UnitBonus}。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
