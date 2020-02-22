@@ -203,7 +203,7 @@
           >The unit gains [abilityblue]Universal Camouflage[/abilityblue] and is {CloakingAccuracyDecrease} harder to hit.[br/][br/]In addition, each time this unit is hit, it becomes {CloakingAccuracyDecreaseBuff} harder to hit for that turn. This effect can stack up to 3 times.[br/][br/][productioncol]Only one kind of carapace can be active at any time.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >单位获得[abilityblue]通用伪装[/abilityblue]且命中难度增加 {CloakingAccuracyDecrease}。[br/][br/]此外，该单位每次被击中后，该回合内的命中难度增加 {CloakingAccuracyDecreaseBuff}。该效果最多可叠加 3 次。[br/][br/][productioncol]一次只能激活一种甲壳。[/productioncol]</Data></Cell></Row><Row
+          >单位获得[abilityblue]通用伪装[/abilityblue]且命中难度增加 {CloakingAccuracyDecrease}。[br/][br/]此外，该单位每次被击中后，该回合内的命中难度增加 {CloakingAccuracyDecreaseBuff}。该效果最多可叠加 3 次。[br/][br/][productioncol]同时只能激活一种甲壳。[/productioncol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">POISON_EXPULSION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -266,7 +266,7 @@
           >This unit gains [abilityblue]Regeneration[/abilityblue], healing {AcceleratedHealthRegen}[hp/] each turn in combat, and recovers all of its [hp/] at the start of its owner's turn on the strategic map.[br/][br/][productioncol]Only one kind of carapace can be active at any time.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位获得[abilityblue]再生[/abilityblue]，在战斗中每回合治疗 {AcceleratedHealthRegen}[hp/]，并在策略地图上其所有者的回合开始时，恢复全部 [hp/]。[br/][br/][productioncol]一次只能激活一种甲壳。[/productioncol]</Data></Cell></Row><Row
+          >该单位获得[abilityblue]再生[/abilityblue]，在战斗中每回合治疗 {AcceleratedHealthRegen}[hp/]，并在策略地图上其所有者的回合开始时，恢复全部 [hp/]。[br/][br/][productioncol]同时只能激活一种甲壳。[/productioncol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">RESUSCITATION_GLANDS</Data></Cell><Cell
         ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
@@ -1226,7 +1226,7 @@
           >Whenever this unit is struck by an attack, it gains +{ArmorReact}, for {ArmorReactTurn}. This effect can stack up to {NumStacks} times.[br/][br/][productioncol]Only one kind of carapace can be active at any time.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >只要该单位受到攻击，就会获得 +{ArmorReact}，持续 {ArmorReactTurn}。该效果最多可叠加 {NumStacks} 次。[br/][br/][productioncol]一次只能激活一种甲壳。[/productioncol]</Data></Cell></Row><Row
+          >只要该单位受到攻击，就会获得 +{ArmorReact}，持续 {ArmorReactTurn}。该效果最多可叠加 {NumStacks} 次。[br/][br/][productioncol]同时只能激活一种甲壳。[/productioncol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ADAPTIVE_CARAPACE</Data></Cell><Cell><Data
             ss:Type="String"

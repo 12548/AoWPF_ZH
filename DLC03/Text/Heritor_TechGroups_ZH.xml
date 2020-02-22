@@ -856,7 +856,7 @@
           >Whenever this unit is hit with an attack, there is a {EnergyDrainChance}[strengthentropy/] strength chance to apply [abilityred]Energy Drain[/abilityred] to the attacker. If successful, this unit gains an [abilityblue][essencecharge/]Essence Charge[/abilityblue].[br/][br/][productioncol]Only one kind of Incarnation can be active at any time.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位受到攻击时，有 {EnergyDrainChance}[strengthentropy/] 力量几率对攻击者施加[abilityred]能量干涸[/abilityred]。如果成功，该单位将获得一个 [abilityblue][essencecharge/]精华充能[/abilityblue]。[br/][br/][productioncol]一次只能激活一种化身。[/productioncol]</Data></Cell><Cell
+          >该单位受到攻击时，有 {EnergyDrainChance}[strengthentropy/] 力量几率对攻击者施加[abilityred]能量干涸[/abilityred]。如果成功，该单位将获得一个 [abilityblue][essencecharge/]精华充能[/abilityblue]。[br/][br/][productioncol]同时只能激活一种化身。[/productioncol]</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -962,7 +962,7 @@
           >Merge the mind of an Es'Teq Lord with the unit. Whenever this unit gains an [abilityblue][essencecharge/]Essence Charge[/abilityblue], they heal for {health}[hp/].[br/][br/][productioncol]Only one kind of Incarnation can be active at any time.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >将埃斯特克领主的意志与单位融合。该单位获得 [abilityblue][essencecharge/]精华充能[/abilityblue]时，能够治疗 {health}[hp/]。[br/][br/][productioncol]一次只能激活一种化身。[/productioncol]</Data></Cell><Cell
+          >将埃斯特克领主的意志与单位融合。该单位获得 [abilityblue][essencecharge/]精华充能[/abilityblue]时，能够治疗 {health}[hp/]。[br/][br/][productioncol]同时只能激活一种化身。[/productioncol]</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -2110,7 +2110,7 @@
           >This unit gains {morale}[happiness/] for each [abilityblue][essencecharge/]Essence Charge[/abilityblue] it carries.[br/][br/][productioncol]Only one kind of Incarnation can be active at any time.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >每携带一个　[abilityblue][essencecharge/]精华充能[/abilityblue]，该单位获得 {morale}[happiness/]。[br/][br/][productioncol]一次只能激活一种化身。[/productioncol]</Data></Cell></Row><Row
+          >每携带一个　[abilityblue][essencecharge/]精华充能[/abilityblue]，该单位获得 {morale}[happiness/]。[br/][br/][productioncol]同时只能激活一种化身。[/productioncol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ESTEQ_ACOLYTE_INCARNATION</Data></Cell><Cell
         ><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
