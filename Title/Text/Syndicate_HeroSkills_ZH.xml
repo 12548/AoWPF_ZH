@@ -200,13 +200,14 @@ Commander in this context means the leader of an army, NOT the player character<
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Hero gains [abilityblue]Farsight[/abilityblue], giving {visionRangeBonus} vision range on the world map, and has [abilityblue]Superior Overwatch[/abilityblue] granting {damageBonus} extra damage when usign overwatch.</Data></Cell><Cell
+          >Hero gains [abilityblue]Farsight[/abilityblue], giving {visionRangeBonus} vision range on the world map, and has [abilityblue]Superior Overwatch[/abilityblue] granting {damageBonus} extra damage when using overwatch.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >英雄获得[abilityblue]远视[/abilityblue]，在世界地图上获得 {visionRangeBonus} 视野范围，并且在使用警戒时拥有[abilityblue]高级警戒[/abilityblue]，可额外造成 {damageBonus} 伤害。</Data></Cell><Cell
           ss:Index="7"
         ><Data ss:Type="String">Skill description.
-Farsight is a unit ability</Data></Cell></Row><Row><Cell><Data
+Farsight is a unit ability
+NOTE: Typo fix, do not re-localize</Data></Cell></Row><Row><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"

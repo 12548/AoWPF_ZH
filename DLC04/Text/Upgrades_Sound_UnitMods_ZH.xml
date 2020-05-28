@@ -1,0 +1,496 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Luis Ferreira</LastAuthor><LastSaved
+    >2020-02-06T13:49:13Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="239.25"
+      ss:DefaultRowHeight="15"
+    ><Row ss:AutoFitHeight="0" ss:Height="120"><Cell><Data
+            ss:Type="String"
+          >SOUND_UNITMODS</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SOUND_MOD_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deafening Amplifiers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >轰响增幅器</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="135"
+      ><Cell><Data ss:Type="String">SOUND_MOD_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's Sonic weapons have a {Disorientedchance}[strengthPhysical/] strength chance ({DisorientedRepeatingChance}[strengthPhysical/] for repeating attacks) to apply [abilityred]Disoriented[/abilityred] to non-Ethereal units, giving the unit a {FumbleChance}% fumble chance to its attacks, for {Duration}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的音波武器有 {Disorientedchance}[strengthPhysical/] 力量几率（多次攻击有 {DisorientedRepeatingChance}[strengthPhysical/] 几率）对非虚灵单位施加[abilityred]迷失[/abilityred]，使其攻击有 {FumbleChance}% 几率失手，持续 {Duration}[turn/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Disoriented is a Status Effect in StatusEffects_UnitProperties_DLC04</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SOUND_MOD_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Focused Sonolysis Module</Data></Cell><Cell><Data
+            ss:Type="String"
+          >聚焦声波分解模块</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">SOUND_MOD_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's Sonic weapons gain [abilityred]Armor Melt[/abilityred], destroying {ArmorAmount}[armor/] per hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的音波武器获得[abilityred]融化护甲[/abilityred]，每次命中将移除 {ArmorAmount}[armor/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Armor Melt is a Status Effect in StatusEffects_UnitProperties, in the base game.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SOUND_MOD_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Acute Pitch</Data></Cell><Cell><Data
+            ss:Type="String"
+          >尖锐高音</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell><Data ss:Type="String">SOUND_MOD_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's Sonic attacks gain a {StrengthChance}[strengthPhysical/] strength chance ({StrengthChanceRepeating}[strengthPhysical/] for repeating attacks) to apply [abilityred]Resonance[/abilityred], reducing their[damagePhysical/] resistance for {Duration}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的音波攻击有 {StrengthChance}[strengthPhysical/] 力量几率（多次攻击有 {StrengthChanceRepeating}[strengthPhysical/] 几率）施加[abilityred]共振[/abilityred]，降低其 [damagePhysical/] 抵抗，持续 {Duration}[turn/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Resonance is a Status Effect in StatusEffects_UnitProperties_DLC04</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SOUND_MOD_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reverbing Shields</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混响护盾</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell><Data ss:Type="String">SOUND_MOD_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit gains {Resistance}[DefensePhysical/].[br/]In addition, attacks on this unit have a {StrengthChance}[strengthPhysical/] strength chance of applying a stack of [abilityred]Reverb[/abilityred] to the attacker, which deals {DamageAmount}[damagePhysical/] damage to the unit and its adjacent allies when it reaches {StackAmount} stacks. On failure, applies [abilityred]Resonance[/abilityred] instead.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位获得 {Resistance}[DefensePhysical/]。[br/]此外，该单位被攻击时有 {StrengthChance}[strengthPhysical/] 力量几率对攻击者施加一层[abilityred]混响[/abilityred]，叠加到 {StackAmount} 层后，会对攻击单位及其相邻的盟友造成 {DamageAmount}[damagePhysical/] 伤害。如果失败，则会改为施加[abilityred]共振[/abilityred]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Reverb is a Status Effect in StatusEffects_UnitProperties_DLC04</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SOUND_MOD_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cavitation Module</Data></Cell><Cell><Data
+            ss:Type="String"
+          >气穴模块</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell><Data ss:Type="String">SOUND_MOD_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's Sonic weapons apply [abilityred]Reverb[/abilityred] ({ReverbRepeatingChance}[strengthPhysical/] strength chance for repeating attacks) to units, a stacking effect that deals {DamageAmount}[damagePhysical/] damage to the unit and its adjacent allies when it reaches {StackAmount} stacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的音波武器会对目标施加[abilityred]混响[/abilityred]（多次攻击有 {ReverbRepeatingChance}[strengthPhysical/] 力量几率），叠加到 {StackAmount} 层后，会对目标及其相邻的盟友造成 {DamageAmount}[damagePhysical/] 伤害。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Reverb is a Status Effect in StatusEffects_UnitProperties_DLC04</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SOUND_MOD_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sono-Interference Module</Data></Cell><Cell><Data
+            ss:Type="String"
+          >音波干扰模块</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="135"
+      ><Cell><Data ss:Type="String">SOUND_MOD_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's Sonic weapons have a {ImpairedChance}[strengthPhysical/] strength chance ({ImpairedRepeatingChance}[strengthPhysical/] for repeating attacks) to apply [abilityred]Impaired[/abilityred] to units, disabling their mods and applying [abilityred]Slow[/abilityred]. On failure, only applies [abilityred]Slow[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的音波武器有 {ImpairedChance}[strengthPhysical/] 力量几率（多次攻击有 {ImpairedRepeatingChance}[strengthPhysical/] 几率）对单位施加[abilityred]受损[/abilityred]，使其模块失效，同时施加[abilityred]减速[/abilityred]。如果失败，只则会施加[abilityred]减速[/abilityred]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Impaired is a Status Effect in StatusEffects_UnitProperties_DLC04</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blaring</Data></Cell><Cell><Data
+            ss:Type="String"
+          >刺耳高音</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_1_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Noisy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >嘈杂之声</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_1_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ringing</Data></Cell><Cell><Data
+            ss:Type="String"
+          >清晰响亮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_1_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Roaring</Data></Cell><Cell><Data
+            ss:Type="String"
+          >愤怒咆哮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_1_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thunderous</Data></Cell><Cell><Data
+            ss:Type="String"
+          >雷鸣轰响</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_1_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Rowdy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >喧闹烦心</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_2_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Destructive</Data></Cell><Cell><Data
+            ss:Type="String"
+          >毁天灭地</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_2_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Crushing</Data></Cell><Cell><Data
+            ss:Type="String"
+          >粉碎一切</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_2_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Razing</Data></Cell><Cell><Data
+            ss:Type="String"
+          >毁灭消除</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_2_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Eroding</Data></Cell><Cell><Data
+            ss:Type="String"
+          >侵蚀啃噬</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_2_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shattering</Data></Cell><Cell><Data
+            ss:Type="String"
+          >支离破碎</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_2_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ruinous</Data></Cell><Cell><Data
+            ss:Type="String"
+          >毁灭之势</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_3_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sharp</Data></Cell><Cell><Data
+            ss:Type="String"
+          >尖锐的</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_3_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Excruciating</Data></Cell><Cell><Data
+            ss:Type="String"
+          >折磨的</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_3_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heightened</Data></Cell><Cell><Data
+            ss:Type="String"
+          >升高的</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_3_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Magnified</Data></Cell><Cell><Data
+            ss:Type="String"
+          >放大的</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_3_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Boosted</Data></Cell><Cell><Data
+            ss:Type="String"
+          >增强的</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_3_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Intense</Data></Cell><Cell><Data
+            ss:Type="String"
+          >激烈的</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_4_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shocking</Data></Cell><Cell><Data
+            ss:Type="String"
+          >震荡的</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_4_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Upheaving</Data></Cell><Cell><Data
+            ss:Type="String"
+          >上升的</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_4_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Agitator</Data></Cell><Cell><Data
+            ss:Type="String"
+          >鼓动者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_4_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Rippling</Data></Cell><Cell><Data
+            ss:Type="String"
+          >涟漪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_4_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Seismic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >地震</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_4_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tremorous</Data></Cell><Cell><Data
+            ss:Type="String"
+          >颤动不休</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_5_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Resonant</Data></Cell><Cell><Data
+            ss:Type="String"
+          >共振之声</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_5_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Echo</Data></Cell><Cell><Data
+            ss:Type="String"
+          >回响</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_5_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Resounding</Data></Cell><Cell><Data
+            ss:Type="String"
+          >响彻云霄</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_5_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sequencer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >音序器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_5_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Consonant</Data></Cell><Cell><Data
+            ss:Type="String"
+          >辅助谐音</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_5_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Palpitating</Data></Cell><Cell><Data
+            ss:Type="String"
+          >悸动之音</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_6_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Interfering</Data></Cell><Cell><Data
+            ss:Type="String"
+          >严厉干涉</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_6_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Obstructive</Data></Cell><Cell><Data
+            ss:Type="String"
+          >阻碍重重</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_6_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tampering</Data></Cell><Cell><Data
+            ss:Type="String"
+          >干预篡改</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_6_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Meddling</Data></Cell><Cell><Data
+            ss:Type="String"
+          >干涉阻碍</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_6_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hindering</Data></Cell><Cell><Data
+            ss:Type="String"
+          >暗中破坏</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_6_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Impeding</Data></Cell><Cell><Data
+            ss:Type="String"
+          >阻拦妨碍</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Selected /><TopRowVisible>24</TopRowVisible><Panes><Pane
+        ><Number>3</Number><ActiveRow>15</ActiveRow><ActiveCol
+          >2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

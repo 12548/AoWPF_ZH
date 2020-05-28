@@ -10,13 +10,13 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:51:03Z</Created><LastSaved
     >2019-06-25T15:51:03Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>9990</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -26,9 +26,9 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
     ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
-      ss:ID="s58"
+      ss:ID="s63"
     ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /><Font
         ss:FontName="Arial"
         x:Family="Swiss"
@@ -36,16 +36,16 @@
       /></Style></Styles><Worksheet ss:Name="Script"><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s57" ss:Width="205.5" /><Column
-        ss:StyleID="s57"
+    ><Column ss:StyleID="s62" ss:Width="205.5" /><Column
+        ss:StyleID="s62"
         ss:Width="168.75"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="319.5" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="319.5" /><Column
+        ss:StyleID="s62"
         ss:Width="147.75"
-      /><Column ss:StyleID="s57" ss:Width="156.75" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:Width="156.75" /><Column
+        ss:StyleID="s62"
         ss:Width="120.75"
       /><Row ss:AutoFitHeight="0" ss:Height="120"><Cell><Data
             ss:Type="String"
@@ -84,7 +84,7 @@
         ss:Height="45"
       ><Cell><Data ss:Type="String">TOME_OF_WONDERS_LINKS</Data></Cell><Cell
         ><Data ss:Type="String">RESOURCE_NODE_TAG</Data></Cell><Cell
-          ss:StyleID="s58"
+          ss:StyleID="s63"
         ><Data
             ss:Type="String"
           >[hyperlink,0000039A00000924]Resource Node[/hyperlink]</Data></Cell><Cell
@@ -145,7 +145,7 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >A forgotten Star Union hydroelectric power plant sits here. Grants {Energy} Energy to the colony it is linked to.</Data></Cell><Cell
+          >A forgotten Star Union hydroelectric power plant sits here. Grants {Energy} Energy to the colony it is linked to.[br/][br/]Grants an additional {SynergyEnergy} Energy when in an Aquatic Exploitation.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >一座小型星际联盟水厂坐落于此。它可为所属殖民地提供 {Energy} 能量。</Data></Cell><Cell
@@ -201,7 +201,7 @@
       ><Cell><Data ss:Type="String">WATER_PRODUCTION_NODE</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Valuable deep sea minerals are mind from the seabed using this mining station. Grants {Production} Production to the colony it is linked to.</Data></Cell><Cell
+          >Valuable deep sea minerals are mind from the seabed using this mining station. Grants {Production} Production to the colony it is linked to.[br/][br/]Grants an additional {SynergyProduction} Production when in an Aquatic Exploitation.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >这座采矿站可供你深入海床，开采有价值的深海矿物。此外，它可为所属殖民地提供 {Production} 产力。</Data></Cell><Cell
@@ -259,7 +259,7 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Research into aquatic applications of technology is performed in these special Marine Research Stations. Grants {Research} Knowledge to the colony it is linked to.</Data></Cell><Cell
+          >Research into aquatic applications of technology is performed in these special Marine Research Stations. Grants {Research} Knowledge to the colony it is linked to.[br/][br/]Grants an additional {SynergyResearch} Knowledge when in an Aquatic Exploitation.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >这些专业海洋研究所用于开展水中应用科技研究。它可为所属殖民地提供 {Research} 知识。</Data></Cell><Cell
@@ -317,7 +317,7 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Water-based Algae Farms have increased growth rates for organic manufacturing. Grants {Supply} Food to the colony it is linked to.</Data></Cell><Cell
+          >Water-based Algae Farms have increased growth rates for organic manufacturing. Grants {Supply} Food to the colony it is linked to.[br/][br/]Grants an additional {SynergySupply} Food when in an Aquatic Exploitation.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >水生生物农场有机生产增长率连年提升。它可为所属殖民地提供 {Supply} 食物。</Data></Cell><Cell

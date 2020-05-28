@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>9990</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -807,7 +807,132 @@
             ss:Type="String"
           >Chased down marauders</Data></Cell><Cell><Data
             ss:Type="String"
-          >曾追捕过劫掠者</Data></Cell></Row></Table><WorksheetOptions
+          >曾追捕过劫掠者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">RELATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SENT_INSULT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sent an insult</Data></Cell><Cell><Data
+            ss:Type="String"
+          >表达过侮辱</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RELATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SENT_COMPLIMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sent a compliment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >表达过赞美</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RELATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SENT_GIFT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sent a gift</Data></Cell><Cell><Data
+            ss:Type="String"
+          >赠送过礼物</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RELATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NEGLECTED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Has been neglected for a while</Data></Cell><Cell><Data
+            ss:Type="String"
+          >被忽视了一段时间</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">RELATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LIKES_RELATION_WITH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Likes your relation with {STR_leaderName}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >喜欢你与{STR_leaderName}的关系</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RELATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DISLIKES_RELATION_WITH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dislikes your relation with {STR_leaderName}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >厌恶你与{STR_leaderName}的关系</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RELATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOO_MANY_FRIENDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You have too many friends</Data></Cell><Cell><Data
+            ss:Type="String"
+          >拥有朋友过多</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RELATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NEEDS_A_FRIEND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Needs a friend</Data></Cell><Cell><Data
+            ss:Type="String"
+          >需要一个朋友</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RELATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >AVOID_WAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Wants to avoid wars</Data></Cell><Cell><Data
+            ss:Type="String"
+          >打算避免战争</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RELATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOO_MANY_WARS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >I'm fighting too many wars</Data></Cell><Cell><Data
+            ss:Type="String"
+          >树敌太多</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RELATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >OTHER_TOO_MANY_WARS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You are fighting too many wars</Data></Cell><Cell><Data
+            ss:Type="String"
+          >对方玩家树敌太多</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">RELATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHARED_VASSALAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shares vassalage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >共享主臣关系</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RELATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOW_POPULAR_SUPPORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Has low popular support</Data></Cell><Cell><Data
+            ss:Type="String"
+          >民众支持率低</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RELATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >VASSAL_TO_ALLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vassal to one of your allies</Data></Cell><Cell><Data
+            ss:Type="String"
+          >你盟友的封臣</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RELATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WAR_DURATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >War duration</Data></Cell><Cell><Data
+            ss:Type="String"
+          >战争持久</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RELATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WAR_UNSUPPORTED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Not enough military power to support war</Data></Cell><Cell><Data
+            ss:Type="String"
+          >没有足够的军事力量支持战争</Data></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
     ><Unsynced /><Zoom>115</Zoom><Selected /><Panes><Pane><Number
           >3</Number><ActiveRow>9</ActiveRow><ActiveCol

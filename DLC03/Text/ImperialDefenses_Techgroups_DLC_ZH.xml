@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+  ><WindowHeight>7320</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -93,10 +93,10 @@
       ><Cell><Data ss:Type="String">SOUL_BEACON_MAELSTROM</Data></Cell><Cell
         ><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >[br/][br/]While within this colony domain: Every {turns}[turn/] combat turns: [bulletList][bullet]Each [abilityred]enemy[/abilityred] unit has a {strength}[strengthentropy/] strength chance to suffer [abilityred]Energy Drained[/abilityred] for {drainedturns} [turn/].[/bullet] [bullet]In addition, each [abilityblue]friendly[/abilityblue] unit gains an [abilityblue]Essence Charge[/abilityblue].[/bullet]
+          >[br/][br/]While within this colony domain, every {turns}[turn/] combat turns: [bulletList][bullet]Each [abilityred]enemy[/abilityred] unit has a {strength}[strengthentropy/] strength chance to suffer [abilityred]Energy Drained[/abilityred] for {drainedturns}[turn/].[/bullet][bullet]In addition, each [abilityblue]friendly[/abilityblue] unit gains an [abilityblue]Essence Charge[/abilityblue].[/bullet]
 </Data></Cell><Cell><Data
             ss:Type="String"
-          >[br/][br/]处于该殖民地领域内时：每 {turns}[turn/]个战斗回合：[bulletList][bullet]每个[abilityred]敌方[/abilityred]单位有 {strength}[strengthentropy/] 力量几率获得遭受[abilityred]能量枯萎[/abilityred]，持续 {drainedturns}[turn/]。[/bullet] [bullet]此外，所有[abilityblue]友方[/abilityblue]单位获得一个[abilityblue]精华充能[/abilityblue]。[/bullet] </Data></Cell><Cell
+          >[br/][br/]处于该殖民地领域内时，每 {turns}[turn/] 个战斗回合：[bulletList][bullet]每个[abilityred]敌方[/abilityred]单位有 {strength}[strengthentropy/] 力量几率遭受[abilityred]能量枯萎[/abilityred]，持续 {drainedturns}[turn/]。[/bullet][bullet]此外，所有[abilityblue]友方[/abilityblue]单位获得一个[abilityblue]精华充能[/abilityblue]。[/bullet] </Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -122,10 +122,10 @@
       ><Cell><Data ss:Type="String">CLUSTER_MINE_LAUNCHER</Data></Cell><Cell
         ><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >While within the colony domain: Every {turns}[turn/] combat turn: [bulletList][bullet]{mineamount} mines will be placed at random locations in the map.[/bullet] [bullet][abilityred]Enemy[/abilityred] non-Flying, non-Floating units passing over or starting their turn on a mine get a {strength}[strengthphysical/] strength chance to suffer {minedamage}[damagekinetic/] damage.[/bullet][bullet][abilityblue]Friendly[/abilityblue] units are not affected by the mines.[/bullet]
+          >While within the colony domain, every {turns}[turn/] combat turn: [bulletList][bullet]{mineamount} mines will be placed at random locations on the map.[/bullet][bullet][abilityred]Enemy[/abilityred] non-Flying, non-Floating units passing over or starting their turn on a mine have a {strength}[strengthphysical/] strength chance to suffer {minedamage}[damagekinetic/] damage.[/bullet][bullet][abilityblue]Friendly[/abilityblue] units are not affected by the mines.[/bullet]
 </Data></Cell><Cell><Data
             ss:Type="String"
-          >处于殖民地领域内时：每 {turns}[turn/] 个战斗回合：[bulletList][bullet]{mineamount} 个地雷会被布置在地图上的随机位置。[/bullet] [bullet]经过地雷或在有地雷的单元格上开始回合的[abilityred]敌方[/abilityred]非飞行和非悬浮单位有 {strength}[strengthphysical/] 力量几率受到 {minedamage}[damagekinetic/] 伤害。[/bullet][bullet][abilityblue]友方[/abilityblue]单位不受地雷影响[/bullet]。 </Data></Cell><Cell
+          >处于殖民地领域内时，每 {turns}[turn/] 个战斗回合：[bulletList][bullet]{mineamount} 个地雷会被布置在地图上的随机位置。[/bullet][bullet]经过地雷或在有地雷的单元格上开始回合的[abilityred]敌方[/abilityred]非飞行和非悬浮单位有 {strength}[strengthphysical/] 力量几率受到 {minedamage}[damagekinetic/] 伤害。[/bullet][bullet][abilityblue]友方[/abilityblue]单位不受地雷影响。[/bullet] </Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -151,7 +151,7 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The Firestorm Missile Silo designates a killzone and will automatically lock onto enemy units within the area when engaged.</Data></Cell><Cell
+          >The Firestorm Missile Silo designates a killzone and will automatically lock on to enemy units within the area when engaged.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >火焰风暴导弹在交战时将会指定一片攻击区域，自动锁定范围内的敌方单位。</Data></Cell></Row><Row
@@ -163,10 +163,10 @@
             ss:Type="String"
           >LOGIC_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >While within the colony domain: Every {turns}[turn/] turns: [bulletList][bullet]A random enemy unit gains [abilityred]Firestorm Missile Lock.[/abilityred][/bullet][bulletList] [bullet] After another turn, said unit will be struck by a Firestorm Missile.[/bullet] [bullet]Firestorm Missile deals {damagecenter}[damagethermal/] damage with [abilityred]Massive Impact[abilityred/] on the center target hex.[/bullet] [bullet]It also deals {damage2}[damagethermal/] with [abilityred]High Impact[/abilityred] within a 2 hex radius.[/bullet][bullet]Additionally, it will leave fire hazards on all affected hexes.[/bullet]
-</Data></Cell><Cell><Data
+          >While within the colony domain, every {turns}[turn/] turns: [bulletList][bullet]A random enemy unit gains [abilityred]Firestorm Missile Lock.[/abilityred][/bullet][bulletList] [bullet] After another turn, that unit will be struck by a Firestorm Missile.[/bullet][bullet]Firestorm Missile deals {damagecenter}[damagethermal/] damage with [abilityred]Massive Impact[abilityred/] on the center target hex.[/bullet] [bullet]It also deals {damage2}[damagethermal/] with [abilityred]High Impact[/abilityred] within a 2 hex radius.[/bullet][bullet]In addition, the missile will leave fire hazards on all affected hexes.[/bullet]</Data></Cell><Cell
+        ><Data
             ss:Type="String"
-          >处于殖民地领域内时：每 {turns}[turn/] 个回合：[bulletList][bullet]一个随机敌方单位将获得[abilityred]火焰风暴导弹锁定[/abilityred]。[/bullet][bulletList][bullet]该敌方单位在下一回合将被火焰风暴导弹击中。[/bullet][bullet]火焰风暴导弹对中心目标单元格造成 {damagecenter}[damagethermal/] 伤害并附带[abilityred]强力冲击[abilityred/]。[/bullet][bullet]此外，导弹还会对 2 个单元格范围造成 {damage2}[damagethermal/] 伤害并附带[abilityred]高度冲击[/abilityred]。[/bullet][bullet]所有受到影响的单元格上还将残留火焰灾害。[/bullet] </Data></Cell><Cell
+          >处于殖民地领域内时，每 {turns}[turn/] 个回合：[bulletList][bullet]一个随机敌方单位将获得[abilityred]火焰风暴导弹锁定[/abilityred]。[/bullet][bulletList][bullet]该敌方单位在下一回合将被火焰风暴导弹击中。[/bullet][bullet]火焰风暴导弹对中心目标单元格造成 {damagecenter}[damagethermal/] 伤害并附带[abilityred]强力冲击[abilityred/]。[/bullet][bullet]此外，导弹还会对 2 个单元格范围造成 {damage2}[damagethermal/] 伤害并附带[abilityred]高度冲击[/abilityred]。[/bullet][bullet]所有受到影响的单元格上还将残留一片火焰灾害。[/bullet]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -184,7 +184,7 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Enemy units passing over or ending their turn on this hex have a {strength}[strengthphysical/] to suffer {damage}[damagephysical/]</Data></Cell><Cell
+          >Enemy units passing through or ending their turn on this hex have a {strength}[strengthphysical/] to suffer {damage}[damagephysical/]</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >经过或在该单元格结束回合的敌方单位有 {strength}[strengthphysical/] 几率受到 {damage}[damagephysical/] 伤害</Data></Cell></Row><Row
@@ -208,14 +208,7 @@
           ss:Index="7"
         ><Data
             ss:Type="String"
-          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
-      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row></Table><WorksheetOptions
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
     ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
         >600</HorizontalResolution><VerticalResolution

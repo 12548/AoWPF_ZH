@@ -13,7 +13,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+  ><WindowHeight>7320</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -25,7 +25,7 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s29"
+      ss:ID="s62"
       ss:Name="Input"
     ><Borders><Border
           ss:Position="Bottom"
@@ -53,15 +53,15 @@
         ss:Size="11"
         ss:Color="#333399"
       /><Interior ss:Color="#FFCC99" ss:Pattern="Solid" /></Style><Style
-      ss:ID="s62"
-    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
       ss:ID="s63"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s64"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Font
         ss:FontName="Calibri"
         x:Family="Swiss"
         ss:Size="11"
         ss:Color="#FF0000"
-      /></Style><Style ss:ID="s65"><Alignment
+      /></Style><Style ss:ID="s66"><Alignment
         ss:Vertical="Bottom"
         ss:WrapText="1"
       /><Borders /><Font
@@ -70,29 +70,29 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s66"
+      ss:ID="s67"
     ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
-      ss:ID="s68"
-      ss:Parent="s29"
+      ss:ID="s69"
+      ss:Parent="s62"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
     ss:Name="Script"
   ><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s62"
+      ss:StyleID="s63"
       ss:DefaultColumnWidth="51.75"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s62" ss:Width="236.25" /><Column
-        ss:StyleID="s62"
+    ><Column ss:StyleID="s63" ss:Width="236.25" /><Column
+        ss:StyleID="s63"
         ss:Width="168.75"
-      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="296.25" /><Column
-        ss:StyleID="s62"
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="296.25" /><Column
+        ss:StyleID="s63"
         ss:Width="147.75"
-      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="258.75" /><Column
-        ss:StyleID="s62"
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="258.75" /><Column
+        ss:StyleID="s63"
         ss:AutoFitWidth="0"
         ss:Width="144.75"
-      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="296.25" /><Row
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="296.25" /><Row
         ss:AutoFitHeight="0"
         ss:Height="105"
       ><Cell><Data ss:Type="String">HERITOR_TECHGROUPS</Data></Cell><Cell
@@ -127,7 +127,7 @@
             ss:Type="String"
           >继承者单位</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
             ss:Type="String"
           >HERITOR_UNIT</Data></Cell><Cell><Data
@@ -139,7 +139,7 @@
             ss:Type="String"
           >该单位被视为继承者单位，能够受到攻击型继承者行动和技能的保护。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >DEVOUR_ESSENCE</Data></Cell><Cell><Data
@@ -150,7 +150,7 @@
             ss:Type="String"
           >吞噬精华</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >DEVOUR_ESSENCE</Data></Cell><Cell><Data
@@ -162,7 +162,7 @@
             ss:Type="String"
           >强制吸收并吞食目标体内的精华。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >DEVOUR_ESSENCE</Data></Cell><Cell><Data
@@ -174,7 +174,7 @@
             ss:Type="String"
           >每次命中都会治疗该单位 {LifeSteal}[hp/]。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >MIND_POSSESSION</Data></Cell><Cell><Data
@@ -185,7 +185,7 @@
             ss:Type="String"
           >心灵占据</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
             ss:Type="String"
           >MIND_POSSESSION</Data></Cell><Cell><Data
@@ -198,7 +198,7 @@
             ss:Type="String"
           >试图控制目标非无意识、非英雄单位。如果成功，该单位即使在战斗结束后也会成为被控制的单位。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
             ss:Type="String"
           >MIND_POSSESSION</Data></Cell><Cell><Data
@@ -211,7 +211,7 @@
             ss:Type="String"
           >有 {MindPossessionChance}[strengthentropy/] 力量几率[abilityred]心灵控制[/abilityred]目标非无意识单位或 1 阶或 2 阶敌方单位。如果失败，该敌方单位将被[abilityred]晕眩[/abilityred]，持续 {StunDuration}[turn/]。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >MIND_POSSESSION</Data></Cell><Cell><Data
@@ -220,7 +220,7 @@
             ss:Type="String"
           >Possessed </Data></Cell><Cell ss:StyleID="Default"><Data
             ss:Type="String"
-          >控制 </Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+          >控制 </Data></Cell><Cell ss:Index="8" ss:StyleID="s64" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">MIND_POSSESSION</Data></Cell><Cell><Data
@@ -233,7 +233,7 @@
             ss:Type="String"
           >该单位被古代埃斯特克的意志所控制，改变了原先的信仰。免疫士气效果。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >ESSENCE_DISCIPLE</Data></Cell><Cell><Data
@@ -244,7 +244,7 @@
             ss:Type="String"
           >精华信徒</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
             ss:Type="String"
           >ESSENCE_DISCIPLE</Data></Cell><Cell><Data
@@ -256,7 +256,7 @@
             ss:Type="String"
           >在战斗结束后，该单位每叠加一层 [abilityblue][essencecharge/]精华充能[/abilityblue]，可使自身获得 +{ExperienceBonus}[xp/]。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="17.25"><Cell><Data
             ss:Type="String"
           >DRAINED_LEVELUP</Data></Cell><Cell><Data
@@ -267,7 +267,7 @@
             ss:Type="String"
           > +{damage}[damageentropy/]</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="20.25"><Cell><Data
             ss:Type="String"
           >DRAINED_LEVELUP</Data></Cell><Cell><Data
@@ -278,7 +278,7 @@
             ss:Type="String"
           >该单位造成 +{damage}[damageentropy/]。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >ESTEK_SIPHON</Data></Cell><Cell><Data
@@ -289,7 +289,7 @@
             ss:Type="String"
           >埃斯特克虹吸器</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
             ss:Type="String"
           >ESTEK_SIPHON</Data></Cell><Cell><Data
@@ -301,7 +301,7 @@
             ss:Type="String"
           >连接目标敌人的精华，汲取他们的生命精华并造成混沌伤害。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >DEVOTION</Data></Cell><Cell><Data
@@ -310,19 +310,19 @@
             ss:Type="String"
           >Devotion</Data></Cell><Cell><Data
             ss:Type="String"
-          >奉献</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+          >奉献</Data></Cell><Cell ss:Index="8" ss:StyleID="s64" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">DEVOTION</Data></Cell><Cell><Data
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Transfers [abilityblue][essencecharge/]Essence Charges[/abilityblue] from the caster to the target unit, restoring its action points. Only the required number of charges will be transferred.</Data></Cell><Cell
+          >Transfers [abilityblue][essencecharge/]Essence Charges[/abilityblue] from the caster to the target friendly unit, restoring its action points. Only the required number of charges will be transferred.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >将施法者的[abilityblue][essencecharge/]精华充能[/abilityblue]转移至目标单位，恢复其操作点数。只会转移需求数量的充能。</Data></Cell><Cell
+          >将施法者的 [abilityblue][essencecharge/]精华充能[/abilityblue]转移至目标友方单位，恢复其操作点数。只会转移需求数量的充能。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >ESSENCE_SHIELD</Data></Cell><Cell><Data
@@ -333,7 +333,7 @@
             ss:Type="String"
           >精华护盾</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
             ss:Type="String"
           >ESSENCE_SHIELD</Data></Cell><Cell><Data
@@ -345,7 +345,7 @@
             ss:Type="String"
           >该单位将所有的 [abilityblue][essencecharge/]精华充能[/abilityblue]转化为目标单位的护盾。该单位每消耗一个 [abilityblue][essencecharge/]精华充能[/abilityblue]就会获得 {shields}[shield/]，持续 {turns}[turn/]。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >ESSENCE_SHIELD</Data></Cell><Cell><Data
@@ -357,7 +357,7 @@
             ss:Type="String"
           >该单位拥有 {Baseshield}[shield/]，此外每层还会额外获得 {shield}[shield/]。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >ESSENCE_GUARDIAN</Data></Cell><Cell><Data
@@ -368,7 +368,7 @@
             ss:Type="String"
           >精华守护者</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
             ss:Type="String"
           >ESSENCE_GUARDIAN</Data></Cell><Cell><Data
@@ -380,7 +380,7 @@
             ss:Type="String"
           >该单位可额外携带 1 个 [abilityblue][essencecharge/]精华充能[/abilityblue]。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >ESSENCE_PULSE</Data></Cell><Cell><Data
@@ -391,7 +391,7 @@
             ss:Type="String"
           >汲取脉冲</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
             ss:Type="String"
           >ESSENCE_PULSE</Data></Cell><Cell><Data
@@ -404,7 +404,7 @@
             ss:Type="String"
           >单位对目标释放一阵混沌脉冲，造成伤害并汲取其精华。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
             ss:Type="String"
           >ESSENCE_PULSE</Data></Cell><Cell><Data
@@ -417,7 +417,7 @@
             ss:Type="String"
           >每层 [abilityblue][essencecharge/]精华充能[/abilityblue]造成 {damage}[damageentropy/] 伤害。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >CONNECT_COMMUNION</Data></Cell><Cell><Data
@@ -428,7 +428,7 @@
             ss:Type="String"
           >连接通灵</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
           >CONNECT_COMMUNION</Data></Cell><Cell><Data
@@ -440,7 +440,7 @@
             ss:Type="String"
           >该单位连接至本身不能形成连接的目标友方单位。[br/]两个单位都将获得[abilityblue]通灵[/abilityblue]，从而可以成为某些特定技能的目标。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >BREAK_COMMUNION</Data></Cell><Cell><Data
@@ -451,7 +451,7 @@
             ss:Type="String"
           >断开通灵</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
             ss:Type="String"
           >BREAK_COMMUNION</Data></Cell><Cell><Data
@@ -463,7 +463,7 @@
             ss:Type="String"
           >通过[abilityblue]通灵[/abilityblue]，断开该单位与其他单位的所有精华连接。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >COMMUNION</Data></Cell><Cell><Data
@@ -472,7 +472,7 @@
             ss:Type="String"
           >Communion</Data></Cell><Cell><Data
             ss:Type="String"
-          >通灵</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+          >通灵</Data></Cell><Cell ss:Index="8" ss:StyleID="s64" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
       ><Cell><Data ss:Type="String">COMMUNION</Data></Cell><Cell><Data
@@ -484,7 +484,7 @@
             ss:Type="String"
           >该单位与另一单位相连，可以成为某些特定技能的目标。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >COMMUNION</Data></Cell><Cell><Data
@@ -495,7 +495,7 @@
             ss:Type="String"
           >通灵建立</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >COMMUNION</Data></Cell><Cell><Data
@@ -506,7 +506,7 @@
             ss:Type="String"
           >通灵断开</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >RITE_OF_VITALITY</Data></Cell><Cell><Data
@@ -517,7 +517,7 @@
             ss:Type="String"
           >活力圣礼</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
             ss:Type="String"
           >RITE_OF_VITALITY</Data></Cell><Cell><Data
@@ -529,7 +529,7 @@
             ss:Type="String"
           >单位消耗所有 [abilityblue][essencecharge/]精华充能[/abilityblue]，通过[abilityblue]通灵[/abilityblue]治疗所有连接单位和方舟自身 {hp}[hp/]，每消耗一个[abilityblue][essencecharge/]精华充能[/abilityblue]，便可额外治疗{hp}[hp/]。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >RITE_OF_DECAY</Data></Cell><Cell><Data
@@ -540,7 +540,7 @@
             ss:Type="String"
           >腐化圣礼</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
           >RITE_OF_DECAY</Data></Cell><Cell><Data
@@ -552,7 +552,7 @@
             ss:Type="String"
           >单位消耗所有 [abilityblue][essencecharge/]精华充能[/abilityblue]，每消耗一个充能，所有连接单位和方舟自身便可通过[abilityblue]通灵[/abilityblue]额外造成 {damage}%[damageEntropy/]，持续 {turn}[turn/]。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
             ss:Type="String"
           >RITE_OF_DECAY</Data></Cell><Cell><Data
@@ -564,7 +564,7 @@
             ss:Type="String"
           >该单位每叠加有一层“腐化圣礼”，就可额外造成 {damage}%[damageentropy/]。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >ESSENCE_BATTERY</Data></Cell><Cell><Data
@@ -575,7 +575,7 @@
             ss:Type="String"
           >精华电池</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
             ss:Type="String"
           >ESSENCE_BATTERY</Data></Cell><Cell><Data
@@ -587,7 +587,7 @@
             ss:Type="String"
           >该单位可额外拥有 1 个 [abilityblue][essencecharge/]精华充能[/abilityblue]。在每个战术战斗回合开始时，该单位获得 {EssenceCharge}[abilityblue][essencecharge/]精华充能[/abilityblue]。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >ESSENCE_DRAIN</Data></Cell><Cell><Data
@@ -598,7 +598,7 @@
             ss:Type="String"
           >精华干涸</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >ESSENCE_DRAIN</Data></Cell><Cell><Data
@@ -611,7 +611,7 @@
             ss:Type="String"
           >单位强制汲取目标敌方单位的精华。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
             ss:Type="String"
           >ESTEQ_JUDGEMENT</Data></Cell><Cell><Data
@@ -624,7 +624,7 @@
             ss:Type="String"
           >消耗所有 [abilityblue][essencecharge/]精华充能[/abilityblue]并释放一阵强大的精华冲击波，对 {range} 单元格范围内的所有敌方单位造成伤害。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
             ss:Type="String"
           >ESTEQ_JUDGEMENT</Data></Cell><Cell><Data
@@ -637,7 +637,7 @@
             ss:Type="String"
           >每消耗一个 [abilityblue][essencecharge/]精华充能[/abilityblue]，便造成 +{ExtraDamage}[DamageEntropy/] 并施加 {stack} 层 [abilityred]混沌衰败[/abilityred]。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >MIND_PUPPET</Data></Cell><Cell><Data
@@ -648,7 +648,7 @@
             ss:Type="String"
           >灵魂傀儡</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
             ss:Type="String"
           >MIND_PUPPET</Data></Cell><Cell><Data
@@ -660,7 +660,7 @@
             ss:Type="String"
           >消耗所有 [abilityblue][essencecharge/]精华充能[/abilityblue]复活目标非英雄、非 4 阶单位，持续至战斗结束。每消耗一个 [abilityblue][essencecharge/]精华充能[/abilityblue]，单位在复活时便拥有 +{healing}%[hp/]。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >MIND_PUPPET</Data></Cell><Cell><Data
@@ -673,7 +673,7 @@
             ss:Type="String"
           >该单位是某个古老的埃斯特克灵魂的容器。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >MACHINE_RUIN</Data></Cell><Cell><Data
@@ -684,12 +684,12 @@
             ss:Type="String"
           >毁坏机械</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="46.5"><Cell><Data
             ss:Type="String"
           >MACHINE_RUIN</Data></Cell><Cell><Data
             ss:Type="String"
-          >ABILITY_DESCRIPTION</Data></Cell><Cell ss:StyleID="s65"><Data
+          >ABILITY_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
             ss:Type="String"
           >Consumes up to 5[essencecharge/] [abilityblue]Essence Charges[/abilityblue] and unleashes a disrupting burst of Essence to attempt to disable Mechanical units.</Data></Cell><Cell
           ss:StyleID="Default"
@@ -697,12 +697,12 @@
             ss:Type="String"
           >消耗最多 5 个 [essencecharge/][abilityblue]精华充能[/abilityblue]释放一阵破坏性的精华冲击波，尝试瘫痪机械单位。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="48"><Cell><Data
             ss:Type="String"
           >MACHINE_RUIN</Data></Cell><Cell><Data
             ss:Type="String"
-          >MODIFIER_DESCRIPTION</Data></Cell><Cell ss:StyleID="s65"><Data
+          >MODIFIER_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
             ss:Type="String"
           >Has a {chance}[strengthentropy/] strength chance to apply [abilityred]Stunned[/abilityred] for {turn}[turn/] for each [abilityblue][essencecharge/]Essence Charge[/abilityblue] consumed.</Data></Cell><Cell
           ss:StyleID="Default"
@@ -710,7 +710,7 @@
             ss:Type="String"
           >每消耗一个 [abilityblue][essencecharge/]精华充能[/abilityblue]，就有 {chance}[strengthentropy/] 力量几率施加[abilityred]眩晕[/abilityred]，持续 {turn}[turn/]。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >ESSENCE_MASTER</Data></Cell><Cell><Data
@@ -721,7 +721,7 @@
             ss:Type="String"
           >精华大师</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
             ss:Type="String"
           >ESSENCE_MASTER</Data></Cell><Cell><Data
@@ -733,7 +733,7 @@
             ss:Type="String"
           >该单位可额外携带 2 个 [abilityblue][essencecharge/]精华充能[/abilityblue]。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >ESTEQ_ENHANCEMENTS</Data></Cell><Cell><Data
@@ -744,7 +744,7 @@
             ss:Type="String"
           >埃斯特克强化</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
           >ESTEQ_ENHANCEMENTS</Data></Cell><Cell><Data
@@ -756,7 +756,7 @@
             ss:Type="String"
           >该单位进行的所有攻击都有 {strength}[strengthEntropy/] 力量几率对目标施加[abilityred]能量干涸[/abilityred]，并赋予该单位一个[abilityblue][essencecharge/]精华充能[/abilityblue]。[br/][br/]效果持续至下一次战术战斗结束。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="15.75"><Cell><Data
             ss:Type="String"
           >SIPHONER_STAFF_WEAPON</Data></Cell><Cell><Data
@@ -767,7 +767,7 @@
             ss:Type="String"
           >武器：生命汲取者法杖</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="15.75"><Cell><Data
             ss:Type="String"
           >LINK_SHARD_WEAPON</Data></Cell><Cell><Data
@@ -778,7 +778,7 @@
             ss:Type="String"
           >武器：连接碎片</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="15.75"><Cell><Data
             ss:Type="String"
           >HIGH_LORD_VEHICLE</Data></Cell><Cell><Data
@@ -789,7 +789,7 @@
             ss:Type="String"
           >载具：至尊领主</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >ESTEQ_GAUNTLET</Data></Cell><Cell><Data
@@ -800,7 +800,7 @@
             ss:Type="String"
           >埃斯特克臂铠</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="33"><Cell><Data
             ss:Type="String"
           >ESTEQ_GAUNTLET</Data></Cell><Cell><Data
@@ -812,7 +812,7 @@
             ss:Type="String"
           >该单位进行的所有近战攻击都有 {EnergyDrainChance}[strengthentropy/] 力量几率施加[abilityred]能量干涸[/abilityred]（重复攻击有 {EnergyDrainSingleAttack}[strengthentropy/] 力量几率）。如果成功，施法者获得一个 [abilityblue][essencecharge/]精华充能[/abilityblue]并提升造成的伤害。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >ESTEQ_GAUNTLET</Data></Cell><Cell><Data
@@ -823,7 +823,7 @@
             ss:Type="String"
           >精华驱逐</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="33.75"><Cell><Data
             ss:Type="String"
           >ESTEQ_GAUNTLET</Data></Cell><Cell><Data
@@ -835,7 +835,7 @@
             ss:Type="String"
           >消耗所有 [abilityblue][essencecharge/]精华充能[/abilityblue]，每消耗一个 [abilityblue][essencecharge/]精华充能[/abilityblue]就会对所有相邻单位造成 {damage}[damageentropy/]伤害并使其动摇。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >ESTEQ_PROTECTOR_INCARNATION</Data></Cell><Cell><Data
@@ -846,7 +846,7 @@
             ss:Type="String"
           >埃斯特克保卫者化身</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
             ss:Type="String"
           >ESTEQ_PROTECTOR_INCARNATION</Data></Cell><Cell><Data
@@ -858,7 +858,7 @@
             ss:Type="String"
           >该单位受到攻击时，有 {EnergyDrainChance}[strengthentropy/] 力量几率对攻击者施加[abilityred]能量干涸[/abilityred]。如果成功，该单位将获得一个 [abilityblue][essencecharge/]精华充能[/abilityblue]。[br/][br/][productioncol]一次只能激活一种化身。[/productioncol]</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >ESTEQ_CONDUIT</Data></Cell><Cell><Data
@@ -869,7 +869,7 @@
             ss:Type="String"
           >埃斯特克导管</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
             ss:Type="String"
           >ESTEQ_CONDUIT</Data></Cell><Cell><Data
@@ -881,7 +881,7 @@
             ss:Type="String"
           >给予该单位一根导管引导其精华流动，从而在远距离造成伤害。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >ESTEQ_CONDUIT</Data></Cell><Cell><Data
@@ -892,7 +892,7 @@
             ss:Type="String"
           >精华冲击波</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
             ss:Type="String"
           >ESTEQ_CONDUIT</Data></Cell><Cell><Data
@@ -905,7 +905,7 @@
             ss:Type="String"
           >该单位消耗所有 [abilityblue][essencecharge/]精华充能[/abilityblue]并将其引导至精华冲击波，对 {range} 个受影响的单元格范围造成伤害。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
             ss:Type="String"
           >ESTEQ_CONDUIT</Data></Cell><Cell><Data
@@ -917,7 +917,7 @@
             ss:Type="String"
           >每个 [abilityblue][essencecharge/]精华充能[/abilityblue]造成 {ExtraDamage}[DamageEntropy/] 伤害。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >EMPOWERED_ARK</Data></Cell><Cell><Data
@@ -928,12 +928,12 @@
             ss:Type="String"
           >强化方舟</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data
             ss:Type="String"
           >EMPOWERED_ARK</Data></Cell><Cell><Data
             ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Empower a Quintessence Ark to unlock more powerful abilities. [abilityblue]Communion[/abilityblue] can now link with up to {units} units.</Data></Cell><Cell
           ss:StyleID="Default"
@@ -941,7 +941,7 @@
             ss:Type="String"
           >强化精髓方舟解锁更强大的能力。[abilityblue]通灵[/abilityblue]现在可以连接最多 {units} 个单位。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >ESTEQ_LORD_INCARNATION</Data></Cell><Cell><Data
@@ -952,7 +952,7 @@
             ss:Type="String"
           >埃斯特克领主化身</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
           >ESTEQ_LORD_INCARNATION</Data></Cell><Cell><Data
@@ -964,7 +964,7 @@
             ss:Type="String"
           >将埃斯特克领主的意志与单位融合。该单位获得 [abilityblue][essencecharge/]精华充能[/abilityblue]时，能够治疗 {health}[hp/]。[br/][br/][productioncol]一次只能激活一种化身。[/productioncol]</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >BESTOW_ESSENCE</Data></Cell><Cell><Data
@@ -975,7 +975,7 @@
             ss:Type="String"
           >赋予精华</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
           >BESTOW_ESSENCE</Data></Cell><Cell><Data
@@ -987,7 +987,7 @@
             ss:Type="String"
           >赋予单位埃斯特克精华，目标友方单位将获得其最大数量的 [abilityblue][essencecharge/]精华充能[/abilityblue]。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >CONDEMN_HERETIC</Data></Cell><Cell><Data
@@ -998,7 +998,7 @@
             ss:Type="String"
           >谴责为枯萎者</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
           >CONDEMN_HERETIC</Data></Cell><Cell><Data
@@ -1011,7 +1011,7 @@
             ss:Type="String"
           >以埃斯特克之名谴责敌人，将他们转化为枯萎者单位。目标敌方非无意识步兵单位有 {StrengthChance}[strengthentropy/] 力量几率遭到[abilityred]谴责[/abilityred]，持续至战斗结束。谴责单位将 -{moraledebuff}[anger/] 和 -{EntropyDebuff}[defenseentropy/]。[br/][br/][abilityred]谴责[/abilityred]单位死亡时不会留下尸体，而是会召唤出一个由施法者控制的枯萎者单位。枯萎者单位将永久存在，且在战斗结束时也不会被移除。[br/]无法以英雄或指挥官为目标。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >CONDEMN_HERETIC</Data></Cell><Cell><Data
@@ -1020,7 +1020,7 @@
             ss:Type="String"
           >Condemned</Data></Cell><Cell ss:StyleID="Default"><Data
             ss:Type="String"
-          >谴责</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /></Row><Row
+          >谴责</Data></Cell><Cell ss:Index="8" ss:StyleID="s64" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">CONDEMN_HERETIC</Data></Cell><Cell><Data
@@ -1033,7 +1033,7 @@
             ss:Type="String"
           >该单位被[abilityred]谴责[/abilityred]，获得 -{moraledebuff}[anger/] 和 -{EntropyDebuff}[defenseentropy/]。单位死亡不会留下尸体，而是会召唤出一个由敌方控制的枯萎者单位。枯萎者单位将永久存在，且在战斗结束时也不会被移除。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >RITE_OF_REINCARNATION</Data></Cell><Cell><Data
@@ -1044,19 +1044,19 @@
             ss:Type="String"
           >再生仪式</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
             ss:Type="String"
           >RITE_OF_REINCARNATION</Data></Cell><Cell><Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >By implanting an ancient Es'Teq mind, a consciousness, into a freshly-deceased body, they can be brought back to life. Target friendly non-Mechanical, non-Hero, tier I, II or III corpse is revived with {Health}%[hp/], and gains +{Morale}[happiness/] until end of combat.</Data></Cell><Cell
+          >By implanting an ancient Es'Teq mind, a consciousness, into a freshly-deceased body, they can be brought back to life.[br/]Target friendly non-Mechanical, non-Hero, tier I, II or III corpse is revived with {Health}%[hp/]. In addition, it gains +{Morale}[happiness/] until end of combat.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >将一个古老的埃斯特克灵魂和意识植入刚刚死亡的尸体，使阵亡的单位复活。目标友方非机械、非英雄、1 阶、2 阶或 3 阶的单位的尸体复活，拥有 {Health}%[hp/] 并获得 +{Morale}[happiness/]，效果持续至战斗结束。</Data></Cell><Cell
+          >将一个古老的埃斯特克灵魂和意识植入刚刚死亡的尸体，使阵亡的单位复活。[br/]目标友方非机械、非英雄、1 阶、2 阶或 3 阶单位的尸体复活，拥有 {Health}%[hp/] 并获得 +{Morale}[happiness/]，效果持续至战斗结束。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >RITE_OF_DISSEMINATION</Data></Cell><Cell><Data
@@ -1067,7 +1067,7 @@
             ss:Type="String"
           >传播仪式</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
             ss:Type="String"
           >RITE_OF_DISSEMINATION</Data></Cell><Cell><Data
@@ -1079,7 +1079,7 @@
             ss:Type="String"
           >在单位间传播精华，赋予这些单位 [abilityblue][essencecharge/]精华充能[/abilityblue]并提高他们的士气。所有战斗中的友方单位获得 {ChargeAmount} 个 [abilityblue][essencecharge/]精华充能[/abilityblue]和 +{Morale}[happiness/]，效果持续至战斗结束。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >RITE_OF_REVITALIZATION</Data></Cell><Cell><Data
@@ -1090,7 +1090,7 @@
             ss:Type="String"
           >复苏仪式</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
           >RITE_OF_REVITALIZATION</Data></Cell><Cell><Data
@@ -1102,7 +1102,7 @@
             ss:Type="String"
           >触发单位体内精华的复苏反应来治疗单位。目标友方单位治疗 {health}[hp/]。如果友方单位拥有 [abilityblue][essencecharge/]精华充能[/Abilityblue]，则能够恢复 {HealthEssence}[hp/]，驱散所有负面状态效果并失去 {charges} 个 [abilityblue][essencecharge/]精华充能[/Abilityblue]。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >CONVERT_HERETIC</Data></Cell><Cell><Data
@@ -1113,7 +1113,7 @@
             ss:Type="String"
           >转化异教徒</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="150"><Cell><Data
             ss:Type="String"
           >CONVERT_HERETIC</Data></Cell><Cell><Data
@@ -1126,7 +1126,7 @@
             ss:Type="String"
           >释放埃斯特克的灵魂占据一个敌方单位。目标敌方非无意识和非机械单位有 {Strength}[strengthentropy/] 力量几率叛变并获得 [abilityblue]埃斯特克控制[/abilityblue]，效果持续至战斗结束。如果失败，该单位会被[abilityred]晕眩[/abilityred]。[br/][br/]如果拥有[abilityblue]埃斯特克控制[/abilityblue]的单位死亡，埃斯特克的灵魂将会逃走并有 {StrengthJump}[strengthentropy/] 力量几率传播至 {range} 个单元格范围内的另一个可视敌方单位体内。 </Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >CONVERT_HERETIC</Data></Cell><Cell><Data
@@ -1137,7 +1137,7 @@
             ss:Type="String"
           >埃斯特克控制</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="135"><Cell><Data
             ss:Type="String"
           >CONVERT_HERETIC</Data></Cell><Cell><Data
@@ -1150,7 +1150,7 @@
             ss:Type="String"
           >一个埃斯特克的灵魂正在控制该单位。该单位死亡时，体内的埃斯特克灵魂将会逃走并试图控制另一个单位。埃斯特克灵魂有 {StrengthJump}[strengthentropy/] 力量几率传播至 {range} 个单元格范围内的非无意识和非机械敌方单位体内，使其叛变并获得[abilityblue]埃斯特克控制[/abilityblue]，效果持续到战斗结束。如果失败，该敌方单位将会被[abilityred]晕眩[/abilityred]。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="48"><Cell><Data
             ss:Type="String"
           >CONVERT_HERETIC</Data></Cell><Cell><Data
@@ -1163,7 +1163,7 @@
             ss:Type="String"
           >一个埃斯特克的灵魂正在控制该单位。灵魂变得虚弱，当该单位死亡时，灵魂将不会尝试控制另一个单位。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >ANCESTRAL_SMITE</Data></Cell><Cell><Data
@@ -1174,7 +1174,7 @@
             ss:Type="String"
           >先祖惩戒</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
           >ANCESTRAL_SMITE</Data></Cell><Cell><Data
@@ -1186,7 +1186,7 @@
             ss:Type="String"
           >制造一阵猛烈的纯净精华弹幕撕裂敌人。{range} 个受影响单元格范围内所有敌方单位受到 {damage}[damageentropy/] 伤害，失去 {morale}[happiness/] 并有 {strength}[strengthentropy/] 力量几率获得[abilityred]混沌衰败[/abilityred]。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >BLESSING_OF_THE_ESTEQ</Data></Cell><Cell><Data
@@ -1233,7 +1233,7 @@
             ss:Type="String"
           >在世界地图上，目标敌方军队受到其当前 [hp/] {damage}% 的伤害且所有单位获得 -{EntropicRes}[defenseentropy/]，持续 {turn}[turn/]。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
             ss:Type="String"
           >CURSE_OF_THE_ESTEQ</Data></Cell><Cell><Data
@@ -1245,7 +1245,7 @@
             ss:Type="String"
           >我们成功诅咒了敌方军队！他们受到了伤害并且变弱了。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >HAUNT_COLONY</Data></Cell><Cell><Data
@@ -1256,7 +1256,7 @@
             ss:Type="String"
           >纠缠殖民地</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
             ss:Type="String"
           >HAUNT_COLONY</Data></Cell><Cell><Data
@@ -1268,7 +1268,7 @@
             ss:Type="String"
           >目标敌方殖民内的所有 [population/] 在其占领的资源槽位中产出 {resourceincomereduction} 的收益 ，并且殖民地遭受 -{Unhappiness}[anger/]，持续 {turns}[turn/]。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="46.5"><Cell><Data
             ss:Type="String"
           >HAUNT_COLONY</Data></Cell><Cell><Data
@@ -1280,7 +1280,7 @@
             ss:Type="String"
           >埃斯特克的灵魂成功纠缠住了敌方殖民地。敌方移住民的收益减少，幸福值也受到了负面影响。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
             ss:Type="String"
           >HAUNT_COLONY</Data></Cell><Cell><Data
@@ -1292,7 +1292,7 @@
             ss:Type="String"
           >埃斯特克的灵魂被赶走了，未能成功纠缠住敌方殖民地，但这次尝试造成了殖民地居民的不安。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >CONVERSION_CULT_INFILTRATION</Data></Cell><Cell><Data
@@ -1300,10 +1300,10 @@
           >NAME</Data></Cell><Cell ss:StyleID="Default"><Data
             ss:Type="String"
           >Conversion Cult Infiltration</Data></Cell><Cell
-          ss:StyleID="s68"
+          ss:StyleID="s69"
         ><Data ss:Type="String">转化教派渗透</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >CONVERSION_CULT_INFILTRATION</Data></Cell><Cell><Data
@@ -1311,7 +1311,7 @@
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
           >Send in Siphon Priests to attempt to persuade enemy colonists to switch allegiance, before converting them into energy. [br/][br/]Target enemy colony has a {chance}% chance to lose a colonist every [turn/], for {turns}[turn/]. For each colonist lost this way, the caster gains {energy}[energy/].</Data></Cell><Cell
-          ss:StyleID="s68"
+          ss:StyleID="s69"
         ><Data
             ss:Type="String"
           >派遣虹吸牧师试图说服敌方移住民叛变，然后将他们转化成能量。[br/][br/]目标敌方殖民地每 [turn/] 有 {chance}% 几率失去一个移住民，持续 {turns}[turn/]。每失去一个移住民，施法者获得 {energy}[energy/]。</Data></Cell></Row><Row
@@ -1375,10 +1375,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Rally your forces in a crusade against the wickedness of machine intelligence.[br/][br/]Against Mechanical and Integrated units, all friendly units gain +{Damage}% damage and have a {chance}[strengthentropy/] strength chance to inflict [abilityred]Entropic Decay[/abilityred].</Data></Cell><Cell
+          >Rally your forces in a crusade against the wickedness of machine intelligence.[br/][br/]Against Mechanical and Integrated units, all friendly units gain +{Damage}% damage and have a {chance}[strengthentropy/] strength chance ({RepeatingChance}[StrengthEntropy/] for repeating attacks) to inflict [abilityred]Entropic Decay[/abilityred].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >集结一支远征军部队，向邪恶的智能机器宣战。[br/][br/]对抗机械和融合单位时，所有友方单位获得 +{Damage}% 伤害，并有 {chance}[strengthentropy/] 力量几率施加[abilityred]混沌衰败[/abilityred]。</Data></Cell></Row><Row
+          >集结一支远征军部队，向邪恶的智能机器宣战。[br/][br/]对抗机械和融合单位时，所有友方单位获得 +{Damage}% 伤害，并有 {chance}[strengthentropy/] 力量几率（多次攻击有 {RepeatingChance}[StrengthEntropy/] 几率）施加[abilityred]混沌衰败[/abilityred]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">DIVINE_LEGION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1436,7 +1436,7 @@
             ss:Type="String"
           >将选中的沉睡了千年的埃斯特克灵魂释放出来，使他们在你的殖民地中再生，让人民沉浸在享受之中。[br/][br/]所有殖民地获得 +{happiness}[happiness/]，移住民获取阈值减少 {colonistThreshold}%。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s66"><Data
+      ><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1444,199 +1444,199 @@
             ss:Type="String"
           >Mind Transference</Data></Cell><Cell><Data
             ss:Type="String"
-          >灵魂转移</Data></Cell><Cell ss:Index="7" ss:StyleID="s66" /><Cell
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /></Row><Row
+          >灵魂转移</Data></Cell><Cell ss:Index="7" ss:StyleID="s67" /><Cell
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
-      ><Cell ss:StyleID="s66"><Data
+      ><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
-          >VICTORY_CONDITION</Data></Cell><Cell ss:StyleID="s66"><Data
+          >VICTORY_CONDITION</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Release the ancient Es'Teq minds and commence the Final Rapture.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >释放古老的埃斯特克灵魂，开启“终极狂欢”。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
+          ss:StyleID="s67"
         ><Data
             ss:Type="String"
           >Final Rapture is the name of the Heritor Doomsday weapon.</Data></Cell><Cell
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /></Row><Row ss:AutoFitHeight="0"><Cell
-          ss:StyleID="s66"
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s67"
         ><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
-          >LEVEL_1_NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+          >LEVEL_1_NAME</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Mind Transference Level 1</Data></Cell><Cell><Data
             ss:Type="String"
           >灵魂转移等级 1</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="47.25"
-      ><Cell ss:StyleID="s66"><Data
+      ><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
-          >LEVEL_1_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+          >LEVEL_1_DESCRIPTION</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >{Chance}% chance to transform {popAmount} into a Drained each [turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >每 [turn/] 回合有 {Chance}% 几率将 {popAmount} 转化为枯萎者。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s66"><Data
+      ><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
-          >LEVEL_2_NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+          >LEVEL_2_NAME</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Mind Transference Level 2</Data></Cell><Cell><Data
             ss:Type="String"
           >灵魂转移等级 2</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="106.5"
-      ><Cell ss:StyleID="s66"><Data
+      ><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
-          >LEVEL_2_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+          >LEVEL_2_DESCRIPTION</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >{Chance}% chance to transform {popAmount} into a Drained each [turn/].[br/]In combat, a random non-Heritor unit has a {Strength}[strengthentropy/] strength chance to be [abilityred]Stunned[/abilityred] each [turn/]. On failure, they gain [abilityred]Entropic Decay[/abilityred] instead.[br/</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >每 [turn/] 回合有 {Chance}% 几率将 {popAmount} 转化为枯萎者。[br/]在战斗中，每 [turn/] 回合，一个随机的非继承者单位有 {Strength}[strengthentropy/] 力量几率陷入[abilityred]晕眩[/abilityred]。如果失败，则获得[abilityred]混沌衰败[/abilityred]。[br/</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s66"><Data
+      ><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
-          >LEVEL_3_NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+          >LEVEL_3_NAME</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Mind Transference Level 3</Data></Cell><Cell><Data
             ss:Type="String"
           >灵魂转移等级 3</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="120"
-      ><Cell ss:StyleID="s66"><Data
+      ><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
-          >LEVEL_3_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+          >LEVEL_3_DESCRIPTION</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >{Chance}% chance to transform {popAmount} into a Drained each [turn/].[br/]In combat, a random non-Heritor unit has a {Strength}[strengthentropy/] strength chance to be [abilityred]Stunned[/abilityred] each [turn/]. On failure, they gain [abilityred]Entropic Decay[/abilityred] instead.[br/]Friendly units gain full [abilityblue][essencecharge/]Essence Charges[/abilityblue] at the start of combat.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >每 [turn/] 回合有 {Chance}% 几率将 {popAmount} 转化为枯萎者。[br/]在战斗中，每 [turn/] 回合，一个随机的非继承者单位有 {Strength}[strengthentropy/] 力量几率陷入[abilityred]晕眩[/abilityred]。如果失败，则获得[abilityred]混沌衰败[/abilityred]。[br/]友方单位在战斗开始时获得全部 [abilityblue][essencecharge/]精华充能[/abilityblue]。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s66"><Data
+      ><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >MIND_REBIRTH</Data></Cell><Cell><Data
             ss:Type="String"
-          >NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+          >NAME</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Mind Rebirth</Data></Cell><Cell><Data
             ss:Type="String"
-          >灵魂重生</Data></Cell><Cell ss:Index="7" ss:StyleID="s66" /><Cell
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /></Row><Row
+          >灵魂重生</Data></Cell><Cell ss:Index="7" ss:StyleID="s67" /><Cell
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="75.75"
-      ><Cell ss:StyleID="s66"><Data
+      ><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >MIND_REBIRTH</Data></Cell><Cell><Data
             ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Unleash recently freed Es'Teq minds on a non-Heritor enemy colony, infiltrating the minds of their colonists and attempting to take over their physical form through Es'Teq reincarnation for {INT_duration}[turn/]. This ability becomes stronger the more Essence Spires you build.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >向一个非继承者敌人殖民地释放刚刚获得自由的埃斯特克灵魂，渗透敌方移住民的思想，并通过埃斯特克再生尝试控制移住民的肉体，持续 {INT_duration}[turn/]。建造的精华尖塔数量越多，此技能就越强大。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="46.5"
-      ><Cell ss:StyleID="s66"><Data
+      ><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >MIND_REBIRTH</Data></Cell><Cell><Data
             ss:Type="String"
-          >CASTER_SUCCESS</Data></Cell><Cell ss:StyleID="s66"><Data
+          >CASTER_SUCCESS</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >We were successful in penetrating the enemy colony's defenses! Our Es'Teq minds are now infiltrating the minds of their colonists.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >我们成功渗透了敌方殖民地的防御！我们的埃斯特克灵魂正在渗透敌方移住民的思想。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="47.25"
-      ><Cell ss:StyleID="s66"><Data
+      ><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >MIND_REBIRTH</Data></Cell><Cell><Data
             ss:Type="String"
-          >CASTER_FAILURE</Data></Cell><Cell ss:StyleID="s66"><Data
+          >CASTER_FAILURE</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >We were unsuccesful in penetrating the enemy colony's defenses. Our Es'Teq minds have been purged by the enemy, and are now lost forever.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >我们未能成功渗透敌方殖民地的防御。我们的埃斯特克灵魂被敌人消灭了，永远也无法再生。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
-      ><Cell ss:StyleID="s66"><Data
+      ><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >MIND_REBIRTH</Data></Cell><Cell><Data
             ss:Type="String"
-          >TARGET_SUCCESS</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TARGET_SUCCESS</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >The enemy has launched Es'Teq minds to infiltrate our colonists! We will need to purge them from our colony and secure our defenses.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >敌人释放了埃斯特克灵魂想要渗透我们的移住民！我们需要将灵魂从殖民地中清除，守住我们的防线。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
-      ><Cell ss:StyleID="s66"><Data
+      ><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >MIND_REBIRTH</Data></Cell><Cell><Data
             ss:Type="String"
-          >TARGET_FAILURE</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TARGET_FAILURE</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Our defenses have successfully averted an infiltration of Es'Teq minds launched against our colony.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >我们的防御成功阻止了埃斯特克的灵魂入侵我们的殖民地。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s66"><Data
+      ><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >ESSENCE_SPIRE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1644,54 +1644,54 @@
             ss:Type="String"
           >Essence Spire</Data></Cell><Cell><Data
             ss:Type="String"
-          >精华尖塔</Data></Cell><Cell ss:Index="7" ss:StyleID="s66" /><Cell
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /></Row><Row
+          >精华尖塔</Data></Cell><Cell ss:Index="7" ss:StyleID="s67" /><Cell
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="63.75"
-      ><Cell ss:StyleID="s66"><Data
+      ><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >ESSENCE_SPIRE</Data></Cell><Cell><Data
             ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >The Essence Spire unlocks the Mind Rebirth Doomsday Weapon. Each additional Essence Spire that you build increases the level of the weapon, making it stronger.[br/][br/]Only one Essence Spire may be built per colony.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >精华尖塔可以解锁末日武器“灵魂重生”。每额外建造一个精华尖塔，该武器就会升级并变得更加强大。[br/][br/]每个殖民地只能建造一个精华尖塔。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s66"><Data
+      ><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >FINAL_RAPTURE</Data></Cell><Cell><Data
             ss:Type="String"
-          >NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+          >NAME</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Final Rapture</Data></Cell><Cell><Data
             ss:Type="String"
-          >终极狂欢</Data></Cell><Cell ss:Index="7" ss:StyleID="s66" /><Cell
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /></Row><Row
+          >终极狂欢</Data></Cell><Cell ss:Index="7" ss:StyleID="s67" /><Cell
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
-      ><Cell ss:StyleID="s66"><Data
+      ><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >FINAL_RAPTURE</Data></Cell><Cell><Data
             ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >The final step in the Heritor plan starts the Mind Transference across the whole planet, starting the Final Rapture.[br/][br/]Requires Mind Rebirth Level 3.[br/]</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >继承者计划的最后一步就是在整个星球上开始灵魂转移，开启“终极狂欢”。[br/][br/]需要“灵魂重生”达到等级 3。[br/]</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
-      ><Cell ss:StyleID="s66"><Data
+      ><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >FINAL_RAPTURE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1703,8 +1703,8 @@
             ss:Type="String"
           >我们的灵魂转移已经全力启动了！埃斯特克的灵魂自由地在这个星球上游荡，渗透并支配着我们敌人的思想。我们统治这个星球并取得胜利只是时间问题！</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">DOOMSDAY_LOCAL</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1714,8 +1714,8 @@
             ss:Type="String"
           >一名玩家开启了“终极狂欢”！</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">VICTORY_CONDITION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1725,8 +1725,8 @@
             ss:Type="String"
           >胜利条件：终极狂欢</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">DOOMSDAY_STRUCTURE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1736,8 +1736,8 @@
             ss:Type="String"
           >我们的一座精华尖塔已被夺走！</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">DOOMSDAY_STRUCTURE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1747,8 +1747,8 @@
             ss:Type="String"
           >你失去了一座精华尖塔！</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">DOOMSDAY_STRUCTURE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1758,8 +1758,8 @@
             ss:Type="String"
           >{STR_Player}失去了一座精华尖塔！</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">DOOMSDAY_STRUCTURE</Data></Cell><Cell><Data
@@ -1771,8 +1771,8 @@
             ss:Type="String"
           >你失去了一座精华尖塔，我们为埃斯特克的兄弟姐妹开启“终极狂欢”的尝试被阻止了！</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">DOOMSDAY_STRUCTURE</Data></Cell><Cell><Data
@@ -1784,34 +1784,34 @@
             ss:Type="String"
           >{STR_Player}失去了一座精华尖塔。他们开启“终极狂欢”的计划也被挫败了！</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45.75"
       ><Cell><Data ss:Type="String">DOOMSDAY_STRUCTURE</Data></Cell><Cell><Data
             ss:Type="String"
-          >STRUCTURE_UPGRADE_BUILT_I</Data></Cell><Cell ss:StyleID="s66"><Data
+          >STRUCTURE_UPGRADE_BUILT_I</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >By building an Essence Spire, {playerName} now has access to their Doomsday Weapon, Final Rapture. It is weak now, but will become more powerful as more Essence Spires are constructed.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >{playerName}通过建造精华尖塔，现在可以使用末日武器“终极狂欢”了。虽然目前武器威力尚弱，但会随精华尖塔数量的增多而变强。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
       ><Cell><Data ss:Type="String">DOOMSDAY_STRUCTURE</Data></Cell><Cell><Data
             ss:Type="String"
-          >STRUCTURE_UPGRADE_BUILT_II</Data></Cell><Cell ss:StyleID="s66"><Data
+          >STRUCTURE_UPGRADE_BUILT_II</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >By building a second Essence Spire, {playerName} has strengthened their Doomsday Weapon, Final Rapture. You should plan raids to destroy these structures before they become too powerful.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >{playerName}通过建造第二座精华尖塔强化了“终极狂欢”末日武器。你应当在这些建筑变得过于强大之前策划突袭并将其摧毁。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
       ><Cell><Data ss:Type="String">DOOMSDAY_STRUCTURE</Data></Cell><Cell><Data
@@ -1823,8 +1823,8 @@
             ss:Type="String"
           >{playerName}通过建造最后一座精华尖塔使“终极狂欢”末日武器达到了最强的威力。该玩家马上就可以完全释放其力量来获得游戏胜利了。发动袭击就趁现在！</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">DOOMSDAY_STRUCTURE</Data></Cell><Cell><Data
@@ -1836,25 +1836,25 @@
             ss:Type="String"
           >一座精华尖塔已被夺走！如果精华尖塔被摧毁，末日计时器将会停止。如果你重新夺回精华尖塔，计时器将会恢复。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
       ><Cell><Data ss:Type="String">DOOMSDAY_STRUCTURE</Data></Cell><Cell><Data
             ss:Type="String"
-          >OPPONENT_CAPTURED</Data></Cell><Cell ss:StyleID="s66"><Data
+          >OPPONENT_CAPTURED</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >An Essence Spire has been captured! If it is destroyed, the Doomsday Timer will be canceled. If {playerName} recaptures the Spire, they will be able to resume the countdown.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >一座精华尖塔已被夺走！如果精华尖塔被摧毁，末日计时器将会停止。如果{playerName}重新夺回精华尖塔，计时器将会恢复。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">DOOMSDAY</Data></Cell><Cell
-          ss:StyleID="s66"
+          ss:StyleID="s67"
         ><Data ss:Type="String">TIMER_PAUSED</Data></Cell><Cell><Data
             ss:Type="String"
           >The Doomsday Timer has been paused! You must reclaim the lost Essence Spire, or you will lose your chance at unleashing Final Rapture upon your enemies!</Data></Cell><Cell
@@ -1862,8 +1862,8 @@
             ss:Type="String"
           >末日武器计时器已暂停！你需要夺回失去的精华尖塔，否则你将失去向敌人释放“终极狂欢”的机会！</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">DOOMSDAY</Data></Cell><Cell><Data
@@ -1875,34 +1875,34 @@
             ss:Type="String"
           >精华尖塔的丢失致使“终极狂欢”被取消，末日武器计时器也停止了运转。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">DOOMSDAY</Data></Cell><Cell><Data
             ss:Type="String"
-          >LOCAL_LOST</Data></Cell><Cell ss:StyleID="s66"><Data
+          >LOCAL_LOST</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >The loss of an Essence Spire has weakened our Final Rapture and your Doomsday operations have been canceled.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >精华尖塔的丢失削弱了“终极狂欢”的威力，你的末日行动遭到中止。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="75"
       ><Cell><Data ss:Type="String">DOOMSDAY</Data></Cell><Cell><Data
             ss:Type="String"
-          >OVERRIDE</Data></Cell><Cell ss:StyleID="s66"><Data
+          >OVERRIDE</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Our enemies have activated their Doomsday Weapon! The Final Rapture is occuring everywhere across the planet, and your own Doomsday Weapon has been wiped out by the cataclysm. You have {numTurns} to destroy one of their Essence Spires or they will win the game.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >敌人激活了他们的末日武器，“终极狂欢”已经遍布全球。你的末日武器已在这场浩劫中被摧毁。你需要在 {numTurns} 内摧毁敌人的一座精华尖塔，否则他们将获得游戏胜利。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">DOOMSDAY</Data></Cell><Cell><Data
@@ -1914,47 +1914,47 @@
             ss:Type="String"
           >“终极狂欢”已激活，只要不失去任何精华尖塔，你将在 {numTurns} 后获胜。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">DOOMSDAY</Data></Cell><Cell><Data
             ss:Type="String"
-          >OPPONENT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >OPPONENT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >The Final Rapture is ongoing, and {playerName} will win in {numTurns} unless you can destroy one of their Essence Spires.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >“终极狂欢”已激活，{playerName}将在 {numTurns} 后获胜，除非你能在此之前摧毁其一座精华尖塔。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
       ><Cell><Data ss:Type="String">DOOMSDAY</Data></Cell><Cell><Data
             ss:Type="String"
-          >FINISH_PRIMING</Data></Cell><Cell ss:StyleID="s66"><Data
+          >FINISH_PRIMING</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >{playerName} is priming their Final Rapture Doomsday Weapon. If they are allowed to finish, your own Doomsday Weapon will be wiped out, and {playerName} will be but one step away from total victory!</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >{playerName}正在准备释放“终极狂欢”末日武器。如果成功释放，你的末日武器将被摧毁，{playerName}距离胜利也将仅剩一步之遥！</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
       ><Cell><Data ss:Type="String">DOOMSDAY</Data></Cell><Cell><Data
             ss:Type="String"
-          >VICTORY_TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >VICTORY_TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >You have succesfully completed the Final Rapture.[br/]The minds of all ancient Es'Teq brothers and sisters have been set free and reincarnated in the vessels unwillingly provided by our enemies.</Data></Cell><Cell
+          >You have successfully completed the Final Rapture.[br/]The minds of all ancient Es'Teq brothers and sisters have been set free and reincarnated in the vessels unwillingly provided by our enemies.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >你成功完成了“终极狂欢”。[br/]所有埃斯特克兄弟姐妹们的古代灵魂获得了自由，在我们敌人的身体中获得了再生。</Data></Cell><Cell
+          >你成功完成了“终极狂欢”。[br/]所有埃斯特克兄弟姐妹们的古代灵魂获得了自由，并在我们敌人的身体中获得了再生。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s66"
-        /><Cell ss:StyleID="s66" /><Cell ss:StyleID="s66" /></Row><Row
+          ss:StyleID="s67"
+        /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">CURSE_OF_THE_ESTEQ</Data></Cell><Cell><Data
             ss:Type="String"
@@ -2131,7 +2131,7 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target unit gains {EntropyStackAmount} stack of [abilityred]Energy Drain[/abilityred], and the caster gains {buffstacks} stacks of [abilityblue][essencecharge/]Essence Charge[/abilityblue].</Data></Cell><Cell
+          >Target unit gains {EntropyStackAmount} stacks of [abilityred]Energy Drain[/abilityred], and the caster gains {buffstacks} stacks of [abilityblue][essencecharge/]Essence Charge[/abilityblue].</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >目标单位获得 {EntropyStackAmount} 层[abilityred]能量干涸[/abilityred]，施法者获得 {buffstacks} 层 [abilityblue][essencecharge/]精华充能[/abilityblue]。</Data></Cell></Row><Row
@@ -2787,20 +2787,7 @@
           ss:Index="7"
         ><Data
             ss:Type="String"
-          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
-      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row></Table><WorksheetOptions
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
     ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
         >600</HorizontalResolution><VerticalResolution

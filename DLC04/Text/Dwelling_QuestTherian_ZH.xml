@@ -1,0 +1,1385 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author
+    >GameScribes4</Author><LastAuthor>GameScribes4</LastAuthor><Created
+    >2020-04-11T19:11:21Z</Created><LastSaved
+    >2020-01-29T10:35:27Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>14565</WindowHeight><WindowWidth>28800</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:CharSet="1"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /></Style><Style ss:ID="s64"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /><Font
+        ss:FontName="Calibri"
+        x:CharSet="1"
+        x:Family="Swiss"
+        ss:Size="11"
+      /></Style><Style ss:ID="s65"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /><Interior /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="225.75" /><Column
+        ss:StyleID="s62"
+        ss:Width="66.75"
+      /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="254.25"
+        ss:Span="1"
+      /><Column
+        ss:Index="5"
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="291"
+      /><Column ss:StyleID="s62" ss:Width="120.75" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="327.75"
+      /><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >DWELLING_QUESTTHERIAN</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DEFAULT_RESPONSE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You take and take, but you're not willing to help us out. We'll fend for ourselves, then.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你不断索取，却又不愿意帮助我们。既然这样，我们只能自己照顾自己了。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Default response to failed quests.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We Are No Trophies</Data></Cell><Cell><Data
+            ss:Type="String"
+          >我们不是战利品</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">KILL_UNITS_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Stop the Hunters</Data></Cell><Cell><Data
+            ss:Type="String"
+          >阻止猎人</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ever been on a hunting trip? Sounds like fun times and merriment, right? Well, it’s not when you’re the ones in the crosshairs! These hunters may think they’re civilized, but their barbaric sport says otherwise. Please stop them!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你参加过狩猎旅行吗？听起来很有趣，不是吗？然而当你成为了瞄准镜下的目标时，可就不会这样想了！这些猎人或许觉得他们是文明人，但他们野蛮的娱乐活动却没有丝毫文明人该有的样子。请阻止他们！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thank you, hopefully now these people will think twice about hunting our pack for sport.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >谢谢你，希望这些家伙以后在把猎杀我们族类当成娱乐活动之前会有所顾忌。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You won’t even help us while we’re being hunted like animals? Would you like to see our heads on a mantelpiece as well? You won’t!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们像动物一样被人捕杀，这样你都不愿伸出援手？难道你也想看见我们的脑袋被挂在壁炉上吗？你不会的！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Going Feral </Data></Cell><Cell><Data
+            ss:Type="String"
+          >陷入狂暴 </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >KILL_UNITS_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Put down the feral Therians</Data></Cell><Cell><Data
+            ss:Type="String"
+          >消灭狂暴的兽人</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We think like humans do, but our instincts are keener. Sometimes these sensations can be overwhelming and disorienting. Some of us give in to these sensations, they become feral and won’t listen to reason. They even hurt their own pack mates! We’ve cast them out, but they keep attacking us. It pains us to see them like this. Please, free them from their bloodlust.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的思考方式和人类一样，但我们的本能更加敏锐。有时这些感受会过于凶猛而使人不知所措。我们的一些同胞屈服于这些感受，变得狂暴而失去了理性。他们甚至会伤害自己的同伴！我们把他们赶了出去，但他们却不断攻击我们。看到他们变成这样，我们十分痛苦。请把他们从嗜血的杀戮欲望中解救出来。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >It’s sad to see them go, but it was necessary. Thank you.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >看着他们离开很难过，但这是必要之举。谢谢你。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our feral brothers and sisters are free to attack their comrades while you only watch from a distance? Are you really so heartless?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们陷入狂暴的兄弟姐妹正在攻击自己的同胞，而你却在一旁袖手旁观？你真的如此残酷无情吗？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Drinking Problem</Data></Cell><Cell><Data
+            ss:Type="String"
+          >饮水问题</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >KILL_UNITS_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Remove the aquatic threat</Data></Cell><Cell><Data
+            ss:Type="String"
+          >解决水中的威胁</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Call it a quirk, but we Therians like our water fresh. Getting fresh water does come with some risks, though... Recently some of our pack were attacked when they went to get the stuff. Those who survived say there’s predators, sea-monsters, waiting underneath the surface and pulling us in! Help!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们兽人喜欢喝新鲜的水，算是一种怪癖吧。不过获取新鲜水源的过程确实会有一些风险……最近，我们的同胞在收集新鲜水时遭到了袭击。据幸存者称，水下面潜伏着各种掠食者和水怪，想要把我们拖入水中！帮帮我们吧！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The coast is clear again! Hurray!</Data></Cell><Cell><Data
+            ss:Type="String"
+          >岸边又恢复了宁静！太好了！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Without water, what are we to do? We’ll have to go back to taking it from others. So stale.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >没有了水，我们该怎么办？看来只能再次抢别人的了。那些水一点也不新鲜。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Identity Distortions</Data></Cell><Cell><Data
+            ss:Type="String"
+          >失真的身份</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >DO NOT LOCALIZE</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">KILL_UNITS_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Destroy the corrupting influencers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >消灭腐败的影响者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >DO NOT LOCALIZE</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >For decades, our kindred were victimized by perverse fancies. Now a group of dark entities try to persuade our young to join in deplorable debauchery and nonsense. Please. We are a kind welcoming pack, but this sort of exploitation must be put down.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >数十年来, 我们的亲属被有悖常理的幻想迫害. 现在有一群人试图游说我们年轻的一代加入他们胡扯的，糟糕的，道德败坏的黑暗组织. 拜托，我们是一群热情好客的人, 但是这种剥削必须停止.</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">DO NOT LOCALIZE</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Head-scratches all around! We will remember how {STR_LeaderName} sided with us, and ignored shameful stereotypes of the past. Thank you for eliminating this menace.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >到处乱挠! 我们会记住 {STR_LeaderName} 如何支持我们, 并忽视过去可耻的成见. 感谢你歼灭这次威胁.</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">DO NOT LOCALIZE</Data></Cell><Cell
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >KILL_UNITS_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fetch Ball</Data></Cell><Cell><Data
+            ss:Type="String"
+          >取球</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >DO NOT LOCALIZE</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">KILL_UNITS_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Subdue the killer Ball</Data></Cell><Cell><Data
+            ss:Type="String"
+          >制伏杀手球</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >DO NOT LOCALIZE</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Oh No! Our game was interrupted! We were playing one of our favorite games we call Ball. It involves throwing Ball and retrieving Ball. Suddenly, Ball levitated, shot us with angry energy weapons and flew off. Our attempts to fetch it have resulted in death. Please. Could you bring back our Ball, preferably in a less murderous and floating form?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >哦，不! 我们的游戏被打断了! 我们正在玩我们最喜欢的游戏称作球. 它涉及扔球和取回球. 突然, 球悬浮起来, 用愤怒能量武器向我们射击然后飞走了. 我们尝试取回它结果导致死亡. 拜托. 你能帮我们把球拿回来吗, 最好能少些杀气和悬浮?</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">DO NOT LOCALIZE</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tails wag! Today’s a great day! The Ball of our sport has returned, and is no longer murderous!  All thanks to you! Clever {STR_LeaderName}! Now let the game continue! Throw Ball!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >摇晃着尾巴! 今天真是美好的一天! 我们的球又回来了, 而且也没有杀气了! 这全都要感谢你! 机智的 {STR_LeaderName}! 现在让游戏继续! 扔球!</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">DO NOT LOCALIZE</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:StyleID="s64"
+      ><Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s62"><Data
+            ss:Type="String"
+          >Health Scare</Data></Cell><Cell><Data
+            ss:Type="String"
+          >健康恐慌</Data></Cell><Cell ss:Index="7" ss:StyleID="s62"><Data
+            ss:Type="String"
+          >DO NOT LOCALIZE</Data></Cell><Cell ss:StyleID="s62" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:StyleID="s64"
+      ><Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell ss:StyleID="s62"><Data
+            ss:Type="String"
+          >Destroy the Xenoplague Carriers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >消灭异星疫病携带者</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s62"
+        ><Data ss:Type="String">DO NOT LOCALIZE</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+        ss:StyleID="s64"
+      ><Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s62"><Data
+            ss:Type="String"
+          >We’ve had our shots and we take grooming very seriously, but there has been an outbreak near us that threatens all our lives. This plague moves of its own accord and hunts us like a predator. Please. Help us! Destroy the carriers of this plague.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们打过针了并且我们很重视梳理，但我们附近爆发了疫情，威胁着我们的生命。这场疫病自发的行动，像像捕食者一样猎杀我们。拜托，帮帮我们！消灭异星疫病携带者。[br/]</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s62"
+        ><Data ss:Type="String">DO NOT LOCALIZE</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+        ss:StyleID="s64"
+      ><Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell ss:StyleID="s62"><Data
+            ss:Type="String"
+          >Paws together! We no longer fear the contagion, thanks to you. We are a community once again. Let the grooming resume. Clever {STR_LeaderName}, we recognize you as a friend to the pack!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一起击掌! 我们不再担心传染, 感谢你. 我们又是一个团体了. 让我们恢复梳理. 机智的 {STR_LeaderName}, 我们认可你当我们的朋友!</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s62"
+        ><Data ss:Type="String">DO NOT LOCALIZE</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Special Tastes</Data></Cell><Cell><Data
+            ss:Type="String"
+          >特殊口味</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Complete Special Production Project</Data></Cell><Cell><Data
+            ss:Type="String"
+          >完成特殊生产项目</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="135"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >In one of our recent hauls we found a box of special food. Something called “Bark Bites”. We don’t know what the ingredients are exactly but it is… addictive. We can’t get enough. Our pack is divided, crazy about it. Just the other day a brawl broke out when someone heard a can opener. If we don’t do something, mutiny is at hand. We need more Bark Bites. Fast. Please, can you help us?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们在最近的一次旅途中发现了一箱很特别的食物，好像是个什么叫做“皇家”之类的东西。我们不知道这玩意的确切成分是什么，但它很令人……上瘾。我们怎么吃都觉得不够。我们的族群为此产生了不和，很多人为之疯狂。就在前几天，有人听到了开罐器的声音，随即就发生了一场斗殴。如果我们再不做点什么，暴动将不可避免。我们需要更多的“皇家”，越快越好。请问你能帮助我们吗？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thank you, {STR_LeaderName}, with this stockpile the in-fighting will surely stop… for a while.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >感谢你，{STR_LeaderName}，有了这些储备，内斗肯定会停止的……至少会消停一段时间。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Canned food for the Therians</Data></Cell><Cell><Data
+            ss:Type="String"
+          >为兽人准备的罐头食品</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Therians seem to have a… particular taste in delicacies. Don’t think about the ingredients, just create as much of it as you can.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >兽人对美食似乎有某种……特别的品位。无需考虑配料，只管尽可能地多做一些就行了。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Explosive Rations</Data></Cell><Cell><Data
+            ss:Type="String"
+          >爆炸口粮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Complete Special Production Project</Data></Cell><Cell><Data
+            ss:Type="String"
+          >完成特殊生产项目</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sometimes you have to stay close to nature and be creative with your weaponry. We have our Bio Acorns, but our chemists stumbled upon a formula for something we call… “pomegrenades”. We can’t produce them right now because our pack keeps eating the fruits. Can you help us? We’ll make it worth your while!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有时，你必须与大自然保持紧密的联系，并且在武器上发挥创造力。虽然我们已经有了生物橡果手雷，但我们的炼金术士偶然发现了一种新的配方，并生产出了一种我们称之为“石榴手雷”的东西。然而我们现在无法投入生产，因为我们一直在食用这种水果。你能帮帮我们吗？我们一定会报答你的！</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Bio Acorn refers to a Therian Unit ability.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Not only delicious, but also highly flammable and explosive! This is great stuff!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >不仅好吃，而且高度易燃易爆！这东西真棒！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Edible weaponry for the Therians</Data></Cell><Cell><Data
+            ss:Type="String"
+          >兽人的可食用武器</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Therians require a new type of explosive for their colony, originating from fruit. Quite inspiring, actually.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >兽人殖民地需要一种由水果制成的新型炸药。说实话，这东西还是很有启发意义的。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Frag Bombs and Boomsticks</Data></Cell><Cell><Data
+            ss:Type="String"
+          >破片炸弹和“嘭嘭嘭”</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell><Cell
+        ><Data ss:Type="String">SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Complete Special Production Project</Data></Cell><Cell><Data
+            ss:Type="String"
+          >完成特殊生产项目</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >To survive we need food and shelter, to get food and shelter we need to fight for it, to fight for it we need weapons. Get it? We need cannons, guns, and other things that go “boom” in a bigger, better way than we have now. We’re working on it, but we’re on a shortage of ingredients that make the biggest “boom”. You seem to have plenty. Help us? Pretty please?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >为了生存，我们需要食物和庇护所；为了得到食物和庇护所，我们需要战斗；而为了战斗，我们需要武器。明白了吗？我们需要火炮、枪械和其他能够引发更加剧烈“嘭嘭嘭”的东西。我们正在努力，但我们缺少制造最“嘭嘭嘭”的武器原料。你那里好像有很多，能帮助我们吗？可以吗？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our pack is armed again! Teeth, claws, bombs and booms! Thanks!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的族群又武装起来了！牙齿，爪子，炸弹，还有“嘭嘭嘭”！谢谢！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_03_BUILDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Explosives for the Therians</Data></Cell><Cell><Data
+            ss:Type="String"
+          >为兽人准备的炸药</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_03_BUILDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Therians are producing new weapons and grenades for their colony. They have some unorthodox prerequisites, but we should be able to provide.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >兽人正在为他们的殖民地生产新的武器和手雷。虽然他们的想法有些异类，但我们应该能够提供帮助。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unleashed Technology</Data></Cell><Cell><Data
+            ss:Type="String"
+          >解放的技术</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Complete Special Production Project</Data></Cell><Cell><Data
+            ss:Type="String"
+          >完成特殊生产项目</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >As was told by our ancient leader Deer, we shouldn’t try and further enhance ourselves through genetic science. We need other ways to keep up, and the great Deer said nothing about cybernetic enhancements. We got by so far, but we ran out of resources to make them ourselves. Could you help us? We have the plans right here. Just ignore the paw prints.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正如我们的远古领袖圣鹿所说，我们不应该试图通过基因科学来强化自身。我们需要其他方法来维持自身发展，而伟大的圣鹿并未说过任何关于神经机械之事。目前为止我们一切顺利，但是没有足够的资源来制造。你能帮助我们吗？我们的计划就在这里。请忽略那些爪印。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Visors to see even more clearly, pistons to jump higher, sensors to smell. Granny, what great cybernetics you’ve got! Thank you, {STR_LeaderName}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >护目镜可以让人看得更清楚，活塞可以使你跳得更高，而传感器则可以强化嗅觉。我的姥姥哟，你们的神经机械可真棒！谢谢你，{STR_LeaderName}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You didn't bring us the cybernetics we asked for so kindly. We will make do with what we have… Or maybe we’ll take it from others instead.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你没有带来我们好言相求的神经机械。看来我们只能将就使用我们已经有的了……或者我们可以从其他人手中抢过来一些。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_04_BUILDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cybernetics for the Therians</Data></Cell><Cell><Data
+            ss:Type="String"
+          >为兽人准备的神经机械</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_04_BUILDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >To keep up with evolution without betraying their creed, the Therians need a variety of cybernetic enhancements. Create these for them.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >为了在不违背圣鹿信条的情况下跟上进化的步伐，兽人需要各种各样的神经机械强化装置。为他们制造一些。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Treasure Island</Data></Cell><Cell><Data
+            ss:Type="String"
+          >金银岛</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DESTROY_SPAWNER_BASE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Capture the wildlife water base </Data></Cell><Cell><Data
+            ss:Type="String"
+          >占领野生动物水上基地 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A map! We found a treasure map! We can’t travel over water, but maybe you could help us find it? We’ll share the loot for sure! Quickly, before someone else does!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >地图！我们找到了一张藏宝图！我们不能在水上前行，但也许你能帮我们找到它？我们肯定会与你分享战利品的！快点，我们得赶在别人之前！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell><Cell
+        ><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >So shiny! Check out all this cool stuff. Here, you deserved your share!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >亮晶晶！快看看这些好东西。来，这是你应得的一份！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell><Cell
+        ><Data ss:Type="String">FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >It sounds like others found the treasure before you did. Such a bummer.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >看来有人比你先发现了宝藏，真是扫兴。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Lab Rats</Data></Cell><Cell><Data
+            ss:Type="String"
+          >小白鼠</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DESTROY_SPAWNER_BASE_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Destroy Empire naval base</Data></Cell><Cell><Data
+            ss:Type="String"
+          >摧毁帝国海军基地</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Some of our scouts disappeared. We tracked them down, somewhere off the coast. Their cries haunt us during the night, hurt and terrified. They are kept as prisoners, hurt badly, used as test subjects. Please, save them!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的一些侦察兵失踪了。我们在离海岸不远的地方追踪到了他们，他们痛苦而恐惧的哭喊声久久萦绕在我们的脑海里挥之不散。他们被当成囚犯关押起来，受伤十分严重，还被用作实验对象。请救救他们！</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >DESTROY_SPAWNER_BASE_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our mates are back safe and sound! Thank you so much. Please, accept our offer of gratitude.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的同伴平安回来了！非常感谢，请接受我们的感激。</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >DESTROY_SPAWNER_BASE_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The cries of our companions stopped. Their pain was terrible to hear, but this silence may be even worse than before. Their blood is on your hands as well, {STR_LeaderName}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们同伴的哭喊停止了。他们痛苦的叫喊虽然听上去令人恐惧，但这种寂静可能更糟。他们的死你也有责任，{STR_LeaderName}。</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DESTROY_SPAWNER_BASE_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Marked Territory</Data></Cell><Cell><Data
+            ss:Type="String"
+          >标记出来的领土</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Destroy Hopperhound Nest </Data></Cell><Cell><Data
+            ss:Type="String"
+          >摧毁跳蝗巢穴 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We found strange marks within our territory. Smells, prints. We hear howls and screeches in the night. A rivalling pack is moving closer. We can’t have that, no no. We worked so hard for this shelter.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们在领域内发现了一些奇怪的标记，闻到一些气味，并且还发现了许多爪印。我们经常在夜里听到刺耳的嚎叫声。某个敌对族群正在逼近，我们不能允许这样的事情发生，绝对不能。为了这个庇护所，我们费劲了心思。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data></Cell><Cell
+        ><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We appreciate the camaraderie. Now our pack can live in peace again.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们十分感激你们的友情。现在我们族群又可以平静生活了。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data></Cell><Cell
+        ><Data ss:Type="String">FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You take and take, but you’re not willing to help us defend what’s ours? We’ll fight for ourselves again.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你不断索取，却又不愿意帮助我们保卫领域？看来我们只能再次为自己而战了。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_04</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Waking Earth</Data></Cell><Cell><Data
+            ss:Type="String"
+          >行土走石</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >DO NOT LOCALIZE</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">DESTROY_SPAWNER_BASE_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Destroy Earth Spawner </Data></Cell><Cell><Data
+            ss:Type="String"
+          >摧毁土元素的出生点 </Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >DO NOT LOCALIZE</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_04</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The ground where we bury our business just suddenly burst open and came to life. Once we bury a bone, it should stay buried. Please make the earth stop spewing up our hidden treasures.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们埋藏宝物的土地突然炸裂开来，并且似乎有了生命。我们在埋放每一根骨头时都不希望它们受到打扰。请让土地消停下来，不要再往外喷吐我们埋藏的宝物了。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">DO NOT LOCALIZE</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_04</Data></Cell><Cell
+        ><Data ss:Type="String">COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We send our most avid thanks for your efforts, putting the ground back in the ground. This world is strange, but it’s good to know we have a friend out here.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们对你的努力表示最诚挚的感谢，感谢你让土地又回到了土地上。这个星球真的很神奇，但我们很高兴能交到你这样的朋友。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">DO NOT LOCALIZE</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Natural Philosophy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >自然哲学</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Answer the age-old Therian question</Data></Cell><Cell><Data
+            ss:Type="String"
+          >回答兽人长者的问题</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Through the ages, one unanswered question has always filled us with anticipation. We’ve searched for it, but could never find the answer. You, with your knowledge of worlds, can you tell us... who’s a “good boy”?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >古往今来，一直有个悬而未决的问题让我们充满期待。我们曾四处寻找，但从未找到答案。凭借你对这个世界的了解，你能否告诉我们……谁是“乖孩子”？</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >So, it turns out… it could be all of us! We can all be good boys and girls. We –are- all good boys and girls. This is amazing! Our pack rejoices!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所以答案是……我们所有人都有可能是！我们都可以成为乖孩子。我们都是乖孩子。太神奇了！我们非常开心！</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The question remains... maybe we’ll never know. We will keep searching. Maybe we’ll figure it out without your help. Whoever this “good boy” is, you are definitely not.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >问题依然存在……也许我们永远都不会知道答案了。我们会继续寻找的。也许没有你的帮助，我们也能解决这个问题。不管这个“乖孩子”是谁，反正绝对不是你。</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Who’s a good boy?</Data></Cell><Cell><Data
+            ss:Type="String"
+          >谁是乖孩子？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Use your scientific resources and access to ancient imperial data to answer the even older Therian question.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >利用你的科学资源和权限搜索古代帝国数据，来回答这个年代可能更加久远的问题。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Conventional Gathering</Data></Cell><Cell><Data
+            ss:Type="String"
+          >传统聚会</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Find the best place for an off-world Therian group gathering</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >寻找一个最佳地点举办一场远离尘嚣的兽人聚会</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ever since Deer graced us with her wisdom, chosen groups of representatives leave our shelters every decade to meet up and see how all our packs are doing. It’s a time for parties, games and merriment. Call it a conference of sorts. We were chosen to pick the location this year, but everything we found so far was fully booked. Can you help us? We really need to make a good impression!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >自从圣鹿用她的智慧赐予我们恩惠，每隔十年就会有一批代表离开各自的庇护所，相聚在一起来分享各个族群的情况。大家在一起聚会，游戏，享受欢乐。可以说算得上是某种大会吧。今年轮到我们来选择聚会地点，但到目前为止我们能找到的所有场所都被预定了。你能帮助我们吗？我们真的很需要给大家留下好印象！</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We can’t believe you found a location for our gathering! This is going to be amazing!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >真不敢相信你竟然找到举办聚会的地方了！这肯定会很热闹的！</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You couldn’t find a place for our gathering either… bummer. Maybe we’ll just crash some Elysium Parks again like last time, that worked out too!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >连你也找不到聚会的地方……真扫兴。也许我们只能像上次一样捣毁一些极乐公园了，这样其实也行！</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A Colorful Convention</Data></Cell><Cell><Data
+            ss:Type="String"
+          >丰富多彩的盛会</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Review and update your star-maps and planetary data to find a suitable location for the Therians and their event.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >更新并查看你的星图和星球数据，为兽人找到一个合适的地点来举办他们的活动。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deerly Beloved</Data></Cell><Cell><Data
+            ss:Type="String"
+          >深受爱戴的圣鹿</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell><Cell
+        ><Data ss:Type="String">SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Research Therian history</Data></Cell><Cell><Data
+            ss:Type="String"
+          >研究兽人的历史</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We sung the story of our great leader Deer for generations. We owe everything to her. But through time the details of her life have grown… vague. You have access to old archives and knowledge, right? Will you help us tell her story?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >伟大领袖圣鹿的故事在我们口中世代相传，我们拥有的一切都归功于她。但随着时间的流逝，有关她生平的故事细节已经有些……模糊了。你有权限访问旧档案和知识，对吧？你能帮我们完善她的故事吗？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >So she was created, like us, in an act of love and desperation. A human before, something more after. She was saved by becoming like us, but it was bittersweet. We need to remember and heed her warning. Thank you for sharing this with us.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所以她也和我们一样，是在爱与绝望中被创造出来的。曾经是个人类，后来才变成了与我们一样的存在，但也因此得到了拯救。这是一段苦乐参半的经历。我们必须铭记并听从她的警告。谢谢你和我们分享这些故事。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Every day our knowledge of Deer fades away. We thought we could count on you to rekindle it. Maybe we were wrong.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们对圣鹿的了解一天不如一天。我们还以为你能帮助我们重新了解她，但也许我们错了。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Historical Research</Data></Cell><Cell><Data
+            ss:Type="String"
+          >历史研究</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Use your scientific resources to access restricted Terratech Archives and find information on the anthropomorphic origins of the Therians and their first leader Deer.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >利用你的科学资源访问泰拉科技的机密档案，找到关于兽人的拟人化起源和他们第一任领袖圣鹿的信息。</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >KILL_UNITS_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Don’t fret. We see you’re busy ignoring us. We’ll just withhold our affection.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >别担心，我们知道你在无视我们。我们只需要克制住情感就行了。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We feel your mockery. So, our sport is a joke to you? Fine. Maybe we should play with your rivals, instead… </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们感受到了你的嘲笑。所以，我们的运动对你来说就是个笑话？好吧，也许我们应该和你的对手一起玩耍…… </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >If you think you can take advantage of us during this outbreak, you are wrong. If you will not destroy the plague, we’ll unite in our shared hatred and ignore you should you call.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >如果你认为你们能利用这次疫情占我们的便宜，那你就错了。如果你不愿清除这场瘟疫，我们将在仇恨中团结起来。当你需要我们时，我们也会无动于衷。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hairball Removers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >毛团去除器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Complete Special Production Project</Data></Cell><Cell><Data
+            ss:Type="String"
+          >完成特殊生产项目</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >One of the great struggles of being covered with fur is the constant shedding. If you could invent and then produce full-body grooming stations, it would save us a lot of time during the day that we could better spend doing more useful things… like napping. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >全身覆盖毛发的最大痛苦之一就是不断的脱毛。如果你能发明并生产出某种可以打整全身毛发的梳理站，我们就能节省出很多时间，然后花在更有用的事情上，比如……打盹。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Purrrrrrfect! Please take this award! Now please leave, grooming is our private time… and so is napping.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >完美！请收下这份奖励！现在，请你离开一下。梳理毛发是我们的私人时间……还有打盹也是。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fine. You don’t want to help us with our shedding problem. Don’t blame us if we cover your furniture in loose hair. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >好吧。既然你不想帮我们解决脱毛的问题，如果我们把你的家具弄得到处都是毛发，可不要怪我们。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_05_BUILDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Groom-o-matic 5000</Data></Cell><Cell><Data
+            ss:Type="String"
+          >毛发梳理 5000</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_PRODUCTION_PROJECT_05_BUILDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Build full-body grooming stations, complete with claw trimmers, whisker sharpeners and a hair disposal unit for Therian hygienic needs.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >建造全身梳理站，包括修爪刀、剃须刀和毛发处理单元，满足兽人的卫生需求。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_04</Data></Cell><Cell
+        ><Data ss:Type="String">FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Once again you ignore our troubles to go about your business. This is not how you treat an ally, let alone a friend. We will seek affection elsewhere.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你又一次只顾自己的事情而无视了我们的烦恼。你不该如此对待盟友，更不要说我们还是朋友了。我们要去别的地方寻求关爱了。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Laser Focused</Data></Cell><Cell><Data
+            ss:Type="String"
+          >聚焦激光</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Craft a game involving laser pointers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >制作一个包含激光指示器的游戏</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We believe a great sport could be created using laser pointers. That glowing red dot has long been a diversion, but our attention span is too short to formalize a game. That’s where you’ll come in… Please, use your vast knowledge to create a sports event involving laser pointers!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们认为用激光指示器可以创造出一项伟大的运动。那个发光的红点一直以来都是一种消遣，但我们的注意力持续时间太短，无法正式形成一个游戏。所以我们来拜托你……请用你丰富的知识来创造一个包含激光指示器的娱乐活动吧！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Whoa! You are so gifted! Think of the variations, the alternative rules, and that little red dot! Watch it go… the… uh… what were we talking about? Oh right, the new game! It’s great! Here’s a reward for your efforts!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >哇哦！你真是天赋异禀！想想这些不同的变化，可供选择的规则，还有那个小红点！看着它移动……呃……我们之前在说什么来着？噢，对了，新游戏！太好了！这是对你努力的奖励！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We find your lack of love of laser pointers disturbing. Perhaps you aren’t a trustworthy ally after all… </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们发现你对激光指示器缺乏热爱，真令人难过。也许你根本就不是一个值得信赖的盟友……</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_04_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Stimulus Research</Data></Cell><Cell><Data
+            ss:Type="String"
+          >刺激研究</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_04_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Use your top game theorists and forgotten knowledge of Laser Weaponry to research a game that will hold the attention span of the Therians long enough for them to reward you.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >用你的顶级游戏理论和激光武器知识研发一款游戏，如果能使兽人保持足够长时间的注意力，他们将会给予你奖励。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sleepover</Data></Cell><Cell><Data
+            ss:Type="String"
+          >过夜</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Research the Optimal Sleep Cycle</Data></Cell><Cell><Data
+            ss:Type="String"
+          >研究最理想的睡眠周期</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >One complaint we often hear, is that when we have visitors, many of us are asleep and unwilling to move or engage our guests. We recognize the inconvenience but we need our naps, especially after a party! Can you help us manage our sleep schedule a bit better?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们最常听到的抱怨就是：当有客人来访时，许多人都在睡觉，谁都不愿意起来迎接客人。我们知道这样会带来麻烦，但我们需要休息，尤其是在聚会之后！你能帮我们更好地安排睡眠时间吗？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thanks to your research efforts, we’ve been able to stay awake during your latest presentation about sleep cycles. This is quite an accomplishment. Now if you’ll excuse us, take your reward, we need a nap.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >多亏你的研究，我们在你上一次发表关于睡眠周期的汇报时竟然没有睡着。这是一项了不起的成就。现在，请允许我们失陪一下，我们需要睡觉了，记得拿上你的奖励。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Your inability to help us manage our sleeping requirements exhausts us. The next time you want something from us, we’ll sleep on it. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你未能帮助我们管理睡眠需求，这使我们感到疲惫。下次你想从我们这里得到什么的时候，我们将会先睡一觉再说。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_05_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sleep Cycle Research</Data></Cell><Cell><Data
+            ss:Type="String"
+          >睡眠周期研究</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >SPECIAL_RESEARCH_PROJECT_05_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Most Therians have a high-energy lifestyle that requires a lot of downtime. Help them manage this requirement by researching the optimal circadian rhythm to advantage them.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >大多数兽人的生活方式会消耗很高的能量，因此需要很长的休息时间。通过研究最理想的生理节奏来帮助他们管理这一需求。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The Growth are a sentient botanical species. They speak poetically, using puns and metaphors to describe things and speak romantically. They use the word "symbiosis" to refer to their relationships with other races and species. The "Mother Node" is their leader, and they refer to her in such.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>115</Zoom><Selected
+      /><TopRowVisible>12</TopRowVisible><Panes><Pane><Number
+          >3</Number><ActiveRow>20</ActiveRow><ActiveCol
+          >4</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

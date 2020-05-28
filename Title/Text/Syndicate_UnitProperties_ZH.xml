@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -81,7 +81,7 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >When this unit's [hp/] drops below zero, they automatically teleport up to a random position {EscapeModuleTeleport} hexes away and revives with {EscapeModuleHP}. [br/][br/][firecol]A unit can only revive itself once per battle.[/firecol]</Data></Cell><Cell
+          >When this unit's [hp/] drops below zero, they automatically teleport up to a random position {EscapeModuleTeleport} hexes away and revives with {EscapeModuleHP}.[br/][br/][firecol]A unit can only revive itself once per battle.[/firecol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >当该单位的 [hp/] 降至 0 以下时，该单位将自动传送至最多 {EscapeModuleTeleport} 个单元格外的随机位置并复活，复活时拥有 {EscapeModuleHP}。[br/][br/][firecol]每个单位在每场战斗中只能复活自己一次。[/firecol]</Data></Cell></Row><Row
@@ -143,10 +143,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target Biological or Cyborg unit heals for {PsiTecRevitalizeHP} and is cleared of all negative status effects.</Data></Cell><Cell
+          >Target friendly Biological or Cyborg unit heals for {PsiTecRevitalizeHP} and is cleared of all negative status effects.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >目标生物或半机械人单位治疗 {PsiTecRevitalizeHP}，并驱散所有负面状态效果。</Data></Cell></Row><Row
+          >目标友方生物或半机械人单位治疗 {PsiTecRevitalizeHP}，并驱散所有负面状态效果。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">IMPOSE_DISCIPLINE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -203,10 +203,10 @@
       ><Cell><Data ss:Type="String">HALLUCINATION_PROJECTOR</Data></Cell><Cell
         ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Project a field in a {Radius} hex radius that has a strength {Strength} chance to apply [abilityred]Hallucinating[/abilityred] for {Duration}[turn/]. Affected units lose {HallucinationAccuracy} accuracy, and all attacks against them are considered Flanking attacks.</Data></Cell><Cell
+          >Non-Mindless units in a {Radius} hex radius have a {Strength} strength chance to receive[abilityred]Hallucinating[/abilityred] for {Duration}[turn/]. Units lose {HallucinationAccuracy} accuracy, and all attacks Flank them. On resist apply[abilityred]Broken Mind[/abilityred].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >向 {Radius} 个单元格范围发射一道力场，有 {Strength} 力量几率对单位施加[abilityred]致幻[/abilityred]，持续 {Duration}[turn/]。受到影响的单位将失去 {HallucinationAccuracy} 准度，并且遭到的所有攻击都会变为包抄攻击。</Data></Cell></Row><Row
+          >{Radius} 个单元格范围内的非无意识单位有 {Strength} 力量几率被[abilityred]致幻[/abilityred]，持续 {Duration}[turn/]。这些单位将失去 {HallucinationAccuracy} 准度且受到的所有攻击都变为包抄攻击。如果抵抗，将改为施加[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ADAPTIVE_CAMOUFLAGE</Data></Cell><Cell><Data
             ss:Type="String"

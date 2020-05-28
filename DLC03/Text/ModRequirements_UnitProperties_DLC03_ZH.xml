@@ -13,9 +13,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -84,10 +84,10 @@
             ss:Type="String"
           >ESSENCE_CHARGE_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This Mod can only be applied to units with a means to generate Essence Charges.</Data></Cell><Cell
+          >This Mod can only be applied to units that have an ability that inherently Drains Essence.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该模块仅适用于可产生精华充能的单位。</Data></Cell></Row><Row
+          >该模块仅适用于拥有本身就能够汲取精华的技能的单位。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell><Cell><Data
             ss:Type="String"

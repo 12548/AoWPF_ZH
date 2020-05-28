@@ -1,0 +1,1281 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Michelle Kusters</LastAuthor><LastSaved
+    >2020-01-28T12:56:50Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>10920</WindowHeight><WindowWidth>19365</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment
+        ss:Vertical="Bottom"
+        ss:WrapText="1"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="170.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="181.5"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="354" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="146.25"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="291" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="432.75"
+      /><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
+            ss:Type="String"
+          >PLAYER_INTERACTION_PERSONALITY</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHILE_GREET_NEGATIVE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Surprising to hear from you, because it seems you like fighting others more than listening to them. What do you want?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >收到你的信息我很惊讶，因为你似乎更喜欢和别人交战，而不是耐心地倾听。你想要什么？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is negative</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >The xenophile likes players with different races and likes good relations with NPC factions.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHILE_GREET_NEUTRAL_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Greetings, {STR_leaderName}. May those who think differently provide you with wisdom.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，{STR_leaderName}。愿那些与你想法不同的人给予你智慧。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is neutral</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHILE_GREET_POSITIVE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Good to hear from you, {STR_leaderName}. May all our interactions allow us to grow.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >收到你的信息我很开心，{STR_leaderName}。希望我们的往来能够让我们共同发展。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is positive</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHILE_DECLAREWAR_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >I cannot allow your xenophobic actions to continue. You would not listen to reason, so now you will listen to force. This means war.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我不能让你的仇外行为继续下去。既然你们不讲道理，那就屈服于力量吧。这即是宣战。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">NPC declares war</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHOBE_GREET_NEGATIVE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Why should I even speak to you, {STR_leaderName}? You bring nothing but impurity and alien concepts to my people.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我为什么要和你浪费口舌，{STR_leaderName}？你给我的人民带来的只有污秽与异端。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is negative. "Alien" relates more to different than literally otherworldly.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >The xenophobe prefers monoculture empires and doesn't like good NPC faction relations</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHOBE_GREET_NEUTRAL_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Greetings, {STR_leaderName}. May your people be protected from all that is alien.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，{STR_leaderName}。愿你的人民不受外来者侵害。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is neutral. "Alien" relates more to different than literally otherworldly. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHOBE_GREET_POSITIVE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Greetings, {STR_leaderName}. May you stay as pure of blood and as free from alien influence as you are now.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，{STR_leaderName}。愿你永远像现在这样保持纯净的血统，远离异族的影响。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is positive. "Alien" relates more to different than literally otherworldly. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHOBE_DECLAREWAR_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >I've seen enough of your corrupted actions, {STR_leaderName}. You are tainted and spoiled with impurity. No choice but to remove you for good.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我已经受够了你的堕落行径，{STR_leaderName}。你被邪恶所污染，我别无他法，只能把你彻底消灭。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">NPC declares war</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOPDOG_GREET_NEGATIVE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_leaderName}, you are still here? I forgot you were even on this planet. What do you want?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_leaderName}，你还在这里呢？我都已经忘记了你在这个星球上的存在。你想要什么？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is negative</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >The topdog/kissup likes dealing with high ranking players</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOPDOG_GREET_NEUTRAL_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Greetings, {STR_leaderName}. I hope to see you climbing the ranks soon.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，{STR_leaderName}。希望能看见你早日爬高排名。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is neutral. Ranks refers to the player's overall rank in this scenario.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOPDOG_GREET_POSITIVE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >I am honored you would talk to me, {STR_leaderName}. Please, tell me what you need.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >很荣幸能和你交谈，{STR_leaderName}。请告诉我你需要什么。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is positive</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOPDOG_DECLAREWAR_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You are not even a footnote in the history of this planet. It is time we remove you from it altogether. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你对这个星球的历史而言微不足道，现在是时候把你彻底铲除了。 </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >NPC declares war on the player</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNDERDOG_GREET_NEGATIVE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >It must be pretty windy all the way on the top. What makes you speak to us lowly underdogs?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >高处不胜寒，不是吗？你为何要与我们这些卑贱的弱者交谈？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is negative</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >The compassionate likes dealing with weaker commanders</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNDERDOG_GREET_NEUTRAL_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Greetings, {STR_leaderName}. It's lonely at the top, but here is where your true friends are.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，{STR_leaderName}。高处不胜寒，但你真正的朋友就在这里。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is neutral</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNDERDOG_GREET_POSITIVE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Good day, {STR_leaderName}. I hope you are faring well.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，{STR_leaderName}。希望你一切安好。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is positive</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNDERDOG_DECLAREWAR_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You may act all high and mighty, but I will prove that even the biggest threats can fall. Consider this an announcement from below: this is war.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你可以摆出这副高高在上的样子，但我将会证明，即使是最大的威胁也能够被铲除。这是来自低层的战争宣言。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Below refers to lower on the ranks</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MILITARIST_GREET_NEGATIVE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >I have no time for militaristic failures like you. What do you want?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我可没有时间陪你这种崇尚武力的失败者。你想要什么？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is negative</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >The militarist likes dealing with players that have a high military ranking and low reputation</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MILITARIST_GREET_NEUTRAL_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Greetings, {STR_leaderName}. May your colonies be strong, and your armies even moreso.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，{STR_leaderName}。愿你的殖民地和军队繁荣强盛。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is neutral. Colonies and armies are terms used in-game</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MILITARIST_GREET_POSITIVE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Always great to exchange ideas with another martial mastermind. How can we aid you, {STR_leaderName}?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >永远也不要拒绝与另一位军事大家交换意见的机会。我该怎么样帮助你，{STR_leaderName}？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is positive</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MILITARIST_DECLAREWAR_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Let us see how you fare in a game of war, {STR_leaderName}. Enjoy a lesson from the best.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >让我看看你在战争中会落得何种下场，{STR_leaderName}。好好从强者身上学习吧。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >NPC declares war on the player</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PACIFIST_GREET_NEGATIVE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Surprising to hear from you, because it seems you enjoy fighting others more than talking to them. What do you want, {STR_leaderName}?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >收到你的信息我很惊讶，因为你似乎更喜欢和别人交战，而不是与人交谈。你想要什么，{STR_leaderName}？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is negative</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >The pacifist likes dealing with players with a low military ranking and high reputation</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PACIFIST_GREET_NEUTRAL_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Greetings, {STR_leaderName}. May you bring peace wherever you go.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，{STR_leaderName}。愿和平跟随你的足迹。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is neutral</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PACIFIST_GREET_POSITIVE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Good to hear from you, {STR_leaderName}. May all our interactions allow us to bring peace to this world. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >收到你的信息我很开心，{STR_leaderName}。希望我们的往来能给这个世界带来和平。 </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is positive</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PACIFIST_DECLAREWAR_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You have pushed us to the very limit of our patience – keeping peace with you only seems to lead to more bloodshed elsewhere. This means war.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你把我们逼到了忍无可忍的地步，与你们保持和平似乎只会导致更多的杀戮。我们在此宣战。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >NPC declares war on the player</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOYAL_GREET_NEGATIVE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ah, the treacherous {STR_leaderName}. I wonder why you even speak, seeing as your words are so meaningless.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >啊，背信弃义的{STR_leaderName}。我不知道你为什么要找我交谈，因为你的言辞根本就没有意义。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is negative</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Loyal doesn't like players that break treaties.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOYAL_GREET_NEUTRAL_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Greetings, {STR_leaderName}. May your words be true and your honor unblemished.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，{STR_leaderName}。愿你的言辞真实可信，愿你的荣誉完美无瑕。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is neutral</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOYAL_GREET_POSITIVE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Finally, a leader I can trust. Tell me what you like to discuss, {STR_leaderName}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >终于有一位我能够信任的首领了。告诉我你的想法，{STR_leaderName}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is positive</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOYAL_DECLAREWAR_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Your disloyalty can no longer go unpunished. This is war, {STR_leaderName}. If you face me in battle you may die with some dignity left.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的不忠必将受到惩罚。这是战争，{STR_leaderName}。如果你在战场上与我相见，至少还能带着尊严死去。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >NPC declares war on the player</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TREACHEROUS_GREET_NEGATIVE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ah, the -great- {STR_leaderName}, here to enlighten us with their presence. To what do I owe the honor of this -amazing- conversation?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >啊，原来是伟大的{STR_leaderName}前来用光芒照耀我们了。能与你交谈是我的荣幸，我该怎样才能报答这次难得的机会呢？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is negative</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Treacherous has messages that do not always show their true intent. So likely always positive messages even if their opinion is bad.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TREACHEROUS_GREET_NEUTRAL_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Greetings, {STR_leaderName}. Let us see what way the wind blows.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，{STR_leaderName}。让我们看看事情究竟会如何发展。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is neutral</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TREACHEROUS_GREET_POSITIVE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Greetings, {STR_leaderName}! May the winds of fate always blow in your favor. Or better yet, may you bend with them.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，{STR_leaderName}！愿命运之风永远眷顾你，愿好运与你常在。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is positive</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TREACHEROUS_DECLAREWAR_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You have annoyed me long enough, {STR_leaderName}. Be sure to watch your back from now on, or you may find a knife or two there. This is war.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我已经受够了，{STR_leaderName}。从现在起，当心你的背后，否则我会随时捅你两刀。我向你宣战。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >NPC declares war on the player</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RUTHLESS_GREET_NEGATIVE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >What do you want, weakling? Act fast before I crush you.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你想要什么，胆小鬼？赶快行动，否则我将把你碾碎。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is negative</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Ruthless doesn't have any real preferences, but when it fights it fights to the death</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RUTHLESS_GREET_NEUTRAL_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Talking is for the weak. What do you want, {STR_leaderName}?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >只有弱者才会喋喋不休。你想要什么，{STR_leaderName}？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is neutral</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RUTHLESS_GREET_POSITIVE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Greetings, {STR_leaderName}. I hope we can fight side by side one day!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，{STR_leaderName}。希望有一天我们可以并肩作战！</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Greeting when relationship with the player is positive</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RUTHLESS_DECLAREWAR_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This was the last straw. I will end you if it is the last thing I do. This is war!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这是最后一根稻草。如果我此生只能再做最后一件事，那就是终结你的性命。战争开始！</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >NPC declares war on the player</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHILE_FIRSTMEET_NEUTRAL_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Great to meet another stranger! Welcome, {STR_leaderName}. I hope we can learn from each other.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >很高兴认识另一个陌生人！欢迎，{STR_leaderName}。希望我们可以互相学习。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The xenophile likes players with different races and likes good relations with NPC factions.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHOBE_FIRSTMEET_NEUTRAL_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Another arrival on this planet? As if there weren't enough strangers around here already. May you stand strong amongst all these impurities, {STR_leaderName}. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >又一个来到这个星球的外人？好像这里的陌生人还不够多似的。愿你在这些污秽之中坚定立场，{STR_leaderName}。 </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The xenophobe prefers monoculture empires and doesn't like good NPC faction relations</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOPDOG_FIRSTMEET_NEUTRAL_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Another player in this grand game of world domination! We may even call each other allies, if you prove yourself worthy of my time. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >又是一位这统治世界的强者！如果你能证明我不是在浪费时间的话，我们甚至可以成为盟友。 </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The topdog/kissup likes dealing with high ranking players</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNDERDOG_FIRSTMEET_NEUTRAL_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Welcome on this planet, {STR_leaderName}. Do not worry, if you ever feel like things are not going well, I am here to help you.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >欢迎来到这个星球，{STR_leaderName}。不要担心，如果你觉得事情不顺利，我很乐意伸出援手。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The compassionate/underdog likes dealing with weaker commanders (low ranking in this scenario)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MILITARIST_FIRSTMEET_NEUTRAL_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Good to meet you, {STR_leaderName}. I look forward to seeing your military in action.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >很高兴见到你，{STR_leaderName}。我十分期待你的军队在战场上的表现。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The militarist likes dealing with players that have a high military ranking and low reputation</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PACIFIST_FIRSTMEET_NEUTRAL_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Good to meet you, {STR_leaderName}. Are you here to bring peace to this planet?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >很高兴见到你，{STR_leaderName}。你是来给这个世界带来和平的吗？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The pacifist likes dealing with players with a low military ranking and high reputation</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOYAL_FIRSTMEET_NEUTRAL_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Welcome, {STR_leaderName}. Do not worry about me going behind your back. If we were to quarrel, I would speak to you directly.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >欢迎，{STR_leaderName}。不要担心我会背叛你。如果我真的想要和你争吵，我会直接和你说的。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Loyal doesn't like players that break treaties.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TREACHEROUS_FIRSTMEET_NEUTRAL_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Another player on the field. Pleased to meet you, {STR_leaderName}. Explain how you can be of use to me.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >又一位活跃在战场上的战士。很高兴认识你，{STR_leaderName}。请告诉我你怎样才会对我有用。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Treacherous has messages that do not always show their true intent. So likely always positive/sarcastically positive messages even if their opinion is bad.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RUTHLESS_FIRSTMEET_NEUTRAL_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >So we meet, {STR_leaderName}. I have little time for chit-chat; I have a world to conquer. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们见面了，{STR_leaderName}。我可没有时间来闲聊；这个世界正等着我去征服。 </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Ruthless doesn't have any real preferences, but when it fights it fights to the death</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHILE_NPCRELATION_GOOD_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Many ignore or fight the native inhabitants of the planets we land on, but we can learn so much from them if we listen to their wishes and wisdom. It is refreshing to see you think the same. Well done, {STR_leaderName}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >许多人无视这个星球上的原住民，或是与他们展开斗争，但如果我们能倾听他们的愿望和智慧，或许我们可以从他们身上学到很多东西。很高兴看到你有同样的想法。干得好，{STR_leaderName}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Likes players that have a good relation with one or multiple NPC factions. Native inhabitants refer to the NPC races and dwellings on the planet.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Likes players that have a good relation with one or multiple NPC factions.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHILE_ABSORBED_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A colony can only grow to greatness when you accept and embrace the ideas of those that differ from you. We appreciate seeing you do exactly this, {STR_leaderName}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >只有接受不同的思想，殖民地才会走向强大。我们很欣慰看到你践行这样的理念，{STR_leaderName}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Likes players that have colonies of different races in their empire. Colony refers to the colony/empire the player is building on this planet</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Likes players that have colonies of different races in their empire.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHILE_SETTLEMENT_INFLUENCE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >It is good to see you are on speaking terms with the settlements of this planet, {STR_leaderName}. Not all conflicts have to be resolved with violence, and not all that is different is bad.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >很高兴看到你与这个星球的各个定居点保持良好的关系，{STR_leaderName}。不是所有的冲突都必须用暴力来解决，也不是所有的差异都是坏事。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Likes players that have helped out settlements by buying them with influence. Settlements are an in-game term.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Likes players that have helped out settlements by buying them with influence.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHILE_NPCRELATION_BAD_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The way you antagonize the natives of this planet saddens me, {STR_leaderName}. There is so much we can learn from this planet's inhabitants. Why not try to see things from their side?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你咄咄逼人地对抗星球原住民的方式让我感到寒心，{STR_leaderName}。我们本可以从这些住民身上学到很多东西，为什么不试着从他们的角度看待问题呢？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Dislikes players that have a bad relation with one or multiple NPC factions.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Dislikes players that have a bad relation with one or multiple NPC factions.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHILE_SETTLEMENT_ATTACK_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Your attacks on the settlements here do not impress me. Do you really wish to be known as a leader that would harm those that think differently?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你攻击这里定居点的做法并没有感染到我。你真的希望被人当成那种喜欢伤害与自己意见相左之人的领袖吗？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Dislikes players that have attacked settlements. Settlements are an in-game term.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Dislikes players that have attacked settlements.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHILE_COMPLIMENT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We are honored to have you here, {STR_leaderName}! You are an inspiration not only to us, but to many other inhabitants on this planet as well.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >很荣幸看见你的到来，{STR_leaderName}！你不仅激励着我们，也激励着这个星球上许多其他的住民。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHILE_INSULT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You are nothing but a chauvinist. Cover your ears and hide behind your walls; no-one wants to talk to you.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你不过是个沙文主义者。捂好你的耳朵，然后躲藏在你的高墙之后吧；没有人想要和你说话。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHOBE_NPCRELATION_BAD_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >There is no use trying to talk to the natives here, {STR_leaderName}. I am glad you think the same. They simply cannot be trusted.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >与这里的原住民交谈毫无用处，{STR_leaderName}。很高兴你也这样想，他们根本不值得信任。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Likes players that have a bad relation with one or multiple NPC factions.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Likes players that have a bad relation with one or multiple NPC factions.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHOBE_MIGRATED_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Purity is strength, I am glad we share that sentiment. Too many cooks spoil the broth, and I like my broth as clear as can be.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >纯净就是力量，很高兴我们对此拥有共识。材料加得太多，汤就会变得浑浊，而我喜欢清澈。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Likes players that only have colonies of a single race in their empire.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Likes players that only have colonies of a single race in their empire.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHOBE_ABSORBED_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You would allow these strangers into your colonies, free to poison the minds of your own people? A dangerous decision, {STR_leaderName}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你竟然允许这些陌生人进入你的殖民地，自由地毒害你人民的思想？真是一个危险的决定，{STR_leaderName}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Dislikes players that have colonies of different races in their empire.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Dislikes players that have colonies of different races in their empire.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHOBE_NPCRELATION_GOOD_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You talk a lot with these native strangers. Can you truly trust them? Think carefully of your answer, {STR_leaderName}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你和这些陌生的原住民交谈甚广，你真的能信任他们吗？请再三思量，{STR_leaderName}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Dislikes players that have a good relation with one or multiple NPC factions.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Dislikes players that have a good relation with one or multiple NPC factions.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHOBE_COMPLIMENT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You are a prime example of purity and strength of character, {STR_leaderName}. I look up to you.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你是一位有骨气且恪守纯净的榜样，{STR_leaderName}。我尊敬你。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XENOPHOBE_INSULT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Your colonies are dirty cesspools of impurity and degradation. It is only a matter of time before they collapse.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的殖民地如同一个肮脏的粪坑，充满了污秽和堕落。你们的灭亡只是时间的问题。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOPDOG_CAPABILITY_HIGH_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Greetings, {STR_leaderName}! I am impressed by how well you are doing in the grand scheme of things. Consider me a fan!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，{STR_leaderName}！你的宏大计划让我感到震撼，我十分仰慕你！</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Likes players that have a high capability ranking and are better than them.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Likes players that have a high capability ranking and are better than them.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOPDOG_CAPABILITY_LOW_O1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Currently you are not even worth the resources this transmission costs. Come back when you actually achieve something.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你目前的水平甚至还比不上这次通讯所花费的资源。等你真正有所成就的时候再来找我吧。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Dislikes players that have a low capability ranking and are worse than them.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Dislikes players that have a low capability ranking and are worse than them.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOPDOG_COMPLIMENT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >I am glad to bask in your glory. You are a shining example to everyone on this planet!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >很高兴能够沐浴在你的光辉之中。你是这个星球上所有人的光辉榜样！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOPDOG_INSULT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_leaderName}, I just wanted you to know you are so forgettable I had to be reminded several times to even send this message to you. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_leaderName}，你真是一点存在感也没有，得让人提醒我好多次才能想起给你发送这条消息。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNDERDOG_CAPABILITY_LOW_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You are alright, {STR_leaderName}. Rank is not all that makes a commander. We can work together.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你说得对，{STR_leaderName}。排名不是一个指挥官的全部，我们可以合作。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Likes players that have a low capability ranking and are worse than them.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Likes players that have a low capability ranking and are worse than them.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNDERDOG_CAPABILITY_HIGH_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The bigger they are, the harder they fall. Ambition may be a virtue to most, but it makes you blind for what truly matters. Do not forget your friends, {STR_leaderName}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >爬得越高，摔得就越狠。对大多数人来说，野心也许是一种美德，但它会让你对真正重要的东西视而不见。不要忘记你的朋友，{STR_leaderName}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Dislikes players that have a high capability ranking and are better than them.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Dislikes players that have a high capability ranking and are better than them.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNDERDOG_COMPLIMENT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >It is great to know you, {STR_leaderName}. No matter what others may say, I appreciate your company!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >很高兴认识你，{STR_leaderName}。不管别人怎么说，我很感谢你的陪伴！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNDERDOG_INSULT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You may think you have got it made, but you are nothing but a haughty windbag. Enjoy the fame while it lasts. In the end, you will die alone.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你可能以为你已经有所成就，但你只是一个傲慢的空谈家。趁名誉尚在的时候好好享受吧。最后，你将孤独地死去。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MILITARIST_MILITARY_HIGH_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The strength of your military is something to look up to, {STR_leaderName}. May you continue on this path. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的军事力量让人仰望，{STR_leaderName}。愿你继续在这条道路上走下去。 </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Likes players with a high military capability ranking.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Likes players with a high military capability ranking.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MILITARIST_PLAYER_DEFEATED_O1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Glory through strength, {STR_leaderName}! Congratulations on your martial victory.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >荣耀来自力量，{STR_leaderName}！祝贺你获得了胜利。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Likes players that have defeated another player.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Likes players that have defeated another player.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MILITARIST_MILITARY_LOW_O1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Leaders are measured through the strength of their military, {STR_leaderName}. Currently you seem very, very small.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >衡量一名首领的标准便是其军事力量，{STR_leaderName}。但目前你的力量似乎很小很小。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Dislikes players with a low military capability ranking.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Dislikes players with a low military capability ranking.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MILITARIST_COMPLIMENT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >They say history is written by the victors, and you are making history here, {STR_leaderName}!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >人们说历史由胜者书写，而你正在创造历史，{STR_leaderName}！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MILITARIST_INSULT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You are laughable, {STR_leaderName}. I'd ask you to meet me on the battlefield on equal terms, but then I'd have to arrive naked and alone.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你真是可笑，{STR_leaderName}。我本想让你与我在战场上平等相见，但那样的话我就只能光着身子，孤身一人前来了。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PACIFIST_MILITARY_LOW_O1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >I am glad you seem to prioritize diplomatic goals over military ones. There are many ways to victory besides martial prowess.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >很高兴看见你把外交目标置于军事目标之上。除了武力之外，还有许多获胜的方法。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Prefers players with a low military capability ranking.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Prefers players with a low military capability ranking.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PACIFIST_PLAYER_DEFEATED_O1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Some will say history is written by the victors, but I wonder if this murderous rampage is how you want to be remembered, {STR_leaderName}. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有的人说历史由胜者书写，但你的想让后人记住你如此残暴的行径吗，{STR_leaderName}？ </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Dislikes players that have defeated another player.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Dislikes players that have defeated another player.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PACIFIST_MILITARY_HIGH_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The amount of energy you spend on martial endeavors makes me doubt your capabilities on other fronts, {STR_leaderName}. War is not the only way to victory. Maybe it is time to rethink your priorities and focus on a less violent approach.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的精力大多花在了军事之上，因此我十分怀疑你其他方面的能力，{STR_leaderName}。战争不是通往胜利的唯一道路。也许你应该重新规划一下，不要把精力放在暴力之上。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Dislikes players that have a high military capability ranking.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Dislikes players that have a high military capability ranking.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PACIFIST_COMPLIMENT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You are a shining example of peace and prosperity! This world looks up to you, {STR_leaderName}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你就是和平与繁荣的光辉榜样！整个世界都在仰望你，{STR_leaderName}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This world refers to the planet the player is currently playing on</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PACIFIST_INSULT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You are a warmongering brute and a disgrace to your kind! You see nothing beyond the scope of your weapon. Shame on you.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你这个好战的野蛮人，给你们族类带来了耻辱！除了你的武器，你什么也看不见。真是可悲。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOYAL_TREATIES_HELD_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Leaders can only be measured by their honor and the weight of their words. I am glad to see you are keeping yours, {STR_leaderName}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >衡量一名首领的标准只有其获得的荣耀和言辞的分量。很高兴看见你两者兼具，{STR_leaderName}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Likes players that have not broken any treaties. (this will show after X turns unless the player has broken a treaty in the meantime)</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Likes players that have not broken any treaties. (this will show after X turns unless the player has broken a treaty in the meantime)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOYAL_TREATIES_BROKEN_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Your words and treaties seem to mean nothing, {STR_leaderName}. I will keep this in mind when dealing with you in the future.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的言辞和条约似乎毫无意义，{STR_leaderName}。以后和你打交道时，我会记住这一点的。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Dislikes players that have broken one or multiple treaties.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Dislikes players that have broken one or multiple treaties.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOYAL_COMPLIMENT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This world can learn from an honorable leader like you, {STR_leaderName}. Your name will be sung in the songs of my people!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这个世界可以从像你这样可敬的领袖身上学到很多东西，{STR_leaderName}。你的名字将在我们人民的歌谣中传唱！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOYAL_INSULT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You are a blemish on our shared history, and unworthy of your title. I feel dirty just by speaking to you. Get out of my sight.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你是我们共同历史上的污点，你配不上自己的头衔。光是与你说话就让我感觉受到了玷污。滚出我的视线。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TREACHEROUS_FIRSTMEET_NEUTRAL_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Finally we meet, {STR_leaderName}. No need to worry about me going behind your back. If we were to quarrel, I would definitely speak to you directly.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们终于见面了，{STR_leaderName}。不要担心我会背叛你。如果我真的想要和你争吵，我绝对会直接和你说的。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Alternative first-meet message for the Treacherous, very close to the first-meet message of the Loyal but with some differences.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TREACHEROUS_TREATIES_BROKEN_O1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Treaties and deals are formed under certain circumstances. When these circumstances change, it is fair to re-evaluate these deals. I am glad you and I share this conviction.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >条约和协议是在一定条件下签订而成的。当这些条件发生变化时，重新评估这些约定乃是情理之中。很高兴你和我有同样的观念。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Likes players that have broken one or multiple treaties.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Likes players that have broken one or multiple treaties.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TREACHEROUS_WAR_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >I see you are having some trouble with other players on this planet, {STR_leaderName}. Aren't we -glad- we have our earlier deal to rely upon?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我看到你与星球上的其他玩家有一些不愉快，{STR_leaderName}。还好我们早就签订了协议，至少这是件好事，不是吗？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Dislikes players when they (the other player) are at war and The Treacherous at least shares a non-aggression pact with that (other) player. (To make sure they backstab that player, because this AI is treacherous the message does not have to show true intent or opinion. It could be something sarcastic.)</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Dislikes players when they (the other player) are at war and The Treacherous at least shares a non-aggression pact with that (other) player. (To make sure they backstab that player, because this AI is treacherous the message does not have to show true intent or opinion. It could be something sarcastic.)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TREACHEROUS_COMPLIMENT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >In this game of diplomacy and war you are doing well for yourself, {STR_leaderName}! You could say I look up to your wit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在这场外交和战争的游戏中，你获得了不小的成就，{STR_leaderName}！可以说，我很敬佩你的智慧。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TREACHEROUS_INSULT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Can I just say… you are awfully boring, {STR_leaderName}. You do not want to find out what happens to those that bore me.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我干脆直说了……你令人感到厌烦，{STR_leaderName}。你是不会想知道让我厌烦的家伙会是什么下场的。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RUTHLESS_SETTLEMENT_ATTACK_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Show these wimps who's boss, {STR_leaderName}! Take from the weak and annihilate those who oppose you – that is the way the universe works.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >让这些懦夫看看到底是谁说了算，{STR_leaderName}！从弱者身上抢夺，消灭那些反对你的人——这就是这个宇宙的规则。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Likes players that have attacked a settlement.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Likes players that have attacked a settlement.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RUTHLESS_SETTLEMENT_INFLUENCE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You are wasting your time talking to puny losers when actions speak so much louder, {STR_leaderName}. Are you really this weak?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >明明可以用行动证明一切，为什么要浪费时间与微不足道的弱者交谈，{STR_leaderName}？你真的如此软弱？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Dislikes players that have helped a settlement by paying influence.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Dislikes players that have helped a settlement by paying influence.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RUTHLESS_CASUSBELLI_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Let me tell you what I told others: if you cross me, I will end you. Consider this a final warning.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >告诉你一句我经常告诉别人的话：人若犯我，天诛地灭。这是我对你最后的警告。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Dislikes players when the player has one or multiple Casus Belli points against them. (on top of the opinion penalty they already get for that)</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Dislikes players when the player has one or multiple Casus Belli points against them. (on top of the opinion penalty they already get for that)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RUTHLESS_COMPLIMENT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Great to see a Leader who knows what true force is! Crush them, {STR_leaderName}! Let them tremble before you!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >很高兴能够见到一位真正懂得力量是何物的首领！粉碎他们，{STR_leaderName}！让他们在你面前颤抖！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RUTHLESS_INSULT_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You are so weak I will not even feel it when I crush you beneath my feet. Ants show more resistance and courage than you do. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你是如此的脆弱，甚至当我把你踩在脚下时都感觉不到你的存在。哪怕是一只蚂蚁也会比你展现出更多的抵抗和勇气。 </Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>115</Zoom><Selected
+      /><TopRowVisible>18</TopRowVisible><Panes><Pane><Number
+          >3</Number><ActiveRow>39</ActiveRow><ActiveCol
+          >2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

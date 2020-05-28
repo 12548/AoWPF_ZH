@@ -6,17 +6,17 @@
   xmlns:x="urn:schemas-microsoft-com:office:excel"
   xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
   xmlns:html="http://www.w3.org/TR/REC-html40"
-><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
-    >Djurre van Dijk</LastAuthor><Created
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author
+    >GameScribes4</Author><LastAuthor>GameScribes4</LastAuthor><Created
     >2019-06-25T15:47:19Z</Created><LastSaved
     >2019-06-25T15:47:19Z</LastSaved><Version
     >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7320</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -38,16 +38,21 @@
     ><Column ss:StyleID="s62" ss:Width="204.75" /><Column
         ss:StyleID="s62"
         ss:Width="191.25"
-      /><Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75" /><Column
-        ss:Index="6"
+      /><Column
         ss:StyleID="s62"
-        ss:Width="120"
-      /><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data
-            ss:Type="String"
-          >DIPLOMACY</Data></Cell><Cell ss:Index="7"><Data
+        ss:AutoFitWidth="0"
+        ss:Width="246.75"
+        ss:Span="1"
+      /><Column ss:Index="6" ss:StyleID="s62" ss:Width="120" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">DIPLOMACY</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
             ss:Type="String"
           >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="30"
       ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
             ss:Type="String"
           >TEXT ID</Data></Cell><Cell><Data
@@ -673,7 +678,7 @@
             ss:Type="String"
           >Tooltip breakdown shown as number of colonies owned by the player and the number of of population in those cities, as well as the number of units of that race.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="60"
+        ss:Height="75"
       ><Cell><Data ss:Type="String">RACE_RELATION_EFFECTS</Data></Cell><Cell
         ><Data ss:Type="String">ADORED</Data></Cell><Cell><Data
             ss:Type="String"
@@ -689,7 +694,7 @@
             ss:Type="String"
           >[xpCol]Racial units gain 200 morale[br/]Racial colonies gain 6 happiness[br/]Influence and Energy costs of race events cost 75% less[br/]+200 opinion from players of that race[/xpCol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="60"
+        ss:Height="75"
       ><Cell><Data ss:Type="String">RACE_RELATION_EFFECTS</Data></Cell><Cell
         ><Data ss:Type="String">FRIENDLY</Data></Cell><Cell><Data
             ss:Type="String"
@@ -725,10 +730,10 @@
       ><Cell><Data ss:Type="String">RACE_RELATION_EFFECTS</Data></Cell><Cell
         ><Data ss:Type="String">DISTRUSTED</Data></Cell><Cell><Data
             ss:Type="String"
-          >[fireCol]Racial units lose 200 Morale[br/]Racial colonies lose 3 Happiness[br/]50% Influence and Energy cost increase for race events[br/]-50 opinion from players of that race[br/]1[casusBelli/] from players of that race[/fireCol]</Data></Cell><Cell
+          >[fireCol]Racial units lose 200 Morale[br/]Racial colonies lose 3 Happiness[br/]50% Influence and Energy cost increase for race events[br/]1[casusBelli/] from players of that race[/fireCol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >[fireCol]种族单位失去 200 士气[br/]种族殖民地失去 3 幸福值[br/]种族事件的影响力和能源消耗增加 50%[br/]从该种族玩家处获得 -50 评价[br/]该种族玩家产生 1[casusBelli/][/fireCol]</Data></Cell><Cell
+          >[fireCol]种族单位失去 200 士气[br/]种族殖民地失去 3 幸福值[br/]种族事件的影响力和能量消耗增加 50%[br/]该种族玩家获得 1[casusBelli/][/fireCol]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -741,10 +746,10 @@
       ><Cell><Data ss:Type="String">RACE_RELATION_EFFECTS</Data></Cell><Cell
         ><Data ss:Type="String">DISLIKED</Data></Cell><Cell><Data
             ss:Type="String"
-          >[fireCol]Racial units lose 400 Morale[br/]Racial colonies lose 6 Happiness[br/]100% Influence and Energy cost increase for race events[br/]-200 opinion from players of that race[br/]3[casusBelli/] from players of that race[/fireCol]</Data></Cell><Cell
+          >[fireCol]Racial units lose 400 Morale[br/]Racial colonies lose 6 Happiness[br/]100% Influence and Energy cost increase for race events[br/]3[casusBelli/] from players of that race[/fireCol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >[fireCol]种族单位失去 400 士气[br/]种族殖民地失去 6 幸福值[br/]种族事件的影响力和能量消耗增加 100%[br/]从该种族玩家处获得 -200 评价[br/]该种族玩家产生 3[casusBelli/][/fireCol]</Data></Cell><Cell
+          >[fireCol]种族单位失去 400 士气[br/]种族殖民地失去 6 幸福值[br/]种族事件的影响力和能量消耗增加 100%[br/]该种族玩家获得 3[casusBelli/][/fireCol]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -757,10 +762,10 @@
       ><Cell><Data ss:Type="String">RACE_RELATION_EFFECTS</Data></Cell><Cell
         ><Data ss:Type="String">DESPISED</Data></Cell><Cell><Data
             ss:Type="String"
-          >[fireCol]Racial units lose 600 Morale[br/]Racial colonies lose 9 Happiness[br/]Race events that cost Influence or Energy are no longer available[br/]-300 opinion from players of that race[br/]5[casusBelli/] from players of that race[/fireCol]</Data></Cell><Cell
+          >[fireCol]Racial units lose 600 Morale[br/]Racial colonies lose 9 Happiness[br/]Race events that cost Influence or Energy are no longer available[br/]5[casusBelli/] from players of that race[/fireCol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >[fireCol]种族单位失去 600 士气[br/]种族殖民地失去 9 幸福值[br/]种族事件的影响力和能源消耗将不再可用[br/]从该种族玩家处获得 -300 评价[br/]该种族玩家产生 5[casusBelli/][/fireCol]</Data></Cell><Cell
+          >[fireCol]种族单位失去 600 士气[br/]种族殖民地失去 9 幸福值[br/]消耗影响力和能量的种族事件不再可用[br/]该种族玩家获得 5[casusBelli/][/fireCol]</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -932,7 +937,7 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Compliment the other player. This will improve their opinion of you by 100 [happiness/].</Data></Cell><Cell
+          >Compliment the other player. This will improve their opinion of you by 100 [opinion6/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >赞美其他玩家，这将使其他玩家对你的评价提高 100[happiness/]。</Data></Cell><Cell
@@ -968,8 +973,10 @@
             ss:Type="String"
           >Cannot auto-balance the trade</Data></Cell><Cell><Data
             ss:Type="String"
-          >无法自动平衡交易</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
-        ><Data ss:Type="String">TRADE</Data></Cell><Cell><Data
+          >无法自动平衡交易</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">TRADE</Data></Cell><Cell><Data
             ss:Type="String"
           >GIFT_TITLE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1001,7 +1008,7 @@
             ss:Type="String"
           >GIFT_RELATION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The opinion the opposing player has of you increases by 1[happiness/] for each 10 points of value in your gift.</Data></Cell><Cell
+          >The opinion the opposing player has of you increases by 1 [opinion6/] for each 10 points of value in your gift.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >礼物每拥有 10 价值点数，敌方玩家对你的评价提升 1[happiness/]。</Data></Cell><Cell
@@ -1081,7 +1088,7 @@
             ss:Type="String"
           >DECLINE_TOOLTIP</Data></Cell><Cell><Data
             ss:Type="String"
-          >Decline the trade offer. This will remove the trade deal and will lower the opponent's opinion of you by {INT_value} [anger/].</Data></Cell><Cell
+          >Decline the trade offer. This will remove the trade deal.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >拒绝交易报价。这将移除交易协议并使对手对你的评价降低 {INT_value}[anger/]。</Data></Cell><Cell
@@ -1091,22 +1098,6 @@
           >Shown as a tooltip in the trading interface</Data></Cell><Cell><Data
             ss:Type="String"
           >Decline the trade offer, this will remove the trade deal and will lower the opponent's opinion of you by {INT_value} [anger/].</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">TRADE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DECLINE_NOPENALTY_TOOLTIP</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Decline the trade offer. This will remove the trade deal. Because of the state of your relation, you will not incur an opinion penalty.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >拒绝交易报价。这将移除交易协议。由于你的关系状态，你将不会遭受评价惩罚。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Shown as a tooltip in the trading interface</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Decline the trade offer, this will remove the trade deal. Because of the state of your relation, you will not incur an opinion penalty.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">TRADE</Data></Cell><Cell><Data
@@ -1231,7 +1222,7 @@
             ss:Type="String"
           >Declare war on the opposing commander, this action will decrease your reputation. Because of your Casus Belli on the other commander, your Popular Support will increase as well as that of the enemy.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="30"
+        ss:Height="60"
       ><Cell><Data
             ss:Type="String"
           >CONFIRM_DECLAREWAR_FACTION</Data></Cell><Cell><Data
@@ -1259,7 +1250,7 @@
             ss:Type="String"
           >Shown as header for a pop-up</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="45"
+        ss:Height="60"
       ><Cell><Data ss:Type="String">CONFIRM_IGNOREDEMAND_WAR</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1401,7 +1392,7 @@
             ss:Type="String"
           >Shown as a title to a pop-up</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="75"
+        ss:Height="90"
       ><Cell><Data ss:Type="String">CONFIRM_WARNPLAYER</Data></Cell><Cell><Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
@@ -1740,7 +1731,7 @@
             ss:Type="String"
           >This text mentions multiple people that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="75"
+        ss:Height="90"
       ><Cell><Data ss:Type="String">ANSWER_CALLTOWAR</Data></Cell><Cell><Data
             ss:Type="String"
           >DESCRIPTION_NODECLINE</Data></Cell><Cell><Data
@@ -1810,7 +1801,7 @@
             ss:Type="String"
           >BUTTON_DECLINE_TOOLTIP</Data></Cell><Cell><Data
             ss:Type="String"
-          >Declining will break the relationship and revert back to a non-aggression pact,  yielding a -100 [anger/] opinion penalty as well as reputation penalties for lowering your diplomatic state.</Data></Cell><Cell
+          >Declining will break the relationship and revert back to a non-aggression pact,  yielding a -100 [opinion0/] opinion penalty as well as reputation penalties for lowering your diplomatic state.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >拒绝会破坏你们的关系并退回至互不侵犯协议，造成 -100[anger/]的评价惩罚，同时会使你的外交状态下降并造成声望惩罚。</Data></Cell><Cell
@@ -1833,7 +1824,7 @@
             ss:Type="String"
           >DECLINE_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Declining will cause your relationship to revert to a non-aggression pact. Furthermore, the opinion the other player has of you drops by -100 [anger/].</Data></Cell><Cell
+          >Declining will cause your relationship to revert to a non-aggression pact. Furthermore, the opinion the other player has of you drops by -100 [opinion0/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >拒绝将导致你们的关系退回至互不侵犯协议。此外，该玩家对你的评价 -100[anger/]。</Data></Cell></Row><Row
@@ -1843,7 +1834,7 @@
             ss:Type="String"
           >DECLINE_OVERLORD_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Declining causes the opinion the other player has of you to drop by -100.</Data></Cell><Cell
+          >Declining causes the opinion the other player has of you to drop by -100 [opinion0/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >拒绝将导致该玩家对你的评价 -100。</Data></Cell></Row><Row
@@ -1916,7 +1907,7 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Complimenting the other player costs 10 [influence/] and will improve their opinion of you by 100 [happiness/].</Data></Cell><Cell
+          >Complimenting the other player costs 10 [influence/] and will improve their opinion of you by 100 [opinion6/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >赞美其他玩家将消耗 10 [influence/]，该玩家对你的评价提高 100[happiness/]。</Data></Cell><Cell
@@ -1964,7 +1955,7 @@
             ss:Type="String"
           >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="60"
+        ss:Height="75"
       ><Cell><Data ss:Type="String">WARNPLAYER</Data></Cell><Cell><Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
@@ -2715,7 +2706,7 @@
             ss:Type="String"
           >[fireCol]Despisal[/fireCol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="60"
+        ss:Height="75"
       ><Cell><Data ss:Type="String">COMBATSTRESS_EFFECT</Data></Cell><Cell><Data
             ss:Type="String"
           >L3</Data></Cell><Cell><Data
@@ -2729,7 +2720,7 @@
             ss:Type="String"
           >Breakdown of having a specific popular support status</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="60"
+        ss:Height="75"
       ><Cell><Data ss:Type="String">COMBATSTRESS_EFFECT</Data></Cell><Cell><Data
             ss:Type="String"
           >L2</Data></Cell><Cell><Data
@@ -2743,7 +2734,7 @@
             ss:Type="String"
           >Breakdown of having a specific popular support status</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="60"
+        ss:Height="75"
       ><Cell><Data ss:Type="String">COMBATSTRESS_EFFECT</Data></Cell><Cell><Data
             ss:Type="String"
           >L1</Data></Cell><Cell><Data
@@ -2774,7 +2765,7 @@
             ss:Type="String"
           >No effects and no penalties. You will start receiving bonusses if you increase your Popular Support Level or penalties when your Popular Support Level drops any further.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="60"
+        ss:Height="75"
       ><Cell><Data ss:Type="String">COMBATSTRESS_EFFECT</Data></Cell><Cell><Data
             ss:Type="String"
           >L-1</Data></Cell><Cell><Data
@@ -2788,7 +2779,7 @@
             ss:Type="String"
           >Breakdown of having a specific popular support status</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="60"
+        ss:Height="75"
       ><Cell><Data ss:Type="String">COMBATSTRESS_EFFECT</Data></Cell><Cell><Data
             ss:Type="String"
           >L-2</Data></Cell><Cell><Data
@@ -2802,7 +2793,7 @@
             ss:Type="String"
           >Breakdown of having a specific popular support status</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="60"
+        ss:Height="75"
       ><Cell><Data ss:Type="String">COMBATSTRESS_EFFECT</Data></Cell><Cell><Data
             ss:Type="String"
           >L-3</Data></Cell><Cell><Data
@@ -3003,6 +2994,7 @@
             ss:Type="String"
           >Title for having some Casus Belli points</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="30"
       ><Cell><Data ss:Type="String">CASUSBELLI</Data></Cell><Cell><Data
             ss:Type="String"
           >DESCRIPTION_LEVEL_1</Data></Cell><Cell><Data
@@ -3081,7 +3073,7 @@
             ss:Type="String"
           >Used as an item in lists</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="75"
+        ss:Height="120"
       ><Cell><Data ss:Type="String">VASSAL</Data></Cell><Cell><Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
@@ -3237,15 +3229,15 @@
             ss:Type="String"
           >Do you want to build on this claimed sector?</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="120"
+        ss:Height="135"
       ><Cell><Data ss:Type="String">BUILDONCLAIMED</Data></Cell><Cell><Data
             ss:Type="String"
           >CONFIRMATION_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This sector has already been [hyperlink,000003A600000329]claimed[/hyperlink]. Building here causes other commanders to gain a Casus Belli (5[casusBelli/] points) against you, making it easier for them to declare war on you. Independent factions may demand that you ignore their claims.[br/][br/]The following commanders and factions have claimed this sector:</Data></Cell><Cell
+          >This sector has already been [hyperlink,000003A600000329]claimed[/hyperlink]. Building here causes other commanders to gain a Casus Belli (4[casusBelli/] points) against you, making it easier for them to declare war on you. Independent factions will make demands if you ignore their claims.[br/][br/]The following commanders and factions have claimed this sector:</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该区域已经拥有[hyperlink,000003A600000329]主权[/hyperlink]。在这里进行建造会使其他指挥官获得一个针对你的宣战理由（5[casusBelli/]点数），使他们向你宣战变得更容易。独立阵营可能因你无视他们的主权而向你发送需求。[br/][br/]该区域由以下指挥官和阵营拥有主权：</Data></Cell><Cell
+          >该区域已拥有[hyperlink,000003A600000329]主权[/hyperlink]。在这里进行建造会使其他指挥官获得一个针对你的宣战理由（5[casusBelli/] 点数），使他们向你宣战变得更容易。独立阵营可能因你无视他们的主权而向你发送需求。[br/][br/]该区域由以下指挥官和阵营占有主权：</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -3272,12 +3264,12 @@
           ss:Index="7"
         ><Data ss:Type="String">Pop-up title</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="120"
+        ss:Height="135"
       ><Cell><Data ss:Type="String">ENTERCLAIMED</Data></Cell><Cell><Data
             ss:Type="String"
           >CONFIRMATION_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This sector has already been [hyperlink,000003A600000329]claimed[/hyperlink]. Capturing it causes other commanders to gain a Casus Belli (5[casusBelli/] points) against you, making it easier for them to declare war on you. Independent factions may demand compensation for ignoring their claims[br/][br/]The following commanders and factions have claimed this sector:</Data></Cell><Cell
+          >This sector has already been [hyperlink,000003A600000329]claimed[/hyperlink]. Capturing it causes other commanders to gain a Casus Belli (4[casusBelli/] points) against you, making it easier for them to declare war on you. Independent factions may demand compensation for ignoring their claims[br/][br/]The following commanders and factions have claimed this sector:</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >该区域已经拥有[hyperlink,000003A600000329]主权[/hyperlink]。攻占此处会使其他指挥官获得一个针对你的宣战理由（5[casusBelli/]点数），使他们向你宣战变得更容易。独立阵营可能会因你无视他们的所有权而向你发送需求[br/][br/]该区域由以下指挥官和阵营拥有主权：</Data></Cell><Cell
@@ -3374,9 +3366,10 @@
             ss:Type="String"
           >无法执行敌对行动</Data></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
-          >Pop-up title</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
-            ss:Type="String"
-          >CONFIRM_CALLTOARMS</Data></Cell><Cell><Data
+          >Pop-up title</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CONFIRM_CALLTOARMS</Data></Cell><Cell><Data
             ss:Type="String"
           >TITLE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -3387,7 +3380,7 @@
             ss:Type="String"
           >Are you sure you want to call this ally to arms?</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="75"
+        ss:Height="135"
       ><Cell><Data ss:Type="String">CONFIRM_CALLTOARMS</Data></Cell><Cell><Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
@@ -3663,7 +3656,7 @@
             ss:Type="String"
           >Faction Relation Morale Increase (+200)</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="30"
+        ss:Height="45"
       ><Cell><Data ss:Type="String">UNIT_MORALE_INCREASE</Data></Cell><Cell
         ><Data ss:Type="String">SCREEN_DESC_FACTION_DEFENSIVE</Data></Cell><Cell
         ><Data
@@ -3818,12 +3811,12 @@
             ss:Type="String"
           >Shown as title to a message. This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="60"
+        ss:Height="90"
       ><Cell><Data ss:Type="String">SECTORCLAIMIGNORED</Data></Cell><Cell><Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >{STR_leaderName} has captured {STR_sectorName}. Because of your claims on this sector, you have gained a Casus Belli (5[casusBelli/] points) on {STR_leaderName}, allowing you to declare war on them with Popular Support.</Data></Cell><Cell
+          >{STR_leaderName} has captured {STR_sectorName}. Because of your claims on this sector, you have gained a Casus Belli (4[casusBelli/] points) on {STR_leaderName}, allowing you to declare war on them with Popular Support.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >{STR_leaderName}夺取了{STR_sectorName}。由于你拥有该区域的主权，因此你获得了针对{STR_leaderName}的宣战理由（5[casusBelli/]点数）。这可以使你在拥有民众支持的情况下向其宣战。</Data></Cell><Cell
@@ -4231,6 +4224,7 @@
             ss:Type="String"
           >Shown in tooltips when operations cannot be used in the fixed teams game mode.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="45"
       ><Cell><Data ss:Type="String">TRADE</Data></Cell><Cell><Data
             ss:Type="String"
           >VERY_GOOD_DEAL</Data></Cell><Cell><Data
@@ -4244,6 +4238,7 @@
             ss:Type="String"
           >Deal as in trade offer, where good indicates a profitable trade deal which is good for the person viewing the trade, e.g. a very good trade deal</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="45"
       ><Cell><Data ss:Type="String">TRADE</Data></Cell><Cell><Data
             ss:Type="String"
           >GOOD_DEAL</Data></Cell><Cell><Data
@@ -4257,6 +4252,7 @@
             ss:Type="String"
           >Deal as in trade offer, where good indicates a profitable trade deal which is good for the person viewing the trade, e.g. a very good trade deal</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="45"
       ><Cell><Data ss:Type="String">TRADE</Data></Cell><Cell><Data
             ss:Type="String"
           >FAIR_DEAL</Data></Cell><Cell><Data
@@ -4270,6 +4266,7 @@
             ss:Type="String"
           >Deal as in trade offer, where good indicates a profitable trade deal which is good for the person viewing the trade, e.g. a very good trade deal</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="45"
       ><Cell><Data ss:Type="String">TRADE</Data></Cell><Cell><Data
             ss:Type="String"
           >BAD_DEAL</Data></Cell><Cell><Data
@@ -4283,6 +4280,7 @@
             ss:Type="String"
           >Deal as in trade offer, where good indicates a profitable trade deal which is good for the person viewing the trade, e.g. a very good trade deal</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="45"
       ><Cell><Data ss:Type="String">TRADE</Data></Cell><Cell><Data
             ss:Type="String"
           >VERY_BAD_DEAL</Data></Cell><Cell><Data
@@ -4302,8 +4300,10 @@
             ss:Type="String"
           >Increase diplomatic state?</Data></Cell><Cell><Data
             ss:Type="String"
-          >提升外交状态？</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
-        ><Data ss:Type="String">CONFIRM_ALLIANCE</Data></Cell><Cell><Data
+          >提升外交状态？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">CONFIRM_ALLIANCE</Data></Cell><Cell><Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -4312,6 +4312,7 @@
             ss:Type="String"
           >提升你和该玩家的外交状态意味着他们将能够在需要的时候召唤你向其他玩家开战：[br/]{STR_playerNames}</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="45"
       ><Cell><Data ss:Type="String">DENOUNCE</Data></Cell><Cell><Data
             ss:Type="String"
           >TOOLTIP_NOOTHERPLAYERS</Data></Cell><Cell><Data
@@ -4325,6 +4326,7 @@
             ss:Type="String"
           >Used to explain that denouncing the player is only effective if there are any other players (alive) in the current game.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="90"
       ><Cell><Data ss:Type="String">CANTBREAKTREATY</Data></Cell><Cell><Data
             ss:Type="String"
           >TITLE</Data></Cell><Cell><Data
@@ -4338,6 +4340,7 @@
             ss:Type="String"
           >Shown as a title to a pop-up</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="45"
       ><Cell><Data ss:Type="String">TRADE_AI_DECLINE</Data></Cell><Cell><Data
             ss:Type="String"
           >JUSTMET</Data></Cell><Cell><Data
@@ -4351,6 +4354,7 @@
             ss:Type="String"
           >Show in a tooltip to explain why another player will not accept a trade option</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="45"
       ><Cell><Data ss:Type="String">TRADE_AI_DECLINE</Data></Cell><Cell><Data
             ss:Type="String"
           >WONTBREAKUPCOLONY</Data></Cell><Cell><Data
@@ -4364,6 +4368,7 @@
             ss:Type="String"
           >Show in a tooltip to explain why another player will not accept a trade option</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="45"
       ><Cell><Data ss:Type="String">TRADE_AI_DECLINE</Data></Cell><Cell><Data
             ss:Type="String"
           >DIPLOMATICCOOLDOWN</Data></Cell><Cell><Data
@@ -4377,6 +4382,7 @@
             ss:Type="String"
           >Show in a tooltip to explain why another player will not accept a trade option</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="45"
       ><Cell><Data ss:Type="String">TRADE_AI_DECLINE</Data></Cell><Cell><Data
             ss:Type="String"
           >TREATYCOOLDOWN</Data></Cell><Cell><Data
@@ -4390,6 +4396,7 @@
             ss:Type="String"
           >Show in a tooltip to explain why another player will not accept a trade option</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="30"
       ><Cell><Data ss:Type="String">TRADE_AI_DECLINE</Data></Cell><Cell><Data
             ss:Type="String"
           >COLONYTOOVALUABLE</Data></Cell><Cell><Data
@@ -4403,6 +4410,7 @@
             ss:Type="String"
           >Show in a tooltip to explain why another player will not accept a trade option</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="45"
       ><Cell><Data ss:Type="String">TRADE_AI_DECLINE</Data></Cell><Cell><Data
             ss:Type="String"
           >SECTORCOOLDOWN</Data></Cell><Cell><Data
@@ -4416,6 +4424,7 @@
             ss:Type="String"
           >Show in a tooltip to explain why another player will not accept a trade option</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="30"
       ><Cell><Data ss:Type="String">TRADE_AI_DECLINE</Data></Cell><Cell><Data
             ss:Type="String"
           >ALREADYHASTREATY</Data></Cell><Cell><Data
@@ -4429,19 +4438,21 @@
             ss:Type="String"
           >Show in a tooltip to explain why another player will not accept a trade option</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="75"
       ><Cell><Data ss:Type="String">TRADE_AI_DECLINE</Data></Cell><Cell><Data
             ss:Type="String"
           >DISLIKECOOLDOWN</Data></Cell><Cell><Data
             ss:Type="String"
-          >This player is not ready to forget their dislikes, wait {INT_turns}[turn/] before trying to overcome the dislikes they have.</Data></Cell><Cell
+          >This player is not ready to forget their dislikes, wait {INT_turns}[turn/] before trying to overcome the dislikes they have. This duration is reset if either player declares war on the other.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该玩家还没有准备好忘记厌恶，需要等待 {INT_turns}[turn/]才能尝试克服他们的厌恶。</Data></Cell><Cell
+          >这名玩家还没有打算停止对你的厌恶，需要等待 {INT_turns}[turn/] 才能尝试转变其态度。在此期间，如果任何一方玩家向另一方玩家宣战，此回合计数将会重置。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
           >Show in a tooltip to explain why another player will not accept a trade option</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="60"
       ><Cell><Data ss:Type="String">DIPLOMATIC_STATE</Data></Cell><Cell><Data
             ss:Type="String"
           >PENDINGSTATE</Data></Cell><Cell><Data
@@ -4452,6 +4463,7 @@
             ss:Type="String"
           >Shown in a sentence behind the diplomatic state when the diplomatic state is about to change automatically during the next turn. E.g. "Diplomatic state: Alliance (change pending)"</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="75"
       ><Cell><Data ss:Type="String">DIPLOMATIC_STATE_DESC</Data></Cell><Cell
         ><Data ss:Type="String">PENDINGSTATE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -4464,6 +4476,7 @@
             ss:Type="String"
           >Explains to the player that there is a pending diplomatic state change that will change the state of the relation to {STR_state}. STR_State is filled out by one of the DIPLOMATIC_STATE entries, for example Alliance.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="60"
       ><Cell><Data ss:Type="String">CASUSBELLI</Data></Cell><Cell><Data
             ss:Type="String"
           >CAP_REACHED</Data></Cell><Cell><Data
@@ -4474,6 +4487,7 @@
             ss:Type="String"
           >Shown at the end of a casus belli name when a player cannot get any more casus belli points for a specific type. For example: "6 x PLAYERNAME trespassed in my domain (Cap reached)"</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="30"
       ><Cell><Data ss:Type="String">OVERLORD</Data></Cell><Cell><Data
             ss:Type="String"
           >INCOME</Data></Cell><Cell><Data
@@ -4500,9 +4514,10 @@
             ss:Type="String"
           >Veterans</Data></Cell><Cell><Data
             ss:Type="String"
-          >沉于世故</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
-            ss:Type="String"
-          >DISLIKE_REASON</Data></Cell><Cell><Data
+          >沉于世故</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DISLIKE_REASON</Data></Cell><Cell><Data
             ss:Type="String"
           >SKILLED_DIPLOMAT</Data></Cell><Cell><Data
             ss:Type="String"
@@ -4512,6 +4527,7 @@
             ss:Type="String"
           >A bonus gained from Skilled Diplomat perk. Please translate consistently.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="30"
       ><Cell><Data ss:Type="String">DISLIKE_REASON</Data></Cell><Cell><Data
             ss:Type="String"
           >MARTIAL_TRADITION</Data></Cell><Cell><Data
@@ -4592,9 +4608,10 @@
             ss:Type="String"
           >Trade analysis:</Data></Cell><Cell><Data
             ss:Type="String"
-          >交易分析：</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
-            ss:Type="String"
-          >TRADE</Data></Cell><Cell><Data
+          >交易分析：</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">TRADE</Data></Cell><Cell><Data
             ss:Type="String"
           >HISTORY_UNAVAILABLE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -4607,6 +4624,7 @@
             ss:Type="String"
           >Shown in a tooltip when the trade history is unavailable for a specific trade.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="45"
       ><Cell><Data ss:Type="String">ALIGNMENT_EFFECT</Data></Cell><Cell><Data
             ss:Type="String"
           >CASUSBELLI</Data></Cell><Cell><Data
@@ -4616,6 +4634,7 @@
             ss:Type="String"
           >[fireCol]{INT_value}[casusbelli/][largeTab/]其他指挥官获得 {INT_value}[casusBelli/] 宣战理由点数[/fireCol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="30"
       ><Cell><Data ss:Type="String">ALIGNMENT_EFFECT</Data></Cell><Cell><Data
             ss:Type="String"
           >DWELLING_SHOP_REDUCTION</Data></Cell><Cell><Data
@@ -4625,6 +4644,7 @@
             ss:Type="String"
           >[xpCol]+{INT_value}%[largeTab/]居住地商店消耗减少[/xpCol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="30"
       ><Cell><Data ss:Type="String">ALIGNMENT_EFFECT</Data></Cell><Cell><Data
             ss:Type="String"
           >DWELLING_SHOP_INCREASE</Data></Cell><Cell><Data
@@ -4648,9 +4668,10 @@
             ss:Type="String"
           >Defending location</Data></Cell><Cell><Data
             ss:Type="String"
-          >防守地点</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
-            ss:Type="String"
-          >CALLTOARMS</Data></Cell><Cell><Data
+          >防守地点</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
             ss:Type="String"
           >BUTTON_CHANGETARGET</Data></Cell><Cell><Data
             ss:Type="String"
@@ -4682,9 +4703,10 @@
             ss:Type="String"
           >Attack this location</Data></Cell><Cell><Data
             ss:Type="String"
-          >攻击此地点</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
-            ss:Type="String"
-          >CALLTOARMS</Data></Cell><Cell><Data
+          >攻击此地点</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
             ss:Type="String"
           >UPDATE_REACHED_DEFENSIVE_POSITION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -4697,6 +4719,7 @@
             ss:Type="String"
           >Message response from the other player when asking the current status of the attack request. - The player cancels the attack</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="45"
       ><Cell><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
             ss:Type="String"
           >UPDATE_COMPLETED</Data></Cell><Cell><Data
@@ -4731,8 +4754,10 @@
             ss:Type="String"
           >Focus on this location?</Data></Cell><Cell><Data
             ss:Type="String"
-          >专注于这个地点？</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
-        ><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
+          >专注于这个地点？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
             ss:Type="String"
           >INFO_SELECTSTRUCTURE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -4750,6 +4775,7 @@
             ss:Type="String"
           >[fireCol]无法以建筑为目标[/fireCol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="30"
       ><Cell><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
             ss:Type="String"
           >INFO_VALID_ATTACK_TARGET</Data></Cell><Cell><Data
@@ -4759,6 +4785,7 @@
             ss:Type="String"
           >[xpCol]无法攻击此建筑{STR_buttontag}[/xpCol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="30"
       ><Cell><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
             ss:Type="String"
           >INFO_VALID_DEFEND_TARGET</Data></Cell><Cell><Data
@@ -4777,6 +4804,7 @@
             ss:Type="String"
           >战争协调持续 {INT_turns}[turn/] 回合。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="75"
       ><Cell><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
             ss:Type="String"
           >INFO_CASTINSTRUCTIONS</Data></Cell><Cell><Data
@@ -4792,19 +4820,228 @@
             ss:Type="String"
           >Show where we met</Data></Cell><Cell><Data
             ss:Type="String"
-          >显示我们初次相遇的地方</Data></Cell></Row><Row><Cell><Data
+          >显示我们初次相遇的地方</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">INFLUENCE</Data></Cell><Cell><Data
             ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+          >INFLUENCECOOLDOWN</Data></Cell><Cell><Data
             ss:Type="String"
-          /></Cell><Cell ss:Index="7"><Data
+          >You already influenced this player recently, you can influence them again in {INT_turns}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你已在本回合中影响过该玩家，需等待 {INT_turns}[turn/] 才能再次对其造成影响。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Shown as a header in a pop-up window</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">TRADE_AI_DECLINE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PLANINCOMPATIBLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The player doesn't like you enough to accept a better diplomatic state.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这名玩家对你的接受程度不支持更高的外交状态。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Show in a tooltip to explain why another player will not accept a trade option</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NOTWHILEVASSAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You cannot perform this action while you are a vassal of the other player.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >如果你是另一位玩家的封臣，则无法执行该行动。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Used as tooltip</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FEEDBACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FORESHADOW_POSITIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Negotiate with this commander to improve relations.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >与该指挥官进行谈判以改善关系。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FEEDBACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FORESHADOW_NEGATIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Send a compliment or negotiate a trade to avoid relations getting worse.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发送赞美或进行交易以避免关系恶化。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FEEDBACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FORESHADOW_WAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This commander may declare war soon, improve the relation to try to avoid war.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该指挥官可能会很快宣战，改善关系以避免战争。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FEEDBACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FORESHADOW_END_OF_WAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Negotiate a truce with this commander to improve relations.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >与该指挥官谈判休战以改善关系。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FEEDBACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NEGLECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Actively engage in diplomacy to maintain relations.</Data></Cell><Cell
+        ><Data ss:Type="String">积极从事外交以维护关系。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FEEDBACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WARNED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Avoid generating Casus Belli for this commander if you want to maintain positive relations.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >如果您想保持积极的关系，请避免为该指挥官生成宣战理由。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FEEDBACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TREATY_FORMED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A new treaty was formed. Review treaties in the treaties list to the right.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >形成了新条约，在右边的条约列表中查看条约。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">FEEDBACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You are now at war with this commander! Most diplomatic interactions are disabled until a truce is formed.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你现在正在与该指挥官交战！在休战达成之前，大部分外交活动被禁止。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FEEDBACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TRADE_FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The negotiation failed. The same negotiation can be proposed in 3 turns.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >协商失败。在3个回合后，可进行同样的协商。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">FEEDBACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >OPINION_CHANGED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_color1Open}This commander’s opinion of you has changed by {INT_value1}.{STR_color1Close}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_color1Open}该指挥官对你的看法改变了 {INT_value1}.{STR_color1Close}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">FEEDBACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >OPINION_CHANGED_PERSONALITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_color1Open}This commander’s opinion of you has changed by {INT_value1} due to their personality trait.{STR_color1Close}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_color1Open}该指挥官对你的看法改变了 {INT_value1} 由于他们的人格特质{STR_color1Close}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">FEEDBACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INSULT_RECEIVED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_color1Open}This commander’s opinion of you has changed by {INT_value1}.{STR_color1Close}[br/]{STR_color2Open} You have gained {INT_value2} Casus Belli on this commander.{STR_color2Close}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_color1Open}该指挥官对你的看法改变了{INT_value1}.{STR_color1Close}[br/]{STR_color2Open} 你赢得了{INT_value2} 对该指挥官宣战理由。{STR_color2Close}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FEEDBACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASUSBELLI_GAINED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_color1Open} You have gained {INT_value1} Casus Belli on this commander.{STR_color1Close}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_color1Open} 你赢得了 {INT_value1} 对该指挥官宣战理由。{STR_color1Close}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FEEDBACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CASUSBELLI_GAINED_OTHER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_color1Open}This commander has gained {INT_value1} Casus Belli on you.{STR_color1Close}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_color1Open}该指挥官赢得了{INT_value1} 对你的宣战理由.{STR_color1Close}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">FEEDBACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >OTHER_OPINIONS_CHANGED_AGAINST_YOU</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_color1Open}All commanders’ opinions of you have changed by {INT_value1}.{STR_color1Close}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_color1Open}所有的指挥官对你的看法改变了{INT_value1}.{STR_color1Close}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">FEEDBACK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >OTHER_OPINIONS_CHANGED_AGAINST_OTHER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_color1Open}All commanders’ opinions of this commander have changed by {INT_value1}.{STR_color1Close}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_color1Open}所有的指挥官对你的看法改变了{INT_value1}.{STR_color1Close}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CASUSBELLI</Data></Cell><Cell><Data
+            ss:Type="String"
+          >AGAINST_YOU</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Casus Belli against you</Data></Cell><Cell><Data
+            ss:Type="String"
+          >针对你的宣战理由</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown in tooltip as: "Casus Belli against you: Minor (3 points)"</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
             ss:Type="String"
           >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
     ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
         >600</HorizontalResolution><VerticalResolution
         >600</VerticalResolution></Print><Zoom>145</Zoom><Selected
-      /><TopRowVisible>89</TopRowVisible><Panes><Pane><Number
-          >3</Number><ActiveRow>96</ActiveRow><ActiveCol
-          >4</ActiveCol></Pane></Panes><ProtectObjects
+      /><TopRowVisible>401</TopRowVisible><LeftColumnVisible
+      >1</LeftColumnVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >403</ActiveRow><ActiveCol>2</ActiveCol></Pane></Panes><ProtectObjects
       >False</ProtectObjects><ProtectScenarios
       >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

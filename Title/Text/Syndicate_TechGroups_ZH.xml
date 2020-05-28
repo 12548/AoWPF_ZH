@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>9990</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -108,10 +108,10 @@
             ss:Type="String"
           >GOVERNANCE_SKILL_3_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Mutual trust is important amongst allies, but complete trust is a fallacy, so we must keep them on a leash and feed them false information in return for their data.[br/][br/]You do not suffer from the negative effects of having an intelligence sharing pact with other players. In addition, all Colonies get {OperationDefense} against Covert Operations.</Data></Cell><Cell
+          >Mutual trust is important amongst allies, but complete trust is a fallacy, so we must keep them on a leash and feed them false information in return for their data.[br/][br/]You do not suffer from the negative effects of having an intelligence sharing pact with other players. In addition, you get {OperationDefense}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >盟友之间相互信任非常重要，但决不能完全信任，所以我们必须妥善地处理盟友关系，用虚假的情报换取他们的数据。[br/][br/]与其他玩家签订情报共享协议时不会遭受负面效果。另外，所有殖民地对抗隐秘行动时获得 {OperationDefense}。</Data></Cell></Row><Row
+          >盟友之间相互信任非常重要，但绝不能完全信任，所以我们必须妥善地处理盟友关系，用虚假的情报换取他们的数据。[br/][br/]与其他玩家签订情报共享协议时不会遭受负面效果。另外，你获得 {OperationDefense}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -126,10 +126,10 @@
             ss:Type="String"
           >GOVERNANCE_SKILL_4_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >We can easily trigger wars far away from our borders to distract our enemies and leave us free reign. All we have to do is point them in the right direction.[br/][br/]You get {OperationalStrength} for Covert Ops. In addition, covert operations are now {StrategicCostModifier} cheaper.</Data></Cell><Cell
+          >We can easily trigger wars far away from our borders to distract our enemies and leave us free reign. All we have to do is point them in the right direction.[br/][br/]You get {OperationalStrength}. In addition, covert operations are now {StrategicCostModifier} cheaper.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >我们可以轻而易举地在我们边境远方挑起战火，从而分散敌人的注意力，保护自身周全。我们需要做的，仅仅是正确地引导他们一下。[br/][br/]进行隐秘行动时获得 {OperationalStrength}，另外，隐秘行动消耗降低 {StrategicCostModifier}。</Data></Cell></Row><Row
+          >我们可以在远离我们边境的地方挑起战火来分散敌人的注意力，从而保护自身周全。我们只需要把他们引向正确的位置。[br/][br/]你获得 {OperationalStrength}。另外，隐秘行动消耗降低 {StrategicCostModifier}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -556,6 +556,15 @@
         ><Data
             ss:Type="String"
           >此单位的视野范围被缩小{Visionreduction}单元格，持续{PulsBeamCannonDuration}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DIVERSION_PROJECTOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is [abilityred]Blinded[/abilityred], decreasing accuracy by {BlindPercentage}% and cannot use overwatch. Additionally when this unit is attacked from the flanks, it takes damage as if it had gained a -{ResistanceDown} resistance to damage channels.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位受到[abilityred]致盲[/abilityred]，准度降低 {BlindPercentage}% 且无法使用警戒。另外，如果单位受到包抄攻击，则在计算伤害时的伤害抵抗 -{ResistanceDown}。</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell

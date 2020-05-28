@@ -13,9 +13,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -104,10 +104,10 @@ EssenceAmount numbers the quantity of essence charges this unit can carry.</Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit can carry up to {EssenceAmount}[EssenceCharge/] [abilityblue]Essence Charges[/abilityblue].[br/]When this unit kills another with an ability that doesn't spend Essence, it consumes the corpse and gains {EssenceGain}[EssenceCharge/][abilityblue]Essence Charge[/abilityblue] and heals for {HealAmount}[hp/].[br/][br/]This unit and all friendly units gain +{ShieldAmount}[shield/] per active [EssenceCharge/][abilityblue]Essence Charge[/abilityblue], up to a maximum of +{MaxShields}[shield/].</Data></Cell><Cell
+          >This unit can carry up to {EssenceAmount}[EssenceCharge/] [abilityblue]Essence Charges[/abilityblue].[br/]When this unit kills another using an ability that doesn't spend Essence, it consumes the corpse, gaining {EssenceGain}[EssenceCharge/][abilityblue]Essence Charge[/abilityblue] and healing for {HealAmount}[hp/].[br/][br/]All friendly units without this ability gain +{ShieldAmount}[shield/] per active [EssenceCharge/][abilityblue]Essence Charge[/abilityblue], up to a maximum of +{MaxShields}[shield/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位最多能够拥有 {EssenceAmount}[EssenceCharge/][abilityblue]精华充能[/abilityblue]。[br/]当该单位使用无需消耗精华的技能击杀敌人时，能够吞噬敌人的尸体，获得 {EssenceGain}[EssenceCharge/][abilityblue]精华充能[/abilityblue]并治疗 {HealAmount}[hp/]。[br/][br/]每有一个激活的 [EssenceCharge/][abilityblue]精华充能[/abilityblue]，该单位及所有友方单位获得 +{MaxShields}[shield/]，最多获得 +{ShieldAmount}[shield/]。</Data></Cell><Cell
+          >该单位最多能够拥有 {EssenceAmount}[EssenceCharge/] [abilityblue]精华充能[/abilityblue]。[br/]当该单位使用无需消耗精华的技能击杀敌人时，能够吞噬敌人的尸体，获得 {EssenceGain}[EssenceCharge/] [abilityblue]精华充能[/abilityblue]并治疗 {HealAmount}[hp/]。[br/][br/]每激活一个 [EssenceCharge/][abilityblue]精华充能[/abilityblue]，所有没有该技能的友方单位获得 +{ShieldAmount}[shield/]，最多获得 +{MaxShields}[shield/]。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -807,56 +807,7 @@ EssenceAmount numbers the quantity of essence charges this unit can carry.</Data
           ss:Index="7"
         ><Data
             ss:Type="String"
-          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
-      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row></Table><WorksheetOptions
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
     ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
         >600</HorizontalResolution><VerticalResolution

@@ -1,0 +1,386 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Glenn Smits</LastAuthor><LastSaved>2019-11-22T11:26:56Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>10920</WindowHeight><WindowWidth>19365</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="117" /><Column
+        ss:StyleID="s62"
+        ss:Width="112.5"
+      /><Column ss:StyleID="s62" ss:Width="277.5" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="191.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="120"
+      /><Row ss:AutoFitHeight="0" ss:Height="150"><Cell><Data
+            ss:Type="String"
+          >RMG_DLC04</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Text surounded by {} or [] are special tags for code. These tag will be replaced with other text eg: the name of a player. The tags should NOT be localized. They represent the place in the sentens for their replacing string. Some {} tags start with STR or INT. STR means it will be replaced with text, INT means it will be replaced with a numerical value  </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">GEOGRAPHY_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Conquered World</Data></Cell><Cell><Data
+            ss:Type="String"
+          >征服的世界</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of a world / planet template that can be selected when the player is customizing the type of planet they want to play on.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">GEOGRAPHY_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_SUBTITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >One Commander with extra resources is pitted against a team of others.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一名拥有额外资源的指挥官将与另一队指挥官展开较量。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Description of the world/ planet template. Used as flavor and to give the player an idea of what the gameplay on such a planet is like. EDIT: added full stop, no reloca required</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_1}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_1}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_2}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_2}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_3}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_3}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_4}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_4}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_5}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_5}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_6}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_6}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_7</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_7}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_7}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_8</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_8}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_8}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_9</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_9}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_9}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_10</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_10}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_10}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_11</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_11}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_11}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_12</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_12}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_12}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_13</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_13}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_13}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_14</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_14}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_14}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_15</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_15}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_15}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_16</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_16}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_16}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_17</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_17}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_17}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_18</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_18}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_18}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_19</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_19}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_19}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_20</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_20}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_20}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_21</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_21}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_21}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_22</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_22}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_22}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_23</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_23}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_23}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_24</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_24}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_24}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_25</Data></Cell><Cell
+          ss:HRef="mailto:%7BXML_RMG@PLANET_NAME@TOMB_25%7D"
+        ><Data ss:Type="String">{XML_RMG@PLANET_NAME@TOMB_25}</Data></Cell><Cell
+        ><Data ss:Type="String">{XML_RMG@PLANET_NAME@TOMB_25}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Do not localize</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_26</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_26}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_26}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_27</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_27}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_27}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_28</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_28}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_28}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_29</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_29}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_29}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_30</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_30}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@TOMB_30}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_31</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@CAPITAL_31}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@CAPITAL_31}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Do not localize</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLANET_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED_32</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@CAPITAL_32}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_RMG@PLANET_NAME@CAPITAL_32}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Do not localize</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Selected /><Panes><Pane><Number>3</Number><ActiveRow
+          >3</ActiveRow><ActiveCol>2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

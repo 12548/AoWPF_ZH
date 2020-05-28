@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -134,10 +134,10 @@
             ss:Type="String"
           >STATUS_EFFECT_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit deals an additional {DamageBonusPercentage} damage and is {EvasionPercentage} harder to hit with ranged attacks.</Data></Cell><Cell
+          >This unit deals an additional {DamageBonusPercentage}% damage and is {EvasionPercentage}% harder to hit with ranged attacks.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位额外造成 {DamageBonusPercentage} 伤害，被远程攻击命中的难度增加 {EvasionPercentage}。</Data></Cell></Row><Row
+          >该单位额外造成 {DamageBonusPercentage}% 伤害，且被远程攻击命中的难度增加 {EvasionPercentage}%。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">CLUSTER_SHELL</Data></Cell><Cell><Data
             ss:Type="String"

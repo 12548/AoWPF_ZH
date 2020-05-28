@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -177,11 +177,11 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >Channeling their Psionic powers, this unit teleports themselves, spreading a cloud of obscuring smoke in a 1 hex radius around the target hex's location. Units inside that area are {ObscuredPercentage} harder to hit.</Data></Cell><Cell
+          >Channeling their Psionic powers, this unit teleports, spreading a cloud of obscuring smoke in a 1 hex radius around the target hex's location. Units inside that area are {ObscuredPercentage} harder to hit.</Data></Cell><Cell
           ss:StyleID="s63"
         ><Data
             ss:Type="String"
-          >该单位引导灵能之力进行传送，在目标单元格地点周围 1 个单元格范围内散播迷盲烟幕，位于烟雾中的单位命中难度增加 {ObscuredPercentage}。</Data></Cell><Cell
+          >该单位引导灵能之力进行传送，在目标单元格地点周围 1 个单元格范围内散播遮挡视线的烟雾。烟雾中的单位命中难度增加 {ObscuredPercentage}。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /><Cell ss:StyleID="s64"><Data
@@ -341,10 +341,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Psionic attacks from this unit leave a debuff on their target, making that unit {accdown} easier to hit.[br/]Psionic buffs from this unit now make friendly units {accup} harder to hit.</Data></Cell><Cell
+          >Psionic attacks make units {accdown} easier to hit.[br/][br/]Psionic buffs make friendly units {accup} harder to hit.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位造成的灵能攻击会在目标身上留下一个减益，使目标单位的命中难度降低 {accdown}。[br/]来自该单位的灵能增益现在可以让友方单位的命中难度增加 {accup}。</Data></Cell></Row><Row
+          >灵能攻击使单位的命中难度降低 {accdown}。[br/][br/]灵能增益使友方单位的命中难度增加 {accup}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">MANTRA_OF_CLARITY</Data></Cell><Cell><Data
             ss:Type="String"
@@ -407,20 +407,20 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Psionic buffs now also heal units for {LifeHealAmount} and grant them {LifeShields} for {Lifeturns}. This can stack.</Data></Cell><Cell
+          >Psionic attacks heal the caster for {HealthAmount}[hp/] on use.[br/][br/]Psionic buffs grant {LifeShields}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >灵能增益现在能够治疗单位 {LifeHealAmount} 并赋予单位 {LifeShields}，持续 {Lifeturns}。可叠加。</Data></Cell></Row><Row
+          >灵能攻击会治疗施法者 {HealthAmount}[hp/]。[br/][br/]灵能增益赋予 {LifeShields}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">MANTRA_OF_LIFE</Data></Cell><Cell><Data
             ss:Type="String"
           >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Targeted units heal {LifeHealAmount} and gain {LifeShields} for {Lifeturns}.</Data></Cell><Cell
+          >Target units gain {LifeShields} for {Lifeturns}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >目标单位获得 {LifeHealAmount} 治疗并获得 {LifeShields}，持续 {Lifeturns}。</Data></Cell></Row><Row
+          >目标单位获得 {LifeShields}，持续 {Lifeturns}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">MANTRA_OF_LIFE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -444,10 +444,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Psionic attacks are empowered with flame, dealing Thermal damage and have a 12[strengththermal/] strength chance (8[strengththermal/] for repeating attacks) to apply [abilityred]Burning[/abilityred].[br/]Psionic buffs increase Thermal Resistance by 6[DefenseThermal/].[br/][br/][productioncol]Only one Focus mod can be active at a time.[/productioncol]</Data></Cell><Cell
+          >Psionic attacks are empowered with flame, dealing Thermal damage and have a 12[strengththermal/] strength chance (8[strengththermal/] for repeating attacks) to apply [abilityred]Burning[/abilityred], but attacks will only bypass 2[armor/].[br/]Psionic buffs increase Thermal Resistance by 4[DefenseThermal/].[br/][br/][productioncol]Only one Focus mod can be active at a time.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >灵能攻击经过烈焰强化，造成热能伤害并有 12[strengththermal/] 力量几率（重复攻击有 8[strengththermal/] 几率）施加[abilityred]燃烧[/abilityred]。[br/]灵能增益提升 6[DefenseThermal/] 热能抵抗。[br/][br/][productioncol]一次只能激活一个专注模块。[/productioncol]</Data></Cell><Cell
+          >灵能攻击经过烈焰强化，造成热能伤害并有 12[strengththermal/] 力量几率（多次攻击有 8[strengththermal/] 几率）施加[abilityred]燃烧[/abilityred]，但此类攻击只会忽视 2[armor/]。[br/]灵能增益提升 4[DefenseThermal/] 热能抵抗。[br/][br/][productioncol]一次只能激活一个专注模块。[/productioncol]</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s65"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
@@ -491,10 +491,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Psionic attacks are infused with acid, dealing Biochemical damage and have a 12[strengthbio/] strength chance (8[strengthbio/] for repeating attacks) to apply [abilityred]Poison[/abilityred].[br/]Psychic buffs increase Biochemical resistance by 6[DefenseBio/].[br/][br/][productioncol]Only one Focus mod can be active at a time.[/productioncol]</Data></Cell><Cell
+          >Psionic attacks are infused with acid, dealing Biochemical damage and have a 12[strengthbio/] strength chance (8[strengthbio/] for repeating attacks) to apply [abilityred]Poison[/abilityred], but attacks will only bypass 2[armor/].[br/]Psychic buffs increase Biochemical resistance by 4[DefenseBio/].[br/][br/][productioncol]Only one Focus mod can be active at a time.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >灵能攻击中注入了酸液，造成生化伤害并拥有 12[strengthbio/] 力量几率（重复攻击有 8[strengthbio/] 几率）施加[abilityred]中毒[/abilityred]。[br/]灵能增益提升 6[DefenseBio/] 生化抵抗。[br/][br/][productioncol]一次只能激活一个专注模块。[/productioncol]</Data></Cell><Cell
+          >为灵能攻击注入酸液，造成生化伤害并拥有 12[strengthbio/] 力量几率（多次攻击有 8[strengthbio/] 几率）施加[abilityred]中毒[/abilityred]，但此类攻击只会忽视 2[armor/]。[br/]灵能增益提升 4[DefenseBio/] 生化抵抗。[br/][br/][productioncol]一次只能激活一个专注模块。[/productioncol]</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s65"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
@@ -711,10 +711,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit is linked to a friendly unit. Any damage dealt to the linked unit is reduced by {absorbPainDamageReduction} and is dealt to this unit instead. This effect lasts until end of combat.</Data></Cell><Cell
+          >This unit is linked to a friendly unit. Any damage dealt to the linked unit is reduced by {absorbPainDamageReduction} and is dealt to this unit instead. This effect lasts until the timer expires or until this unit is staggered.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位正与一个友方单位相连，连接单位受到的所有伤害减少 {absorbPainDamageReduction} 并转由该单位承担，效果持续至战斗结束。</Data></Cell><Cell
+          >该单位正与一个友方单位相连，连接单位受到的所有伤害减少 {absorbPainDamageReduction} 并转由该单位承担，效果持续至计时器失效或该单位被动摇为止。</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s65"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -732,10 +732,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit is linked to a friendly unit. Any damage dealt to this unit is reduced by {absorbPainDamageReduction} and is dealt to the linked unit instead. This effect lasts until end of combat.</Data></Cell><Cell
+          >This unit is linked to a friendly unit. Any damage dealt to this unit is reduced by {absorbPainDamageReduction} and is dealt to the linked unit instead. This effect lasts until the timer expires or until the linked unit is staggered.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位正与一个友方单位相连，受到的所有伤害减少 {absorbPainDamageReduction} 并转移给连接单位，效果持续至战斗结束。</Data></Cell><Cell
+          >该单位正与一个友方单位相连，受到的所有伤害减少 {absorbPainDamageReduction} 并转移给被连接单位承担，效果持续至计时器失效或被连接单位被动摇为止。</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s65"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -1406,9 +1406,9 @@
             ss:Type="String"
           >ABILITY_NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Soul Rend</Data></Cell><Cell><Data
+          >Soul Claw</Data></Cell><Cell><Data
             ss:Type="String"
-          >灵魂撕裂</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          >灵魂利爪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >SOUL_REND</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1416,7 +1416,14 @@
             ss:Type="String"
           >Psionic melee attack.</Data></Cell><Cell><Data
             ss:Type="String"
-          >灵能近战攻击。</Data></Cell></Row><Row><Cell><Data
+          >灵能近战攻击。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MANTRA_OF_LIFE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_ATTACK_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heal {Health}[hp/] on use.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用时治疗 {Health}[hp/]。</Data></Cell></Row><Row><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"

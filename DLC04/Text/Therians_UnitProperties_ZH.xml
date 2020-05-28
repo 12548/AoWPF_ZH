@@ -1,0 +1,919 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author
+    >Arnout Sas</Author><LastAuthor>GameScribes4</LastAuthor><Created
+    >2019-10-11T10:53:00Z</Created><LastSaved
+    >2020-02-07T11:29:13Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>7320</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="242.25"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="210.75" /><Column
+        ss:StyleID="s62"
+        ss:Width="107.25"
+      /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="303"
+        ss:Span="1"
+      /><Column ss:Index="5" ss:StyleID="s62" ss:Width="243" /><Column
+        ss:StyleID="s62"
+        ss:Width="120.75"
+      /><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
+            ss:Type="String"
+          >THERIANS_UNITPROPERTIES</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARC_SLOWING_ACORN_CLOUD</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Electrified Slowing Acorn Cloud</Data></Cell><Cell><Data
+            ss:Type="String"
+          >导电减速橡果云</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">ARC_SLOWING_ACORN_CLOUD</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Units moving through or ending their turn on this hex take {damage}[damagewave/] and have a {strengthchance}[strengthbio/] chance to become [abilityred]Slowed[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >穿过或在该单元格结束回合的单位受到 {damage}[damagewave/] 伤害，并有 {strengthchance}[strengthbio/] 几率被[abilityred]减速[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIO_BOMB</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bio Acorn</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生物橡果</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BIO_BOMB</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Throw a Biochemical acorn grenade.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >投掷一枚生物橡果手雷。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIOCHEMICAL_SHOTGUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Biochemical Shotgun</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化霰弹枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BIOCHEMICAL_SHOTGUN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a Biochemical Shotgun at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用生化霰弹枪攻击目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIOCHEMICAL_SNIPERRIFLE</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Viral Precision Shot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >病毒精确射击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BIOCHEMICAL_SNIPERRIFLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a viral round at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向目标发射病毒子弹。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BULLET_SPIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bullet Spin</Data></Cell><Cell><Data
+            ss:Type="String"
+          >子弹旋转</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">BULLET_SPIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spin around with pistols, attacking all units within {Range} hexes.[br/]Puts the unit into [abilityblue]Defense Mode[/abilityblue] after use.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用手枪旋转射击，攻击 {Range} 个单元格内的所有目标。[br/]使用此技能后，单位将进入[abilityblue]防御模式[/abilityblue]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CARBON_SWORD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Carbon Sword</Data></Cell><Cell><Data
+            ss:Type="String"
+          >碳制剑</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CARBON_SWORD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Strike with a powerful carbon-made sword, damaging all targets in front of this unit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用威力强大的碳制剑发动攻击，可攻击此单位前方所有目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CARBON_SWORD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Armor Bypass</Data></Cell><Cell><Data
+            ss:Type="String"
+          >护甲忽视</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CARBON_SWORD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Attack ignores up to {ArmourBypass}[Armor/]</Data></Cell><Cell><Data
+            ss:Type="String"
+          >攻击可无视最多 {ArmourBypass}[Armor/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DUAL_PISTOLS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dual Pistols</Data></Cell><Cell><Data
+            ss:Type="String"
+          >双持手枪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DUAL_PISTOLS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire repeating pistols at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用手枪多次攻击目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEALING_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Healing Shot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >治疗弹</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">HEALING_SHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target friendly Biological or Cyborg unit to restore {HealAmount}[HP/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >治疗目标友方生物或半机械人单位 {HealAmount}[HP/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HUNTER'S_SWIPE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Prowler's Swipe</Data></Cell><Cell><Data
+            ss:Type="String"
+          >猎手挥击</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Prowler is related to the unit of the same name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HUNTER'S_SWIPE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Strikes the target with sharp claws.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >用利爪袭击目标。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">VIRAL_SNAPSHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Viral Snapshot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >病毒速射</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >VIRAL_SNAPSHOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a weaker viral round at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向目标发射较弱的病毒子弹。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INSPIRING_ROAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Inspiring Roar</Data></Cell><Cell><Data
+            ss:Type="String"
+          >激励咆哮</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">INSPIRING_ROAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heal Apex for {HealAmount}[hp/] while inspiring all friendly units within a {Range} hex range, granting them {MoraleBoost}[happiness/] for {Duration}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >治愈狮王对 {HealAmount}[hp/] 激励 {Range} 个单元格范围内所有友方单位，使其获得 {MoraleBoost}[happiness/]，持续 {Duration}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">INSPIRING_ROAR_INSPIRED</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Inspired by a glorious roar, granting {MoraleBoost}[happiness/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >受到光荣咆哮的激励，获得 {MoraleBoost}[happiness/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INTOXICATING_ACORN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Healing Acorn</Data></Cell><Cell><Data
+            ss:Type="String"
+          >治疗橡果</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">INTOXICATING_ACORN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Throw a grenade that releases a healing cloud for {duration}[turn/]. Heals Biological and Cyborg units for {HealAmount}[HP/] and dispels negative effects.[br/][br/]The cloud has the same effect for units ending their turn in it. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >投掷一枚手雷，释放一片治疗云雾，持续 {duration}[turn/]。治疗生物和半机械人单位 {HealAmount}[HP/] 并驱散负面状态效果。[br/][br/]在云雾中结束回合的单位也会获得相同的效果。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INTOXICATING_ACORN_CLOUD</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Healing Acorn Cloud</Data></Cell><Cell><Data
+            ss:Type="String"
+          >治疗橡果云雾</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">INTOXICATING_ACORN_CLOUD</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heals Biological and Cyborg units ending their turn here for {HealAmount}[HP/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在此单元格结束回合的生物和半机械人单位将治疗 {HealAmount}[HP/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LEAP_AND_BOUND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Leap and Bound</Data></Cell><Cell><Data
+            ss:Type="String"
+          >飞跃</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >LEAP_AND_BOUND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Jump to target hex.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >跳向目标单元格。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">POUNCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Pounce</Data></Cell><Cell><Data
+            ss:Type="String"
+          >猛扑</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >POUNCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Jump through the air and land behind an enemy unit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >跃向空中并降落在敌方单位身后。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RESISTANCE_ACORN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Resistance Acorn</Data></Cell><Cell><Data
+            ss:Type="String"
+          >抗性橡果</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">RESISTANCE_ACORN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Throw a grenade that releases a resistance cloud for {duration}[turn/]. Friendly units hit gain {ResistanceValue} resistance to all damage channels for {buffDuration}[turn/].[br/][br/]The cloud has the same effect for units moving through or ending their turn in it. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >投掷一枚手雷，释放一片抗性云雾，持续 {duration}[turn/]。被云雾命中的单位对所有类型的伤害获得 {ResistanceValue} 抵抗，持续 {buffDuration}[turn/]。[br/][br/]在云雾中结束回合的单位也会获得相同的效果。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RESISTANCE_ACORN_CLOUD</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Resistance Cloud</Data></Cell><Cell><Data
+            ss:Type="String"
+          >抗性云雾</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">RESISTANCE_ACORN_CLOUD</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Units moving through or ending their turn on this hex have {ResistanceValue} resistance to all damage channels for {Duration}[turn/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >穿过或在此单元格结束回合的单位对所有类型的伤害获得 {ResistanceValue} 抵抗，持续 {Duration}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SLOWING_ACORN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Slowing Acorn</Data></Cell><Cell><Data
+            ss:Type="String"
+          >减速橡果</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">SLOWING_ACORN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Throw a grenade that releases a slowing cloud for {duration}[turn/].[br/][br/]The cloud deals {damage}[damagebio/], and has {StrengthValue}[strengthPhysical/] chance to cause [abilityred]Slowed[/abilityred] for {debuffDuration}[turn/] on units moving through or ending their turn in it.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >投掷一枚手雷，释放一片减速云雾，持续 {duration}[turn/]。[br/][br/]云雾会造成 {damage}[damagebio/] 伤害，并有 {StrengthValue}[strengthPhysical/] 几率对穿过或在云雾中结束回合的单位造成[abilityred]减速[/abilityred]，持续 {debuffDuration}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SLOWING_ACORN_CLOUD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Slowing Cloud</Data></Cell><Cell><Data
+            ss:Type="String"
+          >减速云雾</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">SLOWING_ACORN_CLOUD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Units moving through or ending their turn on this hex take {damage}[damagebio/] and have a {strengthchance}[strengthbio/] chance to become [abilityred]Slowed[/abilityred] for {debuffDuration}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >穿过或在此单元格结束回合的单位受到 {damage}[damagebio/] 伤害，并有 {strengthchance}[strengthbio/] 几率被[abilityred]减速[/abilityred]，持续 {debuffDuration}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">THERIAN_PRESENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Therian Presence</Data></Cell><Cell><Data
+            ss:Type="String"
+          >兽人齐心</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">THERIAN_PRESENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >When adjacent to another unit with Therian Presence unit heals for {HealAmount}[hp/] at the end of the turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位与另一个兽人单位相邻时，该回合结束时会恢复{HealAmount} [hp /]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PRIMAL_PHEROMONES_THRILL</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Primal Pheromones: Thrill</Data></Cell><Cell><Data
+            ss:Type="String"
+          >原始费洛蒙：兴奋</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">PRIMAL_PHEROMONES_THRILL</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >When unit drops to 66% [hp/] or lower, unit and all friendly units within {Range} hexes gain {DamagePercentIncrease}% increased damage to attacks for {Duration} [turn/].[br/]Can trigger once per battle.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >当单位的 [hp/] 降至 66% 以下时，该单位和 {Range} 个单元格范围内的所有友方单位获得 {DamagePercentIncrease}% 伤害提升，持续 {Duration}[turn/]。[br/]每场战斗可触发一次。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">THRILL_PROPERTY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thrill</Data></Cell><Cell><Data
+            ss:Type="String"
+          >兴奋</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">THRILL_PROPERTY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit has {damagePercentIncrease}% increased damage to all abilities.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位的所有技能获得 {damagePercentIncrease}% 伤害提升。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PRIMAL_PHEROMONES_PRANCE</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Primal Pheromones: Prance</Data></Cell><Cell><Data
+            ss:Type="String"
+          >原始费洛蒙：腾跃</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">PRIMAL_PHEROMONES_PRANCE</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >When unit drops to 66% [hp/] or lower, unit and all friendly units within {Range} hexes gain {EvasionPercentChance}% Evasion and Skitter for {Duration}[turn/].[br/]Can trigger once per battle.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >当单位的 [hp/] 降至 66% 以下时，该单位和 {Range} 个单元格范围内的所有友方单位获得 {EvasionPercentChance}% 闪避和“飞掠者”，持续 {Duration}[turn/]。[br/]每场战斗可触发一次。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PRANCE_PROPERTY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Prance</Data></Cell><Cell><Data
+            ss:Type="String"
+          >腾跃</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PRANCE_PROPERTY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit has {EvasionPercentChance}% Evasion and [abilityblue]Skitter[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位获得 {EvasionPercentChance}% 回避和[abilityblue]飞掠者[/abilityblue]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PRIMAL_PHEROMONES_SLY</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Primal Pheromones: Sly</Data></Cell><Cell><Data
+            ss:Type="String"
+          >原始费洛蒙：狡猾</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">PRIMAL_PHEROMONES_SLY</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >When unit drops to 66% [hp/] or lower, unit and all friendly units within {Range} hexes gain +{CriticalChanceIncrease}% increased critical chance for {Duration}[turn/].[br/]Can trigger once per battle.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >当单位的 [hp/] 降至 66% 以下时，该单位和 {Range} 个单元格范围内的所有友方单位获得 {CriticalChanceIncrease}% 暴击率，持续 {Duration}[turn/]。[br/]每场战斗可触发一次。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SLY_PROPERTY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sly</Data></Cell><Cell><Data
+            ss:Type="String"
+          >狡猾</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SLY_PROPERTY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit has +{CriticalChance}% increased critical chance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位获得 +{CriticalChance}% 暴击率。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >PRIMAL_PHEROMONES_BIOREGENERATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Primal Pheromones: Bioregeneration</Data></Cell><Cell><Data
+            ss:Type="String"
+          >原始费洛蒙：生物再生</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >PRIMAL_PHEROMONES_BIOREGENERATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >When unit drops to 66% [hp/] or lower, unit and all friendly units within {Range} hexes gain [abilityblue]Regeneration[/abilityblue] for {Duration} [turn/].[br/]Can trigger once per battle.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >当单位的 [hp/] 降至 66% 以下时，该单位和 {Range} 个单元格范围内的所有友方单位获得[abilityblue]再生[/abilityblue]，持续 {Duration}[turn/]。[br/]每场战斗可触发一次。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIOREGENERATION_PROPERTY</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bioregeneration</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生物再生</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BIOREGENERATION_PROPERTY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit is healed for {HealAmount}[hp/] per [turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位每 [turn/] 治疗 {HealAmount}[hp/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PRIMAL_PHEROMONES_PRIDE</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Primal Pheromones: Pride</Data></Cell><Cell><Data
+            ss:Type="String"
+          >原始信息素：自豪</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">PRIMAL_PHEROMONES_PRIDE</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >When unit drops to 66% [hp/] or lower, unit and all friendly units within {Range} hexes gain +{ResistanceValue} resistance to all damage channels for {Duration}[turn/].[br/]Can trigger once per battle.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >当单位的 [hp/] 降至 66% 以下时，该单位和 {Range} 个单元格范围内的所有友方单位对所有类型的伤害获得 +{ResistanceValue} 抵抗，持续 {Duration}[turn/]。[br/]每场战斗可触发一次。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PRIDE_PROPERTY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Pride</Data></Cell><Cell><Data
+            ss:Type="String"
+          >自豪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PRIDE_PROPERTY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit has +{ResistanceValue} resistance to all damage channels.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位对所有类型的伤害获得 +{ResistanceValue} 抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENHANCED_LIMB_AUGMENTS</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Enhanced Limb Augments</Data></Cell><Cell><Data
+            ss:Type="String"
+          >强化肢体装置</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENHANCED_LIMB_AUGMENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Splinter Jump</Data></Cell><Cell><Data
+            ss:Type="String"
+          >撕裂跳跃</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">ENHANCED_LIMB_AUGMENTS</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Augmented leg armor that gives [abilityblue]Fast Movement[/abilityBlue] and +{KineticResistance}[DamagePhysical/] resistance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >增强腿部护甲，使[abilityblue]快速运动[/ abilityBlue]和+ {KineticResistance} [DamagePhysical /]抵抗性</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HUNTERS_CAMOUFLAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hunter's Camouflage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >猎手伪装</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">HUNTERS_CAMOUFLAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit gains [abilityBlue]Flanker[/abilityBlue]. Flanking attacks have a {SingleAttackStrength}[StrengthPhysical/] chance ({RepeatingAttackStrength}[StrengthPhysical/] for repeating attacks) to apply [abilityRed]Cripple[/AbilityRed] for {CrippleDuration}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位获得[abilityBlue]包抄者[/ abilityBlue]。 包抄攻击有{SingleAttackStrength} [StrengthPhysical /]几率（{RepeatingAttackStrength} [StrengthPhysical /]重复攻击）施加[abilityRed] 残废 [/ AbilityRed]于{CrippleDuration} [turn /]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">THERIAN_ALLY_INSIGNIA</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Therian Ally Insignia</Data></Cell><Cell><Data
+            ss:Type="String"
+          >兽人同盟徽章</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">THERIAN_ALLY_INSIGNIA</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Recognized as an ally of the Therians, this unit gains [abilityblue]Therian Presence[/abilityblue]: When adjacent to another unit with Therian Presence unit heals for {HealAmount}[hp/] at the end of the turn.[br/]Additionally, unit gains [abilityblue]Primal Pheromones: Bioregeneration[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位被视为兽人的盟友，获得[abilityblue]兽人仪态[/abilityblue]。当与另一个拥有“兽人仪态”的单位相邻时，该回合结束时会恢复{HealAmount} [hp /]。[br/]另外，该单位获得[abilityblue]原始费洛蒙：生物再生[/abilityblue]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MIGHT_OF_THE_THERIANS</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Might of The Therians</Data></Cell><Cell><Data
+            ss:Type="String"
+          >兽人之力</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">MIGHT_OF_THE_THERIANS</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Pheromone abilities can be triggered manually on Therian units. The Pheromones will still activate normally.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >费洛蒙技能在战斗开始时触发。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >THERIAN_PRESENCE_ACTIVATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Therian Presence Active</Data></Cell><Cell><Data
+            ss:Type="String"
+          >兽人仪态激活</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >WIP, DO NOT LOCALIZE</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MIGHT_OF_THE_THERIANS</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Trigger Pheromones</Data></Cell><Cell><Data
+            ss:Type="String"
+          >触发费洛蒙</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENHANCED_LIMB_AUGMENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bouncing</Data></Cell><Cell><Data
+            ss:Type="String"
+          >弹跳</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENHANCED_LIMB_AUGMENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Leaping</Data></Cell><Cell><Data
+            ss:Type="String"
+          >跳</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENHANCED_LIMB_AUGMENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Braced</Data></Cell><Cell><Data
+            ss:Type="String"
+          >支撑</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENHANCED_LIMB_AUGMENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Slamming</Data></Cell><Cell><Data
+            ss:Type="String"
+          >猛击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENHANCED_LIMB_AUGMENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Jumping</Data></Cell><Cell><Data
+            ss:Type="String"
+          >跳跃</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENHANCED_LIMB_AUGMENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hopper</Data></Cell><Cell><Data
+            ss:Type="String"
+          >漏斗</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HUNTERS_CAMOUFLAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Lurking</Data></Cell><Cell><Data
+            ss:Type="String"
+          >潜伏</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HUNTERS_CAMOUFLAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sneaking</Data></Cell><Cell><Data
+            ss:Type="String"
+          >鬼鬼祟祟</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HUNTERS_CAMOUFLAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Prowling</Data></Cell><Cell><Data
+            ss:Type="String"
+          >徘徊</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HUNTERS_CAMOUFLAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Predator</Data></Cell><Cell><Data
+            ss:Type="String"
+          >捕食者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HUNTERS_CAMOUFLAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hidden</Data></Cell><Cell><Data
+            ss:Type="String"
+          >隐蔽</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HUNTERS_CAMOUFLAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Skulking</Data></Cell><Cell><Data
+            ss:Type="String"
+          >隐匿</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >THERIAN_ALLY_INSIGNIA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bonded</Data></Cell><Cell><Data
+            ss:Type="String"
+          >保税区</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >THERIAN_ALLY_INSIGNIA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Accepted</Data></Cell><Cell><Data
+            ss:Type="String"
+          >公认</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >THERIAN_ALLY_INSIGNIA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Teamed</Data></Cell><Cell><Data
+            ss:Type="String"
+          >组队</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >THERIAN_ALLY_INSIGNIA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Crewmate</Data></Cell><Cell><Data
+            ss:Type="String"
+          >队友</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >THERIAN_ALLY_INSIGNIA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Allied</Data></Cell><Cell><Data
+            ss:Type="String"
+          >盟友</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >THERIAN_ALLY_INSIGNIA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Kindred</Data></Cell><Cell><Data
+            ss:Type="String"
+          >亲属</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MIGHT_OF_THE_THERIANS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Enraged</Data></Cell><Cell><Data
+            ss:Type="String"
+          >激怒</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MIGHT_OF_THE_THERIANS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Primal</Data></Cell><Cell><Data
+            ss:Type="String"
+          >原始的</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MIGHT_OF_THE_THERIANS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Roaring</Data></Cell><Cell><Data
+            ss:Type="String"
+          >咆哮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MIGHT_OF_THE_THERIANS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Feral</Data></Cell><Cell><Data
+            ss:Type="String"
+          >野生的</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MIGHT_OF_THE_THERIANS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Brutal</Data></Cell><Cell><Data
+            ss:Type="String"
+          >野蛮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MIGHT_OF_THE_THERIANS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEMPLATE_NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ferocious</Data></Cell><Cell><Data
+            ss:Type="String"
+          >凶猛</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text. You and Your might be examples of this.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>115</Zoom><Selected
+      /><TopRowVisible>93</TopRowVisible><Panes><Pane><Number
+          >3</Number><ActiveRow>103</ActiveRow><ActiveCol
+          >2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

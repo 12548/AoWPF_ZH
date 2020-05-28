@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+  ><WindowHeight>9990</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
     >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
     >False</ProtectStructure><ProtectWindows
@@ -397,10 +397,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >You have the support of the Paragon to restore the empire. All who oppose you must be crushed.[br/][br/]While this is active, you no longer suffer [anger/] popular support penalties for being in a war without [casusBelli/] Cassus Belli. [br/]You also recieve {influenceBonus} income per turn.</Data></Cell><Cell
+          >You have the support of the Paragon to restore the empire. All who oppose you must be crushed.[br/][br/]While this is active, you no longer suffer [popularsupport6/] popular support penalties for being in a war without [casusBelli/] Casus Belli. [br/]You also recieve {influenceBonus} income per turn.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >你已获得完人的支持来重建帝国，挡路者死。[br/][br/]此效果激活时，你不再会因处于战争中但没有 [casusBelli/] 宣战理由而受到 [anger/] 民众支持惩罚。[br/]此外，每回合你还将获得 {influenceBonus} 收入。</Data></Cell><Cell
+          >你已获得完人的支持来重建帝国，任何挡路者都将被消灭。[br/][br/]此效果激活时，你不再会因处于战争中但没有 [casusBelli/] 宣战理由而受到 [anger/] 民众支持惩罚。[br/]此外，每回合你还将获得 {influenceBonus} 收益。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -434,7 +434,166 @@
             ss:Type="String"
           >{Damage} Arc damage</Data></Cell><Cell><Data
             ss:Type="String"
-          >{Damage} 电弧伤害</Data></Cell></Row><Row><Cell><Data
+          >{Damage} 电弧伤害</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PARAGON_SPAWNER08</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vectoria Station</Data></Cell><Cell><Data
+            ss:Type="String"
+          >维多利亚站点</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PARAGON_SPAWNER09</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Kingston Station</Data></Cell><Cell><Data
+            ss:Type="String"
+          >金斯敦站点</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PARAGON_SPAWNER10</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Challenger Station</Data></Cell><Cell><Data
+            ss:Type="String"
+          >挑战者站点</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PARAGON_SPAWNER11</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vindicator Station</Data></Cell><Cell><Data
+            ss:Type="String"
+          >维护者站点</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PARAGON_SPAWNER12</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Expounder Station</Data></Cell><Cell><Data
+            ss:Type="String"
+          >解释者站点</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PARAGON_DWELLING12</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Amarythum Capitol</Data></Cell><Cell><Data
+            ss:Type="String"
+          >阿姆里森大厦</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Based on Ancient Roman cities</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PARAGON_DWELLING13</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Methonea Capitol</Data></Cell><Cell><Data
+            ss:Type="String"
+          >梅瑟尼娜大厦</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Based on Ancient Roman cities</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PARAGON_DWELLING14</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Kasmenea Capitol</Data></Cell><Cell><Data
+            ss:Type="String"
+          >卡斯梅内亚大厦</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Based on Ancient Roman cities</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PARAGON_DWELLING15</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Panticapaeum Capitol</Data></Cell><Cell><Data
+            ss:Type="String"
+          >潘提卡彭大厦</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Based on Ancient Roman cities</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PARAGON_DWELLING16</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Parisiorum Capitol</Data></Cell><Cell><Data
+            ss:Type="String"
+          >巴黎斯洛姆大厦</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Based on Ancient Roman cities</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PARAGON_DWELLING17</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vindelicorum Capitol</Data></Cell><Cell><Data
+            ss:Type="String"
+          >文徳利科姆大厦</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Based on Ancient Roman cities</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PARAGON_DWELLING18</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Victrix Capitol</Data></Cell><Cell><Data
+            ss:Type="String"
+          >维克特里克斯大厦</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Based on Ancient Roman cities</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PARAGON_DWELLING19</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Glevensae Capitol</Data></Cell><Cell><Data
+            ss:Type="String"
+          >格拉文塞大厦</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Based on Ancient Roman cities</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PARAGON_DWELLING20</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Aelius Capitol</Data></Cell><Cell><Data
+            ss:Type="String"
+          >埃利乌斯大厦</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Based on Ancient Roman cities</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PARAGON_DWELLING21</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vyndisorum Capitol</Data></Cell><Cell><Data
+            ss:Type="String"
+          >文迪索姆大厦</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Based on Ancient Roman cities</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PARAGON_DWELLING22</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Maesothum Capitol</Data></Cell><Cell><Data
+            ss:Type="String"
+          >梅索通大厦</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Based on Ancient Roman cities</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PARAGON_DWELLING23</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Constantipae Capitol</Data></Cell><Cell><Data
+            ss:Type="String"
+          >康斯坦蒂帕大厦</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Based on Ancient Roman cities</Data></Cell></Row><Row><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"

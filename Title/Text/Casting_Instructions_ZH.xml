@@ -14,9 +14,10 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
-    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -1182,7 +1183,15 @@
             ss:Type="String"
           >以敌方或中立陆地区域为目标</Data></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
-          >Neutral means not belonging to a friend or foe, in this case</Data></Cell></Row></Table><WorksheetOptions
+          >Neutral means not belonging to a friend or foe, in this case</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CORPSE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SINGLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target a corpse</Data></Cell><Cell><Data
+            ss:Type="String"
+          >以尸体为目标</Data></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
     ><Unsynced /><Zoom>115</Zoom><Selected /><LeftColumnVisible
       >3</LeftColumnVisible><Panes><Pane><Number>3</Number><ActiveCol

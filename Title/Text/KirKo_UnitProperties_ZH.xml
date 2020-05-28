@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
     >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
     >False</ProtectStructure><ProtectWindows
@@ -315,27 +315,19 @@
             ss:Type="String"
           >ABILITY_NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Sundering Claws</Data></Cell><Cell><Data
+          >Crippling Claws</Data></Cell><Cell><Data
             ss:Type="String"
-          >裂魂利爪</Data></Cell></Row><Row
+          >致残利爪</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">SUNDERING_CLAWS</Data></Cell><Cell><Data
             ss:Type="String"
           >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit's melee attacks remove {armorDestroy} from their target with each strike.</Data></Cell><Cell
+          >This unit's melee attacks gain a {StrengthCripple}[strengthPhysical/] strength chance ({StrengthCrippleRepeating}[strengthPhysical/] for repeating attacks) to apply [abilityred]Cripple[/abilityred] to Biological or Cyborg units, for {Duration}[turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位的每次近战攻击，可撕裂目标 {armorDestroy} 护甲。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">SUNDERING_CLAWS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Destroy {armorDestroy} with each strike.</Data></Cell><Cell><Data
-            ss:Type="String"
-          >每次攻击可摧毁 {armorDestroy} 护甲。</Data></Cell></Row><Row
+          >该单位的近战攻击有 {StrengthCripple}[strengthPhysical/] 力量几率（多次攻击有 {StrengthCrippleRepeating}[strengthPhysical/] 几率）对生物或半机械人单位施加[abilityred]残废[/abilityred]，持续 {Duration}[turn/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">PSI_INFECTED_CLAWS</Data></Cell><Cell><Data
             ss:Type="String"

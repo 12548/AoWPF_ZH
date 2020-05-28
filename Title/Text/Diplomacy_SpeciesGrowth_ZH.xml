@@ -10,13 +10,13 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:46:05Z</Created><LastSaved
     >2019-06-25T15:46:05Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14730</WindowHeight><WindowWidth>28740</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -26,35 +26,35 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
-      ss:ID="s58"
+      ss:ID="s63"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Interior /></Style><Style
-      ss:ID="s59"
+      ss:ID="s64"
     ><Alignment ss:Vertical="Top" /><Borders /><Font
         ss:FontName="Calibri"
         x:Family="Swiss"
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s60"
+      ss:ID="s65"
     ><Alignment ss:Vertical="Top" /><Interior /></Style></Styles><Worksheet
     ss:Name="Script"
   ><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s57" ss:Width="146.25" /><Column
-        ss:StyleID="s57"
+    ><Column ss:StyleID="s62" ss:Width="146.25" /><Column
+        ss:StyleID="s62"
         ss:Width="289.5"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="337.5" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="337.5" /><Column
+        ss:StyleID="s62"
         ss:Width="147.75"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="206.25" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="206.25" /><Column
+        ss:StyleID="s62"
         ss:Width="120"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="337.5" /><Row
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="337.5" /><Row
         ss:AutoFitHeight="0"
         ss:Height="90"
       ><Cell><Data ss:Type="String">DIPLOMACY_SPECIESGROWTH</Data></Cell><Cell
@@ -325,7 +325,7 @@
             ss:Type="String"
           >我们寻求合作，希望能够共同建造一个更美好的未来。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s58"
+          ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
             ss:Type="String"
           >GROWTH_BUTTON</Data></Cell><Cell><Data
@@ -339,9 +339,8 @@
           ss:Index="7"
         ><Data
             ss:Type="String"
-          >{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs.
-This is followed by the influence icon.</Data></Cell><Cell
-          ss:StyleID="s58"
+          >{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data></Cell><Cell
+          ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >GROWTH_BUTTON</Data></Cell><Cell><Data
@@ -353,7 +352,7 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >有什么需要我们帮忙处理的事情吗？</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s58"
+          ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >GROWTH_BUTTON</Data></Cell><Cell><Data
@@ -364,7 +363,7 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >灵植阻碍了我们的开拓。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s58"
+          ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >GROWTH_BUTTON</Data></Cell><Cell><Data
@@ -376,7 +375,7 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >我们将重视你们的母节点这位观众的。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s58"
+          ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >GROWTH_BUTTON</Data></Cell><Cell><Data
@@ -387,34 +386,34 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >有哪些我们可以帮忙的事情？</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s58"
-        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s59"><Data
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >GROWTH_BUTTON</Data></Cell><Cell ss:StyleID="s60"><Data
+          >GROWTH_BUTTON</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
-          >CALL_TO_WAR_PEACEKEEPER</Data></Cell><Cell ss:StyleID="s58"><Data
+          >CALL_TO_WAR_PEACEKEEPER</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
           >We seek your aid in our war efforts.</Data></Cell><Cell
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         ><Data
             ss:Type="String"
           >我们希望你们能与我们并肩作战。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s58"
-        /><Cell ss:StyleID="s58" /><Cell ss:StyleID="s59" /></Row><Row
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s63" /><Cell ss:StyleID="s64" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s59"><Data
+      ><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >GROWTH_BUTTON</Data></Cell><Cell ss:StyleID="s60"><Data
+          >GROWTH_BUTTON</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
-          >TRADE_PEACEKEEPER</Data></Cell><Cell ss:StyleID="s58"><Data
+          >TRADE_PEACEKEEPER</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
           >We are looking to exchange goods.</Data></Cell><Cell
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         ><Data ss:Type="String">我们想交易物品。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s58"
-        /><Cell ss:StyleID="s58" /><Cell ss:StyleID="s59" /></Row><Row
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s63" /><Cell ss:StyleID="s64" /></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">GROWTH_BUTTON</Data></Cell><Cell><Data
             ss:Type="String"
@@ -425,7 +424,7 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >通过寻求挑战，我们向你们提出结盟。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s58"
+          ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
             ss:Type="String"
           >GROWTH_BUTTON</Data></Cell><Cell><Data
@@ -439,9 +438,8 @@ This is followed by the influence icon.</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
-          >{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs.
-This is followed by the influence icon.</Data></Cell><Cell
-          ss:StyleID="s58"
+          >{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data></Cell><Cell
+          ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >GROWTH_BUTTON</Data></Cell><Cell><Data
@@ -453,7 +451,7 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >任何挑战和任务我们都愿意接受。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s58"
+          ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >GROWTH_BUTTON</Data></Cell><Cell><Data
@@ -472,7 +470,7 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >带我们去见见你们的母节点。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s58"
+          ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >GROWTH_BUTTON</Data></Cell><Cell><Data
@@ -483,34 +481,34 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >需要我们做什么？</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s58"
-        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s59"><Data
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >GROWTH_BUTTON</Data></Cell><Cell ss:StyleID="s60"><Data
+          >GROWTH_BUTTON</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
-          >CALL_TO_WAR_WARMONGER</Data></Cell><Cell ss:StyleID="s58"><Data
+          >CALL_TO_WAR_WARMONGER</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
           >Our symbiosis will crush our enemies!</Data></Cell><Cell
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         ><Data
             ss:Type="String"
           >我们的共生关系将粉碎我们的敌人！</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s58"
-        /><Cell ss:StyleID="s58" /><Cell ss:StyleID="s59" /></Row><Row
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s63" /><Cell ss:StyleID="s64" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s59"><Data
+      ><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >GROWTH_BUTTON</Data></Cell><Cell ss:StyleID="s60"><Data
+          >GROWTH_BUTTON</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
-          >TRADE_WARMONGER</Data></Cell><Cell ss:StyleID="s58"><Data
+          >TRADE_WARMONGER</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >Trade with us, Growth.</Data></Cell><Cell ss:StyleID="s59"><Data
+          >Trade with us, Growth.</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
           >与我们交易，灵植。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s58"
-        /><Cell ss:StyleID="s58" /><Cell ss:StyleID="s59" /></Row><Row
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s63" /><Cell ss:StyleID="s64" /></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">GROWTH_BUTTON</Data></Cell><Cell><Data
             ss:Type="String"
@@ -519,7 +517,7 @@ This is followed by the influence icon.</Data></Cell><Cell
           >We seek to join you in a symbiotic relationship.</Data></Cell><Cell
         ><Data ss:Type="String">我们希望与你们建立共生关系。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s58"
+          ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
             ss:Type="String"
           >GROWTH_BUTTON</Data></Cell><Cell><Data
@@ -533,9 +531,8 @@ This is followed by the influence icon.</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
-          >{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs.
-This is followed by the influence icon.</Data></Cell><Cell
-          ss:StyleID="s58"
+          >{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data></Cell><Cell
+          ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >GROWTH_BUTTON</Data></Cell><Cell><Data
@@ -546,7 +543,7 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >我们能帮上什么忙吗？</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s58"
+          ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >GROWTH_BUTTON</Data></Cell><Cell><Data
@@ -557,7 +554,7 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >让我们见证那些花朵的凋谢。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s58"
+          ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >GROWTH_BUTTON</Data></Cell><Cell><Data
@@ -568,7 +565,7 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >我们想与你们的母节点谈谈。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s58"
+          ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >GROWTH_BUTTON</Data></Cell><Cell><Data
@@ -579,34 +576,38 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >我们能帮你做点什么吗？</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s58"
-        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s59"><Data
+          ss:StyleID="s63"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >GROWTH_BUTTON</Data></Cell><Cell ss:StyleID="s60"><Data
+          >GROWTH_BUTTON</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
-          >CALL_TO_WAR_NEUTRAL</Data></Cell><Cell ss:StyleID="s58"><Data
+          >CALL_TO_WAR_NEUTRAL</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
           >We are looking for aid in our war efforts.</Data></Cell><Cell
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         ><Data
             ss:Type="String"
           >我们正在寻找帮助我们战斗的盟友。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s58"
-        /><Cell ss:StyleID="s58" /><Cell ss:StyleID="s59" /></Row><Row
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s63" /><Cell ss:StyleID="s64" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s59"><Data
+      ><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >GROWTH_BUTTON</Data></Cell><Cell ss:StyleID="s60"><Data
+          >GROWTH_BUTTON</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
-          >TRADE_NEUTRAL</Data></Cell><Cell ss:StyleID="s58"><Data
+          >TRADE_NEUTRAL</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
           >We seek to trade with you, Growth.</Data></Cell><Cell
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         ><Data ss:Type="String">我们想与你们开展交易，灵植。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s58"
-        /><Cell ss:StyleID="s58" /><Cell ss:StyleID="s59" /></Row><Row
+          ss:StyleID="s63"
+        ><Data
+            ss:Type="String"
+          >Mother Node is the leader of the Growth.</Data></Cell><Cell
+          ss:StyleID="s63"
+        /><Cell ss:StyleID="s64" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">RIVALRY_WARNING_GROWTH</Data></Cell><Cell
@@ -619,7 +620,7 @@ This is followed by the influence icon.</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
-          >Mother Node is the leader of the Growth.</Data></Cell></Row><Row
+          >Symbiont is the name given to the player by the Growth, male or female.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">GROWTH_MESSAGE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -642,6 +643,33 @@ This is followed by the influence icon.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >Symbiont is the name given to the player by the Growth, male or female.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GROWTH_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_DECREASED_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You deprive the diplomatic roots of nutrients {STR_LeaderName}. We are forced to pull out of this relationship lest we wither away. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你夺走了外交根基的营养，{STR_LeaderName}。迫于无奈，我们必须终止这种关系，否则我们将枯萎凋零。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GROWTH_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_DECREASED_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You deprive the diplomatic roots of nutrients {STR_LeaderName}. We are forced to pull out of this relationship lest we wither away. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你夺走了外交根基的营养，{STR_LeaderName}。迫于无奈，我们必须终止这种关系，否则我们将枯萎凋零。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GROWTH_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_DECREASED_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You deprive the diplomatic roots of nutrients {STR_LeaderName}. We are forced to pull out of this relationship lest we wither away. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你夺走了外交根基的营养，{STR_LeaderName}。迫于无奈，我们必须终止这种关系，否则我们将枯萎凋零。 </Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
@@ -665,11 +693,26 @@ This is followed by the influence icon.</Data></Cell><Cell
           >In the lines below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs.
+This is followed by the influence icon.</Data></Cell></Row><Row><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
-          /></Cell></Row></Table><WorksheetOptions
+          /></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs.
+This is followed by the influence icon.</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs.
+This is followed by the influence icon.</Data></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
     ><Unsynced /><Selected /><TopRowVisible>45</TopRowVisible><Panes><Pane
         ><Number>3</Number><ActiveRow>70</ActiveRow><ActiveCol

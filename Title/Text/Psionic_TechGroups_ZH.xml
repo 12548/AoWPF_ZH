@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>9990</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -120,10 +120,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The target non-Mindless unit becomes [abilityblue]Immune to Psionic Status Effects[/abilityblue], [abilityblue]Stagger Immune[/abilityblue] and gains {bonushealth} maximum [hp/] unit the end of combat.</Data></Cell><Cell
+          >The target non-Mindless unit becomes [abilityblue]Immune to Psionic Status Effects[/abilityblue], [abilityblue]Stagger Immune[/abilityblue] and increases maximum health by +{bonushealth} [hp/] until the end of combat.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >目标非无意识单位[abilityblue]免疫灵能状态效果[/abilityblue]并获得[abilityblue]动摇免疫[/abilityblue]，同时获得 {bonushealth} 最大 [hp/]，持续至战斗结束。</Data></Cell></Row><Row
+          >目标非无意识单位[abilityblue]免疫灵能状态效果[/abilityblue]并获得[abilityblue]动摇免疫[/abilityblue]，同时最大生命值增加 +{bonushealth}[hp/]，持续至战斗结束。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">PSYCHIC_CONTROL</Data></Cell><Cell><Data
             ss:Type="String"
@@ -156,10 +156,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit is Psionically bolstered, granting it immune to Psionic Status Effects and [abilityblue]Stagger Immune[/abilityblue] and also gains {Health} maximum [hp/]</Data></Cell><Cell
+          >This unit is Psionically bolstered, granting it immune to Psionic Status Effects and [abilityblue]Stagger Immune[/abilityblue] and has maximum health increased by  +{Health} [hp/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位受到灵能增强，免疫灵能状态效果并获得[abilityblue]动摇免疫[/abilityblue]。同时，还会获得 {Health} 最大[hp/]</Data></Cell></Row><Row
+          >该单位受到灵能增强，免疫灵能状态效果并获得[abilityblue]动摇免疫[/abilityblue]，同时最大生命值增加 +{Health}[hp/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:StyleID="s63"
       ><Cell><Data ss:Type="String">ACTIVATE_CLEANSING_PULSE</Data></Cell><Cell
@@ -174,7 +174,7 @@
       ><Cell><Data ss:Type="String">ACTIVATE_CLEANSING_PULSE</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Dispels all negative Status Effects on every unit within a {Radius} hex radius.</Data></Cell><Cell
+          >Dispels all negative Status Effects on every friendly unit within a {Radius} hex radius.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >驱散 {Radius} 个单元格范围内所有单位的所有负面状态效果。</Data></Cell><Cell

@@ -10,13 +10,14 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:50:41Z</Created><LastSaved
     >2019-06-25T15:50:41Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14730</WindowHeight><WindowWidth>28740</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><MaxChange
-    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
+    >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -26,25 +27,25 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
     ss:Name="Script"
   ><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultColumnWidth="459"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s57" ss:Width="175.5" /><Column
-        ss:StyleID="s57"
+    ><Column ss:StyleID="s62" ss:Width="175.5" /><Column
+        ss:StyleID="s62"
         ss:Width="289.5"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="399" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="399" /><Column
+        ss:StyleID="s62"
         ss:Width="147.75"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="261" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="261" /><Column
+        ss:StyleID="s62"
         ss:Width="120"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="399" /><Row
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="399" /><Row
         ss:AutoFitHeight="0"
         ss:Height="75"
       ><Cell><Data ss:Type="String">FACTION_INTERACTION</Data></Cell><Cell
@@ -1286,11 +1287,26 @@
           >拒绝了要求</Data></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
           >Used as modifier to describe a change to a relation, shown in lists/breakdowns</Data></Cell></Row><Row
-      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERIC_BUTTON</Data></Cell><Cell><Data
             ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
-          ss:Index="7"
+          >DEMANDED_SECTOR_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Show us the demanded sector.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >让我们看看要求的区域。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERIC_BUTTON_TOOLTIP</Data></Cell><Cell
+        ><Data ss:Type="String">DEMANDED_SECTOR_TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Show the sector that will be given to the faction making the demand.</Data></Cell><Cell
         ><Data
+            ss:Type="String"
+          >显示该阵营要求获得的区域。</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
           >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data

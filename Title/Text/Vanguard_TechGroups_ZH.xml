@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
     >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
     >False</ProtectStructure><ProtectWindows
@@ -153,11 +153,11 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >Deploys a Heavy Launcher Turret into combat. [br/][br/]The turret deals [damagephysical/] area of effect damage and lasts until end of combat.</Data></Cell><Cell
+          >Deploys a Heavy Launcher Turret into combat. [br/][br/]The turret deals{TurretDamage} [damagephysical/] area of effect damage and lasts until end of combat.</Data></Cell><Cell
           ss:StyleID="s63"
         ><Data
             ss:Type="String"
-          >部署重型发射器炮塔加入战斗。[br/][br/]炮塔造成 [damagephysical/] 范围伤害，持续到战斗结束。</Data></Cell><Cell
+          >部署重型发射器炮塔加入战斗。[br/][br/]炮塔造成 {TurretDamage}[damagephysical/] 范围伤害，持续至战斗结束。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /><Cell ss:StyleID="s63" /><Cell ss:StyleID="s63" /></Row><Row

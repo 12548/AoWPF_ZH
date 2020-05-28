@@ -10,13 +10,13 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:51:00Z</Created><LastSaved
     >2019-06-25T15:51:00Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14730</WindowHeight><WindowWidth>28740</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>9990</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -26,26 +26,26 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
     ss:Name="Script"
   ><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultColumnWidth="333.75"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s57" ss:Width="92.25" /><Column
-        ss:StyleID="s57"
+    ><Column ss:StyleID="s62" ss:Width="92.25" /><Column
+        ss:StyleID="s62"
         ss:AutoFitWidth="0"
         ss:Width="151.5"
-      /><Column ss:StyleID="s57" ss:Width="195.75" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:Width="195.75" /><Column
+        ss:StyleID="s62"
         ss:Width="150"
-      /><Column ss:StyleID="s57" ss:Width="270" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:Width="270" /><Column
+        ss:StyleID="s62"
         ss:Width="120.75"
-      /><Column ss:Index="9" ss:StyleID="s57" ss:Width="87.75" /><Row
+      /><Column ss:Index="9" ss:StyleID="s62" ss:Width="87.75" /><Row
         ss:AutoFitHeight="0"
         ss:Height="105"
       ><Cell><Data ss:Type="String">LAUNCHER</Data></Cell><Cell
@@ -131,21 +131,21 @@
             ss:Type="String"
           >DT_WINDOWED_FULLSCREEN</Data></Cell><Cell><Data
             ss:Type="String"
-          >Borderless</Data></Cell><Cell><Data
-            ss:Type="String"
-          >无边框</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >as in: the game is still played in windowed mode but the window is scaled to the size of the screen, and the window has no borders so it appears to look the same as a full-screen window. Character limit: ~16 characters. </Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">VIDEO</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DT_FULLSCREEN</Data></Cell><Cell><Data
-            ss:Type="String"
           >Fullscreen</Data></Cell><Cell><Data
             ss:Type="String"
           >全屏</Data></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
           >as in: the game is played in fullscreen mode. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VIDEO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DT_FULLSCREEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Exclusive Mode Fullscreen</Data></Cell><Cell><Data
+            ss:Type="String"
+          >全屏独占模式</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >as in: the game is played in "exclusive mode" fullscreen mode. </Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">VIDEO</Data></Cell><Cell><Data
@@ -443,7 +443,15 @@
             ss:Type="String"
           >Controller</Data></Cell><Cell><Data
             ss:Type="String"
-          >控制者</Data></Cell></Row></Table><WorksheetOptions
+          >控制者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >VIDEO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DT_RES_SCALED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Native</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Displayed when running outside of Exclusive Fullscreen Mode. Implies the resolution is whatever the current window size is (monitor size in case of Borderless/non-exclusive Fullscreen)</Data></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
     ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
         >600</HorizontalResolution><VerticalResolution

@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+  ><WindowHeight>9990</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -200,7 +200,7 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Dispel hostile effects from all Biological and Cyborg units in the area of effect, and heal them for {HealingTouchHP}.</Data></Cell><Cell
+          >Dispel hostile effects from all friendly Biological and Cyborg units in the area of effect, and heal them for {HealingTouchHP}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >驱散效果范围内所有生物和半机械人单位身上的负面效果，同时治疗 {HealingTouchHP}。</Data></Cell></Row><Row
@@ -529,9 +529,9 @@
             ss:Type="String"
           >ABILITY_NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Inferno Ravage</Data></Cell><Cell><Data
+          >Inferno Claw</Data></Cell><Cell><Data
             ss:Type="String"
-          >地狱劫掠</Data></Cell></Row><Row
+          >地狱利爪</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">INFERNO_RAVAGE</Data></Cell><Cell><Data
@@ -884,10 +884,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target unit is dispelled of negative status effects and is healed for {CleanseHeal}. This heals for an additional {CleanseAddedHeal} for each [abilityblue]Enlightened[/abilityblue] unit in battle.[br/]Caps at {MaxCountUnit} units.</Data></Cell><Cell
+          >Target unit is dispelled of negative status effects and is healed for {CleanseHeal}. This heals for an additional {CleanseAddedHeal} for each [abilityblue]Enlightened[/abilityblue] unit in battle up to a maximum of {MaxCountUnit}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >驱散目标单位身上的负面状态效果并治疗 {CleanseHeal}。战斗中每有一个[abilityblue]启迪[/abilityblue]单位，便额外治疗 {CleanseAddedHeal}，[br/]上限为 {MaxCountUnit} 个单位。</Data></Cell></Row><Row
+          >驱散目标单位身上的负面状态效果并治疗 {CleanseHeal}。战斗中每有一个[abilityblue]启迪[/abilityblue]单位，便额外治疗 {CleanseAddedHeal}，上限为 {MaxCountUnit} 个单位。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">RESURGENCE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1003,10 +1003,10 @@
             ss:Type="String"
           >ABILITY_EFFECT</Data></Cell><Cell><Data
             ss:Type="String"
-          >Your army has been healed and gained a boost in accaracy and Stagger Resistance until the end of their next battle.</Data></Cell><Cell
+          >Your army has been healed and gained a boost in accuracy and Stagger Resistance until the end of their next battle.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >你的军队已被治愈，并且准度和动摇抵抗获得了提升，效果持续到下次战斗结束。</Data></Cell><Cell
+          >你的军队已被治愈，且准度和动摇抵抗获得了提升，效果持续到其下次战斗结束。</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s65"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -1024,10 +1024,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target enemy army takes {SoulfireDam} damage and suffers [abilityred]Soulburn[/abilityred] whenever they engage in battle for {SoulfireTurn}. </Data></Cell><Cell
+          >Target enemy army takes {SoulfireDam} damage and suffers [abilityred]Soulburn[/abilityred] if they engage in battle for {SoulfireTurn}. </Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >每当目标敌方军队参与战斗时，将会受到 {SoulfireDam} 伤害和[abilityred]灵魂燃烧[/abilityred]，持续 {SoulfireTurn}。 </Data></Cell></Row><Row
+          >如果目标敌方军队参与战斗，将会受到 {SoulfireDam} 伤害和[abilityred]灵魂燃烧[/abilityred]，持续 {SoulfireTurn}。 </Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
       ><Cell><Data ss:Type="String">SOULFIRE</Data></Cell><Cell><Data

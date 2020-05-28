@@ -652,7 +652,7 @@
       ><Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell><Cell
         ><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][energy/] and [supply/][/bullet][bullet]Units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][bullet]Units in this sector suffer [abilityred]{OilResistanceReduction}[/abilityred] [DamageThermal/] resistance.[/bullet][bullet]Every Combat Turn:[/bullet][bulletList][bullet]Non-Flying units have a strength {OilSlowChance}[DamagePhysical/] chance to become [abilityred]Slow[/abilityred] for {OilSlowDuration}.[/bullet]</Data></Cell><Cell
+          >[bulletList][bullet]Annexing this sector penalizes the colony with [abilityred]{Happiness}[/abilityred][/bullet][bullet]Annexing this sector causes a colony to generate [abilityred]-20%[/abilityred][energy/] and [supply/][/bullet][bullet]Units in this sector lose their Strategic Map [hp/] [abilityred]Regeneration[/abilityred].[/bullet][bullet]Units in this sector suffer [abilityred]-{OilResistanceReduction}[/abilityred] [DamageThermal/] resistance.[/bullet][bullet]Every Combat Turn:[/bullet][bulletList][bullet]Non-Flying units have a strength {OilSlowChance}[DamagePhysical/] chance to become [abilityred]Slow[/abilityred] for {OilSlowDuration}.[/bullet]</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >[bulletList][bullet]吞并该区域将使殖民地受到 [abilityred]{Happiness}[/abilityred] 惩罚[/bullet][bullet]吞并该区域将会使殖民地[abilityred] -20% [/abilityred][energy/] 产量和 [supply/] 产量。[/bullet][bullet]该区域内的单位失去策略地图 [hp/] [abilityred]再生[/abilityred]。[/bullet][bullet]该区域内的单位减少 [abilityred]{OilResistanceReduction}[/abilityred][DamageThermal/] 抵抗。[/bullet][bullet]每个战斗回合：[/bullet][bulletList][bullet]非飞行单位有 {OilSlowChance}[DamagePhysical/] 力量几率变得[abilityred]缓慢[/abilityred]，持续 {OilSlowDuration}。[/bullet]</Data></Cell></Row><Row
@@ -661,7 +661,7 @@
       ><Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell><Cell
         ><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit is affected by the Oil Spill in this sector, nullifying the [hp/] regeneration received per strategic turn and have [abilityred]{OilResistanceReduction}[/abilityred] [DamageThermal/] resistance.</Data></Cell><Cell
+          >This unit is affected by the Oil Spill in this sector, nullifying the [hp/] regeneration received per strategic turn and have [abilityred]-{OilResistanceReduction}[/abilityred] [DamageThermal/] resistance.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >该单位受到该区域石油泄漏影响，每个战略回合获得的 [hp/] 恢复将会无效，并减少 [abilityred]{OilResistanceReduction}[/abilityred] [DamageThermal/] 抵抗。</Data></Cell></Row><Row

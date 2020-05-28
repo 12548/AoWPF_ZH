@@ -10,13 +10,13 @@
     >Djurre van Dijk</LastAuthor><Created
     >2018-05-01T08:34:18Z</Created><LastSaved
     >2019-06-25T15:47:18Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14730</WindowHeight><WindowWidth>28740</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -26,7 +26,7 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
       ss:Name="Normal 2"
     ><Alignment ss:Vertical="Bottom" /><Borders /><Font
         ss:FontName="Calibri"
@@ -34,17 +34,17 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s58"
+      ss:ID="s63"
       ss:Name="Normal 3"
     ><Alignment ss:Vertical="Bottom" /><Borders /><Font
         ss:FontName="Arial"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s59"
-    ><Alignment ss:Vertical="Top" /></Style><Style ss:ID="s60"><Alignment
+      ss:ID="s64"
+    ><Alignment ss:Vertical="Top" /></Style><Style ss:ID="s65"><Alignment
         ss:Vertical="Top"
         ss:WrapText="1"
-      /></Style><Style ss:ID="s61" ss:Parent="s57"><Alignment
+      /></Style><Style ss:ID="s67" ss:Parent="s62"><Alignment
         ss:Vertical="Top"
         ss:WrapText="1"
       /><Borders /><Font
@@ -53,22 +53,22 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s62"
-      ss:Parent="s58"
+      ss:ID="s69"
+      ss:Parent="s63"
     ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /><Font
         ss:FontName="Arial"
-      /><Interior /></Style><Style ss:ID="s63"><Alignment
+      /><Interior /></Style><Style ss:ID="s70"><Alignment
         ss:Vertical="Top"
         ss:WrapText="1"
-      /><Interior /></Style><Style ss:ID="s64"><Alignment
+      /><Interior /></Style><Style ss:ID="s71"><Alignment
         ss:Vertical="Top"
       /><Interior /></Style></Styles><Worksheet ss:Name="Script"><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s59"
+      ss:StyleID="s64"
       ss:DefaultColumnWidth="217.5"
       ss:DefaultRowHeight="15"
-    ><Column ss:Index="3" ss:StyleID="s60" ss:Span="4" /><Row
+    ><Column ss:Index="3" ss:StyleID="s65" ss:Span="4" /><Row
         ss:AutoFitHeight="0"
         ss:Height="90"
       ><Cell><Data ss:Type="String">DIPLOMACY_SPECIESSPACERS</Data></Cell><Cell
@@ -184,13 +184,13 @@
             ss:Type="String"
           >最好证明你值得我们浪费时间，好战者。你想要干嘛？</Data></Cell><Cell
           ss:Index="9"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
             ss:Type="String"
           >SPACERS_MESSAGE</Data></Cell><Cell><Data
             ss:Type="String"
           >ASK_TO_LEAVE_RESPONSE_WARMONGER</Data></Cell><Cell
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         ><Data
             ss:Type="String"
           >You’re not worth the trouble, it’s all yours. Better watch your back…</Data></Cell><Cell
@@ -198,7 +198,7 @@
             ss:Type="String"
           >跟你较劲不值得，都是你的了。不过你最好当心点儿…</Data></Cell><Cell
           ss:Index="9"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
           >SPACERS_MESSAGE</Data></Cell><Cell><Data
@@ -255,7 +255,7 @@
       ><Cell><Data ss:Type="String">SPACERS_MESSAGE</Data></Cell><Cell><Data
             ss:Type="String"
           >FACTION_REQUEST_END_TO_WAR_WARMONGER</Data></Cell><Cell
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         ><Data
             ss:Type="String"
           >Enough! Stop the ganks! Your reputation precedes you, you’re far too strong for us. We yield!</Data></Cell><Cell
@@ -263,57 +263,57 @@
             ss:Type="String"
           >够了！别搞我们了！你的名声可真不是吹的，你太强了，我们投降！</Data></Cell><Cell
           ss:Index="9"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
             ss:Type="String"
           >SPACERS_MESSAGE</Data></Cell><Cell><Data
             ss:Type="String"
-          >ASK_TO_LEAVE_NEUTRAL</Data></Cell><Cell ss:StyleID="s61"><Data
+          >ASK_TO_LEAVE_NEUTRAL</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Oh, it’s you. Be quick, we’re going on a raid soon. What do ya want?</Data></Cell><Cell
-          ss:StyleID="s62"
+          ss:StyleID="s69"
         ><Data
             ss:Type="String"
           >噢，是你。搞快点，我们马上就要去突袭打劫了。你想干什么？</Data></Cell><Cell
           ss:Index="9"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >SPACERS_MESSAGE</Data></Cell><Cell><Data
             ss:Type="String"
           >ASK_TO_LEAVE_RESPONSE_NEUTRAL</Data></Cell><Cell
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         ><Data
             ss:Type="String"
           >We will leave this place {STR_LeaderName}.</Data></Cell><Cell><Data
             ss:Type="String"
           >我们会离开这儿的，{STR_LeaderName}。</Data></Cell><Cell
           ss:Index="9"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data
             ss:Type="String"
           >SPACERS_MESSAGE</Data></Cell><Cell><Data
             ss:Type="String"
-          >FIRST_MEET_NEUTRAL</Data></Cell><Cell ss:StyleID="s61"><Data
+          >FIRST_MEET_NEUTRAL</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Hey, you look funny. Never seen clothes like that before, looks all fancy and stuff. Spacers is our clan. We’re the free people of this land and answer to no one. We take what we want, when we want so you best remember that. We’ll be keepin’ an eye on ya. By the way, you got any Black Nex on ya? </Data></Cell><Cell
         ><Data
             ss:Type="String"
           >嘿，你看上去有点搞笑。从没见过这样的衣服，尽整些花里胡哨的。我们是太空掠夺者，是这片土地上的自由人。我们想要什么就拿什么，想什么时候拿就什么时候拿，你最好给我记住了。我们会盯着你的。顺便问一下，你有黑死药吗？ </Data></Cell><Cell
           ss:Index="9"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
           >SPACERS_MESSAGE</Data></Cell><Cell><Data
             ss:Type="String"
-          >FIRST_MEET_RESPONSE_NEUTRAL</Data></Cell><Cell ss:StyleID="s61"><Data
+          >FIRST_MEET_RESPONSE_NEUTRAL</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >That’s nice, but we don’t need protectin'. Ever since the empire fell and we were unplugged from Dreamscape, we’ve been left to our own devices. Hmm, actually there is something you could do. Some business that needs taking care of.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >好是好，但我们不需要保护。自从帝国陨落而我们脱离了梦幻之境后，我们的生活全由我们自己搞定。嗯…，其实我们确实有些事儿需要你帮忙，有些活儿需要你来处理。</Data></Cell><Cell
           ss:Index="9"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
             ss:Type="String"
           >SPACERS_MESSAGE</Data></Cell><Cell><Data
@@ -331,7 +331,7 @@
           >DWELLING_INTERACTION_NEUTRAL_NEUTRAL</Data></Cell><Cell><Data
             ss:Type="String"
           >Oh, it’s you again. Got any Black Nex? We’re going on a raid soon so if you’ve got business, spit it out.</Data></Cell><Cell
-          ss:StyleID="s62"
+          ss:StyleID="s69"
         ><Data
             ss:Type="String"
           >噢，又是你。有黑死药吗？我们马上就要去突袭打劫了，有事儿就快说。</Data></Cell></Row><Row
@@ -340,7 +340,7 @@
       ><Cell><Data ss:Type="String">SPACERS_MESSAGE</Data></Cell><Cell><Data
             ss:Type="String"
           >CHANGE_DIPLOMATIC_RELATION_RESPONSE_NEUTRAL</Data></Cell><Cell
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         ><Data
             ss:Type="String"
           >{STR_LeaderName}, interesting developments. Looks like we’ll be seeing more of each other in the future.</Data></Cell><Cell
@@ -348,13 +348,13 @@
             ss:Type="String"
           >{STR_LeaderName}，有趣的进展。看来我们以后会经常见面了。</Data></Cell><Cell
           ss:Index="9"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
             ss:Type="String"
           >SPACERS_MESSAGE</Data></Cell><Cell><Data
             ss:Type="String"
           >FACTION_REQUEST_END_TO_WAR_NEUTRAL</Data></Cell><Cell
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         ><Data
             ss:Type="String"
           >Enough! Too many gibbed. We forfeit, you win. GGWP.</Data></Cell><Cell
@@ -362,7 +362,7 @@
             ss:Type="String"
           >够了！太多人被炸成烟花了，我们投降，你赢了。GG，WP。</Data></Cell><Cell
           ss:Index="9"
-          ss:StyleID="s61"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
             ss:Type="String"
           >SPACERS_BUTTON</Data></Cell><Cell><Data
@@ -374,7 +374,7 @@
             ss:Type="String"
           >恐怕不是。我们希望为你提供帮助或保护。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s70"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
             ss:Type="String"
           >SPACERS_BUTTON</Data></Cell><Cell><Data
@@ -388,9 +388,8 @@
           ss:Index="7"
         ><Data
             ss:Type="String"
-          >{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs.
-This is followed by the influence icon.</Data></Cell><Cell
-          ss:StyleID="s63"
+          >{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data></Cell><Cell
+          ss:StyleID="s70"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >SPACERS_BUTTON</Data></Cell><Cell><Data
@@ -401,7 +400,7 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >有什么我们可以帮你的？</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s70"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >SPACERS_BUTTON</Data></Cell><Cell><Data
@@ -413,7 +412,7 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >我们不能容忍星球上有你们这样的人存在。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s70"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >SPACERS_BUTTON</Data></Cell><Cell><Data
@@ -424,7 +423,7 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >可以让我们和你们的教士谈谈吗？</Data></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
-          >Preacher is male</Data></Cell><Cell ss:StyleID="s63" /></Row><Row
+          >Preacher is male</Data></Cell><Cell ss:StyleID="s70" /></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">SPACERS_BUTTON</Data></Cell><Cell><Data
             ss:Type="String"
@@ -434,30 +433,30 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >我们当然可以。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s70"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
             ss:Type="String"
-          >SPACERS_BUTTON</Data></Cell><Cell ss:StyleID="s64"><Data
+          >SPACERS_BUTTON</Data></Cell><Cell ss:StyleID="s71"><Data
             ss:Type="String"
-          >CALL_TO_WAR_PEACEKEEPER</Data></Cell><Cell ss:StyleID="s63"><Data
+          >CALL_TO_WAR_PEACEKEEPER</Data></Cell><Cell ss:StyleID="s70"><Data
             ss:Type="String"
           >Would you kindly wreck some scrubs with us?</Data></Cell><Cell><Data
             ss:Type="String"
           >愿不愿意跟我们一起去干掉几个小学生？</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s63"
-        /><Cell ss:StyleID="s63" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          ss:StyleID="s70"
+        /><Cell ss:StyleID="s70" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
-          >SPACERS_BUTTON</Data></Cell><Cell ss:StyleID="s64"><Data
+          >SPACERS_BUTTON</Data></Cell><Cell ss:StyleID="s71"><Data
             ss:Type="String"
-          >TRADE_PEACEKEEPER</Data></Cell><Cell ss:StyleID="s63"><Data
+          >TRADE_PEACEKEEPER</Data></Cell><Cell ss:StyleID="s70"><Data
             ss:Type="String"
           >Got some loot to trade?</Data></Cell><Cell><Data
             ss:Type="String"
           >有战利品要交易吗？</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s63"
-        /><Cell ss:StyleID="s63" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          ss:StyleID="s70"
+        /><Cell ss:StyleID="s70" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >SPACERS_BUTTON</Data></Cell><Cell><Data
             ss:Type="String"
@@ -466,7 +465,7 @@ This is followed by the influence icon.</Data></Cell><Cell
           >We're offering protection for the right price.</Data></Cell><Cell
         ><Data ss:Type="String">我们提供保护，价格也很合理。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s70"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
             ss:Type="String"
           >SPACERS_BUTTON</Data></Cell><Cell><Data
@@ -478,7 +477,7 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >这里归我们了，太空掠夺者。滚一边儿去。{INT_Cost}[influence/]</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s70"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >SPACERS_BUTTON</Data></Cell><Cell><Data
@@ -489,7 +488,7 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >你们出钱，我们出力。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s70"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >SPACERS_BUTTON</Data></Cell><Cell><Data
@@ -500,7 +499,7 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >你们这些疯子一个都别想跑！</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s70"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
             ss:Type="String"
           >SPACERS_BUTTON</Data></Cell><Cell><Data
@@ -513,7 +512,7 @@ This is followed by the influence icon.</Data></Cell><Cell
           >我们要和你们那位疯狂的教士谈谈！</Data></Cell><Cell
           ss:Index="7"
         ><Data ss:Type="String">Preacher is male</Data></Cell><Cell
-          ss:StyleID="s63"
+          ss:StyleID="s70"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >SPACERS_BUTTON</Data></Cell><Cell><Data
@@ -524,24 +523,24 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >骗人是我们的专长。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s70"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
             ss:Type="String"
-          >SPACERS_BUTTON</Data></Cell><Cell ss:StyleID="s64"><Data
+          >SPACERS_BUTTON</Data></Cell><Cell ss:StyleID="s71"><Data
             ss:Type="String"
-          >CALL_TO_WAR_WARMONGER</Data></Cell><Cell ss:StyleID="s63"><Data
+          >CALL_TO_WAR_WARMONGER</Data></Cell><Cell ss:StyleID="s70"><Data
             ss:Type="String"
           >Fire up those wrecks and let's own some scrubs!</Data></Cell><Cell
         ><Data ss:Type="String">烧杀掳掠！再干翻几个小学生！</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s63"
-        /><Cell ss:StyleID="s63" /></Row><Row
+          ss:StyleID="s70"
+        /><Cell ss:StyleID="s70" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">SPACERS_BUTTON</Data></Cell><Cell
-          ss:StyleID="s64"
+          ss:StyleID="s71"
         ><Data ss:Type="String">TRADE_WARMONGER</Data></Cell><Cell
-          ss:StyleID="s63"
+          ss:StyleID="s70"
         ><Data
             ss:Type="String"
           >Just here to trade... and you best cooperate.</Data></Cell><Cell
@@ -549,8 +548,8 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >只是来这儿交易的…你们最好乖乖合作。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s59"
-        /><Cell ss:StyleID="s63" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s70" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >SPACERS_BUTTON</Data></Cell><Cell><Data
             ss:Type="String"
@@ -560,7 +559,7 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >我们是来这儿为你提供保护的。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s70"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
             ss:Type="String"
           >SPACERS_BUTTON</Data></Cell><Cell><Data
@@ -572,7 +571,7 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >我们对你们的这个地方很感兴趣。{INT_Cost}[influence/]</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s70"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >SPACERS_BUTTON</Data></Cell><Cell><Data
@@ -583,7 +582,7 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >你们有啥事情可以搞一搞的吗？</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s70"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >SPACERS_BUTTON</Data></Cell><Cell><Data
@@ -594,7 +593,7 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >我们将把你们这群疯子赶出这个星球！</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s70"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >SPACERS_BUTTON</Data></Cell><Cell><Data
@@ -605,7 +604,7 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >我们想与你们的教士谈谈。</Data></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
-          >Preacher is male</Data></Cell><Cell ss:StyleID="s63" /></Row><Row
+          >Preacher is male</Data></Cell><Cell ss:StyleID="s70" /></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">SPACERS_BUTTON</Data></Cell><Cell><Data
             ss:Type="String"
@@ -615,35 +614,35 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >这是个什么活儿？</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s63"
+          ss:StyleID="s70"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
-          >SPACERS_BUTTON</Data></Cell><Cell ss:StyleID="s64"><Data
+          >SPACERS_BUTTON</Data></Cell><Cell ss:StyleID="s71"><Data
             ss:Type="String"
-          >CALL_TO_WAR_NEUTRAL</Data></Cell><Cell ss:StyleID="s63"><Data
+          >CALL_TO_WAR_NEUTRAL</Data></Cell><Cell ss:StyleID="s70"><Data
             ss:Type="String"
           >How about raiding a few of our enemies?</Data></Cell><Cell><Data
             ss:Type="String"
           >去抢劫几个敌人怎么样？</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s63"
-        /><Cell ss:StyleID="s63" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          ss:StyleID="s70"
+        /><Cell ss:StyleID="s70" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
-          >SPACERS_BUTTON</Data></Cell><Cell ss:StyleID="s64"><Data
+          >SPACERS_BUTTON</Data></Cell><Cell ss:StyleID="s71"><Data
             ss:Type="String"
-          >TRADE_NEUTRAL</Data></Cell><Cell ss:StyleID="s63"><Data
+          >TRADE_NEUTRAL</Data></Cell><Cell ss:StyleID="s70"><Data
             ss:Type="String"
           >Trade is our business, Spacer.</Data></Cell><Cell><Data
             ss:Type="String"
           >我们来搞搞贸易吧，太空掠夺者。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s63"
-        /><Cell ss:StyleID="s63" /></Row><Row
+          ss:StyleID="s70"
+        /><Cell ss:StyleID="s70" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
-      ><Cell ss:StyleID="s60"><Data
+      ><Cell ss:StyleID="s65"><Data
             ss:Type="String"
-          >RIVALRY_WARNING_SPACERS</Data></Cell><Cell ss:StyleID="s60"><Data
+          >RIVALRY_WARNING_SPACERS</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -659,7 +658,11 @@ This is followed by the influence icon.</Data></Cell><Cell
           >That’s it, that’s the last straw! Preacher says he had enough of your games, {STR_LeaderName}. Rev up the engines, gas up the Trucks, and spin up the Hellcopters. We’re goin’ to war, boys! Time for some good ol’fashioned skull crackin’.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >够了，人的忍耐是有极限的！教士说他已受够了你们的游戏，{STR_LeaderName}。发动引擎，给卡车加满汽油，让地狱直升机转起来。我们将开战了，臭小子们！我要打碎你们的头颅！</Data></Cell></Row><Row
+          >够了，人的忍耐是有极限的！教士说他已受够了你们的游戏，{STR_LeaderName}。发动引擎，给卡车加满汽油，让地狱直升机转起来。我们将开战了，臭小子们！我要打碎你们的头颅！</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Roller coaster' is not literal, simply a meatphor for life.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">SPACERS_MESSAGE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -673,6 +676,33 @@ This is followed by the influence icon.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >Roller coaster' is not literal, simply a meatphor for life.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SPACERS_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_DECREASED_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >First you talk sweet l33t and then you pull this BM on us? The Elite h4x0rz officially let you know our diplomatic relations have gone sour. BG.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你先是各种甜言蜜语糖衣炮弹，然后竟然对我们做出这种事情？精英黑客在此正式通知你，我们的外交关系已经恶化。BG。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SPACERS_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_DECREASED_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >First you talk sweet l33t and then you pull this BM on us? The Elite h4x0rz officially let you know our diplomatic relations have gone sour. BG.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你先是各种甜言蜜语糖衣炮弹，然后竟然对我们做出这种事情？精英黑客在此正式通知你，我们的外交关系已经恶化。BG。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SPACERS_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_DECREASED_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >First you talk sweet l33t and then you pull this BM on us? The Elite h4x0rz officially let you know our diplomatic relations have gone sour. BG.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你先是各种甜言蜜语糖衣炮弹，然后竟然对我们做出这种事情？精英黑客在此正式通知你，我们的外交关系已经恶化。BG。</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
@@ -695,6 +725,12 @@ This is followed by the influence icon.</Data></Cell><Cell
             ss:Type="String"
           >In the lines below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
             ss:Type="String"

@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -88,10 +88,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Send a disrupting wave to hack an area, [abilityred]Compromising[/abilityred] Mechanical and Cyborg units in that area.</Data></Cell><Cell
+          >Send a disrupting wave to hack an area, [abilityred]Compromising[/abilityred] Mechanical and Cyborg units in that area, for {Duration}[turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >发出干扰波入侵一个区域，[abilityred]扰乱[/abilityred]该区域内的机械单位和半机械单位。</Data></Cell><Cell
+          >发出干扰波入侵一个区域，[abilityred]扰乱[/abilityred]该区域内的机械单位和半机械单位，持续 {Duration}[turn/]。</Data></Cell><Cell
           ss:Index="7"
         ><Data ss:Type="String">Skill description.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"

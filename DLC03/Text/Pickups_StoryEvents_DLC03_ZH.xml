@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>9990</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -221,7 +221,7 @@
             ss:Type="String"
           >LABEL1</Data></Cell><Cell><Data
             ss:Type="String"
-          >Gain 100[happiness/] relation to your own race.</Data></Cell><Cell
+          >Gain 100 [opinion6/] relation to your own race.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >自己种族获得 100[happiness/] 关系。</Data></Cell></Row><Row
@@ -233,7 +233,7 @@
             ss:Type="String"
           >LABEL2</Data></Cell><Cell><Data
             ss:Type="String"
-          >Gain 100[happiness/] relation to every other race.</Data></Cell><Cell
+          >Gain 100 [opinion6/] relation to every other race.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >其他种族获得 100[happiness/] 关系。</Data></Cell></Row><Row
@@ -276,10 +276,10 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell><Data
             ss:Type="String"
-          >This will immediately stop the war with the NPC faction and reset your relation with them to 0.</Data></Cell><Cell
+          >This will immediately stop the war with the NPC faction and reset your relation [diplomaticlinks/] with them to 0.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >这将立即停止与 NPC 阵营的战争，并将关系重置为 0。</Data></Cell></Row><Row
+          >这将立即停止与 NPC 阵营的战争，并将关系[diplomaticlinks/]重置为 0。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data
@@ -304,10 +304,10 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell><Data
             ss:Type="String"
-          >Favor can get you into higher states of relationships with NPC factions, unlocking new trading options and the ability to call them to war.</Data></Cell><Cell
+          >Favor can improve your relationships [diplomaticlinks/] with NPC factions to higher states, unlocking new trading options and the ability to call them to war.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >好感度可以让你与 NPC 阵营进入更高级的关系状态，从而解锁新的交易选项，还能向 NPC 阵营发起战斗号召。</Data></Cell><Cell
+          >好感度可以提高与 NPC 阵营的关系[diplomaticlinks/]并进入更高级的关系状态，从而解锁新的交易选项，还能向 NPC 阵营发起战斗号召。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -624,10 +624,10 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell><Data
             ss:Type="String"
-          >You receive: {STR_Rewards}, and your relations with the Forgotten improve</Data></Cell><Cell
+          >You receive: {STR_Rewards}, and your relations with [diplomaticlinks/] the Forgotten improve</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >你获得：{STR_Rewards}，同时与被遗忘者的关系提升</Data></Cell></Row><Row
+          >你获得：{STR_Rewards}，同时与被遗忘者的关系[diplomaticlinks/]提升</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -669,115 +669,12 @@
           ss:Index="7"
         ><Data
             ss:Type="String"
-          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
-      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell></Row></Table><WorksheetOptions
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
     ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
         >600</HorizontalResolution><VerticalResolution
         >600</VerticalResolution></Print><Selected /><TopRowVisible
       >12</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
-          >23</ActiveRow><ActiveCol>4</ActiveCol></Pane></Panes><ProtectObjects
+          >17</ActiveRow><ActiveCol>4</ActiveCol></Pane></Panes><ProtectObjects
       >False</ProtectObjects><ProtectScenarios
       >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

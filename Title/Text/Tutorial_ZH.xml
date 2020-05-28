@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7320</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -43,26 +43,26 @@
       /></Style><Style ss:ID="s66" ss:Parent="s62"><Alignment
         ss:Vertical="Bottom"
         ss:WrapText="1"
-      /></Style><Style ss:ID="s67"><Alignment
+      /></Style><Style ss:ID="s68"><Alignment
         ss:Vertical="Bottom"
         ss:WrapText="1"
       /><Font
         ss:FontName="Arial"
         x:Family="Swiss"
         ss:Color="#000000"
-      /></Style><Style ss:ID="s70" ss:Parent="s63"><Alignment
+      /></Style><Style ss:ID="s71" ss:Parent="s63"><Alignment
         ss:Horizontal="Left"
         ss:Vertical="Bottom"
         ss:WrapText="1"
       /><Font ss:FontName="Arial" /><Interior /></Style><Style
-      ss:ID="s71"
+      ss:ID="s72"
     ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /><Borders /><Font
         ss:FontName="Calibri"
         x:Family="Swiss"
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s72"
+      ss:ID="s73"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
     ss:Name="Script"
   ><Table
@@ -169,7 +169,7 @@ Added periods in the name A.I.V.A.</Data></Cell></Row><Row
             ss:Type="String"
           >你可以使用方向键或{KEYBIND_ID_6}/{KEYBIND_ID_7}/{KEYBIND_ID_8}/{KEYBIND_ID_9}键来平移镜头，使用鼠标上的[middlemousebutton/]键可放大和缩小镜头。此外，你还可以通过按住[leftmousebutton/]键并移动鼠标的方式来移动镜头。[br/][br/]点击[leftmousebutton/]按钮可进行选择，在其他地方点击[leftmousebutton/]按钮可取消选择。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s67"
+          ss:StyleID="s68"
         ><Data
             ss:Type="String"
           >The change to this only modified text in {}, so doesn't require relocalization. The text changed is now {KEYBIND_ID_6}/{KEYBIND_ID_7}/{KEYBIND_ID_8}/{KEYBIND_ID_9}.</Data></Cell><Cell
@@ -753,10 +753,10 @@ Added periods in the name A.I.V.A.</Data></Cell></Row><Row
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This is the unit panel where all the information on a unit can be viewed, including their active and passive abilities in the list on the left side.  [br/][br/]Once reseached, [hyperlink,0000039E00000063]Unit Mods[/hyperlink] can be assigned to a unit using the mod slots on the right.</Data></Cell><Cell
+          >This is the unit panel where all the information on a unit can be viewed, including their active and passive abilities in the list on the left side.  [br/][br/]Once researched, [hyperlink,0000039E00000063]Unit Mods[/hyperlink] can be assigned to a unit using the mod slots on the right.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >这是单位面板，你可以在此处查看单位的所有信息，包括其列于左侧的主动和被动技能。[br/][br/]当研究了[hyperlink,0000039E00000063]单位模块[/hyperlink]之后，你可以使用右侧的模块槽位将模块分配给单位。</Data></Cell></Row><Row
+          >这是单位面板，你可以在此处查看单位的所有信息，包括列于左侧的主动和被动技能。[br/][br/]当研究了[hyperlink,0000039E00000063]单位模块[/hyperlink]之后，你可以使用右侧的模块槽位将模块分配给单位。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">UNITS_ROLE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1672,7 +1672,7 @@ Added periods in the name A.I.V.A.</Data></Cell></Row><Row
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >In addition to regular quests, the game features [hyperlink,000003AC00000270]Empire Tasks.[/hyperlink] These are divided into three categories, each representing an important pillar of your faction. Progressing through these empire tasks yields rewards and sets you on a path victory. Being the first commander to complete a task gives you an extra pioneer reward.</Data></Cell><Cell
+          >In addition to regular quests, the game features [hyperlink,000003AC00000270]Empire Tasks.[/hyperlink] These are divided into three categories, each representing an important pillar of your faction. Progressing through these empire tasks yields rewards and sets you on a path to victory. Being the first commander to complete a task gives you an extra pioneer reward.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >除常规任务外，游戏中还有[hyperlink,000003AC00000270]帝国任务[/hyperlink]。[br/]帝国任务分为三种，每一种都代表你阵营的一个重要支柱。完成帝国任务不仅能获得奖励，还能帮助你走向胜利。第一个完成任务的指挥官还能获得额外的先锋奖励。</Data></Cell></Row><Row
@@ -1837,17 +1837,17 @@ Added periods in the name A.I.V.A.</Data></Cell></Row><Row
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
           >Commander, one of our colonies is unhappy! Growing populations generate unhappiness as each colonist adds an amount of happiness upkeep. Certain enemy actions can also cause unrest. [br/][br/]Unhappiness is remedied by building certain structures in the colony center, or by assigning colonists to [hyperlink,000003AC00000026]Happiness[/hyperlink] slots.[br/][br/]Once colony unhappiness reaches a particular threshold, an [hyperlink,000003AC000002BE]Unhappiness Event[/hyperlink] will occur, leading to [hyperlink,000003AC000002B4]Riots[/hyperlink] and loss of income for the colony.</Data></Cell><Cell
-          ss:StyleID="s70"
+          ss:StyleID="s71"
         ><Data
             ss:Type="String"
           >指挥官，你的一个殖民地感到不幸福！由于移住民的维持消耗得不到满足，越来越多的人民产生了不满。某些敌对行动也会造成动荡。[br/][br/]你可以通过在殖民地中心建造特定建筑物或分配移住民至[hyperlink,000003AC00000026]幸福值[/hyperlink]栏位来弥补负幸福值。[br/][br/]一旦殖民地的负幸福值到达一定阈值，将会发生[hyperlink,000003AC000002BE]不幸福事件[/hyperlink]，从而导致殖民地出现[hyperlink,000003AC000002B4]暴乱[/hyperlink]并且损失收益。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:StyleID="Default"
-      ><Cell ss:StyleID="s71"><Data
+      ><Cell ss:StyleID="s72"><Data
             ss:Type="String"
           >XENOPLAGUE</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >NAME</Data></Cell><Cell ss:StyleID="s71"><Data
+          >NAME</Data></Cell><Cell ss:StyleID="s72"><Data
             ss:Type="String"
           >Xenoplague</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1855,11 +1855,11 @@ Added periods in the name A.I.V.A.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="150"
         ss:StyleID="Default"
-      ><Cell ss:StyleID="s71"><Data
+      ><Cell ss:StyleID="s72"><Data
             ss:Type="String"
           >XENOPLAGUE</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s71"><Data
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s72"><Data
             ss:Type="String"
           >To create Xenoplague units, you will need to infect enemy units in tactical combat with 'Parasitic Infection' by using unit mods and tactical operations that are unlocked through research.[br/][br/]At the end of a successful combat, the more enemy units that were infected, the higher the chance that you will gain a Xenoplague unit, or evolve an existing Xenoplague unit. The spawn chance increases the higher the tier of the infected units that died.[br/][br/]Each combat, multiple units can be spawned, evolved or a combination of both. Before Xenoplague units can be evolved, they need to be researched. </Data></Cell><Cell
         ><Data
@@ -1867,11 +1867,11 @@ Added periods in the name A.I.V.A.</Data></Cell></Row><Row
           >要想生产异星疫病单位，你需要在战术战斗中使用通过研究而解锁的单位模块和战术行动向敌方单位施加“寄生感染”。[br/][br/]在战斗胜利后，受到感染的敌方单位越多，你获得异星疫病单位或是进化现有异星疫病单位的几率就越高。阵亡单位的阶级越高，生成的几率就越高。[br/][br/]一场战斗可生成和进化多个单位。异星疫病单位进化之前需要先进行研究。 </Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:StyleID="Default"
-      ><Cell ss:StyleID="s71"><Data
+      ><Cell ss:StyleID="s72"><Data
             ss:Type="String"
           >COMBAT_CARDS</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >NAME</Data></Cell><Cell ss:StyleID="s71"><Data
+          >NAME</Data></Cell><Cell ss:StyleID="s72"><Data
             ss:Type="String"
           >Combat Cards</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1879,19 +1879,19 @@ Added periods in the name A.I.V.A.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="75"
         ss:StyleID="Default"
-      ><Cell ss:StyleID="s72"><Data
+      ><Cell ss:StyleID="s73"><Data
             ss:Type="String"
-          >COMBAT_CARDS</Data></Cell><Cell ss:StyleID="s72"><Data
+          >COMBAT_CARDS</Data></Cell><Cell ss:StyleID="s73"><Data
             ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s72"><Data
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s73"><Data
             ss:Type="String"
           >Combat cards allow you to fight manual combat in a multiplayer game. You need at least one combat card to initiate manual combat, and that card will be consumed upon doing so. In classic turns, combat cards are only spend against other human players. You only have a limited amount of combat cards and will regain a combat card after a set amount of turns, unless you already have the maximum amount of combat cards.</Data></Cell><Cell
-          ss:StyleID="s72"
+          ss:StyleID="s73"
         ><Data
             ss:Type="String"
           >战斗卡片能够让你在多人游戏中进行手动战斗。你需要至少一张战斗卡片才能开始手动战斗，开始战斗后卡片将会被消耗。你所拥有的战斗卡片数量是有限的，如果你的战斗卡片未达到最大数量，你可以在设定数量的回合后获得战斗卡片。</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s71"
+          ss:StyleID="s72"
         ><Data ss:Type="String">NOT FINISHED!</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ANOMALOUS_SITES</Data></Cell><Cell><Data

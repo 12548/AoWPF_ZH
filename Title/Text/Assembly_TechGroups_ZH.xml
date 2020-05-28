@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -502,10 +502,10 @@
       ><Cell><Data ss:Type="String">BATTLEFIELD_AUTOPSIES</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The Assembly pick through the bodies of the dead, examining every nut, bolt and organ for their sinister research.[br/][br/]After winning Tactical Combat, gain {ResearchAmount}[research/] for each enemy unit killed, multiplied by their tier.</Data></Cell><Cell
+          >The Assembly pick through the bodies of the dead, examining every nut, bolt and organ for their sinister research.[br/][br/]After winning Tactical Combat, gain {ResearchAmount}[research/] for each enemy unit killed, multiplied by their tier.[br/][br/]{HeroResearch}[research/] is gained from each enemy commander and hero defeated.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >半机械人挑拣死者尸体，检查每一个螺母、螺栓和器官用以进行他们邪恶的研究。[br/][br/]战术战斗获胜后，每击杀一个敌方单位，获得 {ResearchAmount}[research/]。击杀的敌军单位阶级越高，获得的越多。</Data></Cell></Row><Row
+          >半机械人挑拣死者尸体，检查每一个螺母、螺栓和器官用以进行他们邪恶的研究。[br/][br/]战术战斗获胜后，每击杀一个敌方单位，获得 {ResearchAmount}[research/]。击杀的敌军单位阶级越高，获得的越多。[br/][br/]每击败一名敌方指挥官和英雄，获得 {HeroResearch}[research/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">SCAVENGERS</Data></Cell><Cell><Data
             ss:Type="String"
@@ -580,10 +580,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Our mastery of reassembly approaches completion. Nothing is wasted; everything has a purpose.[br/][br/]After winning Tactical Combat, gain {FoodAmount}[food/] and {ProductionAmount}[production/] for each enemy unit killed, multiplied by their tier.</Data></Cell><Cell
+          >Our mastery of reassembly approaches completion. Nothing is wasted; everything has a purpose.[br/][br/]After winning Tactical Combat, gain {FoodAmount}[food/] and {ProductionAmount}[production/] for each enemy unit killed, multiplied by their tier.[br/][br/]{HeroFood}[food/] and {HeroProduction}[production/] is gained from each enemy commander and hero defeated.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >我们对改造的掌握几近完美，每一处都有其目的，绝无浪费。[br/][br/]战术战斗获胜后，每击杀一个敌方单位，获得 {FoodAmount}[food/]和 {ProductionAmount}[production/]。击杀的敌方单位阶级越高，获得的越多。</Data></Cell><Cell
+          >我们对改造的掌握几近完美，每一处修改都有其目的，绝无浪费。[br/][br/]战术战斗获胜后，每击杀一个敌方单位，获得 {FoodAmount}[food/] 和 {ProductionAmount}[production/]。击杀的敌方单位阶级越高，获得的越多。[br/][br/]每击败一名敌方指挥官和英雄，获得 {HeroFood}[food/] 和 {HeroProduction}[production/]。</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data

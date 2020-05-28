@@ -6,594 +6,640 @@
   xmlns:x="urn:schemas-microsoft-com:office:excel"
   xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
   xmlns:html="http://www.w3.org/TR/REC-html40"
->
- <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
-  <LastAuthor>Djurre van Dijk</LastAuthor>
-  <Created>2019-06-25T15:52:56Z</Created>
-  <LastSaved>2019-06-29T23:48:22Z</LastSaved>
-  <Version>12.00</Version>
- </DocumentProperties>
- <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
-  <AllowPNG />
- </OfficeDocumentSettings>
- <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>9750</WindowHeight>
-  <WindowWidth>13170</WindowWidth>
-  <WindowTopX>32760</WindowTopX>
-  <WindowTopY>32760</WindowTopY>
-  <MaxChange>0.0001</MaxChange>
-  <RefModeR1C1 />
-  <ProtectStructure>False</ProtectStructure>
-  <ProtectWindows>False</ProtectWindows>
- </ExcelWorkbook>
- <Styles>
-  <Style ss:ID="Default" ss:Name="Normal">
-   <Alignment ss:Vertical="Bottom" />
-   <Borders />
-   <Font
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Djurre van Dijk</LastAuthor><Created
+    >2019-06-25T15:52:56Z</Created><LastSaved
+    >2019-06-29T23:48:22Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
+    >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
         ss:FontName="Calibri"
         x:Family="Swiss"
         ss:Size="11"
         ss:Color="#000000"
-      />
-   <Interior />
-   <NumberFormat />
-   <Protection />
-  </Style>
-  <Style ss:ID="s67" ss:Name="Hyperlink">
-   <Font
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+      ss:Name="Hyperlink"
+    ><Font
         ss:FontName="Calibri"
         x:Family="Swiss"
         ss:Size="12.65"
         ss:Color="#0000FF"
         ss:Underline="Single"
-      />
-  </Style>
-  <Style ss:ID="s62">
-   <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
-  </Style>
-  <Style ss:ID="s63">
-   <Alignment ss:Vertical="Top" ss:WrapText="1" />
-  </Style>
-  <Style ss:ID="s64">
-   <Alignment ss:Vertical="Top" ss:WrapText="1" />
-   <NumberFormat />
-  </Style>
-  <Style ss:ID="s65">
-   <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
-   <Borders />
-   <Font
+      /></Style><Style ss:ID="s63"><Alignment
+        ss:Vertical="Bottom"
+        ss:WrapText="1"
+      /></Style><Style ss:ID="s64"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /></Style><Style ss:ID="s66" ss:Parent="s62"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /><NumberFormat /></Style><Style ss:ID="s68" ss:Parent="s62"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /><Protection /></Style><Style ss:ID="s69"><Alignment
+        ss:Vertical="Bottom"
+        ss:WrapText="1"
+      /><Borders /><Font
         ss:FontName="Calibri"
         x:Family="Swiss"
         ss:Size="11"
         ss:Color="#000000"
-      />
-   <Interior />
-   <NumberFormat />
-   <Protection />
-  </Style>
-  <Style ss:ID="s66">
-   <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
-   <Font
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s70"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /><Font
         ss:FontName="Calibri"
         x:Family="Swiss"
         ss:Size="11"
         ss:Color="#000000"
-      />
-  </Style>
-  <Style ss:ID="s68" ss:Parent="s67">
-   <Alignment ss:Vertical="Top" ss:WrapText="1" />
-   <Protection />
-  </Style>
- </Styles>
- <Worksheet ss:Name="Script">
-  <Table
-      ss:ExpandedColumnCount="9"
-      ss:ExpandedRowCount="41"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s62"
+      ss:StyleID="s63"
       ss:DefaultRowHeight="15"
-    >
-   <Column ss:StyleID="s62" ss:Width="106.5" />
-   <Column ss:StyleID="s62" ss:Width="90" />
-   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="422.25" />
-   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="248.25" />
-   <Column ss:StyleID="s62" ss:Width="176.25" />
-   <Column ss:StyleID="s62" ss:Width="117.75" />
-   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="422.25" />
-   <Row ss:AutoFitHeight="0" ss:Height="45">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">SPECIES_DVAR</Data></Cell>
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:Index="7" ss:StyleID="s63"><Data
+    ><Column ss:StyleID="s63" ss:Width="106.5" /><Column
+        ss:StyleID="s63"
+        ss:Width="90"
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="422.25" /><Column
+        ss:StyleID="s63"
+        ss:AutoFitWidth="0"
+        ss:Width="248.25"
+      /><Column ss:StyleID="s63" ss:Width="176.25" /><Column
+        ss:StyleID="s63"
+        ss:Width="117.75"
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="422.25" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="60">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">SCENE ID</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">TEXT ID</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">ENGLISH STRING</Data></Cell>
-    <Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >SPECIES_DVAR</Data></Cell><Cell ss:StyleID="s64" /><Cell
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /><Cell ss:Index="7" ss:StyleID="s64"><Data
             ss:Type="String"
-          >ALTERNATIVE ENGLISH STRING</Data></Cell>
-    <Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell><Cell
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">SCENE ID</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">TEXT ID</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">ENGLISH STRING</Data></Cell><Cell><Data
             ss:Type="String"
-          >LOCALIZATION NOTES</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >LOCALIZED STRING</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >DEV TEAM / MISC NOTES</Data></Cell>
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">RACE</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME_SINGULAR</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">Dvar</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">矮人</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">RACE</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME_PLURAL</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">Dvar</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">矮人</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="150">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">RACE</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell ss:StyleID="s64"><Data
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
             ss:Type="String"
-          >{XML_SPECIES_DVAR@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]Starting Bonus:[/sand] Start with +150[energy/] [hyperlink,000003AC00000023]Energy[/energy][/bullet][bullet][sand]Long-Term Bonus:[/sand] [hyperlink,000003AC0000029D]Hurry Production[/hyperlink] is 15% cheaper[/bullet][bullet][hyperlink,0000039E0000000F]Firearms[/hyperlink] Weapons Group[/bullet][bullet][hyperlink,000003AC00000293]Explosive[/hyperlink] Weapons Group[/bullet][bullet]Powerful area of effect and medium range attacks[/bullet][bullet]Strong focus on production[/bullet][bullet]Terraforming options to destroy and create mountains[/bullet][/bulletList]</Data></Cell>
-    <Cell ss:StyleID="s68" ss:HRef=""><Data
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >{XML_SPECIES_DVAR@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]初始加成：[/sand]开始时拥有 +150[energy/] [hyperlink,000003AC00000023]能量[/hyperlink][/bullet][bullet][sand]长期加成：[/sand] [hyperlink,000003AC0000029D]加速生产[/hyperlink]消耗减少 15%[/bullet][bullet][hyperlink,0000039E0000000F]枪炮[/hyperlink]武器组[/bullet][bullet][hyperlink,000003AC00000293]爆炸[/hyperlink]武器组[/bullet][bullet]强大的范围效果和中距离攻击[/bullet][bullet]极其重视生产[/bullet][bullet]环境改造能力，可摧毁或创造山地[/bullet][/bulletList]</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63"><Data
+          >RACE</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >The {text} inserts the DESCRIPTION_SHORT text below.</Data></Cell>
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="60">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">RACE</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >NAME_SINGULAR</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >DESCRIPTION_SHORT</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >Dvar</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >The [hyperlink,0000039E0000001A]Dvar[/hyperlink] are a thrifty race of survivalists. The Dvar work hard to mine planets for all they’re worth to gain as many resources as possible for their Consortium's survival and welfare.</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >矮人</Data></Cell><Cell ss:Index="7" ss:StyleID="s64" /><Cell
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">RACE</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >[hyperlink,0000039E0000001A]矮人[/hyperlink]是勤俭节约的活命主义者。为了财团的生存与发展，他们会拼尽全力地收集他们认为值得为之付出的星球资源。</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">CAMP</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">Dvar Settlement</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">矮人定居点</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="30">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">CAMP</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >NAME_PLURAL</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >A settlement is a small independent colony that might join you if you have enough influence.</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >Dvar</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >定居点是小型的独立殖民地，如果你拥有足够的影响力，定居点可能会加入你的势力。</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="30">
-    <Cell ss:StyleID="s63"><Data
+          >矮人</Data></Cell><Cell ss:Index="7" ss:StyleID="s64" /><Cell
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">RACE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s66"
+          ss:HRef=""
+        ><Data
             ss:Type="String"
-          >MIGRATE_OPERATION</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >{XML_SPECIES_DVAR@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]Starting Bonus:[/sand] Start with +150[energy/] [hyperlink,000003AC00000023]Energy[/hyperlink][/bullet][bullet][sand]Long-Term Bonus:[/sand] [hyperlink,000003AC0000029D]Hurry Production[/hyperlink] is 15% cheaper[/bullet][bullet][hyperlink,0000039E0000000F]Firearms[/hyperlink] Weapons Group[/bullet][bullet][hyperlink,000003AC00000293]Explosive[/hyperlink] Weapons Group[/bullet][bullet]Powerful area of effect and medium range attacks[/bullet][bullet]Strong focus on production[/bullet][bullet]Terraforming options to destroy and create mountains[/bullet][/bulletList]</Data></Cell><Cell
+          ss:StyleID="s68"
+          ss:HRef=""
+        ><Data
             ss:Type="String"
-          >Migrate Colony: Dvar</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">迁移殖民地：矮人</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="105">
-    <Cell ss:StyleID="s63"><Data
+          >{XML_SPECIES_DVAR@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]初始加成：[/sand]开始时拥有 +150[energy/] [hyperlink,000003AC00000023]能量[/hyperlink][/bullet][bullet][sand]长期加成：[/sand][hyperlink,000003AC0000029D]加速生产[/hyperlink]消耗减少 15%[/bullet][bullet][hyperlink,0000039E0000000F]枪炮[/hyperlink]武器组[/bullet][bullet][hyperlink,000003AC00000293]爆炸[/hyperlink]武器组[/bullet][bullet]强大的范围效果和中距离攻击[/bullet][bullet]极其重视生产[/bullet][bullet]环境改造能力，可摧毁或创造山地[/bullet][/bulletList]</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        ><Data
             ss:Type="String"
-          >MIGRATE_OPERATION</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >The {text} inserts the DESCRIPTION_SHORT text below.</Data></Cell><Cell
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">RACE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION_SHORT</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
             ss:Type="String"
-          >Migrate the population of this colony to Dvar The colony will become an Dvar colony. [br/][br/][fireCol]By migrating the population, {PopulationDeath} of the colonists of the colony will be killed.[/fireCol] [br/][br/]You receive:[br/][fireCol]{Reputation} Reputation[br/]{RaceRelation} Race Relation with the {STR_raceName}[/fireCol] </Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >The [hyperlink,0000039E0000001A]Dvar[/hyperlink] are a thrifty race of survivalists. The Dvar work hard to mine planets for all they’re worth to gain as many resources as possible for their Consortium's survival and welfare.</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
             ss:Type="String"
-          >将殖民地的居民移民为矮人，之后该殖民地将变为矮人殖民地。[br/][br/][fireCol]迁移人口后，该殖民地 {PopulationDeath} 的移住民将会死亡。[/fireCol][br/][br/]你获得：[br/][fireCol]{Reputation} 声望[br/]与{STR_raceName}的种族关系 {RaceRelation}[/fireCol] </Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="30">
-    <Cell ss:StyleID="s63"><Data
+          >[hyperlink,0000039E0000001A]矮人[/hyperlink]是勤俭节约的活命主义者。为了财团的生存与发展，他们会拼尽全力地收集他们认为值得为之付出的星球资源。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">CAMP</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >MIGRATE_OPERATION</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">IN_PROGRESS</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >Dvar Settlement</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >Colony is currently being migrated to an Dvar population. Process will complete in [INT_duration].</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >矮人定居点</Data></Cell><Cell ss:Index="7" ss:StyleID="s64" /><Cell
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">CAMP</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
             ss:Type="String"
-          >殖民地正迁移为矮人殖民地，将于 [INT_duration] 后完成。</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="30">
-    <Cell ss:StyleID="s63"><Data
+          >A settlement is a small independent colony that might join you if you have enough influence.</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
             ss:Type="String"
-          >MIGRATE_OPERATION</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">CONFIRMATION</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >定居点是小型的独立殖民地，如果你拥有足够的影响力，定居点可能会加入你的势力。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >Are you sure you want to migrate this colony to an Dvar colony?</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >MIGRATE_OPERATION</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >确定要将该殖民地迁移为矮人殖民地？</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">TRENCHER</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">Trencher</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">挖掘者</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="165">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">TRENCHER</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >“I heard the rhythmic clink-clank of mining machines and dashed down the tunnel following the sound. I don’t generally hang with Dvars, mostly because they really like mining, and I find it difficult to enjoy dirt. But with bugs sniffling my trail, I chose new company. Fortunately, the Dvar had Trenchers. At my warning, they dug defensive trenches. With their shields up, the bugs were repelled by the force of their shield bash. Their spike guns punched holes in the natural armor of the enemy, forcing the creatures to retreat or die.”— Mah Reg’Nib, Observer Officiate, “RV-2246X: Dvar Chronicles”</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >Migrate Colony: Dvar</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >“我听到了采矿机器富有节奏的咔嚓声，于是便循着声音一路向隧道内走去。我一般不会和矮人打交道，主要是因为他们真的很喜欢采矿，而我不太喜欢弄得脏兮兮的。但身后的虫子对我紧追不舍，我必须找一些新的伙伴。幸运的是，矮人们有挖掘者。他们在我的警告下，挖了些防御壕沟，那些虫子被他们举起的盾牌击退。钉枪射穿了敌人的天然甲壳，那些生物要么选择撤退，要么就命丧当场。”- 玛·瑞格尼布，观察者官员，“RV-2246X：矮人编年史”</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63"><Data
+          >迁移殖民地：矮人</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >Edit: removed extra space after &quot;sound.&quot; Edit: Dvartian -&gt; Dvar</Data></Cell>
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">FOREMAN</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">Foreman</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">工头</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="135">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">FOREMAN</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >MIGRATE_OPERATION</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >“As foreman, I am boss. I require nothing of my subordinates that I cannot do myself. I model myself after the legendary Forgemaster Dvarnos. He reached into the mountain’s heart and pulled out the Gauntlet of Empires. By the power of my gauntlet, my men to stand strong against the terror of the fiends that lurk in the dark depths. When my men are broken, I repair them. With my mortar, I can place a charge to destroy at a distance. With the power of my fist I break rocks and monsters alike.”— Foreman Gorgle Grok, “RV-32344M: Enemy Mines”</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >“身为工头，我就是首领。我自己不能办到的事，我绝不会要求我的手下去做。我以传说中的铸造大师迪瓦诺斯为榜样，是他曾经去往山脉的中心并拿出了帝国臂铠。如果在我臂铠的力量下，我的弟兄们能够对抗隐藏在黑暗深渊的恐怖恶鬼。当我的人受伤时，我能治好他们。我的迫击炮能够进行远距离爆破。我的拳头能够击碎岩石，还有怪物。”- 工头格鲁克，“RV-32344M：敌方矿山”</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63"><Data
+          >Migrate the population of this colony to Dvar The colony will become an Dvar colony. [br/][br/][fireCol]By migrating the population, {PopulationDeath} of the colonists of the colony will be killed.[/fireCol] [br/][br/]You receive:[br/][fireCol]{Reputation} Reputation[br/]{RaceRelation} Race Relation with the {STR_raceName}[/fireCol] </Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
             ss:Type="String"
-          >Edit: Empire -&gt; Empires</Data></Cell>
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">PROSPECTOR</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">Prospector</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">勘探者</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="150">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">PROSPECTOR</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >将殖民地的居民移民为矮人，之后该殖民地将变为矮人殖民地。[br/][br/][fireCol]迁移人口后，该殖民地 {PopulationDeath} 的移住民将会死亡。[/fireCol][br/][br/]你获得：[br/][fireCol]{Reputation} 声望[br/]与{STR_raceName}的种族关系 {RaceRelation}[/fireCol] </Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >“There’s no glory in killing. There’s no virtue in conquest. I have work to do. This universe is rich and untapped. Dvar shape it. Dvar have no sinister motive. That’s you people. We didn’t G-Bomb the Void gates, ruining Hyperspace. With or without the Star Union, we always have work. My work will better my society. That’s it. Yes, I can toss a bomb, but I’m not in love with it. I’m a Prospector. I love nothing more than mining a rich vein of ore.”— Prospector Darton Nan, “RV-2244D: Dvar Cases”</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >MIGRATE_OPERATION</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >“杀戮中没有荣耀，征服中也没有美德，我有我的工作要做。这个宇宙十分富有而且尚未得到开发。矮人塑造了它的形状，他们并没有罪恶的动机。你们这些种族才会那样。我们没有将重力炸弹投向虚空之门而摧毁超空间。无论有没有星际联盟，我们都在辛勤劳作。我的工作将使社会变得更美好，就这么简单。没错，我也能投炸弹，但不代表我喜欢这么做。我是勘探者，我最爱的事就是开采储量丰厚的矿脉。”- 勘探者，达顿·南，“RV-2244D：矮人案例”</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63"><Data
+          >IN_PROGRESS</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >Edit: I've -&gt; I have Edit: Dvarton -&gt; Darton</Data></Cell>
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">ENFORCER</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">Bulwark</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">筑垒卫士</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="150">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">ENFORCER</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >Colony is currently being migrated to an Dvar population. Process will complete in [INT_duration].</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
             ss:Type="String"
-          >“Adapted to repel quartzite-infused marauders long enough for Dvar miners to escape, the Bulwark is especially formidable at delaying an enemy advance. Upon first encounter, we thought it a modified Walker, but the gun on the Bulwark shoots a shell with an explosive punch that knocks most troops on their backsides. Do not attempt to overwhelm its defensive capabilities using a grunt-rush technique either. I’ve seen one strike invader after invader attempting to rush past it, while normal guard forces would not have time to strike so rapidly.”— Captain Paxus Plexis, “RV-378M: Military Analysis Report: Dvar”</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >殖民地正迁移为矮人殖民地，将于 [INT_duration] 后完成。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >“筑垒卫士的职责是抵挡石英岩兽劫掠者足够长的时间，直至所有矮人矿工撤离，因此筑垒卫士十分擅长阻碍敌人前进。第一次遇见它时，我们还以为是一个经过改造的行者，但筑垒卫士发出的高爆枪弹几乎将背后的所有敌人全部歼灭。不要尝试用蛮力突破它的防御，我可是亲眼见到它将一个又一个试图突破的入侵者逐个击破。一般的防守部队动作绝不可能这样迅速。”- 帕修斯·普雷西斯队长，“RV-378M：军事分析报告：矮人”</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">EXCAVATOR_TANK</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">Excavator Tank</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">挖掘者坦克</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="150">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">EXCAVATOR_TANK</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >MIGRATE_OPERATION</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >“I’ve destroyed tanks, but the Dvar Excavator might as well be an ingot of armor-plating. This thing is solid. It rams through most obstacles as though they were holograms. I tried standing my ground against one in my mech-walker; it knocked me on my butt. Welding engineers can’t get close to it. The defensive ring of flame throwers will ignite anything adjacent to it. Its cannon delivers an area blast of Dvar explosives that makes the most steady-footed soldier fall to his knees.”— Captain Paxus Plexis, “RV-376M: Military Analysis Report: Dvar”</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >CONFIRMATION</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >“我摧毁过许多坦克，但矮人的挖掘者简直就是一块铁甲钢板。这东西非常坚硬，它能够直接碾过大多数障碍物，仿佛它们是全息影像并不存在一样。我曾经试过用我的机械行者挡在它的路上，却惨遭撞飞。焊接工程师根本无法接近，环状的防御火焰喷射器能把附近的一切烧成灰烬。它搭载的火炮采用了矮人特制的范围性炸药，即使是步履最为坚定的士兵也会被震得跪倒在地上。”- 帕修斯·普雷西斯队长，“RV-376M：军事分析报告：矮人”</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">ROCKET_ARTILLERY</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">Rocket Artillery</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">火箭炮</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="165">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">ROCKET_ARTILLERY</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >Are you sure you want to migrate this colony to an Dvar colony?</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
             ss:Type="String"
-          >“Hopper Hill was the nuisance of Sundew Valley. Hundreds of hopperhounds lived in that nest, menacing the community. The Dvar diplomat said he had an aunt, a natural exterminator. I laughed and signed papers permitting ‘Fat Olga’ into the valley. Thereafter, a heavy tracked vehicle rumbled into view. After successive shattering blasts, the whole hopperhound lair collapsed. A gaping crater was all that remained of Hopper Hill. The Dvar ‘diplomat’ chuckled wickedly, as Fat Olga turned towards our settlement. That’s when I realized I’d signed away our freedom.”— Patchery Mazz, “RV-6993D: The Surrender of Sundew Valley”</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >确定要将该殖民地迁移为矮人殖民地？</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">TRENCHER</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >“漏斗山是桑德鲁峡谷中最棘手的地方，无数跳蝗在这里扎根，四处袭击居民。矮人外交官称自己有一位姨妈是天生的害虫专家。我笑了笑，签署了批准‘奥尔加巨炮’进入峡谷的文件。之后，一辆重型履带装甲车轰隆隆地开了过来。连续几轮炮击后，整个跳蝗的巢穴都崩塌了，整座漏斗山成了一个巨大的坑。那位矮人“外交官”邪恶地笑着，当奥尔加巨炮转向我们的定居点时，我才意识到，我随手签署而去的还有我们的自由。”- 帕齐里·马兹，“RV-6993D：桑德鲁峡谷的沦陷”</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63"><Data
+          >Trencher</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >Edit: Hopperhounds -&gt; hopperhounds Edit: Hopperhound -&gt; hopperhound</Data></Cell>
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">EARTH_CRUSHER</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">Earth Crusher</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">裂地者</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="180">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">EARTH_CRUSHER</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >挖掘者</Data></Cell><Cell ss:Index="7" ss:StyleID="s64" /><Cell
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="165"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">TRENCHER</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
             ss:Type="String"
-          >“The Dvar are not monsters beneath their encounter suits. They value prosperity, clan, and their inventions. If they have a flaw, it’s that they think of worlds as machines filled with replaceable parts. I escaped in an Earth Crusher. While the monstrous machine leeched everything from the soil, I snuck to the extruder. Earth Crushers pull in everything, using tractor-beams to snare enemies. Massive gears grind, forges belch smoke, refining raw materials into valuable components. A trail of barren dross lies in its wake. This refuse is the perfect hiding place, if I don’t starve.”— Mah Reg’Nib, “RV-2390X: Dvar Chronicles”</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >“I heard the rhythmic clink-clank of mining machines and dashed down the tunnel following the sound. I don’t generally hang with Dvars, mostly because they really like mining, and I find it difficult to enjoy dirt. But with bugs sniffling my trail, I chose new company. Fortunately, the Dvar had Trenchers. At my warning, they dug defensive trenches. With their shields up, the bugs were repelled by the force of their shield bash. Their spike guns punched holes in the natural armor of the enemy, forcing the creatures to retreat or die.”— Mah Reg’Nib, Observer Officiate, “RV-2246X: Dvar Chronicles”</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
             ss:Type="String"
-          >“矮人不是身着战斗服的怪物。他们珍视繁荣、部落和他们的发明。如果说他们存在某种缺陷，那就是他们将各个星球视作一个个可替换零件的机器。我乘坐一辆裂地者跑了出去，当这台巨大的机器汲取着土壤中的一切时，我悄悄地溜进了挤压机中。裂地者能够拉动任何东西，它们用牵引光束捕获敌人。巨大的齿轮能够磨碎一切，熔炉中喷射出大量烟雾，将粗糙的原料精炼成珍贵的零件。裂地者所到之处，身后必定是一片荒芜。这个破烂机器是绝佳的藏身之处，前提是我不饿死。”- 玛·瑞格尼布，“RV-2390X：矮人编年史”</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63"><Data
+          >“我听到了采矿机器富有节奏的咔嚓声，于是便循着声音一路向隧道内走去。我一般不会和矮人打交道，主要是因为他们真的很喜欢采矿，而我不太喜欢弄得脏兮兮的。但身后的虫子对我紧追不舍，我必须找一些新的伙伴。幸运的是，矮人们有挖掘者。他们在我的警告下，挖了些防御壕沟，那些虫子被他们举起的盾牌击退。钉枪射穿了敌人的天然甲壳，那些生物要么选择撤退，要么就命丧当场。”- 玛·瑞格尼布，观察者官员，“RV-2246X：矮人编年史”</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >Edit: sneaked -&gt; snuck Edit: Dvartian -&gt; Dvar</Data></Cell>
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">SAPPER</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">Sapper</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">隧道钻机</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="180">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">SAPPER</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >Edit: removed extra space after "sound."
+Edit: Dvartian -&gt; Dvar</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">FOREMAN</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >“Indigenous women attack our workers whenever we clear land for mining. They disappear in trees and attack with savage intensity. The Oligarch refuses to enhance our weapons to repel them. Profit margins are too narrow.  Yesterday, I jumped into a Sapper and drove right into their settlement. Staying low in the earth, I was a difficult target to hit. I tunneled through root obstructions and unleashed a seismic charge. The natural cover shattered. Many wood-wenches fell stunned. The troops followed, taking cover in the trench I dug. The forests of Virga will soon belong to us.”— Sapper Stogie Glurp, “RV-8038M: Harvesting Virga”</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >Foreman</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >“当地的女人会在我们清理地面准备开采时攻击我们的工人，她们躲进树林里，野蛮地发起攻击。寡头拒绝强化我们的武器来驱逐她们。利润空间实在是在低了。昨天，我跳进了一个隧道钻机并冲进了她们的定居点。由于在地下钻得很深，她们很难打到我。我穿过了固定的阻碍，然后投下了一枚地震炸药。大自然的地面分崩瓦解，许多森林姑娘陷入了昏厥。部队随后跟了过来，以我挖掘的壕沟为掩体。维尔加森林不久就将属于我们。”- 隧道钻机兵斯托吉·格鲁普，“RV-8038M：收割维尔加”</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">RAMJET</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">Ramjet</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">冲压喷气机</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="150">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">RAMJET</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >工头</Data></Cell><Cell ss:Index="7" ss:StyleID="s64" /><Cell
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="135"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">FOREMAN</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
             ss:Type="String"
-          >“Without all the rockets, I wouldn’t fly it. I’m Dvar, not some kind of delicate space jellyfish. I have no need to flit about in space. Nothing satisfies quite like the moving of earth and soil with the roar of our engines. Who doesn’t like the power of machinery in all its glory? Then again, there’s nothing quite like the feel of the afterburners at full roar as the solid Ramjet’s nose-block smashes through lightweight enemy aircraft. I love watching the look on the panicked pilot’s face as his ship careens away, out of control.”— Captured Pilot, Guett Wrek’t, “RV-3904M: Testimony of Outlaws”</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >“As foreman, I am boss. I require nothing of my subordinates that I cannot do myself. I model myself after the legendary Forgemaster Dvarnos. He reached into the mountain’s heart and pulled out the Gauntlet of Empires. By the power of my gauntlet, my men to stand strong against the terror of the fiends that lurk in the dark depths. When my men are broken, I repair them. With my mortar, I can place a charge to destroy at a distance. With the power of my fist I break rocks and monsters alike.”— Foreman Gorgle Grok, “RV-32344M: Enemy Mines”</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
             ss:Type="String"
-          >“如果不是那些火箭，我才不会在天上飞呢。我是矮人，不是那些脆弱的太空水母，没必要在太空中飞来飞去。没有什么比在引擎的轰鸣声下开山移土更令我感到满足的事情了。有谁会不喜欢机器的荣耀呢？还有，当坚固的冲压喷气机轰鸣着全速撞毁敌人的轻型飞行器时，没有比这更棒的感觉了。我喜欢看敌方飞行员在飞行器倾斜失控时脸上那慌张的神情。”- 被俘的飞行员，古特·里克特，“RV-3904M：罪犯的证词”</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">BARON</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">Baron</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">男爵</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="195">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">BARON</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >“身为工头，我就是首领。我自己不能办到的事，我绝不会要求我的手下去做。我以传说中的铸造大师迪瓦诺斯为榜样，是他曾经去往山脉的中心并拿出了帝国臂铠。如果在我臂铠的力量下，我的弟兄们能够对抗隐藏在黑暗深渊的恐怖恶鬼。当我的人受伤时，我能治好他们。我的迫击炮能够进行远距离爆破。我的拳头能够击碎岩石，还有怪物。”- 工头格鲁克，“RV-32344M：敌方矿山”</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >“I served Dvar Baron Durek. He was clever and industrious. He tinkered day and night, improving his battlesuit, replacing expired tech with the latest dangerous weaponry. Annually, Barons compete in slugfests to claim the Noble Championship Belt. Still, the sport lacked purpose for Durek. So, the restless Baron deployed his battlesuit on the battlefield. I suggested he outfit his suit with repair-kits to support weaker Dvar troops. He became a Dvar legend. All his troops won glory for his clan. Now all Barons fight for a purpose and to try out the latest tech upgrades.”— Mah Reg’Nib, “RV-2255X: Dvar Chronicles”</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >Edit: Empire -&gt; Empires</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >“我曾经侍奉矮人男爵杜里克。他是一位既聪明又勤劳的人，夜以继日地修修补补，强化他的战斗服，用最尖端、最危险的武器替换已经过时了的科技。每年，男爵们都会进行一场乱斗，冠军能够获得贵族冠军腰带。但是，杜里克对此毫无兴趣。于是，这位不知疲倦的男爵将自己的战斗服用在了战场之上。我建议他为战斗服配备修理工具，从而让那些弱小的矮人士兵能够更好地使用它。他成为了矮人的传奇，他的部队所向披靡，为他的部落赢得了荣耀。现在所有的男爵都有了新的战斗目标，那就是尝试最新的科技升级。”- 玛·瑞格尼布，“RV-2255X：矮人编年史”</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63"><Data
+          >PROSPECTOR</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >Edit: Dvartian -&gt; Dvar Edit: purpose -&gt; a purpose Edit: Dvartian -&gt; Dvar</Data></Cell>
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">IRONCLAD</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">Ironclad</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">装甲舰</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="165">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">IRONCLAD</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >“The Dvar Ironclad floated low in the water, the way an overloaded treasure barge might. Pirate vessels pursued it. Ignoring the threat of numbers, the Ironclad rammed the lead ship, colliding with a percussive crack. The marauder’s ship upended and sunk. The Dvar Rotary Cannon obliterated another pirate vessel, as the others attempted to flank it. Port-holes surrounding the Dvar vessel sprung open, unleashing a devastating proximity barrage to all adjacent ships. When the smoke cleared, only the Dvar Ironclad sailed away.”— Merrill Ludwing, Naval Scout, “RV-4422M: Observations on the High Seas”</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >Prospector</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >“矮人的装甲舰漂浮在水中，犹如一艘装满了宝藏的驳船。海盗的船只尾随而来，但装甲舰无视对方人多势众，直接冲向了领头的船只。撞击的爆裂声响彻了云霄，劫掠者的船只整个颠倒过来沉没了。当其他海盗船试图将它围住时，矮人旋转加农炮又摧毁了另一艘海盗船。随后，装甲舰周围的舷孔全部打开，向所有靠近的船只释放出了一阵毁灭的弹幕。当尘埃落定时，只有矮人装甲舰依然屹立在海上。”- 梅里尔·路德维，海军侦察兵，“RV-4422M：远海观察”</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">DREADNOUGHT</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">Dreadnought</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">无畏战舰</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="165">
-    <Cell ss:StyleID="s63"><Data ss:Type="String">DREADNOUGHT</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >勘探者</Data></Cell><Cell ss:Index="7" ss:StyleID="s64" /><Cell
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >“The Dvar ships pulled in tight around the Dreadnought. Its massive bulk looked an easy target for our ship’s artillery. A concussive belch sounded. Men closest the site began to choke. Curtains of thick smoke obscured the Dreadnought and immediate area. Ships in the clouds unleashed their thunderous cannons. The sea boiled around us. We attempted to return fire but could not assess damage with clear effectiveness. Admiral Reams called a retreat after we could no longer determine if we were winning or just splashing in the sea.”— Captain Lars Sitwell, “RV-44499M: Trade Routes”</Data></Cell>
-    <Cell ss:StyleID="s63"><Data
+          >PROSPECTOR</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >“矮人的船只紧紧地停靠在无畏战舰旁，它庞大笨重的身躯看上去十分容易被我们的火炮命中。这时，一阵连续的烟雾喷发之声响了起来，离得太近的人开始咳嗽起来。厚厚的浓烟将无畏战舰和附近区域淹没，烟雾中的船只射出震耳欲聋的炮火。我们周围的海面温度迅速升高。我们试图回击，但却因为找不到有效的目标而收效甚微。在我们无法确定自己到底是获胜了还是一败涂地的时候，海军上将里亚姆斯发出了撤退的指令。”- 拉尔斯·希特威尔队长，“RV-44499M：贸易路线”</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-    <Cell ss:StyleID="s63" />
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">BOMBARD</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
-    <Cell><Data ss:Type="String">Bombard</Data></Cell>
-    <Cell><Data ss:Type="String">轰击炮</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">BOMBARD</Data></Cell>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell><Data
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >Bombards are the Dvar defense turrets.</Data></Cell>
-    <Cell><Data ss:Type="String">轰击炮是矮人的防御炮塔。</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="210">
-    <Cell ss:StyleID="s65"><Data ss:Type="String">PLANET_ARRIVAL</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="String">LOG</Data></Cell>
-    <Cell><Data
+          >“There’s no glory in killing. There’s no virtue in conquest. I have work to do. This universe is rich and untapped. Dvar shape it. Dvar have no sinister motive. That’s you people. We didn’t G-Bomb the Void gates, ruining Hyperspace. With or without the Star Union, we always have work. My work will better my society. That’s it. Yes, I can toss a bomb, but I’m not in love with it. I’m a Prospector. I love nothing more than mining a rich vein of ore.”— Prospector Darton Nan, “RV-2244D: Dvar Cases”</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
             ss:Type="String"
-          >As Directors of the Dvar Consortia, you know that one has to dig deep to find true value. The collapse of the Star Union left you stranded on inhospitable worlds. This forged your iron will and ardent hearts. As your Consortium reemerges to extract the treasures of the past, heed where you send your machines. Not everything deserves to be crushed and processed in the name of profit.</Data></Cell>
-    <Cell><Data
+          >“杀戮中没有荣耀，征服中也没有美德，我有我的工作要做。这个宇宙十分富有而且尚未得到开发。矮人塑造了它的形状，他们并没有罪恶的动机。你们这些种族才会那样。我们没有将重力炸弹投向虚空之门而摧毁超空间。无论有没有星际联盟，我们都在辛勤劳作。我的工作将使社会变得更美好，就这么简单。没错，我也能投炸弹，但不代表我喜欢这么做。我是勘探者，我最爱的事就是开采储量丰厚的矿脉。”- 勘探者，达顿·南，“RV-2244D：矮人案例”</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64"><Data ss:Type="String">Edit: I've -&gt; I have
+Edit: Dvarton -&gt; Darton</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">ENFORCER</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >身为矮人财团的领袖，你知道必须挖得够深才能找到真正的价值。星际联盟的崩塌将你困在了一个恶劣的世界，使你获得了钢铁般的意志和灼热的内心。当你的财团再次现身挖掘过去的宝藏时，注意你派遣机器的地方。不是所有东西都必须为了利益二字被摧毁或处理。</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s66"><Data
+          >Bulwark</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
-    <Cell><Data
+          >筑垒卫士</Data></Cell><Cell ss:Index="7" ss:StyleID="s64" /><Cell
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">ENFORCER</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
             ss:Type="String"
-          >VO: Empress Carminia - Female  Edit: &quot;Consortia you know one&quot; -&gt; &quot;Consortia, you know that one&quot;</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String" /></Cell>
-    <Cell><Data ss:Type="String" /></Cell>
-    <Cell><Data ss:Type="String" /></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String" /></Cell>
-    <Cell><Data ss:Type="String" /></Cell>
-    <Cell><Data ss:Type="String" /></Cell>
-   </Row>
-  </Table>
-  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
-   <Unsynced />
-   <Print>
-    <ValidPrinterInfo />
-    <HorizontalResolution>600</HorizontalResolution>
-    <VerticalResolution>600</VerticalResolution>
-   </Print>
-   <Zoom>115</Zoom>
-   <Selected />
-   <TopRowVisible>3</TopRowVisible>
-   <Panes>
-    <Pane>
-     <Number>3</Number>
-     <ActiveRow>4</ActiveRow>
-     <ActiveCol>4</ActiveCol>
-    </Pane>
-   </Panes>
-   <ProtectObjects>False</ProtectObjects>
-   <ProtectScenarios>False</ProtectScenarios>
-  </WorksheetOptions>
- </Worksheet>
-</Workbook>
+          >“Adapted to repel quartzite-infused marauders long enough for Dvar miners to escape, the Bulwark is especially formidable at delaying an enemy advance. Upon first encounter, we thought it a modified Walker, but the gun on the Bulwark shoots a shell with an explosive punch that knocks most troops on their backsides. Do not attempt to overwhelm its defensive capabilities using a grunt-rush technique either. I’ve seen one strike invader after invader attempting to rush past it, while normal guard forces would not have time to strike so rapidly.”— Captain Paxus Plexis, “RV-378M: Military Analysis Report: Dvar”</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“筑垒卫士的职责是抵挡石英岩兽劫掠者足够长的时间，直至所有矮人矿工撤离，因此筑垒卫士十分擅长阻碍敌人前进。第一次遇见它时，我们还以为是一个经过改造的行者，但筑垒卫士发出的高爆枪弹几乎将背后的所有敌人全部歼灭。不要尝试用蛮力突破它的防御，我可是亲眼见到它将一个又一个试图突破的入侵者逐个击破。一般的防守部队动作绝不可能这样迅速。”- 帕修斯·普雷西斯队长，“RV-378M：军事分析报告：矮人”</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >EXCAVATOR_TANK</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Excavator Tank</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >挖掘者坦克</Data></Cell><Cell ss:Index="7" ss:StyleID="s64" /><Cell
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >EXCAVATOR_TANK</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >“I’ve destroyed tanks, but the Dvar Excavator might as well be an ingot of armor-plating. This thing is solid. It rams through most obstacles as though they were holograms. I tried standing my ground against one in my mech-walker; it knocked me on my butt. Welding engineers can’t get close to it. The defensive ring of flame throwers will ignite anything adjacent to it. Its cannon delivers an area blast of Dvar explosives that makes the most steady-footed soldier fall to his knees.”— Captain Paxus Plexis, “RV-376M: Military Analysis Report: Dvar”</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“我摧毁过许多坦克，但矮人的挖掘者简直就是一块铁甲钢板。这东西非常坚硬，它能够直接碾过大多数障碍物，仿佛它们是全息影像并不存在一样。我曾经试过用我的机械行者挡在它的路上，却惨遭撞飞。焊接工程师根本无法接近，环状的防御火焰喷射器能把附近的一切烧成灰烬。它搭载的火炮采用了矮人特制的范围性炸药，即使是步履最为坚定的士兵也会被震得跪倒在地上。”- 帕修斯·普雷西斯队长，“RV-376M：军事分析报告：矮人”</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >ROCKET_ARTILLERY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Rocket Artillery</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >火箭炮</Data></Cell><Cell ss:Index="7" ss:StyleID="s64" /><Cell
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="165"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >ROCKET_ARTILLERY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >“Hopper Hill was the nuisance of Sundew Valley. Hundreds of hopperhounds lived in that nest, menacing the community. The Dvar diplomat said he had an aunt, a natural exterminator. I laughed and signed papers permitting ‘Fat Olga’ into the valley. Thereafter, a heavy tracked vehicle rumbled into view. After successive shattering blasts, the whole hopperhound lair collapsed. A gaping crater was all that remained of Hopper Hill. The Dvar ‘diplomat’ chuckled wickedly, as Fat Olga turned towards our settlement. That’s when I realized I’d signed away our freedom.”— Patchery Mazz, “RV-6993D: The Surrender of Sundew Valley”</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“漏斗山是桑德鲁峡谷中最棘手的地方，无数跳蝗在这里扎根，四处袭击居民。矮人外交官称自己有一位姨妈是天生的害虫专家。我笑了笑，签署了批准‘奥尔加巨炮’进入峡谷的文件。之后，一辆重型履带装甲车轰隆隆地开了过来。连续几轮炮击后，整个跳蝗的巢穴都崩塌了，整座漏斗山成了一个巨大的坑。那位矮人“外交官”邪恶地笑着，当奥尔加巨炮转向我们的定居点时，我才意识到，我随手签署而去的还有我们的自由。”- 帕齐里·马兹，“RV-6993D：桑德鲁峡谷的沦陷”</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Edit: Hopperhounds -&gt; hopperhounds
+Edit: Hopperhound -&gt; hopperhound</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >EARTH_CRUSHER</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Earth Crusher</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >裂地者</Data></Cell><Cell ss:Index="7" ss:StyleID="s64" /><Cell
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="180"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >EARTH_CRUSHER</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >“The Dvar are not monsters beneath their encounter suits. They value prosperity, clan, and their inventions. If they have a flaw, it’s that they think of worlds as machines filled with replaceable parts. I escaped in an Earth Crusher. While the monstrous machine leeched everything from the soil, I snuck to the extruder. Earth Crushers pull in everything, using tractor-beams to snare enemies. Massive gears grind, forges belch smoke, refining raw materials into valuable components. A trail of barren dross lies in its wake. This refuse is the perfect hiding place, if I don’t starve.”— Mah Reg’Nib, “RV-2390X: Dvar Chronicles”</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“矮人不是身着战斗服的怪物。他们珍视繁荣、部落和他们的发明。如果说他们存在某种缺陷，那就是他们将各个星球视作一个个可替换零件的机器。我乘坐一辆裂地者跑了出去，当这台巨大的机器汲取着土壤中的一切时，我悄悄地溜进了挤压机中。裂地者能够拉动任何东西，它们用牵引光束捕获敌人。巨大的齿轮能够磨碎一切，熔炉中喷射出大量烟雾，将粗糙的原料精炼成珍贵的零件。裂地者所到之处，身后必定是一片荒芜。这个破烂机器是绝佳的藏身之处，前提是我不饿死。”- 玛·瑞格尼布，“RV-2390X：矮人编年史”</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Edit: sneaked -&gt; snuck
+Edit: Dvartian -&gt; Dvar</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">SAPPER</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Sapper</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >隧道钻机</Data></Cell><Cell ss:Index="7" ss:StyleID="s64" /><Cell
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="180"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">SAPPER</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“Indigenous women attack our workers whenever we clear land for mining. They disappear in trees and attack with savage intensity. The Oligarch refuses to enhance our weapons to repel them. Profit margins are too narrow.  Yesterday, I jumped into a Sapper and drove right into their settlement. Staying low in the earth, I was a difficult target to hit. I tunneled through root obstructions and unleashed a seismic charge. The natural cover shattered. Many wood-wenches fell stunned. The troops followed, taking cover in the trench I dug. The forests of Virga will soon belong to us.”— Sapper Stogie Glurp, “RV-8038M: Harvesting Virga”</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“当地的女人会在我们清理地面准备开采时攻击我们的工人，她们躲进树林里，野蛮地发起攻击。寡头拒绝强化我们的武器来驱逐她们。利润空间实在是在低了。昨天，我跳进了一个隧道钻机并冲进了她们的定居点。由于在地下钻得很深，她们很难打到我。我穿过了固定的阻碍，然后投下了一枚地震炸药。大自然的地面分崩瓦解，许多森林姑娘陷入了昏厥。部队随后跟了过来，以我挖掘的壕沟为掩体。维尔加森林不久就将属于我们。”- 隧道钻机兵斯托吉·格鲁普，“RV-8038M：收割维尔加”</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">RAMJET</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Ramjet</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >冲压喷气机</Data></Cell><Cell ss:Index="7" ss:StyleID="s64" /><Cell
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="150"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">RAMJET</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“Without all the rockets, I wouldn’t fly it. I’m Dvar, not some kind of delicate space jellyfish. I have no need to flit about in space. Nothing satisfies quite like the moving of earth and soil with the roar of our engines. Who doesn’t like the power of machinery in all its glory? Then again, there’s nothing quite like the feel of the afterburners at full roar as the solid Ramjet’s nose-block smashes through lightweight enemy aircraft. I love watching the look on the panicked pilot’s face as his ship careens away, out of control.”— Captured Pilot, Guett Wrek’t, “RV-3904M: Testimony of Outlaws”</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“如果不是那些火箭，我才不会在天上飞呢。我是矮人，不是那些脆弱的太空水母，没必要在太空中飞来飞去。没有什么比在引擎的轰鸣声下开山移土更令我感到满足的事情了。有谁会不喜欢机器的荣耀呢？还有，当坚固的冲压喷气机轰鸣着全速撞毁敌人的轻型飞行器时，没有比这更棒的感觉了。我喜欢看敌方飞行员在飞行器倾斜失控时脸上那慌张的神情。”- 被俘的飞行员，古特·里克特，“RV-3904M：罪犯的证词”</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">BARON</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Baron</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >男爵</Data></Cell><Cell ss:Index="7" ss:StyleID="s64" /><Cell
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="195"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">BARON</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“I served Dvar Baron Durek. He was clever and industrious. He tinkered day and night, improving his battlesuit, replacing expired tech with the latest dangerous weaponry. Annually, Barons compete in slugfests to claim the Noble Championship Belt. Still, the sport lacked purpose for Durek. So, the restless Baron deployed his battlesuit on the battlefield. I suggested he outfit his suit with repair-kits to support weaker Dvar troops. He became a Dvar legend. All his troops won glory for his clan. Now all Barons fight for a purpose and to try out the latest tech upgrades.”— Mah Reg’Nib, “RV-2255X: Dvar Chronicles”</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“我曾经侍奉矮人男爵杜里克。他是一位既聪明又勤劳的人，夜以继日地修修补补，强化他的战斗服，用最尖端、最危险的武器替换已经过时了的科技。每年，男爵们都会进行一场乱斗，冠军能够获得贵族冠军腰带。但是，杜里克对此毫无兴趣。于是，这位不知疲倦的男爵将自己的战斗服用在了战场之上。我建议他为战斗服配备修理工具，从而让那些弱小的矮人士兵能够更好地使用它。他成为了矮人的传奇，他的部队所向披靡，为他的部落赢得了荣耀。现在所有的男爵都有了新的战斗目标，那就是尝试最新的科技升级。”- 玛·瑞格尼布，“RV-2255X：矮人编年史”</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Edit: Dvartian -&gt; Dvar
+Edit: purpose -&gt; a purpose
+Edit: Dvartian -&gt; Dvar</Data></Cell><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">IRONCLAD</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Ironclad</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >装甲舰</Data></Cell><Cell ss:Index="7" ss:StyleID="s64" /><Cell
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="165"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">IRONCLAD</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“The Dvar Ironclad floated low in the water, the way an overloaded treasure barge might. Pirate vessels pursued it. Ignoring the threat of numbers, the Ironclad rammed the lead ship, colliding with a percussive crack. The marauder’s ship upended and sunk. The Dvar Rotary Cannon obliterated another pirate vessel, as the others attempted to flank it. Port-holes surrounding the Dvar vessel sprung open, unleashing a devastating proximity barrage to all adjacent ships. When the smoke cleared, only the Dvar Ironclad sailed away.”— Merrill Ludwing, Naval Scout, “RV-4422M: Observations on the High Seas”</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“矮人的装甲舰漂浮在水中，犹如一艘装满了宝藏的驳船。海盗的船只尾随而来，但装甲舰无视对方人多势众，直接冲向了领头的船只。撞击的爆裂声响彻了云霄，劫掠者的船只整个颠倒过来沉没了。当其他海盗船试图将它围住时，矮人旋转加农炮又摧毁了另一艘海盗船。随后，装甲舰周围的舷孔全部打开，向所有靠近的船只释放出了一阵毁灭的弹幕。当尘埃落定时，只有矮人装甲舰依然屹立在海上。”- 梅里尔·路德维，海军侦察兵，“RV-4422M：远海观察”</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DREADNOUGHT</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Dreadnought</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >无畏战舰</Data></Cell><Cell ss:Index="7" ss:StyleID="s64" /><Cell
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="165"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DREADNOUGHT</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >“The Dvar ships pulled in tight around the Dreadnought. Its massive bulk looked an easy target for our ship’s artillery. A concussive belch sounded. Men closest the site began to choke. Curtains of thick smoke obscured the Dreadnought and immediate area. Ships in the clouds unleashed their thunderous cannons. The sea boiled around us. We attempted to return fire but could not assess damage with clear effectiveness. Admiral Reams called a retreat after we could no longer determine if we were winning or just splashing in the sea.”— Captain Lars Sitwell, “RV-44499M: Trade Routes”</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >“矮人的船只紧紧地停靠在无畏战舰旁，它庞大笨重的身躯看上去十分容易被我们的火炮命中。这时，一阵连续的烟雾喷发之声响了起来，离得太近的人开始咳嗽起来。厚厚的浓烟将无畏战舰和附近区域淹没，烟雾中的船只射出震耳欲聋的炮火。我们周围的海面温度迅速升高。我们试图回击，但却因为找不到有效的目标而收效甚微。在我们无法确定自己到底是获胜了还是一败涂地的时候，海军上将里亚姆斯发出了撤退的指令。”- 拉尔斯·希特威尔队长，“RV-44499M：贸易路线”</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /><Cell ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BOMBARD</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bombard</Data></Cell><Cell><Data
+            ss:Type="String"
+          >轰击炮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BOMBARD</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bombards are the Dvar defense turrets.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >轰击炮是矮人的防御炮塔。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="210"
+      ><Cell ss:StyleID="s69"><Data
+            ss:Type="String"
+          >PLANET_ARRIVAL</Data></Cell><Cell ss:StyleID="s69"><Data
+            ss:Type="String"
+          >LOG</Data></Cell><Cell><Data
+            ss:Type="String"
+          >As Directors of the Dvar Consortia, you know that one has to dig deep to find true value. The collapse of the Star Union left you stranded on inhospitable worlds. This forged your iron will and ardent hearts. As your Consortium reemerges to extract the treasures of the past, heed where you send your machines. Not everything deserves to be crushed and processed in the name of profit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >身为矮人财团的领袖，你知道必须挖得够深才能找到真正的价值。星际联盟的崩塌将你困在了一个恶劣的世界，使你获得了钢铁般的意志和灼热的内心。当你的财团再次现身挖掘过去的宝藏时，注意你派遣机器的地方。不是所有东西都必须为了利益二字被摧毁或处理。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s70"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell><Cell
+        ><Data ss:Type="String">VO: Empress Carminia - Female
+
+Edit: "Consortia you know one" -&gt; "Consortia, you know that one"</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>115</Zoom><Selected /><Panes
+      ><Pane><Number>3</Number><ActiveRow>8</ActiveRow><ActiveCol
+          >2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

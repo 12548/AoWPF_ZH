@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -181,10 +181,10 @@
             ss:Type="String"
           >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Provides the unit with a protective system, granting them +{BiochemicalResistance} resistance and [abilityblue]Hazard Immunity[/abilityblue].</Data></Cell><Cell
+          >Provides the unit with a protective system, granting them +{BiochemicalResistance} resistance and [abilityblue]Tactical Hazard Immunity[/abilityblue].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >为该单位提供保护性系统，赋予该单位 +{BiochemicalResistance} 抵抗和 [abilityblue]灾害免疫[/abilityblue]。</Data></Cell></Row><Row
+          >为该单位提供保护性系统，赋予其 +{BiochemicalResistance} 抵抗和[abilityblue]战术灾害免疫[/abilityblue]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data></Cell><Cell
         ><Data ss:Type="String">PROPERTY_NAME</Data></Cell><Cell><Data
@@ -394,9 +394,9 @@
             ss:Type="String"
           >ABILITY_NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Plasma Surge</Data></Cell><Cell><Data
+          >Phoenix Surge</Data></Cell><Cell><Data
             ss:Type="String"
-          >等离子冲刺</Data></Cell></Row><Row
+          >凤凰涌动</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">PLASMA_SURGE</Data></Cell><Cell><Data
@@ -516,10 +516,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Unleash liquid flame on all adjacent hexes, setting the ground on fire.</Data></Cell><Cell
+          >Unleash liquid flame on all hexes within {HexRange}, setting the ground on fire for {HazardDuration}[turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >向所有相邻单元格释放液态火焰，使地面着火。</Data></Cell></Row><Row
+          >向 {HexRange} 个单元格范围释放液态火焰，使地面着火，持续 {HazardDuration}[turn/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">TORRENT_OF_FLAME</Data></Cell><Cell><Data
             ss:Type="String"

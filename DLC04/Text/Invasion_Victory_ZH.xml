@@ -1,0 +1,225 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author
+    >Arnout Sas</Author><LastAuthor>GameScribes4</LastAuthor><Created
+    >2019-10-11T09:00:32Z</Created><LastSaved
+    >2020-01-30T14:08:52Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>9990</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Top" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="105.75" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="102.75"
+      /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="389.25"
+        ss:Span="1"
+      /><Column ss:Index="5" ss:StyleID="s62" ss:Width="221.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="85.5"
+      /><Row ss:AutoFitHeight="0" ss:Height="409.5"><Cell><Data
+            ss:Type="String"
+          >INVASION_VICTORY</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">VICTORY_CONDITION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Invasion </Data></Cell><Cell><Data
+            ss:Type="String"
+          >入侵 </Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Victory condition name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">VICTORY_CONDITION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >In order to defeat the invasion, we have to remove the shield around the Voidbringer Beacon by destroying their Spawners. Then, we must raid and destroy the Beacon.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >为了阻止入侵，我们必须摧毁黑暗虚空出生点，移除黑暗虚空信标周围的护盾。然后，发动突袭并摧毁信标。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Victory condition description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">VICTORY_CONDITION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >OBJECTIVE1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{INT_CURRENT}/{INT_REQUIRED} Spawners Destroyed</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{INT_CURRENT}/{INT_REQUIRED} 摧毁出生点</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Victory condition objective</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">VICTORY_CONDITION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >OBJECTIVE2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Destroy Beacon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >摧毁信标</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Victory condition objective</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+        ss:StyleID="s63"
+      ><Cell><Data ss:Type="String">END_GAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >VICTORY_DARKVOID</Data></Cell><Cell ss:StyleID="s62"><Data
+            ss:Type="String"
+          >Victory, at long last. With the might of the Void at your back you have crushed those who would resist. Now it is time for your reward; the sweet embrace of your master. You will become one with them. Consumed by them.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >终于，胜利来临。你利用虚空之力粉碎了所有反抗之人。现在是你的奖励时间，甜蜜地拥抱你的主人吧。你将成为他们的一员，被他们吞噬。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Victory Text</Data></Cell><Cell><Data
+            ss:Type="String"
+          >OV</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+        ss:StyleID="s63"
+      ><Cell><Data ss:Type="String">END_GAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >VICTORY_REGULAR</Data></Cell><Cell ss:StyleID="s62"><Data
+            ss:Type="String"
+          >To best a foe many thought unbeatable is what makes a leader into a legend. You have driven back the hordes of darkness. You have given the people hope. You are a hero and beacon for those that united under your banner.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >战胜所有人都认为不可战胜的敌人，才能铸造出一位首领的传奇。你驱逐了黑暗的大军，给了人民希望。对团结在你的领导下的人们而言，你是一名英雄，一座灯塔。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Victory Text</Data></Cell><Cell><Data
+            ss:Type="String"
+          >OV</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+        ss:StyleID="s63"
+      ><Cell><Data ss:Type="String">END_GAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SURVIVED</Data></Cell><Cell ss:StyleID="s62"><Data
+            ss:Type="String"
+          >You may not have dealt the final blow, but you survived. Your people live on, and the monstrosities from the Void are no more.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >也许你并不是创造最后结局之人，但你存活了下来，你的人民存活了下来。来自虚空的怪物已不复存在。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Victory Text</Data></Cell><Cell><Data
+            ss:Type="String"
+          >OV</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+        ss:StyleID="s63"
+      ><Cell><Data ss:Type="String">END_GAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEFEAT_DARKVOID</Data></Cell><Cell ss:StyleID="s62"><Data
+            ss:Type="String"
+          >First you abandoned your values, then your freedom, and now your life. You and your masters have been defeated.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你先是舍弃了你的价值观念，然后舍弃了自由，而现在你舍弃了你的生命。你和你的主人已被打败。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Victory Text</Data></Cell><Cell><Data
+            ss:Type="String"
+          >OV</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+        ss:StyleID="s63"
+      ><Cell><Data ss:Type="String">END_GAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEFEAT_REGULAR</Data></Cell><Cell ss:StyleID="s62"><Data
+            ss:Type="String"
+          >You opposed the Void valiantly, but their might was too great. Now your last troops lay broken and defeated, and those who survived are consumed and enthralled. None are spared. All will be fodder for the ravenous.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你英勇无畏地与虚空对抗，但他们的力量实在太过强大。如今，你最后的部队已然溃不成军，而那些幸存下来的人要么遭到吞噬，要么已被奴役，无一幸免。一切都将成为这些贪婪猎手的食物。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Victory Text</Data></Cell><Cell><Data
+            ss:Type="String"
+          >OV</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell
+        ><Data ss:Type="String">END_GAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INVASION_DEFEATED_SUB_HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Invasion Defeated</Data></Cell><Cell><Data
+            ss:Type="String"
+          >入侵战败</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Victory Subheader Text</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">END_GAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INVASION_VICTORIOUS_SUB_HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Invasion Victorious</Data></Cell><Cell><Data
+            ss:Type="String"
+          >入侵胜利</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Victory Subheader Text</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><TopRowVisible
+      >9</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >18</ActiveRow><ActiveCol>2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

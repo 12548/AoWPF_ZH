@@ -1,0 +1,646 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >GeraldR</LastAuthor><Created>2018-05-01T08:33:50Z</Created><LastSaved
+    >2019-05-22T15:04:04Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment
+        ss:Vertical="Bottom"
+        ss:WrapText="1"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="243.75" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="84.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="334.5" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="167.25"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="270.75" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="127.5"
+      /><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
+            ss:Type="String"
+          >DIPLOMACY_PERSONALITY</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PERSONALITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Personality</Data></Cell><Cell><Data
+            ss:Type="String"
+          >个性</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HIDDEN_BEHAVIOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This trait is hidden. Infiltrate this player or gain an intelligence sharing pact to reveal this trait.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该特性为隐藏状态。渗透此玩家或签订情报共享协议可揭示该特性。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HIDDEN_PREFERENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This trait is hidden. Infiltrate this player, gain an intelligence sharing pact or trigger their preference to reveal this trait.[br/][br/]There is also a chance to reveal their trait when engaging with the other player in diplomacy through one of the following actions:[br/][bulletList][bullet]Making a trade[/bullet][br/][bullet]Insulting/complimenting them[/bullet][br/][bullet]Sending a denouncement or warning[/bullet][/bulletList]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该特性为隐藏状态。渗透此玩家、签订情报共享协议或是触发其偏好可揭示该特性。[br/][br/]与其他玩家进行外交互动时，也有一定几率通过以下行动揭示：[br/][bulletList][bullet]交易[/bullet][br/][bullet]侮辱/赞美[/bullet][br/][bullet]谴责或警告[/bullet][/bulletList]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Warmonger</Data></Cell><Cell><Data
+            ss:Type="String"
+          >好战者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The warmonger plays a more aggressive playstyle, focusing their research on weapons and units specific to their race. They aim to increase their colony productivity to build more units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >好战者的风格更具侵略性，其研究专注于特定的种族武器和单位。他们致力于提高殖民地的生产力来建造更多单位。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_MERCANTILE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mercantile</Data></Cell><Cell><Data
+            ss:Type="String"
+          >商业家</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_MERCANTILE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mercantile players are more peaceful and cooperative, focusing their empire on production and energy. They aim to increase their influence income to better deal with other players and NPC factions.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >商业家更倾向于和平与协作，其帝国关注产力与能源，致力于提升自己的影响力，从而与其他玩家和 NPC 阵营维持更好的关系。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_TECHNOLOGIST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Technologist</Data></Cell><Cell><Data
+            ss:Type="String"
+          >技术专家</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_TECHNOLOGIST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The technologist focuses their research on developing their secret technology, building units of that type and aiming to reach their doomsday weapon.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >技术专家喜欢把研究集中在开发秘密科技上，乐于建造各种类型的单位，并以建造出末日武器为最终目标。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_OPERATIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Operative</Data></Cell><Cell><Data
+            ss:Type="String"
+          >特工</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_OPERATIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The operator deploys covert ops to spy on other players and reveal their empires.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >特工会部署隐秘行动监视其他玩家并暴露其帝国。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_GENERALIST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Generalist</Data></Cell><Cell><Data
+            ss:Type="String"
+          >多面手</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_GENERALIST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The generalist has no specific focus and employs a balanced play style.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >多面手没有明确的重点，采用平衡的游戏玩法。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_XENOPHILE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Xenophile</Data></Cell><Cell><Data
+            ss:Type="String"
+          >亲外者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_XENOPHILE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Likes dealing with players that encorporate different ethnic backgrounds in their empire, and is more likely to welcome them into their empire while coming to the aid of settlements. Likes players that help out settlements and players that have good relations with NPC factions.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >亲外者喜欢与融合了不同种族背景的玩家打交道，并且更有可能欢迎他们进入自己的帝国并帮助定居。亲外者喜欢帮助解决争端的玩家，以及与 NPC 阵营关系良好的玩家。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_XENOPHOBE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Xenophobe</Data></Cell><Cell><Data
+            ss:Type="String"
+          >仇外者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_XENOPHOBE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Favors a monoculture empire and is more prone to migrate colonies into their society. Likes players that are at war with NPC factions.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >热衷于只有单一文化的帝国，更倾向于将殖民地迁移至他们的社会。喜欢与 NPC 阵营处于战争状态的玩家。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_TOPDOG</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Elitist</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精英主义者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_TOPDOG</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Friend to those with a high capability ranking, and more keen to reach out and befriend players with a high capability ranking.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >与能力排名高的玩家为友，更愿意接触能力排名高的玩家。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_COMPASSIONATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Compassionate</Data></Cell><Cell><Data
+            ss:Type="String"
+          >怜悯之士</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_COMPASSIONATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Friend to those with a low capability ranking, and more keen to reach out to players with a low capability ranking.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >与能力排名低的玩家为友，更愿意接触能力排名低的玩家。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_MILITARIST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Militarist</Data></Cell><Cell><Data
+            ss:Type="String"
+          >军事主义者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_MILITARIST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Prefers dealing with players with a high combat ranking and players with a low reputation. Likes players that have defeated other players.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >更喜欢和高战斗等级以及低声望的玩家打交道。喜欢曾经击败过其他玩家的玩家。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_PACIFIST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Pacifist</Data></Cell><Cell><Data
+            ss:Type="String"
+          >和平主义者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_PACIFIST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Prefers dealing with players with a low combat ranking and players with a high reputation. Dislikes players that have defeated other players.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >更喜欢和低战斗等级以及高声望的玩家打交道。不喜欢曾经击败过其他玩家的玩家。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_LOYAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Loyal</Data></Cell><Cell><Data
+            ss:Type="String"
+          >忠诚者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_LOYAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Prefers to uphold treaties and is less likely to break any, whilst judging those that break them harshly.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >倾向于拥护签订的条约，撕毁条约的可能性较小，同时会严厉批判那些撕毁条约的玩家。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_TREACHEROUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Treacherous</Data></Cell><Cell><Data
+            ss:Type="String"
+          >笑面虎</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_TREACHEROUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Messages of this player may not always show their true intent. Is more likely to break relations.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该玩家发来的消息并不一定代表其真实的意图。破坏关系的可能性更高。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_RUTHLESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ruthless</Data></Cell><Cell><Data
+            ss:Type="String"
+          >冷血杀手</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TRAIT_RUTHLESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Needs little reason to go to war and often fights to the death. Casus Belli trigger a larger opinion penalty. Dislikes helping settlements.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >不需要任何理由就会发动战争，经常战斗至死。宣战理由将会造成更高的评价惩罚。不喜欢帮助定居点。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LIKE_GOOD_NPC_RELATIONS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Likes good relations with NPC factions.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >喜欢与 NPC 阵营保持良好关系。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DISLIKE_GOOD_NPC_RELATIONS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dislikes good relations with NPC factions.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不喜欢与 NPC 阵营保持良好关系。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LIKE_BAD_NPC_RELATIONS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Likes wars with NPC factions.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >喜欢与 NPC 阵营交战。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DISLIKE_BAD_NPC_RELATIONS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dislikes wars with NPC factions.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不喜欢与 NPC 阵营交战。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DISLIKE_PLAYER_WAR_TREACHEROUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >War opportunity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >战争机会</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LIKE_MULTI_ETHNIC_EMPIRE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Likes multi-race empires</Data></Cell><Cell><Data
+            ss:Type="String"
+          >喜欢多种族帝国</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DISLIKE_MULTI_ETHNIC_EMPIRE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dislikes multi-race empires</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不喜欢多种族帝国</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LIKE_MONO_ETHNIC_EMPIRE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Likes single race empires</Data></Cell><Cell><Data
+            ss:Type="String"
+          >喜欢单一种族帝国</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LIKE_HIGH_CAPABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Likes high capability ranking</Data></Cell><Cell><Data
+            ss:Type="String"
+          >喜欢高能力排名</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DISLIKE_HIGH_CAPABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dislikes high capability ranking</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不喜欢高能力排名</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LIKE_LOW_CAPABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Likes low capability ranking</Data></Cell><Cell><Data
+            ss:Type="String"
+          >喜欢低能力排名</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DISLIKE_LOW_CAPABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dislikes low capability ranking</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不喜欢低能力排名</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LIKE_HIGH_MILITARY_CAPABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Likes high military capability ranking</Data></Cell><Cell><Data
+            ss:Type="String"
+          >喜欢高军事能力排名</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DISLIKE_HIGH_MILITARY_CAPABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dislikes high military capability ranking</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不喜欢高军事能力排名</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LIKE_LOW_MILITARY_CAPABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Likes low military capability ranking</Data></Cell><Cell><Data
+            ss:Type="String"
+          >喜欢低军事能力排名</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DISLIKE_LOW_MILITARY_CAPABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dislikes low military capability ranking</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不喜欢低军事能力排名</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LIKE_NOT_BREAKING_TREATY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Likes not having broken any treaties</Data></Cell><Cell><Data
+            ss:Type="String"
+          >喜欢拥护条约</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LIKE_BREAKING_TREATIES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Likes having broken any treaties</Data></Cell><Cell><Data
+            ss:Type="String"
+          >喜欢违反条约</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DISLIKE_BREAKING_TREATIES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dislikes having broken any treaties</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不喜欢违反条约</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LIKE_DEFEATING_PLAYERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Likes having defeated other players</Data></Cell><Cell><Data
+            ss:Type="String"
+          >喜欢打败过其他玩家</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DISLIKE_DEFEATING_PLAYERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dislikes having defeated other players</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不喜欢打败过其他玩家</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LIKE_HELPING_SETTLEMENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Likes helping settlements</Data></Cell><Cell><Data
+            ss:Type="String"
+          >喜欢帮助定居点</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DISLIKE_HELPING_SETTLEMENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dislikes helping settlements</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不喜欢帮助定居点</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LIKE_ATTACKING_SETTLEMENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Likes attacking settlements</Data></Cell><Cell><Data
+            ss:Type="String"
+          >喜欢攻击定居点</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DISLIKE_ATTACKING_SETTLEMENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dislikes attacking settlements</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不喜欢攻击定居点</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DISLIKE_CASUSBELLI</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unforgiving about Casus Belli</Data></Cell><Cell><Data
+            ss:Type="String"
+          >难以宽恕宣战理由</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">HIDDEN_BEHAVIOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Strategy Trait (Hidden)</Data></Cell><Cell><Data
+            ss:Type="String"
+          >策略特性（隐藏）</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown in the interface when the Strategy trait has not been discovered yet and is currently hidden.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HIDDEN_PREFERENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Preference Trait (Hidden)</Data></Cell><Cell><Data
+            ss:Type="String"
+          >偏好特性（隐藏）</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown in the interface when the Preference trait has not been discovered yet and is currently hidden.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><Panes><Pane><Number
+          >3</Number><ActiveRow>4</ActiveRow><ActiveCol
+          >2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

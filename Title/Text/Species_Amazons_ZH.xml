@@ -14,9 +14,10 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
-    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -40,14 +41,14 @@
       /></Style><Style ss:ID="s65" ss:Parent="s62"><Alignment
         ss:Vertical="Top"
         ss:WrapText="1"
-      /><NumberFormat /><Protection /></Style><Style ss:ID="s66"><Alignment
+      /><NumberFormat /><Protection /></Style><Style ss:ID="s67"><Alignment
         ss:Vertical="Top"
         ss:WrapText="1"
-      /><NumberFormat /></Style><Style ss:ID="s67"><Alignment
+      /><NumberFormat /></Style><Style ss:ID="s68"><Alignment
         ss:Vertical="Top"
         ss:WrapText="1"
       /><Interior ss:Color="#FF0000" ss:Pattern="Solid" /></Style><Style
-      ss:ID="s68"
+      ss:ID="s69"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Font
         ss:FontName="Calibri"
         x:Family="Swiss"
@@ -132,7 +133,7 @@
         ss:Height="60.75"
       ><Cell><Data ss:Type="String">RACE</Data></Cell><Cell><Data
             ss:Type="String"
-          >DESCRIPTION_SHORT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >DESCRIPTION_SHORT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >The bio-engineering [hyperlink,0000039E00000016]Amazons[/hyperlink] have the ability to alter life and survive harsh circumstances. Their fearsome troops have spartan discipline and are experts in guerrilla tactics. Their arsenal includes genetically engineered beasts that the Amazons ride in to battle.</Data></Cell><Cell
         ><Data
@@ -141,7 +142,7 @@
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">CAMP</Data></Cell><Cell><Data
             ss:Type="String"
-          >NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+          >NAME</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Amazon Settlement</Data></Cell><Cell><Data
             ss:Type="String"
@@ -150,7 +151,7 @@
         ss:Height="15.75"
       ><Cell><Data ss:Type="String">CAMP</Data></Cell><Cell><Data
             ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >A settlement is a small independent colony that might join you if you have enough influence.</Data></Cell><Cell
         ><Data
@@ -160,7 +161,7 @@
         ss:Height="14.25"
       ><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data
             ss:Type="String"
-          >NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+          >NAME</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Migrate Colony: Amazon</Data></Cell><Cell><Data
             ss:Type="String"
@@ -169,7 +170,7 @@
         ss:Height="50.25"
       ><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data
             ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Migrate the population of this colony to Amazon. The colony will become an Amazon colony.[br/][br/][fireCol]By migrating the population, {PopulationDeath} of the colonists of the colony will be killed.[/fireCol] [br/][br/]You receive:[br/][fireCol]{Reputation} Reputation[br/]{RaceRelation} Race Relation with the {STR_raceName}[/fireCol] </Data></Cell><Cell
         ><Data
@@ -179,7 +180,7 @@
         ss:Height="18"
       ><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data
             ss:Type="String"
-          >IN_PROGRESS</Data></Cell><Cell ss:StyleID="s66"><Data
+          >IN_PROGRESS</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Colony is currently being migrated to an Amazon population. Process will complete in [INT_duration].</Data></Cell><Cell
         ><Data
@@ -189,7 +190,7 @@
         ss:Height="16.5"
       ><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data
             ss:Type="String"
-          >CONFIRMATION</Data></Cell><Cell ss:StyleID="s66"><Data
+          >CONFIRMATION</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Are you sure you want to migrate this colony to an Amazon colony?</Data></Cell><Cell
         ><Data
@@ -258,7 +259,7 @@ Edit: "arrows laced with biotoxins or that dispensed deadly gas" -&gt; "arrows, 
             ss:Type="String"
           >“我们的同族汉娜斯驯化了我们丛林星球上的野生鸟类，一群外型很像翼龙的生物。她将这些空中的捕食者改造成了冷酷的仆从。她将被泰拉科技所遗漏的生物特征补完。在暴动期间，她向星系族长请愿让她的孩子能加入到亚马逊人族群中。最终她们成为了翼龙，一种具有特殊森林亲和力的间谍单位，具有超远的视力、配备有低功率生物电能激光枪，并可凭借本能专门袭击入侵者的眼睛。我们族群中最实用的工具之一，由我们独立驯化。”档案历史学家艾米拉-格兰，“RV-1109H：一段历史”</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s67"
+          ss:StyleID="s68"
         ><Data ss:Type="String">Edit: its -&gt; their
 Edit: A -&gt; a
 Edit: an enemy's -&gt; their
@@ -283,7 +284,7 @@ NOTE: calling it 'herstory' is poking fun at feminists. We do NOT want to make t
             ss:Type="String"
           >“我从幼年箭尾种群中选择了兰登。尽管它是生物工程的产物，但能清晰感受到它温热的体温，奔跑中律动的肌肉。战斗中，我们风驰电掣地攻破敌人两翼。我训练兰登时比训练其他战马都上心，甚至曾用自己的能量护盾为睡梦中的遮风避雨。我实在过于稚嫩，无法完全表达出自己与第一头坐骑之间的感情，那是一种集生理、情感和精神于一身的感情。”- 汉诺威尔·简，浪漫小说家，“RV-3424E:“森林战马”</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s67"
+          ss:StyleID="s68"
         ><Data ss:Type="String">Edit: removed "with Laser-Lance"
 Edit: Energy-Buckler -&gt; energy buckler
 NOTE: this is really gross and sexist, and alludes to bestiality. NEEDS REVISION.</Data></Cell></Row><Row
@@ -303,9 +304,9 @@ NOTE: this is really gross and sexist, and alludes to bestiality. NEEDS REVISION
             ss:Type="String"
           >NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Arborian Planter</Data></Cell><Cell><Data
+          >Arborian Sentinel</Data></Cell><Cell><Data
             ss:Type="String"
-          >树人种植者</Data></Cell></Row><Row
+          >树人哨兵</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="105"
       ><Cell><Data ss:Type="String">ARBORIAN_SENTINEL</Data></Cell><Cell><Data
@@ -317,7 +318,7 @@ NOTE: this is really gross and sexist, and alludes to bestiality. NEEDS REVISION
             ss:Type="String"
           >“第一批树人是如何产生的目前仍是个不解之谜。尽管泰拉科技开发了许多不同类别的技术，但树人仍是生物机械转化技术领域最高效的种族。很明显，它们的科技突破了瓶颈。而这一切的起因都是主母想要通过种植树木来为万物提供庇护所。树人享受着无上的荣耀，尚武且擅武。它们能够用树根缠绕并致残敌人。并且还不会暴露自己在树林中的位置。”历史档案管理员埃米拉-盖伦，“RV-996H:一段历史”</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s67"
+          ss:StyleID="s68"
         ><Data
             ss:Type="String"
           >NOTE: calling it 'herstory' is poking fun at feminists. We do NOT want to make this joke! It will only cause problems.</Data></Cell></Row><Row
@@ -420,14 +421,14 @@ Edit: removed comma after "Matron"</Data></Cell></Row><Row
         ss:Height="105"
       ><Cell><Data ss:Type="String">ARBORIAN_QUEEN</Data></Cell><Cell><Data
             ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >“The Dvar came with their machines and their poison, stripping away life for dead treasure. Oh, my beloved trees slaughtered only to be consumed as fuel for their furnaces. Then I heard it. Their song. The Arborians summoned her. The Arborian Queen awakens, filling the air with healing. Whatever their noxious poison withers, she regrows. Kin-sisters, watch! Her roots shake the earth as they stumble to flee. Let our arrows strike them as she grows forests to conceal us. Her tendrils tear their machines asunder while their roads are broken to pieces.”— Huntress Sophinestra Sorrenta, “RV-25320M: Woodlands Awakened”</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >“矮人带着机械和剧毒而来，夺走自然中的生命，以换取没有生命的财宝。我挚爱的树木惨遭砍伐，被作为熔炉的燃料。随后我听到了它们的歌声。树人召唤了她，树人女王苏醒了，她将治愈之力洒向空中，所有因剧毒而凋零的生物都在她的影响下焕发生机，快看！她的根茎使大地震颤起来，那伙矮人只得落荒而逃。在她为我们制造可以遮蔽身形的森林期间，我们手中的弓箭也没有停歇。她的粗枝将所有机器和道路都拆个粉碎。”- 女猎人索菲尼斯特拉·索伦塔，“RV-25320M：林地觉醒”</Data></Cell><Cell
           ss:Index="9"
-          ss:StyleID="s66"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >HYDROMANCER</Data></Cell><Cell><Data
@@ -501,11 +502,11 @@ Edit: added comma after "tentacles"</Data></Cell></Row><Row
             ss:Type="String"
           >你们好，亚马逊的姐妹们，你们虽然地处偏远，但依靠着生物工程技术，你们生存着，进化着。星际联盟的崩溃使你们摆脱了古老的信条，缓慢地走在进化的道路上。你们按照自己的需要和理想重塑着自己的身体、社会以及环境，但宇宙万物都有自己的规则，愿你们能够在这个世界上建造一个更光明的未来。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s68"
+          ss:StyleID="s69"
         ><Data
             ss:Type="String"
           >The character referred to here is always female, since she's an Amazon. No alt text required.</Data></Cell><Cell
-          ss:StyleID="s68"
+          ss:StyleID="s69"
         ><Data
             ss:Type="String"
           >VO: Empress Carminia - Female</Data></Cell></Row><Row

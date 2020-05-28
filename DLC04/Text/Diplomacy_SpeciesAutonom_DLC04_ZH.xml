@@ -1,0 +1,205 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Joshua Crowder</LastAuthor><Created
+    >2018-05-01T08:34:18Z</Created><LastSaved
+    >2020-02-17T09:25:11Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>10920</WindowHeight><WindowWidth>19365</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="189" /><Column
+        ss:StyleID="s62"
+        ss:Width="174.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="288" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="201.75" /><Column
+        ss:StyleID="s62"
+        ss:Width="120"
+      /><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data
+            ss:Type="String"
+          >DIPLOMACY_SPECIESAUTONOM_DLC04</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PEACEKEEPER_INV_ALLY_FAC_WAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Anomalous behavior recognized, {STR_LeaderName}… Probability of peace: 0%. Previous indicators of anomalous behavior: none. Autonom annihilation protocols: activated.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >检测到异常行为，{STR_LeaderName}……和平可能性：0%。此前异常行为指标：无。自主机械歼灭协议：启动。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PEACEKEEPER_INV_WAR_FAC_ALLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hostile entities from Void region detected. Recommend reinforcement of mutual defensive routines with renowned entity {STR_LeaderName}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >检测到来自虚空区域的敌对实体。建议加强与著名实体{STR_LeaderName}签订的共同防御程序。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Reinforcement of mutual defense routines" means to increase the level of shared defenses between the Autonom and Player</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PEACEKEEPER_INV_WAR_FAC_WAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Danger level: RED. Anomalous forces detected in multiple sectors, threat levels rising to 346%.[br/]Current hostility protocols with {STR_LeaderName} irrelevant. Restart neutral routines: Y/N?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >危险等级：红色。多个区域检测到异常部队，威胁等级上升至 346%。[br/]当前与{STR_LeaderName}敌对协议无关。重启中立程序：是/否？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Danger Level: Red" refers to a high classification of danger. "Restart neutral routines" refers to the Autonom becoming neutral with the player after a state of war</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NEUTRAL_INV_ALLY_FAC_WAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Previous data of biomass forces represented by {STR_LeaderName} insufficient. New data confirms danger level: RED. Activating annihilation protocols.[br/]Retreat from area or suffer Autonom deletion.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >已掌握的{STR_LeaderName}生物质部队相关数据不足。新数据证实危险等级：红色。正在启动自主机械歼灭协议。[br/]立即撤离该区域，否则将遭受自主机械的清除。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Autonom deletion" implies the Autonom will destroy the player</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NEUTRAL_INV_WAR_FAC_ALLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mutual defensive routines advised. Engaging diplomacy networks.[br/]Assessment of biomass Voidbringers threat: RED. Predicted result of non-cooperation between {STR_LeaderName} and Autonom: DEATH. DELETION.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >建议采用共同防御程序。正在加入外交网络。[br/]虚空使者生物质威胁评估等级：红色。自主机械与{STR_LeaderName}非合作预测结果：死亡。彻底清除。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NEUTRAL_INV_WAR_FAC_WAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Autonom annihilation protocols ready to deactivate; higher priority threat detected.[br/]Cessation of current conflict with {STR_LeaderName} favorable to non-Voidbringers factions. Acceptance: Y/N?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >自主机械歼灭协议准备停用；检测到优先级更高的威胁。[br/]中止当前与{STR_LeaderName}的冲突有利于非虚空使者阵营。接受：是/否？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WARMONGER_INV_ALLY_FAC_WAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Destructive biomass entity {STR_LeaderName} recognized to collude with hostile invading forces. Disengaging diplomacy networks.[br/]Threat level: OMEGA[br/]Annihilation protocols activated, lethality measures set to maximum.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >检测到毁灭性生物质实体{STR_LeaderName}与入侵敌对势力串通勾结。正在退出外交网络。[br/]威胁等级：终极[br/]自主机械歼灭协议已启动，致死措施已提升至最高等级。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Threat Level: OMEGA" refers to an extremely high level of danger</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WARMONGER_INV_WAR_FAC_ALLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Destructive capability of {STR_LeaderName} forces recognized as capable with 87% certainty. Network Controller extends defensive protocols against shared threat: Voidbringers.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >检测到{STR_LeaderName}部队具备破坏能力，准确度 87%。网络控制者已拓展防御协议，准备抵御共同威胁：虚空使者。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WARMONGER_INV_WAR_FAC_WAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Continued combat engagements between Autonom and {STR_LeaderName} forces leads to… mutually assured destruction in light of hostile biomass classification: Voidbringers.[br/]Cease hostilities and engage defensive protocols: Y/N?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >面对敌对生物质类别：虚空使者的威胁，自主机械与{STR_LeaderName}部队持续交战将导致……共同毁灭。[br/]停止敌对行动并执行防御协议：是/否？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Autonom are saying that if they do not end their state of war with the player, both parties will suffer and be defeated</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For this faction's narrative style and in world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the lines below, {STR_LeaderName} is replaced by the name of the player's avatar.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the lines below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><Panes><Pane><Number
+          >3</Number><ActiveRow>4</ActiveRow><ActiveCol
+          >5</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

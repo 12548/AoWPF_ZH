@@ -1,0 +1,324 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author
+    >Benny Arents</Author><LastAuthor>GameScribes4</LastAuthor><Created
+    >2019-05-27T14:10:26Z</Created><LastSaved
+    >2019-12-04T13:07:33Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>9990</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
+      ss:ID="s64"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#FF0000"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="236.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="168.75"
+      /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="286.5"
+        ss:Span="1"
+      /><Column
+        ss:Index="5"
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="165"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="144.75" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="296.25"
+      /><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
+            ss:Type="String"
+          >STATUSEFFECTS_UNITPROPERTIES</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >OLD TEXT</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RESONANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Resonance</Data></Cell><Cell><Data
+            ss:Type="String"
+          >共振</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">RESONANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{ResonanceChance}[strengthPhysical/] strength chance to apply [abilityred]Resonance[/abilityred] to units for {duration}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {ResonanceChance}[strengthPhysical/] 力量几率对单位施加[abilityred]共振[/abilityred]，持续 {duration}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">RESONANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_PROP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has -{ResonanceResistance}[DefensePhysical/] per stack.[br/]Can stack up to {StackAmount} times.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每层使该单位获得 -{ResonanceResistance}[DefensePhysical/]。[br/]最多可叠加 {StackAmount} 层。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DISORIENTED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_NAME</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Disoriented</Data></Cell><Cell><Data
+            ss:Type="String"
+          >迷失</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">DISORIENTED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_MODIFIER</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >{DisorientedChance}[StrengthPhysical/] strength chance to apply [abilityred]Disoriented[/abilityred] to non-Ethereal targets for {duration}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {DisorientedChance}[StrengthPhysical/] 力量几率对生物或半机械人目标施加[abilityred]迷失[/abilityred]，持续 {duration}[turn/]。如果被抵抗，则改为施加[abilityred]共振[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DISORIENTED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_PROP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has a {FumbleChance}% chance of fumbling attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位的攻击有 {FumbleChance}% 的几率失手。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >REVERB</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reverb</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混响</Data></Cell><Cell ss:Index="8" ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">REVERB</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{ReverbChance}[strengthPhysical/] strength chance to apply [abilityred]Reverb[/abilityred] to units for {Duration}[turn/]. If resisted, apply [abilityred]Resonance[/abilityred] instead.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {ReverbChance}[strengthPhysical/] 力量几率对单位施加[abilityred]混响[/abilityred]，持续 {Duration}[turn/]。如果被抵抗，则改为施加[abilityred]共振[/abilityred]。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >REVERB</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_PROP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >At {StackAmount} stacks, this unit and all adjacent units friendly to this one take {DamageAmount}[damagePhysical/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >叠加至 {StackAmount} 层后，此单位以及其相邻的友方单位将受到 {DamageAmount}[damagePhysical/] 伤害。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >IMPAIRED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Impaired</Data></Cell><Cell><Data
+            ss:Type="String"
+          >受损</Data></Cell><Cell ss:Index="8" ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">IMPAIRED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Apply [abilityred]Slow[/abilityred] with a {ImpairedChance}[strengthPhysical/] strength chance to apply [abilityred]Impaired[/abilityred] for {Duration}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {ImpairedChance}[strengthPhysical/] 力量几率对单位施加[abilityred]受损[/abilityred]，持续 {Duration}[turn/]。如果被抵抗，则改为施加[abilityred]减速[/abilityred]。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >IMPAIRED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_PROP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has its mods disabled.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >此单位的模块失去效果，且拥有[abilityred]减速[/abilityred]，最大移动点数减少。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ANALISED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Analyzed</Data></Cell><Cell><Data
+            ss:Type="String"
+          >透析</Data></Cell><Cell ss:Index="8" ss:StyleID="s64" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">ANALISED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{AnalysedChance}[strengthPhysical/] strength chance to apply [abilityred]Analyzed[/abilityred] to units for {Duration}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {AnalysedChance}[strengthPhysical/] 力量几率对单位施加[abilityred]透析[/abilityred]，持续 {Duration}[turn/]。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >ANALISED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_PROP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has -{WeaknessAmount} to all damage resistances.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位对所有伤害获得 -{WeaknessAmount} 抵抗。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >REVERB</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_MODIFIER_NO_RESONANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{ReverbChance}[strengthPhysical/] strength chance to apply [abilityred]Reverb[/abilityred] to units for {Duration}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {ReverbChance}[strengthPhysical/] 力量几率对单位施加[abilityred]混响[/abilityred]，持续 {Duration}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">IMPAIRED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_MODIFIER_NO_SLOW</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{ImpairedChance}[strengthPhysical/] strength chance to apply [abilityred]Impaired[/abilityred] for {Duration}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {ImpairedChance}[strengthPhysical/] 力量几率施加[abilityred]受损[/abilityred]，持续 {Duration}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SUBJECT_OF_FIXATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Subject of Fixation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >锁定对象</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">SUBJECT_OF_FIXATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{FixationChance}[strengthPhysical/] strength chance to apply [abilityred]Subject of Fixation[/abilityred] to units for {Duration}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {FixationChance}[strengthPhysical/] 力量几率对单位施加[abilityred]锁定对象[/abilityred]，持续 {Duration}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SUBJECT_OF_FIXATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_PROP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has -{FixationResistance} to all damage resistances, and is {FixationHitChance} easier to hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位对所有伤害获得 -{FixationResistance} 抵抗，且命中难度降低 {FixationHitChance}%。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">REVERB</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STATUS_MODIFIER_CERTAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Applies [abilityred]Reverb[/abilityred] to units, for {Duration}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >对单位施加[abilityred]混响[/abilityred]，持续 {Duration}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HAZARD_RESONANCE_PILLAR</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Resonance Pillar</Data></Cell><Cell><Data
+            ss:Type="String"
+          >共振柱</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">HAZARD_RESONANCE_PILLAR</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Will explode when destroyed, {ReverbChance}[strengthPhysical/] strength chance to apply [abilityred]Reverb[/abilityred] to units within a {Radius} hex radius. Deals {Obstacledamage}[damagePhysical/] damage to each other obstacle in combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >摧毁时会爆炸，{ReverbChance} [strengthPhysical /]力量几率将对相邻单位施加[abilityred] 混响 [/ abilityred]。 对战斗中的每个障碍物造成{Obstacledamage} [damagekinetic]伤害。</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>115</Zoom><Selected
+      /><TopRowVisible>16</TopRowVisible><Panes><Pane><Number
+          >3</Number><ActiveRow>26</ActiveRow><ActiveCol
+          >2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

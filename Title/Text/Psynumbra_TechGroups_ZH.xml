@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7320</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -926,20 +926,20 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target friendly unit is shrouded in shadows for {DarkIconDuration}. Any enemy unit within {DarkIconRange} hexes of the targeted unit gains [abilityred]Haunting Melody[/abilityred], lowering all resistances and increasing fumble chance. Any friendly unit within {DarkIconRange} hexes of the target gains [abilityblue]Dark Elation[/abilityblue], giving {DarkElationMorale} morale and {DarkElationResistBonus}.</Data></Cell><Cell
+          >Target friendly unit is shrouded in shadows for {DarkIconDuration}. Any enemy unit within {DarkIconRange} hexes of the targeted unit gains [abilityred]Haunting Melody[/abilityred], lowering all resistances and increasing fumble chance. Any friendly units within {DarkIconRange} hexes of the target gains [abilityblue]Dark Elation[/abilityblue], giving {DarkElationMorale} morale and {DarkElationResistBonus}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >将目标友方单位笼罩在阴影中，持续 {DarkIconDuration}。目标单位 {DarkIconRange} 个单元格范围内的所有敌方单位获得[abilityred]萦绕旋律[/abilityred]，降低其所有类型的抵抗并增加失手率。目标单位 {DarkIconRange} 个单元格范围内的所有友方单位获得[abilityblue]黑暗欢愉[/abilityblue]，获得 {DarkElationMorale} 士气和 {DarkElationResistBonus}。</Data></Cell></Row><Row
+          >将目标友方单位笼罩在阴影中，持续 {DarkIconDuration}。目标单位 {DarkIconRange} 个单元格范围内的所有敌方单位获得[abilityred]萦绕旋律[/abilityred]，降低其所有类型的抵抗并增加失手率。目标单位 {DarkIconRange} 个单元格范围内的所有友方单位获得[abilityblue]黑暗欢愉[/abilityblue]，给予其 {DarkElationMorale} 士气和 {DarkElationResistBonus}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">DARK_ICON</Data></Cell><Cell><Data
             ss:Type="String"
           >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit is shrouded in shadows. All enemy units within range get [abilityred]Haunting Melody[/abilityred]. All friendly units within range gain [abilityblue]Dark Elation[/abilityblue].</Data></Cell><Cell
+          >This unit is shrouded in shadows. All adjacent enemy units get [abilityred]Haunting Melody[/abilityred]. All adjacent friendly units gain [abilityblue]Dark Elation[/abilityblue].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位正笼罩在阴影中。范围内的所有敌方单位获得[abilityred]萦绕旋律[/abilityred]。范围内的所有友方单位获得[abilityblue]黑暗欢愉[/abilityblue]。</Data></Cell></Row><Row
+          >该单位正笼罩在阴影中。所有相邻敌方单位获得[abilityred]萦绕旋律[/abilityred]。所有相邻友方单位获得[abilityblue]黑暗欢愉[/abilityblue]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">HAUNTING_MELODY</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1113,10 +1113,10 @@
             ss:Type="String"
           >GOVERNANCE_SKILL_3_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The unit gets {PsionicResistance} resistance and its Psionic attacks deal {PsionicDamage} extra damage.</Data></Cell><Cell
+          >The unit gets {PsionicResistance} resistance to all damage and its Psionic attacks deal {PsionicDamage} extra damage.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位获得 {PsionicResistance} 抵抗，同时其灵能攻击额外造成 {PsionicDamage} 伤害。</Data></Cell></Row><Row
+          >该单位对所有伤害获得 {PsionicResistance} 抵抗，同时其灵能攻击额外造成 {PsionicDamage} 伤害。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1529,10 +1529,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Channel the pain of the populace to reinforce our armies. Target colony gains {happinessPenalty}, and all units produced in the colony gain [abilityblue]Reinforced by Suffering[/abilityblue], granting them +{hitpointBonus} and +{damageBonus} damage.</Data></Cell><Cell
+          >Channel the pain of the populace to reinforce our armies. Target colony gains [abilityred]{happinessPenalty}[/abilityred], and all units produced in the colony gain [abilityblue]Reinforced by Suffering[/abilityblue], granting them +{hitpointBonus} and +{damageBonus} damage.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >引导人民的痛苦来强化我们的军队。目标殖民地获得 {happinessPenalty}，同时该殖民地生产的所有单位获得[abilityblue]苦痛强化[/abilityblue]，获得 +{hitpointBonus} 和 +{damageBonus} 伤害。</Data></Cell></Row><Row
+          >引导人民的痛苦来强化我们的军队。目标殖民地获得 [abilityred]{happinessPenalty}[/abilityred]，同时该殖民地生产的所有单位获得[abilityblue]苦痛强化[/abilityblue]，给予其 +{hitpointBonus} 和 +{damageBonus} 伤害。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">TORMENT_CHANNELERS</Data></Cell><Cell><Data

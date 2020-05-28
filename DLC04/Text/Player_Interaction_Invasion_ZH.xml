@@ -1,0 +1,596 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author
+    >GameScribes4</Author><LastAuthor>GameScribes4</LastAuthor><Created
+    >2020-04-11T19:20:11Z</Created><LastSaved
+    >2020-02-06T14:34:19Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>11565</WindowHeight><WindowWidth>17970</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Top" /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="161.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="159.75"
+      /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="283.5"
+        ss:Span="1"
+      /><Column
+        ss:Index="5"
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="287.25"
+      /><Column ss:StyleID="s62" ss:Width="120.75" /><Row
+        ss:Height="409.5"
+      ><Cell><Data
+            ss:Type="String"
+          >PLAYER_INTERACTION_INVASION</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:Height="409.5"><Cell
+        ><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GREET_DARKVOID_DARKVOID_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You are acknowledged, {STR_leaderName}.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向你致谢，{STR_leaderName}。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GREET_DARKVOID_DARKVOID_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Void guides us, {STR_leaderName}.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚空指引我们，{STR_leaderName}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GREET_DARKVOID_DARKVOID_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unity in the Void, {STR_leaderName}.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >在虚空中结为一体，{STR_leaderName}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GREET_DARKVOID_NORMAL_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You've come to join us of your own volition, {STR_leaderName}. Good.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你遵从自己的意志前来加入我们，{STR_leaderName}。这很好。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GREET_DARKVOID_NORMAL_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We've grown tired of waiting, {STR_leaderName}. Surrender now and we will be forever united.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们已经等得不耐烦了，{STR_leaderName}。投降吧，我们将永远结为一体。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GREET_DARKVOID_NORMAL_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cease your resistance, {STR_leaderName}.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >停止你的抵抗，{STR_leaderName}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GREET_DARKVOID_NORMAL_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Soon, all will be one with the void.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >很快，一切都将与虚空合为一体。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GREET_NORMAL_DARKVOID_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tell your masters to return whence they came.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >告诉你的主人，让他们从哪里来就回哪里去。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GREET_NORMAL_DARKVOID_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Did you come to beg me to free your mind, {STR_leaderName}?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你是来祈求我解放你心灵的吗，{STR_leaderName}？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GREET_NORMAL_DARKVOID_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The bigger they are, the harder they fall, {STR_leaderName}. Your masters are no different.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >爬得越高，摔得就越惨，{STR_leaderName}。你的主人也是一样。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">GREET_INVASION_NEUTRAL_01</Data></Cell><Cell
+        ><Data ss:Type="String">Still alive, I see.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >看来你还活着，我明白了。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">GREET_INVASION_NEUTRAL_02</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Have you come to ask for help, {STR_leaderName}?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你是来寻求帮助的吗，{STR_leaderName}？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">GREET_INVASION_NEUTRAL_03</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Not one of them? Well met, then. What is it?</Data></Cell><Cell><Data
+            ss:Type="String"
+          >你不是跟他们一伙的？好吧，你有什么事？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">GREET_INVASION_POSITIVE_01</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Hail and well met, {STR_leaderName}. It's good to see a friendly face in these dark times.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向你致敬，{STR_leaderName}。在如此黑暗的时代里，能看见一张友好的面庞真是不错。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">GREET_INVASION_POSITIVE_02</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >It is good to see you are well despite circumstances.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >无论如何，很高兴看见你安然无恙。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data ss:Type="String">GREET_INVASION_POSITIVE_03</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Welcome, friend, I'm glad to see you haven't lost your mind.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >欢迎，我的朋友。很高兴看见你还未失去理智。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DECLARE_FRIENDSHIP_INVASION_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Standing against the tide of these void-denizens is no small feat, friend. Let us do so side-by-side in the future.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >与虚空大军对抗并非小事，朋友。让我们今后并肩作战，共同抗敌。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DECLARE_FRIENDSHIP_INVASION_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our goals align, {STR_leaderName}. A friendship between us will strengthen the resolve of our people to fight these dark abberations. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的目标一致，{STR_leaderName}。我们之间的友谊将会增进人们与这些黑暗异类斗争到底的决心。 </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DECLARE_FRIENDSHIP_INVASION_EXTERNAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_otherName} stands bravely in defense of their people, their conviction, and our world. They are a true inspiration!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_otherName}勇敢地捍卫了他的人民、信念和我们的世界。他们使我们受到了鼓舞！</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPOSE_DIPLOMATICSTATE_INVASION_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Let us put our petty differences aside and unite against this threat to our existence.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >让我们把小小的分歧先放在一边，团结起来对抗这些威胁我们生存的家伙吧。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Please check to ame sure this still makes sense in game</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPOSE_DIPLOMATICSTATE_INVASION_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We both know we're going to need all the help we can get against the beings from the void. With this pact we can help each other. Are you in?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们都很清楚，我们需要一切能够得到的帮助来对抗这些来自虚空的生物。有了这个条约，我们将可以互相帮助。你要加入吗？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Please check to ame sure this still makes sense in game</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPOSE_DIPLOMATICSTATE_INVASION_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >These brain-suckers have gone far enough! Divided we can only do so much, but together we are the bastion this world needs. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >不能再放任这些吸食头脑的怪物了！各自为战，我们将一事无成；团结一心，我们将成为这个世界上最坚固的堡垒。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Please check to ame sure this still makes sense in game</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FORESHADOW_IMPROVEMENT_INVASION_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You are a light in these dark times, {STR_leaderName}. It is my wish that we strengthen the ties between us, for the good of both our peoples. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你就像是这黑暗时代中的一束明光，{STR_leaderName}。为了我们双方的利益，我希望能够增进我们之间的关系。 </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FORESHADOW_IMPROVEMENT_INVASION_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >To see you well strengthens my resolve, {STR_leaderName}. Shall we endeavour to grow our affiliation into a strong alliance? It would greatly benefit us both. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >看见你安然无恙进一步增进了我的决心，{STR_leaderName}。我们是否应该进一步强化我们的联盟关系？这将对我们双方都大有好处。 </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FORESHADOW_IMPROVEMENT_INVASION_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Salutations, comrade. You are a beacon of hope in these dark times, and together we would stand so much stronger against the forces that would oppose us.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，朋友。在如此黑暗的时代，你就像是一座希望的灯塔。如果我们团结起来，就能更加有力地对抗我们的敌人。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FORESHADOW_IMPROVEMENT_INVASION_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Good to see you, friend. You are well, I hope? We should improve the bond between us, so we can stand united against the invasion of the Voidbringers! </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >很高兴见到你，朋友。近来一切可好？我们应该加强我们之间的联系，这样才能团结起来，共同对抗黑暗虚空的入侵！ </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPOSE_TREATY_INVASION_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >I've got a deal for you: {STR_actionName}. Let's face it; this treaty will help us both stand stronger against the oncoming tide of monstrosities. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我想与你做一笔交易：{STR_actionName}。承认吧，这项条约将使我们双方更加有力地对抗那些怪物的入侵狂潮。 </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">ACTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPOSE_TREATY_INVASION_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Stability and strength to protect this world and our people from those possessed by the void, that's what this treaty will help us do, {STR_actionName}. Will you join me?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这项条约将帮助我们走向稳定，获得力量，保护这个世界和我们的人民免遭虚空迫害，{STR_actionName}。你愿意加入我吗？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DARKVOID_DARKVOID_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >With this support of our newfound master we shall conquer this world and rule it as our own!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有了新主人的支持，我们将征服并统治这个星球！</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text. "Master" Refers to a genderless figure. </Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Note that all the texts in this document that refer to two people - the speaker and the one spoken too - that can both be male or female.
+
+Note that use of the 'localized' and 'alternative localized string' only applies for the gender of the speaker.
+
+If the gender of the person spoken to requires inflection, please try to translate the text in a way that doesn't require such inflection. If this is impossible, please get in touch with us informing us of which lines this concerns and how they would be inflected in the language you are translating too.</Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DARKVOID_NORMAL_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Darkness of the Void will eventually overtake you and your allies. It is simply a matter of time. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >虚无的黑暗最终将赛过你和你的盟友。 这只是时间问题</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text. "Master" Refers to a genderless figure. </Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NORMAL_DARKVOID_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You side with these monsters to save yourself while the rest of us fight. You're pathetic. Crawl back to your masters and pray we don't meet on the battlefield. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >当我们在战斗的时候，你为了救自己而与这些怪物同盟。你真可悲。爬回你的主人身边并祈祷我们不会在战场上相见。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text. "Master" Refers to a genderless figure. </Data></Cell></Row><Row
+        ss:Height="409.5"
+      ><Cell><Data ss:Type="String">OPINION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NORMAL_NORMAL_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We should stick together. I fear we may be overrun by these dark void beings if we don't.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们应该待在一起，我怕如果不这样的话，我们会被这些黑暗虚空的生物淹没</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text. "Master" Refers to a genderless figure. </Data></Cell></Row><Row
+        ss:Height="150"
+      ><Cell><Data ss:Type="String">DARKVOID_GREET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >JOINED_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Physical Thrall. Spread Our Energy. Consume. Destroy Physical Renouncers.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >物理奴役。扩展我们的能量。吞噬。销毁物理放弃者</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Thrall refers to the player. "Physical Renouncers" refers to enemies. </Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">DARKVOID_GREET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >JOINED_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Collect Energy, Serf.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >收集能量，农奴。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Serf Refers to the player.</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          >DARKVOID_GREET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >JOINED_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Do Not Vibrate Your Air. Satiate Our Appetite.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >不要摇晃你的气。满足我们的胃口。</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          >DARKVOID_GREET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PENDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Choose.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >选择。</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          >DARKVOID_GREET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >REFUSED_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Begone.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >滚。</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          >DARKVOID_GREET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >REFUSED_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Time Wastes Away On You.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >在你身上浪费时间。</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          >DARKVOID_GREET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >REFUSED_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You Refused. You Die.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >你拒绝，你死。</Data></Cell></Row><Row ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >DARKVOID_GREET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >REFUSED_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cattle. We Hunger.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >卡特，我们饿了。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Cattle refers to the player.</Data></Cell></Row><Row
+        ss:Height="315"
+      ><Cell><Data ss:Type="String">RELATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >AT_WAR_DURING_INVASION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We need to focus on fending off the invasion</Data></Cell><Cell><Data
+            ss:Type="String"
+          >我们需要集中精力抵制入侵</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >This is the name of a modifier and is displayed in lists and breakdowns. May be inserted as strings, but never midway of a scentence.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>115</Zoom><Selected
+      /><TopRowVisible>35</TopRowVisible><Panes><Pane><Number
+          >3</Number><ActiveRow>43</ActiveRow><ActiveCol
+          >1</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

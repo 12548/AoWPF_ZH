@@ -14,9 +14,10 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
-    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -187,10 +188,10 @@
             ss:Type="String"
           >MOD_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Whenever the unit takes damage, its attacker is teleported {QuantumAvatarTeleport} hex away from their current position, receives [abilityred]Dimensional Instability[/abilityred] and becomes [abilityred]Staggered[/abilityred].[br/][br/]Voidtech or Voidtech-modded units adjacent to this one receive {QuantumAvatarShields} and gain a level of [abilityblue]Stagger Resistance[/abilityblue].</Data></Cell><Cell
+          >Whenever the unit takes damage, its attacker is teleported {QuantumAvatarTeleport} hex away from their current position and receives [abilityred]Dimensional Instability[/abilityred].[br/][br/]Voidtech or Voidtech-modded units adjacent to this one receive {QuantumAvatarShields} and gain a level of [abilityblue]Stagger Resistance[/abilityblue].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位受到伤害时，攻击者将会被传送至其当前位置 {QuantumAvatarTeleport} 个单元格之外，获得[abilityred]维度动荡[/abilityred]并且会被[abilityred]动摇[/abilityred]。[br/][br/]与该单位相邻的虚空科技单位或者装有虚空科技模块的单位获得 {QuantumAvatarShields} 并获得 1 级[abilityblue]动摇抵抗[/abilityblue]。</Data></Cell></Row><Row
+          >该单位受到伤害时，攻击者将会被传送至其当前位置 {QuantumAvatarTeleport} 个单元格之外，并获得[abilityred]维度动荡[/abilityred]。[br/][br/]与该单位相邻的虚空科技单位或者装有虚空科技模块的单位获得 {QuantumAvatarShields} 并获得 1 级[abilityblue]动摇抵抗[/abilityblue]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell><Cell><Data
             ss:Type="String"
@@ -633,10 +634,10 @@
             ss:Type="String"
           >FRIENDLY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit has [abilityblue]Fast Movement[/abilityblue].</Data></Cell><Cell
+          >This unit has [abilityblue]Fast Movement[/abilityblue] for {Duration}[turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位拥有[abilityblue]迅捷移动[/abilityblue]。</Data></Cell></Row><Row
+          >该单位获得[abilityblue]迅捷移动[/abilityblue]，持续 {Duration}[turn/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">TIME_WARP</Data></Cell><Cell><Data
             ss:Type="String"
@@ -839,10 +840,10 @@
             ss:Type="String"
           >EFFECT_STRING_MOVEPOINT</Data></Cell><Cell><Data
             ss:Type="String"
-          >Units in affected army lost all of their [movewalk/] move points.</Data></Cell><Cell
+          >Units in affected army lost all of their [movewalk/] move points for {Duration}[turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >受影响军队中的单位失去全部[movewalk/]移动点数。</Data></Cell></Row><Row
+          >受影响军队中的单位失去全部 [movewalk/] 移动点数，持续 {Duration}[turn/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell><Cell><Data
@@ -1354,10 +1355,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Enemy units within the affected friendly colony domain have to use {ExtraMovePoints} extra move points for every hex they move and every {delay} have a {StrChanceSlow} strength chance to gain [abilityred]Slow Movement[/abilityred], for {Duration}[turn/] when fighting in this domain.</Data></Cell><Cell
+          >Enemy units within the affected friendly colony domain have to use {ExtraMovePoints} extra move points for every hex they move and every {delay} have a {StrChanceSlow} strength chance to gain [abilityred]Slow[/abilityred], for {Duration}[turn/] when fighting in this domain.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >位于受到影响的友方殖民地领域内的敌方单位在移动至每个单元格时必须额外消耗 {ExtraMovePoints} 移动点数，并且在该领域中战斗时，每 {delay} 有 {StrChanceSlow} 力量几率获得[abilityred]缓慢移动[/abilityred]，持续 {Duration}[turn/]。</Data></Cell></Row><Row
+          >位于受到影响的友方殖民地领域内的敌方单位在移动至每个单元格时必须额外消耗 {ExtraMovePoints} 移动点数，并且在该领域中战斗时，每 {delay} 有 {StrChanceSlow} 力量几率遭受[abilityred]缓慢[/abilityred]，持续 {Duration}[turn/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">VOID_BARRIERS</Data></Cell><Cell><Data
@@ -1373,18 +1374,10 @@
             ss:Type="String"
           >COMBAT_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Every {delay} all enemy units have a {StrChanceSlow} strength chance to gain [abilityred]Slow Movement[/abilityred], for {Duration}[turn/].</Data></Cell><Cell
+          >Every {delay} all enemy units have a {StrChanceSlow} strength chance to gain [abilityred]Slow[/abilityred], for {Duration}[turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >所有敌方单位每 {delay} 有 {StrChanceSlow} 力量几率获得[abilityred]缓慢移动[/abilityred]，持续 {Duration}[turn/]。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">VOID_BARRIERS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >UNIT_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >This unit has Slow Movement.</Data></Cell><Cell><Data
-            ss:Type="String"
-          >该单位拥有缓慢移动。</Data></Cell></Row><Row
+          >所有敌方单位每 {delay} 有 {StrChanceSlow} 力量几率获得[abilityred]缓慢[/abilityred]，持续 {Duration}[turn/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"

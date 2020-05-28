@@ -1,0 +1,2635 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author
+    >GameScribes4</Author><LastAuthor>GameScribes4</LastAuthor><Created
+    >2020-04-11T19:24:49Z</Created><LastSaved
+    >2020-01-23T13:23:45Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>9990</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s64"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
+      ss:ID="s65"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s66"
+    ><Alignment ss:Vertical="Top" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s67"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+      /></Style><Style ss:ID="s68"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="147.75" /><Column
+        ss:StyleID="s62"
+        ss:Width="125.25"
+      /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="363"
+        ss:Span="1"
+      /><Column
+        ss:Index="5"
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="193.5"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="247.5" /><Column
+        ss:StyleID="s62"
+        ss:Width="367.5"
+      /><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >UNIT_UPGRADES_SHAKARN</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >SONO_PULSE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Sono-Pulse</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >音波脉冲</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="Default"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >SONO_PULSE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Project a Sonic attack at the target.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">对目标发动一次音波攻击。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">RECON_BUOY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Recon Buoy</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">侦察航标</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        ><Data
+            ss:Type="String"
+          >Recon is short for Reconnaissance </Data></Cell><Cell
+          ss:StyleID="Default"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="75"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">RECON_BUOY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Place a Reconnaissance Buoy on target hex, making all enemy units in a {HexRange} hex radius {EvasionDown}% easier to hit, for {Duration}[turn/]. The effect is reapplied at the start of each turn.[br/][br/]The buoy lasts for {DurationBuoy}[turn/] or until destroyed.[br/]</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >在目标单元格放置一个侦察航标，使 {HexRange} 个单元格范围内的所有敌方单位的命中难度降低 {EvasionDown}%，持续 {Duration}[turn/]。此效果在每个回合开始时都会再次生效。[br/][br/]航标持续 {DurationBuoy}[turn/] 或直到被摧毁为止。[br/]</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s66"
+        ><Data
+            ss:Type="String"
+          >Reconnaissance Buoy is a Shakarn Unit</Data></Cell><Cell
+          ss:StyleID="Default"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >RECON_BUOY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >MODIFIER_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Unit is {EvasionDown}% easier to hit.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >单位的命中难度降低 {EvasionDown}%。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >RECON_BUOY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >MODIFIER_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >At the start of each turn, all enemy units within {HexRange} hexes are {EvasionDown}% easier to hit for {Duration}[turn/]</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >每回合开始时，{HexRange} 个单元格范围内的所有敌方单位的命中难度降低 {EvasionDown}，持续 {Duration}[turn/]</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">OMNI_CARBINE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Omni Carbine</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">全能卡宾枪</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">OMNI_CARBINE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Fire a combined Sonic Laser attack at the target.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >向目标发动一次音波与激光混合攻击。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">OMNI_CARBINE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">MODIFIER_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Close Assault</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">近战突击</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">OMNI_CARBINE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">MODIFIER_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Deals -{KineticrDamage}[damagePhysical/] per each hex away from target.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >与目标每隔一个单元格，造成 -{KineticrDamage}[damagePhysical/]。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        ><Data
+            ss:Type="String"
+          >Reads: Deals -1[damagetype] per each [..]</Data></Cell><Cell
+          ss:StyleID="Default"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >OMNI_RUSH</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Omni Rush</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >全能冲击</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >OMNI_RUSH</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Project a mix of damaging Sonic and Laser in a {HexRange} hex line.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >对一条 {HexRange} 个单元格直线造成音波和激光混合伤害。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">SONO_FREQUENCY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Sono-Frequency</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">音波频率</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">SONO_FREQUENCY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Project a Sonic attack at the target.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">对目标发动一次音波攻击。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">HOLOSHIFT</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Holoshift</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">全息相形</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >HOLOSHIFT</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Copy the appearance and abilities from target enemy non-Hero unit for {Duration}[turn/].</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >复制敌方目标非英雄单位的外观和技能，持续 {Duration}[turn/]。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">HOLOSHIFT_1</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">MOD_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Basic</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >基础</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >HOLOSHIFT_1</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >MOD_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Holoshift can target Tier I and Tier II non-Mechanical units.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >全息相形能够以 1 阶和 2 阶非机械单位为目标。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">HOLOSHIFT_2</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">MOD_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Weighted</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">增强</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">HOLOSHIFT_2</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Holoshift can target Tier I and Tier II units.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >全息相形能够以 1 阶和 2 阶单位为目标</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">HOLOSHIFT_3</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">MOD_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Lifelike</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">逼真</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">HOLOSHIFT_3</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Holoshift can target Tier I, Tier II and Tier III units.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >全息相形能够以 1 阶、 2 阶和 3 阶单位为目标</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">SHIFTBACK</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Shiftback</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">相形逆转</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">SHIFTBACK</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Return this unit to its original form.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">将此单位恢复到原始形态。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">AUTO_SHIFTBACK</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Holoshifted</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">全息相形</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >AUTO_SHIFTBACK</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell ss:StyleID="s67"><Data
+            ss:Type="String"
+          >This unit is impersonating another.[br/]When this unit's [hp/] drops to 0, they automatically teleport up to a random position {ShiftbackHex} hexes away, reverts back to its orginal form and revives with {ShiftbackHP}[hp/].[br/][br/][firecol]A unit can only revive itself once per battle.[/firecol]</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >该单位正伪装成另一单位。[br/]当该单位的 [hp/] 降至 0 时，该单位将自动传送至最多 {ShiftbackHex} 个单元格外的随机位置，恢复到原始形态并复活，复活时拥有 {ShiftbackHP}[hp/]。[br/][br/][firecol]每个单位在每场战斗中只能复活自己一次。[/firecol]</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">OMNI_CANNON</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Omni Cannon</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">全能大炮</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">OMNI_CANNON</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Fire a combined Sonic Laser attack at the target.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >向目标发动一次音波与激光混合攻击。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">DEADLY_OVERWATCH</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Deadly Overwatch</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">致命警戒</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >DEADLY_OVERWATCH</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >This unit can enter Deadly Overwatch, allowing it to automatically shoot at an enemy that moves or attacks within its field of view with +{CrticalAndAccUp}% critical chance and accuracy while in Overwatch.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >此单位可进入致命警戒，使其在警戒模式下自动对视野范围内移动或攻击的敌人进行射击时增加 {CrticalAndAccUp}% 暴击率和准度。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">OMNI_PERFORATOR</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Omni Perforator</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">全能穿孔</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >OMNI_PERFORATOR</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Fire a perforating Sonic Laser attack at the target,  dealing damage in a {HexRange} hex line.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >对目标发动一次贯穿性的音波激光攻击，对一条 {HexRange} 个单元格直线造成伤害。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">SONO_REPEATER</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Sono-Repeater</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">音波连发</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">SONO_REPEATER</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Project a Sonic attack at the target.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">对目标发动一次音波攻击。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">DISSONOS</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Dissonos</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">毁灭音波</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >DISSONOS</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Project a ruinous Sonic attack at target location, in a {HexRange} hex range cone.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >向目标位置发动一次毁灭性的音波攻击，对 {HexRange} 个单元格范围造成伤害。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="Default"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >HOLO_MEND</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Holo Mend</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >全息修补</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">HOLO_MEND</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Target friendly unit heals for {Heal}[hp/], has its negative Status Effects removed and gains {EvasionUp}% evasion for {Duration}[turn/].</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >目标友方单位治疗 {Heal}[hp/] 并驱散自身所有负面状态效果，同时获得 {EvasionUp}% 闪避，持续 {Duration}[turn/]。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">HOLO_MEND</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">MODIFIER_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Unit is +{EvasionUp}% harder to hit.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >单位的命中难度增加 {EvasionUp}%。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">PROPAGATION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Propagation</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">宣传</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >PROPAGATION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >When a Shakarn Broadcasting operation is active, this unit gains a battlefield wide effect depending on the broadcast.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >当有蜥蜴人广播行动激活时，此单位会根据广播类型获得覆盖整个战场的效果。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >Related to the [Type] Broadcasting Strategic Operations found in Shakarn_TechGroups</Data></Cell><Cell
+          ss:StyleID="Default"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >OMNI_CLAW</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Omni Claw</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >全能利爪</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >OMNI_CLAW</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Melee combined Sonic Laser attack.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">音波与激光混合近战攻击。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">OMNI_SHOT</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Omni Shot</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">全能射击</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">OMNI_SHOT</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Fire a combined Sonic Laser attack at the target.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >向目标发动一次音波与激光混合攻击。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">STAGGERING_FORCE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Staggering Force</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">动摇之力</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">STAGGERING_FORCE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Ram target with a shield.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">用护盾冲撞目标。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">SONO_BLAST</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Sono-Blast</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">音波震爆</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">SONO_BLAST</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Project a Sonic attack at the target.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">对目标发动一次音波攻击。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">PRESS_THE_ADVANTAGE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Press The Advantage</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">乘胜追击</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">PRESS_THE_ADVANTAGE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Target non-Tactician friendly unit regains all action points.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >目标友方单位恢复全部操作点数。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">FALLBACK</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Fallback</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">撤退</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >FALLBACK</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Target friendly unit heals for {Heal}[hp/] and has its negative Status Effects removed. The unit is pulled to a hex adjacent to this unit.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >目标友方单位治疗 {Heal}[hp/] 并驱散自身所有负面状态效果，并且会被拉至一个与此单位相邻的单元格。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">ONE_OF_US_ALL_ALONG</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">One of us All Along</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">永远心属我们</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >ONE_OF_US_ALL_ALONG</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Target enemy Tier I or II Infantry unit reveals that one of its own was a Sleeper Agent all along, which appears under your control in an adjecent hex.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >通过念出正确的触发暗语，潜伏特工将会苏醒。[br/]一个随机敌方 1 阶或 2 阶非无意识步兵单位转化成由你控制的潜伏特工。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        ><Data
+            ss:Type="String"
+          >Sleeper Agent is a Shakarn Unit</Data></Cell><Cell
+          ss:StyleID="Default"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >REVERBERATING_DAGGER</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Reverberating Dagger</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >回响匕首</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >REVERBERATING_DAGGER</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Melee Sonic attack.</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >近战音波攻击。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">HIGH_FREQUENCY_BLAST</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">High Frequency Blast</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">高频震爆</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">HIGH_FREQUENCY_BLAST</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Project a Sonic attack at the target.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">对目标发动一次音波攻击。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">OMNI_REPEATER</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Omni Repeater</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">全能连发</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">OMNI_REPEATER</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Fire a combined Sonic Laser attack at the target.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >向目标发动一次音波与激光混合攻击。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">OMNI_BEAM</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Omni Beam</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">全能光束</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">OMNI_BEAM</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Fire a combined Sonic Laser attack in a {HexRange} hex line.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >对一条 {HexRange} 个单元格直线发动一次音波激光混合攻击。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">OMNI_CHARGE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Omni Charge</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">全能充能</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >OMNI_CHARGE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Empower the next [abilityblue]Omni Beam[/abilityblue] to be a {HexLong} hex long and {HexWide} hex wide line.[br/]Unit enters [abilityblue]Defense Mode[/abilityblue].</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >强化下一次[abilityblue]全能光束[/abilityblue]，使其长度变为 {HexLong} 个单元格，宽度变为 {HexWide} 个单元格。[br/]单位进入[abilityblue]防御模式[/abilityblue]。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">OMNI_CHARGE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">MODIFIER_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Attack is charged and will deal damage in a bigger area.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >此次攻击经过充能，可对更大范围造成伤害。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">SONOKARNS_RALLY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Sonokarn's Rally</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">声波碑船集结</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        ><Data ss:Type="String">Sonokarn is a shakarn unit</Data></Cell><Cell
+          ss:StyleID="Default"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">SONOKARNS_RALLY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >All other friendly units gain a {DamageUp}% damage increase for {Duration}[turn/], per Action Point spent.[br/]Caps at {StackNumber} stacks.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >所有友方单位每消耗一点操作点数，治疗 {Heal}[hp/] 并获得 {DamageUp}% 伤害提升，持续 {Duration}[turn/]回合。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">SONOKARNS_RALLY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">MODIFIER_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This unit deals {DamageIncrease}% increased damage.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >该单位造成 {DamageIncrease}% 额外伤害。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">OMNI_SHIELD</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Defense Mode: Omni Shield</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">防御模式：全能护盾</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >OMNI_SHIELD</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >This unit ends its turn and goes into a defensive mode. It grants itself and adjacent allies {DefenseModePsiTecShieldDefense}[shield/], as well as {ExtraEvasion}% evasion. Additionally this unit becomes {DefensiveAccuracyTarget} harder to hit and cannot be flanked.[br/]If this unit is staggered, the defensive mode is canceled.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >该单位结束回合并进入防御模式，使自身和相邻友军获得 {DefenseModePsiTecShieldDefense}[shield/] 和 {ExtraEvasion}% 闪避。此外，该单位的命中难度增加 {DefensiveAccuracyTarget} 且无法被包抄。[br/]如果该单位被动摇，防御模式将被中止。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">OMNI_SHIELD</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">MODIFIER_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Omni Shield</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">全能护盾</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">OMNI_SHIELD</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">MODIFIER_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This unit has +{Shields}[shield/] and +{EvasionUp}% evasion.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >此单位获得 +{Shields}[shield/] 和 +{EvasionUp}% 闪避。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">SONO_EMISSION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Sono-Emission</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">音波放射</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">SONO_EMISSION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Project a Sonic attack at the target.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">对目标发动一次音波攻击。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">SONAR_ANALYSIS</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Sonar Analysis</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">声呐分析</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >SONAR_ANALYSIS</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Units in a {HexRadius} hex radius have a {AnalysisChance}[strengthPhysical/] strength chance to gain [abilityred]Analyzed[/abilityred], reducing their resistances by {WeaknessAmount} for {Duration}[turn/]</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >{HexRadius} 个单元格范围内的单位有 {AnalysisChance}[strengthPhysical/] 力量几率获得[abilityred]透析[/abilityred]，使其抵抗降低 {WeaknessAmount}，持续 {Duration}[turn/]</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">EXTENDED_FARSIGHT</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Extended Farsight</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">视野延伸</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">EXTENDED_FARSIGHT</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit has +{farsightVisionBonus} vision range.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >单位视野范围 +{farsightVisionBonus}。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">ULTRA_SOUND</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Ultrasonic</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">超声波</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">ULTRA_SOUND</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Project a Sonic attack at the target.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">对目标发动一次音波攻击。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">EPIMORPHIC_REGENERATION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Epimorphic Regeneration</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">割处再生</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        ><Data
+            ss:Type="String"
+          >Epimorphic relates to the regeneration of limbs, usually found on Lizards</Data></Cell><Cell
+          ss:StyleID="Default"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">EPIMORPHIC_REGENERATION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >When this unit takes damage from one or more enemy units or operations, it will regenerate {HPAmount}[hp/] at the start of the next turn.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >当该单位受到一个或多个敌方单位或行动的伤害时，它将在下一回合开始时重新生成{HPAmount} [hp /]。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >SONO_EBB</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Sono-Ebb</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >音波潮落</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >SONO_EBB</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Project a Sonic attack at the target. On use, this unit gains a stack of [abilityblue]Ebb[/abilityblue], up to {MaxStackAmount} stacks.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >对目标发动一次音波攻击。使用此技能时，该单位会获得一层[abilityblue]潮落[/abilityblue]，最多叠加 {MaxStackAmount} 层。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="Default"><Data ss:Type="String">EBB</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Ebb</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >潮落</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="Default"><Data ss:Type="String">EBB</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Flow abilities gain +{DamageIncrease}% damage and a radius increased of {HexRad} hex, per stack.[br/]Caps at {MaxStack} stacks.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >每层潮落会使“音波潮涌”的伤害 +{DamageIncrease}% 且范围增加 {HexRad} 个单元格。[br/]最多叠加 {MaxStack} 层。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >SONO_FLOW</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Sono-Flow</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >音波潮涌</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >SONO_FLOW</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Project a Sonic attack at target enemy unit. [abilityblue]Ebb[/abiltyblue] stacks modify this ability.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >对敌方目标单位发动一次音波攻击。叠加[abilityblue]潮落[/abiltyblue]可提升此技能的伤害和范围。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >EBB_AND_FLOW</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >MODIFIER_NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Ebb and Flow</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >潮起潮落</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >EBB_AND_FLOW</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >MODIFIER_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Each [abilityblue]Ebb[/abilityblue] consumed increases damage by {DamageIncrease}% and the hex radius by {HexRad}.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >每叠加一层[abilityblue]潮落[/abilityblue]，此技能的伤害 +{DamageIncrease}% 并增加 {HexRad} 个单元格范围。使用此技能将消耗叠加的层数。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >ASSAULT_HASHER_SMG</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Assault Hasher SMG</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >哈舍尔突击冲锋枪</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >ASSAULT_HASHER_SMG</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Fire an Assault Hasher SMG at the target.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >使用哈舍尔突击冲锋枪攻击目标。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >ASSAULT_HASHER_SMG</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >MODIFIER_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Deals -{ArcDamage}[damageWave/] per each hex away from target.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >与目标每隔一个单元格，造成 -{ArcDamage}[damageWave/]。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        ><Data
+            ss:Type="String"
+          >Reads: Deals -1[damagetype] per each [..]</Data></Cell><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="Default"
+        ><Data ss:Type="String">PLASMA_CLAW</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_ABILITY</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Plasma Claw</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">等离子利爪</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >PLASMA_CLAW</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Claw at a target with heated claws, setting the target hex on fire for {Duration}[turn/].</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >使用高温利爪攻击目标，使目标单元格燃烧，持续 {Duration}[turn/]。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >SONO_VOID_BLADES</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_ABILITY</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Sono-Void Blades</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >音波虚空之刃</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_1</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Xeno Defense Module</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >异星防御模块</Data></Cell><Cell ss:Index="7" ss:StyleID="s65"><Data
+            ss:Type="String"
+          >Xeno as in relating to Alien wildlife</Data></Cell><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_1</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Unit gains +{Resistance} damage resistance to the last damage type it received.[br/]This effect lasts until the end of combat or until a different damage is dealt to the unit.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >单位对上一次受到的伤害类型获得 +{Resistance} 伤害抵抗。[br/]此效果持续至战斗结束，或该单位受到另一种类型的伤害为止。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_2</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Portable Scanners</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >便携扫描器</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_2</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Unit gains [abilityblue]Detection[/abilityblue], +{SensorRange} Sensor Range and it's damaging abilities gain a {AnalysisChanceSingle}[strengthPhysical/] strength chance ({AnalysisChanceRepeating}[strengthPhysical/] for repeating attacks) to apply [abilityred]Analyzed[/abilityred], reducing their resistances by {ResistanceDown} for {Duration}[turn/].</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >单位获得[abilityblue]侦察[/abilityblue]，增加 +{SensorRange} 传感器范围，且伤害型技能有 {AnalysisChanceSingle}[strengthPhysical/] 力量几率（多次攻击有 {AnalysisChanceRepeating}[strengthPhysical/] 力量几率）施加[abilityred]透析[/abilityred]，使其抵抗降低 {ResistanceDown}，持续 {Duration}[turn/]。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_3</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Impairing Grenade</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >削弱手雷</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_3</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Throw an Impairing Grenade at an hex, dealing Sonic damage in a {HexRange} hex radius.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >向一个单元格投掷一枚削弱手雷，对 {HexRange} 个单元格范围造成音波伤害。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_4</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Holodisplacement Shields</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >全息位移护盾</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_4</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Unit gains [abilityblue]Skitter[/abilityblue], making it {Evasion}% harder to hit for each hex moved during its last turn, as well as gaining [abilityblue]Water and River Camouflage[/abilityblue], making it undetectable when on water and river hexes.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >单位获得[abilityblue]飞掠者[/abilityblue]，在上个回合每移动过一个单元格，命中难度就增加 {Evasion}%，并且获得[abilityblue]水域与河流伪装[/abilityblue]，使其在水域和河流单元格上时不会被侦察到。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_4</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Water and River Camouflage</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">水域与河流伪装</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_4</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This unit cannot be detected when standing on Water or River hexes.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >该单位位于水域或河流单元格时不会被侦察到。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_5</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Orbital Recall Systems</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >轨道召回系统</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_5</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Tactical Redeploy</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">战术再部署</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_5</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Unit is quickly repositioned to target hex. Then it gains +{ShieldAmount}[shield/] for {duration}[turn/].</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >单位迅速重新部署至目标单元格，随后获得[abilityblue]包抄者[/abilityblue]和 +{ShieldAmount}[shield/]，持续 {duration}[turn/]。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_5</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This unit has +{Shields}[shield/] and [abilityblue]Flanker[/abilityblue].</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >该单位获得 +{Shields}[shield/] 和[abilityblue]包抄者[/abilityblue]。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_6</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Assault Exoskeleton</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >突击外骨骼</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_6</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Unit gains +{CritChance}% critical chance, +{Accuracy}% accuracy and 1 level of [abilityblue]Stagger Resistance[/abilityblue].</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >单位获得 +{CritChance}% 暴击率、+%{Accuracy} 准度和 1 级[abilityblue]动摇抵抗[/abilityblue]。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_7</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Holoreality Mantle</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >全息现实斗篷</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_7</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Non-Mindless units that attack this one from within {HexRange} hexes have a {HallucinatingChance}[strengthPsyche/] strength chance of gaining [abilityred]Hallucinating[/abilityred] for {Duration}[turn/].</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >在 {HexRange} 个单元格范围内攻击此单位的非无意识单位有 {HallucinatingChance}[strengthPsyche/] 力量几率被[abilityred]致幻[/abilityred]，持续 {Duration}[turn/]。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_7</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Holoreal Cover</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">全息现实掩体</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_7</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Create cover at target hex. Adjacent non-mindless enemy units have a {HallucinationChance}[strengthPsyche/] to become [abilityred]Hallucinating[/abilityred] for {Duration}[turn/]. On resist, apply [abilityred]Broken Mind[/abilityred].</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >为目标友方单位制造掩体。相邻非无意识敌方单位有 {HallucinationChance}[strengthPsyche/] 几率被[abilityred]致幻[/abilityred]，持续 {Duration}[turn/]。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_8</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Trigger-Phrase Systems</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >触发暗语系统</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_8</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Omni Activation</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">全能激活</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_8</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Unit gains [abilityblue]Resurgence[/abilityblue] until the end of combat and enters [abilityblue]Defense Mode[/abilityblue]. At the start of the next turn, this unit gains [abilityred]Insanity[/abilityred], attacking enemy units at random for {Duration}[turn/]. During this time, it also gains +{DamageIncrease}% damage increase and +{Resistance} resistance to all Damage Channels.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >单位获得[abilityblue]复苏[/abilityblue]直至战斗结束，并进入[abilityblue]防御模式[/abilityblue]。下个回合开始时，该单位将获得[abilityred]错乱[/abilityred]并因而会随机攻击敌方单位，持续 {Duration}[turn/]。在此期间，该单位还会获得 +{DamageIncrease}% 伤害提升，并且对所有类型的伤害获得 +{Resistance} 抵抗。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_8</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This unit is [abilityred]Insane[/abilityred] attacking enemies at random. Unit also has +{DamageIncrease}% damage increase and +{Resistance} resistance to all Damage Channels.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >此单位陷入[abilityred]错乱[/abilityred]，会随机攻击敌人。另外，单位获得 +%{DamageIncrease} 伤害提升，并且对 [damagePhysical/] 和 [damageThermal/] 伤害获得 +{Resistance} 抵抗。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_9</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Holochromatic Engines</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >全息色彩引擎</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_9</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >This unit gains one level of [abilityblue]Stagger Resistance[/abilityblue].[br/]When this unit takes enemy damage, it gains a [abilityblue]Free Action Damaging ability[/abilityblue] of the same damage channel.[br/][br/]When used, it expires all abilities gained this way.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >该单位获得 1 级[abilityblue]动摇抵抗[/abilityblue]。[br/]当此单位受到敌方伤害时，获得一个[abilityblue]免费行动伤害技能[/abilityblue]，可造成同等类型的伤害。[br/][br/]使用时，所有通过此方式获得的技能都将失效。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_9</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">KINETIC_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Chroma Engine: Kinetic</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">色彩引擎：动能</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_9</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">KINETIC_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Cause an Explosion that deals damage in a {Hex} hex radius.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >引起一阵爆炸，对 {Hex} 个单元格范围造成伤害。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_9</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">BIO_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Chroma Engine: Biochemical</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">色彩引擎：生化</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_9</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">BIO_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Deal Biochemical damage to target unit.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">对目标单位造成生化伤害。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_9</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">ARC_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Chroma Engine: Arc</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">色彩引擎：电弧</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_9</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">ARC_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Deal Arc damage to a unit. This effect jumps to {UnitJump} other units within {HexJump} hexes.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >对一个单位造成电弧伤害，此效果将弹跳至 {HexJump} 个单元格范围内的 {UnitJump} 个其他单位。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_9</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">THERMAL_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Chroma Engine: Thermal</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">色彩引擎：热能</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_9</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">THERMAL_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Deal Laser damage in a {Hex} hex line.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >对一条 {Hex} 个单元格直线造成激光伤害。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_9</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">PSIONIC_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Chroma Engine: Psionic</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">色彩引擎：灵能</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_9</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">PSIONIC_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Deal Psionic damage to target unit.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">对目标单位造成灵能伤害。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_9</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">ENTROPY_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Chroma Engine: Entropy</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">色彩引擎：混沌</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s64"><Data ss:Type="String">MOD_9</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">ENTROPY_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Deal Entropy damage to target unit.</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">对目标单位造成混沌伤害。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_1_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Reactive</Data></Cell><Cell><Data
+            ss:Type="String"
+          >应激</Data></Cell><Cell ss:Index="8" ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Xeno Defense Module</Data></Cell><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_1_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Protected</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防护</Data></Cell><Cell ss:Index="9" ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_1_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_3</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Responsive</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵敏的</Data></Cell><Cell ss:Index="9" ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_1_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_4</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Aware</Data></Cell><Cell><Data
+            ss:Type="String"
+          >觉察的</Data></Cell><Cell ss:Index="9" ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_1_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_5</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Shielded</Data></Cell><Cell><Data
+            ss:Type="String"
+          >得到保护</Data></Cell><Cell
+          ss:Index="9"
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_1_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_6</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Denier</Data></Cell><Cell><Data
+            ss:Type="String"
+          >否认者</Data></Cell><Cell ss:Index="9" ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_2_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Scanning</Data></Cell><Cell><Data
+            ss:Type="String"
+          >扫描</Data></Cell><Cell ss:Index="8" ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Portable Scanners</Data></Cell><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_2_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Discerning</Data></Cell><Cell><Data
+            ss:Type="String"
+          >敏锐的</Data></Cell><Cell ss:Index="9" ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_2_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_3</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Inspecting</Data></Cell><Cell><Data
+            ss:Type="String"
+          >检查的</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_2_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_4</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Analyzer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >分析者</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_2_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_5</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Evaluating</Data></Cell><Cell><Data
+            ss:Type="String"
+          >评估的</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_6</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Exploitative</Data></Cell><Cell><Data
+            ss:Type="String"
+          >剥削的</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_3_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Disabling</Data></Cell><Cell><Data
+            ss:Type="String"
+          >致瘫</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Impairing Grenade</Data></Cell><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_3_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Debilitating</Data></Cell><Cell><Data
+            ss:Type="String"
+          >致衰</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_3</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Impairing</Data></Cell><Cell><Data
+            ss:Type="String"
+          >削弱</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_4</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Exhausting</Data></Cell><Cell><Data
+            ss:Type="String"
+          >精疲力竭</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_5</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Disarming</Data></Cell><Cell><Data
+            ss:Type="String"
+          >解除武装</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_6</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Mod Destroyer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >模块毁灭者</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="Default" /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_4_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Displaced</Data></Cell><Cell><Data
+            ss:Type="String"
+          >移位的</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Holodisplacement Shields</Data></Cell><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_4_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Holographic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >全息影像</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_3</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Ghostly</Data></Cell><Cell><Data
+            ss:Type="String"
+          >鬼影无踪</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_4</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Ethereal</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚灵</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_5</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Airy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >轻盈</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_6</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Misleading</Data></Cell><Cell><Data
+            ss:Type="String"
+          >误导</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_5_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Relaying</Data></Cell><Cell><Data
+            ss:Type="String"
+          >中继</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Orbital Recall Systems</Data></Cell><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_5_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Beamed</Data></Cell><Cell><Data
+            ss:Type="String"
+          >光束</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_3</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Redeployed</Data></Cell><Cell><Data
+            ss:Type="String"
+          >再部署</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_4</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Carried</Data></Cell><Cell><Data
+            ss:Type="String"
+          >携带者</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_5</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Delivered</Data></Cell><Cell><Data
+            ss:Type="String"
+          >运送</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_6</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Orbital</Data></Cell><Cell><Data
+            ss:Type="String"
+          >轨道</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_6_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Aggressor</Data></Cell><Cell><Data
+            ss:Type="String"
+          >侵略者</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Assault Exoskeleton</Data></Cell><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_6_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Bolstering</Data></Cell><Cell><Data
+            ss:Type="String"
+          >增强的</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_3</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Striking</Data></Cell><Cell><Data
+            ss:Type="String"
+          >瞩目的</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_4</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Invader</Data></Cell><Cell><Data
+            ss:Type="String"
+          >入侵者</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_5</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Hostile</Data></Cell><Cell><Data
+            ss:Type="String"
+          >敌意的</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_6</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Wardog</Data></Cell><Cell><Data
+            ss:Type="String"
+          >战犬</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_7_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Phantasmal</Data></Cell><Cell><Data
+            ss:Type="String"
+          >幻影</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Holoreality Mantle</Data></Cell><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_7_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Holoreal</Data></Cell><Cell><Data
+            ss:Type="String"
+          >全息现实</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_3</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Cloaked</Data></Cell><Cell><Data
+            ss:Type="String"
+          >隐踪</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_4</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Illusionary</Data></Cell><Cell><Data
+            ss:Type="String"
+          >幻觉的</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_5</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Screened</Data></Cell><Cell><Data
+            ss:Type="String"
+          >屏蔽的</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_6</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Deceiving</Data></Cell><Cell><Data
+            ss:Type="String"
+          >欺诈的</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_8_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Overpowering</Data></Cell><Cell><Data
+            ss:Type="String"
+          >过载的</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Trigger-Phrase Systems</Data></Cell><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_8_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Brainwashed</Data></Cell><Cell><Data
+            ss:Type="String"
+          >洗脑的</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_3</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Irritable</Data></Cell><Cell><Data
+            ss:Type="String"
+          >急躁的</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_4</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Altered</Data></Cell><Cell><Data
+            ss:Type="String"
+          >改变的</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_5</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Indoctrinated</Data></Cell><Cell><Data
+            ss:Type="String"
+          >教化的</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_6</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Triggered</Data></Cell><Cell><Data
+            ss:Type="String"
+          >触发的</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_9_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Mimicking</Data></Cell><Cell><Data
+            ss:Type="String"
+          >模仿的</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Holochromatic Engines</Data></Cell><Cell
+          ss:StyleID="s68"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >MOD_9_TEMPLATE</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Chromatic</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >多彩</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_3</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Chameleonic</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >变色龙</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_4</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Gaudy</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >华而不实</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_5</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Vibrant</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >朝气蓬勃</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">NAME_6</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Imitator</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >模拟者</Data></Cell><Cell ss:Index="7" ss:StyleID="Default" /><Cell
+          ss:StyleID="Default"
+        /><Cell ss:StyleID="s68" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >OMNI_EBB</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_ABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sonic Ebb</Data></Cell><Cell><Data
+            ss:Type="String"
+          >声波潮落</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >As in the Ebb from Ebb and Flow</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">OMNI_EBB</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a Sonic attack at a target. On use, this unit gains a stack of [abilityblue]Ebb[/abilityblue], up to {MaxStackAmount} stacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >对目标发动一次音波攻击。使用此技能时，该单位会获得一层[abilityblue]潮落[/abilityblue]，最多叠加 {MaxStackAmount} 层。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OMNI_FLOW</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_ABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sonic Flow</Data></Cell><Cell><Data
+            ss:Type="String"
+          >声波潮起</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">OMNI_FLOW</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a Sonic burst at a target. [abilityblue]Ebb[/abiltyblue] stacks modify this ability.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >对目标发动一次音波冲击。叠加的[abilityblue]潮落[/abiltyblue]层数会对此技能效果产生影响。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >As in the Flow from Ebb and Flow</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MOD_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >+{Accuracy}% accuracy and +{CriticalChance}% critical chance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >+{Accuracy}% 准度和 +%{CriticalChance} 暴击率。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HOLOSHIFT_CLONED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DISABLE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Holoshifted units cannot Clone themselves.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >全息相形单位不可以克隆自身。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HOLOSHIFT_LAST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_ABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Holoshift Repeat</Data></Cell><Cell><Data
+            ss:Type="String"
+          >全息相形重复</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HOLOSHIFT_LAST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Holoshift to the last unit into which this unit transformed.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >全息相形为该单位上一次转变成的单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HOLOSHIFT_LAST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Transformation Target</Data></Cell><Cell><Data
+            ss:Type="String"
+          >转变目标</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HOLO_DRAINED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DISABLE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit recently transformed, and cannot do so until its next turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标最近进行过转变，直到下一个回合开始时无法再次转变。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DISORIENTING_DASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_ABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Disorienting Dash</Data></Cell><Cell><Data
+            ss:Type="String"
+          >迷失猛冲</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_8</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DUMMY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's berserk protocol is being activated.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的狂怒协议正在被激活。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">XENO_DEBILITATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_ABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Xeno Debilitation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >异种衰弱</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">XENO_DEBILITATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION_ABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has -{StatusResistance} resistance against status effects due to its physiology.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由于其生理特性，该单位对状态效应具有-{StatusResistance}抵抗性</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Extra Notes: Sono- relates to Sonic, all abilities that have a Sono- are Sonic abilities. Omni relates to abilities that combine Sonic and Laser damage. Omni abilities are Sonic Laser abilities. Holo refers to the use of Holograms</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><TopRowVisible
+      >193</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >208</ActiveRow><ActiveCol>2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

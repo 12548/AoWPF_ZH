@@ -14,9 +14,10 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
-    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -274,10 +275,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target non-Mindless Xenoplague unit and up to {UnitAmount} units within {HexRange} hexes heal for {HealAmount}[hp/] and go [abilityblue]Rabid[/abilityblue] for {duration}. Rabid units are no longer under your control, and automatically attack the nearest enemy unit. In addition, the unit deals {RabidDam} extra damage, is immune to Status Effects, gains {RabidHP} maximum [hp/] and [abilityblue]Fast Movement.[/abilityblue]</Data></Cell><Cell
+          >Target non-Mindless Xenoplague unit and up to {UnitAmount} Xenoplague units within {HexRange} hexes heal for {HealAmount}[hp/] and go [abilityblue]Rabid[/abilityblue] for {duration}. Rabid units are no longer under your control, and automatically attack the nearest enemy unit. In addition, the unit deals {RabidDam} extra damage, is immune to Status Effects, gains {RabidHP} maximum [hp/] and [abilityblue]Fast Movement.[/abilityblue]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >{HexRange} 个单元格内最多 {UnitAmount} 个目标非无意识异星疫病单位恢复 {HealAmount}[hp/] 并变得[abilityblue]狂暴[/abilityblue]，持续 {duration}。狂暴单位不再受你的控制，而是会自动攻击最近的敌方单位，额外造成 {RabidDam} 伤害且免疫状态效果，获得 {RabidHP} 最大 [hp/] 和[abilityblue]迅捷移动[/abilityblue]。</Data></Cell></Row><Row
+          >{HexRange} 个单元格内的目标非无意识异星疫病单位以及最多 {UnitAmount} 个异星疫病单位恢复 {HealAmount}[hp/] 并变得[abilityblue]狂暴[/abilityblue]，持续 {duration}。狂暴单位不再受你的控制，而是会自动攻击最近的敌方单位。此外，该单位还会额外造成 {RabidDam} 伤害且免疫状态效果，获得 {RabidHP} 最大 [hp/] 和[abilityblue]迅捷移动[/abilityblue]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">AGGRAVATE_INFECTION</Data></Cell><Cell><Data
             ss:Type="String"

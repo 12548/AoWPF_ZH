@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -840,11 +840,11 @@
           ss:StyleID="s63"
         ><Data
             ss:Type="String"
-          >{ImmolateChance}[StrengthThermal/] strength chance to apply [abilityred]Immolated[/abilityred] to non-Mineral or non-Ethereal targets for {durationImmolated}[turn/]. If resisted, apply [abilityred]Burning[/abilityred] instead.</Data></Cell><Cell
+          >{ImmolateChance}[StrengthThermal/] strength chance to apply [abilityred]Immolated[/abilityred] to non-Mineral or non-Ethereal targets for {durationImmolated}[turn/].</Data></Cell><Cell
           ss:StyleID="s63"
         ><Data
             ss:Type="String"
-          >有 {ImmolateChance}[StrengthThermal/] 力量几率对非矿物和非虚灵单位施加[abilityred]焚祭[/abilityred]，持续 {durationImmolated}[turn/]。如果被抵抗，则改为施加[abilityred]燃烧[/abilityred]。</Data></Cell><Cell
+          >有 {ImmolateChance}[StrengthThermal/] 力量几率对非矿物或非虚灵单位施加[abilityred]焚祭[/abilityred]，持续 {durationImmolated}[turn/]。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /><Cell ss:StyleID="s63" /></Row><Row ss:AutoFitHeight="0"><Cell
@@ -931,10 +931,10 @@
             ss:Type="String"
           >STATUS_EFFECT_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit's movement points maximum is reduced.</Data></Cell><Cell
+          >This unit's movement points are reduced to the [abilityred]Slowest[/abilityred] movement speed, with 16[movewalk/] and 1 hex to sprint.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位的最大移动点数降低。</Data></Cell></Row><Row
+          >该单位的移动速度降低至[abilityred]极慢[/abilityred]，只拥有 16[movewalk/] 且只能冲刺 1 个单元格。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -1762,7 +1762,7 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >[abilityred]Stagger[/abilityred] units, reducing action points and canceling defensive modes. </Data></Cell><Cell
+          >[abilityred]Stagger[/abilityred] units, reducing action points and canceling defense modes. </Data></Cell><Cell
         ><Data
             ss:Type="String"
           >[abilityred]动摇[/abilityred]单位，减少其操作点数并取消其防御模式。 </Data></Cell></Row><Row
@@ -1780,10 +1780,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >[abilityred]Stagger[/abilityred] units, including stagger resistant units, reducing action points and canceling defensive modes.</Data></Cell><Cell
+          >[abilityred]Stagger[/abilityred] units, including stagger resistant units, reducing action points and canceling defense modes.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >[abilityred]动摇[/abilityred]单位，无论其是否具有动摇抵抗，减少其操作点数并取消其防御模式。</Data></Cell></Row><Row
+          >[abilityred]动摇[/abilityred]单位，包括动摇抵抗单位，减少其操作点数并取消其防御模式。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">HAZARD_BIO_SPILL</Data></Cell><Cell><Data
             ss:Type="String"
@@ -2749,8 +2749,34 @@
           ss:Index="7"
         ><Data
             ss:Type="String"
-          >Stunend as in the status condition</Data></Cell></Row><Row><Cell
-        ><Data ss:Type="String" /></Cell><Cell><Data
+          >Stunend as in the status condition</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PATH_ARMOR_BYPASS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psionic Focus</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵能专注</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >KINETIC_CONCUSSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_NOSTAGGER_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{ConcussionChance}[StrengthPhysical/] strength chance to apply [abilityred]Concussion[/abilityred] to non-Ethereal or non-Mechanical for {durartionConcussion}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {ConcussionChance}[StrengthPhysical/] 力量几率对非虚灵和非机械单位施加[abilityred]震荡[/abilityred]，持续 {durartionConcussion}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CRIPPLE_FLANKED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILIITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >On flanking attacks: {CrippleChance}[StrengthPhysical/] strength chance to apply [abilityRed]Crippled[/abilityRed] to Biological and Cyborg targets for {CrippleDuration}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >包抄攻击时：有 {CrippleChance}[StrengthPhysical/] 力量几率对生物和半机械人目标单位施加[abilityRed]残废[/abilityRed]，持续 {CrippleDuration}[turn/]。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
           ss:Index="7"

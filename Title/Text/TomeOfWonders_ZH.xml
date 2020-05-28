@@ -6,17 +6,17 @@
   xmlns:x="urn:schemas-microsoft-com:office:excel"
   xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
   xmlns:html="http://www.w3.org/TR/REC-html40"
-><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
-    >Djurre van Dijk</LastAuthor><Created
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author
+    >GameScribes4</Author><LastAuthor>GameScribes4</LastAuthor><Created
     >2019-06-25T15:55:49Z</Created><LastSaved
     >2019-07-03T22:24:21Z</LastSaved><Version
     >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7320</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -26,7 +26,7 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s27"
+      ss:ID="s62"
       ss:Name="Bad"
     ><Font
         ss:FontName="Calibri"
@@ -34,7 +34,7 @@
         ss:Size="11"
         ss:Color="#800000"
       /><Interior ss:Color="#FFC7CE" ss:Pattern="Solid" /></Style><Style
-      ss:ID="s62"
+      ss:ID="s63"
       ss:Name="Hyperlink"
     ><Font
         ss:FontName="Calibri"
@@ -42,65 +42,65 @@
         ss:Size="11"
         ss:Color="#0066CC"
         ss:Underline="Single"
-      /></Style><Style ss:ID="s63" ss:Name="Normal 2"><Alignment
+      /></Style><Style ss:ID="s64" ss:Name="Normal 2"><Alignment
         ss:Vertical="Bottom"
       /><Borders /><Font
         ss:FontName="Arial"
         x:Family="Swiss"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s64"
-    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
       ss:ID="s65"
-    ><Alignment ss:Vertical="Bottom" /></Style><Style ss:ID="s66"><Alignment
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
+      ss:ID="s66"
+    ><Alignment ss:Vertical="Bottom" /></Style><Style ss:ID="s67"><Alignment
         ss:Vertical="Bottom"
         ss:WrapText="1"
-      /><NumberFormat /></Style><Style ss:ID="s67"><Alignment
+      /><NumberFormat /></Style><Style ss:ID="s68"><Alignment
         ss:Vertical="Center"
         ss:WrapText="1"
-      /><NumberFormat /></Style><Style ss:ID="s68"><Alignment
+      /><NumberFormat /></Style><Style ss:ID="s69"><Alignment
         ss:Vertical="Top"
         ss:WrapText="1"
-      /><NumberFormat /></Style><Style ss:ID="s70" ss:Parent="s63"><Alignment
+      /><NumberFormat /></Style><Style ss:ID="s71" ss:Parent="s64"><Alignment
         ss:Horizontal="Left"
         ss:Vertical="Bottom"
         ss:WrapText="1"
       /><Font ss:FontName="Arial" x:Family="Swiss" /><Interior /></Style><Style
-      ss:ID="s71"
+      ss:ID="s72"
     ><Alignment ss:Vertical="Center" ss:WrapText="1" /></Style><Style
-      ss:ID="s73"
-      ss:Parent="s27"
-    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
       ss:ID="s74"
-    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
-      ss:ID="s76"
       ss:Parent="s62"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
+      ss:ID="s75"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s77"
+      ss:Parent="s63"
     ><Alignment
         ss:Vertical="Bottom"
         ss:WrapText="1"
       /></Style></Styles><Worksheet ss:Name="Script"><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s64"
+      ss:StyleID="s65"
       ss:DefaultColumnWidth="51.75"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s65" ss:Width="185.25" /><Column
-        ss:StyleID="s64"
+    ><Column ss:StyleID="s66" ss:Width="185.25" /><Column
+        ss:StyleID="s65"
         ss:Width="66.75"
       /><Column
-        ss:StyleID="s64"
+        ss:StyleID="s65"
         ss:AutoFitWidth="0"
         ss:Width="318.75"
         ss:Span="1"
       /><Column
         ss:Index="5"
-        ss:StyleID="s64"
+        ss:StyleID="s65"
         ss:AutoFitWidth="0"
         ss:Width="357.75"
         ss:Span="1"
       /><Row ss:AutoFitHeight="0" ss:Height="409.5"><Cell><Data
             ss:Type="String"
-          >TOMEOFWONDERS</Data></Cell><Cell ss:Index="7" ss:StyleID="s66"><Data
+          >TOMEOFWONDERS</Data></Cell><Cell ss:Index="7" ss:StyleID="s67"><Data
             ss:Type="String"
           >If some concepts in the text are unclear or do not make sense, try looking that concept up in this xml as the text in this xml serves as an encyclopeadia you have a good chance of finding it. Unclear terms can be found in the AoW_Glossary.  Do not change anything that is between [ and ] because it could break the hyperlink and strip it of its function. Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text. </Data></Cell></Row><Row
         ss:AutoFitHeight="0"
@@ -132,7 +132,7 @@
         ss:Height="210"
       ><Cell><Data ss:Type="String">ABILITIES</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s68"><Data
             ss:Type="String"
           >A [hyperlink,000003AC0000009A]Unit’s[/hyperlink] abilities define its capabilities and weaknesses. Abilities include attacks, defenses and means of supporting allies and debilitating enemies. Abilities are the elements that compose a unit. There are two main types of ability:[br/][br/][hyperlink,000003AC000000AA]Active Abilities[/hyperlink]: these are actions that the unit can use during [hyperlink,000003AC0000025E]Tactical Combat[/hyperlink].[br/][br/][hyperlink,000003AC000000C6]Passive Abilities[/hyperlink]: these are always enabled on the unit, and can be positive or negative.[br/][br/][hyperlink,0000039E00000063]Unit Mods[/hyperlink] can enhance existing abilities or give new abilities to a unit.</Data></Cell><Cell
         ><Data
@@ -150,7 +150,7 @@
         ss:Height="105"
       ><Cell><Data ss:Type="String">ABILITY_COOLDOWN</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s68"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s69"><Data
             ss:Type="String"
           >Some [hyperlink,000003AC000000A8]Abilities[/hyperlink] have a cooldown to prevent them from being used on every [hyperlink,000003AC0000025E]Tactical Combat[/hyperlink] turn. During the cooldown period, a [hyperlink,000003AC0000009A]Unit[/hyperlink] will be unable to use the ability. Some abilities can only be used once per combat, and will remain on cooldown until the next battle.</Data></Cell><Cell
         ><Data
@@ -159,7 +159,7 @@
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ABSORB</Data></Cell><Cell><Data
             ss:Type="String"
-          >NAME</Data></Cell><Cell ss:StyleID="s68"><Data
+          >NAME</Data></Cell><Cell ss:StyleID="s69"><Data
             ss:Type="String"
           >Absorb</Data></Cell><Cell><Data
             ss:Type="String"
@@ -168,7 +168,7 @@
         ss:Height="225"
       ><Cell><Data ss:Type="String">ABSORB</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s68"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s69"><Data
             ss:Type="String"
           >A [hyperlink,000003AC00000336]Player[/hyperlink] can absorb a [hyperlink,000003AC00000047]Colony[/hyperlink] that doesn’t belong to them, transferring ownership of that colony from the original owner to the player that is absorbing it. The colony’s race will not change when it is absorbed. The ‘Absorb’ action, found in the sector information panel of the colony center, is only available when a player is [hyperlink,000003AC000002EF]Occupying[/hyperlink] a [hyperlink,000003AC000000E0]Colony Center[/hyperlink].[br/][br/]Absorbing a colony takes 3 turns, but if you are at war with the player whose colony you are absorbing, the duration increases to 6 turns + 1 turn per province sector of that colony, of which there can be 4. If you end a war during the process of absorbing a colony of the player you are at war with, the colony is immediately absorbed.</Data></Cell><Cell
         ><Data
@@ -222,7 +222,7 @@
         ss:Height="345"
       ><Cell><Data ss:Type="String">ACTIVE_ABILITIES</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Active abilities are the [hyperlink,000003AC000000A8]Abilities[/hyperlink] a [hyperlink,000003AC0000009A]Unit[/hyperlink] uses during [hyperlink,000003AC0000025E]Combat[/hyperlink] to cause damage, inflict [hyperlink,000003AC000000CB]Status Effects[/hyperlink], place [hyperlink,000003AC00000322]Combat Hazards[/hyperlink], or even protect and heal allies. Damaging abilities always have a [hyperlink,000003AC00000290]Damage Channel[/hyperlink] associated with it, and show their base damage amount on the ability tooltip.[br/]Some of these abilities have [hyperlink,000003AC000000DA]Cooldowns[/hyperlink] or can only be used once per tactical combat, and so cannot be used on sequential turns.[br/][br/]Each active ability as its own [hyperlink,000003AC0000028D]Action Point[/hyperlink] cost, but all of your remaining action points are consumed when you use an ability, unless it is a free action ability or similar.[br/][br/][hyperlink,000003AC000002E6]Guard Abilities[/hyperlink] are active abilities that all units have. They can be used to protect the unit from incoming damage by making it harder to hit or by shoring up its defenses.[br/][br/][hyperlink,000003AC000000C8]Overwatch[/hyperlink] can be used to defend a zone against approaching enemies. Note that not all units have this ability.</Data></Cell><Cell
         ><Data
@@ -240,7 +240,7 @@
         ss:Height="255"
       ><Cell><Data ss:Type="String">ADJECENT_HEX_RULE</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >When an [hyperlink,000003AC0000009B]Army[/hyperlink] engages in combat with another, the combat will include armies from both parties that are on adjacent [hyperlink,000003AC000000BD]Hexes[/hyperlink] to the hex or [hyperlink,000003AC000000CD]Location[/hyperlink] on which combat was [hyperlink,000003AC000000C0]Initiated[/hyperlink].[br/]In addition, armies from players that are in an [hyperlink,000003AC00000034]Alliance[/hyperlink] with either side will also participate in combat.[br/][br/]If combat is initiated on a hex adjacent to a player’s [hyperlink,000003AC00000047]Colony[/hyperlink], combat will take place on the colony.[br/][br/]Certain [hyperlink,000003AC00000338]Dominant Locations[/hyperlink] require the army to enter the structure, in these cases, the adjacent hex rule won’t apply. These fights can be challenging, so always bring your best army to these locations!</Data></Cell><Cell
         ><Data
@@ -287,7 +287,7 @@
             ss:Type="String"
           >ANNEX_FORWARD_BASE_AS_SECTOR</Data></Cell><Cell><Data
             ss:Type="String"
-          >NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+          >NAME</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Annex Forward Base as Sector</Data></Cell><Cell><Data
             ss:Type="String"
@@ -298,7 +298,7 @@
             ss:Type="String"
           >ANNEX_FORWARD_BASE_AS_SECTOR</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >A [hyperlink,000003AC000000C2]Forward Base[/hyperlink] can be [hyperlink,000003BD00001316]Annexed[/hyperlink] to any [hyperlink,000003AC00000047]Colony[/hyperlink] that it is eligible to be part of by using the ‘Annex Forward Base as Sector’ action. This action becomes available when a forward base is within two sectors of a colony and is adjacent to either the colony or one of its [hyperlink,000003BD00001314]Province Sectors[/hyperlink]. The action is found in the sector information panel of the forward base sector, with a separate action showing for each colony that the forward base is eligible to be part of.[br/][br/]The action will be blocked and appear greyed out when the forward base sector is eligible to be annexed to a colony, but that colony cannot accept it as a province sector, such as when the colony has reached its sector limit. For more information about sector limits, see [hyperlink,000003BD000016D8]Colony Expansion[/hyperlink].[br/][br/]Annexing a forward base takes 1 turn. This action can be aborted at any time prior to completion.</Data></Cell><Cell
         ><Data
@@ -316,7 +316,7 @@
         ss:Height="225"
       ><Cell><Data ss:Type="String">ANNEXATION</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Annexing a sector will attach that sector to a [hyperlink,000003AC00000047]Colony[/hyperlink]. A sector can be annexed only if the colony has room to accept it, see [hyperlink,000003BD000016D8]Colony Expansion[/hyperlink]. [hyperlink,0000039E00000076]Sectors[/hyperlink] can be annexed to a colony if they are within two sectors of the [hyperlink,000003AC000000E0]Colony Center[/hyperlink] and are adjacent to another sector of that same colony. [br/][br/]Once attached to a colony, the economic benefits of the sector will be added to that colony’s income.[br/][br/]Some sectors can contain [hyperlink,000003AC00000338]Dominant Locations[/hyperlink] which will need to be taken over either by force or diplomacy before the sector can be annexed to a colony.[br/][br/]Annexing a sector is done by moving a unit onto the sector flag and choosing the ‘Annex Sector as Province to Colony’ button.</Data></Cell><Cell
         ><Data
@@ -334,7 +334,7 @@
         ss:Height="120"
       ><Cell><Data ss:Type="String">ARC_WEAPONS</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Arc Weapons harness the power of lightning and electrocute everyone and everything that dares to be on the wrong end of the barrel. The arc weapons group uses the Arc [DamageWave/] [hyperlink,000003AC00000290]Damage Channel[/hyperlink]. Arc Weapon abilities include damaging multiple enemies, stunning, and statically charging units.[br/][br/]Ethereal, Mineral, and Plant units are resistant to the arc damage channel; Mechanical units are  weak to it.</Data></Cell><Cell
         ><Data
@@ -388,7 +388,7 @@
         ss:Height="240"
       ><Cell><Data ss:Type="String">ARMY</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >An army is a group of up to six [hyperlink,000003AC0000009A]Units[/hyperlink] located on a single [hyperlink,000003AC000000BD]Hex[/hyperlink] on the [hyperlink,000003AC000000CC]Strategic Map[/hyperlink]. Players can [hyperlink,000003AC0000028E]Move their Armies[/hyperlink] across the strategic map to explore new territories, find locations or vanquish foes.[br/]An army can then capture and occupy these [hyperlink,000003AC000000CD]Locations[/hyperlink].[br/][br/]An army can attack another army by moving onto the hex of the hostile army. The attacking player or entity can then choose between [hyperlink,000003AC000002EE]Manual and Auto Combat[/hyperlink].[br/][br/]Managing armies can be done through the Military Overview interface.[br/][br/]Armies can belong to [hyperlink,000003AC00000336]Players[/hyperlink], [hyperlink,0000039E00000075]NPC Factions[/hyperlink] or [hyperlink,000003AC000000A3]Marauders[/hyperlink].</Data></Cell><Cell
         ><Data
@@ -442,7 +442,7 @@
         ss:Height="135"
       ><Cell><Data ss:Type="String">BIOCHEMICAL_WEAPONS</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Biochemical Weapons range from all sorts of weaponized acidic and noxious substances that corrode any armor with ease. The biochemical weapons Group uses the Bio [DamageBio/] [hyperlink,000003AC00000290]Damage Channel[/hyperlink]. Bio Weapons mods can change the damage channel of the attacks of modded units. Biochemical Weapon abilities include slowing, immobilizing, and Melting Armor.[br/][br/]Ethereal Units are resistant to the Biochemical damage channel; Mineral units are weak to it.</Data></Cell><Cell
         ><Data
@@ -582,12 +582,15 @@
         ss:Height="409.5"
       ><Cell><Data ss:Type="String">CASUS_BELLI</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >Casus Belli, or justifications for war, represent a point value that are used to [hyperlink,000003AC000000E7]denounce[/hyperlink] players and [hyperlink,000003AC00000306]declare war[/hyperlink] on them. It is important to have Casus Belli against a player before declaring war to avoid large penalties in [hyperlink,000003AC0000002F]reputation[/hyperlink] and [hyperlink,0000039F000024D9]Popular Support[/hyperlink]. Casus Belli are obtained when a player is actively provoked by another player, through [hyperlink,000003AC0000033C]fabrication[/hyperlink], or automatically by having low reputation or race relations. [br/][br/]Declaring war without Casus Belli lowers Popular Support, thereby reducing unit morale and colonist happiness. By having Casus Belli when declaring wars, the player gains Popular Support, increasing morale and happiness depending on the amount of Casus Belli. [br/][br/]Casus Belli are unique to each of the relations with other players. Casus Belli have a direct tie to [hyperlink,000003AC00000097]opinions[/hyperlink] as they form a [hyperlink,000003AC00000275]grudge[/hyperlink] that remains active until the Casus Belli are resolved. Aside from declaring wars, Casus Belli can be resolved through negotiation.[br/][br/]Automatic Casus Belli are received by having low reputation or race relations with the race of the opposing player. They can not be forgiven through [hyperlink,000003AC000000E4]negotiation[/hyperlink], but can be used in war declarations. Entering the final stage of a [hyperlink,000003AC00000324]Victory Condition[/hyperlink] will award Casus Belli to all players that are not currently in a [hyperlink,000003AC00000035]Defensive Pact[/hyperlink] or [hyperlink,000003AC00000034]Alliance[/hyperlink] with the player.</Data></Cell><Cell
+          >Casus Belli, or justifications for war, represent a point value that are used to [hyperlink,000003AC000000E7]denounce[/hyperlink] players and [hyperlink,000003AC00000306]declare war[/hyperlink] on them. It is important to have Casus Belli against a player before declaring war to avoid large penalties in [hyperlink,000003AC0000002F]reputation[/hyperlink] and [hyperlink,0000039F000024D9]Popular Support[/hyperlink]. Casus Belli are obtained when a player is actively provoked by another player, through [hyperlink,000003AC0000033C]fabrication[/hyperlink], or automatically by having low reputation or race relations. [br/][br/]Casus Belli[casusbelli/][tab/][largetab/][largetab/]   Amount[tab/][largetab/][largetab/]  Effect on Popular Support &amp; Reputation[line/][br/]
+[tab/]Minor[largetab/][largetab/][largetab/][tab/]1 - 5[largetab/][largetab/][largetab/][tab/]+200 popular support, -200 reputation for 10[turn/][br/] 
+[tab/]Moderate[largetab/][largetab/][tab/]6 - 10[largetab/][largetab/][largetab/][tab/]+300 popular support, -100 reputation for 15[turn/][br/]
+[tab/]Major[largetab/][largetab/][largetab/][tab/]11+[largetab/][largetab/][largetab/][tab/]+400 popular support for 20[turn/][br/][br/]Declaring war without Casus Belli lowers Popular Support, thereby reducing unit morale and colonist happiness. By having Casus Belli when declaring wars, the player gains Popular Support, increasing morale and happiness depending on the amount of Casus Belli. [br/][br/]Casus Belli are unique to each of the relations with other players. Casus Belli have a direct tie to [hyperlink,000003AC00000097]opinions[/hyperlink] as they form a [hyperlink,000003AC00000275]grudge[/hyperlink] that remains active until the Casus Belli are resolved. Aside from declaring wars, Casus Belli can be resolved through negotiation.[br/][br/]Automatic Casus Belli are received by having low reputation or race relations with the race of the opposing player. They can not be forgiven through [hyperlink,000003AC000000E4]negotiation[/hyperlink], but can be used in war declarations. Entering the final stage of a [hyperlink,000003AC00000324]Victory Condition[/hyperlink] will award Casus Belli to all players that are not currently in a [hyperlink,000003AC00000035]Defensive Pact[/hyperlink] or [hyperlink,000003AC00000034]Alliance[/hyperlink] with the player.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >宣战理由，或者说是发起战争的正当理由，是用来[hyperlink,000003AC000000E7]谴责[/hyperlink]某名玩家并向其[hyperlink,000003AC00000306]宣战[/hyperlink]的点数值。向另一名玩家宣战时拥有宣战理由非常重要，因为这将避免受到大量的[hyperlink,000003AC0000002F]声望[/hyperlink]和[hyperlink,0000039F000024D9]民众支持[/hyperlink]惩罚。当玩家受到其他玩家的主动挑衅和[hyperlink,000003AC0000033C]伪造[/hyperlink]行径时将获得宣战理由。此外，与其他玩家声望较低或是与其种族关系较差时也会自动获得宣战理由。[br/][br/]在没有宣战理由的情况下宣战不仅会使民众支持降低，还会降低单位士气和移住民的幸福值。在拥有宣战理由的情况下宣战，玩家将获得民众支持、士气和幸福值，具体数量视宣战理由的多少而定。[br/][br/]与其他玩家的关系不同，宣战理由也会有所不同。宣战理由将直接与[hyperlink,000003AC00000097]评价[/hyperlink]有关，并会形成始终处于激活状态的[hyperlink,000003AC00000275]仇恨[/hyperlink]，直到该宣战理由被解决。除了宣战以外，宣战理由还能通过协商解决。[br/][br/]与对手玩家拥有较低的声望或种族关系都会自动获得宣战理由，此类宣战理由无法通过[hyperlink,000003AC000000E4]协商[/hyperlink]解决，但可以用来宣战。如果有玩家进入了[hyperlink,000003AC00000324]胜利条件[/hyperlink]的最后阶段，所有未与该玩家达成[hyperlink,000003AC00000035]防御协议[/hyperlink]或[hyperlink,000003AC00000034]同盟[/hyperlink]关系的玩家将获得宣战理由。</Data></Cell></Row><Row
+          >宣战理由，或者说是发起战争的正当理由，是用来[hyperlink,000003AC000000E7]谴责[/hyperlink]某名玩家并向其[hyperlink,000003AC00000306]宣战[/hyperlink]的点数值。向另一名玩家宣战时拥有宣战理由非常重要，因为这将避免受到大量的[hyperlink,000003AC0000002F]声望[/hyperlink]和[hyperlink,0000039F000024D9]民众支持[/hyperlink]惩罚。当玩家受到其他玩家的主动挑衅和[hyperlink,000003AC0000033C]伪造[/hyperlink]行径时将获得宣战理由。此外，与其他玩家声望较低或是与其种族关系较差时也会自动获得宣战理由。[br/][br/]宣战理由[casusbelli/][tab/][largetab/][largetab/]   数量[tab/][largetab/][largetab/]  对民众支持和声望的影响[line/][br/] [tab/]轻微[largetab/][largetab/][largetab/][tab/]1-5[largetab/][largetab/][largetab/][tab/]+200 民众支持，-200 声望，持续 10[turn/][br/]  [tab/]中度[largetab/][largetab/][tab/]6-10[largetab/][largetab/][largetab/][tab/]+300 民众支持，-100 声望，持续 15[turn/][br/] [tab/]重大[largetab/][largetab/][largetab/][tab/]11+[largetab/][largetab/][largetab/][tab/]+400 民众支持，持续 20[turn/][br/][br/]在没有宣战理由的情况下宣战不仅会使民众支持降低，还会降低单位士气和移住民的幸福值。在拥有宣战理由的情况下宣战，玩家将获得民众支持、士气和幸福值，具体数量视宣战理由的多少而定。[br/][br/]与其他玩家的关系不同，宣战理由也会有所不同。宣战理由将直接与[hyperlink,000003AC00000097]评价[/hyperlink]有关，并会形成始终处于激活状态的[hyperlink,000003AC00000275]仇恨[/hyperlink]，直到该宣战理由被解决。除了宣战以外，宣战理由还能通过协商解决。[br/][br/]与对手玩家拥有较低的声望或种族关系都会自动获得宣战理由，此类宣战理由无法通过[hyperlink,000003AC000000E4]协商[/hyperlink]解决，但可以用来宣战。如果有玩家进入了[hyperlink,000003AC00000324]胜利条件[/hyperlink]的最后阶段，所有未与该玩家达成[hyperlink,000003AC00000035]防御协议[/hyperlink]或[hyperlink,000003AC00000034]同盟[/hyperlink]关系的玩家都将获得宣战理由。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">CENTRAL_STRUCTURES</Data></Cell><Cell><Data
             ss:Type="String"
@@ -744,7 +747,7 @@
         ss:Height="409.5"
       ><Cell><Data ss:Type="String">CLIMES</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >[hyperlink,0000039E00000076]Sectors[/hyperlink] each contain a clime associated with two of the four main [hyperlink,0000039F00002DF4]Resources[/hyperlink]. Each clime has economic potential that can be unlocked via [hyperlink,000003AC000000C9]Research[/hyperlink]. The exceptions to this rule are the [hyperlink,000003AC000002CE]Volcanic[/hyperlink] and [hyperlink,000003AC00000325]Ocean[/hyperlink] climes, which are not linked to any specific resource.[br/][br/]The climes and their associated resources are as follows:[br/][bulletlist][bullet][hyperlink,000003AC000002C8]Arcadian[/hyperlink][largetab/][largetab/](Food and Energy)[/bullet][br/][bullet][hyperlink,000003AC000002C9]Arctic[/hyperlink][largetab/][largetab/][largetab/](Knowledge and Production)[/bullet][br/][bullet][hyperlink,000003AC000002CA]Arid[/hyperlink][largetab/][largetab/][largetab/](Energy and Production)[/bullet][br/][bullet][hyperlink,000003AC000002CC]Fungal[/hyperlink][largetab/][largetab/][largetab/](Food and Knowledge)[/bullet][br/][bullet][hyperlink,000003AC000002CD]Coast[/hyperlink][largetab/][largetab/][largetab/](Food, Energy and Knowledge)[/bullet][br/][bullet][hyperlink,000003AC000002CE]Volcanic[/hyperlink][largetab/][largetab/](None)[/bullet][br/][bullet][hyperlink,000003AC00000325]Ocean[/hyperlink][largetab/][largetab/][largetab/](None)[/bullet][br/][br/]Players can also unlock global bonuses through research, which improve unit [hyperlink,000003AC0000030F]Regeneration[/hyperlink] and [hyperlink,000003AC00000026]Colony Happiness[/hyperlink] with sectors of each clime.[br/][br/]A sector also contains one [hyperlink,000003AC000000D1]Terrain[/hyperlink], and any number of [hyperlink,000003AC000002BB]Special Features[/hyperlink].</Data></Cell><Cell
         ><Data
@@ -762,7 +765,7 @@
         ss:Height="195"
       ><Cell><Data ss:Type="String">COLONIES</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Colonies are population centers for the main races, and are the primary sources of economic wealth and production for your empire. Colonies can cover up to five [hyperlink,0000039E00000076]Sectors[/hyperlink]; the [hyperlink,000003AC000000E0]Colony Center[/hyperlink] and a maximum of four [hyperlink,000003BD00001314]Province Sectors[/hyperlink] that are [hyperlink,000003BD00001316]Annexed[/hyperlink] to the colony center.[br/][br/]A colony is defended by a [hyperlink,000003AC0000029A]Colony Militia[/hyperlink], which can be upgraded by building colony militia [hyperlink,000003AC00000299]Colony Structures[/hyperlink] in the center.</Data></Cell><Cell
         ><Data
@@ -819,7 +822,7 @@
           >TEXT</Data></Cell><Cell><Data
             ss:Type="String"
           >[hyperlink,000003AC0000002D]Colonists[/hyperlink] have an upkeep cost of 2 food and 1 happiness that ensures that they are happy and fed. Their upkeep cost is subtracted from the [hyperlink,000003AC00000047]Colony[/hyperlink]’s income, noted in the tooltips of those resources.[br/][br/]If a colony produces less [hyperlink,000003AC00000022]Food[/hyperlink] than its colonists require for upkeep, starvation will start to build up. When starvation reaches a certain threshold, colonists will begin [hyperlink,000003BD000016D9]Starving[/hyperlink], which leads to colonists being removed from the colony.[br/][br/]If a colony produces less [hyperlink,000003AC00000026]Happiness[/hyperlink] than its colonists require for upkeep, unhappiness will start to build up. When unhappiness reaches a certain threshold colonists will begin [hyperlink,000003AC000002B4]Rioting[/hyperlink], which leads to loss of income and disabled [hyperlink,000003AC000002B6]Colonist Slots[/hyperlink].</Data></Cell><Cell
-          ss:StyleID="s70"
+          ss:StyleID="s71"
         ><Data
             ss:Type="String"
           >[hyperlink,000003AC0000002D]移住民[/hyperlink]的维持需要消耗 2 食物和 1 幸福值才能保证他们心情愉悦，吃饱喝足。维持消耗会从[hyperlink,000003AC00000047]殖民地[/hyperlink]的收益中扣除，并标注在相应资源的提示框上。[br/][br/]如果殖民地产出的[hyperlink,000003AC00000022]食物[/hyperlink]无法满足移住民消耗所需，饥饿度便会开始积累。当饥饿度达到特定阈值后，移住民将陷入[hyperlink,000003BD000016D9]饥饿[/hyperlink]状态，从而导致移住民离开殖民地。[br/][br/]如果殖民地产出的[hyperlink,000003AC00000026]幸福值[/hyperlink]无法满足移住民消耗所需，负幸福值就会开始积累。当负幸福值达到特定阈值后，移住民就会发起[hyperlink,000003AC000002B4]暴动[/hyperlink]，从而导致殖民地的收益降低，并使[hyperlink,000003AC000002B6]移住民槽位[/hyperlink]失去作用。</Data></Cell></Row><Row
@@ -835,7 +838,7 @@
         ss:Height="240"
       ><Cell><Data ss:Type="String">COLONISTS</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >A growing, happy population is essential for the re-colonization of the worlds of the Star Union, as population drives the economic performance and the [hyperlink,000003AC000002B7]Expansion[/hyperlink] of colonies. Population units are called colonists, and range from 1 colonist in the smallest outposts to about 20 in the largest metropolises.[br/][br/]A large portion of the variable income for colonies comes from assigning a number of colonists to a particular resource type. By turning on manual [hyperlink,000003AC000002B5]Colonist Management[/hyperlink], you can fine-tune your colony’s output and adjust to sudden shifts in demand.[br/][br/]A [hyperlink,000003AC00000047]Colony[/hyperlink]’s population count is visualized next to the colony’s name on the world map. Colonist allocation per resource is accessed from the income tab in the colony interface.</Data></Cell><Cell
         ><Data
@@ -844,16 +847,16 @@
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">COLONIZER</Data></Cell><Cell><Data
             ss:Type="String"
-          >NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+          >NAME</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Unit Role: Colonizer</Data></Cell><Cell><Data
             ss:Type="String"
           >单位角色：殖民者</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="165"
+        ss:Height="210"
       ><Cell><Data ss:Type="String">COLONIZER</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Although still one of the [hyperlink,000003AC0000029B]Core Units[/hyperlink], Colonizers are the only units capable of creating new [hyperlink,000003AC00000047]Colonies[/hyperlink]. Each race starts with one colony, and can start producing Colonizers from the beginning of the game. Each costs a colonist to create, but the advantage of a new colony is well worth it. Building Colonizers is expensive, and uses up many rare resources. Each colonizer you build will cost {energyCost}, {crystalCost} and {productionCost} than the one before it.[br/][br/]Do note that these units are the only ones without any [hyperlink,000003AC000000AA]Active Abilities[/hyperlink], making them extremely fragile. If the path to the new colony location is filled with danger, make sure this unit is not without military protection!</Data></Cell><Cell
         ><Data
@@ -889,7 +892,7 @@
         ss:Height="315"
       ><Cell><Data ss:Type="String">COLONY_CENTER</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >The colony center lies at the heart of every [hyperlink,000003AC00000047]Colony[/hyperlink]. This is you can interact with and manage your colony and its [hyperlink,000003AC0000002D]Colonists[/hyperlink]. The colony center has a base income of [hyperlink,000003AC0000003F]Production[/hyperlink], [hyperlink,000003AC00000022]Food[/hyperlink] and [hyperlink,000003AC00000026]Happiness[/hyperlink] that forms a solid foundation for the budding colony.[br/][br/]The income of all [hyperlink,000003BD00001314]Province Sectors[/hyperlink] is added to the colony center, where [hyperlink,000003AC0000009A]Units[/hyperlink] and [hyperlink,000003AC00000299]Structures[/hyperlink] can be built. Some units require military structures to be built before they can be produced in a colony center.[br/][br/]The center is defended by the [hyperlink,000003AC0000029A]Colony Militia[/hyperlink]. When a colony center is [hyperlink,000003BD000016CD]Absorbed[/hyperlink] or [hyperlink,000003AC000002A0]Migrated[/hyperlink] by an enemy player, all [hyperlink,000003BD00001316]Annexed[/hyperlink] sectors are also lost.</Data></Cell><Cell
         ><Data
@@ -898,7 +901,7 @@
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">COLONY_EXPANSION</Data></Cell><Cell><Data
             ss:Type="String"
-          >NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+          >NAME</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Colony Expansion</Data></Cell><Cell><Data
             ss:Type="String"
@@ -907,7 +910,7 @@
         ss:Height="315"
       ><Cell><Data ss:Type="String">COLONY_EXPANSION</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >To gain access to  the environment around a [hyperlink,000003AC000000E0]Colony Center[/hyperlink] for exploitation, it needs to [hyperlink,000003BD00001316]Annex[/hyperlink] sectors as [hyperlink,000003BD00001314]Provinces[/hyperlink] under its control. The number of sectors a colony can administer depends on the number of [hyperlink,000003AC0000002D]Colonists[/hyperlink] living there.[br/][br/]Colonists[largetab/][largetab/]Sector Limit[largetab/][largetab/]Colony Name[br/]4+[largetab/][largetab/][largetab/]2[largetab/][largetab/][largetab/][largetab/]Outpost[br/]8+[largetab/][largetab/][largetab/]3[largetab/][largetab/][largetab/][largetab/]Town[br/]12+[largetab/][largetab/][largetab/]4[largetab/][largetab/][largetab/][largetab/]City[br/]16+[largetab/][largetab/][largetab/]5[largetab/][largetab/][largetab/][largetab/]Metropolis[br/][br/]Once the sector limit and size of a colony has increased, it can never decrease.[br/][br/]Sectors can only be annexed by a colony if they are within two sectors of the colony center and adjacent to another sector of that same colony. Once attached to a colony, the economic potential of that sector can be exploited.</Data></Cell><Cell
         ><Data
@@ -943,7 +946,7 @@
         ss:Height="345"
       ><Cell><Data ss:Type="String">COLONY_MILITIA</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >In addition to regular [hyperlink,000003AC0000009B]Armies[/hyperlink], colonies are defended by a colony militia. [br/][br/]During tactical combat, the colony militia spawns [hyperlink,000003AC0000009A]Units[/hyperlink] that only appear during battles when either the [hyperlink,000003AC000000E0]Colony Center[/hyperlink] or the [hyperlink,000003BD000016D6]Province Bases[/hyperlink] of its province sectors are attacked. All colonies have a basic colony militia as a defense force to protect them against small raiding parties. However, against larger hostile forces, it is advisable to also have an army defending the colony. Defeated or injured colony militia units are replenished at the start of the next strategic map [hyperlink,000003AC0000002E]Turn[/hyperlink].[br/][br/]The strength of the colony militia can be upgraded by building the following colony structures:[br/][bulletlist][bullet][hyperlink,0000034100000959]Colony Militia Barracks[/hyperlink][/bullet][br/][bullet][hyperlink,00000386000004C9]Company Militia Barracks[/hyperlink][/bullet][br/][bullet][hyperlink,00000386000004CD]Battalion Militia Barracks[/hyperlink][/bullet][/bulletlist]</Data></Cell><Cell
         ><Data
@@ -979,7 +982,7 @@
         ss:Height="270"
       ><Cell><Data ss:Type="String">COLONY_STRUCTURES</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Colonies can be upgraded by building colony structures improving the colony economically, defensively or otherwise. Colonies can produce structures for the [hyperlink,000003AC000000E0]Colony Center[/hyperlink] and for its [hyperlink,000003BD00001314]Province Sectors[/hyperlink].[br/][br/]Structures in the colony cost both [hyperlink,000003AC0000003F]Production[/hyperlink] and [hyperlink,000003AC00000023]Energy[/hyperlink] to create.[br/][br/]Structures can be unlocked with [hyperlink,000003AC000000C9]Research[/hyperlink], by constructing a prerequisite building, or by annexing certain [hyperlink,000003AC00000338]Dominant Locations[/hyperlink] for the colony.[br/][br/]See also:[br/][bulletlist][bullet][hyperlink,000003AC000002A6]Sector Exploitation[/hyperlink][/bullet][br/][bullet][hyperlink,000003AC000002A7]Sector Specialization[/hyperlink][/bullet][br/][bullet][hyperlink,000003AC00000298]Colony Production[/hyperlink][/bullet][/bulletlist]</Data></Cell><Cell
         ><Data
@@ -1049,7 +1052,7 @@
         ss:AutoFitHeight="0"
         ss:Height="210"
       ><Cell><Data ss:Type="String">COMPLIMENTS_AND_INSULTS</Data></Cell><Cell
-        ><Data ss:Type="String">TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+        ><Data ss:Type="String">TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Compliments and insults are direct [hyperlink,000003AC00000274]pronouncements[/hyperlink] used to change opinions of other player empires. Both options cost [hyperlink,000003AC0000001B]influence[/hyperlink] to send but have different effects:[bulletlist][bullet]Compliments increase the [hyperlink,000003AC00000097]opinion[/hyperlink] of the opposing player for a limited amount of turns, possibly steering them towards wanting better diplomatic states.[/bullet][bullet]Insults decrease the opinion of the opposing player for a limited amount of turns and give them a single [hyperlink,000003AC00000031]Casus Belli[/hyperlink] point towards the insulting player, which can provoke a war.[/bullet][/bulletlist][br/][br/]Only one compliment or insult can be sent each turn.</Data></Cell><Cell
         ><Data
@@ -1067,7 +1070,7 @@
         ss:Height="180"
       ><Cell><Data ss:Type="String">CONCEALMENT</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >A [hyperlink,000003AC0000009A]Units[/hyperlink] with concealment is invisible to enemy players on the [hyperlink,000003AC000000CC]Strategic Map[/hyperlink]. A unit will often only be invisible to others while on certain terrain types, while [hyperlink,00000345000006CF]Universal Camouflage[/hyperlink] makes a unit invisible in any terrain.[br/][br/]A concealed unit will be revealed to a player if it is adjacent to one of their normal units, within sight range of a unit that has the [hyperlink,0000039F000021AB]Detection[/hyperlink] ability, or through certain [hyperlink,000003AC00000099]Covert Operations[/hyperlink].</Data></Cell><Cell
         ><Data
@@ -1103,7 +1106,7 @@
         ss:Height="210"
       ><Cell><Data ss:Type="String">COSMITE</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Cosmite is rare material from beyond the Void, harnessed by the Star Union for highly advanced weapons and technology. It is a global strategic resource used for the building and [hyperlink,000003AC000000D4]Upkeep[/hyperlink] of Tier III and Tier IV [hyperlink,000003AC0000009A]Units[/hyperlink] and the purchase and equipping of [hyperlink,0000039E00000063]Unit Mods[/hyperlink].[br/][br/]Cosmite [hyperlink,0000039A00000924]Resource Nodes[/hyperlink] are the primary source of cosmite income and are relatively rare in the world, making it a highly valuable resource. A small amount of cosmite income can be generated by certain [hyperlink,000003AC00000299]Colony Structures[/hyperlink] that are unlocked through [hyperlink,000003AC000000C9]Research[/hyperlink].</Data></Cell><Cell
         ><Data
@@ -1139,7 +1142,7 @@
         ss:Height="240"
       ><Cell><Data ss:Type="String">COVER</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >The chance to hit for all ranged attacks against a [hyperlink,000003AC0000009A]Unit[/hyperlink] that’s in cover is reduced by half if the cover is between the unit and the hex from which the attack originated.[br/]A land or floating unit enters cover when they enter a hex that is adjacent to a wall or [hyperlink,000003AC00000320]Obstacle[/hyperlink] during [hyperlink,000003AC0000025E]Tactical Combat[/hyperlink].[br/][br/]A half-full shield icon will appear at the border of the hex the unit is moving onto if that unit would benefit from cover from an adjacent obstacle.[br/]A full shield represents Full Cover, which blocks line of sight, preventing most attacks from targeting this unit.[br/][br/]A unit in cover can still use its [hyperlink,000003AC000000A8]Abilities[/hyperlink] as normal.[br/][br/]A [hyperlink,000003450000052C]Large[/hyperlink] unit cannot benefit from cover, but can serve as cover for smaller units.</Data></Cell><Cell
         ><Data
@@ -1157,7 +1160,7 @@
         ss:Height="330"
       ><Cell><Data ss:Type="String">COVERT_OPERATIONS</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Covert operations target other players rather than an army or colony. They are used for gathering information or sabotaging others in various ways without revealing yourself as the culprit.[br/][br/]Covert operations make use of [hyperlink,000003AC00000312]Operational Effectiveness[/hyperlink] and can also fail as a result, which will notify the targeted player of your actions. The success chance is based on how high the [hyperlink,000003AC000000E1]Operational Strength[/hyperlink] of the user is in comparison to the target’s [hyperlink,000003AC000000E2]Operational Defense[/hyperlink]. The higher the strength, the better the success chance. The higher the defense, the lower the chance of succeeding and remaining undetected.[br/][br/]All covert operations are unlocked by advancing through the [hyperlink,000003AC00000269]Operations Tech Group[/hyperlink], and cost energy and [hyperlink,000003AC0000002B]Strategic Operation Points[/hyperlink] to prime before they can be launched. Some of these operations require more strategic operation points than you have available. In these instances, the operation will consume strategic operation points on every following turn until it has accumulated enough to be primed.</Data></Cell><Cell
         ><Data
@@ -1174,7 +1177,7 @@
             ss:Type="String"
           >暴击和失手</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="210"
+        ss:Height="240"
       ><Cell><Data
             ss:Type="String"
           >CRITICAL_HITS_AND_FUMBLING</Data></Cell><Cell><Data
@@ -1194,7 +1197,7 @@
             ss:Type="String"
           >伤害类型</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="210"
+        ss:Height="240"
       ><Cell><Data ss:Type="String">DAMAGE_CHANNELS</Data></Cell><Cell><Data
             ss:Type="String"
           >TEXT</Data></Cell><Cell><Data
@@ -1287,7 +1290,7 @@
         ss:Height="345"
       ><Cell><Data ss:Type="String">DENOUNCEMENTS</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Denouncements and warnings are [hyperlink,000003AC00000274]Pronouncements[/hyperlink] used to negatively affect reputation and opinion towards a player. Both pronouncements require Casus Belli to be in effect and can only be sent once per type of [hyperlink,000003AC00000031]Casus Belli[/hyperlink] until a war is declared. Denouncements require [hyperlink,000003AC0000001B]Influence[/hyperlink] while warnings are free. [br/][br/]Denouncements cause the following:[bulletlist][bullet]Any player that knows the opposing player receives an [hyperlink,000003AC00000097]Opinion[/hyperlink] penalty against them.[/bullet][bullet]The opposing player’s [hyperlink,000003AC0000002F]Reputation[/hyperlink] is reduced[/bullet][/bulletlist][br/][br/]Warnings only lower the opinion of the opposing player towards the warning player. Unlike [hyperlink,000003AC000000E5]Insults[/hyperlink], denouncements and warnings do not give the opposing player a Casus Belli, preventing them from taking revenge with a justified war.[br/][br/]Denouncing using a [hyperlink,000003AC0000033C]Fabricated Casus Belli[/hyperlink] will not lower the reputation of the opposing player and instead gives them a Casus Belli againt the sending player instead. Fabricated Casus Belli cannot be used to warn a player.</Data></Cell><Cell
         ><Data
@@ -1339,7 +1342,7 @@
         ss:Height="375"
       ><Cell><Data ss:Type="String">DIPLOMACY</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >When you meet other players on the planet; you can start to engage in diplomacy. Diplomacy allows players to make treaties and pacts, and to trade resources.[br/][br/]Through the Diplomacy interface, relations with players, NPC factions and races can be reviewed. The [hyperlink,000003AC0000009D]commander[/hyperlink]is the player representative in Diplomacy. The relationship between players is represented by their [hyperlink,000003AC00000097]opinion[/hyperlink] and  [hyperlink,000003AC0000003A]diplomatic state[/hyperlink]. Improving these through diplomatic actions can result in mutual benefits, like allowing a[hyperlink,000003AC00000310]call to war[/hyperlink]. Worsening these relationships can result a declaration of war. The following diplomatic actions are available in the Diplomacy interface:[bulletlist][bullet][hyperlink,000003AC000000E4]Negotiation[/hyperlink]: propose trades or diplomatic states[/bullet][bullet][hyperlink,000003AC00000274]Pronouncements[/hyperlink]: use influence to modify opinions[/bullet][bullet][hyperlink,000003AC00000306]Declaring war[/hyperlink][/bullet][/bulletlist][br/][br/]NPC factions and independent settlements have separate interaction systems. See:[hyperlink,000003AC00000030]NPC Faction Relations[/hyperlink] and [hyperlink,0000039A000010D7]Settlements[/hyperlink]</Data></Cell><Cell
         ><Data
@@ -1355,7 +1358,7 @@
         ss:AutoFitHeight="0"
         ss:Height="300"
       ><Cell><Data ss:Type="String">DIPLOMATIC_STATE_ALLIANCE</Data></Cell><Cell
-        ><Data ss:Type="String">TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+        ><Data ss:Type="String">TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >An alliance is the highest achievable [hyperlink,000003AC0000003A]diplomatic state[/hyperlink], that gives the most benefits and allows the allied players to work together towards the same goals to achieve victory. [br/][br/]An alliance pact unlocks the following:[bulletlist][bullet][hyperlink,000003AC000002F2]Share intelligence[/hyperlink] treaty[/bullet][bullet]Allies can be [hyperlink,000003AC00000310]called into any war[/hyperlink][/bullet][bullet][hyperlink,000003AC0000033B]Allied victory[/hyperlink][/bullet][/bulletlist][br/][br/]Alliances have the following effects:[bulletlist][bullet]Increased [hyperlink,000003AC0000002F]Reputation[/hyperlink][/bullet][bullet]Increased [hyperlink,000003AC00000097]Opinion[/hyperlink][/bullet][bullet]Increased [hyperlink,000003AC00000286]Race relation[/hyperlink] with the race of the other player[/bullet][/bulletlist][br/][br/]Players must first break this pact before they are able to [hyperlink,000003AC00000306]declare war[/hyperlink] on the opposing player. This takes 2 turns to complete.</Data></Cell><Cell
         ><Data
@@ -1378,7 +1381,7 @@
             ss:Type="String"
           >DIPLOMATIC_STATE_DEFENSIVE_PACT</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >The defensive pact is the second positive [hyperlink,000003AC0000003A]diplomatic state[/hyperlink], and unlocks additional treaties and the option to call the other player into defensive war when in need. [br/][br/]The defensive pact unlocks the following:[bulletlist][bullet][hyperlink,000003AC000002F3]Share vision[/hyperlink] treaty[/bullet][bullet][hyperlink,000003AC00000034]Alliance[/hyperlink][/bullet][bullet]The other player can be [hyperlink,000003AC00000310]called to war[/hyperlink] when waging a defensive war[/bullet][bullet]Players now join each other in battle through the [hyperlink,000003AC000000B1]adjacent hex rule[/hyperlink][/bullet][/bulletlist][br/][br/]Defensive pacts have the following effects:[bulletlist][bullet]Increased [hyperlink,000003AC0000002F]Reputation[/hyperlink][/bullet][bullet]Increased [hyperlink,000003AC00000097]Opinion[/hyperlink][/bullet][bullet]Increased [hyperlink,000003AC00000286]Race relation[/hyperlink] with the race of the other player[/bullet][/bulletlist][br/][br/]Players must first break this pact before they are able to [hyperlink,000003AC00000306]declare war[/hyperlink] on the opposing player. This takes 2 turns to complete.</Data></Cell><Cell
         ><Data
@@ -1394,7 +1397,7 @@
         ss:AutoFitHeight="0"
         ss:Height="165"
       ><Cell><Data ss:Type="String">DIPLOMATIC_STATE_NEUTRAL</Data></Cell><Cell
-        ><Data ss:Type="String">TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+        ><Data ss:Type="String">TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Neutral is the lowest non-hostile [hyperlink,000003AC0000003A]diplomatic state[/hyperlink] and is the default state for two players when meet each other. In the neutral state, players can either improve to a [hyperlink,000003AC00000036]non-aggression[/hyperlink] pact through negotiation, offer/demand [hyperlink,000003AC000000EC]vassalage[/hyperlink] or [hyperlink,000003AC00000306]declare war[/hyperlink] without any turn delay.[br/][br/]While in a neutral state, players cannot have any [hyperlink,000003AC000000EA]diplomatic treaties[/hyperlink]. </Data></Cell><Cell
         ><Data
@@ -1411,7 +1414,7 @@
         ss:AutoFitHeight="0"
         ss:Height="285"
       ><Cell><Data ss:Type="String">DIPLOMATIC_STATE_PEACE</Data></Cell><Cell
-        ><Data ss:Type="String">TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+        ><Data ss:Type="String">TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >The non-aggression pact is the first positive [hyperlink,000003AC0000003A]diplomatic state[/hyperlink], that shows peaceful intent between two players and unlocks new treaties.[br/][br/]The non-aggression pact unlocks the following:[bulletlist][bullet][hyperlink,000003AC000002F1]Open Borders[/hyperlink] treaty[/bullet][bullet][hyperlink,000003AC00000331]Good Neighbors[/hyperlink] treaty[/bullet][bullet][hyperlink,000003AC00000035]Defensive Pact[/hyperlink][/bullet][/bulletlist] [br/][br/]Non-aggression pacts have the following effects:[bulletlist][bullet]Increased [hyperlink,000003AC0000002F]Reputation[/hyperlink][/bullet][bullet]Increased [hyperlink,000003AC00000097]Opinion[/hyperlink][/bullet][bullet]Increased [hyperlink,000003AC00000286]Race relations[/hyperlink] with the race of the other player[/bullet][/bulletlist][br/][br/]In this state players can still [hyperlink,000003AC00000306]declare war[/hyperlink], but suffer a 1 turn delay before they may attack the opposing player.</Data></Cell><Cell
         ><Data
@@ -1427,7 +1430,7 @@
         ss:AutoFitHeight="0"
         ss:Height="360"
       ><Cell><Data ss:Type="String">DIPLOMATIC_STATE_WAR</Data></Cell><Cell
-        ><Data ss:Type="String">TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+        ><Data ss:Type="String">TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >War is the state of open hostilities between two players, which means that they can freely attack eachother. War is preceded by a [hyperlink,000003AC00000306]Declaration of War[/hyperlink] from one of the players to the other. Declaring war may impact reputation and popular support depending on the justification of the war, called [hyperlink,000003AC00000031]Casus Belli[/hyperlink].[br/][br/]Being at war unlocks the following:[bulletlist][bullet][hyperlink,000003AC00000307]Truce[/hyperlink] treaty[/bullet][bullet][hyperlink,000003AC00000310]Call to war[/hyperlink] action[/bullet][bullet][hyperlink,000003AC00000311]Call to arms[/hyperlink], if one of the player’s allies participates in the same war[/bullet][/bulletlist][br/][br/]Being involved in wars has the following effects:[bulletlist][bullet]Decreased [hyperlink,000003AC0000002F]Reputation[/hyperlink] depending on the Casus Belli[/bullet][bullet]Decreased [hyperlink,000003AC00000097]Opinion[/hyperlink] towards and from the opposing player[/bullet][bullet]Decreased [hyperlink,000003AC00000286]Race relations[/hyperlink] with the faction of the other race[/bullet][/bulletlist][br/][br/]Wars can end or be halted in the following ways:[bulletlist][bullet]Forming a truce[/bullet][bullet]Requesting or demanding vassalage[/bullet][/bulletlist] </Data></Cell><Cell
         ><Data
@@ -1445,7 +1448,7 @@
         ss:Height="360"
       ><Cell><Data ss:Type="String">DIPLOMATIC_STATES</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >The diplomatic state represents the degree of mutual cooperation between two players. Diplomatic states further affect opinions, race relations and reputation. You can change your diplomatic states through [hyperlink,000003AC00000330]Diplomacy[/hyperlink].[br/][br/]Players can share the following diplomatic states:[bulletlist][bullet][hyperlink,000003AC00000034]Alliance[/hyperlink][/bullet][bullet][hyperlink,000003AC00000035]Defensive pact[/hyperlink][/bullet][bullet][hyperlink,000003AC00000036]Non-aggression pact[/hyperlink][/bullet][bullet][hyperlink,000003AC00000037]Neutral[/hyperlink][/bullet][bullet][hyperlink,000003AC00000038]War[/hyperlink][/bullet][/bulletlist][br/][br/]As the diplomatic state between you and another player improves, you will have an increased base [hyperlink,000003AC00000097]opinion[/hyperlink] and will be able form better [hyperlink,000003AC000000EA]treaties[/hyperlink]. It also affects your [hyperlink,000003AC00000286]Race Relations[/hyperlink] with the race of the other player.[br/][br/]Your [hyperlink,000003AC0000002F]Reputation[/hyperlink] is affected by all diplomatic states with others. Having better diplomatic states increases reputation, whereas conducting war and breaking diplomatic pacts lowers reputation.</Data></Cell><Cell
         ><Data
@@ -1625,7 +1628,7 @@
         ss:Height="409.5"
       ><Cell><Data ss:Type="String">DOOMSDAY_VICTORY</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >The doomsday victory is a technological victory that requires high level [hyperlink,000003AC000000C9]Research[/hyperlink] and a specialization in [hyperlink,000003AC0000003F]Production[/hyperlink] to achieve.[br/][br/]A doomsday victory is achieved when a [hyperlink,000003AC00000336]Player[/hyperlink] successfully launches their final [hyperlink,0000039F00002DF8]Doomsday[/hyperlink] operation and successfully defends their [hyperlink,000003AC000002AF]Doomsday Structures[/hyperlink] until it the operation is completed.[br/][br/]The player needs to defend their doomsday structures for 10 turns before they are [hyperlink,000003AC000000B5]Victorious[/hyperlink]. During those 10 turns, if they lose control of one of their doomsday structures, the doomsday victory is canceled.[br/][br/]Other players will receive [hyperlink,000003AC000002E5]Event[/hyperlink] notifications when a player is building doomsday structures and when the final doomsday operation is being prepared for launch. This should provide ample warning that a player is approaching their doomsday [hyperlink,000003AC00000324]Victory Condition[/hyperlink].[br/][br/]The research required to build the doomsday structures and launch the doomsday operation can be found in [hyperlink,000003AC00000266]Secret Tech[/hyperlink] research, at Tier IV and Tier X of the [hyperlink,000003AC000000CA]Research Tree[/hyperlink].[br/][br/]The doomsday victory is closely tied to an empire’s [hyperlink,000003AC00000273]Development Capability[/hyperlink].</Data></Cell><Cell
         ><Data
@@ -1640,15 +1643,15 @@
             ss:Type="String"
           >NPC 居住地所有权</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="405"
+        ss:Height="375"
       ><Cell><Data ss:Type="String">DWELLING_OWNERSHIP</Data></Cell><Cell><Data
             ss:Type="String"
           >TEXT</Data></Cell><Cell><Data
             ss:Type="String"
-          >Dwelling ownership can be bought through [hyperlink,000003AC00000279]Dwelling trades[/hyperlink] and gives a player full ownership of one of the [hyperlink,0000039A00000930]Dwellings[/hyperlink]. Owning a dwelling gives a player a large economic bonus.[br/][br/]There are multiple conditions for gaining dwelling ownership:[bulletlist][bullet]The relation state with the NPC faction needs to be [hyperlink,000003AC00000280]Integrated[/hyperlink][/bullet][bullet]A nearby colony needs to be able to [hyperlink,000003BD00001316]annex[/hyperlink] the dwelling as a province sector[/bullet][bullet]The player has to pay a large amount of influence and energy [/bullet][/bulletlist][br/][br/]Once a dwelling is owned, it acts like any other [hyperlink,000003BD00001314]province sector[/hyperlink] except that it has the highest level of [hyperlink,000003AC000002A6]exploitation[/hyperlink] in a resource dependant on the faction. Dwelling trades can still be accessed through an owned dwelling and can even be accessed by [hyperlink,000003AC00000034]allied players[/hyperlink].[br/][br/]These dwellings remain owned even when the player decides to go to war with the faction later. In that case, there is a high chance that [hyperlink,000003AC00000288]attack squads[/hyperlink] will target the owned dwellings.</Data></Cell><Cell
+          >Dwelling ownership can be bought through [hyperlink,000003AC00000279]Dwelling trades[/hyperlink] and gives a player full ownership of one of the [hyperlink,0000039A00000930]Dwellings[/hyperlink]. Owning a dwelling gives a player a large economic bonus.[br/][br/]There are multiple conditions for gaining dwelling ownership:[bulletlist][bullet]The relation state with the NPC faction needs to be [hyperlink,000003AC00000280]Integrated[/hyperlink][/bullet][bullet]A nearby colony needs to be able to [hyperlink,000003BD00001316]annex[/hyperlink] the dwelling as a province sector[/bullet][bullet]The player has to pay a large amount of influence [/bullet][/bulletlist][br/][br/]Once a dwelling is owned, it acts like any other [hyperlink,000003BD00001314]province sector[/hyperlink] except that it has the highest level of [hyperlink,000003AC000002A6]exploitation[/hyperlink] in a resource dependant on the faction. Dwelling trades can still be accessed through an owned dwelling and can even be accessed by [hyperlink,000003AC00000034]allied players[/hyperlink].[br/][br/]These dwellings remain owned even when the player decides to go to war with the faction later. In that case, there is a high chance that [hyperlink,000003AC00000288]attack squads[/hyperlink] will target the owned dwellings.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >居住地所有权可以通过[hyperlink,000003AC00000279]居住地交易[/hyperlink]购买，购买后玩家将获得其中一个[hyperlink,0000039A00000930]居住地[/hyperlink]的全部所有权。拥有某个居住地的玩家可以生产NPC阵营单位并获得大量经济加成。[br/][br/]获得居住地所有权需具备多种条件：[bulletlist][bullet]与NPC阵营的关系状态需要为[hyperlink,000003AC00000280]融合[/hyperlink][/bullet][bullet]居住地附近需要存在某个能够将其[hyperlink,000003BD00001316]吞并[/hyperlink]为省区区域的殖民地[/bullet][bullet]玩家需要花费大量影响力和能源[/bullet][/bulletlist][br/][br/]拥有居住地后，居住地将会以[hyperlink,000003BD00001314]省区区域[/hyperlink]的方式运转，且将被视为拥有最高等级的[hyperlink,000003AC000002A6]开发点[/hyperlink]，具体资源视阵营而定。居住地交易仍然可通过已拥有的居住地进行，甚至[hyperlink,000003AC00000034]同盟玩家[/hyperlink]也能进行居住地交易。[br/][br/]即使玩家之后决定与该阵营开战，已经购买了的居住地仍将归玩家所有。不过在这种情况下，[hyperlink,000003AC00000288]攻击小队[/hyperlink]将会有很大的几率攻击由玩家所有的居住地。</Data></Cell><Cell
+          >居住地所有权可以通过[hyperlink,000003AC00000279]居住地交易[/hyperlink]购买，购买后玩家将获得其中一个[hyperlink,0000039A00000930]居住地[/hyperlink]的全部所有权。拥有某个居住地将给予玩家大量经济加成。[br/][br/]获得居住地所有权需具备多种条件：[bulletlist][bullet]与 NPC 阵营的关系状态需要为[hyperlink,000003AC00000280]融合[/hyperlink][/bullet][bullet]居住地附近需要存在某个能够将其[hyperlink,000003BD00001316]吞并[/hyperlink]为省区区域的殖民地[/bullet][bullet]玩家需花费大量影响力[/bullet][/bulletlist][br/][br/]拥有居住地后，居住地将会以[hyperlink,000003BD00001314]省区区域[/hyperlink]的方式运转，且将被视为拥有最高等级的[hyperlink,000003AC000002A6]开发点[/hyperlink]，具体资源视阵营而定。居住地交易仍然可通过已拥有的居住地进行，甚至[hyperlink,000003AC00000034]同盟玩家[/hyperlink]也能进行居住地交易。[br/][br/]即使玩家之后决定与该阵营开战，已经购买了的居住地仍将归玩家所有。不过在这种情况下，[hyperlink,000003AC00000288]攻击小队[/hyperlink]将会有很大的几率攻击由玩家所有的居住地。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -1683,7 +1686,7 @@
         ss:Height="285"
       ><Cell><Data ss:Type="String">DWELLINGS</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Dwellings are large [hyperlink,000003AC00000338]dominant locations[/hyperlink] on the planet that represent the headquarters of [hyperlink,0000039E00000075]NPC factions[/hyperlink]. Interacting with a dwelling will open up the dwelling interface, where the NPC faction relations can be reviewed. [br/]The following actions are available at a Dwelling:[bulletlist][bullet][hyperlink,000003AC00000279]Trading[/hyperlink] with the Dwelling[/bullet][bullet]Requesting [hyperlink,000003AC000000D9]Quests[/hyperlink] from the faction[/bullet][bullet]Declaring [hyperlink,000003AC00000284]war[/hyperlink] with the faction[/bullet][bullet]Requesting a [hyperlink,000003AC00000308]peace deal[/hyperlink] when at war with the faction[/bullet][bullet][hyperlink,000003AC00000332]Calling[/hyperlink] the faction to war against other players[/bullet][/bulletlist][br/][br/]For more information on the ownership of a dwelling and the effects it has, see: [hyperlink,000003AC00000285]Dwelling Ownership[/hyperlink]</Data></Cell><Cell
         ><Data
@@ -1791,7 +1794,7 @@
         ss:Height="270"
       ><Cell><Data ss:Type="String">ENERGY</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Energy is a global resource that is used for constructing [hyperlink,000003AC0000009A]Units[/hyperlink] and [hyperlink,000003AC00000299]Structures[/hyperlink], unit [hyperlink,000003AC000000D4]Upkeep[/hyperlink], launching [hyperlink,0000039E00000071]Operations[/hyperlink] and [hyperlink,0000039E00000063]Modding[/hyperlink] units.[br/][br/]Each [hyperlink,000003AC00000047]Colony[/hyperlink]’s energy income is added to the global energy reserve, and all energy spent is withdrawn from this pool. Colonies can increase their energy income by building energy [hyperlink,000003AC000002A6]Sector Exploitations[/hyperlink] in their [hyperlink,000003BD00001314]Province Sectors[/hyperlink] and assigning [hyperlink,000003AC0000002D]Colonists[/hyperlink] to energy [hyperlink,000003AC000002B6]Colonist Slots[/hyperlink].[br/][br/]Energy can be traded through [hyperlink,000003AC00000330]Diplomacy[/hyperlink].</Data></Cell><Cell
         ><Data
@@ -1818,7 +1821,7 @@
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">EVENT_LIST</Data></Cell><Cell><Data
             ss:Type="String"
-          >NAME</Data></Cell><Cell ss:StyleID="s71"><Data
+          >NAME</Data></Cell><Cell ss:StyleID="s72"><Data
             ss:Type="String"
           >Event List</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1845,7 +1848,7 @@
         ss:Height="105"
       ><Cell><Data ss:Type="String">EVENT_LOG</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >The event history is a list of all the important [hyperlink,000003AC000002E5]Events[/hyperlink] that have transpired so far throughout the game. It is a useful tool for accessing previously handled events, if needed. It can be accessed using the button underneath the ‘End Turn’ button, to the right of the [hyperlink,000003AC000002E0]Minimap[/hyperlink]. </Data></Cell><Cell
         ><Data
@@ -1881,7 +1884,7 @@
         ss:Height="165"
       ><Cell><Data ss:Type="String">EXPERIENCE</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >A [hyperlink,000003AC0000009A]Unit[/hyperlink] gains experience whenever they are victorious in battle. Experience is calculated based on the [hyperlink,000003AC000000D3]Tier[/hyperlink] and number of the units defeated, divided by the number of units on the victor’s side when the battle began.[br/]When a normal unit accumulates enough experience, their [hyperlink,000003AC000000A2]Unit Rank[/hyperlink] will increase, granting incremental bonuses. When [hyperlink,000003AC000000C1]Heroes[/hyperlink] accumulate enough experience, they gain skill points to invest into [hyperlink,000003AC0000009F]Hero Upgrades[/hyperlink].</Data></Cell><Cell
         ><Data
@@ -1989,9 +1992,9 @@
         ss:Height="135"
       ><Cell><Data ss:Type="String">FLEEING</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >Sometimes an assault will not go according to plan. If you are the attacker, you can use retreat zones located at the edges of the [hyperlink,000003AC0000025E]Tactical Combat[/hyperlink] map to escape. A unit that steps onto the retreat zone’s hex is removed from combat.[br/][br/]You can only use these when in [hyperlink,000003AC000002EE]Manual and Auto Combat[/hyperlink], as units in auto combat will not use retreat zones.[br/]Beware: units that flee combat will be left with zero [hyperlink,000003AC000000DC]Move Points[/hyperlink].</Data></Cell><Cell
+          >Sometimes an assault will not go according to plan. If you are the attacker, you can use retreat zones located at the edges of the [hyperlink,000003AC0000025E]Tactical Combat[/hyperlink] map to escape. A unit that steps onto the retreat zone’s hex is removed from combat.[br/][br/]You can only use these when in [hyperlink,000003AC000002EE]Manual Combat[/hyperlink], as units in auto combat will not use retreat zones.[br/]Beware: units that flee combat will be left with zero [hyperlink,000003AC000000DC]Move Points[/hyperlink].</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >有时突击行动并不能按照计划进行。如果你是攻击者，那么你就可以使用位于[hyperlink,000003AC0000025E]战术战斗[/hyperlink]地图边缘的撤退区进行逃离。进入撤退区单元格的单位将会从战斗中移除。[br/][br/]你只能在使用[hyperlink,000003AC000002EE]手动和自动战斗[/hyperlink]时使用撤退区，处于自动战斗的单位将不会使用撤退区。[br/]注意：逃离战斗的单位将会失去全部[hyperlink,000003AC000000DC]移动点数[/hyperlink]。</Data></Cell></Row><Row
@@ -2007,7 +2010,7 @@
         ss:Height="240"
       ><Cell><Data ss:Type="String">FOOD</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Food is a resource that is separate for each colony. It drives [hyperlink,000003AC000002B7]Colonist Growth[/hyperlink] which in turn leads to [hyperlink,000003BD000016D8]Colony Expansion[/hyperlink] and higher economic income. Food is also crucial for [hyperlink,000003AC00000305]Colonist Upkeep[/hyperlink], as insufficient food income can lead to [hyperlink,000003BD000016D9]Starvation[/hyperlink].[br/][br/]Colonies can increase their food income by building food [hyperlink,000003AC000002A6]Sector Exploitations[/hyperlink] in their [hyperlink,000003BD00001314]Province Sectors[/hyperlink] and assigning [hyperlink,000003AC0000002D]Colonists[/hyperlink] to food [hyperlink,000003AC000002B6]Colonist Slots[/hyperlink].[br/][br/]Food can be shared between colonies using the [hyperlink,000003AC000002AA]Food Sharing[/hyperlink] mechanic.</Data></Cell><Cell
         ><Data
@@ -2022,15 +2025,15 @@
             ss:Type="String"
           >食物共享</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="195"
+        ss:Height="409.5"
       ><Cell><Data ss:Type="String">FOOD_SHARING</Data></Cell><Cell><Data
             ss:Type="String"
           >TEXT</Data></Cell><Cell><Data
             ss:Type="String"
-          >Food Sharing allows players to distribute [hyperlink,000003AC00000022]Food[/hyperlink] between their [hyperlink,000003AC00000047]Colonies[/hyperlink] to support other colonies with low food income.[br/]This can help new and struggling colonies grow faster, or prevent [hyperlink,000003BD000016D9]Starvation[/hyperlink] at colonies that have focused their colonists on different production slots.[br/][br/]All food Sharing options distribute unused food in a colony after [hyperlink,000003AC00000305]Upkeep[/hyperlink] of their colonists needs.[br/][br/]There are 4 options for Food Sharing in a colony:[br/][br/][bulletlist][bullet]Prevent Deficit - This is the default option, taking no food from the [hyperlink,000003E90000001D]Global Pool[/hyperlink] unless needed to prevent deficit (Starvation). All unused food is put towards growing the colony and adding a new colonist to the population.[/bullet][br/][br/][bullet]Share All and Sell Excess - This option distributes any unused food to the global pool, allowing other colonies to take from it. Food remaining from the global pool at the end of the turn is sold for [hyperlink,000003AC00000023]Energy[/hyperlink] at a rate of 2 food per energy.[/bullet][br/][br/][bullet]Share Half - This option provides half of the unused food from the colony to the global pool, remaining food is put towards growing the colony and adding a new colonist to the population.[/bullet][/bulletlist][br/][br/]When sharing food with other colonies, 40% is lost through Food Sharing Tax. This tax can be reduced with colony upgrades.</Data></Cell><Cell
+          >Food Sharing allows players to distribute [hyperlink,000003AC00000022]Food[/hyperlink] between their [hyperlink,000003AC00000047]Colonies[/hyperlink] to support other colonies with low food income.[br/]This can help new and struggling colonies grow faster, or prevent [hyperlink,000003BD000016D9]Starvation[/hyperlink] at colonies that have focused their colonists on different production slots.[br/][br/]All food Sharing options distribute unused food in a colony after [hyperlink,000003AC00000305]Upkeep[/hyperlink] of their colonists needs.[br/][br/]There are 4 options for Food Sharing in a colony:[br/][br/][bulletlist][bullet]Prevent Deficit - This is the default option, taking no food from the [hyperlink,000003E90000001D]Global Pool[/hyperlink] unless needed to prevent deficit (Starvation). All unused food is put towards growing the colony and adding a new colonist to the population.[/bullet][br/][br/][bullet]Take - This option allows the colony to take as much food as it can from the [hyperlink,000003E90000001D]Global Pool[/hyperlink]. The colony can never take more food from the pool than is needed for it to gain its next colonist, so the amount taken will change frequently.[/bullet][br/][br/][bullet]Share All and Sell Excess - This option distributes any unused food to the global pool, allowing other colonies to take from it. Food remaining from the global pool at the end of the turn is sold for [hyperlink,000003AC00000023]Energy[/hyperlink] at a rate of 2 food per energy.[/bullet][br/][br/][bullet]Share Half - This option provides half of the unused food from the colony to the global pool, remaining food is put towards growing the colony and adding a new colonist to the population.[/bullet][/bulletlist][br/][br/]When sharing food with other colonies, 40% is lost through Food Sharing Tax. This tax can be reduced with colony upgrades.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >食物共享可以让玩家在自己的各个[hyperlink,000003AC00000047]殖民地[/hyperlink]间分配[hyperlink,000003AC00000022]食物[/hyperlink]，从而为食物收益较低的殖民地提供支持。[br/]食物共享可以帮助刚建立的殖民地更加快速地发展，也可以防止把移住民集中在其他生产槽位时殖民地出现[hyperlink,000003BD000016D9]饥饿[/hyperlink]的情况。[br/][br/]所有的食物共享选项所分配的食物均是殖民地支付[hyperlink,000003AC00000305]维持消耗[/hyperlink]之后未使用的盈余食物。[br/][br/]殖民地中有 4 种食物共享选项：[br/][br/][bulletlist][bullet]防止赤字 - 这是一种默认选项，除非需要防止赤字（也就是防止出现饥饿），否则不会使用[hyperlink,000003E90000001D]整体食物池[/hyperlink]中的食物。所有未使用的食物都将用来发展殖民地并增加新的移住民。[/bullet][br/][br/][bullet]分享全部并售出盈余 - 该选项会将所有未使用的食物分配至整体食物池，从而供其他殖民地使用。回合结束时，整体食物池中剩余的食物将会被卖出，按照食物和能量 2：1 的比率换取[hyperlink,000003AC00000023]能量[/hyperlink]。[/bullet][br/][br/][bullet]分享一半 - 该选项会将殖民地未使用食物的一半分配至整体食物池，剩余的食物将用来发展殖民地并增加新的移住民。[/bullet][/bulletlist][br/][br/]殖民地与其他殖民地共享食物时，会被收取 40% 的食物共享税。殖民地升级可以降低税收的价格。</Data></Cell></Row><Row
+          >食物共享可以让玩家在自己的各个[hyperlink,000003AC00000047]殖民地[/hyperlink]间分配[hyperlink,000003AC00000022]食物[/hyperlink]，从而为食物收益较低的殖民地提供支持。[br/]食物共享可以帮助刚建立的殖民地更加快速地发展，也可以防止把移住民集中在其他生产槽位时殖民地出现[hyperlink,000003BD000016D9]饥饿[/hyperlink]的情况。[br/][br/]所有的食物共享选项所分配的食物均是殖民地支付[hyperlink,000003AC00000305]维持消耗[/hyperlink]之后未使用的盈余食物。[br/][br/]殖民地中有 4 种食物共享选项：[br/][br/][bulletlist][bullet]防止赤字 - 这是一种默认选项，除非需要防止赤字（也就是防止出现饥饿），否则不会使用[hyperlink,000003E90000001D]整体食物池[/hyperlink]中的食物。所有未使用的食物都将用来发展殖民地并增加新的移住民。[/bullet][br/][br/][bullet]拿取食物 - 该选项允许殖民地尽可能多地从[hyperlink,000003E90000001D]整体食物池[/hyperlink]中拿取食物。不过，殖民地从食物池里拿取的食物不可超过下一个新增的移住民所需的食物，因此拿取的食物数量会经常变化。[/bullet][br/][br/][bullet]分享全部并售出盈余 - 该选项会将所有未使用的食物分配至整体食物池，从而供其他殖民地使用。回合结束时，整体食物池中剩余的食物将会被卖出，按照食物和能量 2：1 的比率换取[hyperlink,000003AC00000023]能量[/hyperlink]。[/bullet][br/][br/][bullet]分享一半 - 该选项会将殖民地未使用食物的一半分配至整体食物池，剩余的食物将用来发展殖民地并增加新的移住民。[/bullet][/bulletlist][br/][br/]殖民地与其他殖民地共享食物时，会被收取 40% 的食物共享税。升级殖民地可以降低税收的价格。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">FORWARD_BASE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -2043,7 +2046,7 @@
         ss:Height="150"
       ><Cell><Data ss:Type="String">FORWARD_BASE</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >A forward base is a [hyperlink,000003AC00000336]Player[/hyperlink] owned structure that can be built in any [hyperlink,0000039E00000076]Sector[/hyperlink] to extend their territory and lay [hyperlink,000003A600000329]Claim[/hyperlink] on adjacent sectors. Forward bases can be built by any [hyperlink,000003AC0000009A]Unit[/hyperlink] in any sector that does not have a [hyperlink,000003AC00000338]Dominant Location[/hyperlink].[br/][br/]Forward bases do not collect income from their sector, and have no economic benefit.</Data></Cell><Cell
         ><Data
@@ -2151,7 +2154,7 @@
         ss:Height="390"
       ><Cell><Data ss:Type="String">HAPPINESS</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Happiness indicates how content the population of a particular colony is with their situation. Positive happiness can trigger economic boosts, whereas negative happiness can cause [hyperlink,000003AC000002B4]Riots[/hyperlink].[br/][br/]You can gain happiness through [hyperlink,000003AC00000299]Colony Structures[/hyperlink] which also provides happiness slots which in turn generate more happiness when colonists are assigned to them through [hyperlink,000003AC000002B5]Colonist Management[/hyperlink]. [br/]The happiness income of a [hyperlink,000003AC00000047]Colony[/hyperlink] is added to its happiness pool at the end of each turn. When the happiness pool reaches the [hyperlink,000003AC000002BD]Happiness Events[/hyperlink] threshold, a happiness event occurs.[br/][br/]If happiness income is negative, the amount is subtracted from the happiness pool instead. Once happiness reaches its lower threshold, an [hyperlink,000003AC000002BE]Unhappiness Event[/hyperlink] occurs. Once either a happiness or unhappiness event has occurred, the happiness pool will be reset to 0.[br/][br/]The following Colony Structures provide happiness in your Colony:[bulletlist][bullet][hyperlink,0000034100000AD3]Recreation Dome[/hyperlink][/bullet][bullet][hyperlink,0000034100000AD9]Botanical Gardens[/hyperlink][/bullet][bullet][hyperlink,000003B5000002FA]Virtual Entertainment Plaza[/hyperlink][/bullet][/bulletlist] </Data></Cell><Cell
         ><Data
@@ -2205,7 +2208,7 @@
         ss:Height="255"
       ><Cell><Data ss:Type="String">HAZARDS</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >The fall of the Star Union caused a age of strife on its planet’s, with major wars and fighting for territory were commonplace. The after effects of the weapons of mass destruction used during these wars can still be found on the planet’s surface today, by the hazards left on its surface.[br/][br/]Hazards are [hyperlink,000003AC000000CD]Locations[/hyperlink] on the [hyperlink,000003AC000000CC]Strategic Map[/hyperlink]. They have a sector-wide effect on [hyperlink,000003AC0000009B]Armies[/hyperlink] in their [hyperlink,0000039E00000076]Sectors[/hyperlink], both on the strategic map and in [hyperlink,000003AC0000025E]Tactical Combat[/hyperlink].[br/][br/]Hazards apply a severe economic penalty to any [hyperlink,000003BD000016D5]Province Sectors[/hyperlink] in which they are located. They can be removed using an [hyperlink,0000039E00000071]Operation[/hyperlink] that is unlocked via [hyperlink,000003AC000000C9]Research[/hyperlink].</Data></Cell><Cell
         ><Data
@@ -2259,7 +2262,7 @@
         ss:Height="180"
       ><Cell><Data ss:Type="String">HERO_UPGRADES</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >When a [hyperlink,000003AC000000C1]Hero[/hyperlink] gains enough experience to [hyperlink,000003AC00000328]Level Up[/hyperlink], they gain 5 skill points to use on hero upgrades. These points can be used by entering the hero’s unit panel and accessing the hero upgrades interface. Skill points do not have to be used immediately, and can be saved to be used later.[br/][br/]Hero upgrades come from a general upgrade pool, but there are some upgrades that are only available to heroes with a certain [hyperlink,000003AC000000C7]Race[/hyperlink] or [hyperlink,000003AC00000329]Secret Technology[/hyperlink]. Some upgrades require a certain hero level before they can be acquired, while others need a prerequisite to be unlocked.</Data></Cell><Cell
         ><Data
@@ -2277,7 +2280,7 @@
         ss:Height="375"
       ><Cell><Data ss:Type="String">HEROES</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Heroes, like your [hyperlink,000003AC0000009D]Commander[/hyperlink], are talented individuals with the possibility to specialize and buff your armies. Their great number of available [hyperlink,000003AC0000009F]Hero Upgrades[/hyperlink] they have to choose from when they [hyperlink,000003AC00000328]Level Up[/hyperlink] makes them a very important type of [hyperlink,000003AC0000009A]Unit[/hyperlink].[br/]These are also the only units that can equip [hyperlink,000003AC0000031C]Hero Equipment[/hyperlink], which includes different [hyperlink,000003AC0000009C]Weapons[/hyperlink] and [hyperlink,000003AC000002B1]Vehicles[/hyperlink] that can completely change their [hyperlink,000003AC000000A8]Abilities[/hyperlink]and which [hyperlink,0000039E00000063]Mods[/hyperlink] these units can use.[br/]These are kept in the [hyperlink,000003AC000002E9]Arsenal[/hyperlink], and if a Hero owns a particular piece of equipment they no longer need, they can sell it.[br/][br/]New heroes will come to you as the game progresses and will offer their service for a small [hyperlink,000003AC00000023]Energy[/hyperlink][energy/] payment. Unlike normal units, they don’t have an [hyperlink,000003AC000000D4]Upkeep[/hyperlink] cost. </Data></Cell><Cell
         ><Data
@@ -2292,7 +2295,7 @@
         ss:Height="180"
       ><Cell><Data ss:Type="String">HEX</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >In [hyperlink,000003AC0000025E]Tactical Combat[/hyperlink] and on the [hyperlink,000003AC000000CC]Strategic Map[/hyperlink], the world is divided into a grid of six-sided shapes called hexes. On the world map, a hex can contain an [hyperlink,000003AC0000009B]Army[/hyperlink], a [hyperlink,000003AC000000CD]Location[/hyperlink], or both. In tactical combat a hex can contain a single [hyperlink,000003AC0000009A]Unit[/hyperlink] or [hyperlink,000003AC00000320]Obstacle[/hyperlink].[br/][br/]If there is more than one entity on a hex a [hyperlink,000003AC00000336]Player[/hyperlink] can cycle through them by selecting the hex multiple times.</Data></Cell><Cell
         ><Data
@@ -2361,10 +2364,10 @@
             ss:Type="String"
           >帝国防御</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="180"
+        ss:Height="270"
       ><Cell><Data ss:Type="String">IMPERIAL_DEFENSES</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Imperial Defenses are [hyperlink,000003AC000000CD]Locations[/hyperlink] found in some [hyperlink,0000039E00000076]Sectors[/hyperlink]. They have a sector-wide effect on any [hyperlink,000003AC0000009A]Units[/hyperlink] in the sector, as well as any unit engaged in [hyperlink,000003AC0000025E]Tactical Combat[/hyperlink] within the sector.[br/][br/]These can be claimed by defeating the [hyperlink,000003CF0000009F]Marauder Guards[/hyperlink] present, or from an enemy faction controlling it.[br/][br/] Once claimed and the sector is owned, an Imperial Defense [hyperlink,0000039E00000073]Strategic Operation[/hyperlink] becomes available to the commander that owns it. This operation can only be cast on the commander's own colonies.[br/][br/]If ownership of the Imperial Defense structure is lost, any priming or active operations granted by this structure will removed.[br/][br/]The structure may be Razed, rendering it unusable until rebuilt. The Structure can be rebuilt by having a unit on the ruins.</Data></Cell><Cell
         ><Data
@@ -2418,7 +2421,7 @@
         ss:Height="240"
       ><Cell><Data ss:Type="String">INFLUENCE</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Influence is the currency used for performing diplomatic actions involving other players, NPC factions and settlements. It is gained by completing [hyperlink,000003AC000000D9]NPC faction quests[/hyperlink] and through building certain colony structures.[br/][br/]Influence is used in the following actions:[bulletlist][bullet]Making [hyperlink,000003AC00000274]Pronouncements[/hyperlink] about other players[/bullet][bullet][hyperlink,000003AC00000279]Trading[/hyperlink] with NPC faction dwellings[/bullet][bullet]Convincing an NPC faction to [hyperlink,000003AC00000339]leave their position[/hyperlink][/bullet][bullet]Peacefully resolving an encounter with a [hyperlink,0000039A000010D7]settlement[/hyperlink][/bullet][bullet]Priming certain [hyperlink,000003AC00000099]covert operations[/hyperlink][/bullet][/bulletlist]</Data></Cell><Cell
         ><Data
@@ -2451,7 +2454,7 @@
             ss:Type="String"
           >军械库</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="90"
+        ss:Height="150"
       ><Cell><Data ss:Type="String">INVENTORY</Data></Cell><Cell><Data
             ss:Type="String"
           >TEXT</Data></Cell><Cell><Data
@@ -2472,7 +2475,7 @@
         ss:Height="120"
       ><Cell><Data ss:Type="String">KINETIC_WEAPONS</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >The most conventional way of fighting wars for centuries still proves to be an effective way of doing so by making your enemies bleed before they can do it to you. The Firearms Weapons Group uses the Kinetic [DamagePhysical/] [hyperlink,000003AC00000290]Damage Channel[/hyperlink]. Firearms Weapon abilities include high-damage low-accuracy shots and cause bleeding.[br/][br/]Ethereal units are resistant to the Kinetic damage channel.</Data></Cell><Cell
         ><Data
@@ -2526,7 +2529,7 @@
         ss:Height="409.5"
       ><Cell><Data ss:Type="String">LANDMARKS</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Landmarks are remnants of important Star Union structures that still provide major advantages to players who manage to [hyperlink,000003BD00001316]Annex[/hyperlink] them to their [hyperlink,000003AC00000047]Colonies[/hyperlink]. Landmarks include large industrial complexes, ancient temples and secret research facilities.[br/][br/]Landmarks are rare [hyperlink,000003AC00000338]Dominant Locations[/hyperlink] found on the [hyperlink,000003AC000000CC]Strategic Map[/hyperlink]. They can offer great economic and military value when [hyperlink,000003BD00001316]Annexed[/hyperlink] to a [hyperlink,000003AC000000E0]Colony Center[/hyperlink].[br/][br/]Landmarks come in three variations:[br/][bulletlist][bullet]Bronze Landmarks: provide minor economic benefits and are quite common[/bullet][bullet]Silver Landmarks: provide subtantial economic benefits and are more rare[/bullet][bullet]Gold Landmarks: provide greater economic benefits and are very rare[/bullet][/bulletlist][br/][br/]Landmarks are bases that have a predetermined exploitation for one of the four main [hyperlink,0000039F00002DF4]Resources[/hyperlink]. Gold and Silver Landmarks automatically have the highest [hyperlink,000003AC000002B8]Sector Level[/hyperlink] in their [hyperlink,000003AC000002A6]Sector Exploitation[/hyperlink], while Bronze landmarks need to be levelled up just like regular sectors.[br/][br/]When a landmark is annexed, it will unlock special doctrines that the player can use for as long as the landmark is under their control.[br/][br/]Before Gold and Silver Landmarks can be annexed, their guards need to be removed. Clearing out Landmarks is made even more perilous because only a single [hyperlink,000003AC0000009B]Army[/hyperlink] can enter a structure to defeat the army lurking within.</Data></Cell><Cell
         ><Data
@@ -2544,7 +2547,7 @@
         ss:Height="105"
       ><Cell><Data ss:Type="String">LASER_WEAPONS</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Laser Weapons are great for setting things on fire and melting through armor and shields. The Laser Weapons Group uses the Thermal [DamageThermal/] [hyperlink,000003AC00000290]Damage Channel[/hyperlink]. Laser Weapon abilities include Shield Breaking, Blinding, and Burning targets.[br/][br/]Ethereal and Mineral units are resistant to Thermal damage; Plant units are weak to it.</Data></Cell><Cell
         ><Data
@@ -2578,7 +2581,7 @@
         ss:Height="75"
       ><Cell><Data ss:Type="String">LEVELING</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >When a [hyperlink,000003AC000000C1]Hero[/hyperlink] gains enough [hyperlink,000003AC000000A1]Experience[/hyperlink], they will level up, gaining 5 skill points that can be spent on [hyperlink,000003AC0000009F]Hero Upgrades[/hyperlink].</Data></Cell><Cell
         ><Data
@@ -2810,7 +2813,7 @@
         ss:Height="390"
       ><Cell><Data ss:Type="String">MORALE</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Morale represents a [hyperlink,000003AC0000009A]Unit’s[/hyperlink] general motivation, affecting its chance to [hyperlink,000003AC000002DC]Critically Hit or Fumble[/hyperlink] an attack. A unit’s current morale level can be found on the top right corner of its unit panel.[br/]The higher the morale level, the higher the chance for it to critically hit an enemy. The lower it gets, the higher the chance for the unit to fumble its attack. A unit might even [hyperlink,000003AC000002DF]Desert[/hyperlink] the army if its morale level is too low.[br/][br/]The following table shows the chance of a unit to critically hit or fumbling an attack based on their Morale.[br/][br/]  Unit Morale[tab/][largetab/][largetab/]   Critical/Fumble Chance[line/][br/][tab/] 200[happiness/][largetab/][largetab/][largetab/][tab/]{lowCritical}% Critical Chance[br/][tab/] 400[happiness/][largetab/][largetab/][largetab/][tab/]{mediumCritical}% Critical Chance[br/][tab/] 600[happiness/][largetab/][largetab/][largetab/][tab/]{highCritical}% Critical Chance[br/][br/][tab/]-200[anger/][largetab/][largetab/][largetab/][tab/]{lowFumble}% Fumble Chance[br/][tab/]-400[anger/][largetab/][largetab/][largetab/][tab/]{mediumFumble}% Fumble Chance[br/][tab/]-600[anger/][largetab/][largetab/][largetab/][tab/]{highFumble}% Fumble Chance[br/][br/]</Data></Cell><Cell
         ><Data
@@ -2828,7 +2831,7 @@
         ss:Height="255"
       ><Cell><Data ss:Type="String">MOVE_POINTS</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Move Points determine the distance a unit can move on the [hyperlink,000003AC000000CC]Strategic Map[/hyperlink] and in [hyperlink,000003AC0000025E]Tactical Combat[/hyperlink]. When an [hyperlink,000003AC0000028E]Army Moves[/hyperlink], each individual unit loses move points depending on the [hyperlink,000003AC000000BD]Hexes[/hyperlink] they move onto. The move points cost to move onto a hex depends on the hex’s [hyperlink,000003AC000000D1]Terrain[/hyperlink] and [hyperlink,000003BD00001313]Clime[/hyperlink].[br/]A [hyperlink,000003AC0000009A]Unit[/hyperlink] may have a [hyperlink,000003AC000000C6]Passive Ability[/hyperlink] or movement type that allows it to spend fewer move points than other units when moving in certain terrains or climes.[br/][br/]When moving an army, or while hovering over a hex, the move points [movewalk/] presented on the tooltip is the cost for a regular [hyperlink,0000034500000168]Land Moving[/hyperlink] unit to move onto that hex.</Data></Cell><Cell
         ><Data
@@ -2864,7 +2867,7 @@
         ss:Height="409.5"
       ><Cell><Data ss:Type="String">NEGOTIATION</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Using the Negotiation option in the Diplomacy interface, you can form and break treaties, and trade with others. A proposal is formed by adding items to the trade and then sending it to another player. The other player then can accept, decline or send a counter offer. [br/][br/]Accepting or declining the proposal will complete or cancel the trade and affect opinions based on the answer. A counter offer will send the proposal back to the other player. Using the “Balance trade offer” option, the proposal can be automatically balanced for both parties. When gifting items, the receiving player’s opinion towards the sending player raises depending on the value of the gift.[br/][br/]Negotiating has the following options:[bulletlist][bullet]Changing diplomatic state: both parties need to agree to improving the [hyperlink,000003AC0000003A]Diplomatic State[/hyperlink], but decreasing the diplomatic state is one sided and does not require consent from the other player.[/bullet][bullet]Forging or breaking diplomatic treaties: [hyperlink,000003AC000000EA]Diplomatic Treaties[/hyperlink] can be created and broken, following the same negotiation logic as diplomatic states.[/bullet][bullet]Overcoming Dislikes: [hyperlink,000003DD00000020]Dislikes[/hyperlink] can be traded away as a single use item, removing all negative opinions associated with them. [/bullet] [bullet]Forgiving [hyperlink,000003AC00000031]Casus Belli[/hyperlink]: Casus Belli can be traded away as a single proposal item, which removes all forgivable Casus Belli from a player. Note: some Casus Belli cannot be used in proposals.[/bullet][bullet]Exchanging [hyperlink,000003AC00000023]Energy[/hyperlink] and [hyperlink,0000039F000024D8]Cosmite[/hyperlink]: Energy or Cosmite can be directly exchanged or set up as a treaty where one or both players pay resources on every turn.[/bullet][bullet]Trading Province Sectors: Trading a [hyperlink,000003BD00001314]Province Sector[/hyperlink] instantly transfers its ownership and moves any stacks standing on the sector center away from it. Trading [hyperlink,000003AC00000047]Colonies[/hyperlink] will transfer both the colony core as well as any province sectors.[/bullet][/bulletlist] </Data></Cell><Cell
         ><Data
@@ -2918,7 +2921,7 @@
         ss:Height="165"
       ><Cell><Data ss:Type="String">NPC_FACTION_BASES</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >A [hyperlink,0000039A00000930]Dwelling[/hyperlink] can own a number of smaller outposts called NPC faction bases. These cannot be interacted with like regular dwellings, but still have all the interaction options of an NPC [hyperlink,000003AC0000009B]Army[/hyperlink] of that [hyperlink,0000039E00000075]Faction[/hyperlink].[br/][br/]NPC faction bases are [hyperlink,000003AC00000338]Dominant Locations[/hyperlink] that act like [hyperlink,0000039A00000928]Spawners[/hyperlink] for their faction, and will spawn armies to attack players with whom the faction is at [hyperlink,000003AC00000038]War[/hyperlink].</Data></Cell><Cell
         ><Data
@@ -2936,7 +2939,7 @@
         ss:Height="150"
       ><Cell><Data ss:Type="String">NPC_FACTION_GROWTH</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >[bulletlist][bullet][hyperlink,0000039E0000000E]Bio[/hyperlink] and [hyperlink,0000039E0000000F]Kinetic[/hyperlink] Damage Types[/bullet][bullet]Seeks to gather nutrients and launch a seed pod into space[/bullet][/bulletlist][br/][br/]ORIGIN: After being discovered on a distant world, the Growth was cultivated for its stimulating nectar by pharmaceutical companies. Unable to synthesize the drug, biodomes were built to produce nectar in large quantiles. After the Collapse, the Growth broke free overgrowing entire sectors for its goal to expand its biodiversity and spread to new worlds.</Data></Cell><Cell
         ><Data
@@ -2988,7 +2991,7 @@
         ss:AutoFitHeight="0"
         ss:Height="375"
       ><Cell><Data ss:Type="String">NPC_FACTION_RELATIONS</Data></Cell><Cell
-        ><Data ss:Type="String">TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+        ><Data ss:Type="String">TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >You have relations with the [hyperlink,0000039E00000075]NPC factions[/hyperlink] you have met on the planet. Improving these relations will allow you to take advantage of [hyperlink,000003AC00000279]Dwelling Trades[/hyperlink] and other benefits, whereas angering NPC factions will cause them to become hostile. By living at peace with NPC factions and integrating them, you work towards a unified planet, which is part of achieving the [hyperlink,000003AC0000026D]Unifier Victory[/hyperlink].[br/][br/]To meet an NPC faction, an army has to either move near them to talk or the player has to be contacted by them after encountering one of the NPC faction's armies. If met with a positive response, the [hyperlink,000003AC0000027F]relation state[/hyperlink] with the NPC faction will become Neutral. [br/][br/]Completing [hyperlink,000003AC000000D9]quests[/hyperlink] will increase the [hyperlink,000003AC0000033A]favor[/hyperlink] with that faction and when a certain amount of favor is obtained the relation state increases. Increasing the relation state allows the player to unlock a variety of benefits depending on the state, like having access to more Dwelling Trades.[br/][br/]Players can also choose to go to [hyperlink,000003AC00000284]war[/hyperlink] with an NPC faction to take their dwellings by force. While at war, the player cannot perform any quests or access the Dwelling Trades. Only a [hyperlink,000003AC00000308]peace deal[/hyperlink] can revert the relation state back to Neutral.</Data></Cell><Cell
         ><Data
@@ -3127,7 +3130,7 @@
             ss:Type="String"
           >行动防御[operationdefense/]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="210"
+        ss:Height="360"
       ><Cell><Data ss:Type="String">OPERATION_DEFENSE</Data></Cell><Cell><Data
             ss:Type="String"
           >TEXT</Data></Cell><Cell><Data
@@ -3149,7 +3152,7 @@
             ss:Type="String"
           >行动力量[operationstrength/]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="195"
+        ss:Height="345"
       ><Cell><Data ss:Type="String">OPERATION_STRENGTH</Data></Cell><Cell><Data
             ss:Type="String"
           >TEXT</Data></Cell><Cell><Data
@@ -3166,16 +3169,16 @@
       ><Cell><Data ss:Type="String">OPERATIONAL_COVERAGE</Data></Cell><Cell
         ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Operational Coverage</Data></Cell><Cell ss:StyleID="s73"><Data
+          >Operational Coverage</Data></Cell><Cell ss:StyleID="s74"><Data
             ss:Type="String"
           >行动覆盖范围</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="150"
       ><Cell><Data ss:Type="String">OPERATIONAL_COVERAGE</Data></Cell><Cell
-        ><Data ss:Type="String">TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+        ><Data ss:Type="String">TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Operational coverage is the range within which you can launch [hyperlink,0000039E00000073]Strategic Operations[/hyperlink] and [hyperlink,0000039E00000072]Tactical Operations[/hyperlink]. The coverage is directly linked to [hyperlink,000003AC000002FA]Vision[/hyperlink], so whatever you can see, you can target with an operation. This means that you will always be able to use operations in [hyperlink,000003AC0000025E]Tactical Combat[/hyperlink] unless a [hyperlink,000003AC00000314]Combat Effect[/hyperlink] states otherwise.</Data></Cell><Cell
-          ss:StyleID="s73"
+          ss:StyleID="s74"
         ><Data
             ss:Type="String"
           >行动覆盖范围是玩家能够发起[hyperlink,0000039E00000073]战略行动[/hyperlink]和[hyperlink,0000039E00000072]战术行动[/hyperlink]的范围。覆盖范围与[hyperlink,000003AC000002FA]视野[/hyperlink]直接相关，也就是说，玩家可以向任何可见的目标发起行动。这意味着玩家随时可以使用[hyperlink,000003AC0000025E]战术战斗[/hyperlink]中的行动，除非[hyperlink,000003AC00000314]战斗效果[/hyperlink]另有说明。</Data></Cell></Row><Row
@@ -3241,7 +3244,7 @@
         ss:Height="165"
       ><Cell><Data ss:Type="String">OPINIONS</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Opinion represents how a player empire views another and affects player’s actions towards each other. It is non-mutual and is unique for each relation. Opinion is used by [hyperlink,000003AC00000335]AI controlled[/hyperlink] players to determine the diplomatic actions they should take.[br/][br/]Most diplomatic actions, like [hyperlink,000003AC00000274]pronouncements[/hyperlink] and [hyperlink,000003AC000000E4]negotiations[/hyperlink], affect the opinion of the population. Increasing opinion can benefit negotiations while decreasing it could eventually lead to [hyperlink,000003AC00000038]war[/hyperlink]. </Data></Cell><Cell
         ><Data
@@ -3331,7 +3334,7 @@
         ss:Height="210"
       ><Cell><Data ss:Type="String">PERKS_AND_VICES</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >A [hyperlink,000003AC0000009D]commander's[/hyperlink] perks determine their personality and background, and give them starting bonuses and penalties. These perks are divided into 4 categories: [bulletlist][bullet]Background, a variety of global bonuses[/bullet][bullet]Commander Loadout, different sets of equipment for the commander[/bullet][bullet]Colony Supplement, improved starting conditions for colony or research[/bullet][bullet]Vices, a variety of penalties with small bonuses[/bullet][/bulletlist][br/]There are limited perk points to spend on perks. Better perks cost more points, and a commander can have only one perk per category.[br/][br/]Vices are unique in that they actually give perk points instead of costing any. These can then be used to get better perks in other categories. Vices give global penalties, so there is a trade-off to be made.</Data></Cell><Cell
         ><Data
@@ -3439,7 +3442,7 @@
         ss:Height="45"
       ><Cell><Data ss:Type="String">POPULATION</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >A colony’s population consists of the total number of [hyperlink,000003AC0000002D]Colonists[/hyperlink] in the [hyperlink,000003AC00000047]Colony[/hyperlink].</Data></Cell><Cell
         ><Data
@@ -3473,7 +3476,7 @@
         ss:Height="270"
       ><Cell><Data ss:Type="String">PRODUCTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Production is resource that is separate for each colony. It is used for building [hyperlink,000003AC00000299]Structures[/hyperlink] and [hyperlink,000003AC0000009A]Units[/hyperlink], see [hyperlink,000003AC00000298]Colony Production[/hyperlink].[br/][br/]Colonies can increase their production income by building production [hyperlink,000003AC000002A6]Sector Exploitations[/hyperlink] in their [hyperlink,000003BD00001314]Province Sectors[/hyperlink] and assigning [hyperlink,000003AC0000002D]Colonists[/hyperlink] to production [hyperlink,000003AC000002B6]Colonist Slots[/hyperlink].[br/][br/]Production can be instantly completed by spending [hyperlink,000003AC00000023]Energy[/hyperlink], using the [hyperlink,000003AC0000029D]Hurry Production[/hyperlink] button. Production can also be converted (at a loss) by using [hyperlink,000003AC0000029E]Generate Energy[/hyperlink] or [hyperlink,000003AC000002A9]Generate Research[/hyperlink].</Data></Cell><Cell
         ><Data
@@ -3563,7 +3566,7 @@
         ss:Height="135"
       ><Cell><Data ss:Type="String">PSIONIC_WEAPONS</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Psionic Weapons are the sinister forces from the Void manifested into weapons that can drive any being insane with agony. The Psionic Weapons Group uses the Psionic [DamagePsyche/] [hyperlink,000003AC00000290]Damage Channel[/hyperlink]. The Psionic damage channel ignores all armor, making it effective for dispatching heavily armored units that have few shields. Psionic Weapon abilities include Buffs, Debuffs, and Healing effects.[br/][br/]Ethereal and Mechanical units are resistant to Psionic damage.</Data></Cell><Cell
         ><Data
@@ -4074,7 +4077,7 @@
         ss:Height="240"
       ><Cell><Data ss:Type="String">RESOURCE_NODES</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Resource nodes are [hyperlink,000003AC000000CD]Locations[/hyperlink] on the [hyperlink,000003AC000000CC]Strategic Map[/hyperlink] that generate a steady income of one particular [hyperlink,0000039F00002DF4]Resource[/hyperlink]. To collect this income, the node must be in a [hyperlink,000003BD00001314]Province Sector[/hyperlink]. Note that it  does not require [hyperlink,000003AC0000002D]Colonists[/hyperlink] to be assigned to the resource.[br/][br/]A resource node with a hostile or neutral army on it is considered [hyperlink,000003AC000002EF]Occupied[/hyperlink], and will not yield any economic benefit to the player that owns it.[br/][br/]When a resource node is located in a [hyperlink,000003AC000002A6]Sector Exploitation[/hyperlink] of the same resource, it yields a synergy bonus.</Data></Cell><Cell
         ><Data
@@ -4209,7 +4212,7 @@
             ss:Type="String"
           >{XML_CELESTIAN_TECHGROUPS@CELESTIAN@DESC}[br/][br/]{XML_CELESTIAN_TECHGROUPS@CELESTIAN@FEATURES}[br/][br/]起源：星神修会建立在很久以前，那时灵能之力才刚刚开始在人类种族里觉醒。他们认为这是进化的新阶段，并且倡导内在的平静与启迪之道。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s74"
+          ss:StyleID="s75"
         ><Data
             ss:Type="String"
           >The text inserts are the CELESTIAN_TECHGROUPS@CELESTIAN@DESC and CELESTIAN_TECHGROUPS@CELESTIAN@FEATURES texts with some white space, from Cestian_TechGroups_Quotes.xml</Data></Cell></Row><Row
@@ -4248,7 +4251,7 @@
             ss:Type="String"
           >{XML_PROMETHEAN_TECHGROUPS@PROMETHEAN@DESC}[br/][br/]{XML_PROMETHEAN_TECHGROUPS@PROMETHEAN@FEATURES}[br/][br/]起源：星际联盟曾经设立圣火部，目的是为了净化星球中扰乱帝国稳定的威胁。圣火部门所使用的净化气体最初是用来焚烧感染了异星疫病的区域。不过有传言称，这种科技曾经还被用来平息反对叛乱的星球。星球被净化后，圣火使者会派出工程师和移住民迅速在废墟中重新建立殖民地。圣火部的纹章将给所有看见之人带去恐惧。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s74"
+          ss:StyleID="s75"
         ><Data
             ss:Type="String"
           >The text inserts are the PROMETHEAN_TECHGROUPS@PROMETHEAN@DESC and PROMETHEAN_TECHGROUPS@PROMETHEAN@FEATURES texts with some white space, from Promethean_TechGroups_Quotes.xml</Data></Cell></Row><Row
@@ -4269,7 +4272,7 @@
             ss:Type="String"
           >{XML_PSYNUMBRA_TECHGROUPS@PSYNUMBRA@DESC}[br/][br/]{XML_PSYNUMBRA_TECHGROUPS@PSYNUMBRA@FEATURES}[br/][br/]起源：赛努布拉是一个反灵能项目，目的是为了阻止灵能在民间的崛起并对抗拓荒者的灵能特工。通过唤起对象心中的负面情绪甚至将会使它们压制并主宰这些情绪的主人。在赛努布拉领袖开始汲取来自虚空之外的能量，使用灵能力量用于他们自己的黑暗目的时，这个项目便被关闭了。当赛努布拉首领从虚空之外的地方汲取能量并将灵能之力用于他们自己的黑暗目的时，这个项目便被关闭了。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s74"
+          ss:StyleID="s75"
         ><Data
             ss:Type="String"
           >The text inserts are the PSYNUMBRA_TECHGROUPS@PSYNUMBRA@DESC and PSYNUMBRA_TECHGROUPS@PSYNUMBRA@FEATURES texts with some white space, from Psynumbra_TechGroupQuotes.xml</Data></Cell></Row><Row
@@ -4290,7 +4293,7 @@
             ss:Type="String"
           >{XML_ARTIFICIAL_TECHGROUPS@ARTIFICIAL@DESC}[br/][br/]{XML_ARTIFICIAL_TECHGROUPS@ARTIFICIAL@FEATURES}[br/][br/]起源：合成科技由欧米茄集团研发，是一种来自星际联盟太空掠夺者阵营中的骇客主义黑暗亚文化。欧米茄集团黑入了核心的通讯网络，让系统背叛了核心和星际联盟并通过这种方式摆脱了核心的压迫。他们研发出了一种能够控制通讯网络中人工智能的科技，甚至还将自己的意识传输到了网络之中与人工智能融合。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s74"
+          ss:StyleID="s75"
         ><Data
             ss:Type="String"
           >The text inserts are the PSYNUMBRA_TECHGROUPS@PSYNUMBRA@DESC and PSYNUMBRA_TECHGROUPS@PSYNUMBRA@FEATURES texts with some white space, from Psynumbra_TechGroups_Quotes.xml</Data></Cell></Row><Row
@@ -4305,18 +4308,18 @@
         ss:Height="360"
       ><Cell><Data ss:Type="String">SECRET_TECH_VOIDTECH</Data></Cell><Cell
         ><Data ss:Type="String">TEXT</Data></Cell><Cell
-          ss:StyleID="s76"
+          ss:StyleID="s77"
           ss:HRef="mailto:%7BXML_VOIDTECH_TECHGROUPS@VOIDTECH@DESC%7D[br/%5d%5bbr/%5d%7BXML_VOIDTECH_TECHGROUPS@VOIDTECH@FEATURES%7D%5bbr/%5d%5bbr/%5dORIGIN: Voidtech was developed by a covert division of the Star Union&apos;s main science institute.%2"
         ><Data
             ss:Type="String"
           >{XML_VOIDTECH_TECHGROUPS@VOIDTECH@DESC}[br/][br/]{XML_VOIDTECH_TECHGROUPS@VOIDTECH@FEATURES}[br/][br/]ORIGIN: Voidtech was developed by a covert division of the Star Union's main science institute. It was created in order to find new applications for Void Travel hyperspace technology. Dimensional Manipulation was used to successfully transmit matter and energy, leading to the construction of cataclysmically powerful weapons.</Data></Cell><Cell
-          ss:StyleID="s76"
+          ss:StyleID="s77"
           ss:HRef="mailto:%7BXML_VOIDTECH_TECHGROUPS@VOIDTECH@DESC%7D[br/%5d%5bbr/%5d%7BXML_VOIDTECH_TECHGROUPS@VOIDTECH@FEATURES%7D%5bbr/%5d%5bbr/%5d起源：虚空科技由星际联盟主科学研究所的秘密部门研发，目的是为了寻找虚空旅行多维科技的新型应用方法。维度操控曾成功用来传输物质和能量，从而导致了拥有毁灭力量的武器诞生。"
         ><Data
             ss:Type="String"
           >{XML_VOIDTECH_TECHGROUPS@VOIDTECH@DESC}[br/][br/]{XML_VOIDTECH_TECHGROUPS@VOIDTECH@FEATURES}[br/][br/]来源：虚空科技是由星际联盟主要科学研究所中的一个秘密部门开发出来的。开发此技术的目的是为虚空旅行超空间技术找到新的用途。使用维度操控来传输物质与能量已取得成功，这导致能毁天灭地的强大武器被制造了出来。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s74"
+          ss:StyleID="s75"
         ><Data
             ss:Type="String"
           >Text insert are the ARTIFICIAL_TECHGROUPS@ARTIFICIAL@DESC and ARTIFICIAL_TECHGROUPS@ARTIFICIAL@FEATURES texts with some white space, from Artificial_TechGroups_Quotes.xml</Data></Cell></Row><Row
@@ -4337,7 +4340,7 @@
             ss:Type="String"
           >{XML_XENOPLAGUE_TECHGROUPS@XENOPLAGUE@DESC}[br/][br/]{XML_XENOPLAGUE_TECHGROUPS@XENOPLAGUE@FEATURES}[br/][br/]起源：数个世纪以前，一支探险队发现了一种被称为“初始毒株“的外星生物。这是一种能够将宿主与自己的 DNA 相互融合的寄生物，并在其生命周期内将会收集大量物种的特征。星际联盟用这种寄生物来提升精英士兵的生理机能，或是利用其可怕的异变来感染敌人。[br/][br/]他们研发的生物武器具有高度侵略性。寄生物将细胞注入宿主，细胞会使用具有腐蚀性的胆汁吞噬周围的生物物质。这一过程导致了一种的被称为异星疾病的可怕梦魇在星球上疯狂传播。当异星疫病的爆发使一些星球变成了悸动的生物地狱后，进一步的研究遭到了禁止。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s74"
+          ss:StyleID="s75"
         ><Data
             ss:Type="String"
           >Text inserts are the XENOPLAGUE_TECHGROUPS@XENOPLAGUE@DESC and XENOPLAGUE_TECHGROUPS@XENOPLAGUE@FEATURES texts with some white space, from Xenoplague_TechGroups_Quotes.cml</Data></Cell></Row><Row
@@ -4350,7 +4353,7 @@
             ss:Type="String"
           >秘密科技</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="270"
+        ss:Height="75"
       ><Cell><Data ss:Type="String">SECRET_TECHNOLOGY</Data></Cell><Cell><Data
             ss:Type="String"
           >TEXT</Data></Cell><Cell><Data
@@ -4371,7 +4374,7 @@
         ss:Height="270"
       ><Cell><Data ss:Type="String">SECTOR_CLAIMS</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Unowned Sectors adjacent to owned [hyperlink,000003AC000002E4]domain[/hyperlink] are automatically claimed by that player or NPC faction. A claim on a sector means an intent of expanding there. There can be multiple claims on a single sector. Ignoring a claim by trying to settle in a claimed sector has consequences.[br/][br/]Whenever a claim by a player is ignored, they receive [hyperlink,000003AC00000031]Casus Belli[/hyperlink] points against the invading player. In addition, their opinion towards the invading player is lowered. Players can form a [hyperlink,000003AC00000331]Good Neighbors pact[/hyperlink] to avoid getting these penalties.[br/][br/]If a claim by an NPC faction is ignored, they will send [hyperlink,000003AC00000276]demands[/hyperlink] to the invading player as compensation. Players in a [hyperlink,000003AC00000280]Integration[/hyperlink] relation state with the NPC faction can safely settle in their claimed sectors.</Data></Cell><Cell
         ><Data
@@ -4407,7 +4410,7 @@
         ss:Height="409.5"
       ><Cell><Data ss:Type="String">SECTOR_EXPLOITATION</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >After a [hyperlink,0000039E00000076]Sector[/hyperlink] has been [hyperlink,000003BD00001316]Annexed[/hyperlink] as a [hyperlink,000003BD00001314]Province Sector[/hyperlink], it can be exploited for economic gains by building a sector exploitation in that sector via the ‘Sector Production Tab’ in the [hyperlink,000003AC000000E0]Colony Center[/hyperlink] interface. [br/][br/]Building a sector exploitation provides a strong economic boost to the [hyperlink,000003AC00000047]Colony[/hyperlink]. The higher the province sector’s [hyperlink,000003AC000002B8]Sector Level[/hyperlink] is, the stronger the economic bonuses from the sector exploitation.[br/][br/]When building a sector exploitation, it is important to match it with the [hyperlink,000003BD00001313]Clime[/hyperlink] and [hyperlink,000003AC000000D1]Terrain[/hyperlink] features of the [hyperlink,0000039E00000076]Sector[/hyperlink], as there are [hyperlink,000003AC000000C9]Research[/hyperlink] upgrades which provide [hyperlink,000003AC00000299]Structures[/hyperlink] that can boost the sector level significantly as the game progresses, booming your economy. [br/][br/]Sectors containing a [hyperlink,0000039E0000007A]Landmark[/hyperlink] or [hyperlink,0000039A00000930]Dwelling[/hyperlink] have a pre-set, maximum level sector exploitation.[br/][br/]A province sector can only contain one sector exploitation:[br/][bulletlist][bullet][hyperlink,000003B5000006FA]Energy Exploitation[/hyperlink][/bullet][br/][bullet][hyperlink,000003B50000080C]Food Exploitation[/hyperlink][/bullet][br/][bullet][hyperlink,000003B5000007A7]Production Exploitation[/hyperlink][/bullet][br/][bullet][hyperlink,000003B5000007C2]Research Exploitation[/hyperlink][/bullet][br/][bullet][hyperlink,000003B500000991]Water Exploitation[/hyperlink][/bullet][/bulletlist][br/][br/]A sector exploitation can be [hyperlink,000003AC000002A7]Specialized[/hyperlink] by making a mutually-exclusive production choice in the colony center sector production tab, providing unique bonuses.[br/][br/]It is advisable for a starting colony to have multiple different exploitations to remain less specialized, whereas in the mid- to late-game, a larger empire can benefit more from having colonies that are more focused on a specific resource.</Data></Cell><Cell
         ><Data
@@ -4459,7 +4462,7 @@
         ss:AutoFitHeight="0"
         ss:Height="300"
       ><Cell><Data ss:Type="String">SECTOR_SPECIALIZATION</Data></Cell><Cell
-        ><Data ss:Type="String">TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+        ><Data ss:Type="String">TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >A [hyperlink,000003BD00001314]Province Sector[/hyperlink] that is being [hyperlink,000003AC000002A6]Exploited[/hyperlink] can then be specialized for additional bonuses by building a sector specialization structure. Sector specializations provide unique bonuses to a [hyperlink,000003AC00000047]Colony[/hyperlink] that scale with the [hyperlink,000003AC000002B8]Sector Levels[/hyperlink] of the sector they are in. For example, a sector exploited for production can be specialized to provide bonuses to unit production or structure production.[br/][br/]Sector specializations are unlocked through [hyperlink,000003AC000000C9]Research[/hyperlink]. There are four sector specialization options per sector exploitation type; two get unlocked at Tier 2, the others are unlocked at Tier 8 in the [hyperlink,000003AC00000263]Society Research Tree[/hyperlink] tree.[br/][br/]An exploited sector can only contain one sector specialization, and each sector specialization can only be built in a sector with its matching sector exploitation.[br/][br/]Sector specializations are unique to a colony, meaning a colony can never have more then one of the same sector specialization among all its province sectors.</Data></Cell><Cell
         ><Data
@@ -4481,7 +4484,7 @@
         ss:Height="409.5"
       ><Cell><Data ss:Type="String">SECTORS</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >The planet is divided into sectors, each containing one or more identifying features. Sectors are themed around geography, or a particular landmark of the fallen Star Union. Sectors are very important for the economy of any [hyperlink,000003AC00000047]Colony[/hyperlink], as they can be annexed and subsequently exploited to generate [hyperlink,0000039F00002DF4]Resources[/hyperlink].[br/][br/]The features of a sector affect how it can be exploited:[br/][bulletList][bullet]A single [hyperlink,000003BD00001313]Clime Feature[/hyperlink] determines the overall climate of a sector. Climes are arid, arctic, etc.[/bullet][bullet]A single dominant [hyperlink,000003AC000000D1]Terrain Feature[/hyperlink], such as mountains, forest etc.[/bullet][bullet][hyperlink,000003AC000000CD]Locations[/hyperlink] such as [hyperlink,0000039E0000007A]Landmarks[/hyperlink], [hyperlink,0000039A00000930]Dwellings[/hyperlink] and [hyperlink,0000039A00000924]Resource Nodes[/hyperlink] that provide flat income, as well as other structures like [hyperlink,0000039A00000925]Visit Sites[/hyperlink], [hyperlink,0000039C00001C1A]Hazards[/hyperlink] and [hyperlink,0000039A00000928]Spawners[/hyperlink] that have strategic effects.[/bullet][/bulletList][br/][br/]Sectors can be owned by [hyperlink,000003AC00000336]Players[/hyperlink], as well as by [hyperlink,0000039E00000075]NPC Factions[/hyperlink] and [hyperlink,000003AC000000A3]Marauders[/hyperlink].[br/][br/]When a sector is [hyperlink,000003BD00001316]Annexed[/hyperlink] to a colony, it becomes a [hyperlink,000003BD000016D5]Province Sector[/hyperlink] and  adds its income to that colony.[br/][br/]Sectors can also be [hyperlink,000003A600000329]Claimed[/hyperlink] by both Players and Non-Player Factions.[br/][br/]The sector banner is found in the middle of a sector, and clicking on it will open the sector information panel. In this panel, all the information about the sector can be found, as well as any interactions that can be undertaken.</Data></Cell><Cell
         ><Data
@@ -4535,7 +4538,7 @@
         ss:Height="375"
       ><Cell><Data ss:Type="String">SPAWNERS</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Spawners are the home bases of the various kinds of [hyperlink,000003AC000000A3]Marauder[/hyperlink] armies that can be found spread over the surface of a planet. These can be wildlife nests swarming with monsters, or pirate hideouts filled with morally ambiguous profiteers. To get rid of the marauder threat in an area, the spawner must be located and destroyed.[br/][br/]Spawners are [hyperlink,000003AC00000338]Dominant Locations[/hyperlink] on the [hyperlink,000003AC000000CC]Strategic Map[/hyperlink] that can be found in any [hyperlink,0000039E00000076]Sectors[/hyperlink]. They are defended by Marauder [hyperlink,000003AC0000009B]Armies[/hyperlink]. Spawners are automatically [hyperlink,000003AC000002A1]Razed[/hyperlink] when they are explored.[br/][br/]Spawners are always hostile, and will periodically spawn [hyperlink,000003AC0000009B]Armies[/hyperlink] that roam nearby sectors and attack [hyperlink,000003AC00000336]Player[/hyperlink] armies. If there are [hyperlink,000003BD00001314]Province Sectors[/hyperlink] within their roaming radius, those armies may occupy nodes within them, assault and capture the [hyperlink,000003BD000016D6]Province Base[/hyperlink], or even assault and capture the [hyperlink,000003AC000000E0]Colony Center[/hyperlink].</Data></Cell><Cell
         ><Data
@@ -4604,7 +4607,7 @@
             ss:Type="String"
           >动摇</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="225"
+        ss:Height="409.5"
       ><Cell><Data ss:Type="String">STAGGER</Data></Cell><Cell><Data
             ss:Type="String"
           >TEXT</Data></Cell><Cell><Data
@@ -4627,7 +4630,7 @@
         ss:AutoFitHeight="0"
         ss:Height="240"
       ><Cell><Data ss:Type="String">STATEOFVISION_FOG_OF_WAR</Data></Cell><Cell
-        ><Data ss:Type="String">TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+        ><Data ss:Type="String">TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >[hyperlink,000003AC000000BD]Hexes[/hyperlink] on the [hyperlink,000003AC000000CC]Strategic Map[/hyperlink] that have been explored but are not currently in sight range of a [hyperlink,000003AC0000009A]Unit[/hyperlink] or [hyperlink,000003AC000000CD]Location[/hyperlink] belonging to the [hyperlink,000003AC00000336]Player[/hyperlink] or their [hyperlink,000003AC00000034]Allies[/hyperlink] are covered in fog of war. The planet’s surface is still visible through the fog of war, including all [hyperlink,000003AC000000D1]Terrain[/hyperlink], [hyperlink,000003BD00001313]Clime[/hyperlink] and locations, but unowned [hyperlink,000003AC0000009A]Units[/hyperlink] are not visible in the fog of war. [hyperlink,000003AC0000031A]Scanning[/hyperlink] can provide information on unit movement and position within the fog of war.</Data></Cell><Cell
         ><Data
@@ -4761,7 +4764,7 @@
         ss:Height="409.5"
       ><Cell><Data ss:Type="String">STRATEGIC_MAP</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >The strategic map shows the current [hyperlink,000003AC0000033F]planet[/hyperlink], ripe for exploration and exploitation in order to prosper and to learn from the remnants of the Star Union. During strategic map gameplay, colonies can be managed, armies can be moved and strategies can be formed to defeat opposing players. [br/][br/]At the start of a game, the strategic map is mostly unexplored and is covered in [hyperlink,000003AC000002FE]Fog of War[/hyperlink]. By [hyperlink,000003AC0000028E]moving armies[/hyperlink], the planet will slowly be explored and change the [hyperlink,000003AC000002FA]states of vision[/hyperlink] over the planet. This is also represented through the minimap, shown on the bottom-right, which shows a clear overview of the explored parts of the planet. Zooming out shows a larger overview.[br/][br/]Important actions part of strategic map gameplay include:[bulletlist][bullet]Managing [hyperlink,000003AC00000047]colonies[/hyperlink][/bullet][bullet][hyperlink,000003BD00001316]Expanding domain[/hyperlink][/bullet][bullet]Engaging in [hyperlink,000003AC00000330]diplomacy[/hyperlink][/bullet][bullet]Triggering [hyperlink,000003AC0000025E]combat[/hyperlink][/bullet][bullet]Exploring [hyperlink,000003AC000000CD]locations[/hyperlink][/bullet][/bulletlist][br/][br/]For other important actions, keep track of the [hyperlink,000003AC000000B9]Event Notifier[/hyperlink], which shows all relevant events that are still available for that [hyperlink,000003AC0000002E]turn[/hyperlink].</Data></Cell><Cell
         ><Data
@@ -4799,7 +4802,7 @@
         ss:AutoFitHeight="0"
         ss:Height="390"
       ><Cell><Data ss:Type="String">STRATEGIC_OPERATIONS</Data></Cell><Cell
-        ><Data ss:Type="String">TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+        ><Data ss:Type="String">TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Strategic operations can be used to, for example, weaken enemy [hyperlink,000003AC0000009B]Armies[/hyperlink] by bombarding them or to boost your [hyperlink,000003AC00000047]Colonies[/hyperlink], among other things. These operations can only be launched on the [hyperlink,000003AC000000CC]Strategic Map[/hyperlink].[br/][br/]Some strategic operations make use of [hyperlink,000003AC00000312]Operational Effectiveness[/hyperlink] but this only applies when they are offensive operations that target an enemy or will affect another player in the targeted sector.[br/][br/]In order to use Strategic Operations they first have to be primed. This costs [hyperlink,000003AC0000002B]Strategic Operation Points[/hyperlink] and energy and after priming the operation can be launched at any target within [hyperlink,000003BD00001315]Operational Coverage[/hyperlink].[br/][br/]Some of these operations require more strategic operation points that you have available. In these instances, the operation will use Strategic Operation Points on every following turn until it has accumulated enough to be primed. The types of available Strategic Operations depend on which race and secret tech you picked.[br/][br/]Strategic operations can be used on any valid target where you have [hyperlink,000003AC000002FA]Vision[/hyperlink]. This area is called [hyperlink,000003BD00001315]Operational Coverage[/hyperlink].</Data></Cell><Cell
         ><Data
@@ -4905,7 +4908,7 @@
         ss:Height="195"
       ><Cell><Data ss:Type="String">TACTICAL_OPERATIONS</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Tactical operations can only be used during combat, and will allow you to swing the course of battle to your favor by calling in damaging strikes or off-map reinforcements.[br/][br/]Your tactical operations always take one turn to prime at the start of each combat before you can launch them, and you first need to have enough [hyperlink,000003AC0000002C]Tactical Operation Points[/hyperlink], energy and [hyperlink,000003BD00001315]Operational Coverage[/hyperlink].[br/][br/]The supply of tactical operations is dependent on which race and secret tech you  picked. Your race also adds operations linked to the [hyperlink,000003AC00000265]Weapon Tech Groups[/hyperlink] that come with it.</Data></Cell><Cell
         ><Data
@@ -4923,7 +4926,7 @@
         ss:Height="270"
       ><Cell><Data ss:Type="String">TASK_NOTIFIER</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >The task notifier is a useful tool that keeps track of the available actions a [hyperlink,000003AC00000336]Player[/hyperlink] can take during their turn, including [hyperlink,000003AC000002E5]Events[/hyperlink]. It will remind the player about armies that have remaining [hyperlink,000003AC000000DC]Move Points[/hyperlink], [hyperlink,000003AC00000047]Colonies[/hyperlink] currently lacking a [hyperlink,000003AC0000003F]Production[/hyperlink] project, [hyperlink,000003AC000000C9]Research[/hyperlink] needing to be set, etc.[br/][br/]Selecting a message from the task notifier will center the player’s camera on the relevant location or will open the relevant interface. Dismissing a task will add it to the back of the queue so that the [hyperlink,000003AC00000336]Player[/hyperlink] can handle it at a later time.[br/][br/]The task notifier is located directly above the [hyperlink,000003AC000002E0]Minimap[/hyperlink], underneath the [hyperlink,000003AC000000B7]Event List[/hyperlink].</Data></Cell><Cell
         ><Data
@@ -4995,7 +4998,7 @@
         ss:Height="409.5"
       ><Cell><Data ss:Type="String">TERRAIN</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >A [hyperlink,0000039E00000076]Sector[/hyperlink] can contain a terrain feature which is associated with two of the main [hyperlink,0000039F00002DF4]Resources[/hyperlink] and provides it with economic potential that can be unlocked via [hyperlink,000003AC000000C9]Research[/hyperlink]. A sector can only have one main terrain feature.[br/][br/]The main terrain types and their associated resources are:[br/][bulletList][bullet][hyperlink,000003AC000002C0]Fertile Plains[/hyperlink][largetab/]([hyperlink,000003AC00000022]Food[/hyperlink] and [hyperlink,000003AC00000025]Knowledge[/hyperlink])[/bullet][bullet][hyperlink,000003AC000002C2]Forest[/hyperlink][largetab/][largetab/][largetab/]([hyperlink,000003AC00000022]Food[/hyperlink] and [hyperlink,000003AC0000003F]Production[/hyperlink])[/bullet][bullet][hyperlink,000003AC000002C1]Mountainous[/hyperlink][largetab/][largetab/]([hyperlink,000003AC0000003F]Production[/hyperlink] and [hyperlink,000003AC00000023]Energy[/hyperlink])[/bullet][bullet][hyperlink,000003AC000002C3]Ruins[/hyperlink][largetab/][largetab/][largetab/]([hyperlink,000003AC00000023]Energy[/hyperlink] and [hyperlink,000003AC00000025]Knowledge[/hyperlink])[/bullet][/bulletList][br/][br/]Different terrain features cost different numbers of [hyperlink,000003AC000000DC]Move Points[/hyperlink] when moves through. Through research, faster movement through terrain can be achieved.[br/][br/]A sector also contains one [hyperlink,000003BD00001313]Clime[/hyperlink], as well as any number of [hyperlink,000003AC000002BB]Special Features[/hyperlink].</Data></Cell><Cell
         ><Data
@@ -5120,7 +5123,7 @@
             ss:Type="String"
           >条约</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="409.5"
+        ss:Height="315"
       ><Cell><Data ss:Type="String">TREATIES</Data></Cell><Cell><Data
             ss:Type="String"
           >TEXT</Data></Cell><Cell><Data
@@ -5267,7 +5270,7 @@
         ss:Height="210"
       ><Cell><Data ss:Type="String">TURN</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Gameplay is turn-based both [hyperlink,000003AC000000CC]strategic map[/hyperlink] and in [hyperlink,000003AC0000025E]tactical combat[/hyperlink]. This means that a limited number of actions can be performed before moving on to the next turn. This process is then repeated. Certain actions require multiple turns to complete, indicated by the [turn/] icon.[br/][br/]Most relevant actions are suggested through the [hyperlink,000003AC000000B9]Event Notifier[/hyperlink]. “End Turn” will be shown as an event when no more suggested actions can be performed that turn. Ending the turn will not allow any further actions until the player’s next turn, except if they need to handle an incoming attack.[br/][br/]See [hyperlink,000003AC00000304]Turns and Rounds[/hyperlink] for more information.</Data></Cell><Cell
         ><Data
@@ -5425,7 +5428,7 @@
             ss:Type="String"
           >TEXT</Data></Cell><Cell><Data
             ss:Type="String"
-          >[hyperlink,0000039E00000076]Sectors[/hyperlink] that are marked as uninhabitable cannot be colonized, nor can they be [hyperlink,000003BD00001316]Annexed[/hyperlink] to a [hyperlink,000003AC00000047]Colony[/hyperlink].[br/][br/]The most common types of uninhabitable sectors are [hyperlink,000003AC00000325]Ocean[/hyperlink] and full mountain sectors.[br/][br/]Sectors that can be colonized are marked as a [hyperlink,000003AC000002D6]Potential Colony Location[/hyperlink]. Certain uninhabitable sectors can be made habitable, such as with the [hyperlink,0000039E0000001A]Dvar[/hyperlink]’s ability to level mountains to to create habitable sectors.</Data></Cell><Cell
+          >[hyperlink,0000039E00000076]Sectors[/hyperlink] that are marked as uninhabitable cannot be colonized, nor can they be [hyperlink,000003BD00001316]Annexed[/hyperlink] to a [hyperlink,000003AC00000047]Colony[/hyperlink].[br/][br/]The most common types of uninhabitable sectors are [hyperlink,000003AC00000325]Ocean[/hyperlink] and full mountain sectors.[br/][br/]Sectors that can be colonized are marked as a [hyperlink,000003AC000002D6]Potential Colony Location[/hyperlink]. Certain uninhabitable sectors can be made habitable, such as with the [hyperlink,0000039E0000001A]Dvar[/hyperlink]’s ability to level mountains to create habitable sectors.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >无法在被标记为不宜居的[hyperlink,0000039E00000076]区域[/hyperlink]内建立殖民地，不宜居区域也无法被[hyperlink,000003BD00001316]吞并[/hyperlink]至[hyperlink,000003AC00000047]殖民地[/hyperlink]。[br/][br/]最常见的不宜居区域为[hyperlink,000003AC00000325]海洋[/hyperlink]和全山地区域。[br/][br/]可开拓为殖民地的区域将会被标记为[hyperlink,000003AC000002D6]潜在殖民地点[/hyperlink]。某些不宜居区域也可以被转变成宜居区域，比如[hyperlink,0000039E0000001A]矮人[/hyperlink]能够将山地夷平，从而创造出宜居的区域。</Data></Cell></Row><Row
@@ -5438,7 +5441,7 @@
             ss:Type="String"
           >单位军阶</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="255"
+        ss:Height="135"
       ><Cell><Data ss:Type="String">UNIT_LEVEL</Data></Cell><Cell><Data
             ss:Type="String"
           >TEXT</Data></Cell><Cell><Data
@@ -5459,7 +5462,7 @@
         ss:Height="409.5"
       ><Cell><Data ss:Type="String">UNIT_MODS</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >[hyperlink,000003AC0000009A]Unit[/hyperlink] mods are upgrades that are equipped on units and [hyperlink,000003AC000000C1]Heroes[/hyperlink], enhancing their [hyperlink,000003AC000000A8]Abilities[/hyperlink] or giving them new ones. These mods can make even the smallest of units relevant through the late game.[br/]Unit mods are unlocked through [hyperlink,000003AC000000C9]Research[/hyperlink] and [hyperlink,000003AC00000279]NPC Dwelling Trading[/hyperlink]. Once they are unlocked, they are permanently owned and can be equipped on a unit whose abilities and [hyperlink,0000039F00002DF1]Unit Type[/hyperlink] allow the use of the mod. Equipping a mod costs [hyperlink,000003AC00000023]Energy[/hyperlink][energy/] and [hyperlink,0000039F000024D8]Cosmite[/hyperlink][tricorium/]. The higher the [hyperlink,000003AC000000D3]Tier[/hyperlink] of the unit, the higher the cost of equipping them with a mod.[br/]All mods come with a small bonus to a unit’s [hyperlink,000003AC000002F6]Armor and Shields[/hyperlink], [hyperlink,000003AC0000030E]Hit Points[/hyperlink] or attack [hyperlink,000003AC00000292]Damage[/hyperlink].[br/][br/]A unit that is modded is called a [hyperlink,000003AC0000029C]Unit Variant[/hyperlink]. You can make blueprints for variants either by directly modifying an existing unit, or from within the unit production list of a [hyperlink,000003AC00000047]Colony[/hyperlink].[br/][br/]Note that, if a mod is added to a unit on the [hyperlink,000003AC000000CC]Strategic Map[/hyperlink], the unit will need to wait a turn for the new mods to be applied. During this time, the unit’s mods will be disabled and it will deal 25% less damage.</Data></Cell><Cell
         ><Data
@@ -5468,7 +5471,7 @@
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">UNIT_ROLE</Data></Cell><Cell><Data
             ss:Type="String"
-          >NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+          >NAME</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Unit Role</Data></Cell><Cell><Data
             ss:Type="String"
@@ -5477,7 +5480,7 @@
         ss:Height="150"
       ><Cell><Data ss:Type="String">UNIT_ROLE</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Units in the game are distributed amongst several roles. These help players determine the general function of a unit and which [hyperlink,000003AC000002A4]Unit Unlock Structure[/hyperlink] they need to be built, if any.[br/][br/]Unit Roles:[br/][hyperlink,000003AC0000029B]Core Units[/hyperlink] and [hyperlink,0000039F00002DF6]Colonizers[/hyperlink][br/][hyperlink,000003AC0000028A]Specialists[/hyperlink][br/][hyperlink,000003AC0000028B]Skirmishers[/hyperlink][br/][hyperlink,000003AC0000028C]Elites[/hyperlink]</Data></Cell><Cell
         ><Data
@@ -5504,7 +5507,7 @@
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">UNIT_TYPES</Data></Cell><Cell><Data
             ss:Type="String"
-          >NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+          >NAME</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Unit Types</Data></Cell><Cell><Data
             ss:Type="String"
@@ -5513,7 +5516,7 @@
         ss:Height="409.5"
       ><Cell><Data ss:Type="String">UNIT_TYPES</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >[hyperlink,000003AC0000009A]Units[/hyperlink] have various types that determine which [hyperlink,000003AC000000CB]Status Effects[/hyperlink] they can suffer from, which [hyperlink,0000039E00000063]Mods[/hyperlink] they can equip, and what their [hyperlink,000003AC000002F5]Resistances and Weakness[/hyperlink] are.[br/][br/]The following are the major unit types and any special properties they provide to the unit.[br/][line/][br/][br/][xpcol]Biological:[/xpcol] Simple carbon based lifeforms.The most common unit type.[br/][line/][br/][br/][xpcol]Cyborg:[/xpcol] Made of both Biological and Mechanical parts. Has inherent resistance to status effects, but can be affected by both Mechanical and Biological effects.[br/][line/][br/][br/][xpcol]Mechanical[/xpcol]: Unit made of mostly Mechanical parts. Resistant to [damagepsyche/]Psionic Damage, Weak to [damagewave/]Arc Damage.[br/][line/][br/][br/][xpcol]Mineral:[/xpcol] Silicon-based lifeforms, made of crystals and solidified magma. Resistant to [damagewave/]Arc and [damagethermal/]Thermal Damage, Weak to [damagebio/]Biochemical Damage. Immune to damage over time effects.[br/][line/][br/][br/][xpcol]Plant:[/xpcol] Sapient plant life. Resistant to [damagewave/]Arc Damage, weak to [damagethermal/]Thermal Damage.[br/][line/][br/][br/][xpcol]Mindless:[/xpcol] Unit without a working organic mind. Immune to [strengthpsyche/]Psionic Effects and [happiness/]Morale changes.[br/][line/][br/][br/][xpcol]Ethereal:[/xpcol] Lifeforms without a completely physical body. Resistant to [damagephysical/]Kinetic, [damagebio/]Biochemical and [damagewave/]Arc Damage. Immune to non-Psionic Status Effects.[br/][br/]</Data></Cell><Cell
         ><Data
@@ -5544,10 +5547,10 @@
             ss:Type="String"
           >单位维持消耗</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-        ss:Height="390"
+        ss:Height="360"
       ><Cell><Data ss:Type="String">UNIT_UPKEEP</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Each [hyperlink,000003AC0000009A]Unit[/hyperlink] requires an amount of [hyperlink,000003AC00000023]Energy[/hyperlink] to maintain it, and higher [hyperlink,000003AC000000D3]Tier[/hyperlink] units may also require [hyperlink,0000039F000024D8]Cosmite[/hyperlink]. If a player is unable to pay their units’ upkeep, their units will get a [hyperlink,000003AC000000C3]Morale[/hyperlink] penalty of -800 and will have a chance of [hyperlink,000003AC000002DF]Deserting[/hyperlink].[br/][br/]A unit’s upkeep can be found on its unit panel or on the tooltip in the [hyperlink,000003AC00000047]Colony[/hyperlink], when producing the unit.[br/]The [hyperlink,000003AC000000D3]Unit Tier[/hyperlink] is the basis for its upkeep. The costs per unit of a specific tier is as follows:[br/][br/]Unit Tier[largetab/][largetab/][largetab/]Unit Upkeep Cost[br/][line/][br/]Tier I[largetab/][largetab/][largetab/][largetab/][largetab/]4[energy/][br/]Tier II[largetab/][largetab/][largetab/][largetab/] 8[energy/][br/]Tier III[largetab/][largetab/][largetab/][largetab/]12[energy/][br/]Tier IV[largetab/][largetab/][largetab/][largetab/]24[energy/]4[tricorium/][br/][line/][br/][br/]If a player no longer wants to pay a unit’s upkeep, they can always [hyperlink,000003AC000002E3]Disband[/hyperlink] the unit.</Data></Cell><Cell
         ><Data
@@ -5583,7 +5586,7 @@
         ss:Height="330"
       ><Cell><Data ss:Type="String">UNITS</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Units are the forces that make up your [hyperlink,000003AC0000009B]Armies[/hyperlink]. You use them to explore the planet, interact with locations and fight battles for resources and supremacy. Units can be produced at [hyperlink,000003AC00000047]Colonies[/hyperlink]. Some units require [hyperlink,000003AC000002A4]Unit Unlock Structures[/hyperlink] in the colony before they can be produced there. You can research new units in the [hyperlink,000003AC000000CA]Research tree[/hyperlink].[br/][br/]Units have [hyperlink,000003AC000000A8]Abilities[/hyperlink] that dictate their function and utility in battle. You can further customize your units with unit mods. These mods can enhance a unit’s abilities, or even give them new ones.[br/][br/]Each unit also has their own [hyperlink,000003AC000000D3]Unit Tier[/hyperlink], which serves as an indicator of its average combat capability. Higher tier units have a higher [hyperlink,000003AC000000D4]Unit Upkeep[/hyperlink], making them more expensive to maintain.[br/][br/]Units that participate in battle gain [hyperlink,000003AC000000A1]Experience[/hyperlink], which will increase their [hyperlink,000003AC000000A2]Unit Rank[/hyperlink] over time, granting them minor bonuses.</Data></Cell><Cell
         ><Data
@@ -5637,7 +5640,7 @@
         ss:Height="255"
       ><Cell><Data ss:Type="String">VASSALAGE</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >A player is under vassalage when they have declared their loyalty to another player. A vassalage can be achieved within any Diplomatic State, if the player feels confident enough. In a vassalage, one player is the [hyperlink,000003AC000002F4]overlord[/hyperlink] and the other the vassal. [br/][br/] During a vassalage, the players are locked into an alliance with limited diplomatic options:[bulletlist][bullet]Only the overlord can break the [hyperlink,000003AC00000034]alliance[/hyperlink] by declaring war[/bullet][bullet]Players can no longer [hyperlink,000003AC000000E7]denounce[/hyperlink] or warn others about each other[/bullet][bullet]Only the overlord may [hyperlink,000003AC00000310]call the vassal to war[/hyperlink], and the vassal must always accept[/bullet][bullet]The [hyperlink,000003AC00000341]vassal[/hyperlink] cannot break [hyperlink,000003AC000000EA]treaties[/hyperlink] with their overlord[/bullet][/bulletlist] </Data></Cell><Cell
         ><Data
@@ -5675,7 +5678,7 @@
         ss:Height="180"
       ><Cell><Data ss:Type="String">VICTORY</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Victory is achieved when a [hyperlink,000003AC00000324]victory condition[/hyperlink] has been met by a player. When a player is victorious, the game will end for all players. If players are in an alliance with the victorious player and [hyperlink,000003AC0000033B]allied victory[/hyperlink] is enabled, they also achieve victory. The remaining players will suffer [hyperlink,000003AC00000340]Defeat[/hyperlink], or end as a [hyperlink,000003AC00000342]Survivor[/hyperlink] in the case of a Domination, Score and Unifier Victory.[br/][br/]Once victory is achieved, players are able to review their [hyperlink,000003AC0000026B]score[/hyperlink] and statistics before the game ends. </Data></Cell><Cell
         ><Data
@@ -5826,7 +5829,7 @@
         ss:Height="225"
       ><Cell><Data ss:Type="String">WELCOME</Data></Cell><Cell><Data
             ss:Type="String"
-          >TEXT</Data></Cell><Cell ss:StyleID="s66"><Data
+          >TEXT</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >These archives contain knowledge concerning all aspects of Age of Wonders: Planetfall; its rules, its glorious locations and its diverse inhabitants. It is a guide on how to build a planet-spanning empire and how to lead it to victory.[br/][br/]Bookmarks:[br/]The bookmarks at the top are used to navigate the Archive's main sections. From left to right: The Basics (you're here now), Game Concepts, Tech,  Operations, Units, Unit Modules, Unit Abilities, Hero Disciplines, Map Locations and Colony Upgrades.[br/][br/]Search:[br/]When looking for information on a specific unit or feature, you can use the search function, located at the top of the left side panel.[br/][br/]Links:[br/]The Archives can be navigated through the use of the hyperlinks (indicated as blue text). If you are unfamiliar with the Age of Wonders series, we suggest starting with the articles in this "The Basics" section.</Data></Cell><Cell
         ><Data
@@ -7499,8 +7502,10 @@
             ss:Type="String"
           >Orbital Relay Network</Data></Cell><Cell><Data
             ss:Type="String"
-          >轨道中继站网络</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
-        ><Data ss:Type="String">ORBITAL_RELAYS</Data></Cell><Cell><Data
+          >轨道中继站网络</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="330"
+      ><Cell><Data ss:Type="String">ORBITAL_RELAYS</Data></Cell><Cell><Data
             ss:Type="String"
           >TEXT</Data></Cell><Cell><Data
             ss:Type="String"
@@ -7519,6 +7524,7 @@
             ss:Type="String"
           >条约：开放中继站协议</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="195"
       ><Cell><Data
             ss:Type="String"
           >TREATY_OPEN_RELAY_AGREEMENT</Data></Cell><Cell><Data
@@ -7538,6 +7544,7 @@
             ss:Type="String"
           >食物共享：整体食物池</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="90"
       ><Cell><Data ss:Type="String">GLOBAL_POOL</Data></Cell><Cell><Data
             ss:Type="String"
           >TEXT</Data></Cell><Cell><Data
@@ -7553,9 +7560,10 @@
             ss:Type="String"
           >Exploration Site</Data></Cell><Cell><Data
             ss:Type="String"
-          >探索点</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
-            ss:Type="String"
-          >EXPLORATION_SITES</Data></Cell><Cell><Data
+          >探索点</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="300"
+      ><Cell><Data ss:Type="String">EXPLORATION_SITES</Data></Cell><Cell><Data
             ss:Type="String"
           >TEXT</Data></Cell><Cell><Data
             ss:Type="String"
@@ -7572,6 +7580,7 @@
             ss:Type="String"
           >混沌武器 [damageentropy/]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
+        ss:Height="120"
       ><Cell><Data ss:Type="String">ENTROPY_WEAPONS</Data></Cell><Cell><Data
             ss:Type="String"
           >TEXT</Data></Cell><Cell><Data
@@ -7593,13 +7602,31 @@
             ss:Type="String"
           >List of all Tactical Combat tips</Data></Cell><Cell><Data
             ss:Type="String"
-          >所有战术战斗提示列表</Data></Cell></Row></Table><WorksheetOptions
+          >所有战术战斗提示列表</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RANGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Range [range/]</Data></Cell><Cell><Data
+            ss:Type="String"
+          >范围[range/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="135"
+      ><Cell><Data ss:Type="String">RANGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Most unit abilities have a range [range/] that determines the reach of an ability from the caster in hexes. Abilities that can target the entire battlefield will be indicated with a 0[range/][br/][br/]Some abilities have a minimum range in addition to a maximum range, this is shown with two values next to the icon.[br/][br/]For ranged attacks, the distance from the target will have an effect on [hyperlink,000003AC0000030C]Accuracy[/hyperlink] [accuracy/] for some weapons.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >大多数单位能力都有一定范围的[range/] 这个确定了施法者的能力。可以瞄准整个战场的能力将以0表示[range/][br/][br/]有些能力不只有最大范围还有最小范围，这在图标旁标示了两个数值。[br/][br/]对于远程攻击，距目标的距离将影响某些武器的[hyperlink，000003AC0000030C]准确性[/ hyperlink] [accuracy /]。</Data></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
     ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
         >600</HorizontalResolution><VerticalResolution
         >600</VerticalResolution></Print><Zoom>80</Zoom><Selected
-      /><TopRowVisible>264</TopRowVisible><Panes><Pane><Number
-          >3</Number><ActiveRow>267</ActiveRow><ActiveCol
-          >4</ActiveCol></Pane></Panes><ProtectObjects
+      /><TopRowVisible>795</TopRowVisible><Panes><Pane><Number
+          >3</Number><ActiveRow>798</ActiveRow><ActiveCol
+          >2</ActiveCol></Pane></Panes><ProtectObjects
       >False</ProtectObjects><ProtectScenarios
       >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

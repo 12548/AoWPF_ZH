@@ -1,0 +1,796 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author
+    >Joshua Crowder</Author><LastAuthor>GameScribes4</LastAuthor><Created
+    >2019-11-15T13:56:42Z</Created><LastSaved
+    >2020-01-30T15:15:14Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>14565</WindowHeight><WindowWidth>28800</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
+    ss:Name="Sheet1"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="144.75" /><Column
+        ss:StyleID="s62"
+        ss:Width="289.5"
+      /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="309"
+        ss:Span="1"
+      /><Column ss:Index="5" ss:StyleID="s62" ss:Width="147.75" /><Column
+        ss:StyleID="s62"
+        ss:Width="67.5"
+      /><Column ss:StyleID="s62" ss:Width="56.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="38.25"
+      /><Row ss:Height="405"><Cell><Data
+            ss:Type="String"
+          >DIPLOMACY_SPECIESTHERIAN</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row ss:Height="30"><Cell
+        ><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ASK_TO_LEAVE_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Your paw prints match ours, {STR_LeaderName}. Welcome to our shelter. Would you like to trade favors?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的爪印和我们很般配，{STR_LeaderName}。欢迎来到我们的庇护所，想要互相帮助吗？</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ASK_TO_LEAVE_RESPONSE_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We’ll happily leave this shelter for your pack, {STR_LeaderName}. Everything is better when shared, after all!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们愿意为你的种群让出这片庇护所，{STR_LeaderName}。毕竟，只要懂得分享，一切都将变得更好！</Data></Cell></Row><Row
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FIRST_MEET_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Run with the pack, {STR_LeaderName}, and salute the treasure ship of the illustrious Therians! You see nothing precious? Well, look again, closer, and you will notice the immense value that can be found in the gleeful freedom of our company. We heard good things about you. Join us! Hop on and we’ll hop off to new lives and places. Share in this adventure!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >加入我族吧，{STR_LeaderName}，向辉煌的兽人宝藏船致敬！你说你什么宝藏也没有看到？再仔细看看吧，你将发现我们的快乐自由陪伴所蕴含的巨大价值。我们听说过你的善良事迹。加入我们吧！来吧！我们将走向新的生活和新的地方。在这场冒险中分享！</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Company meaning both their collective, and their presence</Data></Cell></Row><Row
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FIRST_MEET_RESPONSE_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We could become friends! We‘ll help each other out; you scratch our back and we’ll scratch yours. You go first. We’ve got a job for you.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们可以成为朋友！我们将互相帮助！只要你帮助我们，我们也会帮助你。从你先开始，我们有件事要交给你做。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">A way to say tit for tat</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DWELLING_INTERACTION_WAR_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You think you’re the first to threaten us? We thought you were different, but we won’t be chased away again. Do you want to request a parley, or should we show how sharp these claws really are?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你以为你是第一个恐吓我们的人吗？我们本来以为你与其他人不同，但我们不会再被赶走了。你是想要谈判，还是想见识一下我们的爪子到底有多锋利？</Data></Cell></Row><Row
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DWELLING_INTERACTION_NEUTRAL_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We were looking forward to the next time we’d meet, {STR_LeaderName}! Welcome to our shelter. What can we do for you? Will you come and howl with the pack?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们一直很期待再次与你见面，{STR_LeaderName}！欢迎来到我们的庇护所。我们能为你做些什么？你愿意与族群一起嚎叫吗？</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CHANGE_DIPLOMATIC_RELATION_RESPONSE_PEACEKEEPER</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >You’re a good person, {STR_LeaderName}. Our pack accepts you.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你是个好人，{STR_LeaderName}。我们的族群愿意接受你。</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FACTION_REQEUST_END_TO_WAR_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We can tell war isn’t in your nature. We should stop baring our teeth and hunt together happily ever after. What do you say?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们知道好斗不是你的天性。我们应该停止冲突，一起快乐地狩猎。你说呢？</Data></Cell></Row><Row
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_DECREASED_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We warned you but our snarls fell on deaf ears. You’ve done bad and we won’t have it. Consider this our official diplomatic message: we are not on good terms.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们警告过你，但你却置若罔闻。你不走正道，我们是不会容忍的。把这当作是我们的官方外交声明吧：我们的关系并不友好。</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ASK_TO_LEAVE_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You rumble into our territory like a rabid beast. Are you here to talk, or to go for our throats?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你如同一只狂暴的野兽，闯入了我们的领地。你是来找我们谈话的，还是来取我们性命的？</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ASK_TO_LEAVE_RESPONSE_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You seem to need this shelter more than we do. Leave us be, and we will do the same.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你似乎比我们更需要这个庇护所。好吧，那就别管我们了，因为我们今后也不会管你的死活。</Data></Cell></Row><Row
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FIRST_MEET_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You stink of death, {STR_LeaderName} You’ve arrived at the treasure ship of the illustrious Therians. We may not have much, but we’ll defend the gleeful freedom of our company. Are you here to join us in our search for new lives and places – or did you come to fight?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你也太臭了，{STR_LeaderName}。你已经登上了辉煌的兽人宝藏船。可能我们人数并不多，但我们会拼尽全力捍卫同伴的快乐和自由。你是来和我们一起寻找新生活和新地方的吗？或者，是来与我们交战的？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Treasure ship" is an actuall ship they fly in.</Data></Cell></Row><Row
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FIRST_MEET_RESPONSE_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We could use a strong companion like you! We can help each other out; if you scratch our back, we’ll scratch yours. You go first. We’ve got a job for you.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们需要你这样强大的伙伴！我们可以互相帮助；只要你帮助我们，我们就会帮助你。从你先开始吧，我们有件事要交给你做。</Data></Cell></Row><Row
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DWELLING_INTERACTION_WAR_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You think you’re the first to try and intimidate us? We won’t be chased away again! Do you want to request a parley, or should we show how sharp these claws really are?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你以为你是第一个胁迫我们的人吗？我们不会再遭到驱逐了！你是想要谈判，还是想见识一下我们的爪子到底有多锋利？</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DWELLING_INTERACTION_NEUTRAL_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You still reek of death, {STR_LeaderName}. Welcome to our shelter. How can we help you?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你仍然很臭，{STR_LeaderName}。欢迎来到我们的庇护所，有什么可以帮你的吗？</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CHANGE_DIPLOMATIC_RELATION_RESPONSE_WARMONGER</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >You’re not as bad as we thought, {STR_LeaderName}. Maybe we can be companions after all.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你没有我们想得那么坏，{STR_LeaderName}。也许我们还是可以成为伙伴的。</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FACTION_REQEUST_END_TO_WAR_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Apex sees your strength. How about we combine forces instead of staying at each other’s throats? We should stop baring our teeth and hunt together happily ever after. What do you say?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >狮王见证了你的力量。不如我们联合起来，停止互相厮杀？我们应该停止冲突，一起快乐地狩猎。你说呢？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Apex is an in-game unit of the Therians</Data></Cell></Row><Row
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_DECREASED_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We warned you but our snarls fell on deaf ears. You’ve done bad and we won’t have it. Consider this our official diplomatic message: we are not on good terms.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们警告过你，但你却置若罔闻。你不走正道，我们是不会容忍的。把这当作是我们的官方外交声明吧：我们的关系并不友好。</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ASK_TO_LEAVE_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You enter our territory like a wild beast. Are you here to talk, or to bare your teeth at us? </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你如同一只狂暴的野兽，闯入了我们的领地。你是来找我们谈话的，还是来向我们显露獠牙的？ </Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ASK_TO_LEAVE_RESPONSE_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You need this shelter more than we do. We’re hopping off – you know where to find us. Smell you later!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你比我们更需要这个庇护所。我们马上出发，你知道在哪里能找到我们的。再见！</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Hopping" means very active.</Data></Cell></Row><Row
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FIRST_MEET_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Run with the pack, {STR_LeaderName}, and salute the treasure ship of the illustrious Therians! You see nothing precious? Well, look again, closer, and you will notice the immense value that can be found in the gleeful freedom of our company. Hop on and we’ll hop off to new lives and places – just keep your guns and claws ready for any critters we meet along the way!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >加入我族吧，{STR_LeaderName}，向辉煌的兽人宝藏船致敬！你说你什么宝藏也没有看到？再仔细看看吧，你将发现我们的快乐自由陪伴所蕴含的巨大价值。来吧！我们将走向新的生活和新的地方。准备好你的枪炮和利爪，我们将消灭路途中遇到的所有阻碍！</Data></Cell></Row><Row
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FIRST_MEET_RESPONSE_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We’d like to get along! We can help each other out; you scratch our back and we’ll scratch yours. You go first. We’ve got a job for you.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们愿意和睦相处！我们将互相帮助，只要你帮助我们，我们也会帮助你。从你先开始，我们有件事要交给你做。</Data></Cell></Row><Row
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DWELLING_INTERACTION_WAR_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You think you’re the first to want us gone? We won’t be chased away again. Do you want to request a parley, or should we show how sharp these claws really are?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你以为你是第一个想要消灭我们的人吗？我们不会再遭到驱逐了。你是想要谈判，还是想见识一下我们的爪子到底有多锋利？</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DWELLING_INTERACTION_NEUTRAL_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Apex sensed your arrival, {STR_LeaderName}. Welcome to our shelter. Will you come and howl with us?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >狮王感知到了到你的到来，{STR_LeaderName}。欢迎来到我们的庇护所，你要来和我们一同嚎叫吗？</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CHANGE_DIPLOMATIC_RELATION_RESPONSE_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You seem trustworthy, {STR_LeaderName}. Our pack accepts you.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你看起来值得信赖，{STR_LeaderName}。我们的族群愿意接受你。</Data></Cell></Row><Row
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FACTION_REQEUST_END_TO_WAR_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Apex senses potential in your actions. We should stop baring our teeth and hunt together happily ever after. What do you say?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >狮王从你的行为中感知到了潜力。我们应该停止冲突，一起快乐地狩猎。你说呢？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Our teeth" the Apex is referring to the Therian Faction</Data></Cell></Row><Row
+        ss:Height="120"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_DECREASED_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We warned you but our snarls fell on deaf ears. You’ve done bad and we won’t have it. Consider this our official diplomatic message: we are not on good terms.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们警告过你，但你却置若罔闻。你不走正道，我们是不会容忍的。把这当作是我们的官方外交声明吧：我们的关系并不友好。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >You can be male or female depending on the leader the player chose.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ASSIGN_FACTION_ALLEGIANCE_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Magical adventures? Where do we sign up?</Data></Cell><Cell><Data
+            ss:Type="String"
+          >神奇的冒险？我们应该去哪里登记报名？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WITHDRAW_STACK_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We really need this location. Can we convince you to move? {INT_Cost}[influence/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们真的很需要这个地方。你们可以离开这里吗？{INT_Cost}[influence/]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STACK_QUEST_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We’d like to prove we mean you no harm. What can we do for you?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们想要证明我们对你们没有任何恶意。有什么需要我们为你们做的吗？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_WAR_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We'll see you and your 'company' removed.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >你和你的“伙伴”将被清除。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="135"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ATTACK_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We'd like to talk with the alpha of your pack.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们想和你们的族群首领谈一谈。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >These are responses the player chooses. Alpha refers to the Therian's leader.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FIRST_MEET_RESPONSE_TAKE_QUEST_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Alright, we'll help you out.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >好的，我们会帮助你们的。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CALL_TO_WAR_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We need your pack to strengthen us in this war.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在这场战争中，我们需要你们族群贡献力量。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TRADE_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Show us these treasures you're offering.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >给我们看看你们所谓的宝物。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ASSIGN_FACTION_ALLEGIANCE_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We can join forces and take what's ours.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >我们可以联合起来，拿走属于我们的东西。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WITHDRAW_STACK_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hippity hoppity, get off our property. {INT_Cost}[influence/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >跳梁小丑，速速请走！{INT_Cost}[influence/]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STACK_QUEST_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We want you to trust us. Show us how to make it so.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >希望你们能信任我们。告诉我们应该怎么做。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_WAR_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We've had enough of you freaks. Die.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >我们已经受够了你们这些怪胎。受死吧。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ATTACK_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Be a good pet and bring us to your alpha.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >好狗不挡道，带我们去见你们的首领。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FIRST_MEET_RESPONSE_TAKE_QUEST_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We accept this challenge, Therian.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >我们接受这个挑战，兽人。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CALL_TO_WAR_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We share a common enemy. Sic 'em.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >我们有共同的敌人。击溃他们。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TRADE_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Show us what you're offering.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >让我们看看你能拿出什么。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ASSIGN_FACTION_ALLEGIANCE_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spaceships and adventures? Sounds like fun!</Data></Cell><Cell><Data
+            ss:Type="String"
+          >宇宙飞船和冒险？听起来很有趣！</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WITHDRAW_STACK_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We really need this 'den' of yours. {INT_Cost}[influence/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们真的很需要你们这个“窝巢”。{INT_Cost}[influence/]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STACK_QUEST_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We'd like to prove we can co-exist. What can we do for you?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们想要证明你我双方可以共存，我们能帮你做点什么吗？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_WAR_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You're nothing but fluffy-eared pirates. It's time you see justice.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你们只不过是一群长着绒毛耳朵的海盗而已。该让你见识一下正义了。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ATTACK_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bring us to the alpha of your pack.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >带我们去见你们族群的首领。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FIRST_MEET_RESPONSE_TAKE_QUEST_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tell us what you need.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >告诉我们你们想要什么。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CALL_TO_WAR_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We need your claws in a battle for freedom.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >我们需要你们的爪子为自由而战。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TRADE_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Show us the treasures you're offering.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >让我们看看你们所谓的宝藏是什么。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >These are responses the player chooses.</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">RIVALRY_WARNING_THERIAN</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You'd collaborate with tyrants and oppressors? Don't you want to be friends with us?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你竟然与那些暴君和压迫者同流合污？难道你不想和我们做朋友吗？</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FACTION_DECLARE_WAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We growled, we roared, we tried to warn you. We can't let you destroy what we built. If you expect us to roll over, you're wrong. Our ancient leader Deer taught us how to stand our ground. We won't let go.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们咆哮，我们怒吼，我们试图警告过你。我们不能让你毁掉我们建立的一切。如果你指望我们改变想法，那你就错了。我们的远古领袖圣鹿教过我们如何坚守阵地，我们是不会放弃的。</Data></Cell></Row><Row
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_RESET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Everyone deserves a second chance. Maybe you can win our trust again, {STR_LeaderName}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每个人都应该得到第二次机会。也许你可以再次赢得我们的信任，{STR_LeaderName}。</Data></Cell></Row><Row
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PEACEKEEPER_INV_ALLY_FAC_WAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >How could you do this? We thought we could trust you, but you turn your back on us and join the pack of the Voidbringers? We’ll fight for our freedom, even against you!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你怎么能这样？我们以为可以信任你，但你却背弃我们，加入了虚空使者的族群？我们将为自由而战，甚至与你为敌！</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Voidbringers is an in-game term</Data></Cell></Row><Row
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PEACEKEEPER_INV_WAR_FAC_ALLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We’re glad you’re on our side, {STR_LeaderName}. Let’s roar together and hunt the horrible Voidbringer oppressors!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >很高兴你能和我们站在一边，{STR_LeaderName}。让我们咆哮吧，一同猎杀那些可恶的虚空使者！</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Voidbringer is an in-game term</Data></Cell></Row><Row
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PEACEKEEPER_INV_WAR_FAC_WAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A bigger threat has arrived and you know it too, {STR_LeaderName}. Let’s join packs and fight the common enemy together!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们都知道更大的威胁已经来临，{STR_LeaderName}。加入我们的族群，一起对抗共同的敌人！</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Voidbringer is an in-game term</Data></Cell></Row><Row
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NEUTRAL_INV_ALLY_FAC_WAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We shouldn’t be surprised you’d join the horrible Voidbringers. If you expect us to roll over for you, you’re wrong. Can you hear this? These are the roars of war.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你加入了那些可恶的虚空使者，我们对此一点也不惊讶。如果你指望我们能改变想法，那你就错了。听见了吗？我们战争的怒吼。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Voidbringers is an in-game term</Data></Cell></Row><Row
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NEUTRAL_INV_WAR_FAC_ALLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We’re glad you’re on our side, {STR_LeaderName}. Let’s roar together and hunt the horrible Voidbringer oppressors!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >很高兴你能和我们站在一边，{STR_LeaderName}。让我们咆哮吧，一同猎杀那些可恶的虚空使者！</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Voidbringer is an in-game term</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NEUTRAL_INV_WAR_FAC_WAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We have been at each other’s throats for a long time, but a bigger threat is looming over us. We request a parley and ask you to join us, {STR_LeaderName}, so we can hunt these Voidbringer monsters together.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们已经争斗了太久，但现在有一个更大的威胁正在逼近。我们请求谈判并邀请你加入我们，{STR_LeaderName}。我们可以一起猎杀这些虚空使者怪物。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Voidbringer is an in-game term</Data></Cell></Row><Row
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WARMONGER_INV_ALLY_FAC_WAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We should have trusted our instincts about you, {STR_LeaderName}. Joining the horrible Voidbringers is unforgivable. Prepare to feel the fangs of Therian wrath.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >当初我们就应该遵循我们的本能对你的看法，{STR_LeaderName}。加入这些可恶的虚空使者是不可原谅的行为，准备好感受兽人愤怒的尖牙吧。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Voidbringers is an in-game term</Data></Cell></Row><Row
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WARMONGER_INV_WAR_FAC_ALLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Your blood-soaked claws will be useful now, {STR_LeaderName}. Let’s join forces and hunt these horrible Voidbringers monsters!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你那沾满鲜血的爪子将派上用场了，{STR_LeaderName}。让我们联合起来，猎杀那些可恶的虚空使者！</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Voidbringers is an in-game term</Data></Cell></Row><Row
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WARMONGER_INV_WAR_FAC_WAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We fought for a long time, but a bigger threat arrived and you know it, {STR_LeaderName}. To survive we have to target our rage elsewhere. What do you say, shall we hunt the Voidbringers together?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们已经争斗了很长一段时间，但我们都知道，现在有一个更大的威胁正在逼近，{STR_LeaderName}。为了生存，我们必须把怒火指向别处。我们一起去猎杀虚空使者，如何？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Voidbringers is an in-game term</Data></Cell></Row><Row
+        ss:Height="210"
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For this faction's narrative style and in world references, please check the glossay delivered as part of the documentation.</Data></Cell></Row><Row
+        ss:Height="165"
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the lines below, {STR_LeaderName} is replaced by the name of the player's avatar.</Data></Cell></Row><Row
+        ss:Height="405"
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the lines below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><PageSetup><Header x:Margin="0.3" /><Footer x:Margin="0.3" /><PageMargins
+          x:Bottom="0.75"
+          x:Left="0.7"
+          x:Right="0.7"
+          x:Top="0.75"
+        /></PageSetup><Unsynced /><Print><ValidPrinterInfo
+        /><HorizontalResolution>600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><TopRowVisible
+      >16</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >20</ActiveRow><ActiveCol>4</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

@@ -1,0 +1,1302 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Nathan van den Berg</LastAuthor><LastSaved
+    >2020-02-05T08:40:39Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>7320</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /></Style><Style ss:ID="s64"><Alignment
+        ss:Vertical="Bottom"
+        ss:WrapText="1"
+      /><Font
+        ss:FontName="Arial"
+        x:Family="Swiss"
+        ss:Color="#000000"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="288.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="161.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="95.25"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="498.75" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s62" ss:Width="283.5" /><Column
+        ss:StyleID="s62"
+        ss:Width="120.75"
+      /><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
+            ss:Type="String"
+          >WORLD_EVENTS</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EVENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >World Event: {STR_Name} {INT_Duration}[turn/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >世界事件：{STR_Name} {INT_Duration}[turn/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MAP_SETUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >World Events</Data></Cell><Cell><Data
+            ss:Type="String"
+          >世界事件</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MAP_SETUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Determines if random, planet-wide effects can happen.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >确定是否会发生随机的全球性影响。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TOTAL_ECLIPSE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Total Eclipse</Data></Cell><Cell><Data
+            ss:Type="String"
+          >全日食</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="61.5"
+      ><Cell><Data ss:Type="String">TOTAL_ECLIPSE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units and structures lose {sightPenalty} vision range. Units lose {rangePenalty} range in Tactical Combat, to a minimum of 4.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有单位和建筑失去 {sightPenalty} 视野范围。单位在战术战斗中失去 {rangePenalty} 射程，最低减少至 4。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">TOTAL_ECLIPSE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STRUCTURE_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This structure has {sightPenalty} vision range.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该建筑获得 {sightPenalty} 视野范围。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FUNGAL_AWAKENING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fungal Awakening</Data></Cell><Cell><Data
+            ss:Type="String"
+          >真菌觉醒</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="68.25"
+      ><Cell><Data ss:Type="String">FUNGAL_AWAKENING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Every [turn/], a few sectors will be terraformed to Fungal, and Spore Cloud hazards will appear in those sectors. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每 [turn/] 将会有一些区域被改造为真菌区域，并且在这些区域会出现孢子云灾害。 </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Fungal" refers to an in-game terrain type. "Spore Cloud hazard" refers to in-game obstacle. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FUNGAL_AWAKENING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Every {turn}[turn/] {explosionNumber} poison explosions with a 2 hex radius happens in a random location, dealing {bioDamage}[damagebio/] to units in range. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每 {turn}[turn/] 将会有一个随机地点发生 {explosionNumber} 次 2 个单元格范围的剧毒爆炸，对范围内的单位造成 {bioDamage}[damagebio/] 伤害。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COSMITE_RAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cosmite Rain</Data></Cell><Cell><Data
+            ss:Type="String"
+          >宇宙合金雨</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">COSMITE_RAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[tricorium/] pickups appear in random sectors every [turn/]. During Tactical Combat, this causes displacement in a random unit every {turn}[turn/], teleporting it a random distance away from its original position. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每 [turn/] 就会有 [tricorium/] 拾取物出现在随机区域。在战术战斗期间，这将导致一个随机单位每 {turn}[turn/] 发生位移，将其向远离原位置的方向随机传送一段距离。 </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Cosmite" refers to the in-game resource. "displacement" refers to the in-game effect. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="27.75"
+      ><Cell><Data ss:Type="String">COSMITE_RAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Due to cosmite's weird properties, a random unit will displaced every {turn}[turn/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由于宇宙合金的怪异特性，每 {turn}[turn/] 就会有一个随机单位发生位移。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PIRATE_UPRISING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Pirate Uprising</Data></Cell><Cell><Data
+            ss:Type="String"
+          >海盗大起义</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="76.5"
+      ><Cell><Data ss:Type="String">PIRATE_UPRISING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >1 Pirate Base will appear on the map every [turn/], and during Tactical Combat, wreckages will hit 5 random units every {turn}[turn/], each with a 4[strengthphysical/] strength chance to cause [abilityred]Stagger[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每 [turn/] 地图上将出现 1 个海盗基地；战术战斗期间，每 {turn}[turn/] 就会有 5 个随机单位被残骸击中，有 4[strengthphysical/] 力量几率造成[abilityred]动摇[/abilityred]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Stagger" refers to the in-game condition.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">PIRATE_UPRISING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Every {turn}[turn/] wreckage will strike 5 random units and have a 4[strengthphysical/] strength chance to cause[abilityred]Stagger[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每 {turn}[turn/] 就会有 5 个随机单位被残骸击中，有 4[strengthphysical/] 力量几率造成[abilityred]动摇[/abilityred]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Stagger" refers to the in-game condition.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Orbital Weapons Cache</Data></Cell><Cell><Data
+            ss:Type="String"
+          >轨道武器贮藏</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Weapon pickups appear on the strategic map. In Tactical Combat, a random unit will be hit with exploding debris for 10[damagethermal/] every {turn}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >战略地图上将出现武器拾取物。在战术战斗中，每 {turn}[turn/] 就会有随机单位被爆炸残骸击中，受到 10[damagethermal/] 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell><Cell
+        ><Data ss:Type="String">COMBAT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Every {turn}[turn/] a random unit will be hit with exploding debris for 10[damagethermal/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每 {turn}[turn/] 就会有一个随机单位被爆炸残骸击中，受到 10[damagethermal/] 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell><Cell
+        ><Data ss:Type="String">COMMON_CACHE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Common Weapons Cache</Data></Cell><Cell><Data
+            ss:Type="String"
+          >普通武器贮藏箱</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell><Cell
+        ><Data ss:Type="String">UNCOMMON_CACHE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Uncommon Weapons Cache</Data></Cell><Cell><Data
+            ss:Type="String"
+          >罕见武器贮藏箱</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RARE_CACHE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Rare Weapons Cache</Data></Cell><Cell><Data
+            ss:Type="String"
+          >稀有武器贮藏箱</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell><Cell
+        ><Data ss:Type="String">COMMON_CACHE_DESCRIPTION</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >A cache of common weaponry, dropped from orbit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >从轨道上落下的普通武器贮藏箱。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell><Cell
+        ><Data ss:Type="String">UNCOMMON_CACHE_DESCRIPTION</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >A cache of uncommon weaponry, dropped from orbit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >从轨道上落下的罕见武器贮藏箱。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell><Cell
+        ><Data ss:Type="String">RARE_CACHE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A cache of rare weaponry, dropped from orbit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >从轨道上落下的稀有武器贮藏箱。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell><Cell
+        ><Data ss:Type="String">BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Open Weapons Cache - {STR_ItemName}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >打开武器贮藏箱-{STR_ItemName}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell><Cell
+        ><Data ss:Type="String">BUTTON_TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Weapons found inside:</Data></Cell><Cell><Data
+            ss:Type="String"
+          >发现内含武器：</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">WHITE_STAR_SUPERNOVA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >White Star Supernova</Data></Cell><Cell><Data
+            ss:Type="String"
+          >白星超新星</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="65.25"
+      ><Cell><Data ss:Type="String">WHITE_STAR_SUPERNOVA</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Every[turn/] a few sectors will be terraformed to Volcanic. Units have all resistances reduced by [abilityred]{resistanceReduction}[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每 [turn/] 将会有一些区域被改造成火山区域。单位的所有抵抗降低 [abilityred]{resistanceReduction}[/abilityred]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Volcanic" describes an in-game terrain type. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30.75"
+      ><Cell><Data ss:Type="String">WHITE_STAR_SUPERNOVA</Data></Cell><Cell
+        ><Data ss:Type="String">UNIT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Remnants of a supernova are damaging this unit's molecular integrity. All resistances are reduced by[abilityred]{resistanceReduction}[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >超新星的残留物损坏了该单位的分子完整性。所有抵抗降低 [abilityred]{resistanceReduction}[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SATELLITE_DISRUPTIONS</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Satellite Disruptions</Data></Cell><Cell><Data
+            ss:Type="String"
+          >卫星毁坏</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45.75"
+      ><Cell><Data ss:Type="String">SATELLITE_DISRUPTIONS</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s63"
+        ><Data
+            ss:Type="String"
+          >All Strategic and Tactical operations (excluding Doomsday and Doctrines) [energy/] costs are doubled.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有战略和战术行动的 [energy/] 消耗加倍（末日武器和教义除外）。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Strategic and Tactical Operations" "Doomsday", "Doctrines" describe in-game concepts and actions.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SATELLITE_OVERCHARGE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Satellite Overcharge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >卫星超载</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="64.5"
+      ><Cell><Data ss:Type="String">SATELLITE_OVERCHARGE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All Strategic and Tactical operations (excluding Doomsday and Doctrines) have their [energy/] and [influence/] costs removed.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有战略和战术行动不会消耗 [energy/] 和 [influence/]（末日武器和教义除外）。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Strategic and Tactical Operations" "Doomsday", "Doctrines" describe in-game concepts and actions.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PERFECT_CLIMATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Perfect Climate</Data></Cell><Cell><Data
+            ss:Type="String"
+          >完美气候</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="62.25"
+      ><Cell><Data ss:Type="String">PERFECT_CLIMATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[foodslot/] produce {bonusFood}. All Biological and Cyborg units gain {happinessBonus}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[foodslot/] 生产 {bonusFood}。所有生物和半机械人单位获得 {happinessBonus}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Biological", "Cyborg" describe in-game concepts. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="51"
+      ><Cell><Data ss:Type="String">PERFECT_CLIMATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Due to very favourable weather, this unit gains {happinessBonus}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由于宜人的天气，该单位获得 {happinessBonus}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACID_RAINS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Acid Rains</Data></Cell><Cell><Data
+            ss:Type="String"
+          >酸雨</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="77.25"
+      ><Cell><Data ss:Type="String">ACID_RAINS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Colonies produce {foodReduction}[supply/] less. Every {turn}[turn/] during Tactical Combat, acid rain will melt {armor}[armor/] of all units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >殖民地的 [supply/] 生产减少 {foodReduction}。战术战斗期间，每 {turn}[turn/]，酸雨将融化所有单位 {armor}[armor/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Biochemical", "Strength Chance", "Poisoned", "Biological", "Cyborg" describe in-game concepts. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IONIC_NEBULA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ionic Nebula</Data></Cell><Cell><Data
+            ss:Type="String"
+          >离子星云</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="67.5"
+      ><Cell><Data ss:Type="String">IONIC_NEBULA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Supercharged energy generators result in {energyIncrease} increased {energyProduction} income. Every {turn}[turn/] during Tactical Combat electrical discharges will remove {shield}[shield/] of all units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发电机超载导致 {energyProduction} 收益提升 {energyIncrease}。战术战斗期间，每 {turn}[turn/]，电能风暴将移除所有单位 {shield}[shield/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Arc", "Strength Chance", "Electrified", "Cyborg", "Mechanical" describe in-game concepts.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SUPERMOONS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Supermoons</Data></Cell><Cell><Data
+            ss:Type="String"
+          >超级月亮</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75.75"
+      ><Cell><Data ss:Type="String">SUPERMOONS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Improved astrological research circumstances result in {researchIncrease} increased [research/] income. Every {turn}[turn/] during Tactical Combat, a wave of Psionic energy washes over the battlefield that has a {strengthChance}[srengthpsyche/] strength chance to apply [abilityred]Broken Mind[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >占星研究环境的改善导致 [research/] 收益提升 {researchIncrease}。战术战斗期间，每 {turn}[turn/] 就会有一阵灵能冲击波席卷战场，有 {strengthChance}[srengthpsyche/] 力量几率施加[abilityred]破碎心灵[/abilityred]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Psionic", "Strength Chance", "Broken Mind", describe in-game concepts.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CRYSTAL_METEORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Crystal Meteors</Data></Cell><Cell><Data
+            ss:Type="String"
+          >水晶流星</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="59.25"
+      ><Cell><Data ss:Type="String">CRYSTAL_METEORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Quartzite Spawners appear around the map and Mineral units gain {armorBonus}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >石英岩兽出生点将出现在地图各处。另外，矿物单位获得 {armorBonus}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"quartzite", "Quartize Spawner" "Mineral" describe in-game concepts.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COLONY_SHIP_CRASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Colony Ship Crash</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地飞船坠毁</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="64.5"
+      ><Cell><Data ss:Type="String">COLONY_SHIP_CRASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Refugee camps will appear around the map every[turn/] and can be picked up to grant the nearest colony 1[population/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每 [turn/] 将会有难民营出现在地图各处，拾取将会使最近的殖民地获得 1[population/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GIANTS_PERIHELION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Giant's Perihelion</Data></Cell><Cell><Data
+            ss:Type="String"
+          >巨星的近日点</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="62.25"
+      ><Cell><Data ss:Type="String">GIANTS_PERIHELION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units gain [abilityblue]Fast Movement[movewalkenhanced/][/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有单位获得[abilityblue]迅捷移动[movewalkenhanced/][/abilityblue]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Fast Movement" describes an in-game concept.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GIANTS_PERIHELION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Due to lower gravitational pull, this unit gains [abilityblue]Fast Movement[movewalkenhanced/][/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由于引力较小，该单位获得[abilityblue]迅捷移动[movewalkenhanced/][/abilityblue]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Fast Movement" describes an in-game concept.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SUPERSTORM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Superstorm</Data></Cell><Cell><Data
+            ss:Type="String"
+          >超级风暴</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="63"
+      ><Cell><Data ss:Type="String">SUPERSTORM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The storm travels in a line and terraforms a number of sectors into Arctic sectors every [turn/]. Flying units now have[abilityred]Slow Movement[/abilityred]. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >风暴会呈线型移动，每 [turn/] 会将数个区域变为极寒区域。飞行单位现在具有[abilityred]缓慢移动[/abilityred]。 </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Arctic" describes an in-game terrain type. "Flying" and "Slow Movement" describe in-game concepts.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SUPERSTORM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Flying units are slowed to [abilityred]Slow Movement[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >飞行单位被减速，获得[abilityred]缓慢移动[/abilityred]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Slow Movement describes an in-game concept.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TOMBS_OF_IGNITION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tombs of Ignition</Data></Cell><Cell><Data
+            ss:Type="String"
+          >燃烧的坟墓</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="79.5"
+      ><Cell><Data ss:Type="String">TOMBS_OF_IGNITION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Several Promethean Vaults appear around the map every [turn/], and ranged attacks have {strengthChance}[strengththermal/] strength chance to apply[abilityred]Burning[/abilityred] to non-Ethereal and non-Mineral units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每 [turn/] 将会有圣火宝库出现在地图各处。此外，远程攻击有 {strengthChance}[strengththermal/] 力量几率向非虚灵和非矿物单位施加[abilityred]燃烧[/abilityred]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Star Union" and "Promethean" refer to in-lore factions. "Promethean Vault", "Strength Chance", "Burning" describe in-game concepts. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MAGNETIC_FIELD_DISRUPTION</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Magnetic Field Disruption</Data></Cell><Cell><Data
+            ss:Type="String"
+          >磁场干扰</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="78.75"
+      ><Cell><Data ss:Type="String">MAGNETIC_FIELD_DISRUPTION</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[influence/] income is reduced by {influenceReduction}. Every {turn}[turn/] during Tactical Combat, static charges deal 4[damagewave/] and have a {strength}[strengthwave/] strength chance to apply[abilityred]Static Charge[/abilityred] to all units for {turns}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[influence/] 收益减少 {influenceReduction}。战术战斗期间，每 {turn}[turn/]，静电电荷会造成 4[damagewave/] 并有 {strength}[strengthwave/] 力量几率对所有单位施加[abilityred]静电电荷[/abilityred]，持续 {turns}[turn/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Kinetic", "Strength chance", "Concussion" describe in-game concepts. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLANATARY_POLLEN_CLOUD</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Planetary Pollen Cloud</Data></Cell><Cell><Data
+            ss:Type="String"
+          >行星花粉云团</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">PLANATARY_POLLEN_CLOUD</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[food/] income is doubled. All Biological and Cyborg units gain {moraleBonus}[happiness/] and regenerate 10[hp/] every turn. Plant and Bee units also deal {damageIncrease} more damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[food/] 收益加倍。所有生物和半机械人单位获得 {moraleBonus}[happiness/] 且每回合恢复 10[hp/]。植物和蜜蜂单位还会额外造成 {damageIncrease} 伤害。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Plant" and "Bee" describe specific unit types. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="56.25"
+      ><Cell><Data ss:Type="String">PLANATARY_POLLEN_CLOUD</Data></Cell><Cell
+        ><Data ss:Type="String">UNIT_EFFECT_DUO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The pollen-filled air is empowering this unit. All of its abilities deal {damageBonus} more damage and it gains {moraleBonus}[happiness/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >飘满花粉的空气正在强化这个单位，该单位的所有技能伤害提升 {damageBonus}，并获得 {moraleBonus}[happiness/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AURORA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Aurora</Data></Cell><Cell><Data
+            ss:Type="String"
+          >极光</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="86.25"
+      ><Cell><Data ss:Type="String">AURORA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All Colonies gain {happinessIncrease}[happiness/] income. Non-Mindless units gain {moraleIncrease}[happiness/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有殖民地获得 {happinessIncrease}[happiness/] 收益。非无意识单位获得 {moraleIncrease}[happiness/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MIRROR_SEAS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mirror Seas</Data></Cell><Cell><Data
+            ss:Type="String"
+          >镜海</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="78"
+      ><Cell><Data ss:Type="String">MIRROR_SEAS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Coastal Sectors produce double [food/], [research/], and [energy/], Water Units gain [abilityblue]Fast Movement[/abilityblue] and two hexes increased range on their abilities, and more pick-ups spawn at random locations on the water. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >海滨区域的 [food/]、[research/] 和 [energy/] 生产加倍，水上单位获得[abilityblue]迅捷移动[/abilityblue]且技能范围增加两个单元格。另外，水域区域随机位置出现的拾取物数量增加。 </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Coastal Sector", "Water Units", "Fast Movement", "Range" describe in-game concepts. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30.75"
+      ><Cell><Data ss:Type="String">MIRROR_SEAS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_EFFECT_AQU</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has [abilityblue]Fast Movement[/abilityblue] and two hexes increased range on their abilities.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位拥有[abilityblue]迅捷移动[/abilityblue]且技能范围增加两个单元格。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Fast Movement, "Range" describe in-game concepts. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30.75"
+      ><Cell><Data ss:Type="String">MIRROR_SEAS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SECTOR_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This sector produce double [food/], [research/], and [energy/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此区域的 [food/]、[research/] 和 [energy/] 生产加倍。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOID_ECHOES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Void Echoes</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚空回响</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="79.5"
+      ><Cell><Data ss:Type="String">VOID_ECHOES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >In our colonies these echo's provide 1 additional resource for every [foodslot/][productionslot/][energyslot/][researchslot/], and in Tactical Combat, this creates an Echo of a random unit every {turn}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们殖民地里的每个 [foodslot/][productionslot/][energyslot/][researchslot/] 都会因这些回响额外提供 1 点资源。在战术战斗中，每 {turn}[turn/] 就会生成一个随机单位的回响。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Void" refers to a lore concept. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="61.5"
+      ><Cell><Data ss:Type="String">VOID_ECHOES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Void energy is creating an Echo of a random unit every {turn}[turn/]. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >虚空能量每 {turn}[turn/] 会生成一个随机单位的回响。 </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Void" refers to a lore concept. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REFLECTIVE_DUST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reflective Dust</Data></Cell><Cell><Data
+            ss:Type="String"
+          >反射尘埃</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">REFLECTIVE_DUST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units have [abilityblue]Universal Camouflage[/abilityblue] and ranged attacks have {decreasedAccuracy} decreased accuracy.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有单位获得[abilityblue]通用伪装[/abilityblue]，远程攻击的准度降低 {decreasedAccuracy}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Universal Camouflage" refers to an in-game concept. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INTERSTELLAR_TRADE_CONVOY</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Interstellar Trade Convoy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >星际贸易护航队</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="78"
+      ><Cell><Data ss:Type="String">INTERSTELLAR_TRADE_CONVOY</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Generate Energy[energy/] and Generate Knowledge[research/] convert {productionConversion} of our [production/] income, instead of 25%.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >生成能量 [energy/] 和生成知识 [research/] 时将转化 {productionConversion} 的 [production/] 收益，而非原本的 25%。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Generate Energy", " Generate Knowledge" refer to in-game concepts. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SHORT_LIVED_NANITES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Short-Lived Nanites</Data></Cell><Cell><Data
+            ss:Type="String"
+          >短命的纳米机器人</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60.75"
+      ><Cell><Data ss:Type="String">SHORT_LIVED_NANITES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hurry production costs {buyNowDecrease}% less [energy/][br/]Cyborg and Mechanical units are being healed for {heal}[hp/] during Tactical Combat and have an additional {fumbleChance} chance to fumble their attacks and abilities.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >加速生产所需 [energy/] 消耗减少 {buyNowDecrease}%[br/]半机械人和机械单位在战术战斗期间治疗 {heal}[hp/]，并且在进行攻击和使用技能时有 {fumbleChance} 额外几率失手。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Hurry production", "Cyborg", "Mechanical" refer to in-game concepts. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SHORT_LIVED_NANITES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cyborg and Mechanical units are being healed for {healthIncrease}[hp/] every[turn/] and have an additional {fumbleChance} chance to fumble their attacks and abilities.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >半机械人和机械单位每 [turn/] 会治疗 {healthIncrease}[hp/]，并且在进行攻击和使用技能时有 {fumbleChance} 额外几率失手。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Cyborg", "Mechanical" refer to in-game concepts. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TOTAL_ECLIPSE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units lose {rangePenalty} range on all attacks and abilities, to a minimum of {rangeMinimum}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有单位的攻击和技能射程减少 {rangePenalty}，最低减少至 {rangeMinimum}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">WHITE_STAR_SUPERNOVA</Data></Cell><Cell
+        ><Data ss:Type="String">COMBAT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All resistances on all units are reduced by [abilityred]{resistanceReduction}[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有单位的所有抵抗减少 [abilityred]{resistanceReduction}[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACID_RAINS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Every {turn}[turn/] acid rain will melt {armor}[armor/] from all units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每 {turn}[turn/]，酸雨将会熔化所有单位 {armor}[armor/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CORONAL_MASS_EJECTION</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Coronal Mass Ejection</Data></Cell><Cell><Data
+            ss:Type="String"
+          >日冕物质喷发</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CORONAL_MASS_EJECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Colony [production/] is reduced by {productionReduction}. Every {turn}[turn/] during Tactical Combat, hot embers deal {thermalDamage}[damagethermal/] and have a {strengthChance}[strengththermal/] strength chance to apply[abilityred]Charred[/abilityred] for {turn}[turn/]. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >殖民地 [production/] 生产减少 {productionReduction}。战术战斗期间，每 {turn}[turn/]，炽热的余烬会造成 {thermalDamage}[damagethermal/] 且有 {strengthChance}[strengththermal/] 力量几率施加[abilityred]烧焦[/abilityred]，持续 {turn}[turn/]。 </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"Thermal", "Strength Chance", "Charred", describe in-game concepts. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CORONAL_MASS_EJECTION</Data></Cell><Cell
+        ><Data ss:Type="String">COMBAT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Every {turn}[turn/] hot embers deal {thermalDamage}[damagethermal/] and have a {strengthChance}[strengththermal/] strength chance to apply[abilityred]Charred[/abilityred] for {turn}[turn/]. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每 {turn}[turn/]，炽热的余烬会造成 {thermalDamage}[damagethermal/] 且有 {strengthChance}[strengththermal/] 力量几率施加[abilityred]烧焦[/abilityred]，持续 {turn}[turn/]。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IONIC_NEBULA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Every {turn}[turn/] an electrical discharge will remove {shield}[shield/] from all units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每 {turn}[turn/]，电能风暴将移除所有单位 {shield}[shield/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SUPERMOONS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Every {turn}[turn/] a wave of Psionic energy washes over the battlefield, attempting to inflict[abilityred]Broken Mind[/abilityred] with a {strengthChance}[strengthpsyche/] strength chance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每 {turn}[turn/] 就会有一阵灵能冲击波席卷战场，有 {strengthChance}[strengthpsyche/] 力量几率施加[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CRYSTAL_METEORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Empowered by Crystal Meteors all Mineral units gain {armorBonus}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有矿物单位经过水晶流星强化，获得 {armorBonus}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GIANTS_PERIHELION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Due to lower gravitational pull, all units gain [abilityblue]Fast Movement[movewalkenhanced/][/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由于引力较小，所有单位获得[abilityblue]迅捷移动[movewalkenhanced/][/abilityblue]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TOMBS_OF_IGNITION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All ranged attacks have a {strengthChance}[strengththermal/] strength chance to apply[abilityred]Burning[/abilityred] to non-Ethereal and non-Mineral units for {turn}[turn/]. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有远程攻击有 {strengthChance}[strengththermal/] 力量几率对非虚灵和非矿物单位施加[abilityred]燃烧[/abilityred]，持续 {turn}[turn/]。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MAGNETIC_FIELD_DISRUPTION</Data></Cell><Cell
+        ><Data ss:Type="String">COMBAT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Every {turn}[turn/] during Tactical Combat, static charges deal 4[damagewave/] and have a {strength}[strengthwave/] strength chance to apply[abilityred]Static Charge[/abilityred]to all units for {turns}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >战术战斗期间，每 {turn}[turn/]，静电电荷会造成 4[damagewave/] 并有 {strength}[strengthwave/] 力量几率对所有单位施加[abilityred]静电电荷[/abilityred]，持续 {turns}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLANATARY_POLLEN_CLOUD</Data></Cell><Cell
+        ><Data ss:Type="String">COMBAT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All Biological and Cyborg units gain {moraleBonus}[happiness/] and regenerate 10[hp/] every turn. Plant and Bee units also deal {damageIncrease} more damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有生物和半机械人单位获得 {moraleBonus}[happiness/]，且每回合恢复 10[hp/]。植物和蜜蜂单位还会造成 {damageIncrease} 额外伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AURORA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All non-Mindless units gain {moraleIncrease}[happiness/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有非无意识单位获得 {moraleIncrease}[happiness/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MIRROR_SEAS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Water units have [abilityblue]Fast Movement[/abilityblue] and two hexes increased range on their abilities.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >水上单位获得[abilityblue]迅捷移动[/abilityblue]，技能射程增加两个单元格。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REFLECTIVE_DUST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_EFFECT_A</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit has {decreasedAccuracy} decreased accuracy on ranged attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位的远程攻击准度降低 {decreasedAccuracy}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"accuracy" refers to an in-game concept.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REFLECTIVE_DUST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Units have {decreasedAccuracy} decreased accuracy on ranged attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位的远程攻击准度降低 {decreasedAccuracy}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >"accuracy" refers to an in-game concept.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EARTHQUAKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Earthquake</Data></Cell><Cell><Data
+            ss:Type="String"
+          >地震</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EARTHQUAKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A few sectors have been terraformed to Mountainous. In Tactical Combat, after shocks have a {strengthChance}[damagekinetic/] strength chance to apply [abilityred]Stagger[/abilityred] to all land units and cause 10 damage to a large amount of obstacles. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >少数区域已被改造成山地地形。在战术战斗中，地震发生后有 {strengthChance}[damagekinetic/] 力量几率对所有陆地单位施加[abilityred]动摇[/abilityred]，并对大量障碍物造成 10 点伤害。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EARTHQUAKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMBAT_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Aftershocks have a {strengthChance}[damagekinetic/] strength chance to apply [abilityred]Stagger[/abilityred] to all land units and cause 10 damage to a large amount of obstacles. </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >地震发生后有 {strengthChance}[damagekinetic/] 力量几率对所有陆地单位施加[abilityred]动摇[/abilityred]，并对大量障碍物造成 10 点伤害。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TOTAL_ECLIPSE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The largest moon in orbit around this world is in transit between the parent star and us. The star’s corona flaring and the silver beads twinkling are sights everyone should see, but some can only worry about the dark shadow the moon casts.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这个星球轨道上最大的卫星正在它的母星和我们的星球之间运行。所有人都喜欢见证恒星的日冕和银珠闪烁的景象，但有些人只担心月亮投下的阴影。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FUNGAL_AWAKENING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fungi seem to be one of those few certainties in life… or perhaps of life. Enormous clouds of fungal spores have spread all across the world and the conditions are right for them to flourish even further.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >真菌似乎是生命中为数不多的确定性之一。巨大的真菌孢子云已经散布到世界各地，它们进一步繁茂生长的条件已经成熟。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FUNGAL_AWAKENING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >AOE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fungal Poison Cloud</Data></Cell><Cell><Data
+            ss:Type="String"
+          >真菌毒素云</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FUNGAL_AWAKENING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >AOE_EFFECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deals {damage}[damagebio/] to all units moving through or ending their turn on this hex.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >对所有穿过或在该单元格结束回合的单位造成 {damage}[damagebio/] 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COSMITE_RAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cosmite is a rare and valuable commodity, and it raining down on the planet is actually good news. We must be careful when handling it, though, as the material comes with a number of strange side effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >宇宙合金是一种稀有的珍贵商品，降临至星球实际上是个好消息。尽管如此，我们也必须小心处理，因为这种材料有许多奇奇怪怪的副作用。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PIRATE_UPRISING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >They've hidden underground ever since we touched down, but now they’ve had enough. Pirates are setting up bases and plan to invade our territory here on the surface, while they simultaneously use their ships to maneuver all kinds of debris, causing it to crash down around us.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >自从我们着陆后，海盗就藏进了地下，但现在他们受够了。海盗正在建立基地，并计划入侵我们的地面领土。与此同时，他们还在用飞船调动各种各样的残骸从天空中砸落。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell><Cell
+        ><Data ss:Type="String">LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unidentified flying objects are something that will always keep us asking questions. Are they aliens? Are they secret government spaceships? No! This time it’s sweet, sweet loot raining down from the sky — weapons big and small bursting from caches, crates, and cargo containers.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >不明飞行物总是会让我们提出各种各样的问题。外星人？秘密政府飞船？不！这次从天而降的是丰厚的战利品，大大小小的各种武器从贮藏箱、板条箱和货物集装箱中喷薄而出。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">WHITE_STAR_SUPERNOVA</Data></Cell><Cell
+        ><Data ss:Type="String">LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Supernovas are massively luminous explosions created by dying stars as they shed their outer layers. Unfortunately we find ourselves too close to the shockwave of one, and it will be devastating once it hits the planet... which will be very soon.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >超新星是即将灭亡的恒星在剥离外层时所产生的剧烈光亮爆炸。不幸的是，我们离其中一个发生爆炸的恒星过近，将会受到冲击波的影响。一旦击中我们的星球，后果不堪设想……而这一刻即将来临。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SATELLITE_DISRUPTIONS</Data></Cell><Cell
+        ><Data ss:Type="String">LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cosmic rays are disrupting our satellites, causing occasional malfunctioning and overheating. While not devastating, it does waste energy intended for use in operations.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >宇宙射线正在扰乱我们的卫星，偶尔会造成故障和过热。虽然不是毁灭性的损伤，但却浪费了我们许多能源。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SATELLITE_OVERCHARGE</Data></Cell><Cell
+        ><Data ss:Type="String">LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >At the peak of its solar maximum our host star’s energy output increased significantly and our satellites are able to take advantage of this. This allows us to expend less of our satellite’s energy reserves than normal when using them in operations.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在太阳活动的高峰期，我们的主恒星能量输出也在显著增加，而我们的卫星则能够利用这一点。在使用卫星发起行动时，消耗的能量比平时更少。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PERFECT_CLIMATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The many factors that go into forming a climate have aligned so perfectly, it’s reminiscent of the theoretical “Gaia” planet. Fair temperatures, good moisture levels — everything fell into place as if it was made for biological life.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >形成气候的许多因素完美地结合在了一起，不禁让人联想到了理论上的“盖亚”行星。适宜的温度，良好的湿度，一切都井然有序，仿佛专为生物而设。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ACID_RAINS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Pollution of many different sources has saturated the air and mists, and the result is raining down on us — literally. The acidity of the rain is stunting growth in flora and causing everything from irritation to burns in those it touches.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >空气和雾气中堆满了不同来源的污染，最后的结果就是像雨点一样落在我们身上。酸雨将阻碍植物群的生长，并且会烧伤接触到的一切事物。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CORONAL_MASS_EJECTION</Data></Cell><Cell
+        ><Data ss:Type="String">LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A powerful and unexpected burst of solar matter has shot from our host star and has hit this planet. It has fried many of our electronics and has superheated many  tiny particles floating in the air, which char every surface they touch.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >太阳物质从我们的主恒星喷发而出，毫无征兆地击中了这个星球。剧烈的物质爆发烧毁了我们大量电子元件，使空气中飘浮的微粒过热，将所有触碰到的表面都烤成了焦炭。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IONIC_NEBULA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >As the star we orbit ionizes more gas and dust around this planet than usual, we’re able to make use of the additional charged particles leaking through our atmosphere. This makes it easier to conduct larger amounts of electricity through machinery and weaponry.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >当我们环绕的恒星比平时电离了更多的气体和灰尘时，我们就能利用从大气中泄漏出来的额外带电粒子。这使得我们为机械和武器输送更多电力时变得更加容易。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SUPERMOONS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Supermoons have always had superstitions tied to them, but the empowering of Psionics turned out to be true. Times like these are always a good excuse to study their mental powers closely. Or just hope they leave you alone.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >超级月亮总是与各种各样的迷信联系在一起。然而事实证明，超级月亮是由灵能强化而导致的。这种时候一直是密切研究它们精神力量的最好借口……或者，希望它们不要来打扰你。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CRYSTAL_METEORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Silicon-based lifeforms are rather uncommon, with quartzite being one of the few known examples. Meteors filled with the creatures raining down is raising a number of questions like: “How did they get in space?” and “Do they originate from the vacuum between planets?”.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >硅基生命形式相当罕见，石英岩兽是为数不多的已知例子之一。载有生物的流星像雨点一般落下，也使人产生了许多问题。比如：“它们是如何进入太空的？”以及“它们来自行星之间的真空吗？”</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COLONY_SHIP_CRASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We’ve received a distress call from a nearby colony ship, but as it seems that no one is able to provide assistance to them they’ve opted to use their escape pods. We should provide assistance to those who have landed here; they might even want to join our colonies.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们收到了附近一艘殖民飞船的求救信号，但似乎没人能够帮助他们，因此他们决定使用逃生舱自救。我们应该帮助那些在这里着陆的人，他们也许会加入我们的殖民地。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GIANTS_PERIHELION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Perihelions are generally nothing special, but this time it's a little different. Our closest approach of the star coincides with the approach of our largest neighbor: a massive gas giant. The sheer mass of the gas giant is actually affecting the gravitational pull of this planet.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >通常而言，近日点并没有什么特别之处，但这次有点不同。我们离这颗恒星最近的时候，正好也和我们最大的邻星距离很近：一个庞大的气体巨星。实际上，这个巨星的庞大引力正在影响该行星的引力。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SUPERSTORM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >An unexpected drop in global temperatures is whipping up several blizzards across the planet. These frighteningly powerful storms are covering everything they touch in a thick layer of ice and snow, and it does not look like it will melt away any time soon.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >全球气温的骤降使各地开始降下暴风雪。这些可怕的风暴几乎覆盖了它们能接触到的所有东西，形成了一层厚厚的冰雪，而且看上去并不会很快融化。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TOMBS_OF_IGNITION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A lot of information has been lost since the collapse of the Star Union, including the Promethean Vaults which are suddenly being unearthed. Whatever the reason may be, they come with a number of combustible gases and elements, some even spontaneously igniting as they reach air.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >自从星际联盟崩塌以来，很多信息都一并丢失了，其中就包括圣火宝库。不过，不知道为何这些宝库突然都冒了出来。不管原因是什么，它们都带有大量可燃气体和元素，有些甚至会在接触到空气时自燃。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MAGNETIC_FIELD_DISRUPTION</Data></Cell><Cell
+        ><Data ss:Type="String">LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The planet's magnetic field is constantly present, but has a variable strength. We're seeing an increase in its strength right now, and it's wreaking havoc on our communications in addition to inducing static charges in a number of different objects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >虽然星球磁场一直存在，但它的强度是在不断变化的。目前，我们发现磁场强度正在增加，不仅催生了大量不同物体中的静电电荷，还对我们的通讯造成了严重干扰。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLANATARY_POLLEN_CLOUD</Data></Cell><Cell
+        ><Data ss:Type="String">LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The rate of springtime reproduction on this planet is off the charts. All at once every piece of flora has shot their seeds or spores or pollen into the air, leaving it to be carried off by the wind. Everything is covered by giant clouds of pollen and affecting all living beings.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这个星球的春季繁殖率高得惊人。突然之间，所有植物都把它们的种子、孢子或是花粉洒向了空中，任风吹散，四处飘落。星球上的一切都被巨大的花粉云团所笼罩。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AURORA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >For most people it’s their first time seeing an aurora and their reaction is stunned silence. The variety of beautiful lights and patterns currently illuminating the night sky are the result of a reaction caused by the star’s solar wind interacting with the planet’s magnetosphere.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >对大多数人来说，这是他们第一次看到极光。而他们的反应则是彻底的震惊和沉默。现在，各种美丽的光线和图案照亮了夜空，这是恒星的太阳风与这个星球的磁气圈相互作用的结果。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MIRROR_SEAS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unusually calm weather has resulted in an unobtrusive, mirror-like sea surface. It is as if the sea has tamed itself, allowing us to harvest its resources with much greater efficiency and pick up an increased amount of objects that have floated to the surface.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >异常平静的天气造就了一片毫不显眼但却像镜子一样的海面，仿佛大海驯服了自己，使我们能够以更高的效率采集它的资源并拾起不断漂浮至表面的物体。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOID_ECHOES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Due to a recently detected Void anomaly we’ve been experiencing some strange echoes of ourselves. Seeing yourself doing what you just did or repeating what you just said is quite the experience. At least it seems to be helping with our work!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由于最近侦测到了虚空异常，我们一直都会经历某种诡异的回响。我们会看到自己在做刚刚做过的事，或是重复刚刚说过的话，这是一种很奇妙的体验。至少，这似乎对我们的工作有所帮助！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REFLECTIVE_DUST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Being able to go unseen on a hostile world sounds like a good idea, but it doesn’t help if every other living being on that world is also invisible. The glittery dust that’s been settling down for a while is doing exactly that right now.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在一个充满敌意的星球里遁去身形听上去是个好主意。但如果这个星球上的其他生物都是隐形的，那就没有什么意义了。那些早已沉淀了多时的闪亮尘埃现在正是如此。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INTERSTELLAR_TRADE_CONVOY</Data></Cell><Cell
+        ><Data ss:Type="String">LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >They say it’s bad luck to pass up a good deal, and we’ve just been offered one. A convoy of interstellar traders has hailed us, saying they will trade some of their energy and knowledge for any goods or repairs we’re able to offer.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >人们常说，错过一笔好买卖很不吉利，而我们正好遇到了一笔好买卖。一支星际贸易商队向我们致意，说他们可以用能量和知识来换取我们能提供的任何商品或维修服务。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SHORT_LIVED_NANITES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >After opening an ancient tomb of sorts, a massive cloud of nanites escaped and have quickly spread across the world to nestle themselves in any electronic equipment they could find. Short-lived as they are, they are both repairing and greatly enhancing every part of machinery.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一座古墓开启后，大量的纳米机器人从中逃了出来，并迅速蔓延到世界各地，藏身于他们能找到的任何电子设备中。尽管寿命很短，但它们既能修理机器，又能显著增强机器的各个部件性能。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EARTHQUAKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Two tectonic plates collided which such violence that they pushed up part of the planet's crust and formed a new range of mountains. The event was almost instant, but the aftershocks will be felt all over the planet for a while.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >两个地壳构造板块发生了剧烈碰撞，导致星球的一部分地壳隆起，形成了新的山脉。这一过程几乎发生在一瞬之间，但整个星球还是会在一段时间内感受到余震。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EVENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >World Event</Data></Cell><Cell><Data
+            ss:Type="String"
+          >世界事件</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>115</Zoom><Selected /><Panes
+      ><Pane><Number>3</Number><ActiveRow>9</ActiveRow><ActiveCol
+          >2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

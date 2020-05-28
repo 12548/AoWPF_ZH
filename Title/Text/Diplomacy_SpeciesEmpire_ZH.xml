@@ -10,13 +10,14 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:46:05Z</Created><LastSaved
     >2019-06-25T15:46:05Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14730</WindowHeight><WindowWidth>28740</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><MaxChange
-    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
+    >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -27,32 +28,32 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
-    ><Alignment ss:Vertical="Top" /></Style><Style ss:ID="s58"><Alignment
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" /></Style><Style ss:ID="s63"><Alignment
         ss:Vertical="Top"
         ss:WrapText="1"
-      /></Style><Style ss:ID="s59"><Alignment
+      /></Style><Style ss:ID="s64"><Alignment
         ss:Vertical="Top"
         ss:WrapText="1"
-      /><Interior /></Style><Style ss:ID="s60"><Alignment
+      /><Interior /></Style><Style ss:ID="s65"><Alignment
         ss:Vertical="Top"
       /><Interior /></Style></Styles><Worksheet ss:Name="Script"><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultColumnWidth="51.75"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="160.5" /><Column
-        ss:StyleID="s57"
+    ><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="160.5" /><Column
+        ss:StyleID="s62"
         ss:AutoFitWidth="0"
         ss:Width="289.5"
-      /><Column ss:StyleID="s58" ss:Width="395.25" /><Column
-        ss:StyleID="s58"
+      /><Column ss:StyleID="s63" ss:Width="395.25" /><Column
+        ss:StyleID="s63"
         ss:Width="150"
-      /><Column ss:StyleID="s58" ss:Width="270.75" /><Column
-        ss:StyleID="s58"
+      /><Column ss:StyleID="s63" ss:Width="270.75" /><Column
+        ss:StyleID="s63"
         ss:Width="211.5"
-      /><Column ss:StyleID="s58" ss:Width="48.75" /><Row
+      /><Column ss:StyleID="s63" ss:Width="48.75" /><Row
         ss:AutoFitHeight="0"
         ss:Height="75"
       ><Cell><Data ss:Type="String">DIPLOMACY_SPECIESEMPIRE</Data></Cell><Cell
@@ -314,11 +315,14 @@
             ss:Type="String"
           >我们将帮助你成就事业。齐心协力，我们将走向繁荣。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s59"
-        /><Cell ss:StyleID="s59" /></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell><Cell><Data
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >EMPIRE_BUTTON</Data></Cell><Cell><Data
             ss:Type="String"
           >WITHDRAW_STACK_PEACEKEEPER</Data></Cell><Cell><Data
             ss:Type="String"
@@ -330,7 +334,7 @@
         ><Data
             ss:Type="String"
           >{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data></Cell><Cell
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >EMPIRE_BUTTON</Data></Cell><Cell><Data
@@ -340,7 +344,7 @@
           >Is there anything we can accommodate you with?</Data></Cell><Cell
         ><Data ss:Type="String">有什么需要我们帮忙的吗？</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >EMPIRE_BUTTON</Data></Cell><Cell><Data
@@ -351,8 +355,10 @@
             ss:Type="String"
           >我们的仁慈是有限度的。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s59"
-        /><Cell ss:StyleID="s59" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          ss:StyleID="s64"
+        ><Data ss:Type="String">The Prefect is male.</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >EMPIRE_BUTTON</Data></Cell><Cell><Data
             ss:Type="String"
@@ -361,9 +367,9 @@
           >We kindly request an audience with your Prefect.</Data></Cell><Cell
         ><Data ss:Type="String">我们请求觐见你们的星长。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         ><Data ss:Type="String">The Prefect is male.</Data></Cell><Cell
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >EMPIRE_BUTTON</Data></Cell><Cell><Data
@@ -374,29 +380,29 @@
             ss:Type="String"
           >很好，我们听着呢。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s59"
-        /><Cell ss:StyleID="s59" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
-          >EMPIRE_BUTTON</Data></Cell><Cell ss:StyleID="s60"><Data
+          >EMPIRE_BUTTON</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
-          >CALL_TO_WAR_PEACEKEEPER</Data></Cell><Cell ss:StyleID="s59"><Data
+          >CALL_TO_WAR_PEACEKEEPER</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
           >Allow us to stand against our enemies with combined forces.</Data></Cell><Cell
         ><Data ss:Type="String">让我们同仇敌忾，联手抗敌吧。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s59"
-        /><Cell ss:StyleID="s59" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
-          >EMPIRE_BUTTON</Data></Cell><Cell ss:StyleID="s60"><Data
+          >EMPIRE_BUTTON</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
-          >TRADE_PEACEKEEPER</Data></Cell><Cell ss:StyleID="s59"><Data
+          >TRADE_PEACEKEEPER</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
           >Let our factions trade.</Data></Cell><Cell><Data
             ss:Type="String"
           >让我们进行交易吧。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s59"
-        /><Cell ss:StyleID="s59" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >EMPIRE_BUTTON</Data></Cell><Cell><Data
             ss:Type="String"
@@ -407,11 +413,14 @@
             ss:Type="String"
           >我会帮助你们的。没有我的军队完不成的挑战！</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s59"
-        /><Cell ss:StyleID="s59" /></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell><Cell><Data
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >EMPIRE_BUTTON</Data></Cell><Cell><Data
             ss:Type="String"
           >WITHDRAW_STACK_WARMONGER</Data></Cell><Cell><Data
             ss:Type="String"
@@ -423,7 +432,7 @@
         ><Data
             ss:Type="String"
           >{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data></Cell><Cell
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >EMPIRE_BUTTON</Data></Cell><Cell><Data
@@ -434,8 +443,8 @@
             ss:Type="String"
           >我们的人正在寻求挑战！</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s59"
-        /><Cell ss:StyleID="s59" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >EMPIRE_BUTTON</Data></Cell><Cell><Data
             ss:Type="String"
@@ -445,8 +454,10 @@
             ss:Type="String"
           >完人将在我们的力量面前颤抖！</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s59"
-        /><Cell ss:StyleID="s59" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          ss:StyleID="s64"
+        ><Data ss:Type="String">The Prefect is male.</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >EMPIRE_BUTTON</Data></Cell><Cell><Data
             ss:Type="String"
@@ -456,9 +467,9 @@
             ss:Type="String"
           >带我们见你的星长！</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         ><Data ss:Type="String">The Prefect is male.</Data></Cell><Cell
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >EMPIRE_BUTTON</Data></Cell><Cell><Data
@@ -469,31 +480,31 @@
             ss:Type="String"
           >最好别太简单了！</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s59"
-        /><Cell ss:StyleID="s59" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
-          >EMPIRE_BUTTON</Data></Cell><Cell ss:StyleID="s60"><Data
+          >EMPIRE_BUTTON</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
-          >CALL_TO_WAR_WARMONGER</Data></Cell><Cell ss:StyleID="s59"><Data
+          >CALL_TO_WAR_WARMONGER</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
           >No one can weather the might of our combined forces! </Data></Cell><Cell
         ><Data
             ss:Type="String"
           >没有人能够抵挡我们联合起来的部队！ </Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s59"
-        /><Cell ss:StyleID="s59" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
-          >EMPIRE_BUTTON</Data></Cell><Cell ss:StyleID="s60"><Data
+          >EMPIRE_BUTTON</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
-          >TRADE_WARMONGER</Data></Cell><Cell ss:StyleID="s59"><Data
+          >TRADE_WARMONGER</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
           >We will trade.</Data></Cell><Cell><Data
             ss:Type="String"
           >我们将进行交易。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s59"
-        /><Cell ss:StyleID="s59" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >EMPIRE_BUTTON</Data></Cell><Cell><Data
             ss:Type="String"
@@ -504,11 +515,14 @@
             ss:Type="String"
           >你们好，完人。我们是来为你们提供帮助的。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s59"
-        /><Cell ss:StyleID="s59" /></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell><Cell><Data
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >EMPIRE_BUTTON</Data></Cell><Cell><Data
             ss:Type="String"
           >WITHDRAW_STACK_NEUTRAL</Data></Cell><Cell><Data
             ss:Type="String"
@@ -520,7 +534,7 @@
         ><Data
             ss:Type="String"
           >{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data></Cell><Cell
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >EMPIRE_BUTTON</Data></Cell><Cell><Data
@@ -530,8 +544,8 @@
           >Are there any issues you require our assistance with?</Data></Cell><Cell
         ><Data ss:Type="String">有什么困难需要我们帮忙的吗？</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s59"
-        /><Cell ss:StyleID="s59" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >EMPIRE_BUTTON</Data></Cell><Cell><Data
             ss:Type="String"
@@ -541,8 +555,10 @@
             ss:Type="String"
           >你们对完美的追求将在此终结。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s59"
-        /><Cell ss:StyleID="s59" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          ss:StyleID="s64"
+        ><Data ss:Type="String">The Prefect is male.</Data></Cell><Cell
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >EMPIRE_BUTTON</Data></Cell><Cell><Data
             ss:Type="String"
@@ -552,9 +568,9 @@
             ss:Type="String"
           >我们希望与你们的星长谈谈。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         ><Data ss:Type="String">The Prefect is male.</Data></Cell><Cell
-          ss:StyleID="s59"
+          ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >EMPIRE_BUTTON</Data></Cell><Cell><Data
@@ -565,36 +581,36 @@
             ss:Type="String"
           >用你的意志给予我们启迪。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s59"
-        /><Cell ss:StyleID="s59" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
-          >EMPIRE_BUTTON</Data></Cell><Cell ss:StyleID="s60"><Data
+          >EMPIRE_BUTTON</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
-          >CALL_TO_WAR_NEUTRAL</Data></Cell><Cell ss:StyleID="s59"><Data
+          >CALL_TO_WAR_NEUTRAL</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
           >Would the mighty Paragon join us in our war efforts?</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >强大的完人会与我们并肩作战吗？</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s59"
-        /><Cell ss:StyleID="s59" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
-          >EMPIRE_BUTTON</Data></Cell><Cell ss:StyleID="s60"><Data
+          >EMPIRE_BUTTON</Data></Cell><Cell ss:StyleID="s65"><Data
             ss:Type="String"
-          >TRADE_NEUTRAL</Data></Cell><Cell ss:StyleID="s59"><Data
+          >TRADE_NEUTRAL</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
           >Let us discuss trade.</Data></Cell><Cell><Data
             ss:Type="String"
           >我们来讨论一下交易的事宜吧。</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s59"
-        /><Cell ss:StyleID="s59" /></Row><Row
+          ss:StyleID="s64"
+        /><Cell ss:StyleID="s64" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
-      ><Cell ss:StyleID="s58"><Data
+      ><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >RIVALRY_WARNING_PARAGON</Data></Cell><Cell ss:StyleID="s58"><Data
+          >RIVALRY_WARNING_PARAGON</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -620,6 +636,33 @@
         ><Data
             ss:Type="String"
           >我们的关系最近似乎发生了变化。完人希望我们在未来可以拥有更好的外交关系，让文明繁荣发展。让我们重归于好，为未来的繁荣而努力吧。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_DECREASED_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Greetings {STR_LeaderName}. We regret to inform you that we are forced to formally note a worsening of our diplomatic ties. This comes as a consequence of your actions and lack of justification.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，{STR_LeaderName}。在此很遗憾地通知你，我们被迫正式宣布，由于你的行为和失职，我们的外交关系正在恶化。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_DECREASED_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Greetings {STR_LeaderName}. We regret to inform you that we are forced to formally note a worsening of our diplomatic ties. This comes as a consequence of your actions and lack of justification.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，{STR_LeaderName}。在此很遗憾地通知你，我们被迫正式宣布，由于你的行为和失职，我们的外交关系正在恶化。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_DECREASED_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Greetings {STR_LeaderName}. We regret to inform you that we are forced to formally note a worsening of our diplomatic ties. This comes as a consequence of your actions and lack of justification.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你好，{STR_LeaderName}。在此很遗憾地通知你，我们被迫正式宣布，由于你的行为和失职，我们的外交关系正在恶化。</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
@@ -649,7 +692,9 @@
             ss:Type="String"
           /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
-          /></Cell><Cell><Data
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"

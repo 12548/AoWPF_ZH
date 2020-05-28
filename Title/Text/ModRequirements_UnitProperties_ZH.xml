@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -975,7 +975,42 @@
           >This Mod can only be applied to Cyborg units that have Land or Floating Movement.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该模块仅适用于拥有“陆地移动”或“悬浮移动”技能的半机器人单位。</Data></Cell></Row></Table><WorksheetOptions
+          >该模块仅适用于拥有“陆地移动”或“悬浮移动”技能的半机器人单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BIO_CLAW_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This Mod can only be applied to units that have a Biochemical or Claw ability.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该模块仅适用于拥有生化技能或利爪技能的单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LIGHT_BIO_CLAW_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This Mod can only be applied to units that have a Biochemical or Claw ability.[br/]This Mod can only be applied to Light units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该模块仅适用于拥有生化技能或利爪技能的单位。[br/]该模块仅适用于轻型单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ABILITY_TYPE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CLAW</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Claw</Data></Cell><Cell><Data
+            ss:Type="String"
+          >利爪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >REQUIREMENT_ABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ASSEMBLY_CLAW_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This Mod can only be applied to Assembly Melee Units or units with a Claw ability.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该模块仅适用于半机械人近战单位或拥有利爪技能的单位。</Data></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
     ><Unsynced /><Selected /><TopRowVisible>9</TopRowVisible><Panes><Pane
         ><Number>3</Number><ActiveRow>36</ActiveRow><ActiveCol

@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>9990</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -534,7 +534,7 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Reduce the target player's Operation Defense by {operationDefensePenalty} against our operations, and allow us to view a list of that player's active special, non-covert operations. Players whose Operation Center you have infilitrated will also be shown in the Capability rankings.</Data></Cell><Cell
+          >Reduce the target player's Operation Defense by {operationDefensePenalty} against our operations, and allow us to view their personality traits, as well as  a list of that player's active special, non-covert operations.[br/][br/]Players whose Operation Center you have infilitrated will also be shown in the Capability rankings.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >使目标玩家针对我方行动的行动防御减少 {operationDefensePenalty}，并且允许我们查看该玩家激活的一系列特殊的非隐秘行动。[br/]你已渗入的行动中心所属的玩家将按照能力排名来显示。</Data></Cell></Row><Row
@@ -1544,10 +1544,10 @@
       ><Cell><Data ss:Type="String">FABRICATE_CASUS_BELLI</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Use stolen data and forgery to fabricate a Casus Belli justifying a war against this player. Only one fabricated Casus Belli may be active on a player at once.[br/]On failure, a minor Cassus Belli will still be applied.</Data></Cell><Cell
+          >Use stolen data and forgery to fabricate a Casus Belli justifying a war against this player. Only one fabricated Casus Belli may be active on a player at once.[br/]On failure, a minor Casus Belli will still be applied.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >利用窃取的数据和赝品来伪造对该玩家发动战争的理由。对一名玩家只能伪造一次宣战理由。[br/]即使失败，也仍然会应用一个轻微的宣战理由。</Data></Cell></Row><Row
+          >利用窃取的数据和赝品来伪造对该玩家发动战争的理由，一次只能激活一个伪造的宣战理由。[br/]即使失败，也仍然会应用一个轻微宣战理由。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
       ><Cell><Data ss:Type="String">FABRICATE_CASUS_BELLI</Data></Cell><Cell

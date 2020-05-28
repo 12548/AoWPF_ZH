@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>9990</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -329,10 +329,10 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >You receive: {STR_Rewards}, and relations with the Autonom improve</Data></Cell><Cell
+          >You receive: {STR_Rewards}, and relations [diplomaticlinks/] with the Autonom improve</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >你获得：{STR_Rewards}，同时与自主机械的关系提升</Data></Cell><Cell
+          >你获得：{STR_Rewards}，同时与自主机械的关系[diplomaticlinks/]提升</Data></Cell><Cell
           ss:Index="9"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="120"><Cell><Data
@@ -353,10 +353,10 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >You receive: {STR_Rewards}, but relations with the Autonom decline</Data></Cell><Cell
+          >You receive: {STR_Rewards}, but relations [diplomaticlinks/] with the Autonom decline</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >你获得：{STR_Rewards}，但与自主机械的关系下降</Data></Cell><Cell
+          >你获得：{STR_Rewards}，但与自主机械的关系[diplomaticlinks/]下降</Data></Cell><Cell
           ss:Index="9"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -434,7 +434,7 @@
             ss:Type="String"
           >LABEL</Data></Cell><Cell><Data
             ss:Type="String"
-          >Use the pods to power up and free it. This will impact your reputation [goodalignment/]</Data></Cell><Cell
+          >Use the pods to power up and free it. This will impact your reputation [reputation6/]</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >使用舱体为哨兵充能并将其释放。这将影响你的声望[goodalignment/]</Data></Cell></Row><Row
@@ -446,7 +446,8 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell><Data
             ss:Type="String"
-          >You gain [xpCol]+100 Reputation[/xpCol]</Data></Cell><Cell><Data
+          >You gain [xpCol]+100 [reputation6/] Reputation[/xpCol]</Data></Cell><Cell
+        ><Data
             ss:Type="String"
           >你获得[xpCol] +100 声望[/xpCol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
@@ -489,10 +490,10 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >You receive: {STR_Rewards}, and relations with the Paragon improve</Data></Cell><Cell
+          >You receive: {STR_Rewards}, and relations [diplomaticlinks/] with the Paragon improve</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >你获得：{STR_Rewards}，同时与完人的关系提升</Data></Cell><Cell
+          >你获得：{STR_Rewards}，同时与完人的关系[diplomaticlinks/]提升</Data></Cell><Cell
           ss:Index="9"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
@@ -512,10 +513,10 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >You receive: {STR_Rewards}, but relations with the Paragon decline</Data></Cell><Cell
+          >You receive: {STR_Rewards}, but relations [diplomaticlinks/] with the Paragon decline</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >你获得：{STR_Rewards}，但与完人的关系下降</Data></Cell><Cell
+          >你获得：{STR_Rewards}，但与完人的关系[diplomaticlinks/]下降</Data></Cell><Cell
           ss:Index="9"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -743,7 +744,7 @@
             ss:Type="String"
           >LABEL</Data></Cell><Cell ss:StyleID="s64"><Data
             ss:Type="String"
-          >Shoot him, gaining both. This will impact your reputation [anger/]</Data></Cell><Cell
+          >Shoot him, gaining both. This will impact your reputation [reputation0/]</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >杀了他，将两者都占为己有。这将影响你的声望[anger/]</Data></Cell><Cell
@@ -758,7 +759,7 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell><Data
             ss:Type="String"
-          >Gain: {STR_ItemName} and {STR_Rewards}.[br/][fireCol]-100 Reputation[/fireCol]</Data></Cell><Cell
+          >Gain: {STR_ItemName} and {STR_Rewards}.[br/][fireCol]-100 [reputation0/] Reputation[/fireCol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >获得：{STR_ItemName}和{STR_Rewards}。[br/][fireCol]-100 声望[/fireCol]</Data></Cell></Row><Row
@@ -802,10 +803,10 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell><Data
             ss:Type="String"
-          >You receive: {STR_Rewards}, and your relations with the Spacers improve</Data></Cell><Cell
+          >You receive: {STR_Rewards}, and your relations [diplomaticlinks/] with the Spacers improve</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >你获得：{STR_Rewards}，同时与太空掠夺者的关系提升</Data></Cell></Row><Row
+          >你获得：{STR_Rewards}，同时与太空掠夺者的关系[diplomaticlinks/]提升</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="120"
       ><Cell><Data
@@ -826,10 +827,10 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell><Data
             ss:Type="String"
-          >You receive: {STR_Rewards}, but your relations with the Spacers decline</Data></Cell><Cell
+          >You receive: {STR_Rewards}, but your relations [diplomaticlinks/] with the Spacers decline</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >你获得：{STR_Rewards}，但与太空掠夺者的关系下降</Data></Cell></Row><Row
+          >你获得：{STR_Rewards}，但与太空掠夺者的关系[diplomaticlinks/]下降</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_05</Data></Cell><Cell
         ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
@@ -937,10 +938,10 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >You receive: {STR_Rewards}, and relations with the Growth improve</Data></Cell><Cell
+          >You receive: {STR_Rewards}, and relations [diplomaticlinks/] with the Growth improve</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >你获得：{STR_Rewards}，同时与灵植的关系提升</Data></Cell><Cell
+          >你获得：{STR_Rewards}，同时与灵植的关系[diplomaticlinks/]提升</Data></Cell><Cell
           ss:Index="9"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
@@ -960,10 +961,10 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >You receive {STR_Rewards}, but relations with the Growth decline</Data></Cell><Cell
+          >You receive {STR_Rewards}, but relations [diplomaticlinks/] with the Growth decline</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >你获得：{STR_Rewards}，但与灵植的关系下降</Data></Cell><Cell
+          >你获得：{STR_Rewards}，但与灵植的关系[diplomaticlinks/]下降</Data></Cell><Cell
           ss:Index="9"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -1253,10 +1254,10 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >You receive: {STR_Rewards}, and your relations with the Spacers improve</Data></Cell><Cell
+          >You receive: {STR_Rewards}, and your relations [diplomaticlinks/] with the Spacers improve</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >你获得：{STR_Rewards}，同时与太空掠夺者的关系提升</Data></Cell><Cell
+          >你获得：{STR_Rewards}，同时与太空掠夺者的关系[diplomaticlinks/]提升</Data></Cell><Cell
           ss:Index="9"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
@@ -1277,10 +1278,10 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >You receive: {STR_Rewards}, but your relations with the Spacers decline</Data></Cell><Cell
+          >You receive: {STR_Rewards}, but your relations [diplomaticlinks/] with the Spacers decline</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >你获得：{STR_Rewards}，但与太空掠夺者的关系下降</Data></Cell><Cell
+          >你获得：{STR_Rewards}，但与太空掠夺者的关系[diplomaticlinks/]下降</Data></Cell><Cell
           ss:Index="9"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -1395,10 +1396,10 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >You receive: {STR_Rewards}, and your relations with the Paragon improve</Data></Cell><Cell
+          >You receive: {STR_Rewards}, and your relations [diplomaticlinks/] with the Paragon improve</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >你获得：{STR_Rewards}，同时与完人的关系提升</Data></Cell><Cell
+          >你获得：{STR_Rewards}，同时与完人的关系[diplomaticlinks/]提升</Data></Cell><Cell
           ss:Index="9"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
@@ -1419,10 +1420,10 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >You receive: {STR_Rewards}, but your relations with the Paragon decline</Data></Cell><Cell
+          >You receive: {STR_Rewards}, but your relations [diplomaticlinks/] with the Paragon decline</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >你获得：{STR_Rewards}，同时与完人的关系下降</Data></Cell><Cell
+          >你获得：{STR_Rewards}，但与与完人的关系[diplomaticlinks/]下降</Data></Cell><Cell
           ss:Index="9"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -1680,10 +1681,10 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >You receive: {STR_Rewards}, and your relations with the Psi-Fish improve</Data></Cell><Cell
+          >You receive: {STR_Rewards}, and your relations [diplomaticlinks/] with the Psi-Fish improve</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >你获得：{STR_Rewards}，同时与灵能水母的关系提升</Data></Cell><Cell
+          >你获得：{STR_Rewards}，同时与灵能水母的关系[diplomaticlinks/]提升</Data></Cell><Cell
           ss:Index="9"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
@@ -1703,10 +1704,10 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell ss:StyleID="s63"><Data
             ss:Type="String"
-          >You receive: {STR_Rewards}, but your relations with the Psi-Fish declines</Data></Cell><Cell
+          >You receive: {STR_Rewards}, but your relations [diplomaticlinks/] with the Psi-Fish decline</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >你获得：{STR_Rewards}，同时与灵能水母的关系下降</Data></Cell><Cell
+          >你获得：{STR_Rewards}，但与与灵能水母的关系[diplomaticlinks/]下降</Data></Cell><Cell
           ss:Index="9"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -1782,7 +1783,7 @@
             ss:Type="String"
           >LABEL</Data></Cell><Cell><Data
             ss:Type="String"
-          >Flush: Free it to the wild. This will impact your reputation [happiness/]</Data></Cell><Cell
+          >Flush: Free it to the wild. This will impact your reputation [reputation6/]</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >冲洗：将它释放到野外。这将影响你的声望[happiness/]</Data></Cell></Row><Row
@@ -1793,9 +1794,8 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell><Data
             ss:Type="String"
-          >[xpCol]+100 Reputation[/xpCol]</Data></Cell><Cell><Data
-            ss:Type="String"
-          >[xpCol]+100 声望[/xpCol]</Data></Cell></Row><Row
+          >[xpCol]+100 [reputation6/] Reputation[/xpCol]</Data></Cell><Cell
+        ><Data ss:Type="String">[xpCol]+100 声望[/xpCol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_06</Data></Cell><Cell
         ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
@@ -1834,10 +1834,10 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell><Data
             ss:Type="String"
-          >You receive: {STR_Rewards}, and relations with the Autonom improve</Data></Cell><Cell
+          >You receive: {STR_Rewards}, and relations [diplomaticlinks/] with the Autonom improve</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >你获得：{STR_Rewards}，同时与自主机械的关系提升</Data></Cell><Cell
+          >你获得：{STR_Rewards}，同时与自主机械的关系[diplomaticlinks/]提升</Data></Cell><Cell
           ss:Index="9"
           ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="120"><Cell><Data
@@ -1858,10 +1858,10 @@
             ss:Type="String"
           >TOOLTIP</Data></Cell><Cell><Data
             ss:Type="String"
-          >You receive: {STR_Rewards}, but relations with the Autonom decline</Data></Cell><Cell
+          >You receive: {STR_Rewards}, but relations [diplomaticlinks/] with the Autonom decline</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >你获得：{STR_Rewards}，但与自主机械的关系下降</Data></Cell><Cell
+          >你获得：{STR_Rewards}，但与自主机械的关系[diplomaticlinks/]下降</Data></Cell><Cell
           ss:Index="9"
           ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -1947,7 +1947,7 @@
     ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
         >600</HorizontalResolution><VerticalResolution
         >600</VerticalResolution></Print><Selected /><TopRowVisible
-      >198</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
-          >208</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects
+      >84</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >89</ActiveRow><ActiveCol>4</ActiveCol></Pane></Panes><ProtectObjects
       >False</ProtectObjects><ProtectScenarios
       >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

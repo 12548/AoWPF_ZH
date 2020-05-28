@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -3355,6 +3355,19 @@ Inserted text can be found in 'Diplomacy_CasusBelli.xml'.</Data></Cell></Row><Ro
         ><Data
             ss:Type="String"
           >我最近拒绝过同样的提议，并且还会这样做。等你有了更好的提议后再来吧，也许到时候我可以和你谈谈。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GREET_NEGLECTED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >I was expecting more diplomatic efforts from you, {STR_leaderName}. Are you really seeking to maintain relations?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我以为你还会更努力地促进外交，{STR_leaderName}。你确定要保持现在的外交关系吗？</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"

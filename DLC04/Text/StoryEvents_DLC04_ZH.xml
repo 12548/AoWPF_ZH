@@ -1,0 +1,432 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Michelle Kusters</LastAuthor><LastSaved
+    >2020-02-05T14:43:58Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:CharSet="1"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
+      ss:ID="s64"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Font
+        ss:FontName="Calibri"
+        x:CharSet="1"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /></Style><Style ss:ID="s65"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="270"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="261" /><Column
+        ss:StyleID="s62"
+        ss:Width="66.75"
+      /><Column ss:StyleID="s62" ss:Width="279" /><Column
+        ss:StyleID="s62"
+        ss:Width="150"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="184.5" /><Column
+        ss:StyleID="s62"
+        ss:Width="265.5"
+      /><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
+            ss:Type="String"
+          >DLC04_STORYEVENTS</Data></Cell><Cell ss:Index="6"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >THERIANS_WEAK_ATTACK_EVENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Natural Selection</Data></Cell><Cell><Data
+            ss:Type="String"
+          >自然的选择</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data
+            ss:Type="String"
+          >THERIANS_WEAK_ATTACK_EVENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We have to support our pack. Out here it’s eat or get eaten, you see. And we’re so very hungry. {XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们得供给整个族群。在外面的世界，要么当捕食者，要么就成为猎物。而我们非常饥饿。{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >THERIANS_MEDIUM_ATTACK_EVENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Gloves Off</Data></Cell><Cell><Data
+            ss:Type="String"
+          >摘下手套</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data
+            ss:Type="String"
+          >THERIANS_MEDIUM_ATTACK_EVENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our claws are sharpened, our fangs bared and all gun safeties are off. We’d like you to experience the true potential of our company. Still gleeful, just more bloody.{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们磨尖了爪子，露出了獠牙，关掉了所有枪械的保险。我们要让你体验一下我们真正的潜力。放心，还是会很愉快的，只是更加血腥而已。{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >THERIANS_STRONG_ATTACK_EVENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Ripped to Shreds</Data></Cell><Cell><Data
+            ss:Type="String"
+          >撕成碎片</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data
+            ss:Type="String"
+          >THERIANS_STRONG_ATTACK_EVENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We could have been friends. But now the hunter has become prey. We smell your fear. When you hear our howls, it'll already be too late. {XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们本来可以成为朋友，但现在猎人变成了猎物。我们嗅到了你的恐惧。当你听到我们的嚎叫时，一切都已经晚了。{XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FACTION_DEMAND_THERIANS</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Therian Faction Demand</Data></Cell><Cell><Data
+            ss:Type="String"
+          >兽人阵营要求</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >FACTION_DEMAND_THERIANS_ENERGY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >You’re not listening to our howls and growls. Maybe a direct demand is clearer. We need energy for our shelter.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你没有听到我们的嚎叫和咆哮，也许直接要求会更明确一些。我们的庇护所需要能量。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >FACTION_DEMAND_THERIANS_ALIENGOOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >You roam around, doing what you want, ignoring us and our wishes. Throw us a bone here. Or at least, some cosmite.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你四处游荡，为所欲为，无视我们和我们的意愿。给我们丢块骨头吧，或者至少给我们一些宇宙合金。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >FACTION_DEMAND_THERIANS_SECTOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >This friendship seems very one-sided. You take and take, so now we’ll claim what’s ours. Leave this sector for us.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的友谊似乎是单方面的。你不断在索取，所以现在我们要收回属于自己的东西。把这个区域交给我们。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data
+            ss:Type="String"
+          >RIVALRY_WARNING_SECOND_THERIANS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Doesn’t our company make you happy? Are you really like the others - tyrants and mutineers? Prove you’re different, or we’ll show you what it's like to be on our bad side.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的陪伴难道没有让你感到开心吗？你真的与那些暴君和反叛者如出一辙？证明你与他们不同，否则我们会让你知道与我们作对是什么样的感觉。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data
+            ss:Type="String"
+          >DEFAULT_OUTPOST_EVENT_SHAKARN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >This Shakarn settlement is adorned with beautiful holographic objects floating above the streets and its denizens. But as you approach, the colors start to fade and the settlement's true nature reveals itself to you as a military base of operations.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这个蜥蜴人定居点的街道和居民身上都装饰着美丽的全息影像物品。但当你接近时，所有的颜色逐渐褪去，定居点的真实面貌显露无疑：一个军事行动基地。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >You in the text can refer to a male or female character</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >PRODUCTION_PICKUP_EVENT_DLC04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Lost Stray</Data></Cell><Cell><Data
+            ss:Type="String"
+          >迷途浪人</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PRODUCTION_PICKUP_EVENT_DLC04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >As you approach the stash, you startle a lone Therian stray {STR_UnitName} as it's trying to open one of the crates. It backs away warily, starving and alone. You could either help it or keep the resources for yourself. [br/][productioncol]This decision will affect relations with this Faction.[/productioncol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >当你靠近贮藏点时，一个流浪的兽人{STR_UnitName}正试图打开一个箱子，你被它吓了一跳。它小心翼翼地向后退去，眼神中透露出饥饿与孤独。你可以帮助它，也可以把资源纳为己有。[br/][productioncol]该决定将会影响你与该阵营的关系。[/productioncol]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >PRODUCTION_PICKUP_EVENT_DLC04_BUTTON_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Adopt the stray into your ranks ({STR_UnitName})</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >收养这个流浪的兽人（{STR_UnitName}）并编入你的军队</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >{STR_UnitName} gives a unit name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >PRODUCTION_PICKUP_EVENT_DLC04_BUTTON_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You receive the unit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >你获得单位</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PRODUCTION_PICKUP_EVENT_DLC04_BUTTON_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Ignore the stray and take the {STR_Rewards} for yourself</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >无视这个流浪的兽人，拿走{STR_Rewards}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >{STR_Rewards} shows a reward amount</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >PRODUCTION_PICKUP_EVENT_DLC04_BUTTON_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You receive: {STR_Rewards}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >你获得：{STR_Rewards}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >PRODUCTION_PICKUP_EVENT_DLC04_BUTTON_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Open the crate to leave it for the stray and gain [diplomaticlinks/] </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >帮助这名流浪的兽人打开箱子并将资源留给它，你获得[diplomaticlinks/] </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >PRODUCTION_PICKUP_EVENT_DLC04_BUTTON_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Your relations [diplomaticlinks/] with the Therians improve</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >与兽人的关系[diplomaticlinks/]提升</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC04</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Busted Energy Cache</Data></Cell><Cell><Data
+            ss:Type="String"
+          >破损的能量贮藏箱</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC04</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data
+            ss:Type="String"
+          >As you approach the damaged energy cache you notice a small group of Therians are currently using a weapon to wrench the cache open. Their leader lets you know they were here first so they call 'dibs', but you are certain you can chase them off if you try. [br/][productioncol]This decision will affect relations with this Faction.[/productioncol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >当你靠近这个破损的能量贮藏箱时，你发现一小群兽人正在用武器想要撬开贮藏箱。他们的首领说要讲究先来后到，所以他们拥有“优先权”。但你知道如果动起手来，你大可以把他们全部赶跑。[br/][productioncol]该决定将会影响你与该阵营的关系。[/productioncol]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >ENERGY_PICKUP_EVENT_DLC04_BUTTON_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Chase them off and claim the weapon: ({STR_ItemName})</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >赶走他们，拿走武器：（{STR_ItemName}）</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >{STR_ItemName} gives an item name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >ENERGY_PICKUP_EVENT_DLC04_BUTTON_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You receive the weapon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >你获得武器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENERGY_PICKUP_EVENT_DLC04_BUTTON_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Chase them off and claim the cache, losing the weapon: {STR_Rewards}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >赶走他们并打开贮藏箱，失去武器：（{STR_Rewards}）</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >ENERGY_PICKUP_EVENT_DLC04_BUTTON_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >You receive: {STR_Rewards}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >你获得：{STR_Rewards}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >ENERGY_PICKUP_EVENT_DLC04_BUTTON_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Leave this to the Therians and gain [diplomaticlinks/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >不与兽人争抢，获得[diplomaticlinks/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >ENERGY_PICKUP_EVENT_DLC04_BUTTON_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Your relations [diplomaticlinks/] with the Therians improve</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >与兽人的关系[diplomaticlinks/]提升</Data></Cell></Row><Row><Cell
+        ><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="8"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><TopRowVisible
+      >21</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >43</ActiveRow><ActiveCol>2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

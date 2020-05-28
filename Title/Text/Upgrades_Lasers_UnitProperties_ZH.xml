@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>9990</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -194,50 +194,31 @@
             ss:Type="String"
           >过载激光加农炮，发射一道高能聚焦冲击波。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">LASER_PENETRATOR_MODULE</Data></Cell><Cell
-        ><Data ss:Type="String">UPGRADE_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Laser Penetrator Module</Data></Cell><Cell><Data
-            ss:Type="String"
-          >激光穿透器模块</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="43.3125"
-      ><Cell><Data ss:Type="String">LASER_PENETRATOR_MODULE</Data></Cell><Cell
-        ><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >This unit's Laser weapons ignore up to {armorPenetration}[armor/] and have a {strengthCharred}[strengthThermal/] strength chance ({CharredRepeatingChance}[strengththermal/] for repeating attacks) of applying [abilityred]Charred[/abilityred] for {durationCharred}[turn/].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >该单位的激光武器可无视最多 {armorPenetration}[armor/]，并有 {strengthCharred}[strengthThermal/] 力量几率（重复攻击有 {CharredRepeatingChance}[strengththermal/] 几率）施加[abilityred]烧焦[/abilityred]，持续 {durationCharred}[turn/]。</Data></Cell><Cell
-          ss:Index="8"
-          ss:StyleID="s63"
-        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
-            ss:Type="String"
-          >FLASH_MODULE</Data></Cell><Cell><Data
+      ><Cell><Data ss:Type="String">FLASH_MODULE</Data></Cell><Cell><Data
             ss:Type="String"
           >UPGRADE_NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Flash Module</Data></Cell><Cell><Data
+          >Dazzler Systems</Data></Cell><Cell><Data
             ss:Type="String"
-          >闪光模块</Data></Cell></Row><Row
+          >炫目系统</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">FLASH_MODULE</Data></Cell><Cell><Data
             ss:Type="String"
           >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit's Laser weapons have a {BlindChance} strength chance to [abilityred]Blind[/abilityred] units for {duration}[turn/].</Data></Cell><Cell
+          >This unit's weapons have a {BlindChance}[strengthphysical/] strength chance  ({BlindRepeatingChance}[strengthphysical/] for repeating attacks) to [abilityred]Blind[/abilityred] units for {duration}[turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位的激光武器有 {BlindChance} 力量几率[abilityred]致盲[/abilityred]目标，持续 {duration}[turn/]。</Data></Cell></Row><Row
+          >该单位的武器有 {BlindChance}[strengthphysical/] 力量几率（多次攻击有 {BlindRepeatingChance}[strengthphysical/] 几率）[abilityred]致盲[/abilityred]目标，持续 {duration}[turn/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">HARD_LIGHT_MODULE</Data></Cell><Cell><Data
             ss:Type="String"
           >UPGRADE_NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Hard Light Module</Data></Cell><Cell><Data
+          >Hard Light Systems</Data></Cell><Cell><Data
             ss:Type="String"
-          >强光模块</Data></Cell></Row><Row
+          >强光系统</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">HARD_LIGHT_MODULE</Data></Cell><Cell><Data
@@ -262,29 +243,12 @@
             ss:Type="String"
           >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit's Laser weapons have a {burningchance}[strengththermal/] strength chance ({BurningRepeatingChance}[strengththermal/] for repeating attacks) to set targets on fire, causing [abilityred]Burning[/abilityred] for {duration}[turn/].</Data></Cell><Cell
+          >This unit's Laser weapons have a {Immolatechance}[strengththermal/] strength chance ({ImmolateRepeatingChance}[strengththermal/] for repeating attacks) to set targets on fire, causing [abilityred]Immolation[/abilityred] for {duration}[turn/]. Immolation deals {Immolationdamage}[damageThermal/] per [turn/] as well as making the affected unit {AccuracyTarget}% easier to hit.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位的激光武器有 {burningchance}[strengththermal/] 力量几率（重复攻击有 {BurningRepeatingChance}[strengththermal/] 几率）将目标点燃，施加[abilityred]燃烧[/abilityred]，持续 {duration}[turn/]。</Data></Cell></Row><Row
+          >该单位的激光武器有 {Immolatechance}[strengththermal/] 力量几率（多次攻击有 {ImmolateRepeatingChance}[strengththermal/] 几率）点燃目标，施加[abilityred]焚祭[/abilityred]，持续 {duration}[turn/]。焚祭每 [turn/] 造成 {Immolationdamage}[damageThermal/] 伤害，同时使受到影响单位的命中难度降低 {AccuracyTarget}%。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">SHIELD_BREAKER_MODULE</Data></Cell><Cell
-        ><Data ss:Type="String">UPGRADE_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Shield Breaker Module</Data></Cell><Cell><Data
-            ss:Type="String"
-          >碎盾模块</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">SHIELD_BREAKER_MODULE</Data></Cell><Cell
-        ><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >This unit's Laser weapons gain [abilityred]Shield Overheat[/abilityred], disabling {ShieldBreakerAmount} per hit.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >该单位的激光武器获得[abilityred]护盾过热[/abilityred]，每次命中可使 {ShieldBreakerAmount} 无效。</Data></Cell><Cell
-          ss:Index="8"
-          ss:StyleID="s63"
-        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+      ><Cell><Data
             ss:Type="String"
           >DISINTEGRATOR_FLARE_MODULE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -301,7 +265,7 @@
             ss:Type="String"
           >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Laser weapon attacks destroy {DisintegratorArmorDestroy}[armor/] and have a {DisintegrateChance}[strengththermal/] strength chance ({DisintegrateRepeatingChance}[strengththermal/] for repeating attacks) to [abilityred]Disintegrate[/abilityred] Tier 1 and Tier 2 units. Disintegrated units are instantly killed and leave no corpse behind.</Data></Cell><Cell
+          >Laser weapon attacks destroy {DisintegratorArmorDestroy}[armor/] and have a {DisintegrateChance}[strengththermal/] strength chance ({DisintegrateRepeatingChance}[strengththermal/] for repeating attacks) to [abilityred]Disintegrate[/abilityred] Tier I and Tier II units. Disintegrated units are instantly killed and leave no corpse behind.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >激光武器的攻击可摧毁 {DisintegratorArmorDestroy}[armor/] 并有 {DisintegrateChance}[strengththermal/] 力量几率（重复攻击有 {DisintegrateRepeatingChance}[strengththermal/] 几率）[abilityred]瓦解[/abilityred] 1 阶和 2 阶单位。被瓦解的单位将会立即死亡且不会留下尸体。</Data></Cell><Cell
@@ -1130,7 +1094,51 @@
             ss:Type="String"
           >抹杀者</Data></Cell><Cell ss:Index="8" ss:StyleID="s63" /><Cell
           ss:StyleID="s64"
-        /></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DISINTEGRATOR_FLARE_MODULE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_MODIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Destroys {amount}[armor/] per hit. Has a {DisintegrateChance}[strengthThermal/] strength chance to [abilityred]Disintegrate[/abilityred] Tier I and Tier II units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每次命中破坏 {amount}[armor/]，且有 {DisintegrateChance}[strengthThermal/] 力量几率[abilityred]瓦解[/abilityred] 1 阶和 2 阶单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SEARING_MODULE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Searing Module</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灼热模组</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SEARING_MODULE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's Laser weapons gain [abilityred]Shield Overheat[/abilityred], disabling {ShieldDisable}[shield/] per hit, and have a {strengthCharred}[strengthThermal/] strength chance ({CharredRepeatingChance}[strengththermal/] for repeating attacks) of applying [abilityred]Charred[/abilityred] for {durationCharred}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的激光武器获得[abilityred]护盾过热[/abilityred]，每次命中会破坏 {ShieldDisable}[shield/]，并有 {strengthCharred}[strengthThermal/] 力量几率（多次攻击有 {CharredRepeatingChance}[strengththermal/] 几率）施加[abilityred]烧焦[/abilityred]，持续 {durationCharred}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LASER_FOCUS_MODULE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Laser Precision Module</Data></Cell><Cell><Data
+            ss:Type="String"
+          >激光精度模块</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >LASER_FOCUS_MODULE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's ranged Laser weapons gain +{Range} range.[br/]Additionally this unit's weapons gain +{AccuracyBoost}% accuracy.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位的远程激光武器射程 +{Range}。[br/]此外，该单位的武器获得 +{AccuracyBoost}% 准度。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
           ss:Index="7"

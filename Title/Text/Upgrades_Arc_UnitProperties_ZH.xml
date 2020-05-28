@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -203,10 +203,10 @@
             ss:Type="String"
           >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Attacks from Arc weapons gain an extra impact level, allowing them to [abilityred]Stagger[/abilityred] enemy units.</Data></Cell><Cell
+          >Attacks from Arc weapons gain an extra impact level, allowing them to [abilityred]Stagger[/abilityred] enemy units.[br/]Additionally, Arc weapons gain a {StrengthChance}[strengthWave/] strength chance ({StaticChanceRepeating}[strengthwave/] for repeating attacks) to apply [abilityred]Electrified[/abilityred] to non-Ethereal units for {Duration}[turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >电弧武器的攻击获得额外冲击等级，能够使敌方单位[abilityred]动摇[/abilityred]。</Data></Cell></Row><Row
+          >电弧武器的攻击获得额外冲击等级，能够使敌方单位[abilityred]动摇[/abilityred]。[br/]此外，电弧武器有 {StrengthChance}[strengthWave/] 力量几率（多次攻击有 {StaticChanceRepeating}[strengthwave/] 几率）对非虚灵单位施加[abilityred]触电[/abilityred]，持续 {Duration}[turn/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">SABOTAGE_MODULE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -667,9 +667,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Fire a powerful, short-range blast.</Data></Cell><Cell><Data
+          >Fire a powerful, short-range blast. This unit enters [abilityblue]Defense Mode[/abilityblue]afterwards.</Data></Cell><Cell
+        ><Data
             ss:Type="String"
-          >发射一道威力巨大的近距离冲击波。</Data></Cell></Row><Row
+          >发射一道威力巨大的近距离冲击波，此后单位将进入[abilityblue]防御模式[/abilityblue]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ENERGY_BLASTER_TURRET</Data></Cell><Cell
         ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data

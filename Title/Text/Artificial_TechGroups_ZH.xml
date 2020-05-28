@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -389,10 +389,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit has been [abilityred]Compromised[/abilityred]. They lose {CompromisedStaggerReduction} level of stagger resistance and their Arc resistance is reduced by {CompromisedArcResist}.</Data></Cell><Cell
+          >This unit has been [abilityred]Compromised[/abilityred]. They lose {CompromisedStaggerReduction} level of stagger resistance, their Arc resistance is reduced by {CompromisedArcResist} and other resistances are reduced by {CompromisedResistenceDrop}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位已被[abilityred]扰乱[/abilityred]，将失去第 {CompromisedStaggerReduction} 级动摇抵抗，同时电弧抵抗降低 {CompromisedArcResist}。</Data></Cell><Cell
+          >该单位被[abilityred]扰乱[/abilityred]，失去 {CompromisedStaggerReduction} 级动摇抵抗，同时电弧抵抗降低 {CompromisedArcResist}，其他抵抗降低 {CompromisedResistenceDrop}。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -699,10 +699,10 @@
       ><Cell><Data ss:Type="String">RESET_SAVE_STATE_DAEMON</Data></Cell><Cell
         ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Sends a Daemon to interface with target [abilityblue]Integrated[/abilityblue] unit, resetting their status. The unit has all hostile effects dispelled, becomes immune to all status effects and regains {ResetSaveStateDaemonHP} of their maximum [hp/] at the start of the turn for {ResetSaveStateDaemonTime}.</Data></Cell><Cell
+          >Sends a Daemon to interface with target [abilityblue]Integrated[/abilityblue] unit, resetting their status. The unit has all hostile effects dispelled, becomes immune to all status effects and regains {ResetSaveStateDaemonHP}[hp/] at the start of the turn for {ResetSaveStateDaemonTime}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >派出一个精灵接入目标[abilityblue]融合[/abilityblue]单位。重置该单位的状态，驱散该单位身上的所有敌对效果并使其免疫所有状态效果。在每个回合开始时，该单位还会恢复最大 [hp/] 的 {ResetSaveStateDaemonHP}，持续 {ResetSaveStateDaemonTime}。</Data></Cell><Cell
+          >派出一个精灵接入目标[abilityblue]融合[/abilityblue]单位。重置该单位的状态，驱散该单位身上的所有负面效果并使其免疫所有状态效果。在每个回合开始时，该单位还会恢复 {ResetSaveStateDaemonHP}[hp/]，持续 {ResetSaveStateDaemonTime}。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -715,10 +715,10 @@
       ><Cell><Data ss:Type="String">RESET_SAVE_STATE_DAEMON</Data></Cell><Cell
         ><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit is being restored, regaining {ResetSaveStateDaemonHP} of their maximum [hp/] at the start of each turn.</Data></Cell><Cell
+          >This unit is being restored, regaining {ResetSaveStateDaemonHP}[hp/] at the start of each turn.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位得以复原，在每回合开始时恢复其最大 [hp/] 的 {ResetSaveStateDaemonHP}。</Data></Cell></Row><Row
+          >该单位正得到恢复，每个回合开始时恢复 {ResetSaveStateDaemonHP}[hp/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ARC_DISRUPTOR</Data></Cell><Cell><Data
             ss:Type="String"
@@ -979,10 +979,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Sends out a targeted hacking signal to interfere with enemy Mechanical and Cyborg units in a {Radius} hex area of effect. They have a strength {DisableChance} chance to become [abilityred]Disabled[/abilityred] for {duration}. If resisted, the units will be Staggered instead. Additionally, Biological units in the area have a {ElectrifiedChance}[strengthWave/] strength chance to become [abilityred]Electrified[/abilityred].</Data></Cell><Cell
+          >Sends out a targeted hacking signal to interfere with enemy Mechanical and Cyborg units in a {Radius} hex area of effect. They have a {DisableChance} strength chance to become [abilityred]Disabled[/abilityred] for {duration}. If resisted, the units will be [abilityred]Staggered[/abilityred] instead. In addition, Biological units in the area have a {ElectrifiedChance}[strengthWave/] strength chance to become [abilityred]Electrified[/abilityred] for {ElectrifiedDuration}[turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >发出指向型入侵信号干扰 {Radius} 个单元格范围内的敌方机械单位和半机械单位。它们有 {DisableChance} 力量几率被[abilityred]瘫痪[/abilityred]，持续 {duration}。如果被抵抗，则该单位被动摇。此外，范围内的生物单位有 {ElectrifiedChance}[strengthWave/] 力量几率受到[abilityred]触电[/abilityred]。</Data></Cell></Row><Row
+          >发出指向型入侵信号干扰 {Radius} 个单元格范围内的敌方机械和半机械单位，使其有 {DisableChance} 力量几率陷入[abilityred]瘫痪[/abilityred]，持续 {duration}。如果被抵抗，则改为被[abilityred]动摇[/abilityred]。此外，范围内的生物单位有 {ElectrifiedChance}[strengthWave/] 力量几率受到[abilityred]触电[/abilityred]，持续 {ElectrifiedDuration}[turn/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">SKIRMISH_SUBROUTINES</Data></Cell><Cell
         ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
@@ -1267,10 +1267,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Reactivating local imperial androids can provide quick reinforcements in the field. Summon a {number} android units at target location. Can only summon a tier 1 or tier 2 unit.</Data></Cell><Cell
+          >Reactivating local imperial androids can provide quick reinforcements in the field.[br/][br/]Summon {number} Autonom, E:bot, or Network Link units at target location. These units can only be Tier 1 or 2.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >复活本地帝国机器人可以为战场提供快速增援。在目标位置召唤 {number} 个机器人单位。仅可召唤 1 阶或 2 阶单位。</Data></Cell></Row><Row
+          >复活本地帝国机器人可以为战场提供快速增援。[br/][br/]在目标位置召唤 {number} 个自主机械、E:Bot 或网络连接单位，仅限 1 阶或 2 阶单位。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">CASCADING_SYSTEM_FAILURE</Data></Cell><Cell
         ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
@@ -1343,10 +1343,10 @@
       ><Cell><Data ss:Type="String">ORGANIZED_CYBER_DIVISIONS</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Optimize and strengthen our cyberwarfare division in times of war, allowing for more brutal cyber-attacks and increased efficiency.[br/][br/]Gain {OperationStrengthModifier} for all operations. In addition, strategic operations are now {StrategicCostModifier} cheaper.</Data></Cell><Cell
+          >Optimize and strengthen our cyberwarfare division in times of war, allowing for more brutal cyber-attacks and increased efficiency.[br/][br/]Gain {OperationStrengthModifier} for all operations. In addition, strategic and covert operations are now {StrategicCostModifier} cheaper.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >在战时优化和强化我们的网络战斗分区，可以提升网络进攻严重度以及进攻效率。[br/][br/]所有行动获得 {OperationStrengthModifier}。另外，战略行动消耗减少 {StrategicCostModifier}。</Data></Cell></Row><Row
+          >在战时优化和强化我们的网络战斗分区，提升网络进攻的力度和效率。[br/][br/]所有行动获得 {OperationStrengthModifier}。另外，战略行动和隐秘行动的消耗减少 {StrategicCostModifier}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">WORKER_INTEGRATION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1483,10 +1483,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Link the entire planet together in the Basilisk network, bringing it all under under your control, granting absolute power.[br/][br/]Requires Cyber Attack level 3.</Data></Cell><Cell
+          >Link the entire planet together in the Basilisk network, bringing it all under your control, granting absolute power.[br/][br/]Requires Cyber Attack level 3.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >将整个星球连接到蜥蜴网络，一切都将处于你的控制中下，享有绝对权力。[br/][br/]需要网络进攻等级 3。</Data></Cell><Cell
+          >将整个星球连接到蜥蜴网络，让一切处于你的控制之下，获得至高无上的权力。[br/][br/]需要网络进攻等级 3。</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s64"
         ><Data
@@ -2274,11 +2274,42 @@ Synthesis is a state of transcendance where man is merged with machine, their co
             ss:Type="String"
           >Integrated Amplify Daemon</Data></Cell><Cell><Data
             ss:Type="String"
-          >融合强化精灵</Data></Cell></Row><Row><Cell><Data
+          >融合强化精灵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+          >DEPLOY_MAINTENANCE_DAEMONS</Data></Cell><Cell><Data
             ss:Type="String"
-          /></Cell><Cell ss:Index="7"><Data
+          >EFFECT_SUCCESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Maintenance Daemons have been deployed on the friendly army, fixing them up and fine-tuning them for combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >已部署维修精灵至友方军队进行修复和精细调试作业。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >DEPLOY_MAINTENANCE_DAEMONS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_DESCRIPTION_HEAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Units are healed to full [hp/].</Data></Cell><Cell><Data
+            ss:Type="String"
+          >单位恢复全部 [hp/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >DEPLOY_MAINTENANCE_DAEMONS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_DESCRIPTION_FINELYTUNED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Units gain [abilityblue]Finely-tuned[/abilityblue], granting them +{accuracy} accuracy and +{damage} damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位获得[abilityblue]精细调试[/abilityblue]，获得 +{accuracy} 准度和 +{damage} 伤害。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
             ss:Type="String"
           >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data

@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9150</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -693,6 +693,33 @@ This is followed by the influence icon.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >与{STR_LeaderName}的市民关系更新。关系重置：0。未来关系：不确定。自主机械愿望：未来加强外交。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_DECREASED_PEACEKEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Accessing Database… Relation status: worsened. Cause: Dereliction of diplomatic duties.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在访问数据库……关系状态：恶化。原因：外交责任失职。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_DECREASED_WARMONGER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Accessing Database… Relation status: worsened. Cause: Dereliction of diplomatic duties.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在访问数据库……关系状态：恶化。原因：外交责任失职。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELATION_DECREASED_NEUTRAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Accessing Database… Relation status: worsened. Cause: Dereliction of diplomatic duties.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >正在访问数据库……关系状态：恶化。原因：外交责任失职。</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
@@ -719,6 +746,10 @@ This is followed by the influence icon.</Data></Cell><Cell
           /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data
             ss:Type="String"
           /></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
