@@ -6,1120 +6,1018 @@
   xmlns:x="urn:schemas-microsoft-com:office:excel"
   xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
   xmlns:html="http://www.w3.org/TR/REC-html40"
-><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author
-    >GameScribes4</Author><LastAuthor>GameScribes4</LastAuthor><Created
-    >2020-04-11T19:15:53Z</Created><LastSaved
-    >2020-04-11T19:14:19Z</LastSaved><Version
-    >16.00</Version></DocumentProperties><OfficeDocumentSettings
-    xmlns="urn:schemas-microsoft-com:office:office"
-  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
-    xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7320</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
-    /><ProtectStructure>False</ProtectStructure><ProtectWindows
-    >False</ProtectWindows></ExcelWorkbook><Styles><Style
-      ss:ID="Default"
-      ss:Name="Normal"
-    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+>
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>GameScribes4</Author>
+  <LastAuthor>GameScribes4</LastAuthor>
+  <Created>2020-04-11T19:15:53Z</Created>
+  <LastSaved>2020-04-11T19:14:19Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG />
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10215</WindowHeight>
+  <WindowWidth>21570</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1 />
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom" />
+   <Borders />
+   <Font
         ss:FontName="Calibri"
         x:Family="Swiss"
         ss:Size="11"
         ss:Color="#000000"
-      /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s62"
-    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
-      ss:ID="s63"
-    ><Font
-        ss:FontName="Arial"
-        x:Family="Swiss"
-        ss:Color="#000000"
-      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      />
+   <Interior />
+   <NumberFormat />
+   <Protection />
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1" />
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table
+      ss:ExpandedColumnCount="8"
+      ss:ExpandedRowCount="98"
       x:FullColumns="1"
       x:FullRows="1"
       ss:StyleID="s62"
       ss:DefaultColumnWidth="288.75"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s62" ss:Width="142.5" /><Column
-        ss:StyleID="s62"
-        ss:AutoFitWidth="0"
-        ss:Width="96"
-      /><Column ss:StyleID="s62" ss:Width="402.75" /><Column
-        ss:StyleID="s62"
-        ss:Width="147.75"
-      /><Column ss:StyleID="s62" ss:Width="283.5" /><Column
-        ss:StyleID="s62"
-        ss:Width="120.75"
-      /><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
-            ss:Type="String"
-          >INVASION</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TEXT ID</Data></Cell><Cell><Data
-            ss:Type="String"
-          >ENGLISH STRING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >LOCALIZED STRING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >LOCALIZATION NOTES</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">INVASION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Invasion of the Voidbringers</Data></Cell><Cell><Data
-            ss:Type="String"
-          >虚空使者入侵战</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Title of an event. The Voidbringers are an in-game faction of evil aliens attacking the planet</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">INVASION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Placeholder description invasion</Data></Cell><Cell><Data
-            ss:Type="String"
-          >占位符描述入侵战</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">INVASION_SETTING_LATE</Data></Cell><Cell
-        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Late</Data></Cell><Cell><Data
-            ss:Type="String"
-          >后期</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Game setting. Indication of what time an invasion can happen.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data
-            ss:Type="String"
-          >INVASION_SETTING_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The invasion will happen around turn {turn}.</Data></Cell><Cell><Data
-            ss:Type="String"
-          >入侵战将于第{turn}回合开始。</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Elaboration of the above.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">FORESHADOWING_1</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >An Unidentified Force</Data></Cell><Cell><Data
-            ss:Type="String"
-          >未知部队</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Title of an event.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="60"
-      ><Cell><Data ss:Type="String">FORESHADOWING_1</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >An unidentified force of hostiles has been reported close to our empire. We should deal with them to find out more about their origin.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >一支来路不明的部队正在逼近我们的帝国。我们应该前去解决他们，并查明敌人的身份。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Description of an event.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">FORESHADOWING_2</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Beacon has Landed</Data></Cell><Cell><Data
-            ss:Type="String"
-          >信标着陆</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Title of an event.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="60"
-      ><Cell><Data ss:Type="String">FORESHADOWING_2</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >A Voidbringer Beacon has landed, destroying an entire sector. There seems to be an impenetrable barrier around it.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >一个虚空使者信标已经着陆，摧毁了整片区域。信标周围似乎有一道无法逾越的屏障。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Description of an event.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">INVASION_START</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Invasion Begins</Data></Cell><Cell><Data
-            ss:Type="String"
-          >入侵开始</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Title of an event.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="180"
-      ><Cell><Data ss:Type="String">INVASION_START</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >All over this world, mysterious shards have crashed onto the surface, seemingly called by the Beacon that came down recently.[br/][br/]Voidbringer creatures emerge from these shards. Along with them walk armies of Enthralled units completely reliant on their Voidbringer overlords.[br/][br/]If we hope to stand a chance, we need to destroy enough of these Voidbringer Spawners so the Beacon is vulnerable, before raiding and destroying the Beacon.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >神秘的碎片从天而降，砸向星球的各个地方。这些碎片似乎是由最近降落的信标召唤而来。[br/][br/]虚空使者生物从这些碎片中现身，与他们同行而来的还有那些完全听命于虚空使者君主的奴役大军。[br/][br/]要想取得这场战争的胜利，我们必须先摧毁虚空使者的出生点来削弱信标的力量，然后一举将其摧毁。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Description of an event.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">DARKVOID_BEACON</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Voidbringer Beacon</Data></Cell><Cell><Data
-            ss:Type="String"
-          >虚空使者信标</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Structure name.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">DARKVOID_BEACON</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >A mysterious, looming beacon that appears to send signals off world.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >一个赫然出现的神秘信标，似乎在向世界之外发送信号。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Structure description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">DARKVOID_SPAWNER</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell ss:StyleID="s63"><Data
-            ss:Type="String"
-          >Voidbringer Spawner</Data></Cell><Cell><Data
-            ss:Type="String"
-          >虚空使者出生点</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Structure name.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">DARKVOID_SPAWNER</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >A vessel carrying Voidbringer units.</Data></Cell><Cell><Data
-            ss:Type="String"
-          >装载着虚空使者单位的飞船。</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Structure description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">DARKVOID_JOIN</Data></Cell><Cell><Data
-            ss:Type="String"
-          >EVENT_TITLE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Voidbringer Demand</Data></Cell><Cell><Data
-            ss:Type="String"
-          >虚空使者要求</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Event title where the Voidbringers demand you join their cause</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="180"
-      ><Cell><Data ss:Type="String">DARKVOID_JOIN</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TEXT</Data></Cell><Cell><Data
-            ss:Type="String"
-          >As if invading your mind, one of the Voidbringers approaches you.[br/][br/]You feel an urge to join them in their conquest to destroy this world.[br/][br/][abilityred]Joining the Voidbringers will stop them from attacking your empire. This creates alliances with all Commanders that joined the Voidbringers, and war with those that have not.[abilityred/]</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >一名虚空使者在接近你时，你的大脑仿佛遭到了入侵。[br/][br/]你有一种想要加入他们征服大军并毁灭这个世界的冲动。[br/][br/][abilityred]加入虚空使者，他们将停止攻击你的帝国，同时这会使你自动与所有已经加入了虚空使者的指挥官结盟，并且与没有加入虚空使者的指挥官开战。[abilityred/]</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Event text where the Voidbringers demand you join their cause</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">DARKVOID_JOIN</Data></Cell><Cell><Data
-            ss:Type="String"
-          >JOIN_BUTTON</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Give in and join</Data></Cell><Cell><Data
-            ss:Type="String"
-          >屈服并加入</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Reply button</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="60"
-      ><Cell><Data ss:Type="String">DARKVOID_JOIN</Data></Cell><Cell><Data
-            ss:Type="String"
-          >JOIN_TOOLTIP</Data></Cell><Cell><Data
-            ss:Type="String"
-          >You will join the Voidbringers. This will trigger instant war with all NPC Factions and any Commander that hasn’t joined the Voidbringers.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >你将加入虚空使者，这将立刻使你与其他所有没有加入虚空使者的指挥官开战。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Reply button tooltip</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">DARKVOID_JOIN</Data></Cell><Cell><Data
-            ss:Type="String"
-          >RESIST_BUTTON</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Resist and fight</Data></Cell><Cell><Data
-            ss:Type="String"
-          >抵抗并斗争</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Reply button</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">DARKVOID_JOIN</Data></Cell><Cell><Data
-            ss:Type="String"
-          >RESIST_TOOLTIP</Data></Cell><Cell><Data
-            ss:Type="String"
-          >You will not join the Voidbringers, and will have to fight them off.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >你将不会加入虚空使者，因此你必须击退他们。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Reply button tooltip</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Psionic Form</Data></Cell><Cell><Data
-            ss:Type="String"
-          >灵能形态</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Voidbringers form name</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="90"
-      ><Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Voidbringers of this form lean heavily into Psionic abilities. They resist all damage channels except Biochemical. The Thralls of these Voidbringers are mostly units with Psionic abilities.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >处于此形态的虚空使者倾向于使用灵能技能，并且对除了生化伤害以外的所有类型伤害都具有抗性。此类虚空使者奴隶大多数是使用灵能技能的单位。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Thralls are units controlled by the Voidbringers.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">FORM_ARC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell ss:StyleID="s63"><Data
-            ss:Type="String"
-          >Arc Form</Data></Cell><Cell><Data
-            ss:Type="String"
-          >电弧形态</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Voidbringers form name</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="90"
-      ><Cell><Data ss:Type="String">FORM_ARC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Voidbringers of this form lean heavily into Arc abilities. They resist all damage channels except Psionic. The Thralls of these Voidbringers are mostly units with Arc abilities.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >处于此形态的虚空使者倾向于使用电弧技能，并且对除了灵能伤害以外的所有类型伤害都具有抗性。此类虚空使者奴隶大多数是使用电弧技能的单位。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Thralls are units controlled by the Voidbringers.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Biochemical Form</Data></Cell><Cell><Data
-            ss:Type="String"
-          >生化形态</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Voidbringers form name</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="90"
-      ><Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Voidbringers of this form lean heavily into Biochemical abilities. They resist all damage channels except Thermal. The Thralls of these Voidbringers are mostly units with Biochemical abilities.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >处于此形态的虚空使者倾向于使用生化技能，并且对除了热能伤害以外的所有类型伤害都具有抗性。此类虚空使者奴隶大多数是使用生化技能的单位。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Thralls are units controlled by the Voidbringers.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Thermal Form</Data></Cell><Cell><Data
-            ss:Type="String"
-          >热能形态</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Voidbringers form name</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="90"
-      ><Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Voidbringers of this form lean heavily into Thermal abilities. They resist all damage channels except Arc. The Thralls of these Voidbringers are mostly units with Thermal abilities.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >处于此形态的虚空使者倾向于使用热能技能，并且对除了电弧伤害以外的所有类型伤害都具有抗性。此类虚空使者奴隶大多数是使用热能技能的单位。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Thralls are units controlled by the Voidbringers.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">INVASION_SETTING_NORMAL</Data></Cell><Cell
-        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Normal</Data></Cell><Cell><Data
-            ss:Type="String"
-          >正常</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Game setting. Indication of what time an invasion can happen.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">INVASION_SETTING_LATEST</Data></Cell><Cell
-        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Latest</Data></Cell><Cell><Data
-            ss:Type="String"
-          >大后期</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Game setting. Indication of what time an invasion can happen.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">PLAYER_JOINED_DARKVOID</Data></Cell><Cell
-        ><Data ss:Type="String">EVENT_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >{STR_LeaderName} has joined the Voidbringers</Data></Cell><Cell><Data
-            ss:Type="String"
-          >{STR_LeaderName}已加入虚空使者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >a player joined the Voidbringers invasion</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">SPAWNER_SPAWNED</Data></Cell><Cell><Data
-            ss:Type="String"
-          >EVENT_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Voidbringers Spawner has landed</Data></Cell><Cell><Data
-            ss:Type="String"
-          >虚空使者出生点已着陆</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >event title for when a spawner landed</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">SPAWNER_WARNING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >EVENT_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Warning! Voidbringers Spawner drop location detected</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >警告！侦测到虚空使者出生点投放位置</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Event title for when a spawner is about to land</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">INVASION_SETTING_EARLIEST</Data></Cell><Cell
-        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Earliest</Data></Cell><Cell><Data
-            ss:Type="String"
-          >初期</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Game setting. Indication of what time an invasion can happen.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">INVASION_SETTING_EARLY</Data></Cell><Cell
-        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Early</Data></Cell><Cell><Data
-            ss:Type="String"
-          >早期</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Game setting. Indication of what time an invasion can happen.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_01</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Black Mindbreakers</Data></Cell><Cell><Data
-            ss:Type="String"
-          >黑色裂心者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for a Psionic based Voidbringer sub-faction. If no perfect translation can be achieved, try to make the name relate to the Psionic form as much as possible</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_02</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Psi-Rending Overlords</Data></Cell><Cell><Data
-            ss:Type="String"
-          >灵能领主</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for a Psionic based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_03</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Hollow Thoughtrippers</Data></Cell><Cell><Data
-            ss:Type="String"
-          >空洞撕心者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for a Psionic based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_04</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Willbenders</Data></Cell><Cell><Data
-            ss:Type="String"
-          >意志屈从者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for a Psionic based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_05</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Otherworldy Crucifiers</Data></Cell><Cell><Data
-            ss:Type="String"
-          >异世刑者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for a Psionic based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_06</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Preternatural Occult</Data></Cell><Cell><Data
-            ss:Type="String"
-          >超然教派</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for a Psionic based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_07</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Harbingers of Darkness</Data></Cell><Cell><Data
-            ss:Type="String"
-          >黑暗先驱</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for a Psionic based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_08</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Mindtwisting Depths</Data></Cell><Cell><Data
-            ss:Type="String"
-          >扭曲渊民</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for a Psionic based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_09</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Torn of Nothingness</Data></Cell><Cell><Data
-            ss:Type="String"
-          >虚无裂缝</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for a Psionic based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_10</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Ascendants of Eons</Data></Cell><Cell><Data
-            ss:Type="String"
-          >永世崛起者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for a Psionic based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_11</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Lifeburden Liberators</Data></Cell><Cell><Data
-            ss:Type="String"
-          >生命解放者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for a Psionic based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">FORM_ARC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_01</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Thundercallers</Data></Cell><Cell><Data
-            ss:Type="String"
-          >唤雷者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Arc based Voidbringer sub-faction. If no perfect translation can be achieved, try to make the name relate to the Arc form as much as possible</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_ARC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_02</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Chargers of Infinity</Data></Cell><Cell><Data
-            ss:Type="String"
-          >无穷冲锋者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Arc based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_ARC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_03</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Callers of the Storm</Data></Cell><Cell><Data
-            ss:Type="String"
-          >风暴召唤者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Arc based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_ARC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_04</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Masters of Cyclones</Data></Cell><Cell><Data
-            ss:Type="String"
-          >飓风导师</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Arc based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_ARC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_05</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Galvanic Vindicators</Data></Cell><Cell><Data
-            ss:Type="String"
-          >电流操控者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Arc based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_ARC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_06</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Unchained Lightning</Data></Cell><Cell><Data
-            ss:Type="String"
-          >闪电不羁者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Arc based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_ARC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_07</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Lightning Asunder</Data></Cell><Cell><Data
-            ss:Type="String"
-          >闪电撕裂者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Arc based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_ARC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_08</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Voltaic Messiahs</Data></Cell><Cell><Data
-            ss:Type="String"
-          >闪流救世主</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Arc based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_ARC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_09</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Conduits of Thunder</Data></Cell><Cell><Data
-            ss:Type="String"
-          >雷鸣引导者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Arc based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_ARC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_10</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Arcbound Devastators</Data></Cell><Cell><Data
-            ss:Type="String"
-          >电缚毁灭者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Arc based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_01</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Venomous Darkness</Data></Cell><Cell><Data
-            ss:Type="String"
-          >黑毒</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Biochemical based Voidbringer sub-faction. If no perfect translation can be achieved, try to make the name relate to the Biochemical form as much as possible</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_02</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Toxic Terror</Data></Cell><Cell><Data
-            ss:Type="String"
-          >剧毒惧妖</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Biochemical based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_03</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Poisonous Infiltrators</Data></Cell><Cell><Data
-            ss:Type="String"
-          >剧毒渗透者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Biochemical based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_04</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Acidic Liberators</Data></Cell><Cell><Data
-            ss:Type="String"
-          >酸蚀解放者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Biochemical based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_05</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Noxious Spacerenders</Data></Cell><Cell><Data
-            ss:Type="String"
-          >剧毒空间撕裂者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Biochemical based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_06</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Venomous Venerated</Data></Cell><Cell><Data
-            ss:Type="String"
-          >毒液敬士</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Biochemical based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_07</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Great Poisonplague</Data></Cell><Cell><Data
-            ss:Type="String"
-          >毒疫教</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Biochemical based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_08</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Revered Plagueswarm</Data></Cell><Cell><Data
-            ss:Type="String"
-          >瘟疫虫群</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Biochemical based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_09</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Sacred Blightrain</Data></Cell><Cell><Data
-            ss:Type="String"
-          >圣疫者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Biochemical based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_10</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Foretold Affliction</Data></Cell><Cell><Data
-            ss:Type="String"
-          >痛楚先知</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Biochemical based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_01</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Firestorm Overlords</Data></Cell><Cell><Data
-            ss:Type="String"
-          >火焰风暴领主</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Thermal based Voidbringer sub-faction. If no perfect translation can be achieved, try to make the name relate to the Thermal form as much as possible</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_02</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Conveyors of the Flame</Data></Cell><Cell><Data
-            ss:Type="String"
-          >烈焰传播者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Thermal based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_03</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Grand Conflagration</Data></Cell><Cell><Data
-            ss:Type="String"
-          >炎灾帮</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Thermal based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_04</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Everblaze Crusaders</Data></Cell><Cell><Data
-            ss:Type="String"
-          >永焰十字军</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Thermal based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_05</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Infinite Inferno</Data></Cell><Cell><Data
-            ss:Type="String"
-          >无垠炼狱客</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Thermal based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_06</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Searsong Burnbearers</Data></Cell><Cell><Data
-            ss:Type="String"
-          >焰歌灼烧者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Thermal based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_07</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Hallowed Firefathers</Data></Cell><Cell><Data
-            ss:Type="String"
-          >圣堂火父</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Thermal based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_08</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Scorching Depths</Data></Cell><Cell><Data
-            ss:Type="String"
-          >炙热渊民</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Thermal based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_09</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Torchbearers</Data></Cell><Cell><Data
-            ss:Type="String"
-          >圣火手</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Thermal based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >FACTION_NAME_10</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Charscorn Devastators</Data></Cell><Cell><Data
-            ss:Type="String"
-          >燃蔑破坏者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name for an Thermal based Voidbringer sub-faction</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">BEACON_SHIELD</Data></Cell><Cell><Data
-            ss:Type="String"
-          >EVENT_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Beacon shield has been damaged!</Data></Cell><Cell><Data
-            ss:Type="String"
-          >信标护盾受到了伤害！</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name of an event</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
-        ><Data ss:Type="String">FORESHADOW_KILLED</Data></Cell><Cell><Data
-            ss:Type="String"
-          >EVENT_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Unidentified forces have been defeated!</Data></Cell><Cell><Data
-            ss:Type="String"
-          >未知部队已被击败！</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name of an event</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="165"
-      ><Cell><Data ss:Type="String">FORESHADOW_KILLED</Data></Cell><Cell><Data
-            ss:Type="String"
-          >EVENT_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The attacking force has been revealed to have been familiar units. They were enthralled by unknown, ferocious creatures, now dubbed 'Voidbringers'.[br/][br/]The incoming subfaction of Voidbringers has been given the name '{STR_InvasionName}' by those who have been enthralled by them. This should give an indication of the damage channel the invaders will bring down upon us.[br/][br/]We must prepare our armies for the incoming invasion of these Voidbringers.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >入侵部队都是曾经熟知的单位，但遭到了如今被称为“虚空使者”的未知凶残生物奴役。[br/][br/]奴役这些部队的虚空使者将这支入侵而来的子阵营命名为“{STR_InvasionName}”，这也许暗示着这些入侵者所使用的伤害类型。[br/][br/]我们必须让军队做好准备，应对这些虚空使者的入侵。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Description of an event</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">BEACON_SHIELD_DAMAGED</Data></Cell><Cell
-        ><Data ss:Type="String">EVENT_TITLE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Beacon shield has been damaged!</Data></Cell><Cell><Data
-            ss:Type="String"
-          >信标护盾受到了伤害！</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name of an event</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
-        ><Data ss:Type="String">BEACON_SHIELD_BROKEN</Data></Cell><Cell><Data
-            ss:Type="String"
-          >EVENT_TITLE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Beacon shield is now broken!</Data></Cell><Cell><Data
-            ss:Type="String"
-          >信标护盾已被击破！</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Name of an event</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
-        ><Data ss:Type="String">EVENT</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Invasion</Data></Cell><Cell><Data
-            ss:Type="String"
-          >入侵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
-            ss:Type="String"
-          >INVASION_BEATEN_POPUP</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Voidbringers have been defeated</Data></Cell><Cell><Data
-            ss:Type="String"
-          >虚空使者已被击败！</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Header of a story event</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="150"
-      ><Cell><Data ss:Type="String">INVASION_BEATEN_POPUP</Data></Cell><Cell
-        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Voidbringer Beacon has been destroyed, preventing the Voidbringers from further access to this world.[br/]Around us lies a world in ruin, in desperate need of repair by unified empires.[br/][br/]Do we claim victory now, unifying the remaining empires and rebuild this world, or shall we continue our conquest as before the Voidbringer invasion?</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >虚空使者信标已被摧毁，我们成功阻止了虚空使者进一步入侵这个星球。[br/]然而我们的周围已是一片废墟，急需统一的帝国来修复这个星球。[br/][br/]我们是现在宣布胜利，一统余下的帝国并重建这个星球？还是像虚空使者发动入侵之前那样，继续我们的征程？</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Content of a story event</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">INVASION_BEATEN_POPUP</Data></Cell><Cell
-        ><Data ss:Type="String">END_BUTTON</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Claim Victory</Data></Cell><Cell><Data
-            ss:Type="String"
-          >宣布胜利</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Button text</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">INVASION_BEATEN_POPUP</Data></Cell><Cell
-        ><Data ss:Type="String">CONTINUE_BUTTON</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Continue Game</Data></Cell><Cell><Data
-            ss:Type="String"
-          >继续游戏</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Button text</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
-            ss:Type="String"
-          >VICTORY_CONDITION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DISABLED</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Disabled until the invasion has been defeated</Data></Cell><Cell
-        ><Data ss:Type="String">击败入侵后才会启用</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Text for all victory conditions when they are disabled</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">OBTAINED_OPERATION_EVENT</Data></Cell><Cell
-        ><Data ss:Type="String">HEADER</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Voidbringer Operations</Data></Cell><Cell><Data
-            ss:Type="String"
-          >虚空使者行动</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Story event message header</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="75"
-      ><Cell><Data ss:Type="String">OBTAINED_OPERATION_EVENT</Data></Cell><Cell
-        ><Data ss:Type="String">BODY</Data></Cell><Cell><Data
-            ss:Type="String"
-          >You can now summon the Voidbringers to your aid![br/][br/]Use Call Spawner to summon a Voidbringer Spawner to strike the resistance![br/][br/]Use Call Voidbringers to summon Voidbringer units under your control!</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >现在你可以召唤虚空使者为你提供援助了！[br/][br/]使用“召唤出生点”召唤一个虚空使者出生点来攻击抵抗军！[br/][br/]使用“召唤虚空使者”来召唤由你控制的虚空使者单位！</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Story event message body</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="105"
-      ><Cell><Data ss:Type="String">TEXT</Data></Cell><Cell><Data
-            ss:Type="String"
-          >JOIN_WARNING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >You will join the Voidbringers and trigger a war with any Commander and NPC Faction that hasn't joined them. You will obtain two special operations to call Voidbringers to your aid.[br/][br/]Are you sure you want to join them?</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >你将加入虚空使者，并因此向所有未加入虚空使者的指挥官和 NPC 阵营宣战。你将获得两个特殊行动，可用来召唤虚空使者为你提供援助。[br/][br/]确定要加入虚空使者？</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Warning event message</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">TEXT</Data></Cell><Cell><Data
-            ss:Type="String"
-          >RESIST_WARNING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >You will resist the Voidbringers and wage war against them.[br/][br/]Are you sure you want to resist them?</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >你将拒绝虚空使者并向他们开战。[br/][br/]确定要拒绝虚空使者？</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Warning event message</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data
-            ss:Type="String"
-          >INVASION_SETTING_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION_RANDOM</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The invasion will happen around a randomly chosen turn.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >入侵将在随机选择的回合中产生</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">DIFFICULTY_SETTING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >EASY</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Reduces the strength and amount of defending and roaming enemies during the Invasion.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >降低入侵战中防守和游荡的敌人数量及强度。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Difficulty setting tooltip</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">DIFFICULTY_SETTING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NORMAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Normal strength and amount of defending and roaming enemies during the Invasion.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >入侵战中防守和游荡的敌人数量及强度正常。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Difficulty setting tooltip</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">DIFFICULTY_SETTING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >HARD</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Increases the strength and amount of defending and roaming enemies during the Invasion.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >增加入侵战中防守和游荡的敌人数量及强度。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Difficulty setting tooltip</Data></Cell></Row></Table><WorksheetOptions
-      xmlns="urn:schemas-microsoft-com:office:excel"
-    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
-        >600</HorizontalResolution><VerticalResolution
-        >600</VerticalResolution></Print><Selected /><TopRowVisible
-      >86</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
-          >94</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects
-      >False</ProtectObjects><ProtectScenarios
-      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+    >
+   <Column ss:StyleID="s62" ss:Width="27" />
+   <Column ss:StyleID="s62" ss:Width="88.5" />
+   <Column ss:StyleID="s62" ss:Width="275.25" />
+   <Column ss:StyleID="s62" ss:Width="146.25" />
+   <Column ss:StyleID="s62" ss:Width="147.75" />
+   <Column ss:StyleID="s62" ss:Width="92.25" />
+   <Column ss:StyleID="s62" ss:Width="283.5" />
+   <Column ss:StyleID="s62" ss:Width="120" />
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">INVASION</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">INVASION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Invasion of the Voidbringers</Data></Cell>
+    <Cell><Data ss:Type="String">虚空使者入侵战</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Title of an event. The Voidbringers are an in-game faction of evil aliens attacking the planet</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">INVASION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Placeholder description invasion</Data></Cell>
+    <Cell><Data ss:Type="String">占位符描述入侵战</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">INVASION_SETTING_LATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Late</Data></Cell>
+    <Cell><Data ss:Type="String">后期</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Game setting. Indication of what time an invasion can happen.</Data></Cell>
+   </Row>
+   <Row ss:Height="135">
+    <Cell><Data ss:Type="String">INVASION_SETTING_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >The invasion will happen around turn {turn}.</Data></Cell>
+    <Cell><Data ss:Type="String">入侵战将于第{turn}回合开始。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Elaboration of the above.</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">FORESHADOWING_1</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">An Unidentified Force</Data></Cell>
+    <Cell><Data ss:Type="String">未知部队</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Title of an event.</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">FORESHADOWING_1</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >An unidentified force of hostiles has been reported close to our empire. We should deal with them to find out more about their origin.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >一支来路不明的部队正在逼近我们的帝国。我们应该前去解决他们，并查明敌人的身份。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Description of an event.</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">FORESHADOWING_2</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Beacon has Landed</Data></Cell>
+    <Cell><Data ss:Type="String">信标着陆</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Title of an event.</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">FORESHADOWING_2</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >A Voidbringer Beacon has landed, destroying an entire sector. There seems to be an impenetrable barrier around it.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >一个虚空使者信标已经着陆，摧毁了整片区域。信标周围似乎有一道无法逾越的屏障。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Description of an event.</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">INVASION_START</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Invasion Begins</Data></Cell>
+    <Cell><Data ss:Type="String">入侵开始</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Title of an event.</Data></Cell>
+   </Row>
+   <Row ss:Height="195">
+    <Cell><Data ss:Type="String">INVASION_START</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >All over this world, mysterious shards have crashed onto the surface, seemingly called by the Beacon that came down recently.[br/][br/]Voidbringer creatures emerge from these shards. Along with them walk armies of Enthralled units completely reliant on their Voidbringer overlords.[br/][br/]If we hope to stand a chance, we need to destroy enough of these Voidbringer Spawners so the Beacon is vulnerable, before raiding and destroying the Beacon.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >神秘的碎片从天而降，砸向星球的各个地方。这些碎片似乎是由最近降落的信标召唤而来。[br/][br/]虚空使者生物从这些碎片中现身，与他们同行而来的还有那些完全听命于虚空使者君主的奴役大军。[br/][br/]要想取得这场战争的胜利，我们必须先摧毁虚空使者的出生点来削弱信标的力量，然后一举将其摧毁。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Description of an event.</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">DARKVOID_BEACON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Voidbringer Beacon</Data></Cell>
+    <Cell><Data ss:Type="String">虚空使者信标</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Structure name.</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">DARKVOID_BEACON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >A mysterious, looming beacon that appears to send signals off world.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >一个赫然出现的神秘信标，似乎在向世界之外发送信号。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Structure description</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">DARKVOID_SPAWNER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Voidbringer Spawner</Data></Cell>
+    <Cell><Data ss:Type="String">虚空使者出生点</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Structure name.</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">DARKVOID_SPAWNER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >A vessel carrying Voidbringer units.</Data></Cell>
+    <Cell><Data ss:Type="String">装载着虚空使者单位的飞船。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Structure description</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">DARKVOID_JOIN</Data></Cell>
+    <Cell><Data ss:Type="String">EVENT_TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Voidbringer Demand</Data></Cell>
+    <Cell><Data ss:Type="String">虚空使者要求</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Event title where the Voidbringers demand you join their cause</Data></Cell>
+   </Row>
+   <Row ss:Height="180">
+    <Cell><Data ss:Type="String">DARKVOID_JOIN</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >As if invading your mind, one of the Voidbringers approaches you.[br/][br/]You feel an urge to join them in their conquest to destroy this world.[br/][br/][abilityred]Joining the Voidbringers will stop them from attacking your empire. This creates alliances with all Commanders that joined the Voidbringers, and war with those that have not.[abilityred/]</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >一名虚空使者在接近你时，你的大脑仿佛遭到了入侵。[br/][br/]你有一种想要加入他们征服大军并毁灭这个世界的冲动。[br/][br/][abilityred]加入虚空使者，他们将停止攻击你的帝国，同时这会使你自动与所有已经加入了虚空使者的指挥官结盟，并且与没有加入虚空使者的指挥官开战。[abilityred/]</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Event text where the Voidbringers demand you join their cause</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">DARKVOID_JOIN</Data></Cell>
+    <Cell><Data ss:Type="String">JOIN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">Give in and join</Data></Cell>
+    <Cell><Data ss:Type="String">屈服并加入</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Reply button</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">DARKVOID_JOIN</Data></Cell>
+    <Cell><Data ss:Type="String">JOIN_TOOLTIP</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >You will join the Voidbringers. This will trigger instant war with all NPC Factions and any Commander that hasn’t joined the Voidbringers.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >你将加入虚空使者，这将立刻使你与其他所有没有加入虚空使者的指挥官开战。</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Reply button tooltip</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">DARKVOID_JOIN</Data></Cell>
+    <Cell><Data ss:Type="String">RESIST_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">Resist and fight</Data></Cell>
+    <Cell><Data ss:Type="String">抵抗并斗争</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Reply button</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">DARKVOID_JOIN</Data></Cell>
+    <Cell><Data ss:Type="String">RESIST_TOOLTIP</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >You will not join the Voidbringers, and will have to fight them off.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >你将不会加入虚空使者，因此你必须击退他们。</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Reply button tooltip</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Psionic Form</Data></Cell>
+    <Cell><Data ss:Type="String">灵能形态</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Voidbringers form name</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Voidbringers of this form lean heavily into Psionic abilities. They resist all damage channels except Biochemical. The Thralls of these Voidbringers are mostly units with Psionic abilities.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >处于此形态的虚空使者倾向于使用灵能技能，并且对除了生化伤害以外的所有类型伤害都具有抗性。此类虚空使者奴隶大多数是使用灵能技能的单位。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Thralls are units controlled by the Voidbringers.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arc Form</Data></Cell>
+    <Cell><Data ss:Type="String">电弧形态</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Voidbringers form name</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Voidbringers of this form lean heavily into Arc abilities. They resist all damage channels except Psionic. The Thralls of these Voidbringers are mostly units with Arc abilities.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >处于此形态的虚空使者倾向于使用电弧技能，并且对除了灵能伤害以外的所有类型伤害都具有抗性。此类虚空使者奴隶大多数是使用电弧技能的单位。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Thralls are units controlled by the Voidbringers.</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Biochemical Form</Data></Cell>
+    <Cell><Data ss:Type="String">生化形态</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Voidbringers form name</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Voidbringers of this form lean heavily into Biochemical abilities. They resist all damage channels except Thermal. The Thralls of these Voidbringers are mostly units with Biochemical abilities.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >处于此形态的虚空使者倾向于使用生化技能，并且对除了热能伤害以外的所有类型伤害都具有抗性。此类虚空使者奴隶大多数是使用生化技能的单位。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Thralls are units controlled by the Voidbringers.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Thermal Form</Data></Cell>
+    <Cell><Data ss:Type="String">热能形态</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Voidbringers form name</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Voidbringers of this form lean heavily into Thermal abilities. They resist all damage channels except Arc. The Thralls of these Voidbringers are mostly units with Thermal abilities.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >处于此形态的虚空使者倾向于使用热能技能，并且对除了电弧伤害以外的所有类型伤害都具有抗性。此类虚空使者奴隶大多数是使用热能技能的单位。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Thralls are units controlled by the Voidbringers.</Data></Cell>
+   </Row>
+   <Row ss:Height="120">
+    <Cell><Data ss:Type="String">INVASION_SETTING_NORMAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">正常</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Game setting. Indication of what time an invasion can happen.</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">INVASION_SETTING_LATEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Latest</Data></Cell>
+    <Cell><Data ss:Type="String">大后期</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Game setting. Indication of what time an invasion can happen.</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">PLAYER_JOINED_DARKVOID</Data></Cell>
+    <Cell><Data ss:Type="String">EVENT_NAME</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >{STR_LeaderName} has joined the Voidbringers</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName}已加入虚空使者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >a player joined the Voidbringers invasion</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">SPAWNER_SPAWNED</Data></Cell>
+    <Cell><Data ss:Type="String">EVENT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Voidbringers Spawner has landed</Data></Cell>
+    <Cell><Data ss:Type="String">虚空使者出生点已着陆</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >event title for when a spawner landed</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">SPAWNER_WARNING</Data></Cell>
+    <Cell><Data ss:Type="String">EVENT_NAME</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Warning! Voidbringers Spawner drop location detected</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >警告！侦测到虚空使者出生点投放位置</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Event title for when a spawner is about to land</Data></Cell>
+   </Row>
+   <Row ss:Height="120">
+    <Cell><Data ss:Type="String">INVASION_SETTING_EARLIEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Earliest</Data></Cell>
+    <Cell><Data ss:Type="String">初期</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Game setting. Indication of what time an invasion can happen.</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">INVASION_SETTING_EARLY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Early</Data></Cell>
+    <Cell><Data ss:Type="String">早期</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Game setting. Indication of what time an invasion can happen.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_01</Data></Cell>
+    <Cell><Data ss:Type="String">The Black Mindbreakers</Data></Cell>
+    <Cell><Data ss:Type="String">黑色裂心者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for a Psionic based Voidbringer sub-faction. If no perfect translation can be achieved, try to make the name relate to the Psionic form as much as possible</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_02</Data></Cell>
+    <Cell><Data ss:Type="String">The Psi-Rending Overlords</Data></Cell>
+    <Cell><Data ss:Type="String">灵能领主</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for a Psionic based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_03</Data></Cell>
+    <Cell><Data ss:Type="String">The Hollow Thoughtrippers</Data></Cell>
+    <Cell><Data ss:Type="String">空洞撕心者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for a Psionic based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_04</Data></Cell>
+    <Cell><Data ss:Type="String">The Willbenders</Data></Cell>
+    <Cell><Data ss:Type="String">意志屈从者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for a Psionic based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_05</Data></Cell>
+    <Cell><Data ss:Type="String">The Otherworldy Crucifiers</Data></Cell>
+    <Cell><Data ss:Type="String">异世刑者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for a Psionic based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_06</Data></Cell>
+    <Cell><Data ss:Type="String">The Preternatural Occult</Data></Cell>
+    <Cell><Data ss:Type="String">超然教派</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for a Psionic based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_07</Data></Cell>
+    <Cell><Data ss:Type="String">The Harbingers of Darkness</Data></Cell>
+    <Cell><Data ss:Type="String">黑暗先驱</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for a Psionic based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_08</Data></Cell>
+    <Cell><Data ss:Type="String">The Mindtwisting Depths</Data></Cell>
+    <Cell><Data ss:Type="String">扭曲渊民</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for a Psionic based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_09</Data></Cell>
+    <Cell><Data ss:Type="String">The Torn of Nothingness</Data></Cell>
+    <Cell><Data ss:Type="String">虚无裂缝</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for a Psionic based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_10</Data></Cell>
+    <Cell><Data ss:Type="String">The Ascendants of Eons</Data></Cell>
+    <Cell><Data ss:Type="String">永世崛起者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for a Psionic based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_11</Data></Cell>
+    <Cell><Data ss:Type="String">The Lifeburden Liberators</Data></Cell>
+    <Cell><Data ss:Type="String">生命解放者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for a Psionic based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_01</Data></Cell>
+    <Cell><Data ss:Type="String">The Thundercallers</Data></Cell>
+    <Cell><Data ss:Type="String">唤雷者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Arc based Voidbringer sub-faction. If no perfect translation can be achieved, try to make the name relate to the Arc form as much as possible</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_02</Data></Cell>
+    <Cell><Data ss:Type="String">The Chargers of Infinity</Data></Cell>
+    <Cell><Data ss:Type="String">无穷冲锋者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Arc based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_03</Data></Cell>
+    <Cell><Data ss:Type="String">The Callers of the Storm</Data></Cell>
+    <Cell><Data ss:Type="String">风暴召唤者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Arc based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_04</Data></Cell>
+    <Cell><Data ss:Type="String">The Masters of Cyclones</Data></Cell>
+    <Cell><Data ss:Type="String">飓风导师</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Arc based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_05</Data></Cell>
+    <Cell><Data ss:Type="String">The Galvanic Vindicators</Data></Cell>
+    <Cell><Data ss:Type="String">电流操控者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Arc based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_06</Data></Cell>
+    <Cell><Data ss:Type="String">The Unchained Lightning</Data></Cell>
+    <Cell><Data ss:Type="String">闪电不羁者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Arc based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_07</Data></Cell>
+    <Cell><Data ss:Type="String">The Lightning Asunder</Data></Cell>
+    <Cell><Data ss:Type="String">闪电撕裂者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Arc based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_08</Data></Cell>
+    <Cell><Data ss:Type="String">The Voltaic Messiahs</Data></Cell>
+    <Cell><Data ss:Type="String">闪流救世主</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Arc based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_09</Data></Cell>
+    <Cell><Data ss:Type="String">The Conduits of Thunder</Data></Cell>
+    <Cell><Data ss:Type="String">雷鸣引导者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Arc based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_10</Data></Cell>
+    <Cell><Data ss:Type="String">The Arcbound Devastators</Data></Cell>
+    <Cell><Data ss:Type="String">电缚毁灭者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Arc based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_01</Data></Cell>
+    <Cell><Data ss:Type="String">The Venomous Darkness</Data></Cell>
+    <Cell><Data ss:Type="String">黑毒</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Biochemical based Voidbringer sub-faction. If no perfect translation can be achieved, try to make the name relate to the Biochemical form as much as possible</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_02</Data></Cell>
+    <Cell><Data ss:Type="String">The Toxic Terror</Data></Cell>
+    <Cell><Data ss:Type="String">剧毒惧妖</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Biochemical based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_03</Data></Cell>
+    <Cell><Data ss:Type="String">The Poisonous Infiltrators</Data></Cell>
+    <Cell><Data ss:Type="String">剧毒渗透者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Biochemical based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_04</Data></Cell>
+    <Cell><Data ss:Type="String">The Acidic Liberators</Data></Cell>
+    <Cell><Data ss:Type="String">酸蚀解放者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Biochemical based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_05</Data></Cell>
+    <Cell><Data ss:Type="String">The Noxious Spacerenders</Data></Cell>
+    <Cell><Data ss:Type="String">剧毒空间撕裂者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Biochemical based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_06</Data></Cell>
+    <Cell><Data ss:Type="String">The Venomous Venerated</Data></Cell>
+    <Cell><Data ss:Type="String">毒液敬士</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Biochemical based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_07</Data></Cell>
+    <Cell><Data ss:Type="String">The Great Poisonplague</Data></Cell>
+    <Cell><Data ss:Type="String">毒疫教</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Biochemical based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_08</Data></Cell>
+    <Cell><Data ss:Type="String">The Revered Plagueswarm</Data></Cell>
+    <Cell><Data ss:Type="String">瘟疫虫群</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Biochemical based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_09</Data></Cell>
+    <Cell><Data ss:Type="String">The Sacred Blightrain</Data></Cell>
+    <Cell><Data ss:Type="String">圣疫者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Biochemical based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_10</Data></Cell>
+    <Cell><Data ss:Type="String">The Foretold Affliction</Data></Cell>
+    <Cell><Data ss:Type="String">痛楚先知</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Biochemical based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_01</Data></Cell>
+    <Cell><Data ss:Type="String">The Firestorm Overlords</Data></Cell>
+    <Cell><Data ss:Type="String">火焰风暴领主</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Thermal based Voidbringer sub-faction. If no perfect translation can be achieved, try to make the name relate to the Thermal form as much as possible</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_02</Data></Cell>
+    <Cell><Data ss:Type="String">The Conveyors of the Flame</Data></Cell>
+    <Cell><Data ss:Type="String">烈焰传播者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Thermal based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_03</Data></Cell>
+    <Cell><Data ss:Type="String">The Grand Conflagration</Data></Cell>
+    <Cell><Data ss:Type="String">炎灾帮</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Thermal based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_04</Data></Cell>
+    <Cell><Data ss:Type="String">The Everblaze Crusaders</Data></Cell>
+    <Cell><Data ss:Type="String">永焰十字军</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Thermal based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_05</Data></Cell>
+    <Cell><Data ss:Type="String">The Infinite Inferno</Data></Cell>
+    <Cell><Data ss:Type="String">无垠炼狱客</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Thermal based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_06</Data></Cell>
+    <Cell><Data ss:Type="String">The Searsong Burnbearers</Data></Cell>
+    <Cell><Data ss:Type="String">焰歌灼烧者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Thermal based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_07</Data></Cell>
+    <Cell><Data ss:Type="String">The Hallowed Firefathers</Data></Cell>
+    <Cell><Data ss:Type="String">圣堂火父</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Thermal based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_08</Data></Cell>
+    <Cell><Data ss:Type="String">The Scorching Depths</Data></Cell>
+    <Cell><Data ss:Type="String">炙热渊民</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Thermal based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_09</Data></Cell>
+    <Cell><Data ss:Type="String">The Torchbearers</Data></Cell>
+    <Cell><Data ss:Type="String">圣火手</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Thermal based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_10</Data></Cell>
+    <Cell><Data ss:Type="String">The Charscorn Devastators</Data></Cell>
+    <Cell><Data ss:Type="String">燃蔑破坏者</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name for an Thermal based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">BEACON_SHIELD</Data></Cell>
+    <Cell><Data ss:Type="String">EVENT_NAME</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >The Beacon shield has been damaged!</Data></Cell>
+    <Cell><Data ss:Type="String">信标护盾受到了伤害！</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Name of an event</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">FORESHADOW_KILLED</Data></Cell>
+    <Cell><Data ss:Type="String">EVENT_NAME</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Unidentified forces have been defeated!</Data></Cell>
+    <Cell><Data ss:Type="String">未知部队已被击败！</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Name of an event</Data></Cell>
+   </Row>
+   <Row ss:Height="165">
+    <Cell><Data ss:Type="String">FORESHADOW_KILLED</Data></Cell>
+    <Cell><Data ss:Type="String">EVENT_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >The attacking force has been revealed to have been familiar units. They were enthralled by unknown, ferocious creatures, now dubbed 'Voidbringers'.[br/][br/]The incoming subfaction of Voidbringers has been given the name '{STR_InvasionName}' by those who have been enthralled by them. This should give an indication of the damage channel the invaders will bring down upon us.[br/][br/]We must prepare our armies for the incoming invasion of these Voidbringers.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >入侵部队都是曾经熟知的单位，但遭到了如今被称为“虚空使者”的未知凶残生物奴役。[br/][br/]奴役这些部队的虚空使者将这支入侵而来的子阵营命名为“{STR_InvasionName}”，这也许暗示着这些入侵者所使用的伤害类型。[br/][br/]我们必须让军队做好准备，应对这些虚空使者的入侵。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Description of an event</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">BEACON_SHIELD_DAMAGED</Data></Cell>
+    <Cell><Data ss:Type="String">EVENT_TITLE</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >The Beacon shield has been damaged!</Data></Cell>
+    <Cell><Data ss:Type="String">信标护盾受到了伤害！</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Name of an event</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">BEACON_SHIELD_BROKEN</Data></Cell>
+    <Cell><Data ss:Type="String">EVENT_TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">The Beacon shield is now broken!</Data></Cell>
+    <Cell><Data ss:Type="String">信标护盾已被击破！</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Name of an event</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Invasion</Data></Cell>
+    <Cell><Data ss:Type="String">入侵</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">INVASION_BEATEN_POPUP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >The Voidbringers have been defeated</Data></Cell>
+    <Cell><Data ss:Type="String">虚空使者已被击败！</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Header of a story event</Data></Cell>
+   </Row>
+   <Row ss:Height="150">
+    <Cell><Data ss:Type="String">INVASION_BEATEN_POPUP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >The Voidbringer Beacon has been destroyed, preventing the Voidbringers from further access to this world.[br/]Around us lies a world in ruin, in desperate need of repair by unified empires.[br/][br/]Do we claim victory now, unifying the remaining empires and rebuild this world, or shall we continue our conquest as before the Voidbringer invasion?</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >虚空使者信标已被摧毁，我们成功阻止了虚空使者进一步入侵这个星球。[br/]然而我们的周围已是一片废墟，急需统一的帝国来修复这个星球。[br/][br/]我们是现在宣布胜利，一统余下的帝国并重建这个星球？还是像虚空使者发动入侵之前那样，继续我们的征程？</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Content of a story event</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">INVASION_BEATEN_POPUP</Data></Cell>
+    <Cell><Data ss:Type="String">END_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">Claim Victory</Data></Cell>
+    <Cell><Data ss:Type="String">宣布胜利</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Button text</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">INVASION_BEATEN_POPUP</Data></Cell>
+    <Cell><Data ss:Type="String">CONTINUE_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">Continue Game</Data></Cell>
+    <Cell><Data ss:Type="String">继续游戏</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Button text</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION</Data></Cell>
+    <Cell><Data ss:Type="String">DISABLED</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Disabled until the invasion has been defeated</Data></Cell>
+    <Cell><Data ss:Type="String">击败入侵后才会启用</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Text for all victory conditions when they are disabled</Data></Cell>
+   </Row>
+   <Row ss:Height="120">
+    <Cell><Data ss:Type="String">OBTAINED_OPERATION_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Voidbringer Operations</Data></Cell>
+    <Cell><Data ss:Type="String">虚空使者行动</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Story event message header</Data></Cell>
+   </Row>
+   <Row ss:Height="120">
+    <Cell><Data ss:Type="String">OBTAINED_OPERATION_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">BODY</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >You can now summon the Voidbringers to your aid![br/][br/]Use Call Spawner to summon a Voidbringer Spawner to strike the resistance![br/][br/]Use Call Voidbringers to summon Voidbringer units under your control!</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >现在你可以召唤虚空使者为你提供援助了！[br/][br/]使用“召唤出生点”召唤一个虚空使者出生点来攻击抵抗军！[br/][br/]使用“召唤虚空使者”来召唤由你控制的虚空使者单位！</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Story event message body</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">JOIN_WARNING</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >You will join the Voidbringers and trigger a war with any Commander and NPC Faction that hasn't joined them. You will obtain two special operations to call Voidbringers to your aid.[br/][br/]Are you sure you want to join them?</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >你将加入虚空使者，并因此向所有未加入虚空使者的指挥官和 NPC 阵营宣战。你将获得两个特殊行动，可用来召唤虚空使者为你提供援助。[br/][br/]确定要加入虚空使者？</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Warning event message</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">RESIST_WARNING</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >You will resist the Voidbringers and wage war against them.[br/][br/]Are you sure you want to resist them?</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >你将拒绝虚空使者并向他们开战。[br/][br/]确定要拒绝虚空使者？</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Warning event message</Data></Cell>
+   </Row>
+   <Row ss:Height="135">
+    <Cell><Data ss:Type="String">INVASION_SETTING_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_RANDOM</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >The invasion will happen around a randomly chosen turn.</Data></Cell>
+    <Cell><Data ss:Type="String">入侵将在随机选择的回合中产生</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">DIFFICULTY_SETTING</Data></Cell>
+    <Cell><Data ss:Type="String">EASY</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Reduces the strength and amount of defending and roaming enemies during the Invasion.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >降低入侵战中防守和游荡的敌人数量及强度。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Difficulty setting tooltip</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">DIFFICULTY_SETTING</Data></Cell>
+    <Cell><Data ss:Type="String">NORMAL</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Normal strength and amount of defending and roaming enemies during the Invasion.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >入侵战中防守和游荡的敌人数量及强度正常。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Difficulty setting tooltip</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">DIFFICULTY_SETTING</Data></Cell>
+    <Cell><Data ss:Type="String">HARD</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Increases the strength and amount of defending and roaming enemies during the Invasion.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >增加入侵战中防守和游荡的敌人数量及强度。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Difficulty setting tooltip</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">BLOCKED_QUESTS</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >While the invasion is in progress no quests will be given!</Data></Cell>
+    <Cell><Data ss:Type="String">发生入侵战时不会给予任何任务！</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo />
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected />
+   <TopRowVisible>96</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>103</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

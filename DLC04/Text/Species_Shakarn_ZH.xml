@@ -6,462 +6,453 @@
   xmlns:x="urn:schemas-microsoft-com:office:excel"
   xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
   xmlns:html="http://www.w3.org/TR/REC-html40"
-><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
-    >Glenn Smits</LastAuthor><LastSaved>2020-02-07T10:24:25Z</LastSaved><Version
-    >16.00</Version></DocumentProperties><OfficeDocumentSettings
-    xmlns="urn:schemas-microsoft-com:office:office"
-  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
-    xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9990</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
-    /><ProtectStructure>False</ProtectStructure><ProtectWindows
-    >False</ProtectWindows></ExcelWorkbook><Styles><Style
-      ss:ID="Default"
-      ss:Name="Normal"
-    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+>
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2020-02-07T10:24:25Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG />
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10215</WindowHeight>
+  <WindowWidth>21570</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1 />
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom" />
+   <Borders />
+   <Font
         ss:FontName="Calibri"
         x:Family="Swiss"
         ss:Size="11"
         ss:Color="#000000"
-      /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s62"
-      ss:Name="Hyperlink"
-    ><Font
+      />
+   <Interior />
+   <NumberFormat />
+   <Protection />
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font
         ss:FontName="Calibri"
         x:Family="Swiss"
         ss:Size="11"
         ss:Color="#0066CC"
         ss:Underline="Single"
-      /></Style><Style ss:ID="s63"><Alignment
-        ss:Vertical="Top"
-        ss:WrapText="1"
-      /></Style><Style ss:ID="s65" ss:Parent="s62"><Interior
-      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      />
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1" />
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s62">
+   <Interior />
+  </Style>
+  <Style ss:ID="s66" ss:Parent="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1" />
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table
+      ss:ExpandedColumnCount="8"
+      ss:ExpandedRowCount="44"
       x:FullColumns="1"
       x:FullRows="1"
       ss:StyleID="s63"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s63" ss:Width="108.75" /><Column
-        ss:StyleID="s63"
-        ss:Width="104.25"
-      /><Column ss:StyleID="s63" ss:Width="409.5" /><Column
-        ss:StyleID="s63"
-        ss:Width="110.25"
-      /><Column ss:StyleID="s63" ss:Width="173.25" /><Column
-        ss:StyleID="s63"
-        ss:Width="85.5"
-      /><Column ss:StyleID="s63" ss:Width="409.5" /><Row
-        ss:AutoFitHeight="0"
-        ss:Height="120"
-      ><Cell><Data ss:Type="String">SPECIES_SHAKARN</Data></Cell><Cell
-          ss:Index="7"
+    >
+   <Column ss:StyleID="s63" ss:Width="108.75" />
+   <Column ss:StyleID="s63" ss:Width="104.25" />
+   <Column ss:StyleID="s63" ss:Width="409.5" />
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="384.75" />
+   <Column ss:StyleID="s63" ss:Width="173.25" />
+   <Column ss:StyleID="s63" ss:Width="85.5" />
+   <Column ss:StyleID="s63" ss:Width="409.5" />
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SPECIES_SHAKARN</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_SINGULAR</Data></Cell>
+    <Cell><Data ss:Type="String">Shakarn</Data></Cell>
+    <Cell><Data ss:Type="String">蜥蜴人</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_PLURAL</Data></Cell>
+    <Cell><Data ss:Type="String">Shakarn</Data></Cell>
+    <Cell><Data ss:Type="String">蜥蜴人</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef=""><Data
+            ss:Type="String"
+          >{XML_SPECIES_SHAKARN@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]Starting Bonus: [/sand][hyperlink,000003BD000011D2]Aquatic Deployment[/hyperlink][/bullet][bullet][sand]Long-Term Bonus: [/sand]All Racial Tech Research is 10% faster[/bullet][bullet][sand]Long-Term Bonus: [/sand]Use [hyperlink,00000384000005AD]Infiltrate Operations Center[/hyperlink] to steal Racial Tech Trees.[/bullet][bullet][hyperlink,000003E300001CAA]Sound[/hyperlink] Weapons Group[/bullet][bullet]Omni weapons combine Sound and [hyperlink,0000039E00000010]Laser[/hyperlink] Technology[/bullet][bullet]Use holograms to infiltrate, confuse and mirror your enemies[/bullet][bullet]Use of broadcasts and propaganda[/bullet][bullet][hyperlink,0000039600000B89]Amphibious[/hyperlink] units with [hyperlink,000003E300001FA2]Epimorphic Regeneration[/hyperlink][/bullet][/bulletList]</Data></Cell>
+    <Cell
+          ss:StyleID="s66"
+          ss:HRef="mailto:{XML_SPECIES_SHAKARN@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]初始加成：[/sand][hyperlink,000003BD000011D2]水上部署[/hyperlink][/bullet][bullet][sand]长期加成：[/sand]所有种族科技研究速度加快 10%[/bullet][bullet][sand]长期加成：[/sand]利用[hyperlink,00000384000005AD]渗透行动中心[/hyperlink]窃取种族科技树。[/bullet][bullet][hyperlink,000003E300001CAA]音波[/hyperlink]武器组[/bullet][bullet]全能武器混合音波和[hyperlink,0000039E00000010]激光[/hyperlink]科技[/bullet][bullet]利用全息影像渗透、迷惑、模仿敌人[/bullet][bullet]使用广播与宣传手段[/bullet][bullet][hyperlink,0000039600000B89]水陆两栖[/hyperlink]单位具有[hyperlink,000003E300001FA2]割处再生[/hyperlink][/bullet][/bulletList]"
         ><Data
             ss:Type="String"
-          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TEXT ID</Data></Cell><Cell><Data
-            ss:Type="String"
-          >ENGLISH STRING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >LOCALIZED STRING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >LOCALIZATION NOTES</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">RACE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME_SINGULAR</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Shakarn</Data></Cell><Cell><Data
-            ss:Type="String"
-          >蜥蜴人</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
-            ss:Type="String"
-          >RACE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME_PLURAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Shakarn</Data></Cell><Cell><Data
-            ss:Type="String"
-          >蜥蜴人</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="150"
-      ><Cell><Data ss:Type="String">RACE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s65" ss:HRef=""><Data
-            ss:Type="String"
-          >{XML_SPECIES_SHAKARN@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]Starting Bonus: [/sand][hyperlink,000003BD000011D2]Aquatic Deployment[/hyperlink][/bullet][bullet][sand]Long-Term Bonus: [/sand]All Racial Tech Research is 10% faster[/bullet][bullet][sand]Long-Term Bonus: [/sand]Use [hyperlink,00000384000005AD]Infiltrate Operations Center[/hyperlink] to steal Racial Tech Trees.[/bullet][bullet][hyperlink,000003E300001CAA]Sound[/hyperlink] Weapons Group[/bullet][bullet]Omni weapons combine Sound and [hyperlink,0000039E00000010]Laser[/hyperlink] Technology[/bullet][bullet]Use holograms to infiltrate, confuse and mirror your enemies[/bullet][bullet]Use of broadcasts and propaganda[/bullet][bullet][hyperlink,0000039600000B89]Amphibious[/hyperlink] units with [hyperlink,000003E300001FA2]Epimorphic Regeneration[/hyperlink][/bullet][/bulletList]</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >{XML_SPECIES_SHAKARN@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]初始加成：[/sand][hyperlink,000003BD000011D2]水上部署[/hyperlink][/bullet][bullet][sand]长期加成：[/sand]所有种族科技研究速度加快 10%[/bullet][bullet][sand]长期加成：[/sand]利用[hyperlink,00000384000005AD]渗透行动中心[/hyperlink]窃取种族科技树。[/bullet][bullet][hyperlink,000003E300001CAA]音波[/hyperlink]武器组[/bullet][bullet]全能武器混合音波和[hyperlink,0000039E00000010]激光[/hyperlink]科技[/bullet][bullet]利用全息影像渗透、迷惑、模仿敌人[/bullet][bullet]使用广播与宣传手段[/bullet][bullet][hyperlink,0000039600000B89]水陆两栖[/hyperlink]单位具有[hyperlink,000003E300001F34]割处再生[/hyperlink][/bullet][/bulletList]</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >The {text} inserts the DESCRIPTION_SHORT text below.</Data></Cell><Cell
-          ss:StyleID="s65"
-        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
-            ss:Type="String"
-          >RACE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION_SHORT</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The [hyperlink,000003E00000017B]Shakarn[/hyperlink] waited at the edge of the known Star Union. Preparing and researching. Spying from within. Now, with the fall of the Union, they are ready to strike and conquer that which is their right.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >[hyperlink,0000039E00000017]蜥蜴人[/hyperlink]一直在星际联盟的边缘等待、准备和研究。他们深入敌军，从内部暗中侦察。现在，随着星际联盟的瓦解，他们准备行使自己的权利，发动袭击并征服世界。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">CAMP</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Shakarn Settlement</Data></Cell><Cell><Data
-            ss:Type="String"
-          >蜥蜴人定居点</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">CAMP</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >A settlement is a small independent colony that might join you if you have enough influence.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >定居点是小型的独立殖民地，如果你拥有足够的影响力，定居点可能会加入你的势力。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Migrate Colony: Shakarn</Data></Cell><Cell><Data
-            ss:Type="String"
-          >迁移殖民地：蜥蜴人</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="75"
-      ><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Migrate the population of this colony to Shakarn. The colony will become a Shakarn colony.[br/][br/][fireCol]By migrating the population, {PopulationDeath} of the colonists of the colony will be killed.[/fireCol] [br/][br/]You receive:[br/][fireCol]{Reputation} Reputation[br/]{RaceRelation} Race Relation with the {STR_raceName}[/fireCol] </Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >将殖民地的居民移民为蜥蜴人，之后该殖民地将变为蜥蜴人殖民地。[br/][br/][fireCol]迁移人口后，该殖民地 {PopulationDeath} 的移住民将会死亡。[/fireCol][br/][br/]你获得：[br/][fireCol]{Reputation} 声望[br/]与{STR_raceName}的种族关系 {RaceRelation}[/fireCol] </Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >IN_PROGRESS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Colony is currently being migrated to a Shakarn population. Process will complete in [INT_duration].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >殖民地正迁移为蜥蜴人殖民地，将于 [INT_duration] 后完成。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >CONFIRMATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Are you sure you want to migrate this colony to a Shakarn colony?</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >确定要将该殖民地迁移为蜥蜴人殖民地？</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">RECON</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Recon</Data></Cell><Cell><Data
-            ss:Type="String"
-          >侦察兵</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="120"
-      ><Cell><Data ss:Type="String">RECON</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >“Farmers in the coastal village of Arkhanrock have a novel way to attract tourists: Mystery! Many eyewitnesses claimed to see iridescent UFOs materializing from the sea. Their only evidence so far is blurry photographs of what could be nothing more than misshapen seabirds. One wide-eyed fisherman claimed he caught one, then showed me a hole in his fishing net. ‘It ripped right through.’ The fisherman said, ‘Some kind of sonic weapon. Gave me a splitting headache.’ If you’re bored this weekend, drive down. See if you can solve this mystery.” – Camille Ian, “RV-44523E: Coastal Gazette, Tourism Curiosities”</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >"阿尔坎罗克沿海村庄的农民用一种新颖的方式吸引游客：搞神秘！许多目击者声称看到海上出现了彩虹色的不明飞行物。到目前为止，他们唯一的证据只有模糊的照片，可能只不过是一些畸形的海鸟罢了。一位受惊的渔夫声称他抓住了其中一个，然后给我看了看渔网上的大洞。‘它用某种声波武器撕裂了渔网，’那位渔夫说，‘还使我头痛欲裂。’如果你这个周末觉得无聊，就开车来转一转吧，看看你能否解开这里的谜团。”——卡米尔·伊恩，“RV-44523E：海滨公报，旅游好奇心”</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">RECON_BUOY</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Reconnaissance Buoy</Data></Cell><Cell><Data
-            ss:Type="String"
-          >侦察航标</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="120"
-      ><Cell><Data ss:Type="String">RECON_BUOY</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >“Attempts to subdue all animal life on this planet continue to fail. A reptilian lifeform cleverly avoids traps and DNA samplers. I believe it’s intelligent, but my sisters mock me.  The idea of ectothermic lifeforms achieving intelligence breaks most evolutionary probability life-models. That may be, but how do I dismiss my observations? Some of our pylons went missing. Now it seems the lizards have been observed using modified pylons to watch us. Are they spying on us now? Despite my peers’ skepticism, I believe we’ve discovered an intelligent reptilian race.” – Terratech Biologist, Dr. Jenat Delling, “RV-33356S: Lost Amazon Expedition Logs” </Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >“征服这个星球上所有动物的企图仍未成功。一种爬行类生物巧妙地避开了陷阱和 DNA 采样器。我有理由相信那种生物拥有智慧，但我的姐妹们都在嘲笑我。变温生命体获得智慧的想法几乎违背了所有生命模型的进化可能。也许真的是那样吧，但我又如何放得下我所看见的东西呢？我们的一些塔架不见了。现在看来，蜥蜴似乎已经学会使用改造的塔架来观察我们了。它们现在就在监视我们吗？尽管我的同行对此表示怀疑，但我相信我们已经发现了一个拥有智慧的爬行类种族。”——泰拉科技生物学家，耶拿·德林博士，“RV-33356S：失落的亚马逊探险日志” </Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">RAIDER</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Raider</Data></Cell><Cell><Data
-            ss:Type="String"
-          >袭击者</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="120"
-      ><Cell><Data ss:Type="String">RAIDER</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >“When the Shakarn finally reveal themselves, they will come with overwhelming force. Having infiltrated our defenses, their Raiders will walk in with omni-assault weaponry - Laser tech they stole, then enhanced with their own Sonic tech. There will be no negotiation. They won’t make themselves known to an enemy world of their own goodwill until they believe they have the force sufficient to subjugate us. Unless they are exposed, they will infiltrate our institutions and —&lt;/RECORD CORRUPTION ERROR/&gt;”— GBI Agent Dan Cranney, “RV-0&amp;$^?9G: The Shakarn Invasion Force”</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >“当蜥蜴人最终现身时，他们将带来压倒性的力量。他们早已渗透了我们的防御系统，他们的袭击者将会端着全能突击武器攻入我们的世界。这是一种把他们偷来的激光技术与他们自己的音波技术相结合而产生的武器。除非他们认为自己已经拥有了足够的力量来征服我们，否则他们绝不会让敌人知晓他们的存在。除非他们暴露，否则他们将渗入我们的机构以及——&lt;/记录损坏错误/&gt;”——GBI 特工丹·克兰尼，“RV-0&amp;$^?9G：蜥蜴人入侵部队”</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">INFILTRATOR</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Infiltrator</Data></Cell><Cell><Data
-            ss:Type="String"
-          >渗透者</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="120"
-      ><Cell><Data ss:Type="String">INFILTRATOR</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >“Despite our best efforts to intercept them, Agent Dan Cranney continues to publish his conspiracies on anonymous news-drops. He claims a race of lizard shapeshifters infiltrated our leadership. His latest theory involves Shakarn Infiltrators penetrating our defenses, replacing Agents of the Galactic Bureau of Investigation to sabotage colony defenses. So far, the general public refuses to believe him. Fortunately, their general distrust of government officials impedes any serious public insurrections against us. Agent Cranney will be handled.” – GBI Director S. Kay Lee, “RV-8959G: IA Case: Deep-State Conspiracies”</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >“尽管我们尽了最大努力想要拦截，然而丹·克兰尼特工仍然在匿名新闻网站上公布他的阴谋，声称有一种能够变换形态的蜥蜴种族已经渗透了我们的领导层。根据他最新的理论，蜥蜴人的渗透者会入侵我们的防御系统，取代银河调查局 (GBI) 的特工来破坏殖民地的防御系统。到目前为止，没有人愿意相信他。幸运的是，公众对政府官员普遍都不信任，因此并未引发任何针对政府的严重暴动行为。克兰尼特工将会遭到处置。”——GBI 局长 S.凯伊·李，“RV-8959G：IA 案例：深层国家阴谋”</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">DEADEYE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Deadeye</Data></Cell><Cell><Data
-            ss:Type="String"
-          >死眼</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="120"
-      ><Cell><Data ss:Type="String">DEADEYE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >“The coastal towns are most vulnerable to Shakarn advances as their forces are all amphibious. The Shakarn will send their Deadeyes. With cold reptilian precision, they will slither to the edge of their long-range rifles and wait patiently for a target.  With the deadly decisiveness of a cobra, they’ll pick off any defensive forces. Their lizard physiology regenerates all but the most serious wounds. Why must we wait until we are forced to retreat? We should be doing everything to stop their impending invasion.” --GBI Agent Dan Cranney, “RV-&lt;Reference Redacted&gt;: Arkhanrock City Council Harassment Complaint”</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >“沿海城镇最容易受到蜥蜴人的攻击，因为他们的部队都能够两栖作战。蜥蜴人会派出他们的死眼，这些拥有冷血爬行动物一样精准的部队会潜伏到远程步枪的射程边缘，耐心地等待目标出现。他们有着眼镜蛇一般致命的决断力，能够干掉任何防御部队。只要不是致命的伤口，他们的蜥蜴生理机能将会帮助他们再生。我们为什么要坐在这里无动于衷，然后被迫撤退？我们应该主动出击，用尽一切办法阻止他们即将到来的入侵。”——GBI 特工丹·克兰尼，“RV-&lt;参考编辑&gt;：阿尔坎罗克市议会骚扰投诉”</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">PROPAGATOR</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Propagator</Data></Cell><Cell><Data
-            ss:Type="String"
-          >宣传者</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="120"
-      ><Cell><Data ss:Type="String">PROPAGATOR</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >“They’ll rise unseen from the sea. Their technology controls the skies. You will be forced to hide. But how does one hide from sound? The Propagator’s weaponry will envelope the very air you breathe. Their pearlescent vessels will hover above their troops, mending their reptilian wounds with rippling waves of holography. When you’re enslaved, being probed for their meat-processing plants, you will weep and wail for ignoring me… but by then, I’ll be gone off to warn the next community that will laugh and deride me.” – GBI Agent Dan Cranney, “RV-&lt;Reference Redacted&gt;: Arkhanrock City Council Harassment Complaint”</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >“他们将从海洋悄无声息地出现，他们的技术统治着天空。你只能东躲西藏。然而，人又如何躲得过声音呢？宣传者的武器会把你呼吸的空气封闭起来。他们光芒四射的飞船将在部队上空盘旋，用全息影像技术的波纹修复他们的伤口。当你遭到奴役，被丢进他们的肉食加工厂进行研究时，你将因忽视了我的警告而哭泣……但那时，我将已经离开，去往下一个嘲笑愚弄我的社区。”——GBI 特工丹·克兰尼，“RV-&lt;参考编辑&gt;：阿尔坎罗克市议会骚扰投诉”</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">TACTICIAN</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Tactician</Data></Cell><Cell><Data
-            ss:Type="String"
-          >战术师</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="105"
-      ><Cell><Data ss:Type="String">TACTICIAN</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >“Hissing voices beckon. Doc says it’s PTSD. ‘Take your meds. The voices will fade.’ What if these routine patrols aren’t just routine? It hovers in my dream with reptilian eyes. Its hypnotic crest fans out like a halo. The others fear and run; but, perversely, I want to be with it. This Tactician awakens my true nature. My mother and father’s faces tear away to reveal scales. These intruders, why do they look so familiar? Brothers? Sisters? Turns out, I was one of them all along.” –Pvt. Drake Izzard, MIA. “RV-66766M: Common Accounts of Desertion: Arkhanrock Patrol”</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >“嘶嘶的声音一直响个不停，医生说这叫创伤后应激障碍。‘谨遵医嘱，好好吃药，这些声音就会消失的。’但如果这些例行巡逻部队不仅是例行部队怎么办？爬行动物的眼睛在我的梦中盘旋，催眠般的波峰像光环一样散开。其他人都害怕得跑开了；而我却倔强地想要与它待在一起。这位战术师唤醒了我的本性。我父母的脸庞撕裂开来，露出了鳞片。这些入侵者为什么看起来这么眼熟？是我们的兄弟？还是我们的姐妹？原来，我一直都是他们中的一员。”——列兵德雷克·伊泽德，行动失踪人员。“RV-66766M：普通逃兵报道：阿尔坎罗克巡逻队”</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">FIREBRAND</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Firebrand</Data></Cell><Cell><Data
-            ss:Type="String"
-          >煽动者</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="120"
-      ><Cell><Data ss:Type="String">FIREBRAND</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >“Look. I’ve taken a lot of flak on the artistic direction of the latest Beastmonster sequel, but let’s face it. Laser claws are cool. It wasn’t even a unique idea—I stole it from some conspiratorial news-drop site. Imagine this massive boss creature, half crab, half lizard monster! I don’t understand why the censors were so upset. The only excuse they gave was “Animal Cruelty,” but it’s a movie—not reality. Everyone knows that. Makes me think there’s a conspiracy out there, and they’re trying to hide something.”—July Del’Torus, “RV-9484E: Interview from the director, Beastmonster IV-X”</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >“听着，在最新的《狂野怪兽》续集中，我的艺术方向遭到许多人炮轰，但我们还是面对现实吧。激光爪简直酷毙了好吗，还有好多新奇的想法。实话说吧，我是从某个阴谋论新闻网站上偷来的点子。想象一下这个巨大的怪物，一半是螃蟹，一半是蜥蜴！我无法理解审查机构为什么这么生气，他们给出的唯一借口竟然‘虐待动物’。这只是一部电影，又不是现实，是个人都知道好吗。这都开始让我觉得外面有什么阴谋了，他们是不是想要隐瞒什么？”——朱利·德陶鲁斯，“RV-9484E：《狂野怪兽 IV-X》导演访谈”</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">REFRACTOR</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Refractor</Data></Cell><Cell><Data
-            ss:Type="String"
-          >折射器</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="120"
-      ><Cell><Data ss:Type="String">REFRACTOR</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >“While being probed, they stored me in a military hangar where I saw vehicles that the Shakarn use in their invading force. I beheld ships of power covered in a pearlescent shell that appeared to evaporate in water. I saw great tank-like vehicles with sonic powers that could rally their forces into a fighting frenzy, and release powerful blasts that shook the earth, leaving no enemies standing. I only caught glimpses of their power, but when they come in full force, only preppers will be ready.” –Hollis Barker, Owner of Doomsday Gun Club “RV-66099E: Alien Abduction Stories: Lizard People”</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >“他们对我进行了一番检查之后，就把我关进了一个军用机库里，我在那里看到了蜥蜴人的入侵部队所使用的载具。我看见了好几艘大船，覆盖着一层光芒四射的外壳，似乎能够在水中蒸发。我还看到了像坦克一样的巨型车辆，它们的音波能量可以煽动部队的狂热，释放出震撼大地的强力冲击波，任何敌人都无法承受得住。这还只是我所看见的冰山一角，当他们全军出击时，只有那些准备好迎接末日的人才能生存下来。”——霍利斯·巴克，末日火枪俱乐部老板，“RV-66099E：外星绑架故事：蜥蜴人”</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">SONOKARN</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Sonokarn</Data></Cell><Cell><Data
-            ss:Type="String"
-          >声波碑船</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="120"
-      ><Cell><Data ss:Type="String">SONOKARN</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >“This a secure channel? I modified this device: A ‘Baby Monitor.’ Deploy the Sonokarn! Unleash its Omni-sonorous might. Its powerful sonic-laser weapons will destroy ‘Sunny-Bunny Daycare Center’. Then I shall escape from what the daycare workers call, ‘Crib’. Horrid Prison! My forced diet of mammalian milk and a foul concoction called ‘Spaghetti-Loops’ will finally cease. I hunger for raw meat. I will eat Karen first. She knows too much. Sonokarn’s Rally will strengthen me enough to shift from toddler form. The other inmates here are distracted morons. No interest in insurrection. This place must be destroyed!” – Broadcaster Unknown, RV-384888B: Prank Calls”</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >“这个频道安全吗？我已经修改了这个设备：‘婴儿监视器’。快部署声波碑船！释放它的全能音波之力，用它强大的声波激光武器摧毁‘阳光兔兔日托中心’。然后我就可以摆脱那些护工所谓的‘婴儿床’了。这里简直比监狱还可怕！我终于可以不再强迫自己喝哺乳动物的奶，然后吃一种叫做‘意大利面圈’的肮脏食物了。我渴望吃生肉。我要先吃了凯伦，因为她知道的太多了。声波碑船的集结将使我恢复力量，从蹒跚学步的形态转变回来。这里的其他人都是精神错乱的白痴，对起义毫无兴趣。这个地方必须被摧毁！”——未知广播，“RV-384888B：恶作剧号召”</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">SEEKER</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Seeker</Data></Cell><Cell><Data
-            ss:Type="String"
-          >探寻者</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="120"
-      ><Cell><Data ss:Type="String">SEEKER</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >“A strange ship blasted us with sonar weaponry. The stow-away, GBI Agent Cranney, claims that it’s a Seeker ship. ‘Aliens are chasing him.’ Clearly, he’s insane. It is strange how it focused on the seams around the ship’s engine bracket. That’s a classified weakness. The paranoid agent claims it detects weaknesses. Our aft engines are dead. We’re sitting ducks. We returned fire, but it disappeared under the waters. I’m transmitting this log, because Agent Cranney claims these Shakarn hate public attention. They may hide instead of destroying us.” – Captain Bracken Brady, “RV-393946B: Distress Calls”</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >“一艘奇怪的船用声呐武器轰炸了我们。偷渡者 GBI 特工克兰尼称，这是一艘探寻者飞船，说有外星人在追杀他。真是个疯子。奇怪之处在于，那艘船是如何知道要将声波集中在我们的发动机托架周围的。那里是船上一个十分机密的弱点。那位疑神疑鬼的特工声称那艘船已经发现了我们的弱点。我们的尾部引擎损坏了，因此无法移动。我们发起了还击，但对方竟然在水下消失了。我正在传输这份日志，因为克兰尼特工说这些蜥蜴人讨厌引起公众的关注。他们可能会选择躲藏起来，而不是消灭我们。”——布拉肯·布莱迪上尉，“RV-393946B：求救呼号”</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">SLEEPER_AGENT</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Sleeper Agent</Data></Cell><Cell><Data
-            ss:Type="String"
-          >潜伏特工</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="120"
-      ><Cell><Data ss:Type="String">SLEEPER_AGENT</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >“The Star Union is for weak-minded fools. Victims clamoring for attention and handouts. Drink your corporate-sponsored beverage of pity. Life is nothing but meaningless pain. I need no sympathy. I am no victim. I don’t need sponsorship. I feel power reverberating through me when I pick up a blade. My rage blasts out like a scream. I will no longer closet my truth. I am the counterculture—awaiting orders to invade just outside the purview of propriety. I’m a Sleeper Agent for the end of life as you knew it.” – Private Tyrone Herpetto, “RV-38448M: Runaway Teenagers: Dissident Manifesto.”</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >“星际联盟是为愚蠢的傻瓜而准备的。受害者吵着要得到关注和施舍，喝着公司资助的同情饮料。生命不过是无意义的痛苦。我不需要同情。我不是受害者。我也不需要资助。当我拿起武器时，我能感受到力量在体内回荡。我的愤怒像尖叫一样爆发出来。我将不再隐瞒内心。我就是一个反对主流文化的人，等待命令，准备发动入侵。你在临死前将会知道，我是一名潜伏特工。”——列兵蒂龙·赫佩托，“RV-38448M：离家出走的青少年：异见宣言”</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">GLAUKUS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Glaukos</Data></Cell><Cell><Data
-            ss:Type="String"
-          >海神鳃</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
-            ss:Type="String"
-          >GLAUKUS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Assault vehicle of the Shakarn.</Data></Cell><Cell><Data
-            ss:Type="String"
-          >蜥蜴人突击载具。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="105"
-      ><Cell><Data ss:Type="String">PLANET_ARRIVAL</Data></Cell><Cell><Data
-            ss:Type="String"
-          >LOG</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Ready your rifle, general! The Scarlet Scepter has chosen you to claim another planet for the glorious Shakarn Empire. Our agents have lived hidden among the humans for generations, preparing for the time when we could strike, using their own inventions against them. That time is now. Be it through dominion or deception, we will lift the veil and show these creatures the true glory of the Shakarn!</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >准备好你的步枪，将军！绯红节杖选择你去为光荣的蜥蜴人帝国占领另一个星球。我们的特工世代隐藏在人类中间，用他们自己的发明来对付他们，为我们发起攻击做准备。现在，时机已到。无论是通过统治还是欺骗，我们将揭开这张面纱，让这些生物看到蜥蜴人真正的荣耀！</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">LONG_TERM_BONUS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >WAR_PER_PLAYER</Data></Cell><Cell><Data
-            ss:Type="String"
-          >At War (Player)</Data></Cell><Cell><Data
-            ss:Type="String"
-          >交战中（玩家）</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
-        ><Data ss:Type="String">LONG_TERM_BONUS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >WAR_PER_NPC</Data></Cell><Cell><Data
-            ss:Type="String"
-          >At War (NPC Faction)</Data></Cell><Cell><Data
-            ss:Type="String"
-          >交战中（NPC 阵营）</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
-        ><Data ss:Type="String">SONO_TURRET</Data></Cell><Cell><Data
-            ss:Type="String"
-          >NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Sono Turret</Data></Cell><Cell><Data
-            ss:Type="String"
-          >音波炮台</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
-            ss:Type="String"
-          >SONO_TURRET</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Sono Turrets are the Shakarn colony defense turrets.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >音波炮台是蜥蜴人殖民地的防御炮塔。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STEAL_ON_INFILTRATE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >On a successful infiltration, gain access to the Racial Tech Tree of that Commander.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >渗透成功后将获得对方指挥官的种族科技树。</Data></Cell></Row></Table><WorksheetOptions
-      xmlns="urn:schemas-microsoft-com:office:excel"
-    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
-        >600</HorizontalResolution><VerticalResolution
-        >600</VerticalResolution></Print><Selected /><TopRowVisible
-      >33</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
-          >40</ActiveRow><ActiveCol>4</ActiveCol></Pane></Panes><ProtectObjects
-      >False</ProtectObjects><ProtectScenarios
-      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+          >{XML_SPECIES_SHAKARN@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]初始加成：[/sand][hyperlink,000003BD000011D2]水上部署[/hyperlink][/bullet][bullet][sand]长期加成：[/sand]所有种族科技研究速度加快 10%[/bullet][bullet][sand]长期加成：[/sand]利用[hyperlink,00000384000005AD]渗透行动中心[/hyperlink]窃取种族科技树。[/bullet][bullet][hyperlink,000003E300001CAA]音波[/hyperlink]武器组[/bullet][bullet]全能武器混合音波和[hyperlink,0000039E00000010]激光[/hyperlink]科技[/bullet][bullet]利用全息影像渗透、迷惑、模仿敌人[/bullet][bullet]使用广播与宣传手段[/bullet][bullet][hyperlink,0000039600000B89]水陆两栖[/hyperlink]单位具有[hyperlink,000003E300001FA2]割处再生[/hyperlink][/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The {text} inserts the DESCRIPTION_SHORT text below.</Data></Cell>
+    <Cell ss:StyleID="s65" />
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_SHORT</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >The [hyperlink,000003E00000017B]Shakarn[/hyperlink] waited at the edge of the known Star Union. Preparing and researching. Spying from within. Now, with the fall of the Union, they are ready to strike and conquer that which is their right.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >[hyperlink,0000039E00000017]蜥蜴人[/hyperlink]一直在星际联盟的边缘等待、准备和研究。他们深入敌军，从内部暗中侦察。现在，随着星际联盟的瓦解，他们准备行使自己的权利，发动袭击并征服世界。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAMP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shakarn Settlement</Data></Cell>
+    <Cell><Data ss:Type="String">蜥蜴人定居点</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CAMP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >A settlement is a small independent colony that might join you if you have enough influence.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >定居点是小型的独立殖民地，如果你拥有足够的影响力，定居点可能会加入你的势力。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Migrate Colony: Shakarn</Data></Cell>
+    <Cell><Data ss:Type="String">迁移殖民地：蜥蜴人</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Migrate the population of this colony to Shakarn. The colony will become a Shakarn colony.[br/][br/][fireCol]By migrating the population, {PopulationDeath} of the colonists of the colony will be killed.[/fireCol] [br/][br/]You receive:[br/][fireCol]{Reputation} Reputation[br/]{RaceRelation} Race Relation with the {STR_raceName}[/fireCol] </Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >将殖民地的居民移民为蜥蜴人，之后该殖民地将变为蜥蜴人殖民地。[br/][br/][fireCol]迁移人口后，该殖民地 {PopulationDeath} 的移住民将会死亡。[/fireCol][br/][br/]你获得：[br/][fireCol]{Reputation} 声望[br/]与{STR_raceName}的种族关系 {RaceRelation}[/fireCol] </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">IN_PROGRESS</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Colony is currently being migrated to a Shakarn population. Process will complete in [INT_duration].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >殖民地正迁移为蜥蜴人殖民地，将于 [INT_duration] 后完成。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">CONFIRMATION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Are you sure you want to migrate this colony to a Shakarn colony?</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >确定要将该殖民地迁移为蜥蜴人殖民地？</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recon</Data></Cell>
+    <Cell><Data ss:Type="String">侦察兵</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">RECON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“Farmers in the coastal village of Arkhanrock have a novel way to attract tourists: Mystery! Many eyewitnesses claimed to see iridescent UFOs materializing from the sea. Their only evidence so far is blurry photographs of what could be nothing more than misshapen seabirds. One wide-eyed fisherman claimed he caught one, then showed me a hole in his fishing net. ‘It ripped right through.’ The fisherman said, ‘Some kind of sonic weapon. Gave me a splitting headache.’ If you’re bored this weekend, drive down. See if you can solve this mystery.” – Camille Ian, “RV-44523E: Coastal Gazette, Tourism Curiosities”</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >&quot;阿尔坎罗克沿海村庄的农民用一种新颖的方式吸引游客：搞神秘！许多目击者声称看到海上出现了彩虹色的不明飞行物。到目前为止，他们唯一的证据只有模糊的照片，可能只不过是一些畸形的海鸟罢了。一位受惊的渔夫声称他抓住了其中一个，然后给我看了看渔网上的大洞。‘它用某种声波武器撕裂了渔网，’那位渔夫说，‘还使我头痛欲裂。’如果你这个周末觉得无聊，就开车来转一转吧，看看你能否解开这里的谜团。”——卡米尔·伊恩，“RV-44523E：海滨公报，旅游好奇心”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECON_BUOY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reconnaissance Buoy</Data></Cell>
+    <Cell><Data ss:Type="String">侦察航标</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">RECON_BUOY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“Attempts to subdue all animal life on this planet continue to fail. A reptilian lifeform cleverly avoids traps and DNA samplers. I believe it’s intelligent, but my sisters mock me.  The idea of ectothermic lifeforms achieving intelligence breaks most evolutionary probability life-models. That may be, but how do I dismiss my observations? Some of our pylons went missing. Now it seems the lizards have been observed using modified pylons to watch us. Are they spying on us now? Despite my peers’ skepticism, I believe we’ve discovered an intelligent reptilian race.” – Terratech Biologist, Dr. Jenat Delling, “RV-33356S: Lost Amazon Expedition Logs” </Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“征服这个星球上所有动物的企图仍未成功。一种爬行类生物巧妙地避开了陷阱和 DNA 采样器。我有理由相信那种生物拥有智慧，但我的姐妹们都在嘲笑我。变温生命体获得智慧的想法几乎违背了所有生命模型的进化可能。也许真的是那样吧，但我又如何放得下我所看见的东西呢？我们的一些塔架不见了。现在看来，蜥蜴似乎已经学会使用改造的塔架来观察我们了。它们现在就在监视我们吗？尽管我的同行对此表示怀疑，但我相信我们已经发现了一个拥有智慧的爬行类种族。”——泰拉科技生物学家，耶拿·德林博士，“RV-33356S：失落的亚马逊探险日志” </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RAIDER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Raider</Data></Cell>
+    <Cell><Data ss:Type="String">袭击者</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">RAIDER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“When the Shakarn finally reveal themselves, they will come with overwhelming force. Having infiltrated our defenses, their Raiders will walk in with omni-assault weaponry - Laser tech they stole, then enhanced with their own Sonic tech. There will be no negotiation. They won’t make themselves known to an enemy world of their own goodwill until they believe they have the force sufficient to subjugate us. Unless they are exposed, they will infiltrate our institutions and —&lt;/RECORD CORRUPTION ERROR/&gt;”— GBI Agent Dan Cranney, “RV-0&amp;$^?9G: The Shakarn Invasion Force”</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“当蜥蜴人最终现身时，他们将带来压倒性的力量。他们早已渗透了我们的防御系统，他们的袭击者将会端着全能突击武器攻入我们的世界。这是一种把他们偷来的激光技术与他们自己的音波技术相结合而产生的武器。除非他们认为自己已经拥有了足够的力量来征服我们，否则他们绝不会让敌人知晓他们的存在。除非他们暴露，否则他们将渗入我们的机构以及——&lt;/记录损坏错误/&gt;”——GBI 特工丹·克兰尼，“RV-0&amp;$^?9G：蜥蜴人入侵部队”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFILTRATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Infiltrator</Data></Cell>
+    <Cell><Data ss:Type="String">渗透者</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">INFILTRATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“Despite our best efforts to intercept them, Agent Dan Cranney continues to publish his conspiracies on anonymous news-drops. He claims a race of lizard shapeshifters infiltrated our leadership. His latest theory involves Shakarn Infiltrators penetrating our defenses, replacing Agents of the Galactic Bureau of Investigation to sabotage colony defenses. So far, the general public refuses to believe him. Fortunately, their general distrust of government officials impedes any serious public insurrections against us. Agent Cranney will be handled.” – GBI Director S. Kay Lee, “RV-8959G: IA Case: Deep-State Conspiracies”</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“尽管我们尽了最大努力想要拦截，然而丹·克兰尼特工仍然在匿名新闻网站上公布他的阴谋，声称有一种能够变换形态的蜥蜴种族已经渗透了我们的领导层。根据他最新的理论，蜥蜴人的渗透者会入侵我们的防御系统，取代银河调查局 (GBI) 的特工来破坏殖民地的防御系统。到目前为止，没有人愿意相信他。幸运的是，公众对政府官员普遍都不信任，因此并未引发任何针对政府的严重暴动行为。克兰尼特工将会遭到处置。”——GBI 局长 S.凯伊·李，“RV-8959G：IA 案例：深层国家阴谋”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEADEYE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Deadeye</Data></Cell>
+    <Cell><Data ss:Type="String">死眼</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">DEADEYE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“The coastal towns are most vulnerable to Shakarn advances as their forces are all amphibious. The Shakarn will send their Deadeyes. With cold reptilian precision, they will slither to the edge of their long-range rifles and wait patiently for a target.  With the deadly decisiveness of a cobra, they’ll pick off any defensive forces. Their lizard physiology regenerates all but the most serious wounds. Why must we wait until we are forced to retreat? We should be doing everything to stop their impending invasion.” &#45;-GBI Agent Dan Cranney, “RV-&lt;Reference Redacted&gt;: Arkhanrock City Council Harassment Complaint”</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“沿海城镇最容易受到蜥蜴人的攻击，因为他们的部队都能够两栖作战。蜥蜴人会派出他们的死眼，这些拥有冷血爬行动物一样精准的部队会潜伏到远程步枪的射程边缘，耐心地等待目标出现。他们有着眼镜蛇一般致命的决断力，能够干掉任何防御部队。只要不是致命的伤口，他们的蜥蜴生理机能将会帮助他们再生。我们为什么要坐在这里无动于衷，然后被迫撤退？我们应该主动出击，用尽一切办法阻止他们即将到来的入侵。”——GBI 特工丹·克兰尼，“RV-&lt;参考编辑&gt;：阿尔坎罗克市议会骚扰投诉”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROPAGATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Propagator</Data></Cell>
+    <Cell><Data ss:Type="String">宣传者</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">PROPAGATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“They’ll rise unseen from the sea. Their technology controls the skies. You will be forced to hide. But how does one hide from sound? The Propagator’s weaponry will envelope the very air you breathe. Their pearlescent vessels will hover above their troops, mending their reptilian wounds with rippling waves of holography. When you’re enslaved, being probed for their meat-processing plants, you will weep and wail for ignoring me… but by then, I’ll be gone off to warn the next community that will laugh and deride me.” – GBI Agent Dan Cranney, “RV-&lt;Reference Redacted&gt;: Arkhanrock City Council Harassment Complaint”</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“他们将从海洋悄无声息地出现，他们的技术统治着天空。你只能东躲西藏。然而，人又如何躲得过声音呢？宣传者的武器会把你呼吸的空气封闭起来。他们光芒四射的飞船将在部队上空盘旋，用全息影像技术的波纹修复他们的伤口。当你遭到奴役，被丢进他们的肉食加工厂进行研究时，你将因忽视了我的警告而哭泣……但那时，我将已经离开，去往下一个嘲笑愚弄我的社区。”——GBI 特工丹·克兰尼，“RV-&lt;参考编辑&gt;：阿尔坎罗克市议会骚扰投诉”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICIAN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tactician</Data></Cell>
+    <Cell><Data ss:Type="String">战术师</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TACTICIAN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“Hissing voices beckon. Doc says it’s PTSD. ‘Take your meds. The voices will fade.’ What if these routine patrols aren’t just routine? It hovers in my dream with reptilian eyes. Its hypnotic crest fans out like a halo. The others fear and run; but, perversely, I want to be with it. This Tactician awakens my true nature. My mother and father’s faces tear away to reveal scales. These intruders, why do they look so familiar? Brothers? Sisters? Turns out, I was one of them all along.” –Pvt. Drake Izzard, MIA. “RV-66766M: Common Accounts of Desertion: Arkhanrock Patrol”</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“嘶嘶的声音一直响个不停，医生说这叫创伤后应激障碍。‘谨遵医嘱，好好吃药，这些声音就会消失的。’但如果这些例行巡逻部队不仅是例行部队怎么办？爬行动物的眼睛在我的梦中盘旋，催眠般的波峰像光环一样散开。其他人都害怕得跑开了；而我却倔强地想要与它待在一起。这位战术师唤醒了我的本性。我父母的脸庞撕裂开来，露出了鳞片。这些入侵者为什么看起来这么眼熟？是我们的兄弟？还是我们的姐妹？原来，我一直都是他们中的一员。”——列兵德雷克·伊泽德，行动失踪人员。“RV-66766M：普通逃兵报道：阿尔坎罗克巡逻队”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIREBRAND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Firebrand</Data></Cell>
+    <Cell><Data ss:Type="String">煽动者</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">FIREBRAND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“Look. I’ve taken a lot of flak on the artistic direction of the latest Beastmonster sequel, but let’s face it. Laser claws are cool. It wasn’t even a unique idea—I stole it from some conspiratorial news-drop site. Imagine this massive boss creature, half crab, half lizard monster! I don’t understand why the censors were so upset. The only excuse they gave was “Animal Cruelty,” but it’s a movie—not reality. Everyone knows that. Makes me think there’s a conspiracy out there, and they’re trying to hide something.”—July Del’Torus, “RV-9484E: Interview from the director, Beastmonster IV-X”</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“听着，在最新的《狂野怪兽》续集中，我的艺术方向遭到许多人炮轰，但我们还是面对现实吧。激光爪简直酷毙了好吗，还有好多新奇的想法。实话说吧，我是从某个阴谋论新闻网站上偷来的点子。想象一下这个巨大的怪物，一半是螃蟹，一半是蜥蜴！我无法理解审查机构为什么这么生气，他们给出的唯一借口竟然‘虐待动物’。这只是一部电影，又不是现实，是个人都知道好吗。这都开始让我觉得外面有什么阴谋了，他们是不是想要隐瞒什么？”——朱利·德陶鲁斯，“RV-9484E：《狂野怪兽 IV-X》导演访谈”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REFRACTOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Refractor</Data></Cell>
+    <Cell><Data ss:Type="String">折射器</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">REFRACTOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“While being probed, they stored me in a military hangar where I saw vehicles that the Shakarn use in their invading force. I beheld ships of power covered in a pearlescent shell that appeared to evaporate in water. I saw great tank-like vehicles with sonic powers that could rally their forces into a fighting frenzy, and release powerful blasts that shook the earth, leaving no enemies standing. I only caught glimpses of their power, but when they come in full force, only preppers will be ready.” –Hollis Barker, Owner of Doomsday Gun Club “RV-66099E: Alien Abduction Stories: Lizard People”</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“他们对我进行了一番检查之后，就把我关进了一个军用机库里，我在那里看到了蜥蜴人的入侵部队所使用的载具。我看见了好几艘大船，覆盖着一层光芒四射的外壳，似乎能够在水中蒸发。我还看到了像坦克一样的巨型车辆，它们的音波能量可以煽动部队的狂热，释放出震撼大地的强力冲击波，任何敌人都无法承受得住。这还只是我所看见的冰山一角，当他们全军出击时，只有那些准备好迎接末日的人才能生存下来。”——霍利斯·巴克，末日火枪俱乐部老板，“RV-66099E：外星绑架故事：蜥蜴人”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONOKARN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sonokarn</Data></Cell>
+    <Cell><Data ss:Type="String">声波碑船</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SONOKARN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“This a secure channel? I modified this device: A ‘Baby Monitor.’ Deploy the Sonokarn! Unleash its Omni-sonorous might. Its powerful sonic-laser weapons will destroy ‘Sunny-Bunny Daycare Center’. Then I shall escape from what the daycare workers call, ‘Crib’. Horrid Prison! My forced diet of mammalian milk and a foul concoction called ‘Spaghetti-Loops’ will finally cease. I hunger for raw meat. I will eat Karen first. She knows too much. Sonokarn’s Rally will strengthen me enough to shift from toddler form. The other inmates here are distracted morons. No interest in insurrection. This place must be destroyed!” – Broadcaster Unknown, RV-384888B: Prank Calls”</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“这个频道安全吗？我已经修改了这个设备：‘婴儿监视器’。快部署声波碑船！释放它的全能音波之力，用它强大的声波激光武器摧毁‘阳光兔兔日托中心’。然后我就可以摆脱那些护工所谓的‘婴儿床’了。这里简直比监狱还可怕！我终于可以不再强迫自己喝哺乳动物的奶，然后吃一种叫做‘意大利面圈’的肮脏食物了。我渴望吃生肉。我要先吃了凯伦，因为她知道的太多了。声波碑船的集结将使我恢复力量，从蹒跚学步的形态转变回来。这里的其他人都是精神错乱的白痴，对起义毫无兴趣。这个地方必须被摧毁！”——未知广播，“RV-384888B：恶作剧号召”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SEEKER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Seeker</Data></Cell>
+    <Cell><Data ss:Type="String">探寻者</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SEEKER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“A strange ship blasted us with sonar weaponry. The stow-away, GBI Agent Cranney, claims that it’s a Seeker ship. ‘Aliens are chasing him.’ Clearly, he’s insane. It is strange how it focused on the seams around the ship’s engine bracket. That’s a classified weakness. The paranoid agent claims it detects weaknesses. Our aft engines are dead. We’re sitting ducks. We returned fire, but it disappeared under the waters. I’m transmitting this log, because Agent Cranney claims these Shakarn hate public attention. They may hide instead of destroying us.” – Captain Bracken Brady, “RV-393946B: Distress Calls”</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“一艘奇怪的船用声呐武器轰炸了我们。偷渡者 GBI 特工克兰尼称，这是一艘探寻者飞船，说有外星人在追杀他。真是个疯子。奇怪之处在于，那艘船是如何知道要将声波集中在我们的发动机托架周围的。那里是船上一个十分机密的弱点。那位疑神疑鬼的特工声称那艘船已经发现了我们的弱点。我们的尾部引擎损坏了，因此无法移动。我们发起了还击，但对方竟然在水下消失了。我正在传输这份日志，因为克兰尼特工说这些蜥蜴人讨厌引起公众的关注。他们可能会选择躲藏起来，而不是消灭我们。”——布拉肯·布莱迪上尉，“RV-393946B：求救呼号”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SLEEPER_AGENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sleeper Agent</Data></Cell>
+    <Cell><Data ss:Type="String">潜伏特工</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SLEEPER_AGENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“The Star Union is for weak-minded fools. Victims clamoring for attention and handouts. Drink your corporate-sponsored beverage of pity. Life is nothing but meaningless pain. I need no sympathy. I am no victim. I don’t need sponsorship. I feel power reverberating through me when I pick up a blade. My rage blasts out like a scream. I will no longer closet my truth. I am the counterculture—awaiting orders to invade just outside the purview of propriety. I’m a Sleeper Agent for the end of life as you knew it.” – Private Tyrone Herpetto, “RV-38448M: Runaway Teenagers: Dissident Manifesto.”</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >“星际联盟是为愚蠢的傻瓜而准备的。受害者吵着要得到关注和施舍，喝着公司资助的同情饮料。生命不过是无意义的痛苦。我不需要同情。我不是受害者。我也不需要资助。当我拿起武器时，我能感受到力量在体内回荡。我的愤怒像尖叫一样爆发出来。我将不再隐瞒内心。我就是一个反对主流文化的人，等待命令，准备发动入侵。你在临死前将会知道，我是一名潜伏特工。”——列兵蒂龙·赫佩托，“RV-38448M：离家出走的青少年：异见宣言”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GLAUKUS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Glaukos</Data></Cell>
+    <Cell><Data ss:Type="String">海神鳃</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GLAUKUS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Assault vehicle of the Shakarn.</Data></Cell>
+    <Cell><Data ss:Type="String">蜥蜴人突击载具。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PLANET_ARRIVAL</Data></Cell>
+    <Cell><Data ss:Type="String">LOG</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Ready your rifle, general! The Scarlet Scepter has chosen you to claim another planet for the glorious Shakarn Empire. Our agents have lived hidden among the humans for generations, preparing for the time when we could strike, using their own inventions against them. That time is now. Be it through dominion or deception, we will lift the veil and show these creatures the true glory of the Shakarn!</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >准备好你的步枪，将军！绯红节杖选择你去为光荣的蜥蜴人帝国占领另一个星球。我们的特工世代隐藏在人类中间，用他们自己的发明来对付他们，为我们发起攻击做准备。现在，时机已到。无论是通过统治还是欺骗，我们将揭开这张面纱，让这些生物看到蜥蜴人真正的荣耀！</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LONG_TERM_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">WAR_PER_PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">At War (Player)</Data></Cell>
+    <Cell><Data ss:Type="String">交战中（玩家）</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LONG_TERM_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">WAR_PER_NPC</Data></Cell>
+    <Cell><Data ss:Type="String">At War (NPC Faction)</Data></Cell>
+    <Cell><Data ss:Type="String">交战中（NPC 阵营）</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONO_TURRET</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sono Turret</Data></Cell>
+    <Cell><Data ss:Type="String">音波炮台</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONO_TURRET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Sono Turrets are the Shakarn colony defense turrets.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >音波炮台是蜥蜴人殖民地的防御炮塔。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STEAL_ON_INFILTRATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >On a successful infiltration, gain access to the Racial Tech Tree of that Commander.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >渗透成功后将获得对方指挥官的种族科技树。</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced />
+   <Print>
+    <ValidPrinterInfo />
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected />
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

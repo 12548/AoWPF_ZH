@@ -6,774 +6,767 @@
   xmlns:x="urn:schemas-microsoft-com:office:excel"
   xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
   xmlns:html="http://www.w3.org/TR/REC-html40"
-><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author
-    >GameScribes4</Author><LastAuthor>GameScribes4</LastAuthor><Created
-    >2020-04-11T19:23:13Z</Created><LastSaved
-    >2020-02-06T15:17:02Z</LastSaved><Version
-    >16.00</Version></DocumentProperties><OfficeDocumentSettings
-    xmlns="urn:schemas-microsoft-com:office:office"
-  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
-    xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7320</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
-    /><ProtectStructure>False</ProtectStructure><ProtectWindows
-    >False</ProtectWindows></ExcelWorkbook><Styles><Style
-      ss:ID="Default"
-      ss:Name="Normal"
-    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+>
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>GameScribes4</Author>
+  <LastAuthor>GameScribes4</LastAuthor>
+  <Created>2020-04-11T19:23:13Z</Created>
+  <LastSaved>2020-02-06T15:17:02Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG />
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10215</WindowHeight>
+  <WindowWidth>21570</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1 />
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom" />
+   <Borders />
+   <Font
         ss:FontName="Calibri"
         x:Family="Swiss"
         ss:Size="11"
         ss:Color="#000000"
-      /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s62"
-    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
-      ss:ID="s64"
-    ><Alignment
-        ss:Vertical="Bottom"
-        ss:WrapText="1"
-      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      />
+   <Interior />
+   <NumberFormat />
+   <Protection />
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1" />
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table
+      ss:ExpandedColumnCount="8"
+      ss:ExpandedRowCount="72"
       x:FullColumns="1"
       x:FullRows="1"
       ss:StyleID="s62"
       ss:DefaultColumnWidth="234.75"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s62" ss:Width="131.25" /><Column
-        ss:StyleID="s62"
-        ss:AutoFitWidth="0"
-        ss:Width="237.75"
-      /><Column
-        ss:StyleID="s62"
-        ss:AutoFitWidth="0"
-        ss:Width="384.75"
-        ss:Span="1"
-      /><Column
-        ss:Index="5"
-        ss:StyleID="s62"
-        ss:AutoFitWidth="0"
-        ss:Width="264"
-      /><Column ss:StyleID="s62" ss:Width="120" /><Row
-        ss:AutoFitHeight="0"
-        ss:Height="120"
-      ><Cell><Data ss:Type="String">SHAKARN_TECHGROUPS</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TEXT ID</Data></Cell><Cell><Data
-            ss:Type="String"
-          >ENGLISH STRING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >LOCALIZED STRING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >LOCALIZATION NOTES</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">SHAKARN_SKILLS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GROUP_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Shakarn</Data></Cell><Cell><Data
-            ss:Type="String"
-          >蜥蜴人</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_1_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Dwelling Intimidation</Data></Cell><Cell><Data
-            ss:Type="String"
-          >居住地威慑</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="75"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_1_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >By using a combination of blackmail and direct threats the Shakarn can intimidate their foes into profit.[br/][br/]Gain a {InfluenceDiscount}%[influence/] discount when dealing with NPC Factions. Faction War Quest rewards trigger at {NewNumberOfUnits} units defeated, instead of {StandardNumberOfUnits}.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >蜥蜴人可以利用敲诈和直接威胁来恐吓敌人，从而取得优势。[br/][br/]与 NPC 阵营交易时消耗的 [influence/] 减少 {InfluenceDiscount}%。触发阵营战争任务奖励的要求从消灭 {StandardNumberOfUnits} 个单位变为消灭 {NewNumberOfUnits} 个单位。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Faction War Quests is a special mechanic that rewards players who do well when fighting against a NPC Faction.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_2_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Homeworld Reminiscence</Data></Cell><Cell><Data
-            ss:Type="String"
-          >家园回忆</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="75"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_2_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Shakarn’s homeworld is 90% oceanic, covered by atolls and archipelagos. Through promoting festivities next to bodies of water, the Shakarn colonists  can reminisce about their homes and those they left behind.[br/][br/]Colonies gain +{FoodAmount}[supply/] and +{HappinessAmount}[happiness/] if the coastal or river feature is in their domain.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >蜥蜴人母星表面 90% 被海洋覆盖，为数不多的陆地都是环礁和群岛。通过在水域旁举行庆祝活动，蜥蜴人殖民者能够回想起他们的家园和过去。[br/][br/]若殖民地领域内有“海滨”或“河流”特征的区域，殖民地获得 +{FoodAmount}[supply/] 和 +{HappinessAmount}[happiness/]。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >"An atoll, sometimes called a coral atoll, is a ring-shaped coral reef including a coral rim that encircles a lagoon partially or completely."</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_3_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Scorched Earth Policy</Data></Cell><Cell><Data
-            ss:Type="String"
-          >战时游行</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="75"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_3_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Your people are attuned to the rhythm of war and will be faster and more efficient when razing enemy colonies.[br/][br/]Resources gained from razing enemy colonies and sector bases is increased by {RazeBonus}% and it takes {TurnsSpeedUp}[turn/] less to raze.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >[br/]你的人民适应了战争的节奏，在夷平敌人的殖民地时会更快，更高效。[br /] [br /]夷平敌人的殖民地和部门基地所获得的资源增加{RazeBonus}％，花费{TurnsSpeedUp } [turn /]少一些。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_4_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Active Agent Networks</Data></Cell><Cell><Data
-            ss:Type="String"
-          >活跃特工网络</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="75"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_4_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >By facilitating communication between active agents, intelligence travels faster.[br/][br/]Gain +{Strength}[operationstrength/] when using [abilityblue]Infiltrate Operations Center[/abilityblue][br/]Gain +{InfluenceAmount}[Influence/] and +{KnowledgeAmount}[Research/] per turn for each active infiltration on a unique player.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >促进特工之间的交流，加快情报传递速度。[br/][br/]使用[abilityblue]渗透行动中心[/abilityblue]时获得 +{Strength}[operationstrength/][br/]每回合每主动对一名玩家发动渗透，获得 +{InfluenceAmount}[Influence/] 和 +{KnowledgeAmount}[Research/]。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_5_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Heightened Domok Regimen</Data></Cell><Cell><Data
-            ss:Type="String"
-          >强化多摩克制度</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="75"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_5_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Increasing the presence of veteran Domok advisers helps you with military training and conscription, increasing the efficiency of all units and reducing their maintenance.[br/][br/]All units deal +{DamageIncrease}% damage, gain +{AccuracyIncrease}% accuracy, and have their [energy/] upkeep reduced by {ReductionPercentage}%.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >增加资深多摩克顾问的数量来帮助进行军事训练和征兵，从而提高所有单位的效率，并减少维持成本。[br/][br/]所有单位造成 +{DamageIncrease}% 伤害并获得 +{AccuracyIncrease}% 准度，且[energy/]维持消耗减少 {ReductionPercentage}%。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_5_PROPERTY</Data></Cell><Cell><Data
-            ss:Type="String"
-          >This unit deals +{DamageIncrease}% damage and has +{AccuracyIncrease}% accuracy. In addition, its upkeep is reduced by {UpkeepDiscount}%.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >该单位造成 +{DamageIncrease}% 伤害并获得 +{AccuracyIncrease}% 准度。另外，其维持消耗减少 {UpkeepDiscount}%。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_6_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Holocrafted Zardas Channels</Data></Cell><Cell><Data
-            ss:Type="String"
-          >全息扎尔达斯频道</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="105"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_6_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Increasing the number of Zardas advisors helps you craft and maintain a holocrafted network of signals, allowing your agents to communicate through subtle holographic codes hidden in plain sight, while confounding your enemies.[br/][br/]Covert Operations cost {OpDiscount}% less to prime and you gain +{DefenseAmount}[operationDefense/] Operational Defense.[br/]Infiltrators now deal +{Damage}% damage, even when Holoshifted.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >增加扎尔达斯顾问的数量来帮助构建和维护全息信号网络，从而使特工能够在众目睽睽之下用微妙的隐藏全息代码进行交流，使敌人感到困惑。[br/][br/]准备隐秘行动所需的消耗减少 {OpDiscount}%，并且获得 +{DefenseAmount}[operationDefense/] 行动防御。[br/]渗透者造成的伤害 ＋{Damage}%，即使在全息相形时也会生效。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >holocrafted - created through holograms</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_1_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Replicating Restoration</Data></Cell><Cell><Data
-            ss:Type="String"
-          >复制恢复</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_1_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Remove target friendly unit's negative Status Effects and heal it for {HPAmount}[hp/]. This effect jumps to {OtherTargets} other units within {HexRange} hexes.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >移除目标单位的负面状态效果并治疗 {HPAmount}[hp/]。此效果将弹跳至 {HexRange} 个单元格范围内的 {OtherTargets} 个其他单位。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_2_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Hololusion</Data></Cell><Cell><Data
-            ss:Type="String"
-          >全息幻象</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Hologram + Illusion</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="90"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_2_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >All friendly units in a {HExRad} hex radius gain a {EvasionAmount}% evasion and +{ShieldAmount}[Shield/] for {BuffDuration}[turn/]. All enemy Biological and Cyborg units in the area have a {DisorientedChance}[StrengthPhysical/] strength chance of getting [abilityred]Disoriented[/abilityred], gaining a {FumbleChance}% fumble chance for {DisorientedDuration}[turn/].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >{HExRad} 个单元格范围内的所有友方单位获得 {EvasionAmount}% 闪避和 +{ShieldAmount}[Shield/]，持续 {BuffDuration}[turn/]。范围内的所有敌方生物和半机械人单位有 {DisorientedChance}[StrengthPhysical/] 力量几率陷入[abilityred]迷失[/abilityred]，使其在攻击时有 {FumbleChance}% 几率失手，持续 {DisorientedDuration}[turn/]。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_2_PROP</Data></Cell><Cell><Data
-            ss:Type="String"
-          >This unit has +{Evasion}% evasion and +{Shields}[shield/].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >该单位拥有 +{Evasion}% 闪避和 +{Shields}[shield/]。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_3_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Orbital Abduction</Data></Cell><Cell><Data
-            ss:Type="String"
-          >轨道诱导</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="105"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_3_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Target unit has a chance, based on how low its [hp/] is, of being transported into the orbital layer for research, killing the unit.[br/]Chance increases further if the unit is [abilityred]Concussed[/abilityred], [abilityred]Disorientated[/abilityred], [abilityred]Impaired[/abilityred],[br/][abilityred]Stunned[/abilityred], [abilityred]Sleeping[/abilityred] or [abilityred]Disabled[/abilityred].[br/]Gain {KnowledgeAmount}[research/] per tier of the abducted unit.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >根据目标单位的 [hp/]，目标单位有几率被传输至轨道层进行研究而被杀死。生命值越低，几率越高。[br/]如果单位具有[abilityred]震荡[/abilityred]、[abilityred]迷失[/abilityred]、[abilityred]受损[/abilityred]、[br/][abilityred]晕眩[/abilityred]、[abilityred]沉睡[/abilityred]或[abilityred]瘫痪[/abilityred]，则几率进一步提升。[br/]根据被诱导的单位阶级，每阶获得 {KnowledgeAmount}[research/]。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_4_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Omni Flare</Data></Cell><Cell><Data
-            ss:Type="String"
-          >全能燃烧弹</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="75"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_4_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >A Omni Flare deals {ThermalAmount}[damageThermal/] and {SoundAmount}[damagePhysical/] to units in a {HexRange} hex range. Has a {ImpairedChance}[strengthPhysical/] strength chance of applying [abilityred]Impaired[/abilityred], disabling unit mods and applying [abilityred]Slow[/abilityred] for {Duration}[turn/].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >全能燃烧弹对 {HexRange} 个单元格范围内的单位造成 {ThermalAmount}[damageThermal/] 和 {SoundAmount}[damagePhysical/] 伤害，并且有 {ImpairedChance}[strengthPhysical/] 力量几率施加[abilityred]受损[/abilityred]，使单位的模块无效，并施加[abilityred]减速[/abilityred]，持续 {Duration}[turn/]。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_1_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Disinformation Campaign</Data></Cell><Cell><Data
-            ss:Type="String"
-          >假情报之战</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="60"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_1_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Spread disinformation through the media channels of target player, reducing their relation with all races by -{RaceReduction}[opinion0/] for {Duration}[turn/].[br/]On failure, applies -{RaceReductionFailure}[opinion0/] instead.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >向目标玩家的媒体频道散播虚假情报，使其与所有种族的关系降低 -{RaceReduction}[happiness/]，持续 {Duration}[turn/]。[br/]如果失败，则改为降低 -{RaceReductionFailure}[happiness/]。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_1_CASTER_SUCCESS_UNDETECTED</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Our agents successfully infiltrated the enemy's news networks and social media, spreading false information undetected.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >我们的特工成功渗透了敌人的新闻网络和社交媒体散播虚假消息，并且没有被敌人察觉。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_1_CASTER_SUCCESS_DETECTED</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Our agents successfully infiltrated the enemy's news networks and social media, spreading false information, but the enemy identified and banned our accounts, and is now aware of our involvement.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >我们的特工成功渗透了敌人的新闻网络和社交媒体散播虚假消息，但是敌人发现并封禁了我们的帐户，敌人已知晓我们参与其中。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_1_CASTER_FAILURE_UNDETECTED</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Our agents didn't get the media traction they needed to damage the enemy's reputation. Luckily for us, the enemy couldn't identify our agents or track our accounts.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >我们的特工没能获得需要的媒体关注来破坏敌人的声誉。幸运的是，敌人没能发现我们的特工，也没有追查到我们的帐户。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_1_CASTER_FAILURE_DETECTED</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Our agents didn't get the media traction they needed to damage the enemy's reputation. Even worse, our influencers and news anchors were caught and broke under enemy interrogation, revealing our involvement.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >我们的特工没能获得需要的媒体关注来破坏敌人的声誉。更糟糕的是，我们的影响者和新闻主播被敌人抓获，并在敌人的审讯下供出了我们。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="75"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_1_TARGET_SUCCESS_DETECTED</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Enemy agents infiltrated our news networks and social media, misdirecting and deceiving the populace, portraying our government as corrupt and immoral! Regardless of the accuracy of these attacks, we caught the agents and now know who is responsible, but our race relations have been reduced until we can clean our image.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >敌方特工渗透了我们的新闻网络和社交媒体，误导并欺骗了民众，把我们的政府描绘得腐败不堪，道德沦丧！无论这些攻击是否属实，我们已经抓获了敌方特工，而且知道了幕后主使。不过，我们的种族关系已经遭到损害，除非我们能重新建立形象。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="60"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_1_TARGET_FAILURE_DETECTED</Data></Cell><Cell><Data
-            ss:Type="String"
-          >We discovered enemy agents infiltrated on our social media, but our counterintelligence operatives caught them, blocked their accounts and identified the source of this attack. Unfortunately, the small amount of misinformation they spread still damaged race relations.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >我们发现敌方特工渗入了我们的社交媒体，但我们的反间谍人员已经将他们抓获并封锁了他们的帐户。目前，我们已经确定了这次攻击的来源。不幸的是，他们散布的少量虚假信息仍然破坏了我们的种族关系。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="60"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_1_TARGET_SUCCESS_UNDETECTED</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Enemy agents infiltrated our news networks and social media, misdirecting and deceiving the populace, portraying our government as corrupt and immoral! Truthful or not, our race relations have been reduced until we can clean our image.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >敌方特工渗透了我们的新闻网络和社交媒体，误导并欺骗了民众，把我们的政府描绘得腐败不堪，道德沦丧！不论这些信息是否属实，我们的种族关系已经受损，除非我们能重新建立形象。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="60"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_1_TARGET_FAILURE_UNDETECTED</Data></Cell><Cell><Data
-            ss:Type="String"
-          >We discovered enemy agents infiltrated on our social media, but our counterintelligence operatives were too late to stop them. Fortunately, they lacked the traction to make their claims go viral and only a small amount race relations was lost.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >我们发现敌方特工渗透了我们的社交媒体，但我们的反间谍人员未能及时阻止他们。幸运的是，他们这次舆论炒作并未扩散开来，我们只损失了很少的种族关系。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_1_EFFECT</Data></Cell><Cell><Data
+    >
+   <Column ss:StyleID="s62" ss:Width="131.25" />
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="237.75" />
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="384.75" ss:Span="1" />
+   <Column ss:Index="5" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="264" />
+   <Column ss:StyleID="s62" ss:Width="120" />
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SHAKARN_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHAKARN_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">GROUP_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shakarn</Data></Cell>
+    <Cell><Data ss:Type="String">蜥蜴人</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dwelling Intimidation</Data></Cell>
+    <Cell><Data ss:Type="String">居住地威慑</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_1_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >By using a combination of blackmail and direct threats the Shakarn can intimidate their foes into profit.[br/][br/]Gain a {InfluenceDiscount}%[influence/] discount when dealing with NPC Factions. Faction War Quest rewards trigger at {NewNumberOfUnits} units defeated, instead of {StandardNumberOfUnits}.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >蜥蜴人可以利用敲诈和直接威胁来恐吓敌人，从而取得优势。[br/][br/]与 NPC 阵营交易时消耗的 [influence/] 减少 {InfluenceDiscount}%。触发阵营战争任务奖励的要求从消灭 {StandardNumberOfUnits} 个单位变为消灭 {NewNumberOfUnits} 个单位。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Faction War Quests is a special mechanic that rewards players who do well when fighting against a NPC Faction.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Homeworld Reminiscence</Data></Cell>
+    <Cell><Data ss:Type="String">家园回忆</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_2_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >The Shakarn’s homeworld is 90% oceanic, covered by atolls and archipelagos. Through promoting festivities next to bodies of water, the Shakarn colonists  can reminisce about their homes and those they left behind.[br/][br/]Colonies gain +{FoodAmount}[supply/] and +{HappinessAmount}[happiness/] if the coastal or river feature is in their domain.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >蜥蜴人母星表面 90% 被海洋覆盖，为数不多的陆地都是环礁和群岛。通过在水域旁举行庆祝活动，蜥蜴人殖民者能够回想起他们的家园和过去。[br/][br/]若殖民地领域内有“海滨”或“河流”特征的区域，殖民地获得 +{FoodAmount}[supply/] 和 +{HappinessAmount}[happiness/]。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >&quot;An atoll, sometimes called a coral atoll, is a ring-shaped coral reef including a coral rim that encircles a lagoon partially or completely.&quot;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Scorched Earth Policy</Data></Cell>
+    <Cell><Data ss:Type="String">战时游行</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_3_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Your people are attuned to the rhythm of war and will be faster and more efficient when razing enemy colonies.[br/][br/]Resources gained from razing enemy colonies and sector bases is increased by {RazeBonus}% and it takes {TurnsSpeedUp}[turn/] less to raze.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >[br/]你的人民适应了战争的节奏，在夷平敌人的殖民地时会更快，更高效。[br /] [br /]夷平敌人的殖民地和部门基地所获得的资源增加{RazeBonus}％，花费{TurnsSpeedUp } [turn /]少一些。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Active Agent Networks</Data></Cell>
+    <Cell><Data ss:Type="String">活跃特工网络</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_4_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >By facilitating communication between active agents, intelligence travels faster.[br/][br/]Gain +{Strength}[operationstrength/] when using [abilityblue]Infiltrate Operations Center[/abilityblue][br/]Gain +{InfluenceAmount}[Influence/] and +{KnowledgeAmount}[Research/] per turn for each active infiltration on a unique player.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >促进特工之间的交流，加快情报传递速度。[br/][br/]使用[abilityblue]渗透行动中心[/abilityblue]时获得 +{Strength}[operationstrength/][br/]每回合每主动对一名玩家发动渗透，获得 +{InfluenceAmount}[Influence/] 和 +{KnowledgeAmount}[Research/]。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Heightened Domok Regimen</Data></Cell>
+    <Cell><Data ss:Type="String">强化多摩克制度</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_5_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Increasing the presence of veteran Domok advisers helps you with military training and conscription, increasing the efficiency of all units and reducing their maintenance.[br/][br/]All units deal +{DamageIncrease}% damage, gain +{AccuracyIncrease}% accuracy, and have their [energy/] upkeep reduced by {ReductionPercentage}%.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >增加资深多摩克顾问的数量来帮助进行军事训练和征兵，从而提高所有单位的效率，并减少维持成本。[br/][br/]所有单位造成 +{DamageIncrease}% 伤害并获得 +{AccuracyIncrease}% 准度，且[energy/]维持消耗减少 {ReductionPercentage}%。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_5_PROPERTY</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >This unit deals +{DamageIncrease}% damage and has +{AccuracyIncrease}% accuracy. In addition, its upkeep is reduced by {UpkeepDiscount}%.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >该单位造成 +{DamageIncrease}% 伤害并获得 +{AccuracyIncrease}% 准度。另外，其维持消耗减少 {UpkeepDiscount}%。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_6_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Holocrafted Zardas Channels</Data></Cell>
+    <Cell><Data ss:Type="String">全息扎尔达斯频道</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_6_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Increasing the number of Zardas advisors helps you craft and maintain a holocrafted network of signals, allowing your agents to communicate through subtle holographic codes hidden in plain sight, while confounding your enemies.[br/][br/]Covert Operations cost {OpDiscount}% less to prime and you gain +{DefenseAmount}[operationDefense/] Operational Defense.[br/]Infiltrators now deal +{Damage}% damage, even when Holoshifted.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >增加扎尔达斯顾问的数量来帮助构建和维护全息信号网络，从而使特工能够在众目睽睽之下用微妙的隐藏全息代码进行交流，使敌人感到困惑。[br/][br/]准备隐秘行动所需的消耗减少 {OpDiscount}%，并且获得 +{DefenseAmount}[operationDefense/] 行动防御。[br/]渗透者造成的伤害 ＋{Damage}%，即使在全息相形时也会生效。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >holocrafted - created through holograms</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Replicating Restoration</Data></Cell>
+    <Cell><Data ss:Type="String">复制恢复</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_1_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Remove target friendly unit's negative Status Effects and heal it for {HPAmount}[hp/]. This effect jumps to {OtherTargets} other units within {HexRange} hexes.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >移除目标单位的负面状态效果并治疗 {HPAmount}[hp/]。此效果将弹跳至 {HexRange} 个单元格范围内的 {OtherTargets} 个其他单位。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hololusion</Data></Cell>
+    <Cell><Data ss:Type="String">全息幻象</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Hologram + Illusion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_2_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >All friendly units in a {HExRad} hex radius gain a {EvasionAmount}% evasion and +{ShieldAmount}[Shield/] for {BuffDuration}[turn/]. All enemy Biological and Cyborg units in the area have a {DisorientedChance}[StrengthPhysical/] strength chance of getting [abilityred]Disoriented[/abilityred], gaining a {FumbleChance}% fumble chance for {DisorientedDuration}[turn/].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >{HExRad} 个单元格范围内的所有友方单位获得 {EvasionAmount}% 闪避和 +{ShieldAmount}[Shield/]，持续 {BuffDuration}[turn/]。范围内的所有敌方生物和半机械人单位有 {DisorientedChance}[StrengthPhysical/] 力量几率陷入[abilityred]迷失[/abilityred]，使其在攻击时有 {FumbleChance}% 几率失手，持续 {DisorientedDuration}[turn/]。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_2_PROP</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >This unit has +{Evasion}% evasion and +{Shields}[shield/].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >该单位拥有 +{Evasion}% 闪避和 +{Shields}[shield/]。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Orbital Abduction</Data></Cell>
+    <Cell><Data ss:Type="String">轨道诱导</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_3_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Target unit has a chance, based on how low its [hp/] is, of being transported into the orbital layer for research, killing the unit.[br/]Chance increases further if the unit is [abilityred]Concussed[/abilityred], [abilityred]Disorientated[/abilityred], [abilityred]Impaired[/abilityred],[br/][abilityred]Stunned[/abilityred], [abilityred]Sleeping[/abilityred] or [abilityred]Disabled[/abilityred].[br/]Gain {KnowledgeAmount}[research/] per tier of the abducted unit.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >根据目标单位的 [hp/]，目标单位有几率被传输至轨道层进行研究而被杀死。生命值越低，几率越高。[br/]如果单位具有[abilityred]震荡[/abilityred]、[abilityred]迷失[/abilityred]、[abilityred]受损[/abilityred]、[br/][abilityred]晕眩[/abilityred]、[abilityred]沉睡[/abilityred]或[abilityred]瘫痪[/abilityred]，则几率进一步提升。[br/]根据被诱导的单位阶级，每阶获得 {KnowledgeAmount}[research/]。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Omni Flare</Data></Cell>
+    <Cell><Data ss:Type="String">全能燃烧弹</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_4_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >A Omni Flare deals {ThermalAmount}[damageThermal/] and {SoundAmount}[damagePhysical/] to units in a {HexRange} hex range. Has a {ImpairedChance}[strengthPhysical/] strength chance of applying [abilityred]Impaired[/abilityred], disabling unit mods and applying [abilityred]Slow[/abilityred] for {Duration}[turn/].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >全能燃烧弹对 {HexRange} 个单元格范围内的单位造成 {ThermalAmount}[damageThermal/] 和 {SoundAmount}[damagePhysical/] 伤害，并且有 {ImpairedChance}[strengthPhysical/] 力量几率施加[abilityred]受损[/abilityred]，使单位的模块无效，并施加[abilityred]减速[/abilityred]，持续 {Duration}[turn/]。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Disinformation Campaign</Data></Cell>
+    <Cell><Data ss:Type="String">假情报之战</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Spread disinformation through the media channels of target player, reducing their relation with all races by -{RaceReduction}[opinion0/] for {Duration}[turn/].[br/]On failure, applies -{RaceReductionFailure}[opinion0/] instead.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >向目标玩家的媒体频道散播虚假情报，使其与所有种族的关系降低 -{RaceReduction}[happiness/]，持续 {Duration}[turn/]。[br/]如果失败，则改为降低 -{RaceReductionFailure}[happiness/]。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >STRATEGIC_OP_1_CASTER_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Our agents successfully infiltrated the enemy's news networks and social media, spreading false information undetected.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >我们的特工成功渗透了敌人的新闻网络和社交媒体散播虚假消息，并且没有被敌人察觉。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >STRATEGIC_OP_1_CASTER_SUCCESS_DETECTED</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Our agents successfully infiltrated the enemy's news networks and social media, spreading false information, but the enemy identified and banned our accounts, and is now aware of our involvement.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >我们的特工成功渗透了敌人的新闻网络和社交媒体散播虚假消息，但是敌人发现并封禁了我们的帐户，敌人已知晓我们参与其中。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >STRATEGIC_OP_1_CASTER_FAILURE_UNDETECTED</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Our agents didn't get the media traction they needed to damage the enemy's reputation. Luckily for us, the enemy couldn't identify our agents or track our accounts.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >我们的特工没能获得需要的媒体关注来破坏敌人的声誉。幸运的是，敌人没能发现我们的特工，也没有追查到我们的帐户。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >STRATEGIC_OP_1_CASTER_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Our agents didn't get the media traction they needed to damage the enemy's reputation. Even worse, our influencers and news anchors were caught and broke under enemy interrogation, revealing our involvement.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >我们的特工没能获得需要的媒体关注来破坏敌人的声誉。更糟糕的是，我们的影响者和新闻主播被敌人抓获，并在敌人的审讯下供出了我们。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >STRATEGIC_OP_1_TARGET_SUCCESS_DETECTED</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Enemy agents infiltrated our news networks and social media, misdirecting and deceiving the populace, portraying our government as corrupt and immoral! Regardless of the accuracy of these attacks, we caught the agents and now know who is responsible, but our race relations have been reduced until we can clean our image.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >敌方特工渗透了我们的新闻网络和社交媒体，误导并欺骗了民众，把我们的政府描绘得腐败不堪，道德沦丧！无论这些攻击是否属实，我们已经抓获了敌方特工，而且知道了幕后主使。不过，我们的种族关系已经遭到损害，除非我们能重新建立形象。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >STRATEGIC_OP_1_TARGET_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >We discovered enemy agents infiltrated on our social media, but our counterintelligence operatives caught them, blocked their accounts and identified the source of this attack. Unfortunately, the small amount of misinformation they spread still damaged race relations.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >我们发现敌方特工渗入了我们的社交媒体，但我们的反间谍人员已经将他们抓获并封锁了他们的帐户。目前，我们已经确定了这次攻击的来源。不幸的是，他们散布的少量虚假信息仍然破坏了我们的种族关系。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >STRATEGIC_OP_1_TARGET_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Enemy agents infiltrated our news networks and social media, misdirecting and deceiving the populace, portraying our government as corrupt and immoral! Truthful or not, our race relations have been reduced until we can clean our image.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >敌方特工渗透了我们的新闻网络和社交媒体，误导并欺骗了民众，把我们的政府描绘得腐败不堪，道德沦丧！不论这些信息是否属实，我们的种族关系已经受损，除非我们能重新建立形象。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >STRATEGIC_OP_1_TARGET_FAILURE_UNDETECTED</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >We discovered enemy agents infiltrated on our social media, but our counterintelligence operatives were too late to stop them. Fortunately, they lacked the traction to make their claims go viral and only a small amount race relations was lost.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >我们发现敌方特工渗透了我们的社交媒体，但我们的反间谍人员未能及时阻止他们。幸运的是，他们这次舆论炒作并未扩散开来，我们只损失了很少的种族关系。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_EFFECT</Data></Cell>
+    <Cell><Data
             ss:Type="String"
             x:Ticked="1"
-          >Race relations drop by -{RaceRelation}[opinion0/] for {Duration}[turn/]</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >种族关系降低 -{RaceRelation}[happiness/]，持续{Duration}[turn/]</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_2_NAME</Data></Cell><Cell ss:StyleID="s64"><Data
-            ss:Type="String"
-          >Motivating Broadcasting</Data></Cell><Cell><Data
-            ss:Type="String"
-          >激励广播</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="105"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_2_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
-            ss:Type="String"
-          >All colonies with a [abilityblue]Propagation Tower[/abilityblue] gain +{ProductionColony}[production/].[br/][br/]In addition, during combat on the domains of these colonies, all units gain +{MoraleAmount}[happiness/].[br/]All friendly Propagators cause this effect in battle while the operation is active.[br/][br/]While active, affected colonies [firecol]produce -{Energy}[energy/][/firecol] and the upkeep of Propagators is [firecol]increased by +{Upkeep}%[/firecol].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >所有拥有[abilityblue]宣传高塔[/abilityblue]的殖民地获得 +{ProductionColony}[production/]。[br/][br/]另外，在这些殖民地的领域内战斗时，所有单位获得 +{MoraleAmount}[happiness/]。[br/]当此行动激活时，所有友方宣传者单位在战斗中都能造成此效果。[br/][br/]此行动激活时，受影响的殖民地[firecol]生产 -{Energy}[energy/][/firecol]，宣传者单位的维持消耗[firecol]增加 +{Upkeep}%[/firecol]。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Propagation Tower is the Shakarn unique building. Propagator is a Shakarn Unit.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_2_CASTER_SUCCESS</Data></Cell><Cell
-          ss:StyleID="s64"
-        ><Data
-            ss:Type="String"
-          >The Propagation Towers are now spreading motivational imagery.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >宣传高塔正在散播鼓动人心的意象。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_2_PROPAGATOR_NAME</Data></Cell><Cell
-          ss:StyleID="s64"
-        ><Data ss:Type="String">Propagation: Motivation</Data></Cell><Cell><Data
-            ss:Type="String"
-          >宣传：激励</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_2_PROPAGATOR_DESCRIPTION</Data></Cell><Cell
-          ss:StyleID="s64"
-        ><Data
-            ss:Type="String"
-          >When this unit enters combat, it grants +{Morale}[happiness/] to all friendly units.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >此单位进入战斗时，给予所有友方单位 +{Morale}[happiness/]。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_2_COMBAT_DESCRIPTION</Data></Cell><Cell
-          ss:StyleID="s64"
-        ><Data
-            ss:Type="String"
-          >All units of the owner of the broadcast gain {MoraleIncrease}[happiness/].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >广播持有者的所有单位获得 {MoraleIncrease}[happiness/]。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_3_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Unsettling Propaganda</Data></Cell><Cell><Data
-            ss:Type="String"
-          >惶惑宣传</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_3_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Attempt to spread false and disturbing propaganda on target enemy colony, causing {Unhappiness}[anger/] for {Duration}[turn/] as well as up to {RioterAmount}[rioter/].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >试图向目标敌方殖民地传播虚假和令人惶恐不安的宣传，造成 {Unhappiness}[anger/]，持续 {Duration}[turn/]，以及最多 {RioterAmount}[rioter/]。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_3_CASTER_SUCCESS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >We have successfully spread propaganda on the enemy colony that is so unsettling that it would make even a Kir'Ko blush!</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >我们在敌方殖民地成功散播了虚假的信息，成效十分显著，就算是奇尔寇看了也会感到自愧不如！</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_3_CASTER_FAILURE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Enemy counterintelligence stopped our agents from doing their work properly, though the attempt has left the colony in a state of civil unrest.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >敌人的反间谍系统阻止了我们特工的正常行动，但这次尝试还是使殖民地处于了不安的状态。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_3_TARGET_SUCCESS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Someone spread distasteful propaganda through our colony, unsettling the local population.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >敌人在我们的殖民地宣传扰乱性的信息，使当地居民陷入了不安。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_3_TARGET_FAILURE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >An attempt was made to spread vile propaganda on our colony, but our counterintelligence team stopped them in time, though the attempt has left our colony in a state of civil unrest.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >敌人企图在我们的殖民地散播虚假的信息，虽然我们的反间谍小组及时阻止了他们，但还是造成了殖民地居民的不安。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_3_SUCCESS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >{UnhappinessAmount}[anger/] for {Duration}[turn/] as well as gaining {RioterAmount}[rioter/].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >{UnhappinessAmount}[anger/] 持续 {Duration}[turn/]，并且获得 {RioterAmount}[rioter/]。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_4_NAME</Data></Cell><Cell ss:StyleID="s64"><Data
-            ss:Type="String"
-          >Vigilant Broadcasting</Data></Cell><Cell><Data
-            ss:Type="String"
-          >警觉广播</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="105"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_4_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
-            ss:Type="String"
-          >All colonies with a Propagation Tower gain +{OperationalDefense}[OperationDefense/][br/][br/]In addition, during combat on the domains of these colonies, all units gain +{ShieldGain}[shield/].[br/]All Propagators cause this effect in battle while the operation is active.[br/][br/]While active, affected colonies [firecol]produce -{Energy}[energy/][/firecol] and the upkeep of Propagators is [firecol]increased by +{Upkeep}%[/firecol]</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >所有拥有宣传高塔的殖民地获得 +{OperationalDefense}[OperationDefense/][br/][br/]另外，在这些殖民地的领域内战斗时，所有单位获得 +{ShieldGain}[shield/]。[br/]当此行动激活时，所有宣传者单位在战斗中都能造成此效果。[br/][br/]此行动激活时，受影响的殖民地[firecol]生产 -{Energy}[energy/][/firecol]，宣传者单位的维持消耗[firecol]增加 +{Upkeep}%[/firecol]</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Propagation Tower is the Shakarn unique building. Propagator is a Shakarn Unit.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_4_CASTER_SUCCESS</Data></Cell><Cell
-          ss:StyleID="s64"
-        ><Data
-            ss:Type="String"
-          >The Propagation Towers are now spreading messages of vigilance and holoreal shields.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >宣传高塔正在散播警戒和全息现实护盾的信息。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_4_PROPAGATOR_NAME</Data></Cell><Cell
-          ss:StyleID="s64"
-        ><Data ss:Type="String">Propagation: Shields</Data></Cell><Cell><Data
-            ss:Type="String"
-          >宣传：护盾</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_4_PROPAGATOR_DESCRIPTION</Data></Cell><Cell
-          ss:StyleID="s64"
-        ><Data
-            ss:Type="String"
-          >When this unit enters combat, it grants +{Shields}[shield/] to all friendly units.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >此单位进入战斗时，给予所有友方单位 +{Shields}[shield/]。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_4_COMBAT_DESCRIPTION</Data></Cell><Cell
-          ss:StyleID="s64"
-        ><Data
-            ss:Type="String"
-          >All units of the owner of the broadcast gain {ShieldIncrease}[shield/].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >广播持有者的所有单位获得 {ShieldIncrease}[shield/]。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_5_NAME</Data></Cell><Cell ss:StyleID="s64"><Data
-            ss:Type="String"
-          >Holoreality Broadcasting</Data></Cell><Cell><Data
-            ss:Type="String"
-          >全息现实广播</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="135"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_5_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
-            ss:Type="String"
-          >All colonies with a Propagation Tower gain +{Happiness}[happiness/][br/][br/]In addition, at the start of each turn in combat on the domains of these colonies, all enemy non-Mindless units have a {HallucanationChance}[strengthPsyche/] chance of becoming [abilityred]Hallucinating[/abilityred] for {Duration}[turn/].[br/]All Propagators cause this effect in battle while the operation is active.[br/][br/]While active, affected colonies [firecol]produce -{Energy}[energy/][/firecol] and the upkeep of Propagators is [firecol]increased by +{Upkeep}%[/firecol]</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >所有拥有宣传高塔的殖民地获得 +{Happiness}[happiness/][br/][br/]另外，在这些殖民地的领域内战斗时，所有敌方非无意识单位在每回合开始时有 {HallucanationChance}[strengthPsyche/] 几率被[abilityred]致幻[/abilityred]，持续 {Duration}[turn/]。[br/]此行动激活时，所有宣传者单位在战斗中都能造成此效果。[br/][br/]此行动激活时，受影响的殖民地[firecol]生产 -{Energy}[energy/][/firecol]，宣传者单位的维持消耗[firecol]增加 +{Upkeep}%[/firecol]</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Propagation Tower is the Shakarn unique building. Propagator is a Shakarn Unit.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_5_CASTER_SUCCESS</Data></Cell><Cell
-          ss:StyleID="s64"
-        ><Data
-            ss:Type="String"
-          >The Propagation Towers are now spreading holoreal objects and entertainment to your citizens while confusing and befuddling enemies.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >宣传高塔正在向你的人民散播全息现实物品和娱乐，同时迷惑并混淆敌人。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_5_PROPAGATOR_NAME</Data></Cell><Cell
-          ss:StyleID="s64"
-        ><Data ss:Type="String">Propagation: Illusions</Data></Cell><Cell><Data
-            ss:Type="String"
-          >宣传：幻象</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_5_PROPAGATOR_DESCRIPTION</Data></Cell><Cell
-          ss:StyleID="s64"
-        ><Data
-            ss:Type="String"
-          >At the start of each comabt turn, non-Mindless enemy units have a {HallucinatingChance}[strengthPsyche/] chance to become [abilityred]Hallucinating[/abilityred] for {duration}[turn/].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >在每个战斗回合开始时，敌方非无意识单位有 {HallucinatingChance}[strengthPsyche/] 几率被[abilityred]致幻[/abilityred]，持续 {duration}[turn/]。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_5_COMBAT_DESCRIPTION</Data></Cell><Cell
-          ss:StyleID="s64"
-        ><Data
-            ss:Type="String"
-          >At the start of each turn, non-Mindless enemy units have a {HallucinateChance}[strengthPsyche/] of becoming [abilityred]Hallucinating[/abilityred] for {Duration}[turn/].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >在每个回合开始时，敌方非无意识单位有 {HallucinateChance}[strengthPsyche/] 几率被[abilityred]致幻[/abilityred]，持续 {Duration}[turn/]。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >INFILTRATOR_BUFF_1_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Weighted Holograms</Data></Cell><Cell><Data
-            ss:Type="String"
-          >增强全息影像</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >INFILTRATOR_BUFF_1_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >All Infiltrator units you control gain +{Armor}[armor/] and {DamageIncrease}% damage increase, even when Holoshifted.[br/]Holoshift can now target Mechanical units. </Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >你控制的所有渗透者单位获得+ {Armor}[armor/] 和 {DamageIncrease}% 伤害提升，即使全息相形时也会生效。[br/]全息相形现在能以机械单位为目标。 </Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >INFILTRATOR_BUFF_1_PROP_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Holoshift can now target Mechanical units.[br/]This unit gains +{Armor}[armor/] and deals +{DamageIncrease}% damage. This also applies when the unit is holoshifted.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >全息相形现在能以机械单位为目标。[br/]此单位获得+ {Armor}[armor/] 和 +{DamageIncrease}% 伤害提升。此效果即使在单位全息相形时也会生效。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >INFILTRATOR_BUFF_2_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Lifelike Holograms</Data></Cell><Cell><Data
-            ss:Type="String"
-          >逼真全息影像</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >INFILTRATOR_BUFF_2_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >All Infiltrator units you control gain +{Shield}[shield/] and {DamageIncrease}% damage increase, even when Holoshifted.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >你控制的所有渗透者单位获得+ {Shield}[shield/] 和 {DamageIncrease}% 伤害提升，即使全息相形时也会生效。[br/]全息相形现在能以 3 阶单位为目标。 </Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >INFILTRATOR_BUFF_2_PROP_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >This unit gains +{Shield}[shield/] and deals +{DamageIncrease}% damage. This also applies when the unit is holoshifted.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >全息相形现在能以 3 阶单位为目标。[br/]此单位获得+ {Shield}[shield/] 和 +{DamageIncrease}% 伤害提升。此效果即使在单位全息相形时也会生效。</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">CASTING_INSTRUCTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >COLONY_FRIENDLY_PROPAGATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Affects all friendly colonies with Propagation Towers</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >影响友方所有拥有宣传高塔的殖民地</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Propagation Tower is the Shakarn unique building.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >INFILTRATOR_BUFF_3_PROP_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >This unit deals +{DamageIncrease}% damage. This also applies when the unit is holoshifted.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >该单位造成的伤害 +{DamageIncrease}%。此效果即使在单位全息相形时也会生效。</Data></Cell></Row><Row
-      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
-      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
-      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
-      xmlns="urn:schemas-microsoft-com:office:excel"
-    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
-        >600</HorizontalResolution><VerticalResolution
-        >600</VerticalResolution></Print><Selected /><TopRowVisible
-      >58</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
-          >69</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects
-      >False</ProtectObjects><ProtectScenarios
-      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+          >Race relations drop by -{RaceRelation}[opinion0/] for {Duration}[turn/]</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >种族关系降低 -{RaceRelation}[happiness/]，持续{Duration}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Motivating Broadcasting</Data></Cell>
+    <Cell><Data ss:Type="String">激励广播</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >All colonies with a [abilityblue]Propagation Tower[/abilityblue] gain +{ProductionColony}[production/].[br/][br/]In addition, during combat on the domains of these colonies, all units gain +{MoraleAmount}[happiness/].[br/]All friendly Propagators cause this effect in battle while the operation is active.[br/][br/]While active, affected colonies [firecol]produce -{Energy}[energy/][/firecol] and the upkeep of Propagators is [firecol]increased by +{Upkeep}%[/firecol].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >所有拥有[abilityblue]宣传高塔[/abilityblue]的殖民地获得 +{ProductionColony}[production/]。[br/][br/]另外，在这些殖民地的领域内战斗时，所有单位获得 +{MoraleAmount}[happiness/]。[br/]当此行动激活时，所有友方宣传者单位在战斗中都能造成此效果。[br/][br/]此行动激活时，受影响的殖民地[firecol]生产 -{Energy}[energy/][/firecol]，宣传者单位的维持消耗[firecol]增加 +{Upkeep}%[/firecol]。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Propagation Tower is the Shakarn unique building. Propagator is a Shakarn Unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_CASTER_SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >The Propagation Towers are now spreading motivational imagery.</Data></Cell>
+    <Cell><Data ss:Type="String">宣传高塔正在散播鼓动人心的意象。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_PROPAGATOR_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Propagation: Motivation</Data></Cell>
+    <Cell><Data ss:Type="String">宣传：激励</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >STRATEGIC_OP_2_PROPAGATOR_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >When this unit enters combat, it grants +{Morale}[happiness/] to all friendly units.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >此单位进入战斗时，给予所有友方单位 +{Morale}[happiness/]。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_COMBAT_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >All units of the owner of the broadcast gain {MoraleIncrease}[happiness/].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >广播持有者的所有单位获得 {MoraleIncrease}[happiness/]。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unsettling Propaganda</Data></Cell>
+    <Cell><Data ss:Type="String">惶惑宣传</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Attempt to spread false and disturbing propaganda on target enemy colony, causing {Unhappiness}[anger/] for {Duration}[turn/] as well as up to {RioterAmount}[rioter/].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >试图向目标敌方殖民地传播虚假和令人惶恐不安的宣传，造成 {Unhappiness}[anger/]，持续 {Duration}[turn/]，以及最多 {RioterAmount}[rioter/]。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_CASTER_SUCCESS</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >We have successfully spread propaganda on the enemy colony that is so unsettling that it would make even a Kir'Ko blush!</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >我们在敌方殖民地成功散播了虚假的信息，成效十分显著，就算是奇尔寇看了也会感到自愧不如！</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_CASTER_FAILURE</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Enemy counterintelligence stopped our agents from doing their work properly, though the attempt has left the colony in a state of civil unrest.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >敌人的反间谍系统阻止了我们特工的正常行动，但这次尝试还是使殖民地处于了不安的状态。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_TARGET_SUCCESS</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Someone spread distasteful propaganda through our colony, unsettling the local population.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >敌人在我们的殖民地宣传扰乱性的信息，使当地居民陷入了不安。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_TARGET_FAILURE</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >An attempt was made to spread vile propaganda on our colony, but our counterintelligence team stopped them in time, though the attempt has left our colony in a state of civil unrest.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >敌人企图在我们的殖民地散播虚假的信息，虽然我们的反间谍小组及时阻止了他们，但还是造成了殖民地居民的不安。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_SUCCESS</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >{UnhappinessAmount}[anger/] for {Duration}[turn/] as well as gaining {RioterAmount}[rioter/].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >{UnhappinessAmount}[anger/] 持续 {Duration}[turn/]，并且获得 {RioterAmount}[rioter/]。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Vigilant Broadcasting</Data></Cell>
+    <Cell><Data ss:Type="String">警觉广播</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >All colonies with a Propagation Tower gain +{OperationalDefense}[OperationDefense/][br/][br/]In addition, during combat on the domains of these colonies, all units gain +{ShieldGain}[shield/].[br/]All Propagators cause this effect in battle while the operation is active.[br/][br/]While active, affected colonies [firecol]produce -{Energy}[energy/][/firecol] and the upkeep of Propagators is [firecol]increased by +{Upkeep}%[/firecol]</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >所有拥有宣传高塔的殖民地获得 +{OperationalDefense}[OperationDefense/][br/][br/]另外，在这些殖民地的领域内战斗时，所有单位获得 +{ShieldGain}[shield/]。[br/]当此行动激活时，所有宣传者单位在战斗中都能造成此效果。[br/][br/]此行动激活时，受影响的殖民地[firecol]生产 -{Energy}[energy/][/firecol]，宣传者单位的维持消耗[firecol]增加 +{Upkeep}%[/firecol]</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Propagation Tower is the Shakarn unique building. Propagator is a Shakarn Unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_CASTER_SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >The Propagation Towers are now spreading messages of vigilance and holoreal shields.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >宣传高塔正在散播警戒和全息现实护盾的信息。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_PROPAGATOR_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Propagation: Shields</Data></Cell>
+    <Cell><Data ss:Type="String">宣传：护盾</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >STRATEGIC_OP_4_PROPAGATOR_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >When this unit enters combat, it grants +{Shields}[shield/] to all friendly units.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >此单位进入战斗时，给予所有友方单位 +{Shields}[shield/]。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_COMBAT_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >All units of the owner of the broadcast gain {ShieldIncrease}[shield/].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >广播持有者的所有单位获得 {ShieldIncrease}[shield/]。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Holoreality Broadcasting</Data></Cell>
+    <Cell><Data ss:Type="String">全息现实广播</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >All colonies with a Propagation Tower gain +{Happiness}[happiness/][br/][br/]In addition, at the start of each turn in combat on the domains of these colonies, all enemy non-Mindless units have a {HallucanationChance}[strengthPsyche/] chance of becoming [abilityred]Hallucinating[/abilityred] for {Duration}[turn/].[br/]All Propagators cause this effect in battle while the operation is active.[br/][br/]While active, affected colonies [firecol]produce -{Energy}[energy/][/firecol] and the upkeep of Propagators is [firecol]increased by +{Upkeep}%[/firecol]</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >所有拥有宣传高塔的殖民地获得 +{Happiness}[happiness/][br/][br/]另外，在这些殖民地的领域内战斗时，所有敌方非无意识单位在每回合开始时有 {HallucanationChance}[strengthPsyche/] 几率被[abilityred]致幻[/abilityred]，持续 {Duration}[turn/]。[br/]此行动激活时，所有宣传者单位在战斗中都能造成此效果。[br/][br/]此行动激活时，受影响的殖民地[firecol]生产 -{Energy}[energy/][/firecol]，宣传者单位的维持消耗[firecol]增加 +{Upkeep}%[/firecol]</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Propagation Tower is the Shakarn unique building. Propagator is a Shakarn Unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_CASTER_SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >The Propagation Towers are now spreading holoreal objects and entertainment to your citizens while confusing and befuddling enemies.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >宣传高塔正在向你的人民散播全息现实物品和娱乐，同时迷惑并混淆敌人。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_PROPAGATOR_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Propagation: Illusions</Data></Cell>
+    <Cell><Data ss:Type="String">宣传：幻象</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >STRATEGIC_OP_5_PROPAGATOR_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >At the start of each comabt turn, non-Mindless enemy units have a {HallucinatingChance}[strengthPsyche/] chance to become [abilityred]Hallucinating[/abilityred] for {duration}[turn/].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >在每个战斗回合开始时，敌方非无意识单位有 {HallucinatingChance}[strengthPsyche/] 几率被[abilityred]致幻[/abilityred]，持续 {duration}[turn/]。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_COMBAT_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >At the start of each turn, non-Mindless enemy units have a {HallucinateChance}[strengthPsyche/] of becoming [abilityred]Hallucinating[/abilityred] for {Duration}[turn/].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >在每个回合开始时，敌方非无意识单位有 {HallucinateChance}[strengthPsyche/] 几率被[abilityred]致幻[/abilityred]，持续 {Duration}[turn/]。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell>
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFF_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Weighted Holograms</Data></Cell>
+    <Cell><Data ss:Type="String">增强全息影像</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell>
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFF_1_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >All Infiltrator units you control gain +{Armor}[armor/] and {DamageIncrease}% damage increase, even when Holoshifted.[br/]Holoshift can now target Mechanical units. </Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >你控制的所有渗透者单位获得+ {Armor}[armor/] 和 {DamageIncrease}% 伤害提升，即使全息相形时也会生效。[br/]全息相形现在能以机械单位为目标。 </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >INFILTRATOR_BUFF_1_PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Holoshift can now target Mechanical units.[br/]This unit gains +{Armor}[armor/] and deals +{DamageIncrease}% damage. This also applies when the unit is holoshifted.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >全息相形现在能以机械单位为目标。[br/]此单位获得+ {Armor}[armor/] 和 +{DamageIncrease}% 伤害提升。此效果即使在单位全息相形时也会生效。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell>
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFF_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lifelike Holograms</Data></Cell>
+    <Cell><Data ss:Type="String">逼真全息影像</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell>
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFF_2_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >All Infiltrator units you control gain +{Shield}[shield/] and {DamageIncrease}% damage increase, even when Holoshifted.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >你控制的所有渗透者单位获得+ {Shield}[shield/] 和 {DamageIncrease}% 伤害提升，即使全息相形时也会生效。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >INFILTRATOR_BUFF_2_PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >This unit gains +{Shield}[shield/] and deals +{DamageIncrease}% damage. This also applies when the unit is holoshifted.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >全息相形现在能以 3 阶单位为目标。[br/]此单位获得+ {Shield}[shield/] 和 +{DamageIncrease}% 伤害提升。此效果即使在单位全息相形时也会生效。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CASTING_INSTRUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">COLONY_FRIENDLY_PROPAGATION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Affects all friendly colonies with Propagation Towers</Data></Cell>
+    <Cell><Data ss:Type="String">影响友方所有拥有宣传高塔的殖民地</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Propagation Tower is the Shakarn unique building.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >INFILTRATOR_BUFF_3_PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >This unit deals +{DamageIncrease}% damage. This also applies when the unit is holoshifted.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >该单位造成的伤害 +{DamageIncrease}%。此效果即使在单位全息相形时也会生效。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String" /></Cell>
+    <Cell><Data ss:Type="String" /></Cell>
+    <Cell><Data ss:Type="String" /></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String" /></Cell>
+    <Cell><Data ss:Type="String" /></Cell>
+    <Cell><Data ss:Type="String" /></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String" /></Cell>
+    <Cell><Data ss:Type="String" /></Cell>
+    <Cell><Data ss:Type="String" /></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced />
+   <Print>
+    <ValidPrinterInfo />
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected />
+   <TopRowVisible>61</TopRowVisible>
+   <LeftColumnVisible>1</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>67</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
