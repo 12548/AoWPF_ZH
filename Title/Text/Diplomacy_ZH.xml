@@ -3740,7 +3740,7 @@
           >This value reflects the opinion one player has of another, and is affected by their shared diplomatic state, reputations and actions (represented as modifiers). The value ranges between [fireCol]{INT_min}[/fireCol] (lowest opinion) and [xpCol]{INT_max}[/xpCol] (highest opinion).</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该数值反映一名玩家对另一玩家的评价，并且受到双方外交状态、声望和行动（显示为修改器）影响。数值介于 [fireCol]{INT_min}[/fireCol]（最低评价）和 [xpCol]{INT_max}[/xpCol]（最高评价）之间。</Data></Cell><Cell
+          >该数值反映一名玩家对另一玩家的评价，并且受到双方外交状态、声望和行动（显示为影响项）影响。数值介于 [fireCol]{INT_min}[/fireCol]（最低评价）和 [xpCol]{INT_max}[/xpCol]（最高评价）之间。</Data></Cell><Cell
           ss:Index="7"
         ><Data ss:Type="String">Tooltip</Data></Cell><Cell><Data
             ss:Type="String"
@@ -4783,7 +4783,7 @@
           >[xpCol]This structure can be attacked {STR_buttontag}[/xpCol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >[xpCol]无法攻击此建筑{STR_buttontag}[/xpCol]</Data></Cell></Row><Row
+          >[xpCol]可攻击此建筑{STR_buttontag}[/xpCol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
@@ -4793,7 +4793,7 @@
           >[xpCol]This structure can be defended {STR_buttontag}[/xpCol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >[xpCol]无法防守此建筑{STR_buttontag}[/xpCol]</Data></Cell></Row><Row
+          >[xpCol]可防守此建筑{STR_buttontag}[/xpCol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">CALLTOARMS</Data></Cell><Cell><Data
             ss:Type="String"

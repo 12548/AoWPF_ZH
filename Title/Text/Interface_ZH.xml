@@ -396,7 +396,7 @@
     <Cell ss:StyleID="s67"><Data ss:Type="String">HUD_UNITPANEL</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">RESISTANCE</Data></Cell>
     <Cell><Data ss:Type="String">Resistance</Data></Cell>
-    <Cell><Data ss:Type="String">抵抗</Data></Cell>
+    <Cell><Data ss:Type="String">抗性</Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >character property; as Resistance against the elements. (fire, water, poison)</Data></Cell>
@@ -405,7 +405,7 @@
     <Cell ss:StyleID="s67"><Data ss:Type="String">HUD_UNITPANEL</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">RECRUIT</Data></Cell>
     <Cell><Data ss:Type="String">Recruit</Data></Cell>
-    <Cell><Data ss:Type="String">招募</Data></Cell>
+    <Cell><Data ss:Type="String">青铜</Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >lowest experience level of a unit, level 1</Data></Cell>
@@ -414,7 +414,7 @@
     <Cell ss:StyleID="s67"><Data ss:Type="String">HUD_UNITPANEL</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">TROOPER</Data></Cell>
     <Cell><Data ss:Type="String">Novice</Data></Cell>
-    <Cell><Data ss:Type="String">见习兵</Data></Cell>
+    <Cell><Data ss:Type="String">白银</Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >experience level of a unit, level 2</Data></Cell>
@@ -423,7 +423,7 @@
     <Cell ss:StyleID="s67"><Data ss:Type="String">HUD_UNITPANEL</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">VETERAN</Data></Cell>
     <Cell><Data ss:Type="String">Veteran</Data></Cell>
-    <Cell><Data ss:Type="String">老兵</Data></Cell>
+    <Cell><Data ss:Type="String">黄金</Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >experience level of a unit, level 3</Data></Cell>
@@ -432,7 +432,7 @@
     <Cell ss:StyleID="s67"><Data ss:Type="String">HUD_UNITPANEL</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">EXPERT</Data></Cell>
     <Cell><Data ss:Type="String">Expert</Data></Cell>
-    <Cell><Data ss:Type="String">专家</Data></Cell>
+    <Cell><Data ss:Type="String">白金</Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >experience level of a unit, level 4</Data></Cell>
@@ -441,7 +441,7 @@
     <Cell ss:StyleID="s67"><Data ss:Type="String">HUD_UNITPANEL</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">ELITE</Data></Cell>
     <Cell><Data ss:Type="String">Prime</Data></Cell>
-    <Cell><Data ss:Type="String">精兵</Data></Cell>
+    <Cell><Data ss:Type="String">传奇</Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >highest experience level of a unit, level 5</Data></Cell>
@@ -2885,7 +2885,7 @@
     <Cell ss:StyleID="s67"><Data ss:Type="String">GENERIC</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">UNIT_ABILITIES</Data></Cell>
     <Cell><Data ss:Type="String">Unit Abilities</Data></Cell>
-    <Cell><Data ss:Type="String">单位技能</Data></Cell>
+    <Cell><Data ss:Type="String">单位能力</Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >information page header for unit abilities </Data></Cell>
@@ -7792,7 +7792,7 @@
             ss:Type="String"
           >ORIGINAL_MODIFIER</Data></Cell>
     <Cell><Data ss:Type="String">Original Modifier {INT_value}</Data></Cell>
-    <Cell><Data ss:Type="String">初始修改器 {INT_value}</Data></Cell>
+    <Cell><Data ss:Type="String">初始影响项 {INT_value}</Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >as in: Start modifier on a diplomatic relation </Data></Cell>
@@ -7819,7 +7819,7 @@
     <Cell ss:StyleID="s67"><Data ss:Type="String">MODIFIER</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">CURRENT_MODIFIER</Data></Cell>
     <Cell><Data ss:Type="String">Current Modifier {INT_value}</Data></Cell>
-    <Cell><Data ss:Type="String">当前修改器 {INT_value}</Data></Cell>
+    <Cell><Data ss:Type="String">当前影响项 {INT_value}</Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >as in: current relation modifier </Data></Cell>
@@ -10144,7 +10144,7 @@
     <Cell ss:StyleID="s67"><Data ss:Type="String">CONTROLS</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">ENTER</Data></Cell>
     <Cell><Data ss:Type="String">Enter</Data></Cell>
-    <Cell><Data ss:Type="String">进入</Data></Cell>
+    <Cell><Data ss:Type="String">回车</Data></Cell>
     <Cell ss:Index="7"><Data ss:Type="String">Keybinding key</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -12202,7 +12202,7 @@
             ss:Type="String"
           >RELATION_MODIFIERS</Data></Cell>
     <Cell><Data ss:Type="String">Relationship Modifiers</Data></Cell>
-    <Cell><Data ss:Type="String">关系修改器</Data></Cell>
+    <Cell><Data ss:Type="String">关系影响项</Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >Actions that change the player's relation with another player in some way</Data></Cell>
@@ -13366,7 +13366,7 @@
     <Cell ss:StyleID="s67"><Data ss:Type="String">ABILITY</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">FREE_ACTION</Data></Cell>
     <Cell><Data ss:Type="String">Free Action</Data></Cell>
-    <Cell><Data ss:Type="String">免费回合</Data></Cell>
+    <Cell><Data ss:Type="String">无行动力消耗</Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >Used to describe a unit ability. The ability does not cost action points.</Data></Cell>
@@ -13384,7 +13384,7 @@
     <Cell ss:StyleID="s67"><Data ss:Type="String">TEXT</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">MODIFIERS</Data></Cell>
     <Cell><Data ss:Type="String">Modifiers</Data></Cell>
-    <Cell><Data ss:Type="String">修改器</Data></Cell>
+    <Cell><Data ss:Type="String">影响项</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s67"><Data ss:Type="String">TEXT</Data></Cell>
@@ -13856,7 +13856,7 @@
           >The player trading away the Casus Belli receives a reputation modifier:</Data></Cell>
     <Cell><Data
             ss:Type="String"
-          >交易出售宣战理由的玩家会获得声望修改器：</Data></Cell>
+          >交易出售宣战理由的玩家会获得声望影响项：</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s67"><Data ss:Type="String">COLONY</Data></Cell>
@@ -17099,7 +17099,7 @@
             ss:Type="String"
           >EMPIRE_TASK_PIONEER_REWARD</Data></Cell>
     <Cell><Data ss:Type="String">Pioneer Reward:</Data></Cell>
-    <Cell><Data ss:Type="String">先锋奖励：</Data></Cell>
+    <Cell><Data ss:Type="String">先驱奖励：</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s67"><Data ss:Type="String">TOME_OF_WONDERS</Data></Cell>
@@ -18539,7 +18539,7 @@
           >TOME_OF_WONDERS_TABS</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">UNIT_ABILITIES</Data></Cell>
     <Cell><Data ss:Type="String">Unit Abilities</Data></Cell>
-    <Cell><Data ss:Type="String">单位技能</Data></Cell>
+    <Cell><Data ss:Type="String">单位能力</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s67"><Data
@@ -18633,7 +18633,7 @@
             ss:Type="String"
           >TIP_UNIT_ABILITIES</Data></Cell>
     <Cell><Data ss:Type="String">Unit Abilities</Data></Cell>
-    <Cell><Data ss:Type="String">单位技能</Data></Cell>
+    <Cell><Data ss:Type="String">单位能力</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s67"><Data
@@ -23035,7 +23035,7 @@
           >The player trading away the Casus Belli receives a reputation modifier:</Data></Cell>
     <Cell><Data
             ss:Type="String"
-          >交易出售宣战理由的玩家会获得声望修改器：</Data></Cell>
+          >交易出售宣战理由的玩家会获得声望影响项：</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="60">
     <Cell ss:StyleID="s67"><Data ss:Type="String">TEXT</Data></Cell>
@@ -24628,7 +24628,7 @@
           >{STR.Name} completed {STR.Task} as pioneer</Data></Cell>
     <Cell><Data
             ss:Type="String"
-          >{STR.Name}以先锋身份率先完成{STR.Task}</Data></Cell>
+          >{STR.Name}率先完成{STR.Task}</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">TEXT</Data></Cell>
@@ -25344,7 +25344,7 @@
           >Modifiers (Cannot Exceed {INT.MULTIPLIER}%):</Data></Cell>
     <Cell><Data
             ss:Type="String"
-          >修改器（不能超过 {INT.MULTIPLIER}%）：</Data></Cell>
+          >影响项（不能超过 {INT.MULTIPLIER}%）：</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">HAPPINESS_TOOLTIP</Data></Cell>
@@ -25770,7 +25770,7 @@
     <Cell><Data ss:Type="String">TEXT</Data></Cell>
     <Cell><Data ss:Type="String">CLOSE_SCREEN</Data></Cell>
     <Cell><Data ss:Type="String">Close the screen</Data></Cell>
-    <Cell><Data ss:Type="String">关闭屏幕</Data></Cell>
+    <Cell><Data ss:Type="String">关闭界面</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">TEXT</Data></Cell>
@@ -25948,13 +25948,13 @@
     <Cell><Data ss:Type="String">UNIT</Data></Cell>
     <Cell><Data ss:Type="String">UPGRADE</Data></Cell>
     <Cell><Data ss:Type="String">Mod Unit</Data></Cell>
-    <Cell><Data ss:Type="String">模块单位</Data></Cell>
+    <Cell><Data ss:Type="String">对单位应用修改</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">TEXT</Data></Cell>
     <Cell><Data ss:Type="String">UPGRADE_EQUIVALENT_UNITS</Data></Cell>
     <Cell><Data ss:Type="String">Mod equivalent units</Data></Cell>
-    <Cell><Data ss:Type="String">模块等效单位</Data></Cell>
+    <Cell><Data ss:Type="String">对所有相同单位应用修改</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">TEXT</Data></Cell>
@@ -26432,19 +26432,19 @@
     <Cell><Data ss:Type="String">EMPIRE_TASK</Data></Cell>
     <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
     <Cell><Data ss:Type="String">You completed this task</Data></Cell>
-    <Cell><Data ss:Type="String">你以先锋身份</Data></Cell>
+    <Cell><Data ss:Type="String">完成了此任务</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">EMPIRE_TASK</Data></Cell>
     <Cell><Data ss:Type="String">AS_PIONEER</Data></Cell>
     <Cell><Data ss:Type="String">as a pioneer</Data></Cell>
-    <Cell><Data ss:Type="String">率先完成此任务</Data></Cell>
+    <Cell><Data ss:Type="String">于最先</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">EMPIRE_TASK</Data></Cell>
     <Cell><Data ss:Type="String">ON_ROUND</Data></Cell>
     <Cell><Data ss:Type="String">on round</Data></Cell>
-    <Cell><Data ss:Type="String">在轮次</Data></Cell>
+    <Cell><Data ss:Type="String">于轮次</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">TEXT</Data></Cell>
@@ -26891,7 +26891,7 @@
     <Cell><Data ss:Type="String">TEXT</Data></Cell>
     <Cell><Data ss:Type="String">IN_ORDER_TO_UNLOCK</Data></Cell>
     <Cell><Data ss:Type="String">In order to unlock:</Data></Cell>
-    <Cell><Data ss:Type="String">为解锁：</Data></Cell>
+    <Cell><Data ss:Type="String">解锁条件：</Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >Please put a space after the text. &quot;Colonly of &quot;</Data></Cell>
@@ -26900,7 +26900,7 @@
     <Cell><Data ss:Type="String">TEXT</Data></Cell>
     <Cell><Data ss:Type="String">COLONY_OF</Data></Cell>
     <Cell><Data ss:Type="String">Colony of</Data></Cell>
-    <Cell><Data ss:Type="String">殖民地</Data></Cell>
+    <Cell><Data ss:Type="String">殖民地所属 </Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >This refers to our mother company, Paradox Interactive. Use English text as translation.</Data></Cell>

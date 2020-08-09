@@ -123,14 +123,16 @@
             ss:Type="String"
           >Defense Blaster</Data></Cell><Cell><Data
             ss:Type="String"
-          >攻城兵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          >防御冲击波</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >DEFENSE_BLASTER</Data></Cell><Cell><Data
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
           >Fire the defensive blaster hidden in the floating throne.</Data></Cell><Cell
-        ><Data ss:Type="String">干掉漂浮王座中的攻城兵。</Data></Cell></Row><Row
+        ><Data
+            ss:Type="String"
+          >发射藏在漂浮王座中的防御性冲击波。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ENERGY_SHIELD</Data></Cell><Cell><Data
             ss:Type="String"
@@ -199,7 +201,7 @@
           >A mass hack into all friendly Paragon units with Imperial Augments, causing them to [abilityblue]Overcharge[/abilityblue], granting the units new abilities, increased damage and changing their Kinetic attacks to Arc for {OverchargeDuration}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >借助帝国强化装备黑进所有友方完人单位，造成目标[abilityblue]过载[/abilityblue]，赋予单位新的技能并提升单位的攻击力，并将其动能攻击变为电弧攻击，持续 {OverchargeDuration}。</Data></Cell></Row><Row
+          >借助帝国强化装备黑进所有友方完人单位，造成目标 [abilityblue]过载[/abilityblue] ，赋予单位新的技能并提升单位的攻击力，并将其动能攻击变为电弧攻击，持续 {OverchargeDuration}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">OVERCHARGE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -370,7 +372,7 @@
           >Order an orbiting satellite to blast a {WrathTotalRadius} hex radius, dealing damage and staggering those hit. This damage is reduced the further from the center hex a unit is.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >命令轨道卫星对 {WrathTotalRadius} 单元格半径内范围进行轰炸，造成伤害并附加动摇效果。攻击力随目标单元离单元格中心距离增加而递减。</Data></Cell></Row><Row
+          >命令轨道卫星对 {WrathTotalRadius} 单元格半径内范围进行轰炸，造成伤害并附加动摇效果。攻击力随目标单位距中心单元格距离增加而递减。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">SMART_ROUNDS</Data></Cell><Cell><Data
             ss:Type="String"
