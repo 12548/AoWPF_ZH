@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -253,10 +253,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Spawn a [abilityred]Geothermal Instability[/abilityred] Hazard and Mountains ([production/]/[energy/]) overlay in target sector. If there is a colony in that sector, destroy a random colony structure. In addition, all units in the target sector lose their remaining [movewalk/] Move Points for the turn.</Data></Cell><Cell
+          >Spawn a [abilityred]Geothermal Instability[/abilityred] Hazard and Mountains ([production/]/[energy/]) overlay in target sector. If there is a colony in that sector, destroy a random colony structure. If there is an exploitation in that sector, destroy that exploitation. In addition, all units in the target sector lose their remaining [movewalk/] Move Points for the turn.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >在目标区域生成一片[abilityred]地热动荡[/abilityred]灾害和山地（[production/]/[energy/]）地形。如果该区域中存在殖民地，则会随机破坏殖民地中的一个建筑。此外，目标区域内的所有单位将失去该回合剩余的 [movewalk/] 移动点数。</Data></Cell></Row><Row
+          >在目标区域生成一片[abilityred]地热动荡[/abilityred]灾害和山地（[production/]/[energy/]）地形。如果该区域中存在殖民地，则会随机破坏殖民地中的一个建筑。如果该区域中存在开发点，则摧毁该开发点。此外，目标区域内的所有单位将失去该回合剩余的 [movewalk/] 移动点数。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="75"
       ><Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell><Cell><Data

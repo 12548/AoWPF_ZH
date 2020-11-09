@@ -6,222 +6,213 @@
   xmlns:x="urn:schemas-microsoft-com:office:excel"
   xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
   xmlns:html="http://www.w3.org/TR/REC-html40"
->
- <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
-  <LastAuthor>Glenn Smits</LastAuthor>
-  <LastSaved>2019-11-07T13:08:23Z</LastSaved>
-  <Version>16.00</Version>
- </DocumentProperties>
- <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
-  <AllowPNG />
- </OfficeDocumentSettings>
- <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>7320</WindowHeight>
-  <WindowWidth>21570</WindowWidth>
-  <WindowTopX>32767</WindowTopX>
-  <WindowTopY>32767</WindowTopY>
-  <RefModeR1C1 />
-  <ProtectStructure>False</ProtectStructure>
-  <ProtectWindows>False</ProtectWindows>
- </ExcelWorkbook>
- <Styles>
-  <Style ss:ID="Default" ss:Name="Normal">
-   <Alignment ss:Vertical="Bottom" />
-   <Borders />
-   <Font
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Glenn Smits</LastAuthor><LastSaved>2019-11-07T13:08:23Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>7320</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
         ss:FontName="Calibri"
         x:Family="Swiss"
         ss:Size="11"
         ss:Color="#000000"
-      />
-   <Interior />
-   <NumberFormat />
-   <Protection />
-  </Style>
-  <Style ss:ID="s62">
-   <Alignment ss:Vertical="Top" ss:WrapText="1" />
-  </Style>
- </Styles>
- <Worksheet ss:Name="Script">
-  <Table
-      ss:ExpandedColumnCount="8"
-      ss:ExpandedRowCount="15"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
       x:FullColumns="1"
       x:FullRows="1"
       ss:StyleID="s62"
       ss:DefaultRowHeight="15"
-    >
-   <Column ss:StyleID="s62" ss:Width="97.5" />
-   <Column ss:StyleID="s62" ss:Width="86.25" />
-   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="339" />
-   <Column ss:StyleID="s62" ss:Width="147.75" />
-   <Column ss:StyleID="s62" ss:Width="186.75" />
-   <Column ss:StyleID="s62" ss:Width="120" />
-   <Row ss:AutoFitHeight="0" ss:Height="105">
-    <Cell><Data ss:Type="String">SPECIES_DARKVOID</Data></Cell>
-    <Cell ss:Index="7"><Data
+    ><Column ss:StyleID="s62" ss:Width="97.5" /><Column
+        ss:StyleID="s62"
+        ss:Width="86.25"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="339" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s62" ss:Width="186.75" /><Column
+        ss:StyleID="s62"
+        ss:Width="120"
+      /><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data
             ss:Type="String"
-          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
-    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
-    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
-    <Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell>
-    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
-    <Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell>
-    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
-    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">RACE</Data></Cell>
-    <Cell><Data ss:Type="String">NAME_SINGULAR</Data></Cell>
-    <Cell><Data ss:Type="String">Voidbringer</Data></Cell>
-    <Cell><Data ss:Type="String">虚空使者</Data></Cell>
-    <Cell ss:Index="7"><Data
+          >SPECIES_DARKVOID</Data></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
-          >Faction name singular</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="60.75">
-    <Cell><Data ss:Type="String">RACE</Data></Cell>
-    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell><Data
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
             ss:Type="String"
-          >&quot;Voidbringers&quot; is the name given to the mind-absorbing creatures relentlessly invading planet after planet. Their origin unknown, they seem to consume planet after planet leaving barren nothingness in their wake.</Data></Cell>
-    <Cell><Data
+          >TEXT ID</Data></Cell><Cell><Data
             ss:Type="String"
-          >“虚空使者”是指那些不断入侵各个星球，吸食生命大脑的生物。它们的起源未知，但它们似乎已经吞噬了无数星球，所到之处留下的只有荒芜。</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">TIER2A</Data></Cell>
-    <Cell><Data ss:Type="String">NAME</Data></Cell>
-    <Cell><Data ss:Type="String">Strix</Data></Cell>
-    <Cell><Data ss:Type="String">厄运鸮</Data></Cell>
-    <Cell ss:Index="7"><Data
+          >ENGLISH STRING</Data></Cell><Cell><Data
             ss:Type="String"
-          >Name of a Voidbringer unit.</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="141.75">
-    <Cell><Data ss:Type="String">TIER2A</Data></Cell>
-    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell><Data
+          >LOCALIZED STRING</Data></Cell><Cell><Data
             ss:Type="String"
-          >“Many Psynumbrae have long believed that the Void was a prison trapping a darker power in the infinite emptiness. The lost and foolish Psi-Fish were but a forensic foreshadow of the dread that comes. We feel it. A Voidbringer. Sweet oblivion. We crave this malice. Sinister psionic forces streak toward us, assaulting our nightmares. It starts small, in the corner of your eye. Then it appears, an orb of cruel indifference and we are its prey. Burst into our reality with the force of a bomb. Its tentacles lust for our sanity.  Intoxicating Strix.” –Shartok Kreeg, “RV-74593R: Blessed Delusions” </Data></Cell>
-    <Cell><Data
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
             ss:Type="String"
-          >“许多赛努布拉信徒一直认为，虚空是一座囚禁着无限虚无中黑暗力量的监牢。迷失而愚蠢的灵能水母不过是即将到来的恐惧前兆。我们感受到了，黑暗的虚空，甜蜜的湮没。我们渴望这种恶意。阴险的灵能部队冲向我们，袭击我们的噩梦。起初它还很小，你都不会在意。随后它现身了，一个残酷冷漠的球体，我们都是它的猎物。以爆炸般的力量闯入我们的现实。它的触角渴望我们的理智。令人陶醉的厄运鸮。”——沙尔托克·克里格，“RV-74593R：神佑妄想” </Data></Cell>
-    <Cell ss:Index="7"><Data
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
             ss:Type="String"
-          >Description of a Voidbringer unit.</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">TIER2B</Data></Cell>
-    <Cell><Data ss:Type="String">NAME</Data></Cell>
-    <Cell><Data ss:Type="String">Naga</Data></Cell>
-    <Cell><Data ss:Type="String">娜迦</Data></Cell>
-    <Cell ss:Index="7"><Data
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
             ss:Type="String"
-          >Name of a Voidbringer unit.</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="139.5">
-    <Cell><Data ss:Type="String">TIER2B</Data></Cell>
-    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell><Data
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RACE</Data></Cell><Cell><Data
             ss:Type="String"
-          >“Don dark vestments, cult-brother. Tonight, we wake the serpent bound to the underworld because his tail churned the cosmic sea of sacred milk from which all intelligent life emerged. I feel its spiked fang in my mind. Careful. The lovers of light and vanity worship creator gods jealous of the Naga’s gift to humanity. Its venom enlightened our minds to act free of these vain gods. We must repay the Naga. Reach out. Let its tendrils drain you. The more they feed, the more the darkness spreads. They will grow. Change.” –Asuras Durvasas, Psynumbra Mindshrieker, “RV-75443R: Nihilistic Rebellions”</Data></Cell>
-    <Cell><Data
+          >NAME_SINGULAR</Data></Cell><Cell><Data
             ss:Type="String"
-          >“穿上黑色的法衣吧，信徒们。今晚，我们将唤醒束缚在地下世界的巨蛇，它的尾巴搅动着神圣银河的宇宙海洋，所有的智慧生命都从中诞生。我感觉到它的尖牙就在我的脑海里。小心。光明和虚荣的爱好者崇拜造物主众神，嫉妒娜迦赐予人类的礼物。它的毒液启发了我们的思想，使我们摆脱了这些虚无的神灵。我们必须报答娜迦。伸出双手，让它的卷须把你吸干。它们吃得越多，黑暗就蔓延得越远。它们将会成长，改变。”——阿苏拉斯·杜瓦萨斯，赛努布拉心灵尖叫者，“RV-75443R：虚无主义叛乱”</Data></Cell>
-    <Cell ss:Index="7"><Data
+          >Voidbringer</Data></Cell><Cell><Data
             ss:Type="String"
-          >Description of a Voidbringer unit.</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">TIER3</Data></Cell>
-    <Cell><Data ss:Type="String">NAME</Data></Cell>
-    <Cell><Data ss:Type="String">Undine</Data></Cell>
-    <Cell><Data ss:Type="String">溫蒂妮</Data></Cell>
-    <Cell ss:Index="7"><Data
+          >虚空使者</Data></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
-          >Name of a Voidbringer unit.</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="139.5">
-    <Cell><Data ss:Type="String">TIER3</Data></Cell>
-    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell><Data
+          >Faction name singular</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60.75"
+      ><Cell><Data ss:Type="String">RACE</Data></Cell><Cell><Data
             ss:Type="String"
-          >“There is beauty in the Voidbringer sea. Listen. It sings from deep beneath the waves of reality. Only her lithe form undulates across the emptiness the gods forgot. So seductive she renders the mind broken. Let lust cleanse your petty desires for life. Give yourself to the Undine. Between the shores of imagination and reason, she drinks your dreams, replacing them with restless nightmares. Surrender. Let her enthrall you. Let her consume you. Feel her transformations within you and it will carry you in her womb.” –Asuras Durvasas, Psynumbra Mindshredder, “RV-75444R: Nihilistic Rebellions” </Data></Cell>
-    <Cell><Data
+          >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >“虚空使者之海中蕴藏着美丽。听啊，她在现实的波浪深处歌唱。只有她轻盈的形体在众神遗忘的虚无中起伏。如此诱人，令人心碎。让欲望净化你对生命的可怜向往，把你的生命交给溫蒂妮。她将在想象与理性的海岸之间畅饮你的美梦，然后用不安的噩梦取代。投降吧。让她奴役你。让她吞噬你。感受她在你内心深处的转化，最终把你带往她的子宫。”——阿苏拉斯·杜瓦萨斯，赛努布拉心灵尖叫者，“RV-75444R：虚无主义叛乱” </Data></Cell>
-    <Cell ss:Index="7"><Data
+          >"Voidbringers" is the name given to the mind-absorbing creatures relentlessly invading planet after planet. Their origin unknown, they seem to consume planet after planet leaving barren nothingness in their wake.</Data></Cell><Cell
+        ><Data
             ss:Type="String"
-          >Description of a Voidbringer unit.</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">TIER4</Data></Cell>
-    <Cell><Data ss:Type="String">NAME</Data></Cell>
-    <Cell><Data ss:Type="String">Leviathan</Data></Cell>
-    <Cell><Data ss:Type="String">利维坦</Data></Cell>
-    <Cell ss:Index="7"><Data
+          >“虚空使者”是指那些不断入侵各个星球，吸食生命大脑的生物。它们的起源未知，但它们似乎已经吞噬了无数星球，所到之处留下的只有荒芜。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TIER2A</Data></Cell><Cell><Data
             ss:Type="String"
-          >Name of a Voidbringer unit.</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="132.75">
-    <Cell><Data ss:Type="String">TIER4</Data></Cell>
-    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell><Data
+          >NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >“It slithers in tendrils of darkness. Minds break before the pressure of its passing. Without a question, it purposefully harvests life, consuming thought and draining the courage of even the most powerful champions. The Voidbringer Leviathan will not stop feeding on intelligent life until the minds of all living things cease sparking intelligent thought. Death is no relief. It reanimates the wretched fallen serving its sadistic will. What purpose could it serve than to prove the universe is nothing more than a nihilistic nightmare?” – Psynumbran Philosopher, Thranx Morden, “RV-9966699P: Shades in Lost Cities and Fallen Empires”</Data></Cell>
-    <Cell><Data
+          >Strix</Data></Cell><Cell><Data
             ss:Type="String"
-          >“它在黑暗的卷须中滑行。思想将在它的压力面前灰飞烟灭。毫无疑问，它在有目的地收割生命，吞噬思想，吸食最强大勇士身上的勇气。虚空使者利维坦绝不会停止捕食智慧生命，直到所有生物的头脑都不再拥有思想。死亡不是解脱，它将唤醒可怜的堕落者为其嗜虐的意志效命。除了证明宇宙不过是一个虚无的噩梦之外，它还有什么用呢？”——赛努布拉哲学家，萨兰克斯·莫尔登，“RV-9966699P：失落城市与没落帝国的阴影”</Data></Cell>
-    <Cell ss:Index="7"><Data
+          >厄运鸮</Data></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
-          >Description of a Voidbringer unit.</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">PORTAL_UNIT</Data></Cell>
-    <Cell><Data ss:Type="String">NAME</Data></Cell>
-    <Cell><Data ss:Type="String">Pandora Portal</Data></Cell>
-    <Cell><Data ss:Type="String">潘多拉传送门</Data></Cell>
-    <Cell ss:Index="7"><Data
+          >Name of a Voidbringer unit.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="141.75"
+      ><Cell><Data ss:Type="String">TIER2A</Data></Cell><Cell><Data
             ss:Type="String"
-          >Name of a Voidbringer unit.</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">PORTAL_UNIT</Data></Cell>
-    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
-    <Cell><Data
+          >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          > &quot;This is it. The gateway for darkness. At long last this wretched world has unified with the vast, dark sea of our Voidbringer saviours. They will swarm the lovers of light. Remake them. Consume them. Marry them to darkness. Come. Pour forth from your magnificent nothingness, into this world. Let screaming orchestras of agony announce the freeing of the heretics.&quot;–Asuras Durvasas, Psynumbra Mindshredder, “RV-75445R: Nihilistic Rebellions” </Data></Cell>
-    <Cell><Data
+          >“Many Psynumbrae have long believed that the Void was a prison trapping a darker power in the infinite emptiness. The lost and foolish Psi-Fish were but a forensic foreshadow of the dread that comes. We feel it. A Voidbringer. Sweet oblivion. We crave this malice. Sinister psionic forces streak toward us, assaulting our nightmares. It starts small, in the corner of your eye. Then it appears, an orb of cruel indifference and we are its prey. Burst into our reality with the force of a bomb. Its tentacles lust for our sanity.  Intoxicating Strix.” –Shartok Kreeg, “RV-74593R: Blessed Delusions” </Data></Cell><Cell
+        ><Data
             ss:Type="String"
-          > “就是这里了，走向黑暗的大门。这个可悲的世界终于与虚空使者救世主浩瀚黑暗的海洋合为了一体。它们将涌向光明的恋人，改造他们，吞噬他们，让他们拥入黑暗的怀抱。来吧！从壮丽的虚无中倾泻到这个世界，让痛苦的尖叫齐鸣来宣告异教徒的解放。”——阿苏拉斯·杜瓦萨斯，赛努布拉心灵尖叫者，“RV-75445R：虚无主义叛乱” </Data></Cell>
-    <Cell ss:Index="7"><Data
+          >“许多赛努布拉信徒一直认为，虚空是一座囚禁着无限虚无中黑暗力量的监牢。迷失而愚蠢的灵能水母不过是即将到来的恐惧前兆。我们感受到了，黑暗的虚空，甜蜜的湮没。我们渴望这种恶意。阴险的灵能部队冲向我们，袭击我们的噩梦。起初它还很小，你都不会在意。随后它现身了，一个残酷冷漠的球体，我们都是它的猎物。以爆炸般的力量闯入我们的现实。它的触角渴望我们的理智。令人陶醉的厄运鸮。”——沙尔托克·克里格，“RV-74593R：神佑妄想” </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
             ss:Type="String"
-          >Description of a Voidbringer unit.</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">RACE</Data></Cell>
-    <Cell><Data ss:Type="String">NAME_PLURAL</Data></Cell>
-    <Cell><Data ss:Type="String">Voidbringers</Data></Cell>
-    <Cell><Data ss:Type="String">虚空使者</Data></Cell>
-    <Cell ss:Index="7"><Data ss:Type="String">Faction name plural</Data></Cell>
-   </Row>
-  </Table>
-  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
-   <Unsynced />
-   <Selected />
-   <Panes>
-    <Pane>
-     <Number>3</Number>
-     <ActiveRow>3</ActiveRow>
-     <ActiveCol>2</ActiveCol>
-    </Pane>
-   </Panes>
-   <ProtectObjects>False</ProtectObjects>
-   <ProtectScenarios>False</ProtectScenarios>
-  </WorksheetOptions>
- </Worksheet>
-</Workbook>
+          >Description of a Voidbringer unit.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TIER2B</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Naga</Data></Cell><Cell><Data
+            ss:Type="String"
+          >娜迦</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of a Voidbringer unit.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="139.5"
+      ><Cell><Data ss:Type="String">TIER2B</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“Don dark vestments, cult-brother. Tonight, we wake the serpent bound to the underworld because his tail churned the cosmic sea of sacred milk from which all intelligent life emerged. I feel its spiked fang in my mind. Careful. The lovers of light and vanity worship creator gods jealous of the Naga’s gift to humanity. Its venom enlightened our minds to act free of these vain gods. We must repay the Naga. Reach out. Let its tendrils drain you. The more they feed, the more the darkness spreads. They will grow. Change.” –Asuras Durvasas, Psynumbra Mindshrieker, “RV-75443R: Nihilistic Rebellions”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“穿上黑色的法衣吧，信徒们。今晚，我们将唤醒束缚在地下世界的巨蛇，它的尾巴搅动着神圣银河的宇宙海洋，所有的智慧生命都从中诞生。我感觉到它的尖牙就在我的脑海里。小心。光明和虚荣的爱好者崇拜造物主众神，嫉妒娜迦赐予人类的礼物。它的毒液启发了我们的思想，使我们摆脱了这些虚无的神灵。我们必须报答娜迦。伸出双手，让它的卷须把你吸干。它们吃得越多，黑暗就蔓延得越远。它们将会成长，改变。”——阿苏拉斯·杜瓦萨斯，赛努布拉心灵尖叫者，“RV-75443R：虚无主义叛乱”</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Description of a Voidbringer unit.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TIER3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Undine</Data></Cell><Cell><Data
+            ss:Type="String"
+          >溫蒂妮</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of a Voidbringer unit.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="139.5"
+      ><Cell><Data ss:Type="String">TIER3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“There is beauty in the Voidbringer sea. Listen. It sings from deep beneath the waves of reality. Only her lithe form undulates across the emptiness the gods forgot. So seductive she renders the mind broken. Let lust cleanse your petty desires for life. Give yourself to the Undine. Between the shores of imagination and reason, she drinks your dreams, replacing them with restless nightmares. Surrender. Let her enthrall you. Let her consume you. Feel her transformations within you and it will carry you in her womb.” –Asuras Durvasas, Psynumbra Mindshredder, “RV-75444R: Nihilistic Rebellions” </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“虚空使者之海中蕴藏着美丽。听啊，她在现实的波浪深处歌唱。只有她轻盈的形体在众神遗忘的虚无中起伏。如此诱人，令人心碎。让欲望净化你对生命的可怜向往，把你的生命交给溫蒂妮。她将在想象与理性的海岸之间畅饮你的美梦，然后用不安的噩梦取代。投降吧。让她奴役你。让她吞噬你。感受她在你内心深处的转化，最终把你带往她的子宫。”——阿苏拉斯·杜瓦萨斯，赛努布拉心灵尖叫者，“RV-75444R：虚无主义叛乱” </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Description of a Voidbringer unit.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TIER4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Leviathan</Data></Cell><Cell><Data
+            ss:Type="String"
+          >利维坦</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of a Voidbringer unit.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="132.75"
+      ><Cell><Data ss:Type="String">TIER4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“It slithers in tendrils of darkness. Minds break before the pressure of its passing. Without a question, it purposefully harvests life, consuming thought and draining the courage of even the most powerful champions. The Voidbringer Leviathan will not stop feeding on intelligent life until the minds of all living things cease sparking intelligent thought. Death is no relief. It reanimates the wretched fallen serving its sadistic will. What purpose could it serve than to prove the universe is nothing more than a nihilistic nightmare?” – Psynumbran Philosopher, Thranx Morden, “RV-9966699P: Shades in Lost Cities and Fallen Empires”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“它在黑暗的卷须中滑行。思想将在它的压力面前灰飞烟灭。毫无疑问，它在有目的地收割生命，吞噬思想，吸食最强大勇士身上的勇气。虚空使者利维坦绝不会停止捕食智慧生命，直到所有生物的头脑都不再拥有思想。死亡不是解脱，它将唤醒可怜的堕落者为其嗜虐的意志效命。除了证明宇宙不过是一个虚无的噩梦之外，它还有什么用呢？”——赛努布拉哲学家，萨兰克斯·莫尔登，“RV-9966699P：失落城市与没落帝国的阴影”</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Description of a Voidbringer unit.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PORTAL_UNIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Pandora Portal</Data></Cell><Cell><Data
+            ss:Type="String"
+          >潘多拉传送门</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of a Voidbringer unit.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PORTAL_UNIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          > "This is it. The gateway for darkness. At long last this wretched world has unified with the vast, dark sea of our Voidbringer saviours. They will swarm the lovers of light. Remake them. Consume them. Marry them to darkness. Come. Pour forth from your magnificent nothingness, into this world. Let screaming orchestras of agony announce the freeing of the heretics."–Asuras Durvasas, Psynumbra Mindshredder, “RV-75445R: Nihilistic Rebellions” </Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          > “就是这里了，走向黑暗的大门。这个可悲的世界终于与虚空使者救世主浩瀚黑暗的海洋合为了一体。它们将涌向光明的恋人，改造他们，吞噬他们，让他们拥入黑暗的怀抱。来吧！从壮丽的虚无中倾泻到这个世界，让痛苦的尖叫齐鸣来宣告异教徒的解放。”——阿苏拉斯·杜瓦萨斯，赛努布拉心灵尖叫者，“RV-75445R：虚无主义叛乱” </Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Description of a Voidbringer unit.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_PLURAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Voidbringers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚空使者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Faction name plural</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Selected /><Panes><Pane><Number>3</Number><ActiveRow
+          >3</ActiveRow><ActiveCol>2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

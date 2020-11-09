@@ -10,13 +10,13 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:53:22Z</Created><LastSaved
     >2019-06-25T15:53:22Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14160</WindowHeight><WindowWidth>12945</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>19965</WindowHeight><WindowWidth>32767</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -27,265 +27,265 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
       ss:Name="Default"
-    /><Style ss:ID="s58" ss:Name="Normal_"><Font
+    /><Style ss:ID="s63" ss:Name="Normal_"><Font
         ss:FontName="Calibri"
         x:Family="Swiss"
         ss:Size="11"
         ss:Color="#000000"
-      /></Style><Style ss:ID="s59" ss:Parent="s57"><Alignment
+      /></Style><Style ss:ID="s65" ss:Parent="s62"><Alignment
         ss:Vertical="Top"
         ss:WrapText="1"
-      /></Style><Style ss:ID="s60" ss:Parent="s58"><Alignment
+      /></Style><Style ss:ID="s67" ss:Parent="s63"><Alignment
         ss:Vertical="Top"
         ss:WrapText="1"
       /></Style></Styles><Worksheet ss:Name="Script"><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s59"
+      ss:StyleID="s65"
       ss:DefaultColumnWidth="51.75"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s59" ss:Width="105.75" /><Column
-        ss:StyleID="s59"
+    ><Column ss:StyleID="s65" ss:Width="105.75" /><Column
+        ss:StyleID="s65"
         ss:Width="63.75"
-      /><Column ss:StyleID="s59" ss:Width="261.75" /><Column
-        ss:StyleID="s59"
+      /><Column ss:StyleID="s65" ss:Width="261.75" /><Column
+        ss:StyleID="s65"
         ss:Width="147.75"
-      /><Column ss:StyleID="s59" ss:AutoFitWidth="0" ss:Width="159.75" /><Column
-        ss:StyleID="s59"
+      /><Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="159.75" /><Column
+        ss:StyleID="s65"
         ss:Width="120"
-      /><Row ss:AutoFitHeight="0" ss:Height="180"><Cell ss:StyleID="s60"><Data
+      /><Row ss:AutoFitHeight="0" ss:Height="180"><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >TERRAINDEFINITIONS</Data></Cell><Cell
           ss:Index="7"
-          ss:StyleID="s60"
+          ss:StyleID="s67"
         ><Data
             ss:Type="String"
           >text serounded by {} or [] are special tags for code. These tag will be replaced with other text eg: the name of a player. The tags should NOT be localized. They represent the place in the sentens for their replacing string. Some {} tags start with STR or INT. STR means it will be replaced with text, INT means it will be replaced with a numerical value  </Data></Cell><Cell
-          ss:StyleID="s60"
-        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s60"><Data
+          ss:StyleID="s67"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >SCENE ID</Data></Cell><Cell ss:StyleID="s60"><Data
+          >SCENE ID</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >TEXT ID</Data></Cell><Cell ss:StyleID="s60"><Data
+          >TEXT ID</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >ENGLISH STRING</Data></Cell><Cell><Data
             ss:Type="String"
-          >LOCALIZED STRING</Data></Cell><Cell ss:StyleID="s60"><Data
+          >LOCALIZED STRING</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
             ss:Type="String"
           >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell
-          ss:StyleID="s60"
+          ss:StyleID="s67"
         ><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell><Cell
-          ss:StyleID="s60"
+          ss:StyleID="s67"
         ><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
-      ><Cell ss:StyleID="s60"><Data
+      ><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >SURFACE_LAYER</Data></Cell><Cell ss:StyleID="s60"><Data
+          >SURFACE_LAYER</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >NAME</Data></Cell><Cell ss:StyleID="s60"><Data
+          >NAME</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Surface</Data></Cell><Cell><Data
             ss:Type="String"
-          >表面</Data></Cell><Cell ss:Index="7" ss:StyleID="s60"><Data
+          >表面</Data></Cell><Cell ss:Index="7" ss:StyleID="s67"><Data
             ss:Type="String"
           >as in: game layer type, displayed when you are at the surface layer</Data></Cell><Cell
-          ss:StyleID="s60"
+          ss:StyleID="s67"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell
-          ss:StyleID="s60"
+          ss:StyleID="s67"
         ><Data ss:Type="String">TACTICAL_LAYER</Data></Cell><Cell
-          ss:StyleID="s60"
-        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s60"><Data
+          ss:StyleID="s67"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Tactical</Data></Cell><Cell><Data
             ss:Type="String"
-          >战术</Data></Cell><Cell ss:Index="7" ss:StyleID="s60"><Data
+          >战术</Data></Cell><Cell ss:Index="7" ss:StyleID="s67"><Data
             ss:Type="String"
           >as in: game layer type. Displayed when your are at the tactical world view</Data></Cell><Cell
-          ss:StyleID="s60"
-        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s60"><Data
+          ss:StyleID="s67"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >OVERLAY</Data></Cell><Cell ss:StyleID="s60"><Data
+          >OVERLAY</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >CHASM</Data></Cell><Cell ss:StyleID="s60"><Data
+          >CHASM</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Chasm</Data></Cell><Cell><Data
             ss:Type="String"
-          >裂口</Data></Cell><Cell ss:Index="8" ss:StyleID="s60" /></Row><Row
+          >裂口</Data></Cell><Cell ss:Index="8" ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s60"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
-          ss:StyleID="s60"
-        ><Data ss:Type="String">FOREST</Data></Cell><Cell ss:StyleID="s60"><Data
+      ><Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data ss:Type="String">FOREST</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Forest</Data></Cell><Cell><Data
             ss:Type="String"
-          >森林</Data></Cell><Cell ss:Index="8" ss:StyleID="s60" /></Row><Row
+          >森林</Data></Cell><Cell ss:Index="8" ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s60"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
-          ss:StyleID="s60"
-        ><Data ss:Type="String">HILLS</Data></Cell><Cell ss:StyleID="s60"><Data
+      ><Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data ss:Type="String">HILLS</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Hills</Data></Cell><Cell><Data
             ss:Type="String"
-          >丘陵</Data></Cell><Cell ss:Index="8" ss:StyleID="s60" /></Row><Row
+          >丘陵</Data></Cell><Cell ss:Index="8" ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s60"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
-          ss:StyleID="s60"
+      ><Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
+          ss:StyleID="s67"
         ><Data ss:Type="String">MOUNTAINS</Data></Cell><Cell
-          ss:StyleID="s60"
+          ss:StyleID="s67"
         ><Data ss:Type="String">Mountains</Data></Cell><Cell><Data
             ss:Type="String"
-          >山地</Data></Cell><Cell ss:Index="8" ss:StyleID="s60" /></Row><Row
+          >山地</Data></Cell><Cell ss:Index="8" ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s60"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
-          ss:StyleID="s60"
-        ><Data ss:Type="String">PLAINS</Data></Cell><Cell ss:StyleID="s60"><Data
+      ><Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data ss:Type="String">PLAINS</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Fertile Plains</Data></Cell><Cell><Data
             ss:Type="String"
-          >肥沃平原</Data></Cell><Cell ss:Index="7" ss:StyleID="s60"><Data
+          >肥沃平原</Data></Cell><Cell ss:Index="7" ss:StyleID="s67"><Data
             ss:Type="String"
-          >as in: flat land</Data></Cell><Cell ss:StyleID="s60" /></Row><Row
+          >as in: flat land</Data></Cell><Cell ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s60"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
-          ss:StyleID="s60"
+      ><Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
+          ss:StyleID="s67"
         ><Data ss:Type="String">BADLAND</Data></Cell><Cell
-          ss:StyleID="s60"
+          ss:StyleID="s67"
         ><Data ss:Type="String">Volcanic</Data></Cell><Cell><Data
             ss:Type="String"
-          >火山</Data></Cell><Cell ss:Index="8" ss:StyleID="s60" /></Row><Row
+          >火山</Data></Cell><Cell ss:Index="8" ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s60"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
-          ss:StyleID="s60"
+      ><Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
+          ss:StyleID="s67"
         ><Data ss:Type="String">WETLAND</Data></Cell><Cell
-          ss:StyleID="s60"
+          ss:StyleID="s67"
         ><Data ss:Type="String">Wetland</Data></Cell><Cell><Data
             ss:Type="String"
-          >湿地</Data></Cell><Cell ss:Index="7" ss:StyleID="s60"><Data
+          >湿地</Data></Cell><Cell ss:Index="7" ss:StyleID="s67"><Data
             ss:Type="String"
           >as in: swamp like terrain</Data></Cell><Cell
-          ss:StyleID="s60"
-        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s60"><Data
+          ss:StyleID="s67"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >OVERLAY</Data></Cell><Cell ss:StyleID="s60"><Data
+          >OVERLAY</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >WATER</Data></Cell><Cell ss:StyleID="s60"><Data
+          >WATER</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Water</Data></Cell><Cell><Data
             ss:Type="String"
-          >水域</Data></Cell><Cell ss:Index="8" ss:StyleID="s60" /></Row><Row
+          >水域</Data></Cell><Cell ss:Index="8" ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s60"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
-          ss:StyleID="s60"
-        ><Data ss:Type="String">RIVER</Data></Cell><Cell ss:StyleID="s60"><Data
+      ><Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data ss:Type="String">RIVER</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >River</Data></Cell><Cell><Data
             ss:Type="String"
-          >河流</Data></Cell><Cell ss:Index="8" ss:StyleID="s60" /></Row><Row
+          >河流</Data></Cell><Cell ss:Index="8" ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s60"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
-          ss:StyleID="s60"
-        ><Data ss:Type="String">LAVA</Data></Cell><Cell ss:StyleID="s60"><Data
+      ><Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data ss:Type="String">LAVA</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Lava</Data></Cell><Cell><Data
             ss:Type="String"
-          >岩浆</Data></Cell><Cell ss:Index="8" ss:StyleID="s60" /></Row><Row
+          >岩浆</Data></Cell><Cell ss:Index="8" ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
-      ><Cell ss:StyleID="s60"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
-          ss:StyleID="s60"
-        ><Data ss:Type="String">RUINS</Data></Cell><Cell ss:StyleID="s60"><Data
+      ><Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data ss:Type="String">RUINS</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Ruins</Data></Cell><Cell><Data
             ss:Type="String"
-          >废墟</Data></Cell><Cell ss:Index="7" ss:StyleID="s60"><Data
+          >废墟</Data></Cell><Cell ss:Index="7" ss:StyleID="s67"><Data
             ss:Type="String"
           >as in: area that contains primarily old architecture that is in ruins</Data></Cell><Cell
-          ss:StyleID="s60"
-        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s60"><Data
+          ss:StyleID="s67"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >OVERLAY</Data></Cell><Cell ss:StyleID="s60"><Data
+          >OVERLAY</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >BARREN</Data></Cell><Cell ss:StyleID="s60"><Data
+          >BARREN</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Barren</Data></Cell><Cell><Data
             ss:Type="String"
-          >贫瘠</Data></Cell><Cell ss:Index="8" ss:StyleID="s60" /></Row><Row
+          >贫瘠</Data></Cell><Cell ss:Index="8" ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s60"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
-          ss:StyleID="s60"
+      ><Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
+          ss:StyleID="s67"
         ><Data ss:Type="String">SHRUBLAND</Data></Cell><Cell
-          ss:StyleID="s60"
+          ss:StyleID="s67"
         ><Data ss:Type="String">Shrubland</Data></Cell><Cell><Data
             ss:Type="String"
-          >灌木</Data></Cell><Cell ss:Index="8" ss:StyleID="s60" /></Row><Row
+          >灌木</Data></Cell><Cell ss:Index="8" ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s60"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
-          ss:StyleID="s60"
-        ><Data ss:Type="String">VOID</Data></Cell><Cell ss:StyleID="s60"><Data
+      ><Cell ss:StyleID="s67"><Data ss:Type="String">OVERLAY</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data ss:Type="String">VOID</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Void</Data></Cell><Cell><Data
             ss:Type="String"
-          >虚空</Data></Cell><Cell ss:Index="8" ss:StyleID="s60" /></Row><Row
+          >虚空</Data></Cell><Cell ss:Index="8" ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s60"><Data ss:Type="String">THEME</Data></Cell><Cell
-          ss:StyleID="s60"
+      ><Cell ss:StyleID="s67"><Data ss:Type="String">THEME</Data></Cell><Cell
+          ss:StyleID="s67"
         ><Data ss:Type="String">ARCADIAN</Data></Cell><Cell
-          ss:StyleID="s60"
+          ss:StyleID="s67"
         ><Data ss:Type="String">Arcadian</Data></Cell><Cell><Data
             ss:Type="String"
           >田园</Data></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
           >Peaceful simple landscape</Data></Cell><Cell
-          ss:StyleID="s60"
-        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s60"><Data
+          ss:StyleID="s67"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >THEME</Data></Cell><Cell ss:StyleID="s60"><Data
+          >THEME</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >ARCTIC</Data></Cell><Cell ss:StyleID="s60"><Data
+          >ARCTIC</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Arctic</Data></Cell><Cell><Data
             ss:Type="String"
-          >极寒</Data></Cell><Cell ss:Index="8" ss:StyleID="s60" /></Row><Row
+          >极寒</Data></Cell><Cell ss:Index="8" ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s60"><Data ss:Type="String">THEME</Data></Cell><Cell
-          ss:StyleID="s60"
-        ><Data ss:Type="String">FUNGAL</Data></Cell><Cell ss:StyleID="s60"><Data
+      ><Cell ss:StyleID="s67"><Data ss:Type="String">THEME</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data ss:Type="String">FUNGAL</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Fungal</Data></Cell><Cell><Data
             ss:Type="String"
-          >真菌</Data></Cell><Cell ss:Index="8" ss:StyleID="s60" /></Row><Row
+          >真菌</Data></Cell><Cell ss:Index="8" ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s60"><Data ss:Type="String">THEME</Data></Cell><Cell
-          ss:StyleID="s60"
-        ><Data ss:Type="String">ARID</Data></Cell><Cell ss:StyleID="s60"><Data
+      ><Cell ss:StyleID="s67"><Data ss:Type="String">THEME</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data ss:Type="String">ARID</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Arid</Data></Cell><Cell><Data
             ss:Type="String"
-          >干燥</Data></Cell><Cell ss:Index="8" ss:StyleID="s60" /></Row><Row
+          >干燥</Data></Cell><Cell ss:Index="8" ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
-      ><Cell ss:StyleID="s60"><Data ss:Type="String">THEME</Data></Cell><Cell
-          ss:StyleID="s60"
+      ><Cell ss:StyleID="s67"><Data ss:Type="String">THEME</Data></Cell><Cell
+          ss:StyleID="s67"
         ><Data ss:Type="String">SEA_LAVA</Data></Cell><Cell
-          ss:StyleID="s60"
+          ss:StyleID="s67"
         ><Data ss:Type="String">Sea Lava</Data></Cell><Cell><Data
             ss:Type="String"
           >海洋熔岩</Data></Cell><Cell
           ss:Index="8"
-          ss:StyleID="s60"
-        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s60"><Data
+          ss:StyleID="s67"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >THEME</Data></Cell><Cell ss:StyleID="s60"><Data
+          >THEME</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >OCEAN</Data></Cell><Cell ss:StyleID="s60"><Data
+          >OCEAN</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
           >Ocean</Data></Cell><Cell><Data
             ss:Type="String"
-          >海洋</Data></Cell><Cell ss:Index="8" ss:StyleID="s60" /></Row><Row
+          >海洋</Data></Cell><Cell ss:Index="8" ss:StyleID="s67" /></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">DEATH_WARNING</Data></Cell><Cell><Data
             ss:Type="String"
@@ -311,10 +311,26 @@
           >Units have been swallowed by the Void: {INT_numTurns}</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >单位已被虚空吞噬：{INT_numTurns}</Data></Cell></Row></Table><WorksheetOptions
+          >单位已被虚空吞噬：{INT_numTurns}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OVERLAY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >URBAN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Urban</Data></Cell><Cell><Data
+            ss:Type="String"
+          >城市</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >OVERLAY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >IMPERIAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国</Data></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
     ><Unsynced /><Zoom>130</Zoom><Selected /><Panes><Pane><Number
-          >3</Number><ActiveRow>10</ActiveRow><ActiveCol
-          >7</ActiveCol></Pane></Panes><ProtectObjects
+          >3</Number><ActiveRow>38</ActiveRow><ActiveCol
+          >6</ActiveCol></Pane></Panes><ProtectObjects
       >False</ProtectObjects><ProtectScenarios
       >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

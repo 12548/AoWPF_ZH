@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -1007,10 +1007,135 @@
             ss:Type="String"
           >ASSEMBLY_CLAW_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This Mod can only be applied to Assembly Melee Units or units with a Claw ability.</Data></Cell><Cell
+          >This Mod can only be applied to non-hero Assembly Melee units or units with a Claw ability.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该模块仅适用于半机械人近战单位或拥有利爪技能的单位。</Data></Cell></Row></Table><WorksheetOptions
+          >该模块仅适用于非英雄的半机械人近战单位，或拥有“利爪”技能的单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INFANTRY_BATTLESUIT_LAND_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This Mod can only be applied to Infantry and Battlesuit units with Land Movement.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该模块仅适用于拥有“陆地移动”的步兵和机甲单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INFANTRY_MOUNTED_LAND_BATTLESUIT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This Mod can only be applied to Infantry, non-Flying Mounted and Battlesuit units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该模块仅适用于步兵、非飞行的骑乘和机甲单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INFANTRY_MOUNTED_LAND_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This Mod can only be applied to Infantry and non-Flying Mounted units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该模块仅适用于步兵和非飞行的骑乘单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NON_MINDLESS_INFANTRY_MOUNTED_BATTLESUIT_DESCRIPTION</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >This Mod can only be applied to non-Mindless Infantry, Mounted and Battlesuit units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该模块仅适用于非无意识的步兵、骑乘和机甲单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SYNDICATE_SLAVE_BATTLESUIT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This Mod can only be applied to non-Syndicate Biological, Cyborg and Battlesuit units that are Tier 1 or Tier 2.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该模块仅适用于非辛迪加的 1 阶和 2 阶生物、半机械人和机甲单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SYNDICTATE_INFANTRY_OR_SUBJUGATOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This Mod can only be applied to Infantry, Mounted Units and the Syndicate Subjugator unit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该模块仅适用于步兵、骑乘和辛迪加征服者单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INFANTRY_BATTLESUIT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This Mod can only be applied to Infantry and Battlesuit units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该模块仅适用于步兵和机甲单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INFANTRY_MOUNTED_BATTLESUIT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This Mod can only be applied to Infantry, Mounted and Battlesuit units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该模块仅适用于步兵、骑乘和机甲单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ASSEMBLY_BIOLOGICAL_MELEE_BATTLESUIT_DESCRIPTION</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >This Mod can only be applied to Biological, Cyborg and Battlesuit units that have a Melee ability.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该模块仅适用于拥有近战技能的生物、半机械人和机甲单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENTROPY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This Mod can only be applied to units that have an Entropy ability.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该模块仅适用于拥有混沌技能的单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NON_BATTLESUIT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This Mod can only be applied to non-Battlesuit units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该模块仅适用于非机甲单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NON_MINDLESS_SEER_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This Mod can only be applied to non-Mindless, non-Seer units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该模块仅适用于非无意识、非预言者单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BATTLESUIT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This Mod can only be applied to Battlesuit units.</Data></Cell><Cell
+        ><Data ss:Type="String">该模块仅适用于机甲单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ABILITY_TYPE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SONIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sonic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >声波</Data></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
     ><Unsynced /><Selected /><TopRowVisible>9</TopRowVisible><Panes><Pane
         ><Number>3</Number><ActiveRow>36</ActiveRow><ActiveCol

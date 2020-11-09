@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+  ><WindowHeight>7305</WindowHeight><WindowWidth>21420</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
     >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
     >False</ProtectStructure><ProtectWindows
@@ -658,10 +658,10 @@
             ss:Type="String"
           >MOD_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Inject target Biological or Cyborg unit with a specific concoction of purifying spores. The target is healed for {BioSporesPurificationHP} and all negative Status Effects are cleared.[br/][br/]Mechanical units with Xenoplague upgrades can also be affected.</Data></Cell><Cell
+          >Inject target friendly Biological or Cyborg unit with a specific concoction of purifying spores. The target is healed for {BioSporesPurificationHP} and all negative Status Effects are cleared.[br/][br/]Mechanical units with Xenoplague upgrades can also be affected.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >将特殊的净化孢子混合物注入目标生物或半机械人单位体内，治疗 {BioSporesPurificationHP}并清除所有负面状态效果。</Data></Cell></Row><Row
+          >将特殊的净化孢子混合物注入目标友方生物或半机械人单位体内，治疗 {BioSporesPurificationHP} 并清除所有负面状态效果。[br/][br/]具有异星疫病升级的机械单位也会受到影响。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">PARASITIC_HYBRID</Data></Cell><Cell><Data
             ss:Type="String"
@@ -797,10 +797,10 @@
             ss:Type="String"
           >LEVEL_1_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >{supplyPenalty}[supply/] income.[br/]Biological and Cyborg non-Xenoplague units heal {healPenalty}[hp/] less every strategic [turn/].</Data></Cell><Cell
+          >Xenoplague units gain [abilityblue]Regeneration[/abilityblue/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >{supplyPenalty}[supply/] 收益。[br/]非异星疫病生物和半机械人单位在每个战略 [turn/] 获得的治疗减少 {healPenalty}[hp/]。</Data></Cell></Row><Row
+          >异星疫病单位获得[abilityblue]再生[/abilityblue/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
@@ -824,10 +824,10 @@
             ss:Type="String"
           >LEVEL_2_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >{supplyPenalty}[supply/] income.[br/]Biological and Cyborg non-Xenoplague units heal {healPenalty}[hp/] less every strategic [turn/].[br/]Xenoplague units gain [abilityblue]Regeneration[/abilityblue/].</Data></Cell><Cell
+          >{supplyPenalty}[supply/] income.[br/]Biological and Cyborg non-Xenoplague units heal {healPenalty}[hp/] less every strategic [turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >{supplyPenalty}[supply/] 收益。[br/]非异星疫病生物和半机械人单位在每个战略 [turn/] 获得的治疗减少 {healPenalty}[hp/]。[br/]异星疫病单位获得[abilityblue]再生[/abilityblue/]。</Data></Cell></Row><Row
+          >{supplyPenalty}[supply/] 收益。[br/]非异星疫病生物和半机械人单位每个战略 [turn/] 获得的治疗减少 {healPenalty}[hp/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="75"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data

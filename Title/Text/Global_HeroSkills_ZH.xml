@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -498,7 +498,81 @@ Overwatch is an ability that modifies existing attacks.</Data></Cell></Row><Row
             ss:Type="String"
           >英雄将不再会被包抄。</Data></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
-          >Skill description.</Data></Cell></Row><Row><Cell><Data
+          >Skill description.</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">TIRELESS_FIGHTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Martial Artist: Tireless</Data></Cell><Cell><Data
+            ss:Type="String"
+          >武技大师：不知疲倦</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">TIRELESS_FIGHTER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The hero gains Tireless, allowing it to trigger Melee Overwatch multiple times in a turn (though never twice against the same target).</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >英雄获得“不知疲倦”，可在一个回合中触发多次近战警戒（但不会对同一个目标触发多次）。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FIRST_STRIKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Martial Artist: First Strike</Data></Cell><Cell><Data
+            ss:Type="String"
+          >武技大师：先发制人</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">FIRST_STRIKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The hero gains First Strike, meaning its Melee Overwatch triggers before the target that triggers it acts, unless the unit is Flanked.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >英雄获得“先发制人”，近战警戒会在触发警戒的目标行动之前发动，除非单位被包抄。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PERSONAL_WEAPON_EXPERT</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Personal Weapons Expert</Data></Cell><Cell><Data
+            ss:Type="String"
+          >个人武器专家</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PERSONAL_WEAPON_EXPERT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >When not in a vehicle, the hero's attacks gain {DamageBonus} damage and {AccuracyBonus} accuracy.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >未乘坐载具时，英雄的攻击获得 {DamageBonus} 伤害和 {AccuracyBonus} 准度。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PERSONAL_DEFENSE_EXPERT</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Personal Defense Expert</Data></Cell><Cell><Data
+            ss:Type="String"
+          >个人防卫专家</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PERSONAL_DEFENSE_EXPERT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >When not in a vehicle, the hero gains {ShieldBonus} shields and {ArmorBonus} armor.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >未乘坐载具时，英雄获得 {ShieldBonus} 护盾和 {ArmorBonus} 护甲。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >A type of hero skill used by Oathbound heroes to give bonuses to colonies</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OATHBOUND_COLONY_SKILL</Data></Cell><Cell
+        ><Data ss:Type="String">SKILL_SUBTITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Oathbound Colony Skill</Data></Cell><Cell><Data
+            ss:Type="String"
+          >誓约者殖民地技能</Data></Cell></Row><Row><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"

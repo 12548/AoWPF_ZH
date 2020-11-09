@@ -1,0 +1,671 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Nathan van den Berg</LastAuthor><LastSaved
+    >2020-06-22T13:39:08Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+        ss:Italic="1"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="119.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="107.25"
+      /><Column ss:StyleID="s62" ss:Width="350.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s62" ss:Width="293.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="120"
+      /><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >OATHBOUND_HERO_SKILLS</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OATHBOUND_SKILL_GROUP</Data></Cell><Cell
+        ><Data ss:Type="String">SKILL_SUBTITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Oathbound Hero Skill</Data></Cell><Cell><Data
+            ss:Type="String"
+          >誓约者英雄技能</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Skill tree header</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">HERO_SKILL_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Intuitive Strikes</Data></Cell><Cell><Data
+            ss:Type="String"
+          >敏锐突击</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Hero Skill name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">HERO_SKILL_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >If this unit has [abilityblue]Precognition[/abilityblue], it also gains +{DamageMult}% damage on all abilities.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >如果此单位拥有[abilityblue]预知[/abilityblue]，则其所有技能将额外造成 +{DamageMult}% 伤害。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        ><Data ss:Type="String">Hero Skill description
+Precognition is a buff that allows you to evade an attack</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO_SKILL_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Attenuators</Data></Cell><Cell><Data
+            ss:Type="String"
+          >衰减器</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Hero Skill name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">HERO_SKILL_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >While in a vehicle, gain one level of [abilityblue]Stagger Resistance[/abilityblue] and +{staggerResist} [abilityblue]status effect resistance[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位在载具中时获得 1 层[abilityblue]动摇抵抗[/abilityblue]和 + {staggerResist} [abilityblue]的状态效果抵抗[/abilityblue]。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO_SKILL_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Trailblazer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >开拓者</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Hero Skill name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">HERO_SKILL_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >While in a vehicle, unit has [abilityblue]Fast Movement[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位在载具中时获得[abilityblue]迅捷移动[/abilityblue]。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO_SKILL_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Field Repair Droid</Data></Cell><Cell><Data
+            ss:Type="String"
+          >战地修复机器人</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Hero Skill name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">HERO_SKILL_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vehicles driven by this hero gain [abilityblue]Regeneration[/abilityblue]. If destroyed, the vehicle is restored at {ResurganceRestore}%[hp/] at the end of battle.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此英雄驾驶的载具获得[abilityblue]再生[/abilityblue]。若载具被摧毁，战斗结束时会重生并恢复 {ResurganceRestore}%[hp/]。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO_SKILL_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Oracle's Protégé</Data></Cell><Cell><Data
+            ss:Type="String"
+          >神谕门徒</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Hero Skill name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">HERO_SKILL_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >For every level of reputation above Neutral, gain +{hpBonus}[hp/] and {armorBonus}[armor/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每达到一个“中立”之后的声望等级，获得+ {hpBonus}[hp/] 和 {armorBonus}[armor/]。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">HERO_SKILL_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION_POSITIVE_REP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This hero gains {hpBonus}[hp/] and {armorBonus}[armor/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此英雄获得 {hpBonus}[hp/] 和 {armorBonus}[armor/]。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        ><Data
+            ss:Type="String"
+          >Hero Skill effect description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO_SKILL_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Oracle's Favor</Data></Cell><Cell><Data
+            ss:Type="String"
+          >神谕眷顾</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Hero Skill name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">HERO_SKILL_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Units in this hero's stack start each battle with a stack of [abilityblue]Precognition[/abilityblue].[br/]Only works if this hero is the army's commander.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此英雄小组内的单位在每次战斗开始时获得一层[abilityblue]预知[/abilityblue]。[br/]仅在此英雄是军队指挥官时生效。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO_SKILL_7</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Overload Power Core</Data></Cell><Cell><Data
+            ss:Type="String"
+          >超载能量核心</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Hero Skill name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">HERO_SKILL_7</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >When in a Battlesuit vehicle, this hero gains the single action [abilityblue]Eject[/abilityblue] ability:[br/]Destroy your battlesuit, dealing {ejectDamage} [damageWave/] in a {radius} hex radius to enemy ground units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此英雄在机甲载具中时获得[abilityblue]弹射[/abilityblue]技能：[br/]摧毁战斗机甲，对 {radius} 个单元格范围内的敌方陆地单位造成 {ejectDamage} [damageWave/] 伤害。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        ><Data ss:Type="String">Hero Skill description
+Battlesuit is a type of vehicle</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">HERO_SKILL_7</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROP_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Destroy your Battlesuit, dealing {ejectDamage} [damageWave/] in a {radius} hex radius to enemy ground units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >摧毁机甲，对 {radius} 个单元格范围内的敌方陆地单位造成 {ejectDamage} [damageWave/] 伤害。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        ><Data ss:Type="String">Ability description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO_SKILL_8</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropic Infusion</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌灌注</Data></Cell><Cell ss:Index="7" ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Hero Skill name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="83.25"
+      ><Cell><Data ss:Type="String">HERO_SKILL_8</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's attacks gain {DamageEntropyS}[damageEntropy/] ({DamageEntropyR}[damageEntropy/] for repeating attacks) and a {strengthChance}[strengthentropy/] ({strengthChanceR}[strengthentropy/] for repeating attacks) chance to apply [abilityred]Entropic Decay[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位的攻击附带 {DamageEntropyS}[damageEntropy/]（多次攻击为 {DamageEntropyR}[damageEntropy/]）并有 {strengthChance}[strengthentropy/] 力量几率（多次攻击为 {strengthChanceR}[strengthentropy/]）施加[abilityred]混沌衰败[/abilityred]。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="33"
+      ><Cell><Data ss:Type="String">CITY_HERO_SKILLS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALWAYS_ACTIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Always Active</Data></Cell><Cell><Data
+            ss:Type="String"
+          >始终生效</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Conditional part of several hero skills descriptions</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="33"
+      ><Cell><Data ss:Type="String">CITY_HERO_SKILLS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WHEN_IN_CITY_DOMAIN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hero in Colony's domain</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地领域内的英雄</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Conditional part of several hero skills descriptions</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="33"
+      ><Cell><Data ss:Type="String">CITY_HERO_SKILLS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >OUTSIDE_DOMAIN_WITH_THRONE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hero outside Colony's domain</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地领域外的英雄</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Conditional part of several hero skills descriptions</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AGRARIAN_IDEALS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Colony Lord: Agrarian Ideals</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地领主：农耕理想</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Hero Skill name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="36"
+      ><Cell><Data ss:Type="String">AGRARIAN_IDEALS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This hero can become a Lord of a colony, granting it bonuses to food production and happiness.[br/]Disables the option to gain [abilityblue]Scientific Method[/abilityblue] and [abilityblue]Energetic Efficiency[/abilityblue]hero skill.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这位英雄可以成为殖民地领主，给予殖民地食物产力和幸福值加成。[br/]禁用选项可获得[abilityblue]科学方法[/abilityblue]和[abilityblue]能量效率[/abilityblue]英雄技能。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AGRARIAN_IDEALS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FOOD_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Food[food/] income increases by {foodIncomeIncrease}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >食物 [food/] 收益增加 {foodIncomeIncrease}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AGRARIAN_IDEALS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >HAPPINESS_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Happiness[happiness/] income increases by {happinessIncomeIncrease}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >幸福值 [happiness/] 收益增加 {happinessIncomeIncrease}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">NEW_GENERATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Colony Lord: New Generation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地领主：新世代</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Hero Skill name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="34.5"
+      ><Cell><Data ss:Type="String">NEW_GENERATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This hero inspires a new generation in their colony.[br/]Disables the option to gain [abilityblue]Euphoric Presence[/abilityblue] hero skill.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这位英雄激励着殖民地中的新生代居民。[br/]禁用选项可获得[abilityblue]欢欣仪态[/abilityblue]英雄技能。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="34.5"
+      ><Cell><Data ss:Type="String">NEW_GENERATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GROWTH_REQUIREMENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Growth requirement for a new colonist[population/] is lowered by {growthRequirement}%.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发展新移住民 [population/] 的需求降低 {growthRequirement}%。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EUPHORIC_PRESENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Colony Lord: Euphoric Presence</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地领主：欢欣仪态</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Hero Skill name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="32.25"
+      ><Cell><Data ss:Type="String">EUPHORIC_PRESENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This hero's presence makes the people in their colony happier more quickly.[br/]Disables the option to gain [abilityblue]New Generation[/abilityblue] hero skill.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这位英雄的风采使殖民地中的人民更加幸福。[br/]禁用选项可获得[abilityblue]新世代[/abilityblue]英雄技能。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="32.25"
+      ><Cell><Data ss:Type="String">EUPHORIC_PRESENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >HAPPINESS_THRESHOLD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Threshold for a happiness event is lowered by {happinessThreshold}%.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >幸福事件的阈值降低 {happinessThreshold}%。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCIENTIFIC_METHOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Colony Lord: Scientific Method</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地领主：科学方法</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Hero Skill name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60.75"
+      ><Cell><Data ss:Type="String">SCIENTIFIC_METHOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This hero can become Lord of a Colony, granting it bonuses to research and cosmite income.[br/]Disables the option to gain [abilityblue]Agrarian Ideals[/abilityblue] and [abilityblue]Energetic Efficiency[/abilityblue]hero skill.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这位英雄可以成为殖民地领主，给予殖民地研究和宇宙合金加成。[br/]禁用选项可获得[abilityblue]农耕理想[/abilityblue]和[abilityblue]能量效率[/abilityblue]英雄技能。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCIENTIFIC_METHOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RESEARCH_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Research[research/] income increases by {researchIncrease}%.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >研究 [research/] 收益增加 {researchIncrease}%。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCIENTIFIC_METHOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COSMITE_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cosmite[cosmite/] income increases by {cosmiteIncrease}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >宇宙合金 [cosmite/] 收益增加 {cosmiteIncrease}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MILITARY_FOCUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Colony Lord: Military Focus</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地领主：军事专注</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Hero Skill name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="27"
+      ><Cell><Data ss:Type="String">MILITARY_FOCUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The hero's combat expertise allows this colony to improve military research.[br/]Disables the option to gain [abilityblue]Societal Focus[/abilityblue] hero skill.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这位英雄的战斗专长推动殖民地改善军事研究。[br/]禁用选项可获得[abilityblue]社会关注[/abilityblue]英雄技能。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MILITARY_FOCUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MILITARY_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{researchIncrease}% [research/] for Military Research.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >军事研究提升 {researchIncrease}% [research/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SOCIETAL_FOCUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Colony Lord: Societal Focus</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地领主：社会专注</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Hero Skill name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">SOCIETAL_FOCUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The hero's intellect allows this colony to improve society research.[br/]Disables the option to gain [abilityblue]Military Focus[/abilityblue] hero skill.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这位英雄的智慧推动殖民地改善社会研究。[br/]禁用选项可获得[abilityblue]军事关注[/abilityblue]英雄技能。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SOCIETAL_FOCUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SOCIETY_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{researchIncrease}% [research/] for Society Research.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >社会研究提升 {researchIncrease}% [research/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENERGETIC_EFFICIENCY</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Colony Lord: Energetic Efficiency</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地领主：能量效率</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Hero Skill name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">ENERGETIC_EFFICIENCY</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This hero can become Lord of a Colony, granting it bonuses to production income and energy income.[br/]Disables the option to gain [abilityblue]Agrarian Ideals[/abilityblue] and [abilityblue]Scientific Method[/abilityblue]hero skill.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这位英雄可以成为殖民地领主，给予殖民地产力收益和能量收益加成。[br/]禁用选项可获得[abilityblue]农耕理想[/abilityblue]和[abilityblue]科学方法[/abilityblue]英雄技能。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENERGETIC_EFFICIENCY</Data></Cell><Cell
+        ><Data ss:Type="String">PRODUCTION_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Production[production/] income increases by {productionIncrease}%.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >产力 [production/] 收益增加 {productionIncrease}%。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENERGETIC_EFFICIENCY</Data></Cell><Cell
+        ><Data ss:Type="String">ENERGY_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Energy[energy/] income increases by {energyIncrease}%.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >能量 [energy/] 收益增加 {energyIncrease}%。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARMY_STANDARDIZATION</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Colony Lord: Army Standardization</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地领主：军队标准化</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Hero Skill name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">ARMY_STANDARDIZATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The hero's presence inspires a willingness to fight and decreases production time for new units.[br/]Disables the option to gain [abilityblue]Pre-Planned Structures[/abilityblue] hero skill.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这位英雄的出现激发了军队的战斗意愿，减少新单位的生产时间。[br/]禁用选项可获得[abilityblue]预先计划建筑[/abilityblue]英雄技能。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARMY_STANDARDIZATION</Data></Cell><Cell
+        ><Data ss:Type="String">UNIT_PRODUCTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{productionDiscount}% [production/] cost for all units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有单位的 [production/] 消耗减少 {productionDiscount}% 。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PREPLANNED_STRUCTURING</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Colony Lord: Pre-Planned Structures</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地领主：预先计划建筑</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Hero Skill name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PREPLANNED_STRUCTURING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The hero's knowledge of construction enables more efficient building and decreases building time.[br/]Disables the option to gain [abilityblue]Army Standardization[/abilityblue] hero skill.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这位英雄的建筑学知识使修建工作更加高效，减少建造时间。[br/]禁用选项可获得[abilityblue]军队标准化[/abilityblue]英雄技能。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PREPLANNED_STRUCTURING</Data></Cell><Cell
+        ><Data ss:Type="String">STRUCTURE_PRODUCTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{productionDiscount}% [production/] cost for all structures.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有建筑的 [production/] 消耗减少 {productionDiscount}% 。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Hero Skill description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO_SKILL_7</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Eject</Data></Cell><Cell><Data
+            ss:Type="String"
+          >弹射</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability name</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Text between {} should NOT be localized as they are numerical values in-game. Text between [] should NOT be localized as they are either icons or text formatting
+
+EXAMPLE: "Hero gains {PersonaAccDmg} increased damage and accuracy " looks in-game like "Hero gains +5 increased damage and accuracy"</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><TopRowVisible
+      >27</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >39</ActiveRow><ActiveCol>2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

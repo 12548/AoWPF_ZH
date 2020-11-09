@@ -1,0 +1,472 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Glenn Smits</LastAuthor><LastSaved>2019-03-08T10:28:35Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Interior
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="200.25"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="141" /><Column
+        ss:StyleID="s62"
+        ss:Width="175.5"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="237" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="425.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="120"
+      /><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >SECTORNAMES_LANDMARKS_DLC05</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >text serounded by {} or [] are special tags for code. These tag will be replaced with other text eg: the name of a player. The tags should NOT be localized. They represent the place in the sentens for their replacing string. Some {} tags start with STR or INT. STR means it will be replaced with text, INT means it will be replaced with a numerical value  </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DARKTOWERB01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Nightmare Spire</Data></Cell><Cell><Data
+            ss:Type="String"
+          >梦魇尖塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tower of Sin</Data></Cell><Cell><Data
+            ss:Type="String"
+          >罪孽高塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vile Lookout</Data></Cell><Cell><Data
+            ss:Type="String"
+          >卑劣岗哨</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Chaos Spire</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混乱尖塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Pillar of Anarchy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >动荡之柱</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB06</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fortress of Horror</Data></Cell><Cell><Data
+            ss:Type="String"
+          >惊骇堡垒</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB07</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_7</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blackguard Keep</Data></Cell><Cell><Data
+            ss:Type="String"
+          >黑卫城楼</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB08</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_8</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gengah Tower</Data></Cell><Cell><Data
+            ss:Type="String"
+          >杰格高塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB09</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_9</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Seat of Power</Data></Cell><Cell><Data
+            ss:Type="String"
+          >能量之座</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB10</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_10</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Throne of Anarchy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >动荡王座</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB11</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_11</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Citadel of Nightmares</Data></Cell><Cell><Data
+            ss:Type="String"
+          >梦魇城堡</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB12</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_12</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sinful Fortification</Data></Cell><Cell><Data
+            ss:Type="String"
+          >罪恶防御工事</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB13</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_13</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spire of the Corrupt</Data></Cell><Cell><Data
+            ss:Type="String"
+          >腐化尖塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB14</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_14</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Malicious Lookout</Data></Cell><Cell><Data
+            ss:Type="String"
+          >恶意岗哨</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB15</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_15</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Malicious Citadel</Data></Cell><Cell><Data
+            ss:Type="String"
+          >恶意城堡</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB16</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_16</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Malicious Spire</Data></Cell><Cell><Data
+            ss:Type="String"
+          >恶意尖塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB17</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_17</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Malicious Fortification</Data></Cell><Cell><Data
+            ss:Type="String"
+          >恶意防御工事</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB18</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_18</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Malicious Tower</Data></Cell><Cell><Data
+            ss:Type="String"
+          >邪恶高塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB19</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_19</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Throne of Nightmares</Data></Cell><Cell><Data
+            ss:Type="String"
+          >梦魇王座</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB20</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_20</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Throne of Sin</Data></Cell><Cell><Data
+            ss:Type="String"
+          >罪孽王座</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB21</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_21</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Throne of Ruin</Data></Cell><Cell><Data
+            ss:Type="String"
+          >废墟王座</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB22</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_22</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Throne of the Vile Seat</Data></Cell><Cell><Data
+            ss:Type="String"
+          >卑劣王座</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB23</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_23</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Throne of the Blackguard</Data></Cell><Cell><Data
+            ss:Type="String"
+          >黑卫王座</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB24</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_24</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blackguard Citadel</Data></Cell><Cell><Data
+            ss:Type="String"
+          >黑卫城堡</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB25</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_25</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blackguard Fortification</Data></Cell><Cell><Data
+            ss:Type="String"
+          >黑卫防御工事</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB26</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_26</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blackguard Fort</Data></Cell><Cell><Data
+            ss:Type="String"
+          >黑卫堡垒</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB27</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_27</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fort of Despair</Data></Cell><Cell><Data
+            ss:Type="String"
+          >绝望堡垒</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB28</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_28</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fortification of Sin</Data></Cell><Cell><Data
+            ss:Type="String"
+          >罪孽防御工事</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB29</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_29</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Pillar to Broken Oaths</Data></Cell><Cell><Data
+            ss:Type="String"
+          >毁誓之柱</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB30</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_30</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spire of the Broken</Data></Cell><Cell><Data
+            ss:Type="String"
+          >破碎尖塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB31</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_31</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Monolith of the Oathbreakers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >背誓者巨石</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB32</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_32</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Stronghold of Chaos</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌据点</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB33</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_33</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tower of Decay</Data></Cell><Cell><Data
+            ss:Type="String"
+          >腐化高塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB34</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_34</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blighted Column</Data></Cell><Cell><Data
+            ss:Type="String"
+          >枯萎圆柱</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB35</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_35</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Oathbreaker Spire</Data></Cell><Cell><Data
+            ss:Type="String"
+          >背誓者尖塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB36</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_36</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tower of Broken Oaths</Data></Cell><Cell><Data
+            ss:Type="String"
+          >毁誓高塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB37</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_37</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Occult Tower</Data></Cell><Cell><Data
+            ss:Type="String"
+          >神秘高塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB38</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_38</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tower of Trials</Data></Cell><Cell><Data
+            ss:Type="String"
+          >审判高塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB39</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_39</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fortress of the Oathbreakers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >背誓者堡垒</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB40</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_40</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spire of the Oathbreakers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >破誓者尖塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB41</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_41</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heretic Tower</Data></Cell><Cell><Data
+            ss:Type="String"
+          >异端高塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB42</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_42</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Seat of the Renegades</Data></Cell><Cell><Data
+            ss:Type="String"
+          >变节者基地</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB43</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_43</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Citadel of the Oathbreakers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >背誓者城堡</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB44</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_44</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tower of Knaves</Data></Cell><Cell><Data
+            ss:Type="String"
+          >纳弗斯高塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB45</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_45</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Citadel of Knaves</Data></Cell><Cell><Data
+            ss:Type="String"
+          >纳弗斯城堡</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB46</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_46</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Renegade Tower</Data></Cell><Cell><Data
+            ss:Type="String"
+          >变节者高塔</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB47</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_47</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tyrant's Fortress</Data></Cell><Cell><Data
+            ss:Type="String"
+          >暴君堡垒</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB48</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_48</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tyrant's Citadel</Data></Cell><Cell><Data
+            ss:Type="String"
+          >暴君城堡</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB49</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_49</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tyrant's Tower </Data></Cell><Cell><Data
+            ss:Type="String"
+          >暴君高塔 </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DARKTOWERB50</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_50</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Spire of the Tyrant </Data></Cell><Cell><Data
+            ss:Type="String"
+          >暴君尖塔 </Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>85</Zoom><Selected /><Panes><Pane
+        ><Number>3</Number><ActiveRow>49</ActiveRow><ActiveCol
+          >4</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7320</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -455,6 +455,23 @@ Heritor is refering to the new secret tech that we are implementing. It's derive
         ><Data
             ss:Type="String"
           >该单位获得了精细的水晶强化改造，对所有状态效果获得 {Resistance} 抵抗和 +{CritChance}% 暴击率.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CRYSTAL_ALTAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_BONUS_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Produced Heritor gain +{damage}% damage.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生产的继承者单位获得 +{damage}% 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CRYSTAL_ALTAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_BONUS_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Produced units gain +{Resistance} resistance to status effects and +{CritChance}% critical hit chance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >生产的单位获得 +{Resistance} 状态效果抵抗以及 +{CritChance}% 暴击率。</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell

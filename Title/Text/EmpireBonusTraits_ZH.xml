@@ -1,0 +1,644 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author
+    >Tom Bird</Author><LastAuthor>Tom Bird</LastAuthor><Created
+    >2020-09-03T14:42:13Z</Created><LastSaved
+    >2020-09-03T14:54:48Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:CharSet="1"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="292.5"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="134.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="145.5"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="384.75" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s62" ss:Width="283.5" /><Column
+        ss:StyleID="s62"
+        ss:Width="120"
+      /><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
+            ss:Type="String"
+          >EMPIRE_BONUS_TRAITS</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BASE_NAMES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >VETERAN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Veteran: </Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国老兵： </Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The lowest rank for an Imperial hero</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BASE_NAMES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CHAMPION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Champion:</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国勇士：</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The 3rd highest rank for an imperial hero (i.e. should be higher than Veteran)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">BASE_NAMES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >HERO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Hero:</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国英雄：</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The 2nd highest rank for an Imperial hero (i.e. should be higher than Champion and Veteran)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">BASE_NAMES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Lord:</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国领主：</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The highest rank for an Imperial hero</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">BASE_NAMES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Command:</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国指挥：</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used to say "This unit is under the command of" what comes after the colon</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DEFAULT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENDING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[br/][br/]Only functions when the hero is the army's commander.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[br/][br/]只有当该英雄是军队指挥官时才能生效。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SOLDIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >Imperial Veteran: Soldier</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国老兵：士兵</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The lowest rank for an Imperial hero</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SOLDIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Champion: Soldier</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国勇士：士兵</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The 3rd highest rank for an imperial hero (i.e. should be higher than Veteran)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SOLDIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Hero: Soldier</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国英雄：士兵</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The 2nd highest rank for an Imperial hero (i.e. should be higher than Champion and Veteran)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SOLDIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Lord: Soldier</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国领主：士兵</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The highest rank for an Imperial hero</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="76.3125"
+      ><Cell><Data ss:Type="String">SOLDIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_PROPERTY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Command: Soldier</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国指挥：士兵</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used to say "This unit is under the command of" what comes after the colon</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="42"
+      ><Cell><Data ss:Type="String">SOLDIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BONUS_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units in the hero's army gain {DamageBonus} damage.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >英雄军队内的所有单位获得 {DamageBonus} 伤害。{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">SOLDIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BONUS_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units in the hero's army gain {DamageBonus} damage and {MoraleBonus}.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >英雄军队内的所有单位获得 {DamageBonus} 伤害和 {MoraleBonus}。{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="76.3125"
+      ><Cell><Data ss:Type="String">SOLDIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BONUS_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units in the hero's army gain {DamageBonus} damage and {MoraleBonus}.[br/][br/]When a unit in the hero's army kills an enemy unit, it recovers 1 action point.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >英雄军队内的所有单位获得 {DamageBonus} 伤害和 {MoraleBonus}。[br/][br/]英雄军队内的单位击杀敌方单位时，可恢复 1 点操作点数。{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="76.3125"
+      ><Cell><Data ss:Type="String">SOLDIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_PROPERTY_DESC_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit is under the command of an imperial hero, and gains {DamageBonus} damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位正处在某个帝国英雄的指挥之下，获得 {DamageBonus} 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="76.3125"
+      ><Cell><Data ss:Type="String">SOLDIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_PROPERTY_DESC_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit is under the command of an imperial hero, and gains {DamageBonus} damage and {MoraleBonus}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位正处在某个帝国英雄的指挥之下，获得 {DamageBonus} 伤害和 {MoraleBonus}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="76.3125"
+      ><Cell><Data ss:Type="String">SOLDIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_PROPERTY_DESC_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit is under the command of an imperial hero, and gains {DamageBonus} damage and {MoraleBonus} morale.[br/][br/]When this unit kills an enemy unit, it recovers 1 action point.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位正处在某个帝国英雄的指挥之下，获得 {DamageBonus} 伤害和 {MoraleBonus}。[br/][br/]此单位击杀敌方单位时，可恢复 1 点操作点数。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="76.3125"
+      ><Cell><Data ss:Type="String">SOLDIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PERK_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >When the hero reaches level 2 in the Hall of Heroes it will gain [abilityblue]Imperial Soldier[/abilityblue] command abilities.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >英雄在英雄大厅达到 2 级时将获得[abilityblue]帝国士兵[/abilityblue]指挥技能。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >Imperial Veteran: Juggernaut</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国老兵：主宰</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The lowest rank for an Imperial hero</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Champion: Juggernaut</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国勇士：主宰</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The 3rd highest rank for an imperial hero (i.e. should be higher than Veteran)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Hero: Juggernaut</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国英雄：主宰</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The 2nd highest rank for an Imperial hero (i.e. should be higher than Champion and Veteran)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Lord: Juggernaut</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国领主：主宰</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The highest rank for an Imperial hero</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="76.3125"
+      ><Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_PROPERTY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Command: Juggernaut</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国指挥：主宰</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used to say "This unit is under the command of" what comes after the colon</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="48.75"
+      ><Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BONUS_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units in the hero's army gain {ArmorBonus}. {XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >英雄军队内的所有单位获得 {ArmorBonus}。{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="44.25"
+      ><Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BONUS_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units in the hero's army gain {ArmorBonus} and {HealthBonus}.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >英雄军队内的所有单位获得 {ArmorBonus} 和 {HealthBonus}。{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="82.6875"
+      ><Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BONUS_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units in the hero's army gain {ArmorBonus}, {HealthBonus} and [abilityblue]Resurgence[/abilityblue]{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >英雄军队内的所有单位获得 {ArmorBonus}、{HealthBonus} 和[abilityblue]复苏[/abilityblue]。{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Resurgence is an ability used elsewhere in the game, that causes a dead unit to come back to life after battle</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >复苏是一种在游戏其他地方生效的技能，可在战斗结束后使阵亡的单位复活</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="82.6875"
+      ><Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_PROPERTY_DESC_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit is under the command of an imperial hero, and gains {ArmorBonus}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位正处在某个帝国英雄的指挥之下，获得 {ArmorBonus}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="82.6875"
+      ><Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_PROPERTY_DESC_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit is under the command of an imperial hero, and gains {ArmorBonus} and {HealthBonus}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位正处在某个帝国英雄的指挥之下，获得 {ArmorBonus} 和 {HealthBonus}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="82.6875"
+      ><Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_PROPERTY_DESC_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit is under the command of an imperial hero, and gains {ArmorBonus} and {HealthBonus}.[br/][br/]It also gains [abilityBlue]Resurgence[/abilityBlue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位正处在某个帝国英雄的指挥之下，获得 {ArmorBonus} 和 {HealthBonus}。[br/][br/]同时，单位还将获得[abilityBlue]复苏[/abilityBlue]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="76.3125"
+      ><Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PERK_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >When the hero reaches level 2 in the Hall of Heroes it will gain [abilityblue]Imperial Juggernaut[/abilityblue] command abilities.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >英雄在英雄大厅达到 2 级时将获得[abilityblue]帝国主宰[/abilityblue]指挥技能。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SNIPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Veteran: Sniper</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国老兵：狙击手</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The lowest rank for an Imperial hero</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SNIPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Champion: Sniper</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国勇士：狙击手</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The 3rd highest rank for an imperial hero (i.e. should be higher than Veteran)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SNIPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Hero: Sniper</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国英雄：狙击手</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The 2nd highest rank for an Imperial hero (i.e. should be higher than Champion and Veteran)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="33.75"
+      ><Cell><Data ss:Type="String">SNIPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Lord: Sniper</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国领主：狙击手</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The highest rank for an Imperial hero</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="76.3125"
+      ><Cell><Data ss:Type="String">SNIPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_PROPERTY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Command: Sniper</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国指挥：狙击手</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used to say "This unit is under the command of" what comes after the colon</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="40.6875"
+      ><Cell><Data ss:Type="String">SNIPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BONUS_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units in the hero's army gain {AccuracyBonus} accuracy.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >英雄军队内的所有单位获得 {AccuracyBonus} 准度。{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="58.6875"
+      ><Cell><Data ss:Type="String">SNIPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BONUS_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units in the hero's army gain {AccuracyBonus} accuracy and {CriticalBonus} critical hit chance.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >英雄军队内的所有单位获得 {AccuracyBonus} 准度和 {CriticalBonus} 暴击率。{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="69.75"
+      ><Cell><Data ss:Type="String">SNIPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BONUS_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units in the hero's army gain {AccuracyBonus} accuracy, {CriticalBonus} critical hit chance and {CriticalDamageBonus} critical damage.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >英雄军队内的所有单位获得 {AccuracyBonus} 准度、{CriticalBonus} 暴击率和 {CriticalDamageBonus} 暴击伤害。{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="82.6875"
+      ><Cell><Data ss:Type="String">SNIPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_PROPERTY_DESC_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit is under the command of an imperial hero, and gains {AccuracyBonus} accuracy.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位正处在某个帝国英雄的指挥之下，获得 {AccuracyBonus} 准度。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="82.6875"
+      ><Cell><Data ss:Type="String">SNIPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_PROPERTY_DESC_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit is under the command of an imperial hero, and gains {AccuracyBonus} accuracy and {CriticalBonus} critical hit chance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位正处在某个帝国英雄的指挥之下，获得 {AccuracyBonus} 准度和 {CriticalBonus} 暴击率。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="82.6875"
+      ><Cell><Data ss:Type="String">SNIPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_PROPERTY_DESC_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit is under the command of an imperial hero, and gains {AccuracyBonus} accuracy, {CriticalBonus} critical hit chance and {CriticalDamage} critical damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位正处在某个帝国英雄的指挥之下，获得 {AccuracyBonus} 准度、{CriticalBonus} 暴击率和 {CriticalDamage} 暴击伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="76.3125"
+      ><Cell><Data ss:Type="String">SNIPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PERK_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >When the hero reaches level 2 in the Hall of Heroes it will gain [abilityblue]Imperial Sniper[/abilityblue] command abilities.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >英雄在英雄大厅达到 2 级时将获得[abilityblue]帝国狙击手[/abilityblue]指挥技能。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PILOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Veteran: Pilot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国老兵：机师</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The lowest rank for an Imperial hero</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PILOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Champion: Pilot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国勇士：机师</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The 3rd highest rank for an imperial hero (i.e. should be higher than Veteran)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PILOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Hero: Pilot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国英雄：机师</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The 2nd highest rank for an Imperial hero (i.e. should be higher than Champion and Veteran)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PILOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Lord: Pilot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国领主：机师</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The highest rank for an Imperial hero</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="76.3125"
+      ><Cell><Data ss:Type="String">PILOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_PROPERTY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Command: Pilot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国指挥：机师</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used to say "This unit is under the command of" what comes after the colon</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="33"
+      ><Cell><Data ss:Type="String">PILOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BONUS_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units in the hero's army gain {ShieldBonus} shields.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >英雄军队内的所有单位获得 {ShieldBonus} 护盾。{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="69.75"
+      ><Cell><Data ss:Type="String">PILOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BONUS_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units in the hero's army gain {ShieldBonus} and heal {HealBonus} per turn on the world map.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >英雄军队内的所有单位获得 {ShieldBonus}，并且在世界地图上每回合治疗 {HealBonus}。{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="70.3125"
+      ><Cell><Data ss:Type="String">PILOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BONUS_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units in the hero's army gain {ShieldBonus} and [abilityblue]Regeneration[/abilityblue]{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >英雄军队内的所有单位获得 {ShieldBonus} 和[abilityblue]复生[/abilityblue]{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="82.6875"
+      ><Cell><Data ss:Type="String">PILOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_PROPERTY_DESC_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit is under the command of an imperial hero, and gains {ShieldBonus}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位正处在某个帝国英雄的指挥之下，获得 {ShieldBonus}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="82.6875"
+      ><Cell><Data ss:Type="String">PILOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_PROPERTY_DESC_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit is under the command of an imperial hero, and gains {ShieldBonus} and heals an extra {HealBonus} each turn on the world map.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位正处在某个帝国英雄的指挥之下，获得 {ShieldBonus} 并且在世界地图上每回合额外治疗 {HealBonus}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="82.6875"
+      ><Cell><Data ss:Type="String">PILOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_PROPERTY_DESC_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit is under the command of an imperial hero, and gains {ShieldBonus} and [abilityblue]Regeneration[/abilityblue]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位正处在某个帝国英雄的指挥之下，获得 {ShieldBonus} 和[abilityblue]复生[/abilityblue]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="76.3125"
+      ><Cell><Data ss:Type="String">PILOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PERK_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >When the hero reaches level 2 in the Hall of Heroes it will gain [abilityblue]Imperial Pilot[/abilityblue] command abilities.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >英雄在英雄大厅达到 2 级时将获得[abilityblue]帝国机师[/abilityblue]指挥技能。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><PaperSizeIndex
+        >9</PaperSizeIndex><HorizontalResolution
+        >300</HorizontalResolution><VerticalResolution
+        >300</VerticalResolution></Print><Zoom>130</Zoom><Selected
+      /><TopRowVisible>51</TopRowVisible><Panes><Pane><Number
+          >3</Number><ActiveRow>60</ActiveRow><ActiveCol
+          >2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

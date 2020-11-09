@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
     >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
     >False</ProtectStructure><ProtectWindows
@@ -188,10 +188,10 @@
             ss:Type="String"
           >MOD_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Whenever the unit takes damage, its attacker is teleported {QuantumAvatarTeleport} hex away from their current position and receives [abilityred]Dimensional Instability[/abilityred].[br/][br/]Voidtech or Voidtech-modded units adjacent to this one receive {QuantumAvatarShields} and gain a level of [abilityblue]Stagger Resistance[/abilityblue].</Data></Cell><Cell
+          >Whenever the unit takes damage, its attacker is teleported {QuantumAvatarTeleport} hex away from their current position and has a {StasisChance}[strengthphysical/] strength chance to receive [abilityred]Dimensional Instability[/abilityred].[br/][br/]The unit and any Voidtech or Voidtech-modded units adjacent to it receive {QuantumAvatarShields}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位受到伤害时，攻击者将会被传送至其当前位置 {QuantumAvatarTeleport} 个单元格之外，并获得[abilityred]维度动荡[/abilityred]。[br/][br/]与该单位相邻的虚空科技单位或者装有虚空科技模块的单位获得 {QuantumAvatarShields} 并获得 1 级[abilityblue]动摇抵抗[/abilityblue]。</Data></Cell></Row><Row
+          >每当单位受到伤害时，攻击者将会被传送至其当前位置 {QuantumAvatarTeleport} 个单元格之外，并有 {StasisChance}[strengthphysical/] 力量几率遭受[abilityred]维度动荡[/abilityred]。[br/][br/]此单位及其相邻的所有虚空科技或拥有虚空科技模块的单位获得 {QuantumAvatarShields}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell><Cell><Data
             ss:Type="String"
@@ -206,10 +206,10 @@
             ss:Type="String"
           >EFFECT_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This Voidtech unit stands within a Quantum Avatar halo effect, gaining {QuantumAvatarShields} and High Impact resistance.</Data></Cell><Cell
+          >This Voidtech unit stands within a Quantum Avatar halo effect, gaining {QuantumAvatarShields}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该虚空科技单位正处于量子化身光环的效果范围内，获得 {QuantumAvatarShields} 和高度冲击抵抗。</Data></Cell><Cell
+          >此虚空科技单位正处于量子化身光环的效果范围内，获得 {QuantumAvatarShields}。</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s63"
         ><Data
@@ -1027,19 +1027,19 @@
             ss:Type="String"
           >LEVEL_1_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Steal {EnergyDrain}[energy/] income.</Data></Cell><Cell><Data
+          >Voidtech units gain [abilityblue]Phase Field[/abilityblue]</Data></Cell><Cell
+        ><Data
             ss:Type="String"
-          >窃取 {EnergyDrain}[energy/] 收益。</Data></Cell></Row><Row
+          >虚空科技单位获得[abilityblue]相位力场[/abilityblue]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
           >LEVEL_2_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Steal {EnergyDrain}[energy/] income.[br/]Voidtech units gain +{damageIncrease}% damage.</Data></Cell><Cell
-        ><Data
+          >Steal {EnergyDrain}[energy/] income.</Data></Cell><Cell><Data
             ss:Type="String"
-          >窃取 {EnergyDrain}[energy/] 收益。[br/]虚空科技单位获得 +{damageIncrease}% 伤害。</Data></Cell></Row><Row
+          >窃取 {EnergyDrain}[energy/] 收益。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="90"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
@@ -1259,10 +1259,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Non-Mindless units in target army gain [abilityred]Destabilized[/abilityred] for {TurnDuration}, reducing damage resistance by {LoweredResistance} and decreasing morale by {LoweredMorale}.[br/][br/]On failure, they are [abilityred]Demoralized[/abilityred] instead, reducing their morale by {LoweredMorale}.</Data></Cell><Cell
+          >Units in target army gain [abilityred]Destabilized[/abilityred] for {TurnDuration}, reducing damage resistance by {LoweredResistance} and decreasing morale by {LoweredMorale}.[br/][br/]If resisted, they are [abilityred]Demoralized[/abilityred] instead, reducing their morale by {LoweredMorale}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >目标军队中的非无意识单位获得[abilityred]失去稳定[/abilityred]，持续 {TurnDuration}，并减少 {LoweredResistance} 伤害抵抗和 {LoweredMorale} 士气。[br/][br/]如果失败，则单位获得[abilityred]士气低落[/abilityred]，减少 {LoweredMorale} 士气。</Data></Cell></Row><Row
+          >目标军队中的单位[abilityred]失去稳定[/abilityred]，持续 {TurnDuration}，并减少其 {LoweredResistance} 伤害抵抗和 {LoweredMorale} 士气。[br/][br/]如果被抵抗，则改为[abilityred]士气低落[/abilityred]，减少其 {LoweredMorale} 士气。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell><Cell><Data

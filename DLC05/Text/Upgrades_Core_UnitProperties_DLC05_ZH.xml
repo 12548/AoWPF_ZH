@@ -1,0 +1,330 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author
+    >Arnout Sas</Author><LastAuthor>Glenn Smits</LastAuthor><Created
+    >2019-10-11T09:10:39Z</Created><LastSaved
+    >2020-05-25T09:23:20Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>7305</WindowHeight><WindowWidth>21420</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+      ss:Name="Hyperlink"
+    ><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#0066CC"
+        ss:Underline="Single"
+      /></Style><Style ss:ID="s63"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /></Style><Style ss:ID="s65" ss:Parent="s62"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s63"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="186" /><Column
+        ss:StyleID="s63"
+        ss:Width="66.75"
+      /><Column ss:StyleID="s63" ss:Width="404.25" /><Column
+        ss:StyleID="s63"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s63" ss:Width="305.25" /><Column
+        ss:StyleID="s63"
+        ss:Width="186.75"
+      /><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >UNIT_UPGRADES_CORE_DLC05</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OATHBOUND_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell
+          ss:StyleID="s65"
+          ss:HRef="mailto:%7BXML_SPECIES_OATHBOUND@RACE@NAME_SINGULAR%7D"
+        ><Data
+            ss:Type="String"
+          >{XML_SPECIES_OATHBOUND@RACE@NAME_SINGULAR}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_SPECIES_OATHBOUND@RACE@NAME_SINGULAR}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">{text} inserts the OATHBOUND singular name
+Don't Translate</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >OATHBOUND_REQUISITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >An Oathbound unit.[br/]{XML_SPECIES_OATHBOUND@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >誓约者单位。[br/]{XML_SPECIES_OATHBOUND@RACE@DESCRIPTION_SHORT}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">{text} inserts the short OATHBOUND description.
+Don't translate: {XML_SPECIES_OATHBOUND@RACE@DESCRIPTION_SHORT}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SEER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Seer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >预言者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Unit Type</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SEER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is a Seer.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >此单位是预言者。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Unit Type Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >DEFENSE_MODE_PROTECTOR_SHIELDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defense Mode: Protector Shields</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御模式：保卫者护盾</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Defense Mode Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="93"
+      ><Cell><Data
+            ss:Type="String"
+          >DEFENSE_MODE_PROTECTOR_SHIELDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit ends its turn and goes into a defensive mode. It grants itself and adjacent allies {DefenseModeProtectorShieldBonus}. It also becomes {DefensiveAccuracyTarget} harder to hit and cannot be flanked.[br/]If this unit is staggered, the defensive mode is canceled.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位结束回合并进入防御模式，使自身和相邻友军获得 {DefenseModeProtectorShieldBonus}，同时自身命中难度增加 {DefensiveAccuracyTarget} 且无法被包抄。[br/]此单位被动摇时，防御模式将会中止。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Defense Mode Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >DEFENSE_MODE_INDOMITABLE_CHAMPION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defense Mode: Indomitable Champion</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御模式：不屈捍卫者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Defense Mode Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="86.25"
+      ><Cell><Data
+            ss:Type="String"
+          >DEFENSE_MODE_INDOMITABLE_CHAMPION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit ends its turn and goes into a defensive mode. It gains Tireless and Resolute. It also becomes {DefensiveAccuracyTarget} harder to hit and cannot be flanked.[br/]If this unit is staggered, the defensive mode is canceled.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位结束回合并进入防御模式，获得“坚定”和“不知疲倦”，命中难度增加 {DefensiveAccuracyTarget} 且无法被包抄。[br/]此单位被动摇时，防御模式将会中止。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Defense Mode Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEROISM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heroism</Data></Cell><Cell><Data
+            ss:Type="String"
+          >英勇气概</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Unit Property Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">HEROISM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This units deals {bonusDamage} bonus damage for each tier higher a target unit is than itself.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位的攻击目标阶级每高于自己一阶，便可额外造成 {bonusDamage} 伤害。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Unit Property Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AGAINST_ALL_ODDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Against All Odds</Data></Cell><Cell><Data
+            ss:Type="String"
+          >披荆斩棘</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Unit Property Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">AGAINST_ALL_ODDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The unit gains {oddsEvasion} evasion for each enemy within {oddsHexRange} hexes of itself.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位附近 {oddsHexRange} 个单元格内每有一个敌人，就获得 {oddsEvasion} 闪避。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Unit Property Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SWOOPING_OVERWATCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Swooping Overwatch</Data></Cell><Cell><Data
+            ss:Type="String"
+          >俯冲警戒</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Unit Property Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">SWOOPING_OVERWATCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit can trigger melee overwatch on ground units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位可以对陆地单位触发近战警戒。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Unit Property Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">UNWAVERING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unwavering</Data></Cell><Cell><Data
+            ss:Type="String"
+          >坚定意志</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Unit Property Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">UNWAVERING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit will get {critchance} critical hit chance when its health is below {hptreshold}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位在生命值低于 {hptreshold} 时会获得 {critchance} 暴击率。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Unit Property Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">UNWAVERING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has {critchance} critical hit chance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位获得 {critchance} 暴击率。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Unit Property Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >DEFENSE_MODE_INSPIRING_WARDEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Defense Mode: Inspiring Warden</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御模式：激励典狱官</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Defense Mode Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >DEFENSE_MODE_INSPIRING_WARDEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit ends its turn and goes into a defensive mode. It gives {moraleBoost} to friendly units in a {hexrad} hex radius for {turn} at the end of this turn.[br/]If this unit is staggered, the defensive mode is canceled.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位结束回合并进入防御模式。在当前回合结束时，使 {hexrad} 个单元格范围内的友方单位获得 {moraleBoost}，持续 {turn}。[br/]此单位被动摇时，防御模式将会中止。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Defense Mode Ability Description</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><TopRowVisible
+      >93</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >13</ActiveRow><ActiveCol>2</ActiveCol><RangeSelection
+          >R13:R14</RangeSelection></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

@@ -12,16 +12,16 @@
   <LastAuthor>GameScribes4</LastAuthor>
   <Created>2019-06-25T15:50:54Z</Created>
   <LastSaved>2019-06-28T22:44:53Z</LastSaved>
-  <Version>16.00</Version>
+  <Version>15.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG />
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>10215</WindowHeight>
-  <WindowWidth>21570</WindowWidth>
-  <WindowTopX>32767</WindowTopX>
-  <WindowTopY>32767</WindowTopY>
+  <WindowHeight>17985</WindowHeight>
+  <WindowWidth>-13936</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
   <RefModeR1C1 />
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
@@ -237,7 +237,7 @@
  <Worksheet ss:Name="Script">
   <Table
       ss:ExpandedColumnCount="27"
-      ss:ExpandedRowCount="3103"
+      ss:ExpandedRowCount="3134"
       x:FullColumns="1"
       x:FullRows="1"
       ss:StyleID="s66"
@@ -9765,7 +9765,7 @@
             ss:Type="String"
           >XBOX_USER_ENGAGEMENT_PRESS_ANY_BUTTON_TO_PLAY</Data></Cell>
     <Cell><Data ss:Type="String">Press any button to continue</Data></Cell>
-    <Cell><Data ss:Type="String">按下任意键继续</Data></Cell>
+    <Cell><Data ss:Type="String">按下任意按钮继续</Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >Tells the player to press any button on the Xbox controller. Keep in mind the correct term has to be used according to Microsoft's Xbox One Official Naming S tandards</Data></Cell>
@@ -21501,10 +21501,8 @@
     <Cell ss:StyleID="s67"><Data ss:Type="String">DWELLINGS</Data></Cell>
     <Cell><Data
             ss:Type="String"
-          >Select the frequency of NPC Dwellings. Dwellings cannot be disabled.</Data></Cell>
-    <Cell><Data
-            ss:Type="String"
-          >选择 NPC 居住地的出现频率，居住地不可被禁用。</Data></Cell>
+          >Select the frequency of NPC Dwellings. </Data></Cell>
+    <Cell><Data ss:Type="String">选择 NPC 居住地的出现频率。</Data></Cell>
     <Cell ss:Index="7"><Data
             ss:Type="String"
           >tooltip the frequency of these in-game locations</Data></Cell>
@@ -22763,32 +22761,32 @@
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s67"><Data ss:Type="String">CITY_PREFIX</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">NAME_STEP3</Data></Cell>
+    <Cell><Data ss:Type="String">Bastion</Data></Cell>
+    <Cell><Data ss:Type="String">堡垒</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CITY_PREFIX</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">NAME_STEP4</Data></Cell>
+    <Cell><Data ss:Type="String">Town</Data></Cell>
+    <Cell><Data ss:Type="String">小镇</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CITY_PREFIX</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">NAME_STEP5</Data></Cell>
     <Cell><Data ss:Type="String">City</Data></Cell>
     <Cell><Data ss:Type="String">城市</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s67"><Data ss:Type="String">CITY_PREFIX</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">NAME_STEP4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">NAME_STEP6</Data></Cell>
     <Cell><Data ss:Type="String">Metropolis</Data></Cell>
     <Cell><Data ss:Type="String">首府</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s67"><Data ss:Type="String">CITY_PREFIX</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">NAME_STEP5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">NAME_STEP7</Data></Cell>
     <Cell><Data ss:Type="String">Megalopolis</Data></Cell>
     <Cell><Data ss:Type="String">大都市</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s67"><Data ss:Type="String">CITY_PREFIX</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">NAME_STEP6</Data></Cell>
-    <Cell><Data ss:Type="String">Ecumenopolis</Data></Cell>
-    <Cell><Data ss:Type="String">世界都市</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s67"><Data ss:Type="String">CITY_PREFIX</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">NAME_STEP7</Data></Cell>
-    <Cell><Data ss:Type="String">Hive City</Data></Cell>
-    <Cell><Data ss:Type="String">族群城市</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s67"><Data ss:Type="String">TEXT</Data></Cell>
@@ -23653,8 +23651,12 @@
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s67"><Data ss:Type="String">TEXT</Data></Cell>
     <Cell ss:StyleID="s67"><Data ss:Type="String">GROWN_COLONY</Data></Cell>
-    <Cell><Data ss:Type="String">Grown Colony</Data></Cell>
-    <Cell><Data ss:Type="String">成熟的殖民地</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Grow any smaller colony to {INT_population}[population/]</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >将任意小型殖民地发展至 {INT_population}[population/]</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s67"><Data ss:Type="String">TEXT</Data></Cell>
@@ -24085,10 +24087,10 @@
           >MANAGE_INCOME_BUTTON</Data></Cell>
     <Cell><Data
             ss:Type="String"
-          >This allows you to set if you want to have maximum, minimum or balanced {STR_ResourceIcon} income. Click the button to cycle through the options.</Data></Cell>
+          >This allows you to set if you want to have a maximum, minimum or balanced number of [population/] assigned to generate {STR_ResourceIcon} income. Click the button to cycle through the options.</Data></Cell>
     <Cell><Data
             ss:Type="String"
-          >你可以通过它来设置获得最大、最小或均衡的 {STR_ResourceIcon} 收益。单击按钮以浏览选项。</Data></Cell>
+          >可设定分配最大、最小或均衡数量的 [population/] 来生成 {STR_ResourceIcon} 收益。单击按钮以浏览选项。</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s67"><Data ss:Type="String">GENERIC</Data></Cell>
@@ -24103,10 +24105,10 @@
           >COLONIST_ASSIGN_IGNORE</Data></Cell>
     <Cell><Data
             ss:Type="String"
-          >This assigns colonists to get the minimum amount of {STR_ResourceIcon} income. If possible, this can result in no income at all! </Data></Cell>
+          >This assigns the minimum number of colonists to generate {STR_ResourceIcon} income. Most times this means no colonist will be assigned to the slot type at all!</Data></Cell>
     <Cell><Data
             ss:Type="String"
-          >这将给移住民分配最小的 {STR_ResourceIcon} 收益，还可能导致完全没有任何收益！ </Data></Cell>
+          >这会分配最小数量的移住民去生成 {STR_ResourceIcon} 收益。大多数情况下，这意味着不会为该类型槽位分配任何移住民！</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="75">
     <Cell ss:StyleID="s67"><Data ss:Type="String">TEXT</Data></Cell>
@@ -24127,10 +24129,10 @@
           >COLONIST_ASSIGN_MAXIMIZE</Data></Cell>
     <Cell><Data
             ss:Type="String"
-          >This assigns colonists to get the maximum amount of {STR_ResourceIcon} income.[br/]Likely to the detriment of other types of income for the colony.[br/]You can maximize more than one type of income, but this might reduce how much you get from both.</Data></Cell>
+          >This assigns the maximum number of colonists to generate {STR_ResourceIcon} income.[br/]Likely to the detriment of other types of income for the colony.[br/]You can maximize more than one type of income, but this might reduce how much you get from both.</Data></Cell>
     <Cell><Data
             ss:Type="String"
-          >这会给移住民分配最大的 {STR_ResourceIcon} 收益。[br/]可能会损害殖民地的其他收益类型。[br/]你可以将一种以上的收益最大化，但这可能会减少你从这两者中获得的收益。</Data></Cell>
+          >这会分配最大数量的移住民去生成 {STR_ResourceIcon} 收益。[br/]这可能会损害殖民地其他类型的收益。[br/]你可以选择同时将两种收益都设为最大数量，但这可能会同时减少你获得的这两种收益。</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="45">
     <Cell ss:StyleID="s67"><Data ss:Type="String">TEXT</Data></Cell>
@@ -31284,7 +31286,7 @@
     <Cell><Data ss:Type="String">BRIBE_DESCRIPTION</Data></Cell>
     <Cell><Data
             ss:Type="String"
-          >The marauders leader is willing to negotiate. What do you want to do?</Data></Cell>
+          >The marauders' leader is willing to negotiate. What do you want to do?</Data></Cell>
     <Cell><Data
             ss:Type="String"
           >劫掠者首领希望进行协商。你想怎么做？</Data></Cell>
@@ -31725,6 +31727,239 @@
     <Cell><Data ss:Type="String">Observe enemies only</Data></Cell>
     <Cell><Data ss:Type="String">只观察敌人</Data></Cell>
    </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TC</Data></Cell>
+    <Cell><Data ss:Type="String">OVERWATCH_FIRST_STRIKE_WARNING</Data></Cell>
+    <Cell><Data ss:Type="String">Overwatch (First Strike)</Data></Cell>
+    <Cell><Data ss:Type="String">警戒（先发制人）</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONTROL_OPTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT_TO_SPEECH</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Enable multiplayer chat text to speech</Data></Cell>
+    <Cell><Data ss:Type="String">启用多人聊天文本转语音</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONTROL_OPTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT_TO_SPEECH_TOOLTIP</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Converts multiplayer chat into spoken voice</Data></Cell>
+    <Cell><Data ss:Type="String">将多人聊天文本转换为语音</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONTROL_OPTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">SPEECH_TO_TEXT</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Enable multiplayer chat speech to text</Data></Cell>
+    <Cell><Data ss:Type="String">启用多人聊天语音转文本</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONTROL_OPTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">SPEECH_TO_TEXT_TOOLTIP</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Converts audio into text for multiplayer chat</Data></Cell>
+    <Cell><Data ss:Type="String">将多人聊天语音转换为文本</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONTROL_OPTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">VISUAL_ALERTS</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Enable multiplayer chat visual alerts</Data></Cell>
+    <Cell><Data ss:Type="String">启用多人聊天视觉提示</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONTROL_OPTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">VISUAL_ALERTS_TOOLTIP</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Display a highlight around new messages in multiplayer chat</Data></Cell>
+    <Cell><Data ss:Type="String">在多人聊天中高亮提示新消息</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">REQUIRES_COLONISTS</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Can only be produced in colonies with at least {INT_numColonists}[population/] colonists.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >只能在至少拥有 {INT_numColonists}[population/] 移住民的殖民地生产。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">INSUFFICIENT_COLONISTS</Data></Cell>
+    <Cell><Data ss:Type="String">Insufficient colonists in colony</Data></Cell>
+    <Cell><Data ss:Type="String">殖民地移住民数量不足</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">REQUIRES_COLONISTS_SHORT</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Minimum Colony Size:  {INT_numColonists}[population/]</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >最小殖民地规模：{INT_numColonists}[population/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CVAA</Data></Cell>
+    <Cell><Data ss:Type="String">ERROR</Data></Cell>
+    <Cell><Data ss:Type="String">Error</Data></Cell>
+    <Cell><Data ss:Type="String">错误</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CVAA_SPEECH_TO_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">MISSING_LANGUAGE_PACK</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >No English speech-recognition pack found.</Data></Cell>
+    <Cell><Data ss:Type="String">未找到英语语音识别包。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CVAA_SPEECH_TO_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">NO_MICROPHONE_FOUND</Data></Cell>
+    <Cell><Data ss:Type="String">No microphone found.</Data></Cell>
+    <Cell><Data ss:Type="String">未找到麦克风。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CVAA_SPEECH_TO_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">NO_GRAMMAR_FOUND</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >No English speech-recognition grammar pack found.</Data></Cell>
+    <Cell><Data ss:Type="String">未找到英语语音识别语法包。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CVAA_SPEECH_TO_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">GENERAL_FAILIURE</Data></Cell>
+    <Cell><Data ss:Type="String">General error {INT_ErrorCode}.</Data></Cell>
+    <Cell><Data ss:Type="String">常规错误 {INT_ErrorCode}。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CVAA_SPEECH_TO_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">DISABLE_FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">Disable speech-to-text</Data></Cell>
+    <Cell><Data ss:Type="String">禁用语音转文本</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CVAA_TEXT_TO_SPEECH</Data></Cell>
+    <Cell><Data ss:Type="String">NO_AUDIO_OUTPUT_FOUND</Data></Cell>
+    <Cell><Data ss:Type="String">No audio output found.</Data></Cell>
+    <Cell><Data ss:Type="String">未找到音频输出。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CVAA_TEXT_TO_SPEECH</Data></Cell>
+    <Cell><Data ss:Type="String">NO_TRANSCRIPTION_VOICE_FOUND</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >No English transcription voice found.</Data></Cell>
+    <Cell><Data ss:Type="String">未找到英语音译语音。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CVAA_TEXT_TO_SPEECH</Data></Cell>
+    <Cell><Data ss:Type="String">GENERAL_FAILIURE</Data></Cell>
+    <Cell><Data ss:Type="String">General error {INT_ErrorCode}.</Data></Cell>
+    <Cell><Data ss:Type="String">常规错误 {INT_ErrorCode}。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CVAA_TEXT_TO_SPEECH</Data></Cell>
+    <Cell><Data ss:Type="String">DISABLE_FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">Disable text-to-speech</Data></Cell>
+    <Cell><Data ss:Type="String">禁用文本转语音</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">GROWN_COLONY_ANY</Data></Cell>
+    <Cell><Data ss:Type="String">Grow any colony</Data></Cell>
+    <Cell><Data ss:Type="String">发展任意殖民地</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">TRAITS</Data></Cell>
+    <Cell><Data ss:Type="String">Traits</Data></Cell>
+    <Cell><Data ss:Type="String">特性</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ORBITAL_RELAY</Data></Cell>
+    <Cell><Data ss:Type="String">USES_REMAINING</Data></Cell>
+    <Cell><Data ss:Type="String">Uses Remaining: </Data></Cell>
+    <Cell><Data ss:Type="String">剩余使用次数： </Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >For listing how many times the given orbital relay can be used by the vieewing player</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXTERNAL_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">IMPERIAL_UPLINK_ONLINE</Data></Cell>
+    <Cell><Data ss:Type="String">Imperial Uplink is Online</Data></Cell>
+    <Cell><Data ss:Type="String">帝国上行链路连接</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tells the player that the system for communicating with the off-planet empire is ready to be used</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OUTPOST</Data></Cell>
+    <Cell><Data ss:Type="String">BLOCKED_BUY_OPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Buying settlements is blocked</Data></Cell>
+    <Cell><Data ss:Type="String">购买定居点受限</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tooltip, explains that settlements cannot be bought because this feature has been blocked. This can happen in Empire Games for certain traits but also for certain player properties.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXTRA_SECTORS</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >+1 sector at {INT_Colonists} colonists</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_Colonists} 移住民时 +1 区域</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXTRA_SECTORS_LOCKED</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">(Residential Exploitation needed)</Data></Cell>
+    <Cell><Data ss:Type="String">（需要住宅开发点）</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED_CAMPAIGN</Data></Cell>
+    <Cell><Data ss:Type="String">Completed Campaign</Data></Cell>
+    <Cell><Data ss:Type="String">完成战役</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >When the player completed all missions of a campaign</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">SPELL_TRIGGERED</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_OperationName} took effect</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_OperationName} 生效</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tells the player that the global Operation just triggered and took effect. For example, maybe &quot;Meteor Shower&quot; just dropped a fireball on 5 units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">EXPANSION_3</Data></Cell>
+    <Cell><Data ss:Type="String">Star Kings</Data></Cell>
+    <Cell><Data ss:Type="String">Star Kings</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">DO NOT LOCALIZE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">RESIDENTIAL</Data></Cell>
+    <Cell><Data ss:Type="String">Residential</Data></Cell>
+    <Cell><Data ss:Type="String">住宅</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used in the sector info panel as an insertion. Will read as &quot;SECTOR_NAME:: Residential Sector&quot;.</Data></Cell>
+   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <Unsynced />
@@ -31734,12 +31969,12 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected />
-   <TopRowVisible>3086</TopRowVisible>
+   <TopRowVisible>1883</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>3104</ActiveRow>
-     <ActiveCol>2</ActiveCol>
+     <ActiveRow>1902</ActiveRow>
+     <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

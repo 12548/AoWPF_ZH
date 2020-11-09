@@ -14,9 +14,10 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
-    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -166,10 +167,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Alter DNA structure of target Biological or Cyborg unit to heal wounds. Restores {healAmount}[hp/] and removes all non-Psionic status effects.</Data></Cell><Cell
+          >Alter DNA structure of target Biological, Mineral or Cyborg unit to heal wounds. Restores {healAmount}[hp/] and removes all non-Psionic status effects.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >改变目标生物单位或半机械人单位的基因构造进行伤口治疗。恢复 {healAmount}[hp/]，同时移除所有非灵能状态效果。</Data></Cell><Cell
+          >改变目标生物、矿物或半机械人单位的 DNA 构造并治疗其伤口，恢复 {healAmount}[hp/]，同时移除所有非灵能状态效果。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /><Cell ss:StyleID="s63" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -210,10 +211,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Reveal detailed information about the weaknesses of the target unit. All units of this type become [abilityred]Scanned[/abilityred] until the end of combat, giving them -{ScanResistance} resistance to all damage types.</Data></Cell><Cell
+          >Reveal detailed information about the weaknesses of the target unit. All units of this type become [abilityred]Scanned[/abilityred] for {duration}[turn/], giving them -{ScanResistance} resistance to all damage types.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >显示目标单位所有弱点的详细信息。所有同类型的单位变成[abilityred]已扫描[/abilityred]状态持续到战斗结束，并获得所有类型伤害 -{ScanResistance} 的抵抗效果。</Data></Cell><Cell
+          >详细揭示目标单位的弱点信息。所有该类型的单位受到[abilityred]扫描[/abilityred]，持续 {duration}[turn/]，使其对所有伤害类型减少 -{ScanResistance} 抵抗。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /><Cell ss:StyleID="s63" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -1444,11 +1445,77 @@
           >Harmonious</Data></Cell><Cell><Data
             ss:Type="String"
           >和谐</Data></Cell><Cell ss:Index="9" ss:StyleID="s65" /></Row><Row
-      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TOXIC_TAIL_STRIKE</Data></Cell><Cell><Data
             ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
-          ss:Index="7"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heavy Tail Strike</Data></Cell><Cell><Data
+            ss:Type="String"
+          >强力尾击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >TOXIC_TAIL_STRIKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A powerful melee attack that strikes all targets in front of the unit.</Data></Cell><Cell
         ><Data
+            ss:Type="String"
+          >一种强力的近战攻击，可攻击单位前方所有目标。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COLOSSAL_ROAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Colossal Roar</Data></Cell><Cell><Data
+            ss:Type="String"
+          >轰鸣咆哮</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >COLOSSAL_ROAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit unleashes a blood-curdling roar in a {MightyCone} hex cone.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位对 {MightyCone} 个单元格扇形范围释放一阵令人毛骨悚然的咆哮。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BLOOD_RAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blood Rage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >血性狂怒</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BLOOD_RAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Whenever this unit is struck by an attack it gains a stack of [abilityblue]Blood Fury[/abilityblue]. Each stack grants +{DamageUp}% increased damage and a regeneration effect that heals {AmountHp}[hp/].[br/]Stacks up to {StackAmount} times.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每当此单位受到攻击时，就会获得一层[abilityblue]血怒[/abilityblue]。每层血怒可使其获得 +{DamageUp}% 伤害提升和恢复效果，治疗其 {AmountHp}[hp/]。[br/]最多可叠加 {StackAmount} 次。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BRUTAL_BITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Brutal Bite</Data></Cell><Cell><Data
+            ss:Type="String"
+          >残忍啃咬</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BRUTAL_BITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Melee bite attack</Data></Cell><Cell><Data
+            ss:Type="String"
+          >近战啃咬攻击</Data></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
           >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data

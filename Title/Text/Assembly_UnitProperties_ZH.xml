@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -261,10 +261,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target a dead light Cyborg or Mechanical ground unit to bring it back to life with {ResurrectHealth} of its max [hp/]. Target a living Cyborg or Machanical unit to heal it for {ReassembleHealAmount}. Cannot target self.[br/]Puts the unit into Defense Mode after use.[br/][br/]</Data></Cell><Cell
+          >Target a dead, light, ground unit that is Cyborg or Mechanical to bring it back to life with {ResurrectHealth} of its max [hp/]. Target a living Cyborg or Machanical unit to heal it for {ReassembleHealAmount}. Cannot target self.[br/]Puts the unit into Defense Mode after use.[br/][br/]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >以阵亡的轻型半机械人或机械陆地单位为目标时，可复活目标单位并恢复其 {ResurrectHealth} 的最大[hp/]。以存活的半机械人或机械单位为目标时，可治疗 {ReassembleHealAmount}。无法以自身为目标。[br/]使用此技能后，单位将进入防御模式。[br/][br/]</Data></Cell></Row><Row
+          >以阵亡的轻型半机械人或机械陆地单位为目标时，可复活目标单位并恢复其 {ResurrectHealth} 的最大 [hp/]。以存活的半机械人或机械单位为目标时，可治疗其 {ReassembleHealAmount}。无法以自身为目标。[br/]使用此技能后，单位将进入防御模式。[br/][br/]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ADVANCED_REASSEMBLE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -279,10 +279,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target a dead Cyborg or Mechanical ground unit to bring it back to life with {ResurrectHealth} of its max [hp/]. Target a living Cyborg or Mechanical unit to heal it for {ReassembleHealAmount}. Cannot target self.[br/]Puts the unit into Defense Mode after use.[br/][br/]</Data></Cell><Cell
+          >Target a dead ground unit that is Cyborg or Mechanical to bring it back to life with {ResurrectHealth} of its max [hp/]. Target a living Cyborg or Mechanical unit to heal it for {ReassembleHealAmount}. Cannot target self.[br/]Puts the unit into Defense Mode after use.[br/][br/]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >以阵亡的半机械人或机械陆地单位为目标时，可复活目标单位并恢复其 {ResurrectHealth} 的最大[hp/]。以存活的半机械人或机械单位为目标时，可治疗 {ReassembleHealAmount}。无法以自身为目标。[br/]使用此技能后，单位将进入防御模式。[br/][br/]</Data></Cell></Row><Row
+          >以阵亡的半机械人或机械陆地单位为目标时，可复活目标单位并恢复其 {ResurrectHealth} 的最大 [hp/]。以存活的半机械人或机械单位为目标时，可治疗其 {ReassembleHealAmount}。无法以自身为目标。[br/]使用此技能后，单位将进入防御模式。[br/][br/]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ADVANCED_REVERSE_ENGINEER</Data></Cell><Cell
         ><Data ss:Type="String">UPGRADE_NAME</Data></Cell><Cell><Data
@@ -410,18 +410,18 @@
       ><Cell><Data ss:Type="String">FLESH_TEARER_IMPLANTS</Data></Cell><Cell
         ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Flesh Tearer Implants</Data></Cell><Cell><Data
+          >Hyper Assimilation Implants</Data></Cell><Cell><Data
             ss:Type="String"
-          >血肉撕裂者植入物</Data></Cell></Row><Row
+          >超级同化植入物</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">FLESH_TEARER_IMPLANTS</Data></Cell><Cell
         ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Melee attacks against Biological and Cyborg units heal the user for {healAmount}, and have a {FleshTearerChance}[strengthphysical/] strength chance ({FleshTearerChanceRepeating}[strengthphysical/] for repeating attacks) to apply [abilityred]Bleeding[/abilityred], doing damage over time and reducing [DamagePhysical/] resistance for {BleedDuration}[turn/].</Data></Cell><Cell
+          >Melee attacks heal the user for {healAmount}, and have a {FleshTearerChance}[strengthphysical/] strength chance ({FleshTearerChanceRepeating}[strengthphysical/] for repeating attacks) to apply [abilityred]Bleeding[/abilityred] to Biological or Cyborg units, doing damage over time and reducing [DamagePhysical/] resistance for {BleedDuration}[turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >对生物和半机械人单位发动的近战攻击可治疗使用者 {healAmount}，并有 {FleshTearerChance}[strengthphysical/] 力量几率（重复攻击有 {FleshTearerChanceRepeating}[strengthphysical/] 几率）施加[abilityred]流血[/abilityred]，造成持续伤害并减少 [DamagePhysical/] 抵抗，持续 {BleedDuration}[turn/]。</Data></Cell></Row><Row
+          >近战攻击可治疗使用者 {healAmount}，并有 {FleshTearerChance}[strengthphysical/] 力量几率（多次攻击有 {FleshTearerChanceRepeating}[strengthphysical/] 力量几率）对生物和半机械人单位施加[abilityred]流血[/abilityred]，造成持续伤害并减少其 [DamagePhysical/] 抵抗，持续 {BleedDuration}[turn/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">NEUROTOXIC_IMPLANTS</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1397,10 +1397,10 @@
             ss:Type="String"
           >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Heals for {AssimilateLifeSteal} when attacking Biological or Cyborg units</Data></Cell><Cell
+          >Heals for {AssimilateLifeSteal} when attacking Biological, Cyborg or Mechanical units</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >攻击生物或半机械人单位时，治疗 {AssimilateLifeSteal}。</Data></Cell></Row><Row
+          >攻击生物、半机械人或机械单位时治疗 {AssimilateLifeSteal}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"

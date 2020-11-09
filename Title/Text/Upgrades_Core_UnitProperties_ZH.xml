@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7320</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -2258,11 +2258,86 @@
             ss:Type="String"
           >A genetically-mutated unit.</Data></Cell><Cell><Data
             ss:Type="String"
-          >一种基因突变的单位。</Data></Cell></Row><Row><Cell><Data
+          >一种基因突变的单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BLANK_DEFENSE_MOD</Data></Cell><Cell><Data
             ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+          >NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          /></Cell><Cell ss:Index="7"><Data
+          >Defense Mod</Data></Cell><Cell><Data
+            ss:Type="String"
+          >防御模块</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RESOLUTE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Resolute</Data></Cell><Cell><Data
+            ss:Type="String"
+          >坚定</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RESOLUTE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit will not lose overwatch when staggered.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位被动摇时不会中止警戒状态。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BATTLESUIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Battlesuit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >机甲</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BATTLESUIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is a battlesuit.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >此单位是机甲。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">TIRELESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tireless</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不知疲倦</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >TIRELESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit does not leave melee overwatch after it triggers, but melee overwatch cannot trigger twice against the same target.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位在触发近战警戒后并不会中止警戒状态，但无法对同一目标触发多次近战警戒。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FIRST_STRIKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >First Strike</Data></Cell><Cell><Data
+            ss:Type="String"
+          >先发制人</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FIRST_STRIKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit's melee Overwatch triggers before the target that triggers it acts, unless the unit is Flanked.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位的近战警戒会在触发警戒的目标行动之前发动，除非单位被包抄。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
             ss:Type="String"
           >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data

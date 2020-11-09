@@ -1,0 +1,992 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author
+    >GameScribes4</Author><LastAuthor>GameScribes4</LastAuthor><Created
+    >2020-10-08T02:13:19Z</Created><LastSaved
+    >2020-06-25T12:56:46Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>7305</WindowHeight><WindowWidth>21420</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><NumberFormat
+        ss:Format="Scientific"
+      /></Style><Style ss:ID="s64"><NumberFormat
+        ss:Format="Scientific"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="144" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="150.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="387" /><Column
+        ss:StyleID="s62"
+        ss:Width="150"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="380.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="137.25"
+      /><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >GRAILS</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">GRAIL_SURVEY_ANOMALY</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grail Configuration Survey Site</Data></Cell><Cell><Data
+            ss:Type="String"
+          >圣杯基阵调查点</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">GRAIL_SURVEY_ANOMALY</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This is the location of a powerful artifact. It can be explored by a Hero with the correct Cypher Access Codes in order to gain the power of the Grail Configuration.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这里是某个强大神器的所在地。拥有正确密文访问代码的英雄可探索此地点来获得圣杯基阵的力量。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">HEADER_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The search for the Grail Configuration</Data></Cell><Cell><Data
+            ss:Type="String"
+          >搜寻圣杯基阵</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GRAIL_QUEST_SHARED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Grail Configuration fell into enemy hands.</Data></Cell><Cell
+        ><Data ss:Type="String">圣杯基阵落入敌手。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Grail Configuration / Grail - Powerful relics by an ancient race</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PHASE_1_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Echoes of an Ancient Era</Data></Cell><Cell><Data
+            ss:Type="String"
+          >远古时代回响</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASE_1_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Build the Grail Frequency Scanner. </Data></Cell><Cell><Data
+            ss:Type="String"
+          >建造圣杯频率扫描器。 </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">PHASE_1_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The A.I.V.A. system located the presence of a Grail Configuration on this planet, an ancient artifact used by CORE to stabilize and control the galaxy. They grant powerful boons to those who employ them. The energy of the Grail permeates the planet, so we must build a Grail Frequency Scanner to pinpoint energy sources that might lead us to it.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >A.I.V.A. 系统在这个星球上发现了一个圣杯基阵，“核心”曾用这种古老的神器来稳定和控制银河系。它们会给予使用者强大的能力。圣杯的能量遍布星球各处，因此我们必须建造圣杯频率扫描器来精确定位能量的来源，以便找到圣杯基阵。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >A.I.V.A. is the in world support AI seen in the tutorial and some cmapaign missions
+
+</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >PHASE_1_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We have picked up multiple signals originating from Grail Cypher locations. They point to the Exploration Sites spread across the planet - and to the Dwellings of the local NPC Factions, who seem to have collected the Cyphers as items of value.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们收到了圣杯密文地点传来的多个信号。信号指向遍布整个星球的探索点和当地 NPC 阵营的居住地，他们似乎把密文当成了某种珍贵物品在四处收集。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Cyphers - Provide the Access Codes to enter the Grail Configuration; </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PHASE_1_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >OBJECTIVE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Build the G.F.S to locate the Cyphers hidden on this planet.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >建造圣杯频率扫描器，找到隐藏在这个星球上的密文。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >GFS - Grail Frequency Scanner</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PHASE_1_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STRUCTURE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grail Frequency Scanner</Data></Cell><Cell><Data
+            ss:Type="String"
+          >圣杯频率扫描器</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PHASE_1_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STRUCTURE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A powerful global scanner attuned to the energy signature of the Grail Configuration on this planet. It can be used to locate the Cyphers resonating with the corresponding Grail frequency.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一台强大的全球扫描器，能够接收这个星球上的圣杯基阵能量信号，可用来定位与圣杯频率产生共鸣的密文。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Encoded Message</Data></Cell><Cell><Data
+            ss:Type="String"
+          >编码信息</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Obtain enough Cyphers from Exploration Sites or NPC Factions to obatin the key to the Grail Configuration vault.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >从探索点或 NPC 阵营处获得足够的密文，从而获得圣杯基阵宝库的钥匙。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Exploration Sites and NPC Faction are ingame terms</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We need to collect the Cyphers in order to locate and unlock the vault holding the Grail. The scanner revealed that they can be found in [hyperlink,000003E100000670]Exploration Sites[/hyperlink] and through the Dwelling Shop of the local [hyperlink,0000039E00000075]Factions[/hyperlink].[br/][br/]A.I.V.A. has warned us that not all of the Cyphers within the ruins will still be intact and that the dishonored [hyperlink,000003E300004242]Apostates[/hyperlink] are attempting to claim the Grail for themselves, attacking anyone in sight of the Cyphers when given the chance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们需要收集密文才能找到并打开存放圣杯的宝库。扫描器显示，我们可在[hyperlink,000003E100000670]探索点[/hyperlink]找到密文，或者从当地[hyperlink,0000039E00000075]阵营[/hyperlink]的居住地商店处购买。[br/][br/]A.I.V.A. 警告我们称，并不是所有废墟里的密文都是完整的，背信弃义的[hyperlink,000003E300004242]变节者[/hyperlink]正试图夺取圣杯，他们会攻击任何与他们争夺密文的敌人。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s63"
+        ><Data
+            ss:Type="String"
+          >Apostates are an ingame wildlife group</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We have acquired enough still intact Cyphers to start decoding the information hidden within them.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们已经获得了完整的密文，可以开始解码其中隐藏的信息了。</Data></Cell><Cell
+          ss:Index="7"
+          ss:StyleID="s64"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASE_2_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >OBJECTIVE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cyphers collected</Data></Cell><Cell><Data
+            ss:Type="String"
+          >收集密文</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASE_2_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SCAN_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Scan for Cyphers and Enter</Data></Cell><Cell><Data
+            ss:Type="String"
+          >扫描密文并进入</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SCAN_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Scan this site for Cyphers. The unit will remain stationary for {Turn}[turn/].[br/]If the Site is occupied:[bulletList][bullet]Fight the site's defenders and obtain an intact Cypher.[/bullet][/bulletList][br/]If the site is empty:[bulletList][bullet]Large chance to fight Apostates and get an intact Cypher.[/bullet][bullet]Small chance to fight Apostates and get a destroyed Cypher.[/bullet][bullet]Slim chance to get an intact Cypher without a fight.[/bullet][/bulletList]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >扫描地点，寻找密文。单位将保持不动，持续 {Turn}[turn/]。[br/]如果地点已被占领：[bulletList][bullet]与地点中的防守者战斗可获得完整的密文。[/bullet][/bulletList][br/]如果地点无人占领：[bulletList][bullet]有较高几率与变节者作战，并获得完整的密文。[/bullet][bullet]有较低几率与变节者作战，并获得损毁的密文。[/bullet][bullet]有极低几率无需战斗直接获得完整的密文。[/bullet][/bulletList]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SCAN_IN_PROGRESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Scanning Exploration Site.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >正在扫描探索点。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PHASE_3_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Decoding the Cyphers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >解码密文</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASE_3_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Analyze the Cyphers to find the location and access codes of the Grail vault.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >解析密文，找出圣杯宝库的位置和访问代码。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">PHASE_3_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A.I.V.A. has shared with us an old Star Union Cypher analysis alogrithm. Our scientists can use it to find the location of the Grail Configuration and the access codes needed to enter its inner vault.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >A.I.V.A. 给我们分享了一份古老的星际联盟密文解析算法。我们的科学家可以用它找到圣杯基阵的位置，并获得进入内部宝库所需的访问代码。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PHASE_3_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The analysis was a success. We identified the Grail's location and the access codes required to gain entry.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >解析成功。我们找到了圣杯的位置并获得了访问代码。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PHASE_3_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >OBJECTIVE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Analyze the Grail Cyphers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >解析圣杯密文</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASE_3_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RESEARCH_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cypher Analysis</Data></Cell><Cell><Data
+            ss:Type="String"
+          >密文解析</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PHASE_3_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RESEARCH_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >An algorithm to decrypt the Cyphers and gain access to the Grail Configuration on this planet.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一种用来破解密文并找到这个星球圣杯基阵的算法。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PHASE_4_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Retrieve the Grail</Data></Cell><Cell><Data
+            ss:Type="String"
+          >夺取圣杯</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PHASE_4_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bring a Hero led army to the Grail Survey Site.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >指派英雄带领军队前往圣杯调查点。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">PHASE_4_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FLAVOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We need a trustworthy hero with a powerful army to go and obtain the Grail Configuration for our Empire. It has to be expected that the Apostates will do anything in their power to intervene.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们需要一位值得信赖的英雄率领一支强大的军队，为我们的帝国夺取圣杯基阵。可以预料到的是，变节者一定会尽力干扰我们。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PHASE_4_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We have obtained the Grail Configuration. As long as the Vault Landmark remains under our control, we can use its Doctrine to give our empire an edge over our competitors on this planet.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们得到了圣杯基阵。只要我们维持宝库地标的控制，就可以利用它的教义让我们的帝国在这个星球上拥有超越竞争对手的优势。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PHASE_4_QUEST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >OBJECTIVE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Complete the Grail Survey Site</Data></Cell><Cell><Data
+            ss:Type="String"
+          >完成圣杯调查点</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">GRAIL_SURVEY_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vault of the Configuration of Law</Data></Cell><Cell><Data
+            ss:Type="String"
+          >法律基阵宝库</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">GRAIL_SURVEY_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This vault holds a Grail that reigns over Law. The configuration relates to applying rules to reality and ensuring those rules are followed. In practical terms, it aids the organization of large societies, granting bonuses to industrial productivity and military upkeep.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这座宝库中的圣杯统治着法律。基阵将规则应用至现实，并确保星球上的一切事物遵守这些规则。从实际意义来讲，这个圣杯有助于组织大型社会，并为工业生产力和军事维持消耗提供加成。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GRAIL_SURVEY_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vault of the Configuration of Unity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >团结基阵宝库</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">GRAIL_SURVEY_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This vault holds a Grail whose configuration leads to Unity. The configuration facilitates communication, aids in finding common ground and solving conflicts. The grail grants bonuses to happiness, influence and popular support.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这座宝库中的圣杯能够促进团结。基阵能够促进沟通，协助寻找共同点并解决冲突。这个圣杯能够给予幸福值、影响力和民众支持加成。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GRAIL_SURVEY_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vault of the Configuration of Life</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生命基阵宝库</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">GRAIL_SURVEY_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This vault holds a Grail that aids Life. These configurations relate to the organization of life forms to make them function and excel. They grant bonuses to Food growth and while manipulating reality in order to regenerate units to their cognitive ideals.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这座宝库中的圣杯能够强化生命。基阵与生命形式的机制有关，能够使生命更加顽强兴盛。这个圣杯能够为食物增长提供加成，并操纵现实来使单位恢复到理想状态。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GRAIL_SURVEY_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vault of the Configuration of Knowledge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >知识基阵宝库</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">GRAIL_SURVEY_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This vault holds a Grail of Knowledge. The configuration relates to the organization and collection of abstract data. A grail of this type increases Research and gives your units a certain Precognition over their enemies.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这座宝库中的圣杯象征着知识。基阵与抽象数据的组织和收集有关。这个圣杯可以提升你的研究能力，并使你的单位对敌人获得一定的预知能力。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The Oathbound Oracle is the name of the super computer that guides the Oathbound. Oracle should be seen in the campaign.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GRAIL_SURVEY_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Vault of the Configuration of Potential</Data></Cell><Cell><Data
+            ss:Type="String"
+          >潜能基阵宝库</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">GRAIL_SURVEY_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This vault holds a Grail that promotes Potential. The configuration enhances and strengthens machinery and living beings beyond their physical limits. The grail facilitates Energy generation and increases the damage output of units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这座宝库中的圣杯可以促进潜能的开发。基阵可强化机器和生物的潜能，使其超越物理和身体的极限。这个圣杯可以促进能量的产生，并增加单位的伤害输出。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">GRAIL_SURVEY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FIRST_RESULT_TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We discovered the vault of a Grail Configuration, powerful relics of times past that have the power to shape our future for the best. With the proper Cypher access codes, we could enter and obtain it for ourselves.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们发现了圣杯基阵宝库，这些古老的强大神器能够帮助我们塑造美好的未来。只要获得正确的密文访问代码，我们就可以进入宝库并将圣杯据为己有。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">GRAIL_SURVEY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PHASE_2_START</Data></Cell><Cell><Data
+            ss:Type="String"
+          >After going through the outer halls of the facility, it becomes more and more clear why the existence of the Grail Configurations was kept a secret during Star Union times. The left behind data from studying the Grail seems to point to its alien origin. As we delve deeper, we find ourselves before a heavily fortified door, which must serve as the entrance to the vault.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >穿过这座设施的外厅之后，我们的心中更加清楚为什么在星际联盟时期，人们要掩盖圣杯基阵的秘密了。通过对遗留下来的数据研究，我们发现圣杯似乎具有某种外星来源。当我们继续深入时，我们发现了一扇坚固的大门，这里一定是宝库的入口。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GRAIL_SURVEY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PHASE_2_CHOICE_1_TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Use the Cypher Access Codes</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用密文访问代码</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">GRAIL_SURVEY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PHASE_2_CHOICE_1_START_COMBAT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We put in the access codes and the massive door starts to open up before us. But there is no time to enter the vault, as a squad of Apostates immediately charges at us to deny us entrance. They seem to have been monitoring our moves and waited that we would open the way to the Grail for them.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们输入了访问代码，面前的大门缓缓打开。然而，我们还没来得及进入宝库，就有一群变节者向我们冲了过来，想要阻止我们进入。他们似乎一直在监视我们的行动，并且在等我们为他们打开通往圣杯的大门。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">GRAIL_SURVEY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PHASE_2_CHOICE_1_CONTINUE_COMBAT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Apostates seem to now worship the Configuration, trying to uncover its secrets. We need to clear them out if we ever wish to unveil the secrets of the Grail.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >变节者似乎很崇拜这个基阵，他们试图揭开它的秘密。如果我们想要探索圣杯的秘密，就必须消灭他们。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">GRAIL_SURVEY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PHASE_2_CHOICE_1_RESULT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >We defeated all the Apostates drawn to the Grail Configuration chamber. The grail is now ours to command.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们打败了所有被圣杯基阵吸引而来的变节者。圣杯现在是我们的了。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DOCTRINE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Configuration of Law</Data></Cell><Cell><Data
+            ss:Type="String"
+          >法律基阵</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DOCTRINE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cities you control generate +{Percentage}%[production/], your units cannot desert you, and their[energy/]upkeep is reduced by {UpkeepPercentage}%.[br/][br/][firecol]Unit upkeep can never be reduced by more than 50%.[/firecol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你控制的城市生成 +{Percentage}%[production/]。你的单位不会叛逃，且单位的 [energy/] 维持消耗减少 {UpkeepPercentage}%。[br/][br/][firecol]单位的维持消耗减少不能超过 50％。[/firecol]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DOCTRINE_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Configuration of Unity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >团结基阵</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">DOCTRINE_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Your [influence/] gain increases by +{Percentage}%, Popular Support stays at maximum, and your colonies gain +{HappinessGain}[happiness/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的 [influence/] 获得 +{Percentage}%。民众支持将保持在最高水平。你的殖民地获得 +{HappinessGain}[happiness/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DOCTRINE_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Configuration of Life</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生命基阵</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DOCTRINE_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cities you control generate +{Percentage}%[supply/], and units you control regain {HPAmount}[hp/] per turn during combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你控制的城市生成 +{Percentage}%[supply/]。你控制的单位在战斗中每回合恢复 {HPAmount}[hp/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DOCTRINE_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROP_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is under the influence of a powerful Grail Configuration, regenerating {HPAmount}[hp/] per turn during combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位正受到某个强大的圣杯基阵影响，在战斗中每回合会恢复 {HPAmount}[hp/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DOCTRINE_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Configuration of Knowledge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >知识基阵</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DOCTRINE_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cities you control generate +{Percentage}%[research/] and units you control gain a stack of [abilityblue]Precognition[/abilityblue] per turn during combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你控制的城市生成 +{Percentage}%[research/]。你控制的单位在战斗中每回合叠加一层[abilityblue]预知[/abilityblue]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Precognition is a buff connected to the Oathbound</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DOCTRINE_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROP_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is under the influence of a powerful Grail Configuration, granting it a stack of [abilityblue]Precognition[/abilityblue] per turn during combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位正受到某个强大的圣杯基阵影响，在战斗中每回合会叠加一层[abilityblue]预知[/abilityblue]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DOCTRINE_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Configuration of Potential</Data></Cell><Cell><Data
+            ss:Type="String"
+          >潜能基阵</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DOCTRINE_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cities you control generate +{Percentage}%[energy/], and units you control gain a {DamageUp}% damage increase.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你控制的城市生成 +{Percentage}%[energy/]。你控制的单位获得 {DamageUp}% 伤害提升。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">DOCTRINE_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROP_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is under the influence of a powerful Grail Configuration, gaining a {DamageUp}% damage increase.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位正受到某个强大的圣杯基阵影响，获得 {DamageUp}% 伤害提升。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GRAIL_STRUCTURE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grail Configuration of Law</Data></Cell><Cell><Data
+            ss:Type="String"
+          >法律圣杯基阵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GRAIL_STRUCTURE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This landmark holds a powerful Grail Configuration. Whoever controls this landmark will have access to the [hyperlink,000003E300003FBA]Configuration of Law[/hyperlink] doctrine.[br/][br/]Additionaly when annexed it grants:[bulletList][bullet]{ProductionFlat}[/bullet][bullet]{ProductionSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{ResearchFlat}[/bullet][bullet]{ResearchSlot}[/bullet][/bulletlist]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此地标包含一个强大的圣杯基阵。控制此地标将获得[hyperlink,000003E300003FBA]法律基阵[/hyperlink]教义。[br/][br/]另外，吞并此地标可获得：[bulletList][bullet]{ProductionFlat}[/bullet][bullet]{ProductionSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{ResearchFlat}[/bullet][bullet]{ResearchSlot}[/bullet][/bulletlist]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GRAIL_STRUCTURE_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grail Configuration of Unity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >团结圣杯基阵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GRAIL_STRUCTURE_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This landmark holds a powerful Grail Configuration. Whoever controls this landmark will have access to the [hyperlink,000003E300003FC5]Configuration of Unity[/hyperlink] doctrine.[br/][br/]Additionaly when annexed it grants:[bulletList][bullet]{ResearchFlat}[/bullet][bullet]{ResearchSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{InfluenceFlat}[/bullet][/bulletlist]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此地标包含一个强大的圣杯基阵。控制此地标将获得[hyperlink,000003E300003FC5]团结基阵[/hyperlink]教义。[br/][br/]另外，吞并此地标可获得：[bulletList][bullet]{ResearchFlat}[/bullet][bullet]{ResearchSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{InfluenceFlat}[/bullet][/bulletlist]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GRAIL_STRUCTURE_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grail Configuration of Life</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生命圣杯基阵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GRAIL_STRUCTURE_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This landmark holds a powerful Grail Configuration. Whoever controls this landmark will have access to the [hyperlink,000003E300003FCB]Configuration of Life[/hyperlink] doctrine.[br/][br/]Additionaly when annexed it grants:[bulletList][bullet]{FoodFlat}[/bullet][bullet]{FoodSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{ProductionFlat}[/bullet][bullet]{ProductionSlot}[/bullet][/bulletlist]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此地标包含一个强大的圣杯基阵。控制此地标将获得[hyperlink,000003E300003FCB]生命基阵[/hyperlink]教义。[br/][br/]另外，吞并此地标可获得：[bulletList][bullet]{FoodFlat}[/bullet][bullet]{FoodSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{ProductionFlat}[/bullet][bullet]{ProductionSlot}[/bullet][/bulletlist]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GRAIL_STRUCTURE_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grail Configuration of Knowledge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >知识圣杯基阵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GRAIL_STRUCTURE_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This landmark holds a powerful Grail Configuration. Whoever controls this landmark will have access to the [hyperlink,000003E300003FD0]Configuration of Knowledge[/hyperlink] doctrine.[br/][br/]Additionaly when annexed it grants:[bulletList][bullet]{ResearchFlat}[/bullet][bullet]{ResearchSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{EnergyFlat}[/bullet][bullet]{EnergySlot}[/bullet][/bulletlist]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此地标包含一个强大的圣杯基阵。控制此地标将获得[hyperlink,000003E300003FD0]知识基阵[/hyperlink]教义。[br/][br/]另外，吞并此地标可获得：[bulletList][bullet]{ResearchFlat}[/bullet][bullet]{ResearchSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{EnergyFlat}[/bullet][bullet]{EnergySlot}[/bullet][/bulletlist]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GRAIL_STRUCTURE_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grail Configuration of Potential</Data></Cell><Cell><Data
+            ss:Type="String"
+          >潜能圣杯基阵</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GRAIL_STRUCTURE_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This landmark holds a powerful Grail Configuration. Whoever controls this landmark will have access to the [hyperlink,000003E300003FD6]Configuration of Potential[/hyperlink] doctrine.[br/][br/]Additionaly when annexed it grants:[bulletList][bullet]{EnergyFlat}[/bullet][bullet]{EnergySlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{SupplyFlat}[/bullet][bullet]{SupplySlot}[/bullet][/bulletlist]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此地标包含一个强大的圣杯基阵。控制此地标将获得[hyperlink,000003E300003FD6]潜能基阵[/hyperlink]教义。[br/][br/]另外，吞并此地标可获得：[bulletList][bullet]{EnergyFlat}[/bullet][bullet]{EnergySlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{SupplyFlat}[/bullet][bullet]{SupplySlot}[/bullet][/bulletlist]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FACTION_SHOP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BLOCKED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Already purchaced</Data></Cell><Cell><Data
+            ss:Type="String"
+          >已购买</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FACTION_SHOP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grail Cypher</Data></Cell><Cell><Data
+            ss:Type="String"
+          >圣杯密文</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >STRUCTURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALREADY_SCANNED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Already scanned for Cypher</Data></Cell><Cell><Data
+            ss:Type="String"
+          >已扫描过密文</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >STRUCTURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >HAS_CYPHER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Has Cypher</Data></Cell><Cell><Data
+            ss:Type="String"
+          >有密文</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >STRUCTURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CYPHER_CLAIMED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cypher Claimed</Data></Cell><Cell><Data
+            ss:Type="String"
+          >已获取密文</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FACTION_SHOP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CYPHER_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Request Grail Cypher</Data></Cell><Cell><Data
+            ss:Type="String"
+          >请求圣杯密文</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FACTION_SHOP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CYPHER_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A special cypher found by the local faction that contains information on this world's Grail Configuration.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由当地阵营发现的特殊密文，内含这个星球上的圣杯基阵信息。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BATTLE_REPORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CYPHER_REWARD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cypher gained!</Data></Cell><Cell><Data
+            ss:Type="String"
+          >获得密文！</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BATTLE_REPORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NO_CYPHER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >No intact cypher found!</Data></Cell><Cell><Data
+            ss:Type="String"
+          >未发现完整密文！</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">FACTION_RELATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bought Cypher</Data></Cell><Cell><Data
+            ss:Type="String"
+          >购买了密文</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GRAIL_GENERAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FEATURE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{income}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{income}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GRAIL_STRUCTURE_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This landmark is an advanced Production sector, and gives the following when annexed:[br/]{ProductionFlat}, {ProductionSlot}.[br/]{ResearchFlat}, {ResearchSlot}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该地标为高级产力区域，吞并奖励如下：[br/]{ProductionFlat}，{ProductionSlot}。[br/]{ResearchFlat}，{ResearchSlot}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GRAIL_STRUCTURE_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This landmark is an advanced Research sector, and gives the following when annexed:[br/]{ResearchFlat}, {ResearchSlot}.[br/]{InfluenceFlat}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该地标为高级研究区域，吞并奖励如下：[br/]{ResearchFlat}，{ResearchSlot}。[br/]，{InfluenceFlat}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GRAIL_STRUCTURE_03</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This landmark is an advanced Supply sector, and gives the following when annexed:[br/]{FoodFlat}, {FoodSlot}.[br/]{ProductionFlat}, {ProductionSlot}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该地标为高级补给区域，吞并奖励如下：[br/]{FoodFlat}，{FoodSlot}。[br/]{ProductionFlat}，{ProductionSlot}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GRAIL_STRUCTURE_04</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This landmark is an advanced Research sector, and gives the following when annexed:[br/]{ResearchFlat}, {ResearchSlot}.[br/]{EnergyFlat}, {EnergySlot}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该地标为高级研究区域，吞并奖励如下：[br/]{ResearchFlat}，{ResearchSlot}。[br/]{EnergyFlat}，{EnergySlot}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GRAIL_STRUCTURE_05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SHORT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This landmark is an advanced Energy sector, and gives the following when annexed:[br/]{EnergyFlat}, {EnergySlot}.[br/]{SupplyFlat}, {SupplySlot}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该地标为高级能量区域，吞并奖励如下：[br/]{EnergyFlat}，{EnergySlot}。[br/]{SupplyFlat}，{SupplySlot}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EVENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PHASE_COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_PlayerName} completed {STR_PhaseName}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_PlayerName}已完成{STR_PhaseName}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >event text when a player completed a grail phase</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EVENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GRAIL_COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_PlayerName} completed the final phase and acquired the Grail Configuration</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_PlayerName}已完成最后阶段，并且获得了圣杯基阵</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >event text when a player has complted the grail event</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GRAILS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grails</Data></Cell><Cell><Data
+            ss:Type="String"
+          >圣杯</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GRAILS_CHANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grails Chance</Data></Cell><Cell><Data
+            ss:Type="String"
+          >圣杯几率</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >NORMAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Normal</Data></Cell><Cell><Data
+            ss:Type="String"
+          >正常</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >NORMAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The grail quest chain will start around turn {turn}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >圣杯任务链将在第 {turn} 回合左右开始。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Late</Data></Cell><Cell><Data
+            ss:Type="String"
+          >后期</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EARLY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Early</Data></Cell><Cell><Data
+            ss:Type="String"
+          >早期</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DISABLED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Disabled</Data></Cell><Cell><Data
+            ss:Type="String"
+          >禁用</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DISABLED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The grail quest chain will not appear.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >圣杯任务链将不会出现。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MAP_SETUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SETTINGS_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grails</Data></Cell><Cell><Data
+            ss:Type="String"
+          >圣杯</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MAP_SETUP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SETTINGS_TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Set the settings for the grail quest chain</Data></Cell><Cell><Data
+            ss:Type="String"
+          >调整圣杯任务链的设置。</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><TopRowVisible
+      >81</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >90</ActiveRow><ActiveCol>3</ActiveCol><RangeSelection
+          >R91C4:R100C4</RangeSelection></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

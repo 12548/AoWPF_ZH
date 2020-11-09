@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -507,10 +507,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit is superior to others of its kind. It has +{MutationMorale}[happiness/] and +{ResistanceStatus} resistance to all status effects.</Data></Cell><Cell
+          >This unit is superior to others of its kind. It has +{MutationMorale}[happiness/], +{ResistanceStatus} resistance to all status effects, and is {EvasionPercentage}% harder to hit.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位比其他同类级别高，拥有 +{MutationMorale}[happiness/]并且对所有状态效果拥有 +{ResistanceStatus} 抵抗。</Data></Cell></Row><Row
+          >此单位比其他同类级别更高，拥有 +{MutationMorale}[happiness/]、+{ResistanceStatus} 所有状态效果抵抗且命中难度增加 {EvasionPercentage}%。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">EVOLUTIONARY_MUTATION</Data></Cell><Cell
         ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
@@ -523,10 +523,10 @@
       ><Cell><Data ss:Type="String">EVOLUTIONARY_MUTATION</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit is better than others of its kind. It has +{MutationMorale}[happiness/] and +{ResistanceStatus} resistance to all status effects.</Data></Cell><Cell
+          >This unit is better than others of its kind. It has +{MutationMorale}[happiness/], +{ResistanceStatus} resistance to all status effects, and is {EvasionPercentage}% harder to hit.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位比其他同类强，拥有 +{MutationMorale}[happiness/]并且对所有状态效果拥有 +{ResistanceStatus} 抵抗。</Data></Cell></Row><Row
+          >此单位比其他同类更强，拥有 +{MutationMorale}[happiness/]、+{ResistanceStatus} 所有状态效果抵抗且命中难度增加 {EvasionPercentage}%。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">PLAGUE_CARRIER</Data></Cell><Cell><Data
             ss:Type="String"

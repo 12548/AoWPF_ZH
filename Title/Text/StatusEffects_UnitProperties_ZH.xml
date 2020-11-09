@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+  ><WindowHeight>7305</WindowHeight><WindowWidth>21420</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -244,11 +244,11 @@
           ss:StyleID="s63"
         ><Data
             ss:Type="String"
-          >{StunChance} strength chance to apply [abilityred]Stunned[/abilityred] to non-Ethereal for {durationStun}[turn/]. If resisted, apply [abilityred]Static Charge[/abilityred] instead.</Data></Cell><Cell
+          >{StunChance} strength chance to apply [abilityred]Stunned[/abilityred] to non-Ethereal for {durationStun}[turn/]. If resisted, apply [abilityred]Static Charge[/abilityred] for {chargeTurns}[turn/] instead.</Data></Cell><Cell
           ss:StyleID="s63"
         ><Data
             ss:Type="String"
-          >有 {StunChance} 力量几率对非虚灵单位施加[abilityred]晕眩[/abilityred]，持续 {durationStun}[turn/]。如果被抵抗，则改为施加[abilityred]静电电荷[/abilityred]。</Data></Cell><Cell
+          >有 {StunChance} 力量几率对非虚灵单位施加[abilityred]晕眩[/abilityred]，持续 {durationStun}[turn/]。如果被抵抗，则改为施加[abilityred]静电电荷[/abilityred]，持续 {chargeTurns}[turn/]。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /><Cell ss:StyleID="s63" /></Row><Row ss:AutoFitHeight="0"><Cell
@@ -1010,9 +1010,9 @@
             ss:Type="String"
           >NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Blighted Plague</Data></Cell><Cell><Data
+          >Blighted</Data></Cell><Cell><Data
             ss:Type="String"
-          >妨害疫病</Data></Cell></Row><Row
+          >枯萎</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data
@@ -1021,10 +1021,10 @@
             ss:Type="String"
           >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >{BlightedChance}[StrengthBio/] strength chance to apply [abilityred]Blighted Plague[/abilityred] to Biological and Cyborg targets for {durationBlight}[turn/]</Data></Cell><Cell
+          >{BlightedChance}[StrengthBio/] strength chance to apply [abilityred]Blighted[/abilityred] to Biological and Cyborg targets for {durationBlight}[turn/]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >有 {BlightedChance}[StrengthBio/] 力量几率对生物和半机械人单位施加[abilityred]妨害疫病[/abilityred]，持续 {durationBlight}[turn/]。</Data></Cell></Row><Row
+          >有 {BlightedChance}[StrengthBio/] 力量几率对生物和半机械人单位施加[abilityred]枯萎[/abilityred]，持续 {durationBlight}[turn/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data
@@ -1409,18 +1409,18 @@
             ss:Type="String"
           >NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Air to Air</Data></Cell><Cell><Data
+          >Anti-Air</Data></Cell><Cell><Data
             ss:Type="String"
-          >空对空</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+          >防空</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
           >AIR_TO_AIR</Data></Cell><Cell><Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >{DamageBonus}% additional damage against Flying units</Data></Cell><Cell
+          >{DamageBonus}% damage/{AccuracyBonus}% accuracy to Flying targets</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >对抗飞行单位时可造成 {DamageBonus}% 额外伤害</Data></Cell></Row><Row
+          >针对飞行目标获得 {DamageBonus}% 伤害/{AccuracyBonus}% 准度</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">GENERAL_LONG_REACH</Data></Cell><Cell><Data
             ss:Type="String"

@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -133,10 +133,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Attempt to [abilityred]Mind Control[/abilityred] a non-Mindless or non-Mechanical Tier I or Tier II Animal unit with a {PrimalChance}[StrengthBio/] strength chance.[br/]If the target is under the effect of [abilityred]Entangle[/abilityred] or [abilityred]Sleep[/abilityred] the strength chance increases to {PrimalSuperiorChance}[StrengthBio/].[br/]If mind controlled this way, the unit permanently comes under your control and will be implanted after battle to make it stronger. If resisted, apply [abilityred]Insanity[/abilityred] instead.</Data></Cell><Cell
+          >Attempt to [abilityred]Mind Control[/abilityred] a non-Mindless or non-Mechanical Tier I or Tier II Animal unit with a {PrimalChance}[StrengthBio/] strength chance.[br/]If the target is under the effect of [abilityred]Entangle[/abilityred] or [abilityred]Sleep[/abilityred] the strength chance increases to {PrimalSuperiorChance}[StrengthBio/].[br/]If mind controlled this way, the unit permanently comes under your control. If resisted, apply [abilityred]Insanity[/abilityred] instead.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >有 {PrimalChance}[StrengthBio/] 力量几率尝试[abilityred]心灵控制[/abilityred]一个 1 阶或 2 阶的非无意识或非机械的动物单位。[br/]如果目标正受到[abilityred]缠绕[/abilityred]或[abilityred]沉睡[/abilityred]效果影响，则力量几率提升至 {PrimalSuperiorChance}[StrengthBio/]。[br/]以这种方式控制的单位将会永久听命于你，并且会在战斗后获得植入而变得更强。如果抵抗，则改为施加[abilityred]错乱[/abilityred]。</Data></Cell><Cell
+          >有 {PrimalChance}[StrengthBio/] 力量几率尝试[abilityred]心灵控制[/abilityred]一个 1 阶或 2 阶的非无意识或非机械的动物单位。[br/]如果目标正受到[abilityred]缠绕[/abilityred]或[abilityred]沉睡[/abilityred]效果影响，则力量几率提升至 {PrimalSuperiorChance}[StrengthBio/]。[br/]以此方式被心灵控制的单位将永久受你控制。如果被抵抗，则改为施加[abilityred]错乱[/abilityred]。</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s64"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -227,10 +227,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Transform the target sector into a Forest ([supply/]/[production/]) sector.[br/][br/][productioncol]Cannot be launched on Mountain or Enemy sectors.[/productioncol]</Data></Cell><Cell
+          >Transform the target sector into a Forest ([supply/]/[production/]) sector.[br/][br/][productioncol]Cannot be launched on Urban, Mountain or Enemy sectors.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >将目标区域转化成森林（[supply/]/[production/]）区域。[br/][br/][productioncol]在山地地区和敌方区域无法执行。[/productioncol]</Data></Cell></Row><Row
+          >将目标区域转化成森林（[supply/]/[production/]）区域。[br/][br/][productioncol]在城市、山地和敌方区域无法执行。[/productioncol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">RAPID_REFORESTATION</Data></Cell><Cell><Data

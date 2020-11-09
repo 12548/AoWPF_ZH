@@ -1,0 +1,804 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author
+    >GameScribes4</Author><LastAuthor>GameScribes4</LastAuthor><Created
+    >2020-10-08T02:12:44Z</Created><LastSaved
+    >2020-06-19T14:25:59Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>7305</WindowHeight><WindowWidth>21420</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Top" /></Style><Style ss:ID="s64"><Font
+        ss:FontName="Arial"
+        x:Family="Swiss"
+        ss:Color="#000000"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="156"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="147" /><Column
+        ss:StyleID="s62"
+        ss:Width="143.25"
+      /><Column ss:StyleID="s62" ss:Width="121.5" /><Column
+        ss:StyleID="s62"
+        ss:Width="150"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="344.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="120.75"
+      /><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
+            ss:Type="String"
+          >INTERFACE_DLC05</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >text serounded by {} or [] are special tags for code. These tag will be replaced with other text eg: the name of a player. The tags should NOT be localized. They represent the place in the sentens for their replacing string. Some {} tags start with STR or INT. STR means it will be replaced with text, INT means it will be replaced with a numerical value</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONTINUE_EMPIRE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >My Galactic Empire</Data></Cell><Cell><Data
+            ss:Type="String"
+          >我的银河帝国</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used in the title menu for viewing the player's Galactic Empire</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CREATE_NEW_EMPIRE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Found a new Empire</Data></Cell><Cell><Data
+            ss:Type="String"
+          >建立新帝国</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used in the title menu as button caption for starting/creating a new Galactic Empire, which is a collection of planets under the player's control.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EMPIRE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Empire Name</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国名称</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >used as a header above an inputfield where the player can name their empire</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EMPIRE_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Empire Description</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国描述</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >used as a header above an inputfield where the player can describe their empire</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CREATE_EMPIRE_TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Create new Empire</Data></Cell><Cell><Data
+            ss:Type="String"
+          >创建新帝国</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used as title for the create Empire Screen</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EDIT_EMPIRE_TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Edit Empire</Data></Cell><Cell><Data
+            ss:Type="String"
+          >编辑帝国</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Uses as title for the edit Empire Screen</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:StyleID="s63"
+      ><Cell><Data ss:Type="String">BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUER_NEW_WORLD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Conquer new World</Data></Cell><Cell><Data
+            ss:Type="String"
+          >征服新星球</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Button that lets the player select the next world to conquer</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:StyleID="s63"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EMPIRE_LEVEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Empire level: {INT_level}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国等级：{INT_level}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown as header of a screen and indicates the level of the player's Galactic Empire.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:StyleID="s63"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNITS_KILLED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Units Killed: {INT_value}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >击杀单位：{INT_value}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown in breakdown list</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:StyleID="s63"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >HEROES_KILLED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heroes Killed: {INT_value}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >击杀英雄：{INT_value}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown in breakdown list</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:StyleID="s63"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BATLLES_WON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Battles Won: {INT_value}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >战斗胜利：{INT_value}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown in breakdown list</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:StyleID="s63"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LANDMARK_CLEARED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Landmarks Cleared: {INT_value}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >清理地标：{INT_value}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown in breakdown list</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:StyleID="s63"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOTALMULTIPLIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Total Multiplier</Data></Cell><Cell><Data
+            ss:Type="String"
+          >总倍数</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown in breakdown as: "Total Multiplier: VALUE"</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELICS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Relics</Data></Cell><Cell><Data
+            ss:Type="String"
+          >遗物</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Relics, items/entries of the reliquary. Is used as list name, so the list would be called relics and items are listed underneath.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SELECT_REQUISITIONS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Choose Requisition items</Data></Cell><Cell><Data
+            ss:Type="String"
+          >选择征用物品</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Instructs the player on what to do in the requisition screen, is shown at the top of the screen.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROGRESS_REWARD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Progress Reward</Data></Cell><Cell><Data
+            ss:Type="String"
+          >进度奖励</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used as list header for Empire Progress rewards.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >REQUISITION_SCREEN_TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Galactic Empire</Data></Cell><Cell><Data
+            ss:Type="String"
+          >银河帝国</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used as title for the requisition screen</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NEXT_PLANET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Next Planet</Data></Cell><Cell><Data
+            ss:Type="String"
+          >下一个星球</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used as button caption/tooltip for browsing through the list of planets</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PREVIOUS_PLANET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Previous Planet</Data></Cell><Cell><Data
+            ss:Type="String"
+          >上一个星球</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used as button caption/tooltip for browsing through the list of planets</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DELETE_PLANET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Delete Planet</Data></Cell><Cell><Data
+            ss:Type="String"
+          >删除星球</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used as button caption for deleting a planet</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOAD_EMPIRE_TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Load Empire</Data></Cell><Cell><Data
+            ss:Type="String"
+          >载入帝国</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used as button caption for loading an empire</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DELETE_EMPIRE_TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Delete Empire</Data></Cell><Cell><Data
+            ss:Type="String"
+          >删除帝国</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used as button caption for deleting an empire</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RANDOMIZE_PLANETS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Randomize Planets</Data></Cell><Cell><Data
+            ss:Type="String"
+          >随机设定星球</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used as button caption for randomizing the available planets in the empire</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RANDOMIZE_PLANETS_TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Replaces the current set of available planets with a new set of 3 random planets.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >用 3 个新的随机星球替换现有的星球。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Randomize planets tooltip, explains that the current set is removed and a completely new set of planets is generated.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SURVEY_SITES_SOLVED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Anomalous Sites resolved: {INT_value}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >解决异常地点：{INT_value}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown in breakdown list</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PLAYERS_DEFEATED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Players Defeated: {INT_value}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >击败玩家：{INT_value}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown in breakdown list</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MULTIPLIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Multiplier</Data></Cell><Cell><Data
+            ss:Type="String"
+          >倍数</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown in breakdown as: "Multiplier: VALUE"</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RECRUIT_NEW_HERO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Recruit new hero</Data></Cell><Cell><Data
+            ss:Type="String"
+          >招募新英雄</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Button caption in leader editor where the player can recruit a new hero into their empire.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RECRUIT_NEW_HERO_TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Choose or customize a hero that is added as a new hero to your empire upon starting the game.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >选择或自定义一个英雄。游戏开始时，该英雄将加入你的帝国。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABANDON_PLANET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Abandon Planet</Data></Cell><Cell><Data
+            ss:Type="String"
+          >放弃星球</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used as button caption for abandoning a planet.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABANDON_PLANET_TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Surrender your progress on this planet. The game ends in defeat and you will be lead to the results screen. You do not conquer the planet, heroes will not level up and no relics or [xp/] is gained for this planet, but you can still claim [xp/] for any progress in secondary objectives.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >放弃你在这个星球上的进度。游戏将会失败并跳转至结果界面。你没有征服这个星球，因此英雄不会升级，你也不会获得这个星球的遗物和 [xp/]，但你仍然可以领取完成次要目标进度所获得的 [xp/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Tooltip that explains that abandoning the planet counts as losing and will not level up any heroes nor will the player gain experience for their hero's race and technology. They can however still gain experience for any objectives that were completed.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABANDON_PLANET_CONFIRMATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{XML_INTERFACE_DLC05@BUTTON@ABANDON_PLANET_TOOLTIP}[br/][br/]Are you sure you want to abandon this planet? You can still load a save game in the next screen if you do not want to accept the results.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{XML_INTERFACE_DLC05@BUTTON@ABANDON_PLANET_TOOLTIP}[br/][br/]你确定要放弃这个星球吗？如果不想接受结果，你可以在下一个界面加载游戏存档。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Same as above, but adds a confirmation request to the end. Players will see the results in the next screen where they will still get the choice to either accept the results or to load a save game.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EVENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EMPIRE_HERO_JOIN_TODO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Handle Empire hero join offer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >处理帝国英雄加入申请</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Event header to show the player a galactic empire hero is still waiting for an awnser on the joining call</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EVENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EMPIRE_HERO_JOIN_NOTIFY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Recruit Empire Hero</Data></Cell><Cell><Data
+            ss:Type="String"
+          >招募帝国英雄</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Event to show the player a galactic empire hero wants to join</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EVENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EMPIRE_HERO_JOIN_LOG</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Empire hero available to recruit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >可招募的帝国英雄</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Event to show the player had a galactic empire hero that wanted to join [past tense, used in log]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TOME_OF_WONDERS_FILTERS</Data></Cell><Cell
+        ><Data ss:Type="String">GAME_CONCEPTS_GALACTIC_EMPIRE</Data></Cell><Cell
+        ><Data ss:Type="String">Galactic Empire</Data></Cell><Cell><Data
+            ss:Type="String"
+          >银河帝国</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of the galactic empire</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TOME_OF_WONDERS_FILTERS</Data></Cell><Cell
+        ><Data ss:Type="String">GAME_CONCEPTS_GRAIL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grails</Data></Cell><Cell><Data
+            ss:Type="String"
+          >圣杯</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of the grail system</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TOME_OF_WONDERS_FILTERS</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >GAME_CONCEPTS_RESIDENTIAL_SECTORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Residential Sectors</Data></Cell><Cell><Data
+            ss:Type="String"
+          >住宅区域</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of the residential sectors system</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TOME_OF_WONDERS_FILTERS</Data></Cell><Cell
+        ><Data ss:Type="String">RESEARCH_OATHBOUND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Oathbound</Data></Cell><Cell><Data
+            ss:Type="String"
+          >誓约者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of the race</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">TOME_OF_WONDERS_FILTERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RESEARCH_ENTROPY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of a tech group</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TOME_OF_WONDERS_FILTERS</Data></Cell><Cell
+        ><Data ss:Type="String">OPERATIONS_OATHBOUND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Oathbound</Data></Cell><Cell><Data
+            ss:Type="String"
+          >誓约者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of the race</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">TOME_OF_WONDERS_FILTERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >OPERATIONS_ENTROPY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of a tech group</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TOME_OF_WONDERS_FILTERS</Data></Cell><Cell
+        ><Data ss:Type="String">UNITS_OATHBOUND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Oathbound</Data></Cell><Cell><Data
+            ss:Type="String"
+          >誓约者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of the race</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">TOME_OF_WONDERS_FILTERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNITS_MYCELIAN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mycelian</Data></Cell><Cell><Data
+            ss:Type="String"
+          >菌丝体</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of the race</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">TOME_OF_WONDERS_FILTERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNITS_APOSTATES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Apostates</Data></Cell><Cell><Data
+            ss:Type="String"
+          >变节者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of the race</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">TOME_OF_WONDERS_FILTERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNITS_PSIONICA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psionica</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵蛭</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of the race</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">TOME_OF_WONDERS_FILTERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_UPGRADES_OATHBOUND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Oathbound</Data></Cell><Cell><Data
+            ss:Type="String"
+          >誓约者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of the race</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">TOME_OF_WONDERS_FILTERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_UPGRADES_ENTROPY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of a tech group</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TOME_OF_WONDERS_FILTERS</Data></Cell><Cell
+        ><Data ss:Type="String">HERO_SKILLS_OATHBOUND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Oathbound</Data></Cell><Cell><Data
+            ss:Type="String"
+          >誓约者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of the race</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GALACTIC_EMPIRES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Galactic Empires</Data></Cell><Cell><Data
+            ss:Type="String"
+          >银河帝国</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown as filter in the load game dialog</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GALACTIC_EMPIRES_SESSIONS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Galactic Empire Sessions</Data></Cell><Cell><Data
+            ss:Type="String"
+          >银河帝国战局</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown as filter in the load game dialog</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMPIRE_LOAD_FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DIALOG_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Failed to load the last known Galactic Empire file. Please make sure you are connected to the internet if you are making use of cloud storage and then restart the game. Alternatively, you can also try to manually load an Empire using the load game dialog.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >未能加载最后已知的银河帝国文件。如果你正在使用云端存储，请确保已连接至互联网，然后重新启动游戏。或者，你也可以使用载入游戏对话框来尝试手动加载帝国。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Warning message that is displayed when the game fails to load the last known empire save game. This typically happens when the file cannot be found, this may be related to the users internet connection which may prevent the game from accessing cloud storage. The user may still try to manually load an Empire.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >EMPIRE_SESSION_LOAD_FAILED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DIALOG_MESSAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The save game, {STR_fileName}, could not be loaded because it belongs to a Galactic Empire that is currently not loaded. Please make sure to load the appropriate Galactic Empire and try again.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >无法载入游戏存档{STR_fileName}，因为此存档属于一个目前尚未加载的银河帝国。请确保载入适当的银河帝国，然后再试一次。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Warning message that is displayed when an empire save game cannot be loaded because the associated empire is not loaded. The player must load the correct empire first before the save game can be loaded.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >REQUISITION_INFO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >These items can be bought in game for Imperial Renown [favor/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这些物品可以在游戏中通过帝国声望 [favor/] 购买</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Informs the player that any requisition items selected will become available in-game and can be bought for Imperial Renown.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EMPIRE_HEROES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Empire Heroes</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国英雄</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown as label for the list of galactic empire heroes in the leader selection screen.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PLANET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Planet</Data></Cell><Cell><Data
+            ss:Type="String"
+          >星球</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Is used in lists like: "Planet: NAME"</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNLOCKS_RELIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unlocks relic:</Data></Cell><Cell><Data
+            ss:Type="String"
+          >解锁遗物：</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used in a list of results, is followed by the name of the relic (the game will automatically add an empty space character in between!)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNLOCKS_REQUISITION_ITEMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unlocks the following requisition item(s):</Data></Cell><Cell><Data
+            ss:Type="String"
+          >解锁下列征用物品：</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used in tooltips to specify that a certain action or reward unlocks a number of items which the player can choose from in the reliquary screen. This text is followed by one or more requisition items.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MAX_LEVEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >max level</Data></Cell><Cell><Data
+            ss:Type="String"
+          >最高等级</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Uses to describe the status/level of a hero or progression track as being at the maximum achievable level. This is used as part of a scentence so it is explicitly all lower case.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ASSISTING_HEROES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Assisting heroes</Data></Cell><Cell><Data
+            ss:Type="String"
+          >协助英雄</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Header for a list, is followed by the names of the heroes that assisted on a planet.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELIC_UNLOCKED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Relic unlocked</Data></Cell><Cell><Data
+            ss:Type="String"
+          >解锁遗物</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used like: "Relic unlocked: NAME".</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLEXITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Complexity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >复杂度</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used to describe the complexity of a certain planet, used like: "Complexity: NAME"</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOTAL_XP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Total experience</Data></Cell><Cell><Data
+            ss:Type="String"
+          >总经验值</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used like: "Total Experience: VALUE", used in a breakdown to summarize the total experience points the player has accumulated for a certain race or technology.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DISMISS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dismiss</Data></Cell><Cell><Data
+            ss:Type="String"
+          >遣散</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOGGLE_RECRUITABLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Toggle Recruitable</Data></Cell><Cell><Data
+            ss:Type="String"
+          >切换可招募</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STARMAP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Star Map</Data></Cell><Cell><Data
+            ss:Type="String"
+          >星图</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of the Star Map/Overview screen, shown as title and button caption</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >HALLOFHEROES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Hall of Heroes</Data></Cell><Cell><Data
+            ss:Type="String"
+          >英雄大厅</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of the Hall of Heroes screen, shown as title and button caption</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RELIQUARY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reliquary</Data></Cell><Cell><Data
+            ss:Type="String"
+          >圣物箱</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of the Reliquary screen, shown as title and button caption</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROGRESSION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Progression</Data></Cell><Cell><Data
+            ss:Type="String"
+          >进度</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of the Progression screen, shown as title and button caption</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LINK_HERO_TO_COLONY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Link to colony</Data></Cell><Cell><Data
+            ss:Type="String"
+          >连接至殖民地</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used as button caption to link a hero as lord of a city/colony</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXTERNAL_EVENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LINK_HERO_TO_COLONY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_heroName} can become Lord of a Colony</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_heroName}可成为殖民地领主</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_heroName} can become Lady of a Colony</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >{STR_heroName}可成为殖民地领主</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Used as title for an event to inform the player that their hero can become lord/lady of a colony</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>85</Zoom><Selected
+      /><TopRowVisible>39</TopRowVisible><Panes><Pane><Number
+          >3</Number><ActiveRow>72</ActiveRow><ActiveCol
+          >5</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+  ><WindowHeight>7305</WindowHeight><WindowWidth>21420</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -622,14 +622,14 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Upload an artificial consciousness to a susceptible unit. This resets target friendly [abilityblue]Integrated[/abilityblue] unit's cooldowns and once per battle abilities. </Data></Cell><Cell
+          >Upload an artificial consciousness to a susceptible unit. This resets target friendly [abilityblue]Integrated[/abilityblue] unit's cooldowns and once per battle abilities. [br/][br/]This cannot be used on other Network Links.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >向易感单位上传人造意识 (AC)。该操作将会重置己方[abilityblue]融合[/abilityblue]目标的冷却时间，并重置一场战斗中只能使用一次的技能。 </Data></Cell><Cell
+          >向容易受到影响的单位上传人造意识，这将会重置目标友方[abilityblue]融合[/abilityblue]单位的冷却时间和一场战斗中只能使用一次的技能。[br/][br/]不可对其他网络链接使用此技能。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
-          >The artificial consciousness (AC) is the soul of a being, converted into computer software. Integrated is a status effect that allows the unit to be the target of beneficial effects</Data></Cell><Cell
+          >The artificial consciousness (AC) is the soul of a being, converted into computer software. Integrated is a status effect that allows the unit to be the target of beneficial effects. Network Link is a type of unit (the one that uses this ability)</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >Upload an artificial consciousness to a susceptible unit. Target friendly [abilityblue]Integrated[/abilityblue] unit has the cooldowns and once per battle status on their abilities reset. </Data></Cell></Row><Row
@@ -676,10 +676,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Extend the duration of all active Daemons, both friendly and hostile, on the whole battlefield by {IntegrityEnforcementTime}.</Data></Cell><Cell
+          >Extend the duration of all active Daemons and Subroutines, both friendly and hostile, on the whole battlefield by {IntegrityEnforcementTime}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >将整个战场上所有已激活精灵（不分敌我）的存续时间延长 {IntegrityEnforcementTime}。</Data></Cell><Cell
+          >将战场上所有激活的精灵和子程序（不分敌我）的持续时间延长 {IntegrityEnforcementTime}。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -776,10 +776,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target enemy Mechanical or Cyborg unit is forcibly infected with a hostile Daemon that attempts to wrest control of the unit. They have a strength {DisabledCompromisedChance} chance to become [abilityred]Mind Controlled[/abilityred] and switch allegiance until end of combat. On failure, the unit is [abilityred]Disabled[/abilityred] instead.</Data></Cell><Cell
+          >Target enemy Mechanical or Cyborg unit is forcibly infected with a hostile Daemon that attempts to wrest control of the unit. They have a strength {DisabledCompromisedChance} chance to become [abilityred]Mind Controlled[/abilityred] and switch allegiance until end of combat. The [abilityred]Mind Control[/abilityred] ends when the caster is killed. On failure, the unit is [abilityred]Disabled[/abilityred] for {disabledTurns}[turn/] instead.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >目标敌方机械单位或半机械单位被迫感染敌方精灵，该精灵会尝试夺取该单位的控制权。它们有 {DisabledCompromisedChance} 力量几率被[abilityred]心灵控制[/abilityred]，[br/]并改变阵营直到战斗结束。如果心灵控制失败，则该单位被[abilityred]瘫痪[/abilityred]。</Data></Cell><Cell
+          >目标敌方机械单位或半机械单位被迫感染敌方精灵，该精灵会尝试夺取该单位的控制权。它们有 {DisabledCompromisedChance} 力量几率被[abilityred]心灵控制[/abilityred]，并改变阵营直到战斗结束。如果心灵控制失败，则该单位被[abilityred]瘫痪[/abilityred]，持续 {disabledTurns}[turn/]。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -1542,9 +1542,10 @@
             ss:Type="String"
           >LEVEL_1_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Steal {NetworkResearchTheft}[research/].</Data></Cell><Cell><Data
+          >Synthesis units gain {NetworkAcc} [accuracy/] and {NetworkCrit} critical hit chance.</Data></Cell><Cell
+        ><Data
             ss:Type="String"
-          >窃取 {NetworkResearchTheft}[research/]。</Data></Cell><Cell
+          >合成单位获得 {NetworkAcc}[accuracy/] 准度和 {NetworkCrit} 暴击率。</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s64"
         ><Data
@@ -1556,10 +1557,9 @@
             ss:Type="String"
           >LEVEL_2_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Steal {NetworkResearchTheft}[research/].[br/]Synthesis units gain {NetworkAcc} [accuracy/] and {NetworkCrit} crit chance.</Data></Cell><Cell
-        ><Data
+          >Steal {NetworkResearchTheft}[research/]</Data></Cell><Cell><Data
             ss:Type="String"
-          >窃取 {NetworkResearchTheft}[research/]。[br/]合成单位获得 {NetworkAcc}[accuracy/] 和 {NetworkCrit} 暴击率。</Data></Cell><Cell
+          >窃取 {NetworkResearchTheft}[research/]</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s64"
         ><Data
@@ -1587,10 +1587,10 @@
             ss:Type="String"
           >LEVEL_3_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Steal {NetworkResearchTheft}[research/].[br/]Synthesis units gain {NetworkAcc} [accuracy/] and {NetworkCrit} crit chance.[br/][abilityred]Compromised[/abilityred] non-Synthesis units have {NetworkDaemonChance} strength chance to get an [abilityred]Incapacitate[/abilityred] or [abilityred]Haywire[/abilityred] Daemon each [turn/].</Data></Cell><Cell
+          >[abilityred]Compromised[/abilityred] non-Synthesis units have {NetworkDaemonChance} strength chance to get an [abilityred]Incapacitate[/abilityred] or [abilityred]Haywire[/abilityred] Daemon each [turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >窃取 {NetworkResearchTheft}[research/]。[br/]合成单位获得 {NetworkAcc}[accuracy/] 和 {NetworkCrit} 暴击率。[br/]被[abilityred]扰乱[/abilityred]的非合成单位每 [turn/] 回合有 {NetworkDaemonChance} 力量几率被[abilityred]致残[/abilityred]精灵或[abilityred]混乱[/abilityred]精灵感染。</Data></Cell><Cell
+          >被[abilityred]扰乱[/abilityred]的非合成单位每 [turn/] 有 {NetworkDaemonChance} 力量几率被[abilityred]致残[/abilityred]精灵或[abilityred]混乱[/abilityred]精灵感染。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"
@@ -2305,6 +2305,69 @@ Synthesis is a state of transcendance where man is merged with machine, their co
         ><Data
             ss:Type="String"
           >单位获得[abilityblue]精细调试[/abilityblue]，获得 +{accuracy} 准度和 +{damage} 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">WAR_OF_THE_MACHINES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_BONUS_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units gain {medal}[medalIron/] rank</Data></Cell><Cell><Data
+            ss:Type="String"
+          >所有单位获得 {medal}[medalIron/] 军阶</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">WAR_OF_THE_MACHINES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_BONUS_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{discount}[energy/] cost for all units.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >所有单位的 [energy/] 消耗减少 {discount}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">NEUROSCRAMBLER_DAEMON</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Neuroscrambler Daemon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >神经扰频器精灵</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >A Daemon is a computer virus controlled by an artificial intelligence. Neuroscrambler - neurons from brain, scramble as in mix up</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">NEUROSCRAMBLER_DAEMON</Data></Cell><Cell
+        ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target enemy non-Mindless unit is forcibly infected with a hostile Daemon. They have a strength {HaywireChanceCompromised} chance to become [abilityred]Disabled[/abilityred] for {HaywireTurnCompromised}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使目标敌方非无意识单位感染恶意精灵，有 {HaywireChanceCompromised} 力量几率陷入[abilityred]瘫痪[/abilityred]，持续 {HaywireTurnCompromised}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >note: the Haywire tags should not be changed</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">NEUROSCRAMBLER_DAEMON</Data></Cell><Cell
+        ><Data ss:Type="String">GIVEN_PROPERTY_DESCRIPTION</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >Forcibly infected with a Neuroscrambler Daemon.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >被强制感染了神经扰频器精灵。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TUNING_STEP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tuning Step</Data></Cell><Cell><Data
+            ss:Type="String"
+          >调谐步进</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >TUNING_STEP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Teleport to target hex, granting friendly [abilityblue]Integrated[/abilityblue] units in a {hexrad} hex radius [abilityblue]Finely-tuned[/abilityblue] ({fineltytunedbonus} damage and accuracy) for {turns}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >传送至目标单元格，使 {hexrad} 个单元格范围内的友方[abilityblue]融合[/abilityblue]单位获得[abilityblue]精细调试[/abilityblue]（{fineltytunedbonus} 伤害与准度），持续 {turns}。</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell

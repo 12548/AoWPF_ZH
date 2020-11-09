@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -527,10 +527,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The unit gains [abilityblue]Universal Camouflage[/abilityblue], is {CamouflageAccuracy}% harder to hit and gains the 'Evasion' defense mode.</Data></Cell><Cell
+          >The unit gains [abilityblue]Universal Camouflage[/abilityblue], is {CamouflageAccuracy}% harder to hit and immune to enemy overwatch.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >单位获得[abilityblue]通用伪装[/abilityblue]，命中难度增加 {CamouflageAccuracy}% 并获得“闪避”防御模式。</Data></Cell></Row><Row
+          >单位获得[abilityblue]通用伪装[/abilityblue]，使其命中难度增加 {CamouflageAccuracy}% 并免疫敌方的警戒。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -604,10 +604,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Run purging protocols on target Indentured unit, dispelling them of all hostile status effects.</Data></Cell><Cell
+          >Run purging protocols on all friendly Indentured units, dispelling them of all hostile status effects.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >对目标契约单位运行净化协议，驱散其所有负面状态效果。</Data></Cell></Row><Row
+          >对所有友方契约单位执行净化协议，驱散其所有负面状态效果。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">PSITEC_DRIVE_MODULATOR</Data></Cell><Cell
         ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
