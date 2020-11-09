@@ -921,8 +921,11 @@
             ss:Type="String"
           >Target in any sector</Data></Cell><Cell><Data
             ss:Type="String"
-          >以任意区域为目标</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
-        ><Data ss:Type="String">SECTOR_SINGLE</Data></Cell><Cell><Data
+          >以任意区域为目标</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Neutral means not belonging to a friend or foe, in this case</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SECTOR_SINGLE</Data></Cell><Cell><Data
             ss:Type="String"
           >UNOCCUPIED</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1163,7 +1166,9 @@
             ss:Type="String"
           >Target in any land sector</Data></Cell><Cell><Data
             ss:Type="String"
-          >以任意陆地区域为目标</Data></Cell></Row><Row
+          >以任意陆地区域为目标</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Neutral means not belonging to a friend or foe, in this case</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">SECTOR_SINGLE</Data></Cell><Cell><Data
             ss:Type="String"

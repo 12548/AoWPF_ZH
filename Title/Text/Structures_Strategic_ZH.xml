@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
     >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
     >False</ProtectStructure><ProtectWindows
@@ -1195,10 +1195,10 @@
             ss:Type="String"
           >COMBAT_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Ranged abilities from [abilityblue]friendly[/abilityblue] units gain {accuracybuff} and {rangebuff} hex range.</Data></Cell><Cell
+          >Ranged abilities from [abilityblue]friendly[/abilityblue] units gain {accuracybuff} accuracy and {rangebuff} hex range.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >[abilityblue]友方[/abilityblue]单位的远程技能获得 {accuracybuff} 和 {rangebuff} 单元格范围加成。</Data></Cell><Cell
+          >[abilityblue]友方[/abilityblue]单位的远程技能提升 {accuracybuff} 准度和 {rangebuff} 个单元格范围。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         ><Data
@@ -1232,10 +1232,10 @@
             ss:Type="String"
           >LOGIC_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >[bulletList][bullet][abilityred]Enemy[/abilityred] operations are not possible in this sector, both on the world map and in tactical combat.[/bullet]</Data></Cell><Cell
+          >[bulletList][bullet]Operations are not possible in this sector, both on the world map and in tactical combat.[/bullet]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >[bulletList][bullet]无论是位于世界地图还是在战术战斗中，[abilityred]敌人[/abilityred]都无法在该区域实施行动。[/bullet]</Data></Cell></Row><Row
+          >[bulletList][bullet]无法在世界地图和战术战斗中在此区域发动行动。[/bullet]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">OPERATION_SCRAMBLER</Data></Cell><Cell><Data
@@ -2234,11 +2234,124 @@ Paragon Trooper and Paragon Guards are the unit names.</Data></Cell></Row><Row
             ss:Type="String"
           >{Income}</Data></Cell><Cell><Data
             ss:Type="String"
-          >{Income}</Data></Cell></Row><Row><Cell><Data
+          >{Income}</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+          >GENERIC_UNIT_PROP</Data></Cell><Cell><Data
             ss:Type="String"
-          /></Cell><Cell ss:Index="7"><Data
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has {UnitBonus}.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >此单位获得 {UnitBonus}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IMPERIAL_WAR_MONUMENT</Data></Cell><Cell
+        ><Data ss:Type="String">UNIT_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Non-Mindless units gain {UnitBonus}.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >非无意识单位获得 {UnitBonus}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HEAVY_WEAPONS_FACTORY</Data></Cell><Cell
+        ><Data ss:Type="String">UNIT_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heavy units gain {UnitBonus}.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >重型单位获得 {UnitBonus}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PSI_SHRINE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units gain {UnitBonus} Psionic Resistance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有单位获得 {UnitBonus} 灵能抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DNA_VAULT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Biological and Cyborg units gain {UnitBonus}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生物和半机械人单位获得 {UnitBonus}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TERRAFORMING_OUTPOST</Data></Cell><Cell
+        ><Data ss:Type="String">UNIT_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units gain {UnitBonus} status effect resistance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有单位获得 {UnitBonus} 状态效果抵抗。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BROADCAST_STATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units gain {UnitBonus} accuracy.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >所有单位获得 {UnitBonus} 准度。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PARAGON_BARRACKS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All Light units gain {UnitBonus}.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >所有轻型单位获得 {UnitBonus}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PROMETHEAN_VAULT_DOCTRINE</Data></Cell><Cell
+        ><Data ss:Type="String">UNIT_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Promethean units cost {EnergyReduction} less [energy/] to produce.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >圣火单位的产力消耗降低 {EnergyReduction}[energy/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >PSYNUMBRA_SANCTORUM_DOCTRINE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psynumbra units cost  {EnergyReduction} less [energy/] to produce.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >赛努布拉单位的产力消耗降低 {EnergyReduction}[energy/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOIDTECH_COMPLEX_DOCTRINE</Data></Cell><Cell
+        ><Data ss:Type="String">UNIT_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Voidtech units cost  {EnergyReduction} less [energy/] to produce.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >虚空科技单位的产力消耗降低 {EnergyReduction}[energy/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >CELESTIAN_ARCHIVES_DOCTRINE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Celestial units cost {EnergyReduction} less [energy/] to produce.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >星神单位的产力消耗降低 {EnergyReduction}[energy/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >SYNTHESIS_NETWORK_DOCTRINE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Synthesis units cost  {EnergyReduction} less [energy/] to produce.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >合成单位的产力消耗降低 {EnergyReduction}[energy/]。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
             ss:Type="String"
           >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data

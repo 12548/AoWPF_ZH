@@ -13,7 +13,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7320</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -1005,7 +1005,7 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Condemn an enemy in the name of the Es'Teq, transforming them to a Drained unit. Target enemy non-Mindless Infantry unit has a {StrengthChance}[strengthentropy/] strength chance to gain [abilityred]Condemned[/abilityred] until end of battle. Condemned units have -{moraledebuff}[anger/] and -{EntropyDebuff}[defenseentropy/].[br/][br/]When a unit with [abilityred]Condemned[/abilityred] dies, instead of leaving behind a corpse, a Drained unit is summoned under the caster's control. This unit is permanent, and will not be removed at the end of battle.[br/]Cannot target Heroes or Commanders.</Data></Cell><Cell
+          >Condemn an enemy in the name of the Es'Teq, transforming them to a Drained unit. Target enemy non-Hero Infantry unit has a {StrengthChance}[strengthentropy/] strength chance to gain [abilityred]Condemned[/abilityred] until end of battle. Condemned units have -{moraledebuff}[anger/] and -{EntropyDebuff}[defenseentropy/].[br/][br/]When a unit with [abilityred]Condemned[/abilityred] dies, it transforms into a Drained unit under the caster's control. This unit remains after battle.</Data></Cell><Cell
           ss:StyleID="Default"
         ><Data
             ss:Type="String"
@@ -1485,10 +1485,10 @@
             ss:Type="String"
           >LEVEL_1_DESCRIPTION</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >{Chance}% chance to transform {popAmount} into a Drained each [turn/].</Data></Cell><Cell
+          >In combat, one non-Heritor player unit has a {Strength}[strengthentropy/] strength chance to be [abilityred]Stunned[/abilityred] each [turn/]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >每 [turn/] 回合有 {Chance}% 几率将 {popAmount} 转化为枯萎者。</Data></Cell><Cell
+          >在战斗中，每 [turn/] 就会有一个非继承者玩家单位有 {Strength}[strengthentropy/] 力量几率陷入[abilityred]晕眩[/abilityred]</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s67"
         /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
@@ -1513,10 +1513,10 @@
             ss:Type="String"
           >LEVEL_2_DESCRIPTION</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >{Chance}% chance to transform {popAmount} into a Drained each [turn/].[br/]In combat, a random non-Heritor unit has a {Strength}[strengthentropy/] strength chance to be [abilityred]Stunned[/abilityred] each [turn/]. On failure, they gain [abilityred]Entropic Decay[/abilityred] instead.[br/</Data></Cell><Cell
+          >{Chance}% chance to transform {popAmount} into a Drained each [turn/]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >每 [turn/] 回合有 {Chance}% 几率将 {popAmount} 转化为枯萎者。[br/]在战斗中，每 [turn/] 回合，一个随机的非继承者单位有 {Strength}[strengthentropy/] 力量几率陷入[abilityred]晕眩[/abilityred]。如果失败，则获得[abilityred]混沌衰败[/abilityred]。[br/</Data></Cell><Cell
+          >每 [turn/] 有 {Chance}% 几率将 {popAmount} 转化为枯萎者。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s67"
         /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
@@ -1541,10 +1541,10 @@
             ss:Type="String"
           >LEVEL_3_DESCRIPTION</Data></Cell><Cell ss:StyleID="s67"><Data
             ss:Type="String"
-          >{Chance}% chance to transform {popAmount} into a Drained each [turn/].[br/]In combat, a random non-Heritor unit has a {Strength}[strengthentropy/] strength chance to be [abilityred]Stunned[/abilityred] each [turn/]. On failure, they gain [abilityred]Entropic Decay[/abilityred] instead.[br/]Friendly units gain full [abilityblue][essencecharge/]Essence Charges[/abilityblue] at the start of combat.</Data></Cell><Cell
+          >Heritor player units gain full [abilityblue][essencecharge/]Essence Charges[/abilityblue] at the start of combat.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >每 [turn/] 回合有 {Chance}% 几率将 {popAmount} 转化为枯萎者。[br/]在战斗中，每 [turn/] 回合，一个随机的非继承者单位有 {Strength}[strengthentropy/] 力量几率陷入[abilityred]晕眩[/abilityred]。如果失败，则获得[abilityred]混沌衰败[/abilityred]。[br/]友方单位在战斗开始时获得全部 [abilityblue][essencecharge/]精华充能[/abilityblue]。</Data></Cell><Cell
+          >在战斗开始时，继承者玩家单位将获得最大数量的 [abilityblue][essencecharge/]精华充能[/abilityblue]。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s67"
         /><Cell ss:StyleID="s67" /><Cell ss:StyleID="s67" /></Row><Row
@@ -2131,10 +2131,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target unit gains {EntropyStackAmount} stacks of [abilityred]Energy Drain[/abilityred], and the caster gains {buffstacks} stacks of [abilityblue][essencecharge/]Essence Charge[/abilityblue].</Data></Cell><Cell
+          >Target unit has a {strength}[strengthentropy/] strength chance to gain {EntropyStackAmount} stacks of [abilityred]Energy Drain[/abilityred], and the caster gains {buffstacks} stacks of [abilityblue][essencecharge/]Essence Charge[/abilityblue]. This always succeeds against friendly targets.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >目标单位获得 {EntropyStackAmount} 层[abilityred]能量干涸[/abilityred]，施法者获得 {buffstacks} 层 [abilityblue][essencecharge/]精华充能[/abilityblue]。</Data></Cell></Row><Row
+          >目标单位有 {strength}[strengthentropy/] 力量几率获得 {EntropyStackAmount} 层[abilityred]能量干涸[/abilityred]，施法者获得 {buffstacks} 层 [abilityblue][essencecharge/]精华充能[/abilityblue]。以友方为目标时必定成功。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">EMPOWERED_DRAINED</Data></Cell><Cell><Data
             ss:Type="String"
@@ -2767,11 +2767,21 @@
             ss:Type="String"
           >Devoted</Data></Cell><Cell><Data
             ss:Type="String"
-          >忠贞不二</Data></Cell></Row><Row><Cell><Data
+          >忠贞不二</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+          >REAWAKEN_HERITOR_SANCTORUM</Data></Cell><Cell><Data
             ss:Type="String"
-          /></Cell><Cell ss:Index="7"><Data
+          >UNIT_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{EnergyReduction}[energy/] cost for Heritor units</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >继承者单位 [energy/] 消耗减少 {EnergyReduction}</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
             ss:Type="String"
           >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data

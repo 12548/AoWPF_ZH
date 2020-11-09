@@ -1,0 +1,356 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Luis Ferreira</LastAuthor><LastSaved
+    >2020-05-20T08:14:02Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="144" /><Column
+        ss:StyleID="s62"
+        ss:Width="121.5"
+      /><Column ss:StyleID="s62" ss:Width="387" /><Column
+        ss:StyleID="s62"
+        ss:Width="150"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="380.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="137.25"
+      /><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >UNIT_UPGRADES_APOSTATES</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">CHAOTIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Chaotic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混乱</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">CHAOTIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deals an extra {DamageAmount} damage of a random channel.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >额外造成 {DamageAmount} 随机类型的伤害。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >DamageAmount just inserts a number</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CHAOS_BLADE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Chaos Blade</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混乱之刃</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CHAOS_BLADE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >An Entropic Melee attack</Data></Cell><Cell><Data
+            ss:Type="String"
+          >近战混沌攻击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENERVATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Enervation</Data></Cell><Cell><Data
+            ss:Type="String"
+          >神经无力</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENERVATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A beam of Entropy.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >一道混沌光束。</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">OPPORTUNISTIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Opportunistic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >机会主义者</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">OPPORTUNISTIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit deals an additional {DamageIncrease}% damage and has a {ImmobilizeChance}[strengthEntropy/] strength chance to apply [abilityred]Immobilize[/abilityred] for {Duration}[turn/], when Flanking.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位在包抄时额外造成 {DamageIncrease}% 伤害，并且有 {ImmobilizeChance}[strengthEntropy/] 力量几率施加[abilityred]无法移动[/abilityred]，持续 {Duration}[turn/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Any {} that ends with a %, [turn] or has {Chance} written inside or inserts a number; Immobilize and Flanking are ingame terms that should be on the glossary</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CHAOS_BOLT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Chaos Bolt</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混乱爆弹</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CHAOS_BOLT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropic chaos attack</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌混乱攻击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CHAOS_OUTBREAK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Chaos Outbreak</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混乱爆发</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CHAOS_OUTBREAK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Enemy units in a {HexRadius} hex radius take damage and are displaced to a random hex within {HexReach} hexes.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >位于 {HexRadius} 个单元格范围内的敌方单位受到伤害，并移位至 {HexReach} 个单元格内的一个随机位置。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Hexradius and HexReach insert numbers</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REALITY_BREAK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reality Break</Data></Cell><Cell><Data
+            ss:Type="String"
+          >现实破碎</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">REALITY_BREAK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{NegativeChance}[StrengthEntropy/] strength chance to apply [abilityred]one random negative effect[/abilityred] to any unit, ignoring any type incompatibility the unit might have.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {NegativeChance}[StrengthEntropy/] 力量几率对任意单位施加[abilityred]一种随机的负面效果[/abilityred]，无论该单位原本是否适用该效果。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CHANNEL_CHAOS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Channel Chaos</Data></Cell><Cell><Data
+            ss:Type="String"
+          >引导混乱</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">CHANNEL_CHAOS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target unit and {UnitNumber} other random units gain [abilityred]Chaos Vulnerability[/abilityred], decreasing Entropic Resistance and another random Resistance by {WeaknessAmount}.[br/]This unit gains [abilityblue]Channeled[/abilityblue], making Chaos Bolt hit {ChanneledUnitNumber} other random units, for {duration}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标单位及 {UnitNumber} 个其他随机单位获得[abilityred]混乱弱点[/abilityred]，使其混沌抵抗和另一种随机类型的抵抗减少 {WeaknessAmount}。[br/]此单位获得[abilityblue]引导[/abilityblue]，使混乱爆弹能够命中其他 {ChanneledUnitNumber} 个随机单位，持续 {duration}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CHANNELED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Channeled</Data></Cell><Cell><Data
+            ss:Type="String"
+          >引导</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CHANNELED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Chaos Bolt will deal damage to {NumberEnemies} extra random enemies.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >混乱爆弹将额外对 {NumberEnemies} 个随机敌人造成伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CHAOS_PROTECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Chaos Protection</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混乱防护</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CHAOS_PROTECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >When this unit is damaged from within {HexRange} hexes, the attacker has a {ChaosVulChance}[strengthEntropy/] strength chance to gain [abilityred]Chaos Vulnerability[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位受到来自 {HexRange} 个单元格内的伤害时，攻击者有 {ChaosVulChance}[strengthEntropy/] 力量几率获得[abilityred]混乱弱点[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CHAOS_AXE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Chaos Axe</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混乱之斧</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CHAOS_AXE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >An Entropic Melee attack</Data></Cell><Cell><Data
+            ss:Type="String"
+          >近战混沌攻击</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >INSTILL_ANARCHY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Instill Anarchy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >动荡灌注</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">INSTILL_ANARCHY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All enemies within {HexRange} hexes are overwhelmed with discord. This unit’s plates regenerate from the chaos, healing for {Heal}[hp/] for each unit that becomes [abilityred]Insane[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >位于 {HexRange} 个单元格内的所有敌人遭到混乱淹没。此单位将从混乱中获得恢复，每有一个陷入[abilityred]错乱[/abilityred]的单位，便可治疗 {Heal}[hp/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Insane is a ingame status effect</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">INSTILL_ANARCHY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENTROPIC_INSANITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{InsanityChance}[StrengthEntropy/] strength chance to apply [abilityred]Insanity[/abilityred] to non-Mindless units for {durationInsanity}[turn/]. If resisted, apply[abilityred]Chaos Vulnerability[/abilityred] instead.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {InsanityChance}[StrengthEntropy/] 力量几率对非无意识单位施加[abilityred]错乱[/abilityred]，持续 {durationInsanity}[turn/]。如果被抵抗，则改为施加[abilityred]混乱弱点[/abilityred]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TYRANTS_ASSAULT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tyrant's Assault</Data></Cell><Cell><Data
+            ss:Type="String"
+          >暴君突击</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">TYRANTS_ASSAULT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Jump to target hex. This unit then gains {IncreasedCritical}% increased critical chance, [abilityblue]Resolute[/abilityblue] and [abilityblue]Tireless[/abilityblue], making the unit not stagger out of overwatch as well as having infinite melee overwatch strikes, for {Duration}[turn/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >跳向目标单元格。随后，此单位提升 {IncreasedCritical}% 暴击率并获得[abilityblue]坚定[/abilityblue]和[abilityblue]不知疲倦[/abilityblue]，使此单位不会在警戒模式下被动摇，并且能够进行无限次数的近战警戒攻击，持续 {Duration}[turn/]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Resolute (making the unit not stagger out of overwatch) and Tireless (infinite melee overwatch strikes)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">TYRANTS_ASSAULT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROP_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has +{CriticalIncrease}% critical chance, [abilityblue]Resolute[/abilityblue] and [abilityblue]Tireless[/abilityblue]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位获得 +{CriticalIncrease}% 暴击率、[abilityblue]坚定[/abilityblue]和[abilityblue]不知疲倦[/abilityblue]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REALITY_BREAK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROP_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Units affected by this status receive a random Negative Status effect that ignores Unit Type restrictions.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >受此状态影响的单位会获得一个随机的负面状态效果，且无视单位类型的限制。</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><TopRowVisible
+      >18</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >28</ActiveRow><ActiveCol>3</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

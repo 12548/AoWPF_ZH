@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -105,10 +105,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit consumes chemicals that give it Fast Movement and increase its damage dealt by {BerserkChemicals}% for {BerserkDuration}.</Data></Cell><Cell
+          >This unit consumes chemicals that give it Fast Movement, [abilityblue]Massive Impact[/abilityblue] and increase its damage dealt by {BerserkChemicals}% for {BerserkDuration}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位通过吸收化学剂获得快速移动，造成的伤害提升 {BerserkChemicals}%，持续 {BerserkDuration}。</Data></Cell></Row><Row
+          >此单位吸收化学药剂，获得快速移动速度和[abilityblue]强力冲击[/abilityblue]，造成的伤害提高 {BerserkChemicals}%，持续 {BerserkDuration}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">MAKESHIFT_TURRET</Data></Cell><Cell><Data
             ss:Type="String"
@@ -386,10 +386,10 @@
             ss:Type="String"
           >DESCRIPTION_BUFF</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit has Fast Movement and damage is increased by {BerserkDamage}.</Data></Cell><Cell
+          >This unit has Fast Movement, [abilityblue]Massive Impact[/abilityblue] and damage is increased by {BerserkDamage}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位拥有快速移动，且造成的伤害提高 {BerserkDamage}。</Data></Cell></Row><Row
+          >此单位获得快速移动速度和[abilityblue]强力冲击[/abilityblue]，造成的伤害提高 {BerserkDamage}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">MADDENING_RANT</Data></Cell><Cell><Data
             ss:Type="String"

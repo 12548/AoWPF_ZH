@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -242,10 +242,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Sheer numbers will overwhelm any and all opposition. Together we are strong.[br/][br/]Upkeep for all Kir'Ko units is reduced by {ReducedUpkeep}[energy/]. In addition, all Light units are {ProductionCostReduction} cheaper to produce.[br/][br/][firecol]Unit costs can never be lowered more than 75%.[/firecol][firecol]Unit upkeep can never be lowered more than 50%.[/firecol]</Data></Cell><Cell
+          >Sheer numbers will overwhelm any and all opposition. Together we are strong.[br/][br/]Upkeep for all Kir'Ko units is reduced by {ReducedUpkeep}[energy/]. In addition, all Light units cost {ProductionCostReduction}[production/] production and [energy/] energy.[br/][br/][firecol]Unit costs can never be lowered more than 75%.[/firecol][firecol]Unit upkeep can never be lowered more than 50%.[/firecol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >纯粹的数量优势足以碾压任何敌人。团结一致，我们势不可挡。[br/][br/]所有奇尔寇单位的维持消耗降低 {ReducedUpkeep}[energy/]。此外，所有轻型单位的产力消耗降低 {ProductionCostReduction}。[br/][br/][firecol]单位消耗减少不能超过 75%。[/firecol][firecol]单位的维持消耗减少不能超过 50%[/firecol]。</Data></Cell><Cell
+          >纯粹的数量优势足以碾压任何敌人。团结一致，我们势不可挡。[br/][br/]所有奇尔寇单位的维持消耗降低 {ReducedUpkeep}[energy/]。此外，所有轻型单位的 [production/] 产力和 [energy/] 能量消耗降低 {ProductionCostReduction}。[br/][br/][firecol]单位消耗减少不能超过 75%。[/firecol][firecol]单位的维持消耗减少不能超过 50%[/firecol]。</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -498,7 +498,17 @@
           >目标单位损失 {damage} 当前[hp/]，并且对所有伤害的抵抗降低 {ResistanceReduction}。</Data></Cell><Cell
           ss:Index="8"
           ss:StyleID="s63"
-        /></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PLANETARY_SWARMING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{ProductionCostReduction}[production/] + [energy/] cost for all units</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有单位的 [production/] 和 [energy/] 消耗减少 {ProductionCostReduction}</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
           ss:Index="7"

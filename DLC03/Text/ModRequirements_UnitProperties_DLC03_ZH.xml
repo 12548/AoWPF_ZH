@@ -13,7 +13,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -123,7 +123,16 @@
           >This Mod cannot be applied to units that only have attacks that spend essence.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该模块不适用于只能消耗精华进行攻击的单位。</Data></Cell></Row></Table><WorksheetOptions
+          >该模块不适用于只能消耗精华进行攻击的单位。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ESSENCE_CHARGE_NON_INHERENTLY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This Mod can only be applied to units that have an ability that Drains Essence.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该模块仅适用于拥有能够汲取精华的技能的单位。</Data></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
     ><Unsynced /><Selected /><Panes><Pane><Number>3</Number><ActiveRow
           >8</ActiveRow><ActiveCol>1</ActiveCol></Pane></Panes><ProtectObjects

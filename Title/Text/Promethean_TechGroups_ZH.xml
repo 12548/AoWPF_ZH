@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+  ><WindowHeight>7305</WindowHeight><WindowWidth>21420</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -123,10 +123,10 @@
             ss:Type="String"
           >MOD_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Plasma attacks with [abilityred]Burning[/abilityred] now apply [abilityred]Immolation[/abilityred] instead, dealing {ImmoDamage} damage per turn. Immolation lasts for {ImmoTurn}.</Data></Cell><Cell
+          >Plasma attacks with [abilityred]Burning[/abilityred] or [abilityred]Choking[/abilityred] now apply [abilityred]Immolation[/abilityred] instead, dealing {ImmoDamage} damage per turn. Immolation lasts for {ImmoTurn}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >能够施加[abilityred]燃烧[/abilityred]的等离子攻击现在将变为施加[abilityred]焚祭[/abilityred]，每回合造成{ImmoDamage}伤害。焚祭持续{ImmoTurn}。</Data></Cell></Row><Row
+          >施加[abilityred]燃烧[/abilityred]或[abilityred]窒息[/abilityred]的等离子攻击将改为施加[abilityred]焚祭[/abilityred]，每回合造成 {ImmoDamage} 伤害。焚祭持续 {ImmoTurn}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -181,10 +181,10 @@
             ss:Type="String"
           >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Provides the unit with a protective system, granting them +{BiochemicalResistance} resistance and [abilityblue]Tactical Hazard Immunity[/abilityblue].</Data></Cell><Cell
+          >Provides the unit with a protective system, granting them +{BiochemicalResistance} resistance against status effects and [abilityblue]Tactical Hazard Immunity[/abilityblue].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >为该单位提供保护性系统，赋予其 +{BiochemicalResistance} 抵抗和[abilityblue]战术灾害免疫[/abilityblue]。</Data></Cell></Row><Row
+          >为单位提供保护性系统，给予其 +{BiochemicalResistance} 状态效果抵抗和[abilityblue]战术灾害免疫[/abilityblue]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data></Cell><Cell
         ><Data ss:Type="String">PROPERTY_NAME</Data></Cell><Cell><Data
@@ -516,7 +516,7 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Unleash liquid flame on all hexes within {HexRange}, setting the ground on fire for {HazardDuration}[turn/].</Data></Cell><Cell
+          >Unleash liquid flame on all hexes within {HexRange} hex range, setting the ground on fire for {HazardDuration}[turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >向 {HexRange} 个单元格范围释放液态火焰，使地面着火，持续 {HazardDuration}[turn/]。</Data></Cell></Row><Row
@@ -595,10 +595,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Deploy a protective shield on target unit, granting the unit +{ShieldShieldingDefenses} and Thermal Immunity for {EmergencyShield} turns. The unit cannot move for the duration of the effect. </Data></Cell><Cell
+          >Deploy a protective shield on target unit, granting the unit +{ShieldShieldingDefenses}, [abilityBlue]Stagger Immunity[/abilityBlue] and [abilityBlue]Thermal Immunity[/abilityBlue] for {EmergencyShield} turns. The unit cannot move for the duration of the effect. </Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >向目标单位部署防护盾，赋予该单位 +{ShieldShieldingDefenses} 和热能免疫，持续 {EmergencyShield} 回合。效果持续期间单位无法移动。 </Data></Cell></Row><Row
+          >向目标单位部署防护盾，给予其 +{ShieldShieldingDefenses}、[abilityBlue]动摇免疫[/abilityBlue]和[abilityBlue]热能免疫[/abilityBlue]，持续 {EmergencyShield} 回合。效果持续期间单位无法移动。 </Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">EMERGENCY_SHIELDING</Data></Cell><Cell><Data
             ss:Type="String"
@@ -971,19 +971,19 @@
             ss:Type="String"
           >LEVEL_1_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >All income reduced by {SupplyReduction}.</Data></Cell><Cell><Data
+          >Non-Promethean player units have -{thermalweakness}[resistThermalDown/] resistance.</Data></Cell><Cell
+        ><Data
             ss:Type="String"
-          >所有收益减少 {SupplyReduction}。</Data></Cell></Row><Row
+          >非圣火玩家单位减少 -{thermalweakness}[resistThermalDown/] 抵抗。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
           >LEVEL_2_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >All income reduced by {SupplyReduction}.[br/]Non-Promethean player units have -{thermalweakness}[resistThermalDown/] resistance.</Data></Cell><Cell
-        ><Data
+          >All income reduced by {SupplyReduction}.</Data></Cell><Cell><Data
             ss:Type="String"
-          >所有收益减少 {SupplyReduction}。[br/]非圣火玩家单位拥有 -{thermalweakness}[resistThermalDown/]抵抗。</Data></Cell></Row><Row
+          >所有收益减少 {SupplyReduction}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
@@ -998,10 +998,10 @@
             ss:Type="String"
           >LEVEL_3_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >All income reduced by {SupplyReduction}.[br/]Non-Promethean player units have -{thermalweakness}[resistThermalDown/] resistance and [abilityred]Choking[/abilityred] in combat.[br/]PyrX fires appear in combat.</Data></Cell><Cell
+          >Non-Promethean player Biological and Cyborg units have [abilityred]Choking[/abilityred] in combat.[br/]PyrX fires appear in combat.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >所有收益减少 {SupplyReduction}。[br/]非圣火玩家单位拥有 -{thermalweakness}[resistThermalDown/]抵抗并在战斗中会陷入[abilityred]窒息[/abilityred]。[br/]派尔克斯火焰出现在战斗中。</Data></Cell></Row><Row
+          >非圣火玩家的生物和半机械人单位在战斗中陷入[abilityred]窒息[/abilityred]。[br/]派尔克斯火焰将在战斗中出现。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">PYRX_FUMIGATION_PROTOCOLS</Data></Cell><Cell
         ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
@@ -1310,7 +1310,9 @@
           >{playerName} is preparing to unleash their PyrX and purify the planet, if they are allowed to finish then your own Doomsday Weapon will be wiped out, and {playerName} will be but one step away from total victory!</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >{playerName}正在准备释放派尔克斯气体来净化星球，如果成功释放，你的末日武器将被摧毁，{playerName}距离胜利也将仅剩一步之遥。</Data></Cell></Row><Row
+          >{playerName}正在准备释放派尔克斯气体来净化星球，如果成功释放，你的末日武器将被摧毁，{playerName}距离胜利也将仅剩一步之遥。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">VO: Empress Carminia</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">PROME_END_GAME</Data></Cell><Cell><Data
@@ -1548,7 +1550,9 @@
             ss:Type="String"
           >植物猎手</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data
             ss:Type="String"
-          >Review</Data></Cell><Cell ss:StyleID="s63" /></Row><Row
+          >Review</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >This is now used for Backlash Projectors</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data
             ss:Type="String"
@@ -1560,7 +1564,9 @@
             ss:Type="String"
           >辅助瞄准</Data></Cell><Cell ss:Index="7" ss:StyleID="s64"><Data
             ss:Type="String"
-          >Review</Data></Cell><Cell ss:StyleID="s63" /></Row><Row
+          >Review</Data></Cell><Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >This is now used for Backlash Projectors</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="90"
       ><Cell><Data
@@ -1869,10 +1875,10 @@
         ><Data ss:Type="String">PROPERTY_DESCRIPTION_MOD</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >When standing in Thermal Hazards, this unit deals +{PanelsDamageIncrease} damage and heals for {PanelsHealPerTurn}[hp/] at the start of each turn.[br/][br/]Unit also gains +{DefenseThermal}[defenseThermal/] resistance and immunity to [abilityblue]Thermal Status Effects and Hazards[/abilityblue].</Data></Cell><Cell
+          >When standing in Thermal Hazards, this unit deals +{PanelsDamageIncrease} damage and heals for {PanelsHealPerTurn}[hp/] at the start of each turn.[br/][br/]Unit also gains +{DefenseThermal}[defenseThermal/] resistance and immunity to [abilityblue]Thermal Status Effects and Tactical Hazards[/abilityblue].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位站在热能灾害中时可造成 +{PanelsDamageIncrease} 伤害，并在每回合开始时治疗 {PanelsHealPerTurn}[hp/]。[br/][br/]此外，该单位获得 +{DefenseThermal}[defenseThermal/] 抵抗并且免疫[abilityblue]热能状态效果和灾害[/abilityblue]。</Data></Cell></Row><Row
+          >此单位站在热能灾害中时可造成 +{PanelsDamageIncrease} 伤害，并在每回合开始时治疗 {PanelsHealPerTurn}[hp/]。[br/][br/]此外，此单位还会获得 +{DefenseThermal}[defenseThermal/] 且免疫[abilityblue]热能状态效果和战术灾害[/abilityblue]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">BACKLASH_PROJECTION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1896,7 +1902,49 @@
             ss:Type="String"
           >Plasma</Data></Cell><Cell><Data
             ss:Type="String"
-          >等离子</Data></Cell></Row><Row><Cell><Data
+          >等离子</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GOVERNANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GOVERNANCE_SKILL_3_UNIT_BONUS_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{PrometheanProduction}[energy/] + [production/] cost for Promethean units</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >圣火单位的 [energy/] 和 [production/] 消耗减少 {PrometheanProduction}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLASMA_SMOG</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Plasma Smog</Data></Cell><Cell><Data
+            ss:Type="String"
+          >等离子烟雾</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PLASMA_SMOG</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fire a burst of a thick plasma-smog mixture, setting the target hex on fire for {PlasmaDuration}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >发射一片浓厚的等离子烟雾混合物，点燃目标单元格，持续 {PlasmaDuration}[turn/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLASMA_BELCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Plasma Belch</Data></Cell><Cell><Data
+            ss:Type="String"
+          >等离子喷发</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PLASMA_BELCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Belch forward a plasma-smog mixture.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向前方喷射等离子烟雾混合物。</Data></Cell></Row><Row><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"

@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+  ><WindowHeight>7305</WindowHeight><WindowWidth>21420</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -221,10 +221,10 @@
             ss:Type="String"
           >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Attacks from Arc weapons have a {StunChance}[strengthwave/] strength chance ({StunChanceRepeating}[strengthwave/] for repeating attacks) to [abilityred]Stun[/abilityred] to non-Ethereal units for {Duration}[turn/].</Data></Cell><Cell
+          >Attacks from Arc weapons have a {StunChance}[strengthwave/] strength chance ({StunChanceRepeating}[strengthwave/] for repeating attacks) to [abilityred]Stun[/abilityred] to non-Ethereal units for {Duration}[turn/]. If resisted, [abilityred]Static Charge[/abilityred] is applied instead.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >电弧武器的攻击有 {StunChance}[strengthwave/] 力量几率（重复攻击有 {StunChanceRepeating}[strengthwave/] 几率）[abilityred]晕眩[/abilityred]非虚灵单位，持续 {Duration}[turn/]。</Data></Cell></Row><Row
+          >电弧武器的攻击有 {StunChance}[strengthwave/] 力量几率（多次攻击有 {StunChanceRepeating}[strengthwave/] 几率）使非虚灵单位[abilityred]眩晕[/abilityred]，持续 {Duration}[turn/]。如果被抵抗，则改为施加[abilityred]静电电荷[/abilityred]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">STATIC_BUILDUP_MODULE</Data></Cell><Cell
         ><Data ss:Type="String">UPGRADE_NAME</Data></Cell><Cell><Data

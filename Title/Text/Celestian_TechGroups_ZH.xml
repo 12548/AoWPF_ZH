@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9990</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -608,10 +608,10 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The Lightbringer's Harrier swoops towards target ground hex, dealing damage to adjacent units. The unit enters into a [abilityblue]Defense Mode[/abilityblue] afterwards.</Data></Cell><Cell
+          >The Lightbringer's Harrier swoops towards target ground hex, dealing damage to adjacent units. </Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >光明使者的鹞龙战骑朝目标陆地单元格俯冲，对相邻单位造成伤害。随后该单位将进入[abilityblue]防御模式[/abilityblue]。</Data></Cell></Row><Row
+          >光明使者的鹞龙战骑俯冲向目标陆地单元格，对相邻单位造成伤害。 </Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">UNWAVERING_WILL</Data></Cell><Cell><Data
             ss:Type="String"
@@ -767,7 +767,7 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target enemy unit has a {strengthmindcontrol} strength chance to be [abilityred]Mind Controlled[/abilityred], increasing to a {strengthmindcontrolimprov} strength chance if the target is affected by [abilityred]Soulburn[/abilityred]. If they survive until end of combat, they are turned into a colonist. If this fails, the unit takes {PsionicDamage} damage.</Data></Cell><Cell
+          >Target enemy unit has a {strengthmindcontrol} strength chance to be [abilityred]Mind Controlled[/abilityred], increasing to a {strengthmindcontrolimprov} strength chance if the target is affected by [abilityred]Soulburn[/abilityred]. If they survive until end of combat, they are turned into a colonist. The [abilityred]Mind Control[/abilityred] ends when the caster is killed. If this ability fails, the unit takes {PsionicDamage} damage.</Data></Cell><Cell
         ><Data
             ss:Type="String"
           >目标敌方单位有 {strengthmindcontrol} 力量几率被[abilityred]心灵控制[/abilityred]，如果该单位受到[abilityred]灵魂燃烧[/abilityred]的影响，则被控制概率提升至 {strengthmindcontrolimprov}。[br/]如果该单位在战斗结束时仍然存活，则将会被转化成移住民。如果控制失败，该单位将受到 {PsionicDamage} 的伤害。</Data></Cell></Row><Row
@@ -982,10 +982,10 @@
       ><Cell><Data ss:Type="String">BLESSING_OF_STARLIGHT</Data></Cell><Cell
         ><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target friendly army heals to {BlessingofStarlightHP}. They also gain Stagger Resistance and {accuracy} accuracy until the end of their next battle.</Data></Cell><Cell
+          >Target friendly army or garrison heals to {BlessingofStarlightHP}. They also gain Stagger Resistance and {accuracy} accuracy until the end of their next battle.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >目标友方军队治疗 {BlessingofStarlightHP}。此外，还会获得动摇抵抗和 {accuracy} 准度，效果持续到下次战斗结束。</Data></Cell></Row><Row
+          >目标友方军队或驻军治疗 {BlessingofStarlightHP}。此外，还会获得动摇抵抗和 {accuracy} 准度，效果持续至下次战斗结束。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
       ><Cell><Data ss:Type="String">BLESSING_OF_STARLIGHT</Data></Cell><Cell
@@ -1462,30 +1462,30 @@
             ss:Type="String"
           >LEVEL_1_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >{LightChance}% to transfer 1 [population/] to your nearest colony each [turn/].</Data></Cell><Cell
+          >Non-Celestian units gain [abilityred]Soulburn[/abilityred].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >每 [turn/] 回合有 {LightChance}% 几率转移 1 个 [population/] 至你最近的殖民地。</Data></Cell></Row><Row
+          >非星神单位获得[abilityred]灵魂燃烧[/abilityred]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
           >LEVEL_2_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >{LightChance}% to transfer 1 [population/] to your nearest colony each [turn/].[br/]Non-Celestian units gain [abilityred]Soulburn[/abilityred].</Data></Cell><Cell
+          >{LightChance}% to transfer 1 [population/] to your nearest colony each [turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >每 [turn/] 回合有 {LightChance}% 几率转移 1 个 [population/] 至你最近的殖民地。[br/]非星神单位获得[abilityred]灵魂燃烧[/abilityred]。</Data></Cell></Row><Row
+          >每 [turn/] 有 {LightChance}% 几率转移 1 [population/] 至你最近的殖民地。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="75"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
           >LEVEL_3_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >{LightChance}% to transfer 1 [population/] to your nearest colony each [turn/].[br/]Non-Celestian units gain [abilityred]Soulburn[/abilityred].[br/]Celestian units heal {LightHeal}[hp/] each [turn/] in combat.</Data></Cell><Cell
+          >Celestian units heal {LightHeal}[hp/] each [turn/] in combat.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >每 [turn/] 回合有 {LightChance}% 几率转移 1 个 [population/] 至你最近的殖民地。[br/]非星神单位获得[abilityred]灵魂燃烧[/abilityred]。[br/]星神单位在战斗时每 [turn/] 回合治疗 {LightHeal}[hp/]。</Data></Cell></Row><Row
+          >星神单位在战斗中每 [turn/] 治疗 {LightHeal}[hp/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"

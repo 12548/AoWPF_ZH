@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
     >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
     >False</ProtectStructure><ProtectWindows
@@ -331,10 +331,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Security drones are active in the colony's domain. When friendly armies fight in that domain, {AmountUnitsSpawned} random Drones will aid them in combat.[br/]The drones disappear at the end of combat.</Data></Cell><Cell
+          >Security drones are active in the colony's domain. When friendly armies fight in that domain, {AmountUnitsSpawned} Drones will aid them in combat.[br/]The drones disappear at the end of combat.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >安保无人机在殖民地领域内有效。当友方军队在该领域作战时，{AmountUnitsSpawned} 个随机无人机将会在战斗中提供帮助。[br/]无人机将在战斗结束后消失。</Data></Cell></Row><Row
+          >安保无人机在殖民地领域内生效。当友方军队在该领域作战时，{AmountUnitsSpawned} 架无人机将在战斗中予以协助。[br/]无人机将在战斗结束后消失。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">SECURITY_DRONES</Data></Cell><Cell><Data
@@ -359,10 +359,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Target an enemy colony or army with a Bunker Buster bomb. If a colony is affected it destroys {DestroyedUpgrade} random colony structure, if there are any, and if an army is affected it deals {KineticDamage} damage to all units in that hex.</Data></Cell><Cell
+          >Target an enemy colony or army with a Bunker Buster bomb. If a colony is affected it destroys either a Military Infrastructure or Defense Turret building, if there are any, and if an army is affected it deals {KineticDamage} damage to all units in that hex.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >向目标敌方殖民地或军队投掷地堡爆破炸弹。如果殖民地受到影响，则炸弹会摧毁 {DestroyedUpgrade} 个随机殖民地建筑（如有）。如果军队受到影响，则炸弹会对该单元格中的所有单位造成 {KineticDamage} 伤害。</Data></Cell></Row><Row
+          >向目标敌方殖民地或军队投掷地堡爆破炸弹。如果目标是殖民地，则会摧毁殖民地中的一座军事基础设施或防御炮塔建筑（如有）。如果目标是军队，则会对该单元格中的所有单位造成 {KineticDamage} 伤害。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">BUNKER_BUSTER</Data></Cell><Cell><Data
@@ -602,28 +602,28 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The population is armed and ready. Recruiting troops directly from our colony militia reduces training time, allowing us to bring troops to the field more rapidly.[br/][br/]Production cost of all units reduced by {ProductionCost1} in your colonies. In addition, the production cost is further reduced by an extra {ProductionCost2} for each Colony Militia Barracks or Defense building in your colony.[br/][br/][firecol]Unit costs can never be lowered more than 75%.[/firecol]</Data></Cell><Cell
+          >The population is armed and ready. Recruiting troops directly from our colony militia reduces training time, allowing us to bring troops to the field more rapidly.[br/][br/]Production cost of all units reduced by {ProductionCost1} in your colonies. In addition, the production cost is further reduced by an extra {ProductionCost2} for each Military Infrastructure or Defense building in your colony.[br/][br/][firecol]Unit costs can never be lowered more than 75%.[/firecol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >殖民地中的民众已经全副武装。直接从我们的殖民地卫队中招募部队的训练时间减少，从而使我们能够更快地将部队投入战场。[br/][br/]殖民地中所有单位的产力消耗减少 {ProductionCost1}。此外，殖民地中每拥有一个殖民地卫队兵营或防御建筑，产力消耗就会减少 {ProductionCost2}。[br/][br/][firecol]单位消耗减少不能超过 75%。[/firecol]</Data></Cell></Row><Row
+          >殖民地中的民众已经全副武装。直接从我们的殖民地卫队中招募部队的训练时间减少，从而使我们能够更快地将部队投入战场。[br/][br/]殖民地中所有单位的产力消耗减少 {ProductionCost1}。此外，殖民地中每拥有一个军事基础设施或防御建筑，产力消耗就会减少 {ProductionCost2}。[br/][br/][firecol]单位消耗减少不能超过 75%。[/firecol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">INTEGRATED_SUPPORT</Data></Cell><Cell><Data
             ss:Type="String"
           >NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Integrated Support</Data></Cell><Cell><Data
+          >Global Integrated Support</Data></Cell><Cell><Data
             ss:Type="String"
-          >融合支援</Data></Cell></Row><Row
+          >全球融合支援</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="75"
       ><Cell><Data ss:Type="String">INTEGRATED_SUPPORT</Data></Cell><Cell><Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >We gain advantage over the enemy through the rapid deployment of our forces.[br/][br/]You are able to cast Tactical Operations starting from the first turn of combat.</Data></Cell><Cell
+          >Expand our operation network on a global level for rapid response and deployment[br/][br/]You are able to cast Tactical Operations starting from the first turn of combat, and gain {NumTacticalPoints}[castingtactical/] and {NumStrategicPoints}[casting/]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >通过快速部署军队，我们比敌人拥有了更多优势。[br/][br/]你从第一轮战斗开始就可以施放战术行动。</Data></Cell></Row><Row
+          >在全球范围内扩大我们的行动网络，以便快速做出反应和部署[br/][br/]你在第一个战斗回合就可以施放战术行动，并且获得 {NumTacticalPoints}[castingtactical/] 和 {NumStrategicPoints}[casting/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">HEARTS_AND_MINDS</Data></Cell><Cell><Data
             ss:Type="String"
@@ -666,10 +666,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >We can leverage military threats to bring peace.[br/][br/]Starting a war no longer gives reputation penalties, and other players no longer will receive a [casusBelli/] against us when we have a negative reputation.[br/]In addition, Dwelling Shop costs do not increase when you have a negative reputation and we gain a {reputation}[reputation6/] increase.</Data></Cell><Cell
+          >We can leverage military threats to bring peace.[br/][br/]Starting a war no longer gives reputation penalties, and other players no longer will receive a [casusBelli/] against us when we have a negative reputation.[br/]In addition, we gain {reputation}[reputation6/] reputation and {popularSupport} Popular Support while this doctrine is active.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >我们可以利用军事威胁来换取和平。[br/][br/]开战不再受到声望惩罚。同时，当我们拥有负值声望时，其他玩家也不再会获得针对我们的[casusBelli/]。[br/]此外，当你的声望为负值时，居住地商店消耗不会提升，并且我们还会获得 {reputation}[reputation6/] 提升。</Data></Cell></Row><Row
+          >我们可以利用军事威胁来换取和平。[br/][br/]开战不再受到声望惩罚。另外，当我们的声望为负数时，其他玩家不再会获得针对我们的 [casusBelli/]。[br/]此外，此教义生效时，我们获得 {reputation}[reputation6/] 声望和 {popularSupport} 民众支持。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">PLANETARY_CONQUEST</Data></Cell><Cell><Data
             ss:Type="String"
@@ -696,6 +696,32 @@
         ><Data
             ss:Type="String"
           >如果失败，则目标军队会受到 {Damage} 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COLONY_MILITA</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{productionBonus}[production/] cost for all units, plus {extraBonus} per barracks or defense building.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有单位 {productionBonus}[production/]，每有一座兵营或防御建筑额外附加 {extraBonus}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SHOCK_AND_AWE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shock and Awe</Data></Cell><Cell><Data
+            ss:Type="String"
+          >震慑与敬畏</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SHOCK_AND_AWE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Refocus our military doctrine to move explosive weapons from a secondary to a primary role.[br/][br/]All explosive attacks on your units gain {AccuracyBonus} accuracy, {DamageBonus} damage and one extra level of [abilityred]Stagger Impact[/abilityred].[br/][br/]Grenade attacks also gain {RangeBonus} range.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >重新调整我们的军事学说，将爆炸性武器的重要层级提至最高。[br/][br/]友方单位的所有爆炸攻击获得 {AccuracyBonus} 准度、{DamageBonus} 伤害和额外一级的[abilityred]动摇冲击[/abilityred]。[br/][br/]另外，手雷攻击获得 {RangeBonus} 射程。</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell

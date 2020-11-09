@@ -1,0 +1,2275 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author
+    >GameScribes4</Author><LastAuthor>GameScribes4</LastAuthor><Created
+    >2020-10-08T02:16:58Z</Created><LastSaved
+    >2020-06-23T12:10:41Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>7305</WindowHeight><WindowWidth>21420</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="144" /><Column
+        ss:StyleID="s62"
+        ss:Width="121.5"
+      /><Column ss:StyleID="s62" ss:Width="387" /><Column
+        ss:StyleID="s62"
+        ss:Width="150"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="380.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="137.25"
+      /><Row ss:AutoFitHeight="0" ss:Height="60"><Cell><Data
+            ss:Type="String"
+          >UNIT_UPGRADES_OATHBOUND</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="15.75"
+      ><Cell><Data ss:Type="String">ENTROPIC_ZAP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropic Shock</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌冲击</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.
+
+Ability Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENTROPIC_ZAP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shock an enemy with entropic energy.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向敌人释放一阵混沌能量冲击。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.
+
+Ability Description</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENTROPIC_LASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropic Shot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌射击</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.
+
+Ability Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENTROPIC_LASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shoot an enemy with entropic energy.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向敌人射击混沌能量。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ENTROPIC_WAVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropic Lash</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌猛击</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ENTROPIC_WAVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Lash an enemy with an entropic wave. The wave can jump to up to {extraTargets} additional targets within {hexRange} hexes.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >用混沌波猛击敌人。混沌波可弹跳至 {hexRange} 个单元格内的最多 {extraTargets} 个额外目标。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOLT_PIKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Volt Pike</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电压长矛</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >VOLT_PIKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Strike an enemy with an arc-charged pike.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用电弧充能长矛打击敌人。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOLT_BLAST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Volt Blast</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电压震爆</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >VOLT_BLAST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shoot a bolt of lightning at an enemy.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向敌人发射一道闪电。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOLT_LANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Volt Saber</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电压军刀</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >VOLT_LANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Strike an enemy with an arc-charged saber. Can hit either ground or air targets.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用电弧充能军刀打击敌人。可攻击陆地和空中目标。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOLT_GREATBOW</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Volt Greatbow</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电压巨弓</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >VOLT_GREATBOW</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shoot an arc-infused arrow using a greatbow.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用巨弓射出灌输电弧的箭矢。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOLT_ARROW_STAB</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Volt Arrow Stab</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电压箭矢穿刺</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >VOLT_ARROW_STAB</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Stab an enemy with an arc-infused arrow.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >使用灌输电弧的箭矢刺击敌人。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOLT_GREATSWORD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Volt Greatsword</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电压巨剑</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >VOLT_GREATSWORD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Strike an enemy with an arc-charged greatsword.</Data></Cell><Cell
+        ><Data ss:Type="String">使用电弧充能巨剑打击敌人。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">STORM_DISCHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Storm Discharge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >风暴倾泻</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="27.75"
+      ><Cell><Data ss:Type="String">STORM_DISCHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Jump to target hex and discharge an incredible surge of electricity in a {hexrad} hex radius around it.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >跳向目标单元格，对其周围 {hexrad} 个单元格范围释放猛烈的电涌。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">STORMVOLT_GLAIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Stormvolt Glaive</Data></Cell><Cell><Data
+            ss:Type="String"
+          >暴电阔剑</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="34.5"
+      ><Cell><Data ss:Type="String">STORMVOLT_GLAIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Strike an enemy with a storm-charged glaive. Deals {damageperecentage} of damage to enemy units adjacent to the user.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用风暴充能阔剑打击敌人，对使用者相邻的敌方单位造成 {damageperecentage} 伤害。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ONSLAUGHT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Onslaught</Data></Cell><Cell><Data
+            ss:Type="String"
+          >猛攻</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="32.25"
+      ><Cell><Data ss:Type="String">ONSLAUGHT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unleash a flurry of attacks upon a single enemy. Tier I and II units have a {arcstrength} strength chance of insantly being killed.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >对单个敌人发动暴风骤雨般的攻击。1 阶和 2 阶单位有 {arcstrength} 力量几率被立即击杀。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GIFT_OF_PRECOGNITION</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gift of Precognition</Data></Cell><Cell><Data
+            ss:Type="String"
+          >预知之礼</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="34.5"
+      ><Cell><Data ss:Type="String">GIFT_OF_PRECOGNITION</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target friendly unit gains one stack of [abilityblue]Precognition[/abilityblue], negating the next direct damage attack to hit it.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标友方单位获得一层[abilityblue]预知[/abilityblue]，能够抵消下一次以该单位为目标的直接伤害攻击。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GIFT_OF_PROVIDENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gift of Providence</Data></Cell><Cell><Data
+            ss:Type="String"
+          >天佑之礼</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="32.25"
+      ><Cell><Data ss:Type="String">GIFT_OF_PROVIDENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target friendly unit gains [abilityblue]Providence[/abilityblue] for {providenceTurns}, making all of its attacks critically hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标友方单位获得[abilityblue]天佑[/abilityblue]，使其所有攻击都能造成暴击，持续 {providenceTurns}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="32.25"
+      ><Cell><Data ss:Type="String">CURSE_OF_ADVERSITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Lash of Adversity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >厄运猛击</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="48"
+      ><Cell><Data ss:Type="String">CURSE_OF_ADVERSITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target enemy unit gains [abilityred]Adversity[/abilityred] for {adversityTurns}, making all of its attacks fumble. This attack can jump to up to {extraTargets} additional targets within {hexRange} hexes.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标敌方单位获得[abilityred]厄运[/abilityred]，持续 {adversityTurns}，使其所有攻击都会失手。此攻击可弹跳至 {hexRange} 个单元格内的最多 {extraTargets} 个额外目标。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">RECORD_KEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Record Keeper</Data></Cell><Cell><Data
+            ss:Type="String"
+          >记录者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="37.5"
+      ><Cell><Data ss:Type="String">RECORD_KEEPER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units in this stack, except Seers, gain {recordKeeperBonus} bonus experience.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >小组内的所有单位（预言者除外）获得 {recordKeeperBonus} 额外经验值。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">EMBOLDEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Embolden</Data></Cell><Cell><Data
+            ss:Type="String"
+          >鼓舞</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="65.25"
+      ><Cell><Data ss:Type="String">EMBOLDEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All friendly units within a {hexRad} hex radius heal for {emboldenHeal} and lose all Psionic status effects.[br/]Additionally, Tier I and II units gain [abilityblue]Heroism[/abilityblue] until end of combat, making their attacks deal more damage to higher tier units.[br/]Enters Defense Mode after use.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{hexRad} 个单元格范围内的所有友方单位治疗 {emboldenHeal} 并失去所有灵能状态效果。[br/]另外，1 阶和 2 阶单位获得[abilityblue]英勇气概[/abilityblue]，直到战斗结束，使其对阶级更高的单位造成更多伤害。[br/]使用后进入防御模式。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">HEROS_BANNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Warden's Banner</Data></Cell><Cell><Data
+            ss:Type="String"
+          >典狱官旗帜</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="86.25"
+      ><Cell><Data ss:Type="String">HEROS_BANNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shoot a flying Warden's Banner in the air at target hex, dealing damage to adjacent enemy ground and air units.[br/][br/]The Warden's Banner gives a random non-Mindless unit in a {hexRad} hex radius {critChanceIncrease} critical hit chance increase and [abilityblue]Flanking Immunity[/abilityblue] for {buffTurnCount}, every [turn/]. Banner disappears after {bannerTurnCount}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标单元格上空发射一面飞行的典狱官旗帜，对相邻陆地和空中单位造成伤害。[br/][br/]每 [turn/]，典狱官旗帜会使 {hexRad} 个单元格范围内的一个随机非无意识单位获得 {critChanceIncrease} 暴击率提升以及[abilityblue]免疫包抄[/abilityblue]，持续 {buffTurnCount}。旗帜将在 {bannerTurnCount} 后消失。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">BANNERS_HEROISM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Banner's Perception</Data></Cell><Cell><Data
+            ss:Type="String"
+          >旗帜感知</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="48"
+      ><Cell><Data ss:Type="String">BANNERS_HEROISM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Give a non-Mindless unit in a {hexRad} hex radius {critChanceIncrease} critical hit chance and [abilityblue]All-round Awareness[/abilityblue] for {buffTurnCount}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使 {hexRad} 个单元格范围内的一个非无意识单位获得 {critChanceIncrease} 暴击率以及[abilityblue]全方位觉察[/abilityblue]，持续 {buffTurnCount}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">BANNERS_HEROISM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has {damageIncrease} extra critical hit chance and has [abilityblue]All-round Awareness[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位额外获得 {damageIncrease} 暴击率以及[abilityblue]全方位觉察[/abilityblue]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Ability Property Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GIFT_OF_ADAMANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gift of Adamance</Data></Cell><Cell><Data
+            ss:Type="String"
+          >坚韧之礼</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="51"
+      ><Cell><Data ss:Type="String">GIFT_OF_ADAMANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target ally gains [abilityblue]Last Stand[/abilityblue], causing them to remain at {minimumHP} when they would die for {turnCount}.[br/]When the effect expires the target will heal for {HealAmount}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标盟友获得[abilityblue]背水一战[/abilityblue]，使其能够以 {minimumHP} 生命值维持濒死状态，持续 {turnCount}。[br/]效果结束时，该单位将治疗自身 {HealAmount}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CURSE_OF_FINALITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Curse of Fatalism</Data></Cell><Cell><Data
+            ss:Type="String"
+          >宿命诅咒</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="47.25"
+      ><Cell><Data ss:Type="String">CURSE_OF_FINALITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target enemy gets [abilityred]Fatalism[/abilityred], making it {fatalismpercentage} easier to hit and making it fail all of its resistance checks for {turns}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标敌方单位获得[abilityred]厄运[/abilityred]，使其命中难度降低 {fatalismpercentage}，且其所有抵抗的判定均会失败，持续 {turns}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GIFT_OF_FORESIGHT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gift of Foresight</Data></Cell><Cell><Data
+            ss:Type="String"
+          >远见之礼</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="38.25"
+      ><Cell><Data ss:Type="String">GIFT_OF_FORESIGHT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All friendly units in target {hexrad} hex radius gain a stack of [abilityblue]Precognition[/abilityblue], negating the next direct damage attack to hit them.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{hexrad} 个单元格范围内的所有友方单位获得一层[abilityblue]预知[/abilityblue]，能够抵消下一次以该单位为目标的直接伤害攻击。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CURSE_OF_INEVITABILITY</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Curse of Inevitability</Data></Cell><Cell><Data
+            ss:Type="String"
+          >必然诅咒</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CURSE_OF_INEVITABILITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ensure enemies will get the worst possible outcome in their defense. All enemy units in target {hexrad} radius gain [abilityred]Fatalism[/abilityred] for {turn}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >确保敌人在防御中总是得到最差的结果。{hexrad} 个单元格范围内的所有敌方单位获得[abilityred]宿命[/abilityred]，持续 {turn}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ORDAIN_SHIELD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ordain Shield</Data></Cell><Cell><Data
+            ss:Type="String"
+          >护盾授予</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="58.5"
+      ><Cell><Data ss:Type="String">ORDAIN_SHIELD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grant target unit your shield, giving it {shieldBonus}.[br/]Switch to Glaive Mode. This mode gives {damageBonus} damage, [abilityblue]Fast Movement[/abilityblue], Blitz, Onslaught, and Defense Mode: Evasion.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将你的护盾授予目标单位，使其获得 {shieldBonus}。[br/]切换至阔剑模式，额外造成 {damageBonus} 伤害，并获得[abilityblue]迅捷移动[/abilityblue]、闪击、猛攻和防御模式：闪避。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXEMPLARS_PROTECTION</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Exemplar's Protection</Data></Cell><Cell><Data
+            ss:Type="String"
+          >楷模庇护</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXEMPLARS_PROTECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has the Exemplar's shield and gains {shieldBonus}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位拥有楷模的护盾并获得 {shieldBonus}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SHIELD_MODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shield Mode</Data></Cell><Cell><Data
+            ss:Type="String"
+          >护盾模式</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mode Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >GLAIVE_MODE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Glaive Mode</Data></Cell><Cell><Data
+            ss:Type="String"
+          >阔剑模式</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mode Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="48"
+      ><Cell><Data ss:Type="String">MODE_SWITCHER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit shifts between two modes.[br/]Shield Mode: Unit has {shieldBonus}, and Defense Mode: Protector Shields.[br/]Glaive Mode: Unit gains {damageBonus}, [abilityblue]Fast Movement[/abilityblue], and Defense Mode: Evasion.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位可在两种模式之间切换。[br/]护盾模式：单位获得 {shieldBonus} 和防御模式：保卫者护盾。[br/]阔剑模式：单位获得 {damageBonus}、[abilityblue]迅捷移动[/abilityblue]和防御模式：闪避。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Mode Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MODE_SWITCH_SHIELD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mode Switch: Shield</Data></Cell><Cell><Data
+            ss:Type="String"
+          >模式切换：护盾</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="48"
+      ><Cell><Data ss:Type="String">MODE_SWITCH_SHIELD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Switch to Shield Mode. This unit gains {shieldBonus}, Ordain Shield, and Defense Mode: Protector Shields. Cancels [abilityblue]Exemplar's Protection[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >切换至护盾模式。此单位获得 {shieldBonus}、护盾授予和防御模式：保卫者护盾。取消[abilityblue]楷模庇护[/abilityblue]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MODE_SWITCH_GLAIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mode Switch: Glaive</Data></Cell><Cell><Data
+            ss:Type="String"
+          >模式切换：阔剑</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">MODE_SWITCH_GLAIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Switch to Glaive Mode. This unit gains +{damageBonus} damage, [abilityblue]Fast Movement[/abilityblue], Blitz, Onslaught, and Defense Mode: Evasion.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >切换至阔剑模式。此单位获得 +{damageBonus} 伤害、[abilityblue]迅捷移动[/abilityblue]、闪击、猛攻和防御模式：闪避。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BLITZ</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blitz</Data></Cell><Cell><Data
+            ss:Type="String"
+          >闪击</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="50.25"
+      ><Cell><Data ss:Type="String">BLITZ</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Jump to target hex, dealing damage to all enemy units in target {hexRad} hex radius. Switches to Shield Mode. Cancels [abilityblue]Exemplar's Protection[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >跃向目标单元格，对目标 {hexRad} 个单元格范围内的所有敌方单位造成伤害。切换至护盾模式。取消[abilityblue]楷模庇护[/abilityblue]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">NOT_YOUR_TIME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Not Your Time</Data></Cell><Cell><Data
+            ss:Type="String"
+          >大限未至</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="67.5"
+      ><Cell><Data ss:Type="String">NOT_YOUR_TIME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heal target friendly unit for {healhp}.[br/]Alternatively, target friendly dead Tier I, II or III is resurrected with {reshp}.[br/]The affected unit gains [abilityblue]Unwavering[/abilityblue] and [abilityblue]Resurgence[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标友方单位治疗 {healhp}。[br/]或者，复活阵亡的目标友方 1 阶、2 阶或 3 阶单位并使其获得 {reshp}。[br/]受影响的单位获得[abilityblue]坚定意志[/abilityblue]与[abilityblue]复苏[/abilityblue]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOLT_BOW_CRASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Volt Bow Crash</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电压船首冲撞</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >VOLT_BOW_CRASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Crash into an enemy with an arc-charged ship's bow.</Data></Cell><Cell
+        ><Data ss:Type="String">使用电弧充能的船首撞击敌人。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">STORM_BREATH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Storm Breath</Data></Cell><Cell><Data
+            ss:Type="String"
+          >风暴吐息</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="35.25"
+      ><Cell><Data ss:Type="String">STORM_BREATH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Attack in a {hexrad} hex cone, hitting both water and air units. {turbulenceChance} strength chance to give [abilityred]Turbulence[/abilityred] to Flying non-Ethereal units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >攻击 {hexrad} 个单元格扇形范围，可同时命中水域和空中单位。有 {turbulenceChance} 力量几率对非虚灵飞行单位施加[abilityred]颠簸[/abilityred]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TWINAXES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Twinaxes</Data></Cell><Cell><Data
+            ss:Type="String"
+          >双斧</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="36.75"
+      ><Cell><Data ss:Type="String">TWINAXES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Attack an enemy with dual volt-charged battleaxes. Can hit either air or ground units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用电压充能双斧攻击敌人。可命中空中和陆地单位。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOLT_SURGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Volt Surge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >高压冲刺</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="57"
+      ><Cell><Data ss:Type="String">VOLT_SURGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Surge to target hex, dealing arc damage to all adjacent units when it lands. {surgeStrength} strength chance to apply [abilityred]Electrified[/abilityred] for {turntimer}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >冲向目标单元格，着陆时对所有相邻单位造成电弧伤害。有 {surgeStrength} 力量几率施加[abilityred]触电[/abilityred]，持续 {turntimer}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">VOLT_DISCHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Volt Discharge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电压倾泻</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >VOLT_DISCHARGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch an arc blast in a {hexrad} hex radius around target unit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标单位周围 {hexrad} 个单元格范围发射一道电弧冲击波。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BANNER_OF_JUSTICE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Banner of Justice</Data></Cell><Cell><Data
+            ss:Type="String"
+          >正义旗帜</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="29.25"
+      ><Cell><Data ss:Type="String">BANNER_OF_JUSTICE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Launch a flying Banner of Justice at target air hex. On launch, it heals ground and air allies for {healAmount} and dispels their negative status effects in a {hexrad} hex radius.[br/]The Banner can randomly pick an allied unit within {hexrange} hexes to heal for {healAmount} and remove all of its negative status effects. The banner disappears after {turns}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标单元格上空发射一面飞行的正义旗帜。使 {hexrad} 个单元格范围内的陆地与空中友方单位治疗 {healAmount}，并驱散其负面状态效果。[br/]正义旗帜会随机挑选 {hexrange} 个单元格内的一个友方单位并治疗 {healAmount}，并移除其所有负面状态效果。旗帜将在 {turns} 后消失。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BANNERS_JUSTICE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Banner's Justice</Data></Cell><Cell><Data
+            ss:Type="String"
+          >旗帜正义</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="29.25"
+      ><Cell><Data ss:Type="String">BANNERS_JUSTICE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heal a random unit within {hexrange} hexes for {healAmount} and remove all of its negative status effects.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使 {hexrange} 个单元格内的一个随机单位治疗 {healAmount}，并且移除其所有负面状态效果。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HONORS_CALLING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Honor's Calling</Data></Cell><Cell><Data
+            ss:Type="String"
+          >荣誉召唤</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="35.25"
+      ><Cell><Data ss:Type="String">HONORS_CALLING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Inspire all non-Mindless friendly units with {moraleIncrease} and {damagePercentage} damage increase for {turns}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >激励所有非无意识友方单位，使其获得 {moraleIncrease} 和 {damagePercentage} 伤害提升，持续 {turns}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HONORS_CALLING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Honor's Call</Data></Cell><Cell><Data
+            ss:Type="String"
+          >荣誉之召</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="33"
+      ><Cell><Data ss:Type="String">HONORS_CALLING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has {moraleIncrease} and {damagePercentage} damage increase for {turns}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >该单位获得 {moraleIncrease} 和 {damagePercentage} 伤害提升，持续 {turns}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Ability Effect Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HONORS_CALLING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{damagePercentage} damage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{damagePercentage} 伤害</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Effect Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RETALIATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Quick Strike</Data></Cell><Cell><Data
+            ss:Type="String"
+          >快速打击</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="33.75"
+      ><Cell><Data ss:Type="String">RETALIATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Quickly strike an enemy. Has a {adversitychance} strength chance to apply [abilityred]Adversity[/abilityred]. This ability is removed after {turnTimer}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >快速攻击敌人，有 {adversitychance} 力量几率施加[abilityred]厄运[/abilityred]。此技能将在 {turnTimer} 后移除。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Ability Effect Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ANALYZE_TIMELINES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Analyze Timelines</Data></Cell><Cell><Data
+            ss:Type="String"
+          >透析时间</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="37.5"
+      ><Cell><Data ss:Type="String">ANALYZE_TIMELINES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target friendly unit gains [abilityblue]Against All Odds[/abilityblue] for {turnTimer}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标友方单位获得[abilityblue]披荆斩棘[/abilityblue]，持续 {turnTimer}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Ability Effect Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CHALLENGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Challenge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >挑战</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">CHALLENGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{strengthChance} strength chance to bond with target enemy and [abilityred]Challenge[/abilityred] them, making it use all of its [movewalk/] to run towards this unit for {duration}. If this unit is staggered, the effect will end.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {strengthChance} 力量几率连接目标敌人并向其发出[abilityred]挑战[/abilityred]，使其耗尽所有 [movewalk/] 奔向此单位，持续 {duration}。如果此单位被动摇，此效果将结束。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Ability Effect Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">CHALLENGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEBUFF_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Challenged</Data></Cell><Cell><Data
+            ss:Type="String"
+          >受到挑战</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">CHALLENGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEBUFF_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is [abilityred]Challenged[/abilityred] by an enemy, making it use all of its [movewalk/] to run towards it. If that unit is staggered, the effect will end.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位受到敌人[abilityred]挑战[/abilityred]，将耗尽所有 [movewalk/] 奔向敌人。如果该敌方单位被动摇，此效果将结束。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Ability Effect Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">CHALLENGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BUFF_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Challenging</Data></Cell><Cell><Data
+            ss:Type="String"
+          >正在挑战</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">CHALLENGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BUFF_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit is [abilityblue]Challenging[/abilityblue] an enemy, making that enemy use all of its [movewalk/] to run towards this unit. If this unit is staggered, the effect will end.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位正在[abilityblue]挑战[/abilityblue]敌人，使该敌人耗尽所有 [movewalk/] 奔向自己。如果此单位被动摇，此效果将结束。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Ability Effect Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">DISGRACED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEBUFF_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Disgraced</Data></Cell><Cell><Data
+            ss:Type="String"
+          >耻辱</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Debuff Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">DISGRACED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEBUFF_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit will not gain XP after this battle.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位在战斗后不会获得经验值。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Debuff Effect Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">SCRAMBLE_DESTINY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Scramble Destiny</Data></Cell><Cell><Data
+            ss:Type="String"
+          >扰乱命运</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="86.25"
+      ><Cell><Data ss:Type="String">SCRAMBLE_DESTINY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Enemy units in a {hexrad} hex radius around the caster have a {entropyStrength} strength chance to gain [abilityred]Fatalism[/abilityred] and [abilityred]Adversity[/abilityred] for {turns}. Friendly units in a {hexrad} hex radius gain either [abilityblue]Providence[/abilityblue], {damageincrease} damage on all abilities or {armorincrease} for {turns}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >施法者周围 {hexrad} 个单元格范围内的敌方单位有 {entropyStrength} 力量几率获得[abilityred]宿命[/abilityred]和[abilityred]厄运[/abilityred]，持续 {turns}。{hexrad} 个单元格范围内的友方单位获得[abilityblue]天佑[/abilityblue]、所有技能伤害提升 {damageincrease}或 {armorincrease}，持续 {turns}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Ability Effect Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">SCRAMBLE_DESTINY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FRIENDLY_BUFF_ARMOR_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Scramble Destiny: Armor</Data></Cell><Cell><Data
+            ss:Type="String"
+          >扰乱命运：护甲</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Effect Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="86.25"
+      ><Cell><Data ss:Type="String">SCRAMBLE_DESTINY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FRIENDLY_BUFF_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit gained {DestinyBuff}.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >此单位获得 {DestinyBuff}。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Effect Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">SCRAMBLE_DESTINY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FRIENDLY_BUFF_DAMAGE_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Scramble Destiny: Damage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >扰乱命运：伤害</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Effect Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="86.25"
+      ><Cell><Data ss:Type="String">SCRAMBLE_DESTINY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FRIENDLY_BUFF_DAMAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit gained {DestinyBuff} damage.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >此单位获得 {DestinyBuff} 伤害。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Effect Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="86.25"
+      ><Cell><Data ss:Type="String">SCRAMBLE_DESTINY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FRIENDLY_BUFF_PROVIDENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit gained [abilityblue]Providence[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位获得[abilityblue]天佑[/abilityblue]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Ability Effect Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="86.25"
+      ><Cell><Data ss:Type="String">SCRAMBLE_DESTINY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENEMY_DEBUFF</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit gained [abilityred]Fatalism[/abilityred] and [abilityred]Adversity[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位获得[abilityred]宿命[/abilityred]和[abilityred]厄运[/abilityred]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Ability Effect Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PRECOGNITION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Precognition</Data></Cell><Cell><Data
+            ss:Type="String"
+          >预知</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Buff name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PRECOGNITION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit negates one direct damage attack for each stack. {maxStackCount} stacks maximum.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每层预知可使单位抵消一次直接伤害攻击，最多叠加 {maxStackCount} 层。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Buff Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PRECOGNITION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MODIFIER_NEGATED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Precognition: Attack Negated</Data></Cell><Cell><Data
+            ss:Type="String"
+          >预知：攻击抵消</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Damage popup description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="65.25"
+      ><Cell><Data ss:Type="String">PROVIDENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Providence</Data></Cell><Cell><Data
+            ss:Type="String"
+          >天佑</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Buff name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PROVIDENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >If this unit's attacks hit, it will be a guaranteed critical hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位的攻击命中时必定造成暴击。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Buff Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LAST_STAND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Last Stand</Data></Cell><Cell><Data
+            ss:Type="String"
+          >背水一战</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Buff name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="74.25"
+      ><Cell><Data ss:Type="String">LAST_STAND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit will remain at {hp} instead of dying.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位将维持 {hp} 而不会死亡。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Buff Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="74.25"
+      ><Cell><Data ss:Type="String">BANNER_OF_HEALING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Banner of Healing</Data></Cell><Cell><Data
+            ss:Type="String"
+          >治愈旗帜</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Unit name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="74.25"
+      ><Cell><Data ss:Type="String">BANNER_OF_HEALING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A banner with the ability to heal friendly units for {healamount}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >能够治疗友方单位 {healamount} 的旗帜。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Unit description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="74.25"
+      ><Cell><Data ss:Type="String">BANNERS_HEALING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Banner's Healing</Data></Cell><Cell><Data
+            ss:Type="String"
+          >旗帜治愈</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="74.25"
+      ><Cell><Data ss:Type="String">BANNERS_HEALING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heal target friendly unit for {healamount}.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >治疗目标友方单位 {healamount}。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="74.25"
+      ><Cell><Data ss:Type="String">BANNER_TARGETTING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Banner Targeting Mode</Data></Cell><Cell><Data
+            ss:Type="String"
+          >旗帜瞄准模式</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mode name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="74.25"
+      ><Cell><Data ss:Type="String">BANNER_TARGETTING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION_RANDOM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The targets of this Banner's abilities are randomly picked from available targets.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此旗帜的技能目标会从有效目标中随机挑选。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Mode Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="74.25"
+      ><Cell><Data ss:Type="String">BANNER_TARGETTING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION_PLAYER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The targets of this Banner's abilities are chosen by the player.</Data></Cell><Cell
+        ><Data ss:Type="String">此旗帜的技能目标由玩家选择。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Mode Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="74.25"
+      ><Cell><Data ss:Type="String">TIRELESS_DASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tireless Dash</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不倦冲击</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="74.25"
+      ><Cell><Data ss:Type="String">TIRELESS_DASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Lightbringer jumps towards target ground hex and lands heavily, dealing damage to adjacent units. Grants the user [abilityblue]Tireless[/abilityblue] for {turns}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >光明使者跃向目标陆地单元格并重重落下，对相邻单位造成伤害。使用者获得[abilityblue]不知疲倦[/abilityblue]，持续 {turns}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="31.6875"
+      ><Cell><Data ss:Type="String">CELESTIAL_PROVIDENCE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Celestial Providence</Data></Cell><Cell><Data
+            ss:Type="String"
+          >星神天佑</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="74.25"
+      ><Cell><Data ss:Type="String">CELESTIAL_PROVIDENCE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target friendly unit gains [abilityblue]Providence[/abilityblue] for {providenceTurns}, making all of its attacks critically hit.[br/]The unit is also considered [abilityblue]Enlightened[/abilityblue] until the end of combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标友方单位获得[abilityblue]天佑[/abilityblue]，持续 {providenceTurns}，使其所有攻击都会造成暴击。[br/]该单位还将被视作获得了[abilityblue]启迪[/abilityblue]，持续至战斗结束。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="33.75"
+      ><Cell><Data ss:Type="String">CURSING_LIGHT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cursing Light</Data></Cell><Cell><Data
+            ss:Type="String"
+          >诅咒之光</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="74.25"
+      ><Cell><Data ss:Type="String">CURSING_LIGHT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Use starlight to attack a {diameter} hex radius.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用星光攻击 {diameter} 个单元格范围。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="74.25"
+      ><Cell><Data ss:Type="String">PLASMA_SLASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Plasma Slash</Data></Cell><Cell><Data
+            ss:Type="String"
+          >等离子挥砍</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="74.25"
+      ><Cell><Data ss:Type="String">PLASMA_SLASH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Slash a plasma blade, dealing damage to multiple targets in front of the unit. Can hit either air or ground units.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使用等离子剑刃进行挥砍，对单位前方多个目标造成伤害。可命中空中和陆地单位。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="74.25"
+      ><Cell><Data ss:Type="String">VOID_PIKE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Void Pike</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚空长矛</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="74.25"
+      ><Cell><Data ss:Type="String">BURNING_GREATBOW</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Burning Greatbow</Data></Cell><Cell><Data
+            ss:Type="String"
+          >燃烧巨弓</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="74.25"
+      ><Cell><Data ss:Type="String">BURNING_GREATBOW</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shoot a flaming arrow at the target.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >向目标射出一支燃烧箭矢。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="74.25"
+      ><Cell><Data ss:Type="String">BURNING_BANNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Burning Banner</Data></Cell><Cell><Data
+            ss:Type="String"
+          >燃烧旗帜</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="116.25"
+      ><Cell><Data ss:Type="String">BURNING_BANNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shoot a flying Burning Banner at target air hex, dealing damage to adjacent enemy ground and flying units.[br/][br/]The Burning Banner gives a random  enemy [abilityred]Soulburn[/abilityred] until end of combat and [abilityred]Burning[/abilityred] for {turns}, every [turn/]. Banner disappears after {bannerTurnCount}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >向目标单元格上空发射一面飞行的燃烧旗帜，对相邻的敌方陆地和飞行单位造成伤害。[br/][br/]每 [turn/]，燃烧旗帜会对一个随机敌方单位造成[abilityred]灵魂燃烧[/abilityred]，持续至战斗结束，同时造成[abilityred]燃烧[/abilityred]，持续 {turns}。旗帜将在{bannerTurnCount} 后消失。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="74.25"
+      ><Cell><Data ss:Type="String">BANNERS_BURN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Banner's Burn</Data></Cell><Cell><Data
+            ss:Type="String"
+          >旗帜燃烧</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="74.25"
+      ><Cell><Data ss:Type="String">BANNERS_BURN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target enemy unit gets [abilityred]Soulburn[/abilityred] until end of combat and [abilityred]Burning[/abilityred] for {turns}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标敌方单位受到[abilityred]灵魂燃烧[/abilityred]，持续至战斗结束，同时受到[abilityred]燃烧[/abilityred]，持续 {turns}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MOD_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Oath of Purity</Data></Cell><Cell><Data
+            ss:Type="String"
+          >纯洁誓言</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="41.25"
+      ><Cell><Data ss:Type="String">MOD_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gain {statusResistance} status resistance and Damage Over Time Immunity.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >获得 {statusResistance} 状态抵抗和持续伤害免疫。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Mod Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MOD_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Battle Pattern Analyzer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >战斗模式分析器</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit gains [abilityblue]Detection[/abilityblue] and +{SensorRange} Sensor Range. Whenever this unit gets hit within a {hexRange} hex range, it gets [abilityblue]Quick Strike[/abilityblue] for {turnTimer}, a {retaliateRange} range [entropy/] attack with a {adversitychance} strength chance to give[abilityred]Adversity[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >单位获得[abilityblue]侦察[/abilityblue]并 +{SensorRange} 传感器范围。每当此单位受到来自 {hexRange} 个单元格范围内的攻击时，就会获得 [abilityblue]快速打击[/abilityblue]，持续 {turnTimer}。一次 {retaliateRange} 射程的 [entropy/] 攻击，有 {adversitychance} 力量几率施加[abilityred]厄运[/abilityred]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Mod Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="33.75"
+      ><Cell><Data ss:Type="String">MOD_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Oath of Loyalty</Data></Cell><Cell><Data
+            ss:Type="String"
+          >忠诚誓言</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="33.75"
+      ><Cell><Data ss:Type="String">MOD_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grants {armorbonus} for each adjacent unit with an Oath mod.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每有一个拥有誓言模块的相邻单位，就给予 {armorbonus}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Mod Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MOD_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Oath of Devotion</Data></Cell><Cell><Data
+            ss:Type="String"
+          >奉献誓言</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="33"
+      ><Cell><Data ss:Type="String">MOD_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Grants [abilityblue]Mind Control Immunity[/abilityblue]. Grants the unit [abilityblue]Last Stand[/abilityblue] once per combat, leaving it at {hp} instead of dying for {turntimer} when it would otherwise die. When triggered, this unit becomes [abilityred]Disgraced[/abilityred], not gaining any experience at the end of combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >给予[abilityblue]心灵控制免疫[/abilityblue]。每场战斗一次，给予单位[abilityblue]背水一战[/abilityblue]，使其能够以 {hp} 生命值维持濒死状态，持续 {turntimer}。触发后，单位变为[abilityred]耻辱[/abilityred]状态，不会在战斗后获得任何经验值。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Mod Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MOD_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Plight Mitigator</Data></Cell><Cell><Data
+            ss:Type="String"
+          >困境缓和器</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >If this unit has negative status effects. It dispels them. When it does, obtain [abilityblue]Providence[/abilityblue] for {turn}. Can only trigger once every {cooldown}.[br/]In addition, this mod prevents the unit from fumbling naturally.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >如果此单位拥有负面状态效果，则将其驱散。驱散后，单位获得[abilityblue]天佑[/abilityblue]，持续 {turn}。每 {cooldown} 只能触发一次。[br/]另外，此模块可以令单位的攻击不会失手。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Mod Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MOD_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Plight Mitigated</Data></Cell><Cell><Data
+            ss:Type="String"
+          >困境缓和</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Effect Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Plight Mitigator will not trigger during these turns.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >困境缓和器将不会在这些回合中触发。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Mod Effect Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">MOD_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Oath of Courage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >勇气誓言</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_7</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Timethread Datascrolls</Data></Cell><Cell><Data
+            ss:Type="String"
+          >时间线程数据卷轴</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">MOD_7</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit gains one stack of [abilityblue]Precognition[/abilityblue] at the beginning of its turn if it does not have one already.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >如果此单位在自己的回合开始时未拥有[abilityblue]预知[/abilityblue]，则可获得一层。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Mod Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MOD_8</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Beacon of Hope</Data></Cell><Cell><Data
+            ss:Type="String"
+          >希望信标</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="60"
+      ><Cell><Data ss:Type="String">MOD_8</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Heals the user and all friendly units in a {hexrad} hex radius around it for {healAmount} at the end of each turn.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在每个回合结束时，治疗使用者及其 {hexrad} 个单元格范围内的所有友方单位 {healAmount}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Mod Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MOD_9</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Destiny's Manuscript</Data></Cell><Cell><Data
+            ss:Type="String"
+          >命运手稿</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MOD_1_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Incorruptible</Data></Cell><Cell><Data
+            ss:Type="String"
+          >清廉不腐</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Untouchable</Data></Cell><Cell><Data
+            ss:Type="String"
+          >触不可及</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Upright</Data></Cell><Cell><Data
+            ss:Type="String"
+          >刚正不阿</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Pure</Data></Cell><Cell><Data
+            ss:Type="String"
+          >纯粹明洁</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Inextinguishable</Data></Cell><Cell><Data
+            ss:Type="String"
+          >永恒不灭</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperishable</Data></Cell><Cell><Data
+            ss:Type="String"
+          >永垂不朽</Data></Cell><Cell ss:Index="8"><Data
+            ss:Type="String"
+          >Impairing Grenade</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Prudent</Data></Cell><Cell><Data
+            ss:Type="String"
+          >谨慎精明</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Skillful</Data></Cell><Cell><Data
+            ss:Type="String"
+          >炉火纯青</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cunning</Data></Cell><Cell><Data
+            ss:Type="String"
+          >狡猾奸诈</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Assaying</Data></Cell><Cell><Data
+            ss:Type="String"
+          >化验分析</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Analyzer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >分析师</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tactician</Data></Cell><Cell><Data
+            ss:Type="String"
+          >战术师</Data></Cell><Cell ss:Index="8"><Data
+            ss:Type="String"
+          >Holodisplacement Shields</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Devout</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虔诚者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Allegiant</Data></Cell><Cell><Data
+            ss:Type="String"
+          >忠孝之士</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unfailing</Data></Cell><Cell><Data
+            ss:Type="String"
+          >经久不衰</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Staunch</Data></Cell><Cell><Data
+            ss:Type="String"
+          >坚定忠诚</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ardent</Data></Cell><Cell><Data
+            ss:Type="String"
+          >热血激情</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Dutiful</Data></Cell><Cell><Data
+            ss:Type="String"
+          >尽职者</Data></Cell><Cell ss:Index="8"><Data
+            ss:Type="String"
+          >Orbital Recall Systems</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Self Offering</Data></Cell><Cell><Data
+            ss:Type="String"
+          >自我献祭</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Saintly</Data></Cell><Cell><Data
+            ss:Type="String"
+          >崇高圣洁</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Martyring</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殉道者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Punished</Data></Cell><Cell><Data
+            ss:Type="String"
+          >受罚者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Ever Suffering</Data></Cell><Cell><Data
+            ss:Type="String"
+          >永恒苦难</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Devout</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虔诚衷心</Data></Cell><Cell ss:Index="8"><Data
+            ss:Type="String"
+          >Assault Exoskeleton</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Untouchable</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不可捉摸</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Favored</Data></Cell><Cell><Data
+            ss:Type="String"
+          >神明恩宠</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Resistant</Data></Cell><Cell><Data
+            ss:Type="String"
+          >坚韧顽固</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Clear Minded</Data></Cell><Cell><Data
+            ss:Type="String"
+          >头脑清晰</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Stoic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >坚忍克己</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unsusceptible</Data></Cell><Cell><Data
+            ss:Type="String"
+          >不为所动</Data></Cell><Cell ss:Index="8"><Data
+            ss:Type="String"
+          >Holoreality Mantle</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Audacious</Data></Cell><Cell><Data
+            ss:Type="String"
+          >鲁莽无畏</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Daring</Data></Cell><Cell><Data
+            ss:Type="String"
+          >胆大勇敢</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Taunting</Data></Cell><Cell><Data
+            ss:Type="String"
+          >嘲弄者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Jeering</Data></Cell><Cell><Data
+            ss:Type="String"
+          >嘲笑愚弄</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Sneering</Data></Cell><Cell><Data
+            ss:Type="String"
+          >轻蔑之士</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Instigator</Data></Cell><Cell><Data
+            ss:Type="String"
+          >煽动者</Data></Cell><Cell ss:Index="8"><Data
+            ss:Type="String"
+          >Trigger-Phrase Systems</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gift of Foresight</Data></Cell><Cell><Data
+            ss:Type="String"
+          >远见之礼</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Anticipating</Data></Cell><Cell><Data
+            ss:Type="String"
+          >预料希冀</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gift of Premonition</Data></Cell><Cell><Data
+            ss:Type="String"
+          >预感之礼</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Discerning</Data></Cell><Cell><Data
+            ss:Type="String"
+          >独具慧眼</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Indifferent</Data></Cell><Cell><Data
+            ss:Type="String"
+          >冷若冰霜</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Indomitable</Data></Cell><Cell><Data
+            ss:Type="String"
+          >顽强不屈</Data></Cell><Cell ss:Index="8"><Data
+            ss:Type="String"
+          >Holochromatic Engines</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Supportive</Data></Cell><Cell><Data
+            ss:Type="String"
+          >辅助支持</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Promising</Data></Cell><Cell><Data
+            ss:Type="String"
+          >前途无量</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Encouraging</Data></Cell><Cell><Data
+            ss:Type="String"
+          >鼓舞人心</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Supportive</Data></Cell><Cell><Data
+            ss:Type="String"
+          >辅助支持</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bolstering</Data></Cell><Cell><Data
+            ss:Type="String"
+          >鼓舞支撑</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Illuminant</Data></Cell><Cell><Data
+            ss:Type="String"
+          >光源体</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Medicinal</Data></Cell><Cell><Data
+            ss:Type="String"
+          >医疗药用</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Remedial</Data></Cell><Cell><Data
+            ss:Type="String"
+          >补救者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mending</Data></Cell><Cell><Data
+            ss:Type="String"
+          >缝补修理</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Curative</Data></Cell><Cell><Data
+            ss:Type="String"
+          >治愈疗效</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The Healer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >医治者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tactical Apothecary</Data></Cell><Cell><Data
+            ss:Type="String"
+          >战术药剂师</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PROTECTION_BANNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Banner's Protection</Data></Cell><Cell><Data
+            ss:Type="String"
+          >旗帜防护</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PROTECTION_BANNER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target unit heals for {Heal}[hp/] and gains a stack of [abilityblue]Precognition[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标单位治疗 {Heal}[hp/] 并获得一层[abilityblue]预知[/abilityblue]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTROPIC_STORM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropic Storm</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌风暴</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENTROPIC_STORM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Blast a {hexrad} hex radius area with entropy.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >对 {hexrad} 个单元格范围区域造成一阵混沌爆炸。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FATALISM_DAEMON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Fatalism Daemon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >宿命精灵</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Ability Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FATALISM_DAEMON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target enemy unit is forcibly infected with a hostile Daemon. They have a strength {HaywireChanceCompromised}[strengthentropy/] chance to get [abilityred]Fatalism[/abilityred] for {HaywireTurnCompromised}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >使目标敌方单位感染恶意精灵，有 {HaywireChanceCompromised}[strengthentropy/] 力量几率获得[abilityred]宿命[/abilityred]，持续 {HaywireTurnCompromised}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Ability Description</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Mod Template name</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><TopRowVisible
+      >181</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >196</ActiveRow><ActiveCol>2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

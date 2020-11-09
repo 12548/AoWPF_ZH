@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>8505</WindowHeight><WindowWidth>20430</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7305</WindowHeight><WindowWidth>21420</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -214,20 +214,20 @@
             ss:Type="String"
           >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Biochemical attacks deal +{extradamage} damage against non-Mindless units and have a {CatatonicChance}[StrengthPsyche/] strength chance ({CatatonicChanceRepeating}[StrengthPsyche/] on repeating attacks) to apply [abilityred]Catatonic[/abilityred] to non-Mindless Psionic units for {CatatonicTurn}[turn/].</Data></Cell><Cell
+          >Biochemical attacks deal +{extradamage} damage against non-Mindless units and have a {CatatonicChance}[StrengthPsyche/] strength chance ({CatatonicChanceRepeating}[StrengthPsyche/] on repeating attacks) to apply [abilityred]Catatonic[/abilityred] to non-Mindless units with Psionic or Entropy abilities for {CatatonicTurn}[turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >生化攻击对非无意识单位造成 +{extradamage} 伤害，并有 {CatatonicChance}[StrengthPsyche/] 力量几率（重复攻击有 {CatatonicChanceRepeating}[StrengthPsyche/] 几率）对非无意识的灵能单位施加[abilityred]紧张[/abilityred]，持续 {CatatonicTurn}[turn/]。</Data></Cell></Row><Row
+          >生化攻击对非无意识单位造成 +{extradamage} 伤害，并有 {CatatonicChance}[StrengthPsyche/] 力量几率（多次攻击为 {CatatonicChanceRepeating}[StrengthPsyche/]）对非无意识且具有灵能或混沌技能的单位施加[abilityred]紧张[/abilityred]，持续 {CatatonicTurn}[turn/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
       ><Cell><Data ss:Type="String">CEREBRAL_STRAIN</Data></Cell><Cell><Data
             ss:Type="String"
           >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >{CerebralDamage} extra damage against non-Mindless units and {CerebralChance}[strengthpsyche/] to apply [abilityred]Catatonic[/abilityred] to non-Mindless Psionic units for {CerebralTurn}[turn/].</Data></Cell><Cell
+          >{CerebralDamage} extra damage against non-Mindless units and {CerebralChance}[strengthpsyche/] strength chance to apply [abilityred]Catatonic[/abilityred] to non-Mindless Psionic/Entropic units for {CerebralTurn}[turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >对非无意识单位额外造成 {CerebralDamage} 伤害，并有 {CerebralChance}[strengthpsyche/]力量几率对非无意识的灵能单位施加[abilityred]紧张[/abilityred]，持续{CerebralTurn}[turn/]。</Data></Cell></Row><Row
+          >对非无意识单位额外造成 {CerebralDamage} 伤害，并有 {CerebralChance}[strengthpsyche/] 力量几率对非无意识的灵能/混沌单位施加[abilityred]紧张[/abilityred]，持续 {CerebralTurn}[turn/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">VISCOUS_COMPOSITE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -260,56 +260,56 @@
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Unit gains +{IncreasedResistanceBio}[damageBio/] resistance and Immunity to [abilityblue]Biochemical Status Effects and Hazards[/abilityblue].[br/]At the end of this unit's turn, any Biological or Cyborg enemy unit within {BlightRadiusHex} hexes of this unit has a {BlightBringerChance} strength chance to be affected by [abilityred]Blighted Plague[/abilityred] for {BlightTurns}.</Data></Cell><Cell
+          >Unit gains +{IncreasedResistanceBio}[damageBio/] resistance and Immunity to [abilityblue]Biochemical Status Effects and Hazards[/abilityblue].[br/]At the end of this unit's turn, enemy non-Ethereal units within {BlightRadiusHex} hexes have a {BlightBringerChance} strength chance to gain [abilityred]Blighted [/abilityred] for {BlightTurns}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >单位获得 +{IncreasedResistanceBio}[damageBio/]抵抗并对[abilityblue]生化状态效果和灾害[/abilityblue]免疫。[br/]在该单位的回合结束时，{BlightRadiusHex} 个单元格内的所有敌方生物或半机械人单位有 {BlightBringerChance} 力量几率感染[abilityred]枯萎瘟疫[/abilityred]，持续 {BlightTurns}。</Data></Cell></Row><Row
+          >单位获得 +{IncreasedResistanceBio}[damageBio/] 抵抗并免疫[abilityblue]生化状态效果和灾害[/abilityblue]。[br/]此单位的回合结束时，位于 {BlightRadiusHex} 个单元格以内的敌方非虚灵单位有 {BlightBringerChance} 力量几率感染[abilityred]枯萎[/abilityred]，持续 {BlightTurns}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data
             ss:Type="String"
           >ABILITY_NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Blight Infection</Data></Cell><Cell><Data
+          >Blightworm Injector</Data></Cell><Cell><Data
             ss:Type="String"
-          >枯萎感染</Data></Cell></Row><Row
+          >枯萎蠕虫注射器</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data
             ss:Type="String"
           >MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >{BlightParasitesChance}[strengthbio/] strength chance to apply [abilityred]Blight Infection[/abilityred] to Biological or Cyborg units until the end of combat.</Data></Cell><Cell
+          >{BlightParasitesChance}[strengthbio/] strength chance to apply [abilityred]Blightworm Infestation[/abilityred] to units until the end of combat.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >有 {BlightParasitesChance}[strengthbio/] 力量几率对生物和半机械人单位施加[abilityred]枯萎感染[/abilityred]，效果持续到战斗结束。</Data></Cell></Row><Row
+          >有 {BlightParasitesChance}[strengthbio/] 力量几率对单位施加[abilityred]枯萎蠕虫感染[/abilityred]，效果持续到战斗结束。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="75"
       ><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data
             ss:Type="String"
           >ABILITY_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Biochemical attacks have a {BlightWormChance}[strengthbio/] strength chance ({BlightWormChanceRepeating}[strengthbio/] for repeating attacks) to apply [abilityred]Blight Infection[/abilityred] until end of combat. A unit infected will explode in a {HexRadius} hex radius when it dies, dealing {BiochemicalDamage}[damagebio/] to all units in the explosion.</Data></Cell><Cell
+          >Biochemical attacks have a {BlightWormChance}[strengthbio/] strength chance ({BlightWormChanceRepeating}[strengthbio/] for repeating attacks) to apply [abilityred]Blightworm Infestation[/abilityred] to units until end of combat. A unit infected will explode in a {HexRadius} hex radius when it dies, dealing {BiochemicalDamage}[damagebio/] to all units in the explosion, except for those using this mod.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >生化攻击有 {BlightWormChance}[strengthbio/] 力量几率（重复攻击有 {BlightWormChanceRepeating}[strengthbio/] 几率）施加[abilityred]枯萎感染[/abilityred]，持续至战斗结束。受到感染的单位阵亡时将在 {HexRadius} 个单元格范围内发生爆炸，对所有受爆炸影响的单位造成 {BiochemicalDamage}[damagebio/] 伤害。</Data></Cell></Row><Row
+          >生化攻击有 {BlightWormChance}[strengthbio/] 力量几率（多次攻击为 {BlightWormChanceRepeating}[strengthbio/]）对单位施加[abilityred]枯萎蠕虫感染[/abilityred]，持续至战斗结束。受到感染的单位阵亡时将使 {HexRadius} 个单元格范围发生爆炸，对所有受爆炸影响的单位造成 {BiochemicalDamage}[damagebio/] 生化伤害，使用此模块的单位除外。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data
             ss:Type="String"
           >DEBUFF_NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Blight Infection</Data></Cell><Cell><Data
+          >Blightworm Infestation</Data></Cell><Cell><Data
             ss:Type="String"
-          >枯萎感染</Data></Cell></Row><Row
+          >枯萎蠕虫感染</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">BLIGHT_INFECTION</Data></Cell><Cell><Data
             ss:Type="String"
           >DEBUFF_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit is infected by a Blight infection until end of combat. If the unit dies, it will explode in a {HexRadius} hex radius, dealing {BiochemicalDamage} to all units caught in the explosion.</Data></Cell><Cell
+          >This unit is infected by a Blightworm infection until end of combat. If the unit dies, it will explode in a {HexRadius} hex radius, dealing {BiochemicalDamage} to all units caught in the explosion, except for those with the Blightworm Infestation unit mod.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位受到枯萎感染影响，效果持续至战斗结束。该单位死亡时将在 {HexRadius} 个单元格范围内发生爆炸，对所有受爆炸影响的单位造成 {BiochemicalDamage} 伤害。</Data></Cell></Row><Row
+          >此单位受到枯萎蠕虫感染影响，效果持续至战斗结束。此单位死亡时将使 {HexRadius} 个单元格范围发生爆炸，对所有受爆炸影响的单位造成 {BiochemicalDamage}，使用“枯萎蠕虫感染”模块的单位除外。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">THRAX_RIFLE</Data></Cell><Cell><Data
             ss:Type="String"

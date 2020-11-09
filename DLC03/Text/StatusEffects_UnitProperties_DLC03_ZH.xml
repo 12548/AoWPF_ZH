@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -161,10 +161,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Mutant or Xenoplague units entering or ending their turn on this hex gain [abilityblue]Blood Fury[/abilityblue] for {DurationPositive}[turn/].[br/]Non-Mutant or Xenoplague units have an {MutantGoop} chance to inflict [abilityred]Poisoned[/abilityred] for {DurationNegative}[turn/]</Data></Cell><Cell
+          >Mutant or Xenoplague units entering or ending their turn on this hex gain [abilityblue]Blood Fury[/abilityblue] for {DurationPositive}[turn/].[br/]Biological and Cyborg units, that aren't Mutants or Xenoplague, have an {MutantGoop} chance to inflict [abilityred]Poisoned[/abilityred] for {DurationNegative}[turn/]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >突变体或异星疫病单位在进入该单元格或在该单元格结束回合时，能够获得[abilityblue]血怒[/abilityblue]，持续 {DurationPositive}[turn/]。[br/]非突变体或异星疫病单位有 {MutantGoop} 几率[abilityred]中毒[/abilityred]，持续 {DurationNegative}[turn/]</Data></Cell></Row><Row
+          >突变体或异星疫病单位在进入该单元格或在该单元格结束回合时会获得[abilityblue]血怒[/abilityblue]，持续 {DurationPositive}[turn/]。[br/]非突变体或异星疫病的生物和半机械人单位有 {MutantGoop} 几率[abilityred]中毒[/abilityred]，持续 {DurationNegative}[turn/]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ESSENCE_POOL</Data></Cell><Cell><Data
             ss:Type="String"

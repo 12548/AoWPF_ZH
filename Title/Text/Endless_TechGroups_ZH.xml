@@ -1,0 +1,2033 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author
+    >Laszlo Pieper</Author><LastAuthor>GameScribes4</LastAuthor><Created
+    >2018-09-14T10:48:07Z</Created><LastSaved
+    >2020-07-17T10:37:06Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>7305</WindowHeight><WindowWidth>21420</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+      ss:Name="Normal 3"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:CharSet="1"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
+      ss:ID="s64"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s65"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
+      ss:ID="s66"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Interior /></Style><Style
+      ss:ID="s68"
+      ss:Parent="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /><Interior
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s63"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="204" /><Column
+        ss:StyleID="s63"
+        ss:AutoFitWidth="0"
+        ss:Width="120"
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="358.5" /><Column
+        ss:StyleID="s63"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="252" /><Column
+        ss:StyleID="s63"
+        ss:AutoFitWidth="0"
+        ss:Width="158.25"
+      /><Row ss:AutoFitHeight="0" ss:Height="120"><Cell><Data
+            ss:Type="String"
+          >ENDLESS_TECHGROUPS</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENDLESS_MILITARY_RESEARCH</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Future Military Tech</Data></Cell><Cell><Data
+            ss:Type="String"
+          >未来军事科技</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENDLESS_ECONOMIC_RESEARCH</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Future Society Tech</Data></Cell><Cell><Data
+            ss:Type="String"
+          >未来社会科技</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENDLESS_RESEARCH_SUBSKILL</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >???</Data></Cell><Cell><Data ss:Type="String">???</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.
+
+???: Meant to say this</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENDLESS_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TYPE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Repeatable Research</Data></Cell><Cell><Data
+            ss:Type="String"
+          >重复研究</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENDLESS_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RECORD_TYPE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Future Tech</Data></Cell><Cell><Data
+            ss:Type="String"
+          >未来科技</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENDLESS_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >RECORD_TYPE_RARE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Future Tech - Special</Data></Cell><Cell><Data
+            ss:Type="String"
+          >未来科技 - 特殊</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">ENDLESS_RESEARCH_SUBSKILL</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Research this tech to reveal its effects</Data></Cell><Cell><Data
+            ss:Type="String"
+          >研究这项科技来揭示其效果</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARC_WEAPONS_DAMAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Arc Weaponry Breakthrough</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电弧武器突破</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ARC_WEAPONS_DAMAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arc Weapon Damage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电弧武器伤害</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ARC_WEAPONS_DAMAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A major breakthrough from our weapons division has led to a boost to all of our armies' Arc weaponry!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的武器部门完成了一项重大突破，军队的所有电弧武器都得到了提升！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARC_WEAPONS_DAMAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{damageBonus}% extra damage to all Arc weapon attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有电弧武器的攻击额外造成 {damageBonus}% 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FIREARMS_WEAPONS_DAMAGE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Firearms Weaponry Breakthrough</Data></Cell><Cell><Data
+            ss:Type="String"
+          >枪炮武器突破</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FIREARMS_WEAPONS_DAMAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Firearms Weapon Damage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >枪炮武器伤害</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">FIREARMS_WEAPONS_DAMAGE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A major breakthrough from our weapons division has led to a boost to all of our armies' Firearms weaponry!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的武器部门完成了一项重大突破，军队的所有枪炮武器都得到了提升！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FIREARMS_WEAPONS_DAMAGE</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{damageBonus}% extra damage to all Firearms weapon attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有枪炮武器的攻击额外造成 {damageBonus}% 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXPLOSIVE_WEAPONS_DAMAGE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Explosive Weaponry Breakthrough</Data></Cell><Cell><Data
+            ss:Type="String"
+          >爆炸武器突破</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >EXPLOSIVE_WEAPONS_DAMAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Explosive Weapon Damage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >爆炸武器伤害</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">EXPLOSIVE_WEAPONS_DAMAGE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A major breakthrough from our weapons division has led to a boost to all of our armies' Explosive weaponry!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的武器部门完成了一项重大突破，军队的所有爆炸武器都得到了提升！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EXPLOSIVE_WEAPONS_DAMAGE</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{damageBonus}% extra damage to all Explosive weapon attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有爆炸武器的攻击额外造成 {damageBonus}% 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PSIONIC_WEAPONS_DAMAGE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Psionic Weaponry Breakthrough</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵能武器突破</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PSIONIC_WEAPONS_DAMAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psionic Weapon Damage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵能武器伤害</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">PSIONIC_WEAPONS_DAMAGE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A major breakthrough from our weapons division has led to a boost to all of our armies' Psionic weaponry!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的武器部门完成了一项重大突破，军队的所有灵能武器都得到了提升！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PSIONIC_WEAPONS_DAMAGE</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{damageBonus}% extra damage to all Psionic weapon attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有灵能武器的攻击额外造成 {damageBonus}% 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >BIOCHEMICAL_WEAPONS_DAMAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Biochemical Weaponry Breakthrough</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化武器突破</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BIOCHEMICAL_WEAPONS_DAMAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Biochemical Weapon Damage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化武器伤害</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >BIOCHEMICAL_WEAPONS_DAMAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A major breakthrough from our weapons division has led to a boost to all of our armies' Biochemical weaponry!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的武器部门完成了一项重大突破，军队的所有生化武器都得到了提升！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >BIOCHEMICAL_WEAPONS_DAMAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{damageBonus}% extra damage to all Biochemical weapon attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有生化武器的攻击额外造成 {damageBonus}% 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTROPY_WEAPONS_DAMAGE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropy Weaponry Breakthrough</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌武器突破</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENTROPY_WEAPONS_DAMAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropy Weapon Damage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌武器伤害</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ENTROPY_WEAPONS_DAMAGE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A major breakthrough from our weapons division has led to a boost to all of our armies' Entropy weaponry!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的武器部门完成了一项重大突破，军队的所有混沌武器都得到了提升！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTROPY_WEAPONS_DAMAGE</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{damageBonus}% extra damage to all Entropy weapon attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有混沌武器的攻击额外造成 {damageBonus}% 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LASER_WEAPONS_DAMAGE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Laser Weaponry Breakthrough</Data></Cell><Cell><Data
+            ss:Type="String"
+          >激光武器突破</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >LASER_WEAPONS_DAMAGE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Laser Weapon Damage</Data></Cell><Cell><Data
+            ss:Type="String"
+          >激光武器伤害</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">LASER_WEAPONS_DAMAGE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A major breakthrough from our weapons division has led to a boost to all of our armies' Laser weaponry!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的武器部门完成了一项重大突破，军队的所有激光武器都得到了提升！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LASER_WEAPONS_DAMAGE</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{damageBonus}% extra damage to all Laser weapon attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有激光武器的攻击额外造成 {damageBonus}% 伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GENERAL_RESISTANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units you control gain +{amount}.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >你控制的所有单位获得 +{amount}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This amount is used for various of the techs below, they all refer to the amount of resistance you get to the respective damage channel which is told by an icon inside the {}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIOCHEMICAL_RESISTANCE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bio-Resistant Materials Breakthrough</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化抵抗材料突破</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">BIOCHEMICAL_RESISTANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Biochemical Resistance</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生化抵抗</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">BIOCHEMICAL_RESISTANCE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our scientists have made major strides in treating materials to resist Biochemical attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的科学家在研究抵抗生化攻击的材料方面取得了重大进展。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARC_RESISTANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arc-Resistant Materials Breakthrough</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电弧抵抗材料突破</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">ARC_RESISTANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arc Resistance</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电弧抵抗</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ARC_RESISTANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our scientists have made major strides in treating materials to resist Arc attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的科学家在研究抵抗电弧攻击的材料方面取得了重大进展。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTROPY_RESISTANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropy-Resistant Materials Breakthrough</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌抵抗材料突破</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">ENTROPY_RESISTANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropy Resistance</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌抵抗</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ENTROPY_RESISTANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our scientists have made major strides in treating materials to resist Entropy attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的科学家在研究抵抗混沌攻击的材料方面取得了重大进展。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">THERMAL_RESISTANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thermal-Resistant Materials Breakthrough</Data></Cell><Cell><Data
+            ss:Type="String"
+          >热能抵抗材料突破</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >THERMAL_RESISTANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Thermal Resistance</Data></Cell><Cell><Data
+            ss:Type="String"
+          >热能抵抗</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >THERMAL_RESISTANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our scientists have made major strides in treating materials to resist Thermal attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的科学家在研究抵抗热能攻击的材料方面取得了重大进展。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">KINETIC_RESISTANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Kinetic-Resistant Materials Breakthrough</Data></Cell><Cell><Data
+            ss:Type="String"
+          >动能抵抗材料突破</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >KINETIC_RESISTANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Kinetic Resistance</Data></Cell><Cell><Data
+            ss:Type="String"
+          >动能抵抗</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">KINETIC_RESISTANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our scientists have made major strides in treating materials to resist Kinetic attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的科学家在研究抵抗动能攻击的材料方面取得了重大进展。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PSIONIC_RESISTANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psionic-Resistant Materials Breakthrough</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵能抵抗材料突破</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PSIONIC_RESISTANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psionic Resistance</Data></Cell><Cell><Data
+            ss:Type="String"
+          >灵能抵抗</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >PSIONIC_RESISTANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Our scientists have made major strides in treating materials to resist Psionic attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的科学家在研究抵抗灵能攻击的材料方面取得了重大进展。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MECHA_UNITS_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Armor: Mechanical</Data></Cell><Cell><Data
+            ss:Type="String"
+          >护甲：机械</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MECHA_UNITS_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Advanced Armors</Data></Cell><Cell><Data
+            ss:Type="String"
+          >先进护甲</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MECHA_UNITS_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A breakthrough has occurred in the field of Armor for Mechanical Units!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们在机械单位的护甲领域取得了重大突破！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MECHA_UNITS_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All Mechanical units you control gain +{ArmorGain}[armor/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你控制的所有机械单位获得 +{ArmorGain}[armor/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CYBORG_MECHA_SHIELDS</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shields: Cyborg and Mechanical</Data></Cell><Cell><Data
+            ss:Type="String"
+          >护盾：半机器人与机械</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CYBORG_MECHA_SHIELDS</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shielding Metals</Data></Cell><Cell><Data
+            ss:Type="String"
+          >护盾合金</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CYBORG_MECHA_SHIELDS</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A breakthrough has occurred in the field of Shields for Cyborg and Mechanical units!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们在半机械人与机械单位的护盾领域取得了重大突破！</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Shields and Armor are defensive stats in the game.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CYBORG_MECHA_SHIELDS</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All Cyborg and Mechanical units you control gain +{ShieldGain}[shield/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你控制的所有半机器人和机械单位获得 +{ShieldGain}[shield/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIO_CYBORG_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Armor: Biological and Cyborg</Data></Cell><Cell><Data
+            ss:Type="String"
+          >护甲：生物和半机械人</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIO_CYBORG_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Second Skin</Data></Cell><Cell><Data
+            ss:Type="String"
+          >第二层皮肤</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">BIO_CYBORG_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A breakthrough has occurred in the field of Armor for Biological and Cyborg units!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们在生物和半机械人单位的护甲领域取得了重大突破！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIO_CYBORG_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All Biological and Cyborg units you control gain +{ArmorGain}[armor/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你控制的所有生物和半机械人单位获得 +{ArmorGain}[armor/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIO_UNITS_SHIELDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shields: Biological</Data></Cell><Cell><Data
+            ss:Type="String"
+          >护盾：生物</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BIO_UNITS_SHIELDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Shield Infusion</Data></Cell><Cell><Data
+            ss:Type="String"
+          >护盾灌注</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BIO_UNITS_SHIELDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A breakthrough has occurred in the field of Shields for Biological units!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们在生物单位的护盾领域取得了突破！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIO_UNITS_SHIELDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All Biological units you control gain +{ShieldGain}[shield/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你控制的所有生物单位获得 +{ShieldGain}[shield/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CRYSTALLOID_GRAFTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Crystalloid Grafts</Data></Cell><Cell><Data
+            ss:Type="String"
+          >结晶移植</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Crystalloid as in made from / based on crystals</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CRYSTALLOID_GRAFTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Quartzite Magma Worm Corrals</Data></Cell><Cell><Data
+            ss:Type="String"
+          >石英熔岩虫畜栏</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">CRYSTALLOID_GRAFTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Crystal Grafts</Data></Cell><Cell><Data
+            ss:Type="String"
+          >晶体移植</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Quartzite Magma Worm is an ingame unit.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CRYSTALLOID_GRAFTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Accidental Breakthrough! During our research we discovered how to control Magma Worms and how to graft their armor onto unusual units!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >意外突破！我们在研究中发现了控制熔岩虫的方法，还可以将它们不同寻常的护甲移植到单位身上！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CRYSTALLOID_GRAFTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Allows the production of Quartzite Magma Worms in our colonies.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >可在殖民地生产石英熔岩虫。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CRYSTALLOID_GRAFTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All Animal, Ethereal, Mineral and Plant units you control gain +{Armor}[Armor/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你控制的所有动物、虚灵、矿物和植物单位获得 +{Armor}[Armor/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CRYSTALLOID_WAVE_EMITTERS</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Crystalloid Wave-Emitters</Data></Cell><Cell><Data
+            ss:Type="String"
+          >结晶波形发射器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">CRYSTALLOID_WAVE_EMITTERS</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Quartzite Crystal Worm Corrals</Data></Cell><Cell><Data
+            ss:Type="String"
+          >石英水晶虫畜栏</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">CRYSTALLOID_WAVE_EMITTERS</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Wave-Emitters</Data></Cell><Cell><Data
+            ss:Type="String"
+          >波形发射器</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">CRYSTALLOID_WAVE_EMITTERS</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Accidental Breakthrough! During our research we discovered how to control Crystal Worms and how to project shield fields using their strange electromagnetic fields onto unusual units!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >意外突破！我们在研究中发现了控制水晶虫的方法，还可以利用它们奇特的电磁场将护盾力场投射到单位身上！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CRYSTALLOID_WAVE_EMITTERS</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_DESCRIPTION_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Allows the production of Quartzite Crystal Worms in our colonies.</Data></Cell><Cell
+        ><Data ss:Type="String">可在殖民地生产石英水晶虫。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Quartzite Crystal Worm is an ingame unit.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CRYSTALLOID_WAVE_EMITTERS</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_DESCRIPTION_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All Animal, Ethereal, Mineral and Plant units you control gain +{Shield}[Shield/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你控制的所有动物、虚灵、矿物和植物单位获得 +{Shield}[Shield/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >EXTRADIMENSIONAL_PENGUIN_COMMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Extradimensional Penguin Comms</Data></Cell><Cell><Data
+            ss:Type="String"
+          >异次元企鹅通讯</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data
+            ss:Type="String"
+          >EXTRADIMENSIONAL_PENGUIN_COMMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Penguin Void Portals</Data></Cell><Cell><Data
+            ss:Type="String"
+          >企鹅虚空传送门</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Penguins are a unit ingame</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >EXTRADIMENSIONAL_PENGUIN_COMMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Penguin Refinement</Data></Cell><Cell><Data
+            ss:Type="String"
+          >企鹅改良</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data
+            ss:Type="String"
+          >EXTRADIMENSIONAL_PENGUIN_COMMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Accidental Breakthrough! During our research we discovered how to contact Extradimensional Penguins from the Void and how to use our technology to improve them!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >意外突破！我们在研究中发现了与来自虚空的异次元企鹅通讯的方法，还可以利用我们的技术来改进它们！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >EXTRADIMENSIONAL_PENGUIN_COMMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Allows the production of Penguins in our colonies.</Data></Cell><Cell
+        ><Data ss:Type="String">可在殖民地生产企鹅。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >EXTRADIMENSIONAL_PENGUIN_COMMS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All Penguin units you control deal +{damage}% damage, gain +{Armor}[Armor/], +{Shield}[Shield/] and +{Health}[hp/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你控制的所有企鹅单位造成 +{damage}% 伤害，并获得 +{Armor}[Armor/]、+{Shield}[Shield/] 和 +{Health}[hp/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENLIGHTNED_MINDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Accidental Enlightenment</Data></Cell><Cell><Data
+            ss:Type="String"
+          >偶然启迪</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENLIGHTNED_MINDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Enlightened Minds</Data></Cell><Cell><Data
+            ss:Type="String"
+          >启迪思维</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ENLIGHTNED_MINDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Accidental Breakthrough! We saw into the stars and became enlightened! We can now easily teach our units the way of all things.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >意外突破！我们眺望星辰，突然变得豁然开朗！现在我们可以轻松教导我们的单位如何行事。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENLIGHTNED_MINDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units you control gain [abilityblue]Enlightened[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你控制的所有单位获得[abilityblue]启迪[/abilityblue]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Enlightened is a Celestian Secret Tech term</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARC_PHASERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Arc Waves</Data></Cell><Cell><Data
+            ss:Type="String"
+          >电弧波</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ARC_PHASERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Wave Integration</Data></Cell><Cell><Data
+            ss:Type="String"
+          >波形整合</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">ARC_PHASERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Accidental Breakthrough! We discovered a electron wave integration method that can combine with any form of attack, granting it Arc damage!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >意外突破！我们发现了一种电子波整合方法，可以结合任何形式的攻击，并使其附带电弧伤害！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARC_PHASERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >All units you control gain {ArcDamage}[damageWave/] on their attacks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你控制的所有单位在攻击时额外造成 {ArcDamage}[damageWave/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ARC_PHASERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_PROP</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >{ArcDamage}[damageWave/] additional damage.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{ArcDamage}[damageWave/] 额外伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">XNA_AGITATORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >XNA Agitators</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XNA 搅拌器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >XNA_AGITATORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Xenoplague Hasteners</Data></Cell><Cell><Data
+            ss:Type="String"
+          >异星疫病加速器</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Xenoplague is a Secret Tech</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">XNA_AGITATORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Accidental Breakthrough! By further agitating the XNA of the xenoplague lifeforms, we can make them transform into their next phase faster!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >意外突破！通过进一步搅动异星疫病生命形式的 XNA，我们可以让它们更快地转变至下一个阶段！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">XNA_AGITATORS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Xenoplague Units transform {Amount}% faster.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >异星疫病单位转变速度加快 {Amount}%。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MECHANICAL_AUGMENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Mechanical Augments</Data></Cell><Cell><Data
+            ss:Type="String"
+          >机械强化装置</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >MECHANICAL_AUGMENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Performance Booster Metals</Data></Cell><Cell><Data
+            ss:Type="String"
+          >性能增强合金</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">MECHANICAL_AUGMENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Accidental Breakthrough! We discovered new compounds that are less Arc conductive while increasing the performance of our machines!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >意外突破！我们发现了新的化合物，它的电弧导电性更低，并且能提高我们的机械性能！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">MECHANICAL_AUGMENTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >All Mechanical units you control gain +{Damage}% damage and +{ResistanceWave}[defenseWave/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你控制的所有机械单位获得 +{Damage}% 伤害和 +{ResistanceWave}[defenseWave/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CYBERNETIC_RESILIANCE</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Cybernetic Resilience</Data></Cell><Cell><Data
+            ss:Type="String"
+          >神经机械韧性</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >CYBERNETIC_RESILIANCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Cyborg Last Stand</Data></Cell><Cell><Data
+            ss:Type="String"
+          >半机械人坚韧</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CYBERNETIC_RESILIANCE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Accidental Breakthrough! We discovered a way to quickly stabilize Cyborg units, granting them Steadfast!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >意外突破！我们发现了一种快速稳定半机械人单位的方法，从而让他们保持坚定！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">CYBERNETIC_RESILIANCE</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data
+            ss:Type="String"
+          >Cyborg units you control gain [abilityblue]Steadfast[/abilityblue], making them remain at 1[hp/] and invulnerable for a turn when they drop below 1[hp/], once per combat.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你控制的半机械人单位获得[abilityblue]坚定不移[/abilityblue]，使其在生命值跌至 1[hp/] 以下时将保持在 1[hp/] 且不会受到任何伤害，每场战斗仅生效一次。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CYBERNETIC_RESILIANCE</Data></Cell><Cell
+        ><Data ss:Type="String">PROP_NAME</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">Steadfast</Data></Cell><Cell><Data
+            ss:Type="String"
+          >坚定不移</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CYBERNETIC_RESILIANCE</Data></Cell><Cell
+        ><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data
+            ss:Type="String"
+          >Once per combat, unit  remains at 1[hp/] and invulnerable for a turn when they drop below 1[hp/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每场战斗仅生效一次，单位在跌至 1[hp/] 以下时将保持在 1[hp/] 且不会受到伤害。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIOLOGICAL_TOUGHENING</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Biological Toughening</Data></Cell><Cell><Data
+            ss:Type="String"
+          >生物韧化</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BIOLOGICAL_TOUGHENING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Genome Editing</Data></Cell><Cell><Data
+            ss:Type="String"
+          >基因组编辑</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">BIOLOGICAL_TOUGHENING</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Accidental Breakthrough! We discovered how to make Biological units tougher by altering their DNA!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >意外突破！我们发现了改变生物单位 DNA 的方法，可以让他们变得更加坚韧！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BIOLOGICAL_TOUGHENING</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data
+            ss:Type="String"
+          >All Biological units you control gain {Armor}[armor/] and {HP}[hp/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你控制的所有生物单位获得 {Armor}[armor/] 和 {HP}[hp/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OBFUSCATION_MATERIALS</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Occlusion Filters</Data></Cell><Cell><Data
+            ss:Type="String"
+          >闭合过滤器</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >OBFUSCATION_MATERIALS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Obfuscation Materials</Data></Cell><Cell><Data
+            ss:Type="String"
+          >迷惑材料</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">OBFUSCATION_MATERIALS</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Accidental Breakthrough! We made new progress on obfuscation materials and control. We can make a permanent mist around our units, obfuscating them from enemy line of sight!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >意外突破！我们在迷惑材料和控制方面取得了新的进展，可在我们的单位周围制造永久性迷雾，使他们在敌人的视线中模糊不清！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">OBFUSCATION_MATERIALS</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >All units you control gain [abilityblue]Lightly Obscured[/abilityblue], making them {Accuracy}% harder to hit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你控制的所有单位获得[abilityblue]轻度模糊[/abilityblue]，使其命中难度增加 {Accuracy}%。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >COLONIST_EFFICIENCY_PRODUCTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Colonist Efficiency: Production</Data></Cell><Cell><Data
+            ss:Type="String"
+          >移住民效率：产力</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >COLONIST_EFFICIENCY_PRODUCTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Colonist Production Increase</Data></Cell><Cell><Data
+            ss:Type="String"
+          >移住民产力提升</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >COLONIST_EFFICIENCY_PRODUCTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Our scientists made great strides towards Colonist efficiency in the field of Production gain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的科学家在产力收益领域的移住民效率方面取得了重大进展。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >COLONIST_EFFICIENCY_PRODUCTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Gain {Amount}[production/] per [productionSlot/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每 [productionSlot/] 获得 {Amount}[production/]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >productionslot/ and others like it show an icon of a colonist in the designated slot.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COLONIST_EFFICIENCY_FOOD</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Colonist Efficiency: Supply</Data></Cell><Cell><Data
+            ss:Type="String"
+          >移住民效率：补给</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">COLONIST_EFFICIENCY_FOOD</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_NAME</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">Colonist Supply Increase</Data></Cell><Cell
+        ><Data ss:Type="String">移住民补给提升</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">COLONIST_EFFICIENCY_FOOD</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data
+            ss:Type="String"
+          >Our scientists made great strides towards Colonist efficiency in the field of Supply gain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的科学家在补给收益领域的移住民效率方面取得了重大进展。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COLONIST_EFFICIENCY_FOOD</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data
+            ss:Type="String"
+          >Gain {Amount}[Supply/] per [FoodSlot/].</Data></Cell><Cell><Data
+            ss:Type="String"
+          >每 [FoodSlot/] 获得 {Amount}[Supply/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >COLONIST_EFFICIENCY_ENERGY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Colonist Efficiency: Energy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >移住民效率：能量</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">COLONIST_EFFICIENCY_ENERGY</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_NAME</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">Colonist Energy Increase</Data></Cell><Cell
+        ><Data ss:Type="String">移住民能量提升</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >COLONIST_EFFICIENCY_ENERGY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Our scientists made great strides towards Colonist efficiency in the field of Energy gain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的科学家在能量收益领域的移住民效率方面取得了重大进展。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >COLONIST_EFFICIENCY_ENERGY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Gain {Amount}[Energy/] per [EnergySlot/].</Data></Cell><Cell><Data
+            ss:Type="String"
+          >每 [EnergySlot/] 获得 {Amount}[Energy/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >COLONIST_EFFICIENCY_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Colonist Efficiency: Knowledge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >移住民效率：知识</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">COLONIST_EFFICIENCY_RESEARCH</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_NAME</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">Colonist Knowledge Increase</Data></Cell><Cell
+        ><Data ss:Type="String">移住民知识提升</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >COLONIST_EFFICIENCY_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Our scientists made great strides towards Colonist efficiency in the field of Knowledge gain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的科学家在知识收益领域的移住民效率方面取得了重大进展。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >COLONIST_EFFICIENCY_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Gain {Amount}[Knowledge/] per [ResearchSlot/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每 [ResearchSlot/] 获得 {Amount}[Knowledge/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_RANK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Colony Breakthrough: Unit Ranks</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地突破：单位军阶</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_RANK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Complex Training</Data></Cell><Cell><Data
+            ss:Type="String"
+          >组合训练</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_RANK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >By using Automatic Training Inceptors, units produced in your colonies are produced with higher training.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >通过使用自动训练感应器，殖民地生产的单位将接受更高级的训练。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_RANK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Colonies Produce units with a +{Amount}[medaliron/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >殖民地生产的单位拥有 +{Amount}[medaliron/]</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Colony Breakthrough: Unit Armor</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地突破：单位护甲</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Future Armors</Data></Cell><Cell><Data
+            ss:Type="String"
+          >未来护甲</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">COLONY_BREAKTHROUGH_ARMOR</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data
+            ss:Type="String"
+          >We made great strides in the field of armoring our units!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们在单位防护领域取得了巨大进步！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_ARMOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Colonies produce units with +{Amount}[Armor/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >殖民地生产的单位拥有 +{Amount}[Armor/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_SHIELDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Colony Breakthrough: Unit Shields</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地突破：单位护盾</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_SHIELDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Compact Shields</Data></Cell><Cell><Data
+            ss:Type="String"
+          >坚实护盾</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">COLONY_BREAKTHROUGH_SHIELDS</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data
+            ss:Type="String"
+          >We made great strides in the way we shield our units!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们在单位护盾方面取得了巨大进步！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_SHIELDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Colonies produce units with +{Amount}[Shield/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >殖民地生产的单位拥有 +{Amount}[Shield/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_HEALTH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Colony Breakthrough: Unit Health</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地突破：单位生命值</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_HEALTH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Altered Structure</Data></Cell><Cell><Data
+            ss:Type="String"
+          >变动结构</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">COLONY_BREAKTHROUGH_HEALTH</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data
+            ss:Type="String"
+          >We made great strides in the way we build our units!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们在单位建造方面取得了巨大进步！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_HEALTH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Colonies produce units with +{Amount}[HP/].</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地生产的单位拥有 +{Amount}[HP/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_ENERGY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Colony Breakthrough: Energy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地突破：能量</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">COLONY_BREAKTHROUGH_ENERGY</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_NAME</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">Energy Gains</Data></Cell><Cell><Data
+            ss:Type="String"
+          >能量采集</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">COLONY_BREAKTHROUGH_ENERGY</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data
+            ss:Type="String"
+          >Our scientists figured a more efficient way to gain Energy!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的科学家研究出了一种更加有效的能量采集方法！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_ENERGY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Colonies produce +{Amount}%[Energy/].</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地生产 +{Amount}%[Energy/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_FOOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Colony Breakthrough: Supply</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地突破：补给</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">COLONY_BREAKTHROUGH_FOOD</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_NAME</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">Supply Gains</Data></Cell><Cell><Data
+            ss:Type="String"
+          >补给获取</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">COLONY_BREAKTHROUGH_FOOD</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data
+            ss:Type="String"
+          >Our scientists figured a more efficient way to gain Supply!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的科学家研究出了一种更加有效的补给获取方法！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_FOOD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Colonies produce +{Amount}%[Supply/].</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地生产 +{Amount}%[Supply/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_PRODUCTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Colony Breakthrough: Production</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地突破：产力</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_PRODUCTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Production Gains</Data></Cell><Cell><Data
+            ss:Type="String"
+          >产力获取</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s66"
+        ><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_PRODUCTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Our scientists figured a more efficient way to gain Production!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的科学家研究出了一种更加有效的产力获取方法！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_PRODUCTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Colonies produce +{Amount}%[Production/].</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地生产 +{Amount}%[Production/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Colony Breakthrough: Knowledge</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地突破：知识</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">COLONY_BREAKTHROUGH_RESEARCH</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_NAME</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">Knowledge Gains</Data></Cell><Cell><Data
+            ss:Type="String"
+          >知识获取</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">COLONY_BREAKTHROUGH_RESEARCH</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data
+            ss:Type="String"
+          >Our scientists figured a more efficient way to gain Knowledge!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的科学家研究出了一种更加有效的知识获取方法！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Colonies produce +{Amount}%[Knowledge/].</Data></Cell><Cell><Data
+            ss:Type="String"
+          >殖民地生产 +{Amount}%[Knowledge/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >EMPIRE_BREAKTHROUGH_DIPLOMACY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Empire Breakthrough: Doctrine Slot</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国突破：教义槽位</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">EMPIRE_BREAKTHROUGH_DIPLOMACY</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Grand Bureaucracy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >大官僚主义</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >EMPIRE_BREAKTHROUGH_DIPLOMACY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Our social scientists made strides in the field of Organizational Bureaucracy, making space for further policies.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的社会科学家在组织官僚主义领域取得了重大进展，为我们未来的政策创造了空间。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >EMPIRE_BREAKTHROUGH_DIPLOMACY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Empire gains +{Amount}[doctrine/]</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国获得 +{Amount}[doctrine/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >EMPIRE_BREAKTHROUGH_COSMITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Empire Breakthrough: Cosmite</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国突破：宇宙合金</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">EMPIRE_BREAKTHROUGH_COSMITE</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Void Cosmite</Data></Cell><Cell><Data
+            ss:Type="String"
+          >虚空宇宙合金</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">EMPIRE_BREAKTHROUGH_COSMITE</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell
+          ss:StyleID="s66"
+        ><Data
+            ss:Type="String"
+          >We created a way of extracting Cosmite from the Void!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们开创了一种从虚空中提取宇宙合金的方法！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >EMPIRE_BREAKTHROUGH_COSMITE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Empire gains +{Amount}[tricorium/]</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国获得 +{Amount}[tricorium/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >EMPIRE_BREAKTHROUGH_INFLUENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Empire Breakthrough: Influence</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国突破：影响力</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">EMPIRE_BREAKTHROUGH_INFLUENCE</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Enhanced Diplomats</Data></Cell><Cell><Data
+            ss:Type="String"
+          >老练外交官</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >EMPIRE_BREAKTHROUGH_INFLUENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Our scientists managed to make our Diplomats and Envoys more efficient through advanced linguistic training and manipulation skills.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的科学家通过先进的语言培训和操纵技巧使我们的外交官和使者更具效率。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >EMPIRE_BREAKTHROUGH_INFLUENCE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Empire gains +{Amount}[Influence/]</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国获得 +{Amount}[Influence/]</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >EMPIRE_BREAKTHROUGH_RIVERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Empire Breakthrough: Rivers</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国突破：河流</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s66"
+        ><Data ss:Type="String">EMPIRE_BREAKTHROUGH_RIVERS</Data></Cell><Cell
+        ><Data ss:Type="String">SUBSKILL_NAME</Data></Cell><Cell
+          ss:StyleID="s64"
+        ><Data ss:Type="String">Waste Not</Data></Cell><Cell><Data
+            ss:Type="String"
+          >物尽其用</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >EMPIRE_BREAKTHROUGH_RIVERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Our scientists figured a way of recycling waste commonly found in rivers into food for our colonies!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的科学家找到了一种方法回收河流中常见的垃圾，从而为我们的殖民地提供食物！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >EMPIRE_BREAKTHROUGH_RIVERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Empire gains +{Amount}[Supply/] from Rivers in a colony's Domain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >帝国从殖民地领域中的河流获得 +{Amount}[Supply/]。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >EMPIRE_BREAKTHROUGH_LAVA_STREAM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Empire Breakthrough: Lava Stream</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国突破：岩浆流</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+          ss:StyleID="s66"
+        ><Data
+            ss:Type="String"
+          >EMPIRE_BREAKTHROUGH_LAVA_STREAM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >Future Geothermal Generators</Data></Cell><Cell><Data
+            ss:Type="String"
+          >未来地热发电机</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >EMPIRE_BREAKTHROUGH_LAVA_STREAM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Our scientists figured out how to make geothermal generators that quickly gather energy using entropy technology.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的科学家研究出了能够利用混沌技术快速收集能量的地热发电机。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >EMPIRE_BREAKTHROUGH_LAVA_STREAM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s66"><Data
+            ss:Type="String"
+          >Empire gains +{Amount}[Energy/] from Lava Streams in a colony's Domain.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >帝国从殖民地领域中的岩浆流获得 +{Amount}[Energy/]。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >OPERATION_BREAKTHROUGH_DEFENSE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Operation Breakthrough: Op Defense</Data></Cell><Cell><Data
+            ss:Type="String"
+          >行动突破：行动防御</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data
+            ss:Type="String"
+          >OPERATION_BREAKTHROUGH_DEFENSE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Future Counterintelligence Measures</Data></Cell><Cell><Data
+            ss:Type="String"
+          >超前反间谍措施</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >OPERATION_BREAKTHROUGH_DEFENSE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Our scientists figured out a new encryption method that will prevent our data from being stolen.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的科学家研究出了一种新的加密方法来防止我们的数据被盗。</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:Index="7" ss:StyleID="s68" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >OPERATION_BREAKTHROUGH_DEFENSE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Your empire gains +{amount}[operationDefense/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的帝国获得 +{amount}[operationDefense/]。</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:Index="7" ss:StyleID="s68" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >OPERATION_BREAKTHROUGH_STRENGTH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Operation Breakthrough: Op Strength</Data></Cell><Cell><Data
+            ss:Type="String"
+          >行动突破：行动力量</Data></Cell><Cell ss:StyleID="s68" /><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s65" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >OPERATION_BREAKTHROUGH_STRENGTH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Future Intel Extraction</Data></Cell><Cell><Data
+            ss:Type="String"
+          >超前情报获取</Data></Cell><Cell ss:StyleID="s68" /><Cell
+          ss:Index="7"
+          ss:StyleID="s68"
+        /><Cell ss:StyleID="s65" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data
+            ss:Type="String"
+          >OPERATION_BREAKTHROUGH_STRENGTH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Our scientists figured out a faster way to break through enemy encryption.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们的科学家研究出了一种方法，可以更快地破解敌人的加密技术。</Data></Cell><Cell
+          ss:StyleID="s68"
+        /><Cell ss:Index="7" ss:StyleID="s68" /><Cell
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >OPERATION_BREAKTHROUGH_STRENGTH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Your empire gains +{amount}[operationstrength/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的帝国获得 +{amount}[operationstrength/]。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >OPERATION_BREAKTHROUGH_TACTICAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Operation Breakthrough: Tactical Points</Data></Cell><Cell><Data
+            ss:Type="String"
+          >行动突破：战术点数</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data
+            ss:Type="String"
+          >OPERATION_BREAKTHROUGH_TACTICAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Future Tactical Operation Support</Data></Cell><Cell><Data
+            ss:Type="String"
+          >超前战术行动支援</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >OPERATION_BREAKTHROUGH_TACTICAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >A new discovery in logistics allows us to deploy more Tactical Operations!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们在后勤方面有了新的发现，我们将能部署更多的战术行动！</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >OPERATION_BREAKTHROUGH_TACTICAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Your empire gains +{amount}[castingtactical/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的帝国获得 +{amount}[castingtactical/]。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >OPERATION_BREAKTHROUGH_STRATEGIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Operation Breakthrough: Strategic Points</Data></Cell><Cell><Data
+            ss:Type="String"
+          >行动突破：战略点数</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data
+            ss:Type="String"
+          >OPERATION_BREAKTHROUGH_STRATEGIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Future Strategic Operation Support</Data></Cell><Cell><Data
+            ss:Type="String"
+          >超前战略行动支援</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
+            ss:Type="String"
+          >OPERATION_BREAKTHROUGH_STRATEGIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >A new discovery in logistics allows us to deploy more Strategic Operations!</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >我们在后勤方面有了新的发现，我们将能部署更多的战略行动！</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >OPERATION_BREAKTHROUGH_STRATEGIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >SUBSKILL_DESCRIPTION</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >Your empire gains {amount}[casting/].</Data></Cell><Cell><Data
+            ss:Type="String"
+          >你的帝国获得 {amount}[casting/]。</Data></Cell><Cell
+          ss:Index="8"
+          ss:StyleID="s65"
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >COLONY_BREAKTHROUGH_UNIT_GENERAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >PROP_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit has +{Amount}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >单位获得 +{Amount}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENDLESS_RESEARCH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Future Tech Breakthroughs</Data></Cell><Cell><Data
+            ss:Type="String"
+          >未来科技突破</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Button caption for viewing all of the completed Repeatable Research</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Zoom>110</Zoom><Selected
+      /><TopRowVisible>192</TopRowVisible><Panes><Pane><Number
+          >3</Number><ActiveRow>207</ActiveRow><ActiveCol
+          >3</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

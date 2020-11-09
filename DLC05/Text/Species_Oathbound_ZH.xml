@@ -1,0 +1,591 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Glenn Smits</LastAuthor><LastSaved>2020-07-01T14:04:29Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>7305</WindowHeight><WindowWidth>21420</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+      ss:Name="Hyperlink"
+    ><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#0066CC"
+        ss:Underline="Single"
+      /></Style><Style ss:ID="s63"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /></Style><Style ss:ID="s65" ss:Parent="s62"><Alignment
+        ss:Vertical="Bottom"
+        ss:WrapText="1"
+      /><Interior /></Style><Style ss:ID="s67"><NumberFormat
+        ss:Format="Scientific"
+      /></Style><Style ss:ID="s68"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+        ss:Italic="1"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s63"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s63" ss:Width="108.75" /><Column
+        ss:StyleID="s63"
+        ss:Width="104.25"
+      /><Column ss:StyleID="s63" ss:Width="409.5" /><Column
+        ss:StyleID="s63"
+        ss:AutoFitWidth="0"
+        ss:Width="144.75"
+      /><Column ss:StyleID="s63" ss:Width="173.25" /><Column
+        ss:StyleID="s63"
+        ss:Width="85.5"
+      /><Column ss:StyleID="s63" ss:Width="409.5" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell><Data ss:Type="String">SPECIES_OATHBOUND</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_SINGULAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Oathbound</Data></Cell><Cell><Data
+            ss:Type="String"
+          >誓约者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Race name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >RACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME_PLURAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Oathbound</Data></Cell><Cell><Data
+            ss:Type="String"
+          >誓约者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Race name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="135"
+      ><Cell><Data ss:Type="String">RACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s65" ss:HRef=""><Data
+            ss:Type="String"
+          >{XML_SPECIES_OATHBOUND@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]Starting Bonus: [/sand]Extra terrain revealed near starting colony[/bullet][bullet][sand]Long-Term Bonus: [/sand]Positive Reputation Modifiers last 50% longer.[/bullet][bullet]Battlesuits use [hyperlink,0000039E0000000D]Arc[/hyperlink] based melee attacks[/bullet][bullet]Seers manipulate probability to control the battlefield.[/bullet][bullet]Use the [hyperlink,0000039E0000000D]Arc[/hyperlink] and  [hyperlink,000003E900000096]Entropy[/hyperlink] damage channels.[/bullet][bullet]Racial Ability: Oathbound heroes can link to colonies for economic bonuses.[/bullet][/bulletList]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{XML_SPECIES_OATHBOUND@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]初始加成：[/sand]在起始殖民地附近揭示额外地形[/bullet][bullet][sand]长期加成：[/sand]正面的声望修正效果持续时长增加 50%。[/bullet][bullet]机甲使用基于近战攻击的[hyperlink,0000039E0000000D]电弧[/hyperlink]伤害[/bullet][bullet]预言者操纵概率来控制战场。[/bullet][bullet]使用[hyperlink,0000039E0000000D]电弧[/hyperlink]和[hyperlink,000003E900000096]混沌[/hyperlink]伤害类型。[/bullet][bullet]种族技能：誓约者英雄可与殖民地相连来获得经济加成。[/bullet][/bulletList]</Data></Cell><Cell
+          ss:StyleID="s67"
+        /><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >The {text} inserts the DESCRIPTION_SHORT text below.
+Racial description text</Data></Cell><Cell ss:StyleID="s68"><Data
+            ss:Type="String"
+          >All placeholder!! Copy of shakarn. </Data></Cell><Cell
+          ss:StyleID="Default"
+        /></Row><Row ss:AutoFitHeight="0" ss:Height="45"><Cell><Data
+            ss:Type="String"
+          >RACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION_SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The [hyperlink,000003F600000318]Oathbound[/hyperlink] are a feudal society led by the wise Seers and their predictions of the future, guiding the honor-bound Paladins in their powerful battle suits to maintain order.[br/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[hyperlink,000003F600000318]誓约者[/hyperlink]是由睿智的预言者和他们预言的未来所领导的封建社会团体，指引着驾驶强大机甲的荣耀帕拉丁来维持秩序。[br/]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Short race description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CAMP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Oathbound Settlement</Data></Cell><Cell><Data
+            ss:Type="String"
+          >誓约者定居点</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic map structure name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">CAMP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >A settlement is a small independent colony that might join you if you have enough influence.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >定居点是小型的独立殖民地，如果你拥有足够的影响力，定居点可能会加入你的势力。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Strategic map structure description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Migrate Colony: Oathbound</Data></Cell><Cell><Data
+            ss:Type="String"
+          >迁移殖民地：誓约者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic structure operation</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Migrate the population of this colony to Oathbound. The colony will become an Oathbound colony.[br/][br/][fireCol]By migrating the population, {PopulationDeath} of the colonists of the colony will be killed.[/fireCol] [br/][br/]You receive:[br/][fireCol]{Reputation} Reputation[br/]{RaceRelation} Race Relation with the {STR_raceName}[/fireCol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将殖民地的居民移民为誓约者，之后该殖民地将变为誓约者殖民地。[br/][br/][fireCol]迁移人口后，该殖民地 {PopulationDeath} 的移住民将会死亡。[/fireCol][br/][br/]你获得：[br/][fireCol]{Reputation} 声望[br/]与{STR_raceName}的种族关系 {RaceRelation}[/fireCol]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Strategic structure operation description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="30"
+      ><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >IN_PROGRESS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Colony is currently being migrated to an Oathbound population. Process will complete in [INT_duration].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >殖民地正迁移为誓约者殖民地，将于 [INT_duration] 后完成。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Strategic structure operation description in progress</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONFIRMATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Are you sure you want to migrate this colony to an Oathbound colony?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >确定要将该殖民地变更为誓约者殖民地？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Warning tooltip</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">LONG_TERM_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WAR_PER_PLAYER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >At War (Player)</Data></Cell><Cell><Data
+            ss:Type="String"
+          >开战（玩家）</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >LONG_TERM_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >WAR_PER_NPC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >At War (NPC Faction)</Data></Cell><Cell><Data
+            ss:Type="String"
+          >开战（NPC 阵营）</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">SCRYER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Scryer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >占察机</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Unit Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell><Data ss:Type="String">SCRYER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“Normally, I distrust powerful organizations. Absolute power corrupts. But what if the Oathbound discovered the perfect technology for a perfect society? I was wary of the Scryers hovering around our homes, but then it warned me when I was using a meat-grinder. It flashed a vision of me turning my hand into sausage, because I assembled the safety guard improperly. It’s stuff like that. They warn me about danger before it happens. What oppressive society cares so much for its lowliest citizens enough to protect them from their own stupidity? The Oathbound are alright by me.” – Beaver McSnubbins, “RV-93824C: Testimonials”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“通常情况下，我不会信任强大的组织，因为绝对的权力会导致腐败。但如果誓约者发现了完美社会的完美技术呢？我十分警惕自己家附近徘徊的占察机，但当我使用绞肉机并且没有正确安装保险装置时，它就会提醒我，向我播放一段把自己的手绞成香肠的画面，还有很多类似的事情。它们会在危险发生前警告我。试问，从古至今，有哪个压迫社会会去关心最下层的公民，甚至还会保护他们不受自己愚蠢行为的伤害？要我说，誓约者没问题。”——比弗·麦克·斯努宾斯，“RV-93824C：赞辞”</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Unit Description
+
+The person of the quote is male</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PALADIN_ASPIRANT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Paladin Aspirant</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帕拉丁候补者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Unit Name (Paladin is a type of battlesuit)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell><Data ss:Type="String">PALADIN_ASPIRANT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“Lots of us Vanguard turned to the Oathbound. Pay is the same, but citizens respect you. I don’t police people, I serve them. We neutralize local hostiles, but even the lethal tech stuns first. Advancement is trust-based, rather than a race for who can hoard enough power to take control. Those caught abusing power either leave or are demoted to Aspirant to relearn a Paladin’s core mission: Service before Self. I am myself protecting the innocent instead of kissing up to high-ranking whack-jobs that want me to prove my loyalty by abusing vulnerable populations.” – Walter Jones, “RV-246014M: Recruitment”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“我们这里的许多先锋都加入了誓约者。虽然酬劳一样，但公民会尊重你。我不是监督人民，而是为人民服务。我们消灭当地敌对势力，但即使是致命的科技也会先令人震惊。进步是以信任为基础的，而不是一场比拼谁能汇聚足够的力量来掌控一切的竞赛。那些被发现滥用权力之人，要么将被驱逐，要么就会被降级为候补者，前去重新学习帕拉丁的核心任务：先人后己。我要保护无辜之人，而不是去讨好那些想让我通过虐待弱势群体来证明自己忠诚的高层混蛋。”——沃尔特·琼斯，“RV-246014M：招募”</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Unit Description
+
+The person of the quote is male</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">WATCHER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Watcher</Data></Cell><Cell><Data
+            ss:Type="String"
+          >守望者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Unit Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell><Data ss:Type="String">WATCHER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“Imagine if we could harness these Seers' ability to predict fate. Clearly, it’s tech, not magic—though they want you to think that. This is all that stands between us and galactic dominance. Yet how can you steal from one that sees what you’re going to do before you do it? Even their low-level Watchers see our weaknesses—always learning—constantly recording our attempts at espionage. Then they hit us with their ‘Curse of Adversity’, and then they observe as our plots fall apart on their own.” – Lady Kay of Syndicate House Tee, “RV-347223: Fate and Destiny”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“想象一下，如果我们能利用预言者的能力来窥探命运，那该是怎样的景象？显然，这是技术而不是魔法——尽管他们希望你这么想。这就是挡在我们和称霸银河之间的障碍。可是，如何才能从在你行动之前就已经知道你要做什么的人手中偷东西呢？即便是低级的守望者也能看到我们的弱点，并且总是在学习和记录我们想要尝试进行的间谍活动。然后他们就会用他们的‘厄运诅咒’袭击我们，接着亲眼看着我们的阴谋土崩瓦解。”——辛迪加提伊家族，凯伊夫人，“RV-347223：命运和定数”</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Unit Description
+
+The person of the quote is female</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PALADIN_PROTECTOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Paladin Protector</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帕拉丁保卫者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Unit Name (Paladin is a type of battlesuit)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell><Data ss:Type="String">PALADIN_PROTECTOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“We endured Spacer savagery for decades. En masse, they’d descend from their gaming arena for a ritual they called ‘the Munchies.’ Their hedonistic barbeque consumed our family members who couldn’t flee in what they demanded as gruesome tributes. We had no one to protect us until the Oathbound Protectors arrived. Brave souls fought with lightning lances, bearing shields that sheltered us all. The Spacers brought out their terrible constructs, but it only emboldened our defenders to fight harder. We are no longer bothered by Spacers. The Oathbound brought us peace.” – Quarla Arx, “RV-9444490T: Deliverance”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“几十年来，我们一直忍受着野蛮的太空掠夺者。他们成群结队地从他们的游戏世界中走出来，并举办他们称之为‘吃零嘴’的仪式。他们大肆举行烧烤盛宴，要求我们把家人作为贡品。凡是没能逃脱之人都丢掉了性命。在誓约保卫者到达之前，没有任何人保护我们。这些勇敢的灵魂手持闪电长枪英勇奋战，背负着能够保护我们所有人的盾牌。太空掠夺者拿出了他们可怕的装置，但这却使我们的保卫者变得更加勇猛。我们不再被太空掠夺者困扰，因为誓约者带给了我们和平。”——夸尔拉·阿克斯，“RV-9444490T：拯救”</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Unit Description
+Oathbound and Spacers are an in-game faction
+
+The person of the quote is female</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PALADIN_WARDEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Paladin Warden</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帕拉丁典狱官</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Unit Name (Paladin is a type of battlesuit)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell><Data ss:Type="String">PALADIN_WARDEN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“Like a congregation of true believers, we are strongest together, united in our common cause. I admire the strength in us all. Today, I serve as a Warden. When I draw back my bow, I deliver lightning darts to my enemies that hide in the sky or snipe us from afar. When the enemy surrounds us, I erect my banner and thwart their assault no matter how they try to outflank us. Should I falter, I may again become an Aspirant. Be it as the Seers foresee. No matter how lowly, I am forever Oathbound.”—Warden Ullen Strig, “RV-030422V: Solemn Devotions”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“当真正的信徒聚集在一起时，才具有最强大的力量。我们团结一致，为共同的事业而努力。我钦佩我们所有人的力量。今日，我将以典狱官的身份为人民效命。当我张弓射击时，闪电飞镖将刺入隐藏在天空中的敌人，或是消灭躲在远处狙击我们的对手。当敌人包围我们之际，我将竖起旗帜。无论敌人如何围剿，我都将阻拦他们的进攻。假如我有所退缩，我将有可能再次成为候选者。就像预言者所预见的那样，无论多么卑微，我永远都是誓约者。”——典狱官乌勒恩·史崔格，“RV-030422V：庄严祈祷”</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Unit Description
+Aspirant is a unit as well
+
+The person of the quote is female</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">AUGUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Augur</Data></Cell><Cell><Data
+            ss:Type="String"
+          >占卜师</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Unit Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell><Data ss:Type="String">AUGUR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“There’s finality to the universe. Fate. No one is so important that they cannot fall. Once you mattered, then you return to matter. We, the Augurs, are scarecrows posted on Fate’s crossroad. Feathery finality flurries like a flock of entropic birds, swirling with possibility. We reach out a hand. We don’t change Fate. We provide the raven of doom a place to perch and then we wait. Waiting. That is when we are most vulnerable. The Augur holds until Doom perches. One may soar, another will fall.” – Cortex Chambo,  “Training Seers and Soothsayers”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“宇宙的终结就是命运。没有任何人重要到能够永存不灭。如果你很重要，那么你将回归于物质。我们占卜师就是站立在命运十字路口的稻草人，羽毛般的终结就像混沌的鸟群一样飞翔，盘旋着无数的可能。我们伸出手来。却无法改变命运。我们只能为末日乌鸦提供栖身之所，然后等待。等待。这是我们最脆弱的时候。占卜师会一直坚持到末日来临。一个会翱翔，而另一个会跌落。”——寇泰克斯·昌博，“训练预言者和占卜者”</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Unit Description
+
+The person of the quote is male</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">GALLEON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Galleon</Data></Cell><Cell><Data
+            ss:Type="String"
+          >加利恩帆船</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Unit Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">GALLEON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“The ship cut the water like a swan, its bow and keel extended high and graceful. As it passed we could hear it hum and smell the distinct wafting of ozone as it pulled pulsating energy from the air. The marauding ships scattered as arcs of blue lightning snapped from the galleon’s Volt Bow. The ship was like a storm itself, and none of the vessels dared weather it. We salute these newcomers—these Oathbound. They do not allow injustice to persist—not even on the lonely seas.” – Captain Marshal Brightwater, “RV-577753C: Nautical Wisdom”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“帆船如天鹅般划破水面，船头和龙骨展现出优雅高傲的姿态。当它经过时，我们可以听到嗡嗡的声音，闻到它从空气中吸收脉冲能量时吹出的独特臭氧气味。当蓝色的闪电从帆船的电压船首劈出电弧时，劫掠船纷纷四散而去。这艘船自身就像是一场风暴，没有任何船只胆敢挑战它。我们向这些新来者，向这些誓约者致敬。他们不允许不公正的现象存在，即使在孤独的大海上也不允许。”——马歇尔·明水船长，“RV-577753C：航海智慧”</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Unit Description
+
+The person of the quote is male</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PALADIN_CHAMPION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Paladin Champion</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帕拉丁捍卫者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Unit Name (Paladin is a type of battlesuit)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell><Data ss:Type="String">PALADIN_CHAMPION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“As our defenses broke and the bedraggled Oathbound faithful teetered on the edge of their resolve. A champion appeared wreathed in lightning, drawing arcs that crackled over us, pulling every hair to attention like a magnet. We cried out as it plummeted from the sky delivering decisive judgement with every swing of its Volt Greatsword. Every person that day who stood to fight for our noble cause vowed one day to be worthy to serve the people as a Champion and deliver the righteous will of justice.” – Danika Blaze, Paladin Champion Pilot, “RV-475888M: Why We Serve.”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“当我们的防线被击破时，全身泥污的誓约者在决心的边缘踌躇不定。一位捍卫者突然从闪电中现身，在我们身上划出噼啪作响的电弧，像磁铁一样吸引着每一根头发。我们大声叫喊，它从天空中陡然而下，电压巨剑的每一次挥动都像是做出了一次决定性的审判。那一日，凡是站在那里为我们崇高事业而战的所有人都发誓，总有一天，他们都将成为捍卫者，为人民服务，并为公正传递正义的意志。”——达妮卡·布拉兹，帕拉丁捍卫者驾驶员，“RV-475888M：我们为何效命。”</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Unit Description
+
+The person of the quote is female</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DIVINER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Diviner</Data></Cell><Cell><Data
+            ss:Type="String"
+          >推算者</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Unit Name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell><Data ss:Type="String">DIVINER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“Some consider me a diviner. That’s a false attribution. I’m just always running away. Diviners read ripples in the waves of chaos. They see invisible currents of inevitability. They perceive gaps, eddies and blurs in the flow of causality. What will, won’t or can’t be. I once met a true Diviner, but he could not perceive me at all. His friends had to assure him that I was not a prank. I figure I’ve always known I was good at avoiding fate. Maybe that’s my fate then: to have no fate.” – Mah Reg’Nib, “RV-00004300T: Oracles and Orioles”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“有些人以为我也是推算者，真是错误的结论，我只是一直在逃避而已。推算者可以在混乱的波涛中读懂涟漪，他们可以看见不可避免的无形浪潮。他们在因与果的流动中感知缝隙、漩涡和污渍。什么会发生，什么不会发生，什么不可能发生。我曾经遇到过一名真正的推算者，但他根本就无法感知我，导致他的朋友不得不向他保证，他们并没有与我串通好想要捉弄他。我想，我一直都很擅长逃避命运。也许那就是我的命运：没有命运。”——玛·瑞格尼布，“RV-00004300T：神谕和金莺”</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Unit Description
+
+The person of the quote is male</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PALADIN_EXEMPLAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Paladin Exemplar</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帕拉丁楷模</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Unit Name (Paladin is a type of battlesuit)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="135"
+      ><Cell><Data ss:Type="String">PALADIN_EXEMPLAR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >“Like a war god from legend, the mech rose to protect its subjects. The enemy encircled it, but with its shields extended the shots rang like rain upon a well-built rooftop. We thought perhaps that was it, until it shifted and struck an enemy artillery unit with its massive electrified glaive weapon. In a flash the towering titan shattered the enemy’s defenses, sending them spiraling in retreat. Clearly, the Oathbound Exemplar proves these newcomers will defend their ideals with more than just pleasing words.” – General Otis Falk, Horde Captain. “RV-422241M: Oathbound Force Assessments”</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“机甲如同传说中的战神一样站出来保护自己的子民。敌人包围了它，但随着护盾的延伸，敌人的火力就像雨点落在了某个建造精良的屋顶上一样。我们以为也就是这样了，直到它发生变化，并用巨大的电能阔刃武器向敌人的炮兵单位发起了攻击。刹那间，那个高大的泰坦粉碎了敌人的防御，迫使他们四散而逃。显然，这位誓约者楷模做出了证明，这些新来者将捍卫他们的理想，而不仅会使用取悦的语言。”——奥提斯·福尔克将军，部落首领。“RV-422241M：誓约者军力评估”</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Unit Description
+
+The person of the quote is male</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PALADIN_WARLORD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Paladin Warlord</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帕拉丁军阀</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Unit Name (Paladin is a type of battlesuit)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PALADIN_WARLORD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >"I’ve never been one for mechanized armored suits, even if they make you feel large and in charge. Just know that the Paladin Warlord’s Volt Surge is not a toy, but delivers arc energy to clusters of enemies. Also, those twin axes are not designed for living out lumberjack fantasies. The charged axes make trees explode, completely destroying the timber’s value. Not that I admit I ever tried that—Oathbound are very serious about whom they entrust with their equipment.” – Mah Reg’Nib, “RV-9110066T: Oracles and Orioles"</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“我从来都不喜欢机械装甲，即使它们能让你觉得自己很高大并且无所不能。要知道，帕拉丁军阀的电压波涛可不是闹着玩的，它能将电弧能量投射到成群的敌人身上。而且，这些双刃斧并不是为了伐木工的幻想而设计的。充能的斧头会使树木爆炸，完全摧毁木材的价值。我并不是说我自己试过那样做，只是想说誓约者对使用他们装备的人非常严格。”——玛·瑞格尼布，“RV-9110066T：神谕和金莺”</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Unit Description
+
+The person of the quote is male</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PALADIN_MARQUIS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Paladin Marquis</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帕拉丁侯爵</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Unit Name (Paladin is a type of battlesuit)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PALADIN_MARQUIS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >"The inner animal lives by instinct. All flesh forgets vows. The Oathbound cannot make others virtuous. The way to Oathbound Honor is never forced. Virtue is a personal choice. We inspire the soul to change, aspiring to greater visions. Justice is not punishment. When Paladins mount their Marquis, fly their banners, and sound honor’s hymns, we all remember and regain our power. Ride on paladins to every low valley and upon every clime. Voyage until every ear hears the glorious news: we can free ourselves.” – Tedora Publia RV-453009E: The Paladin Poet"</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“内心是动物的生物依靠本能而生存，而所有的活物都会忘记誓言。誓约者不能使别人变得高尚。通往誓约者荣誉的道路绝不会强求，美德是个人的选择。我们启迪灵魂做出改变，激励他人追求更伟大的愿景。正义不是惩罚。当帕拉丁登上他们的侯爵，挥舞他们的旗帜并奏响荣誉的赞美诗时，我们都会记起并重新获得力量。驾驶帕拉丁去游历每一条低谷，前往每一个地方。不断航行，直到所有人都能听见辉煌的消息：我们可以解放自己。”——特多拉·普布利亚，“RV-453009E：帕拉丁诗人”</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Unit Description
+
+The person of the quote is female</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="105"
+      ><Cell><Data ss:Type="String">PLANET_ARRIVAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOG</Data></Cell><Cell><Data
+            ss:Type="String"
+          >With guidance from your Seers, you must remain confident that you will not falter in your mission.[br/][br/]Battlesuits piloted by the elite and just Paladins under your command will inspire your people and strike fear in the minds of those that would threaten your kin. As Oathbound, you have enjoyed a perfect society in isolation, but now it is time to enlighten those who have fallen from grace in these savage times.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在预言者的指引下，你必须保持信心，不要在任务中退缩。[br/][br/]由精英驾驶的机甲和帕拉丁将会激励你的人民，并让威胁到你亲友的人感到恐惧。身为誓约者，你一直生活在一个与世隔绝的完美社会。但现在，是时候启蒙那些在这个野蛮时代误入了歧途的人了。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >The person that speaks this is a Seer female</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PALADIN_LIGHT_BRINGER</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Paladin Light Bringer</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帕拉丁光明使者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">PALADIN_PURIFIER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Paladin Purifier</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帕拉丁净化者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >PALADIN_ECHO_WALKER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Paladin Echo Walker</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帕拉丁回声行者</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">BANNER_OF_PROTECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Banner of Protection</Data></Cell><Cell><Data
+            ss:Type="String"
+          >保护旗帜</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >BANNER_OF_PROTECTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >"Assess Oathbound power anomaly. 
+Observation: a single Oathbound Banner rallies their weak to strength. 
+Q1: Does power reside in the cloth or the words emblazoned upon it? 
+A1: Unknown. 
+Q2: How does merely publicly displaying their standards transmit power? 
+A2: Unknown. 
+Q3: From whence does this prowess originate (or) counter inquiry: was it within them all along?
+A3: Wasteful. Inefficient. Why not always use it? 
+Risk Assessment: what if this power was replaced with inferior prosthetics during the Assembly subject creation process?
+Mitigation: unknown.” – Assembly Threat Assessor, “RV-332876X: Inferiority Complex"</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >“评估誓约者力量异常。观察结果：一面誓约者旗帜可以使他们的力量由弱变强。问题 1：布料或旗帜上的文字是否存在力量？回答 1：未知。问题 2：仅仅是展示他们的旗子而已，为何能传递力量？回答 2：未知。问题 3：这种力量从何而来（或）反问：这种力量一直就在他们体内吗？回答 3：浪费。低效。为什么不一直使用这种力量呢？风险评估：如果在半机械人的创造过程中，将这种力量替换为劣质的假肢会怎样？风险缓解：未知。”——半机械人威胁评估员，“RV-332876X：自卑情结”</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Structured like a question and answer list
+
+The person of the quote is male</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><TopRowVisible
+      >33</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >44</ActiveRow><RangeSelection
+          >R45</RangeSelection></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

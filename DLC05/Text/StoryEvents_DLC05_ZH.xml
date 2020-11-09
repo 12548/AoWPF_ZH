@@ -1,0 +1,353 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Michelle Kusters</LastAuthor><LastSaved
+    >2020-02-05T14:43:58Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:CharSet="1"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="270"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="240" /><Column
+        ss:StyleID="s62"
+        ss:Width="66.75"
+      /><Column ss:StyleID="s62" ss:Width="279" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s62" ss:Width="180.75" /><Column
+        ss:StyleID="s62"
+        ss:Width="265.5"
+      /><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
+            ss:Type="String"
+          >DLC05_STORYEVENTS</Data></Cell><Cell ss:Index="6"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="75"
+      ><Cell><Data
+            ss:Type="String"
+          >DEFAULT_OUTPOST_EVENT_OATHBOUND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >An Oathbound settlement, an oasis of adornments and glittering symbols. It instills hope and sanctuary to all of its citizens and visitors. The streets are lined with Paladin battlesuits, beautiful and awe-inspiring in size and power. Welcoming, but ready to turn their blades on any threat to the settlement.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >一个誓约者定居点，一片搭建着华丽装饰和闪光符号的绿洲。这里为公民和来访者带来希望和避难之所。街道两旁排列着帕拉丁机甲，体型和力量优雅而令人敬畏。这里的人民热情好客，但也时刻准备着应对定居点的威胁。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.
+
+You in the text can refer to a male or female character</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >PRODUCTION_PICKUP_EVENT_DLC05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Sprouted Machinery</Data></Cell><Cell><Data
+            ss:Type="String"
+          >发芽的机械</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.
+
+In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >PRODUCTION_PICKUP_EVENT_DLC05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Trapped under the old Imperial crates, you find a remarkable device. It spasms from a mixture of electrical jolts and rampant fungal growth. A Mycelian {STR_UnitName}, your scout informs you. Old farming machinery reclaimed by nature through infectious spores.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你发现了一个封在古老帝国集装箱里的独特装置，因为电流的冲击和肆意蔓延的真菌生长物而不停抽动。你的侦察兵汇报称，这是菌丝体{STR_UnitName}，是大自然通过感染性孢子回收的老旧农业机械。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >You in the text can refer to a male or female character
+Mycelian is in-game race of machines overgrown by fungi</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >PRODUCTION_PICKUP_EVENT_DLC05_BUTTON_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Adopt the {STR_UnitName} into your ranks</Data></Cell><Cell><Data
+            ss:Type="String"
+          >接纳{STR_UnitName}并编入你的军队</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >PRODUCTION_PICKUP_EVENT_DLC05_BUTTON_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You receive the unit: {STR_UnitName}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >你获得单位：{STR_UnitName}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >PRODUCTION_PICKUP_EVENT_DLC05_BUTTON_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Put the machine to work in your factories: {STR_Rewards}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >将机器投入你的工厂运作：{STR_Rewards}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >PRODUCTION_PICKUP_EVENT_DLC05_BUTTON_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You receive: {STR_Rewards}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >你获得：{STR_Rewards}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >RESEARCH_PICKUP_EVENT_DLC05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Corrupted Battlesuit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >腐败机甲</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >A battlesuit is a mecha vehicle</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >RESEARCH_PICKUP_EVENT_DLC05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The research ship seems to have been brought down by a large, dark machine. An Apostate vehicle perhaps, the now dormant {STR_ItemName} looming over the remains of the crashed research ship, entangled with its feet.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这艘研究飞船似乎是被一台巨大的黑色机器击落，似乎是一辆变节者载具。{STR_ItemName}在坠毁的研究飞船残骸旁若隐若现，腿部被缠住而无法动弹。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Apostates are an evil faction who have broken oaths to the Oathbound</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >RESEARCH_PICKUP_EVENT_DLC05_BUTTON_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Refurbish the {STR_ItemName}, destroying the research</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >修理{STR_ItemName}，摧毁研究</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >RESEARCH_PICKUP_EVENT_DLC05_BUTTON_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You receive the vehicle ({STR_ItemName})</Data></Cell><Cell><Data
+            ss:Type="String"
+          >你获得载具（{STR_ItemName}）</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >RESEARCH_PICKUP_EVENT_DLC05_BUTTON_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Reclaim the research ship {STR_Rewards}, destroying the battlesuit.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >回收研究飞船{STR_Rewards}，摧毁机甲。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >RESEARCH_PICKUP_EVENT_DLC05_BUTTON_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You receive: {STR_Rewards}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >你获得：{STR_Rewards}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC05</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Powered Lockbox</Data></Cell><Cell><Data
+            ss:Type="String"
+          >动力保险箱</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENERGY_PICKUP_EVENT_DLC05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This energy convoy seems to carry a large lockbox with a {STR_ItemName} inside. The energy cache carrying it powers the electrically charged lock on the cargo, but the circuitry seems very unstable. Any modification will either drain the energy cells or shut the lockbox for good.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这支能源车队似乎运载一个大型保险箱，里面装着{STR_ItemName}。车上的能量储存器在为货物上的充能锁提供能量，但电路似乎非常不稳定。任何修改都会耗尽电池的能量，或者永久锁死保险箱。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >ENERGY_PICKUP_EVENT_DLC05_BUTTON_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Short circuit the lock, receiving {STR_ItemName}, but blowing the energy cells.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >让锁短路，获得{STR_ItemName}，但会引爆能量电池。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >ENERGY_PICKUP_EVENT_DLC05_BUTTON_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You receive the item ({STR_ItemName})</Data></Cell><Cell><Data
+            ss:Type="String"
+          >你获得物品（{STR_ItemName}）</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >ENERGY_PICKUP_EVENT_DLC05_BUTTON_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Carefully remove the energy cells for {STR_Rewards}, but locking the box.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >谨慎取出能量电池并获得{STR_Rewards}，但会锁死保险箱。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >ENERGY_PICKUP_EVENT_DLC05_BUTTON_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You receive: {STR_Rewards}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >你获得：{STR_Rewards}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_DLC05</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Gluttonous Psionica</Data></Cell><Cell><Data
+            ss:Type="String"
+          >暴食的灵蛭</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >FOOD_PICKUP_EVENT_DLC05</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The vats of rations have been broken open by a {STR_UnitName}, which is currently munching on them. We could try and tame it in its current state, but it might take a while as it is consuming the rations.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_UnitName}打破了一大桶口粮的封口并且正在疯狂啃食。我们可以尝试在它目前的状态下将其驯服，但这可能需要一段时间，因为它正在吞食口粮。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >A Psionica creature is involved here, an in-game race of leeching creatures</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >FOOD_PICKUP_EVENT_DLC05_BUTTON_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tame the {STR_UnitName} and add it to your ranks.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >驯服{STR_UnitName}并将其纳入你的部队。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >FOOD_PICKUP_EVENT_DLC05_BUTTON_01</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You receive the unit: {STR_UnitName}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >你获得单位：{STR_UnitName}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >FOOD_PICKUP_EVENT_DLC05_BUTTON_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LABEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Scare off the creature and take the food {STR_Rewards}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >吓跑这个生物并拿走食物{STR_Rewards}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data
+            ss:Type="String"
+          >FOOD_PICKUP_EVENT_DLC05_BUTTON_02</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >You receive: {STR_Rewards}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >你获得：{STR_Rewards}</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><TopRowVisible
+      >11</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >15</ActiveRow><ActiveCol>2</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

@@ -13,7 +13,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7830</WindowHeight><WindowWidth>16170</WindowWidth><WindowTopX
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -371,10 +371,10 @@ EssenceAmount numbers the quantity of essence charges this unit can carry.</Data
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Requires and uses {EssenceChargeNumber}[EssenceCharge/][abilityblue]Essence Charges[/abilityblue].[br/]Crush all enemies in the battlefield with dense ethereal hands.</Data></Cell><Cell
+          >Requires and uses {EssenceChargeNumber}[EssenceCharge/][abilityblue]Essence Charges[/abilityblue].[br/]Crush all enemies in a {hexrad} hex radius with dense ethereal hands.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >需要使用 {EssenceChargeNumber}[EssenceCharge/][abilityblue] 精华充能[/abilityblue]。[br/]用密集的虚灵之手粉碎战场上的所有敌人。</Data></Cell><Cell
+          >需要使用 {EssenceChargeNumber}[EssenceCharge/][abilityblue] 精华充能[/abilityblue]。[br/]用密集的虚灵之手碾压 {hexrad} 个单元格范围内的所有敌人。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"

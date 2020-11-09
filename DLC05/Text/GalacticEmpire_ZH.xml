@@ -1,0 +1,1061 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >ThomM</LastAuthor><LastSaved>2020-08-12T08:31:02Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>7305</WindowHeight><WindowWidth>21420</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /></Style><Style
+      ss:ID="s63"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s64"
+    ><Alignment ss:Vertical="Bottom" ss:WrapText="1" /><Borders /><Interior
+      /><NumberFormat /><Protection /></Style><Style ss:ID="s65"><Alignment
+        ss:Vertical="Top"
+        ss:WrapText="1"
+      /></Style><Style ss:ID="s67"><Font
+        ss:FontName="Arial"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#333333"
+      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="51.75"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="183.75" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="121.5"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="531" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="151.5" /><Column
+        ss:StyleID="s62"
+        ss:AutoFitWidth="0"
+        ss:Width="188.25"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="439.5" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="135"
+        ss:StyleID="s63"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >GALACTIC_EMPIRE</Data></Cell><Cell
+          ss:Index="3"
+          ss:StyleID="s62"
+        /><Cell ss:StyleID="s62" /><Cell ss:Index="7" ss:StyleID="s62"><Data
+            ss:Type="String"
+          >The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell><Cell
+          ss:StyleID="s62"
+        /><Cell ss:StyleID="s62" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMPIRE_OBJECTIVE</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">COMPLETED</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">Secondary Objective Completed</Data></Cell><Cell
+        ><Data ss:Type="String">次要目标完成</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Event Title for when the player has completed a secondary objective</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUISITION</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">PLANET_OBJECTIVES</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">Secondary Objectives</Data></Cell><Cell><Data
+            ss:Type="String"
+          >次要目标</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used as list title, is followed by Secondary Objective Entries</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUISITION</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">REQUEST_OBJECTIVES</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">Empire Requests</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国请求</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used as list title, is followed by Empire Request Entries</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">FREE_STARTING_TECH</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Tech Aptitude</Data></Cell><Cell><Data
+            ss:Type="String"
+          >科技资质</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Describes an Empire Item that represents the player's experience with a certain secret tech or race.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="45"
+      ><Cell><Data ss:Type="String">FREE_STARTING_TECH</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Your Empire's aptitude for this Tech has granted you access to an improved tech repository for your expeditions.[br/][br/][bulletList][bullet]When landing on a planet with a Commander of this Race or Secret Technology you gain [abilityblue]+1 Free Tech skill[/abilityblue][/bullet]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >你的帝国在此科技上的资质使你可以访问优良的技术贮藏库，从而为远征做准备。[br/][br/][bulletList][bullet]此种族或使用此科技的指挥官在星球着陆时，可获得[abilityblue] +1 免费科技技能[/abilityblue][/bullet]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Describes an Empire Item that represents the player's experience with a certain secret tech or race. Due to playing a lot with that race/tech they have gained levels unlocking upgrades/skills in the game.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLANET_RESULT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >VICTORY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_planetName} - Conquered!</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_planetName} - 征服！</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown on top of the screen where we display the results of the game</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLANET_RESULT</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">DEFEAT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_planetName} - Lost..</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_planetName} - 失败……</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown on top of the screen where we display the results of the game</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DISMISS_HERO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Dismiss {STR_heroName}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >遣散{STR_heroName}</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Window title for confirming the deletion of a specfied hero.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DISMISS_HERO</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Are you sure you want to dismiss this hero? The hero will be removed from the hall of heroes and you will no longer be able to conquer new planets with this hero. You can still continue, play and conquer existing active planets which were started with this hero, but any information about this hero will be lost.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >确定要遣散此英雄？该英雄将被移出英雄大厅，你将不能再用此英雄征服新的星球。你仍然可以继续游玩并征服使用此英雄开始战役的进行中星球，但此英雄的所有信息将会丢失。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Explains to the player that deleting a hero will remove it permanently, but they can still continue any save games containing that hero.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:StyleID="s63"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >ACCEPT_PLANET</Data></Cell><Cell ss:StyleID="s62"><Data
+            ss:Type="String"
+          >TITLE</Data></Cell><Cell ss:StyleID="s62"><Data
+            ss:Type="String"
+          >Accept Planet Results</Data></Cell><Cell><Data
+            ss:Type="String"
+          >接受星球结果</Data></Cell><Cell ss:StyleID="s62" /><Cell
+          ss:Index="7"
+          ss:StyleID="s62"
+        ><Data
+            ss:Type="String"
+          >Window title for confirming the planet results.</Data></Cell><Cell
+          ss:StyleID="s62"
+        /><Cell ss:StyleID="s62" /></Row><Row
+        ss:AutoFitHeight="0"
+        ss:StyleID="s63"
+      ><Cell ss:StyleID="s64"><Data
+            ss:Type="String"
+          >ACCEPT_PLANET</Data></Cell><Cell ss:StyleID="s65"><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell ss:StyleID="s62"><Data
+            ss:Type="String"
+          >Accepting the results of this planet will apply them to your empire. If you have won the game then this planet will be added to your conquered planets, otherwise it is lost. Any experience gained will be applied and the heroes on this planet will level up. However, any save games associated with this planet will be removed and the outcome of this planet is then locked. If you wish to change the outcome of the planet, use the Load Game button instead to load another save game for this specific planet.[br/][br/]Are you sure you want to accept the results of this planet?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >接受这个星球的结果会将其应用至你的帝国。如果你赢得了游戏，那么该星球将被添加至你征服的星球列表，否则该星球将视为失败。所有获得的经验将得到应用，星球上的英雄将会升级。但任何与该星球相关的游戏存档都将被删除，随后该星球的结果将被锁定。如果你想更改这个星球的结果，请使用“载入游戏”按钮来载入该星球的其他游戏存档。[br/][br/]你确定要接受这个星球的结果吗？</Data></Cell><Cell
+          ss:StyleID="s62"
+        /><Cell ss:Index="7" ss:StyleID="s62"><Data
+            ss:Type="String"
+          >Explains to the player that if they finish the planet, all results are locked and any save games are deleted and cannot be loaded anymore.</Data></Cell><Cell
+          ss:StyleID="s62"
+        /><Cell ss:StyleID="s62" /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >DELETE_PLANET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deleting this planet will permanently remove it from your empire, and any associated save games with this planet will also be removed. Deleting the planet will forfeit any progress and you will not gain any experience or other rewards for this planet. If you wish to still gain experience for this planet, you can load up a save game and surrender from the in-game menu.[br/][br/]Are you sure you want to delete this planet?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >删除这个星球将会使其永久地从你的帝国中移除，所有与这个星球相关的游戏存档都会被删除。删除这个星球将失去全部进度，你将不会获得任何经验和其他奖励。如果你想获得这个星球的经验，可以载入一个游戏存档并在游戏内菜单选择投降。[br/][br/]你确定要删除这个星球吗？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Explains to the player that deleting a planet will remove it permantly as well as any save games belonging to the planet. This will also NOT give the player any experience. However, if the player instead loads up a save game of this planets and surrenders from the in-game menu, then they do gain experience.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DELETE_EMPIRE</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Deleting the empire will permanently remove all of your progress, planets, save games and heroes that are associated with the empire. Are you sure you want to delete this empire?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >删除帝国将永久移除所有与帝国有关的进度、星球、游戏存档和英雄。你确定要删除这个帝国吗？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Explains to the player that deleting the empire will result in all progress and save games belonging to this empire being lost.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CANNOT_START_PLANET</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">TOO_MANY_GAMES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Too many active planets</Data></Cell><Cell><Data
+            ss:Type="String"
+          >进行中的星球过多</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown in the interface when the player cannot start another scenario because they already have too many active planets.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >OBJECTIVE</Data></Cell><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >STEP_COMPLETED</Data></Cell><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >Objective step completed</Data></Cell><Cell><Data
+            ss:Type="String"
+          >目标步骤已完成</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown in the interface when the player has completed a step/part in the objective, but has not finished the objective yet.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >OBJECTIVE</Data></Cell><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >COMPLETED</Data></Cell><Cell ss:StyleID="Default"><Data
+            ss:Type="String"
+          >Completed</Data></Cell><Cell><Data
+            ss:Type="String"
+          >已完成</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown in the interface when an objective has been completed.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OBJECTIVE_REWARD</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">XP_DETAILS</Data></Cell><Cell
+          ss:StyleID="s67"
+        ><Data
+            ss:Type="String"
+          >Completing this will grant Imperial Renown [favor/] and [xp/] for: {STR_name}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >完成此目标将为{STR_name}获得帝国声望 [favor/] 和 [xp/]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Used in tooltip to describe that the player will receive Imperial Renown and Experience for a certain faction.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OBJECTIVE_REWARD</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">COMPLETION_XP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >On completion: {INT_xp}[xp/] {STR_name} + {INT_favor}[favor/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >完成时：{INT_xp}[xp/] {STR_name} + {INT_favor}[favor/]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Describes in a tooltip that the player will receive an amount of experience for a certain faction/technology and an amount of Imperial Renown on completion of the objective</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OBJECTIVE_REWARD</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">STEP_XP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Per step: {INT_xp}[xp/] {STR_name} + {INT_favor}[favor/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每个步骤：{INT_xp}[xp/] {STR_name} + {INT_favor}[favor/]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Describes in a tooltip that the player will receive an amount of experience for a certain faction/technology and an amount of Imperial Renown for each step of the objective</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMPIRE_FAVOR</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Renown</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国声望</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Name of the spendable resource players need to buy items from their empire.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMPIRE_FAVOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INSUFFICIENT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Insufficient Imperial Renown</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国声望不足</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown in interfaces to indicate the player has too little Empire Favor to buy a certain item</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMPIRE_FAVOR</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOP_MENU_TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial Renown is used for [abilityblue]Imperial Requisitions[/abilityblue], allowing you to buy units, hero equipment and access to operations and mods from your Imperial Reserves.[br/][br/]Imperial Renown can only be earned by completing [abilityblue]Secondary Objectives[/abilityblue] and fulfilling [abilityblue]Empire Requests[/abilityblue].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >帝国声望可用于[abilityblue]帝国征用[/abilityblue]，可从帝国储备中购买单位、英雄装备和使用行动与模块。[br/][br/]帝国声望只能通过完成[abilityblue]次要目标[/abilityblue]和达成[abilityblue]帝国请求[/abilityblue]的方式来获得。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLANET_LIST</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CONQUERED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Conquered Planets</Data></Cell><Cell><Data
+            ss:Type="String"
+          >已征服星球</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used as header for a list of planet names</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLANET_LIST</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">ACTIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Active Planets</Data></Cell><Cell><Data
+            ss:Type="String"
+          >进行中星球</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used as header for a list of planet names</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OBJECTIVE_XP_REWARD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT</Data></Cell><Cell><Data ss:Type="String">XP </Data></Cell><Cell
+        ><Data ss:Type="String">经验值 </Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >abbreviation of experience, shown in reward titles like "10 XP".</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">OBJECTIVE_XP_REWARD</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >XP progression to {STR_ObjectiveTarget}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >经验值进度增加至{STR_ObjectiveTarget}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Used in rewards window to show that experience is rewarded to the progression of a certain race or tech.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUISITION</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">SLOT_UNLOCKS_AT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unlocks at Empire level {INT_level}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国达到 {INT_level} 级时解锁</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Describes that an item slot unlocks at a certain empire level (number).</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUISITION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ITEM_UNLOCKS_AT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unlocks at level {INT_level}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >达到 {INT_level} 级时解锁</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Describes that an item unlocks at a certain level</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUISITION</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">FREE_ITEM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[xpCol](Always active)[/xpCol]</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[xpCol]（始终可用）[/xpCol]</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Describes that a requisition item is always given to the player and cannot be clicked</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUISITION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >FREE_ITEM_TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[xpCol]This item is always available in game and cannot be manually added or removed[/xpCol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[xpCol]此物品在游戏中始终可用，无法手动添加或删除[/xpCol]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Tooltip that describes that a requisition item is always given to the player and cannot be clicked</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUISITION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INVALID_OWNRACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[fireCol]Items belonging to your hero's race or secret technology cannot be chosen.[/fireCol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[fireCol]无法选择属于英雄种族或秘密科技的物品。[/fireCol]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Tooltip that describes that a requisition item cannot be chosen because it belongs to the same race or secret technology of the chosen hero/leader they are playing.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUISITION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >AUTOFILL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Autofill</Data></Cell><Cell><Data
+            ss:Type="String"
+          >自动填充</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Autofill button caption</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">REQUISITION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >AUTOFILL_TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Clicking this button will fill up any empty available slots with random requisition items.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >点击此按钮将使用随机征用物品填充所有空的可用槽位。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Tooltip on the autofill button to explain that it will only fill up empty slots with random items.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">NOT_FOUND</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Forgotten hero</Data></Cell><Cell><Data
+            ss:Type="String"
+          >被遗忘的英雄</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Describes a hero that was deleted by the player, it can still be mentioned by planets as a forgotten hero that conquered the world.
+Describes a hero that was deleted by the player, it can still be mentioned by planets as a forgotten hero that conquered the world.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">PLANETS_CONQUERED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Planets conquered:</Data></Cell><Cell><Data
+            ss:Type="String"
+          >征服星球：</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Is followed by a list of planet names, used to describe the planets conquered by a certain hero.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="13.5"
+      ><Cell><Data ss:Type="String">HERO</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">PLANETS_ACTIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Active missions:</Data></Cell><Cell><Data
+            ss:Type="String"
+          >进行中任务：</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Is followed by a list of planet names, used to describe the planets that a hero is currently still active on.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">PLANETS_ASSISTED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Planets assisted:</Data></Cell><Cell><Data
+            ss:Type="String"
+          >协助征服星球：</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Is followed by a list of planet names, used to describe the planets that a hero was active on and has helped conquer, but where the hero was not the expedition leader.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">RELICS_UNLOCKED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unlocked relics:</Data></Cell><Cell><Data
+            ss:Type="String"
+          >解锁遗物：</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Is followed by a list of relics</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">RECRUITABLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Recruitable</Data></Cell><Cell><Data
+            ss:Type="String"
+          >可招募</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Shown at the top of a list of checkboxes which indicate whether the heroes are recruitable or not.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">RECRUITABLE_TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >If set, this hero can appear during scenarios and will offer to join your army if they are not already present on the planet. The hero will have at least the level it has in the empire. New heroes or changes to the hero's appearance or level will only apply to newly started scenarios.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >设置后，如果此英雄之前未在星球上活动，则将在情景中出现并主动请求加入你的军队。此英雄将至少拥有在帝国中已有的等级。新的英雄以及英雄外貌和英雄等级的变更将只会应用至新开始的情景。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Explains how hero recruitment during a scenario works.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">CANNOT_RECRUIT_HERO</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">TOO_MANY_HEROES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Cannot recruit anymore heroes; your Empire can recruit up to {INT_heroes} heroes.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >无法招募更多英雄；你的帝国英雄招募上限为 {INT_heroes}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Explains that the empire has too many heroes and therefore the player cannot recruit another one. Leveling up the empire may however increase the maximum amount.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLANET</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">DESCRIPTION_ACTIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_planetName}, active mission of {STR_heroName}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_planetName}，{STR_heroName}的进行中任务。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Describes the status of a planet as still being in progress, the player has not yet finished playing.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">PLANET</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">DESCRIPTION_CONQUERED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_planetName}, conquered by {STR_heroName} at turn {INT_turn}[turn/].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_planetName}，由{STR_heroName}于第 {INT_turn}[turn/] 征服。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Describes the status of a planet as being conquered by player.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RELIC</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">LOCKED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Locked</Data></Cell><Cell><Data
+            ss:Type="String"
+          >未解锁</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Describes an item that the player has not unlocked yet, but can unlock with a certain action.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RELIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNLOCKED_ON_PLANET</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unlocked on {STR_planetName}.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >于{STR_planetName}解锁。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Describes that a relic was unlocked on a given planet.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RELIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNLOCKED_BY_HERO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unlocked by {STR_heroName}.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >由{STR_heroName}解锁。</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Describes that a relic was unlocked by a given hero.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RELIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNLOCKED_ON_PLANET_BY_HERO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unlocked by {STR_heroName} on {STR_planetName}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >由{STR_heroName}于{STR_planetName}解锁。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Describes that a relic was unlocked by a given hero on a certain planet.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BUY_EMPIRE_RESOURCES</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">BUTTON</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Buy Empire Resources</Data></Cell><Cell><Data
+            ss:Type="String"
+          >购买帝国资源</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Button caption to describe buying resources from the empire.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BUY_EMPIRE_RESOURCES</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Buying resources from the Empire costs {INT_favor}[favor/] and gives you a random shipment of resources.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >花费 {INT_favor}[favor/] 从帝国购买资源，这将为你运输一份随机资源。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Tooltip to describe that buying resources from the empire costs Imperial Renown and gives the player a random reward.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BUY_EMPIRE_RESOURCES</Data></Cell><Cell
+        ><Data ss:Type="String">CONFIRMATION</Data></Cell><Cell
+          ss:StyleID="Default"
+        ><Data
+            ss:Type="String"
+          >{XML_GALACTIC_EMPIRE@BUY_EMPIRE_RESOURCES@TOOLTIP}[br/][br/]Are you sure you want to trade {INT_favor}[favor/] for resources?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{XML_GALACTIC_EMPIRE@BUY_EMPIRE_RESOURCES@TOOLTIP}[br/][br/]确定要花费 {INT_favor}[favor/] 换取资源？</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Confirmation dialog, includes the above line and adds a confirmation line at the end to make sure the player wants to spend their Imperial Renown.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BUY_EMPIRE_RESOURCES</Data></Cell><Cell
+          ss:StyleID="s65"
+        ><Data ss:Type="String">EVENT_TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Empire Resources Bought</Data></Cell><Cell><Data
+            ss:Type="String"
+          >已购买帝国资源</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Event title, used when the player has traded their Imperial Renown for a  resource shipment from the Empire.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">BUY_EMPIRE_RESOURCES</Data></Cell><Cell
+        ><Data ss:Type="String">EVENT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial renown has been traded for the following resources:</Data></Cell><Cell
+        ><Data ss:Type="String">帝国声望已换取以下资源：</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Event caption to describe the resources that were gained from the trade.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMPIRE_OBJECTIVE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >STEP_COMPLETED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Secondary Objective Step Completed</Data></Cell><Cell><Data
+            ss:Type="String"
+          >次要目标步骤已完成</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Event Title for when the player has completed a step of a secondary objective</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Empire Hero</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国英雄</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used as subtitle to indicate a hero belongs to the galactic Empire</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RELIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNLOCK_TRAIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This relic is unlocked by conquering a planet with the following trait: {STR_traitList}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此遗物可通过征服拥有以下特性的星球来解锁：{STR_traitList}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Explanation on how the relic is unlocked, requires the player to conquer a planet with a specfic trait (only one).</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RELIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNLOCK_TRAITS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This relic is unlocked by conquering planets with the following traits: {STR_traitList}[br/][br/][grey]A combination of conquered planets is valid to satisfy the trait requirement.[/grey]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此遗物可通过征服拥有以下特性的星球来解锁：{STR_traitList}[br/][br/][grey]可通过已征服的不同星球来满足特性要求。[/grey]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Explanation on how the relic is unlocked when there are multiple traits, all of them are required but the player is allowed to combine multiple planets to gather all the required traits.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RELIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNLOCK_ANY_TRAIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This relic is unlocked by conquering planets with any the following traits: {STR_traitList}[br/][br/][grey]Only one of the traits is required to unlock this relic.[/grey]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此遗物可通过征服拥有以下任意特性的星球来解锁：{STR_traitList}[br/][br/][grey]解锁此遗物只需其中一种特性即可。[/grey]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Explanation on how the relic is unlocked when there are multiple traits, but only one is required.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RELIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNLOCK_INVASION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This relic is unlocked by conquering planets during an invasion of the voidbringer faction: {STR_factionName}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此遗物可通过在以下虚空使者阵营入侵期间征服星球的方式来解锁：{STR_factionName}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Explanation on how the relic is unlocked, {STR_factionName} is replaced with the name of the voidbringer variant, e.g. "Psionic Form"</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RELIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNLOCK_GRAIL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This relic is unlocked by achieving the {STR_grailName} on a conquered planet.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此遗物可通过在已征服的星球上获得{STR_grailName}的方式来解锁。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Explanation on how the relic is unlocked, {STR_grailName} is replaced with the name of the grail, e.g. "Grail Configuration of Law".</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMPIRE_LEVEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The empire level is the combined level of all races and secret technologies. As the empire levels up, you will gain more requisition slots. With a higher empire level, more difficult planets will also become available that feature more difficult traits.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >帝国等级是所有种族和秘密科技的综合等级。随着帝国等级的提高，你将获得更多征用槽位，同时你还将能挑战难度更高且拥有更多特性的星球。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Shown in tooltip, describes that the empire level consists of all progression levels added together (races and techs). As the empire levels more requisition slots will unlock. Furthermore higher difficulty traits will become available for random planets.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMPIRE_LEVEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >REQUISITION_SLOTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Requisition slots: {INT_slots}/{INT_maxSlots}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >征用槽位：{INT_slots}/{INT_maxSlots}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Shown in the empire level breakdown, describes the amount of requisition slots currently available.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMPIRE_LEVEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NEXT_REQUISITION_SLOT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Next requisition slot unlocks at level: {INT_nextSlot} (Every {INT_slotInterval} levels)</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >达到 {INT_nextSlot} 级时解锁下一个征用槽位（每 {INT_slotInterval} 级）</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Shown in the empire level breakdown, describes when the next requisition slot unlocks.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMPIRE_LEVEL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >MAX_HEROES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Max heroes: {INT_heroes}/{INT_maxHeroes}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >英雄数量上限：{INT_heroes}/{INT_maxHeroes}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Shown in the empire level breakdown, describes the amount of heroes that can be recruited in the hall of heroes.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMPIRE_OBJECTIVE_VICTORY</Data></Cell><Cell
+        ><Data ss:Type="String">TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Completing this secondary objective will trigger a victory condition.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >完成此次要目标将触发一个胜利条件。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Used in a tooltip to explain that the player will be win the game if they complete the secondary objective.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMPIRE_OBJECTIVE_VICTORY</Data></Cell><Cell
+        ><Data ss:Type="String">POP_UP_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Completing the secondary objective is cause enough for your empire to claim victory on this planet.[br/][br/]Do you want to claim victory now or do you want to continue your conquest of this planet to potentially gain more rewards?[br/][br/][grey]Continuing to play will disable all Secondary Objective victory conditions![/grey]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >完成此次要目标将足以让你的帝国在这个星球取得胜利。[br/][br/]你想现在就宣布胜利，或是继续征服这个星球来获得更多的潜在奖励？[br/][br/][grey]继续游玩将禁用所有次要目标胜利条件！[/grey]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Used in a confirmation panel to explain to the player that for having completed the secondary objective they can now claim victory if they want, which will end the game in victory. Alternatively they can continue playing in hope of more rewards but this will disable all victory conditions for secondary objectives.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMPIRE_OBJECTIVE_VICTORY</Data></Cell><Cell
+        ><Data ss:Type="String">BUTTON_CONFIRM</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Claim victory</Data></Cell><Cell><Data
+            ss:Type="String"
+          >宣布胜利</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Button caption for claiming victory and ending the game.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMPIRE_OBJECTIVE_VICTORY</Data></Cell><Cell
+        ><Data ss:Type="String">BUTTON_CONTINUE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Continue Playing</Data></Cell><Cell><Data
+            ss:Type="String"
+          >继续游玩</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Button caption for continueing to play the game and ignore the victory condition.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INTERFACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BUY_UNIT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Buy Unit</Data></Cell><Cell><Data
+            ss:Type="String"
+          >购买单位</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Put next to a unit to indicate the user is about to buy the unit outright (i.e. pay and then have the unit appear in game for them)</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INTERFACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNLOCK_IN_COLONY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unlock in Colonies</Data></Cell><Cell><Data
+            ss:Type="String"
+          >于殖民地解锁</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Put next to a unit to indicate the user is about to buy the ability to produce the unit in their colonies</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INTERFACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BUY_UNIT_LONG</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Once purchased, this unit will appear at your capital colony</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >购买后，此单位将出现在你的首都殖民地</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INTERFACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNLOCK_IN_COLONY_LONG</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Once purchased, this unit can be produced in any colony with the correct production facilities.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >购买后，此单位可在拥有对应生产设施的任意殖民地中生产。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INTERFACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNLOCK_OPERATION_LONG</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Once purchased, this operation will be available for you to use</Data></Cell><Cell
+        ><Data ss:Type="String">购买后，你将可以使用此行动</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Describes Special Operations that are unlocked via the oepration syste</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">INTERFACE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNLOCK_MOD_LONG</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Once purchased, this unit mod will be available for the appropriate units</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >购买后，适用单位将能使用此单位模块</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Describes the unit modifications that are applied to the player's units</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RELIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Relic</Data></Cell><Cell><Data
+            ss:Type="String"
+          >遗物</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Type name of a relic item. Used in lists as: "Relic: NAME".</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">RELIC</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNLOCKED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unlocked</Data></Cell><Cell><Data
+            ss:Type="String"
+          >已解锁</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Describes that a relic was unlocked.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMPIRE_REWARD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >REWARDS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Congratulations! You have reached one possible ending of the Star Kings campaign. The journey you begun will be continued in the Galactic Empire mode, where you can conquer multiple planets to unite the races of this galaxy under one banner! [br/][br/]For completing the campaign, your empire will receive the following rewards:[br/]- {STR_leaderName} joins your empire as hero[br/]{STR_rewards}[br/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >恭喜！你达成了星王战役的一种可能性结局。你开启的旅程将在银河帝国模式下继续，你可以在那里征服多个星球，将这个银河系的各个种族团结在同一面旗帜之下！[br/][br/]完成战役后，你的帝国将获得以下奖励：[br/]- {STR_leaderName}以英雄的身份加入你的帝国[br/]{STR_rewards}[br/]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Lists all the rewards the player will receive for their empire</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMPIRE_REWARD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INFO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[recommendedcol]Hint: this reward is applied to the last played empire. To receive it for other empires, you can first load your empire save and then return to your last campaign save before the campaign was won.[/recommendedcol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[recommendedcol]提示：此奖励适用于最近一次游戏的帝国。若要为其他帝国获取此奖励，你可以先加载帝国存档，然后在战役获胜之前返回到上一个战役存档。[/recommendedcol]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Explains that the rewards are only applied to the empire that is currently loaded, if the player wants to apply the rewards to other empires they must first load that empire and then complete the final mission of the campaign again to also receive the rewards for that second empire.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">EMPIRE_REWARD</Data></Cell><Cell><Data
+            ss:Type="String"
+          >INFO_NO_EMPIRE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[firecol]Warning: this reward is applied to the galactic empire you are now creating. If you abort the creation process and quit the game, you will have to complete the Star Kings campaign again to receive the same reward for a future empire.[/firecol]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >[firecol]警告：此奖励适用于你正在创建的银河帝国。如果你中止创建过程并退出游戏，你将必须再次完成星王战役才能为帝国获得同样的奖励。[/firecol]</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Explains that the rewards will be applied if the player loads or creates an empire right now. If they want to then apply it to another empire afterwards OR if the game is shutdown, the player will have to complete the last campaign mission again.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COMPLEXITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LEVEL_0</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Low</Data></Cell><Cell><Data ss:Type="String">低</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Planet Complexity name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COMPLEXITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LEVEL_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Mild</Data></Cell><Cell><Data
+            ss:Type="String"
+          >温和</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Planet Complexity name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COMPLEXITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LEVEL_2</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Medium</Data></Cell><Cell><Data
+            ss:Type="String"
+          >中</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Planet Complexity name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COMPLEXITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LEVEL_3</Data></Cell><Cell><Data
+            ss:Type="String"
+          >High</Data></Cell><Cell><Data ss:Type="String">高</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Planet Complexity name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COMPLEXITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LEVEL_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Extremely High</Data></Cell><Cell><Data
+            ss:Type="String"
+          >极高</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Planet Complexity name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COMPLEXITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LEVEL_5</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Horrific</Data></Cell><Cell><Data
+            ss:Type="String"
+          >恐怖</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Planet Complexity name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">COMPLEXITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LEVEL_6</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Nightmarish</Data></Cell><Cell><Data
+            ss:Type="String"
+          >噩梦</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Planet Complexity name</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><TopRowVisible
+      >34</TopRowVisible><Panes><Pane><Number>3</Number><ActiveRow
+          >55</ActiveRow><ActiveCol>4</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

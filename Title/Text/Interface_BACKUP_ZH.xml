@@ -6,14 +6,15 @@
   xmlns:x="urn:schemas-microsoft-com:office:excel"
   xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
   xmlns:html="http://www.w3.org/TR/REC-html40"
-><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
-    >Joshua Crowder</LastAuthor><LastSaved
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><Author
+    >GameScribes4</Author><LastAuthor>GameScribes4</LastAuthor><Created
+    >2020-10-08T02:11:24Z</Created><LastSaved
     >2019-12-05T09:13:40Z</LastSaved><Version
     >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>10920</WindowHeight><WindowWidth>19365</WindowWidth><WindowTopX
+  ><WindowHeight>7305</WindowHeight><WindowWidth>21420</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -25,25 +26,25 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s63"
-    ><Alignment ss:Vertical="Top" /></Style><Style ss:ID="s64"><Alignment
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" /></Style><Style ss:ID="s63"><Alignment
         ss:Vertical="Top"
         ss:WrapText="1"
       /></Style></Styles><Worksheet ss:Name="Script"><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s63"
+      ss:StyleID="s62"
       ss:DefaultColumnWidth="156"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s63" ss:Width="208.5" /><Column
-        ss:StyleID="s63"
+    ><Column ss:StyleID="s62" ss:Width="208.5" /><Column
+        ss:StyleID="s62"
         ss:Width="288.75"
-      /><Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="247.5" /><Column
-        ss:StyleID="s63"
+      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="247.5" /><Column
+        ss:StyleID="s62"
         ss:AutoFitWidth="0"
         ss:Width="103.5"
-      /><Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="780" /><Column
-        ss:StyleID="s63"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="780" /><Column
+        ss:StyleID="s62"
         ss:Width="789"
       /><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
@@ -75,11 +76,204 @@
             ss:Type="String"
           >重新启用</Data></Cell><Cell ss:Index="7"><Data
             ss:Type="String"
-          >Indicates that "Disabled" has been removed</Data></Cell></Row></Table><WorksheetOptions
+          >Indicates that "Disabled" has been removed</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO_CITY_LINK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CHOOSE_A_HERO</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Choose a hero to lead this colony, granting it economic bonuses.[br/]The bonuses will become active after {delay}[turn/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >选择一名英雄来领导这个殖民地，给予殖民地经济加成。[br/]加成效果将在 {delay}[turn/] 后生效。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO_CITY_LINK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CHOOSE_A_HERO_SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Choose a Hero</Data></Cell><Cell><Data
+            ss:Type="String"
+          >选择一名英雄</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HERO_CITY_LINK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORD_OF</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Lord of {CityName}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{CityName}的领主</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Lady of {CityName}</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{CityName}的领主</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The alternate text is used for female heroes</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO_CITY_LINK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LORD_WITHOUT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Lord without a colony</Data></Cell><Cell><Data
+            ss:Type="String"
+          >没有殖民地的领主</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Lady without a colony</Data></Cell><Cell><Data
+            ss:Type="String"
+          >没有殖民地的领主</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The alternate text is used for female heroes</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO_CITY_LINK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >HERO_ALREADY_LINKED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This hero is already the Lord of another colony</Data></Cell><Cell
+        ><Data ss:Type="String">此英雄已是另一个殖民地的领主</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >This hero is already the Lady of another colony</Data></Cell><Cell
+        ><Data ss:Type="String">此英雄已是另一个殖民地的领主</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >The alternate text is used for female heroes</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO_CITY_LINK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ACTIVATING_LONG</Data></Cell><Cell><Data
+            ss:Type="String"
+          >The hero is still becoming accustomed to their role. The bonuses will activate in {delay}[turn/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >这位英雄正在适应自己的角色。加成效果将在 {delay}[turn/] 后生效</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO_CITY_LINK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ACTIVATING_SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Bonuses will activate in {delay}[turn/]</Data></Cell><Cell><Data
+            ss:Type="String"
+          >加成效果将在 {delay}[turn/] 后生效</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO_UNIT_BONUSES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOOLTIP</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Toggle displaying data on unit production bonuses for this colony</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >切换显示此殖民地单位生产的加成数据</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO_UNIT_BONUSES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NO_BONUSES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This colony has no unit production bonuses</Data></Cell><Cell><Data
+            ss:Type="String"
+          >此殖民地没有单位生产加成</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO_UNIT_BONUSES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >BONUS_HEADER</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Unit Production Bonuses</Data></Cell><Cell><Data
+            ss:Type="String"
+          >单位生产加成</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >UPGRADE_TRIGGERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NOTIFY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_UpgradeName} ({STR_CityName}) produces: {STR_Rewards}{STR_UnitName}{STR_ItemName}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{STR_UpgradeName}（{STR_CityName}）生产：{STR_Rewards}{STR_UnitName}{STR_ItemName}</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO_CITY_LINK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CHOOSE_A_CITY</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Choose a colony for this hero to lead, granting it economic bonuses.[br/]The bonuses will become active after {delay}[turn/]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >为此英雄选择一个殖民地进行领导，给予殖民地经济加成。[br/]加成效果将在 {delay}[turn/] 后生效。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Used as sub-title to explain to the player they can assign a hero to lead a colony which will then grant that colony an economic boost.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO_CITY_LINK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CHOOSE_A_CITY_SHORT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Choose a Colony</Data></Cell><Cell><Data
+            ss:Type="String"
+          >选择一个殖民地</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Used as title for the assign lord to colony panel</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CURRENT_EFFECTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Current Effects:</Data></Cell><Cell><Data
+            ss:Type="String"
+          >当前效果：</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >TEXT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >POTENTIAL_EFFECTS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Potential Effects:</Data></Cell><Cell><Data
+            ss:Type="String"
+          >潜在效果：</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >HERO_CITY_LINK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >REALLY_DISCONNECT</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Do you really want to unlink this hero from their colony?</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >确定要把此英雄从殖民地分离？</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">HERO_CITY_LINK</Data></Cell><Cell><Data
+            ss:Type="String"
+          >CITY_ALREADY_LINKED</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This city belongs to another hero</Data></Cell><Cell><Data
+            ss:Type="String"
+          >此城市属于另一名英雄</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOGGLE_TO_ENABLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[abilityred]Disabled[/abilityred] in autocombat! [checkmark/] to enable.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在自动战斗中[abilityred]禁用[/abilityred]！[checkmark/] 以启用。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Refers to whether or no combat operations will be used by the AI is autocombat for the player</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TOGGLE_TO_DISABLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >[abilityblue]Enabled[/abilityblue] in autocombat! [checkmark/] to enable.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >在自动战斗中[abilityblue]启用[/abilityblue]！[checkmark/] 以禁用。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Refers to whether or no combat operations will be used by the AI is autocombat for the player</Data></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
     ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
         >600</HorizontalResolution><VerticalResolution
-        >600</VerticalResolution></Print><Selected /><Panes><Pane><Number
-          >3</Number><ActiveRow>24</ActiveRow></Pane></Panes><ProtectObjects
+        >600</VerticalResolution></Print><Zoom>80</Zoom><Selected /><Panes><Pane
+        ><Number>3</Number><ActiveRow>20</ActiveRow><ActiveCol
+          >3</ActiveCol></Pane></Panes><ProtectObjects
       >False</ProtectObjects><ProtectScenarios
       >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

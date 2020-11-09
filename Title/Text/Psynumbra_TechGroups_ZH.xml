@@ -14,7 +14,7 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7320</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
     /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
@@ -543,10 +543,10 @@
             ss:Type="String"
           >MOD_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >This unit gains {AvatarResistance}[defensePsyche/] resistance and becomes immune to Psionic Status and Hazard Effects. All attacks have a {AbyssChance}[StrengthPsyche/] strength chance ({AbyssChanceRepeating}[strengthPsyche/] for repeating attacks) to apply [abilityred]Panic[/abilityred]. If resisted, applies [abilityred]Broken Mind[/abilityred] instead.</Data></Cell><Cell
+          >This unit gains {AvatarResistance}[defensePsyche/] resistance and becomes immune to Psionic Status and Tactical Hazard Effects. All attacks have a {AbyssChance}[StrengthPsyche/] strength chance ({AbyssChanceRepeating}[strengthPsyche/] for repeating attacks) to apply [abilityred]Panic[/abilityred]. If resisted, applies [abilityred]Broken Mind[/abilityred] instead.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位获得 {AvatarResistance}[defensePsyche/] 抵抗并且免疫灵能状态和灾害效果。所有攻击有 {AbyssChance}[StrengthPsyche/] 力量几率（重复攻击有 {AbyssChanceRepeating}[strengthPsyche/] 几率）施加[abilityred]恐慌[/abilityred]。如果抵抗，则施加[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row
+          >此单位获得 {AvatarResistance}[defensePsyche/] 抵抗且免疫灵能状态和战术灾害效果。所有攻击有 {AbyssChance}[StrengthPsyche/] 力量几率（多次攻击为 {AbyssChanceRepeating}[strengthPsyche/]）施加[abilityred]恐慌[/abilityred]。如果被抵抗，则改为施加[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">AVATAR_OF_THE_ABYSS</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1186,30 +1186,30 @@
             ss:Type="String"
           >LEVEL_1_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          > -{unhappiness}[anger/] happiness.[br/]Martial Law always kills Rioters.</Data></Cell><Cell
+          >Non-Psynumbra units have {BrokenMindstrength}[strengthPsyche/] strength chance to get [abilityred]Broken Mind[/abilityred] every 2 [turn/] in combat.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >-{unhappiness}[anger/] 幸福值。[br/]戒严令始终会杀死暴乱者。</Data></Cell></Row><Row
+          >非赛努布拉单位在战斗中每 2 [turn/] 有 {BrokenMindstrength}[strengthPsyche/] 力量几率遭受[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="75"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
           >LEVEL_2_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          > -{unhappiness}[anger/] happiness.[br/]Martial Law always kills Rioters.[br/]Non-Psynumbra units have {BrokenMindstrength}[strengthPsyche/] strength chance to get [abilityred]Broken Mind[/abilityred] every 2 [turn/] in combat.</Data></Cell><Cell
+          > -{unhappiness}[anger/] happiness.[br/]Martial Law always kills Rioters.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >-{unhappiness}[anger/] 幸福值。[br/]戒严令始终会杀死暴乱者。[br/]在战斗中时，非赛努布拉单位每 2 [turn/] 有 {BrokenMindstrength}[strengthPsyche/] 力量几率获得[abilityred]破碎心灵[/abilityred]。</Data></Cell></Row><Row
+          > -{unhappiness}[anger/] 幸福值。[br/]戒严令始终会杀死暴乱者。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="90"
       ><Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell><Cell><Data
             ss:Type="String"
           >LEVEL_3_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          > -{unhappiness}[anger/] happiness.[br/]Martial Law always kills Rioters.[br/]Non-Psynumbra units have {BrokenMindstrength}[strengthPsyche/] strength chance to get [abilityred]Broken Mind[/abilityred] every 2 [turn/] in combat.[br/]Psynumbra units have [abilityblue]Dark Elation[/abilityblue] in combat.</Data></Cell><Cell
+          >Psynumbra units have [abilityblue]Dark Elation[/abilityblue] in combat.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >-{unhappiness}[anger/] 幸福值。[br/]戒严令始终会杀死暴乱者。[br/]在战斗中时，非赛努布拉单位每 2 [turn/] 有 {BrokenMindstrength}[strengthPsyche/] 力量几率获得[abilityred]破碎心灵[/abilityred]。在战斗中时，[br/]赛努布拉单位获得[abilityblue]黑暗欢愉[/abilityblue]。</Data></Cell></Row><Row
+          >赛努布拉单位在战斗时获得[abilityblue]黑暗欢愉[/abilityblue]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">THE_DIRGE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1983,11 +1983,30 @@
             ss:Type="String"
           >Abyssal One</Data></Cell><Cell><Data
             ss:Type="String"
-          >来自深渊</Data></Cell></Row><Row><Cell><Data
+          >来自深渊</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
             ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+          >GOVERNANCE</Data></Cell><Cell><Data
             ss:Type="String"
-          /></Cell><Cell ss:Index="7"><Data
+          >GOVERNANCE_SKILL_1_UNIT_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Psynumbra units gain {RankIncrease}[medaliron/] rank</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >赛努布拉单位获得 {RankIncrease}[medaliron/] 军阶</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">TORMENT_CHANNELERS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >UNIT_BONUS</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All units gain +{hitpointBonus}[hp/] and +{damageBonus} damage.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有单位获得 +{hitpointBonus}[hp/] 和 +{damageBonus} 伤害。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
             ss:Type="String"
           >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
@@ -2003,7 +2022,26 @@
           ss:Index="7"
         ><Data
             ss:Type="String"
-          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell></Row></Table><WorksheetOptions
       xmlns="urn:schemas-microsoft-com:office:excel"
     ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
         >600</HorizontalResolution><VerticalResolution

@@ -10,13 +10,13 @@
     >Djurre van Dijk</LastAuthor><Created
     >2019-06-25T15:45:53Z</Created><LastSaved
     >2019-06-25T15:45:53Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14730</WindowHeight><WindowWidth>28740</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -26,22 +26,22 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
     ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
     ss:Name="Script"
   ><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s57" ss:Width="121.5" /><Column
-        ss:StyleID="s57"
+    ><Column ss:StyleID="s62" ss:Width="121.5" /><Column
+        ss:StyleID="s62"
         ss:Width="120"
-      /><Column ss:StyleID="s57" ss:Width="254.25" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:Width="254.25" /><Column
+        ss:StyleID="s62"
         ss:Width="147.75"
-      /><Column ss:StyleID="s57" ss:Width="211.5" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:Width="211.5" /><Column
+        ss:StyleID="s62"
         ss:Width="120"
       /><Row ss:AutoFitHeight="0" ss:Height="90"><Cell><Data
             ss:Type="String"
@@ -124,10 +124,10 @@ Commander in this context means the leader of an army, NOT the player character<
       ><Cell><Data ss:Type="String">CYBERNETIC_OVERDRIVE</Data></Cell><Cell
         ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The hero can manipulate friendly Cyborg units. Target friendly Cyborg unit has all their action points refilled. [br/]Doesn't work on units that are unable to move and take actions.</Data></Cell><Cell
+          >Target friendly Cyborg or Mechanical unit has all their action points refilled. [br/]Doesn't work on units that are unable to move and take actions.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >英雄可控制友方半机械人单位，被控制的友方半机械人单位恢复全部操作点数。[br/]对无法移动或无法行动的单位无效。</Data></Cell><Cell
+          >目标友方机械或半机械人单位恢复全部操作点数。[br/]对无法移动或无法行动的单位无效。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"

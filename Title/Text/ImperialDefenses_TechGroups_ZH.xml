@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -137,10 +137,10 @@
             ss:Type="String"
           >LOGIC_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The Targeting Array provides realtime firing solutions for the troops guarding the colony, increasing the accuracy of their weaponry.[br/][br/][bulletList][bullet]Vision and sensor range for [abilityblue]friendly[/abilityblue] units within the colony domain are increased by {sensorRange}.[/bullet][bullet][abilityblue]Friendly[/abilityblue] units within the colony domain gain Detection.[/bullet][bullet][/bullet]</Data></Cell><Cell
+          >The Targeting Array provides realtime firing solutions for the troops guarding the colony, increasing the accuracy of their weaponry.[br/][br/][bulletList][bullet]Vision and sensor range for [abilityblue]friendly[/abilityblue] units within the colony domain are increased by {sensorRange}.[/bullet][bullet][abilityblue]Friendly[/abilityblue] units within the colony domain gain Detection.[/bullet][bullet]Ranged abilities from [abilityblue]friendly[/abilityblue] units gain {accuracybuff} accuracy and {rangebuff} hex range.[/bullet]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >瞄准阵列为保卫殖民地的部队提供实时射击解决方案，提高他们的武器准度。[br/][br/][bulletList][bullet]殖民地领域内的[abilityblue]友方[/abilityblue]单位的视野和传感器范围提高 {sensorRange}。[/bullet][bullet]殖民地领域内的[abilityblue]友方[/abilityblue]单位获得“侦察”。[/bullet][bullet][/bullet]</Data></Cell><Cell
+          >瞄准阵列为保卫殖民地的部队提供实时射击解决方案，提高他们的武器准度。[br/][br/][bulletList][bullet]殖民地领域内的[abilityblue]友方[/abilityblue]单位的视野和传感器范围提高 {sensorRange}。[/bullet][bullet]殖民地领域内的[abilityblue]友方[/abilityblue]单位获得“侦察”。[/bullet][bullet][abilityblue]友方[/abilityblue]单位的远程技能获得 {accuracybuff} 准度和 {rangebuff} 单元格范围。[/bullet]</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0"><Cell><Data
@@ -160,10 +160,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The Operation Scrambler pulses with emissions of jammer signals, making it impossible for hostile operations to be carried out effectively.</Data></Cell><Cell
+          >The Operation Scrambler pulses with emissions of jammer signals, making it impossible for operations to be carried out effectively.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >行动扰码器发散出来的干扰脉冲能使敌方行动无法有效进行。</Data></Cell><Cell
+          >行动扰码器发散出来的干扰脉冲使行动无法有效进行。</Data></Cell><Cell
           ss:Index="7"
           ss:StyleID="s63"
         /></Row><Row ss:AutoFitHeight="0" ss:Height="30"><Cell><Data
@@ -172,10 +172,10 @@
             ss:Type="String"
           >LOGIC_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >The Operation Scrambler pulses with emissions of jammer signals, making it impossible for hostile operations to be carried out effectively.[br/][br/][bulletList][bullet][abilityred]Enemy[/abilityred] operations are not possible within this colony domain, both on the world map and in tactical combat.[/bullet]</Data></Cell><Cell
+          >The Operation Scrambler pulses with emissions of jammer signals, making it impossible for operations to be carried out effectively.[br/][br/][bulletList][bullet]Operations are not possible within this colony domain, both on the world map and in tactical combat.[/bullet]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >行动扰码器发散出来的干扰脉冲能使敌方行动无法有效进行。[br/][br/][bulletList][bullet]位于该殖民地领域中的[abilityred]敌人[/abilityred]无法在世界地图和战术战斗中施放行动。[/bullet]</Data></Cell></Row><Row
+          >行动扰码器发散出来的干扰脉冲使行动无法有效进行。[br/][br/][bulletList][bullet]无法在世界地图和战术战斗中对该殖民地领域发动行动。[/bullet]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">PULSE_DEFENSE_WATCH</Data></Cell><Cell><Data
             ss:Type="String"

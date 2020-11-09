@@ -10,13 +10,13 @@
     >Djurre van Dijk</LastAuthor><Created
     >2018-05-01T08:33:50Z</Created><LastSaved
     >2019-06-25T15:46:03Z</LastSaved><Version
-    >15.00</Version></DocumentProperties><OfficeDocumentSettings
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>14730</WindowHeight><WindowWidth>28740</WindowWidth><WindowTopX
-    >0</WindowTopX><WindowTopY>0</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7305</WindowHeight><WindowWidth>21420</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -26,26 +26,26 @@
         ss:Size="11"
         ss:Color="#000000"
       /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s57"
+      ss:ID="s62"
     ><Alignment
         ss:Vertical="Bottom"
         ss:WrapText="1"
       /></Style></Styles><Worksheet ss:Name="Script"><Table
       x:FullColumns="1"
       x:FullRows="1"
-      ss:StyleID="s57"
+      ss:StyleID="s62"
       ss:DefaultColumnWidth="51.75"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="243.75" /><Column
-        ss:StyleID="s57"
+    ><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="243.75" /><Column
+        ss:StyleID="s62"
         ss:AutoFitWidth="0"
         ss:Width="84.75"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="334.5" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="334.5" /><Column
+        ss:StyleID="s62"
         ss:AutoFitWidth="0"
         ss:Width="167.25"
-      /><Column ss:StyleID="s57" ss:AutoFitWidth="0" ss:Width="270.75" /><Column
-        ss:StyleID="s57"
+      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="270.75" /><Column
+        ss:StyleID="s62"
         ss:AutoFitWidth="0"
         ss:Width="127.5"
       /><Row ss:AutoFitHeight="0" ss:Height="75"><Cell><Data
@@ -796,7 +796,11 @@ This text refers to a person that can either be male or female. If relevant for 
           >{STR_leaderName} attacked a non-hostile army.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >{STR_leaderName}攻击了一支非敌对军队。</Data></Cell></Row><Row
+          >{STR_leaderName}攻击了一支非敌对军队。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="75"
       ><Cell><Data ss:Type="String">DOOMSDAY_01</Data></Cell><Cell><Data
@@ -1026,6 +1030,17 @@ This text refers to a person that can either be male or female. If relevant for 
         ><Data
             ss:Type="String"
           >{STR_leaderName}与我们之间的种族关系互相蔑视。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">DEFEATEDALLIEDPLAYER</Data></Cell><Cell
+        ><Data ss:Type="String">TITLE</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_leaderName} defeated my ally.</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{STR_leaderName}击败了我的同盟。</Data></Cell><Cell
           ss:Index="7"
         ><Data
             ss:Type="String"

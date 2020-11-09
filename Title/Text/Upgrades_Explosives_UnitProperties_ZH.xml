@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -464,19 +464,19 @@
             ss:Type="String"
           >UPGRADE_NAME</Data></Cell><Cell><Data
             ss:Type="String"
-          >Explosives: Electrical</Data></Cell><Cell><Data
+          >Explosives: Arc Overload</Data></Cell><Cell><Data
             ss:Type="String"
-          >爆炸：电力</Data></Cell></Row><Row
+          >爆炸：电弧过载</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="45"
       ><Cell><Data ss:Type="String">SABOTAGE_PAYLOAD</Data></Cell><Cell><Data
             ss:Type="String"
           >UPGRADE_DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Explosive attacks now deal Arc damage and have a 12[StrengthWave/] strength chance (8[strengthWave/] for repeating attacks) to apply [abilityred]Electrified[/abilityred].[br/][br/][productioncol]Cannot be combined with Explosives: Incendiary.[/productioncol]</Data></Cell><Cell
+          >Explosive attacks now deal Arc damage and have a 6[StrengthWave/] strength chance (3[strengthWave/] for repeating attacks) to apply [abilityred]Stunned[/abilityred].[br/][br/][productioncol]Cannot be combined with Explosives: Incendiary.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >爆炸攻击现在可造成电弧伤害，并有 12[StrengthWave/] 力量几率（重复攻击有 8[strengthWave/] 几率）施加[abilityred]触电[/abilityred]。[br/][br/][productioncol]无法与“爆炸：焚烧”结合使用。[/productioncol]</Data></Cell></Row><Row
+          >爆炸攻击现在可造成电弧伤害，并有 6[StrengthWave/] 力量几率（多次攻击为 3[strengthWave/]）施加[abilityred]晕眩[/abilityred]。[br/][br/][productioncol]无法与“爆炸：焚烧”结合使用。[/productioncol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell><Cell
         ><Data ss:Type="String">NAME</Data></Cell><Cell><Data

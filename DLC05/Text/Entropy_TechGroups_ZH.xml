@@ -1,0 +1,241 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
+    >Glenn Smits</LastAuthor><LastSaved>2020-06-30T10:06:41Z</LastSaved><Version
+    >16.00</Version></DocumentProperties><OfficeDocumentSettings
+    xmlns="urn:schemas-microsoft-com:office:office"
+  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
+    xmlns="urn:schemas-microsoft-com:office:excel"
+  ><WindowHeight>19965</WindowHeight><WindowWidth>32767</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >False</ProtectWindows></ExcelWorkbook><Styles><Style
+      ss:ID="Default"
+      ss:Name="Normal"
+    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+        ss:FontName="Calibri"
+        x:Family="Swiss"
+        ss:Size="11"
+        ss:Color="#000000"
+      /><Interior /><NumberFormat /><Protection /></Style><Style
+      ss:ID="s62"
+    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style></Styles><Worksheet
+    ss:Name="Script"
+  ><Table
+      x:FullColumns="1"
+      x:FullRows="1"
+      ss:StyleID="s62"
+      ss:DefaultColumnWidth="239.25"
+      ss:DefaultRowHeight="15"
+    ><Column ss:StyleID="s62" ss:Width="119.25" /><Column
+        ss:StyleID="s62"
+        ss:Width="72.75"
+      /><Column ss:StyleID="s62" ss:Width="237.75" /><Column
+        ss:StyleID="s62"
+        ss:Width="147.75"
+      /><Column ss:Index="6" ss:StyleID="s62" ss:Width="120" /><Row
+        ss:AutoFitHeight="0"
+        ss:Height="120"
+      ><Cell><Data ss:Type="String">ENTROPY_TECHGROUPS</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >TEXT ID</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
+            ss:Type="String"
+          >LOCALIZATION NOTES</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTROPY_SKILL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >GROUP_NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Entropy</Data></Cell><Cell><Data
+            ss:Type="String"
+          >混沌</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tech group name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
+        ><Data ss:Type="String">ENTROPY_TACTICAL_OP_1</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Localized Decay</Data></Cell><Cell><Data
+            ss:Type="String"
+          >局部衰败</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tactical Operation name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="135"
+      ><Cell><Data ss:Type="String">ENTROPY_TACTICAL_OP_1</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Enemy units in a {hexrad} hex radius gain {entropyDamage} damage and {stackcount} stack of [abilityred]Entropic Decay[/abilityred] for {turncount}</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >位于 {hexrad} 个单元格范围内的敌人单位受到 {entropyDamage} 伤害和 {stackcount} 层[abilityred]混沌衰败[/abilityred]，持续 {turncount}</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Tactical Operation description
+Entropic Decay is a debuff from DLC03 that reduces entropy resistance and does damage over time</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTROPY_TACTICAL_OP_2</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Isomer Stabilization</Data></Cell><Cell><Data
+            ss:Type="String"
+          >异构体稳定</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tactical Operation name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">ENTROPY_TACTICAL_OP_2</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >All friendly units gain {statusResistance} Status Effect Resistance for {turns}.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >所有友方单位获得 {statusResistance} 状态效果抵抗，持续 {turns}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Tactical Operation description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">ENTROPY_TACTICAL_OP_2</Data></Cell><Cell
+        ><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has {statusResistance} Status Effect Resistance.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位获得 {statusResistance} 状态效果抵抗。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Tactical Operation effect description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTROPY_TACTICAL_OP_3</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Atrophy Spread</Data></Cell><Cell><Data
+            ss:Type="String"
+          >萎缩扩散</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tactical Operation name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="135"
+      ><Cell><Data ss:Type="String">ENTROPY_TACTICAL_OP_3</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Target enemy unit gets [abilityred]Atrophy Spread[/abilityred] for {turns}: at the start of its turn, this unit and its allied units in a {hexrad} hex radius around it have a {strengthChance} strength chance to gain a stack of [abilityred]Atrophy[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >目标敌方单位受到[abilityred]萎缩扩散[/abilityred]，持续 {turns}：在该单位的回合开始时，该单位本身与其 {hexrad} 个单元格范围内的友方单位有 {strengthChance} 力量几率获得一层[abilityred]萎缩[/abilityred]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Tactical Operation description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="135"
+      ><Cell><Data ss:Type="String">ENTROPY_TACTICAL_OP_3</Data></Cell><Cell
+        ><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >At the start of every turn, this unit and its allied units in a {hexrad} hex radius around it have a {strengthChance} to gain a stack of [abilityred]Atrophy[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >每回合开始时，此单位与其 {hexrad} 个单元格范围内的友方单位有 {strengthChance} 几率获得一层[abilityred]萎缩[/abilityred]。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Tactical Operation effect description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTROPY_TACTICAL_OP_4</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Atomic Collapse</Data></Cell><Cell><Data
+            ss:Type="String"
+          >原子崩塌</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tactical Operation name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="90"
+      ><Cell><Data ss:Type="String">ENTROPY_TACTICAL_OP_4</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >{strengthchance} strength chance of instantly killing target unit, leaving no corpse. Applies one stack of [abilityred]Entropic Decay[/abilityred] and [abilityred]Atrophy[/abilityred] for {turns} on failure.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >有 {strengthchance} 力量几率立即击杀死目标单位，且不会留下尸体。如果失败，则改为施加一层[abilityred]混沌衰败[/abilityred]和[abilityred]萎缩扩散[/abilityred]，持续 {turns}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >Tactical Operation description</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">ENTROPY_TACTICAL_OP_5</Data></Cell><Cell
+        ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Divide Half-Life</Data></Cell><Cell><Data
+            ss:Type="String"
+          >分离半衰期</Data></Cell><Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tactical Operation name</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+        ss:Height="64.5"
+      ><Cell><Data ss:Type="String">ENTROPY_TACTICAL_OP_5</Data></Cell><Cell
+        ><Data ss:Type="String">DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Enemy units in target {hexrad} hex radius take {baseDamage} damage. Targets with [abilityred]Entropic Decay[/abilityred] or [abilityred]Atrophy[/abilityred] take an additional {bonusDamage}, or {baseDamage} for both.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >{hexrad} 个单元格范围内的敌方单位受到 {baseDamage} 伤害。拥有[abilityred]混沌衰败[/abilityred]或[abilityred]萎缩[/abilityred]的目标将额外受到 {bonusDamage}，如果两者皆有，则会受到 {baseDamage}。</Data></Cell><Cell
+          ss:Index="7"
+        ><Data ss:Type="String">Tactical Operation description
+Atrophy </Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >ENTROPY_TACTICAL_OP_4</Data></Cell><Cell><Data
+            ss:Type="String"
+          >EFFECT_DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >This unit has [abilityred]Entropic Decay[/abilityred] and [abilityred]Atrophy[/abilityred].</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此单位拥有[abilityred]混沌衰败[/abilityred]和[abilityred]萎缩[/abilityred]。</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
+            ss:Type="String"
+          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
+          ss:Index="7"
+        ><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
+      xmlns="urn:schemas-microsoft-com:office:excel"
+    ><Unsynced /><Print><ValidPrinterInfo /><PaperSizeIndex
+        >9</PaperSizeIndex><HorizontalResolution
+        >600</HorizontalResolution><VerticalResolution
+        >600</VerticalResolution></Print><Selected /><Panes><Pane><Number
+          >3</Number><ActiveRow>6</ActiveRow><ActiveCol
+          >4</ActiveCol></Pane></Panes><ProtectObjects
+      >False</ProtectObjects><ProtectScenarios
+      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>

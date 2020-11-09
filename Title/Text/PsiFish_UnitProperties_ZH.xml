@@ -14,9 +14,9 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><ProtectStructure
-    >False</ProtectStructure><ProtectWindows
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
+    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
+    /><ProtectStructure>False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -622,10 +622,10 @@
             ss:Type="String"
           >DESCRIPTION</Data></Cell><Cell><Data
             ss:Type="String"
-          >Psionic users on this path have a {PathChimeraStr} strength chance to apply [abilityred]Burning[/abilityred], [abilityred]Electrified[/abilityred] and [abilityred]Poison[/abilityred] when their attacks strike a target.[br/][br/][productioncol]Only one focus mod can be active at a time.[/productioncol]</Data></Cell><Cell
+          >Psionic users on this path have a {PathChimeraStr} strength chance to apply [abilityred]Burning[/abilityred][strengthThermal/], [abilityred]Electrified[/abilityred][strengthWave/] and [abilityred]Poison[/abilityred][strengthBio/] when their attacks strike a target.[br/][br/][productioncol]Only one focus mod can be active at a time.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >位于此道的灵能使用者在攻击目标时，有 {PathChimeraStr} 力量几率施加[abilityred]燃烧[/abilityred]、[abilityred]触电[/abilityred]和[abilityred]中毒[/abilityred]。[br/][br/][productioncol]同时只能激活一个专注模块。[/productioncol]</Data></Cell></Row><Row
+          >此路径上的灵能使用者在攻击目标时，有 {PathChimeraStr} 力量几率施加[abilityred]燃烧[/abilityred][strengthThermal/]、[abilityred]触电[/abilityred][strengthWave/]和[abilityred]中毒[/abilityred][strengthBio/]。[br/][br/][productioncol]同时只能激活一个专注模块。[/productioncol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="105"
       ><Cell><Data

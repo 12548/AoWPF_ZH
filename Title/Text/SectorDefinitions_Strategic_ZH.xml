@@ -14,9 +14,10 @@
     xmlns="urn:schemas-microsoft-com:office:office"
   ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
     xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>9750</WindowHeight><WindowWidth>13170</WindowWidth><WindowTopX
+  ><WindowHeight>7620</WindowHeight><WindowWidth>21570</WindowWidth><WindowTopX
     >32767</WindowTopX><WindowTopY>32767</WindowTopY><MaxChange
-    >0.0001</MaxChange><ProtectStructure>False</ProtectStructure><ProtectWindows
+    >0.0001</MaxChange><RefModeR1C1 /><ProtectStructure
+    >False</ProtectStructure><ProtectWindows
     >False</ProtectWindows></ExcelWorkbook><Styles><Style
       ss:ID="Default"
       ss:Name="Normal"
@@ -1498,7 +1499,42 @@
             ss:Type="String"
           >No translation required</Data></Cell><Cell
           ss:StyleID="s63"
-        /></Row><Row><Cell><Data ss:Type="String" /></Cell><Cell><Data
+        /></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >URBAN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Urban</Data></Cell><Cell><Data
+            ss:Type="String"
+          >城市</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >URBAN</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >There is a recently urbanized area present in this sector.[br/][br/]Units in friendly urban sectors heal an additional {UrbanHealthRegenAmount} between strategic turns.</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >此区域内有一个最近达成了城市化的地区。[br/][br/]位于友方城市区域中的单位在战略回合的间隙可额外治疗 {UrbanHealthRegenAmount}。</Data></Cell></Row><Row
+        ss:AutoFitHeight="0"
+      ><Cell><Data ss:Type="String">IMPERIAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >NAME</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Imperial</Data></Cell><Cell><Data
+            ss:Type="String"
+          >帝国</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell><Data
+            ss:Type="String"
+          >IMPERIAL</Data></Cell><Cell><Data
+            ss:Type="String"
+          >DESCRIPTION</Data></Cell><Cell><Data
+            ss:Type="String"
+          >Preserved technology and infrastructure from before the Cataclysm bears witness to the lost grandeur of the Star Union.[br/][br/][bulletlist][bullet]All Research [research/], Energy [energy/], Food [food/] and Production [production/] sectors on Imperial gain +1 level.[/bullet][/bulletlist]</Data></Cell><Cell
+        ><Data
+            ss:Type="String"
+          >大灾变前保存下来的技术和基础设施见证了星际联盟失落的辉煌。[br/][br/][bulletlist][bullet]帝国中的所有研究 [research/]、能量 [energy/]、食物 [food/] 和产力 [production/] 区域获得 +1 等级。[/bullet][/bulletlist]</Data></Cell></Row><Row
+      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell></Row><Row><Cell><Data
             ss:Type="String"
