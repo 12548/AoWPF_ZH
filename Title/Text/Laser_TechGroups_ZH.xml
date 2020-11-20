@@ -143,7 +143,7 @@
           >Fire a blinding Laser beam, dealing {PhotonicDamage} damage in a 1 hex radius. All enemy units hit by this ability have {PhotonicBlindChance} strength chance to be [abilityred]Blinded[/abilityred], decreasing their accuracy for {PhotonicBlindTurn}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >发射致盲激光束，在 1 赫克斯半径范围内造成 {PhotonicDamage} 伤害，有 {PhotonicBlindChance} 力量几率造成中招敌军[abilityred]致盲[/abilityred]，降低敌军准度 {PhotonicBlindTurn}。</Data></Cell></Row><Row
+          >发射致盲激光束，在 1 单元格半径范围内造成 {PhotonicDamage} 伤害，有 {PhotonicBlindChance} 力量几率造成中招敌军[abilityred]致盲[/abilityred]，使其准度降低 {PhotonicBlindTurn}。</Data></Cell></Row><Row
       ><Cell><Data ss:Type="String" /></Cell><Cell><Data
             ss:Type="String"
           /></Cell><Cell><Data ss:Type="String" /></Cell><Cell

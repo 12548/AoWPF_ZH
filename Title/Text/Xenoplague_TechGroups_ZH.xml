@@ -278,7 +278,7 @@
           >Target non-Mindless Xenoplague unit and up to {UnitAmount} Xenoplague units within {HexRange} hexes heal for {HealAmount}[hp/] and go [abilityblue]Rabid[/abilityblue] for {duration}. Rabid units are no longer under your control, and automatically attack the nearest enemy unit. In addition, the unit deals {RabidDam} extra damage, is immune to Status Effects, gains {RabidHP} maximum [hp/] and [abilityblue]Fast Movement.[/abilityblue]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >{HexRange} 个单元格内的目标非无意识异星疫病单位以及最多 {UnitAmount} 个异星疫病单位恢复 {HealAmount}[hp/] 并变得[abilityblue]狂暴[/abilityblue]，持续 {duration}。狂暴单位不再受你的控制，而是会自动攻击最近的敌方单位。此外，该单位还会额外造成 {RabidDam} 伤害且免疫状态效果，获得 {RabidHP} 最大 [hp/] 和[abilityblue]迅捷移动[/abilityblue]。</Data></Cell></Row><Row
+          >{HexRange} 个单元格内的目标非无意识异星疫病单位以及最多 {UnitAmount} 个异星疫病单位恢复 {HealAmount}[hp/] 并变得[abilityblue]狂暴[/abilityblue]，持续 {duration}。狂暴单位不再受你的控制，而是会自动攻击最近的敌方单位。此外，该单位还会额外造成 {RabidDam} 伤害且免疫状态效果，获得 {RabidHP} 最大 [hp/] 和[abilityblue]快速移动[/abilityblue]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">AGGRAVATE_INFECTION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -296,7 +296,7 @@
           >This unit has lost control and will attack the nearest enemy. It deals {RabidDamage} extra damage, has {RabidHp} maximum [hp/], is immune to Status Effects, and has [abilityblue]Fast Movement[/abilityblue].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位已失控并且会攻击最近的敌人，额外造成 {RabidDamage} 伤害且拥有 {RabidHp} 的最大[hp/]，免疫状态效果，拥有[abilityblue]迅捷移动[/abilityblue]。</Data></Cell></Row><Row
+          >该单位已失控并且会攻击最近的敌人，额外造成 {RabidDamage} 伤害且拥有 {RabidHp} 的最大[hp/]，免疫状态效果，拥有[abilityblue]快速移动[/abilityblue]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">AGGRAVATE_INFECTION</Data></Cell><Cell><Data
             ss:Type="String"
@@ -1113,7 +1113,7 @@
           >On failure, the target army only suffers {SleeperXenomomesDamage} damage.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >如果失败，泽目标军队只会受到 {SleeperXenomomesDamage} 伤害。</Data></Cell></Row><Row
+          >如果失败，则目标军队只会受到 {SleeperXenomomesDamage} 伤害。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="60"
       ><Cell><Data ss:Type="String">SLEEPER_XENOMOMES</Data></Cell><Cell><Data

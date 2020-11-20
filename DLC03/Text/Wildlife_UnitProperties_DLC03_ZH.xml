@@ -97,7 +97,7 @@
           >Eat the corpse of target Biological or Cyborg unit. This unit heals for {HealAmount}[hp/], and gains a stack of [abilityblue]Feast[/abilityBlue]: {DamageIncrease}% increased damage and Fast movement speed for {Duration}[turn/]. This buff can stack up to {StackAmount} times.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >吞食目标生物或半机械人单位的尸体，该单位可治疗 {HealAmount}[hp/] 并获得 1 层[abilityblue]盛宴[/abilityBlue]：提升 {DamageIncrease}% 伤害并获得迅捷移动速度，持续 {Duration}[turn/]。该增益最多可叠加 {StackAmount} 次。</Data></Cell></Row><Row
+          >吞食目标生物或半机械人单位的尸体，该单位可治疗 {HealAmount}[hp/] 并获得 1 层[abilityblue]盛宴[/abilityBlue]：提升 {DamageIncrease}% 伤害并获得快速移动速度，持续 {Duration}[turn/]。该增益最多可叠加 {StackAmount} 次。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">CONSUME_CORPSE</Data></Cell><Cell><Data
             ss:Type="String"
@@ -115,7 +115,7 @@
           >Unit has {DamageIncrease}% increased damage per stack as well as Fast movement speed.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >每层使单位造成的伤害提高 {DamageIncrease}% 并获得的迅捷移动速度。</Data></Cell></Row><Row
+          >每层使单位造成的伤害提高 {DamageIncrease}% 并获得的快速移动速度。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">RANCID_STENCH</Data></Cell><Cell><Data
             ss:Type="String"

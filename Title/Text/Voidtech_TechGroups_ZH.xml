@@ -628,7 +628,7 @@
           >Affects all units in a {TimeWarpRadius} hex radius area. Friendly units gain [abilityblue]Fast Movement[/abilityblue], and enemy units are inflicted with [abilityred]Slow Movement[/abilityred] for {TimeWarpDuration}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >影响 {TimeWarpRadius} 个单元格范围内的所有单位。友方单位获得[abilityblue]迅捷移动[/abilityblue]，敌方单位则获得[abilityred]缓慢移动[/abilityred]，持续 {TimeWarpDuration}。</Data></Cell></Row><Row
+          >影响 {TimeWarpRadius} 个单元格范围内的所有单位。友方单位获得[abilityblue]快速移动[/abilityblue]，敌方单位则获得[abilityred]缓慢移动[/abilityred]，持续 {TimeWarpDuration}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">TIME_WARP</Data></Cell><Cell><Data
             ss:Type="String"
@@ -637,7 +637,7 @@
           >This unit has [abilityblue]Fast Movement[/abilityblue] for {Duration}[turn/].</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位获得[abilityblue]迅捷移动[/abilityblue]，持续 {Duration}[turn/]。</Data></Cell></Row><Row
+          >该单位获得[abilityblue]快速移动[/abilityblue]，持续 {Duration}[turn/]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">TIME_WARP</Data></Cell><Cell><Data
             ss:Type="String"
@@ -896,7 +896,7 @@
           >Teleport the target owned army to the capital colony and give all units in the army [abilityblue]Fast Movement[/abilityblue] for {TurnDuration}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >将已拥有的目标军队传送至首都殖民地，并给予该军队中的所有单位[abilityblue]迅捷移动[/abilityblue]，持续 {TurnDuration}。</Data></Cell></Row><Row
+          >将已拥有的目标军队传送至首都殖民地，并给予该军队中的所有单位[abilityblue]快速移动[/abilityblue]，持续 {TurnDuration}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">EMERGENCY_REDEPLOY</Data></Cell><Cell><Data
@@ -906,7 +906,7 @@
           >The army was recalled to the capital colony and has [abilityblue]Fast Movement[/abilityblue] for {TurnCounter}.</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该军队被召回了首都殖民地并拥有[abilityblue]迅捷移动[/abilityblue]，持续 {TurnCounter}。</Data></Cell></Row><Row
+          >该军队被召回了首都殖民地并拥有[abilityblue]快速移动[/abilityblue]，持续 {TurnCounter}。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">EMERGENCY_REDEPLOY</Data></Cell><Cell><Data
@@ -916,7 +916,7 @@
           >This unit was recalled to the capital colony and has [abilityblue]Fast Movement.[/abilityblue]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位被召回了首都殖民地并拥有[abilityblue]迅捷移动[/abilityblue]。</Data></Cell></Row><Row
+          >该单位被召回了首都殖民地并拥有[abilityblue]快速移动[/abilityblue]。</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
         ss:Height="30"
       ><Cell><Data ss:Type="String">EMERGENCY_REDEPLOY</Data></Cell><Cell><Data

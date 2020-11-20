@@ -565,7 +565,7 @@ EssenceAmount numbers the quantity of essence charges this unit can carry.</Data
           >This unit no longer is affected by morale changes.[br/]This unit gains [abilityblue]Entropic Necrophagy[/abilityblue] on its attacks that don't spend [abilityblue]Essence[/abilityblue][EssenceCharge/]: When this unit kills another, it consumes the corpse and gains {EssenceGain}[EssenceCharge/][abilityblue]Essence Charge[/abilityblue] and heals for {HealAmount}[hp/][br/][br/][productioncol]Only one kind of Incarnation can be active at any time.[/productioncol]</Data></Cell><Cell
         ><Data
             ss:Type="String"
-          >该单位不再受到士气变化的影响。[br/]该单位不消耗[abilityblue]精华充能[/abilityblue][EssenceCharge/]的攻击获得[abilityblue]混沌食尸[/abilityblue]：该单位击杀敌人时会吞食被击杀的敌人尸体，获得 {EssenceGain}[EssenceCharge/][abilityblue]精华充能[/abilityblue]并治疗 {HealAmount}[hp/][br/][br/][productioncol]一次只能激活一种化身。[/productioncol]</Data></Cell></Row><Row
+          >该单位不再受到士气变化的影响。[br/]该单位不消耗[abilityblue]精华充能[/abilityblue][EssenceCharge/]的攻击获得[abilityblue]混沌食尸[/abilityblue]：该单位击杀敌人时会吞食被击杀的敌人尸体，获得 {EssenceGain}[EssenceCharge/][abilityblue]精华充能[/abilityblue]并治疗 {HealAmount}[hp/][br/][br/][productioncol]同时只能激活一种化身。[/productioncol]</Data></Cell></Row><Row
         ss:AutoFitHeight="0"
       ><Cell><Data ss:Type="String">ENTROPIC_CHAOS_INDUCER</Data></Cell><Cell
         ><Data ss:Type="String">NAME</Data></Cell><Cell><Data
