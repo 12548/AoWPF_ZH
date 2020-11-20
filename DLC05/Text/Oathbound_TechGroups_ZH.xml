@@ -6,915 +6,876 @@
   xmlns:x="urn:schemas-microsoft-com:office:excel"
   xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
   xmlns:html="http://www.w3.org/TR/REC-html40"
-><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"><LastAuthor
-    >Glenn Smits</LastAuthor><Created>2020-06-25T12:19:28Z</Created><LastSaved
-    >2020-06-25T09:15:12Z</LastSaved><Version
-    >16.00</Version></DocumentProperties><OfficeDocumentSettings
-    xmlns="urn:schemas-microsoft-com:office:office"
-  ><AllowPNG /></OfficeDocumentSettings><ExcelWorkbook
-    xmlns="urn:schemas-microsoft-com:office:excel"
-  ><WindowHeight>7305</WindowHeight><WindowWidth>21420</WindowWidth><WindowTopX
-    >32767</WindowTopX><WindowTopY>32767</WindowTopY><RefModeR1C1
-    /><ProtectStructure>False</ProtectStructure><ProtectWindows
-    >False</ProtectWindows></ExcelWorkbook><Styles><Style
-      ss:ID="Default"
-      ss:Name="Normal"
-    ><Alignment ss:Vertical="Bottom" /><Borders /><Font
+>
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <Created>2020-06-25T12:19:28Z</Created>
+  <LastSaved>2020-06-25T09:15:12Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG />
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17985</WindowHeight>
+  <WindowWidth>-13936</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1 />
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom" />
+   <Borders />
+   <Font
         ss:FontName="Calibri"
         x:Family="Swiss"
         ss:Size="11"
         ss:Color="#000000"
-      /><Interior /><NumberFormat /><Protection /></Style><Style
-      ss:ID="s62"
-    ><Alignment ss:Vertical="Top" ss:WrapText="1" /></Style><Style
-      ss:ID="s63"
-    ><Alignment
-        ss:Vertical="Bottom"
-        ss:WrapText="1"
-      /></Style></Styles><Worksheet ss:Name="Script"><Table
+      />
+   <Interior />
+   <NumberFormat />
+   <Protection />
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1" />
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1" />
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table
+      ss:ExpandedColumnCount="8"
+      ss:ExpandedRowCount="73"
       x:FullColumns="1"
       x:FullRows="1"
       ss:StyleID="s62"
       ss:DefaultColumnWidth="234.75"
       ss:DefaultRowHeight="15"
-    ><Column ss:StyleID="s62" ss:Width="117" /><Column
-        ss:StyleID="s62"
-        ss:AutoFitWidth="0"
-        ss:Width="237.75"
-      /><Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="402" /><Column
-        ss:StyleID="s62"
-        ss:Width="150"
-      /><Column ss:StyleID="s62" ss:Width="270.75" /><Column
-        ss:StyleID="s62"
-        ss:Width="120.75"
-      /><Row ss:AutoFitHeight="0" ss:Height="105"><Cell><Data
-            ss:Type="String"
-          >OATHBOUND_TECHGROUPS</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">SCENE ID</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TEXT ID</Data></Cell><Cell><Data
-            ss:Type="String"
-          >ENGLISH STRING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >LOCALIZED STRING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >ALTERNATIVE ENGLISH STRING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >ALTERNATIVE LOCALIZED STRING</Data></Cell><Cell><Data
-            ss:Type="String"
-          >LOCALIZATION NOTES</Data></Cell><Cell><Data
-            ss:Type="String"
-          >DEV TEAM / MISC NOTES</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">OATHBOUND_SKILLS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GROUP_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Oathbound</Data></Cell><Cell><Data
-            ss:Type="String"
-          >誓约者</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Tech Group Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
-        ><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_1_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Duty of Care</Data></Cell><Cell><Data
-            ss:Type="String"
-          >谨慎义务</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Doctrine Name</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="60"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_1_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Gain {relationBonus} and {influenceBonus} from quests, plus an additional {bonus} for each level of [reputation6/] above Neutral.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >通过任务获得的关系和影响力增加 {relationBonus} 和 {influenceBonus}，每达到一个“中立”之上的 [reputation6/] 等级，额外增加 {bonus}。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Doctrine description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_2_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Archivist's Merit</Data></Cell><Cell><Data
-            ss:Type="String"
-          >档案保管员之功</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Doctrine Name</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="75"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_2_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Units with [abilityblue]Record Keeper[/abilityblue] now grant a {extraXP} to all units except Heroes, rather than {baseXP}.[br/]Also grants [abilityblue]Record Keeper[/abilityblue] to Scryer units.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >拥有[abilityblue]记录者[/abilityblue]的单位会为所有单位给予 {extraXP} 而非原本的 {baseXP}（英雄除外）。[br/]另外，还会为占察机单位给予[abilityblue]记录者[/abilityblue]。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Doctrine description
-Record Keeper is a special trait for Seers granting extra XP to other units</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_3_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Loyalty to the Flag</Data></Cell><Cell><Data
-            ss:Type="String"
-          >忠于旗帜</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Doctrine Name</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="60"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_3_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Start all combat with {bannerCount} Warden's Banner that lasts until the end of combat. Gain the ability to control the targets of all Oathbound Banners.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >在所有战斗开始时便拥有 {bannerCount} 面典狱官旗帜，持续至战斗结束。获得能够控制所有誓约者旗帜目标的技能。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Doctrine description
-Banners are special units that provide support abilities the players cannot manually target without this doctrine</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_4_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Honor and Unity</Data></Cell><Cell><Data
-            ss:Type="String"
-          >荣誉和团结</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Doctrine Name</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="75"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_4_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Colonists in [food/] and [happiness/] slots produce {bonusIncome} of their respective resource per level of [reputation6/] above Neutral.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >每达到一级“中立”之上的 [reputation6/] 等级，处于 [food/] 和 [happiness/] 槽位中的移住民生成的资源增加 {bonusIncome}。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Doctrine description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_5_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Guarded Utopia</Data></Cell><Cell><Data
-            ss:Type="String"
-          >戒严的乌托邦</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Doctrine Name</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="75"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_5_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Colonies gain {happinessBonus}. Battlesuit units in friendly domain {healthbonus} and {armorandshieldbonus}. </Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >殖民地获得 {happinessBonus}。友方领域内的机甲单位获得 {healthbonus} 和 {armorandshieldbonus}。 </Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Doctrine description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="75"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_5_EFFECT_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >This unit has {healthbonus} and {armorandshieldbonus}.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >此单位获得 {healthbonus} 和 {armorandshieldbonus}。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Doctrine effect description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_6_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Seers' Crusade</Data></Cell><Cell><Data
-            ss:Type="String"
-          >预言者远征</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Doctrine Name</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="90"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_6_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >All Seer's attacks now do {damagebonus} extra damage and have {strengthChanceSingle} strength chance ({strengthChanceRepeating} strength chance for repeating attacks) to apply [abilityred]Entropic Decay[/abilityred].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >所有预言者的攻击额外造成 {damagebonus} 伤害，并有 {strengthChanceSingle} 力量几率（多次攻击有 {strengthChanceRepeating} 力量几率）施加[abilityred]混沌衰败[/abilityred]。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Doctrine description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="90"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_6_EFFECT_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >{damagebonus} extra damage and {strengthChanceSingle} strength chance ({strengthChanceRepeating} strength chance for repeating attacks) to apply [abilityred]Entropic Decay[/abilityred].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >额外造成 {damagebonus} 伤害，并有 {strengthChanceSingle} 力量几率（多次攻击有 {strengthChanceRepeating} 力量几率）施加[abilityred]混沌衰败[/abilityred]。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Doctrine effect description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="90"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_6_MODIFIER_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >{strengthChanceSingle} strength chance to apply [abilityred]Entropic Decay[/abilityred].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >有 {strengthChanceSingle} 力量几率施加[abilityred]混沌衰败[/abilityred]。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Doctrine effect description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="90"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_7_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The Throne</Data></Cell><Cell><Data
-            ss:Type="String"
-          >王座</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Doctrine Name</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="90"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_7_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Unlock the Throne colony structure.[br/]The Throne enables additional bonuses for Colony Lords.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >解锁王座殖民地建筑。[br/]王座可使殖民地领主提供额外加成。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Doctrine description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_1_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Momentary Insight</Data></Cell><Cell><Data
-            ss:Type="String"
-          >短暂洞察</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Tactical Operation name</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="52.5"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_1_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Target friendly unit gains [abilityblue]Providence[/abilityblue] for {turnTimer}, making all of its attacks critically hit.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >目标友方单位获得[abilityblue]天佑[/abilityblue]，使其所有攻击都能造成暴击，持续 {turnTimer}。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Tactical Operation description
-Providence is a buff that allows units to always critically hit</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_2_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Launch Healing Banner</Data></Cell><Cell><Data
-            ss:Type="String"
-          >发射治愈旗帜</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Tactical Operation name</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="75"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_2_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Launch a flying Banner of Healing, healing friendly units in a {launchHexRad} hex radius for {healamount} on launch. The Banner randomly picks an allied unit within {hexrad} hexes and heals it for {healamount} every [turn/]. The Banner of Healing lasts for {turntimer}.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >发射一面飞行的治愈旗帜，使 {launchHexRad} 个单元格范围内的友方单位治疗 {healamount}。每 [turn/]，旗帜会随机挑选 {hexrad} 个单元格内的一个友方单位并治疗其 {healamount}。治愈旗帜持续 {turntimer}。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Tactical Operation description </Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_3_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Battlesuit Defensive Protocol</Data></Cell><Cell><Data
-            ss:Type="String"
-          >机甲防御协议</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Tactical Operation name</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="90"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_3_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Friendly Battlesuit units in target {hexrad} hex radius are healed for {healingamount} and get {shieldbonus} for {turns}.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >目标 {hexrad} 个单元格范围内的友方机甲单位治疗 {healingamount}，并获得 {shieldbonus}，持续 {turns}。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Tactical Operation description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_4_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Recalibrate Odds</Data></Cell><Cell><Data
-            ss:Type="String"
-          >校准几率</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Tactical Operation name</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="75"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_4_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Give friendly units in a {hexrad} hex radius [abilityblue]Against All Odds[/abilityblue] for {turns}. During this time, whenever it gets hit by an attack within range {hexrange}, it gains the ability [abilityblue]Quick Strike[/abilityblue]. [abilityblue]Quick Strike[/abilityblue] will be removed if unused after {retaliateTurn}.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >使 {hexrad} 个单元格范围内的友方单位获得[abilityblue]披荆斩棘[/abilityblue]，持续 {turns}。在持续时间内，每当单位受到来自 {hexrange} 个单元格内的攻击时，便会获得[abilityblue]快速打击[/abilityblue]技能。如果在 {retaliateTurn} 后仍未使用，[abilityblue]快速打击[/abilityblue]技能将被移除。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Tactical Operation description
-Against All Odds is a buff that increases evasion when close to many enemies</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="75"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_4_PROPERTY_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Recalibrated Odds</Data></Cell><Cell><Data
-            ss:Type="String"
-          >几率校准</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Tactical Operation name</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="75"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_4_PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >This unit has [abilityblue]Against All Odds[/abilityblue] and will gain the ability [abilityblue]Quick Strike[/abilityblue] when hit by an enemy within range {hexrange}. [abilityblue]Quick Strike[/abilityblue] will be removed if unused after {retaliateTurn}.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >此单位拥有[abilityblue]披荆斩棘[/abilityblue]，在受到来自 {hexrange} 个单元格内的敌人攻击时，会获得[abilityblue]快速打击[/abilityblue]技能。如果在 {retaliateTurn} 后仍未使用，[abilityblue]快速打击[/abilityblue]技能将被移除。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Tactical Operation description
-Quick Strike is a quick free attack</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_5_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Butterfly Effect</Data></Cell><Cell><Data
-            ss:Type="String"
-          >蝴蝶效应</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Tactical Operation name</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="60"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_5_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Target enemy unit gets [abilityred]Fatalism[/abilityred] and [abilityred]Butterfly Effect[/abilityred] for {turns}: when this unit dies, units allied to it in a {hexrad} hex radius get a {strengthchance} strength chance to gain [abilityred]Fatalism[/abilityred] and [abilityred]Butterfly Effect[/abilityred] for {turns}.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >目标敌方单位获得[abilityred]宿命[/abilityred]和[abilityred]蝴蝶效应[/abilityred]，持续 {turns}：该单位死亡时，{hexrad} 个单元格范围内的友方单位有 {strengthchance} 力量几率获得[abilityred]宿命[/abilityred]和[abilityred]蝴蝶效应[/abilityred]，持续 {turns}。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Tactical Operation description
-Fatalism is a debuff that causes you to fail all resistance checks</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="60"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_5_EFFECT</Data></Cell><Cell><Data
-            ss:Type="String"
-          >When this unit dies, units allied to it in a {hexrad} hex radius get a {strengthchance} strength chance to gain [abilityred]Fatalism[/abilityred]</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >此单位死亡时，{hexrad} 个单元格范围内的友方单位有 {strengthchance} 力量几率获得[abilityred]宿命[/abilityred]。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Butterfly Effect description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_6_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Expedite Doom</Data></Cell><Cell><Data
-            ss:Type="String"
-          >加速末日</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Tactical Operation name</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_6_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Enemy units in a {hexrad} hex radius get {entropyDamage}. Units with [abilityred]Doomed, Fatalism[/abilityred] or [abilityred]Adversity[/abilityred] have a {strengthchance} strength chance to instantly be killed.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >{hexrad} 个单元格范围内的敌方单位受到 {entropyDamage}。已拥有[abilityred]在劫难逃、宿命[/abilityred]或[abilityred]厄运[/abilityred]的单位有 {strengthchance} 力量几率立即死亡。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Tactical Operation description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_7_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Erratic Misfortune</Data></Cell><Cell><Data
-            ss:Type="String"
-          >不稳定灾祸</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Tactical Operation name</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_7_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Enemy units in a {hexrad} hex radius get {entropydamage} damage and a {strengthchance} strength chance to get either [abilityred]Fatalism[/abilityred] or [abilityred]Adversity[/abilityred] for {turns}.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >{hexrad} 个单元格范围内的敌方单位受到 {entropydamage} 伤害，并有 {strengthchance} 力量几率获得[abilityred]宿命[/abilityred]或[abilityred]厄运[/abilityred]，持续 {turns}。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Tactical Operation description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_1_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Protector Program</Data></Cell><Cell><Data
-            ss:Type="String"
-          >保卫者程序</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Strategic Operation name </Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_1_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >A Paladin Protector will patrol target friendly colony. When friendly armies fight in target friendly colony, a Paladin Protector will aid them in combat. The Protector disappears at the end of combat.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >一位帕拉丁保卫者将在目标友方殖民地巡逻。当友方军队在目标友方殖民地内战斗时，帕拉丁保卫者将协助其战斗。保卫者将在战斗结束时消失。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Strategic Operation description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="34.5"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_1_CASTER_SUCCESS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >This colony is now guarded by a patrolling Paladin Protector. It will aid allies in combat, and disappear at the end of combat.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >此殖民地由一位巡逻的帕拉丁保卫者守护。帕拉丁保卫者将协助盟友战斗，并在战斗结束时消失。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Strategic Operation success description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="34.5"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_1_COMBAT_PROPERTY</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The defender is aided by a Paladin Protector.</Data></Cell><Cell
-        ><Data ss:Type="String">防守者由帕拉丁保卫者协助。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Strategic Operation combat description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_2_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Direct Tribulation</Data></Cell><Cell><Data
-            ss:Type="String"
-          >引导磨难</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Strategic Operation name </Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="63"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_2_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >All units in enemy army get [abilityred]Adversity[/abilityred] for {strategicTurns} at the start of next combat. Units in this army take {hpDamage} of their current [hp/].[br/]On failure, only deals {hpDamage} of their current [hp/].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >敌方军队中的所有单位在下次战斗开始时获得[abilityred]厄运[/abilityred]，持续 {strategicTurns}。此军队中的单位受到当前 [hp/] 的 {hpDamage} 伤害。[br/]如果失败，则改为仅受到当前 [hp/] 的 {hpDamage} 伤害。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Strategic Operation description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="40.5"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_2_CASTER_SUCCESS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >We have successfully managed to tribulate the enemy, damaging them and making them gain [abilityred]Adversity[/abilityred] at the start of next combat.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >我们使敌人遭受了苦难，对他们造成了伤害，并使他们在下次战斗开始时获得[abilityred]厄运[/abilityred]。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Strategic Operation success description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="33.75"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_2_CASTER_FAILURE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >We have only partially tribulated the enemy, damaging them without giving them [abilityred]Adversity[/abilityred] in combat.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >我们只让敌人吃到了一点苦头并造成了伤害，但未能使他们在战斗中获得[abilityred]厄运[/abilityred]。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Strategic Operation failure description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="35.25"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_2_TARGET_SUCCESS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The enemy has successfully managed to tribulate our armies, damaging them and making them gain [abilityred]Adversity[/abilityred] at the start of next combat.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >敌人使我们的军队遭受了苦难，对他们造成了伤害，并使他们在下次战斗开始时获得[abilityred]厄运[/abilityred]。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Strategic Operation success description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="20.25"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_2_TARGET_FAILURE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >The enemy has only partially tribulated our armies, damaging them.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >敌人只让我们的军队吃到了一点苦头，造成了伤害。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Strategic Operation failure description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell ss:StyleID="s63"><Data
-            ss:Type="String"
-          >STRATEGIC_OPERATION</Data></Cell><Cell ss:StyleID="s63"><Data
-            ss:Type="String"
-          >FRIENDLY_ASPIRANT</Data></Cell><Cell ss:StyleID="s63"><Data
-            ss:Type="String"
-          >Target a friendly stack with Prime Rank Paladin Aspirant</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >使一个友方小组成为“精兵”军阶帕拉丁候补者的目标</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Strategic Operation casting instructions</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >PROPERTY_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Oathbound Veteran</Data></Cell><Cell><Data
-            ss:Type="String"
-          >誓约者老兵</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Property name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
-        ><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >PROPERTY_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >This unit has {statusResistance} resistance to all status effects.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >此单位对所有状态效果拥有 {statusResistance} 抵抗。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Property description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_4_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Intervention</Data></Cell><Cell><Data
-            ss:Type="String"
-          >干预</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Strategic Operation name </Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="34.5"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_4_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >All units in the stack gain [abilityblue]Resurgence[/abilityblue] and [abilityblue]double XP[/abilityblue] for {strategicturn} strategic [turn/].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >小组中的所有单位获得[abilityblue]复苏[/abilityblue]和[abilityblue]双倍经验值[/abilityblue]，持续 {strategicturn} 战略 [turn/]。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Strategic Operation description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="34.5"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_4_CASTER_SUCCESS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Units in target army gained [abilityblue]Resurgence[/abilityblue] and [abilityblue]double XP[/abilityblue] for {strategicturn} strategic [turn/].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >目标军队中的单位获得[abilityblue]复苏[/abilityblue]和[abilityblue]双倍经验值[/abilityblue]，持续 {strategicturn} 战略 [turn/]。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Strategic Operation success description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_5_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Oracle's Guidance</Data></Cell><Cell><Data
-            ss:Type="String"
-          >神谕指引</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Strategic Operation name </Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="45"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_5_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Target friendly colony has {incomeBonus} [production/] and [research/] income. Units produced in this colony start with {rankBonus} [medaliron/].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >目标友方殖民地获得 {incomeBonus} [production/] 和 [research/] 收益。此殖民地生产的单位初始便拥有 {rankBonus} [medaliron/]。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Strategic Operation description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_5_SUCCESS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >This colony has {incomeBonus} [production/] and [research/] income.[br/]Units produced in this colony start with {rankBonus} [medaliron/].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >此殖民地获得 {incomeBonus} [production/] 和 [research/] 收益。[br/]此殖民地生产的单位初始便拥有 {rankBonus} [medaliron/]。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Strategic Operation success description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_5_RANK_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Units produced in this colony start with {rankBonus} [medaliron/].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >此殖民地生产的单位初始便拥有 {rankBonus} [medaliron/]。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Colony bonus description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-        ss:Height="30"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_5_EFFECT_SUCCESS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >This colony is now directly under the guidance of the Oracle.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >此殖民地正处于神谕的直接指引之下。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Strategic Operation success description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_1_ALT_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Pre-Battle Predictions</Data></Cell><Cell><Data
-            ss:Type="String"
-          >战前预言</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Doctrine Name</Data></Cell></Row><Row ss:AutoFitHeight="0"><Cell
-        ><Data ss:Type="String">GOVERNANCE</Data></Cell><Cell><Data
-            ss:Type="String"
-          >GOVERNANCE_1_ALT_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >All units start battle with {numStacks} stack of [abilityblue]Precognition[/abilityblue].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >所有单位在战斗开始时便拥有 {numStacks} 层[abilityblue]预知[/abilityblue]。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Doctrine description
-Seer units is a specific type of support unit for the Oathbound
-Precognition is a buff that allows you do evade an attack</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_2_EFFECT_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >This unit gets [abilityred]Adversity[/abilityred] for {turnCount} at the start of next combat. </Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >此单位在下次战斗开始时获得[abilityred]厄运[/abilityred]，持续 {turnCount}。 </Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Strategic Operation description
-Adversity is a debuff that fumbles attacks</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_2_ARMY_EFFECT</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Units in this army gain [abilityred]Adversity[/abilityred] for {turnCount} at the start of next combat.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >此军队中的单位在下次战斗开始时获得[abilityred]厄运[/abilityred]，持续 {turnCount}。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Strategic Operation army effect description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_4_EFFECT_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >This unit has [abilityblue]Resurgence[/abilityblue] and [abilityblue]double XP[/abilityblue].</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >此单位获得[abilityblue]复苏[/abilityblue]和[abilityblue]双倍经验[/abilityblue]。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Strategic Operation effect description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_3_1_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Elevate to Protector</Data></Cell><Cell><Data
-            ss:Type="String"
-          >保卫者晋升</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Strategic Operation name </Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_3_1_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Target friendly army evolves a Prime Rank [medalgold/] Paladin Aspirant into Paladin Protector. It permanently gains {statusEffectResistance} status effect resistance.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >目标友方军队将一名精兵军阶 [medalgold/] 的帕拉丁候补者晋升至帕拉丁保卫者，这将使其永久获得 {statusEffectResistance} 状态效果抵抗。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Strategic Operation description
-Aspirant, Warden and Protector are Paldin unit types</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_3_1_SUCCESS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Paladin Aspirant has been evolved to a Paladin Protector and gained  {statusEffectResistance} status effect resistance.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >帕拉丁候补者已晋升至帕拉丁保卫者，并获得了 {statusEffectResistance} 状态效果抵抗。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Strategic Operation success description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_3_2_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Elevate to Warden</Data></Cell><Cell><Data
-            ss:Type="String"
-          >典狱官晋升</Data></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >Strategic Operation name </Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_3_2_DESCRIPTION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Target friendly army evolves a Prime Rank [medalgold/] Paladin Aspirant into Paladin Warden. It permanently gains {statusEffectResistance} status effect resistance.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >目标友方军队将一名精兵军阶 [medalgold/] 帕拉丁候补者晋升至帕拉丁典狱官，这将使其永久获得 {statusEffectResistance} 状态效果抵抗。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data ss:Type="String">Strategic Operation description
-Aspirant, Warden and Protector are Paldin unit types</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >STRATEGIC_OP_3_2_SUCCESS</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Paladin Aspirant has been evolved and gained {statusEffectResistance} status effect resistance.</Data></Cell><Cell
-        ><Data
-            ss:Type="String"
-          >帕拉丁候补者已得到晋升，并获得了 {statusEffectResistance} 状态效果抵抗。</Data></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >Strategic Operation success description</Data></Cell></Row><Row
-        ss:AutoFitHeight="0"
-      ><Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell><Cell><Data
-            ss:Type="String"
-          >TACTICAL_OP_5_EFFECT_PREVIEW_NAME</Data></Cell><Cell><Data
-            ss:Type="String"
-          >Butterfly Effect / Fatalism</Data></Cell><Cell><Data
-            ss:Type="String"
-          >蝴蝶效应/宿命</Data></Cell></Row><Row><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell ss:Index="7"><Data
-            ss:Type="String"
-          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell></Row><Row
-      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell></Row><Row
-      ><Cell><Data ss:Type="String" /></Cell><Cell><Data
-            ss:Type="String"
-          /></Cell><Cell><Data ss:Type="String" /></Cell><Cell
-          ss:Index="7"
-        ><Data
-            ss:Type="String"
-          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell></Row></Table><WorksheetOptions
-      xmlns="urn:schemas-microsoft-com:office:excel"
-    ><Unsynced /><Print><ValidPrinterInfo /><HorizontalResolution
-        >600</HorizontalResolution><VerticalResolution
-        >600</VerticalResolution></Print><Zoom>85</Zoom><Selected
-      /><TopRowVisible>23</TopRowVisible><LeftColumnVisible
-      >1</LeftColumnVisible><Panes><Pane><Number>3</Number><ActiveRow
-          >25</ActiveRow><ActiveCol>2</ActiveCol></Pane></Panes><ProtectObjects
-      >False</ProtectObjects><ProtectScenarios
-      >False</ProtectScenarios></WorksheetOptions></Worksheet></Workbook>
+    >
+   <Column ss:StyleID="s62" ss:Width="117" />
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="237.75" />
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="402" />
+   <Column ss:StyleID="s62" ss:Width="150" />
+   <Column ss:StyleID="s62" ss:Width="270.75" />
+   <Column ss:StyleID="s62" ss:Width="120.75" />
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">OATHBOUND_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZED STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE LOCALIZED STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATHBOUND_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">GROUP_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oathbound</Data></Cell>
+    <Cell><Data ss:Type="String">誓约者</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Tech Group Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Duty of Care</Data></Cell>
+    <Cell><Data ss:Type="String">谨慎义务</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Doctrine Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_1_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Gain {relationBonus} and {influenceBonus} from quests, plus an additional {bonus} for each level of [reputation6/] above Neutral.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >通过任务获得的关系和影响力增加 {relationBonus} 和 {influenceBonus}，每达到一个“中立”之上的 [reputation6/] 等级，额外增加 {bonus}。</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Doctrine description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Archivist's Merit</Data></Cell>
+    <Cell><Data ss:Type="String">档案保管员之功</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Doctrine Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_2_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Units with [abilityblue]Record Keeper[/abilityblue] now grant a {extraXP} to all units except Heroes, rather than {baseXP}.[br/]Also grants [abilityblue]Record Keeper[/abilityblue] to Scryer units.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >拥有[abilityblue]记录者[/abilityblue]的单位会为所有单位给予 {extraXP} 而非原本的 {baseXP}（英雄除外）。[br/]另外，还会为占察机单位给予[abilityblue]记录者[/abilityblue]。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Doctrine description Record Keeper is a special trait for Seers granting extra XP to other units</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Loyalty to the Flag</Data></Cell>
+    <Cell><Data ss:Type="String">忠于旗帜</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Doctrine Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_3_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Start all combat with {bannerCount} Warden's Banner that lasts until the end of combat. Gain the ability to control the targets of all Oathbound Banners.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >在所有战斗开始时便拥有 {bannerCount} 面典狱官旗帜，持续至战斗结束。获得能够控制所有誓约者旗帜目标的技能。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Doctrine description Banners are special units that provide support abilities the players cannot manually target without this doctrine</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Honor and Unity</Data></Cell>
+    <Cell><Data ss:Type="String">荣誉和团结</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Doctrine Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_4_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Colonists in [food/] and [happiness/] slots produce {bonusIncome} of their respective resource per level of [reputation6/] above Neutral.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >每达到一级“中立”之上的 [reputation6/] 等级，处于 [food/] 和 [happiness/] 槽位中的移住民生成的资源增加 {bonusIncome}。</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Doctrine description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Guarded Utopia</Data></Cell>
+    <Cell><Data ss:Type="String">戒严的乌托邦</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Doctrine Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_5_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Colonies gain {happinessBonus}. Battlesuit units in friendly domain {healthbonus} and {armorandshieldbonus}. </Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >殖民地获得 {happinessBonus}。友方领域内的机甲单位获得 {healthbonus} 和 {armorandshieldbonus}。 </Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Doctrine description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_5_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >This unit has {healthbonus} and {armorandshieldbonus}.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >此单位获得 {healthbonus} 和 {armorandshieldbonus}。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Doctrine effect description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_6_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Seers' Crusade</Data></Cell>
+    <Cell><Data ss:Type="String">预言者远征</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Doctrine Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_6_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >All Seer's attacks now do {damagebonus} extra damage and have {strengthChanceSingle} strength chance ({strengthChanceRepeating} strength chance for repeating attacks) to apply [abilityred]Entropic Decay[/abilityred].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >所有预言者的攻击额外造成 {damagebonus} 伤害，并有 {strengthChanceSingle} 力量几率（多次攻击有 {strengthChanceRepeating} 力量几率）施加[abilityred]混沌衰败[/abilityred]。</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Doctrine description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_6_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >{damagebonus} extra damage and {strengthChanceSingle} strength chance ({strengthChanceRepeating} strength chance for repeating attacks) to apply [abilityred]Entropic Decay[/abilityred].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >额外造成 {damagebonus} 伤害，并有 {strengthChanceSingle} 力量几率（多次攻击有 {strengthChanceRepeating} 力量几率）施加[abilityred]混沌衰败[/abilityred]。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Doctrine effect description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_6_MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >{strengthChanceSingle} strength chance to apply [abilityred]Entropic Decay[/abilityred].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >有 {strengthChanceSingle} 力量几率施加[abilityred]混沌衰败[/abilityred]。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Doctrine effect description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_7_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">The Throne</Data></Cell>
+    <Cell><Data ss:Type="String">王座</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Doctrine Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_7_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Unlock the Throne colony structure.[br/]The Throne enables additional bonuses for Colony Lords.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >解锁王座殖民地建筑。[br/]王座可使殖民地领主提供额外加成。</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Doctrine description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Momentary Insight</Data></Cell>
+    <Cell><Data ss:Type="String">短暂洞察</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tactical Operation name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="52.5">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_1_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Target friendly unit gains [abilityblue]Providence[/abilityblue] for {turnTimer}, making all of its attacks critically hit.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >目标友方单位获得[abilityblue]天佑[/abilityblue]，使其所有攻击都能造成暴击，持续 {turnTimer}。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tactical Operation description Providence is a buff that allows units to always critically hit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Launch Healing Banner</Data></Cell>
+    <Cell><Data ss:Type="String">发射治愈旗帜</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tactical Operation name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_2_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Launch a flying Banner of Healing, healing friendly units in a {launchHexRad} hex radius for {healamount} on launch. The Banner randomly picks an allied unit within {hexrad} hexes and heals it for {healamount} every [turn/]. The Banner of Healing lasts for {turntimer}.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >发射一面飞行的治愈旗帜，使 {launchHexRad} 个单元格范围内的友方单位治疗 {healamount}。每 [turn/]，旗帜会随机挑选 {hexrad} 个单元格内的一个友方单位并治疗其 {healamount}。治愈旗帜持续 {turntimer}。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tactical Operation description </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Battlesuit Defensive Protocol</Data></Cell>
+    <Cell><Data ss:Type="String">机甲防御协议</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tactical Operation name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_3_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Friendly Battlesuit units in target {hexrad} hex radius are healed for {healingamount} and get {shieldbonus} for {turns}.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >目标 {hexrad} 个单元格范围内的友方机甲单位治疗 {healingamount}，并获得 {shieldbonus}，持续 {turns}。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tactical Operation description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recalibrate Odds</Data></Cell>
+    <Cell><Data ss:Type="String">校准几率</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tactical Operation name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_4_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Give friendly units in a {hexrad} hex radius [abilityblue]Against All Odds[/abilityblue] for {turns}. During this time, whenever it gets hit by an attack within range {hexrange}, it gains the ability [abilityblue]Quick Strike[/abilityblue]. [abilityblue]Quick Strike[/abilityblue] will be removed if unused after {retaliateTurn}.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >使 {hexrad} 个单元格范围内的友方单位获得[abilityblue]披荆斩棘[/abilityblue]，持续 {turns}。在持续时间内，每当单位受到来自 {hexrange} 个单元格内的攻击时，便会获得[abilityblue]快速打击[/abilityblue]技能。如果在 {retaliateTurn} 后仍未使用，[abilityblue]快速打击[/abilityblue]技能将被移除。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tactical Operation description Against All Odds is a buff that increases evasion when close to many enemies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_4_PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recalibrated Odds</Data></Cell>
+    <Cell><Data ss:Type="String">几率校准</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tactical Operation name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >TACTICAL_OP_4_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >This unit has [abilityblue]Against All Odds[/abilityblue] and will gain the ability [abilityblue]Quick Strike[/abilityblue] when hit by an enemy within range {hexrange}. [abilityblue]Quick Strike[/abilityblue] will be removed if unused after {retaliateTurn}.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >此单位拥有[abilityblue]披荆斩棘[/abilityblue]，在受到来自 {hexrange} 个单元格内的敌人攻击时，会获得[abilityblue]快速打击[/abilityblue]技能。如果在 {retaliateTurn} 后仍未使用，[abilityblue]快速打击[/abilityblue]技能将被移除。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tactical Operation description Quick Strike is a quick free attack</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Butterfly Effect</Data></Cell>
+    <Cell><Data ss:Type="String">蝴蝶效应</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tactical Operation name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_5_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Target enemy unit gets [abilityred]Fatalism[/abilityred] and [abilityred]Butterfly Effect[/abilityred] for {turns}: when this unit dies, units allied to it in a {hexrad} hex radius get a {strengthchance} strength chance to gain [abilityred]Fatalism[/abilityred] and [abilityred]Butterfly Effect[/abilityred] for {turns}.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >目标敌方单位获得[abilityred]宿命[/abilityred]和[abilityred]蝴蝶效应[/abilityred]，持续 {turns}：该单位死亡时，{hexrad} 个单元格范围内的友方单位有 {strengthchance} 力量几率获得[abilityred]宿命[/abilityred]和[abilityred]蝴蝶效应[/abilityred]，持续 {turns}。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tactical Operation description Fatalism is a debuff that causes you to fail all resistance checks</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_5_EFFECT</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >When this unit dies, units allied to it in a {hexrad} hex radius get a {strengthchance} strength chance to gain [abilityred]Fatalism[/abilityred]</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >此单位死亡时，{hexrad} 个单元格范围内的友方单位有 {strengthchance} 力量几率获得[abilityred]宿命[/abilityred]。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Butterfly Effect description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_6_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Expedite Doom</Data></Cell>
+    <Cell><Data ss:Type="String">加速末日</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tactical Operation name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_6_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Enemy units in a {hexrad} hex radius get {entropyDamage}. Units with [abilityred]Fatalism[/abilityred] or [abilityred]Adversity[/abilityred] have a {strengthchance} strength chance to instantly be killed.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >{hexrad} 个单元格范围内的敌方单位受到 {entropyDamage}。已拥有[abilityred]宿命[/abilityred]或[abilityred]厄运[/abilityred]的单位有 {strengthchance} 力量几率立即死亡。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tactical Operation description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_7_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Erratic Misfortune</Data></Cell>
+    <Cell><Data ss:Type="String">不稳定灾祸</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tactical Operation name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_7_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Enemy units in a {hexrad} hex radius get {entropydamage} damage and a {strengthchance} strength chance to get either [abilityred]Fatalism[/abilityred] or [abilityred]Adversity[/abilityred] for {turns}.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >{hexrad} 个单元格范围内的敌方单位受到 {entropydamage} 伤害，并有 {strengthchance} 力量几率获得[abilityred]宿命[/abilityred]或[abilityred]厄运[/abilityred]，持续 {turns}。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Tactical Operation description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Protector Program</Data></Cell>
+    <Cell><Data ss:Type="String">保卫者程序</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation name </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >A Paladin Protector will patrol target friendly colony. When friendly armies fight in target friendly colony, a Paladin Protector will aid them in combat. The Protector disappears at the end of combat.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >一位帕拉丁保卫者将在目标友方殖民地巡逻。当友方军队在目标友方殖民地内战斗时，帕拉丁保卫者将协助其战斗。保卫者将在战斗结束时消失。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="34.5">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_CASTER_SUCCESS</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >This colony is now guarded by a patrolling Paladin Protector. It will aid allies in combat, and disappear at the end of combat.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >此殖民地由一位巡逻的帕拉丁保卫者守护。帕拉丁保卫者将协助盟友战斗，并在战斗结束时消失。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation success description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="34.5">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_COMBAT_PROPERTY</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >The defender is aided by a Paladin Protector.</Data></Cell>
+    <Cell><Data ss:Type="String">防守者由帕拉丁保卫者协助。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation combat description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Direct Tribulation</Data></Cell>
+    <Cell><Data ss:Type="String">引导磨难</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation name </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >All units in enemy army get [abilityred]Adversity[/abilityred] for {strategicTurns} at the start of next combat. Units in this army take {hpDamage} of their current [hp/].[br/]On failure, only deals {hpDamage} of their current [hp/].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >敌方军队中的所有单位在下次战斗开始时获得[abilityred]厄运[/abilityred]，持续 {strategicTurns}。此军队中的单位受到当前 [hp/] 的 {hpDamage} 伤害。[br/]如果失败，则改为仅受到当前 [hp/] 的 {hpDamage} 伤害。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="40.5">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_CASTER_SUCCESS</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >We have successfully managed to tribulate the enemy, damaging them and making them gain [abilityred]Adversity[/abilityred] at the start of next combat.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >我们使敌人遭受了苦难，对他们造成了伤害，并使他们在下次战斗开始时获得[abilityred]厄运[/abilityred]。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation success description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="33.75">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_CASTER_FAILURE</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >We have only partially tribulated the enemy, damaging them without giving them [abilityred]Adversity[/abilityred] in combat.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >我们只让敌人吃到了一点苦头并造成了伤害，但未能使他们在战斗中获得[abilityred]厄运[/abilityred]。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation failure description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="35.25">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_TARGET_SUCCESS</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >The enemy has successfully managed to tribulate our armies, damaging them and making them gain [abilityred]Adversity[/abilityred] at the start of next combat.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >敌人使我们的军队遭受了苦难，对他们造成了伤害，并使他们在下次战斗开始时获得[abilityred]厄运[/abilityred]。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation success description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.25">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_TARGET_FAILURE</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >The enemy has only partially tribulated our armies, damaging them.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >敌人只让我们的军队吃到了一点苦头，造成了伤害。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation failure description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >STRATEGIC_OPERATION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >FRIENDLY_ASPIRANT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data
+            ss:Type="String"
+          >Target a friendly stack with Prime Rank Paladin Aspirant</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >使一个友方小组成为“精兵”军阶帕拉丁候补者的目标</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation casting instructions</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oathbound Veteran</Data></Cell>
+    <Cell><Data ss:Type="String">誓约者老兵</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Property name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >This unit has {statusResistance} resistance to all status effects.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >此单位对所有状态效果拥有 {statusResistance} 抵抗。</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Property description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Intervention</Data></Cell>
+    <Cell><Data ss:Type="String">干预</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation name </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="34.5">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >All units in the stack gain [abilityblue]Resurgence[/abilityblue] and [abilityblue]double XP[/abilityblue] for {strategicturn} strategic [turn/].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >小组中的所有单位获得[abilityblue]复苏[/abilityblue]和[abilityblue]双倍经验值[/abilityblue]，持续 {strategicturn} 战略 [turn/]。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="34.5">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_CASTER_SUCCESS</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Units in target army gained [abilityblue]Resurgence[/abilityblue] and [abilityblue]double XP[/abilityblue] for {strategicturn} strategic [turn/].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >目标军队中的单位获得[abilityblue]复苏[/abilityblue]和[abilityblue]双倍经验值[/abilityblue]，持续 {strategicturn} 战略 [turn/]。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation success description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oracle's Guidance</Data></Cell>
+    <Cell><Data ss:Type="String">神谕指引</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation name </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Target friendly colony has {incomeBonus} [production/] and [research/] income. Units produced in this colony start with {rankBonus} [medaliron/].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >目标友方殖民地获得 {incomeBonus} [production/] 和 [research/] 收益。此殖民地生产的单位初始便拥有 {rankBonus} [medaliron/]。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_SUCCESS</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >This colony has {incomeBonus} [production/] and [research/] income.[br/]Units produced in this colony start with {rankBonus} [medaliron/].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >此殖民地获得 {incomeBonus} [production/] 和 [research/] 收益。[br/]此殖民地生产的单位初始便拥有 {rankBonus} [medaliron/]。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation success description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_RANK_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Units produced in this colony start with {rankBonus} [medaliron/].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >此殖民地生产的单位初始便拥有 {rankBonus} [medaliron/]。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Colony bonus description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_EFFECT_SUCCESS</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >This colony is now directly under the guidance of the Oracle.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >此殖民地正处于神谕的直接指引之下。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation success description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_1_ALT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-Battle Predictions</Data></Cell>
+    <Cell><Data ss:Type="String">战前预言</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Doctrine Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_1_ALT_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >All units start battle with {numStacks} stack of [abilityblue]Precognition[/abilityblue].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >所有单位在战斗开始时便拥有 {numStacks} 层[abilityblue]预知[/abilityblue]。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Doctrine description Seer units is a specific type of support unit for the Oathbound Precognition is a buff that allows you do evade an attack</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >This unit gets [abilityred]Adversity[/abilityred] for {turnCount} at the start of next combat. </Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >此单位在下次战斗开始时获得[abilityred]厄运[/abilityred]，持续 {turnCount}。 </Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation description Adversity is a debuff that fumbles attacks</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_ARMY_EFFECT</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Units in this army gain [abilityred]Adversity[/abilityred] for {turnCount} at the start of next combat.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >此军队中的单位在下次战斗开始时获得[abilityred]厄运[/abilityred]，持续 {turnCount}。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation army effect description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >This unit has [abilityblue]Resurgence[/abilityblue] and [abilityblue]double XP[/abilityblue].</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >此单位获得[abilityblue]复苏[/abilityblue]和[abilityblue]双倍经验[/abilityblue]。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation effect description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Elevate to Protector</Data></Cell>
+    <Cell><Data ss:Type="String">保卫者晋升</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation name </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_1_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Target friendly army evolves a Prime Rank [medalgold/] Paladin Aspirant into Paladin Protector. It permanently gains {statusEffectResistance} status effect resistance.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >目标友方军队将一名精兵军阶 [medalgold/] 的帕拉丁候补者晋升至帕拉丁保卫者，这将使其永久获得 {statusEffectResistance} 状态效果抵抗。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation description Aspirant, Warden and Protector are Paldin unit types</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_1_SUCCESS</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Paladin Aspirant has been evolved to a Paladin Protector and gained  {statusEffectResistance} status effect resistance.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >帕拉丁候补者已晋升至帕拉丁保卫者，并获得了 {statusEffectResistance} 状态效果抵抗。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation success description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Elevate to Warden</Data></Cell>
+    <Cell><Data ss:Type="String">典狱官晋升</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation name </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_2_DESCRIPTION</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Target friendly army evolves a Prime Rank [medalgold/] Paladin Aspirant into Paladin Warden. It permanently gains {statusEffectResistance} status effect resistance.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >目标友方军队将一名精兵军阶 [medalgold/] 帕拉丁候补者晋升至帕拉丁典狱官，这将使其永久获得 {statusEffectResistance} 状态效果抵抗。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation description Aspirant, Warden and Protector are Paldin unit types</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_2_SUCCESS</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >Paladin Aspirant has been evolved and gained {statusEffectResistance} status effect resistance.</Data></Cell>
+    <Cell><Data
+            ss:Type="String"
+          >帕拉丁候补者已得到晋升，并获得了 {statusEffectResistance} 状态效果抵抗。</Data></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >Strategic Operation success description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_5_EFFECT_PREVIEW_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Butterfly Effect / Fatalism</Data></Cell>
+    <Cell><Data ss:Type="String">蝴蝶效应/宿命</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String" /></Cell>
+    <Cell><Data ss:Type="String" /></Cell>
+    <Cell><Data ss:Type="String" /></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String" /></Cell>
+    <Cell><Data ss:Type="String" /></Cell>
+    <Cell><Data ss:Type="String" /></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String" /></Cell>
+    <Cell><Data ss:Type="String" /></Cell>
+    <Cell><Data ss:Type="String" /></Cell>
+    <Cell ss:Index="7"><Data
+            ss:Type="String"
+          >For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced />
+   <Print>
+    <ValidPrinterInfo />
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected />
+   <TopRowVisible>23</TopRowVisible>
+   <LeftColumnVisible>1</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>35</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
